@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4953" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-12T11:52:39</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4953</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-12T11:52:39</updated>
+
+		<published>2025-03-12T11:52:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36158#p36158</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36158#p36158"/>
+		<title type="html"><![CDATA[Re: USB Serial TNC with KISS on satellite APRS mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36158#p36158"><![CDATA[
+Another one to be used in a sound modem configuration, since you need both as the same time (doppler correction on both), that's it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Mar 12, 2025 11:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8RRL]]></name></author>
+		<updated>2025-03-12T11:41:40</updated>
+
+		<published>2025-03-12T11:41:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36157#p36157</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36157#p36157"/>
+		<title type="html"><![CDATA[Re: USB Serial TNC with KISS on satellite APRS mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36157#p36157"><![CDATA[
+<strong class="text-strong">Sure! Thank you so much for the free time dedicated to this project!</strong><br><br>If we want to talk about technical facts: I don't understand why I have to use another radio (DM-1701) to do the same thing that I could do with just one <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><br><br>I understand that the firmware is the same for all compatible radios.<br>I understand that on a handheld radio the problem is not solved, you are right.<br><br>Without consider the limitations of the firmware this feature can be used in many ways to do many different things, for example: iGate, Digipeater, weather stations and more in a very simple way.<br>These applications can be made very well from handheld devices.<br><br>Anyway, never mind...<br>Thanks for your time!<br>IU8RRL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8226">IU8RRL</a> — Wed Mar 12, 2025 11:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-12T10:30:29</updated>
+
+		<published>2025-03-12T10:30:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36155#p36155</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36155#p36155"/>
+		<title type="html"><![CDATA[Re: USB Serial TNC with KISS on satellite APRS mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36155#p36155"><![CDATA[
+It's not matter of opinion, it's a technical fact (minus the fact we're doing this on OUR free time, for free).<br><br>Also, except the MD-9600/MD-2017, to have USB connection, you have to "sacrifice" Mic and Speaker.<br>So, using a sound-modem configuration has the same impact.<br>Finally, you can also buy a DM-1701 for that purpose.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Mar 12, 2025 10:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8RRL]]></name></author>
+		<updated>2025-03-12T09:29:25</updated>
+
+		<published>2025-03-12T09:29:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36154#p36154</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36154#p36154"/>
+		<title type="html"><![CDATA[Re: USB Serial TNC with KISS on satellite APRS mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36154#p36154"><![CDATA[
+because it is more complicated for these reasons:<br><br>- You have to carefully manage the radio's microphone input, adapt the signal to the input range, remove the microphone's DC bias and fight against the RF couple on the microphone signal. This increases the possibility of failures during QSOs;<br>- If you unplug the microphone from the radio and connect it to a computer you cannot dynamically switch from APRS to FM mode (and vice versa) during satellite pass;<br>- Satellite mode has 3 options: FM, APRS and CW. If you want to operate with the sound-modem, for example on the ISS, you have to change and sacrifice the FM U/V transponder frequency with APRS V/V frequency;<br>- If you don't want to make changes on the satellite section you are forced to simply use the VFO without Doppler compensation.<br><br><br>...Anyway it could also be used on APRS frequencies to send more information automatically with additional hardware (like Raspberry Pi) and not necessarily for satellite activity.<br><br>If there are firmware limitations and you don't want to do that, that's fine!<br>I don't think it's so complicated that you won't get the right benefits from it. <br>But it's my opinion and I respect yours <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>Thanks for everything<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8226">IU8RRL</a> — Wed Mar 12, 2025 9:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-11T17:32:57</updated>
+
+		<published>2025-03-11T17:32:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36143#p36143</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36143#p36143"/>
+		<title type="html"><![CDATA[Re: USB Serial TNC with KISS on satellite APRS mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36143#p36143"><![CDATA[
+Why not just using a sound modem then, for rx and tx?<br>The APRS data length is limited in the firmware, you can't tranmit long packet data. <br>We won't add ax25 data transmission from serial usb, too much work for no benefit and too many limitations as well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 11, 2025 5:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8RRL]]></name></author>
+		<updated>2025-03-11T16:58:54</updated>
+
+		<published>2025-03-11T16:58:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36142#p36142</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36142#p36142"/>
+		<title type="html"><![CDATA[Re: USB Serial TNC with KISS on satellite APRS mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36142#p36142"><![CDATA[
+F1RMB thanks for your reply.<br><br>Sorry but I'm quite confused.<br>I know there isn't an Rx AF audio path on to the CPU but, for this purpose, you can use a PC on earplug audio path and use a simply sound-modem to decode AX.25<br><br>Why it is not able to only transmit and encode AX.25 start from data put on serial USB of the radio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8226">IU8RRL</a> — Tue Mar 11, 2025 4:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-11T14:44:53</updated>
+
+		<published>2025-03-11T14:44:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36135#p36135</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36135#p36135"/>
+		<title type="html"><![CDATA[Re: USB Serial TNC with KISS on satellite APRS mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36135#p36135"><![CDATA[
+Long story short: no, that's not possible.<br><br>See <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4787&amp;p=35325&amp;hilit=audio+path#p35325" class="postlink">viewtopic.php?f=18&amp;t=4787&amp;p=35325&amp;hilit ... ath#p35325</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 11, 2025 2:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8RRL]]></name></author>
+		<updated>2025-03-11T13:53:13</updated>
+
+		<published>2025-03-11T13:53:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36129#p36129</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36129#p36129"/>
+		<title type="html"><![CDATA[USB Serial TNC with KISS on satellite APRS mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4953&amp;p=36129#p36129"><![CDATA[
+I am a happy user of OpenGD77 on TYT md-9600 that is use for ham satellite activity.<br>I really love the Doppler correction feature on FM and APRS mode. (Thanks a lot for this!)<br><br>With APRS we know that with OpenGD77 you can send a position and a comment but there is no possibility to send a message to another OM via APRS.<br><br>Would it be possibile to integrate a USB serial TNC with KISS (for example) to encode a specific message?<br>Basically very similar to DMR hotspot mode but specific for AX.25<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8226">IU8RRL</a> — Tue Mar 11, 2025 1:53 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

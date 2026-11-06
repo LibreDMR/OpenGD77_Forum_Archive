@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3734" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-01T22:05:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3734</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-01T22:05:13</updated>
+
+		<published>2024-02-01T22:05:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29216#p29216</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29216#p29216"/>
+		<title type="html"><![CDATA[Re: High s-meter levels on the vhf band when unplug the antenna]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29216#p29216"><![CDATA[
+<blockquote class="uncited"><div>If I understand you correctly, the problem is on the hardware side?<br>I am wondering what to do with the device. It was bought late last year and is under warranty.<br><br>S?awek</div></blockquote>Its not a hardware fault on specific radios<br><br>I tested several different radios, including GD-77, MD-UV380 (Retevis RT-3S), and MD-2017 and they all had the same problem.<br><br>So I'm currently thinking this is either a quirk of the AT1846S used in all these radios, or possibly something to do with the order in which commands are sent to the AT1846S when the firmware tells the AT1846S to change its PLL frequency<br><br>I don't know whether this is only a problem with the RSSI readout from the AT1846S chip or whether there is any audible difference in the received signal.<br><br>If there is an audible difference to the signal, e.g. which could be viewed visually by connecting the speaker output of the radio to a PC to directly record the audio, then the problem is real.<br><br>However, possibly its a bug in the AT1846S RSSI measurement hardware and AGC.<br><br>I can post the AT1846S TRx chip data sheet if you want to read it, but its not particularly useful, becuase it only documents the parameters, and not exactly what they control e.g. the only thing in the data sheet about AGC is<br><div class="codebox"><p>CODE: </p><pre><code>Register 32h. default value=0x 7497Bit Name Function15:12 others11:6 agc_target_pwr[5:0] AGC target power, unit 2dB</code></pre></div>i.e.<br><strong class="text-strong">agc_target_pwr[5:0] AGC target power, unit 2dB</strong><br><br>But the description of this is strange, because it says "power", so possibly this is something associated with Tx not Rx<br><br><br>The data sheet for the AT1846S is not published publically by the manufacturer and also not all functions of the IC are documented in the data sheet which has leaked out of China.<br><br>e.g. Some special configurations for DMR Rx are not documented in the data sheet, and there are also some things even for FM which are not documented<br><br>Perhasp you can test to see if there is actually any difference in the audio?<br>i.e some measurable difference, and not something subjective like listening to the audio and perhaps believing there is some difference.<br><br>Humans have 'confirmation bias' which makes us see, or hear, things in a specific way, which suits what we already believe.<br><br>Hence why any test of audio quality must be electronic / statistical<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 01, 2024 10:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ2HCZ]]></name></author>
+		<updated>2024-02-01T20:54:18</updated>
+
+		<published>2024-02-01T20:54:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29212#p29212</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29212#p29212"/>
+		<title type="html"><![CDATA[Re: High s-meter levels on the vhf band when unplug the antenna]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29212#p29212"><![CDATA[
+If I understand you correctly, the problem is on the hardware side?<br>I am wondering what to do with the device. It was bought late last year and is under warranty.<br><br>S?awek<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5495">SQ2HCZ</a> — Thu Feb 01, 2024 8:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-30T21:13:32</updated>
+
+		<published>2024-01-30T21:13:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29145#p29145</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29145#p29145"/>
+		<title type="html"><![CDATA[Re: High s-meter levels on the vhf band when unplug the antenna]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29145#p29145"><![CDATA[
+<blockquote class="uncited"><div>Hi.<br>As this is my first post, I would like to thank the developers of this fantastic software.<br><br>I uploaded opengd77 to TYT MD-9600 a few weeks ago.<br>Recently I noticed that I have a strange symptom in the 2m band.<br>When no one is transmitting on the channel, the S-meter level shows about S2 (-122dBm). At first I thought it was local interference. It turned out that this interference enters along the screen of the antenna cable to the radio. When I unplug the antenna cable, S1 (-126dBm).<br>The maximum is at 144,000 MHz: S5 (109dBm) for the radio without the cable and antenna.<br><br>Have any colleagues had similar symptoms? The device is almost new (2 months old). I will ask for a hint on what to do about it.<br><br>S?awek<br>SQ2HCZ</div></blockquote>I also noticed this effect a fews days ago.<br><br>The effect also happens if the transmission stops and then restarts, i.e the RSSI is better after the transmission has restarted.<br><br>The problem occurs on all OpenGD77 radios which use the AT1846S TRx chip<br><br>i.e The problem seems to be the AGC in the TRx chip is not functioning correctly when it is tuned to a new frequecy which already has a transmission.<br><br>At the moment we do not know what is causing it.  Possibly a bug in the TRx chip.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 30, 2024 9:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ2HCZ]]></name></author>
+		<updated>2024-01-30T21:07:35</updated>
+
+		<published>2024-01-30T21:07:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29144#p29144</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29144#p29144"/>
+		<title type="html"><![CDATA[High s-meter levels on the vhf band when unplug the antenna]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3734&amp;p=29144#p29144"><![CDATA[
+Hi.<br>As this is my first post, I would like to thank the developers of this fantastic software.<br><br>I uploaded opengd77 to TYT MD-9600 a few weeks ago.<br>Recently I noticed that I have a strange symptom in the 2m band.<br>When no one is transmitting on the channel, the S-meter level shows about S2 (-122dBm). At first I thought it was local interference. It turned out that this interference enters along the screen of the antenna cable to the radio. When I unplug the antenna cable, S1 (-126dBm).<br>The maximum is at 144,000 MHz: S5 (109dBm) for the radio without the cable and antenna.<br><br>Have any colleagues had similar symptoms? The device is almost new (2 months old). I will ask for a hint on what to do about it.<br><br>S?awek<br>SQ2HCZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5495">SQ2HCZ</a> — Tue Jan 30, 2024 9:07 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

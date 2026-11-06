@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=5207&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 07:26:19 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; TYT UV-390 Plus Minimal Volume Issue</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>TYT UV-390 Plus Minimal Volume Issue</h2>
+		<p><a href="viewtopicb156-3.html?f=19&amp;t=5207">viewtopic.php?f=19&amp;t=5207</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>TYT UV-390 Plus Minimal Volume Issue</h3>
+				<div class="date">Posted: <strong>Sun Jul 06, 2025 2:15 pm</strong></div>
+				<div class="author">by <strong>AC5A</strong></div>
+				<div class="content">My TYT UV-390 Plus works very well using the OpenGD77 firmware. However, I can't seem to get the receive volume adjusted to the low volume setting. It basically has a lot of intensity on the lowest setting. Any ideas? Thanks.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT UV-390 Plus Minimal Volume Issue</h3>
+				<div class="date">Posted: <strong>Sun Jul 06, 2025 3:02 pm</strong></div>
+				<div class="author">by <strong>SA0BUX</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6354&amp;sid=6d315a643907f50ee04a78c4e135b96e">AC5A</a> wrote: <a href="viewtopic0658-2.html?p=37665&amp;sid=6d315a643907f50ee04a78c4e135b96e#p37665" data-post-id="37665" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Jul 06, 2025 2:15 pm</div></cite>
+My TYT UV-390 Plus works very well using the OpenGD77 firmware. However, I can't seem to get the receive volume adjusted to the low volume setting. It basically has a lot of intensity on the lowest setting. Any ideas? Thanks.
+</div></blockquote>
+
+Could it be that they used a linear potentiometer? <br>
+<br>
+My older md-9600 version 2 used a linear potentiometer instead of a logarithmic, my new version 5 one has a logarithmic potentiometer.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT UV-390 Plus Minimal Volume Issue</h3>
+				<div class="date">Posted: <strong>Sun Jul 06, 2025 10:46 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6354&amp;sid=6d315a643907f50ee04a78c4e135b96e">AC5A</a> wrote: <a href="viewtopic0658-2.html?p=37665&amp;sid=6d315a643907f50ee04a78c4e135b96e#p37665" data-post-id="37665" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Jul 06, 2025 2:15 pm</div></cite>
+My TYT UV-390 Plus works very well using the OpenGD77 firmware. However, I can't seem to get the receive volume adjusted to the low volume setting. It basically has a lot of intensity on the lowest setting. Any ideas? Thanks.
+</div></blockquote>
+
+Depends what you mean by low setting.  <br>
+<br>
+On the UV380, and DM1701 and MD2017 the volume control is not a simple pot in series with the analogue audio. The control is a pot, but its not connected to the audio signal; its used as an input into the CPU, i.e its a soft volume control<br>
+<br>
+The CPU reads the pot via an ADC and then uses the ADC value to change the output gain of the DSP / DMR chip.<br>
+<br>
+Unfotunately the resolution of the output gain on the DSP chip is not great, and from what I can remember... in order to get no volume at all at the lowest pot setting, we may have needed to turn off the audio amp, because the lowest output gain setting isn't that low.<br>
+<br>
+<br>
+Does the volume turn off completely, when the pot is turned completely counter clockwise, or do you mean that the minumum audio level, just above the 'off' level, is higher than you would like ??</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT UV-390 Plus Minimal Volume Issue</h3>
+				<div class="date">Posted: <strong>Wed Jul 09, 2025 6:21 pm</strong></div>
+				<div class="author">by <strong>AC5A</strong></div>
+				<div class="content">the minimum audio level, just above the 'off' level, is higher than I would like.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT UV-390 Plus Minimal Volume Issue</h3>
+				<div class="date">Posted: <strong>Wed Jul 09, 2025 8:32 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6354&amp;sid=6d315a643907f50ee04a78c4e135b96e">AC5A</a> wrote: <a href="viewtopic8b60-2.html?p=37688&amp;sid=6d315a643907f50ee04a78c4e135b96e#p37688" data-post-id="37688" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Wed Jul 09, 2025 6:21 pm</div></cite>
+the minimum audio level, just above the 'off' level, is higher than I would like.
+</div></blockquote>
+
+Unfortunately this is basically a hardware limitation.<br>
+<br>
+If its DMR you are listening to, sometimes the received audio data has very high intrinsic volume levels. In which case you could try turing on the DMR AGC setting and turn down the AGC gain, but this will have the effect of making all DMR signals less loud and also have the AGC turned on, which will attempt to normalise the volume on all signals , not just loud signals</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=5207&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 07:26:21 GMT -->
+</html>

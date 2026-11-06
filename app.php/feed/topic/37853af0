@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3785" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-05T04:27:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3785</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-05T04:27:00</updated>
+
+		<published>2024-08-05T04:27:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=32409#p32409</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=32409#p32409"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=32409#p32409"><![CDATA[
+<blockquote class="uncited"><div>How do I increase the ouput power on the RT-82?</div></blockquote>Do you mean change the Tx power level , e.g. as documented in the User Guide<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#controlling-tx-power" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... g-tx-power</a><br><br>??<br><br><br>If you mean, make the radio output 10W etc, then you'd need to modify a lot of the electronics.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Aug 05, 2024 4:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KI5LFM]]></name></author>
+		<updated>2024-08-04T23:11:47</updated>
+
+		<published>2024-08-04T23:11:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=32406#p32406</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=32406#p32406"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=32406#p32406"><![CDATA[
+How do I increase the ouput power on the RT-82?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6642">KI5LFM</a> — Sun Aug 04, 2024 11:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-03-09T22:13:06</updated>
+
+		<published>2024-03-09T22:13:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30052#p30052</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30052#p30052"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30052#p30052"><![CDATA[
+Theme reset to default permanent, reset to default temporary or save changes permanent are not working.<br><br>If I read the manual correctly, themes can be reset by going into theme edit sub menu and pressing SK1+SK2+Green.<br>For MD2-17 SK1 should be trackball, SK2 is the button right above PTT and Green is MENU.<br><br>Well, none of the theme key shortcuts work.<br><br>EDIT: It only happens on the night theme.<br>EDIT2: If you read the night theme from the CPS software, you get the default day theme.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Sat Mar 09, 2024 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-08T01:55:28</updated>
+
+		<published>2024-03-08T01:55:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30029#p30029</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30029#p30029"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30029#p30029"><![CDATA[
+It's now locally fixed (be part of the next release).<br><br>Thanks for the finding &amp; report.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Mar 08, 2024 1:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-08T01:30:40</updated>
+
+		<published>2024-03-08T01:30:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30027#p30027</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30027#p30027"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30027#p30027"><![CDATA[
+<blockquote class="uncited"><div><br>You misunderstood, SK2 is NOT pressed, JUST P2 is long pressed.<br><br>Also, found out that when you enable show distance it reports me as being 555x.y km (that is five thousand kilometers) from the repeater, even if I am literally next to the repeater. Is that a bug or does it need a reference point.</div></blockquote>Ah, right, there is a problem with the longpress P2.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Mar 08, 2024 1:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-03-07T20:58:47</updated>
+
+		<published>2024-03-07T20:58:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30015#p30015</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30015#p30015"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30015#p30015"><![CDATA[
+<blockquote class="uncited"><div>What is the position of the repeater in you cps config? <br><br>Default it will be some very distant lat / long</div></blockquote>You were right, I forgot about those fields. Updated the CPS and now shows correctly.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Thu Mar 07, 2024 8:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-07T19:51:20</updated>
+
+		<published>2024-03-07T19:51:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30011#p30011</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30011#p30011"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30011#p30011"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>But if you keep "P2" pressed <span style="text-decoration:underline">at any power level</span> it will go up to "+W+" (which is user defined power level).<br><br>This makes it confusing, since it should mean that keeping "P1" pressed should have the reverse effect.<br><br>Could not find an updated guide for MD2017, all I could find were the already supported models, where it says "SK1" and "SK2" which I tough that they were "P1" and "P2" respectively as it mapps easy in my brain.</div></blockquote>The SK2+longpress P2 (or Right key on other platforms) is a safety measure, as the operator really insist to use higest DAC level for the PA drive.<br>Lowering power on the other hand don't need such safety thing, it works the same for all power levels.<br><br>About the user guide, the MD-2017 has only one reference at the moment. The firmware is in Alpha stage, and things could still change a lot, we can't waste time to write and rewrite multiple times various parts of the manual.</div></blockquote>You misunderstood, SK2 is NOT pressed, JUST P2 is long pressed.<br><br>Also, found out that when you enable show distance it reports me as being 555x.y km (that is five thousand kilometers) from the repeater, even if I am literally next to the repeater. Is that a bug or does it need a reference point.</div></blockquote>What is the position of the repeater in you cps config? <br><br>Default it will be some very distant lat / long<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Mar 07, 2024 7:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-03-07T18:36:47</updated>
+
+		<published>2024-03-07T18:36:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30009#p30009</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30009#p30009"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=30009#p30009"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>Read the initial post. <br><br>P1 = Left<br>P2 = Right<br><br>Don't hold down P1 or P2 when changing power. The functionality is designed to prevent accidental change in power caused by buttons being held in.<br>Holding P2 when on 5W has special functionality<br><br>See the USER GUIDE</div></blockquote>But if you keep "P2" pressed <span style="text-decoration:underline">at any power level</span> it will go up to "+W+" (which is user defined power level).<br><br>This makes it confusing, since it should mean that keeping "P1" pressed should have the reverse effect.<br><br>Could not find an updated guide for MD2017, all I could find were the already supported models, where it says "SK1" and "SK2" which I tough that they were "P1" and "P2" respectively as it mapps easy in my brain.</div></blockquote>The SK2+longpress P2 (or Right key on other platforms) is a safety measure, as the operator really insist to use higest DAC level for the PA drive.<br>Lowering power on the other hand don't need such safety thing, it works the same for all power levels.<br><br>About the user guide, the MD-2017 has only one reference at the moment. The firmware is in Alpha stage, and things could still change a lot, we can't waste time to write and rewrite multiple times various parts of the manual.</div></blockquote>You misunderstood, SK2 is NOT pressed, JUST P2 is long pressed.<br><br>Also, found out that when you enable show distance it reports me as being 555x.y km (that is five thousand kilometers) from the repeater, even if I am literally next to the repeater. Is that a bug or does it need a reference point.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Thu Mar 07, 2024 6:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-07T07:39:00</updated>
+
+		<published>2024-03-07T07:39:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29998#p29998</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29998#p29998"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29998#p29998"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Just updated to the aplpha 2.2 version and I cannot decrease the power.<br><br>Holding pressed P2 button increases the power to max, but there is no way to decrease it.<br><br>Manual says "SK2+Left" decreases and "SK2+Right" increases power. Which is Right and which is Left ?<br><br>Also, holding pressed the P1 button does nothing.</div></blockquote>Read the initial post. <br><br>P1 = Left<br>P2 = Right<br><br>Don't hold down P1 or P2 when changing power. The functionality is designed to prevent accidental change in power caused by buttons being held in.<br>Holding P2 when on 5W has special functionality<br><br>See the USER GUIDE</div></blockquote>But if you keep "P2" pressed <span style="text-decoration:underline">at any power level</span> it will go up to "+W+" (which is user defined power level).<br><br>This makes it confusing, since it should mean that keeping "P1" pressed should have the reverse effect.<br><br>Could not find an updated guide for MD2017, all I could find were the already supported models, where it says "SK1" and "SK2" which I tough that they were "P1" and "P2" respectively as it mapps easy in my brain.</div></blockquote>The SK2+longpress P2 (or Right key on other platforms) is a safety measure, as the operator really insist to use higest DAC level for the PA drive.<br>Lowering power on the other hand don't need such safety thing, it works the same for all power levels.<br><br>About the user guide, the MD-2017 has only one reference at the moment. The firmware is in Alpha stage, and things could still change a lot, we can't waste time to write and rewrite multiple times various parts of the manual.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Mar 07, 2024 7:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-03-06T20:00:20</updated>
+
+		<published>2024-03-06T20:00:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29984#p29984</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29984#p29984"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29984#p29984"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Just updated to the aplpha 2.2 version and I cannot decrease the power.<br><br>Holding pressed P2 button increases the power to max, but there is no way to decrease it.<br><br>Manual says "SK2+Left" decreases and "SK2+Right" increases power. Which is Right and which is Left ?<br><br>Also, holding pressed the P1 button does nothing.</div></blockquote>Read the initial post. <br><br>P1 = Left<br>P2 = Right<br><br>Don't hold down P1 or P2 when changing power. The functionality is designed to prevent accidental change in power caused by buttons being held in.<br>Holding P2 when on 5W has special functionality<br><br>See the USER GUIDE</div></blockquote>But if you keep "P2" pressed <span style="text-decoration:underline">at any power level</span> it will go up to "+W+" (which is user defined power level).<br><br>This makes it confusing, since it should mean that keeping "P1" pressed should have the reverse effect.<br><br>Could not find an updated guide for MD2017, all I could find were the already supported models, where it says "SK1" and "SK2" which I tough that they were "P1" and "P2" respectively as it mapps easy in my brain.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Wed Mar 06, 2024 8:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-05T22:19:34</updated>
+
+		<published>2024-03-05T22:19:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29972#p29972</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29972#p29972"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29972#p29972"><![CDATA[
+<blockquote class="uncited"><div>Just updated to the aplpha 2.2 version and I cannot decrease the power.<br><br>Holding pressed P2 button increases the power to max, but there is no way to decrease it.<br><br>Manual says "SK2+Left" decreases and "SK2+Right" increases power. Which is Right and which is Left ?<br><br>Also, holding pressed the P1 button does nothing.</div></blockquote>Read the initial post. <br><br>P1 = Left<br>P2 = Right<br><br>Don't hold down P1 or P2 when changing power. The functionality is designed to prevent accidental change in power caused by buttons being held in.<br>Holding P2 when on 5W has special functionality<br><br>See the USER GUIDE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 05, 2024 10:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-03-05T22:02:20</updated>
+
+		<published>2024-03-05T22:02:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29971#p29971</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29971#p29971"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29971#p29971"><![CDATA[
+Just updated to the aplpha 2.2 version and I cannot decrease the power.<br><br>Holding pressed P2 button increases the power to max, but there is no way to decrease it.<br><br>Manual says "SK2+Left" decreases and "SK2+Right" increases power. Which is Right and which is Left ?<br><br>Also, holding pressed the P1 button does nothing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Tue Mar 05, 2024 10:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-03-05T19:18:53</updated>
+
+		<published>2024-03-05T19:18:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29968#p29968</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29968#p29968"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29968#p29968"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I have a local 70cm repeater set up with CTCSS (RX/TX), and every few seconds, you can hear a crackle from the speaker, as if the noise squelch is opening.</div></blockquote>This is not a problem on FM, the speaker seems to intermittently enable , even on DMR, and at the moment we don't know why this is happening.</div></blockquote>I'v noticed that too, if the rssi bargraph is to be trusted, in my case it showed a temporary spike in signal strength.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Tue Mar 05, 2024 7:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-05T02:34:03</updated>
+
+		<published>2024-03-05T02:34:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29957#p29957</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29957#p29957"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29957#p29957"><![CDATA[
+<blockquote class="uncited"><div>On MD-780(MD2017 without GPS),the radio time will stop when power off.Is the built-in RTC not work?</div></blockquote>The firmware does use the RTC.<br><br>However if the RTC battery is defective or not charged, the the RTC will not function<br><br>RTC battery is a separate small rechargable battery which is only charged when the radio is turned On.<br><br>When the radio is turned off the battery will become flat after appoximately 3 weeks.<br><br>Charging of the RTC battery is very slow. 24 hours is the normal time to fully charge the battery<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 05, 2024 2:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BH7HQT]]></name></author>
+		<updated>2024-03-05T02:20:55</updated>
+
+		<published>2024-03-05T02:20:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29956#p29956</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29956#p29956"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3785&amp;p=29956#p29956"><![CDATA[
+On MD-780(MD2017 without GPS),the radio time will stop when power off.Is the built-in RTC not work?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4324">BH7HQT</a> — Tue Mar 05, 2024 2:20 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

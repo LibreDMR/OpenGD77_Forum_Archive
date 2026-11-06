@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1709" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-31T19:23:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1709</id>
+
+		<entry>
+		<author><name><![CDATA[DO1DSH]]></name></author>
+		<updated>2024-10-31T19:23:35</updated>
+
+		<published>2024-10-31T19:23:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=33834#p33834</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=33834#p33834"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=33834#p33834"><![CDATA[
+Hello,<br><br>the problem definitely still exists. I have the problem on a GD77 as well as on the RD5R devices. In FMN mode it is very bad, especially when driving a car or cycling, it clicks incessantly. <br><br>In normal FM mode it is almost inaudible, but still present in the background. <br><br>I have uploaded a short video here:<br><br><a href="https://radiosocial.de/@do1dsh/113402574635636877" class="postlink">https://radiosocial.de/@do1dsh/113402574635636877</a><br><br>Has there been any further research into the problem?<br>I am available for firmware tests or similar if anyone wants to test something. <br><br>73 de DO1DSH<br>Dennis<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1057">DO1DSH</a> — Thu Oct 31, 2024 7:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL5YDJ]]></name></author>
+		<updated>2021-07-19T08:23:53</updated>
+
+		<published>2021-07-19T08:23:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15272#p15272</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15272#p15272"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15272#p15272"><![CDATA[
+I also have this annoying "Click Sound". I can confirm Geofferey to change oscillator parameter to eleminate the "Click Sound". I set it also to 50 for UHF and VHF and up to now I did not hear it anymore. Thanks Geofferey for the hint.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=922">DL5YDJ</a> — Mon Jul 19, 2021 8:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Geofferey]]></name></author>
+		<updated>2021-07-11T18:23:09</updated>
+
+		<published>2021-07-11T18:23:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15198#p15198</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15198#p15198"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15198#p15198"><![CDATA[
+I most certainly agree to test! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> I am trying to find a way to PM you but having a hard time.<br><br>You may email me if that works for you. I have linked to an expiry paste with my address. The password is supersecret. More for bots. <br><br><a href="https://pastebin.com/E8j9nKAf" class="postlink">https://pastebin.com/E8j9nKAf</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1875">Geofferey</a> — Sun Jul 11, 2021 6:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-07-11T17:15:53</updated>
+
+		<published>2021-07-11T17:15:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15197#p15197</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15197#p15197"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15197#p15197"><![CDATA[
+Hi,<br><br><blockquote class="uncited"><div>It could most certainly be fixable in OpenGD77 since stock doesn't exhibit the symptoms. I tried the oscillator reference tuning param as well and it drastically improved the problem for me too by setting it to around -50 -57, any higher audio distorts considerably. Still there and highly annoying but far more bearable. Now it only happens in a way that disturbs me when moving more than 10Mph. Before that I could make it tick just by rotating radio on its X/Y axis's. Sadly, I have no measuring devices or scopes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad">. I don't understand implications of messing with the reference oscillator nor would I be able to measure due to lack of understanding. <br><br>Right now this is the biggest bug that I have found with OpenGD77 firmware and the only show stopper at that. Seriously thinking of returning both the things because OpenGD77 is almost a necessity for how bad their OG firmware is.  I mean, I truly find OGD77's interface to be far more intuitive as well and monitor mode for DMR is a must. Oh well guess I can't have cake and eat it too... Very sad for the time being and hoping a dev might be able to chime  in <img alt="😭" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f62d.svg"><br><br>I really wish I could test some of the older versions of OpenGD77 to see if was there before the re-writing etc. Those legal issues have thwarted any attempts at that for me cause I can't even find an archive.<br><br>EDIT:<br><br>This may be a hint. When I modify the IF GAIN parameter in UHF calibration it causes some of the params to reset to original values such as the oscillator reference tuning and ticking becomes far more prominent again. Modifying and lowering that same param in VHF sticks.</div></blockquote><br>Since it seems you can easily replicate the clicking sound problem, and if you agree to test some firmware version, drop me a private email, i will send you some.test versions.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jul 11, 2021 5:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Geofferey]]></name></author>
+		<updated>2021-07-11T15:52:04</updated>
+
+		<published>2021-07-11T15:52:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15195#p15195</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15195#p15195"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15195#p15195"><![CDATA[
+It could most certainly be fixable in OpenGD77 since stock doesn't exhibit the symptoms. I tried the oscillator reference tuning param as well and it drastically improved the problem for me too by setting it to around -50 -57, any higher audio distorts considerably. Still there and highly annoying but far more bearable. Now it only happens in a way that disturbs me when moving more than 10Mph. Before that I could make it tick just by rotating radio on its X/Y axis's. Sadly, I have no measuring devices or scopes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad">. I don't understand implications of messing with the reference oscillator nor would I be able to measure due to lack of understanding. <br><br>Right now this is the biggest bug that I have found with OpenGD77 firmware and the only show stopper at that. Seriously thinking of returning both the things because OpenGD77 is almost a necessity for how bad their OG firmware is.  I mean, I truly find OGD77's interface to be far more intuitive as well and monitor mode for DMR is a must. Oh well guess I can't have cake and eat it too... Very sad for the time being and hoping a dev might be able to chime  in <img alt="😭" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f62d.svg"><br><br>I really wish I could test some of the older versions of OpenGD77 to see if was there before the re-writing etc. Those legal issues have thwarted any attempts at that for me cause I can't even find an archive.<br><br>EDIT:<br><br>This may be a hint. When I modify the IF GAIN parameter in UHF calibration it causes some of the params to reset to original values such as the oscillator reference tuning and ticking becomes far more prominent again. Modifying and lowering that same param in VHF sticks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1875">Geofferey</a> — Sun Jul 11, 2021 3:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Fecskebeka]]></name></author>
+		<updated>2021-07-11T09:38:42</updated>
+
+		<published>2021-07-11T09:38:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15185#p15185</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15185#p15185"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15185#p15185"><![CDATA[
+Hi,<br>i haven’t tried a fast moving vehicle on the Rx yet DM-1801.<br>In fact, the same was the clicks as in the car video.<br>I am still thinking of carrier frequency shift. It would be good to measure. When driving, the Doppler effect occurs anyway.<br>Can tolerance be improved by software?<br>Or hardware construction is also the cause.<br><br>What is the effect of CPS reference oscillator tuning (yet)?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1771">Fecskebeka</a> — Sun Jul 11, 2021 9:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Geofferey]]></name></author>
+		<updated>2021-07-11T01:29:54</updated>
+
+		<published>2021-07-11T01:29:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15183#p15183</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15183#p15183"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15183#p15183"><![CDATA[
+I too have an extremely annoying clicking sound on NFM RX when running OpenGD77 vs the stock firmware. Mine seems a bit different than what others have described but it's happened with two brand spanking new radios. It should be noted that this clicking sound reminds me somewhat of a geiger counter and only happens when the radio is in motion. Basically I can run the antenna through the air and the ticking/clicking sounds seems to happen based on position of radio, almost like hitting some invisible strings. It happens in both UHF/VHF freqs. On the upper UHF side it's extremely prominent... I've tried switching locations and various settings to no avail.<br><br>Here is a video of it in action, it's actually much worse than the video shows:<br><br><a href="https://youtu.be/rTRocOXQP8g" class="postlink">https://youtu.be/rTRocOXQP8g</a><br><br>Now just imagine driving down the freeway and you can see how this ticking sound is absolutely nerve wracking lol.<br><br>EDIT:<br><br>Seems I may have narrowed the issue down a lil bit. I manually tuned to the freq right after installing OpenGD77 and the clicking is non existent when radio moves about. The clicking/ticking starts right after I read from radio and re-write the code plug with the 80 channel zones and absolutely no other updates to the plug. When I restore the flash and eeprom clicking goes.<br><br>EDIT 2:<br><br>Did a read after restoring eeprom / flash. Channel expansion message appeared and only change was setting boot melody to 0,0... no tick. Needs more testing but seems like something is interfering with calibration data. I wrote a plug with some channels and it starts again.<br><br>EDIT 3: <br><br>Disregard previous edits.  It seems the issues starts once the firmware was loaded and I was mislead by fact that VFO was on wideband FM. If I switch the VFO to NFM and input my NFM frequency the clicking is there from get go. Now I'm completely out of theories as to why this is occurring.<br><br>Here's an even better video of the problem. <br><br><a href="https://youtu.be/rO4Gzqo0pPg" class="postlink">https://youtu.be/rO4Gzqo0pPg</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1875">Geofferey</a> — Sun Jul 11, 2021 1:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Fecskebeka]]></name></author>
+		<updated>2021-06-22T16:56:04</updated>
+
+		<published>2021-06-22T16:56:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15016#p15016</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15016#p15016"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15016#p15016"><![CDATA[
+Thanks for the post link.<br>I'm not sure the problem is the same.<br>I don't have any experience with stability DM1801 yet<br>Temperature dependence, voltage dependence.<br>Now I tried to modify the value of the reference oscillator tuning. I made a calibration backup before that. The situation got much better. Unfortunately, I do not have an RF frequency meter. I just think that radio was shifted in frequency and even that of another radio a bit. It is not a problem in DMR mode. I have a little bad feeling about the stability of the radio type. What will happen in the winter?<br><br>Must pay attention! <br>Backups are easy to confuse with multiple radios. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>Good evening!<br>Have a nice day for others!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1771">Fecskebeka</a> — Tue Jun 22, 2021 4:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kt4lh]]></name></author>
+		<updated>2021-06-22T11:49:20</updated>
+
+		<published>2021-06-22T11:49:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15011#p15011</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15011#p15011"/>
+		<title type="html"><![CDATA[Re: FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=15011#p15011"><![CDATA[
+<a href="https://opengd77.com/viewtopic.php?f=11&amp;t=1042&amp;p=9524&amp;hilit=clicking#p9524" class="postlink">viewtopic.php?f=11&amp;t=1042&amp;p=9524&amp;hilit=clicking#p9524</a><br><br>Does this post describe it?  I know I've heard people mention this in the past.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=416">kt4lh</a> — Tue Jun 22, 2021 11:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Fecskebeka]]></name></author>
+		<updated>2021-06-19T11:00:20</updated>
+
+		<published>2021-06-19T11:00:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1709&amp;p=14992#p14992</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=14992#p14992"/>
+		<title type="html"><![CDATA[FM mode clicking sound]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1709&amp;p=14992#p14992"><![CDATA[
+<strong class="text-strong">Have a nice day!</strong><br><br>I encountered the following phenomenon.<br>Given 3 DM-1801 radios<br>1. 09:45:40 may 29 2021 built<br>2. 09:45:40 may 29 2021 built<br>3. 11:03:23 Jun 13 2121 built beta<br>I tried at 1 W.<br>446.1xxxx MHz<br>FM mode, normal or VFO does not matter<br>1. TX -&gt; 3. RX Fast clicking sound on the receiver, speech is also slightly distorted<br>2. TX -&gt; 3. RX Fast clicking sound on the receiver, speech is also slightly distorted<br>1. TX -&gt; 2. RX No, nice clear base noise<br>2. TX -&gt; 1. RX No, nice clear base noise<br>3. TX -&gt; 1. RX No, nice clear base noise<br>3. TX -&gt; 2. RX No, nice clear base noise<br><br>In DMR mode, everything sounds nice and clear<br><br>Perhaps extreme, the radios were 1-5m apart<br>I cannot decide if there is an error in the outgoing transmission that cannot be handled by the receiver or there is an error in the reception.<br><br>I will try 2 beta firmware radios with each other soon.<br><br>Greeting!<br><br><br>-----<br>I watched.<br>For beta firmware 2 radios, the 3. radio is clicking<br>On radio 3. I put back the previous stable open program.<br>Unfortunately it's also clicking. There may be a problem with the radio. (3.)<br>(Maybe someone has an idea to eliminate it)<br>With open noise barrier, no click-click without TX signal.<br><br>In general, in FM mode, the noise barrier closes quite slowly. Loud<br><br>Greeting!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1771">Fecskebeka</a> — Sat Jun 19, 2021 11:00 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

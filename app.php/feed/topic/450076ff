@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4500" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-06T22:38:33</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4500</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-06T22:38:33</updated>
+
+		<published>2024-12-06T22:38:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34474#p34474</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34474#p34474"/>
+		<title type="html"><![CDATA[Re: New GD77/RD5R/DM1801 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34474#p34474"><![CDATA[
+<blockquote class="uncited"><div><br>Re:DM1801<br><br>Baofeng produced the first version of this for about a year, and its basically a GD77 clone.<br><br>They then re-enginnered the radio and put a different radio in the same case. The new DM1801 is actually just a DMR module, from  mobile phone, plus a PA, rather than descrete ICs.<br><br>AFIK the only way you can identify the difference, without opening the re-engineered radio, is that it doesn't have a direct USB connection.<br>It uses a USB to serial converter dongle in the plug.  I don't have one of these, but I think if you plug the plug into a PC and don't connect the radio, it still appears as a USB device.<br>Whereas the original radio, the USB is handled by the CPU in the radio, and the plug doesn't contain any electronics.<br><br>Because of the confusion of Baofeng releasing the re-enginnered radio, and people finding that they could not install OpenGD77 or OpenRTx on that radio,  Baofeng renamed the radio to be a DR-1801</div></blockquote>Great clarification. Thank you Roger.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Dec 06, 2024 10:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-06T22:13:41</updated>
+
+		<published>2024-12-06T22:13:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34472#p34472</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34472#p34472"/>
+		<title type="html"><![CDATA[Re: New GD77/RD5R/DM1801 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34472#p34472"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Very nice. Wich zip should I download for the baofeng 1801 for the opengd77 in English?</div></blockquote>OpenDM1801.zip<br><br>Make sure your radio is DM-1801 and supported by openGD77 firmware. DR-1801 is NOT supported, and some of DM-1801 is NOT supported. I don’t have the details on how to tell, maybe waiting for someone who can clarify.</div></blockquote>Re:DM1801<br><br>Baofeng produced the first version of this for about a year, and its basically a GD77 clone.<br><br>They then re-enginnered the radio and put a different radio in the same case. The new DM1801 is actually just a DMR module, from  mobile phone, plus a PA, rather than descrete ICs.<br><br>AFIK the only way you can identify the difference, without opening the re-engineered radio, is that it doesn't have a direct USB connection.<br>It uses a USB to serial converter dongle in the plug.  I don't have one of these, but I think if you plug the plug into a PC and don't connect the radio, it still appears as a USB device.<br>Whereas the original radio, the USB is handled by the CPU in the radio, and the plug doesn't contain any electronics.<br><br>Because of the confusion of Baofeng releasing the re-enginnered radio, and people finding that they could not install OpenGD77 or OpenRTx on that radio,  Baofeng renamed the radio to be a DR-1801<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 06, 2024 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-06T22:01:18</updated>
+
+		<published>2024-12-06T22:01:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34471#p34471</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34471#p34471"/>
+		<title type="html"><![CDATA[Re: New GD77/RD5R/DM1801 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34471#p34471"><![CDATA[
+<blockquote class="uncited"><div>Very nice. Wich zip should I download for the baofeng 1801 for the opengd77 in English?</div></blockquote>OpenDM1801.zip<br><br>Make sure your radio is DM-1801 and supported by openGD77 firmware. DR-1801 is NOT supported, and some of DM-1801 is NOT supported. I don’t have the details on how to tell, maybe waiting for someone who can clarify.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Dec 06, 2024 10:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL3RCS]]></name></author>
+		<updated>2024-12-06T21:56:27</updated>
+
+		<published>2024-12-06T21:56:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34470#p34470</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34470#p34470"/>
+		<title type="html"><![CDATA[Re: New GD77/RD5R/DM1801 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=34470#p34470"><![CDATA[
+Very nice. Wich zip should I download for the baofeng 1801 for the opengd77 in English?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7402">DL3RCS</a> — Fri Dec 06, 2024 9:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2024-10-18T12:35:58</updated>
+
+		<published>2024-10-18T12:35:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4500&amp;p=33569#p33569</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=33569#p33569"/>
+		<title type="html"><![CDATA[Re: New GD77/RD5R/DM1801 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=33569#p33569"><![CDATA[
+Thank you<br>Ciao Roger<br>sal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Fri Oct 18, 2024 12:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-18T09:16:23</updated>
+
+		<published>2024-10-18T09:16:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4500&amp;p=33560#p33560</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=33560#p33560"/>
+		<title type="html"><![CDATA[New GD77/RD5R/DM1801 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4500&amp;p=33560#p33560"><![CDATA[
+A new GD77/RD5R/DM1801 Beta is available<br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/7bf8c452d1cc4add31cf82d74765e0f319b7bc32/" class="postlink">downloads/GD77/Firmware/7bf8c452d1cc4ad ... 319b7bc32/</a><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">downloads/GD77/Firmware/Latest</a><br><br>Changes in this version<br><br>* On the Channel Details screen, the repeater Latitude and Longitude can be entered and also the "Use location" setting, can be set to Yes/No.<br>Note. the Use location is called "Location" because "Use location" won't fit on the screen<br>* Prevent Roaming channels re-sorting when a scan is ended.<br>* Updates to the Italian language translation<br><br>Thanks to Daniel F1RMB for his work on these changes and enhancements, and to IZ2EIB  for the Italian language translation<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 18, 2024 9:16 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

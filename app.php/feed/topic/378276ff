@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3782" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-15T22:58:26</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3782</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-15T22:58:26</updated>
+
+		<published>2024-02-15T22:58:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29554#p29554</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29554#p29554"/>
+		<title type="html"><![CDATA[Re: NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29554#p29554"><![CDATA[
+<blockquote class="uncited"><div>Hello All,<br>Did some additional work on my codeplug with other BM / DMR repeaters last night and was able to confirm the radio was working, no problem!  This was me simply not understanding enough about the repeaters I was attempting to use as my first contact and some learning curve issues around codeplug setup!<br><br>SA0BUX and VK3KYY - Thank you both for the help, I am up and running on OpenGD77!</div></blockquote>No worries<br><br>DMR can initially be a bit confusing<br><br>Note that when making codeplugs for OpenGD77 the structure is not as complicated as codeplugs for other DMR radios, so following non-OpenGD77 codeplug tutorials will result in an overly complicated and possibly incorrect codeplug.<br><br>But at least you got it working<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 15, 2024 10:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N7VXQ]]></name></author>
+		<updated>2024-02-15T21:51:13</updated>
+
+		<published>2024-02-15T21:51:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29546#p29546</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29546#p29546"/>
+		<title type="html"><![CDATA[Re: NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29546#p29546"><![CDATA[
+Hello All,<br>Did some additional work on my codeplug with other BM / DMR repeaters last night and was able to confirm the radio was working, no problem!  This was me simply not understanding enough about the repeaters I was attempting to use as my first contact and some learning curve issues around codeplug setup!<br><br>SA0BUX and VK3KYY - Thank you both for the help, I am up and running on OpenGD77!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5616">N7VXQ</a> — Thu Feb 15, 2024 9:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-02-15T09:36:12</updated>
+
+		<published>2024-02-15T09:36:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29540#p29540</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29540#p29540"/>
+		<title type="html"><![CDATA[Re: NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29540#p29540"><![CDATA[
+Here's the DMR list, they have no repeater with direct BM connection anymore according to the page.<br><br><a href="https://www.rmham.org/dmr-site-information/" class="postlink">https://www.rmham.org/dmr-site-information/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Feb 15, 2024 9:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-14T23:56:14</updated>
+
+		<published>2024-02-14T23:56:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29524#p29524</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29524#p29524"/>
+		<title type="html"><![CDATA[Re: NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29524#p29524"><![CDATA[
+<blockquote class="uncited"><div>Good question, I'm 99% sure it is, this is part of the Rocky Mountain Ham Radio club Denver Wide talk group (700) which has about 34 repeaters in it all on time slot 1 and most except a handful on color code 7.  I have the four listed here in my codeplug and the s-meter behavior is the same on all four.<br><br>denver_wide_700.png<br><br>cps_screenshot.png</div></blockquote><br>These appear to be multimode repeaters. They may be transmitting another mode.<br><br><blockquote class="uncited"><div>The RMRL is a Denver-based amateur radio club that offers a full array of ham radio operating modes: VHF, UHF, analog and digital repeater operations, and multiple Internet connectivity modes including IRLP, Echolink, DMR via the Brandmeister network, and Yaesu Fusion.  We are affiliated with the American Radio Relay League.</div></blockquote>I think its best to try to contact a local ham about this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 14, 2024 11:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N7VXQ]]></name></author>
+		<updated>2024-02-14T23:24:30</updated>
+
+		<published>2024-02-14T23:24:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29523#p29523</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29523#p29523"/>
+		<title type="html"><![CDATA[Re: NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29523#p29523"><![CDATA[
+Good question, I'm 99% sure it is, this is part of the Rocky Mountain Ham Radio club Denver Wide talk group (700) which has about 34 repeaters in it all on time slot 1 and most except a handful on color code 7.  I have the four listed here in my codeplug and the s-meter behavior is the same on all four.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2205&amp;sid=62237f4d44d078456546b7cf761144cd" class="postimage" alt="denver_wide_700.png" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2206&amp;sid=62237f4d44d078456546b7cf761144cd" class="postimage" alt="cps_screenshot.png" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5616">N7VXQ</a> — Wed Feb 14, 2024 11:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-14T23:00:36</updated>
+
+		<published>2024-02-14T23:00:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29521#p29521</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29521#p29521"/>
+		<title type="html"><![CDATA[Re: NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29521#p29521"><![CDATA[
+Are you sure that repeater is on Color code 7<br><br>What repeater is it.<br><br>My guess is you have a codeplug config issue<br><br>You can scan for CC, See the manual for details, ... but its not 100% reliable<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 14, 2024 11:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N7VXQ]]></name></author>
+		<updated>2024-02-14T22:50:25</updated>
+
+		<published>2024-02-14T22:50:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29520#p29520</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29520#p29520"/>
+		<title type="html"><![CDATA[Re: NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29520#p29520"><![CDATA[
+Hello VK3KYY,<br>Interesting!  No actually, I do not see the DMR ID come through when the S meter jumps.  I guess having not seen a successful transmission I didn't know that was the expected behavior.  So maybe it still is not decoding the transmission at all?<br><br>I have attached photos of the normal S meter and full s meter, and indeed no change.<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2203&amp;sid=62237f4d44d078456546b7cf761144cd" class="postimage" alt="MD9600_full_s_meter.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2204&amp;sid=62237f4d44d078456546b7cf761144cd" class="postimage" alt="MD9600_normal_s_meter.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5616">N7VXQ</a> — Wed Feb 14, 2024 10:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-14T22:07:25</updated>
+
+		<published>2024-02-14T22:07:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29515#p29515</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29515#p29515"/>
+		<title type="html"><![CDATA[Re: NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29515#p29515"><![CDATA[
+<blockquote class="uncited"><div>Hello OpenGD77 Community!<br><br>I'm asking for some direction in solving a tricky little problem I'm having with a new to me MD-9600.  The radio was working fine under the original firmware from TYT, guy demonstrated it working before I bought it from him.  Essentially I can Rx/Tx fine in narrow FM on the radio.  Good strong audio, no issues.  However, in DMR I get no audio??<br><br>Here are some observations:<br>- Firmware update succeeded, actually many times.  Its an older GPS v1.2 Radio confirmed on the circuit board.<br>- Firmware loader process shows "+DMR" so it seems the donor file was clean too.<br>- RadioID / Callsign Loaded no problem, and OpenGD77 CPS communicates easily with the radio.<br>- I've Tried V1, V2 and V3 firmware all with similar results.  Actually V1 is the only firmware which allows any audio at all.<br>- Audio on narrow FM is strong, and signal reports are good.  So this leads me to believe the radio hardware is functional.<br>- Signal meter also moving around in DMR and jumps on signal input from the repeaters I have programed in<br>- The speaker even does the tell-tail pop occasionally at the end of a transmission, although I can hear no audio from the transmission<br>- I did mess with the volume too <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>Any ideas on what could be causing this behavior?  I will admit I am new to programing DMR codeplugs but have gone over and over examples in the community here and believe I have the TG, TS, Color, Frequencies all right, but this could be the issue.  My other thought is that somehow my copy of the donor firmware for the CODEC was corrupt?<br><br>Reaching out for any ideas, hit me up with any suggestions to try or ideas if someone has seen this before.<br><br>Best Regards,<br>Ryan<br>N7VXQ</div></blockquote>When you say you get no audio, does the screen display the incomming DMR ID ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 14, 2024 10:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N7VXQ]]></name></author>
+		<updated>2024-02-14T21:35:47</updated>
+
+		<published>2024-02-14T21:35:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29514#p29514</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29514#p29514"/>
+		<title type="html"><![CDATA[NFM Tx/Rx Okay - DMR No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3782&amp;p=29514#p29514"><![CDATA[
+Hello OpenGD77 Community!<br><br>I'm asking for some direction in solving a tricky little problem I'm having with a new to me MD-9600.  The radio was working fine under the original firmware from TYT, guy demonstrated it working before I bought it from him.  Essentially I can Rx/Tx fine in narrow FM on the radio.  Good strong audio, no issues.  However, in DMR I get no audio??<br><br>Here are some observations:<br>- Firmware update succeeded, actually many times.  Its an older GPS v1.2 Radio confirmed on the circuit board.<br>- Firmware loader process shows "+DMR" so it seems the donor file was clean too.<br>- RadioID / Callsign Loaded no problem, and OpenGD77 CPS communicates easily with the radio.<br>- I've Tried V1, V2 and V3 firmware all with similar results.  Actually V1 is the only firmware which allows any audio at all.<br>- Audio on narrow FM is strong, and signal reports are good.  So this leads me to believe the radio hardware is functional.<br>- Signal meter also moving around in DMR and jumps on signal input from the repeaters I have programed in<br>- The speaker even does the tell-tail pop occasionally at the end of a transmission, although I can hear no audio from the transmission<br>- I did mess with the volume too <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>Any ideas on what could be causing this behavior?  I will admit I am new to programing DMR codeplugs but have gone over and over examples in the community here and believe I have the TG, TS, Color, Frequencies all right, but this could be the issue.  My other thought is that somehow my copy of the donor firmware for the CODEC was corrupt?<br><br>Reaching out for any ideas, hit me up with any suggestions to try or ideas if someone has seen this before.<br><br>Best Regards,<br>Ryan<br>N7VXQ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5616">N7VXQ</a> — Wed Feb 14, 2024 9:35 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

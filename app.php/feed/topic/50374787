@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5037" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-06T11:02:30</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5037</id>
+
+		<entry>
+		<author><name><![CDATA[PD1VOS]]></name></author>
+		<updated>2025-04-06T11:02:30</updated>
+
+		<published>2025-04-06T11:02:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36617#p36617</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36617#p36617"/>
+		<title type="html"><![CDATA[Re: SMS support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36617#p36617"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi,<br><br>I have a question about SMS (dmr). Are there any updates on its development (e.g., (dis)continued)? <br>I read the other topic about SMS, but that was from a year ago, so maybe there are changes. I have the UV390.<br><br>Thanks in advance,<br>PD1vos</div></blockquote>No one is actively working on SMS <br><br>It seems to be very difficult to implement and IIRC there are also some possible legal problems regarding the encoding algorithms</div></blockquote>Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7819">PD1VOS</a> — Sun Apr 06, 2025 11:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-06T10:30:24</updated>
+
+		<published>2025-04-06T10:30:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36615#p36615</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36615#p36615"/>
+		<title type="html"><![CDATA[Re: SMS support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36615#p36615"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>I have a question about SMS (dmr). Are there any updates on its development (e.g., (dis)continued)? <br>I read the other topic about SMS, but that was from a year ago, so maybe there are changes. I have the UV390.<br><br>Thanks in advance,<br>PD1vos</div></blockquote>No one is actively working on SMS <br><br>It seems to be very difficult to implement and IIRC there are also some possible legal problems regarding the encoding algorithms<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Apr 06, 2025 10:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PD1VOS]]></name></author>
+		<updated>2025-04-06T09:26:06</updated>
+
+		<published>2025-04-06T09:26:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36614#p36614</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36614#p36614"/>
+		<title type="html"><![CDATA[SMS support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5037&amp;p=36614#p36614"><![CDATA[
+Hi,<br><br>I have a question about SMS (dmr). Are there any updates on its development (e.g., (dis)continued)? <br>I read the other topic about SMS, but that was from a year ago, so maybe there are changes. I have the UV390.<br><br>Thanks in advance,<br>PD1vos<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7819">PD1VOS</a> — Sun Apr 06, 2025 9:26 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5001" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-18T19:19:20</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5001</id>
+
+		<entry>
+		<author><name><![CDATA[EA4IAU]]></name></author>
+		<updated>2025-07-18T19:19:20</updated>
+
+		<published>2025-07-18T19:19:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37737#p37737</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37737#p37737"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37737#p37737"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>I hope somebody could auditing the source code could find where the issue is and fix it, because is being really annoying, especially with Motorola repeaters that have various TG in different slots.</div></blockquote>Try installing the older betas and find the version where this problem first started to happen</div></blockquote>btw the issues seems that even occurs with the R20240908 stable, so no idea where it could have started, and no idea how much back can I go with the firmware versions because this is with a MD-UV390 Plus.</div></blockquote>Hmmm ok so then perhaps it was whatever I had installed when I got my DM1701, back in april 2024...<br><br>...but I cannot really tell. I've used DMR intensively only since I had my hotspot like 6 months ago. Before, not so much.<br><br>What is clear is that the issue lies in the fact that the DM1701's hardware does not monitor two timeslots, and there is a software solution for that that, given the right conditions, goes awry.<br><br>Which was the stable version back then? did it have the issue? maybe we can start from there<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6012">EA4IAU</a> — Fri Jul 18, 2025 7:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-07-16T00:14:37</updated>
+
+		<published>2025-07-16T00:14:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37721#p37721</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37721#p37721"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37721#p37721"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I hope somebody could auditing the source code could find where the issue is and fix it, because is being really annoying, especially with Motorola repeaters that have various TG in different slots.</div></blockquote>Try installing the older betas and find the version where this problem first started to happen</div></blockquote>btw the issues seems that even occurs with the R20240908 stable, so no idea where it could have started, and no idea how much back can I go with the firmware versions because this is with a MD-UV390 Plus.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Jul 16, 2025 12:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP1KC]]></name></author>
+		<updated>2025-07-12T18:56:17</updated>
+
+		<published>2025-07-12T18:56:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37704#p37704</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37704#p37704"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37704#p37704"><![CDATA[
+I'm on vacation near a Hytera RD625 repeater. I've been listening by the TYT MD-UV380 and Retevisa RT3S simultaneously for six days. Beta software 23.03.2025. I haven't any "silent" or "helicopter" problems. DMR works perfectly. The TS filter detects both slots very well. Maybe the MMDVM from China is causing the problem? Is anyone having problems when using the dedicated repeater?<br>73, Chris SP1KC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3337">SP1KC</a> — Sat Jul 12, 2025 6:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-10T13:36:36</updated>
+
+		<published>2025-07-10T13:36:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37696#p37696</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37696#p37696"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37696#p37696"><![CDATA[
+<blockquote class="uncited"><div>That list would be fine-grained enough, I'd only need the betas that were made from the last stable to the previous stable, and only for the DM1701.<br><br>VK3KYY, which ones are those? When was the previous stable released?</div></blockquote>I think it was R20231231 ?<br><br>I have  a collection of CPS since 2022 too.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Jul 10, 2025 1:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-07-10T11:22:55</updated>
+
+		<published>2025-07-10T11:22:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37695#p37695</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37695#p37695"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37695#p37695"><![CDATA[
+Where is full repo?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Thu Jul 10, 2025 11:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA4IAU]]></name></author>
+		<updated>2025-07-10T11:12:17</updated>
+
+		<published>2025-07-10T11:12:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37694#p37694</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37694#p37694"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37694#p37694"><![CDATA[
+That list would be fine-grained enough, I'd only need the betas that were made from the last stable to the previous stable, and only for the DM1701.<br><br>VK3KYY, which ones are those? When was the previous stable released?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6012">EA4IAU</a> — Thu Jul 10, 2025 11:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-10T03:19:39</updated>
+
+		<published>2025-07-10T03:19:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37692#p37692</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37692#p37692"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37692#p37692"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>What radio model do you use ?<br><br>I have collected most of the files for several models since 2022.</div></blockquote>It's the DM1701. Radio info reports CPU rev 0x0009. I dont know where to look to discern if there are some other hardware revisions</div></blockquote>That's one of my later ones I bought , I have more files for MD-UV380/RT-3S and MD-9600 but I can send you a list of what I have.</div></blockquote>20230311-OpenDM1701.bin<br>20230409-OpenDM1701.bin<br>20230423-OpenDM1701.bin<br>20230509-OpenDM1701.bin<br>20230702-OpenDM1701.bin<br>20230715-OpenDM1701.bin<br>20230809-OpenDM1701.bin<br>20230818-OpenDM1701.bin<br>20230903-OpenDM1701.zip<br>20230904-OpenDM1701.zip<br>20230915-OpenDM1701.zip<br>20231119-OpenDM1701.zip<br>20231202-OpenDM1701.zip<br>20231208-OpenDM1701.zip<br>20231212-OpenDM1701.zip<br>20231231-OpenDM1701.zip<br>20240317-OpenDM1701.zip<br>20240329-OpenDM1701.zip<br>20240412-OpenDM1701.zip<br>20240511-OpenDM1701.zip<br>20240623-OpenDM1701.zip<br>20240630-OpenDM1701.zip<br>20240803-OpenDM1701.zip<br>20241009-OpenDM1701.zip<br>20241009-OpenRT84.zip<br>20241018-OpenDM1701.zip<br>20241018-OpenRT84.zip<br>20241212-OpenDM1701.zip<br>20241212-OpenRT84.zip<br>20241215-OpenDM1701.zip<br>20241215-OpenRT84.zip<br>R20240908-OpenDM1701.zip<br>R20240908-OpenRT84.zip<br>20250119-OpenDM1701.zip<br>20250119-OpenRT84.zip<br>20250122-OpenDM1701.zip<br>20250122-OpenRT84.zip<br>20250126-OpenDM1701.zip<br>20250126-OpenRT84.zip<br>20250128-OpenDM1701.zip<br>20250128-OpenRT84.zip<br>20250207-OpenDM1701.zip<br>20250207-OpenRT84.zip<br>20250215-OpenDM1701.zip<br>20250215-OpenRT84.zip<br>20250223-OpenDM1701.zip<br>20250223-OpenRT84.zip<br>20250316-OpenDM1701.zip<br>20250316-OpenRT84.zip<br>20250323-OpenDM1701.zip<br>20250323-OpenRT84.zip<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Jul 10, 2025 3:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-09T16:21:17</updated>
+
+		<published>2025-07-09T16:21:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37687#p37687</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37687#p37687"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37687#p37687"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>I'd love to do this. The problem needs to be among the last stable and the previous one.<br><br>VK3KYY, can you redirect me to the beta directories?  (Sorry, i keep getting lost on the repos, havent got the hang of the folder structure)<br><br> Are they compiled or is it just the source code?</div></blockquote>What radio model do you use ?<br><br>I have collected most of the files for several models since 2022.</div></blockquote>It's the DM1701. Radio info reports CPU rev 0x0009. I dont know where to look to discern if there are some other hardware revisions</div></blockquote>That's one of my later ones I bought , I have more files for MD-UV380/RT-3S and MD-9600 but I can send you a list of what I have.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jul 09, 2025 4:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA4IAU]]></name></author>
+		<updated>2025-07-09T15:56:09</updated>
+
+		<published>2025-07-09T15:56:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37686#p37686</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37686#p37686"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37686#p37686"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>Try installing the older betas and find the version where this problem first started to happen</div></blockquote>I'd love to do this. The problem needs to be among the last stable and the previous one.<br><br>VK3KYY, can you redirect me to the beta directories?  (Sorry, i keep getting lost on the repos, havent got the hang of the folder structure)<br><br> Are they compiled or is it just the source code?</div></blockquote>What radio model do you use ?<br><br>I have collected most of the files for several models since 2022.</div></blockquote>It's the DM1701. Radio info reports CPU rev 0x0009. I dont know where to look to discern if there are some other hardware revisions<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6012">EA4IAU</a> — Wed Jul 09, 2025 3:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-09T11:06:00</updated>
+
+		<published>2025-07-09T11:06:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37683#p37683</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37683#p37683"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37683#p37683"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>I hope somebody could auditing the source code could find where the issue is and fix it, because is being really annoying, especially with Motorola repeaters that have various TG in different slots.</div></blockquote>Try installing the older betas and find the version where this problem first started to happen</div></blockquote>I'd love to do this. The problem needs to be among the last stable and the previous one.<br><br>VK3KYY, can you redirect me to the beta directories?  (Sorry, i keep getting lost on the repos, havent got the hang of the folder structure)<br><br> Are they compiled or is it just the source code?</div></blockquote>What radio model do you use ?<br><br>I have collected most of the files for several models since 2022.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jul 09, 2025 11:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA4IAU]]></name></author>
+		<updated>2025-07-09T09:42:14</updated>
+
+		<published>2025-07-09T09:42:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37682#p37682</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37682#p37682"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37682#p37682"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I hope somebody could auditing the source code could find where the issue is and fix it, because is being really annoying, especially with Motorola repeaters that have various TG in different slots.</div></blockquote>Try installing the older betas and find the version where this problem first started to happen</div></blockquote>I'd love to do this. The problem needs to be among the last stable and the previous one.<br><br>VK3KYY, can you redirect me to the beta directories?  (Sorry, i keep getting lost on the repos, havent got the hang of the folder structure)<br><br> Are they compiled or is it just the source code?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6012">EA4IAU</a> — Wed Jul 09, 2025 9:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-08T22:46:23</updated>
+
+		<published>2025-07-08T22:46:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37680#p37680</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37680#p37680"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37680#p37680"><![CDATA[
+<blockquote class="uncited"><div>I hope somebody could auditing the source code could find where the issue is and fix it, because is being really annoying, especially with Motorola repeaters that have various TG in different slots.</div></blockquote>Try installing the older betas and find the version where this problem first started to happen<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jul 08, 2025 10:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-07-08T22:18:36</updated>
+
+		<published>2025-07-08T22:18:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37679#p37679</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37679#p37679"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37679#p37679"><![CDATA[
+I hope somebody could auditing the source code could find where the issue is and fix it, because is being really annoying, especially with Motorola repeaters that have various TG in different slots.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Tue Jul 08, 2025 10:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA4IAU]]></name></author>
+		<updated>2025-07-08T07:17:35</updated>
+
+		<published>2025-07-08T07:17:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37676#p37676</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37676#p37676"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37676#p37676"><![CDATA[
+Perhaps the algorithm has something wrong with it, but it’s not the whole problem, as I also observed the issue when TS filter is on.<br><br>It just makes it more likely to happen. (although I haven’t measured that thoroughly)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6012">EA4IAU</a> — Tue Jul 08, 2025 7:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-07T22:57:05</updated>
+
+		<published>2025-07-07T22:57:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37675#p37675</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37675#p37675"/>
+		<title type="html"><![CDATA[Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5001&amp;p=37675#p37675"><![CDATA[
+<blockquote class="uncited"><div>Hello everyone<br><br>(I know i was instructed to post things about the silent DMR and helicoptering issues on the stable release thread, but it felt odd to get in too much detail on that thread)<br><br>I’ve spent some weeks trying out stuff to see if I could just get my DM1701 to work reliably again. (I am referring to the mute DMR issue and the helicoptering issue).<br><br>I’m going to list a couple of things that didn’t work, one thing that DID work, and a thing that was just… weird.<br><br>What didn’t work:<ul><li>Changing the Eco level</li></ul><ul><li>Setting the beep options to prompt, no keys or silent. DIdn’t matter</li></ul><ul><li>Choosing a wider Offset between RX and TX frequency in my duplex hotspot. …Nope.</li></ul>What DID work:<br><strong class="text-strong">Setting the hotspot to SIMPLEX</strong><br><br>I have been using my hotspot in simplex mode, TXing with 50mW and getting transmissions back, complete, with no audio glitches whatsoever.<br><br>Here is, however, a thing that is very weird, that you can repeatably do (I did it with my hotspot buy I assume it can be done with 2 radios):<ul><li>Set TS1 of your hotspot to a TG that is very busy</li></ul><ul><li>Set the radio to TS filter OFF, but select the TS2, using the asterisk key</li></ul><ul><li>Wait for someone to talk in that busy TG, which will make the radio play the TS1 transmission, despite being set to TS2</li></ul><ul><li>Now <strong class="text-strong">change to TS1 by pressing asterisk</strong>. The radio will go completely silent despite being set to the correct TS</li></ul><ul><li>Change back to TS2, the radio will talk again. It can also happen that it will become silent, somewhat replicating the issue</li></ul>Whatever this issue is, it’s rooted in the way OpenGD77 handles incoming transmissions when there is timeslot information, and it’s somehow worsened if TS filter is off.<br><br>Haven’t gone around inspecting the code to try to be more helpful yet. If I manage to make sense of it and get a clue on what could be happening, I will be posting here.</div></blockquote>TS Filter off activate a software algorithm that tries to find traffic regardless of the timeslot:<br><blockquote class="uncited"><div>TS Filter (DMR mode only)<br><br>Controls whether the radio filters by Timeslot.<br><br>Use the Right or Left arrows to enable or disable.<br>When Timeslot filtering is disabled the Timeslot number is displayed in inverse video.<br><br>Notes:<br><br>This feature does not actually disable a filter, because the DMR hardware chip, HR-C6000, does not fully support reception of signals on both timeslots at the same time.<br>This feature uses a software algorithm written by Daniel F1RMB, which initially listens for caller ID data on both timeslots, and when valid data occurs on a timeslot, the firmware just listens on that timeslot.<br>If caller ID is not present on the received timeslot for a timeout period of approximately 2.5 seconds, the algorithm checks on the other timeslot and switches to that if caller ID data is on that timeslot.</div></blockquote>I guess that algororithm may detect it wrong sometimes ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Jul 07, 2025 10:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

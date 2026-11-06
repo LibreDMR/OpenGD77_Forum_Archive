@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2257" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-06-11T06:47:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2257</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-06-11T06:47:00</updated>
+
+		<published>2022-06-11T06:47:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2257&amp;p=18794#p18794</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2257&amp;p=18794#p18794"/>
+		<title type="html"><![CDATA[MD9600 Beta bug fix]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2257&amp;p=18794#p18794"><![CDATA[
+There is a bug fix Beta MD9600 version available for dowload<br><br>This version fixes a problem of Voice Prompts not being detected an automatically enabled when the settings are reset or updated<br>It also lowers the FM mic gain default / 0dB point by 3dB<br><br><br>Thanks to Daniel F1RMB<br><br><a href="http://opengd77.com/downloads/MD9600/Firmware/cc117fc8a7d5d1ce90edf88e6800eefb717bf3a4/" class="postlink">http://opengd77.com/downloads/MD9600/Fi ... b717bf3a4/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jun 11, 2022 6:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1781" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-07-29T22:49:16</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1781</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-07-29T22:49:16</updated>
+
+		<published>2021-07-29T22:49:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15403#p15403</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15403#p15403"/>
+		<title type="html"><![CDATA[Re: DM-1801 charger (CH1801)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15403#p15403"><![CDATA[
+See  the section titled  "Faster charge for the GD-77. Moderate"  on <a href="http://members.optuszoo.com.au/jason.reilly1/GD77mods.htm" class="postlink">http://members.optuszoo.com.au/jason.re ... 77mods.htm</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 29, 2021 10:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n0gik]]></name></author>
+		<updated>2021-07-29T03:10:06</updated>
+
+		<published>2021-07-29T03:10:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15382#p15382</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15382#p15382"/>
+		<title type="html"><![CDATA[Re: DM-1801 charger (CH1801)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15382#p15382"><![CDATA[
+<blockquote class="uncited"><div>Would anyone have a schematic of the CH1801 charger.   My charger stays in the Charge mode.  Never switches from RED to GREEN<br>indicating CHARGE COMPLETE.  </div></blockquote>I have two of them that do <em class="text-italics">exactly</em> what you describe.  When new, they worked just fine. (charging overnight, would be GREEN by morning)<br>Then one of them stayed red all the time when radio in the charger.  THEN that charger stayed red all the time even when there was no radio in the charger.<br>Then, the 2nd one would show the GREEN, but very dimly.  Now, the 2nd one shows NO color, but will charge the radio just fine.<br><br>At this point, I have just grown to ignore it, leave both radios on most days until battery warning, then back in charger for 8-10 hours, and all good.  The batteries never get warm in the charger and have measured the charged battery at around 8.3 to 8.5 volts, which is 100 percent in my book and certainly 100 percent on the Open1801 indicators.<br><br>I don't think I'm gonna jack with it, but it's good to see someone has something to try for a repair or band-aid.<br><br>7-3 - N0GIK - Matt<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1896">n0gik</a> — Thu Jul 29, 2021 3:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-07-28T22:26:15</updated>
+
+		<published>2021-07-28T22:26:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15374#p15374</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15374#p15374"/>
+		<title type="html"><![CDATA[Re: DM-1801 charger (CH1801)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15374#p15374"><![CDATA[
+This looks like a duplicate post<br><br>But AFIK no one has the schematic for any of the official chargers<br><br>Just replace it with a $2 module if you have any problems.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jul 28, 2021 10:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1kk]]></name></author>
+		<updated>2021-07-28T15:54:06</updated>
+
+		<published>2021-07-28T15:54:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15371#p15371</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15371#p15371"/>
+		<title type="html"><![CDATA[DM-1801 charger (CH1801)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1781&amp;p=15371#p15371"><![CDATA[
+Would anyone have a schematic of the CH1801 charger.   My charger stays in the Charge mode.  Never switches from RED to GREEN<br>indicating CHARGE COMPLETE.   It's been that way from day one but just assumed I never charged long enough.<br>Charging it for more than 10 hours still doesn't change.  The battery measures around 8.3 volts when removed<br>from the charger and seems to last a long time.   I tried tracing the etch and came up with something schematic wise<br>that is 99% the same as a what's called a SC6038.  The only difference is they run the EN pin through a 10K to the D.C<br>input instead of just connecting it directly to D.C. input. EN high turns the chip on.      Would appreciate anyones experience with<br>the CH1801 and if a schematic is available just in case I missed something.<br><br>Guessing it's the HXN-WS chip is bad.   Might try a TP5100 charger board in the near future.<br><br>Ken<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=594">n1kk</a> — Wed Jul 28, 2021 3:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

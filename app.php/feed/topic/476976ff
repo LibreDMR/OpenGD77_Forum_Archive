@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4769" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-19T18:56:51</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4769</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-19T18:56:51</updated>
+
+		<published>2025-02-19T18:56:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35839#p35839</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35839#p35839"/>
+		<title type="html"><![CDATA[Re: Hotspot Mode (TYT MD9600) also support Talker Alias?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35839#p35839"><![CDATA[
+<blockquote class="uncited"><div>It works !<br><blockquote class="uncited"><div>Hi Alfred,<br><br>   Not sure if the hotspot pass the RXed talker alias LC data.<br><br>Cheers.<br>---<br>Daniel</div></blockquote></div></blockquote>Is that because of fixes in the OpenGD77 firmware or ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Feb 19, 2025 6:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-02-19T17:31:17</updated>
+
+		<published>2025-02-19T17:31:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35832#p35832</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35832#p35832"/>
+		<title type="html"><![CDATA[Re: Hotspot Mode (TYT MD9600) also support Talker Alias?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35832#p35832"><![CDATA[
+It works !<br><blockquote class="uncited"><div>Hi Alfred,<br><br>   Not sure if the hotspot pass the RXed talker alias LC data.<br><br>Cheers.<br>---<br>Daniel</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Wed Feb 19, 2025 5:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-18T10:27:41</updated>
+
+		<published>2025-01-18T10:27:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35178#p35178</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35178#p35178"/>
+		<title type="html"><![CDATA[Re: Hotspot Mode (TYT MD9600) also support Talker Alias?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35178#p35178"><![CDATA[
+I did a quick test with my MD-9600 and MMDVMHost-20240429 and I could not see any TA dumped so I guess that the modem in the radiopart doesn't support TA sent from another radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jan 18, 2025 10:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-18T09:52:54</updated>
+
+		<published>2025-01-18T09:52:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35176#p35176</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35176#p35176"/>
+		<title type="html"><![CDATA[Re: Hotspot Mode (TYT MD9600) also support Talker Alias?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35176#p35176"><![CDATA[
+Hi Alfred,<br><br>   Not sure if the hotspot pass the RXed talker alias LC data.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jan 18, 2025 9:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-18T09:50:53</updated>
+
+		<published>2025-01-18T09:50:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35175#p35175</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35175#p35175"/>
+		<title type="html"><![CDATA[Re: Hotspot Mode (TYT MD9600) also support Talker Alias?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35175#p35175"><![CDATA[
+<blockquote class="uncited"><div>Hi Daniel,<br><br>in High-Power HotspotMode (TYT MD9600) I don't get Talker Alias displayed.<br><br>The attached picture shows my second <span style="text-decoration:underline">jumbo single hotspot</span> where Talker Alias works perfectly on Brandmeister Dash-Board!<br><a href="http://tyrofly.at/forum/TalkerAlias.jpg" class="postlink">http://tyrofly.at/forum/TalkerAlias.jpg</a><br><br>Thank you!</div></blockquote>Do you have something defined under BM selfcare "APRS Text" <br>I noticed that this is display if I don't send TA from the radio.<br><br>If you enable "DumpTAData" you can see in the log if the radio is sending TA data.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jan 18, 2025 9:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-01-18T09:04:15</updated>
+
+		<published>2025-01-18T09:04:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35174#p35174</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35174#p35174"/>
+		<title type="html"><![CDATA[Re: Hotspot Mode (TYT MD9600) also support Talker Alias?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35174#p35174"><![CDATA[
+Hi Daniel,<br><br>in High-Power HotspotMode (TYT MD9600) I don't get Talker Alias displayed.<br><br>The attached picture shows my second <span style="text-decoration:underline">jumbo single hotspot</span> where Talker Alias works perfectly on Brandmeister Dash-Board!<br><a href="http://tyrofly.at/forum/TalkerAlias.jpg" class="postlink">http://tyrofly.at/forum/TalkerAlias.jpg</a><br><br>Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Sat Jan 18, 2025 9:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-18T08:44:02</updated>
+
+		<published>2025-01-18T08:44:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35172#p35172</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35172#p35172"/>
+		<title type="html"><![CDATA[Re: Hotspot Mode (TYT MD9600) also support Talker Alias?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35172#p35172"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hello,<br>does the OpenGD77 High-Power Hotspot Mode (TYT MD9600) also support Talker Alias?<br>73 Alfred</div></blockquote>What do you mean ?<br> - does it pass the TA through, both way ?<br> - does it displays the TA (on the hotspot screen) ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jan 18, 2025 8:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-01-18T08:35:06</updated>
+
+		<published>2025-01-18T08:35:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35171#p35171</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35171#p35171"/>
+		<title type="html"><![CDATA[Hotspot Mode (TYT MD9600) also support Talker Alias?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4769&amp;p=35171#p35171"><![CDATA[
+Hello,<br>does the OpenGD77 High-Power Hotspot Mode (TYT MD9600) also support Talker Alias?<br>73 Alfred<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Sat Jan 18, 2025 8:35 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

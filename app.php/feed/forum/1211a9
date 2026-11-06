@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/12" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-21T22:57:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/12</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-21T22:57:52</updated>
+
+		<published>2025-06-21T22:57:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37532#p37532</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37532#p37532"/>
+		<title type="html"><![CDATA[CPS • Re: No Comm Port Issue]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37532#p37532"><![CDATA[
+OpenGD77 CPS ONLY works with radios that have OpenGD77 installed already except that you can access the radio to write the OpenGD77 firmware<br>to it, that part is done via the DFU driver.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 21, 2025 10:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-21T22:29:48</updated>
+
+		<published>2025-06-21T22:29:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37531#p37531</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37531#p37531"/>
+		<title type="html"><![CDATA[CPS • Re: No Comm Port Issue]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37531#p37531"><![CDATA[
+<blockquote class="uncited"><div>OK,<br><br>I think I have had enough of going in circles with trying to figure out why my RT3S (with the latest OpenDG77 CP) running, it keeps asking me for a comm port.  Can't read the radio period.<br><br>Below is my radio info<br><img src="https://shelbyohwx.com/1/RT3S.png" class="postimage" alt="Image"><br><br>The GD CP info<br><img src="https://shelbyohwx.com/1/RT3S-GD.png" class="postimage" alt="Image"><br><br>Now, tell me what is the (blank) and I doing wrong???  Oh also, seeing I DO NOT have a windows 10 computer, I have Windows 11 Pro one. and everything else works fine, Here is a question, Do I need any other drivers to show a comm port? Also I can read fine with the RT3S software, as well as write to it.  it is just this blasted GD CPS that is the problem.  <br><br>Any Solutions would be appreciated.<br>Ray</div></blockquote><br>Have you installed OpenGD77 on the radio?<br><br>You won't get a Com port if you still have the official firmware in the radio<br><br>Firmware loading does not use the com port.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jun 21, 2025 10:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0MRB]]></name></author>
+		<updated>2025-06-21T18:05:55</updated>
+
+		<published>2025-06-21T18:05:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37530#p37530</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37530#p37530"/>
+		<title type="html"><![CDATA[CPS • Re: No Comm Port Issue]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37530#p37530"><![CDATA[
+OK,<br><br>I think I have had enough of going in circles with trying to figure out why my RT3S (with the latest OpenDG77 CP) running, it keeps asking me for a comm port.  Can't read the radio period.<br><br>Below is my radio info<br><img src="https://shelbyohwx.com/1/RT3S.png" class="postimage" alt="Image"><br><br>The GD CP info<br><img src="https://shelbyohwx.com/1/RT3S-GD.png" class="postimage" alt="Image"><br><br>Now, tell me what is the (blank) and I doing wrong???  Oh also, seeing I DO NOT have a windows 10 computer, I have Windows 11 Pro one. and everything else works fine, Here is a question, Do I need any other drivers to show a comm port? Also I can read fine with the RT3S software, as well as write to it.  it is just this blasted GD CPS that is the problem.  <br><br>Any Solutions would be appreciated.<br>Ray<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8743">N0MRB</a> — Sat Jun 21, 2025 6:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-06-18T18:45:30</updated>
+
+		<published>2025-06-18T18:45:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5069&amp;p=37515#p37515</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5069&amp;p=37515#p37515"/>
+		<title type="html"><![CDATA[CPS • Re: Empty Satellites List]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5069&amp;p=37515#p37515"><![CDATA[
+same issue with me, looking for old version of CPS, I have tried with all available CPS but no success.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Wed Jun 18, 2025 6:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W4FR]]></name></author>
+		<updated>2025-06-13T17:31:08</updated>
+
+		<published>2025-06-13T17:31:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37483#p37483</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37483#p37483"/>
+		<title type="html"><![CDATA[CPS • Re: CPS 2025.03.23 and APRS]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37483#p37483"><![CDATA[
+I fixed it. thanks... works great....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8767">W4FR</a> — Fri Jun 13, 2025 5:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-13T16:50:18</updated>
+
+		<published>2025-06-13T16:50:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37481#p37481</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37481#p37481"/>
+		<title type="html"><![CDATA[CPS • Re: CPS 2025.03.23 and APRS]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37481#p37481"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Versions, versions, versions  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>If you're not mentioning which firmware/CPS versions you're currently using, we can't really help you.</div></blockquote>I guess that some people doesn't read the posts and still download from the latest link on opengd77.com.<br>Even if you can't update the images on opengd77.com is it possible to remove or put some readme file there informing that you need to look in the forums for latest version?</div></blockquote>That won't change anything, as the "Lastest" download from the OpenGD77.com predates the latests requirements from the new builds, all stored on ProtonCloud (hence, you need to open the given post, and the requirements are listed there).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jun 13, 2025 4:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-13T14:37:33</updated>
+
+		<published>2025-06-13T14:37:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37479#p37479</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37479#p37479"/>
+		<title type="html"><![CDATA[CPS • Re: CPS 2025.03.23 and APRS]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37479#p37479"><![CDATA[
+<blockquote class="uncited"><div>Versions, versions, versions  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>If you're not mentioning which firmware/CPS versions you're currently using, we can't really help you.</div></blockquote>I guess that some people doesn't read the posts and still download from the latest link on opengd77.com.<br>Even if you can't update the images on opengd77.com is it possible to remove or put some readme file there informing that you need to look in the forums for latest version?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Jun 13, 2025 2:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-13T12:59:10</updated>
+
+		<published>2025-06-13T12:59:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37478#p37478</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37478#p37478"/>
+		<title type="html"><![CDATA[CPS • Re: CPS 2025.03.23 and APRS]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37478#p37478"><![CDATA[
+Versions, versions, versions  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>If you're not mentioning which firmware/CPS versions you're currently using, we can't really help you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jun 13, 2025 12:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W4FR]]></name></author>
+		<updated>2025-06-13T12:02:49</updated>
+
+		<published>2025-06-13T12:02:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37477#p37477</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37477#p37477"/>
+		<title type="html"><![CDATA[CPS • Re: CPS 2025.03.23 and APRS]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5096&amp;p=37477#p37477"><![CDATA[
+<blockquote class="uncited"><div>Okay, thanks.<br><br>Unlike what you mentionned in the opening post, this is <strong class="text-strong">NOT</strong> the latest OpenGD77 firmware, and the CPS you're using doesn't match it.<br>See <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4994" class="postlink">viewtopic.php?f=19&amp;t=4994</a><br><br>I suggest you to update your firmware to the latest Beta, and everything will work as expected.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Good day sir, I am having the same problem. I have a RT3S with GPS my firmware screen looks the same as the above.  I used the MD-UV380 file for the firmware 2 weeks ago.  Do I use the MDUV380 10w plus instead?  Sorry for the newby questions?<br><br>Thanks,<br><br>Donny<br>73 de W4FR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8767">W4FR</a> — Fri Jun 13, 2025 12:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2025-06-07T00:31:00</updated>
+
+		<published>2025-06-07T00:31:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5163&amp;p=37394#p37394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5163&amp;p=37394#p37394"/>
+		<title type="html"><![CDATA[CPS • qdmr linux cps working with 20240908]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5163&amp;p=37394#p37394"><![CDATA[
+hiya kids!<br><br>Good News!!  qdmr program is now working good with opengd77 20240908.  this is a linux qt6 program that can read and write codeplug to opengd77.  the developer is a Fine Business Operator and qdmr works good.  Satellite kepler update is working now too.  You can edit the satellite list directly in qdmr.<br><br>the git repo is at <a href="https://github.com/hmatuschek/qdmr" class="postlink">https://github.com/hmatuschek/qdmr</a><br><br>i have tested the "devel" branch is working good on debian12 with md9600 and uv390 radios with 20240908 opengd firmware.<br><br>i can not say how happy i am to not have to use windoze vm with opengd.   <br><br>i have not tried the databse update yet.<br><br>YMMV.<br><br>--gaspo.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Sat Jun 07, 2025 12:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3AYH]]></name></author>
+		<updated>2025-05-14T20:23:02</updated>
+
+		<published>2025-05-14T20:23:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37105#p37105</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37105#p37105"/>
+		<title type="html"><![CDATA[CPS • Re: Clearing the DMR-ID database.]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37105#p37105"><![CDATA[
+Received, thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3483">UB3AYH</a> — Wed May 14, 2025 8:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-14T19:13:57</updated>
+
+		<published>2025-05-14T19:13:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37104#p37104</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37104#p37104"/>
+		<title type="html"><![CDATA[CPS • Re: Clearing the DMR-ID database.]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37104#p37104"><![CDATA[
+Flash an empty list.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed May 14, 2025 7:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3AYH]]></name></author>
+		<updated>2025-05-14T18:42:08</updated>
+
+		<published>2025-05-14T18:42:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37103#p37103</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37103#p37103"/>
+		<title type="html"><![CDATA[CPS • Clearing the DMR-ID database.]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5123&amp;p=37103#p37103"><![CDATA[
+Hello everyone, please tell me how I can delete the downloaded callsign database? Radio 9600.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3483">UB3AYH</a> — Wed May 14, 2025 6:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-11T20:35:22</updated>
+
+		<published>2025-05-11T20:35:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5115&amp;p=37067#p37067</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5115&amp;p=37067#p37067"/>
+		<title type="html"><![CDATA[CPS • Re: Where are old CPS editions archived?]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5115&amp;p=37067#p37067"><![CDATA[
+<blockquote class="uncited"><div>Having to often recover different radios that use the OpenGD77 firmware, of different versions, I need to use the correct version of the CPS to be able to read and reconfigure those radio devices (various brands and models ...).<br><br>Is there an archive area where I can find all the versions of the CPS created over time?<br><br>Thanks in advance, <br>'73 by Paolo IV3BVK</div></blockquote>No.<br><br>This site does not store an archive of previous versions of CPS.<br><br><br>Try <a href="http://www.archive.org" class="postlink">www.archive.org</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 11, 2025 8:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-11T20:34:21</updated>
+
+		<published>2025-05-11T20:34:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5115&amp;p=37066#p37066</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5115&amp;p=37066#p37066"/>
+		<title type="html"><![CDATA[CPS • Re: Where are old CPS editions archived?]]></title>
+
+					<category term="CPS" scheme="http://localhost/opengd77/viewforum.php?f=12" label="CPS"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5115&amp;p=37066#p37066"><![CDATA[
+<blockquote class="uncited"><div>Having to often recover different radios that use the OpenGD77 firmware, of different versions, I need to use the correct version of the CPS to be able to read and reconfigure those radio devices (various brands and models ...).<br><br>Is there an archive area where I can find all the versions of the CPS created over time?<br><br>Thanks in advance, <br>'73 by Paolo IV3BVK</div></blockquote>No.<br><br>There is no archive of previous versions of CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 11, 2025 8:34 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

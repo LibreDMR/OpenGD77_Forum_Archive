@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4476" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-20T19:58:45</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4476</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-20T19:58:45</updated>
+
+		<published>2024-12-20T19:58:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34832#p34832</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34832#p34832"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34832#p34832"><![CDATA[
+<blockquote class="uncited"><div>Ah, that's a great point I hadn't considered, and yeah in Europe I would definitely want support for Galileo, and whilst I'm happy getting dirty in some code I don't fancy patching a uBlox in. Think I'll stick with the module you linked to then and just apply plenty of the hot snot instead to stop it going everywhere. I'll also take a small connector out the side to give the antenna a better mount, as where it is installed would mostly be shielded.</div></blockquote>I am currently working on support for these M10 class devices, but currently the firmware won't work at all with them because often the default baud rate is not 9600, and although they are configurable using a the uBlox uCenter application to change the baud rate, but changing the baud rate causes other problems, so the best option is for me to add automatic baud rate selection to the firmware.<br><br>I am currently experimenting with putting a Beitian BE122 module in a md9600, which does not have a separate antenna, but may be small enough to glue the entire module were the antenna normally goes.<br><br>At the moment, none of the GPS module manufacturers seem to be making a small M10 class module with separate antenna <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 20, 2024 7:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7GXT]]></name></author>
+		<updated>2024-12-20T15:11:55</updated>
+
+		<published>2024-12-20T15:11:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34827#p34827</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34827#p34827"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34827#p34827"><![CDATA[
+Ah, that's a great point I hadn't considered, and yeah in Europe I would definitely want support for Galileo, and whilst I'm happy getting dirty in some code I don't fancy patching a uBlox in. Think I'll stick with the module you linked to then and just apply plenty of the hot snot instead to stop it going everywhere. I'll also take a small connector out the side to give the antenna a better mount, as where it is installed would mostly be shielded.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6375">M7GXT</a> — Fri Dec 20, 2024 3:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-18T21:26:09</updated>
+
+		<published>2024-12-18T21:26:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34775#p34775</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34775#p34775"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34775#p34775"><![CDATA[
+<blockquote class="uncited"><div>Just received a MD9600 that was advertised as GPS enabled, but it is notably missing. Given this was an eBay purchase, and I can't be bothered with the hassle, I was thinking of just retrofitting one as this is going to be a truly mobile unit fitting in my car.<br><br>Looking at the front display PCB, there is clearly a space for an IC very similar to other ATGM336H with the ant. connector next to it. Does anybody happen to know if the ATGM336H IC is pin for pin compatible with the stock IC, or what the stock IC is, so I can add it in without having a bulky module that's liable to come loose from vibrations?</div></blockquote>The official GPS module is an AliStar, but I don't know which specific model.<br><br>You would need to check the published schematic for the MD9600 and also the datasheet for the ATGM to determine if you wanted to risk directly fitting one in your radio, as any information posted here may be incorrect.<br><br><a href="https://www.lcsc.com/datasheet/lcsc_datasheet_1810261521_ZHONGKEWEI-ATGM336H-5N31_C90770.pdf" class="postlink">https://www.lcsc.com/datasheet/lcsc_dat ... C90770.pdf</a><br><br>The big downside with fitting any GPS directly to the PCB, is that the PCB does not provide backup battery power to the GPS module and every time you turn the radio on, it will need to do a Cold Start of the GPS, meaning it will take far far longer to get an intial GPS position.<br><br><br>Also, if you intend to fit a GPS module, then you should consider fitting a multi-constellation GNSS module, rather than the ATGM336 which only supports American GPS (and Japanaes QNSS on the American GPS band) and Chinese BeiDou<br><br>More modern GPS modules also support Galileo and GLONASS and in some cases SBAS and other constellations.<br><br>I am currently updating all my MD9600 to ublox M10 compatible GPS modules, however I am running my own modified version of the firmware to support them.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 18, 2024 9:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7GXT]]></name></author>
+		<updated>2024-12-18T14:55:33</updated>
+
+		<published>2024-12-18T14:55:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34771#p34771</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34771#p34771"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=34771#p34771"><![CDATA[
+Just received a MD9600 that was advertised as GPS enabled, but it is notably missing. Given this was an eBay purchase, and I can't be bothered with the hassle, I was thinking of just retrofitting one as this is going to be a truly mobile unit fitting in my car.<br><br>Looking at the front display PCB, there is clearly a space for an IC very similar to other ATGM336H with the ant. connector next to it. Does anybody happen to know if the ATGM336H IC is pin for pin compatible with the stock IC, or what the stock IC is, so I can add it in without having a bulky module that's liable to come loose from vibrations?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6375">M7GXT</a> — Wed Dec 18, 2024 2:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-11-04T19:25:41</updated>
+
+		<published>2024-11-04T19:25:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33925#p33925</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33925#p33925"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33925#p33925"><![CDATA[
+Ahh ... <br>Such a fella'<br><br>Thnx<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Mon Nov 04, 2024 7:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-04T19:15:28</updated>
+
+		<published>2024-11-04T19:15:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33922#p33922</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33922#p33922"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33922#p33922"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>The stereo jack socket I used is a PCB mount version, because it has 5 pins, and allows the internal GPS power and data to be disconnected when the external GPS is plugged in.</div></blockquote>Any pointers to that jack plug ??<br>Does it really "physically" disconnect multiple pins  (i suppose gps-vcc, and gps-tx)</div></blockquote>Yes. It does disconnect VCC and Data<br><br>The socket is designed for PCB mounting<br><br>I bought it from a local shop<br><br><a href="https://www.jaycar.com.au/3-5mm-stereo-switched-pcb-socket/p/PS0133" class="postlink">https://www.jaycar.com.au/3-5mm-stereo- ... t/p/PS0133</a><br><br>I am sure you can find one<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Nov 04, 2024 7:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-11-04T16:10:33</updated>
+
+		<published>2024-11-04T16:10:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33918#p33918</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33918#p33918"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33918#p33918"><![CDATA[
+<blockquote class="uncited"><div>The stereo jack socket I used is a PCB mount version, because it has 5 pins, and allows the internal GPS power and data to be disconnected when the external GPS is plugged in.</div></blockquote>Any pointers to that jack plug ??<br>Does it really "physically" disconnect multiple pins  (i suppose gps-vcc, and gps-tx)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Mon Nov 04, 2024 4:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-02T07:23:14</updated>
+
+		<published>2024-11-02T07:23:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33870#p33870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33870#p33870"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33870#p33870"><![CDATA[
+Following on from my experiments retro-fitting a GPS module inside my MD9600, I've now done an enhancement, by fitting a 3.5mm hack socket on the left side of the front panel.<br><br>I can then connect and external GPS puc by plugging it in.<br><br>The stereo jack socket I used is a PCB mount version, because it has 5 pins, and allows the internal GPS power and data to be disconnected when the external GPS is plugged in.<br><br>Warning.<br>I do not connect or disconnect the external GPS while the radio is turned on, as jack plugs can short their pins together while being plugged in or unplugged<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2723&amp;sid=d2cf15b78aae742b32b607345078dd3b" class="postimage" alt="IMG_20241102_170306583.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2724&amp;sid=d2cf15b78aae742b32b607345078dd3b" class="postimage" alt="IMG_20241102_170319976_HDR.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2725&amp;sid=d2cf15b78aae742b32b607345078dd3b" class="postimage" alt="IMG_20241102_181351663.jpg" onclick="viewableArea(this);" /></dt></dl></div><br><br><br><br>I've now connected a M10 class GPS externally to the radio and it is receiving from 48 of a possible 45 satellites<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2726&amp;sid=d2cf15b78aae742b32b607345078dd3b" class="postimage" alt="Untitled-1.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 02, 2024 7:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-18T06:26:55</updated>
+
+		<published>2024-10-18T06:26:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33551#p33551</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33551#p33551"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33551#p33551"><![CDATA[
+Doing some further experiments, I ordered some u-blox M10 clone GPS modules from AliExpress hoping they would work better than the cheap ATGM336H module, becasue M10 class GPS can receive the 4 major GPS constellations, not just American and Chinese<br><br>However the data output from these is not currently compatible with the OpenGD77 firmware for a number of reasons.<br><br>1. These M10 class modules don't default to 9600, they often default to 38400<br>2. Some of NMEA sequences sent by u-blox M10 class devices seem to deviate from the normal NMEA standard and are not processed correctly by the firmware<br><br>Firsly.<br>Setting the module to 9600 baud before connecting to the MD9600 would partially solve the first problem, however the reason these modules default to 38400 baud is because they send much more data than modules which only handle 1 or 2 satellite constellations, and because they send all the data once per second, its likely it could not all be sent in one second<br><br>So.  I am writing support to detect if the GPS module uses a higher baud rate.<br><br>Secondly. T<br>o support the u-blox and also some other module types e.g Trimble. It will probably be necessary to modify the parsing of the GSV NMEA data messages. But because u-blox and Trimble and other other manufacturers do not seem to agree on the GSV messages, this may be difficult.<br><br><br>Overall, I am not actually seeing much benefit from using these M10 class modules, but so far I only tested 2 types, Quescan and EByte, and the EByte device I have is only the bare chip module not a whole PCB, so at the moment I don't have a backup battery for it, so I can't test the Hot Start<br><br><a href="https://www.aliexpress.com/item/1005005403914270.html" class="postlink">https://www.aliexpress.com/item/1005005403914270.html</a><br><br><a href="https://www.aliexpress.com/item/1005007789129084.html" class="postlink">https://www.aliexpress.com/item/1005007789129084.html</a><br><br>I made the mistake of not ordering the EByte device as a module on a PCB with an antenna, and it has been problematic to solder to this tiny device.<br>The reason I bought just the device not a module, is becasue I had the idea to fit it inside my UV380 or MD2017 instead of the official GPS, however it seems that these M10 class devices may need a larger antenna, becuase using a small antenna (10mm x 25mm) from a ATGM336H module, didn't work well, and the EByte module didn't receive many satellites.<br><br><br><br><br><br>So I've now ordered the same Ebyte device as a module with a separate antenna<br><br><a href="https://www.aliexpress.com/item/1005007740983988.html" class="postlink">https://www.aliexpress.com/item/1005007740983988.html</a><br><br>and also a "Beitian" brand GPS module on a PCB with backup battery  and antenna etc<br><br><a href="https://www.aliexpress.com/item/1005005209505077.html" class="postlink">https://www.aliexpress.com/item/1005005209505077.html</a><br><br><br><br><br>BTW.<br><br>I found this PC program from the manufacturer of the ATGM336H module, called GnssToolKit3 <br><a href="https://github.com/zxcwhale/GnssToolKit3-binaries/releases" class="postlink">https://github.com/zxcwhale/GnssToolKit ... s/releases</a><br><br>Which has a quite good display fo the satellite information.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 18, 2024 6:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-10-13T06:05:07</updated>
+
+		<published>2024-10-13T06:05:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33459#p33459</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33459#p33459"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33459#p33459"><![CDATA[
+Thank you, for sharing  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Sun Oct 13, 2024 6:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-12T06:18:42</updated>
+
+		<published>2024-10-12T06:18:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33450#p33450</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33450#p33450"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33450#p33450"><![CDATA[
+<blockquote class="uncited"><div>Good day. I have also been using this radio for several days, I do not think that I will install GPS, the radio is installed at home and does not move, it is enough to enter the coordinates manually. Perhaps the poor reception is due to the lack of some other parts on the board, as in the md-uv 380 there is still a filter and amplifier missing, perhaps here in V2 something is missing too!? Could you take a photo of the board in the area of ??the GPS module? Excellent radio with excellent firmware, Taking advantage of the moment I want to once again thank the developers for the opportunity to improve my radio using OpenGD77!</div></blockquote>If the radio is mainly used at home, then there is no need for GPS.<br><br>I only fitted the GPS in both my MD9600 because I was interested to see if it was possible and how it performed<br><br>Both these radios have identical modules, but strangely the GPS reception is never identical<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2685&amp;sid=d2cf15b78aae742b32b607345078dd3b" class="postimage" alt="IMG_20241004_163811501.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2686&amp;sid=d2cf15b78aae742b32b607345078dd3b" class="postimage" alt="IMG_20241004_170703879.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2687&amp;sid=d2cf15b78aae742b32b607345078dd3b" class="postimage" alt="IMG_20241012_171445739.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Oct 12, 2024 6:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3AYH]]></name></author>
+		<updated>2024-10-12T05:36:56</updated>
+
+		<published>2024-10-12T05:36:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33449#p33449</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33449#p33449"/>
+		<title type="html"><![CDATA[Re: Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33449#p33449"><![CDATA[
+Good day. I have also been using this radio for several days, I do not think that I will install GPS, the radio is installed at home and does not move, it is enough to enter the coordinates manually. Perhaps the poor reception is due to the lack of some other parts on the board, as in the md-uv 380 there is still a filter and amplifier missing, perhaps here in V2 something is missing too!? Could you take a photo of the board in the area of ??the GPS module? Excellent radio with excellent firmware, Taking advantage of the moment I want to once again thank the developers for the opportunity to improve my radio using OpenGD77!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3483">UB3AYH</a> — Sat Oct 12, 2024 5:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-12T04:55:38</updated>
+
+		<published>2024-10-12T04:55:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33448#p33448</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33448#p33448"/>
+		<title type="html"><![CDATA[Retrofit GPS to a MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4476&amp;p=33448#p33448"><![CDATA[
+I thought I'd share some results of fitting a GPS module into a new MD9600 and and into an old MD9600<br><br>Both the radios didn't come with a GPS fitted.<br><br>I bought some ATGM336H modules from AliExpress, which are a separate receiver PCB and small rectangular antenna.<br>Like this module. <a href="https://www.aliexpress.com/item/4001147538089.html" class="postlink">https://www.aliexpress.com/item/4001147538089.html</a><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2684&amp;sid=d2cf15b78aae742b32b607345078dd3b" class="postimage" alt="Screenshot 2024-10-12 at 15-20-49 GPS BDS dual-mode module flight control satellite positioning navigator ATGM336H replacement for arduino NEO-M8N NEO-6M - AliExpress.png" onclick="viewableArea(this);" /></dt></dl></div>The inside of the front panel of the MD9600 has some plastic lugs which are probably where the factor fitted GPS antenna is fitted, and the antennas with this sort of module fit inbetween these lug.<br><br>There seems to be some slight different in the placement of the lugs between the older e.g. V2 hardware radio and the V5 radios, so that some trimming may be needed on the lugs in the V2 radio so that the antenna will fit.<br><br>The antenna can then be glued in place.<br><br>The GPS module can easily be glued to the back of the PCB in the front panel of the radio, and connected to the pads on the PCB where the factory GPS module would be fitted.<br><br>This arrangement worked well on my V5 hardware radio, and I was able to receive up to 20 satellites even indoors.<br><br><br>However....<br><br>When I tried to fit the same module into my V2 hardware radio, it had great difficulty receiving more than 1 or 2 satellites.<br><br>Initially I thought I had a faulty antenna or faulty, GPS module, so I removed both and fitted another identical brand new module and brand new antenna, but the problem still persisted.<br><br>After a lot of experimentation, I found that if I power the GPS module from a separate supply that it worked OK, but not when I powered it from the radio.<br><br>I thought the problem may be a poor earth / negative connection to the display or poor supply voltage connection, as both go via a thin ribbon cable, however even using an additional earth wire etc didn't make any difference.<br><br><br>The problem was actually that the supply voltage to the GPS is very noisy on my V2 hardware radio.<br><br>I noticed on the schematic that the supply line is heavilty decoupled with multiple capacitors, but as far as I am aware, my V2 radio has all these decompiling capacitors and the only items not fitted are the GPS module and the antenna.<br><br>Just adding some decompiling didn't fix the problem, so finally I have built a L/C low pass filter consisting of a 1mH inductor and a 10uF Tant bead capacitor. These values probably aren't critical. I just happend these components in my box of spares, so I used what I had<br><br>But the V2 radio definitely needed the supply rail to be cleaned.<br><br>Possibly its only this type of module which can't handle a noisy supply rail, but other modules also have the same problem<br><br>I tried some GP-02 branded modules, but they had the same problem, and checking the NMEA data, I saw that both the GP-02 module and ATGM336H module both use the same GPS chip<br><br><br><br>I also noticed that this geration of GPS modules, only support American GPS, Chinese Beidou and also Japanese QNSS satellites. They don't support European Galileo or Russian GLONASS satellites or others like SBAS.<br><br>So as a matter of interest I have now ordered some M10 generation GPS modules, which should support all GPS satellite systems.<br>However I can't find any modules which have a small enough antenna, to make them very suitable to fit in the MD9600.<br><br>I have also ordered some bare modules, with no PCB, <a href="https://www.aliexpress.com/item/1005007789129084.html" class="postlink">https://www.aliexpress.com/item/1005007789129084.html</a>  in the hope that I can solder an antenna connection, however I don't know how practical this will be .<br><br>These new modules also default to higher baud rates which is not currently compatible with the OpenGD77 firmware, so I will have to reconfigure them before use or possibly modify the OpenGD77 firmware to detect the baud rate.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Oct 12, 2024 4:55 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

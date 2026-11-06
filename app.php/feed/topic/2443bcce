@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2443" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-21T19:22:11</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2443</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-21T19:22:11</updated>
+
+		<published>2022-10-21T19:22:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2443&amp;p=20247#p20247</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2443&amp;p=20247#p20247"/>
+		<title type="html"><![CDATA[Re: No 1750 Hz Toneburst]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2443&amp;p=20247#p20247"><![CDATA[
+On the MDUV380 the 1750 Hz Toneburst is sent by pressing the green key while transmitting. <br><br>This is different to the GD77 which uses SK2. <br><br>This is due to the MDUV380 code originating from the MD9600 which doesn't have an SK2 key on the microphone.<br><br>I will see if this can be made the same as the GD77. <br><br>The key mapping is currently being re-written by Roger, The next version will swap the Up and Down Keys. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Oct 21, 2022 7:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G1PVZ]]></name></author>
+		<updated>2022-10-21T18:55:30</updated>
+
+		<published>2022-10-21T18:55:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2443&amp;p=20245#p20245</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2443&amp;p=20245#p20245"/>
+		<title type="html"><![CDATA[No 1750 Hz Toneburst]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2443&amp;p=20245#p20245"><![CDATA[
+I've been a long time user of the firmware on my DM-1801 and have just installed the latest Alpha on an new RT3S.<br><br>A quick observation is that I can't generate  a 1750 Hz toneburst on the RT-3S - this isn't a huge problem as this isn't used now as CTCSS access is common for analogue repeater access here in the UK. However I thought the development team may be interested.<br><br>As an aside I would welcome a change to the operation of the UP/DOWN keys so that pressing UP increases values and vice versa.<br><br>Many thanks for all your hard work.<br><br>James G1PVZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1654">G1PVZ</a> — Fri Oct 21, 2022 6:55 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

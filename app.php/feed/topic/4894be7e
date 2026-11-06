@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4894" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-19T20:31:10</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4894</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-19T20:31:10</updated>
+
+		<published>2025-02-19T20:31:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4894&amp;p=35842#p35842</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4894&amp;p=35842#p35842"/>
+		<title type="html"><![CDATA[Re: help deleting data due to failure]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4894&amp;p=35842#p35842"><![CDATA[
+<blockquote class="uncited"><div>Hi friends. I have a Baofeng DM1701 with OpenGD77. Everything was fine until suddenly the equipment stopped working and the COM port. Now I have to return the equipment and I want to delete all my data (ID, CHANNELS, ETC.) Could it be done using a keyboard? The USB port does not work. Thanks.</div></blockquote>No.<br><br>You can't delete using the keyboard, you must use the CPS<br><br>Probably you have a faulty cable or a dry joint on the PCB.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 19, 2025 8:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA5HRE]]></name></author>
+		<updated>2025-02-19T19:54:47</updated>
+
+		<published>2025-02-19T19:54:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4894&amp;p=35841#p35841</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4894&amp;p=35841#p35841"/>
+		<title type="html"><![CDATA[help deleting data due to failure]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4894&amp;p=35841#p35841"><![CDATA[
+Hi friends. I have a Baofeng DM1701 with OpenGD77. Everything was fine until suddenly the equipment stopped working and the COM port. Now I have to return the equipment and I want to delete all my data (ID, CHANNELS, ETC.) Could it be done using a keyboard? The USB port does not work. Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8138">EA5HRE</a> — Wed Feb 19, 2025 7:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

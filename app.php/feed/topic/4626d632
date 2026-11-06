@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4626" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-23T06:53:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4626</id>
+
+		<entry>
+		<author><name><![CDATA[BI3ATV]]></name></author>
+		<updated>2025-01-23T06:53:36</updated>
+
+		<published>2025-01-23T06:53:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=35308#p35308</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=35308#p35308"/>
+		<title type="html"><![CDATA[Re: SOLVED : cannot TX using MMDVM hotspot. Just RX only using Baofeng MD-1701 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=35308#p35308"><![CDATA[
+How did you solve it? I also have this question!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7807">BI3ATV</a> — Thu Jan 23, 2025 6:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-12-06T06:20:50</updated>
+
+		<published>2024-12-06T06:20:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34429#p34429</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34429#p34429"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34429#p34429"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>The only way to align the frequency calibration is to use a SDR. Transmit on 435MHz FM on your other radio , and zoom in using your SDR to look at the centre frequency of the transmission.  <br>When you have centered your SDR display on the middle of the freq, with the SDR zoomed in as far as it will go. Then go into the calibration screen of the OpenGD77 radio, and in the UHF / 435MHz freq cal page, adjust the freq until the transmission is exactly centred where the other radio was transmitting.<br><br>If you don't have an SDR dongle, borrow one from your local club, or buy one, they are quite cheap and the PC software is free</div></blockquote>If one have a very precise freq counter (12 digits - locked to a 10MHz GPSDO) would that do ?<br><br>I mean calibrate all radios to  435MHz FM against the counter. And then adjust the "PI HOTSPOT" last to match the calibrated radios ?</div></blockquote>I use my counter to calibrate all my radios and for hotspots I start the pistar-mmdvmcal in carrier mode and adjust the frequency.<br>The offset value is then added in the mmdvm setttings.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Dec 06, 2024 6:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-12-05T17:40:21</updated>
+
+		<published>2024-12-05T17:40:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34406#p34406</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34406#p34406"/>
+		<title type="html"><![CDATA[Re: SOLVED : cannot TX using MMDVM hotspot. Just RX only using Baofeng MD-1701 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34406#p34406"><![CDATA[
+Yes, an accurate counter would work OK. <br><br>The problem is due to the poor receiver performance in most hotspots. They cannot cope well with even small frequency errors and have to be fine tuned to match the radio in use.  Hence if more than one radio is used they all need to be very closely matched to each other in frequency. <br><br>A proper commercial repeater (or a hotspot built with an OpenGD77 radio) does not have this problem and has a much better tolerance to the normal small frequency errors between different radios.  <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Dec 05, 2024 5:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-12-05T16:42:24</updated>
+
+		<published>2024-12-05T16:42:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34404#p34404</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34404#p34404"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34404#p34404"><![CDATA[
+<blockquote class="uncited"><div>The only way to align the frequency calibration is to use a SDR. Transmit on 435MHz FM on your other radio , and zoom in using your SDR to look at the centre frequency of the transmission.  <br>When you have centered your SDR display on the middle of the freq, with the SDR zoomed in as far as it will go. Then go into the calibration screen of the OpenGD77 radio, and in the UHF / 435MHz freq cal page, adjust the freq until the transmission is exactly centred where the other radio was transmitting.<br><br>If you don't have an SDR dongle, borrow one from your local club, or buy one, they are quite cheap and the PC software is free</div></blockquote>If one have a very precise freq counter (12 digits - locked to a 10MHz GPSDO) would that do ?<br><br>I mean calibrate all radios to  435MHz FM against the counter. And then adjust the "PI HOTSPOT" last to match the calibrated radios ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Thu Dec 05, 2024 4:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-04T13:45:13</updated>
+
+		<published>2024-12-04T13:45:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34363#p34363</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34363#p34363"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34363#p34363"><![CDATA[
+UPDATE : Thank you everyone. Problem solved. Im using calibration tool from Pi-Star Dashboard. Im very appreciated with all of comments here and try to help me. Thank you very much.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Wed Dec 04, 2024 1:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-04T11:00:26</updated>
+
+		<published>2024-12-04T11:00:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34360#p34360</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34360#p34360"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34360#p34360"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Did you calibrate / adjust the frequency of your hotspot ?<br><br>This is normal procedure for most radios.  Try googling for it</div></blockquote>already calibrate. my another radio working fine. just for this radio I cant TX.</div></blockquote>Describe in detail your calibration of both radios and the hotspot</div></blockquote>like you said before, adjust the frequency of my hotspot. never calibrate the radio, thats why im asking how to calibrate but i will follow the instruction how to calibrate like comments here<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Wed Dec 04, 2024 11:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-04T02:29:23</updated>
+
+		<published>2024-12-04T02:29:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34347#p34347</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34347#p34347"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34347#p34347"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Did you calibrate / adjust the frequency of your hotspot ?<br><br>This is normal procedure for most radios.  Try googling for it</div></blockquote>already calibrate. my another radio working fine. just for this radio I cant TX.</div></blockquote>Describe in detail your calibration of both radios and the hotspot<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 04, 2024 2:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-03T23:13:57</updated>
+
+		<published>2024-12-03T23:13:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34345#p34345</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34345#p34345"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34345#p34345"><![CDATA[
+<blockquote class="uncited"><div>Did you calibrate / adjust the frequency of your hotspot ?<br><br>This is normal procedure for most radios.  Try googling for it</div></blockquote>already calibrate. my another radio working fine. just for this radio I cant TX.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Tue Dec 03, 2024 11:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-03T22:48:17</updated>
+
+		<published>2024-12-03T22:48:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34343#p34343</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34343#p34343"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34343#p34343"><![CDATA[
+<blockquote class="uncited"><div>any suggestion to solve this problem?</div></blockquote>OK, here is the dirty way of making it work, hopefully.<br><br>First watch this video. It is how to use the calibration on the Pi-Star hotspot.<br><br><a href="https://youtu.be/n81MCz4VcSs?si=CpREL1KOzTfX7uH9" class="postlink">https://youtu.be/n81MCz4VcSs?si=CpREL1KOzTfX7uH9</a><br><br>Now, because you have two radio. you will have to find a compromise, a sweet spot so to speak.<br>We know the hotspot work with your old radio, so we will start calibration with your new radio.<br><br>calibrate to the best with your new radio, then take note of the offset number. Write it down, but don't click save.<br><br>Now Calibrate using your old radio, Take note of the offset. <br><br>Then use the offset in the middle. For example if the offset for new radio is +100 and the offset for the old radio is -50. Then the middle spot is +25. click save. and stop.<br><br>Now hope fully the hotspot will work with bout of your radio.<br><br>Hope this help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Dec 03, 2024 10:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-03T21:49:14</updated>
+
+		<published>2024-12-03T21:49:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34341#p34341</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34341#p34341"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34341#p34341"><![CDATA[
+<blockquote class="uncited"><div>Did you calibrate / adjust the frequency of your hotspot ?<br><br>This is normal procedure for most radios.  Try googling for it</div></blockquote> just read your first post.<br><br>If you already calibrated your hotspot to your other radio, or it just happened to work with your other radio, then you will need to calibrate this new radio to be on exactly the same frequency as this new radio<br><br>Hotspots have a very narrow frequency acceptance window, unlike normal repeaters, becuase the RF chip used in hotspots is not designed for DMR.<br><br>The only way to align the frequency calibration is to use a SDR. Transmit on 435MHz FM on your other radio , and zoom in using your SDR to look at the centre frequency of the transmission.  <br>When you have centered your SDR display on the middle of the freq, with the SDR zoomed in as far as it will go. Then go into the calibration screen of the OpenGD77 radio, and in the UHF / 435MHz freq cal page, adjust the freq until the transmission is exactly centred where the other radio was transmitting.<br><br>If you don't have an SDR dongle, borrow one from your local club, or buy one, they are quite cheap and the PC software is free<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 03, 2024 9:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-03T21:22:27</updated>
+
+		<published>2024-12-03T21:22:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34340#p34340</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34340#p34340"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34340#p34340"><![CDATA[
+Did you calibrate / adjust the frequency of your hotspot ?<br><br>This is normal procedure for most radios.  Try googling for it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 03, 2024 9:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-03T19:29:24</updated>
+
+		<published>2024-12-03T19:29:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34333#p34333</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34333#p34333"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34333#p34333"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>OK, sounds like the center frequency of the hotspot and your new radio is not matched. Because you are planning to use multiple radio with one hotspot, I would suggest calibrate your new radio.<br><br>menu -&gt; options -&gt; calibration<br><br>This is a little complicated if you have nothing to calibrate it to except your hotspot.<br>I'm on the move and can't give you detail instructions. I hope someone can help you with. If not, I will be back here as soon as I can.</div></blockquote>i have nothing to calibrate. Im already search about calibration. I need the power meter and dummy load. Why so complicated to to use this radio. hmmm....</div></blockquote>Why do you think you need to calibrate the radio.<br><br>Many people never bother to calibrate the power or frequency <br><br>The factory power calibration is often inaccurate, by +/- 20%, but in normal use this does not make a noticeable difference <br><br>Frequency calibration is also normally ok, albeit perhaps +/-500 Hz accuracy <br><br>Frequency calibration is normally only needed when people have multiple radios and use a hotspot.<br>Hotspots are normally adjusted to match the radio, but of someone has multiple radios, then the hotspot is calibrated to one radio, and the other radios are calibrated to match that radio</div></blockquote><br> <br>any suggestion to solve this problem?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Tue Dec 03, 2024 7:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-03T19:25:51</updated>
+
+		<published>2024-12-03T19:25:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34332#p34332</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34332#p34332"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34332#p34332"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>OK, sounds like the center frequency of the hotspot and your new radio is not matched. Because you are planning to use multiple radio with one hotspot, I would suggest calibrate your new radio.<br><br>menu -&gt; options -&gt; calibration<br><br>This is a little complicated if you have nothing to calibrate it to except your hotspot.<br>I'm on the move and can't give you detail instructions. I hope someone can help you with. If not, I will be back here as soon as I can.</div></blockquote>i have nothing to calibrate. Im already search about calibration. I need the power meter and dummy load. Why so complicated to to use this radio. hmmm....</div></blockquote>Why do you think you need to calibrate the radio.<br><br>Many people never bother to calibrate the power or frequency <br><br>The factory power calibration is often inaccurate, by +/- 20%, but in normal use this does not make a noticeable difference <br><br>Frequency calibration is also normally ok, albeit perhaps +/-500 Hz accuracy <br><br>Frequency calibration is normally only needed when people have multiple radios and use a hotspot.<br>Hotspots are normally adjusted to match the radio, but of someone has multiple radios, then the hotspot is calibrated to one radio, and the other radios are calibrated to match that radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 03, 2024 7:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-03T19:09:21</updated>
+
+		<published>2024-12-03T19:09:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34329#p34329</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34329#p34329"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34329#p34329"><![CDATA[
+<blockquote class="uncited"><div>OK, sounds like the center frequency of the hotspot and your new radio is not matched. Because you are planning to use multiple radio with one hotspot, I would suggest calibrate your new radio.<br><br>menu -&gt; options -&gt; calibration<br><br>This is a little complicated if you have nothing to calibrate it to except your hotspot.<br>I'm on the move and can't give you detail instructions. I hope someone can help you with. If not, I will be back here as soon as I can.</div></blockquote>i have nothing to calibrate. Im already search about calibration. I need the power meter and dummy load. Why so complicated to to use this radio. hmmm....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Tue Dec 03, 2024 7:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-03T18:31:40</updated>
+
+		<published>2024-12-03T18:31:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34328#p34328</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34328#p34328"/>
+		<title type="html"><![CDATA[Re: cannot TX using MMDVM hotspot. Just RX only using MD-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4626&amp;p=34328#p34328"><![CDATA[
+<blockquote class="uncited"><div>OK, sounds like the center frequency of the hotspot and your new radio is not matched. Because you are planning to use multiple radio with one hotspot, I would suggest calibrate your new radio.<br><br>menu -&gt; options -&gt; calibration<br><br>This is a little complicated if you have nothing to calibrate it to except your hotspot.<br>I'm on the move and can't give you detail instructions. I hope someone can help you with. If not, I will be back here as soon as I can.</div></blockquote>im using 433.550Mhz for my hotspot. Should im use Freq : 433.00Mhz, Power level : 1w, Adjust : 33? Its is auto calculated when i change to 433.000Mhz and 1w. <br><br>Or maybe you can suggest any freq i can use for my hotspot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Tue Dec 03, 2024 6:31 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

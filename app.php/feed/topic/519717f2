@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5197" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-06T13:57:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5197</id>
+
+		<entry>
+		<author><name><![CDATA[K3SAD]]></name></author>
+		<updated>2025-07-06T13:57:29</updated>
+
+		<published>2025-07-06T13:57:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37664#p37664</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37664#p37664"/>
+		<title type="html"><![CDATA[Re: DCS Codes - Old/New, 9600 vs 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37664#p37664"><![CDATA[
+I know the last time I had issues with this I did a lot of research through the forums and didn't yield results beyond "these are the standard DCS codes and that's what we're sticking with." An example of functionality being added to the software that isn't supported by the hardware would be the blanket inclusion of GPS despite many radios not having that functionality. The only impact of the software including tones that aren't supported by the hardware is that the given radio may not work a repeater that's using the non-standard tones; which is no different result than the current situation but impedes radios whose hardware could.<br><br>If the radio does have the hardware to handle the wildcat tones, then according to internet research it could on occasion erroneously unsquelch thinking it's hearing the correct code, God forbid. I'd say it's up to the end user at that point to either skip it on the scan manually, or edit the channel details to control how the scan handles the channel to their liking, which is already within their ability with the existing software. I offer this thread as a case study, when an end user exploits a glitch in the CPS and the software that existed a year ago, then two different MD-9600's bought at two times work flawlessly, not even opening at random. The 1701 doesn't self-destruct, it just doesn't unsquelch for the tone it doesn't recognize. The user does get indication of activity on the channel, but has to manually monitor to see if they want to listen or not.<br><br>Are all polite edit requests met with "you're free to fix it yourself"? I appreciate that this is free and open source, and that counts for a lot; but I wouldn't have the first clue about how to proceed, and obviously spending the time learning how to edit my own copy would not update the ongoing changes that are taking place at the source. My workaround took a little time to figure out but nothing like trying to learn how to edit the source code. As far as time goes I do have an interest in this but it still took a week for me to circle back around to this and check this thread. At that rate I should be all set to make my own change in about fifteen years. I do appreciate that there are those with the willingness, time and the ability that are already deep into editing the software - and as a busy guy myself I do appreciate their efforts, completely.<br><br>I put up the details of the problem and my workaround to try to help others who could be trying to search around and deal with a similar problem in their circumstance, if nothing else.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6008">K3SAD</a> — Sun Jul 06, 2025 1:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-01T00:03:18</updated>
+
+		<published>2025-07-01T00:03:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37614#p37614</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37614#p37614"/>
+		<title type="html"><![CDATA[Re: DCS Codes - Old/New, 9600 vs 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37614#p37614"><![CDATA[
+<blockquote class="uncited"><div>Thanks for the heads up. Would it be possible to get non-standard DCS codes on the list? I understand convention is convention, but in order to keep Walmart radios from interfering with repeater operations some have taken pains to use elusive measures on their repeaters. If lesser radios can do it, it seems like a patently superior system like OpenGD77 would benefit greatly from it.</div></blockquote>I can't remember the history of this.. You would need to read the various threads on this forum about DCS support, especially the posts by Colin G4EML and Daniel F1RMB...<br><br>There are definititely legitimate reasons why the less standard DCS codes are not supported.<br><br>Generally with OpenGD77, functionality which the hardware does not reliably support, are not added.<br><br>You can of course download the source code and play with this youself.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jul 01, 2025 12:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3SAD]]></name></author>
+		<updated>2025-06-30T23:19:10</updated>
+
+		<published>2025-06-30T23:19:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37613#p37613</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37613#p37613"/>
+		<title type="html"><![CDATA[Re: DCS Codes - Old/New, 9600 vs 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37613#p37613"><![CDATA[
+Thanks for the heads up. Would it be possible to get non-standard DCS codes on the list? I understand convention is convention, but in order to keep Walmart radios from interfering with repeater operations some have taken pains to use elusive measures on their repeaters. If lesser radios can do it, it seems like a patently superior system like OpenGD77 would benefit greatly from it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6008">K3SAD</a> — Mon Jun 30, 2025 11:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-30T21:38:33</updated>
+
+		<published>2025-06-30T21:38:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37612#p37612</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37612#p37612"/>
+		<title type="html"><![CDATA[Re: DCS Codes - Old/New, 9600 vs 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37612#p37612"><![CDATA[
+The DM1701 hardware is significantly different from the MD9600, but the UV380 uses the same chips as the DM1701 so the DCS decoding will be the same on the UV380 as the DM1701<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 30, 2025 9:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3SAD]]></name></author>
+		<updated>2025-06-30T15:58:51</updated>
+
+		<published>2025-06-30T15:58:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37605#p37605</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37605#p37605"/>
+		<title type="html"><![CDATA[DCS Codes - Old/New, 9600 vs 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5197&amp;p=37605#p37605"><![CDATA[
+I've run through quite a bit of fiddling and have some observations, I'm trying to convey this as concisely and fully as possible.<br><br>I have two CPS programs on my laptop: Old (2023.05.08.01) and new (2024.12.20.01).<br><br>I originally loaded firmware onto my MD-9600 back when the old CPS was current, sorry, don't have the old firmware version. Current firmware on the MD-9600 is 20240323161355 [ 115b17b D ] HW v5 CPU:TYT.<br><br>There was a glitch in the old CPS that permitted one to tab into the fields of the channel setup screen and enter non-standard DCS codes. The MD-9600 pretty much worked with this arrangement and allowed me to work repeaters using non-standard DCS codes. Now and then it would forget to open squelch for any (not just non-standard "wildcat") DCS codes and it would have to have the codeplug refreshed to restore operation. CTCSS codes would work, but any DCS codes would fail to open squelch when it malfunctioned. When I updated to the new CPS I lost the ability to tab into the channel and enter wildcat DCS codes, but the newest CPS and firmware calmed the glitches for the most part and improved functionality. Through run of the mill corruption I lost the functionality for a time, before I remembered that I had a backup of the old CPS stored elsewhere. The interim solution worked well; I use the old CPS to restore the wildcat DCS codes and make any other changes/additions, then store the file, and use the new CPS to upload the revised codeplug to the radio. The MD-9600 stores, Tx, and Rx wildcat DCS codes with no issues now. For the most part the MD-9600 performs to the full possibility of the OpenGD77 setup and I love it.<br><br>Then I bought a Baofeng DM-1701 and uploaded the newest firmware (20241215112702 [2dc33f6 D] CPU:TYT) and have found that with the same codeplug everything works except for the wildcat DCS codes. Is this a hardware limitation? The wildcat codes will upload and store and display on the HT, but transmit and receive do not function. I am considering purchasing a TYT MD-UV390 explicitly to get full functionality from a handheld, because aside from the lack of functionality for this one club's repeaters the software is phenomenal. Given that TYT works and Baofeng doesn't with these two models, it lends itself that the TYT handheld will perform where the Baofeng fell short. Options/opinions?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6008">K3SAD</a> — Mon Jun 30, 2025 3:58 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4891" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-21T00:17:08</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4891</id>
+
+		<entry>
+		<author><name><![CDATA[MM7MEF]]></name></author>
+		<updated>2025-02-21T00:17:08</updated>
+
+		<published>2025-02-21T00:17:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35862#p35862</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35862#p35862"/>
+		<title type="html"><![CDATA[Re: Can't get MD-UV390 to connect]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35862#p35862"><![CDATA[
+<blockquote class="uncited"><div>I thought that MD-UV390 had a cable similar to MD-2017 but it seems that it's a K-type cable similar to the one on RT3S/MD-UV380.<br><br>So I guess it's connected the same as those cables and is passive.<br><br>RT3S_MD-UV380_GD77_cable_1.jpg</div></blockquote>I'll break out the multimeter and confirm it matches, thanks for this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5877">MM7MEF</a> — Fri Feb 21, 2025 12:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-20T11:08:37</updated>
+
+		<published>2025-02-20T11:08:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35853#p35853</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35853#p35853"/>
+		<title type="html"><![CDATA[Re: Can't get MD-UV390 to connect]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35853#p35853"><![CDATA[
+I thought that MD-UV390 had a cable similar to MD-2017 but it seems that it's a K-type cable similar to the one on RT3S/MD-UV380.<br><br>So I guess it's connected the same as those cables and is passive.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2856&amp;sid=3ddaeba6ab92a6e7a97b77de25479379" class="postimage" alt="RT3S_MD-UV380_GD77_cable_1.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Feb 20, 2025 11:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MM7MEF]]></name></author>
+		<updated>2025-02-20T10:43:17</updated>
+
+		<published>2025-02-20T10:43:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35850#p35850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35850#p35850"/>
+		<title type="html"><![CDATA[Re: Can't get MD-UV390 to connect]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35850#p35850"><![CDATA[
+<blockquote class="uncited"><div>Try pushing the cable more firmly into the socket on the radio. On new radios often the plug does not go in properly. I had this with rt3s.</div></blockquote>I have checked this thanks, the cable I'm using has even had to have some of the plastic shaved back on the K plug to ensure a good fit on a radio I programmed for a friend.<br><blockquote class="uncited"><div>I would say, wrong cable maybe..</div></blockquote>Thanks for the suggestion, but on so far as I can tell it's the right one, I have tried cables with chips in them just incase but nothing there either.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5877">MM7MEF</a> — Thu Feb 20, 2025 10:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-19T17:48:51</updated>
+
+		<published>2025-02-19T17:48:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35834#p35834</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35834#p35834"/>
+		<title type="html"><![CDATA[Re: Can't get MD-UV390 to connect]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35834#p35834"><![CDATA[
+I would say, wrong cable maybe..<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Feb 19, 2025 5:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-02-19T17:37:12</updated>
+
+		<published>2025-02-19T17:37:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35833#p35833</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35833#p35833"/>
+		<title type="html"><![CDATA[Re: Can't get MD-UV390 to connect]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35833#p35833"><![CDATA[
+Try pushing the cable more firmly into the socket on the radio. On new radios often the plug does not go in properly. I had this with rt3s.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Wed Feb 19, 2025 5:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MM7MEF]]></name></author>
+		<updated>2025-02-19T15:46:57</updated>
+
+		<published>2025-02-19T15:46:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35829#p35829</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35829#p35829"/>
+		<title type="html"><![CDATA[Can't get MD-UV390 to connect]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4891&amp;p=35829#p35829"><![CDATA[
+Thanks in advance for any assistance you can offer, I'm not very good with software problems.<br><br>I have previously flashed OpenGD77 to multiple Baofeng DM1701 and have updated the CPS and driver, and tested the cable with one of them - confirmed working today.<br><br>I want to flash OpenGD77 to a new radio, a TYT MD UV390 (10w version with GPS - from what I have read I believe this to be possible). I have put the radio into DFU mode, and when plugging the cable into the laptop (running windows 10) I get a "USB device not recognised" message. The new device shows up in device manager under 'Universal Serial Bus controllers' as "<strong class="text-strong">Unknown USB device (Device Descriptor Request Failed)</strong>". I have tried deleting the device and reconnecting, all to no avail.<br><br>Do you have any suggestions on what to try?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5877">MM7MEF</a> — Wed Feb 19, 2025 3:46 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

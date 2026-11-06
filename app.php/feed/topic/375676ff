@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3756" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-12T19:09:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3756</id>
+
+		<entry>
+		<author><name><![CDATA[IS0HZA]]></name></author>
+		<updated>2024-02-12T19:09:24</updated>
+
+		<published>2024-02-12T19:09:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29461#p29461</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29461#p29461"/>
+		<title type="html"><![CDATA[Re: Opengd77cps installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29461#p29461"><![CDATA[
+I didn't know the manual, but I solved it anyway. In the retevis openg77 hotspot section, instead of selecting "MMDVM" you should select BlueDV. Now everything is fine. Followed the manual for other details, thanks again. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5542">IS0HZA</a> — Mon Feb 12, 2024 7:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-02-06T16:26:04</updated>
+
+		<published>2024-02-06T16:26:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29321#p29321</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29321#p29321"/>
+		<title type="html"><![CDATA[Re: Opengd77cps installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29321#p29321"><![CDATA[
+<blockquote class="uncited"><div>Openg77 installed, but I can't find the setting to activate mmdvm as hotspot.<br>I must have made some mistake.</div></blockquote>Like, reading the manual ?  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#hotspot" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... md#hotspot</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Feb 06, 2024 4:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IS0HZA]]></name></author>
+		<updated>2024-02-06T16:00:09</updated>
+
+		<published>2024-02-06T16:00:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29320#p29320</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29320#p29320"/>
+		<title type="html"><![CDATA[Re: Opengd77cps installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29320#p29320"><![CDATA[
+Openg77 installed, but I can't find the setting to activate mmdvm as hotspot.<br>I must have made some mistake.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5542">IS0HZA</a> — Tue Feb 06, 2024 4:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IS0HZA]]></name></author>
+		<updated>2024-02-05T23:36:47</updated>
+
+		<published>2024-02-05T23:36:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29311#p29311</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29311#p29311"/>
+		<title type="html"><![CDATA[Re: Opengd77cps installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29311#p29311"><![CDATA[
+Thank you so much, you have been very helpful. Now I will try to transform the Retevis and keep you updated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5542">IS0HZA</a> — Mon Feb 05, 2024 11:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-05T22:45:36</updated>
+
+		<published>2024-02-05T22:45:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29309#p29309</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29309#p29309"/>
+		<title type="html"><![CDATA[Re: Opengd77cps installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29309#p29309"><![CDATA[
+<blockquote class="uncited"><div>Good evening everyone, as the title suggests, I am looking for the application indicated for the RT3S retevis. I can't solve it. I can't find OpenGD77CPS intasller. Various found but not the cps. Where could I look?<br>Thank you very much for helping. Greetings</div></blockquote>See the announcements section of this part of the forum, specifically<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3707" class="postlink">viewtopic.php?f=12&amp;t=3707</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 05, 2024 10:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IS0HZA]]></name></author>
+		<updated>2024-02-05T22:30:15</updated>
+
+		<published>2024-02-05T22:30:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29308#p29308</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29308#p29308"/>
+		<title type="html"><![CDATA[Opengd77cps installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3756&amp;p=29308#p29308"><![CDATA[
+Good evening everyone, as the title suggests, I am looking for the application indicated for the RT3S retevis. I can't solve it. I can't find OpenGD77CPS intasller. Various found but not the cps. Where could I look?<br>Thank you very much for helping. Greetings<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5542">IS0HZA</a> — Mon Feb 05, 2024 10:30 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

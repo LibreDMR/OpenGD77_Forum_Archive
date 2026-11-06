@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/26" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-08T15:12:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/26</id>
+
+		<entry>
+		<author><name><![CDATA[KE1L]]></name></author>
+		<updated>2023-08-08T15:12:14</updated>
+
+		<published>2023-08-08T15:12:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2714&amp;p=24888#p24888</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2714&amp;p=24888#p24888"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: MD-2017 running latest OpenMDUV380(openGD77)]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2714&amp;p=24888#p24888"><![CDATA[
+The Retevis RT-82 is their clone of the TYT MD-2017. The radios can use each other's firmware and CPS. It's not surprising that it would misbehave in the same way with existing firmware.<br><br>The most difficult part of supporting any of these might be the mini-trackball. Then again, it's the worst feature of the radio and it has plenty of buttons, so it wouldn't be horrible if the trackball isn't implemented at all.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4032">KE1L</a> — Tue Aug 08, 2023 3:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KE1L]]></name></author>
+		<updated>2023-06-14T07:45:10</updated>
+
+		<published>2023-06-14T07:45:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2724&amp;p=23943#p23943</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2724&amp;p=23943#p23943"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: Where to buy a MD-2017]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2724&amp;p=23943#p23943"><![CDATA[
+I have an MD-2017, bought when it was first released. The miniature trackball is the radio's worst feature. It's far too easy to move, and in the usual configuration moving changes to another channel; if you try to put the radio in your pocket or on your belt, the frequency will change more often than not. The MD-2017 has plenty of programmable buttons that could allow it to be used pretty much like a GD77 or MD-UV380, so I'd like to see alternate firmware ignore the trackball altogether or perhaps only use it while you are in the menu system.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4032">KE1L</a> — Wed Jun 14, 2023 7:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-06-03T20:46:11</updated>
+
+		<published>2023-06-03T20:46:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2714&amp;p=23830#p23830</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2714&amp;p=23830#p23830"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: MD-2017 running latest OpenMDUV380(openGD77)]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2714&amp;p=23830#p23830"><![CDATA[
+<blockquote class="uncited"><div>Hello all, I have a Vetomile, amazon brother of MD2017... any advance with this firmware ???</div></blockquote>Hi one has time to start work on this yet<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jun 03, 2023 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA5SW]]></name></author>
+		<updated>2023-06-02T21:06:30</updated>
+
+		<published>2023-06-02T21:06:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2714&amp;p=23808#p23808</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2714&amp;p=23808#p23808"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: MD-2017 running latest OpenMDUV380(openGD77)]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2714&amp;p=23808#p23808"><![CDATA[
+Hello all, I have a Vetomile, amazon brother of MD2017... any advance with this firmware ???<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=81">EA5SW</a> — Fri Jun 02, 2023 9:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yo8sct]]></name></author>
+		<updated>2023-04-10T08:55:28</updated>
+
+		<published>2023-04-10T08:55:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2714&amp;p=22917#p22917</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2714&amp;p=22917#p22917"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: MD-2017 running latest OpenMDUV380(openGD77)]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2714&amp;p=22917#p22917"><![CDATA[
+I had the same problems when installing the firmware on RT82.<br><br>73 de YO8SCT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3724">yo8sct</a> — Mon Apr 10, 2023 8:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-31T21:03:25</updated>
+
+		<published>2023-03-31T21:03:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2787&amp;p=22807#p22807</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2787&amp;p=22807#p22807"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: MD-2017 open GD 77]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2787&amp;p=22807#p22807"><![CDATA[
+<blockquote class="uncited"><div>Hello<br>I have two tyt MD2017s, will they be able to be supported by open gd77 in the near future?<br> Thanks<br>  73</div></blockquote>Future, possibly.<br><br>"Near future", probably not, because this radio ihas significantly different hardware to the UV380/RT3S/DM1701<br><br>The UV380 took over a year to get the firmware working.  The MD9600 took 6 months, because it used some of the development for the UV380<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 31, 2023 9:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-19T20:14:37</updated>
+
+		<published>2023-03-19T20:14:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2724&amp;p=22674#p22674</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2724&amp;p=22674#p22674"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: Where to buy a MD-2017]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2724&amp;p=22674#p22674"><![CDATA[
+<blockquote class="uncited"><div>Measured on my RT82 cable.<br><br>RT82 Connector 12.jpg</div></blockquote>Thanks<br><br>I already made a cable by modifying a cable from a Radioddity GD55Plus<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Mar 19, 2023 8:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-03-19T11:22:55</updated>
+
+		<published>2023-03-19T11:22:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2724&amp;p=22673#p22673</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2724&amp;p=22673#p22673"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: Where to buy a MD-2017]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2724&amp;p=22673#p22673"><![CDATA[
+Measured on my RT82 cable.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1599&amp;sid=e4a6fb123c8e4269c011d27f587d2cf8" class="postimage" alt="RT82 Connector 12.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Mar 19, 2023 11:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-18T09:55:40</updated>
+
+		<published>2023-03-18T09:55:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22660#p22660</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22660#p22660"/>
+		<title type="html"><![CDATA[TYT MD-2017 / RT-82 • Re: TYT MD-2017 Teardown]]></title>
+
+					<category term="TYT MD-2017 / RT-82" scheme="http://localhost/opengd77/viewforum.php?f=26" label="TYT MD-2017 / RT-82"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22660#p22660"><![CDATA[
+BTW.<br><br>Possibly the track ball is the same as the one used by this Sparkfun breakout board<br><br><a href="https://littlebirdelectronics.com.au/products/sparkfun-blackberry-trackballer-breakout" class="postlink">https://littlebirdelectronics.com.au/pr ... r-breakout</a><br><br>Which references this schematic<br><br><a href="https://cdn.sparkfun.com/datasheets/Components/Switches/SparkFun_Blackberry_Trackballer_Breakout_v13.pdf" class="postlink">https://cdn.sparkfun.com/datasheets/Com ... ut_v13.pdf</a><br><br>There appears to a 9 track ribbon cable going to the track ball.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 18, 2023 9:55 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

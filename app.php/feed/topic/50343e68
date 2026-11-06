@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5034" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-11T02:19:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5034</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-11T02:19:24</updated>
+
+		<published>2025-04-11T02:19:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36698#p36698</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36698#p36698"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36698#p36698"><![CDATA[
+<blockquote class="uncited"><div>OK... I just tried it. Instead of typing in the different regions... I copied <br>and pasted the regions you said to put into the Region field (1,30,31,32,330 )<br>and when I clicked on "Download"...  the software looked like it had<br>downloaded data... it said it was processing the data... but then it<br>said the total number of IDs that was downloaded was 0.<br><br>However... after the download process process happened with 0 info<br>getting downloaded... the Column Filters did get changed to names<br>and not just numbers<br><br>Mike - N1EVH</div></blockquote>I suggest you to update firmware and CPS to the latest versions. Your CPS is too old, and doesn't supports multiple regions at once.<br>About the column data, I don't get your problem. You need to download data to display anything there, but once you close the data, they are dropped.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Apr 11, 2025 2:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1evh]]></name></author>
+		<updated>2025-04-11T01:12:44</updated>
+
+		<published>2025-04-11T01:12:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36697#p36697</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36697#p36697"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36697#p36697"><![CDATA[
+Here is a picture of my screen showing the firmware version<br><br>Mike - N1EVH<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2918&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="PXL_20250411_010732440_cr.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6514">n1evh</a> — Fri Apr 11, 2025 1:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1evh]]></name></author>
+		<updated>2025-04-11T01:04:44</updated>
+
+		<published>2025-04-11T01:04:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36696#p36696</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36696#p36696"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36696#p36696"><![CDATA[
+OK... I just tried it. Instead of typing in the different regions... I copied <br>and pasted the regions you said to put into the Region field (1,30,31,32,330 )<br>and when I clicked on "Download"...  the software looked like it had<br>downloaded data... it said it was processing the data... but then it<br>said the total number of IDs that was downloaded was 0.<br><br>However... after the download process process happened with 0 info<br>getting downloaded... the Column Filters did get changed to names<br>and not just numbers<br><br>Mike - N1EVH<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2917&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="Capture_04102025_205831.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6514">n1evh</a> — Fri Apr 11, 2025 1:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1evh]]></name></author>
+		<updated>2025-04-11T00:56:32</updated>
+
+		<published>2025-04-11T00:56:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36695#p36695</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36695#p36695"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36695#p36695"><![CDATA[
+Well the CPS version I'm using is R2024.06.21.01 (as seen in the attached<br>screen capture) and the firmware in my radio is says Built 20240908143155<br>and then under that it says... 9947546 D<br><br>When I bought this TYT radio... I believe this was the latest firmware and<br>CPS for it and I haven't update either one.<br><br>The problem with selecting the fields I want is... when I first go into the<br>the "Download Callsign Database" is... the "column filters" are numbered<br>1 thru 5. It doesn't show the field names until AFTER I download things.<br><br>I'll *try* to put the multiple region numbers in the Region field... but the<br>last time I tried that nothing for downloaded.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2916&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="Capture_04102025_204417_cr.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2915&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="Capture_04102025_204936.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6514">n1evh</a> — Fri Apr 11, 2025 12:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-08T02:22:21</updated>
+
+		<published>2025-04-08T02:22:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36653#p36653</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36653#p36653"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36653#p36653"><![CDATA[
+As KA1CM suspects (and I can confirm from your image of the DMR ID downloader window), your CPS is too old.<br><br>Tell us the CPS and firmware version you're using.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Apr 08, 2025 2:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-04-08T00:22:07</updated>
+
+		<published>2025-04-08T00:22:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36652#p36652</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36652#p36652"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36652#p36652"><![CDATA[
+What I did to achieve the result I think you want is:<br><br>i) Go to 'Extras", "Download callsign database" in the current (or correct for your firmware version if not the latest) OpenGD77 CPS.<br><br>ii) Enter 1,30,31,32,330 in the Region field.<br><br>iii) Select the fields you wish to have on your radio in the column filter area immediately above the table . Do not change the "Separator" value unless you have a specific need to do so.<br><br>iv) Without making any other changes, click on the "Download from" button immediately below the region field. This should download the required regional DMR IDs and populate the table with the fields you have selected..<br><br>v)  In the "Data record length" box below and left of the table, select "50" from the drop down list.<br><br>vi) Connect and power on your radio, then click on the "Write to radio" button at the bottom right of the widow and wait patiently until it's finished - job done!<br><br>FYI - When I did this I had 129342 records returned for the region search 1,30,31,32,330 and 279142 if I left the region field blank - remember that just because you only go into USA based TGs it doesn't mean that only USA based operators will be on those groups.<br><br>Hope this helps you achieve what you want.<br><br>Mike.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Tue Apr 08, 2025 12:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-07T22:57:26</updated>
+
+		<published>2025-04-07T22:57:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36648#p36648</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36648#p36648"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36648#p36648"><![CDATA[
+What is your CPS and firmware version?<br>The current CPS version is 20250323. The version number is on the top left corner of the CPS window.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2910&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="Screenshot (6).png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Apr 07, 2025 10:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1evh]]></name></author>
+		<updated>2025-04-07T21:34:24</updated>
+
+		<published>2025-04-07T21:34:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36647#p36647</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36647#p36647"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36647#p36647"><![CDATA[
+OK... I copied/pasted the regions you said to use for US and Canada DMR IDs<br>into the CPS. I then selected to download from RadioID.net and then clicked<br>on "Download from...".<br><br>When I did this... the progress bar was indicating that it was downloading<br>the data. When it was done... it said...<br><br>Total number of IDs = 0. Max of 937163 can be uploaded<br><br>So... apparently it didn't download anything. I also tried to download from<br>HamDigital... and downloaded nothing. I then tried to download from URL<br>using the URL that is default in the program... and it said...<br><br>Unable to download data. Check your internet connection<br><br>... which is odd because if I'm on here typing this message while trying to<br>download a DMR ID list from a website... then I obviously have an internet<br>connection.<br><br>If I remove all of the region numbers and leave it blank and then click on<br>download from RadioID.net... it downloads all 279142 DMR IDs (which<br>shows that I obviously have an internet connection even tho the Download<br>from URL doesn't think I do) . However... the window underneath still only<br>shows DMR ID number and callsigns... no names... no cities... no states,<br>no countries.<br><br>I also notice that there is a "Column Filter"... where you can put a checkmark<br>for First Name, Last Name, City, State, and Country... but checking off any<br>of those does nothing <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"><br><br>So whether I download a .CSV file from someplace else or download the<br>DMR ID data thru the CPS... I'm only seeing the DMR ID numbers and the<br>callsigns in the CPS and in the radio <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"><br><br>Is the .CSV file format for the DMR ID info for Opengd77 compatible <br>with ANY radio (ie: if I download a .CSV list for a certain TYT or certain<br>Retevis radio it will work with Opengd77 CPS) or does the Opengd77<br>CPS use its own .CSV format that isn't compatible with any other<br>radio???<br><br>Mike - N1EVH<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2909&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="Capture_04072025_165615.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2908&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="Capture_04072025_165633.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2907&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="Capture_04072025_171935.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6514">n1evh</a> — Mon Apr 07, 2025 9:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-05T17:39:48</updated>
+
+		<published>2025-04-05T17:39:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36607#p36607</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36607#p36607"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36607#p36607"><![CDATA[
+<blockquote class="uncited"><div><br><br>The reason why I only want to install USA and Canada is... well... the talkgroups that<br>I go on are pretty much USA or Canada... where every callsign I see are from hams<br>in the USA or Canada.  I don't go onto the Worldwide talkgroup and I don't go into<br>talkgroups in other countries... and so on.<br><br><br>Mike - N1EVH</div></blockquote>OK, I can see the csv file is not supported by the CPS. the header row is weird. If you can point me to the file URL, I might be able to fix it for you. Another thing is the record length, please set it to maximum (50).<br><br><br>BTW, If you don't mind download the whole world database, it just take a little longer to write to the radio, you can try this thread.<br><a href="https://www.opengd77.com/viewtopic.php?f=7&amp;t=3997" class="postlink">viewtopic.php?f=7&amp;t=3997</a><br><br>BTW, again, For U.S. and Canada, you can put 1,30,31,32,330 in the region area (330 is Puerto Rico, not so sure if you count it as US.) <br><br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Apr 05, 2025 5:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-05T15:48:14</updated>
+
+		<published>2025-04-05T15:48:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36606#p36606</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36606#p36606"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36606#p36606"><![CDATA[
+I don't see why you're using some random CSV to import (as SA0BUX mentionned, it looks the CSV format is not supported by the CPS).<br><br>You just want some regions ? Easy, define a list of region prefixes in the region text input, separated with commas (like <strong class="text-strong"><em class="text-italics">xxx,yyy,zzz</em></strong>), then hit "Download from" button.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Apr 05, 2025 3:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-05T14:50:43</updated>
+
+		<published>2025-04-05T14:50:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36605#p36605</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36605#p36605"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36605#p36605"><![CDATA[
+What's the url for the database you tried to import?<br><br>Your screenshot indicates that the format isn't compatible with the required format.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Apr 05, 2025 2:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1evh]]></name></author>
+		<updated>2025-04-05T14:41:04</updated>
+
+		<published>2025-04-05T14:41:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36604#p36604</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36604#p36604"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36604#p36604"><![CDATA[
+When I talk about "importing the .csv"... I'm talking about when you click on "Extras" <br>at the top... and then click on "Download callsign database". At the top on the right<br>there is a box to click on that says... "Import CSV".<br><br>The reason why I only want to install USA and Canada is... well... the talkgroups that<br>I go on are pretty much USA or Canada... where every callsign I see are from hams<br>in the USA or Canada.  I don't go onto the Worldwide talkgroup and I don't go into<br>talkgroups in other countries... and so on.<br><br>Like I said... the CSV file that I downloaded contains First name, City, State and<br>Country for all of the contacts in the USA and Canada... but NONE of that info gets<br>displayed in the software when I import the  .CSV and none of it gets displayed<br>in the radio when receiving a DMR signal... just their callsign is displayed.<br><br>When I import a .CSV file... I have to make the "Region" blank... or else it will<br>only import the data for that region number. I've tried playing around with the<br>"Data record length"... and still only get the callsign.<br><br>So... I'm trying to get the software/radio to display more than just the station's<br>callsign. I know when I receive a station on my AnyTone... it displays DMR ID<br>number, callsign, first name, city, state, country<br><br>Mike - N1EVH<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2902&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="Import CSV.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2901&amp;sid=74496e3a892c34c3424cacdf9707b8d3" class="postimage" alt="AnyTone D878.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6514">n1evh</a> — Sat Apr 05, 2025 2:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-05T00:04:03</updated>
+
+		<published>2025-04-05T00:04:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36600#p36600</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36600#p36600"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36600#p36600"><![CDATA[
+When you say you import the csv file into OpenGD77 CPS. Do you mean you imported it into the DMRID database screen part of the CPS and not the contacts part of the codeplug. Am I understanding correctly?<br><br>Can you take the screenshot of the download DMRID database window with everything set and ready to write to the radio?<br><br>Lastly, why do you only want database only for US. and Canada?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Apr 05, 2025 12:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3V]]></name></author>
+		<updated>2025-04-04T23:05:59</updated>
+
+		<published>2025-04-04T23:05:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36599#p36599</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36599#p36599"/>
+		<title type="html"><![CDATA[Re: DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36599#p36599"><![CDATA[
+<blockquote class="uncited"><div>OK... I haven't really played around with the DMR part of my TYT MD-UV380<br>since I put the Opengd77 firmware into it. Today... I decided to play around<br>with it some.<br><br>I seen for the DMR ID list... it could be downloaded from  RadioID.net or<br>HamDigital or you could specify a URL. I tried to download the DMR ID but<br>I was only getting under 5,000 DMR IDs. When I see the "Region" was set to<br>312 (by default)... I deleted that and left that field blank  and then I was<br>able to download I guess full DMR ID list (280,000+). <br><br>Well... I only wanted the USA and Canada... so I went to a different site<br>where I was able to download the the USA and Canada. I told the site<br>that I was downloading it for use on the TYR MD-380/390. I downloaded<br>a .CSV file with 131,000+ DRM IDs.<br><br>I then imported this .CSV file into the Opengd77 software and wrote it<br>to the radio. When receiving a DMR transmission... it was only showing<br>me the callsign of the DMR station. The .CSV file I have has First name,<br>Country, City and State in it.<br><br>Now... is there a reason for nothing else getting displayed when I receive<br>a DMR transmission??? Is a downloaded file for the TYT MD-380/390 not<br>going to work properly with the Opengd77 software??? If so... then how<br>would I setup the Opengd77 software to only download DMR IDs for just<br>the USA and Canada???<br><br>Also... I see a setting in the Opengd77 software that says... "Data record<br>length"... the default is 16 characters. I tried setting this to 50 in hopes<br>it would display Callsign, Name, City, State, and Country... but still only<br>get the callsign displayed. I noticed that changing the number of characters<br>changes how many DMR IDs can be written to the radio.<br><br>So... I would really like to know if there is a way to get the radio to<br>show the Callsign, Name, City, State, and Country of  the DMR station<br>that I'm receiving... or will it only show the callsign<br><br>Thanks,<br><br>Mike - N1EVH</div></blockquote>Everything you're asking is in the OpenGD77 reference manual.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... r_Guide.md</a><br><br>EA3V  73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4014">EA3V</a> — Fri Apr 04, 2025 11:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1evh]]></name></author>
+		<updated>2025-04-04T22:25:09</updated>
+
+		<published>2025-04-04T22:25:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36598#p36598</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36598#p36598"/>
+		<title type="html"><![CDATA[DMR ID List...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5034&amp;p=36598#p36598"><![CDATA[
+OK... I haven't really played around with the DMR part of my TYT MD-UV380<br>since I put the Opengd77 firmware into it. Today... I decided to play around<br>with it some.<br><br>I seen for the DMR ID list... it could be downloaded from  RadioID.net or<br>HamDigital or you could specify a URL. I tried to download the DMR ID but<br>I was only getting under 5,000 DMR IDs. When I see the "Region" was set to<br>312 (by default)... I deleted that and left that field blank  and then I was<br>able to download I guess full DMR ID list (280,000+). <br><br>Well... I only wanted the USA and Canada... so I went to a different site<br>where I was able to download the the USA and Canada. I told the site<br>that I was downloading it for use on the TYR MD-380/390. I downloaded<br>a .CSV file with 131,000+ DRM IDs.<br><br>I then imported this .CSV file into the Opengd77 software and wrote it<br>to the radio. When receiving a DMR transmission... it was only showing<br>me the callsign of the DMR station. The .CSV file I have has First name,<br>Country, City and State in it.<br><br>Now... is there a reason for nothing else getting displayed when I receive<br>a DMR transmission??? Is a downloaded file for the TYT MD-380/390 not<br>going to work properly with the Opengd77 software??? If so... then how<br>would I setup the Opengd77 software to only download DMR IDs for just<br>the USA and Canada???<br><br>Also... I see a setting in the Opengd77 software that says... "Data record<br>length"... the default is 16 characters. I tried setting this to 50 in hopes<br>it would display Callsign, Name, City, State, and Country... but still only<br>get the callsign displayed. I noticed that changing the number of characters<br>changes how many DMR IDs can be written to the radio.<br><br>So... I would really like to know if there is a way to get the radio to<br>show the Callsign, Name, City, State, and Country of  the DMR station<br>that I'm receiving... or will it only show the callsign<br><br>Thanks,<br><br>Mike - N1EVH<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6514">n1evh</a> — Fri Apr 04, 2025 10:25 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

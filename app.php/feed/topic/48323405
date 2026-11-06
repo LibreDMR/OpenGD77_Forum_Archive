@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4832" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-03T19:15:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4832</id>
+
+		<entry>
+		<author><name><![CDATA[N3JAS]]></name></author>
+		<updated>2025-02-03T19:15:34</updated>
+
+		<published>2025-02-03T19:15:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35558#p35558</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35558#p35558"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35558#p35558"><![CDATA[
+<blockquote class="uncited"><div><br>G4EML posted some calculations about how long it took to charge the battery from completely flat, and its well in excess of 24 hours , possibly 48  hours or more.<br></div></blockquote>Whoa!  I left them on for 10 hours, thinking that would be sufficient.  Looks like I have awhile to go yet.  Thank you for this additional information.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4474">N3JAS</a> — Mon Feb 03, 2025 7:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-01T22:13:43</updated>
+
+		<published>2025-02-01T22:13:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35533#p35533</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35533#p35533"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35533#p35533"><![CDATA[
+<blockquote class="uncited"><div>[Dear VK3KYY,<br><br>Can we implement the changes you mentioned on our own radios? Specifically, you mentioned "connect the Rx audio to a spare ADC pin on the CPU." Is this feasible? If it is done, what kind of flexibility would it provide in the software?<br><br>I use the APRS feature frequently. If it can decode APRS signals, I am sure many amateur radio operators, including myself, who use OPENGD77, would perform this upgrade.<br><br>TA1ECA,<br>73</div></blockquote>We do not implement anything in OpenGD77 specifically for modified radios.<br><br>We implement GPS in OpenGD77 because some radios have an option to have an official GPS in them, then some people then fit GPS's into their radio because the firmware supports GPS.<br><br>But we don't implement anything which requires modification to all radios.<br><br>You can of course modify your own radio and modify the firmware source code to support whatever extra features you want.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Feb 01, 2025 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1ECA]]></name></author>
+		<updated>2025-02-01T08:55:08</updated>
+
+		<published>2025-02-01T08:55:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35525#p35525</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35525#p35525"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35525#p35525"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Thanks for the assistance; it is appreciated.</div></blockquote>The important thing is that the charge rate of the battery slow, so you need to leave the radio turned on for a very long time.<br><br>G4EML posted some calculations about how long it took to charge the battery from completely flat, and its well in excess of 24 hours , possibly 48  hours or more.<br><br>The radio needs to be turned on for the battery to charge. IMO this is a hardware design error, and the backup battery should probably be charged regardless of whether the radio is turned on or not, as it would not make any noticable difference to the main battery.  But this would require another separate LDO voltage regulator, which would add 10 cents to the BOM and the manufacturers of these radios cost cut to the extreme, and IMO don't think beyond the end of their nose.<br>i.e Why on earth wouldn't they connect the Rx audio to a spare ADC pin on the CPU, this would be a zero cost change, and add a huge amount of flexibility to the radio etc</div></blockquote>Dear VK3KYY,<br><br>Can we implement the changes you mentioned on our own radios? Specifically, you mentioned "connect the Rx audio to a spare ADC pin on the CPU." Is this feasible? If it is done, what kind of flexibility would it provide in the software?<br><br>I use the APRS feature frequently. If it can decode APRS signals, I am sure many amateur radio operators, including myself, who use OPENGD77, would perform this upgrade.<br><br>TA1ECA,<br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3071">TA1ECA</a> — Sat Feb 01, 2025 8:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-31T21:59:30</updated>
+
+		<published>2025-01-31T21:59:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35523#p35523</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35523#p35523"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35523#p35523"><![CDATA[
+<blockquote class="uncited"><div>Thanks for the assistance; it is appreciated.</div></blockquote>The important thing is that the charge rate of the battery slow, so you need to leave the radio turned on for a very long time.<br><br>G4EML posted some calculations about how long it took to charge the battery from completely flat, and its well in excess of 24 hours , possibly 48  hours or more.<br><br>The radio needs to be turned on for the battery to charge. IMO this is a hardware design error, and the backup battery should probably be charged regardless of whether the radio is turned on or not, as it would not make any noticable difference to the main battery.  But this would require another separate LDO voltage regulator, which would add 10 cents to the BOM and the manufacturers of these radios cost cut to the extreme, and IMO don't think beyond the end of their nose.<br>i.e Why on earth wouldn't they connect the Rx audio to a spare ADC pin on the CPU, this would be a zero cost change, and add a huge amount of flexibility to the radio etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 31, 2025 9:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N3JAS]]></name></author>
+		<updated>2025-01-31T21:15:41</updated>
+
+		<published>2025-01-31T21:15:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35522#p35522</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35522#p35522"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35522#p35522"><![CDATA[
+Thanks for the assistance; it is appreciated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4474">N3JAS</a> — Fri Jan 31, 2025 9:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-31T20:53:56</updated>
+
+		<published>2025-01-31T20:53:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35521#p35521</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35521#p35521"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35521#p35521"><![CDATA[
+<blockquote class="uncited"><div>One quick follow-up question.  I have the eco level set to 5.  Would this at all impact the charging of the internal battery?</div></blockquote>NO.<br><br>The RTC backup battery is charged via a resistor from the main supply and is not at all controlled by the firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 31, 2025 8:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-31T20:23:03</updated>
+
+		<published>2025-01-31T20:23:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35520#p35520</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35520#p35520"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35520#p35520"><![CDATA[
+<blockquote class="uncited"><div>One quick follow-up question.  I have the eco level set to 5.  Would this at all impact the charging of the internal battery?</div></blockquote>I guess no, anyway that value is too high and could affect reception, I generally leave that value in the middle, for example in level 3.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Jan 31, 2025 8:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N3JAS]]></name></author>
+		<updated>2025-01-31T19:40:15</updated>
+
+		<published>2025-01-31T19:40:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35519#p35519</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35519#p35519"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35519#p35519"><![CDATA[
+One quick follow-up question.  I have the eco level set to 5.  Would this at all impact the charging of the internal battery?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4474">N3JAS</a> — Fri Jan 31, 2025 7:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N3JAS]]></name></author>
+		<updated>2025-01-31T19:24:49</updated>
+
+		<published>2025-01-31T19:24:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35517#p35517</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35517#p35517"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35517#p35517"><![CDATA[
+Got it.  Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4474">N3JAS</a> — Fri Jan 31, 2025 7:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-31T18:08:03</updated>
+
+		<published>2025-01-31T18:08:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35515#p35515</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35515#p35515"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35515#p35515"><![CDATA[
+<blockquote class="uncited"><div>probably the internal battery is uncharged.</div></blockquote>Seems so.<br>So you need to leave the transceiver ON many hours to recharge it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 31, 2025 6:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-31T17:42:32</updated>
+
+		<published>2025-01-31T17:42:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35513#p35513</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35513#p35513"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35513#p35513"><![CDATA[
+probably the internal battery is uncharged.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Jan 31, 2025 5:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N3JAS]]></name></author>
+		<updated>2025-01-31T15:39:05</updated>
+
+		<published>2025-01-31T15:39:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35508#p35508</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35508#p35508"/>
+		<title type="html"><![CDATA[TYT MD-UV380 - Date &amp; Time]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4832&amp;p=35508#p35508"><![CDATA[
+Has anyone else been experiencing an issue with the MD-UV380, in which the radio does not keep time?  I have three of these radios, and two of the three don't keep accurate time at all.  I'll set the time properly (I also have my UTC setting and offset set correctly), and it displays correctly when I exit and go back into the time setting (so I know my changes took effect).  If I turn off the radio and turn it back on, the time is correct.  But if I turn it off for a greater amount of time (a day or so), the next time I go to use it, it's way off (by something like one day and seven hours...this varies).  It's almost like the radio stopped tracking time while it was turned off.  I'm using firmware 20250128, but this was happening on past versions as well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4474">N3JAS</a> — Fri Jan 31, 2025 3:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4818" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-29T19:40:31</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4818</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-29T19:40:31</updated>
+
+		<published>2025-01-29T19:40:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35468#p35468</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35468#p35468"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35468#p35468"><![CDATA[
+<blockquote class="uncited"><div>Thank you so much! That cleared the one thing about DMR I was having trouble with!</div></blockquote>If you use the official firmware, you would need to do as you previously thought.<br><br>OpenGD77 is written by hams for Amateur Radio use, and hence makes things far easier<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 29, 2025 7:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-29T18:01:12</updated>
+
+		<published>2025-01-29T18:01:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35467#p35467</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35467#p35467"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35467#p35467"><![CDATA[
+Thank you so much! That cleared the one thing about DMR I was having trouble with!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Wed Jan 29, 2025 6:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-01-29T14:54:38</updated>
+
+		<published>2025-01-29T14:54:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35462#p35462</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35462#p35462"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35462#p35462"><![CDATA[
+Jep, that's right. (Simplifying) Just for your convenience so you don't have to remember these numbers.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Wed Jan 29, 2025 2:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-29T14:52:52</updated>
+
+		<published>2025-01-29T14:52:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35461#p35461</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35461#p35461"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35461#p35461"><![CDATA[
+Great! So all I need talkgroups (or lists) is for my personal contacts or groups I'll be transmitting to.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Wed Jan 29, 2025 2:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-01-29T14:48:51</updated>
+
+		<published>2025-01-29T14:48:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35460#p35460</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35460#p35460"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35460#p35460"><![CDATA[
+Yes, that's right. Radio can hear everything what is on repeater or hotspot, if you have dmr/ts filters turned off etc. All this you can set in a quick menu from the radio. <br>You don't have to programm these groups in codeplug. It is the advantage of OpenGD77, is much simpler.<br>In addition, if you want to TX on some group that you will not have programmed, you can simply enter its number on the keyboard (after pressing #) and connect to it. The same with private contact with the difference that you press # x2.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Wed Jan 29, 2025 2:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-29T13:24:57</updated>
+
+		<published>2025-01-29T13:24:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35459#p35459</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35459#p35459"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35459#p35459"><![CDATA[
+So the radio will be able to receive a call even if not in a talkgroup?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Wed Jan 29, 2025 1:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-29T06:02:08</updated>
+
+		<published>2025-01-29T06:02:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35453#p35453</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35453#p35453"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35453#p35453"><![CDATA[
+<blockquote class="uncited"><div>I have all the talkgroups along with the brandmeister callsign database so when someone keys up, I can see callsign and name info along with the region they're from. If there is another way to accomplish this, it would be welcomed.</div></blockquote>You are doing things wrong<br><br>Use the DMR ID database to display the callsign and name. i.e load the DMR ID database into the radio using the CPS<br><br>Digital Contcats  are used for Tx and not as the primary means to display the callsign (albeit the firmware does also search the Digital contacts if it can't find the ID in the DMR ID database, and albeit you can change the search order etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 29, 2025 6:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-28T21:50:38</updated>
+
+		<published>2025-01-28T21:50:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35443#p35443</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35443#p35443"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35443#p35443"><![CDATA[
+I have all the talkgroups along with the brandmeister callsign database so when someone keys up, I can see callsign and name info along with the region they're from. If there is another way to accomplish this, it would be welcomed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Tue Jan 28, 2025 9:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-28T18:30:25</updated>
+
+		<published>2025-01-28T18:30:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35439#p35439</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35439#p35439"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35439#p35439"><![CDATA[
+Also, if you press three time on the # key, you can have access to the whole contact list.<br>The OpenGD77 firmware is more designed to have a channel per repeater, one contact list linked to it, then you can change the current TS, type the TG/PC ID, or select any contact from the codeplug contacts.<br><br>Of course, this is not mandatory, but it makes the life much easier, in opposite of the "commercial" DMR way (on channel per contact, per TG/PC: a total nightmare...).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jan 28, 2025 6:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-01-28T18:18:26</updated>
+
+		<published>2025-01-28T18:18:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35438#p35438</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35438#p35438"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35438#p35438"><![CDATA[
+Why do you need so many talkgroups? After all, you don't need to have them all inside the codeplug to be able to RX or to TX on them, you can always enter the group manually from the radio after #. Same with the time slots, you can change it with *. Sorry but I can't help because I don't understand your point of view.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Tue Jan 28, 2025 6:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-28T18:08:32</updated>
+
+		<published>2025-01-28T18:08:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35436#p35436</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35436#p35436"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35436#p35436"><![CDATA[
+I have 764 talkgroups which i have broken into 27 lists since opengd77 allows only 32 talkgroups per list unless I am mistaken and there are more allowed.  Would just a TS 1 and TS 2 channels be enough to cover all of them?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Tue Jan 28, 2025 6:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-01-28T17:14:19</updated>
+
+		<published>2025-01-28T17:14:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35433#p35433</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35433#p35433"/>
+		<title type="html"><![CDATA[Re: Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35433#p35433"><![CDATA[
+I think you do it wrong  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink">  I have 2 talkgroup lists for instance and something about 300 channels  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> Download some codeplug and see how to do it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Tue Jan 28, 2025 5:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-28T17:04:39</updated>
+
+		<published>2025-01-28T17:04:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35432#p35432</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35432#p35432"/>
+		<title type="html"><![CDATA[Talkgroups and Channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4818&amp;p=35432#p35432"><![CDATA[
+Is it necessary to program a channel for each talkgroup list?<br>I have 27 talkgroup lists and have a TS 1 and TS 2 channel for each of the talkgroup lists. Is this overkill or can I program 2 channels, one with TS 1 and one withTS 2 and associate them with Brandmeister since all all my talkgroups are Brandmeister?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Tue Jan 28, 2025 5:04 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

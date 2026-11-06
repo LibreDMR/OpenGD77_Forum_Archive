@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2796" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-04-11T21:15:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2796</id>
+
+		<entry>
+		<author><name><![CDATA[VE3RD]]></name></author>
+		<updated>2023-04-11T21:15:55</updated>
+
+		<published>2023-04-11T21:15:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22934#p22934</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22934#p22934"/>
+		<title type="html"><![CDATA[Re: TYT MD-398 UHF]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22934#p22934"><![CDATA[
+I cannot seem to find a Retevis GD55 as referenced above. There is a an RT-55 that is a Marine Radio<br>However the RT83- looks much like the TYT MD-398 so I downloaded the cps and it works fine with the  MD-398.<br>In fact it appears to work better as the TYT version has some issues with the Group Lists<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3733">VE3RD</a> — Tue Apr 11, 2023 9:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE3RD]]></name></author>
+		<updated>2023-04-09T00:53:39</updated>
+
+		<published>2023-04-09T00:53:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22890#p22890</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22890#p22890"/>
+		<title type="html"><![CDATA[Re: TYT MD-398 UHF]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22890#p22890"><![CDATA[
+I did not buy this radio. It was given to me by someone that also had it given to them, when they found it could not be used on a dmr repeater. <br><br>I have, however, got it working on TS2 through a hotspot and working  well.<br>In this mode it is a good radio, 10w power and excellent audio on rx. Good reports on tx<br>It is also an excellent radio for use on FM analog repeaters.<br><br>I just thought that with its 10w output it would make a good radio for a high power opengd77 hotspot.<br>Not to worry. It works well into the tyt-md390 opengd77 hotspot<br><br>The ONLY negative is that it cannot be used on a true DMR repeater. With this in mind I would give it a solid 3 rating.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3733">VE3RD</a> — Sun Apr 09, 2023 12:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE1MWW]]></name></author>
+		<updated>2023-04-07T07:04:34</updated>
+
+		<published>2023-04-07T07:04:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22869#p22869</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22869#p22869"/>
+		<title type="html"><![CDATA[Re: TYT MD-398 UHF]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22869#p22869"><![CDATA[
+<blockquote class="uncited"><div>The 10watt md-398 would give me more range. </div></blockquote>The Chinese advertisement illusion of 'power' and 'more range'.<br><br>before you buy a new gear:<br>a.) check the OpenGD77 compatibility <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... r_Guide.md</a><br>b.) have a look here: <a href="https://quality2wayradios.com/store/radio-range-distance" class="postlink">https://quality2wayradios.com/store/rad ... e-distance</a><br>c.) if you own a compatible gear, experiment with different 'rubber duck' and similar antennas. <br>    You will be surprised by the difference.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1203">OE1MWW</a> — Fri Apr 07, 2023 7:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2023-04-07T05:22:40</updated>
+
+		<published>2023-04-07T05:22:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22868#p22868</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22868#p22868"/>
+		<title type="html"><![CDATA[Re: TYT MD-398 UHF]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22868#p22868"><![CDATA[
+It's so funny that people instead of buying compatible radio, rather ask developer to develop opengd77 just because they own some different radio. MD398 looks more or less the same like rt3s, so why develop for 999 different radios instead of focusing on development of the FW.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_question.gif" width="15" height="17" alt=":?:" title="Question">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_question.gif" width="15" height="17" alt=":?:" title="Question">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_question.gif" width="15" height="17" alt=":?:" title="Question">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_confused.gif" width="15" height="17" alt=":?" title="Confused">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_confused.gif" width="15" height="17" alt=":?" title="Confused"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Fri Apr 07, 2023 5:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-04-06T17:43:19</updated>
+
+		<published>2023-04-06T17:43:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22867#p22867</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22867#p22867"/>
+		<title type="html"><![CDATA[Re: TYT MD-398 UHF]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22867#p22867"><![CDATA[
+The MD398 is the same as the GD55. This has been discussed before and is not compatible with the OpenGD firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Apr 06, 2023 5:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE3RD]]></name></author>
+		<updated>2023-04-06T11:50:36</updated>
+
+		<published>2023-04-06T11:50:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22865#p22865</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22865#p22865"/>
+		<title type="html"><![CDATA[Re: TYT MD-398 UHF]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22865#p22865"><![CDATA[
+Different Radio<br><br>This is a 10 watt handheld that is a single band, either vhf or uhf. I have the UHF version.<br>I have a tyt MD-uv390 set up with opengd77 firmware connected to a radxa zero<br><br>The 10watt md-398 would give me more range. As it is, it works fine as a hand held into the MD-UV390<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3733">VE3RD</a> — Thu Apr 06, 2023 11:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-04-05T21:28:32</updated>
+
+		<published>2023-04-05T21:28:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22859#p22859</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22859#p22859"/>
+		<title type="html"><![CDATA[Re: TYT MD-398 UHF]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22859#p22859"><![CDATA[
+Do you mean MD380?<br><br>If so, we released the sources last month so that other developers can work on porting to thiat radio<br><br>If its a different radio, then anyone wanting to support it, has years of work ahead of them<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Apr 05, 2023 9:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE3RD]]></name></author>
+		<updated>2023-04-05T14:05:23</updated>
+
+		<published>2023-04-05T14:05:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22855#p22855</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22855#p22855"/>
+		<title type="html"><![CDATA[TYT MD-398 UHF  [Not able to support]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2796&amp;p=22855#p22855"><![CDATA[
+The TYT MD-398 UHF is a single timeslot(TS1) radio that cannot be used on a DMR repeater but works fine on a simplex hotspot as the mmdvm module converts it into a single timeslot  on TS2. A mod is available for the cps that opens up TS2 for selection.<br><br>It would really be neat if an openGD77 conversion could be done on this radio to make it more useable on DMR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3733">VE3RD</a> — Wed Apr 05, 2023 2:05 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

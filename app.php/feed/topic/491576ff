@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4915" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-27T17:50:03</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4915</id>
+
+		<entry>
+		<author><name><![CDATA[DO9RE]]></name></author>
+		<updated>2025-02-27T17:50:03</updated>
+
+		<published>2025-02-27T17:50:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35985#p35985</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35985#p35985"/>
+		<title type="html"><![CDATA[Re: Save Power On - GD-77 Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35985#p35985"><![CDATA[
+Thx<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8178">DO9RE</a> — Thu Feb 27, 2025 5:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-27T04:23:32</updated>
+
+		<published>2025-02-27T04:23:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35953#p35953</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35953#p35953"/>
+		<title type="html"><![CDATA[Re: Save Power On - GD-77 Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35953#p35953"><![CDATA[
+<blockquote class="uncited"><div>Well. Me stupid newbie didn't check the forum. Seems, as there's already a report about this. My fault, apologies.</div></blockquote>This bug was fixed, so you need to use the latest Beta version of the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 27, 2025 4:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO9RE]]></name></author>
+		<updated>2025-02-26T22:28:12</updated>
+
+		<published>2025-02-26T22:28:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35946#p35946</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35946#p35946"/>
+		<title type="html"><![CDATA[Re: Save Power On - GD-77 Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35946#p35946"><![CDATA[
+Well. Me stupid newbie didn't check the forum. Seems, as there's already a report about this. My fault, apologies.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8178">DO9RE</a> — Wed Feb 26, 2025 10:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO9RE]]></name></author>
+		<updated>2025-02-26T21:21:18</updated>
+
+		<published>2025-02-26T21:21:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35942#p35942</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35942#p35942"/>
+		<title type="html"><![CDATA[Save Power On - GD-77 Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4915&amp;p=35942#p35942"><![CDATA[
+Hey everyone, <br><br>I just had a frustrating moment with my GD77. I enabled an option in the general settings—something like "Safe Power On"—which is supposed to prevent accidental power-ups, for example, when carrying the device in a backpack. According to the manual, when this option is enabled, you need to hold down SK1 while powering on the device. However, this didn’t work for me. The device wouldn’t turn on at all—no display, no response, and no voice prompts, which I rely on as I’m blind. After trying various key combinations, I somehow managed to restore it. A message appeared saying "Settings Restored," and everything was back to normal. Fortunately, all my settings were retained, and I confirmed functionality with a quick DMR call. Does anyone know what I may have done wrong? I’d like to avoid this issue in the future. <br><br>73, and thanks in advance!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8178">DO9RE</a> — Wed Feb 26, 2025 9:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

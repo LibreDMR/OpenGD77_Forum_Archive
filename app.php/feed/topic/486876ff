@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4868" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-09T07:38:23</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4868</id>
+
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2025-04-09T07:38:23</updated>
+
+		<published>2025-04-09T07:38:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36672#p36672</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36672#p36672"/>
+		<title type="html"><![CDATA[Re: Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36672#p36672"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>Duplex hotspots and DMR seems to be tricky, I have one that works fine with D-Star but running a TDMA protocol with two timeslots seems<br>to be much more sensitive.<br>And our 70 cm band in the Nordic countries is only 432-438 MHz which makes it difficult to get TX/RX separation , especially if you follow the<br>bandplan where the repeater shift is 2 MHz.</div></blockquote><br>The more than 5Mhz separation is suggested on Dual HS in order to avoid issues on ADF7021 ICs.<br>Any other "dual" nodes, don't need to follow that suggestion if good quality resonant splitter used on RX/TX radios.<br>Obviously 2Mhz shift is hard and expensive to get property working anyway not impossible.<br><br>Maybe a special request to admin for those situations will help you getting more than 2Mhz...</div></blockquote>With "admin" you mean the Swedish Telecommunication authorities ?<br>I doubt they would care about such request, they are not so amateur radio friendly.<br><br>Anyway it's no big deal , I adjusted the oscillator on the MMDVM Dual HS  with my GPSDO referenced  frequency counter now so it much better.<br>BER is down into the "green area" and no "Timeout" on TX anymore.<br><br>And I noticed that a TG4000 Unlink have no effect when someone is talking on the TS ( TG91) anyway which would have been a "feature" sometimes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>Unlink command mist be sent when your system is not receiving not RF nor network.<br><br>At this point, in Pi-Star or WPSD, for BM is quite useful to have the API KEY installed. This allows you to MUTE the current talker and being free to TG4000 keying.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Wed Apr 09, 2025 7:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-03-05T08:47:51</updated>
+
+		<published>2025-03-05T08:47:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36073#p36073</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36073#p36073"/>
+		<title type="html"><![CDATA[Re: Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36073#p36073"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>And I noticed that a TG4000 Unlink have no effect when someone is talking on the TS ( TG91) anyway which would have been a "feature" sometimes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>You cannot unlink while there is activity. You can use "drop call" in your BM account and quickly send 4000 from your radio.</div></blockquote>I understood that it should be like that, but I wanted to test what happens on pi-star.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 05, 2025 8:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ON3EF]]></name></author>
+		<updated>2025-03-05T07:33:52</updated>
+
+		<published>2025-03-05T07:33:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36071#p36071</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36071#p36071"/>
+		<title type="html"><![CDATA[Re: Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36071#p36071"><![CDATA[
+<blockquote class="uncited"><div>And I noticed that a TG4000 Unlink have no effect when someone is talking on the TS ( TG91) anyway which would have been a "feature" sometimes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>You cannot unlink while there is activity. You can use "drop call" in your BM account and quickly send 4000 from your radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8200">ON3EF</a> — Wed Mar 05, 2025 7:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-03-05T06:59:04</updated>
+
+		<published>2025-03-05T06:59:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36069#p36069</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36069#p36069"/>
+		<title type="html"><![CDATA[Re: Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36069#p36069"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Is your hotspot duplex or simplex?<br>Is your CPU is STM32 or TYT? (check this in Menu -&gt; Firmware info)<br><br>I have experienced the same in the past on my TYT CPU radio with duplex hotspot. The problem goes away after I have decided to stop using duplex hotspot.</div></blockquote>Duplex hotspots and DMR seems to be tricky, I have one that works fine with D-Star but running a TDMA protocol with two timeslots seems<br>to be much more sensitive.<br>And our 70 cm band in the Nordic countries is only 432-438 MHz which makes it difficult to get TX/RX separation , especially if you follow the<br>bandplan where the repeater shift is 2 MHz.</div></blockquote><br>The more than 5Mhz separation is suggested on Dual HS in order to avoid issues on ADF7021 ICs.<br>Any other "dual" nodes, don't need to follow that suggestion if good quality resonant splitter used on RX/TX radios.<br>Obviously 2Mhz shift is hard and expensive to get property working anyway not impossible.<br><br>Maybe a special request to admin for those situations will help you getting more than 2Mhz...</div></blockquote>With "admin" you mean the Swedish Telecommunication authorities ?<br>I doubt they would care about such request, they are not so amateur radio friendly.<br><br>Anyway it's no big deal , I adjusted the oscillator on the MMDVM Dual HS  with my GPSDO referenced  frequency counter now so it much better.<br>BER is down into the "green area" and no "Timeout" on TX anymore.<br><br>And I noticed that a TG4000 Unlink have no effect when someone is talking on the TS ( TG91) anyway which would have been a "feature" sometimes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 05, 2025 6:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2025-03-05T01:09:43</updated>
+
+		<published>2025-03-05T01:09:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36066#p36066</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36066#p36066"/>
+		<title type="html"><![CDATA[Re: Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=36066#p36066"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Is your hotspot duplex or simplex?<br>Is your CPU is STM32 or TYT? (check this in Menu -&gt; Firmware info)<br><br>I have experienced the same in the past on my TYT CPU radio with duplex hotspot. The problem goes away after I have decided to stop using duplex hotspot.</div></blockquote>Duplex hotspots and DMR seems to be tricky, I have one that works fine with D-Star but running a TDMA protocol with two timeslots seems<br>to be much more sensitive.<br>And our 70 cm band in the Nordic countries is only 432-438 MHz which makes it difficult to get TX/RX separation , especially if you follow the<br>bandplan where the repeater shift is 2 MHz.</div></blockquote><br>The more than 5Mhz separation is suggested on Dual HS in order to avoid issues on ADF7021 ICs.<br>Any other "dual" nodes, don't need to follow that suggestion if good quality resonant splitter used on RX/TX radios.<br>Obviously 2Mhz shift is hard and expensive to get property working anyway not impossible.<br><br>Maybe a special request to admin for those situations will help you getting more than 2Mhz...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Wed Mar 05, 2025 1:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-02-12T14:33:51</updated>
+
+		<published>2025-02-12T14:33:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35717#p35717</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35717#p35717"/>
+		<title type="html"><![CDATA[Re: Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35717#p35717"><![CDATA[
+<blockquote class="uncited"><div><br>Duplex hotspots and DMR seems to be tricky, I have one that works fine with D-Star but running a TDMA protocol with two timeslots seems<br>to be much more sensitive.<br>And our 70 cm band in the Nordic countries is only 432-438 MHz which makes it difficult to get TX/RX separation , especially if you follow the<br>bandplan where the repeater shift is 2 MHz.</div></blockquote>Yep, totally agreed, I've tried 10 MHz shift, still have de-sensitization issues. I've a thought of doing notch filter and duplexer to make the hotspot act more like the repeater, but it seems too much. I ended up config it to run as simplex.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Feb 12, 2025 2:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-12T13:56:01</updated>
+
+		<published>2025-02-12T13:56:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35716#p35716</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35716#p35716"/>
+		<title type="html"><![CDATA[Re: Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35716#p35716"><![CDATA[
+<blockquote class="uncited"><div>Is your hotspot duplex or simplex?<br>Is your CPU is STM32 or TYT? (check this in Menu -&gt; Firmware info)<br><br>I have experienced the same in the past on my TYT CPU radio with duplex hotspot. The problem goes away after I have decided to stop using duplex hotspot.</div></blockquote>Duplex hotspots and DMR seems to be tricky, I have one that works fine with D-Star but running a TDMA protocol with two timeslots seems<br>to be much more sensitive.<br>And our 70 cm band in the Nordic countries is only 432-438 MHz which makes it difficult to get TX/RX separation , especially if you follow the<br>bandplan where the repeater shift is 2 MHz.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Feb 12, 2025 1:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-02-12T12:46:51</updated>
+
+		<published>2025-02-12T12:46:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35715#p35715</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35715#p35715"/>
+		<title type="html"><![CDATA[Re: Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35715#p35715"><![CDATA[
+Is your hotspot duplex or simplex?<br>Is your CPU is STM32 or TYT? (check this in Menu -&gt; Firmware info)<br><br>I have experienced the same in the past on my TYT CPU radio with duplex hotspot. The problem goes away after I have decided to stop using duplex hotspot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Feb 12, 2025 12:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KO4NFP]]></name></author>
+		<updated>2025-02-12T02:34:25</updated>
+
+		<published>2025-02-12T02:34:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35708#p35708</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35708#p35708"/>
+		<title type="html"><![CDATA[Receiving DMR Signal But No Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4868&amp;p=35708#p35708"><![CDATA[
+Hello all, I'd like to thank everyone involved with the development of this firmware first of all but I am running into a problem. When connected to any of my hotpsots at my QTH sometimes I will be receiving a signal but not hearing the audio. I can change channels and go back to the channel that I was not hearing and audio will be passing through. It doesn't matter which station is transmitting and it is very random. I am using a TYT MD-UV390 with Firmware version 20250207. Any help is greatly appreciated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4008">KO4NFP</a> — Wed Feb 12, 2025 2:34 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

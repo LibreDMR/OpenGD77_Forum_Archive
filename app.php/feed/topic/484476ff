@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4844" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-10T16:49:39</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4844</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-04T20:49:50</updated>
+
+		<published>2025-02-04T20:49:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35573#p35573</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35573#p35573"/>
+		<title type="html"><![CDATA[Re: Bad DMR transmission on some repeater (compatility issue??)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35573#p35573"><![CDATA[
+Just to elaborate.<br><br>Talker Alias data / embedded data is not supported by Motorola repeaters.  Motorola repeaters confuse the embedded data, as being part of the Source and Destination address and / or the Talkgroup etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Feb 04, 2025 8:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2dka]]></name></author>
+		<updated>2025-02-04T20:03:23</updated>
+
+		<published>2025-02-04T20:03:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35571#p35571</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35571#p35571"/>
+		<title type="html"><![CDATA[Re: Bad DMR transmission on some repeater (compatility issue??)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35571#p35571"><![CDATA[
+<blockquote class="uncited"><div>Also, don't transmit Talker Alias with Motorola repeaters (IIRC that produce problems).</div></blockquote>That's make the trick !<br>Thanks again ! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br>73 !!<br><br><br>Keep up the great works !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5359">ve2dka</a> — Tue Feb 04, 2025 8:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2dka]]></name></author>
+		<updated>2025-02-04T19:09:00</updated>
+
+		<published>2025-02-04T19:09:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35569#p35569</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35569#p35569"/>
+		<title type="html"><![CDATA[Re: Bad DMR transmission on some repeater (compatility issue??)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35569#p35569"><![CDATA[
+I think that's make the trick.... Thanks again! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> <br>I can see that the audio is better, no more scattered. Some more testing to come<br><br><blockquote class="uncited"><div>Also, don't transmit Talker Alias with Motorola repeaters (IIRC that produce problems).</div></blockquote>I removed it. I will make some test if this help !! <br><br>Thanks for your help ! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5359">ve2dka</a> — Tue Feb 04, 2025 7:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2dka]]></name></author>
+		<updated>2025-02-04T19:08:06</updated>
+
+		<published>2025-02-04T19:08:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35568#p35568</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35568#p35568"/>
+		<title type="html"><![CDATA[Re: Bad DMR transmission on some repeater (compatility issue??)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35568#p35568"><![CDATA[
+<blockquote class="uncited"><div>Yes Full power Samething unfortunatly. But with original firmware no problem, 10W<br><br><blockquote class="uncited"><div>Hi !<br><br>I get a strange behaviour with my DMR transmission on some repeater. My radio is RT-90 v.1<br>I test with the BM parrot. (tested with real QSO also)<br>My RSSI signal is good and similar on both repeater.<br><br>I tested the last firmware with a local repeater here, a Motorola SLR8000. My audio is scattered, missing some syllables, not really usable.<br>If i try with the original firmware, the audio is perfect.<br><br>I try another local repeater, a Hytera RD982S. This time the audio (of my transmission) is perfect! I also try with my Hotspot and no problem.<br><br>There is a compatibility issue with some kind of repeater like Motorola ? There is something I can do to improve it ?<br><br>Thanks 73 !!<br>VE2DKA</div></blockquote>IIRC the early MD9600 have a problem with the PA response time.<br><br>Did you try running full power, as that was the workaround</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5359">ve2dka</a> — Tue Feb 04, 2025 7:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-04T18:51:26</updated>
+
+		<published>2025-02-04T18:51:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35566#p35566</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35566#p35566"/>
+		<title type="html"><![CDATA[Re: Bad DMR transmission on some repeater (compatility issue??)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35566#p35566"><![CDATA[
+Also, don't transmit Talker Alias with Motorola repeaters (IIRC that produce problems).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Feb 04, 2025 6:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-04T18:44:37</updated>
+
+		<published>2025-02-04T18:44:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35565#p35565</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35565#p35565"/>
+		<title type="html"><![CDATA[Re: Bad DMR transmission on some repeater (compatility issue??)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35565#p35565"><![CDATA[
+<blockquote class="uncited"><div>Hi !<br><br>I get a strange behaviour with my DMR transmission on some repeater. My radio is RT-90 v.1<br>I test with the BM parrot. (tested with real QSO also)<br>My RSSI signal is good and similar on both repeater.<br><br>I tested the last firmware with a local repeater here, a Motorola SLR8000. My audio is scattered, missing some syllables, not really usable.<br>If i try with the original firmware, the audio is perfect.<br><br>I try another local repeater, a Hytera RD982S. This time the audio (of my transmission) is perfect! I also try with my Hotspot and no problem.<br><br>There is a compatibility issue with some kind of repeater like Motorola ? There is something I can do to improve it ?<br><br>Thanks 73 !!<br>VE2DKA</div></blockquote>IIRC the early MD9600 have a problem with the PA response time.<br><br>Did you try running full power, as that was the workaround<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Feb 04, 2025 6:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2dka]]></name></author>
+		<updated>2025-02-10T16:49:39 </updated>
+
+		<published>2025-02-04T18:04:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35563#p35563</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35563#p35563"/>
+		<title type="html"><![CDATA[[Closed] Bad DMR transmission on some repeater (compatility issue??)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4844&amp;p=35563#p35563"><![CDATA[
+Hi !<br><br>I get a strange behaviour with my DMR transmission on some repeater. My radio is RT-90 v.1<br>I test with the BM parrot. (tested with real QSO also)<br>My RSSI signal is good and similar on both repeater.<br><br>I tested the last firmware with a local repeater here, a Motorola SLR8000. My audio is scattered, missing some syllables, not really usable.<br>If i try with the original firmware, the audio is perfect.<br><br>I try another local repeater, a Hytera RD982S. This time the audio (of my transmission) is perfect! I also try with my Hotspot and no problem.<br><br>There is a compatibility issue with some kind of repeater like Motorola ? There is something I can do to improve it ?<br><br>Thanks 73 !!<br>VE2DKA<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5359">ve2dka</a> — Tue Feb 04, 2025 6:04 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

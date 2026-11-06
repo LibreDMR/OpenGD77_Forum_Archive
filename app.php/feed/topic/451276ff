@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4512" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-26T03:03:45</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4512</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-26T03:03:45</updated>
+
+		<published>2024-10-26T03:03:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33709#p33709</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33709#p33709"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33709#p33709"><![CDATA[
+<blockquote class="uncited"><div>just a proposal: I did my first steps with the CPS and deleted the field in band-limits, pressed [TAB] and an error occurred. I expected to get back the initial value. Maybe a good idea for all other non suitable values.</div></blockquote>That bug has now been fixed in the latest version<br><br>See<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4523" class="postlink">viewtopic.php?f=12&amp;t=4523</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Oct 26, 2024 3:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-25T09:51:46</updated>
+
+		<published>2024-10-25T09:51:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33688#p33688</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33688#p33688"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33688#p33688"><![CDATA[
+<blockquote class="uncited"><div>just a proposal: I did my first steps with the CPS and deleted the field in band-limits, pressed [TAB] and an error occurred. I expected to get back the initial value. Maybe a good idea for all other non suitable values.</div></blockquote>Thanks for the bug report. <br><br>The crash will be fixed in the next release<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 25, 2024 9:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC7SU]]></name></author>
+		<updated>2024-10-25T09:37:47</updated>
+
+		<published>2024-10-25T09:37:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33687#p33687</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33687#p33687"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33687#p33687"><![CDATA[
+just a proposal: I did my first steps with the CPS and deleted the field in band-limits, pressed [TAB] and an error occurred. I expected to get back the initial value. Maybe a good idea for all other non suitable values.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7108">DC7SU</a> — Fri Oct 25, 2024 9:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T22:26:32</updated>
+
+		<published>2024-10-22T22:26:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33640#p33640</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33640#p33640"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33640#p33640"><![CDATA[
+<blockquote class="uncited"><div><img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">  This version fixed the problem. <br><br>Thanks a lot. Grat job.<br><br>Nat</div></blockquote>OK.<br><br>Its a long story, so I won't bother you with the details of why it stopped working.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 10:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Nat]]></name></author>
+		<updated>2024-10-22T21:38:32</updated>
+
+		<published>2024-10-22T21:38:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33637#p33637</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33637#p33637"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33637#p33637"><![CDATA[
+<img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">  This version fixed the problem. <br><br>Thanks a lot. Grat job.<br><br>Nat<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1296">Nat</a> — Tue Oct 22, 2024 9:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T21:30:21</updated>
+
+		<published>2024-10-22T21:30:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33635#p33635</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33635#p33635"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2024 10 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4512&amp;p=33635#p33635"><![CDATA[
+A new version of the OpenGD77CPS is available to download<br><br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/OpenGD77CPSInstaller_R2024.10.23.01.exe" class="postlink">downloads/PC_CPS/Latest/OpenGD77CPSInst ... .23.01.exe</a><br><br>This version fixes a bug for on the DMR ID screen, for 'portable' installations.<br><br>'Portable' installations are an option in the installer to allow the CPS to be installed onto a memory stick etc, and uses file based storage for the various settings that it stores e.g. radio type<br><br>Note. <br>When using portable installations, the location of the donor file will be stored as an absolute path, so if you use this on a memory stick, the donor file will not be found if the driver letter assigned to the donor file changes depending on which computer you insert the memory stick into.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 9:30 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

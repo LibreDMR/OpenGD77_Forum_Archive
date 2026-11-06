@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4724" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-31T15:59:06</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4724</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-31T15:59:06</updated>
+
+		<published>2024-12-31T15:59:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4724&amp;p=34974#p34974</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4724&amp;p=34974#p34974"/>
+		<title type="html"><![CDATA[Re: My Baofeng 1701 keeps rebooting without letting me use it]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4724&amp;p=34974#p34974"><![CDATA[
+<blockquote class="uncited"><div>Hello, yesterday I received my Baofeng 1701 and as a good amateur I installed OpenGD77. After that everything went well and I kept configuring the radio but I changed an option that made the radio turn off. I looked for key combinations until I reset it with the buttons. After that, I don't know what happened to the radio but it started to turn off and on without resetting itself each time and asking me for the language, I tried to configure it and the radio restarted again. This has continued since yesterday. I have tried everything, but nothing has worked for me. Is there anyone out there who knows the solution?<br><br>Video: <a href="https://drive.google.com/file/d/1Ea1XcWz_63bifSckUDPTRuRvt6ZnymXM/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1Ea1XcW ... sp=sharing</a></div></blockquote>Start the radio in safe boot mode, then flash a fresh and clean codeplug.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#boot-key-combinations" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... mbinations</a><br><br>Also, you can also erase the voice prompts (using the CPS, Extras -&gt; OpenGD77 support menu), and upload a fresh list of DMR ID (Extras -&gt; Download callsign database)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 31, 2024 3:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ca3sfv]]></name></author>
+		<updated>2024-12-31T15:21:31</updated>
+
+		<published>2024-12-31T15:21:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4724&amp;p=34971#p34971</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4724&amp;p=34971#p34971"/>
+		<title type="html"><![CDATA[My Baofeng 1701 keeps rebooting without letting me use it]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4724&amp;p=34971#p34971"><![CDATA[
+Hello, yesterday I received my Baofeng 1701 and as a good amateur I installed OpenGD77. After that everything went well and I kept configuring the radio but I changed an option that made the radio turn off. I looked for key combinations until I reset it with the buttons. After that, I don't know what happened to the radio but it started to turn off and on without resetting itself each time and asking me for the language, I tried to configure it and the radio restarted again. This has continued since yesterday. I have tried everything, but nothing has worked for me. Is there anyone out there who knows the solution?<br><br>Video: <a href="https://drive.google.com/file/d/1Ea1XcWz_63bifSckUDPTRuRvt6ZnymXM/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1Ea1XcW ... sp=sharing</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7580">Ca3sfv</a> — Tue Dec 31, 2024 3:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

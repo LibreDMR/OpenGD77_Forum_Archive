@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1212" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-23T15:58:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1212</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-23T15:58:01</updated>
+
+		<published>2024-05-23T15:58:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=31398#p31398</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=31398#p31398"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=31398#p31398"><![CDATA[
+Did you reseated the flat flex (the white/blue one) on both side ?<br>Checked the flat flex continuity ?<br><br>Checked the LCD panel's flat flex connection (semi-transparent ribbon cable) ? <br><br>Maybe the LCD panel is defective.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu May 23, 2024 3:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7OBB]]></name></author>
+		<updated>2024-05-23T15:48:14</updated>
+
+		<published>2024-05-23T15:48:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=31395#p31395</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=31395#p31395"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=31395#p31395"><![CDATA[
+Bought a GD77 with the white screen issue.  Radio was operational but no info on the screen, just white.<br><br>So I opened it up and attempted to reseat the display ribbon cable which is the common fault.  In the process, the two wires connecting to the bottom of the speaker disconnected (they are very small/thin).  So I resoldered them to the board and now the display wont come on at all.  <br><br>I thought I might have reversed the wires so I tried the opposite way as well.  Same result.   Seems like something happened either when the wires disconnected and I turned on OR after i reconnected the two wires reversed and turned on.  <br><br>Any ideas what to check?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2340">W7OBB</a> — Thu May 23, 2024 3:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-30T19:42:29</updated>
+
+		<published>2024-01-30T19:42:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29142#p29142</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29142#p29142"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29142#p29142"><![CDATA[
+<blockquote class="uncited"><div>Complete newb here so please forgive my dumb questions.  <br><br>Is there a electrical/pcb diagram somewhere online to help me find components?</div></blockquote>Unfortunately the manufacturers of these radios do not publish the schematic or parts list<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 30, 2024 7:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7OBB]]></name></author>
+		<updated>2024-01-30T13:30:58</updated>
+
+		<published>2024-01-30T13:30:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29136#p29136</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29136#p29136"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29136#p29136"><![CDATA[
+Complete newb here so please forgive my dumb questions.  <br><br>Is there a electrical/pcb diagram somewhere online to help me find components?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2340">W7OBB</a> — Tue Jan 30, 2024 1:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-30T04:26:11</updated>
+
+		<published>2024-01-30T04:26:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29116#p29116</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29116#p29116"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29116#p29116"><![CDATA[
+<blockquote class="uncited"><div>I tried to add the GP-02 GPS module to my GD77 for APRS and I must have caused a short.  I checked the fuse and it had continuity end to end so I assume that means it is still good?  <br><br>As you can probably tell, I'm new to pcb troubleshooting.  Any further suggestions to find the short or fix my radio?</div></blockquote>Check for 3.3V on the flash chip etc<br><br>Possibly you blew the 3.3V regulator<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 30, 2024 4:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7OBB]]></name></author>
+		<updated>2024-01-30T03:59:36</updated>
+
+		<published>2024-01-30T03:59:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29111#p29111</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29111#p29111"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=29111#p29111"><![CDATA[
+I tried to add the GP-02 GPS module to my GD77 for APRS and I must have caused a short.  I checked the fuse and it had continuity end to end so I assume that means it is still good?  <br><br>As you can probably tell, I'm new to pcb troubleshooting.  Any further suggestions to find the short or fix my radio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2340">W7OBB</a> — Tue Jan 30, 2024 3:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kt4lh]]></name></author>
+		<updated>2022-10-08T11:55:03</updated>
+
+		<published>2022-10-08T11:55:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=20028#p20028</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=20028#p20028"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=20028#p20028"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I purchased a non working GD77 from EBay for a low bid. <br><br>That also had a blown fuse but in my case it was caused by a short circuit capacitor on the board. Took a little while to find but since replacing it the radio has been working fine. <br><br>Colin G4EML.</div></blockquote>Do you remember what cap ?  Can't seem to  find one power rail has a short  Removed ic and capacitor close to it .. short stays ..</div></blockquote>If your meter is pretty good you can sometimes find or localize a short by looking at everywhere the short shows up and finding the lowest resistance.  But this may not work on a small PCB, I've seen this technique used on motherboards etc.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=416">kt4lh</a> — Sat Oct 08, 2022 11:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-05-17T21:23:21</updated>
+
+		<published>2021-05-17T21:23:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14687#p14687</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14687#p14687"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14687#p14687"><![CDATA[
+<blockquote class="uncited"><div>Once the amplifier chip was removed and the PCB short fixed it did work, you just couldn't hear anything. So yes, I assume it would have worked as a hotspot. <br><br>Colin.</div></blockquote>OK. It would still be cheaper than buying a mmdmv hotspot board, albeit would only work for DMR audio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon May 17, 2021 9:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2021-05-17T21:14:28</updated>
+
+		<published>2021-05-17T21:14:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14685#p14685</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14685#p14685"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14685#p14685"><![CDATA[
+Once the amplifier chip was removed and the PCB short fixed it did work, you just couldn't hear anything. So yes, I assume it would have worked as a hotspot. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon May 17, 2021 9:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-05-17T21:09:18</updated>
+
+		<published>2021-05-17T21:09:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14683#p14683</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14683#p14683"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14683#p14683"><![CDATA[
+Thanks Colin<br><br>I presume that radio could have been used as a hotspot even without replacing the audio amplifier chip<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon May 17, 2021 9:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2021-05-17T20:51:36</updated>
+
+		<published>2021-05-17T20:51:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14682#p14682</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14682#p14682"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=14682#p14682"><![CDATA[
+Another Ebay Purchase of a known faulty GD77 at a bargain price of £8 including postage. <br><br>The fuse was blown again but this time the short circuit was due to a burn-up of the audio amplifier chip. There was quite a lot of PCB damage underneath the chip including a short between the multilayer ground and power planes.  <br>The chip was removed and the PCB was tidied up but the damage was too bad to reuse the pads. <br><br>I was unable to find a replacement LM4951 so I substituted an LM4861M which is a similar amplifier but needed an extra transistor to invert the mute signal.  <br><br>I assembled the new amplifier 'Dead bug' style on the large ground plane area next to the original chip location and encapsulated it in UV setting resin. Not pretty, but it worked and the radio is now performing perfectly. (obviously with OpenGD77 loaded)<br><br>Overall, probably not a repair I would recommend to anyone else but it is quite satisfying to have resurrected a dead radio.  <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon May 17, 2021 8:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2020-09-03T11:05:00</updated>
+
+		<published>2020-09-03T11:05:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=10754#p10754</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=10754#p10754"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=10754#p10754"><![CDATA[
+I purchased a non working GD77 from EBay for a low bid. <br><br>That also had a blown fuse but in my case it was caused by a short circuit capacitor on the board. Took a little while to find but since replacing it the radio has been working fine. <br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Sep 03, 2020 11:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2020-09-03T09:50:04</updated>
+
+		<published>2020-09-03T09:50:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1212&amp;p=10749#p10749</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=10749#p10749"/>
+		<title type="html"><![CDATA[Re: GD77 Not Powering On - Fixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1212&amp;p=10749#p10749"><![CDATA[
+<blockquote class="uncited"><div>Hi all.<br><br>Just thought i would share my issues with the GD77 not powering on.<br>Unit had something rattling around in it and radio would not power on.<br><br>After removing the main-board I found a small bit of solder floating around in the unit, this caused the issues.  <br>Note - removing the GD77 main-board requires de-soldering the antenna connection, see attached picture.<br><br>I then discovered a little fuse on the board that had blown, (Littelfuse 3A FF Surface Mount Fuse, 32V ac/dc) <br><a href="https://au.rs-online.com/web/p/non-resettable-surface-mount-fuses/5413619/" class="postlink">https://au.rs-online.com/web/p/non-rese ... s/5413619/</a><br><br>Replaced the fuse and the unit works again, hopefully this helps someone that has a non working unit.<br><br>De-solder the antenna connection image.<br><a href="https://ibb.co/J37wbHB" class="postlink">https://ibb.co/J37wbHB</a><br><br>Fuse location Image <br><a href="https://ibb.co/GtStD2j" class="postlink">https://ibb.co/GtStD2j</a></div></blockquote>Very useful.<br><br>Thankyou<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 03, 2020 9:50 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

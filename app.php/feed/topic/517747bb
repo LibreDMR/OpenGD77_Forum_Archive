@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5177" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-13T03:35:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5177</id>
+
+		<entry>
+		<author><name><![CDATA[KJ5IWB]]></name></author>
+		<updated>2025-06-13T03:35:18</updated>
+
+		<published>2025-06-13T03:35:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5177&amp;p=37475#p37475</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5177&amp;p=37475#p37475"/>
+		<title type="html"><![CDATA[gs77s Hot spot mode spotty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5177&amp;p=37475#p37475"><![CDATA[
+hey everyone.  Im new to all this but I was able to get opengd77 installed onto a gd77 and a gd77s.  i wanted to use the gd77s as the hotspot. Its working but its proving a little challenging.   Couple of things I can figure out without a screen.  Im using Blue DV on windows also. <br><br>I never figured out how to put the gd77s into hotspot mode, so i just put a hotspot zone, and hotspot channel into the code plug and it seems to be working (sort of)<br><br>1st, It seems like the usb connection is maybe flakey or something.  BlueDV drops the connection when I TX often.  I key up and the color on bluedv doesn't change, but the gd77s turns led green.  flipping serial on and off makes tx works again, but then I lose RX. <br><br>2nd, when im RXing from a talk group, I see bluedv activate but nothing comes out of the radio (no red light) then, after a bit, eventually there is a substantially long break in the transmissions from a net, and all of a sudden it starts to work and I can hear on my gd77. I have no idea why this pause seems to make it work. <br><br>Also, I cant figure out how to reduce the power and its getting quite warm.   <br><br>any help would be very much appreciated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8761">KJ5IWB</a> — Fri Jun 13, 2025 3:35 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

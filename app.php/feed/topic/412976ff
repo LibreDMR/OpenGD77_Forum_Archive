@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4129" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-22T06:49:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4129</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-22T06:49:18</updated>
+
+		<published>2024-12-22T06:49:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4129&amp;p=34869#p34869</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=34869#p34869"/>
+		<title type="html"><![CDATA[Re: CPS on Mac OS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=34869#p34869"><![CDATA[
+<blockquote class="uncited"><div>Is this still the latest? I was able to update my codeplug but  I couldn't update the firmware. Just hoping there was an update on this front.</div></blockquote>Firmware updates will not be possible on the Mac becasue the CPU manufacturer does not provide a Mac  Device Firmware Update driver.<br><br>See this post on STM's forum<br><br><a href="https://community.st.com/t5/stm32cubeprogrammer-mcus/how-to-use-stm32cubeprogrammer-on-a-mac/td-p/79125" class="postlink">https://community.st.com/t5/stm32cubepr ... td-p/79125</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 22, 2024 6:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W6DUX]]></name></author>
+		<updated>2024-12-22T05:43:14</updated>
+
+		<published>2024-12-22T05:43:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4129&amp;p=34866#p34866</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=34866#p34866"/>
+		<title type="html"><![CDATA[Re: CPS on Mac OS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=34866#p34866"><![CDATA[
+Is this still the latest? I was able to update my codeplug but  I couldn't update the firmware. Just hoping there was an update on this front.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5114">W6DUX</a> — Sun Dec 22, 2024 5:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ad2q]]></name></author>
+		<updated>2024-06-25T12:56:50</updated>
+
+		<published>2024-06-25T12:56:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31822#p31822</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31822#p31822"/>
+		<title type="html"><![CDATA[Re: CPS on Mac OS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31822#p31822"><![CDATA[
+I will amend my first reply.<br><br>I went to upload the new beta firmware last night and was unable to do so from my Mac which required me to use the x86 Windows machine to do the firmware update.  Other than that, it appears I can do everything else from Windows 11 ARM on my Mac.<br><br>73,<br>Ryan AD2Q<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6258">ad2q</a> — Tue Jun 25, 2024 12:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ad2q]]></name></author>
+		<updated>2024-06-07T03:17:49</updated>
+
+		<published>2024-06-07T03:17:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31585#p31585</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31585#p31585"/>
+		<title type="html"><![CDATA[Re: CPS on Mac OS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31585#p31585"><![CDATA[
+I use CPS on Windows 11 ARM (MacBook Pro M1 Pro w/ Parallels) and other than passing through the USB device to the Windows VM, it works with minimal effort.  No need to unload the ACM driver in this case.<br><br>I will say there was one issue I encountered and that was when I was trying to convert my radio (MD-UV390+) from stock firmware to OpenGD where I needed an Intel based Windows box to do the conversion.  It had to do with the programming cable drivers which were only provided for x86 systems.  After converting to the OpenGD firmware on the radio then I was able to do everything from within Windows 11 ARM without issue.<br><br>73,<br>Ryan AD2Q<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6258">ad2q</a> — Fri Jun 07, 2024 3:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK7ZKL]]></name></author>
+		<updated>2024-06-06T15:58:51</updated>
+
+		<published>2024-06-06T15:58:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31574#p31574</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31574#p31574"/>
+		<title type="html"><![CDATA[CPS on Mac OS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4129&amp;p=31574#p31574"><![CDATA[
+Hello,<br><br>if you want to use CPS on Mac OS. It is possible to run it on Windows in VirtualBox. Before you start virtual machine you need to remove Mac’s ACM kernel module. <br><br>The command is here. After unload start Windows and CPS works:-). <br><br>sudo kextunload -b com.apple.driver.usb.cdc.acm<br><br><br>Best regards,<br>OK7ZKL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6281">OK7ZKL</a> — Thu Jun 06, 2024 3:58 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

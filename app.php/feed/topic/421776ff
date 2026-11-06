@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4217" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-07-06T09:21:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4217</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-07-06T09:21:55</updated>
+
+		<published>2024-07-06T09:21:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4217&amp;p=32000#p32000</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=32000#p32000"/>
+		<title type="html"><![CDATA[Re: Beep coming back by itself??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=32000#p32000"><![CDATA[
+Make sure that you are pressing SK2+GREEN to permanently save the changed setting. Pressing just GREEN on its own will only save it temporarily. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Jul 06, 2024 9:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-07-06T09:07:45</updated>
+
+		<published>2024-07-06T09:07:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31999#p31999</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31999#p31999"/>
+		<title type="html"><![CDATA[Re: Beep coming back by itself??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31999#p31999"><![CDATA[
+You didn't read the correct section: <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#dmr-beep" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... d#dmr-beep</a><br><br>Also, if you had correctly set the Channel details "Beep" option to "No", no beep is emitted, regardless the Sound Options.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jul 06, 2024 9:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M6VMO]]></name></author>
+		<updated>2024-07-06T09:04:10</updated>
+
+		<published>2024-07-06T09:04:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31998#p31998</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31998#p31998"/>
+		<title type="html"><![CDATA[Re: Beep coming back by itself??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31998#p31998"><![CDATA[
+<blockquote class="uncited"><div>I think you need to read the user manual first.</div></blockquote>I have, and I keep changing the "Beep" option channel by channel, but it still keeps comming on.<br><br>73.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6466">M6VMO</a> — Sat Jul 06, 2024 9:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-07-06T05:25:04</updated>
+
+		<published>2024-07-06T05:25:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31997#p31997</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31997#p31997"/>
+		<title type="html"><![CDATA[Re: Beep coming back by itself??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31997#p31997"><![CDATA[
+I think you need to read the user manual first.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jul 06, 2024 5:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M6VMO]]></name></author>
+		<updated>2024-07-06T02:05:35</updated>
+
+		<published>2024-07-06T02:05:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31994#p31994</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31994#p31994"/>
+		<title type="html"><![CDATA[Beep coming back by itself??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4217&amp;p=31994#p31994"><![CDATA[
+There might be a bug in the Channel Display bit GD77.<br><br>I had figured out how I could switch that annoying beep off every time I pressed my PTT key, but every timme I turn the channelselector knob on top of the radio a few channels further "BEEP", there it comes again, so I have to go back into the menu to turn it off again,<br>It happens every single time.<br><br>Would it be possible for someone to have a look at that, please?<br><br>Thanks.<br><br>73.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6466">M6VMO</a> — Sat Jul 06, 2024 2:05 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3562" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-11T22:46:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3562</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-11T22:46:48</updated>
+
+		<published>2023-12-11T22:46:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3562&amp;p=28037#p28037</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3562&amp;p=28037#p28037"/>
+		<title type="html"><![CDATA[Re: Global var]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3562&amp;p=28037#p28037"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hello everyone,<br><br>I would like to use a global variable that would be visible in all the code, do you know in which file I should define my variable?<br><br>JP7NJT</div></blockquote>The code is partially modular and you don't normally expect to have variables that every single function has access to.<br><br>Most variables are declared as static to individual files, to deliberately limit their scope.<br><br>This is normal / good programming practice, to limit variability scope.<br><br>If you need a variable that is visible to every function, you will probably need to making a new .c file and a new .h and then include that new .h in every file that needs access to your 'global' variable</div></blockquote>Hello, thanks for you reply.<br>I tried to create a global variable in a .h file.<br>It works when I include this variable in a single.c file but in multiple file, there is errors :<blockquote class="uncited"><div> application/include/globalvar.h:2: first defined here.</div></blockquote>On the other hand, if I add the variable in static then I can put it in as many.c files as I want.<br><br>But I want a volatile variable, not a static variable. I see that there are these kinds of variables like for example uiDataGlobal.Scan. which is visible in all .c files. How do you create this kind of variable?</div></blockquote>This a C language programming question not specific to the firmware. You should post it to a C language programming forum.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 11, 2023 10:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[JP7NJT]]></name></author>
+		<updated>2023-12-11T22:27:59</updated>
+
+		<published>2023-12-11T22:27:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3562&amp;p=28036#p28036</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3562&amp;p=28036#p28036"/>
+		<title type="html"><![CDATA[Re: Global var]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3562&amp;p=28036#p28036"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello everyone,<br><br>I would like to use a global variable that would be visible in all the code, do you know in which file I should define my variable?<br><br>JP7NJT</div></blockquote>The code is partially modular and you don't normally expect to have variables that every single function has access to.<br><br>Most variables are declared as static to individual files, to deliberately limit their scope.<br><br>This is normal / good programming practice, to limit variability scope.<br><br>If you need a variable that is visible to every function, you will probably need to making a new .c file and a new .h and then include that new .h in every file that needs access to your 'global' variable</div></blockquote>Hello, thanks for you reply.<br>I tried to create a global variable in a .h file.<br>It works when I include this variable in a single.c file but in multiple file, there is errors :<blockquote class="uncited"><div> application/include/globalvar.h:2: first defined here.</div></blockquote>On the other hand, if I add the variable in static then I can put it in as many.c files as I want.<br><br>But I want a volatile variable, not a static variable. I see that there are these kinds of variables like for example uiDataGlobal.Scan. which is visible in all .c files. How do you create this kind of variable?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4783">JP7NJT</a> — Mon Dec 11, 2023 10:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-08T02:02:11</updated>
+
+		<published>2023-12-08T02:02:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3562&amp;p=27961#p27961</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3562&amp;p=27961#p27961"/>
+		<title type="html"><![CDATA[Re: Global var]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3562&amp;p=27961#p27961"><![CDATA[
+<blockquote class="uncited"><div>Hello everyone,<br><br>I would like to use a global variable that would be visible in all the code, do you know in which file I should define my variable?<br><br>JP7NJT</div></blockquote>The code is partially modular and you don't normally expect to have variables that every single function has access to.<br><br>Most variables are declared as static to individual files, to deliberately limit their scope.<br><br>This is normal / good programming practice, to limit variability scope.<br><br>If you need a variable that is visible to every function, you will probably need to making a new .c file and a new .h and then include that new .h in every file that needs access to your 'global' variable<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 08, 2023 2:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[JP7NJT]]></name></author>
+		<updated>2023-12-07T22:39:18</updated>
+
+		<published>2023-12-07T22:39:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3562&amp;p=27958#p27958</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3562&amp;p=27958#p27958"/>
+		<title type="html"><![CDATA[Global var]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3562&amp;p=27958#p27958"><![CDATA[
+Hello everyone,<br><br>I would like to use a global variable that would be visible in all the code, do you know in which file I should define my variable?<br><br>JP7NJT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4783">JP7NJT</a> — Thu Dec 07, 2023 10:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

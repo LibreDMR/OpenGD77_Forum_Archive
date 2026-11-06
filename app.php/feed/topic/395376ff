@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3953" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-06T04:23:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3953</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-06T04:23:40</updated>
+
+		<published>2024-04-06T04:23:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30656#p30656</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30656#p30656"/>
+		<title type="html"><![CDATA[Re: Problem for midify frequency oscillateur CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30656#p30656"><![CDATA[
+<blockquote class="uncited"><div>Thank you, that's the answer I wanted.<br>I am at +22 (-128/+128) in vhf and also at +22 in uhf.<br>According to my SDR I have +700 Hz in UHF and +400 Hz in VHF.</div></blockquote>Is your SDR calibrated?<br><br>IMO all you can use an SDR for is to compare frequencies, but won't know the absolute value<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 06, 2024 4:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[f4igg]]></name></author>
+		<updated>2024-04-05T22:21:40</updated>
+
+		<published>2024-04-05T22:21:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30649#p30649</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30649#p30649"/>
+		<title type="html"><![CDATA[Re: Problem for midify frequency oscillateur CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30649#p30649"><![CDATA[
+Thank you, that's the answer I wanted.<br>I am at +22 (-128/+128) in vhf and also at +22 in uhf.<br>According to my SDR I have +700 Hz in UHF and +400 Hz in VHF.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3919">f4igg</a> — Fri Apr 05, 2024 10:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-05T19:54:56</updated>
+
+		<published>2024-04-05T19:54:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30642#p30642</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30642#p30642"/>
+		<title type="html"><![CDATA[Re: Problem for midify frequency oscillateur CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30642#p30642"><![CDATA[
+<blockquote class="uncited"><div>Thanks for your quick response, but how to change the value in the tyt9600 or computer in the cps?<br>There is no longer the frequency calibration offset in the fw opengd77. Just the power adjustment.</div></blockquote>There are multiple pages of the calibration screen, use. SK2 + Down / Up<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 05, 2024 7:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[f4igg]]></name></author>
+		<updated>2024-04-05T19:22:44</updated>
+
+		<published>2024-04-05T19:22:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30641#p30641</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30641#p30641"/>
+		<title type="html"><![CDATA[Re: Problem for midify frequency oscillateur CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30641#p30641"><![CDATA[
+Thanks for your quick response, but how to change the value in the tyt9600 or computer in the cps?<br>There is no longer the frequency calibration offset in the fw opengd77. Just the power adjustment.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3919">f4igg</a> — Fri Apr 05, 2024 7:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-04-05T16:35:58</updated>
+
+		<published>2024-04-05T16:35:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30636#p30636</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30636#p30636"/>
+		<title type="html"><![CDATA[Re: Problem for midify frequency oscillateur CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30636#p30636"><![CDATA[
+<blockquote class="uncited"><div>Hello, I have a frequency shift problem on my tyt9600 in uhf (not tested in vhf).<br>I don't fit into my mmdvm hotpsots. I don't want to change the offset in the pistar, otherwise my walkie talkies will no longer work.<br>In the dmr relays too, I have difficulty getting into them, the reception signal is very weak.<br>I am trying to modify the frequency of the oscillator with the CPS in the CALIBRATION section.<br>When I do a reading, there is a 1 second message on the tyt9600 screen but the page on the computer remains white.<br>I have a v4a version (installed v5).<br>thank you for your reply.<br>f4igg Eric.</div></blockquote>The logical solution is to use a calibrated frequency counter and adjust everything into the correct carrier frequency.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Apr 05, 2024 4:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[f4igg]]></name></author>
+		<updated>2024-04-05T15:33:47</updated>
+
+		<published>2024-04-05T15:33:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30635#p30635</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30635#p30635"/>
+		<title type="html"><![CDATA[Problem for midify frequency oscillateur CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3953&amp;p=30635#p30635"><![CDATA[
+Hello, I have a frequency shift problem on my tyt9600 in uhf (not tested in vhf).<br>I don't fit into my mmdvm hotpsots. I don't want to change the offset in the pistar, otherwise my walkie talkies will no longer work.<br>In the dmr relays too, I have difficulty getting into them, the reception signal is very weak.<br>I am trying to modify the frequency of the oscillator with the CPS in the CALIBRATION section.<br>When I do a reading, there is a 1 second message on the tyt9600 screen but the page on the computer remains white.<br>I have a v4a version (installed v5).<br>thank you for your reply.<br>f4igg Eric.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3919">f4igg</a> — Fri Apr 05, 2024 3:33 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

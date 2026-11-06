@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4989" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-23T03:33:20</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4989</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-23T03:33:20</updated>
+
+		<published>2025-03-23T03:33:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36366#p36366</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36366#p36366"/>
+		<title type="html"><![CDATA[Re: Power setting DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36366#p36366"><![CDATA[
+<blockquote class="uncited"><div>Thank you. I wanted to drop the power down a bit, but instead of dropping the setting to 3800, I changed the power setting to 4 watts GARY</div></blockquote>The setting you described is only for the Custom power setting. It allows you to set the PA drive from no drive at all to the maximum the hardware is capable of.<br><br>Note.  The maximum setting should be used with caution be because it can cause overheating of the PA FET.<br><br>If you want to change the power output, you should normally use the normal power controls,  e.g 1 to 5w etc<br><br>If your radio is not outputting the correct power eg not 5w on the 5w setting you need to use the calibration functionality<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Mar 23, 2025 3:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-23T01:40:33</updated>
+
+		<published>2025-03-23T01:40:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36364#p36364</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36364#p36364"/>
+		<title type="html"><![CDATA[Re: Power setting DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36364#p36364"><![CDATA[
+Thank you. I wanted to drop the power down a bit, but instead of dropping the setting to 3800, I changed the power setting to 4 watts GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Sun Mar 23, 2025 1:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-22T23:50:41</updated>
+
+		<published>2025-03-22T23:50:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36360#p36360</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36360#p36360"/>
+		<title type="html"><![CDATA[Re: Power setting DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36360#p36360"><![CDATA[
+<blockquote class="uncited"><div>In the settings, there’s a power setting. It’s default set at 4100 which is max. Goes down in 100 increments. How much drop in power is every drop of 100? GARY. N4KVE</div></blockquote>These values (100), are the raw DAC values that control the PA drive circuit, the amount of power difference for each step depends on a large number of factors e.g. Tx Frequency and battery voltage, and the gain of your specific PA FET in you radio.<br><br>It is not possible to specify how much change in output power there will be for each step change (100)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 22, 2025 11:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-22T21:18:13</updated>
+
+		<published>2025-03-22T21:18:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36353#p36353</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36353#p36353"/>
+		<title type="html"><![CDATA[Power setting DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4989&amp;p=36353#p36353"><![CDATA[
+In the settings, there’s a power setting. It’s default set at 4100 which is max. Goes down in 100 increments. How much drop in power is every drop of 100? GARY. N4KVE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Sat Mar 22, 2025 9:18 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

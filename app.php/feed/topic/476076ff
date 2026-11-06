@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4760" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-14T21:18:09</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4760</id>
+
+		<entry>
+		<author><name><![CDATA[IK3TXT]]></name></author>
+		<updated>2025-01-14T21:18:09</updated>
+
+		<published>2025-01-14T21:18:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35144#p35144</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35144#p35144"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 and additional radio key and scan functions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35144#p35144"><![CDATA[
+Hi Charlie, thank you so much for your precious info.<br>Now with the manual I have found that the GD77 can do much more than what I had discovered by trying to tinker with it.<br>Thanks again, 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7683">IK3TXT</a> — Tue Jan 14, 2025 9:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-01-14T01:42:58</updated>
+
+		<published>2025-01-14T01:42:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35137#p35137</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35137#p35137"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 and additional radio key and scan functions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35137#p35137"><![CDATA[
+<blockquote class="uncited"><div>Hi, I have a Baofeng 1701 on which I installed OpenGD77.<br>The process went well but I can't figure out how to assign the additional radio keys and how to perform a Scan of the stored channels.<br>Are these functions not foreseen for this radio??<br>Thanks to anyone who wants to enlighten me.</div></blockquote>First of all, please have a look at the manual<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... r_Guide.md</a><br><br>For the hotkey programming, I hope this video might help<br> <strong>iframe</strong> <br><a href="http://youtu.be/aJVInjNHv1c">youtu.be/aJVInjNHv1c</a><br><br>I don’t use scanning, so I can’t comment on that. However, you can see the manual above.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Jan 14, 2025 1:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IK3TXT]]></name></author>
+		<updated>2025-01-13T22:20:41</updated>
+
+		<published>2025-01-13T22:20:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35136#p35136</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35136#p35136"/>
+		<title type="html"><![CDATA[Baofeng 1701 and additional radio key and scan functions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4760&amp;p=35136#p35136"><![CDATA[
+Hi, I have a Baofeng 1701 on which I installed OpenGD77.<br>The process went well but I can't figure out how to assign the additional radio keys and how to perform a Scan of the stored channels.<br>Are these functions not foreseen for this radio??<br>Thanks to anyone who wants to enlighten me.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7683">IK3TXT</a> — Mon Jan 13, 2025 10:20 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

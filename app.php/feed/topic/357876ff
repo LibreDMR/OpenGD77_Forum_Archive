@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3578" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-12T05:36:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3578</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-12T05:36:27</updated>
+
+		<published>2023-12-12T05:36:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3578&amp;p=28047#p28047</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3578&amp;p=28047#p28047"/>
+		<title type="html"><![CDATA[New Beta 2023 12 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3578&amp;p=28047#p28047"><![CDATA[
+A new MD9600/RT90 Beta is available<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/9f28fe4ca8652e1993df2f4252e46b8c4d61f7e6" class="postlink">downloads/MD9600/Firmware/9f28fe4ca8652 ... 8c4d61f7e6</a><br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><br><br>This version fixes a possible null pointer problem in the QuickKeys display functionality.<br><br>Thanks to Daniel F1RMB for fixing this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 12, 2023 5:36 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

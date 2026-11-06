@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3319" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-28T09:04:15</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3319</id>
+
+		<entry>
+		<author><name><![CDATA[Shuttrr]]></name></author>
+		<updated>2023-09-28T09:04:15</updated>
+
+		<published>2023-09-28T09:04:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26588#p26588</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26588#p26588"/>
+		<title type="html"><![CDATA[Re: Radio died after update]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26588#p26588"><![CDATA[
+topic can be closed<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1922">Shuttrr</a> — Thu Sep 28, 2023 9:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Shuttrr]]></name></author>
+		<updated>2023-09-25T12:40:47</updated>
+
+		<published>2023-09-25T12:40:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26541#p26541</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26541#p26541"/>
+		<title type="html"><![CDATA[Re: Radio died after update]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26541#p26541"><![CDATA[
+yes i get something of life in the gd77. TKX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1922">Shuttrr</a> — Mon Sep 25, 2023 12:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Shuttrr]]></name></author>
+		<updated>2023-09-25T12:16:56</updated>
+
+		<published>2023-09-25T12:16:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26540#p26540</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26540#p26540"/>
+		<title type="html"><![CDATA[Re: Radio died after update]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26540#p26540"><![CDATA[
+Tkx,<br><br>Ive got the green LED after your instructions bud it cant connect to the gd77 in the firmware loader.<br><br>I hope it can be fixed.<br><br>Tkx in advanced<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1922">Shuttrr</a> — Mon Sep 25, 2023 12:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-23T19:49:05</updated>
+
+		<published>2023-09-23T19:49:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26496#p26496</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26496#p26496"/>
+		<title type="html"><![CDATA[Re: Radio died after update]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26496#p26496"><![CDATA[
+Hi,<br><br>   Pull the battery. Turn off the power switch, install the battery back, press and hold SK1+SK2 then power it on.<br>If should start in bootloader mode.<br><br>In this case, re-download a fresh firmware binary, then flash your GD77 using it.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Sep 23, 2023 7:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Shuttrr]]></name></author>
+		<updated>2023-09-23T19:10:46</updated>
+
+		<published>2023-09-23T19:10:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26494#p26494</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26494#p26494"/>
+		<title type="html"><![CDATA[Radio died after update]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3319&amp;p=26494#p26494"><![CDATA[
+Hi,<br><br>My radio died (GD77) after update. I get a error white upgrading and one white flash in the screen and now hes dead. No power no LED bij turn on the radio.<br><br>What happend....?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1922">Shuttrr</a> — Sat Sep 23, 2023 7:10 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

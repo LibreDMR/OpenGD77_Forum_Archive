@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3532" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-07T21:35:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3532</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-07T21:35:36</updated>
+
+		<published>2023-12-07T21:35:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3532&amp;p=27957#p27957</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3532&amp;p=27957#p27957"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 12 02]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3532&amp;p=27957#p27957"><![CDATA[
+This version has now been superseded<br><br>See<br><br><a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3561" class="postlink">viewtopic.php?f=13&amp;t=3561</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 07, 2023 9:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-01T23:46:09</updated>
+
+		<published>2023-12-01T23:46:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3532&amp;p=27802#p27802</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3532&amp;p=27802#p27802"/>
+		<title type="html"><![CDATA[New Beta 2023 12 02]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3532&amp;p=27802#p27802"><![CDATA[
+A new Beta version is available<br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/e0c6bb36b5e07939238eee7537c6a9b179b50932" class="postlink">downloads/GD77/Firmware/e0c6bb36b5e0793 ... b179b50932</a><br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">downloads/GD77/Firmware/Latest</a><br><br>This version fixes the hotspot CW ID bug in the last Beta<br><br>Thanks to Daniel F1RMB for fixing this<br><br>Note.<br><br>The version with NMEA in the name are versions with GPS logging enabled and should <span style="text-decoration:underline">only be used</span> if you have fitted a GPS to your radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 01, 2023 11:46 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

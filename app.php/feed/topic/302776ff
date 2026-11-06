@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3027" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-07-13T09:48:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3027</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-13T09:48:19</updated>
+
+		<published>2023-07-13T09:48:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24390#p24390</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24390#p24390"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24390#p24390"><![CDATA[
+Topic moved to GD77 section, as it appears to be related to OpenGD77 firmware installation<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 13, 2023 9:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-13T09:33:36</updated>
+
+		<published>2023-07-13T09:33:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24388#p24388</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24388#p24388"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24388#p24388"><![CDATA[
+<blockquote class="uncited"><div>I am confused!<br>I load here the newest CPS: --&gt; OpenGD77CPSInstaller_R2023.06.25.01.exe<br>After install this software i find in menu "Extras" the option: "OpenGD77 Support".<br>Am I the only one who sees the menu?<br><br>I can't understand the step to move this topic in the Off-topic folder.<br><br>73 de Dieter</div></blockquote>But you can't load the official firmware with this CPS.<br><br>The official firmware is only used as a 'donor' firmware for the AMBE codec.<br><strong class="text-strong">Only </strong>version 4.3.6 can be uses as the donor firmware.  So I don't understand your references to installing version 4.3.9<br><blockquote class="uncited"><div>Today i installed GD-77 V4.3.9 again and the radio shows the "Settings update" screen. </div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 13, 2023 9:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL9XN]]></name></author>
+		<updated>2023-07-13T09:07:58</updated>
+
+		<published>2023-07-13T09:07:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24387#p24387</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24387#p24387"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24387#p24387"><![CDATA[
+I am confused!<br>I load here the newest CPS: --&gt; OpenGD77CPSInstaller_R2023.06.25.01.exe<br>After install this software i find in menu "Extras" the option: "OpenGD77 Support".<br>Am I the only one who sees the menu?<br><br>I can't understand the step to move this topic in the Off-topic folder.<br><br>73 de Dieter<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4154">DL9XN</a> — Thu Jul 13, 2023 9:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-13T07:43:40</updated>
+
+		<published>2023-07-13T07:43:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24386#p24386</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24386#p24386"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24386#p24386"><![CDATA[
+<blockquote class="uncited"><div>With the latest CPS-Software i can go in the "OpenGD77 Support" Mode. If i click "Backup settings" the radio switch an shows me the screen with two frequencies and the computer save a setting.dat file.</div></blockquote>I've never heard of "OpenGD77 Support" mode or "Backup settings" in the official CPS<br><br>This must be something new they added. We have no communcation with Radioddity, so have no idea what these functions do<br><br><br>As Daniel has stated in his email, Radioddity have a bad track record for screwing up the lock / signature bytes that the bootloader examines to determine whether it will reload new firmware.<br><br>If these bytes are ever erased, the radio will no longer be able to be updated, without it being disassembled and the CPU completely erased and a modified version of the bootloader being installed using a hardware programmer tool, like JLink.<br><br><br>Anyway, it sounds like you never installed the OpenGD77 firmware on this radio, and all the problems you are experiencing are with new versions of the official firmware.<br><br>So I don't understand why you posted the question to this forum which is exclusively for the OpenGD77 firmware<br><br>Please can you confirm if you are using the OpenGD77 firmware, and if not, you need to contact Radioddity<br><br>Note. I have now moved this thread to the Off Topic section, as it does not appear to be related to the OpenGD77 firmware or CPS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 13, 2023 7:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL9XN]]></name></author>
+		<updated>2023-07-13T07:32:57</updated>
+
+		<published>2023-07-13T07:32:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24385#p24385</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24385#p24385"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24385#p24385"><![CDATA[
+Hi Roger and all other,<br>Thank you for your comments. Sorry, I guess I should have been clearer.<br>Yes, in the 1st post i wrote it doesn't works. Ther was the radio in the descriped situation afterflashing with GD-77 V4.3.9 (Ham version) from the Radioddity site.<br>&gt;"Ihe radio starts with the message: "Settings update". But the radio does not respond to any keystroke, it hangs".<br><br>After my 1st post i tried to flash with "GD-77_V4.3.6.sgl". After this flash I see in sthe screen the two frequencies and can receive and transmit on it. <br>But i can't change or swirch these frequencies and the radio response only for one or two times key pressures, but only very slowly.<br>Today i installed  GD-77 V4.3.9 again and the radio shows the "Settings update" screen. <br>With the latest CPS-Software i can go in the "OpenGD77 Support" Mode. If i click "Backup settings" the radio switch an shows me the screen with two frequencies and the computer save a setting.dat file.<br>But if i turn the radio off an on again, i see furthermore the "Settings update" screen.<br><br>Maybe it can be a way to solve the problem if i use the Restore funktions.<br>But the problem is, i don't have these backup-files (EEPROM, settings, flash and Calibration).<br>Could it be a senseful way if i restore my radio with backups from an other Ham?<br>73,<br>Dieter<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4154">DL9XN</a> — Thu Jul 13, 2023 7:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-07-13T06:14:03</updated>
+
+		<published>2023-07-13T06:14:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24382#p24382</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24382#p24382"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24382#p24382"><![CDATA[
+Yes,<br><br>  but I had to fix 2 GD-77 because the guys has done a factory reset. I've also done that, just to confirm, but I can't remember the FW version (fw years back).<br><br>As Dieter started to mention doing so, I'd prefer to trigger a warning.<br><br>So, the rule of thumb is: don't do that, it's bad  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><br><em class="text-italics"><span style="font-size:20%;line-height:116%">and it's unnecessary 99.99% of the time, better off starting with a fresh codeplug.</span></em><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jul 13, 2023 6:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-13T06:00:03</updated>
+
+		<published>2023-07-13T06:00:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24381#p24381</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24381#p24381"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24381#p24381"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>  I would add à reminder here:<br><strong class="text-strong">Never do à factory reset on GD-77/DM-1801/RD-5R, depending on the official (manufacturer) firmware, it will kill the protection bytes and turn the radio into something you cannot flash anymore unless you flash a modified bootloader using a hardware programmer.</strong><br><br>Cheers.<br>---<br>Daniel</div></blockquote>Someytimes also just changing to a different version of official firmware has been known to erase the protection bytes, however its unclear exactly when this happens, i.e which versions of official firmware do this and under what conditions<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 13, 2023 6:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-07-13T02:28:09</updated>
+
+		<published>2023-07-13T02:28:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24377#p24377</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24377#p24377"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24377#p24377"><![CDATA[
+Hi,<br><br>  I would add à reminder here:<br><strong class="text-strong">Never do à factory reset on GD-77/DM-1801/RD-5R, depending on the official (manufacturer) firmware, it will kill the protection bytes and turn the radio into something you cannot flash anymore unless you flash a modified bootloader using a hardware programmer.</strong><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jul 13, 2023 2:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-13T01:49:40</updated>
+
+		<published>2023-07-13T01:49:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24374#p24374</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24374#p24374"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24374#p24374"><![CDATA[
+<blockquote class="uncited"><div>I cannot imagine that the hardware is defective.<br>When I switch it on, the display shows two frequencies and I can receive and transmit on them.</div></blockquote><br>Your first post said the radio didnt work at all<blockquote class="uncited"><div>It hangs up immediately after switching on. Nothing works any more.</div></blockquote>You are now saying it does work.<br><br><br>When you say factor settings, what do you mean. OpenGD77  default settings or official Radioddity firmware settings.<br><br>Following the OpenGD77 installation information, you should be able to restore the Flash and EEPROM chip memory which you backed up after installing the OpenGD77 firmware<br><br>This will restore any official data, before you then reinstall the official firmware<br><br><br>If you mean default opengd77 firmware settings, this is achieved by holding SK2 when turning on the radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 13, 2023 1:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL9XN]]></name></author>
+		<updated>2023-07-12T22:11:03</updated>
+
+		<published>2023-07-12T22:11:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24373#p24373</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24373#p24373"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24373#p24373"><![CDATA[
+I cannot imagine that the hardware is defective.<br>When I switch it on, the display shows two frequencies and I can receive and transmit on them.<br>I have to find a way to reset the radio to factory settings, but the corresponding keyboard combination has no effect.<br>I guess that importing the *.bin file is the trigger.<br>Could it be successful if I use a different bin file?<br>I read an info that you should use a special firmware from radioddity to fix unsolvable problems. But I can't find older versions of the firmware from radioddity's site.<br><br>73 de Dieter DL9XN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4154">DL9XN</a> — Wed Jul 12, 2023 10:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-07-12T15:12:23</updated>
+
+		<published>2023-07-12T15:12:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24360#p24360</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24360#p24360"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24360#p24360"><![CDATA[
+Unfortunately you are confusing things by switching back and forward between OpenGD77 and the radioddity firmware. You can't do that without the chance of problems. You must always use the correct download program.  For the .sgl files from radioddity you must use update.exe, for the .bin files from OpenGD77 you must the the OpenGD77 CPS. <br><br>When loading OpenGD77 and the radio said "Settings Update" you should press the green key to acknowledge and it should then work OK.  If it still doesn't respond then it sounds like you may have a hardware problem. <br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Jul 12, 2023 3:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL9XN]]></name></author>
+		<updated>2023-07-12T14:41:16</updated>
+
+		<published>2023-07-12T14:41:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24358#p24358</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24358#p24358"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24358#p24358"><![CDATA[
+Hello Colin and Daniel, <br>Thanks for the tip about switching on safely. That is definitely not the problem.<br>Previously this firmware was installed:<br>OpenGD77<br>build May 4 2020<br>(ada9153]<br>OpenGD77 CPS version 0.0.0.94<br><br>I then tried an update with new software to the Ham version:<br>GD-77 V4.3.9 (Ham version) from the Radioddity site.<br>I used the firmware update function within the software. I had to add a BIN file.<br>Here I downloaded the file "OpenGD77.bin" from the path: <a href="https://www.opengd77.com/downloads/GD77/Latest/" class="postlink">downloads/GD77/Latest/</a>.<br>When I use the latest OpenGD77 CPS and update the firmware with it, the radio starts with the message: "Settings update". But the radio does not respond to any keystroke, it hangs.<br><br>I have tried all this again.<br>But when I install the firmware "GD-77_V4.3.6.sgl" with the special update programme (Update.exe), the radio shows two frequencies after switching on, but it does not react or reacts extremely slowly and hangs up after pressing second or thee times. Transmitting funktion still works..<br><br>I have tried everything but the radio always seems to hang up.<br><br>Any ideas?<br><br>vy 73 es gl de Dieter, DL9XN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4154">DL9XN</a> — Wed Jul 12, 2023 2:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-07-11T14:51:51</updated>
+
+		<published>2023-07-11T14:51:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24339#p24339</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24339#p24339"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24339#p24339"><![CDATA[
+I missed that part of the post. If you are talking about the official firmware then the answer regarding safe power on is irrelevant. <br><br>We can't really help much with the official firmware. <br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Jul 11, 2023 2:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-07-11T14:46:06</updated>
+
+		<published>2023-07-11T14:46:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24338#p24338</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24338#p24338"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24338#p24338"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hello dear radio friends,<br><br>After I had to take a longer break, I dug out my GD-77 devices again. While reading the latest news, I realised that my firmware and software for programming are very old.<br>I wanted to bring this up to date and downloaded the new firmware from Radioddity (Ham version) and updated the firmware. <br>Unfortunately, my GD-77 now has a bug:<br>It hangs up immediately after switching on. Nothing works any more.<br>Restoring old firmware does not help either. I have tried several versions.<br><br>Is there a way to reset the device so that it is in the factory state?<br><br>I have read about a firmware that can revive the very serious cases but unfortunately I can't find the download link?<br>I am desperate. Does anyone know any good advice?<br>Thank you very much for your efforts.<br><br>Vy 73 es gl de<br>Dieter</div></blockquote>Can you tell us which firmware version(s) are you using (the OpenGD77 one, and the one as donor ?).<br>Have you updated everything, CPS included, it's mandatory.<br><br>it's not clear, to me, if you're flashing the Radioddity firmware, or the OpenGD77.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jul 11, 2023 2:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-07-11T14:43:06</updated>
+
+		<published>2023-07-11T14:43:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24337#p24337</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24337#p24337"/>
+		<title type="html"><![CDATA[Re: GD-77 Please help - Radio hangs permanently]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3027&amp;p=24337#p24337"><![CDATA[
+<blockquote class="uncited"><div>The safe power on option may be set. This prevents the radio from being accidentally turned on. <br><br>Hold SK1 while powering  on in this condition.<br><br>You can then change the Safe Power On option in the general options menu. <br><br>Personally I think this option is more trouble than it is worth but I guess someone requested it. <br><br><br>Colin G4EML</div></blockquote>The problem is not the option, is people dicking around settings without even knowing what they are doing.<br>This setting is OFF by default, many people are using it.<br><br>Thanks.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jul 11, 2023 2:43 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

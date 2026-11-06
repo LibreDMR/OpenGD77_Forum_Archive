@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5194" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-27T21:28:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5194</id>
+
+		<entry>
+		<author><name><![CDATA[ve2cuz]]></name></author>
+		<updated>2025-06-27T21:28:47</updated>
+
+		<published>2025-06-27T21:28:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37581#p37581</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37581#p37581"/>
+		<title type="html"><![CDATA[Re: New TYT MD-9600 Plus DMR tx fail]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37581#p37581"><![CDATA[
+Thanks for your help. I tried the MD9600 in my car and everything works (hotspot and local repeater). Good news.<br><br>The problem is, I plugged the MD9600 into a half-load for testing; it didn't seem to work with my hotspot. I try the half-load to my UV390, Same result. My hotspot doesn't like half-load antennas!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br>Thanks for your suggestion to check the frequency calibration. I ran the test with my android sdr rf analyzer on the UV390 vs. the MD9600. I don't think I have a problem there.<br><br><br><br><br>thank-you 73!<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3031&amp;sid=e14bfa6cbc5362c8cc1535d3ef3b5fc2" class="postimage" alt="Screenshot_20250627_170031_RF Analyzer.jpeg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8653">ve2cuz</a> — Fri Jun 27, 2025 9:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-27T19:41:43</updated>
+
+		<published>2025-06-27T19:41:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37580#p37580</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37580#p37580"/>
+		<title type="html"><![CDATA[Re: New TYT MD-9600 Plus DMR tx fail]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37580#p37580"><![CDATA[
+<blockquote class="uncited"><div>but in duplex it doesn't work.</div></blockquote>then maybe is related with frequency deviation/calibration for example like this...<br><br><a href="https://www.youtube.com/watch?v=8gB0CR20yBc" class="postlink">https://www.youtube.com/watch?v=8gB0CR20yBc</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Jun 27, 2025 7:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-27T16:47:30</updated>
+
+		<published>2025-06-27T16:47:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37579#p37579</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37579#p37579"/>
+		<title type="html"><![CDATA[Re: New TYT MD-9600 Plus DMR tx fail]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37579#p37579"><![CDATA[
+Duplex hotspots are a bit tricky, could be that you frequencies are off a bit.<br>I've installed opengd77 on a new md-9600 and it had the same factory firmware version.<br>But I always check the frequency calibration with my counter and try to get it as exact as possible.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Jun 27, 2025 4:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2cuz]]></name></author>
+		<updated>2025-06-27T16:01:43</updated>
+
+		<published>2025-06-27T16:01:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37578#p37578</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37578#p37578"/>
+		<title type="html"><![CDATA[Re: New TYT MD-9600 Plus DMR tx fail]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37578#p37578"><![CDATA[
+I think so, the donor version is MD9600-CSV(2571V5)-V26.45.bin with firmware version MD9600_firmware_V5HW.bin.<br><br>Original TYT codeplug.<br>My radio hardware is V2.06 and MCU version S126.061 and S/N 250517.<br><br>I don't have any version indicated on the PCB.<br><br>This morning I tried in simplex on my hotspot (wpsd, pi-star) and it works TX and RX in DMR, but in duplex it doesn't work.<br><br>I haven't tried it on a local repeater yet!<br><br>I have no problem with my UV390Plus on my hotspot in duplex, and I have the same plug code for my MD-9600 Plus, but it doesn't work in duplex.<br><br>I still have to try it on a local repeater!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8653">ve2cuz</a> — Fri Jun 27, 2025 4:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-26T23:36:13</updated>
+
+		<published>2025-06-26T23:36:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37569#p37569</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37569#p37569"/>
+		<title type="html"><![CDATA[Re: New TYT MD-9600 Plus DMR tx fail]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37569#p37569"><![CDATA[
+did you used the proper firmware donor file for DMR?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jun 26, 2025 11:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2cuz]]></name></author>
+		<updated>2025-06-26T17:18:07</updated>
+
+		<published>2025-06-26T17:18:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37562#p37562</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37562#p37562"/>
+		<title type="html"><![CDATA[New TYT MD-9600 Plus DMR tx fail]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5194&amp;p=37562#p37562"><![CDATA[
+I received my radio yesterday (no version indicate on pcb) i flashed the MD-9600 v5 firmware. Everything went well. I programmed my radio with my plug code from my MD-UV390Plus. With the MD-9600Plus, I have a DMR tx problem. Only when I transmit, the fan is running, but no RF output. I tried in FM mode, everything works. I tried a reset of SK2+PWR, the radio emits a CW sound, but the screen remains black.<br><br>e.g.:<br><br>DMR - RX OK, TX Fail<br>FM - RX OK, TX OK<br><br>Need help?<br><br>73!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8653">ve2cuz</a> — Thu Jun 26, 2025 5:18 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

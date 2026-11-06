@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4801" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-25T18:07:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4801</id>
+
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-25T18:07:55</updated>
+
+		<published>2025-01-25T18:07:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35356#p35356</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35356#p35356"/>
+		<title type="html"><![CDATA[Re: Number of talkgroups in relation to number of contacts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35356#p35356"><![CDATA[
+Got it!  So unless there is an increase in contact size,  contacts including talkgroup entries are limited to 1024.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Sat Jan 25, 2025 6:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-25T16:16:10</updated>
+
+		<published>2025-01-25T16:16:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35355#p35355</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35355#p35355"/>
+		<title type="html"><![CDATA[Re: Number of talkgroups in relation to number of contacts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35355#p35355"><![CDATA[
+TG lists contain only reference to real contact.<br>You can have the same contact and many TG lists.<br><br>Depending of operator's requirements, you can only have few references in such list.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jan 25, 2025 4:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-25T15:49:37</updated>
+
+		<published>2025-01-25T15:49:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35353#p35353</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35353#p35353"/>
+		<title type="html"><![CDATA[Number of talkgroups in relation to number of contacts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4801&amp;p=35353#p35353"><![CDATA[
+In opengd77 there are 1024 contacts allowed. There are 76 talkgroup lists that can contain 32 talkgroups each. Being that talkgroups are included with contact listing, that leaves more talkgroup slots (2432) than contacts (1024)?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Sat Jan 25, 2025 3:49 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

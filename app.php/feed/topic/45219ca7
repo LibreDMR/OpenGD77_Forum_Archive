@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4521" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-16T05:41:56</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4521</id>
+
+		<entry>
+		<author><name><![CDATA[KF8DFA]]></name></author>
+		<updated>2025-02-16T05:41:56</updated>
+
+		<published>2025-02-16T05:41:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4521&amp;p=35779#p35779</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4521&amp;p=35779#p35779"/>
+		<title type="html"><![CDATA[Re: Radio not connected or not in DFU mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4521&amp;p=35779#p35779"><![CDATA[
+I had this issue on two installs .... one was Win10 install, the the other on Win11.  For both I figured out that the driver wasnt installing due to anti-virus/security settings.   In Windows 10 try turning off security settings -- I cant tell you exactly what I did, I just kept hacking away at it.  In Windows 11 it was tied to Core memory protection settings, try turning that off.   Once I installed the driver from the Baofeng website with security turned off or disabled, the laptops were able to see the radio.  I think the thing that tipped me off was looking at details for the failed install on the Win11 machine.  Windows11 had the driver flagged as incompatible with newer standards and had to be granted access.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8069">KF8DFA</a> — Sun Feb 16, 2025 5:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G8WBO]]></name></author>
+		<updated>2024-10-25T16:30:40</updated>
+
+		<published>2024-10-25T16:30:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33697#p33697</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33697#p33697"/>
+		<title type="html"><![CDATA[Re: Radio not connected or not in DFU mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33697#p33697"><![CDATA[
+Splendid <br><br>Thankyou, all working now.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7170">G8WBO</a> — Fri Oct 25, 2024 4:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-10-25T16:04:45</updated>
+
+		<published>2024-10-25T16:04:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33695#p33695</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33695#p33695"/>
+		<title type="html"><![CDATA[Re: Radio not connected or not in DFU mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33695#p33695"><![CDATA[
+<blockquote class="uncited"><div>Using Win10pro<br><br>DM1701 turned on with top buttons pressed, led flashing, doner file selected.  Firmware loader reports “Radio not connected or not in DFU mode”.  <br><br>Windows usb settings shows “Digital radio in USB mode”  “Driver unavailable”. Tried reinstalling CPS which shows a brief message which may have said something like driver loaded .<br><br>Windows seems unable to find a driver and manually searching reveals nothing that fits the bill.   Plainly the PC is seeing the radio.  A quick look for a driver to download has failed to find anything.<br><br>I see a few other threads with this problem but no obvious solution that fits.<br><br>Any guidance please.</div></blockquote><br>Have you installed the DFU driver? <br><br><a href="https://www.opengd77.com/downloads/drivers/Dfuse_3.0.6_drivers.zip" class="postlink">downloads/drivers/Dfuse_3.0.6_drivers.zip</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Oct 25, 2024 4:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G8WBO]]></name></author>
+		<updated>2024-10-25T14:19:20</updated>
+
+		<published>2024-10-25T14:19:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33694#p33694</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33694#p33694"/>
+		<title type="html"><![CDATA[Radio not connected or not in DFU mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4521&amp;p=33694#p33694"><![CDATA[
+Using Win10pro<br><br>DM1701 turned on with top buttons pressed, led flashing, doner file selected.  Firmware loader reports “Radio not connected or not in DFU mode”.  <br><br>Windows usb settings shows “Digital radio in USB mode”  “Driver unavailable”. Tried reinstalling CPS which shows a brief message which may have said something like driver loaded .<br><br>Windows seems unable to find a driver and manually searching reveals nothing that fits the bill.   Plainly the PC is seeing the radio.  A quick look for a driver to download has failed to find anything.<br><br>I see a few other threads with this problem but no obvious solution that fits.<br><br>Any guidance please.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7170">G8WBO</a> — Fri Oct 25, 2024 2:19 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

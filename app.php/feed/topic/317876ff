@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3178" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-21T10:49:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3178</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-08-21T10:49:44</updated>
+
+		<published>2023-08-21T10:49:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3178&amp;p=25493#p25493</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3178&amp;p=25493#p25493"/>
+		<title type="html"><![CDATA[Re: MD-9600 Analog FM Audio reports of overdriven/fuzzy]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3178&amp;p=25493#p25493"><![CDATA[
+I had to reduce my DMR gain to -3/-6 dB but on FM I have 0 dB and have never received a bad report.<br><br>Could it be that you use FM (wide) on repeaters/remote stations that use FMN (narrow) ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Aug 21, 2023 10:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD2YFY]]></name></author>
+		<updated>2023-08-21T10:28:48</updated>
+
+		<published>2023-08-21T10:28:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3178&amp;p=25491#p25491</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3178&amp;p=25491#p25491"/>
+		<title type="html"><![CDATA[MD-9600 Analog FM Audio reports of overdriven/fuzzy]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3178&amp;p=25491#p25491"><![CDATA[
+On the MD-9600 running OpenGD DMR audio has good reports of audio coming back.<br><br>Over on Analog FM side. I've gotten quite a few reports recently of the mic sounding fuzzy and overdriven. I turn the mic  gain down from 0db to anything lower, then it sounds too quiet.<br><br>Anyone else been having this issue? I bought a replacement mic thinking that was it, but a friend has the same exact issue on his radio running OpenGD<br><br>It sounds better on FM if you hold the mic further away, so maybe that's it? It's the same place I hold my other mics, but that doesn't mean anything!<br><br><br>Curious to see if anyone else has had this issue, or if a fix could be found?<br><br><br>Thanks for all the hard work on this software, it's awesome to have a base radio have the same codeplug and software as HTs!<br><br><br>I'm currently running 8.18 release, about to update to the new 8.21 release. I've also seen this on older betas when I tested it, like Feb's release.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4334">KD2YFY</a> — Mon Aug 21, 2023 10:28 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4082" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-24T05:30:28</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4082</id>
+
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-05-24T05:30:28</updated>
+
+		<published>2024-05-24T05:30:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31403#p31403</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31403#p31403"/>
+		<title type="html"><![CDATA[Re: Keps wont update on RT3s and DM17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31403#p31403"><![CDATA[
+Just saw this... I downloaded the new CPS and the keps updated perfect on the RT3S and DM1701. Havent tried the TYT UV390 Plus yet but I'm sure it will work great! Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Fri May 24, 2024 5:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-23T15:52:31</updated>
+
+		<published>2024-05-23T15:52:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31396#p31396</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31396#p31396"/>
+		<title type="html"><![CDATA[Re: Keps wont update on RT3s and DM17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31396#p31396"><![CDATA[
+<blockquote class="uncited"><div>The laptop that error message came from is the laptop I set up my DM-1701,  TYT-9600 and TYT UV-390 Plus with. They all worked and updated the keps til I tried to update the keps the day I posted that...<br><br>That error was after I updated to the most recent CPS because it got an error and it wouldn't update the keps on the CPS that I used to install Opengd77 on all 3...it was 2 CPS ago the original that quit updating the keps so I updated the keps and got the same error...</div></blockquote>No change was made in this area lately. It still works (I tried). Are you sure your windows didn't restricted the CPS network access ?<br><br>Drop me an email, I will give you a CPS version to test.<br><br>Cheers.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu May 23, 2024 3:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-05-23T15:30:55</updated>
+
+		<published>2024-05-23T15:30:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31394#p31394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31394#p31394"/>
+		<title type="html"><![CDATA[Re: Keps wont update on RT3s and DM17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31394#p31394"><![CDATA[
+The laptop that error message came from is the laptop I set up my DM-1701,  TYT-9600 and TYT UV-390 Plus with. They all worked and updated the keps til I tried to update the keps the day I posted that...<br><br>That error was after I updated to the most recent CPS because it got an error and it wouldn't update the keps on the CPS that I used to install Opengd77 on all 3...it was 2 CPS ago the original that quit updating the keps so I updated the keps and got the same error...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Thu May 23, 2024 3:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-22T08:28:18</updated>
+
+		<published>2024-05-22T08:28:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31391#p31391</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31391#p31391"/>
+		<title type="html"><![CDATA[Re: Keps wont update on RT3s and DM17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31391#p31391"><![CDATA[
+Hi,<br><br>   I think both problems are unrelated.<br>The first one should refer about some empty received keps (I'm working on this ATM).<br>About the second one, it's strange, as the CPS looks for a friendly name, that means, if the transceiver is connected, it should detect it by itself (I don't know about if that works correctly under Windows 11).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed May 22, 2024 8:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-05-22T07:59:42</updated>
+
+		<published>2024-05-22T07:59:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31389#p31389</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31389#p31389"/>
+		<title type="html"><![CDATA[Re: Keps wont update on RT3s and DM17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31389#p31389"><![CDATA[
+So this might be a laptop specific issue. On my other laptop it worked BUT I hit install keps and it asks me the port number and I choose the correct port. Then it faults out and asks me to click the port number again and works...<br><br>So one laptop not working at all and the other asking for the port number twice MIGHT be a bug....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Wed May 22, 2024 7:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-05-22T07:29:05</updated>
+
+		<published>2024-05-22T07:29:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31388#p31388</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31388#p31388"/>
+		<title type="html"><![CDATA[Keps wont update on RT3s and DM17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4082&amp;p=31388#p31388"><![CDATA[
+I suddenly cant update my satellite keps...on RT-3S and the DM 1701.... get this error. I can upload my code plug from thw radios<br><br>See the end of this message for details on invoking <br>just-in-time (JIT) debugging instead of this dialog box.<br><br>************** Exception Text **************<br>System.ArgumentOutOfRangeException: Index and length must refer to a location within the string.<br>Parameter name: length<br>   at System.String.Substring(Int32 startIndex, Int32 length)<br>   at DMR.OpenGD77Form.importKeps(Object sender, EventArgs e)<br>   at DMR.OpenGD77Form.downloadKepsCompleteHandler(Object sender, DownloadStringCompletedEventArgs e)<br>   at System.Net.WebClient.OnDownloadStringCompleted(DownloadStringCompletedEventArgs e)<br>   at System.Net.WebClient.DownloadStringOperationCompleted(Object arg)<br><br><br>************** Loaded Assemblies **************<br>mscorlib<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9232.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll<br>----------------------------------------<br>OpenGD77CPS<br>    Assembly Version: 1.2.8897.24840<br>    Win32 Version: 1.0.0.0<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/OpenGD77CPS.exe<br>----------------------------------------<br>System.Windows.Forms<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9181.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll<br>----------------------------------------<br>System<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9236.0 built by: NET481REL1LAST_B<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll<br>----------------------------------------<br>System.Drawing<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll<br>----------------------------------------<br>WeifenLuo.WinFormsUI.Docking<br>    Assembly Version: 3.0.4.0<br>    Win32 Version: 3.0.4.0<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/WeifenLuo.WinFormsUI.Docking.DLL<br>----------------------------------------<br>System.Data<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9214.0 built by: NET481REL1LAST_B<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll<br>----------------------------------------<br>System.Xml<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll<br>----------------------------------------<br>System.Configuration<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll<br>----------------------------------------<br>System.Core<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9236.0 built by: NET481REL1LAST_B<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll<br>----------------------------------------<br>Accessibility<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll<br>----------------------------------------<br>System.Numerics<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll<br>----------------------------------------<br><br>************** JIT Debugging **************<br>To enable just-in-time (JIT) debugging, the .config file for this<br>application or computer (machine.config) must have the<br>jitDebugging value set in the system.windows.forms section.<br>The application must also be compiled with debugging<br>enabled.<br><br>For example:<br><br>&lt;configuration&gt;<br>    &lt;system.windows.forms jitDebugging="true" /&gt;<br>&lt;/configuration&gt;<br><br>When JIT debugging is enabled, any unhandled exception<br>will be sent to the JIT debugger registered on the computer<br>rather than be handled by this dialog box.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Wed May 22, 2024 7:29 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

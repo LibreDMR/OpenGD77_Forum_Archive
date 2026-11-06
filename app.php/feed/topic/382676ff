@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3826" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-05T01:18:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3826</id>
+
+		<entry>
+		<author><name><![CDATA[BH1AYY]]></name></author>
+		<updated>2024-03-05T01:18:00</updated>
+
+		<published>2024-03-05T01:18:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29953#p29953</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29953#p29953"/>
+		<title type="html"><![CDATA[Re: About the setup of digital?DMR? channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29953#p29953"><![CDATA[
+<blockquote class="uncited"><div>It's not a problem, it's by design. You can't define two contacts for a single channel, you define one contact or a TG list, it's mutually exclusive.</div></blockquote>Thank you very much, I've got it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5414">BH1AYY</a> — Tue Mar 05, 2024 1:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BH1AYY]]></name></author>
+		<updated>2024-03-05T01:17:44</updated>
+
+		<published>2024-03-05T01:17:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29952#p29952</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29952#p29952"/>
+		<title type="html"><![CDATA[Re: About the setup of digital?DMR? channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29952#p29952"><![CDATA[
+Thank you very much??I've got it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5414">BH1AYY</a> — Tue Mar 05, 2024 1:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-02-27T07:19:43</updated>
+
+		<published>2024-02-27T07:19:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29791#p29791</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29791#p29791"/>
+		<title type="html"><![CDATA[Re: About the setup of digital?DMR? channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29791#p29791"><![CDATA[
+It's not a problem, it's by design. You can't define two contacts for a single channel, you define one contact or a TG list, it's mutually exclusive.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Feb 27, 2024 7:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BH1AYY]]></name></author>
+		<updated>2024-02-27T07:01:34</updated>
+
+		<published>2024-02-27T07:01:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29789#p29789</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29789#p29789"/>
+		<title type="html"><![CDATA[About the setup of digital?DMR? channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3826&amp;p=29789#p29789"><![CDATA[
+Dear teachers, I have written the frequency of GD77 digital channel, but the group call list and address book are repulsive, which cannot be set at the same time. How to solve this problem?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5414">BH1AYY</a> — Tue Feb 27, 2024 7:01 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

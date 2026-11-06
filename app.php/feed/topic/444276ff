@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4442" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-29T15:34:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4442</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-29T15:34:01</updated>
+
+		<published>2024-09-29T15:34:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33275#p33275</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33275#p33275"/>
+		<title type="html"><![CDATA[Re: P3 button]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33275#p33275"><![CDATA[
+Congrat. What a terrible, buggy and ugly hack (BTW, there is already a definition of the P3 key)...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Sep 29, 2024 3:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9VIK]]></name></author>
+		<updated>2024-09-29T15:22:24</updated>
+
+		<published>2024-09-29T15:22:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33274#p33274</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33274#p33274"/>
+		<title type="html"><![CDATA[Re: P3 button]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33274#p33274"><![CDATA[
+<blockquote class="uncited"><div>Of course you can grab the source code and make your own modifications, but don't expect to see them integrated to the upstream version.</div></blockquote>That's what I did. If anyone's interested and want to build the code by themselves, here are changes to be made:<br><div class="codebox"><p>CODE: </p><pre><code>--- application/include/io/keyboard.h2024-02-26 11:10:40.000000000 +0000+++ application/include/io/keyboard.h.new2024-09-29 14:48:05.000000000 +0000@@ -109,6 +109,7 @@ #define KEY_D           17 #define KEY_STAR        '*' #define KEY_HASH        '#'+#define KEY_P3'P'   #define KEY_MOD_DOWN    0x01--- application/source/io/keyboard.c2024-02-23 09:41:18.000000000 +0000+++ application/source/io/keyboard.c.new2024-09-29 13:48:51.000000000 +0000@@ -63,7 +63,7 @@ '4', '5', '6', KEY_B, '7', '8', '9', KEY_C, KEY_STAR, '0', KEY_HASH, KEY_D,-'X', KEY_GREEN, KEY_UP, KEY_DOWN+'X', KEY_GREEN, KEY_UP, KEY_DOWN, KEY_P3 };  volatile rotaryData_t rotaryData =@@ -385,6 +385,11 @@ { keycode |= KEY_STAR; }++if  ((frontPanelButtons &amp; FRONT_KEY_P3) == FRONT_KEY_P3)+{+keycode |= KEY_P3;+} }  scancode = keycode;--- application/source/applicationMain.c2024-09-08 05:42:08.000000000 +0000+++ application/source/applicationMain.c.new2024-09-29 15:01:27.000000000 +0000@@ -1047,9 +1047,9 @@ function_event = NO_EVENT; keyFunction = NO_EVENT; int currentMenu = menuSystemGetCurrentMenuNumber();-if (KEYCHECK_SHORTUP_NUMBER(keys) &amp;&amp; (buttons &amp; BUTTON_SK2) &amp;&amp; ((currentMenu == UI_VFO_MODE) || (currentMenu == UI_CHANNEL_MODE)))+if ((KEYCHECK_SHORTUP(keys,KEY_P3) || (KEYCHECK_SHORTUP_NUMBER(keys) &amp;&amp; (buttons &amp; BUTTON_SK2))) &amp;&amp; ((currentMenu == UI_VFO_MODE) || (currentMenu == UI_CHANNEL_MODE))) {-keyFunction = codeplugGetQuickkeyFunctionID(keys.key);+keyFunction = codeplugGetQuickkeyFunctionID(keys.key == KEY_P3 ? KEY_1 : keys.key); int menuFunction = QUICKKEY_MENUID(keyFunction);  #if 0 // For demo screen</code></pre></div>Pushing P3 would invoke any Quick Key command that is stored in slot 1. Disclaimer: use it at your own risk, your radio may explode.<br><br>Now I have to learn how to build for other h/w revisions than default and prepare a proper package for that  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6998">SP9VIK</a> — Sun Sep 29, 2024 3:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-28T18:33:12</updated>
+
+		<published>2024-09-28T18:33:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33266#p33266</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33266#p33266"/>
+		<title type="html"><![CDATA[Re: P3 button]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33266#p33266"><![CDATA[
+You asked questions, I gave you the answers.<br>Whether you like them or not.<br><br>Of course you can grab the source code and make your own modifications, but don't expect to see them integrated to the upstream version.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Sep 28, 2024 6:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9VIK]]></name></author>
+		<updated>2024-09-28T17:44:29</updated>
+
+		<published>2024-09-28T17:44:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33264#p33264</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33264#p33264"/>
+		<title type="html"><![CDATA[Re: P3 button]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33264#p33264"><![CDATA[
+<blockquote class="uncited"><div>I assume you never looked at the code <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"></div></blockquote>No, I didn't. But I've seen many abominations made by programmers and I even made some of them, so I really know that there's no such thing as too complicated code, because it can always be made even more complicated <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> This applies also to bad code.<br><br>Your point is that P3 is currently reserved, but nobody really knows what for. Probably nothing important, becasue other devices don't have any keys to spare. So I really don't understand why it should remain unused, instead giving it something to do in the meantime. Even a temporary function is better than nothing. And when the time comes for a "real" use of P3, you can just replace it without hesitation. Maybe you'll face enraged community, maybe they won't notice <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>I also think I have to disagree with your statement that MD-9600 is almost unusable without the mic. I do a lot of SWL, so I hardly ever have the mic in my hand. Using the front panel may be sometimes tough and I really understand why some choices had to be made and due to MD-9600's form factor, but believe me, even some two-handed combinations such as holding &amp; rotating are still better for me than grabbing the mic.<br><br>I fully understand that you don't like the idea and you want to shape OpenGD77 in the way you like. So, if you really don't want to have this feature and nothing will change your mind, I'll just kindly ask you to prepare quick and dirty proof-of-concept outside the official release repository - if it doesn't take too much of your time, of course. Then I'll stick to this version without upgrading my f/w and I will shut up. Or maybe the community will change your mind.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6998">SP9VIK</a> — Sat Sep 28, 2024 5:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-28T15:54:50</updated>
+
+		<published>2024-09-28T15:54:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33263#p33263</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33263#p33263"/>
+		<title type="html"><![CDATA[Re: P3 button]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33263#p33263"><![CDATA[
+Hi,<br><br>Without its mic, the MD-9600 is almost unusable.<br>P3 button is currently not used, except at boot time, but it's reserved for futur possible usage. So it won't be some random QuickKey assignment.<br>You can use Quickkey with P1(SK2) + &lt;number&gt;, or using the SK2 latch from the mic.<br>The longpress ENT as Orange is there because some users has defective Orange button.<br><blockquote class="uncited"><div>[*] Pushing this button would have the same effect as pressing SK2 + 1 (or any other number, but 1 or 0 seems logical), so I assume there's really not much to change in the code</div></blockquote>I assume you never looked at the code <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Sep 28, 2024 3:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9VIK]]></name></author>
+		<updated>2024-09-28T13:21:17</updated>
+
+		<published>2024-09-28T13:21:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33261#p33261</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33261#p33261"/>
+		<title type="html"><![CDATA[P3 button]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4442&amp;p=33261#p33261"><![CDATA[
+Hi,<br><br>I'm very sorry if this was asked before, but the it seems like the search engine here doesn't like to be asked about "button p3", and unfortunately that's what I'd like to ask about...<br><br>Is there any reason why this button is not used at all? If it's not a technical issue, I'd like to suggest to use it as one of QuickKeys shortcuts. Here's why:<ul><li> Pushing this button would have the same effect as pressing SK2 + 1 (or any other number, but 1 or 0 seems logical), so I assume there's really not much to change in the code</li><li> It wouldn't break any rule of OpenGD77's philosophy - it's not defining a "new" button, so it wouldn't affect any other compatible devices</li><li> There are already button combinations that are doubled (for example pushing the Quick Menu button is the same as holding ENT)</li><li> Users will have a choice to use it however they want thanks to versatility of Quick Keys</li><li> Because the keypad is on the microphone unit and it's made from soft rubber, using Quick Keys on MD-9600 is a pain in the .- ... ...</li></ul>So, what's your opinon on that?<br><br>Regards,<br>Kuba SP9VIK<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6998">SP9VIK</a> — Sat Sep 28, 2024 1:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

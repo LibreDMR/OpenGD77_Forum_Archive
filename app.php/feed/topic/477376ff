@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4773" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-26T09:36:20</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4773</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-26T09:36:20</updated>
+
+		<published>2025-01-26T09:36:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4773&amp;p=35370#p35370</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4773&amp;p=35370#p35370"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4773&amp;p=35370#p35370"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4804" class="postlink">viewtopic.php?f=12&amp;t=4804</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 26, 2025 9:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-19T11:46:41</updated>
+
+		<published>2025-01-19T11:46:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4773&amp;p=35193#p35193</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4773&amp;p=35193#p35193"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4773&amp;p=35193#p35193"><![CDATA[
+<ul><li>Cleanup APRS config TX frequency thing.<ul>   <li> Adds APRS config Transmit QSY Info support flag.</li>   <li> Moves the Channel/VFO APRS config dropdown widget out of the Analog group, as now it could be used in Digital too (and FW can do that now).</li>   <li> Fix all APRS labels strings (many old "emergency" names there).</li></ul></li><li> Adds APRS's TX Frequency and Transmit QSY to CSV import/export.</li><li> Update Language files for Transmit QSY Info.</li><li> Enable TxTone in Channel and VFO form if the selected APRS config has a TxFrequency set.</li><li> Add version number in AboutForm.</li></ul>The installer can be downloaded from: <a href="https://drive.proton.me/urls/A5Q628WGPM#G7nhJfyZ8yCk" class="postlink">https://drive.proton.me/urls/A5Q628WGPM#G7nhJfyZ8yCk</a><br><br><strong class="text-strong">NOTE</strong>: because the APRS configuration structure has changed a bit, you <strong class="text-strong">need</strong> a firmware greater or equal to the 2025/01/19 release date.<br><br>Because Roger is busy on other stuff, the download location is temporary set to my Proton Drive.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 19, 2025 11:46 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

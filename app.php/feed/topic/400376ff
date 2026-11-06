@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4003" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-30T11:50:33</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4003</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-30T11:50:33</updated>
+
+		<published>2024-04-30T11:50:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31099#p31099</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31099#p31099"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31099#p31099"><![CDATA[
+This version has been superseded  see <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4023" class="postlink">viewtopic.php?f=12&amp;t=4023</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 30, 2024 11:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-25T04:31:45</updated>
+
+		<published>2024-04-25T04:31:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31012#p31012</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31012#p31012"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31012#p31012"><![CDATA[
+<blockquote class="uncited"><div>PLS pay attention to the id "grpRadioType" in Chinese is twice, and will be displayed the error that means "there is same key option" and the firmware loader will be only displayed in English but not Chinese corretly. So please delete the duplicate items which is only exsist in Chinese.xml, thanks.<br>[Last time the xml which I sent to you is correct, but the one which in latest CPS is also wrong]<br><br><br>QQ??20240425095044.jpg<br><br>QQ??20240425095102.jpg<br><br>QQ??20240425095110.jpg</div></blockquote>Ah, my bad, thanks for the report.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 25, 2024 4:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-04-25T02:19:30</updated>
+
+		<published>2024-04-25T02:19:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31010#p31010</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31010#p31010"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=31010#p31010"><![CDATA[
+PLS pay attention to the id "grpRadioType" in Chinese is twice, and will be displayed the error that means "there is same key option" and the firmware loader will be only displayed in English but not Chinese corretly. So please delete the duplicate items which is only exsist in Chinese.xml, thanks.<br>[Last time the xml which I sent to you is correct, but the one which in latest CPS is also wrong]<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2391&amp;sid=2adc73e7011e834e0a698d06cfc9879f" class="postimage" alt="QQ??20240425095110.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2390&amp;sid=2adc73e7011e834e0a698d06cfc9879f" class="postimage" alt="QQ??20240425095102.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2389&amp;sid=2adc73e7011e834e0a698d06cfc9879f" class="postimage" alt="QQ??20240425095044.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu Apr 25, 2024 2:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-21T20:26:16</updated>
+
+		<published>2024-04-21T20:26:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30959#p30959</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30959#p30959"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30959#p30959"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger,<br><br>I think you forgot to pin this on top and remove the 2024 04 12.</div></blockquote>Thanks<br><br>Yes. I forgot to change the post type to Announcement<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Apr 21, 2024 8:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-04-21T13:33:27</updated>
+
+		<published>2024-04-21T13:33:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30954#p30954</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30954#p30954"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30954#p30954"><![CDATA[
+Hi Roger,<br><br>I think you forgot to pin this on top and remove the 2024 04 12.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Apr 21, 2024 1:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-20T23:04:07</updated>
+
+		<published>2024-04-20T23:04:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30949#p30949</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30949#p30949"/>
+		<title type="html"><![CDATA[New CPS 2024 04 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4003&amp;p=30949#p30949"><![CDATA[
+A new CPS is now available<br><br>OpenGD77CPSInstaller_R2024.04.21.01.exe<br><br>See<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest" class="postlink">downloads/PC_CPS/Latest</a><br><br>This version has udpdated and bug fixed translations <br><br>Thanks to Daniel F1RMB for his work with this changes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 20, 2024 11:04 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5020" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-05T18:35:15</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5020</id>
+
+		<entry>
+		<author><name><![CDATA[NV2M]]></name></author>
+		<updated>2025-04-05T18:35:15</updated>
+
+		<published>2025-04-05T18:35:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36609#p36609</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36609#p36609"/>
+		<title type="html"><![CDATA[Re: Troubleshooting first try on UV380 help request]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36609#p36609"><![CDATA[
+So I think I hit somewhat different results.<br><br>I have a baofang DM-1701 I'l also testing with. I was pretty sure that when the 1701 had stock firmware, it would not receive the UV380 opengd77 simplex at all.<br><br>I just upgraded my 1701 with opengd77 and it works fine with pi-star.  The UV380/opengd77 still can't get through the pi-star, but my 1701/opengd77 can receive the UV380 signals simplex.<br><br>Weird ... I'm still trying a few things, but if anyone has other ideas on troubleshooting the UV380 or pi-star let me know.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7956">NV2M</a> — Sat Apr 05, 2025 6:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-29T06:05:33</updated>
+
+		<published>2025-03-29T06:05:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36511#p36511</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36511#p36511"/>
+		<title type="html"><![CDATA[Re: Troubleshooting first try on UV380 help request]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36511#p36511"><![CDATA[
+You could check the frequency accuracy of your MD-UV380, using a frequency counter, SA or a SDR.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 29, 2025 6:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NV2M]]></name></author>
+		<updated>2025-03-29T01:09:44</updated>
+
+		<published>2025-03-29T01:09:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36510#p36510</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36510#p36510"/>
+		<title type="html"><![CDATA[Troubleshooting first try on UV380 help request]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5020&amp;p=36510#p36510"><![CDATA[
+Hello all, I'm looking to see if anyone has advice on troubleshooting my first openGD77 install. I have an old TYT MD-UV380.<br><br>I followed everything on the install guide on this board <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><br>Looking at my UV380 install I seem to have openGD77 build 20241215112654<br><br>The transmit side of my radio seems to have something wrong. I'm trying to discern if I have some configuration issue, or a radio/hardware issue. The analog side of Tx and Rx on both bands seems to work fine. I'm trying to get DMR working on UHF and the Tx side isn't working.<br><br>I have a pi-star 4.2.1 and an unmodified DM-1701 radio which both seem to work together just fine.<br><br>When I transmit from the unmodified 1701, the pi-start logs the DMR voice header and the UV380 get the Rx simplex. If I test the 1701 with a parrot service, the UV380 picks up the simplex and also the parrot response from the pi-start.<br><br>When I transmit on the UV380, I see the Rx led on my 1701 light up, but the simplex Rx doesn't come through. Also on my pi-star logging, it never receives/logs the DMR header or any other information. I tried playing with various settings on UV380 like color codes, time slot, power settings, etc. but still nothing. I have confirmed with an analog radio tuned to the same frequency that the UV380 is transmitting something that sounds like a DMR signal, but nothing seems to want to recognize it.<br><br>Now, the radio could be the issue here. I'm trying to find out if I did anything wrong on the openGD77 side (this is my first install) and if there is any way I can use my 1701 or pi-start to narrow down what the issue might be.<br><br>Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7956">NV2M</a> — Sat Mar 29, 2025 1:09 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

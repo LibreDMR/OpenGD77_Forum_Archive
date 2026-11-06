@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4766" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-19T15:22:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4766</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-19T15:22:43</updated>
+
+		<published>2025-01-19T15:22:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35204#p35204</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35204#p35204"/>
+		<title type="html"><![CDATA[Re: Should cSx be appearing?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35204#p35204"><![CDATA[
+Okay.<br>The contact timeslot is now always displayed as "cS", whatever Display options "Info" is set to, from the 2015/01/19 beta release firmwares.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 19, 2025 3:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2025-01-19T04:22:32</updated>
+
+		<published>2025-01-19T04:22:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35189#p35189</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35189#p35189"/>
+		<title type="html"><![CDATA[Re: Should cSx be appearing?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35189#p35189"><![CDATA[
+Ah, ok, I found what was different between the two radios. The 9600 had in Display Options the "Info" set to both and was showing cSx, the GD77 had info set to none and was showing TSx.<br><br>So now my homework is to better understand the "Info" option and what TS, Pwr, and Both mean in relation to the cSx and TSx display.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Sun Jan 19, 2025 4:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2025-01-19T04:18:50</updated>
+
+		<published>2025-01-19T04:18:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35188#p35188</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35188#p35188"/>
+		<title type="html"><![CDATA[Re: Should cSx be appearing?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35188#p35188"><![CDATA[
+I only have one codeplug file, I use it with both radios.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Sun Jan 19, 2025 4:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-18T09:57:03</updated>
+
+		<published>2025-01-18T09:57:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35177#p35177</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35177#p35177"/>
+		<title type="html"><![CDATA[Re: Should cSx be appearing?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35177#p35177"><![CDATA[
+Nope, the code in this area is identical.<br>So, your codeplugs are different (the given selected contact is, at least). <br>Even if you manually override the contact's TS, it will remain displayed as "cS", but in bold font (if you enabled the Display options "Info" to "TS" or "Both").<br><br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jan 18, 2025 9:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2025-01-18T09:00:55</updated>
+
+		<published>2025-01-18T09:00:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35173#p35173</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35173#p35173"/>
+		<title type="html"><![CDATA[Re: Should cSx be appearing?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35173#p35173"><![CDATA[
+Sorry for not being more clear, my confusion is from the fact that when I set my 9600 and my GD77 to the same repeater and talk group, the 9600 shows the cSx (as the "contact" does have a TS override set) while the GD77 just says TSx like normal. I know there are some differences between the codebases for the various models OpenGD77 supports, so I'm wondering if what I'm seeing is expected or if perhaps I have something misconfigured somewhere on the GD77 that it's not showing cSx.<br><br>I use the same codeplug file for both radios, so I assume the difference in behavior has something to do on the radio side.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Sat Jan 18, 2025 9:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-17T07:12:26</updated>
+
+		<published>2025-01-17T07:12:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35164#p35164</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35164#p35164"/>
+		<title type="html"><![CDATA[Re: Should cSx be appearing?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35164#p35164"><![CDATA[
+cS<em class="text-italics">x</em> is displayed when a Timeslot override is set for the selected contact.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#assignment-of-timeslot-to-digital-contact-talkgroup" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -talkgroup</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 17, 2025 7:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2025-01-17T06:55:58</updated>
+
+		<published>2025-01-17T06:55:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35163#p35163</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35163#p35163"/>
+		<title type="html"><![CDATA[Should cSx be appearing?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4766&amp;p=35163#p35163"><![CDATA[
+Yet another one of my patented dumb questions:<br><br>One of the many reasons I love OpenGD77 is that I use the exact same codeplug for both my GD77 and MD-9600. I noticed the other day with my MD-9600 that while on a DMR repeater the time slot said "cS2" which I thought was weird, but I looked it up in the manual and saw that was added at some point (I'm not good about keeping the firmware updated - I upgraded recently and must of picked up this new feature).<br><br>What's strange is that it's not appearing on my GD77. I have timeslot filtering off on both devices, most of the other settings are the same, but I'm wondering if I'm missing something.<br><br>I should also add everything works fine, I'm just curious why I'm getting different behavior from the two devices. Firmware on the GD-77 is 20241215160229 and on the MD-9600 it's 20241212141958.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Fri Jan 17, 2025 6:55 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

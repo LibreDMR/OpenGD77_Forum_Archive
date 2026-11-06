@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4991" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-09T01:16:04</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4991</id>
+
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2025-05-09T01:16:04</updated>
+
+		<published>2025-05-09T01:16:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37040#p37040</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37040#p37040"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37040#p37040"><![CDATA[
+Since I also use the  CPS - R2024.10.23.01 now for the Chinese firmware which base on R20240908, I have to keep the "chkDMRForceDMO" IDs which used in that xml file.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Fri May 09, 2025 1:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-08T16:19:25</updated>
+
+		<published>2025-05-08T16:19:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37034#p37034</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37034#p37034"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37034#p37034"><![CDATA[
+<blockquote class="uncited"><div>Updated Chinese UI language.</div></blockquote>Thanks for the update.<br>I had to fix your xml file, deleting the <strong class="text-strong">"<em class="text-italics">chkDMRForceDMO</em>"</strong> IDs you've added. Only <strong class="text-strong">"<em class="text-italics">lblDMRForceDMO</em>"</strong> has to be translated.<br><br>Here is the resulting file.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2949&amp;sid=7c51030e026555a6bb894c1f1f779923">Chinese.xml.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu May 08, 2025 4:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2025-05-08T15:40:15</updated>
+
+		<published>2025-05-08T15:40:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37032#p37032</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37032#p37032"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=37032#p37032"><![CDATA[
+Updated Chinese UI language.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2946&amp;sid=7c51030e026555a6bb894c1f1f779923">Chinese.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu May 08, 2025 3:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-01T17:21:44</updated>
+
+		<published>2025-05-01T17:21:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36954#p36954</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36954#p36954"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36954#p36954"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Boa noite, não consigo baixar o arquivo, acusa que é um vírus, e bloqueia antes mesmo de começar.</div></blockquote>the file in Proton download is safe, what are you seeing is just a warning because the file is not common, so it gives you a warning related to false positive, but in the same browser you can select to preserve the file anyway or even you can report the file as safe.</div></blockquote>Yes it's safe but here it's Proton that discovers some false detection, probably because they use one of the Ai virus detectors that flag on the file now. <br>It's some bit patterns that they detect on and depending on the produced binary installation file they make false assumptions.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu May 01, 2025 5:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-01T16:55:34</updated>
+
+		<published>2025-05-01T16:55:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36953#p36953</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36953#p36953"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36953#p36953"><![CDATA[
+<blockquote class="uncited"><div>Boa noite, não consigo baixar o arquivo, acusa que é um vírus, e bloqueia antes mesmo de começar.</div></blockquote>the file in Proton download is safe, what are you seeing is just a warning because the file is not common, so it gives you a warning related to false positive, but in the same browser you can select to preserve the file anyway or even you can report the file as safe.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu May 01, 2025 4:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UTL]]></name></author>
+		<updated>2025-05-01T14:40:11</updated>
+
+		<published>2025-05-01T14:40:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36952#p36952</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36952#p36952"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36952#p36952"><![CDATA[
+Tentei novamente pelo outro método e mesmo assim não deu certo.<br><img src="" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6404">PU2UTL</a> — Thu May 01, 2025 2:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-01T07:52:06</updated>
+
+		<published>2025-05-01T07:52:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36949#p36949</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36949#p36949"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36949#p36949"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Boa noite, não consigo baixar o arquivo, acusa que é um vírus, e bloqueia antes mesmo de começar.</div></blockquote>Seems that it's proton drive downloader that have some "false detection" here, but I could select "download anyway" when I hovered over the pop-up window.<br>You can also select "Download without scanning" in proton drive.<br><br>Capture.JPG</div></blockquote><a href="https://www.virustotal.com/gui/file/b4d16f9a85aee57c5b1444f9e7ea9b1c94b40e381f8c51b23e1c1484d4068ef8/detection" class="postlink">https://www.virustotal.com/gui/file/b4d ... /detection</a><br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2935&amp;sid=7c51030e026555a6bb894c1f1f779923" class="postimage" alt="Capture.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu May 01, 2025 7:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-01T07:45:40</updated>
+
+		<published>2025-05-01T07:45:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36948#p36948</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36948#p36948"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36948#p36948"><![CDATA[
+<blockquote class="uncited"><div>Boa noite, não consigo baixar o arquivo, acusa que é um vírus, e bloqueia antes mesmo de começar.</div></blockquote>Seems that it's proton drive downloader that have some "false detection" here, but I could select "download anyway" when I hovered over the pop-up window.<br>You can also select "Download without scanning" in proton drive.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2934&amp;sid=7c51030e026555a6bb894c1f1f779923" class="postimage" alt="Capture.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu May 01, 2025 7:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UTL]]></name></author>
+		<updated>2025-04-30T23:33:47</updated>
+
+		<published>2025-04-30T23:33:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36946#p36946</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36946#p36946"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36946#p36946"><![CDATA[
+Boa noite, não consigo baixar o arquivo, acusa que é um vírus, e bloqueia antes mesmo de começar.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6404">PU2UTL</a> — Wed Apr 30, 2025 11:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-23T05:50:20</updated>
+
+		<published>2025-03-23T05:50:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36368#p36368</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36368#p36368"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4991&amp;p=36368#p36368"><![CDATA[
+<ul><li> Screengrabber downloader takes care of RD5R screen size (128 * 48).</li></ul>The installer can be downloaded from: <a href="https://drive.proton.me/urls/X3TTB39FBM#mVdhCkDeRDj8" class="postlink">https://drive.proton.me/urls/X3TTB39FBM#mVdhCkDeRDj8</a><br><br><strong class="text-strong">NOTE</strong>: you need a firmware greater or equal to the 2025/01/26 to be able to use the Beacon Silently option.<br>For translators, CPS XML files are located at: <a href="https://drive.proton.me/urls/AFEPKF84F4#2ltiJXlnndiy" class="postlink">https://drive.proton.me/urls/AFEPKF84F4#2ltiJXlnndiy</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 23, 2025 5:50 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

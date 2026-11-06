@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/959" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-11-21T17:35:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/959</id>
+
+		<entry>
+		<author><name><![CDATA[ea3irx]]></name></author>
+		<updated>2023-11-21T17:35:57</updated>
+
+		<published>2023-11-21T17:35:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=27600#p27600</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=27600#p27600"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=27600#p27600"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Any chance I can get a copy of this program? It's no longer available on the forum.<br>Thanks!</div></blockquote>drop me an email to:  oe1mww at gmail.com</div></blockquote>I'm also interested. Is there a github for this?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4737">ea3irx</a> — Tue Nov 21, 2023 5:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE1MWW]]></name></author>
+		<updated>2023-11-14T17:19:50</updated>
+
+		<published>2023-11-14T17:19:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=27442#p27442</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=27442#p27442"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=27442#p27442"><![CDATA[
+<blockquote class="uncited"><div>Any chance I can get a copy of this program? It's no longer available on the forum.<br>Thanks!</div></blockquote>drop me an email to:  oe1mww at gmail.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1203">OE1MWW</a> — Tue Nov 14, 2023 5:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD0RK]]></name></author>
+		<updated>2023-11-14T14:39:52</updated>
+
+		<published>2023-11-14T14:39:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=27439#p27439</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=27439#p27439"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=27439#p27439"><![CDATA[
+<blockquote class="uncited"><div>I have extended the program to read/write codeplugs to OpenGD77 radios. Now you can backup the calibration, flash, EEPROM and MCU ROM using the program. I have tested the program in Linux (Fedora 33) using Python 3.9 with Baofeng DM 5R Plus running OpenRD5R.</div></blockquote>Any chance I can get a copy of this program? It's no longer available on the forum.<br><br>Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4970">KD0RK</a> — Tue Nov 14, 2023 2:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2023-06-07T23:34:46</updated>
+
+		<published>2023-06-07T23:34:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=23875#p23875</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=23875#p23875"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=23875#p23875"><![CDATA[
+so for grins i changed "SERIAL_WAIT_SLEEP" from 0.0 to 0.001 and now i get 4x 100% and i can open the saved file in CPS ok.  however, the radio is stuck on "CPS reading codeplug" ???<br><br>i had to remove battery to reset radio as i had suspend=on.<br><br>i would like to understand before i try to write the codeplug back.<br><br><br><br>--gaspo.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Wed Jun 07, 2023 11:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2023-06-07T23:29:30</updated>
+
+		<published>2023-06-07T23:29:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=23874#p23874</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=23874#p23874"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=23874#p23874"><![CDATA[
+thank you so much for trying to make linux way to read/write CPS.<br>i am having very strange error when i try to use your script.<br>first time after i plug in USB cable it goes almost all the way.<br>subsequent times the error pops up sooner and sooner.<br>every time after that it crashes sooner and sooner.<br><div class="codebox"><p>CODE: </p><pre><code>gaspo@mbp13:~/Downloads$ python3 ./GD77transfer.py -r -f t1.g77 - reading 0x5F20 bytes: 100% - reading 0x3B00 bytes: 100% - reading 0x13E60 bytes: 51%Traceback (most recent call last):  File "./GD77transfer.py", line 476, in &lt;module&gt;    main()  File "./GD77transfer.py", line 450, in main    getConfig(ser,filename)  File "./GD77transfer.py", line 346, in getConfig    getMemoryArea(ser,buf,MODE_READ_FLASH,  0xB000,0x7b000,0x13E60)  File "./GD77transfer.py", line 128, in getMemoryArea    while (ser.in_waiting == 0):  File "/usr/lib/python3/dist-packages/serial/serialposix.py", line 467, in in_waiting    s = fcntl.ioctl(self.fd, TIOCINQ, TIOCM_zero_str)OSError: [Errno 5] Input/output error</code></pre></div>can you help me understand please?<br><br>thanks,<br><br>--gaspo.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Wed Jun 07, 2023 11:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE1MWW]]></name></author>
+		<updated>2023-04-05T15:53:13</updated>
+
+		<published>2023-04-05T15:53:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=22857#p22857</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=22857#p22857"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=22857#p22857"><![CDATA[
+<blockquote class="uncited"><div>The intended usage of the tool looks like this:<br><div class="codebox"><p>CODE: </p><pre><code># read from radio into a filegd77xfer read myradio.gd77 # in the original binary format, or straightgd77xfer read --format yaml myradio.yml# export binary into yamlgd77xfer export input.gd77 output.yaml## not yet implementedgd77xfer import edited-codeplug.yaml existing-binary.gd77 </code></pre></div></div></blockquote>Hi Kiril,<br><br>did you have the time &amp; chance to implement the 'import' function ?<br><br>73's de OE1MWW<br>Wolfgang<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1203">OE1MWW</a> — Wed Apr 05, 2023 3:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W9YA]]></name></author>
+		<updated>2021-03-22T12:45:56</updated>
+
+		<published>2021-03-22T12:45:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=14029#p14029</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=14029#p14029"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=14029#p14029"><![CDATA[
+Um.....it's a bad idea to run as root user. Using sudo is preferred. I do not reqiire either to run GD77transfer.py ! ...... I use my stock archlinux machine for such chores. (Been using it since 2013, with updates to the latest software.)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1091">W9YA</a> — Mon Mar 22, 2021 12:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ok3js]]></name></author>
+		<updated>2021-03-22T11:00:21</updated>
+
+		<published>2021-03-22T11:00:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=14027#p14027</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=14027#p14027"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=14027#p14027"><![CDATA[
+on openGD77 in DM1801 (openSuse Tumbeweeld)  GD77TRANSFER-201118<br><br>ok3js@install:~/DMR&gt; python3 GD77transfer.py -r -o mcurom -f test.gd77<br> - reading 0x80000 bytes: 100%<br>Traceback (most recent call last):<br>  File "GD77transfer.py", line 476, in &lt;module&gt;<br>    main()<br>  File "GD77transfer.py", line 458, in main<br>    getBackup(ser,filename,MODE_READ_MCUROM,0,512*1024,"MCU ROM")<br>  File "GD77transfer.py", line 382, in getBackup<br>    with open(filename,'wb') as f:<br>PermissionError: [Errno 13] Permission denied: 'test.gd77'<br><br><br>edit:<br>partially resolved, problem with rights, under root (su) it runs,<br><br>edit<br>error with me, I created a directory under root and the application did not have the right to save to this directory.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=723">ok3js</a> — Mon Mar 22, 2021 11:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-02-11T21:55:43</updated>
+
+		<published>2021-02-11T21:55:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=13345#p13345</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=13345#p13345"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=13345#p13345"><![CDATA[
+<blockquote class="uncited"><div>CPS (MainForm.cs, function openCodeplugFile()) checks the first 8 bytes of the codeplug file that it opens. Those 8 bytes must be FF or contain the current radio model. Otherwise you get error "Model does not match".<br><br>So I should set all gaps that are not read from the radio as FF - is that enough?<br><br>Those gaps are not written to the radio.</div></blockquote>I don't know.<br><br>I reverse engineers the CPS from the official CPS Exe.<br><br>You'll need to do whatever makes your code compatible with whatever the CPS code currently does.<br><br>The firmware does not check the codeplug in any way.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 11, 2021 9:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W9YA]]></name></author>
+		<updated>2021-02-11T20:48:23</updated>
+
+		<published>2021-02-11T20:48:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=13341#p13341</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=13341#p13341"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=13341#p13341"><![CDATA[
+Great stuff OM...mny tnxs agn !!<br><br>es vy 73 de "baab" w9ya<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1091">W9YA</a> — Thu Feb 11, 2021 8:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1fss]]></name></author>
+		<updated>2020-11-18T16:58:13</updated>
+
+		<published>2020-11-18T16:58:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=12378#p12378</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=12378#p12378"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=12378#p12378"><![CDATA[
+I have extended the program to read/write codeplugs to OpenGD77 radios. Now you can backup the calibration, flash, EEPROM and MCU ROM using the program. I have tested the program in Linux (Fedora 33) using Python 3.9 with Baofeng DM 5R Plus running OpenRD5R.<br><br>The old functionality of the previous version (dated 24 May 2020) is intact. All old options work the same.<br><br>So to read codeplug from OpenGD77 radios:<br><br>./GD77transfer.py -r -f MyCodePlug.g77<br><br>and write it back to radio:<br><br>./GD77transfer.py -w -f MyCodePlug.g77<br><br>The memory segments can be backed up with the following commands:<br><br>./GD77transfer.py -o calibration -r -f calibration.bin<br>./GD77transfer.py -o flash -r -f flash.bin<br>./GD77transfer.py -o eeprom -r -f eeprom.bin<br>./GD77transfer.py -o mcurom -r -f mcurom.bin<br><br>To restore those files back to radio use the CPS. I have not tested that...<br><br>Also I fixed a bug in function initEmptyCodeplug(). The program worked correctly despite of the bug.<p>[The extension <strong>tgz</strong> has been deactivated and can no longer be displayed.]</p><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=764">oh1fss</a> — Wed Nov 18, 2020 4:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[larsks]]></name></author>
+		<updated>2020-10-28T11:35:17</updated>
+
+		<published>2020-10-28T11:35:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=12016#p12016</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=12016#p12016"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=12016#p12016"><![CDATA[
+Hey folks,<br><br>I was starting down the same path (writing a Linux utility for interacting with the GD77), and it's great to find that other people have already done some development work!<br><br>I have a question about the serial port protocol. Looking at the source for the CPS, the sendCommand method (in Extras/OpenGD77/OpenGD77Form.cs) appears to validate commands by checking the response from the radio for:<br><div class="codebox"><p>CODE: </p><pre><code>((readbuffer[0] == sendbuffer[0]) &amp;&amp; (readbuffer[1] == sendbuffer[1]))</code></pre></div>I see the same check in the GD77transfer.py script posted in this thread. However, even though the code in GD77transfer.py works (it displays text on the screen and downloads the codeplug), it looks like it only works because it ignores the return value of the sendCommand method.  The radio always returns "-", so sendCommand always returns False.<br><br>The code in <a href="https://github.com/kzyapkov/opengd77xfer" class="postlink">https://github.com/kzyapkov/opengd77xfer</a> solves the problem by just explicitly checking for "-" as a response.<br><br>The radio must produce a valid response for CPS, because CPS includes this check:<br><div class="codebox"><p>CODE: </p><pre><code>if (!sendCommand(0)){        displayMessage("Error connecting to the OpenGD77");        dataObj.responseCode = 1;        break;}</code></pre></div>...which would only succeed if that validation at the end of sendCommand returns true, but I can't produce this behavior working with the serial communication code in either GD77transfer.py or in <a href="https://github.com/kzyapkov/opengd77xfer" class="postlink">https://github.com/kzyapkov/opengd77xfer</a>.<br><br>What's going on here?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1221">larsks</a> — Wed Oct 28, 2020 11:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LZ1CK]]></name></author>
+		<updated>2020-09-03T21:31:43</updated>
+
+		<published>2020-09-03T21:31:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=10757#p10757</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=10757#p10757"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=10757#p10757"><![CDATA[
+The intended usage of the tool looks like this:<br><div class="codebox"><p>CODE: </p><pre><code># read from radio into a filegd77xfer read myradio.gd77 # in the original binary format, or straightgd77xfer read --format yaml myradio.yml# export binary into yamlgd77xfer export input.gd77 output.yaml## not yet implementedgd77xfer import edited-codeplug.yaml existing-binary.gd77 </code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=947">LZ1CK</a> — Thu Sep 03, 2020 9:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Zl1XE]]></name></author>
+		<updated>2020-08-27T03:41:22</updated>
+
+		<published>2020-08-27T03:41:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=10678#p10678</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=10678#p10678"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=10678#p10678"><![CDATA[
+I'm just trying to check that I can write what I can read.<br>Would that be:<div class="codebox"><p>CODE: </p><pre><code>gd77xfer --port COM3 read export dm1801-02.yaml</code></pre></div>and then:<div class="codebox"><p>CODE: </p><pre><code>gd77xfer --port COM3 write import dm1801-02.yaml</code></pre></div>I can get the binary with:<div class="codebox"><p>CODE: </p><pre><code>gd77xfer --port COM3 read dm1801-02.bin</code></pre></div>and presumably write with:<div class="codebox"><p>CODE: </p><pre><code>gd77xfer --port COM3 write dm1801-02.bin</code></pre></div>But how can I create a binary file so i can compare the read bin with the <em class="text-italics">through-the-loop</em> bin to make sure they are the same ?<br>Or is this all working and I don't really need to check ?<br><br>I just want to check before possibly bricking my radio <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=971">Zl1XE</a> — Thu Aug 27, 2020 3:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2020-07-20T08:59:08</updated>
+
+		<published>2020-07-20T08:59:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=959&amp;p=10092#p10092</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=959&amp;p=10092#p10092"/>
+		<title type="html"><![CDATA[Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=959&amp;p=10092#p10092"><![CDATA[
+<blockquote class="uncited"><div>...<br>YAML is a superset of JSON, any valid JSON is also valid YAML. It's pretty neat, both human and machine-readable and writable.</div></blockquote>LOL<br><br>I have to read XML, JSON etc as part of the day job<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jul 20, 2020 8:59 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

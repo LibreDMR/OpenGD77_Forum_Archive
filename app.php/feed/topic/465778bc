@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4657" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-12T07:11:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4657</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-12T07:11:52</updated>
+
+		<published>2024-12-12T07:11:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4657&amp;p=34559#p34559</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4657&amp;p=34559#p34559"/>
+		<title type="html"><![CDATA[New MD2017/RT-82 Beta 2024 12 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4657&amp;p=34559#p34559"><![CDATA[
+Edit 2024/12/15<br><br>Do not use this Beta. It has been superseded.  <br><br>This post has been retained because it contains some information about the new text size.<br><br><br><br><br>A new MD2017/RT82 Beta is now available<br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/cc187f0e7b13720cc00703beccfa120beeefde2f/" class="postlink">downloads/MD2017/Firmware/cc187f0e7b137 ... beeefde2f/</a><br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/Latest" class="postlink">downloads/MD2017/Firmware/Latest</a><br><br>This version add double height text functionality, and uses the new double height text for the Channel name, VFO Rx frequency and other parts of the firmware.<br><br>This version also has a fix for the intermitten button and keypad key problem experienced by a few users. Thanks to HB9GNB for his investigations into this problem.<br><br>Also. The "Info" option, in Options -&gt; Display Options, has been changed to default to "Both" so that more detailed information about the TS and Power level are displayed. This default setting has been changed because of the frequency confusion of operators about why the TS has either changed or not changed to the expected value.<br>This functionality is already documented in the User Guide  <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#info" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... de.md#info</a><br><br>and<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#assignment-of-timeslot-to-digital-contact-talkgroup" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -talkgroup</a><br><br>e.g.<br><br>If a TG has a TS override then the TS value will show as "cS1" or "cS2" meaning Contact defined Slot.<br><br>If the font for the TS is Bold, this indicates a manual override of the codeplug TS settings, be that the TS define by the Channel or the TG / Contact<br><br><br>Thanks to Daniel F1RMB for developing the double height text functionality and all the beta testers for testing this.<br><br><strong class="text-strong">EDIT (f1rmb)</strong><br>There are some missing updates:<ul><li> Add ability to store current GPS position in channel's Lat/Lon.<br> - On GPS featured devices, editing the Channel details Lat or Lon, longpress the STAR key will store current GPS position (if GPS is on, and fix acquired).</li><li> Add an option to disable any channel change (on Flash).<br>- see "Locked: Off/On" in General options. When it's on, SK2 + Green don't write the changes to the flash.</li><li> Fix APRS position conversion.<br>- In some case, the conversion to minutes goes wrong, and ambiguity can make it worse.</li><li> Fix DMTF entering and more:<br> - it was impossible to enter DTMF sequences on MD-UV390/MD-2017/MD-9600.<br> - A/B/C/D was unavailable in the numerical input.<br> - Many problem while txing<br> - it was impossible on most platform to navigate the contact (DMR/DTMF), from within Channel/VFO screen (no effect from Up/Down keys).<br> - On MD-9600, While using the numerical input (DTMF), long press 'A' permits to exit that screen</li></ul><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 12, 2024 7:11 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

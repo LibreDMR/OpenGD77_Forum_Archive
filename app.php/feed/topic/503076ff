@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5030" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-07T18:51:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5030</id>
+
+		<entry>
+		<author><name><![CDATA[EA4HUM]]></name></author>
+		<updated>2025-07-07T18:51:35</updated>
+
+		<published>2025-07-07T18:51:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5030&amp;p=37671#p37671</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5030&amp;p=37671#p37671"/>
+		<title type="html"><![CDATA[Re: Boafeng DM32-UV OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5030&amp;p=37671#p37671"><![CDATA[
+Sería una maravilla poder hacer el OpenGD77 para el BAOFENG DM32<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5041">EA4HUM</a> — Mon Jul 07, 2025 6:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL2ECC]]></name></author>
+		<updated>2025-04-02T18:42:59</updated>
+
+		<published>2025-04-02T18:42:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36576#p36576</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36576#p36576"/>
+		<title type="html"><![CDATA[Re: Boafeng DM32-UV OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36576#p36576"><![CDATA[
+Ok, I understand.<br><br>That are bad news. So I have to get a new firmware from Baofeng to get my radio working.<br><br>Many Thanks for your help<br><br>73 de Wolfgang<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8395">DL2ECC</a> — Wed Apr 02, 2025 6:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-04-02T13:04:23</updated>
+
+		<published>2025-04-02T13:04:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36574#p36574</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36574#p36574"/>
+		<title type="html"><![CDATA[Re: Boafeng DM32-UV OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36574#p36574"><![CDATA[
+What I’ve read here is the 32 uses different chips from the radios that use the GD77 FW, one being the C6000 chip, so it won’t work. Too bad, if it did, I’d have bought a 32. These radios use the 6000 chip, &amp; the GD77 FW. GARY.<br>Radios that use the C6000 DMR chip:<br>• TYT MD-UV380<br>• Retevis RT-3S<br>• Baofeng DM-1701<br>• Retevis RT-84<br>• TYT MD-9600<br>• Retevis RT-90<br>• Baofeng DM-1801 (Version 1<br>hardware only)<br>• Baofeng DM-1801A (Version 1<br>hardware only)<br>• Baofeng RD-5R (also known as<br>Baofeng DM-5R Tier 2)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Wed Apr 02, 2025 1:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL2ECC]]></name></author>
+		<updated>2025-04-02T11:34:54</updated>
+
+		<published>2025-04-02T11:34:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36573#p36573</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36573#p36573"/>
+		<title type="html"><![CDATA[Boafeng DM32-UV OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5030&amp;p=36573#p36573"><![CDATA[
+Hi everyone,<br><br>I'm new here in OpenGD77 forum.<br><br>I bought a new Baofeng DM32-UV and programmed it with the original CPS programmer.<br><br>Firmware of my new radio is not working well.<br><br>Do developers of OpenGD77 think of using the Boafeng DM32-UV with OpenGD77 ?<br><br>I hope to flash my new radio with OpenGD77<br><br>73 de Wolfgang<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8395">DL2ECC</a> — Wed Apr 02, 2025 11:34 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

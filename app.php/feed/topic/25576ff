@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/255" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-12-04T23:43:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/255</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-04T23:43:17</updated>
+
+		<published>2019-12-04T23:43:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=255&amp;p=1616#p1616</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=255&amp;p=1616#p1616"/>
+		<title type="html"><![CDATA[Re: Languages and directly channel number entry]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=255&amp;p=1616#p1616"><![CDATA[
+<blockquote class="uncited"><div>Just to make it clear, the channel numbers in a zone are not the same as the channel numbers when in ‘All Channels’. <br>When in a Zone the number relates to the position in the Zone and will be between 1 and 80. <br>When in ‘All Channels’ the number relates to the position in the codeplug channel list and will be between 1 and 1024.</div></blockquote>Thats what I expected.<br><br>People need to setup their codeplug, so that for example if they have 80 channel UHF CB, that the first channel in the zone is CH1 and the 10th channel is CH10 etc etc<br><br>I've noticed in my CB Zone, somehow the data had 2 Channel 5's, which then screwed up the numbering after that.<br><br>So I"ll need to fix my codeplug<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 04, 2019 11:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2019-12-04T23:24:05</updated>
+
+		<published>2019-12-04T23:24:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=255&amp;p=1612#p1612</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=255&amp;p=1612#p1612"/>
+		<title type="html"><![CDATA[Re: Languages and directly channel number entry]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=255&amp;p=1612#p1612"><![CDATA[
+Just to make it clear, the channel numbers in a zone are not the same as the channel numbers when in ‘All Channels’. <br>When in a Zone the number relates to the position in the Zone and will be between 1 and 80. <br>When in ‘All Channels’ the number relates to the position in the codeplug channel list and will be between 1 and 1024.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Dec 04, 2019 11:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-12-04T22:42:55</updated>
+
+		<published>2019-12-04T22:42:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=255&amp;p=1608#p1608</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=255&amp;p=1608#p1608"/>
+		<title type="html"><![CDATA[Re: Languages and directly channel number entry]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=255&amp;p=1608#p1608"><![CDATA[
+many thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Wed Dec 04, 2019 10:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-04T21:10:20</updated>
+
+		<published>2019-12-04T21:10:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=255&amp;p=1601#p1601</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=255&amp;p=1601#p1601"/>
+		<title type="html"><![CDATA[Languages and directly channel number entry]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=255&amp;p=1601#p1601"><![CDATA[
+I've merged the latest work from Daniel and Colin<br><br>Daniel has improved the UI data buffer handling to prevent buffer overflows in cases when the translated language text will not fit onto the screen, and he has also updated all the languages with text supplied to the forum by various contributers<br><br>Colin has added a new feature so that a channel number can be entered on all Zones, not just the 'All Channels' Zone.<br><br>The channel number in the Zone is shown to the right of the Zone name.<br>e.g. channel 9 in this screengrab "Ch:9"<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=135&amp;sid=736b20e0b9fe8f158e6e879ed4b8d4c2" class="postimage" alt="g4eml_channel_entry.png" onclick="viewableArea(this);" /></dt></dl></div><br>I've been working on the OpenGD77 CPS, but its not ready for another release yet.<br>I have written the code to upgrade the codeplug format from 16 to 80 channel zones, and I've changing the on-screen texts related to the new scanning features.  However I noticed that the Contacts were not exporting the TimeSlot override, so I'm currently trying to get the Contacts Export and Import (CSV) working, before I release an update of the OpenGD77 CPS.<br><br><br>This "Latest" firmware can be downloaded from GitHub<br><br><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/6e5c00656a0889318dcf64c78f8cc5d4cce75876/firmware_binaries/daily_builds/OpenGD77_latest.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... latest.sgl</a><br><br><br>BTW.<br><br>I am changing the name of the "Rx Group" on the Channel screen in the CPS to be "TG List" as this more accurately describes the function of this list.<br><br>I may also change the name "Tx Group" elsewhere to "TG Group" (perhaps not yet)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 04, 2019 9:10 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1299" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-29T10:03:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1299</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-26T20:44:07</updated>
+
+		<published>2024-02-26T20:44:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29777#p29777</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29777#p29777"/>
+		<title type="html"><![CDATA[Re: Rx Green LED replacement]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29777#p29777"><![CDATA[
+<blockquote class="uncited"><div>Had a similar issue with my old radio last year, where the power LED was barely visible. I decided it was time for an upgrade and wanted a better, brighter LED but had no clue which one to pick.</div></blockquote>Any SMD LED should be OK, but it seems strange that the LED has failed, the problem could just be a dry joint. Did you try resoldering it?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 26, 2024 8:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1ajw]]></name></author>
+		<updated>2024-02-29T10:03:44 </updated>
+
+		<published>2024-02-26T20:32:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29775#p29775</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29775#p29775"/>
+		<title type="html"><![CDATA[Re: Rx Green LED replacement]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29775#p29775"><![CDATA[
+Had a similar issue with my old radio last year, where the power LED was barely visible. I decided it was time for an upgrade and wanted a better, brighter LED but had no clue which one to pick. Stumbled upon <a href="https://leds.to/" class="postlink">https://leds.to/</a> during my search and ended up choosing a high-intensity 0805 SMD LED. It seemed like a solid choice for visibility and durability.<br><br>Installing it was a DIY project. I found a great tutorial on YouTube that laid out all the steps: from opening up the device to soldering the new LED in place. The video was super helpful, breaking down the process into simple, manageable steps like identifying the positive and negative leads and using the right soldering temperature.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=117">n1ajw</a> — Mon Feb 26, 2024 8:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[s52jan]]></name></author>
+		<updated>2024-02-26T20:29:05</updated>
+
+		<published>2024-02-26T20:29:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29774#p29774</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29774#p29774"/>
+		<title type="html"><![CDATA[Re: Rx Green LED replacement]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=29774#p29774"><![CDATA[
+I wanna make now a LED replacement and I am thinking now to do by myself or ask for help. What do you recommend?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=919">s52jan</a> — Mon Feb 26, 2024 8:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9M2IBR]]></name></author>
+		<updated>2020-10-18T14:56:26</updated>
+
+		<published>2020-10-18T14:56:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11760#p11760</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11760#p11760"/>
+		<title type="html"><![CDATA[Re: Rx Green LED replacement]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11760#p11760"><![CDATA[
+problem solved. I replace the it with blue 0805 smd LED. It should smaller size than 0805.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1171">9M2IBR</a> — Sun Oct 18, 2020 2:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9M2IBR]]></name></author>
+		<updated>2020-10-08T10:51:18</updated>
+
+		<published>2020-10-08T10:51:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11497#p11497</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11497#p11497"/>
+		<title type="html"><![CDATA[Re: Rx Green LED replacement]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11497#p11497"><![CDATA[
+<blockquote class="uncited"><div>Is the problem the LED or the light-pipe<br><br>I recall problems on some radios where the plastic light-pipe was not in contact the the LED, hence not all light was transferred to the outside of the radio.<br><br>I can't recall a solution, but you could look on the VK7ZJA GD-77 Mods page to see if a similar problem exists on the GD-77 and whether this is a fix<br><a href="http://members.optuszoo.com.au/jason.reilly1/GD77mods.htm" class="postlink">http://members.optuszoo.com.au/jason.re ... 77mods.htm</a></div></blockquote>It LED problem. I already tear down the HT. Green LED is significantly dim than red LED.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1171">9M2IBR</a> — Thu Oct 08, 2020 10:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2020-10-07T21:13:12</updated>
+
+		<published>2020-10-07T21:13:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11479#p11479</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11479#p11479"/>
+		<title type="html"><![CDATA[Re: Rx Green LED replacement]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11479#p11479"><![CDATA[
+Is the problem the LED or the light-pipe<br><br>I recall problems on some radios where the plastic light-pipe was not in contact the the LED, hence not all light was transferred to the outside of the radio.<br><br>I can't recall a solution, but you could look on the VK7ZJA GD-77 Mods page to see if a similar problem exists on the GD-77 and whether this is a fix<br><a href="http://members.optuszoo.com.au/jason.reilly1/GD77mods.htm" class="postlink">http://members.optuszoo.com.au/jason.re ... 77mods.htm</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 07, 2020 9:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9M2IBR]]></name></author>
+		<updated>2020-10-07T11:56:39</updated>
+
+		<published>2020-10-07T11:56:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11470#p11470</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11470#p11470"/>
+		<title type="html"><![CDATA[Rx Green LED replacement]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1299&amp;p=11470#p11470"><![CDATA[
+Hi all<br><br>I just got my 2nd DM1801. Unfortunately, the RX led is very dim. Anybody know how to replace this LED and what type of Smd LED used in DM1801.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1171">9M2IBR</a> — Wed Oct 07, 2020 11:56 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

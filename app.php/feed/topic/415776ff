@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4157" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-17T23:21:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4157</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-17T23:21:29</updated>
+
+		<published>2024-06-17T23:21:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4157&amp;p=31697#p31697</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4157&amp;p=31697#p31697"/>
+		<title type="html"><![CDATA[Re: Upstreaming procedure]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4157&amp;p=31697#p31697"><![CDATA[
+<blockquote class="uncited"><div>Hey all! I'm working on putting together an extra option in APRS settings to allow for better APRS VOX through one of the classic Baofeng cables. <br>Anyway, while I can mostly work out the actual code part, I figured I should first ask about how to merge things upstream? Is there any kind of procedure, or more of just the code-over-the-wall technique?<br>Anyway, fantastic software! Thanks for putting in the legwork and keeping it all together.<br>(also, please do consider a git repo; i understand you've had problems with support requests for main branch builds, but i feel there are ways around that and the benefits outweight the problems.)<br>-Parker KJ5DFL</div></blockquote>It would be useful if you can describe what functionality you intend to add, because we use a common codebase for all radios, but this causes limitations for all hardware platforms becuase of limited storage space and limited code space on the older radios.<br><br>Adding additional settings would require additional on screen texts and additional voice prompts etc, so its not just a question of adding code for additional settings.<br><br>AFIK, we now have very limited code space available on the MK22 based radios e.g. GD77, RD5R, DM1801V1 etc and therefore do not normally accept code submissions which only would only be useful to a very small number of people.<br><br>Branching the code base so that its separate for the STM32 radios, would make lots of additional support work and the devs are already very short of free time, so I don't know if thats likely to every happen.<br><br><br>If there are minimal changes the functionality would have a large user base, then possibly it could be included, but we have other higher priority functionality being researched by several people, which would probably take all remaning ROM space<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 17, 2024 11:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KJ5DFL]]></name></author>
+		<updated>2024-06-16T22:20:05</updated>
+
+		<published>2024-06-16T22:20:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4157&amp;p=31692#p31692</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4157&amp;p=31692#p31692"/>
+		<title type="html"><![CDATA[Upstreaming procedure]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4157&amp;p=31692#p31692"><![CDATA[
+Hey all! I'm working on putting together an extra option in APRS settings to allow for better APRS VOX through one of the classic Baofeng cables. <br>Anyway, while I can mostly work out the actual code part, I figured I should first ask about how to merge things upstream? Is there any kind of procedure, or more of just the code-over-the-wall technique?<br>Anyway, fantastic software! Thanks for putting in the legwork and keeping it all together.<br>(also, please do consider a git repo; i understand you've had problems with support requests for main branch builds, but i feel there are ways around that and the benefits outweight the problems.)<br>-Parker KJ5DFL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6136">KJ5DFL</a> — Sun Jun 16, 2024 10:20 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5142" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-12T03:58:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5142</id>
+
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-06-12T03:58:29</updated>
+
+		<published>2025-06-12T03:58:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37468#p37468</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37468#p37468"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37468#p37468"><![CDATA[
+Very great job HR-C7000 has many radios  starting to use and looking forward to further news.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Thu Jun 12, 2025 3:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-09T15:54:56</updated>
+
+		<published>2025-06-09T15:54:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37454#p37454</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37454#p37454"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37454#p37454"><![CDATA[
+<blockquote class="uncited"><div>Hi! Is the source code available for the 008? <br><br>I'd be willing to help if I can download the repo and compile it as is one of the radios that I own</div></blockquote>Are you really still sure that you can help?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Mon Jun 09, 2025 3:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-09T15:17:32</updated>
+
+		<published>2025-06-09T15:17:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37453#p37453</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37453#p37453"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37453#p37453"><![CDATA[
+Tell me how correct this modification is? <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4266&amp;start=30" class="postlink">viewtopic.php?f=19&amp;t=4266&amp;start=30</a><br>what was the resistance in previous versions?<br>and how will this affect the diodes in the keyboard?<br>and it’s still not clear whether 82 ohms is the total resistance or each resistor’s?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Mon Jun 09, 2025 3:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-03T04:06:05</updated>
+
+		<published>2025-06-03T04:06:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37351#p37351</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37351#p37351"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37351#p37351"><![CDATA[
+<blockquote class="uncited"><div>Tell me how these interrupt handlers differ, besides the fact that I use a buffer with a different index, I need to send the sound not via I2S, but to the C7000 sound buffer (160 bytes) ?<br><div class="codebox"><p>CODE: </p><pre><code>void HAL_I2SEx_TxRxHalfCpltCallback(I2S_HandleTypeDef *hi2s){if (!stopOnNextI2SDMAInterrupt){if (isSending){g_TX_SAI_in_use = soundRefillData(0);}else if(isReceiving){soundReceiveRefillData(0);}}else{clearI2SBuffersAndFlags();}}void HAL_I2SEx_TxRxCpltCallback(I2S_HandleTypeDef *hi2s){if (!stopOnNextI2SDMAInterrupt){if (isSending){g_TX_SAI_in_use = soundRefillData(1);}else if(isReceiving){soundReceiveRefillData(1);}}else{clearI2SBuffersAndFlags();}}</code></pre></div></div></blockquote><br>One callback is called when the buffer is half full and the other when the buffer is full. You will notice that the functions called by these callbacks have a different value for their argument i.e 0 vs 1<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jun 03, 2025 4:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-03T03:18:06</updated>
+
+		<published>2025-06-03T03:18:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37350#p37350</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37350#p37350"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37350#p37350"><![CDATA[
+Tell me how these interrupt handlers differ, besides the fact that I use a buffer with a different index, I need to send the sound not via I2S, but to the C7000 sound buffer (160 bytes) ?<br><div class="codebox"><p>CODE: </p><pre><code>void HAL_I2SEx_TxRxHalfCpltCallback(I2S_HandleTypeDef *hi2s){if (!stopOnNextI2SDMAInterrupt){if (isSending){g_TX_SAI_in_use = soundRefillData(0);}else if(isReceiving){soundReceiveRefillData(0);}}else{clearI2SBuffersAndFlags();}}void HAL_I2SEx_TxRxCpltCallback(I2S_HandleTypeDef *hi2s){if (!stopOnNextI2SDMAInterrupt){if (isSending){g_TX_SAI_in_use = soundRefillData(1);}else if(isReceiving){soundReceiveRefillData(1);}}else{clearI2SBuffersAndFlags();}}</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Tue Jun 03, 2025 3:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-03T02:32:49</updated>
+
+		<published>2025-06-03T02:32:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37349#p37349</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37349#p37349"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37349#p37349"><![CDATA[
+<blockquote class="uncited"><div>I guess you use the CDS workbench? Otherwise maybe we can set up a github and explain all the steps to compile the code. As I said I'm willing to join and as more people join, the easier would be to get a working version for this.</div></blockquote>The full source code of the project, to make it clearer, all comments like //*** or /*** are only mine, so as not to confuse with the author's<br>for example how it was and how I did it:<div class="codebox"><p>CODE: </p><pre><code>void HRC7000InitDTMF(void){/***SPI0WritePageRegByteExtended(0x01, 0x11B, 0x05);//configure 697 Hz toneSPI0WritePageRegByteExtended(0x01, 0x11A, 0x93);//SPI0WritePageRegByteExtended(0x01, 0x11D, 0x06);//configure 770 Hz toneSPI0WritePageRegByteExtended(0x01, 0x11C, 0x29);//SPI0WritePageRegByteExtended(0x01, 0x11F, 0x06);//configure 852 Hz toneSPI0WritePageRegByteExtended(0x01, 0x11E, 0xD1);//SPI0WritePageRegByteExtended(0x01, 0x121, 0x07);//configure 941 Hz toneSPI0WritePageRegByteExtended(0x01, 0x120, 0x87);//SPI0WritePageRegByteExtended(0x01, 0x123, 0x09);//configure 1209 Hz toneSPI0WritePageRegByteExtended(0x01, 0x122, 0xAC);//SPI0WritePageRegByteExtended(0x01, 0x125, 0x0A);//configure 1336 Hz toneSPI0WritePageRegByteExtended(0x01, 0x124, 0xB0);//SPI0WritePageRegByteExtended(0x01, 0x127, 0x0B);//configure 1447 Hz toneSPI0WritePageRegByteExtended(0x01, 0x126, 0xD1);//SPI0WritePageRegByteExtended(0x01, 0x129, 0x0D);//configure 1633 Hz toneSPI0WritePageRegByteExtended(0x01, 0x128, 0x10);//***/*FM_TONE1 = 0x05930629;*FM_TONE2 = 0x06D10787;*FM_TONE3 = 0x09AC0AB0;*FM_TONE4 = 0x0BD10D10;}</code></pre></div>or:<div class="codebox"><p>CODE: </p><pre><code>void radioPowerOn(void){//Turn off Tx Voltages to prevent transmission.//***HAL_GPIO_WritePin(PA_EN_1_GPIO_Port, PA_EN_1_Pin, GPIO_PIN_RESET);//***HAL_GPIO_WritePin(PA_EN_2_GPIO_Port, PA_EN_2_Pin, GPIO_PIN_RESET);GPIO_DRV_SetOutput( PA_SEL_VHF, 0);GPIO_DRV_SetOutput( PA_SEL_UHF, 0);GPIO_DRV_SetOutput( PA_SEL_SW, 0);//Turn on all receiver voltages. (thats what the TYT firmware does, both receivers are on together)radioSetRxLNAForDevice(currentRadioDeviceId);//****HAL_GPIO_WritePin(C6000_PWD_GPIO_Port, C6000_PWD_Pin, GPIO_PIN_RESET);// Power On the C6000//Turn on the Microphone power//***HAL_GPIO_WritePin(MICPWR_SW_GPIO_Port, MICPWR_SW_Pin, GPIO_PIN_SET);}</code></pre></div><a href="https://drive.google.com/file/d/1pvdw267G5nxnJHSnH0JNiD729_2wpi79/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1pvdw26 ... sp=sharing</a><br><br>in fact, the C6000 and C7000 are very similar, the only difference is that the C7000 has direct addressing to registers and buffers, and not through SPI and I2S like the C6000<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Tue Jun 03, 2025 2:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-03T02:19:50</updated>
+
+		<published>2025-06-03T02:19:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37348#p37348</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37348#p37348"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37348#p37348"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>at the moment i am ready for trial tests, i have one question about stack, stack frame needs to be prepared?<br><div class="codebox"><p>CODE: </p><pre><code>asm volatile ("push r4-r11\n""subi sp, sp, 0x14\n""stw r1, (sp, 0x0C)\n""movi r1, 0x00002000\n""stw r1, (sp, 0x08)\n""movi r1, 1\n""stw r1, (sp, 0x04)\n""movi r1, 0x00000800\n""stw r1, (sp, 0x00)\n""movi r3, 0x50\n""movi r1, 0\n""jsri " QU(AMBE_ENCODE)"addi sp, sp, 0x14\n""pop r4-r11");</code></pre></div></div></blockquote>This assembler code calls the function and passes a pointer to a buffer, and probably some other parameters<br><br>Someone posted a pure C version of this to the forum, but we did not use it because I think it caused the code size to increase <br><br>However you should probably use the C version, because this would be easier than porting the ARM code to CSky</div></blockquote>this is already code for C-SKY, it just often uses the stack to store variables and you may have to make a copy of the stack<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Tue Jun 03, 2025 2:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-03T02:16:58</updated>
+
+		<published>2025-06-03T02:16:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37347#p37347</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37347#p37347"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37347#p37347"><![CDATA[
+<blockquote class="uncited"><div>I guess you use the CDS workbench? Otherwise maybe we can set up a github and explain all the steps to compile the code. As I said I'm willing to join and as more people join, the easier would be to get a working version for this.</div></blockquote>IDE CDS latest version: <a href="https://drive.google.com/file/d/1twAQ-WiwjB0XFNIgaHnasQu2kzC_UDoX/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1twAQ-W ... sp=sharing</a><br><br>toolchain gcc 13.3.0 overwrite MinGW folder: <a href="https://drive.google.com/file/d/1tljmQ48uWzfuiXC6Nik_iO-7YF2d4ejN/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1tljmQ4 ... sp=sharing</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Tue Jun 03, 2025 2:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-02T20:54:31</updated>
+
+		<published>2025-06-02T20:54:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37341#p37341</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37341#p37341"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37341#p37341"><![CDATA[
+<blockquote class="uncited"><div>at the moment i am ready for trial tests, i have one question about stack, stack frame needs to be prepared?<br><div class="codebox"><p>CODE: </p><pre><code>asm volatile ("push r4-r11\n""subi sp, sp, 0x14\n""stw r1, (sp, 0x0C)\n""movi r1, 0x00002000\n""stw r1, (sp, 0x08)\n""movi r1, 1\n""stw r1, (sp, 0x04)\n""movi r1, 0x00000800\n""stw r1, (sp, 0x00)\n""movi r3, 0x50\n""movi r1, 0\n""jsri " QU(AMBE_ENCODE)"addi sp, sp, 0x14\n""pop r4-r11");</code></pre></div></div></blockquote>This assembler code calls the function and passes a pointer to a buffer, and probably some other parameters<br><br>Someone posted a pure C version of this to the forum, but we did not use it because I think it caused the code size to increase <br><br>However you should probably use the C version, because this would be easier than porting the ARM code to CSky<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 02, 2025 8:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3ITA]]></name></author>
+		<updated>2025-06-02T16:01:03</updated>
+
+		<published>2025-06-02T16:01:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37334#p37334</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37334#p37334"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37334#p37334"><![CDATA[
+I guess you use the CDS workbench? Otherwise maybe we can set up a github and explain all the steps to compile the code. As I said I'm willing to join and as more people join, the easier would be to get a working version for this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4711">EA3ITA</a> — Mon Jun 02, 2025 4:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-02T15:52:22</updated>
+
+		<published>2025-06-02T15:52:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37333#p37333</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37333#p37333"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37333#p37333"><![CDATA[
+Hi, in addition to the source code, I also need an IDE, the native one uses a very old version of GCC 6.3.0, I had to rebuild 13.0 now I will compile everything and send it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Mon Jun 02, 2025 3:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3ITA]]></name></author>
+		<updated>2025-06-02T15:36:25</updated>
+
+		<published>2025-06-02T15:36:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37332#p37332</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37332#p37332"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37332#p37332"><![CDATA[
+Hi! Is the source code available for the 008? <br><br>I'd be willing to help if I can download the repo and compile it as is one of the radios that I own<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4711">EA3ITA</a> — Mon Jun 02, 2025 3:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-02T11:04:54</updated>
+
+		<published>2025-06-02T11:04:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37328#p37328</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37328#p37328"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37328#p37328"><![CDATA[
+at the moment i am ready for trial tests, i have one question about stack, stack frame needs to be prepared?<br><div class="codebox"><p>CODE: </p><pre><code>asm volatile ("push r4-r11\n""subi sp, sp, 0x14\n""stw r1, (sp, 0x0C)\n""movi r1, 0x00002000\n""stw r1, (sp, 0x08)\n""movi r1, 1\n""stw r1, (sp, 0x04)\n""movi r1, 0x00000800\n""stw r1, (sp, 0x00)\n""movi r3, 0x50\n""movi r1, 0\n""jsri " QU(AMBE_ENCODE)"addi sp, sp, 0x14\n""pop r4-r11");</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Mon Jun 02, 2025 11:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-02T04:25:15</updated>
+
+		<published>2025-06-02T04:25:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37324#p37324</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37324#p37324"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37324#p37324"><![CDATA[
+<blockquote class="uncited"><div>Thank you, the vocoder code has fixed addresses, when the firmware is launched it transfers this code from flash to IRAM, since the code works faster there, I realized that I need to deal with the linker script and do something like this:<br><div class="codebox"><p>CODE: </p><pre><code>    .init_array :    {    . = ABSOLUTE(0x17000) ;    *(.codec_bin_section_1)    KEEP (*(.init_array*))    . = ALIGN(0x4) ;    } &gt; REGION_TEXTINRAM</code></pre></div>and already in the source code add:<br><div class="codebox"><p>CODE: </p><pre><code>__attribute__((section(".init_array"))) uint8_t Codec[15000];</code></pre></div>something like this</div></blockquote>So... Do you still have a problem with the codec using RAM that is used by compiler variables etc?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 02, 2025 4:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-02T01:20:58</updated>
+
+		<published>2025-06-02T01:20:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37323#p37323</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37323#p37323"/>
+		<title type="html"><![CDATA[Re: Build for C7000 based radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5142&amp;p=37323#p37323"><![CDATA[
+Thank you, the vocoder code has fixed addresses, when the firmware is launched it transfers this code from flash to IRAM, since the code works faster there, I realized that I need to deal with the linker script and do something like this:<br><div class="codebox"><p>CODE: </p><pre><code>    .init_array :    {    . = ABSOLUTE(0x17000) ;    *(.codec_bin_section_1)    KEEP (*(.init_array*))    . = ALIGN(0x4) ;    } &gt; REGION_TEXTINRAM</code></pre></div>and already in the source code add:<br><div class="codebox"><p>CODE: </p><pre><code>__attribute__((section(".init_array"))) uint8_t Codec[15000];</code></pre></div>something like this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Mon Jun 02, 2025 1:20 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

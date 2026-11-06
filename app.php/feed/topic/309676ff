@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3096" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-11-27T12:57:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3096</id>
+
+		<entry>
+		<author><name><![CDATA[PR7LDR]]></name></author>
+		<updated>2023-11-27T12:57:49</updated>
+
+		<published>2023-11-27T12:57:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3096&amp;p=27725#p27725</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=27725#p27725"/>
+		<title type="html"><![CDATA[Re: M17 integration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=27725#p27725"><![CDATA[
+By the way, they have an acknowledgement to Opengd77!<br><blockquote class="uncited"><div>Thanks to Roger Clark VK3KYY and all the contributors of the OpenGD77 project which both inspired this project and, as a precursor, provided a working code example for the GD77 radio family.</div></blockquote>It can be seen here:<br><br><a href="https://openrtx.org/#/?id=the-openrtx-project" class="postlink">https://openrtx.org/#/?id=the-openrtx-project</a><br><br>Very cool.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4969">PR7LDR</a> — Mon Nov 27, 2023 12:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PR7LDR]]></name></author>
+		<updated>2023-11-27T12:09:45</updated>
+
+		<published>2023-11-27T12:09:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3096&amp;p=27724#p27724</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=27724#p27724"/>
+		<title type="html"><![CDATA[Re: M17 integration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=27724#p27724"><![CDATA[
+IMHO, we are repeating the existent issues with commercial software. BSD and LGPL are both open licenses. We must joint forces to bring the amateur radio freedom from proprietary solutions, keeping it' s true spirit.<br><br>I am not discussing legal things or the need for a licensing change/adaptation, but I think it is natural for projects as OpenGD77 and OpenRTX work and collaborate together.<br><br>I would be very grateful if this happens in the near future.<br><br>Thanks for your efforts, guys. The M17 project is seeking the same thing as us at all, but by a different way. I like both and expect to use both, as simple as changing a firmware, if possible.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4969">PR7LDR</a> — Mon Nov 27, 2023 12:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-08T07:18:09</updated>
+
+		<published>2023-08-08T07:18:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24887#p24887</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24887#p24887"/>
+		<title type="html"><![CDATA[Re: M17 integration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24887#p24887"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>M17 has a license conflict with the OpenGD77 license</div></blockquote><em class="text-italics">Even if</em> this was true, you are still free to write your own M17 implementation in any programming language and release it under any license you desire. This is, in fact, what we highly encourage.</div></blockquote>Thats what I said.<br><blockquote class="uncited"><div>However if you want to completely rewrite M17 and the codec you could add it to OpenGD77, but you'd also need to change all the code relating to the use of the official TYT donor file, where the AMBE codec is located, becuase unless that was completely removed, then there would not be enough program ROM space to hold M17 and the codec</div></blockquote>If DL7PJ wants to write his own implementation of M17 into his own version of OpenGD77 he can.<br><br><br>Also.<br>Re-reading the license on Codec2 , I think perhaps the license is OK, because its the Lesser GPL  . But no one seems interested doing an experimental version using codec2 probably becuase DMR MARC and also BM probably wont pass anything but ambe encoded audio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 08, 2023 7:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5WWP]]></name></author>
+		<updated>2023-08-08T07:12:04</updated>
+
+		<published>2023-08-08T07:12:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24886#p24886</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24886#p24886"/>
+		<title type="html"><![CDATA[Re: M17 integration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24886#p24886"><![CDATA[
+<blockquote class="uncited"><div>The M17 team use OpenRTX as their base</div></blockquote>We are two independent projects, so this statement is not true. We just happen to work together to achieve the same goal.<br><blockquote class="uncited"><div>M17 has a license conflict with the OpenGD77 license</div></blockquote><em class="text-italics">Even if</em> this was true, you are still free to write your own M17 implementation in any programming language and release it under any license you desire. This is, in fact, what we highly encourage.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4265">SP5WWP</a> — Tue Aug 08, 2023 7:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-03T21:09:29</updated>
+
+		<published>2023-08-03T21:09:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24795#p24795</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24795#p24795"/>
+		<title type="html"><![CDATA[Re: M17 integration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24795#p24795"><![CDATA[
+<blockquote class="uncited"><div>Hello, is it planned to integrate M17 into OpenGD77? 73 de Peter</div></blockquote>No. Not practical for many reasons.. See below for just a few of the technical and licensing reasons.<br><br>The M17 team use OpenRTX as their base<br><br>M17 has a license conflict with the OpenGD77 license .So none of their code could be used in the OpenGd77.<br>The codec used by the M17 team also has a separate license conflict with the OpenGD77 so can't be used either.<br><br>I did approach the author of the codec about using it for experimental versions of OpenGD77 but despite multiple attemps to contact the author he didn't reply, so I gave up on that idea.<br><br>If the M17 team wanted to add M17 to OpenGD77 they may be able to do this, if all of the contributing developers to all their code agreed to change their code license to match the OpenGD77 BSD license, but this seems highly unlikely, and there would still be the codec license problem<br><br>However if you want to completely rewrite M17 and the codec you could add it to OpenGD77, but you'd also need to change all the code relating to the use of the official TYT donor file, where the AMBE codec is located, becuase unless that was completely removed, then there would not be enough program ROM space to hold M17 and the codec<br><br>From the hardware perspective AFIK the only radio that M17 have modified to support modulating their hardware is the TYT MD380 / Retevis RT3 and OpenGD77 doesn't support that radio for active development.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Aug 03, 2023 9:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL7PJ]]></name></author>
+		<updated>2023-08-03T18:56:37</updated>
+
+		<published>2023-08-03T18:56:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24791#p24791</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24791#p24791"/>
+		<title type="html"><![CDATA[M17 integration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3096&amp;p=24791#p24791"><![CDATA[
+Hello, is it planned to integrate M17 into OpenGD77? 73 de Peter<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=245">DL7PJ</a> — Thu Aug 03, 2023 6:56 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1875" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-10-03T15:42:32</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1875</id>
+
+		<entry>
+		<author><name><![CDATA[KI5PGJ]]></name></author>
+		<updated>2021-10-03T15:42:32</updated>
+
+		<published>2021-10-03T15:42:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16043#p16043</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16043#p16043"/>
+		<title type="html"><![CDATA[Re: SOLVED Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16043#p16043"><![CDATA[
+<blockquote class="uncited"><div>No worries<br><br>Its hard for us to check whether people are installing the correct firmware, for the radio.<br><br>If we did attempt to do this, I think it would cause more problems with false negatives etc when things change in the firmware.</div></blockquote>I figured if there was a way to determine which model radio the CPS was interacting with y'all would have already implemented it.<br><br>I'm having a blast with DMR and the GD77/DM1801 with OpenGD77/OpenDM1801.<br><br>From my conversations with other people a lot give up on DMR because of the complexities with creating a codeplug for their radio, this includes people who have shelved GD77 with stock firmware.  I've convinced the one's with GD77 to load OpenGD77, the other one's I highly recommend they buy a  GD77 or DM1801, install y'all's code and try again.<br><br>73<br>Liz<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1862">KI5PGJ</a> — Sun Oct 03, 2021 3:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-10-03T02:51:50</updated>
+
+		<published>2021-10-03T02:51:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16024#p16024</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16024#p16024"/>
+		<title type="html"><![CDATA[Re: SOLVED Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16024#p16024"><![CDATA[
+<blockquote class="uncited"><div>okay, this is all my fault, in other words I screwed up.<br><br>The only radios I'd installed OpenGD77 on were Radioditty GD77 which is the only firmware I'd downloaded.  So that is what I used on the DM1801, which of course it isn't meant for.  I just downloaded OpenDM1801 firmware and installed it on the DM-1801 and it worked correctly as expected.<br><br>Backup of Flash and Calibration worked as they should too.<br><br>I apologize for the noise, perhaps in the future someone else will load the wrong version of the firmware, find this post and resolve their issue without asking the same stupid thing I did.<br><br>73<br>Liz</div></blockquote>No worries<br><br>Its hard for us to check whether people are installing the correct firmware, for the radio.<br><br>If we did attempt to do this, I think it would cause more problems with false negatives etc when things change in the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 03, 2021 2:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KI5PGJ]]></name></author>
+		<updated>2021-10-02T23:23:42</updated>
+
+		<published>2021-10-02T23:23:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16020#p16020</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16020#p16020"/>
+		<title type="html"><![CDATA[SOLVED Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16020#p16020"><![CDATA[
+okay, this is all my fault, in other words I screwed up.<br><br>The only radios I'd installed OpenGD77 on were Radioditty GD77 which is the only firmware I'd downloaded.  So that is what I used on the DM1801, which of course it isn't meant for.  I just downloaded OpenDM1801 firmware and installed it on the DM-1801 and it worked correctly as expected.<br><br>Backup of Flash and Calibration worked as they should too.<br><br>I apologize for the noise, perhaps in the future someone else will load the wrong version of the firmware, find this post and resolve their issue without asking the same stupid thing I did.<br><br>73<br>Liz<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1862">KI5PGJ</a> — Sat Oct 02, 2021 11:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-10-02T22:59:07</updated>
+
+		<published>2021-10-02T22:59:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16019#p16019</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16019#p16019"/>
+		<title type="html"><![CDATA[Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16019#p16019"><![CDATA[
+Hi,<br><br>   Okay.<br>And what is happening when you try to backup the flash (it can take some time before seeing the progress bar to move) ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Oct 02, 2021 10:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-10-02T22:57:00</updated>
+
+		<published>2021-10-02T22:57:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16018#p16018</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16018#p16018"/>
+		<title type="html"><![CDATA[Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16018#p16018"><![CDATA[
+Thats strange<br><br>USB CPS functions are explicitly enabled if there is a Cal data error<br><div class="codebox"><p>CODE: </p><pre><code>showErrorMessage("CAL DATA ERROR");USB_DeviceApplicationInit();die(true, false);</code></pre></div>The die() function when set to true, still enables CPS functionality<br><br>I'll re-test on one of my radios to see if the CPS works if Cal check fails<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Oct 02, 2021 10:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KI5PGJ]]></name></author>
+		<updated>2021-10-02T22:33:54</updated>
+
+		<published>2021-10-02T22:33:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16016#p16016</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16016#p16016"/>
+		<title type="html"><![CDATA[Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16016#p16016"><![CDATA[
+<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1340&amp;sid=1d5999538a1d694680a92a6ebe75ad10" class="postimage" alt="DM1801-CalibrationBackup-Failure.JPG" onclick="viewableArea(this);" /></dt></dl></div>Calibration backup failed.<br><blockquote class="uncited"><div>Hi,<br><br>  Hmmm, that sounds bad.<br>What did happen if you try to backup the calibration data ?<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1862">KI5PGJ</a> — Sat Oct 02, 2021 10:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KI5PGJ]]></name></author>
+		<updated>2021-10-02T22:26:47</updated>
+
+		<published>2021-10-02T22:26:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16015#p16015</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16015#p16015"/>
+		<title type="html"><![CDATA[Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16015#p16015"><![CDATA[
+I can't get flash backup data.  When I try to backup flash nothing happens, from my first post "however when I select Backup Flash nothing occurs, except OpenGD77 Support page goes gray. I can backup EEPROM and MCU ROM using OpenGD77 Support, but Backup Flash does not work."<br><br>So I can backup EEPROM and MCU ROM, but not Flash.  I'll try to backup Calibration data after I post this and followup with result.<br><br>I don't have access to any other DM-1801, just qty 3 GD77.  I was "trying" to help a fellow ham get OpenGD77, after I told him how happy I am with it.<br><br>thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1862">KI5PGJ</a> — Sat Oct 02, 2021 10:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-10-02T20:49:55</updated>
+
+		<published>2021-10-02T20:49:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16010#p16010</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16010#p16010"/>
+		<title type="html"><![CDATA[Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16010#p16010"><![CDATA[
+CAL DATA ERROR is triggered if the data at the beginning of the calibration data area does not match what is normally in that area.<br><br>Zip your flash backup data and piut it somewhere we can download iit from.<br><br>Its possible the calibration data is corrupt, but the CAL data doesn't change much for each radio, so using CAL data from another DM1801 will probably work.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Oct 02, 2021 8:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-10-02T17:59:41</updated>
+
+		<published>2021-10-02T17:59:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16003#p16003</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16003#p16003"/>
+		<title type="html"><![CDATA[Re: can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=16003#p16003"><![CDATA[
+Hi,<br><br>  Hmmm, that sounds bad.<br>What did happen if you try to backup the calibration data ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Oct 02, 2021 5:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KI5PGJ]]></name></author>
+		<updated>2021-10-02T15:02:48</updated>
+
+		<published>2021-10-02T15:02:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1875&amp;p=15994#p15994</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=15994#p15994"/>
+		<title type="html"><![CDATA[can't backup FLASH]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1875&amp;p=15994#p15994"><![CDATA[
+I tried to in OpenGD77 to a DM-1801 today, on reboot I get "CAL DATA ERROR"<br><br>I then found the instructions here, <a href="https://www.opengd77.com/viewtopic.php?t=836" class="postlink">https://www.opengd77.com/viewtopic.php?t=836</a> , however when I select Backup Flash nothing occurs, except OpenGD77 Support page goes gray.  I can backup EEPROM and MCU ROM using OpenGD77 Support, but Backup Flash does not work.<br><br>Any ideas on how to proceed?<br><br>This is the first DM-1801 I tried to upgrade to OpenGD77 after succesfully upgrading 3 different Radioditty GD77.<br><br>thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1862">KI5PGJ</a> — Sat Oct 02, 2021 3:02 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

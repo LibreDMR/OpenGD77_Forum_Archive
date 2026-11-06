@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=28&t=3785&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 16:42:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h2>
+		<p><a href="viewtopic704b-2.html?f=28&amp;t=3785">viewtopic.php?f=28&amp;t=3785</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>6</strong></div>
+					<div class="post">
+				<h3>TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Thu Feb 15, 2024 7:23 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">An Alpha 2.0 version is now available to download<br>
+<br>
+<a href="https://www.opengd77.com/downloads/MD2017/Firmware/faf54d394a2ac08f462d35b4f5e0b00aad53cf4d" class="postlink">downloads/MD2017/Firmware/faf54d394a2ac ... 0aad53cf4d</a><br>
+<br>
+<strong class="text-strong"><br>
+EDIT.<br>
+<br>
+Use this updated version V2.2<br>
+<br>
+<a href="https://www.opengd77.com/downloads/MD2017/Firmware/d63265696e4f41bfb94f047c79e56e8c9f3d684d" class="postlink">downloads/MD2017/Firmware/d63265696e4f4 ... 8c9f3d684d</a></strong><br>
+<br>
+<br>
+<br>
+This version has trackball support. Thanks to Daniel F1RMB.  <br>
+Trackball functionality is off by default, becuase many trackballs in these radios are faulty and can generate spurious inputs.<br>
+To enable the Trackball, see Options -&gt; General Options -&gt; Trackball.<br>
+<br>
+<br>
+RSSI on VHF have been rescaled, using data supplied by OH2FHJ<br>
+Satellite mode DTMF bug (applicable to all OpenGD77 versions) has been fixed. Thanks to Daniel F1RMB<br>
+<br>
+Increased audio levels on DMR and FM <br>
+Change to FM audio filter paramaters to match official firmware.<br>
+Bug fix to external mic input. No change to operation.<br>
+<br>
+Experimental dual RSSI display<br>
+
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/filef9d3.png?id=2207&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d" class="postimage" alt="MD2017_dual_RSSI.png" onclick="viewableArea(this);" /></dt>
+						<dd>MD2017_dual_RSSI.png (3.24 KiB) Viewed 11885 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+RSSI at the top of the screen is the active VFO freq<br>
+RSSI at the bottom of the screen is the inactive VFO freq<br>
+<br>
+When channel mode is selected the RSSI at the top will be the current channel and the RSSI at the bottom will continue to be the inactive VFO<br>
+<br>
+This is a work in progress for debug purposes to help test additional features that may be added to the firmware for this radio<br>
+<br>
+Note.<br>
+<br>
+This version does not fix the keypad problem experienced by some people<br>
+<br>
+I only know 2 people who have the version of the radio which has the keypad problem, and neither of them have used the Debug Mode features in the Alpha version, which would give me more information about why the keypad appears not to work in these radios.<br>
+<br>
+Its possible the problem is not the keypad and that the firmware is actually crashing / hanging on these radios.<br>
+But until someone with one of these radios has time to use Debug Mode, its impossible to make any progress with this problem</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Thu Feb 15, 2024 10:03 pm</strong></div>
+				<div class="author">by <strong>YO3IDG</strong></div>
+				<div class="content">Just installed this, so far these issues:<br>
+- monochorme only (why no color, no icons ?)<br>
+- trackball needs sensitivity setting (moves a bit fast)<br>
+- blue button does nothing (the big side button above PTT) when pressed shortly<br>
+- central trackball click does nothing inside menus (idle screen shows channel settings ?)<br>
+- no dual monitoring (factory firmware allowed 2 channels to be monitored)<br>
+<br>
+FM works ok, no DMR test yet. Everything else seems to be working, will report if problems found.<br>
+<br>
+Should I do any particular tests ?<br>
+<br>
+Edit: found out that keeping the big blue button pressed you get someting like "monitor" mode in factory firmware (open squelch)</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Thu Feb 15, 2024 10:44 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=5575&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d">YO3IDG</a> wrote: <a href="viewtopicc6dc.html?p=29548&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d#p29548" data-post-id="29548" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Feb 15, 2024 10:03 pm</div></cite>
+Just installed this, so far these issues:<br>
+- monochorme only (why no color, no icons ?)<br>
+- trackball needs sensitivity setting (moves a bit fast)<br>
+- blue button does nothing (the big side button above PTT) when pressed shortly<br>
+- central trackball click does nothing inside menus (idle screen shows channel settings ?)<br>
+- no dual monitoring (factory firmware allowed 2 channels to be monitored)<br>
+<br>
+FM works ok, no DMR test yet. Everything else seems to be working, will report if problems found.<br>
+<br>
+Should I do any particular tests ?<br>
+<br>
+Edit: found out that keeping the big blue button pressed you get someting like "monitor" mode in factory firmware (open squelch)
+</div></blockquote>
+
+Read: <a href="https://www.opengd77.com/viewtopic.php?f=28&amp;t=3717" class="postlink">viewtopic.php?f=28&amp;t=3717</a><br>
+<br>
+Read the User Guide for all OpenGD77 radios<br>
+<br>
+Read what an Alpha release normally compirses of. e.g. <a href="https://en.wikipedia.org/wiki/Software_release_life_cycle" class="postlink">https://en.wikipedia.org/wiki/Software_ ... life_cycle</a><br>
+<br>
+<strong class="text-strong">This is NOT a final release</strong><br>
+<br>
+It will never have icons becuase OpenGD77 does not use icons</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Fri Feb 16, 2024 12:07 am</strong></div>
+				<div class="author">by <strong>YO3IDG</strong></div>
+				<div class="content">Here is a bug:<br>
+<br>
+Under "Firmware info" the CPU is listed as "STM" should it not be K22 ?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Fri Feb 16, 2024 12:38 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=5575&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d">YO3IDG</a> wrote: <a href="viewtopic0cf6.html?p=29555&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d#p29555" data-post-id="29555" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Fri Feb 16, 2024 12:07 am</div></cite>
+Here is a bug:<br>
+<br>
+Under "Firmware info" the CPU is listed as "STM" should it not be K22 ?
+</div></blockquote>
+
+Wrong<br>
+<br>
+These radios use the STM32 MCU</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Fri Feb 16, 2024 8:12 am</strong></div>
+				<div class="author">by <strong>14FRS498</strong></div>
+				<div class="content">Good morning<br>
+After installation on my two 2017s<br>
+long press on blue button =&gt; monitor<br>
+track ball =&gt; functional<br>
+Functional FM and DMR<br>
+Blue button and menu =&gt; channel detail<br>
+Blue button and P1 =&gt; power -<br>
+"         "     and P2 =&gt; power +<br>
+Rest of current test<br>
+73</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Fri Feb 16, 2024 9:01 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=4455&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d">14FRS498</a> wrote: <a href="viewtopic699f.html?p=29557&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d#p29557" data-post-id="29557" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Fri Feb 16, 2024 8:12 am</div></cite>
+Good morning<br>
+After installation on my two 2017s<br>
+long press on blue button =&gt; monitor<br>
+track ball =&gt; functional<br>
+Functional FM and DMR<br>
+Blue button and menu =&gt; channel detail<br>
+Blue button and P1 =&gt; power -<br>
+"         "     and P2 =&gt; power +<br>
+Rest of current test<br>
+73
+</div></blockquote>
+
+As I documented in my original post<br>
+<br>
+<br>
+Blue button is SK2<br>
+Trackball press inwards is SK1 (even if trackball movement is disabled)<br>
+P1=Left<br>
+P2=Right<br>
+Up and Down buttons on side of the radio are Up/Down<br>
+Orange button is ..... Orange button<br>
+<br>
+All OpenGD77 functionality works with these remapped buttons</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Fri Feb 16, 2024 10:06 am</strong></div>
+				<div class="author">by <strong>14FRS498</strong></div>
+				<div class="content">Ok, thanks.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Fri Feb 16, 2024 11:21 am</strong></div>
+				<div class="author">by <strong>SA0BUX</strong></div>
+				<div class="content">Tried the new 20240215 release on the RT82 but the CTCSS and DCS modulation seems too high so radio can't open any repeaters/radios with subtone.<br>
+<br>
+Reverted back to 20240126 and subtones work again<br>
+<br>
+The RSSI test version 20240209 073001 have same problem with subtone levels.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: TYT MD2017 / Retevis RT-82 Public Alpha 2.0 version</h3>
+				<div class="date">Posted: <strong>Fri Feb 16, 2024 7:55 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=2867&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d">SA0BUX</a> wrote: <a href="viewtopicc725.html?p=29561&amp;sid=ea6e64fdbbe31fb76feb4e5a8aa7f36d#p29561" data-post-id="29561" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Fri Feb 16, 2024 11:21 am</div></cite>
+Tried the new 20240215 release on the RT82 but the CTCSS and DCS modulation seems too high so radio can't open any repeaters/radios with subtone.<br>
+<br>
+Reverted back to 20240126 and subtones work again<br>
+<br>
+The RSSI test version 20240209 073001 have same problem with subtone levels.
+</div></blockquote>
+
+Ok<br>
+<br>
+I changed some TRx chip parameters to match the official firmware. I didn't test Ctcss tx etc, because the change was minimal<br>
+<br>
+I will need to confirm if it was this change that adjusted the ctcss</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>6</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=28&t=3785&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 16:42:14 GMT -->
+</html>

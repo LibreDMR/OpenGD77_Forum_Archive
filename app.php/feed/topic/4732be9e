@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4732" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-05T02:05:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4732</id>
+
+		<entry>
+		<author><name><![CDATA[N0JYZ]]></name></author>
+		<updated>2025-01-05T02:05:52</updated>
+
+		<published>2025-01-05T02:05:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34999#p34999</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34999#p34999"/>
+		<title type="html"><![CDATA[Re: version 2024 12 15 removed GPS option from MD-UV380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34999#p34999"><![CDATA[
+<blockquote class="uncited"><div>All versions of the firmware test for the presence of a GPS module at power on. The GPS power is turned on and the firmware looks for NMEA messages from the module. If it does not receive anything then it assumes the GPS is not fitted and sets the GPS state to None.<br><br>So your radio is not seeing the GPS module. That could be a hardware failure, or <strong class="text-strong"><em class="text-italics">it could be a poor connection in the ribbon cable between the PCBs</em></strong>. The ribbon cables are known to be a weak point so it would be worth reseating both ends of the cable. <br><br>Colin G4EML</div></blockquote>Well, that was the issue.  Thank you for the explanation and the solution;  it's working now!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5571">N0JYZ</a> — Sun Jan 05, 2025 2:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-01-05T00:48:50</updated>
+
+		<published>2025-01-05T00:48:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34998#p34998</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34998#p34998"/>
+		<title type="html"><![CDATA[Re: version 2024 12 15 removed GPS option from MD-UV380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34998#p34998"><![CDATA[
+All versions of the firmware test for the presence of a GPS module at power on. The GPS power is turned on and the firmware looks for NMEA messages from the module. If it does not receive anything then it assumes the GPS is not fitted and sets the GPS state to None.<br><br>So your radio is not seeing the GPS module. That could be a hardware failure, or it could be a poor connection in the ribbon cable between the PCBs. The ribbon cables are known to be a weak point so it would be worth reseating both ends of the cable. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jan 05, 2025 12:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0JYZ]]></name></author>
+		<updated>2025-01-04T23:39:19</updated>
+
+		<published>2025-01-04T23:39:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34997#p34997</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34997#p34997"/>
+		<title type="html"><![CDATA[Re: version 2024 12 15 removed GPS option from MD-UV380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34997#p34997"><![CDATA[
+<blockquote class="uncited"><div><br>Try resetting the settings. <br><br>If that doesn't work,  Try going back to a much older version e.g. the stable release from December 2023, as that would still have GPS support<br><br>If that still doesn't work, then perhaps you have an intermittent fault with the GPS hardware</div></blockquote>Thanks for the quick reply.  I have reset the settings.  I've tried several different previous versions, including the December '23 stable version.  Same result "GPS: None"<br><br>Intermittent fault with the GPS hardware that only shows up after a year of working fine?  Possible, I suppose, but seems unlikely.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5571">N0JYZ</a> — Sat Jan 04, 2025 11:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-04T22:27:35</updated>
+
+		<published>2025-01-04T22:27:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34992#p34992</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34992#p34992"/>
+		<title type="html"><![CDATA[Re: version 2024 12 15 removed GPS option from MD-UV380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34992#p34992"><![CDATA[
+<blockquote class="uncited"><div>This most recent update (beta, I guess?) disabled the GPS on my MD-UV380.  I purchased this radio a year ago and installed OpenGD77 and have had no issues with the firmware, nor any issues with GPS.  After installing this particular update, the only "option" for GPS under General Options is "None".  (cue "sad trombone")<br><br>I've tried addressing the issue by applying older firmware, to no avail.  Not really sure what else to try or do.  Any thoughts?</div></blockquote>Try resetting the settings. <br><br>If that doesn't work,  Try going back to a much older version e.g. the stable release from December 2023, as that would still have GPS support<br><br>If that still doesn't work, then perhaps you have an intermittent fault with the GPS hardware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jan 04, 2025 10:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0JYZ]]></name></author>
+		<updated>2025-01-04T22:05:50</updated>
+
+		<published>2025-01-04T22:05:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34991#p34991</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34991#p34991"/>
+		<title type="html"><![CDATA[version 2024 12 15 removed GPS option from MD-UV380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4732&amp;p=34991#p34991"><![CDATA[
+This most recent update (beta, I guess?) disabled the GPS on my MD-UV380.  I purchased this radio a year ago and installed OpenGD77 and have had no issues with the firmware, nor any issues with GPS.  After installing this particular update, the only "option" for GPS under General Options is "None".  (cue "sad trombone")<br><br>I've tried addressing the issue by applying older firmware, to no avail.  Not really sure what else to try or do.  Any thoughts?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5571">N0JYZ</a> — Sat Jan 04, 2025 10:05 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

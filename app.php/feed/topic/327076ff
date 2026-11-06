@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3270" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-11T22:59:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3270</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-11T22:59:13</updated>
+
+		<published>2023-09-11T22:59:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26169#p26169</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26169#p26169"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 09 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26169#p26169"><![CDATA[
+I can't replicate the Rx tone on Lat/Lon import<br><br>But I have improved the Lat/Lon in the CSV import,   see the new beta 2023 09 12<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3273" class="postlink">viewtopic.php?f=12&amp;t=3273</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 11, 2023 10:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-11T21:33:16</updated>
+
+		<published>2023-09-11T21:33:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26166#p26166</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26166#p26166"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 09 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26166#p26166"><![CDATA[
+<blockquote class="uncited"><div>Thanks! I wanted to add that when adding lat/long to a repeater to the first time and writing it, it seemed to remove the CTCSS tone for that repeater. I was able to go back and re-add the tone and it worked just fine.<br><br>Also, thank you so much for adding the feature I suggested! I hope everyone gets a lot of use out of it <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>OK. I'll need to check why thats happening<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 11, 2023 9:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KQ4IOE]]></name></author>
+		<updated>2023-09-11T21:31:18</updated>
+
+		<published>2023-09-11T21:31:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26165#p26165</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26165#p26165"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 09 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26165#p26165"><![CDATA[
+Thanks! I wanted to add that when adding lat/long to a repeater to the first time and writing it, it seemed to remove the CTCSS tone for that repeater. I was able to go back and re-add the tone and it worked just fine.<br><br>Also, thank you so much for adding the feature I suggested! I hope everyone gets a lot of use out of it <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4268">KQ4IOE</a> — Mon Sep 11, 2023 9:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2023-09-10T05:32:04</updated>
+
+		<published>2023-09-10T05:32:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26154#p26154</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26154#p26154"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 09 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26154#p26154"><![CDATA[
+thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sun Sep 10, 2023 5:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-09T23:38:02</updated>
+
+		<published>2023-09-09T23:38:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26147#p26147</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26147#p26147"/>
+		<title type="html"><![CDATA[New Beta 2023 09 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3270&amp;p=26147#p26147"><![CDATA[
+A new Beta is now available<br><br>This version has been superseeded and can now be found in the Old Releases section<br><a href="https://www.opengd77.com/downloads/PC_CPS_20230910/Old_Releases/OpenGD77CPSInstaller_R2023.09.10.01.exe" class="postlink">downloads/PC_CPS_20230910/Old_Releases/ ... .10.01.exe</a><br><br><br>This fixes the following bugs<br><br>1. Rx and Tx Tone value when importing CSV (thanks to Colin G4EML)<br>2. Fix crash bug when appending CSV APRS data<br>3. Fix bug with languages merging in the firmware loader (Thanks to Daniel F1RMB)<br><br>This version also internal functionality optimisation by Daniel F1RMB when merging languages as part of the firmware loader<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 09, 2023 11:38 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

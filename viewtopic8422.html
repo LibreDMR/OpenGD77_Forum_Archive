@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=2415&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 09:08:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; FYI - GPS</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>FYI - GPS</h2>
+		<p><a href="viewtopic9629-2.html?f=19&amp;t=2415">viewtopic.php?f=19&amp;t=2415</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>17</strong></div>
+					<div class="post">
+				<h3>Re: ALPHA  TYT MD-UV380 / RT-3S Installation information</h3>
+				<div class="date">Posted: <strong>Sun Oct 09, 2022 12:00 pm</strong></div>
+				<div class="author">by <strong>UA0LMC</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp;sid=39e96210024dbf25fb60f605b3e43654">VK3KYY</a> wrote: <a href="viewtopic8c34-3.html?p=20019&amp;sid=39e96210024dbf25fb60f605b3e43654#p20019" data-post-id="20019" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Oct 06, 2022 9:33 pm</div></cite>
+The GPS sensitivity is also very bad. <br>
+<br>
+Even in you wait for a fix with the GPS outside, when you take the radio indoors the GPS no longer has enough signals to function.
+</div></blockquote>
+The sensitivity is so bad because of poor GPS antenna design. The antenna is placed near the speaker facing the front, not upwards.<br>
+To achieve the best possible GPS performance you should lay the radio front side up on a flat surface. Also check there is no foreign objects near the left side of a speaker grill.<br>
+<br>
+The best solution, however, would be replacing a GPS antenna (and properly orienting a new one) but it will require a serious amount of work - so I doubt it's feasible.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: ALPHA  TYT MD-UV380 / RT-3S Installation information</h3>
+				<div class="date">Posted: <strong>Sun Oct 09, 2022 8:02 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">Even with the radio face upwards the GPS does not work indoors</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>FYI - GPS</h3>
+				<div class="date">Posted: <strong>Sun Oct 09, 2022 9:40 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">FYI.<br>
+<br>
+The GPS in the MD-UV380 aka Retevis RT-3S takes a long time before the location is available and is also very insensitive and does not work when the radio is indoors.<br>
+<br>
+The orientation of the antenna is not good, and the radio will detect more satellites, and probably get a location fix faster, if it is face upwards.<br>
+<br>
+The reason the GPS takes a long time to get a fix, is because the radio hardware does not connect the GPS backup battery input to the battery in the radio.<br>
+Hence every time the radio is turned off, all GPS satellite data is lost by the GPS module, and it must find all the satellites again when the GPS is next activated<br>
+<br>
+Because the GPS module consumes 50mA or more, the firmware does not enable power to the GPS module, except on the Radio Information screen.<br>
+After the Radio Information screen has been viewed, the GPS module will continue to be powered until the radio is turned off.<br>
+<br>
+I plan to add a GPS option to the menus, so that people can choose if they want the GPS powered immediatly when the radio is turned on.<br>
+<br>
+I also plan to make a separate GPS screen with more information</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: ALPHA  TYT MD-UV380 / RT-3S Installation information</h3>
+				<div class="date">Posted: <strong>Mon Oct 10, 2022 8:50 am</strong></div>
+				<div class="author">by <strong>UA0LMC</strong></div>
+				<div class="content">Unfortunately, "the best possible results" does not equal to a good reception - it's literally the best you can get from this hardware, and it's still awful due to extremely poor RT3s GPS antenna design.<br>
+<br>
+As for indoor GPS reception - it might work sometimes, but performance will be severely degraded (on any receiver) as the frequencies are high (about 1.6GHz), the signals are extremely weak and there might be no clear signal path between the satellites and GPS receiver. Also in the southern hemisphere you must be really close to a window facing north.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: ALPHA  TYT MD-UV380 / RT-3S Installation information</h3>
+				<div class="date">Posted: <strong>Mon Oct 10, 2022 9:03 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=1163&amp;sid=39e96210024dbf25fb60f605b3e43654">UA0LMC</a> wrote: <a href="viewtopic94f2-2.html?p=20043&amp;sid=39e96210024dbf25fb60f605b3e43654#p20043" data-post-id="20043" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Oct 10, 2022 8:50 am</div></cite>
+Unfortunately, "the best possible results" does not equal to a good reception - it's literally the best you can get from this hardware, and it's still awful due to extremely poor RT3s GPS antenna design.<br>
+<br>
+As for indoor GPS reception - it might work sometimes, but performance will be severely degraded (on any receiver) as the frequencies are high (about 1.6GHz), the signals are extremely weak and there might be no clear signal path between the satellites and GPS receiver. Also in the southern hemisphere you must be really close to a window facing north.
+</div></blockquote>
+
+My location is 37 deg south, and the radio does get a GPS fix if it is outdoors, but I need to make sure there is a clear view of the sky, so I move away from any buildings etc<br>
+<br>
+PS. I will move discussion on the GPS to another thread</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: ALPHA  TYT MD-UV380 / RT-3S Installation information</h3>
+				<div class="date">Posted: <strong>Thu Oct 20, 2022 10:24 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=232&amp;sid=39e96210024dbf25fb60f605b3e43654">ve7mdt</a> wrote: <a href="viewtopicbfde-2.html?p=20217&amp;sid=39e96210024dbf25fb60f605b3e43654#p20217" data-post-id="20217" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Oct 20, 2022 4:17 pm</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=1163&amp;sid=39e96210024dbf25fb60f605b3e43654">UA0LMC</a> wrote: <a href="viewtopic94f2-2.html?p=20043&amp;sid=39e96210024dbf25fb60f605b3e43654#p20043" data-post-id="20043" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Oct 10, 2022 8:50 am</div></cite>
+Unfortunately, "the best possible results" does not equal to a good reception - it's literally the best you can get from this hardware, and it's still awful due to extremely poor RT3s GPS antenna design.<br>
+<br>
+As for indoor GPS reception - it might work sometimes, but performance will be severely degraded (on any receiver) as the frequencies are high (about 1.6GHz), the signals are extremely weak and there might be no clear signal path between the satellites and GPS receiver. Also in the southern hemisphere you must be really close to a window facing north.
+</div></blockquote>
+
+I think the 24 GPS satellites (except the WAAS special purpose ones) fly in all kinds of paths in space and thus no need to orient it toward "north" from the southern hemisphere. It should work globally and thus the namesake.<br>
+<br>
+It's nowadays GNSS as there are more than 1 constellations doing similar functions from space, like Beidou, Glonass etc.<br>
+<br>
+I do agree that poor antenna design / size and orientation can severely affect GNSS receivers, and also multipath distortion (in urban jungle). Indoor is definitely extremely challenging, and only if assisted by A-GPS that it might work better.<br>
+<br>
+In the earlier days of GPSr, there was once a clever way of loading the ephermeris data from the internet to decrease the fix time from a cold start on certain designs, assisted by a utility app on a PDA (Windows Mobile). I doubt it can work w/ these GNSSr chipsets, but that might be cool to have, if one could have loaded it from the CPS, and it'll be good for a couple of days (similar to how we load the amateur sat data).<br>
+<br>
+The only other way is to use an external GPSr to feed the NMEA 0183 serial data to the radio (replacing the internal GPSr), that might require some mod to get the signal on a wire to the inside of the radio.
+</div></blockquote>
+
+Colin has noticed that the battery backup pin is not attached on the UV380, so that as soon as the power is turned off, all the internal data is lost from the GPS.<br>
+<br>
+I'm not sure how hard it would be to perhaps connect it to the 'watch' battery in the UV380 so that the GPS would not need to do a cold start every time.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>FYI - GPS</h3>
+				<div class="date">Posted: <strong>Mon Dec 19, 2022 7:12 pm</strong></div>
+				<div class="author">by <strong>UA0LMC</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=232&amp;sid=39e96210024dbf25fb60f605b3e43654">ve7mdt</a> wrote: <a href="viewtopicbfde-2.html?p=20217&amp;sid=39e96210024dbf25fb60f605b3e43654#p20217" data-post-id="20217" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Oct 20, 2022 4:17 pm</div></cite>
+I think the 24 GPS satellites (except the WAAS special purpose ones) fly in all kinds of paths in space and thus no need to orient it toward "north" from the southern hemisphere. It should work globally and thus the namesake.
+</div></blockquote>
+Nope.<br>
+GPS orbital plane inclination is 55 degrees - so for 40-ish degrees latitude most of the satellites are to be found somewhere more or less towards the equator. <br>
+Also there is a bunch of QZSS and GEO/GSO BeiDou satellites visible here in Asia/Australia - which are again located more or less towards the equator.<br>
+<br>
+It should not be a big problem when you have a decent GPSr/antenna - but not in the case of RT3s though.<br>
+
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp;sid=39e96210024dbf25fb60f605b3e43654">VK3KYY</a> wrote: <a href="viewtopicc787-2.html?p=20235&amp;sid=39e96210024dbf25fb60f605b3e43654#p20235" data-post-id="20235" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Oct 20, 2022 10:24 pm</div></cite>
+Colin has noticed that the battery backup pin is not attached on the UV380, so that as soon as the power is turned off, all the internal data is lost from the GPS.<br>
+<br>
+I'm not sure how hard it would be to perhaps connect it to the 'watch' battery in the UV380 so that the GPS would not need to do a cold start every time.
+</div></blockquote>
+Not the whole radio - but GPSr power cycle alone is enough to reset the module, which unfortunately makes any GPSr power saving impossible without the hardware mod.<br>
+And no, you can't use an RTC backup battery, as typical 10uA GPSr Vbackup consumption will drain it in 3-4 days.<br>
+<br>
+Now I'm working on the mod to at least keep the almanac until the radio is on. Will write a post about it if/when I finish.<br>
+There are some PCB design flaws which make it a little harder to do than I thought.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: FYI - GPS</h3>
+				<div class="date">Posted: <strong>Wed Dec 28, 2022 12:41 am</strong></div>
+				<div class="author">by <strong>CU7AAZ</strong></div>
+				<div class="content">Hello,<br>
+<br>
+Finally APRS works well with OpenGD77.<br>
+I am very satisfied!<br>
+However, there is only one detail (I know that the hardware is not the best and also the internal GPS antenna) My radio is taking a long time to receive the satellites, even outdoors. I wonder if it is possible to increase the GPS modem speed a little.<br>
+ Many Thanks</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: FYI - GPS</h3>
+				<div class="date">Posted: <strong>Sun Jan 01, 2023 10:12 pm</strong></div>
+				<div class="author">by <strong>UA0LMC</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=2605&amp;sid=39e96210024dbf25fb60f605b3e43654">CU7AAZ</a> wrote: <a href="viewtopicdf6b-2.html?p=21150&amp;sid=39e96210024dbf25fb60f605b3e43654#p21150" data-post-id="21150" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Wed Dec 28, 2022 12:41 am</div></cite>
+I wonder if it is possible to increase the GPS modem speed a little.
+</div></blockquote>
+
+Don't know what you're meaning exactly - but the answer is "No".<br>
+There is no connection between the CPU and GPSr RxD pin - so you can't send any commands to change GPSr settings.<br>
+Also GPS antenna design is very poor, so I think the only viable option is to replace the antenna completely. I'm still looking for a decent replacement - but no luck so far.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: FYI - GPS</h3>
+				<div class="date">Posted: <strong>Sun Jan 01, 2023 11:30 pm</strong></div>
+				<div class="author">by <strong>UA0LMC</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=1163&amp;sid=39e96210024dbf25fb60f605b3e43654">UA0LMC</a> wrote: <a href="viewtopic0d23-3.html?p=21110&amp;sid=39e96210024dbf25fb60f605b3e43654#p21110" data-post-id="21110" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Dec 19, 2022 7:12 pm</div></cite>
+Now I'm working on the mod to at least keep the almanac until the radio is on. Will write a post about it if/when I finish.<br>
+There are some PCB design flaws which make it a little harder to do than I thought.
+</div></blockquote>
+
+DISCLAIMER: this mod requires some fine soldering. <br>
+I performed this mod and tested it on my radio - but your radio is only yours. Do it at your own risk.<br>
+<br>
+What it does:<br>
+It keeps GPSr Vbackup powered all the time the radio is on - thus retaining the almanac regardless of GPS on or off state. This mod significantly speeds-up the re-acquisition when re-enabling GPS.<br>
+Also it allows some kind of GPSr Eco-mode as hot-start is now supported - but it's up to developers whether it will be implemented in software or not.<br>
+<br>
+What it does not:<br>
+It does not speed-up the first acquisition. Also it does not improve overall GPS reception.<br>
+It won't retain the almanac when the radio is powered off. Using the onboard RTC battery for GPSr backup is impractical as GPSr will drain it in 3-4 days. Adding a separate stand-by power supply was considered too difficult for most of the users to implement it.<br>
+<br>
+OK, so what do I need to do?<br>
+0. Open the radio, locate the GPSr module on the front panel PCB.<br>
+1. Remove the resistor and cut two traces along the red lines.<br>
+2. Connect two yellow dots with a thin wire jumper (preferably PTFE-insulated).<br>
+3. Connect two blue dots the same way.
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file0349.jpg?id=1536&amp;sid=39e96210024dbf25fb60f605b3e43654" class="postimage" alt="IMG_20221221_141223_1.jpg" onclick="viewableArea(this);" /></dt>
+						<dd>IMG_20221221_141223_1.jpg (71.24 KiB) Viewed 48224 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+<br>
+<br>
+In the end you should get something like this:
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file4ec1.jpg?id=1537&amp;sid=39e96210024dbf25fb60f605b3e43654" class="postimage" alt="IMG_20230101_184709_1.jpg" onclick="viewableArea(this);" /></dt>
+						<dd>IMG_20230101_184709_1.jpg (74.42 KiB) Viewed 48224 times</dd>
+		</dl>
+		
+		
+		
+			</div></div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>17</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=2415&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 09:08:49 GMT -->
+</html>

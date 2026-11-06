@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4702" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-22T23:10:54</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4702</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-12-22T23:10:54</updated>
+
+		<published>2024-12-22T23:10:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4702&amp;p=34883#p34883</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4702&amp;p=34883#p34883"/>
+		<title type="html"><![CDATA[Re: NXDN Support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4702&amp;p=34883#p34883"><![CDATA[
+The DMR low level functions are handled by the dedicated HRC6000 chip. That chip does not support NXDN.  So the answer to your question has to be no. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Dec 22, 2024 11:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-12-22T20:53:07</updated>
+
+		<published>2024-12-22T20:53:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4702&amp;p=34877#p34877</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4702&amp;p=34877#p34877"/>
+		<title type="html"><![CDATA[NXDN Support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4702&amp;p=34877#p34877"><![CDATA[
+Just a dumb question, but is NXDN support a possibility on OpenGD77? I see it uses the same voice codec<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Sun Dec 22, 2024 8:53 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

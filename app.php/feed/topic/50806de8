@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5080" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-25T14:23:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5080</id>
+
+		<entry>
+		<author><name><![CDATA[R3UF]]></name></author>
+		<updated>2025-05-25T14:23:36</updated>
+
+		<published>2025-05-25T14:23:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37226#p37226</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37226#p37226"/>
+		<title type="html"><![CDATA[Re: MD-9600 TX audio distortion on FM 25 KHz mode.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37226#p37226"><![CDATA[
+That's right, you noticed that version H 5 and also have problems, but you can live with it if you swap them. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8655">R3UF</a> — Sun May 25, 2025 2:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-25T13:22:55</updated>
+
+		<published>2025-05-25T13:22:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37225#p37225</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37225#p37225"/>
+		<title type="html"><![CDATA[Re: MD-9600 TX audio distortion on FM 25 KHz mode.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37225#p37225"><![CDATA[
+I measured my MD-9600 V2 with a deviation meter and it doesn't provide the specified deviation at any of the settings compared to other radios I tested with.<br><br>And I had problems on RX with some people talking on svxlink repeaters, audio clipped.<br>But I could minimize the clipping if I set squelch to 0% and only use subtone on receive.<br><br>Need to do more investigations, and I need to buy a function generator.<br><br>I have also a new MD-9600 on order so I can compare more with the original firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun May 25, 2025 1:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3UF]]></name></author>
+		<updated>2025-05-25T12:07:18</updated>
+
+		<published>2025-05-25T12:07:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37223#p37223</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37223#p37223"/>
+		<title type="html"><![CDATA[Re: MD-9600 TX audio distortion on FM 25 KHz mode.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5080&amp;p=37223#p37223"><![CDATA[
+I also noticed that it's the other way around. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed"> <br>I also wanted it to look like this <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mrgreen.gif" width="15" height="17" alt=":mrgreen:" title="Mr. Green"> <br>FMN-12,5 khz<br>FMW-25 khz<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8655">R3UF</a> — Sun May 25, 2025 12:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9TA]]></name></author>
+		<updated>2025-04-21T16:55:04</updated>
+
+		<published>2025-04-21T16:55:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5080&amp;p=36859#p36859</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5080&amp;p=36859#p36859"/>
+		<title type="html"><![CDATA[MD-9600 TX audio distortion on FM 25 KHz mode.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5080&amp;p=36859#p36859"><![CDATA[
+Hello. I'm a fairly new MD-9600 owner and I don't know if it's a hardware or software problem, but I hope it's software. I don't have the original firmware anymore, so I have no way to check if this was the case. I may have uploaded the incorrect version of OpenGD, as I don't have the markings on the board, and uploaded 2025 03 23 V5, which seems to work.<br>Correspondents have noticed unpleasant interference on my voice on the 2m band in FM 25 kHz mode. In FM 12.5 kHz mode it is ok. I checked this by recording my voice via RTL-SDR and GQRX and this was indeed confirmed. I connected a function generator in place of the microphone capsule and started testing. I noticed that the problem occurs with sounds above 1430 Hz when we overdrive the signal a little. When speaking into the microphone it is quite easy to overdrive the sibilants, because the pre-emphasis boosts the high notes a lot. In practice, the FM 25 kHz mode is thus useless. It is possible to work in the 12.5 kHz mode, but if the correspondents work in 25 kHz mode and I work in the 12.5 kHz mode, the squelch sometimes closes and cuts out the sound despite the strong signal of the correspondent, so it would be nice if the 25 kHz mode worked after all.<br>I have been testing on 144.525 MHz, and have determined that:<br>- The distortion effect only occurs in 25 kHz mode and above 1430 Hz, nothing strange happens in 12.5 mode when the signal is very heavily overdriven  (700mV Vpp at mic capsule), the same below this magic frequency of 1430 Hz, also a heavily overdriven signal can be fed, and it will only be clipped without additional distortion.<br>- The distortion 1570 Hz sinewave waveform looks like this:<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2925&amp;sid=d667804023640f046ef0597ea92ce948" class="postimage" alt="TYT-MD-9600_FM25kHz.png" onclick="viewableArea(this);" /></dt></dl></div>Wave file: <div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2926&amp;sid=d667804023640f046ef0597ea92ce948">Distortion_CUT.zip</a></dt></dl></div>The two signals differ by 1 mV Vpp at the microphone capsule terminals, sinusoidal frequency 1570 Hz. The upper graph is after the signal has exceeded the level at which the distortion occurs, the lower one before the exceedance. On lower only deviation clipping occurs, which looks correct.<br>This is a waveform of a recording made with RTL-SDR and GQRX of an FM demodulated signal without deemphasis or filtering.<br>To me it looks like some variable in the DSP processing is overflowing when calculating the preemphasis.<br>- The higher the frequency, e.g. 2 kHz, the easier the effect is to achieve.<br>1.5 kHz 36 mV Vpp <br>1.6 kHz 29 mV Vpp<br>1.7 kHz 21 mV Vpp<br>1.8 kHz 18 mV Vpp<br>1.9 kHz 16 mV Vpp<br>2.0 kHz 14 mV Vpp<br>2.1 kHz 11 mV Vpp<br>2.2 kHz 10  mV Vpp<br>2.3 kHz 8.7 mV Vpp<br>2.4 kHz 8.0 mV Vpp<br>2.5 kHz 7.3 mV Vpp (at 4.3 mV the signal starts to be clipped by the deviation limiter)<br>2.7 kHz 8.0 mV Vpp<br>2.8 kHz 8.5 mV Vpp<br>2.9 kHz 16 mV Vpp<br>3.0 kHz 23 mV Vpp<br>3.1 kHz 47 mV Vpp<br>3.2 kHz no problem (700 mV Vpp still ok)<br><br>At 2.5 kHz there is only a 4.6 dB headroom, from clipping the signal to the occurrence of additional distortion. For the other frequencies I have not measured exactly, as this is difficult for me to measure and takes a lot of time, but if it is necessary I can do so.<br>In addition, when I set the FM mic in Sound Options to: -6 dB, then, in order to achieve the distortion effect, I have to amplify the signals those 6 dB stronger.<br>I hope this is not a hardware problem, but some software problem that can be solved.<br>Thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3373">SP9TA</a> — Mon Apr 21, 2025 4:55 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

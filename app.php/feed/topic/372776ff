@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3727" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-23T17:59:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3727</id>
+
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2024-08-23T17:59:49</updated>
+
+		<published>2024-08-23T17:59:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32598#p32598</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32598#p32598"/>
+		<title type="html"><![CDATA[Re: Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32598#p32598"><![CDATA[
+Hi ZL2MGS (and I would use your first name if I could easily locate it),<br><br>All good and fair comments - Yet there are a few things that I must add or elaborate on:<br><br>Stacking EVERYTHING ongto a single channel defeats the purpose and intent of DMR and similar systems including D-Star and Fusion; Digital systems as employed by and available to AR Operators have the capability to be seperated into different "pipelines" (which we term "Talk Groups"). Instead of One Channel, One topic it can be one channel and 64K-odd topics to select from <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><br><br>I note that most DMR-BM talk groups beyond 91 and XLX links can be rather quiet ... Yet on D-Star and Fusion many more "Talkgroups" are constantly and consistently carrying traffic <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><br><br>Then there is the potential of the issue of discrimination between and identifying which talk group is actually active (and this is an issue that I see often). On PiStar and WSPD systems most hotspots are configured in rather basic ways so that you effectively lock the units into a talk group (i.e. Kerchunk the device to set the TG until it times out) ... Yet things are much more complicated when one has actually configured hotspots to auto-respond to multiple talkgroup triggers ... <br><br>It can be considerably more complex when using real hardware and multi-repeater clusters (which are beyond Amateur application).<br><br>Issues such as which TG are you actually respoding on can arise, Are you responding on the right TG? .... That is a considerable issue with "Stacking".<br><br>As for programming from the front panel and the request to re-integrate KEY management functions (i.e Quick Menu if not all functions) ... I forgot to add that many people that I also assist are visually impared. <br><br>Many of us are also getting older and akready need multiple pairs of specs for various tasks <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>Look its a comment that I perhaps hear the most ... "Why can't I set function whatever from within the CPS"?  I am doing the developers a disservice if I do not feed this back ! <br><br>What I also see as a VERY experienced Licence Assessor is new HAMs head straight for the DMR and digital radios - without adequate training in the complexities. Providing any facility that makes life easier and functions easier to find assists the community <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><br><br>Likewise, what are the developer/maintainers intended ways of developing codeplugs? Everyone says "go learn by yourself". This has also led to a huge amount of chaos out there (and not necessarily associated with this project) that some of us have to try to fix. I agree that just supplying codeplugs is not the best strategy (as around 95% that I have come across can be considered abysmal and realistically not fit for purpose). <br><br>Having recommended and imprimatured models from the development team perhaps is perhaps a much healther development strategy for all of us <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile">. <br><br>73<br><br>Steve I<br>VK3VM/VK3SIR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Fri Aug 23, 2024 5:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2024-08-23T10:12:23</updated>
+
+		<published>2024-08-23T10:12:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32594#p32594</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32594#p32594"/>
+		<title type="html"><![CDATA[Re: Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32594#p32594"><![CDATA[
+"I see so many "newbies" guided into "Single Channel" codeplugs out there with basically everything stacked into a single channel... "<br><br>I would hazard a guess that for most of us this (many TGs on a single channel) is a major reason for installing OpenGD77 - if it wasn't for this there certainly would be significantly less reasons for myself to prefer it over the factory firmware. Why would anyone want to create and manage a separate channel and TG List for each TG a repeater carries, when they could create a single channel for the repeater and then just add TGs (contacts) to a single TG List as required? I have somewhere close to 20 repeaters in one single owner network, all carrying the same TGs and therefor all using the same TG List - if the admin of that network wants to change a particular TG (eg., move it to the other TS) or add/delete a TG I've only got to change a single contact and/or TG List and the job's done on my radio for the entire country. If a new repeater joins that network, I've only got to add one channel and point it to the existing TG List - it couldn't be easier.<br><br>OpenGD77 is a very powerful tool that significantly improves the radios it is compatible with in terms of ham usage but, as with any powerful tool, it requires careful reading of the instruction manual and the support forums to gain the most benefit from it. I personally would not like to see settings taken back into the CPS - with OpenGD77 installed my TYT UV390 has become pretty much the perfect DMR compliment to my FT-817 (within the HT's hardware limitations) and any move to take settings back from the radio to the CPS would be giant leap backwards.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Fri Aug 23, 2024 10:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2024-08-23T06:05:09</updated>
+
+		<published>2024-08-23T06:05:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32592#p32592</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32592#p32592"/>
+		<title type="html"><![CDATA[Re: Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=32592#p32592"><![CDATA[
+Hi Folks,<br><br>I am returning to this again after having to work through the issue of "How come I am hearing Talk Group 91 when I am on Talk Group 505" (or similar) frequently with many-many Amateurs over the last few months.<br><br>[ The solution is always to go BACK to Single Talk Group, a single contact MATCHING the Talkgroup as a TG List, and then with a single TG List assigned to a channel. ]<br><br>Again yes I know the Quick Menu (the Red button on the GD-77 near the antenna) and then the DMR Filter option changed to TG fixes most matters with constructing codeplugs as described.<br><br>On that front (and as an observation gleaned through personally helping many through issues behind the scenes), <span style="text-decoration:underline">perhaps OpenGD77 is now mature enough to reconsider returning "settings" capabilities to the CPS?</span><br><br>Yet what is also clear is that OpenGD77-developer-imprimatured guide documentation and primers are very much required (and that I and others around here can help with). <br><br>I see so many "newbies" guided into "Single Channel" codeplugs out there with basically everything stacked into a single channel... <br><br>If it comes from and is worked-with through "official sources" - like the developers here, with their simplistic recommendations and with their imprimatur - then there is a greater chance of <span style="text-decoration:underline">better practises that are easier to comprehend</span> filtering through our community.<br><br>These are observations and suggestions. <br><br>73<br><br>Steve I<br>VK3VM/VK3SIR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Fri Aug 23, 2024 6:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-29T08:46:55</updated>
+
+		<published>2024-01-29T08:46:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29079#p29079</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29079#p29079"/>
+		<title type="html"><![CDATA[Re: Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29079#p29079"><![CDATA[
+<blockquote class="uncited"><div>Yet there is still this niggle in the back of my mind that that further discussion is needed regarding mutual exclusivity between "old ways" (i.e. Separate Public User ID with matching receive group) and the way that things are done now (stacking on to the Received Group).<br><br>I hope that I make sense !<br><br>73<br><br>Steve I<br>VK3VM/VK3SIR</div></blockquote>If you sent the DMR Filter to TG, you will only receive signals on the TG you have selected for Tx, which AFIK is pretty much the same as normal radios, except that you don't need to make multiple Rx Group lists each with one TG in them.<br><br>The TG filter setting will be saved and survive a reboot etc.<br><br>Re: GD-77S<br><br>Its been a very long time since we tried to get any of these radios working perfectly using the official GD-77 codeplug, especially all the radios still in production don't use the GD-77 codeplug when running the manufacturer's firmware.<br><br>So the installation instructions are now to either use a codeplug from another OpenGD77 radio, or make a new OpenGD77 codeplug from scratch.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 29, 2024 8:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2024-01-29T06:13:51</updated>
+
+		<published>2024-01-29T06:13:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29078#p29078</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29078#p29078"/>
+		<title type="html"><![CDATA[Re: Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29078#p29078"><![CDATA[
+Roger,<br><br>It is good to make contact again (and hope to catch up in person soon ... I think that a good coffee is long overdue).<br><br>I have not programmed a GD-77 radio from scratch nor had to make mods for a while - which is possibly why I have not noted this. <br><br>With the GD-77''s here (and the GD-77S) I have been just able to drop in new firmware with pre-existing code plugs just working - until the last iteration.<br><br>[ The GD-77S has been somewhat of a mess for a while as the CPS appears to no longer offer modification of key parameters ]<br><br>Great work as always Roger. Matt VK2FLY is completely on the ball !!! <br><br>Yet there is still this niggle in the back of my mind that that further discussion is needed regarding mutual exclusivity between "old ways" (i.e. Separate Public User ID with matching receive group) and the way that things are done now (stacking on to the Received Group).<br><br>I hope that I make sense !<br><br>73<br><br>Steve I<br>VK3VM/VK3SIR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Mon Jan 29, 2024 6:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-28T19:17:55</updated>
+
+		<published>2024-01-28T19:17:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29070#p29070</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29070#p29070"/>
+		<title type="html"><![CDATA[Re: Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29070#p29070"><![CDATA[
+<blockquote class="uncited"><div>Colin,<br><br>Thanks for the reply.<br><br>&gt; By default the radio will receive any incoming talk-group so you will always hear a reply.<br><br>I had observed this and <strong class="text-strong"><span style="text-decoration:underline">I highly appreciate the confirmation</span></strong>.<br><br>I reserve my judgement on whether I think this is a good practise. I can foresee that this change in approach - deviating heavily from "Moto-based" practise - could potentially introduce greater misunderstanding in the DMR world.<br><br>I will be watching progress closely.<br><br>73<br><br>Steve I<br>VK3VM/VK3SIR</div></blockquote>This is not new<br><br>The OpenGD77 firmware and CPS has used this TG method for at least 3 years<br><br>VK2FLY who is one of the VK DMR network admins told me that he thinks a large number of operators on the VK DMR  network use OpenGD77<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jan 28, 2024 7:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2024-01-28T18:45:22</updated>
+
+		<published>2024-01-28T18:45:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29068#p29068</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29068#p29068"/>
+		<title type="html"><![CDATA[Re: Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29068#p29068"><![CDATA[
+Colin,<br><br>Thanks for the reply.<br><br>&gt; By default the radio will receive any incoming talk-group so you will always hear a reply.<br><br>I had observed this and <strong class="text-strong"><span style="text-decoration:underline">I highly appreciate the confirmation</span></strong>.<br><br>I reserve my judgement on whether I think this is a good practise. I can foresee that this change in approach - deviating heavily from "Moto-based" practise - could potentially introduce greater misunderstanding in the DMR world.<br><br>I will be watching progress closely.<br><br>73<br><br>Steve I<br>VK3VM/VK3SIR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Sun Jan 28, 2024 6:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-01-28T15:39:23</updated>
+
+		<published>2024-01-28T15:39:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29067#p29067</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29067#p29067"/>
+		<title type="html"><![CDATA[Re: Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29067#p29067"><![CDATA[
+Contact and TG List are mutually exclusive on a channel. <br>You either define a contact and that is what will always be used when making a call. Or you define a TG List which allows you to select the contact to be used from the list. <br>Unlike most DMR radios the TG List is used for both Tx and Rx.<br>This is probably the main feature that OpenGD77 has over other radios. It allows you to just define one channel for each repeater with a list of all commonly used talk groups. There is no longer any need to create a channel for each talkgroup. <br><br>By default the radio will receive any incoming talkgroup so you will always hear a reply. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jan 28, 2024 3:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2024-01-28T12:27:31</updated>
+
+		<published>2024-01-28T12:27:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29063#p29063</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29063#p29063"/>
+		<title type="html"><![CDATA[Question: CPS 2024.01.22.01 and programming for Talk Groups]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3727&amp;p=29063#p29063"><![CDATA[
+Hi Folks,<br><br>I have been away from The GD-77 for a little while and OpenGD77 work ... But now have the time to look at it again - so please excuse me if things have changed and this is effectively a deprecated question !<br><br>This was the way that I believed that a Repeater Talk Group had to be Programmed in:<br><ul><li>Digital Contact: Create one of these for your Talk Group" (i.e. 505) as a Group Call</li></ul><ul><li>TG Lists: Ideally create a TG List (I.e. TG 505 VK) That contains your "Group Call Digital Contact" i.e. Contains the "Digital Contact" 505 created in the first step</li></ul><ul><li>Channel: Program in a channel (i.e. say repeater Tx on 439.900 and Listens on 434.900, Digital, TS2, With TG List assigned to the one you created in the previous step (i.e. "TG 505 VK") and Contact Assigned to The Group Call contact (i.e. 505 - Group) that you created in the first step</li></ul><ul><li>Zone: Assign the channel to an appropriate zone (not discussed further here as irrelevant to the immediate discussion).</li></ul>I have noted that with the latest CPS that assignment of Digital Contact and TG List to Channel are now MUTUALLY EXCLUSIVE !<br><br>This I can foresee creating issues with resources such as the "Parrot" on 9990 that can require a group call (or sometimes a private call) with a response on TG 9.<br><br>Have I missed something here in all the recent advances?<br><br>Thanks and 73<br><br>Steve I<br>VK3VM/VK3SIR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Sun Jan 28, 2024 12:27 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3603" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-19T11:39:32</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3603</id>
+
+		<entry>
+		<author><name><![CDATA[SP6VWN]]></name></author>
+		<updated>2023-12-19T11:39:32</updated>
+
+		<published>2023-12-19T11:39:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28167#p28167</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28167#p28167"/>
+		<title type="html"><![CDATA[Re: I cannot read calibration data from RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28167#p28167"><![CDATA[
+Thanks for making me aware. Regards. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5154">SP6VWN</a> — Tue Dec 19, 2023 11:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-19T11:08:36</updated>
+
+		<published>2023-12-19T11:08:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28163#p28163</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28163#p28163"/>
+		<title type="html"><![CDATA[Re: I cannot read calibration data from RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28163#p28163"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Good morning,<br>I am using CPS OpenGD77 version R2023.11.26.02. I tried to read calibration data from the Retevis RT3S radio. Even though the program seems to be reading something, there is no data in the Calibration window. I have not been able to determine the reason for this behavior. Maybe someone can give me some advice? Maybe someone has read such a calibration file from RT3S?</div></blockquote>Don't forget to introduce yourself <a href="https://www.opengd77.com/viewforum.php?f=10" class="postlink">viewforum.php?f=10</a><br><br>Calibration could only be saved and restored using the CPS on STM32 radios.<br>You could only change the values on the radio itself.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 19, 2023 11:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP6VWN]]></name></author>
+		<updated>2023-12-19T10:54:37</updated>
+
+		<published>2023-12-19T10:54:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28162#p28162</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28162#p28162"/>
+		<title type="html"><![CDATA[I cannot read calibration data from RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3603&amp;p=28162#p28162"><![CDATA[
+Good morning,<br>I am using CPS OpenGD77 version R2023.11.26.02. I tried to read calibration data from the Retevis RT3S radio. Even though the program seems to be reading something, there is no data in the Calibration window. I have not been able to determine the reason for this behavior. Maybe someone can give me some advice? Maybe someone has read such a calibration file from RT3S?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5154">SP6VWN</a> — Tue Dec 19, 2023 10:54 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

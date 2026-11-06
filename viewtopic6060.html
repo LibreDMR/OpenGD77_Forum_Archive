@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=4561&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 08:16:05 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; Garbled DMR transmissions</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>Garbled DMR transmissions</h2>
+		<p><a href="viewtopice406-2.html?f=19&amp;t=4561">viewtopic.php?f=19&amp;t=4561</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>2</strong></div>
+					<div class="post">
+				<h3>Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Tue Nov 05, 2024 5:44 am</strong></div>
+				<div class="author">by <strong>KE0JHN</strong></div>
+				<div class="content">I installed OpenGD77 on my MD-UV380, and found that through both Parrot testing, and by listening through Brandmeister Hoseline, my voice is garbled.  With the official firmware, I had no audio problems. I used the latest CPS, I'm using MD9600-CSV(2571V5)-V26.45.bin as the doner file, and I've tried both the latest stable release, and the latest beta release.  Garbled DMR transmissions with both firmware.  FM works like a charm, though.  FM squealch works better than it ever has!<br>
+<br>
+Anyone have a suggestion on how to solve this problem?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Tue Nov 05, 2024 5:46 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">Check your BER</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Tue Nov 05, 2024 3:13 pm</strong></div>
+				<div class="author">by <strong>KE0JHN</strong></div>
+				<div class="content">I don't have a hotspot. I'm using a local repeater that worked with this radio with the factory firmware.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Tue Nov 05, 2024 7:08 pm</strong></div>
+				<div class="author">by <strong>DC8OH</strong></div>
+				<div class="content">You may check DMR Micro settings in Audio Options, test with -9 dB or -6 dB.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Tue Nov 05, 2024 8:24 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">This is not normal<br>
+<br>
+I would try reloading the official firmware and re-test<br>
+<br>
+Also try to check the frequency calibration when using the official firmware and OpenGD77</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Tue Nov 05, 2024 9:01 pm</strong></div>
+				<div class="author">by <strong>KE0JHN</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6810&amp;sid=10fde7cf3865cfcecbafb88056910f90">DC8OH</a> wrote: <a href="viewtopica483.html?p=33944&amp;sid=10fde7cf3865cfcecbafb88056910f90#p33944" data-post-id="33944" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Tue Nov 05, 2024 7:08 pm</div></cite>
+You may check DMR Micro settings in Audio Options, test with -9 dB or -6 dB.
+</div></blockquote>
+
+I looked in the Audio Options, but couldn't find DMR Micro settings.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Tue Nov 05, 2024 9:05 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7202&amp;sid=10fde7cf3865cfcecbafb88056910f90">KE0JHN</a> wrote: <a href="viewtopic46d8-2.html?p=33947&amp;sid=10fde7cf3865cfcecbafb88056910f90#p33947" data-post-id="33947" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Tue Nov 05, 2024 9:01 pm</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6810&amp;sid=10fde7cf3865cfcecbafb88056910f90">DC8OH</a> wrote: <a href="viewtopica483.html?p=33944&amp;sid=10fde7cf3865cfcecbafb88056910f90#p33944" data-post-id="33944" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Tue Nov 05, 2024 7:08 pm</div></cite>
+You may check DMR Micro settings in Audio Options, test with -9 dB or -6 dB.
+</div></blockquote>
+
+I looked in the Audio Options, but couldn't find DMR Micro settings.
+</div></blockquote>
+
+There are no "DMR Micro" settings<br>
+<br>
+There is a mic gain setting, but the problem you describe is usually caused by frequency calibration<br>
+<br>
+BTW.<br>
+What is the callsign of the repeater where you get garbled audio?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Wed Nov 06, 2024 2:49 am</strong></div>
+				<div class="author">by <strong>KE0JHN</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp;sid=10fde7cf3865cfcecbafb88056910f90">VK3KYY</a> wrote: <a href="viewtopic0b7b-4.html?p=33948&amp;sid=10fde7cf3865cfcecbafb88056910f90#p33948" data-post-id="33948" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Tue Nov 05, 2024 9:05 pm</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7202&amp;sid=10fde7cf3865cfcecbafb88056910f90">KE0JHN</a> wrote: <a href="viewtopic46d8-2.html?p=33947&amp;sid=10fde7cf3865cfcecbafb88056910f90#p33947" data-post-id="33947" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Tue Nov 05, 2024 9:01 pm</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6810&amp;sid=10fde7cf3865cfcecbafb88056910f90">DC8OH</a> wrote: <a href="viewtopica483.html?p=33944&amp;sid=10fde7cf3865cfcecbafb88056910f90#p33944" data-post-id="33944" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Tue Nov 05, 2024 7:08 pm</div></cite>
+You may check DMR Micro settings in Audio Options, test with -9 dB or -6 dB.
+</div></blockquote>
+
+I looked in the Audio Options, but couldn't find DMR Micro settings.
+</div></blockquote>
+
+There are no "DMR Micro" settings<br>
+<br>
+There is a mic gain setting, but the problem you describe is usually caused by frequency calibration<br>
+<br>
+BTW.<br>
+What is the callsign of the repeater where you get garbled audio?
+</div></blockquote>
+
+It's the N0INX DMR repeater.  I'm listening to a talkgroup right now, reception is 100% there.  However, when I transmit DMR, it sounds like there's packet loss or something.  I'd checked this out using Parrot 9990, and have listened to talkgroup 3119 over Hoseline, and when I transmit on there, I get the same garbled mess I get from the Parrot.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Wed Nov 06, 2024 5:08 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">OK.<br>
+<br>
+So its this repeater<br>
+<br>
+<a href="https://brandmeister.network/?page=device&amp;id=311929" class="postlink">https://brandmeister.network/?page=device&amp;id=311929</a><br>
+<br>
+I assume you are using full power and the problem is not related to power calibation ??<br>
+<br>
+If you are using max power, I'd try adjusting the freq calibation a little to see if increasing or descreasing the freq has any effect</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Garbled DMR transmissions</h3>
+				<div class="date">Posted: <strong>Wed Nov 06, 2024 6:28 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">Just a thought, but do you have TA Tx turned on ?<br>
+<br>
+That repeater seems to be a Motorola, and I don't think TA Tx is supported</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>2</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=4561&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 08:16:09 GMT -->
+</html>

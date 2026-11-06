@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3818" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-25T15:36:09</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3818</id>
+
+		<entry>
+		<author><name><![CDATA[kg5iaz]]></name></author>
+		<updated>2024-02-25T15:36:09</updated>
+
+		<published>2024-02-25T15:36:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29732#p29732</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29732#p29732"/>
+		<title type="html"><![CDATA[Re: Download firmware .zip file for GD-77?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29732#p29732"><![CDATA[
+Worked great, Thanks for super fast reply.<br><br>KG5IAZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5700">kg5iaz</a> — Sun Feb 25, 2024 3:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-02-25T12:39:05</updated>
+
+		<published>2024-02-25T12:39:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29730#p29730</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29730#p29730"/>
+		<title type="html"><![CDATA[Re: Download firmware .zip file for GD-77?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29730#p29730"><![CDATA[
+<blockquote class="uncited"><div>I installed the R2024.01.22.01 CPS.<br><br>When I attempt to write firmware to my newest GD-77 the CPS is asking for the location of the firmware .zip file.<br><br>(This is after I specified the location of the donor file which is correct.)<br><br>How and where do I download the firmware .zip file?<br><br>Thanks for all the development work.<br><br>KG5IAZ</div></blockquote><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">downloads/GD77/Firmware/Latest</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Feb 25, 2024 12:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kg5iaz]]></name></author>
+		<updated>2024-02-25T12:13:52</updated>
+
+		<published>2024-02-25T12:13:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29728#p29728</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29728#p29728"/>
+		<title type="html"><![CDATA[Download firmware .zip file for GD-77?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3818&amp;p=29728#p29728"><![CDATA[
+I installed the R2024.01.22.01 CPS.<br><br>When I attempt to write firmware to my newest GD-77 the CPS is asking for the location of the firmware .zip file.<br><br>(This is after I specified the location of the donor file which is correct.)<br><br>How and where do I download the firmware .zip file?<br><br>Thanks for all the development work.<br><br>KG5IAZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5700">kg5iaz</a> — Sun Feb 25, 2024 12:13 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

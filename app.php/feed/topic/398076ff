@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3980" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-23T09:39:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3980</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-23T09:39:00</updated>
+
+		<published>2024-06-23T09:39:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3980&amp;p=31749#p31749</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3980&amp;p=31749#p31749"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3980&amp;p=31749#p31749"><![CDATA[
+This version has been supserseded.<br><br>See <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4170&amp;p=31748#p31748" class="postlink">viewtopic.php?f=18&amp;t=4170&amp;p=31748#p31748</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 23, 2024 9:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-06-10T09:10:57</updated>
+
+		<published>2024-06-10T09:10:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3980&amp;p=31631#p31631</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3980&amp;p=31631#p31631"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3980&amp;p=31631#p31631"><![CDATA[
+<blockquote class="uncited"><div>A new Beta version is available<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/22bf2ff45c3080858e75ffd2a6394fac1f12c461/" class="postlink">downloads/MD9600/Firmware/22bf2ff45c308 ... c1f12c461/</a><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest/" class="postlink">downloads/MD9600/Firmware/Latest/</a><br><br>This version ...<br><br>* Fixes audio problems<br>* QSO info and notification display problem<br>* Updates to language translations<br><br>Thanks to Daniel F1RMB for fixing all of these problems, also thanks to the various translators</div></blockquote>I see that there is a 2024 05 11 build for MD-9600 but Latest is still 2024 04 12<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Jun 10, 2024 9:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-12T10:56:34</updated>
+
+		<published>2024-04-12T10:56:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3980&amp;p=30792#p30792</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3980&amp;p=30792#p30792"/>
+		<title type="html"><![CDATA[New Beta 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3980&amp;p=30792#p30792"><![CDATA[
+A new Beta version is available<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/22bf2ff45c3080858e75ffd2a6394fac1f12c461/" class="postlink">downloads/MD9600/Firmware/22bf2ff45c308 ... c1f12c461/</a><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest/" class="postlink">downloads/MD9600/Firmware/Latest/</a><br><br>This version ...<br><br>* Fixes audio problems<br>* QSO info and notification display problem<br>* Updates to language translations<br><br>Thanks to Daniel F1RMB for fixing all of these problems, also thanks to the various translators<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 12, 2024 10:56 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

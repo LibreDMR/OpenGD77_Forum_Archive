@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3876" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-29T21:32:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3876</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T21:32:36</updated>
+
+		<published>2024-03-29T21:32:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30471#p30471</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30471#p30471"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30471#p30471"><![CDATA[
+This version has been superseded<br><br>See<br><br><a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3936" class="postlink">viewtopic.php?f=13&amp;t=3936</a><br><br><br>All users who installed the previous Beta should update to this version, becasue of a bug in the DMR repeater wake-up functionality introduced into the previous version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 9:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T10:23:11</updated>
+
+		<published>2024-03-29T10:23:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30452#p30452</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30452#p30452"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30452#p30452"><![CDATA[
+Thanks for testing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 10:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Eb5ivb]]></name></author>
+		<updated>2024-03-29T09:41:03</updated>
+
+		<published>2024-03-29T09:41:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30451#p30451</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30451#p30451"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30451#p30451"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>OK.<br><br>I didn't understand the bug from your description, but I see there is a bug with the radio operating in DMO mode even for RMO channels for the fist transmission on a channel or the first time that the VFO screen is selected<br><br>When the PTT is first pressed the radio is transmitting in DMO even when it should be in RMO <br><br>However if the PTT is released and pressed again, the radio operates correctly in RMO.<br><br>This looks like a data initialisation problem, which I will need to investigate and fix.</div></blockquote><em class="text-italics">I didn't understand the bug from your description, but I see there is a bug with the radio operating in DMO mode even for RMO channels for the fist transmission on a channel or the first time that the VFO screen is selected</em>  --&gt; No, only in RMO channels. In a channel (or VFO) with different frequencies the DMO mode works correctly.<br><br><em class="text-italics">When the PTT is first pressed the radio is transmitting in DMO even when it should be in RMO</em> ---&gt; Right<br><br><em class="text-italics">However if the PTT is released and pressed again, the radio operates correctly in RMO</em>. --&gt; Right again. Moreover, if you change to a simplex channel once you return to a RMO channel in RMO mode, the first transmission is always in DMO mode. Tested with my MMDVM duplex hotspot in simplex and duplex mode configs.<br><br>Sorry if my explanations are confusing but i don't know how to describe better the issue. I hope this post can clarify the problem.</div></blockquote>Please download and try this version<br><br><br><a href="https://www.opengd77.com/downloads/MDUV380_DM1701/Firmware/69bd775a39ac339cf18454d0014dee3b33838715" class="postlink">downloads/MDUV380_DM1701/Firmware/69bd7 ... 3b33838715</a></div></blockquote><br>It works like a charm. Now the RMO channels are working as expected since first PTT. I have done the same set of tests that I did with previous version with Force DMO option on and off and as far as I have seen both ways are working right.<br><br>Good job!!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=148">Eb5ivb</a> — Fri Mar 29, 2024 9:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T09:26:03</updated>
+
+		<published>2024-03-29T09:26:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30450#p30450</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30450#p30450"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30450#p30450"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>OK.<br><br>I didn't understand the bug from your description, but I see there is a bug with the radio operating in DMO mode even for RMO channels for the fist transmission on a channel or the first time that the VFO screen is selected<br><br>When the PTT is first pressed the radio is transmitting in DMO even when it should be in RMO <br><br>However if the PTT is released and pressed again, the radio operates correctly in RMO.<br><br>This looks like a data initialisation problem, which I will need to investigate and fix.</div></blockquote><em class="text-italics">I didn't understand the bug from your description, but I see there is a bug with the radio operating in DMO mode even for RMO channels for the fist transmission on a channel or the first time that the VFO screen is selected</em>  --&gt; No, only in RMO channels. In a channel (or VFO) with different frequencies the DMO mode works correctly.<br><br><em class="text-italics">When the PTT is first pressed the radio is transmitting in DMO even when it should be in RMO</em> ---&gt; Right<br><br><em class="text-italics">However if the PTT is released and pressed again, the radio operates correctly in RMO</em>. --&gt; Right again. Moreover, if you change to a simplex channel once you return to a RMO channel in RMO mode, the first transmission is always in DMO mode. Tested with my MMDVM duplex hotspot in simplex and duplex mode configs.<br><br>Sorry if my explanations are confusing but i don't know how to describe better the issue. I hope this post can clarify the problem.</div></blockquote>Please download and try this version<br><br><br><a href="https://www.opengd77.com/downloads/MDUV380_DM1701/Firmware/69bd775a39ac339cf18454d0014dee3b33838715" class="postlink">downloads/MDUV380_DM1701/Firmware/69bd7 ... 3b33838715</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 9:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Eb5ivb]]></name></author>
+		<updated>2024-03-28T13:16:39</updated>
+
+		<published>2024-03-28T13:16:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30422#p30422</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30422#p30422"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30422#p30422"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>   Bug found and fixed.<br><br>Thanks for the reports.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Thanks to you and for your awesome job.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=148">Eb5ivb</a> — Thu Mar 28, 2024 1:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-28T13:09:04</updated>
+
+		<published>2024-03-28T13:09:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30421#p30421</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30421#p30421"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30421#p30421"><![CDATA[
+Hi,<br><br>   Bug found and fixed.<br><br>Thanks for the reports.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Mar 28, 2024 1:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Eb5ivb]]></name></author>
+		<updated>2024-03-28T12:56:16</updated>
+
+		<published>2024-03-28T12:56:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30420#p30420</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30420#p30420"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30420#p30420"><![CDATA[
+<blockquote class="uncited"><div>OK.<br><br>I didn't understand the bug from your description, but I see there is a bug with the radio operating in DMO mode even for RMO channels for the fist transmission on a channel or the first time that the VFO screen is selected<br><br>When the PTT is first pressed the radio is transmitting in DMO even when it should be in RMO <br><br>However if the PTT is released and pressed again, the radio operates correctly in RMO.<br><br>This looks like a data initialisation problem, which I will need to investigate and fix.</div></blockquote><em class="text-italics">I didn't understand the bug from your description, but I see there is a bug with the radio operating in DMO mode even for RMO channels for the fist transmission on a channel or the first time that the VFO screen is selected</em>  --&gt; No, only in RMO channels. In a channel (or VFO) with different frequencies the DMO mode works correctly.<br><br><em class="text-italics">When the PTT is first pressed the radio is transmitting in DMO even when it should be in RMO</em> ---&gt; Right<br><br><em class="text-italics">However if the PTT is released and pressed again, the radio operates correctly in RMO</em>. --&gt; Right again. Moreover, if you change to a simplex channel once you return to a RMO channel in RMO mode, the first transmission is always in DMO mode. Tested with my MMDVM duplex hotspot in simplex and duplex mode configs.<br><br>Sorry if my explanations are confusing but i don't know how to describe better the issue. I hope this post can clarify the problem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=148">Eb5ivb</a> — Thu Mar 28, 2024 12:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-28T10:21:03</updated>
+
+		<published>2024-03-28T10:21:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30417#p30417</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30417#p30417"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30417#p30417"><![CDATA[
+OK.<br><br>I didn't understand the bug from your description, but I see there is a bug with the radio operating in DMO mode even for RMO channels for the fist transmission on a channel or the first time that the VFO screen is selected<br><br>When the PTT is first pressed the radio is transmitting in DMO even when it should be in RMO<br><br>However if the PTT is released and pressed again, the radio operates correctly in RMO.<br><br>This looks like a data initialisation problem, which I will need to investigate and fix.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 28, 2024 10:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Eb5ivb]]></name></author>
+		<updated>2024-03-28T09:53:14</updated>
+
+		<published>2024-03-28T09:53:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30414#p30414</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30414#p30414"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30414#p30414"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>For DMR channels where Tx and Rx frequency are not the same, the radio operates in RMO automatically<br><br>In RMO if there is no DMR signal from the repeater, the radio sends the WakeUp packets. These are not DMO, they are part of the RMO protocol</div></blockquote><br>In effect on the first TX the radio sends carrier but not wake up packets. I tuned an analogic radio in the frequency that radio transmits and I can hear a continuous carrier instead of one or two "pulses" to wake up repeater.<br>In the second push of ptt the transmision is correct and the repeater wakes up. In fact, first time the tx led is steady lighting and in the second time it lights on/off one or twice before waking up the repeater and then lights on until I relase the ptt.<br>It seems as if you tune a duplex channel there is not a check of the Force DMO parameter before the first transmision. At second PTT this parameter has been checked and it works ok.</div></blockquote>Try the previous version of firmware, there should be no difference</div></blockquote>Hi again.<br>Installed previous version (03.06.2024) on my MD380UV and repeater channels are working as expected. First transmission wake up repeater and then starts working in the right way without releasing PTT. I forgot to mention that the same repeater is working right with other DMR radios. I also have a Retevis RT73 and a MD380 (only UHF) and they doesn't have this "problem". I quote "problem" because is only the first TX, not the following PTTs. <br><br>Moreover, if you turn on radio when repeater is TXing and press PTT before repeater tail finish, the first TX is correct, waking up repeater with no error.  RX is not affected at all, working always correctly.<br><br>Despite of this, I will return my MD380UV to the latest firmware because I prefer the "Force DMO" option and the bug is not a great bug, only a minor mistake that has to be taken into account before using a repeater. I can live with it  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br>Thanks again for your job and if you need some kind of tests or something to try to fix the problem, feel free to ask me. I'll try to help.<br>73's<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=148">Eb5ivb</a> — Thu Mar 28, 2024 9:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-27T22:18:17</updated>
+
+		<published>2024-03-27T22:18:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30405#p30405</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30405#p30405"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30405#p30405"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hi all. I have a TYT MD9600, a MD380UV and a Baofeng DM1801 with the latest version of Opengd installed, the version with the new option "Force DMO". The three transceivers have the same behavior the first time they are powered on. When you are on a duplex channel with <strong class="text-strong">Force DMO</strong> option set to <strong class="text-strong">NO</strong>, the first TX is always in DMO mode. From then on it works OK.<br>Anyone has noticed the same behavior?<br><br>On the other hand this is a very good feature for me. Many thanks four your job. 73!</div></blockquote>For DMR channels where Tx and Rx frequency are not the same, the radio operates in RMO automatically<br><br>In RMO if there is no DMR signal from the repeater, the radio sends the WakeUp packets. These are not DMO, they are part of the RMO protocol</div></blockquote><br>In effect on the first TX the radio sends carrier but not wake up packets. I tuned an analogic radio in the frequency that radio transmits and I can hear a continuous carrier instead of one or two "pulses" to wake up repeater.<br>In the second push of ptt the transmision is correct and the repeater wakes up. In fact, first time the tx led is steady lighting and in the second time it lights on/off one or twice before waking up the repeater and then lights on until I relase the ptt.<br>It seems as if you tune a duplex channel there is not a check of the Force DMO parameter before the first transmision. At second PTT this parameter has been checked and it works ok.</div></blockquote>Try the previous version of firmware, there should be no difference<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 27, 2024 10:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Eb5ivb]]></name></author>
+		<updated>2024-03-27T20:49:48</updated>
+
+		<published>2024-03-27T20:49:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30404#p30404</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30404#p30404"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30404#p30404"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi all. I have a TYT MD9600, a MD380UV and a Baofeng DM1801 with the latest version of Opengd installed, the version with the new option "Force DMO". The three transceivers have the same behavior the first time they are powered on. When you are on a duplex channel with <strong class="text-strong">Force DMO</strong> option set to <strong class="text-strong">NO</strong>, the first TX is always in DMO mode. From then on it works OK.<br>Anyone has noticed the same behavior?<br><br>On the other hand this is a very good feature for me. Many thanks four your job. 73!</div></blockquote>For DMR channels where Tx and Rx frequency are not the same, the radio operates in RMO automatically<br><br>In RMO if there is no DMR signal from the repeater, the radio sends the WakeUp packets. These are not DMO, they are part of the RMO protocol</div></blockquote><br>In effect on the first TX the radio sends carrier but not wake up packets. I tuned an analogic radio in the frequency that radio transmits and I can hear a continuous carrier instead of one or two "pulses" to wake up repeater.<br>In the second push of ptt the transmision is correct and the repeater wakes up. In fact, first time the tx led is steady lighting and in the second time it lights on/off one or twice before waking up the repeater and then lights on until I relase the ptt.<br>It seems as if you tune a duplex channel there is not a check of the Force DMO parameter before the first transmision. At second PTT this parameter has been checked and it works ok.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=148">Eb5ivb</a> — Wed Mar 27, 2024 8:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-27T20:03:49</updated>
+
+		<published>2024-03-27T20:03:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30401#p30401</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30401#p30401"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30401#p30401"><![CDATA[
+<blockquote class="uncited"><div>Hi all. I have a TYT MD9600, a MD380UV and a Baofeng DM1801 with the latest version of Opengd installed, the version with the new option "Force DMO". The three transceivers have the same behavior the first time they are powered on. When you are on a duplex channel with <strong class="text-strong">Force DMO</strong> option set to <strong class="text-strong">NO</strong>, the first TX is always in DMO mode. From then on it works OK.<br>Anyone has noticed the same behavior?<br><br>On the other hand this is a very good feature for me. Many thanks four your job. 73!</div></blockquote>For DMR channels where Tx and Rx frequency are not the same, the radio operates in RMO automatically<br><br>In RMO if there is no DMR signal from the repeater, the radio sends the WakeUp packets. These are not DMO, they are part of the RMO protocol<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 27, 2024 8:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Eb5ivb]]></name></author>
+		<updated>2024-03-27T19:43:50</updated>
+
+		<published>2024-03-27T19:43:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30400#p30400</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30400#p30400"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30400#p30400"><![CDATA[
+Hi all. I have a TYT MD9600, a MD380UV and a Baofeng DM1801 with the latest version of Opengd installed, the version with the new option "Force DMO". The three transceivers have the same behavior the first time they are powered on. When you are on a duplex channel with <strong class="text-strong">Force DMO</strong> option set to <strong class="text-strong">NO</strong>, the first TX is always in DMO mode. From then on it works OK.<br>Anyone has noticed the same behavior?<br><br>On the other hand this is a very good feature for me. Many thanks four your job. 73!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=148">Eb5ivb</a> — Wed Mar 27, 2024 7:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2024-03-18T07:12:51</updated>
+
+		<published>2024-03-18T07:12:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30187#p30187</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30187#p30187"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30187#p30187"><![CDATA[
+Thank you Roger <br>Thank you Daniel<br>Ciao<br>Sal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Mon Mar 18, 2024 7:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2024-03-17T06:41:54</updated>
+
+		<published>2024-03-17T06:41:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30153#p30153</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30153#p30153"/>
+		<title type="html"><![CDATA[Re: New GD-77 / GD-77S / RD-5R / DM-1801 Beta]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3876&amp;p=30153#p30153"><![CDATA[
+thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sun Mar 17, 2024 6:41 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

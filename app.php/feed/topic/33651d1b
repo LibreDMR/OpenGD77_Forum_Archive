@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3365" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-29T14:14:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3365</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-29T14:14:40</updated>
+
+		<published>2025-06-29T14:14:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37603#p37603</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37603#p37603"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37603#p37603"><![CDATA[
+<blockquote class="uncited"><div><br>Attention, the power supply is from 3V3, not from 5V (red pen). The 5V power supply is only on the schematic for the GPS module kit from PDF document, in reality the power supply is 3V3. There is no risk of damaging the processor. The current through the processor pin is around 0.6mA.<br><br>I used the schematic of GP-02 kit from this document, I did not redraw the internal wiring of the GPS Kit, the power supply there is marked 5V but I power the module from 3V3. <a href="https://eu.mouser.com/datasheet/2/975/645d0e566602a647gp_02_kit_specifications-3193653.pdf" class="postlink">https://eu.mouser.com/datasheet/2/975/6 ... 193653.pdf</a> Figure 5, page 11.</div></blockquote>Hi OM1AEG, I understand you use the schematic from the document. My comment is the Gp-02 kit does not make with the option to shutdown the LM3992 in mind, the EN pin of LM3992 is tie to Vcc via 10Kohm resister, it does not matter if the Vcc is 5 or 3.3. the best way, in my opinion, to shutdown the LM3992 is to remove the 10K resister and connect MCU pin97 directly to EN pin of LM 3992, as the schematic I've already provided.<br><br>Again, I can not see any benefit of using GP-02Kit. In my opinion, using GP-02 Module is a much cleaner MOD.<br><br><img src="https://www.opengd77.com/download/file.php?id=3030" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Jun 29, 2025 2:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[om1aeg]]></name></author>
+		<updated>2025-06-28T20:46:30</updated>
+
+		<published>2025-06-28T20:46:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37595#p37595</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37595#p37595"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37595#p37595"><![CDATA[
+<blockquote class="uncited"><div>I can't see how it will work. When the CPU pull the EN down there will be a current drawn pass the CPU pin and I believe that will cause some kind of damage.<br><br>As I said, I'm not sure if the EN on the LP3992 is 5V logic, but the better way to do it in my opinion (If one still insists to use the kit instead of the module) is to cut the VCC_5V and connect the EN directly to the CPU. Again, I don't think it is a good idea, just looks better than what it is. </div></blockquote>Attention, the power supply is from 3V3, not from 5V (red pen). The 5V power supply is only on the schematic for the GPS module kit from PDF document, in reality the power supply is 3V3. There is no risk of damaging the processor. The current through the processor pin is around 0.6mA.<br><br>I used the schematic of GP-02 kit from this document, I did not redraw the internal wiring of the GPS Kit, the power supply there is marked 5V but I power the module from 3V3. <a href="https://eu.mouser.com/datasheet/2/975/645d0e566602a647gp_02_kit_specifications-3193653.pdf" class="postlink">https://eu.mouser.com/datasheet/2/975/6 ... 193653.pdf</a> Figure 5, page 11.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2649">om1aeg</a> — Sat Jun 28, 2025 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-28T11:33:20</updated>
+
+		<published>2025-06-28T11:33:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37591#p37591</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37591#p37591"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37591#p37591"><![CDATA[
+<blockquote class="uncited"><div><br>Nope, after more than year and use only EN pin in LP3992 with directly connect to CPU and works great in my GD77. When GPS off in software then pull low, when on, pull up. <br><br>If you use N/F pad when GPS module (in OFF state) draw ca. 5mA constantly. <br>When use EN leg in LP3992 current draw (in OFF state) is some uA because LP3992 draw.</div></blockquote>Can you provide schematic diagram? I still not so sure if I follow.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Jun 28, 2025 11:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ1TAO]]></name></author>
+		<updated>2025-06-28T05:28:02</updated>
+
+		<published>2025-06-28T05:28:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37585#p37585</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37585#p37585"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37585#p37585"><![CDATA[
+<blockquote class="uncited"><div>I can't see how it will work. When the CPU pull the EN down there will be a current drawn pass the CPU pin and I believe that will cause some kind of damage.<br><br>Snímka obrazovky 2025-06-25 134704.jpg<br><br>As I said, I'm not sure if the EN on the LP3992 is 5V logic, but the better way to do it in my opinion (If one still insists to use the kit instead of the module) is to cut the VCC_5V and connect the EN directly to the CPU. Again, I don't think it is a good idea, just looks better than what it is. <br><br>Snímka obrazovky 2025-06-25 134704 (1).jpg</div></blockquote>Nope, after more than year and use only EN pin in LP3992 with directly connect to CPU and works great in my GD77. When GPS off in software then pull low, when on, pull up. <br><br>If you use N/F pad when GPS module (in OFF state) draw ca. 5mA constantly. <br>When use EN leg in LP3992 current draw (in OFF state) is some uA because LP3992 draw.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5554">SQ1TAO</a> — Sat Jun 28, 2025 5:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-26T15:23:24</updated>
+
+		<published>2025-06-26T15:23:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37559#p37559</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37559#p37559"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37559#p37559"><![CDATA[
+I can't see how it will work. When the CPU pull the EN down there will be a current drawn pass the CPU pin and I believe that will cause some kind of damage.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3028&amp;sid=1954aecc7e4d9ffbcb7f1af6078569ac" class="postimage" alt="Snímka obrazovky 2025-06-25 134704.jpg" onclick="viewableArea(this);" /></dt></dl></div>As I said, I'm not sure if the EN on the LP3992 is 5V logic, but the better way to do it in my opinion (If one still insists to use the kit instead of the module) is to cut the VCC_5V and connect the EN directly to the CPU. Again, I don't think it is a good idea, just looks better than what it is. <br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3030&amp;sid=1954aecc7e4d9ffbcb7f1af6078569ac" class="postimage" alt="Snímka obrazovky 2025-06-25 134704 (1).jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Jun 26, 2025 3:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ1TAO]]></name></author>
+		<updated>2025-06-25T17:25:59</updated>
+
+		<published>2025-06-25T17:25:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37549#p37549</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37549#p37549"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37549#p37549"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi, I used the GP-02Kit to add GPS to the GD77. <br>I connected the power control to the N/F pin of GP-02Kit. <br>To reduce the consumption, I connected the EN pin of the LP3992 to the N/F pin through a 560 ohm resistor. The total consuption is thus less than 0.6mA (through the MCU "shorted" 10k pull-up).</div></blockquote>I decided to go with the module (not the KIT) because we already have 3v3. To me, the kit is just a module with 5V0 to 3v3 regulator on it. In my opinion, it is a lot cleaner mod using the module.<br><br>I'm not sure about EN on the LP3992 regulator, Is it 5V logic? I don't think you can pull it down the way you are doing it. As I said, it is a lot better to getting rid of the regulator and N/F directly to the module.<br><br>BTW, I don't think the GP-02 support Active Antenna. I might be wrong, but that is how I understand it.</div></blockquote>Nope, I do the same. I connected EN pin straight to MCU pin and works perfectly more than year <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> <br>So use EN pin in LP3992 is the best way to cut power to GPS when is OFF in software.<br> 10k resistor on EN pin it's not a problem for CPU. <br>GP-02 kit have stock a passive antena but... can works with active antenna. GP-02 when turn on have 3.3v on antenna pin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5554">SQ1TAO</a> — Wed Jun 25, 2025 5:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-25T13:56:31</updated>
+
+		<published>2025-06-25T13:56:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37547#p37547</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37547#p37547"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37547#p37547"><![CDATA[
+<blockquote class="uncited"><div>Hi, I used the GP-02Kit to add GPS to the GD77. <br>I connected the power control to the N/F pin of GP-02Kit. <br>To reduce the consumption, I connected the EN pin of the LP3992 to the N/F pin through a 560 ohm resistor. The total consuption is thus less than 0.6mA (through the MCU "shorted" 10k pull-up).</div></blockquote>I decided to go with the module (not the KIT) because we already have 3v3. To me, the kit is just a module with 5V0 to 3v3 regulator on it. In my opinion, it is a lot cleaner mod using the module.<br><br>I'm not sure about EN on the LP3992 regulator, Is it 5V logic? I don't think you can pull it down the way you are doing it. As I said, it is a lot better to getting rid of the regulator and N/F directly to the module.<br><br>BTW, I don't think the GP-02 support Active Antenna. I might be wrong, but that is how I understand it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Jun 25, 2025 1:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[om1aeg]]></name></author>
+		<updated>2025-06-25T11:57:09</updated>
+
+		<published>2025-06-25T11:57:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37546#p37546</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37546#p37546"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37546#p37546"><![CDATA[
+Hi, I used the GP-02Kit to add GPS to the GD77. <br>I connected the power control to the N/F pin of GP-02Kit. <br>To reduce the consumption, I connected the EN pin of the LP3992 to the N/F pin through a 560 ohm resistor. The total consuption is thus less than 0.6mA (through the MCU "shorted" 10k pull-up).<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3025&amp;sid=1954aecc7e4d9ffbcb7f1af6078569ac" class="postimage" alt="Snímka obrazovky 2025-06-25 134704.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2649">om1aeg</a> — Wed Jun 25, 2025 11:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-05T12:05:30</updated>
+
+		<published>2025-06-05T12:05:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37376#p37376</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37376#p37376"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37376#p37376"><![CDATA[
+Thank you for all comments,<br><br>After trying with ML1220, ML920, and ML621 backup batteries. I have found out the warm boot on GP-02 will never happened beyond 4 hours. Based on Collins information, I believe this is because the module has to download the ephemeris data due to the expirations of the data it has. From my finding the ML621 is sufficient to back up the module for 4 hours. There is no need for a bigger battery.<br><br>One more thing, the "Battery" on the GP-02Kit is actually NOT a battery. It is a capacitor.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Jun 05, 2025 12:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-01T15:57:37</updated>
+
+		<published>2025-06-01T15:57:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37319#p37319</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37319#p37319"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37319#p37319"><![CDATA[
+Yes, the almanac last for longer so a longer battery life is still worth having. However it  only helps with finding the satellites from cold. Modern multi channel receiver's are good at doing that even without the almanac.<br><br>The ephemeris data is needed for the actual position fix and that only lasts for up to 4 hours.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jun 01, 2025 3:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-01T15:23:34</updated>
+
+		<published>2025-06-01T15:23:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37318#p37318</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37318#p37318"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37318#p37318"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>That is correct. The orbit data is only valid for a max of 4 hours. After that fresh data is needed.</div></blockquote>Thanks, Collin,<br><br>So, I just need a battery that last for only 4 hours. There is no point to provide backup power beyond that period. Is my understanding accurate?</div></blockquote>Isn't the almanac something that is used for getting a fix more quickly? <br>The almanac is valid for a longer period.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jun 01, 2025 3:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-01T14:43:07</updated>
+
+		<published>2025-06-01T14:43:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37317#p37317</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37317#p37317"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37317#p37317"><![CDATA[
+<blockquote class="uncited"><div>That is correct. The orbit data is only valid for a max of 4 hours. After that fresh data is needed.</div></blockquote>Thanks, Collin,<br><br>So, I just need a battery that last for only 4 hours. There is no point to provide backup power beyond that period. Is my understanding accurate?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Jun 01, 2025 2:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-01T13:03:04</updated>
+
+		<published>2025-06-01T13:03:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37315#p37315</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37315#p37315"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37315#p37315"><![CDATA[
+That is correct. The orbit data is only valid for a max of 4 hours. After that fresh data is needed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jun 01, 2025 1:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-01T10:38:13</updated>
+
+		<published>2025-06-01T10:38:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37313#p37313</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37313#p37313"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37313#p37313"><![CDATA[
+The warm boot only happened for only couple hours after the radio turned off. I don't have the exact preiod yet, but definitely not overnight. Seems like some data has expired in couple hours and after that the radio will have to acquired that data again, hence the warm boot could not happen.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Jun 01, 2025 10:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-30T19:58:47</updated>
+
+		<published>2025-05-30T19:58:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37298#p37298</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37298#p37298"/>
+		<title type="html"><![CDATA[Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37298#p37298"><![CDATA[
+Ok, I think I’ve found the problem. The battery I took from GP-02 kit is bad. It looses it charges too quickly. I have replaced it with brand new ML1220 battery and it seems to be good. I will test it a couple day and will report back.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri May 30, 2025 7:58 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

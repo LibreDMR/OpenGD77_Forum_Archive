@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3585" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-15T15:05:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3585</id>
+
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2023-12-15T15:05:27</updated>
+
+		<published>2023-12-15T15:05:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28109#p28109</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28109#p28109"/>
+		<title type="html"><![CDATA[Re: Updated voice prompts 2023 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28109#p28109"><![CDATA[
+thank you<br>ciao<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Fri Dec 15, 2023 3:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2023-12-15T07:36:24</updated>
+
+		<published>2023-12-15T07:36:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28093#p28093</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28093#p28093"/>
+		<title type="html"><![CDATA[Re: Updated voice prompts 2023 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28093#p28093"><![CDATA[
+thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Fri Dec 15, 2023 7:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-14T22:06:23</updated>
+
+		<published>2023-12-14T22:06:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28082#p28082</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28082#p28082"/>
+		<title type="html"><![CDATA[Updated voice prompts 2023 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3585&amp;p=28082#p28082"><![CDATA[
+Voice prompts have been updated<br><br>See <a href="https://www.opengd77.com/downloads/Voice_Prompts/Latest" class="postlink">downloads/Voice_Prompts/Latest</a><br><br>Thanks to the translators and to Daniel F1RMB for his continued work to keep the voice prompts updated<br><br>Note.<br><br>The 1.0 speed versions can no longer be produced, becuase the file size of the 1.0 speed versions is now larger than will fit in the radios.<br>So the lowest speed is now 1.25 which is still not fast and should work OK.<br><br>In the future we do not plan to have so many different speed versions as this is a nightmare to maintain as it currently takes over 12 hours to compress the audio using the radio to convert to AMBE format.<br><br>So we will probably replace the current speed versions e.g. 1.25, 1.5, 1.75, 2.0, 2.25, 2.5 with more user friendly names or "Slow", "Normal", "Fast" and "Very fast", but we don't currently know which speeds will map to which names<br><br>1.25 will probably become "Slow"<br>1.5 will probably become "Normal"<br>2.0 will probably become "Fast"<br>and <br>2.5 will probably become "Very fast"<br><br><br>As far as I know, most people use 1.5 or 1.75, so possibly the "Normal" speed should be 1.75 instead of 1.5 but we need to do some more testing to see which is the best option.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 14, 2023 10:06 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

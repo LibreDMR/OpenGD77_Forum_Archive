@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3293" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-17T07:14:08</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3293</id>
+
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-17T07:14:08</updated>
+
+		<published>2023-09-17T07:14:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26327#p26327</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26327#p26327"/>
+		<title type="html"><![CDATA[Re: windows 7 what version of dot net do i need?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26327#p26327"><![CDATA[
+<blockquote class="uncited"><div>im working on the usb problem to run cps on linux wine also. i'd much prefer if there was a linux cps.....</div></blockquote>I have the same setup on my Linux computer (legacy W7 to run different CPSes in VirtualBox), I have tried to run the application in .NET runtime on Linux as well (mono), the two problems I have encountered are the  missing Chinese/Japanese characters in default font (not a problem for me, Czech characters work well) and the impossibility to detect serial ports so the communication does not work. <br><br>I guess it is bound with the libraries used and the autodetection of USB devices with OpenGD77 descriptor, so you might not be able to work around it. Since the dialog window for port selection is not displayed at all ("No com port" message displayed even when the user is part of dialout group), I am not sure  you may fix it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Sun Sep 17, 2023 7:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2023-09-17T04:39:37</updated>
+
+		<published>2023-09-17T04:39:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26322#p26322</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26322#p26322"/>
+		<title type="html"><![CDATA[Re: windows 7 what version of dot net do i need?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26322#p26322"><![CDATA[
+yes i know win7 is EOL.  i only have this vbox specifically to run opengd cps and i use win7 becuase i can keep the network turned off.  i dont want a internet connected windows on my network.  its a 5GB vdisk just to run the CPS <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><br><br>im working on the usb problem to run cps on linux wine also.  i'd much prefer if there was a linux cps.....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Sun Sep 17, 2023 4:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2023-09-17T04:36:11</updated>
+
+		<published>2023-09-17T04:36:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26321#p26321</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26321#p26321"/>
+		<title type="html"><![CDATA[Re: windows 7 what version of dot net do i need?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26321#p26321"><![CDATA[
+heres more:  i installed dot net 4.5.2 standalone installer ok.  opengd cps now installs without complain dot net 4.0.313 or later.  but when i start cps i get error "unhandled exception....Method not found "!!O System.array.empty()"<br><br>also i checked the old working windows 7 enterprise vbox has dot net 4.8 installed.  its run out of re-arm and i can't find product key to activate it which would eliminate all this time sink.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Sun Sep 17, 2023 4:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-17T04:31:22</updated>
+
+		<published>2023-09-17T04:31:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26320#p26320</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26320#p26320"/>
+		<title type="html"><![CDATA[Re: windows 7 what version of dot net do i need?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26320#p26320"><![CDATA[
+Hi,<br><br>   Are you aware that Windows 7 is no more supported by Microsoft ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Sep 17, 2023 4:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2023-09-17T03:58:21</updated>
+
+		<published>2023-09-17T03:58:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26318#p26318</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26318#p26318"/>
+		<title type="html"><![CDATA[windows 7 what version of dot net do i need?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3293&amp;p=26318#p26318"><![CDATA[
+rebuilding my virtualbox windows machine.  had it working fine on windows 7 enterprise with dot net 4.8.  started a new vbox for windows 7 ultimate 64 bit from an iso, got sp1 installed ok, and now can't get dot net 4.8 to install says trust chain not trusted.  4.8.1 says doesnt support this os.  i know just enough windows to get me introuble.  what's the minimum dot net version i can get away with to run opengd CPS ?<br><br>thanks,<br>--gaspo.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Sun Sep 17, 2023 3:58 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

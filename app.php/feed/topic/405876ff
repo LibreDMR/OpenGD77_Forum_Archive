@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4058" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-15T13:27:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4058</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-05-15T13:27:46 </updated>
+
+		<published>2024-05-15T13:18:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31308#p31308</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31308#p31308"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31308#p31308"><![CDATA[
+<blockquote class="uncited"><div>F1RMB:<br>Bedad, that did it! I'd set up a generic USB port in VirtualBox Manager that was supposed to pass everything connected to USB to the guest OS, but I deleted it and added a new one just for the radio. Thank you!<br><br>Now I have to figure out how to write codeplugs and how to change the screen to white text, black background. I think I downloaded an OpenGD77 User Manual from Github so I'll have to read it.<br><br>73!</div></blockquote>If you want inverted screen colours ,you can change in Options-&gt;Display Options-&gt;Screen: to Inverted.<br><br>But I guess it's also possible to change it in the "Theme Editor"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed May 15, 2024 1:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-05-15T06:25:16</updated>
+
+		<published>2024-05-15T06:25:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31306#p31306</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31306#p31306"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31306#p31306"><![CDATA[
+F1RMB:<br>Bedad, that did it! I'd set up a generic USB port in VirtualBox Manager that was supposed to pass everything connected to USB to the guest OS, but I deleted it and added a new one just for the radio. Thank you!<br><br>Now I have to figure out how to write codeplugs and how to change the screen to white text, black background. I think I downloaded an OpenGD77 User Manual from Github so I'll have to read it.<br><br>73!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Wed May 15, 2024 6:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-15T04:32:22</updated>
+
+		<published>2024-05-15T04:32:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31305#p31305</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31305#p31305"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31305#p31305"><![CDATA[
+Hi,<br><br>   Don't bother to predefne a com port.<br>Use the following menu:<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2406&amp;sid=67c631ba392e303d75c38ca902fdddd9" class="postimage" alt="usb_menu.png" onclick="viewableArea(this);" /></dt></dl></div>Depending of the running mode of the device (bootloader or "normal"), a new device is listed (AnyRoad or Open&lt;xxxx&gt; Transceiver).<br>I guess you already have the "VirtualBox Extension Pack" installed.<br><br>Cheers.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed May 15, 2024 4:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-05-15T02:25:24</updated>
+
+		<published>2024-05-15T02:25:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31304#p31304</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31304#p31304"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31304#p31304"><![CDATA[
+I got OpenGD77 installed on the radio, and what's more I solved the issue of the CPS not installing in normal mode and the OpenGD COM port Driver not installing. I had to enable COM1 in VirtualBox Manager, set the port mode as Host Device, and map it to /dev/ttyACM0 which was the new device that appeared when I connected the radio to my PC. However, now I'm having a new issue: the CPS can no longer connect to the radio (after uninstalling the portable version of the CPS and installing the normal version plus the driver), so I can't backup the flash. I'm stuck until I can get it backed up so I can install the original firmware later if I want to. I get the same "error connecting to the radio" when I try to read from the radio in the Program menu so I'm not going to be able to write a code plug and upload it.<br><br>BTW, the default Windows settings for the com port are 9600bps, 8 data bits, no parity, 1 stop bit and no flow control. Could this be the issue?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Wed May 15, 2024 2:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-05-14T10:31:44</updated>
+
+		<published>2024-05-14T10:31:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31287#p31287</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31287#p31287"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31287#p31287"><![CDATA[
+Aha! I reinstalled the CPS but this time chose portable installation, not normal installation and finally the GUI came up when I launched the CPS!<br><br>After thrashing around with Windows all afternoon which always makes me grumpy I think it would be wiser to wait until another day to continue with the installation.<br><br>73 and thanks for replying to my post.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Tue May 14, 2024 10:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-05-14T10:01:19</updated>
+
+		<published>2024-05-14T10:01:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31286#p31286</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31286#p31286"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31286#p31286"><![CDATA[
+Yes, I get that window.<br><br>I tried reinstalling the CPS, this time unchecking the two boxes to install the USB driver and start the CPS. Afterward when I manually tried to launch the CPS I got the same mouse cursor/blue circle combo and nothing else happened.<br><br>I just double checked my computer's UEFI settings and virtualization is enabled. The computer is a Beelink U59 mini PC with an 11th generation Celeron 5905 quad core processor and 16GB of (I assume DDR4) RAM.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Tue May 14, 2024 10:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-14T09:41:03</updated>
+
+		<published>2024-05-14T09:41:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31284#p31284</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31284#p31284"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31284#p31284"><![CDATA[
+<blockquote class="uncited"><div>The guest OS isn't losing mouse focus. When I try to install or run the OpenGD77 CPS I have a white Windows mouse cursor with a blue circle next to it, and apart from being able to move the cursor the guest OS, Windows, stops responding. The host OS is just fine and the mouse works normally there, that's how I'm able to force close VirtualBox and so a clean reboot of the computer. Moving the cursor focus between the host and guest only returns it to the white one with the blue circle. (My mouse cursor in Linux is white with a black border and a red halo around it to make it easy to see against any background color.)<br><br>I gave the guest OS 8GB of my 16GB of ram and a 50GB virtual hard drive so it shouldn't be memory or disk space issues either. I have no idea how to move past this to get OpenGD77 installed on the radio.</div></blockquote>Okay.<br>Well, you could also ask the installer to not install the serial driver.<br>BTW, does windows display this window:<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2403&amp;sid=67c631ba392e303d75c38ca902fdddd9" class="postimage" alt="Screenshot at 2024-05-14 11-43-02.png" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue May 14, 2024 9:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-05-14T09:32:53</updated>
+
+		<published>2024-05-14T09:32:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31283#p31283</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31283#p31283"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31283#p31283"><![CDATA[
+The guest OS isn't losing mouse focus. When I try to install or run the OpenGD77 CPS I have a white Windows mouse cursor with a blue circle next to it, and apart from being able to move the cursor the guest OS, Windows, stops responding. The host OS is just fine and the mouse works normally there, that's how I'm able to force close VirtualBox and so a clean reboot of the computer. Moving the cursor focus between the host and guest only returns it to the white one with the blue circle. (My mouse cursor in Linux is white with a black border and a red halo around it to make it easy to see against any background color.)<br><br>I gave the guest OS 8GB of my 16GB of ram and a 50GB virtual hard drive so it shouldn't be memory or disk space issues either. I have no idea how to move past this to get OpenGD77 installed on the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Tue May 14, 2024 9:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-14T08:57:46</updated>
+
+		<published>2024-05-14T08:57:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31281#p31281</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31281#p31281"/>
+		<title type="html"><![CDATA[Re: Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31281#p31281"><![CDATA[
+<blockquote class="uncited"><div>I'm running Windows 10 as a guest virtual machine using VirtualBox in my Debian Bookworm host OS. My radio is a Retevis RT3S with GPS that I just received this morning. I was able to install the Retivis CPS and their firmware flashing utility. Those are able to connect to the radio, and I was able to download a backup (empty) codeplug and save it. I've also verified that I can flash the Retevis firmware.<br><br>I'm following the instructions at <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a> but when I try to install the OpenGD77 CPS it stops at the "installing driver(s)..." stage. The mouse can still move in the Windows virtual machine but clicking in anything such as the start button is unresponsive, so for all practical purposes Windows is hung. I've tried the very latest CPS plus a slightly older one from April 21 and they both do the same thing.<br><br>How do I install the CPS so I can proceed to the next step?</div></blockquote>I'm also using Windows 10 in VirtualBox under LinuxMint.<br>Such unresponsive mouse/keyboard happens to me from time to time, as if another window got the focus, not the guest instance.<br>Sometimes, I can focus on my Mate desktop and switch back to the VM. Sometimes I'm stuck, needing to hard reboot the whole computer.<br><br><br>Cheer.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue May 14, 2024 8:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-05-14T07:53:05</updated>
+
+		<published>2024-05-14T07:53:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31279#p31279</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31279#p31279"/>
+		<title type="html"><![CDATA[Can't install the OpenGD77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4058&amp;p=31279#p31279"><![CDATA[
+I'm running Windows 10 as a guest virtual machine using VirtualBox in my Debian Bookworm host OS. My radio is a Retevis RT3S with GPS that I just received this morning. I was able to install the Retivis CPS and their firmware flashing utility. Those are able to connect to the radio, and I was able to download a backup (empty) codeplug and save it. I've also verified that I can flash the Retevis firmware.<br><br>I'm following the instructions at <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a> but when I try to install the OpenGD77 CPS it stops at the "installing driver(s)..." stage. The mouse can still move in the Windows virtual machine but clicking in anything such as the start button is unresponsive, so for all practical purposes Windows is hung. I've tried the very latest CPS plus a slightly older one from April 21 and they both do the same thing.<br><br>How do I install the CPS so I can proceed to the next step?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Tue May 14, 2024 7:53 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

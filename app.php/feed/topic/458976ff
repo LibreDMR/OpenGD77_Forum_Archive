@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4589" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-18T16:20:51</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4589</id>
+
+		<entry>
+		<author><name><![CDATA[G4WQB]]></name></author>
+		<updated>2024-11-18T16:20:51</updated>
+
+		<published>2024-11-18T16:20:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34131#p34131</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34131#p34131"/>
+		<title type="html"><![CDATA[Re: RT90 failure to TX/RX and display showing incorrect TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34131#p34131"><![CDATA[
+@Colin.<br><br>Thank you very much for your help in clarifying the way to create a fresh codeplug.  <br><br>Having defined my contacts, I prepared several TG lists using one for each teams A, B &amp; &amp; C, etc. and then set about defining several channels for each repeatereach calling up one TG list.  This linked Repeater 1 to TG Lists A, B &amp; C (3 channels) and Repeater 2 to TG Lists A, B &amp; C.and so forth.<br><br>I then created Zones for each team, so that I could work the team I wanted and could switch between repeaters easily.  Zone A contains all Team A channels, Zone B, all B channels and so on.<br><br>Sorry if that looks a bit complex, but I envision it as a form of matrix with zones horizontally and teams vertically with the channels in the middle with a third dimension of contacts.  I really must get a life!<br><br>Colin, you have been great. Many thanks again.<br>73 Keith<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7005">G4WQB</a> — Mon Nov 18, 2024 4:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-11-16T12:22:19</updated>
+
+		<published>2024-11-16T12:22:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34106#p34106</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34106#p34106"/>
+		<title type="html"><![CDATA[Re: RT90 failure to TX/RX and display showing incorrect TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34106#p34106"><![CDATA[
+You can only have one TG List allocated to a channel. So in your case you could have three channels, one for Aylesbury, one for Tring, and one for West London. All three channels could be linked to the same TG List containing all of the DMR+ (Phoenix) talkgroups.  <br><br>If you need to use a different TG list you would need to define a new channel that is linked to that list. So you may need Aylesbury A , Aylesbury B, and Aylesbury C. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Nov 16, 2024 12:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4WQB]]></name></author>
+		<updated>2024-11-16T11:37:50</updated>
+
+		<published>2024-11-16T11:37:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34105#p34105</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34105#p34105"/>
+		<title type="html"><![CDATA[Re: RT90 failure to TX/RX and display showing incorrect TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34105#p34105"><![CDATA[
+(To Continue)<br><br>It is usefult for me to presnt the vision that I was working to.  Near me, there are several DMR repeaters, Aylesbury, Tring, West London and so forth.  I also support a voluntery organisation that has several groups, let us say A, B and C.  Each of A,B &amp; C has a set of talkgroups for different purposes. So, If I am in Aylesbury, for example, I may need to use any one of the TGs belonging to A, B or C. I set up Zones for repeaters and ONE TG List for each Group, with the channel stying them together.  This may direct readers in a WRONG direction, as it DO'NT WORK! ( at least the way I did it)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7005">G4WQB</a> — Sat Nov 16, 2024 11:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4WQB]]></name></author>
+		<updated>2024-11-16T11:11:00</updated>
+
+		<published>2024-11-16T11:11:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34104#p34104</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34104#p34104"/>
+		<title type="html"><![CDATA[Re: RT90 failure to TX/RX and display showing incorrect TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34104#p34104"><![CDATA[
+Firstly, thank you both for respoding so quickly.  The good news is that the radio now trasmits and receives on FM and digital simplex on the VFO VFO after installing version 4 of the firmware (properly).  However, the codeplug is in a bit of a pickle, I suspect.  It has been developed following my work with an Anytone, so your remark that there is a difference in parameterisation is very relevant, as is the one about my misunderstanding how it works.  The codeplug has some TGs that really should not be in the public domain, so I hope that Colin will fogive my impertenence in sending it by email.  Of course, any discussion should remain within the forum.  In the interim, is there a detailed guide to the construction fo the codeplug for OenGD77, other than the manual and Colin's excellent paper on CSV files.  I should like to understand things properly.<br><br>Many thanks again for all your help<br>73<br>Keith G4WQB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7005">G4WQB</a> — Sat Nov 16, 2024 11:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-11-15T18:39:43</updated>
+
+		<published>2024-11-15T18:39:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34101#p34101</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34101#p34101"/>
+		<title type="html"><![CDATA[Re: RT90 failure to TX/RX and display showing incorrect TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34101#p34101"><![CDATA[
+First of all to check you are using the correct firmware test the radio on an FM simplex channel and make sure it receives and transmits. If it does then you are using the correct firmware. If it doesn't then try another version. <br><br>Regarding the talkgroup selection,  that is probably a codeplug error or a misunderstanding of the way the firmware works. OpenGD77 normally uses one channel per repeater, selected with the knob. The talkgroup is then selected separately using the up and down buttons. <br><br>We would need to see a copy of your code plug to confirm this. <br><br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Nov 15, 2024 6:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-11-15T18:36:33</updated>
+
+		<published>2024-11-15T18:36:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34100#p34100</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34100#p34100"/>
+		<title type="html"><![CDATA[Re: RT90 failure to TX/RX and display showing incorrect TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34100#p34100"><![CDATA[
+Sounds like you have more than one problem here.<br>first of all, how did you install OpenGD77? Do you have a name for the donor file?<br><blockquote class="uncited"><div>I cannot get a transmit signal out, nor can I receive.</div></blockquote>Is this happening only on DMR or both FM analog and DMR?<br><blockquote class="uncited"><div>For some reason, the channel does not call up the correct TG, but always takes the fist in the list for the Zone.  </div></blockquote>I think your codeplug is configure in a traditional way and you are not familiar with "Talkgroup list" Can you post your codeplug here?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Nov 15, 2024 6:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4WQB]]></name></author>
+		<updated>2024-11-15T18:27:24</updated>
+
+		<published>2024-11-15T18:27:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34099#p34099</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34099#p34099"/>
+		<title type="html"><![CDATA[RT90 failure to TX/RX and display showing incorrect TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4589&amp;p=34099#p34099"><![CDATA[
+Hi,<br><br>My name is Keith and my callsign is G4WQB.  I am new to this forum.<br><br>I purchased an RT90 at a National show recently.  It has the board number MD9600-UV-4.0-1805222027 and a serial number starting 2006R090 1.<br><br>I have tried flashing with V5 and V4.  For some reason, the channel does not call up the correct TG, but always takes the fist in the list for the Zone.  I cannot get a transmit signal out, nor can I receive.<br><br>Is this symptomatic of a sick radio - I cannot take it back - or is there a route to make it all better again?<br><br>Many thanks for your help,<br>Keith<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7005">G4WQB</a> — Fri Nov 15, 2024 6:27 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

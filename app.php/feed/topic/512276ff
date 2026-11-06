@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5122" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-14T21:20:39</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5122</id>
+
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-05-14T21:20:39</updated>
+
+		<published>2025-05-14T21:20:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37113#p37113</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37113#p37113"/>
+		<title type="html"><![CDATA[Re: DFU funtionality under VMware on Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37113#p37113"><![CDATA[
+Have you set up a USB filter for DFU mode?<br><br>Under the VM settings, USB, I have created a filter named MD-UV380/390 DFU Mode, with settings of Vendor ID of 0483 and Product ID of df11. <br><br>The exact name you give it doesn't matter, it's just a name. The Vendor and Product IDs can be found by connecting the radio in DFU mode and then running lsusb in a Linux terminal window - you may have to create more than one filter if you're using more than one radio type/manufacturer. It's possible to specify more details in the filter, eg., serial number, but that just means you need a filter for each individual radio.<br><br>BTW, if you set up your VM under the Shared Folders setting to have access to somewhere on the Linux host disk, then you can keep all the data files for the CPS on the Linux host, rather than exposing your VM to the internet once the security updates finish later this year.<br><br>Mike.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Wed May 14, 2025 9:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-14T16:11:25</updated>
+
+		<published>2025-05-14T16:11:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37102#p37102</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37102#p37102"/>
+		<title type="html"><![CDATA[Re: DFU funtionality under VMware on Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37102#p37102"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I'm using VirtualBox under Linux, and have no problem with it.<br>But you can update the firmware using the python flasher tool, under Linux (which I use 99.99% of the time).</div></blockquote>Thank you for the quick reply. If possible could you point me to the python flasher tool.</div></blockquote>In <a href="https://www.opengd77.com/downloads/Linux_tools/" class="postlink">downloads/Linux_tools/</a><br><br>opengd77_stm32_firmware_loader.py<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed May 14, 2025 4:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2025-05-14T16:08:28</updated>
+
+		<published>2025-05-14T16:08:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37101#p37101</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37101#p37101"/>
+		<title type="html"><![CDATA[Re: DFU funtionality under VMware on Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37101#p37101"><![CDATA[
+<blockquote class="uncited"><div>I'm using VirtualBox under Linux, and have no problem with it.<br>But you can update the firmware using the python flasher tool, under Linux (which I use 99.99% of the time).</div></blockquote>Thank you for the quick reply. If possible could you point me to the python flasher tool.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed May 14, 2025 4:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-14T05:55:08</updated>
+
+		<published>2025-05-14T05:55:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37096#p37096</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37096#p37096"/>
+		<title type="html"><![CDATA[Re: DFU funtionality under VMware on Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37096#p37096"><![CDATA[
+I'm using VirtualBox under Linux, and have no problem with it.<br>But you can update the firmware using the python flasher tool, under Linux (which I use 99.99% of the time).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed May 14, 2025 5:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2025-05-14T03:41:46</updated>
+
+		<published>2025-05-14T03:41:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37095#p37095</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37095#p37095"/>
+		<title type="html"><![CDATA[DFU funtionality under VMware on Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5122&amp;p=37095#p37095"><![CDATA[
+For many a reason I have moved from Windows to Linux for both work and personal use. In the process I have a few things that require Windows, and one of those is GD77. I have only two analog HT that are not running GD77. All other HTs that I have run GD77 (8 in total). Also all three of my vehicles have MD-9600 in them and I have two more MD-9600, one in the QTH and one at my hunting / fishing location. All the MD-9600 run the GD77 firmware.<br><br>I have been using an older laptop with windows 10 to keep all the HT and 9600 up to date and manage the codes plugs. A few weeks ago I installed Linux on the laptop and have been slowly getting things ironed out step by step. Current status is that Linux is running great and working good (Mint 22.1), and I have VMware setup and running with Windows 10 installed and stable. This brings me to GD77 CPS and firmware updates.<br><br>I have the GD77 CPS working on windows 10 in the virtual machine of VMware. I am able to read and write code plugs to any of my radios just fine. What I am failing at is the ability to update the firmware. I am hoping those here who have a similar setup may get me pointed in the right direction so I can manage the firmware on the radios.<br><br>The message I get from the CPS firmware section is that the radio is not in DFU mode.<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed May 14, 2025 3:41 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

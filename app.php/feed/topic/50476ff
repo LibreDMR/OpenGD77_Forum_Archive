@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/504" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-14T16:02:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/504</id>
+
+		<entry>
+		<author><name><![CDATA[W6USC]]></name></author>
+		<updated>2024-10-14T16:02:43</updated>
+
+		<published>2024-10-14T16:02:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=504&amp;p=33475#p33475</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=504&amp;p=33475#p33475"/>
+		<title type="html"><![CDATA[Re: W1AEX - DMR + ANALOG + PUB SVC Connecticut USA]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=504&amp;p=33475#p33475"><![CDATA[
+Thanks for this info. It's helping me so much. 73s<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7097">W6USC</a> — Mon Oct 14, 2024 4:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W9YA]]></name></author>
+		<updated>2020-09-25T23:47:22</updated>
+
+		<published>2020-09-25T23:47:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=504&amp;p=11119#p11119</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=504&amp;p=11119#p11119"/>
+		<title type="html"><![CDATA[Re: W1AEX - DMR + ANALOG + PUB SVC Connecticut USA]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=504&amp;p=11119#p11119"><![CDATA[
+Thanks..there is some useful info in here...even for those of us living far away. i.e. Nuevo Mexico...hi hi<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1091">W9YA</a> — Fri Sep 25, 2020 11:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC1DSJ]]></name></author>
+		<updated>2020-06-27T03:31:01</updated>
+
+		<published>2020-06-27T03:31:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=504&amp;p=9564#p9564</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=504&amp;p=9564#p9564"/>
+		<title type="html"><![CDATA[Re: W1AEX - DMR + ANALOG + PUB SVC Connecticut USA]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=504&amp;p=9564#p9564"><![CDATA[
+Thank you so much!  Taking for use in the MA area  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=909">KC1DSJ</a> — Sat Jun 27, 2020 3:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W1AEX]]></name></author>
+		<updated>2020-01-18T04:03:18</updated>
+
+		<published>2020-01-18T04:03:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=504&amp;p=4123#p4123</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=504&amp;p=4123#p4123"/>
+		<title type="html"><![CDATA[W1AEX - DMR + ANALOG + PUB SVC Connecticut USA]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=504&amp;p=4123#p4123"><![CDATA[
+The codeplug is ready-to-go for Connecticut, just install your own DMR-ID (General Setting) and Talker Alias information (Boot Item) and load it up. It contains Brandmeister, ARES, and DMARC repeaters from around the state. The following zones are installed:<br><br>PUB-SVC (police, fire, ems)<br>FRS<br>MARINE BAND (4 busy frequencies)<br>NOAA<br>HAM A REPEATERS (analog)<br>HAM A SIMPLEX (analog)<br>DMR SIMPLEX<br>DMR DMARC<br>DMR ARES<br>DMR BM<br>DMR ALL<br>DMR LOCAL<br>ZUMSPOT<br><br>73, Rob W1AEX<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=485&amp;sid=545b8c68cfd2e7a649abb06e3163c162">OpenGD-77_01_07_2020_Connecticut.g77</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=125">W1AEX</a> — Sat Jan 18, 2020 4:03 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

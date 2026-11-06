@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4374" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-07T22:25:37</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4374</id>
+
+		<entry>
+		<author><name><![CDATA[EA4IAU]]></name></author>
+		<updated>2025-07-07T22:25:37</updated>
+
+		<published>2025-07-07T22:25:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37674#p37674</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37674#p37674"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37674#p37674"><![CDATA[
+Hello everybody<br><br>I’ve been fiddling around with the radio to try and find outwhat causes the “silent DMR” and “helicoptering” sound issues.<br><br>This is the TL;DR:<ul><li>Simplex transmissions do not have that problem. Setting your hotspot to simplex will <strong class="text-strong">fix</strong> the problem.</li></ul><ul><li>The issue seems to be rooted in the way OpenGD77 handles TimeSlots, and there are some wacky glitches you can reliably reproduce.</li></ul>I posted details, explanations and anecdotal evidence over here: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=5001&amp;start=20#p37673" class="postlink">viewtopic.php?f=19&amp;t=5001&amp;start=20#p37673</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6012">EA4IAU</a> — Mon Jul 07, 2025 10:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7IAU]]></name></author>
+		<updated>2025-06-19T07:14:23</updated>
+
+		<published>2025-06-19T07:14:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37519#p37519</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37519#p37519"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37519#p37519"><![CDATA[
+any bin files<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8488">M7IAU</a> — Thu Jun 19, 2025 7:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-06-15T11:09:21</updated>
+
+		<published>2025-06-15T11:09:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37491#p37491</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37491#p37491"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37491#p37491"><![CDATA[
+Hi,<br>For me (TYT 390plus), the number of "silent DMRs" decreased significantly when (stable version from 15.12.2024) I turned off the "DMR CRC" option. <br>Best regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Sun Jun 15, 2025 11:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA4IAU]]></name></author>
+		<updated>2025-06-14T21:11:30</updated>
+
+		<published>2025-06-14T21:11:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37489#p37489</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37489#p37489"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37489#p37489"><![CDATA[
+Question for the devs<br><br>What is known about the "silent DMR" issue anyway? <br><br>I rummaged through the forum looking for conversations on this "silent DMR" issue. It's really bugging me as it is consistently ruining every single one of my QSOs because i keep missing transmissions.<br><br>I've been doing some tests and this is the info/questions i have:<br><ul><li>Is the issue restricted to transmissions from MMDVM?</li></ul><ul><li>Does the issue arise with specific callers only?</li></ul><ul><li>Is it a DM1701/TYT issue or is it a general OpenGD77 issue?</li></ul><ul><li>Was it present on the latest stable?</li></ul>Regarding the first, I haven't been able to reproduce the issue on a normal repeater around here. Transmissions seem get through just fine.<br>Also, I am yet to reproduce the issue listening to my MMDVM using an SDR, and see if both go silent/helicoptering.<br>For the note: my hotspot is duplex with 2 timeslots<br><br>Regarding the second. It disproportionally affects transmissions from a specific fellow ham. When monitoring the anchored TG, other hams seem to be heard ok. The issue is less frequent. Also, this fellow ham is the one I talk to the most. So perhaps TXing makes the issue more likely?<br><br>Regarding the third, I don't know. I don't have other OpenGD77s.<br><br><br><br>Random ideas/observations:<ul><li>When the issue "kicks in", restarting does NOT solve it. It keeps losing transmissions</li></ul><ul><li>TXing seems to make the issue more likely (change of behavior based on temperature)</li></ul>I am thinking of getting on the code and compile it and run educated tests on my hardware because as it stands, it's become almost unusable.<br><br>Is there any test you'd want me to conduct? How could I help?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6012">EA4IAU</a> — Sat Jun 14, 2025 9:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA4IAU]]></name></author>
+		<updated>2025-05-28T07:58:52</updated>
+
+		<published>2025-05-28T07:58:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37253#p37253</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37253#p37253"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=37253#p37253"><![CDATA[
+Hello everyone.<br><br>I have been redirected here from the test version thread, where they discussed this "helicoptering and Silent DMR" issue.<br>Tried some of the things there, (hotspot config and some other stuff) and did not work.<br><br>What it DID work regarding "Silent DMR", was to set Options &gt; Sound Options &gt; Prompt to "Beep". (I usually have it on No Keys)<br>Moreover, by setting it up to "Silent" it made the problem WAY worse. So much so that not even PPTing or opening the squelch via SK2-hold would do nothing to turn on the sound.<br><br>It did nothing for the "helicoptering DMR" though. I still have the issue in which the first frame of the transmission gets repeated like "rRRRRRRR". PTTing or opening the squelch takes it out of that hiccup. I'd understand that the two issues have different causes.<br><br>Is there any test I can do?<br><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6012">EA4IAU</a> — Wed May 28, 2025 7:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2024-12-08T11:56:42</updated>
+
+		<published>2024-12-08T11:56:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34501#p34501</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34501#p34501"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34501#p34501"><![CDATA[
+Thanks for the reply!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Sun Dec 08, 2024 11:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-05T12:11:35</updated>
+
+		<published>2024-12-05T12:11:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34395#p34395</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34395#p34395"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34395#p34395"><![CDATA[
+<blockquote class="uncited"><div>Hello, I've got to ask to make sure I'm not misunderstanding and going to create a brick...<br><br>I have a RT-3S GPS<br><br>Under Announces:  New Stable version [R20240908] Including source code<br><br>Under Firmware there is no file listed for RT-3S so do I use one of the 380 firmware?  What about GPS?<br>Also "sources &amp; tools" list a 380 and 1701.....Do I use that?<br><br>Thanks to all for any help!</div></blockquote>Yes, you must use the MD-UV380 for the RT3S.<br>BTW, you almost can't brick it flashing the firmware, worst case, it just stays in bootloader mode.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Dec 05, 2024 12:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2024-12-05T12:05:11</updated>
+
+		<published>2024-12-05T12:05:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34393#p34393</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34393#p34393"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34393#p34393"><![CDATA[
+Hello, I've got to ask to make sure I'm not misunderstanding and going to create a brick...<br><br>I have a RT-3S GPS<br><br>Under Announces:  New Stable version [R20240908] Including source code<br><br>Under Firmware there is no file listed for RT-3S so do I use one of the 380 firmware?  What about GPS?<br>Also "sources &amp; tools" list a 380 and 1701.....Do I use that?<br><br>Thanks to all for any help!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Thu Dec 05, 2024 12:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1TAQ]]></name></author>
+		<updated>2024-11-28T12:49:20</updated>
+
+		<published>2024-11-28T12:49:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34251#p34251</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34251#p34251"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908] Including source code]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=34251#p34251"><![CDATA[
+<blockquote class="uncited"><div>The source code for the latest stable release version as well as the firmware and voice prompts file can be downloaded from this URL<br><br><a href="https://opengd77.com/downloads/releases/MDUV380_DM1701/R20240908" class="postlink">https://opengd77.com/downloads/releases ... /R20240908</a><br><br>For installation instructions, see <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a></div></blockquote>Oleeeeeeeeeeeeee....<br><br>After a long time finaly I upload the GD77 to my MD-UV390-GPS....<br>(driver issiues on windows 10 laptop)<br><br>THANKS  TO  WHO  WORKED  ON  THIS  PROJECT ....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3938">TA1TAQ</a> — Thu Nov 28, 2024 12:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-04T22:34:01</updated>
+
+		<published>2024-10-04T22:34:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33372#p33372</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33372#p33372"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33372#p33372"><![CDATA[
+<blockquote class="uncited"><div>Hard to say. I couldn't find it. But thank you.</div></blockquote>When each Beta is released, the changes are listed in that post<br><br>If you mean changes between the last and current stable version, then no. Stable versions are only released every 6 to 12 months, and the list would be extremely long and no one has the time to collate all the individial beta change lists and make them into one huge list<br><br>Beta with bug fixes and enhancements are often released every 2 or 3 weeks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 04, 2024 10:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC3NJE]]></name></author>
+		<updated>2024-10-04T22:02:47</updated>
+
+		<published>2024-10-04T22:02:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33369#p33369</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33369#p33369"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33369#p33369"><![CDATA[
+Hard to say. I couldn't find it. But thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3657">KC3NJE</a> — Fri Oct 04, 2024 10:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-02T20:15:56</updated>
+
+		<published>2024-10-02T20:15:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33344#p33344</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33344#p33344"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33344#p33344"><![CDATA[
+<blockquote class="uncited"><div>Looking for documentation on the recent version changes. Can you help?</div></blockquote>Is there something missing from the User Guide?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 02, 2024 8:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC3NJE]]></name></author>
+		<updated>2024-10-02T18:33:10</updated>
+
+		<published>2024-10-02T18:33:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33341#p33341</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33341#p33341"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33341#p33341"><![CDATA[
+Looking for documentation on the recent version changes. Can you help?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3657">KC3NJE</a> — Wed Oct 02, 2024 6:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-23T22:59:12</updated>
+
+		<published>2024-09-23T22:59:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33147#p33147</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33147#p33147"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33147#p33147"><![CDATA[
+<blockquote class="uncited"><div>Ok, so the steps are the same as installing the firmware for the first time.</div></blockquote>Just upload the firmware to the radio, you don't need to do anything else. e.g. no backups .<br><br>Just download the firmware .zip file, go to the firmware loader in the CPS, select the language , put the radio into DFU mode, select the zip file and it will be installed into the radio<br><br>If you didn't update the firmware for a long time, the settings may be cleared because the format of the settings may have changed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 23, 2024 10:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CD3FKA]]></name></author>
+		<updated>2024-09-23T22:35:19</updated>
+
+		<published>2024-09-23T22:35:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33146#p33146</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33146#p33146"/>
+		<title type="html"><![CDATA[Re: New Stable version [R20240908]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4374&amp;p=33146#p33146"><![CDATA[
+Ok, so the steps are the same as installing the firmware for the first time.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3973">CD3FKA</a> — Mon Sep 23, 2024 10:35 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3674" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-01-12T00:32:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3674</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-12T00:32:36</updated>
+
+		<published>2024-01-12T00:32:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28623#p28623</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28623#p28623"/>
+		<title type="html"><![CDATA[Re: &quot;ASCII-fying&quot; DMRId database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28623#p28623"><![CDATA[
+FYI<br><br>I'm swamped with other work in the project at the moment, including trying to resolve the serious problem with the 10W version of the UV380 PLUS not working at all with the firmware and people potentially having bricked their radios.<br>We also also trying to resolve the problem with many of the translations being incomplete<br><br>So this improvement will need to wait until I have some spare time<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 12, 2024 12:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-10T19:48:40</updated>
+
+		<published>2024-01-10T19:48:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28581#p28581</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28581#p28581"/>
+		<title type="html"><![CDATA[Re: &quot;ASCII-fying&quot; DMRId database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28581#p28581"><![CDATA[
+<blockquote class="uncited"><div>Hi!<br><br>I've run some experiments trying to find a better way of converting the data in the DMRId.net user database to the limited (ASCII alphanumeric?) set of characters used in the "compressed" OpenGD77 in-radio format. The current "RemoveDiactritics" function isn't great at converting non-latin characters to ASCII (e.g. the greek alphabet), and I thought I would contribute a substitute that does a better job.<br><br>The attached program, when run against the user.csv database file, successfully ASCII-fies all but ~500 entries. Those entries are mostly asian scripts that cannot easily be alphabetized, with some instances of incorrect UTF-8 (e.g. double-encoded german characters). Those characters are ignored/removed since they cannot be displayed by the radio anyway.<br><br>I hope that this could be included in a future CPS release, to better reflect european languages in the limited available character set.<br><br>73 de SA0ASM</div></blockquote>Thanks<br><br>I will look at your conversion method<br><br>BTW. We know that Radio is.net does not do any validation or sanity checks on the data. I noticed a lot of mistakes in the data people entered for their details etc.<br>I doubt if any DMR radio is capable of displaying all data from RadioID.Net correctly, unless perhaps it's one of those Android phone based devices<br><br>Thanks again <br><br>VK3KYY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 10, 2024 7:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0ASM]]></name></author>
+		<updated>2024-01-10T16:26:17</updated>
+
+		<published>2024-01-10T16:26:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28572#p28572</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28572#p28572"/>
+		<title type="html"><![CDATA[&quot;ASCII-fying&quot; DMRId database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3674&amp;p=28572#p28572"><![CDATA[
+Hi!<br><br>I've run some experiments trying to find a better way of converting the data in the DMRId.net user database to the limited (ASCII alphanumeric?) set of characters used in the "compressed" OpenGD77 in-radio format. The current "RemoveDiactritics" function isn't great at converting non-latin characters to ASCII (e.g. the greek alphabet), and I thought I would contribute a substitute that does a better job.<br><br>The attached program, when run against the user.csv database file, successfully ASCII-fies all but ~500 entries. Those entries are mostly asian scripts that cannot easily be alphabetized, with some instances of incorrect UTF-8 (e.g. double-encoded german characters). Those characters are ignored/removed since they cannot be displayed by the radio anyway.<br><br>I hope that this could be included in a future CPS release, to better reflect european languages in the limited available character set.<br><br>73 de SA0ASM<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2083&amp;sid=417d4925bdfcaef7bcab5849d7d47dc8">DmrIdDbConverter.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5231">SA0ASM</a> — Wed Jan 10, 2024 4:26 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3282" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-04T06:40:45</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3282</id>
+
+		<entry>
+		<author><name><![CDATA[KJ5DFL]]></name></author>
+		<updated>2025-01-04T06:40:45</updated>
+
+		<published>2025-01-04T06:40:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34986#p34986</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34986#p34986"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34986#p34986"><![CDATA[
+Not to toot my own horn too much, but a little while ago I put together a small Python script to automatically convert RepeaterBook CSV exports into CSVs suitable for the CPS.<br><a href="https://www.opengd77.com/viewtopic.php?t=4038" class="postlink">viewtopic.php?t=4038</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6136">KJ5DFL</a> — Sat Jan 04, 2025 6:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ7PTE]]></name></author>
+		<updated>2024-12-11T11:12:12</updated>
+
+		<published>2024-12-11T11:12:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34549#p34549</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34549#p34549"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34549#p34549"><![CDATA[
+It works, thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=52">SQ7PTE</a> — Wed Dec 11, 2024 11:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-12-11T10:55:24</updated>
+
+		<published>2024-12-11T10:55:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34547#p34547</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34547#p34547"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34547#p34547"><![CDATA[
+When you change the order of the channels you must make sure that you are copying and moving the entire row of excel cells. <br><br>You must also then update the channel number cells to be in the correct order. When importing the channel number is used to determine the location the channel will be stored in. The actual order of the rows is not important. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Dec 11, 2024 10:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ7PTE]]></name></author>
+		<updated>2024-12-11T05:19:11</updated>
+
+		<published>2024-12-11T05:19:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34543#p34543</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34543#p34543"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=34543#p34543"><![CDATA[
+What am I doing wrong?<br>In CPS I export CSV, change (edit) the channel order in Excel, save the file and then Import via CPS and my changes made during editing are not there... Why?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=52">SQ7PTE</a> — Wed Dec 11, 2024 5:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-08-16T04:18:25</updated>
+
+		<published>2024-08-16T04:18:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32521#p32521</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32521#p32521"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32521#p32521"><![CDATA[
+<blockquote class="uncited"><div>You don't need to set the Use Location checkbox in the CPS, just use a spreadsheet to insert Yes into all the rows</div></blockquote>Sounds easy enough!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Fri Aug 16, 2024 4:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-14T21:13:07</updated>
+
+		<published>2024-08-14T21:13:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32506#p32506</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32506#p32506"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32506#p32506"><![CDATA[
+You don't need to set the Use Location checkbox in the CPS, just use a spreadsheet to insert Yes into all the rows<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Aug 14, 2024 9:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-08-14T14:36:31</updated>
+
+		<published>2024-08-14T14:36:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32504#p32504</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32504#p32504"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32504#p32504"><![CDATA[
+Oh, I was referring to Channels.csv only. That's the only file RepeaterBook exports. Until recently it didn't include the APRS, latitude, longitude columns in the Channels.csv file he exported. Even though the Channels.csv file his website produced was missing the last three columns, the exported file imported into the CPS just fine, which is why I'm speculating that the addition of the Use Location column at the end of the column list won't cause any issues.<br><br>I do think it will require me to go through and check the "use location" box though for each channel in that imported Channels.csv file that included position information. That's the part I plan on testing. I'm also considering reaching back out to the Repeater Book developer to see if he can include the new "use location" column in the Channels.csv export and have the value be set to yes if the export is including position information for that particular channel, although I'm a bit hesitant to ask him for additional programming after he <em class="text-italics">just</em> added the location APRS and location columns in the Channels.csv export file.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Aug 14, 2024 2:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-14T03:32:52</updated>
+
+		<published>2024-08-14T03:32:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32499#p32499</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32499#p32499"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32499#p32499"><![CDATA[
+<blockquote class="uncited"><div>Well the old RepeaterBook export didn't include the APRS, lat, and log columns and the CPS used to ingest it just fine, I'm sure it won't be an issue with the new column on the end. </div></blockquote><br>The change is to the Channels csv not the APRS.<br><br>The Lat/Long in the APRS is for operators who don't have a radio with GPS but operate in multiple fixed locations,  so that they can set-up different APRS configs for each location and then use the Lat/Long associated with each APRS config.<br><br>The Channels Lat/Long is used to show the distance from a repeater and can also be used to sort the channels in a zone, (for display purposes).<br><br>Hence I can't see a use case for the RepeaterBook repeater location (Lat/Long) being used for the APRS configs<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Aug 14, 2024 3:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-08-14T02:33:41</updated>
+
+		<published>2024-08-14T02:33:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32498#p32498</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32498#p32498"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32498#p32498"><![CDATA[
+<blockquote class="uncited"><div>The new column is at the end</div></blockquote>Well the old RepeaterBook export didn't include the APRS, lat, and log columns and the CPS used to ingest it just fine, I'm sure it won't be an issue with the new column on the end. Sounds like I'd have to go through the cqodeplug and manually check the use location checkbox though for each repeater with position information if I'm understanding you correctly.<br><br>I'll be sure to test this as soon as I get a chance.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Aug 14, 2024 2:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-13T21:49:25</updated>
+
+		<published>2024-08-13T21:49:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32495#p32495</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32495#p32495"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32495#p32495"><![CDATA[
+<blockquote class="uncited"><div>Did the order of the columns change with the new "Use Location" field, or did you tack that onto the end? Sorry, I don't have a PC handy to install the CPS and test it (and won't for a few days).</div></blockquote>The new column is at the end<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 13, 2024 9:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-08-13T20:20:30</updated>
+
+		<published>2024-08-13T20:20:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32493#p32493</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32493#p32493"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32493#p32493"><![CDATA[
+Did the order of the columns change with the new "Use Location" field, or did you tack that onto the end? Sorry, I don't have a PC handy to install the CPS and test it (and won't for a few days).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Tue Aug 13, 2024 8:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-13T09:31:49</updated>
+
+		<published>2024-08-13T09:31:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32490#p32490</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32490#p32490"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32490#p32490"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I contacted the admin at RepeaterBook and sent my current code plug indicating the differences (APRS, Lat/Long and another field) and he seemed interested in helping change their format. We'll see what happens; the Lat/Long are in the GPX export so I took the time to grab the coordinates and put them in my file.</div></blockquote>Quick follow-up: The gentleman who runs RepeaterBook did add the APRS, LAT, and LOG columns to the OpenGD77 export on his site a couple of days ago. They have the position of a lot of the repeaters in the database, it will be nice to have that information in the export!</div></blockquote>I've made an update to the CPS Export/Import functionality, so that the "Use Location" check-box is now exported and imported<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/Experimental/OpenGD77CPSInstaller_R2024.08.13.01.exe" class="postlink">downloads/PC_CPS/Latest/Experimental/Op ... .13.01.exe</a><br><br>Previously the Use Location was not exported and the import function guessed whether Use Location should be used, based on whether the Lat/Long appeared to be valid.<br><br>However, I think it's better now that the "Use Location" column is being both exported and imported<br><br>I'm not sure how this affects the Repeater Book data, but ultimately its for individual operators to decided whether they want the Lat/Long for a repeater to be used or not, hence they can set that column in the spreadsheet accordingly<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 13, 2024 9:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-08-11T01:31:23</updated>
+
+		<published>2024-08-11T01:31:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32451#p32451</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32451#p32451"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=32451#p32451"><![CDATA[
+<blockquote class="uncited"><div>I contacted the admin at RepeaterBook and sent my current code plug indicating the differences (APRS, Lat/Long and another field) and he seemed interested in helping change their format. We'll see what happens; the Lat/Long are in the GPX export so I took the time to grab the coordinates and put them in my file.</div></blockquote>Quick follow-up: The gentleman who runs RepeaterBook did add the APRS, LAT, and LOG columns to the OpenGD77 export on his site a couple of days ago. They have the position of a lot of the repeaters in the database, it will be nice to have that information in the export!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Sun Aug 11, 2024 1:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[i5ekx]]></name></author>
+		<updated>2023-12-31T17:38:19</updated>
+
+		<published>2023-12-31T17:38:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=28366#p28366</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=28366#p28366"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=28366#p28366"><![CDATA[
+You're welcome, it's nothing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3315">i5ekx</a> — Sun Dec 31, 2023 5:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KJ5CIM]]></name></author>
+		<updated>2023-12-31T06:15:32</updated>
+
+		<published>2023-12-31T06:15:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3282&amp;p=28347#p28347</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=28347#p28347"/>
+		<title type="html"><![CDATA[Re: Repeater Book]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3282&amp;p=28347#p28347"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello all!<br>I've been trying to find a way to load a codeplug to my radio. I see that repeaterbook has an option to export as a OpenGD77 file under Radioddity, but the CPS doesn't seem to want to play nice with it or any other .csv I can find. I have 101 analog repeaters alone in my other radios not to mention the added DMR info the MD-UV390 would use. Has anyone figured out ANY WAY to load data besides manual entry. Any help would be appreciated!<br>KJ5CIM</div></blockquote><a href="https://www.iz8wnh.it/" class="postlink">https://www.iz8wnh.it/</a> Try this site, it has excellent functions also dedicated to OpenGD77</div></blockquote>I’m checking it out now. Just had to reflash the hotspot and turn on YSF for my new radio, but I did find out that several of the local repeaters I had saved are no longer in operation, so I should probably adjust my Codeplug. Thanks for the link!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4366">KJ5CIM</a> — Sun Dec 31, 2023 6:15 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

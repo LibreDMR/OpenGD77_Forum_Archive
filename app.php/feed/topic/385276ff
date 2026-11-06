@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3852" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-07T10:34:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3852</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-03-07T10:34:47</updated>
+
+		<published>2024-03-07T10:34:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30004#p30004</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30004#p30004"/>
+		<title type="html"><![CDATA[Re: MD-9600/RT-90 Schematic]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30004#p30004"><![CDATA[
+They are holes! <br><br>Because this is a schematic from a PCB design program you have to define everything that is connected together. The mounting holes have to be connected to ground. <br><br>This is also a very early schematic for V2 radios. It will not be correct for later versions. However it is the only one available. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Mar 07, 2024 10:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-07T10:06:54</updated>
+
+		<published>2024-03-07T10:06:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30003#p30003</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30003#p30003"/>
+		<title type="html"><![CDATA[Re: MD-9600/RT-90 Schematic]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30003#p30003"><![CDATA[
+<blockquote class="uncited"><div>Thanks I already have the schematic but didn't publish it becasue of copyright.</div></blockquote>OK<br><br>One thing I don't recognize is on the first page :<br><br>H1 Hole, H2 Hole etc<br><br>You know what it is?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Mar 07, 2024 10:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-07T09:05:05</updated>
+
+		<published>2024-03-07T09:05:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30002#p30002</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30002#p30002"/>
+		<title type="html"><![CDATA[Re: MD-9600/RT-90 Schematic]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30002#p30002"><![CDATA[
+Thanks I already have the schematic but didn't publish it becasue of copyright.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 07, 2024 9:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-07T08:46:07</updated>
+
+		<published>2024-03-07T08:46:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30000#p30000</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30000#p30000"/>
+		<title type="html"><![CDATA[MD-9600/RT-90 Schematic]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3852&amp;p=30000#p30000"><![CDATA[
+A schematic was posted to the Facebook OpenGD77 group, thanks to Duane !<br><br><a href="https://www.sa0bux.se/Ham/opengd77/ELECTRICAL%20SCHEME%20RT90%20&amp;%20MD9600.pdf" class="postlink">https://www.sa0bux.se/Ham/opengd77/ELEC ... MD9600.pdf</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Mar 07, 2024 8:46 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

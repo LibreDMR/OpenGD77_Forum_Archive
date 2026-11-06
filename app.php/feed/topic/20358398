@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2035" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-02T07:46:30</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2035</id>
+
+		<entry>
+		<author><name><![CDATA[BD1AMC]]></name></author>
+		<updated>2025-06-02T06:25:44</updated>
+
+		<published>2025-06-02T06:25:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37327#p37327</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37327#p37327"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37327#p37327"><![CDATA[
+[CMP]com_driver_files.zip  2024-10-12  17:2010910k<br>[CMP]Dfuse_3.0.6_drivers.zip 2023-09-30 13:58   3075k<br><br><a href="https://www.opengd77.com/downloads/drivers/" class="postlink">downloads/drivers/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8483">BD1AMC</a> — Mon Jun 02, 2025 6:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD1AMC]]></name></author>
+		<updated>2025-06-02T05:01:44</updated>
+
+		<published>2025-06-02T05:01:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37326#p37326</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37326#p37326"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37326#p37326"><![CDATA[
+<blockquote class="uncited"><div>The usual cause of this is the incorrect version of DFU driver</div></blockquote>I'll try different version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8483">BD1AMC</a> — Mon Jun 02, 2025 5:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD1AMC]]></name></author>
+		<updated>2025-06-02T07:46:30 </updated>
+
+		<published>2025-06-02T04:59:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37325#p37325</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37325#p37325"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37325#p37325"><![CDATA[
+<blockquote class="uncited"><div>Did you enter the firmware update mode and the display backlight was blinking?<br><br><br><em class="text-italics">TYT MD-9600 | Retevis RT-90<br>? Hold buttons P1 and orange button, while applying 12V power to the radio. <br>Note updating the OpenGD77 firmware to a newer version does not require the power to be removed and reconnected, just turn on the radio using the green / power button whilst holding P1 and orange will enter firmware update mode.</em></div></blockquote>? Hold buttons P1 and orange button, while applying 12V power to the radio.<br>? Hold buttons P1 and orange button, turn on the radio using the green / power button.<br><br>Are there differences between the two ways?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8483">BD1AMC</a> — Mon Jun 02, 2025 4:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-01T11:07:38</updated>
+
+		<published>2025-06-01T11:07:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37314#p37314</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37314#p37314"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37314#p37314"><![CDATA[
+The usual cause of this is the incorrect version of DFU driver<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 01, 2025 11:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC8OH]]></name></author>
+		<updated>2025-06-01T09:34:21</updated>
+
+		<published>2025-06-01T09:34:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37312#p37312</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37312#p37312"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37312#p37312"><![CDATA[
+Did you enter the firmware update mode and the display backlight was blinking?<br><br><br><em class="text-italics">TYT MD-9600 | Retevis RT-90<br>? Hold buttons P1 and orange button, while applying 12V power to the radio. <br>Note updating the OpenGD77 firmware to a newer version does not require the power to be removed and reconnected, just turn on the radio using the green / power button whilst holding P1 and orange will enter firmware update mode.</em><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6810">DC8OH</a> — Sun Jun 01, 2025 9:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD1AMC]]></name></author>
+		<updated>2025-06-01T08:03:42</updated>
+
+		<published>2025-06-01T08:03:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37311#p37311</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37311#p37311"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=37311#p37311"><![CDATA[
+<img src="https://www.opengd77.com/download/file.php?mode=view&amp;id=3002&amp;sid=6abcc8628728369a8ac1f196f4ce80cd" class="postimage" alt="Image"><br>I followed the instructions to install it, but it didn't work.<br>Not sure what went wrong.<br>My radio is without GPS version<br>Built 20240803140701 HW V2<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3002&amp;sid=7a823a1e184d718042232c6edca95b26" class="postimage" alt="nonono" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8483">BD1AMC</a> — Sun Jun 01, 2025 8:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CS7BAX]]></name></author>
+		<updated>2025-04-27T15:42:35</updated>
+
+		<published>2025-04-27T15:42:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=36926#p36926</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=36926#p36926"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=36926#p36926"><![CDATA[
+Hello everyone,<br><br>I am in the process of installing openGD77 on my TYT MD-9600 radio, but the links to the original firmware files are not available.<br><br>Firmware MD9600 V1, V2 and V3. <a href="https://open-dmr.fr/telecharger/firmwar" class="postlink">https://open-dmr.fr/telecharger/firmwar</a> ... -versions/<br>Firmware MD9600 V4. <a href="https://open-dmr.fr/telecharger/firmwar" class="postlink">https://open-dmr.fr/telecharger/firmwar</a> ... d-9600-v4/<br>MD9600 DMR download software. <a href="https://open-dmr.fr/telecharger/logicie" class="postlink">https://open-dmr.fr/telecharger/logicie</a> ... e-md-9600/<br>MD9600 Driver windows. <a href="https://open-dmr.fr/telecharger/drivers" class="postlink">https://open-dmr.fr/telecharger/drivers</a> ... in7-vista/<br>CPS MD9600 V1, V2 and V3. <a href="https://open-dmr.fr/telecharger/editeur" class="postlink">https://open-dmr.fr/telecharger/editeur</a> ... t-md-9600/<br>CPS MD9600 V4. <a href="https://open-dmr.fr/telecharger/editeur" class="postlink">https://open-dmr.fr/telecharger/editeur</a> ... d-9600-v4/<br><br>Would it be possible for a radio amateur to provide the original firmware files for this equipment?<br><br>I specifically need the original file for WH version 1 of the equipment.<br><br>This one:<br>Firmware MD9600 V1, V2 and V3. <a href="https://open-dmr.fr/telecharger/firmwar" class="postlink">https://open-dmr.fr/telecharger/firmwar</a> ... -versions/<br><br>Thanks<br><br>73<br>From <br><br>CS7BAX<br><br>Luis Serrano<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8516">CS7BAX</a> — Sun Apr 27, 2025 3:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[py4hz]]></name></author>
+		<updated>2024-12-06T17:58:12</updated>
+
+		<published>2024-12-06T17:58:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34454#p34454</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34454#p34454"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34454#p34454"><![CDATA[
+THANK YOU VERY MUCH 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6971">py4hz</a> — Fri Dec 06, 2024 5:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-12-06T16:32:18</updated>
+
+		<published>2024-12-06T16:32:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34446#p34446</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34446#p34446"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34446#p34446"><![CDATA[
+<blockquote class="uncited"><div>Hello everyone, I have a TYT 9600 and I installed opengd77. I would like to know if this is the latest version of opengd77, the TYT9600 radio version V5. Thank you all.<br>Alexandre Brasil<br><br><img src="" class="postimage" alt="Image"></div></blockquote>Latest version is 20241018<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Dec 06, 2024 4:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[py4hz]]></name></author>
+		<updated>2024-12-06T15:54:31</updated>
+
+		<published>2024-12-06T15:54:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34445#p34445</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34445#p34445"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=34445#p34445"><![CDATA[
+Hello everyone, I have a TYT 9600 and I installed opengd77. I would like to know if this is the latest version of opengd77, the TYT9600 radio version V5. Thank you all.<br>Alexandre Brasil<br><br><img src="" class="postimage" alt="Image"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2771&amp;sid=7a823a1e184d718042232c6edca95b26" class="postimage" alt="tyt9600.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6971">py4hz</a> — Fri Dec 06, 2024 3:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K4URO]]></name></author>
+		<updated>2024-10-11T18:27:51</updated>
+
+		<published>2024-10-11T18:27:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33438#p33438</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33438#p33438"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33438#p33438"><![CDATA[
+<blockquote class="uncited"><div><br><br><br>The radio will be Rx only on the VFO unless you upload a codeplug, or go into the Channel Details screen for the VFO and disable Rx only</div></blockquote>It's working. Thanks. Now all I have to do is figure out how to use this radio, codeplugs, DMR etc., but that's part of the fun. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_surprised.gif" width="15" height="17" alt=":o" title="Surprised"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7030">K4URO</a> — Fri Oct 11, 2024 6:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-11T02:14:57</updated>
+
+		<published>2024-10-11T02:14:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33432#p33432</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33432#p33432"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33432#p33432"><![CDATA[
+<blockquote class="uncited"><div>Now I installed the firmware. Everything seemed to go well. I manually set the frequency to 146.82, that of a nearby repeater. I could hear the usual people on that frequency. I try to transmit and the display just shows ERROR Rx Only. I can't transmit on any frequency. Someone please help.</div></blockquote>The radio will be Rx only on the VFO unless you upload a codeplug, or go into the Channel Details screen for the VFO and disable Rx only<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 11, 2024 2:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K4URO]]></name></author>
+		<updated>2024-10-11T01:35:14</updated>
+
+		<published>2024-10-11T01:35:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33431#p33431</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33431#p33431"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33431#p33431"><![CDATA[
+Now I installed the firmware. Everything seemed to go well. I manually set the frequency to 146.82, that of a nearby repeater. I could hear the usual people on that frequency. I try to transmit and the display just shows ERROR Rx Only. I can't transmit on any frequency. Someone please help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7030">K4URO</a> — Fri Oct 11, 2024 1:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-10T19:31:36</updated>
+
+		<published>2024-10-10T19:31:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33423#p33423</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33423#p33423"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33423#p33423"><![CDATA[
+<blockquote class="uncited"><div><br><br>That driver worked. However, it took some time to figure out how to delete the drivers that I had already tried and installed that were incompatible. The add or remove device tool would not remove the sttub30.sys. I ended up going to cmd prompt as administrator and force removed it once I knew what the files real name was in the system with a .inf ending. But, thank you. The new driver works with all of the Windows 11 core security enabled.</div></blockquote><br>Ok. It's good to know that the correct driver does not have the core isolation bug<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 10, 2024 7:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K4URO]]></name></author>
+		<updated>2024-10-10T13:08:17</updated>
+
+		<published>2024-10-10T13:08:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33420#p33420</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33420#p33420"/>
+		<title type="html"><![CDATA[Re: MD-9600 / RT-90 Installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2035&amp;p=33420#p33420"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I have been battling installation for 3 days. I could not get my USB A to mini USB cable to be recognized by Windows 11. I tried everything, I thought. However, I finally got it to work by turning off core isolation/memory integrity in Windows 11. It works normally with this off. But, I really don't want to leave this off. Does anyone know of an updated driver for USB mini cables for Windows 11, or any other setting that would make the cable compatible with Windows 11 with the security settings enabled?<br><br>I still have not installed OpenGD77, but at least I can communicate with the radio now.</div></blockquote>Which driver are you using.<br><br>Did you try the one on this site<br><br><a href="https://www.opengd77.com/downloads/drivers/" class="postlink">downloads/drivers/</a><br><br><br><br>If you did use that driver...<br><br>I did a quick search and found this thread on Microsoft's  Answers forum<br><br><a href="https://answers.microsoft.com/en-us/windows/forum/all/sttub30sys-stmicroelectronics-incompatible-driver/9acf3a29-6069-4418-8ddf-72f9551ded8d" class="postlink">https://answers.microsoft.com/en-us/win ... f9551ded8d</a><br><br>Which suggests that one of the files has a newer version</div></blockquote>That driver worked. However, it took some time to figure out how to delete the drivers that I had already tried and installed that were incompatible. The add or remove device tool would not remove the sttub30.sys. I ended up going to cmd prompt as administrator and force removed it once I knew what the files real name was in the system with a .inf ending. But, thank you. The new driver works with all of the Windows 11 core security enabled.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7030">K4URO</a> — Thu Oct 10, 2024 1:08 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

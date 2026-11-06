@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/14" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-19T20:20:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/14</id>
+
+		<entry>
+		<author><name><![CDATA[PU2LMS]]></name></author>
+		<updated>2025-07-19T20:20:29</updated>
+
+		<published>2025-07-19T20:20:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4228&amp;p=37743#p37743</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4228&amp;p=37743#p37743"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug BRASIL Repetidoras e Hotspot com as Redes DMR/TGIF/DMR+/YSF/SYS-X/XLX 062 TG 6]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4228&amp;p=37743#p37743"><![CDATA[
+Obrigado, é o melhor codeplug que já usei até hoje, muito bem organizado e completo para a região !!<br><br>73 !!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8792">PU2LMS</a> — Sat Jul 19, 2025 8:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KF4NQN]]></name></author>
+		<updated>2025-07-13T19:04:04</updated>
+
+		<published>2025-07-13T19:04:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5213&amp;p=37706#p37706</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5213&amp;p=37706#p37706"/>
+		<title type="html"><![CDATA[Codeplugs • USA SC PRN Codeplug in progress.]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5213&amp;p=37706#p37706"><![CDATA[
+hello, everyone<br> I don't see any Code plugs for SC. here is an initial one as it needs cleaning up and adding some non SCHEART repeaters<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=3036&amp;sid=baf46414d97f3f333750b123e58aad2a">KF4NQN_JUL11_2025.g77</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8919">KF4NQN</a> — Sun Jul 13, 2025 7:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2cuz]]></name></author>
+		<updated>2025-06-22T03:44:49</updated>
+
+		<published>2025-06-22T03:44:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4490&amp;p=37533#p37533</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=37533#p37533"/>
+		<title type="html"><![CDATA[Codeplugs • Re: opengd77 codeplug generator]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=37533#p37533"><![CDATA[
+Thanks for your work!<br><br>Is it possible to add GPS coordinates (ROAMING) by city to your PY script using this API?<br><br>Thanks again, 73! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><br><br><a href="https://operations.osmfoundation.org/policies/nominatim/" class="postlink">https://operations.osmfoundation.org/po ... nominatim/</a><br><br><a href="https://nominatim.openstreetmap.org/search?q=Saint-Jerome,+Quebec,+Canada&amp;format=json" class="postlink">https://nominatim.openstreetmap.org/sea ... ormat=json</a>  <br><br>reponse json = <br><br>[<br>  {<br>    "place_id": 342728519,<br>    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. <a href="http://osm.org/copyright" class="postlink">http://osm.org/copyright</a>",<br>    "osm_type": "relation",<br>    "osm_id": 7698652,<br>    "lat": "45.7780402",<br>    "lon": "-74.0033272",<br>    "class": "boundary",<br>    "type": "administrative",<br>    "place_rank": 16,<br>    "importance": 0.464032037502361,<br>    "addresstype": "city",<br>    "name": "Saint-Jérôme",<br>    "display_name": "Saint-Jérôme, La Rivière-du-Nord, Laurentides, Québec, Canada",<br>    "boundingbox": [<br>      "45.7433599",<br>      "45.8503960",<br>      "-74.1438790",<br>      "-73.9476576"<br>    ]<br>  }<br>]<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8653">ve2cuz</a> — Sun Jun 22, 2025 3:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-06-10T14:30:36</updated>
+
+		<published>2025-06-10T14:30:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4530&amp;p=37464#p37464</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4530&amp;p=37464#p37464"/>
+		<title type="html"><![CDATA[Codeplugs • Re: CodePlug for Quebec (Canada) (BrandMeister)]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4530&amp;p=37464#p37464"><![CDATA[
+Last update ... June 10, 2025.<br><br>added :<br><br>VE2RHP 443.7500 MHz (+5.000) CC1 (L'Avenir)<br><a href="https://brandmeister.network/?page=device&amp;id=302216" class="postlink">https://brandmeister.network/?page=device&amp;id=302216</a><br>* No location *<br><br>VA2RDG  443.1500 MHz (+5.000) CC1 (Victoriaville)<br><a href="https://brandmeister.network/?page=device&amp;id=302225" class="postlink">https://brandmeister.network/?page=device&amp;id=302225</a><br>* No location *<br><br>VE2RAU 444.5250 MHz (+5.000) CC1 (MONT-YAMASKA) <br><a href="https://brandmeister.network/?page=device&amp;id=302217" class="postlink">https://brandmeister.network/?page=device&amp;id=302217</a><br>* No location *<br><br>VE2RAU 146.7750 MHz  (-.600) CC1 (MONT-YAMASKA)<br><a href="https://brandmeister.network/?page=device&amp;id=302252" class="postlink">https://brandmeister.network/?page=device&amp;id=302252</a> <br>* No location *<br><br>VE2OCZ 449.9500 MHz (-5) CC1 (Havelock)<br><a href="https://brandmeister.network/?page=device&amp;id=302210" class="postlink">https://brandmeister.network/?page=device&amp;id=302210</a><br>(45.0199810, -73.8282810)<br><br>** Also added WX and Marines frequencies (analog) **<br><br>DMR HowTo : <a href="https://ve2ymm.com/dmr" class="postlink">https://ve2ymm.com/dmr</a> (Select your language on the top right)<br><br>IMPORTANT: Please change your DMR ID and callsign. Hotspots are here for my personal use. Edit or delete them if you are not using them.<br><br>Yves,<br>ve2ymm.com<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=3021&amp;sid=baf46414d97f3f333750b123e58aad2a">GD77_0110_250610a.g77</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Tue Jun 10, 2025 2:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-06-10T14:24:09</updated>
+
+		<published>2025-06-10T14:24:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4530&amp;p=37463#p37463</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4530&amp;p=37463#p37463"/>
+		<title type="html"><![CDATA[Codeplugs • Re: CodePlug for Quebec (Canada) (BrandMeister)]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4530&amp;p=37463#p37463"><![CDATA[
+Merci pour le retour <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Tue Jun 10, 2025 2:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-06-09T13:19:09</updated>
+
+		<published>2025-06-09T13:19:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37452#p37452</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37452#p37452"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37452#p37452"><![CDATA[
+Dzi?ki za informacj?, zatem ja ju? zawieszam swoj? dzia?alno?? bo na podstawie filmu ka?dy ju? jest w stanie ogarn?? to sobie sam.<br><br>Thanks for the information, so I'm suspending my activity because based on the film everyone is able to handle it on their own.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Mon Jun 09, 2025 1:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HF6TE]]></name></author>
+		<updated>2025-06-09T13:04:48</updated>
+
+		<published>2025-06-09T13:04:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37451#p37451</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37451#p37451"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37451#p37451"><![CDATA[
+w Polsce <strong class="text-strong">Mapy73pl</strong> ?adnie generuj? gotowe paczki z przemiennikami dla <strong class="text-strong">OpenGD77</strong>. Dla przyk?adu przemiennik DMR <a href="https://mapy73.pl/repeater/SR9SR" class="postlink">SR9SR</a> ma uzupe?nion? lokalizacj?, Color Code, Time Slot i grup? rozmow? a je?li dodamy go do exportu, to te wszystkie parametry zaimportuj? si? do CPS ??cznie z dodaniem przemiennika do strefy dla okr?gu 9. Dane dla przemienników DMR wygl?daj? na aktualne.<br><br>poni?ej film<strong class="text-strong"> jak wygl?da import przemienników DMR do OpenGD77</strong> (film po Polsku ale dost?pne s? te? napisy w j?zyku angielskim)<br> <strong>iframe</strong> <br><a href="http://youtu.be/iOTE3sBbiu4">youtu.be/iOTE3sBbiu4</a><br><br>[ENG]<br>in Poland <strong class="text-strong">Mapy73pl</strong> nicely prepare packages with repeaters for <strong class="text-strong">OpenGD77</strong>. For example, the DMR repeater <a href="https://mapy73.pl/repeater/SR9SR" class="postlink">SR9SR</a> has the location, Color Code, Time Slot and Talk Group filled in and if we add it to the export, all these parameters will be imported to CPS including adding the repeater to the zone for district 9. The data for DMR repeaters seems to be up to date.<br><br>Below is a film showing<strong class="text-strong"> how the import of DMR repeaters to OpenGD77</strong>  (film in Polish but English subtitles are also available)<br> <strong>iframe</strong> <br><a href="http://youtu.be/iOTE3sBbiu4">youtu.be/iOTE3sBbiu4</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8748">HF6TE</a> — Mon Jun 09, 2025 1:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-06-09T03:37:33</updated>
+
+		<published>2025-06-09T03:37:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37437#p37437</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37437#p37437"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37437#p37437"><![CDATA[
+Tak, zdaj? sobie spraw?, ?e kilka rzeczy mo?e tam by? ju? nieaktualnych, stan przemienników na stycze? 2025. Mo?e w okresie wakacyjnym uda mi si? zaktualizowa? list?, nic jednak nie obiecuj? bo wymaga to sporo czasu, którego to ci?gle jako? brak  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><br>Yes, I realize that a few things may be out of date there, the state of the repeaters as of January 2025. Maybe during the holiday season I will be able to update the list, but I do not promise anything because it requires a lot of time, which is still somehow missing;)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Mon Jun 09, 2025 3:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-06-08T22:59:58</updated>
+
+		<published>2025-06-08T22:59:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37433#p37433</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37433#p37433"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37433#p37433"><![CDATA[
+<blockquote class="uncited"><div>PL: Cps nie zmienia numerów kana?ów gdy co? usuniesz. Zostaje "dziura" po pustych kana?ach. Musisz edytowa? plik CSV. Mo?esz te? pobra? nowy codeplug, tam usun??em dPMR i poprawi?em numeracj? pozosta?ych kana?ów.<br><br>EN: CPS does not change channel numbers when you delete something. There is a "hole" on the empty canals. You need to edit the CSV file. You can also download the new codeplug, where I removed dPMR and fixed the numbering of other channels.</div></blockquote>Dzi?ki. W sumie sam potem na to wpad?em i to zrobi?em. tak w?a?nie trzeba robi?. Bardzo serdecznie dzi?kuje za pomoc. Aha, w tym pliku brakuje jednego przemiennika w Warszawie tj SR5WL oraz jest b??d dla przemiennika SR2J (o ile dobrze pami?tam bo poprawia?em go 2 tygodnie temu) dlatego przesy?am  poprawki. <br><br>[ENG]<br>Thanks. Actually, I figured it out myself and did it. That's how it should be done. Thank you very much for your help. Oh, and this file is missing one repeater in Warsaw, i.e. SR5WL, and there is an error for the SR2J repeater (if I remember correctly because I corrected it 2 weeks ago), so I'm sending  corrected codeplug.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=3018&amp;sid=baf46414d97f3f333750b123e58aad2a">codeplug 20250609.g77</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Sun Jun 08, 2025 10:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-06-08T22:10:40</updated>
+
+		<published>2025-06-08T22:10:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37429#p37429</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37429#p37429"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37429#p37429"><![CDATA[
+PL: Cps nie zmienia numerów kana?ów gdy co? usuniesz. Zostaje "dziura" po pustych kana?ach. Musisz edytowa? plik CSV. Mo?esz te? pobra? nowy codeplug, tam usun??em dPMR i poprawi?em numeracj? pozosta?ych kana?ów.<br><br>EN: CPS does not change channel numbers when you delete something. There is a "hole" on the empty canals. You need to edit the CSV file. You can also download the new codeplug, where I removed dPMR and fixed the numbering of other channels.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Sun Jun 08, 2025 10:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-06-08T23:01:08 </updated>
+
+		<published>2025-06-08T22:03:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37428#p37428</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37428#p37428"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37428#p37428"><![CDATA[
+Koledzy, mam jeszcze jeden problem. Usun??em ze swojej wtyczki te kana?y dPMR i wybieraj?c po numerze kana?u (mówi? o kana?ach wy?szych ni? te usuniete) ta numeracja powinna si? obni?y? a tymczasem n SR5WP nadal jest wybierany w radiu pod numerem 544 a nie 512 (jak powinno to by?) - czy wiecie jak to zaaktualizowa?? <br><br>[ENG]<br>Colleagues, I have another problem. I removed these dPMR channels from my plugin and by selecting the channel number (I'm talking about channels higher than the removed ones) this numbering should go down, but in the meantime n SR5WP is still selected on the radio under number 544 and not 512 (as it should be) - do you know how to update it?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Sun Jun 08, 2025 10:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-06-08T20:18:10</updated>
+
+		<published>2025-06-08T20:18:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37426#p37426</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37426#p37426"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37426#p37426"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Last warning: this is an English language forum.</div></blockquote>Excuse me very much. I took the liberty of using Polish because it is a codeplug for Poland and not everyone knows English. Of course, this will not happen again.</div></blockquote>Okay.<br><br>At least you can add the English translation in the posts, along the Polish text.</div></blockquote>Sure, excuse me once again.<br>73!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Sun Jun 08, 2025 8:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-08T20:11:07</updated>
+
+		<published>2025-06-08T20:11:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37425#p37425</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37425#p37425"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37425#p37425"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Last warning: this is an English language forum.</div></blockquote>Excuse me very much. I took the liberty of using Polish because it is a codeplug for Poland and not everyone knows English. Of course, this will not happen again.</div></blockquote>Okay.<br><br>At least you can add the English translation in the posts, along the Polish text.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jun 08, 2025 8:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-06-08T19:17:02</updated>
+
+		<published>2025-06-08T19:17:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37424#p37424</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37424#p37424"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37424#p37424"><![CDATA[
+<blockquote class="uncited"><div>Last warning: this is an English language forum.</div></blockquote>Excuse me very much. I took the liberty of using Polish because it is a codeplug for Poland and not everyone knows English. Of course, this will not happen again.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Sun Jun 08, 2025 7:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-08T18:17:36</updated>
+
+		<published>2025-06-08T18:17:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37423#p37423</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37423#p37423"/>
+		<title type="html"><![CDATA[Codeplugs • Re: Codeplug for Poland]]></title>
+
+					<category term="Codeplugs" scheme="http://localhost/opengd77/viewforum.php?f=14" label="Codeplugs"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2543&amp;p=37423#p37423"><![CDATA[
+Last warning: this is an English language forum.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jun 08, 2025 6:17 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

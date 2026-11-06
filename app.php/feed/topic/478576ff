@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4785" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-05T04:06:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4785</id>
+
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-07-05T04:06:59</updated>
+
+		<published>2025-07-05T04:06:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37660#p37660</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37660#p37660"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37660#p37660"><![CDATA[
+Thanks, but I've already looked at many firmwares from the C7000 and they are all the same, the codec code is loaded into IRAM, I was hoping to find one that would work on flash like the STM32<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Sat Jul 05, 2025 4:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-28T04:00:23</updated>
+
+		<published>2025-06-28T04:00:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37583#p37583</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37583#p37583"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37583#p37583"><![CDATA[
+<blockquote class="uncited"><div>who can read the firmware from this station using the utility <a href="https://drive.google.com/file/d/1ITVNKFgFZNeFsl8lruPI4TklTw6CKSct/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1ITVNKF ... sp=sharing</a>, second tab, reading GD25Q16</div></blockquote>can it be done with Ailunce HD1 V2 (the one that uses C7000)?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sat Jun 28, 2025 4:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-27T12:51:32</updated>
+
+		<published>2025-06-27T12:51:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37572#p37572</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37572#p37572"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37572#p37572"><![CDATA[
+who can read the firmware from this station using the utility <a href="https://drive.google.com/file/d/1ITVNKFgFZNeFsl8lruPI4TklTw6CKSct/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1ITVNKF ... sp=sharing</a>, second tab, reading GD25Q16<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Fri Jun 27, 2025 12:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-09T20:40:50</updated>
+
+		<published>2025-04-09T20:40:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36680#p36680</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36680#p36680"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36680#p36680"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>And remember that almost all the radio brands such as Retevis, Ailunce, Baofeng, Anytone, Radioditty etc. is just label brands.<br>Someone else make the hardware and software and put on different labels depending of the brand.</div></blockquote>Any idea who the actual company is who makes these things, &amp; sells them to the companies whose names we’re familiar with? Many models are the same between companies. Eg, the Retevis RT3S, &amp; TYT MDUV380. So who’s at the top of the food chain with these radios? GARY.</div></blockquote>TYT manufacture the UV380/380 hardware, which Retevis rebrands / repackages<br><br>No one knows who writes the firmware. It's not TYT or Retevis.<br><br>The secretary surrounding who writes the firmware probably means it's a Chinese government department<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Apr 09, 2025 8:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-04-09T14:22:35</updated>
+
+		<published>2025-04-09T14:22:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36677#p36677</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36677#p36677"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36677#p36677"><![CDATA[
+<blockquote class="uncited"><div>And remember that almost all the radio brands such as Retevis, Ailunce, Baofeng, Anytone, Radioditty etc. is just label brands.<br>Someone else make the hardware and software and put on different labels depending of the brand.</div></blockquote>Any idea who the actual company is who makes these things, &amp; sells them to the companies whose names we’re familiar with? Many models are the same between companies. Eg, the Retevis RT3S, &amp; TYT MDUV380. So who’s at the top of the food chain with these radios? GARY.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Wed Apr 09, 2025 2:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-09T10:10:11</updated>
+
+		<published>2025-04-09T10:10:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36674#p36674</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36674#p36674"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36674#p36674"><![CDATA[
+Ailunce firmware deployment is different than Baofeng or TYT or Anytone etc, becuase the encrypted firmware binary is inside the loader exe.<br><br>Most, but not all, other radios have separate files for the firmware, and a common loader program which uses those files.<br><br>IIRC Radtel is the only other radio brand which I know uses the same deployment method, but the Radtel firmware exe are written in C# and its farily easy to extract the encrypted firmware binary, whereas the Ailunce firmware loader is written in C++ making it much more difficult to extract the encrypted firmware binary.<br><br><br>Also. IIRC, The Ailunce HD1 has similar hardware to the GD-77, i.e using the MK22 MCU, but its unclear whether this HD2, even though its marketed as an updated HD1 still uses the MK22 MCU or whether it uses the STM32 like the MD-UV380 etc, or whether it still uses the MK22 or whether it uses the C7000 DMR chip which contains the MCU e.g. like the Radioddity GD-88<br><br>Despite all these radios looking physically similar, there can be huge differences in the internal hardware and also in the way that the firmware is packaged, and how its encrypted, and how the firmware loading process works.<br><br>I'm constantly surprised at why people seem to think that the OpenGD77 firmware and ecosystem, written to work with specific radio hardware could possibly work with other unknown radios, with possibly completely different hardware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Apr 09, 2025 10:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-09T09:10:47</updated>
+
+		<published>2025-04-09T09:10:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36673#p36673</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36673#p36673"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36673#p36673"><![CDATA[
+And remember that almost all the radio brands such as Retevis, Ailunce, Baofeng, Anytone, Radioditty etc. is just label brands.<br>Someone else make the hardware and software and put on different labels depending of the brand.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Apr 09, 2025 9:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-09T07:00:23</updated>
+
+		<published>2025-04-09T07:00:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36671#p36671</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36671#p36671"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36671#p36671"><![CDATA[
+<blockquote class="uncited"><div>well, if somebody have direct contact with Ailunce developers and they can share their SDK tools and radios diagrams, then it will be possible.</div></blockquote>And their encryption system and encryption keys, and firmware loader source code.<br><br>Assuming it uses the same DMR chip C6000, which is unlikely as all new radios use the C7000<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Apr 09, 2025 7:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-09T05:02:02</updated>
+
+		<published>2025-04-09T05:02:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36669#p36669</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36669#p36669"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36669#p36669"><![CDATA[
+well, if somebody have direct contact with Ailunce developers and they can share their SDK tools and radios diagrams, then it will be possible.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Apr 09, 2025 5:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2025-04-09T02:04:03</updated>
+
+		<published>2025-04-09T02:04:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36665#p36665</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36665#p36665"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=36665#p36665"><![CDATA[
+But it has the same buttons as the RT3S<img alt="🤣" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f923.svg"><img alt="🤣" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f923.svg"><img alt="🤣" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f923.svg"><br><br>All kidding aside it would be cool to have another option for opengd77!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Wed Apr 09, 2025 2:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-22T11:19:48</updated>
+
+		<published>2025-01-22T11:19:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=35270#p35270</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=35270#p35270"/>
+		<title type="html"><![CDATA[Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=35270#p35270"><![CDATA[
+no, unless somebody crack it or somebody find the complete SDK for that radio or for radios that uses C7000 SoC.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Jan 22, 2025 11:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-01-22T03:36:49</updated>
+
+		<published>2025-01-22T03:36:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=35247#p35247</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=35247#p35247"/>
+		<title type="html"><![CDATA[Is Retevis Ailunce HD2 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=35247#p35247"><![CDATA[
+Is the Retevis Ailunce HD2 supported?<br><br>ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Wed Jan 22, 2025 3:36 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2427" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-16T22:04:56</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2427</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-16T22:04:56</updated>
+
+		<published>2022-10-16T22:04:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2427&amp;p=20127#p20127</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2427&amp;p=20127#p20127"/>
+		<title type="html"><![CDATA[FYI. Battery life]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2427&amp;p=20127#p20127"><![CDATA[
+FYI<br><br>I measured the current consumed by the UV380 when in its power saving phase as part of the Eco modes, and the current consumed was 33mA.<br><br>Under the same conditions, the GD-77 only consumes 19mA.<br><br>So the battery life of the UV380 / RT-3S will probably be about 30% worse than the GD-77<br><br>It may be possible to reduce the current consumption of the UV380 / RT-3S slighly by configuring the display controller into its power saving mode, as I think the display controller takes 6mA, howerver there are many other more important things that need to be fixed on the UV380/RT-3S<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 16, 2022 10:04 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

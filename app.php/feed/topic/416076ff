@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4160" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-20T07:44:22</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4160</id>
+
+		<entry>
+		<author><name><![CDATA[G0YNM]]></name></author>
+		<updated>2024-06-20T07:44:22</updated>
+
+		<published>2024-06-20T07:44:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31712#p31712</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31712#p31712"/>
+		<title type="html"><![CDATA[Re: new md9600 TDMA pulse on TX from speaker]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31712#p31712"><![CDATA[
+Thanks Colin, i shall try that before reverting back to the factory firmware &amp; opening a Ebay return.. if i am able.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6264">G0YNM</a> — Thu Jun 20, 2024 7:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-06-19T14:36:08</updated>
+
+		<published>2024-06-19T14:36:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31706#p31706</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31706#p31706"/>
+		<title type="html"><![CDATA[Re: new md9600 TDMA pulse on TX from speaker]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31706#p31706"><![CDATA[
+If you are getting pulse breakthrough then there is a fault with the set. About the only thing you could try is reseating the ribbon cable between the front panel and the main body.  That carries audio to and from the volume control so a bad ground could induce noise. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Jun 19, 2024 2:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0YNM]]></name></author>
+		<updated>2024-06-19T13:09:46</updated>
+
+		<published>2024-06-19T13:09:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31705#p31705</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31705#p31705"/>
+		<title type="html"><![CDATA[new md9600 TDMA pulse on TX from speaker]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4160&amp;p=31705#p31705"><![CDATA[
+just got this set new from china, installed opengd77 on and it all works 90% except the TDMA pulse is audible through the sets speaker, this in on any power level and also into a dummy load.<br>i opened the set up and there was a 4 in the model number so i installed v4 opengd77, but no signals heard so i tried v5 opengd77 and the rig works, except from this machine gun noise on TX.<br>i cant go in and do the mod for it as i have poor vision <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><br><br>can anyone help please ?<br>i may have to put the original firmware back on and return it to china i fear <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6264">G0YNM</a> — Wed Jun 19, 2024 1:09 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

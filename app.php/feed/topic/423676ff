@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4236" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-07-14T07:17:42</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4236</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-07-14T07:17:42</updated>
+
+		<published>2024-07-14T07:17:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4236&amp;p=32099#p32099</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4236&amp;p=32099#p32099"/>
+		<title type="html"><![CDATA[Release Candidate 1 Version 2024 07 14]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4236&amp;p=32099#p32099"><![CDATA[
+A Release Candidate 1 version of the firmware is now available.<br><br>This version will hopefully become the stable Release version for this half of the year.<br><br>There are no functional changes between this version and the last Beta. <br>The only changes were that some redundant code has been removed by Daniel F1RMB and that the development environment, compiler and SDK has been updated to the latest version.<br><br>See.<br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/720598ef91aa63105a62a799799e2718b546a1ad" class="postlink">downloads/GD77/Firmware/720598ef91aa631 ... 18b546a1ad</a><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">downloads/GD77/Firmware/Latest</a><br><br><br>If no new bugs are reported by the end of July, then this version will become the stable release version and the stable source code will be released<br><br>Edit.<br><br>This version has now been superseded by the RC2 version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 14, 2024 7:17 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

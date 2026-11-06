@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4538" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-31T09:50:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4538</id>
+
+		<entry>
+		<author><name><![CDATA[DA1TH]]></name></author>
+		<updated>2024-10-31T09:50:57</updated>
+
+		<published>2024-10-31T09:50:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33830#p33830</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33830#p33830"/>
+		<title type="html"><![CDATA[Re: Call not routed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33830#p33830"><![CDATA[
+<blockquote class="uncited"><div>I think you put the repeater DMR ID in the channel in your code plug?</div></blockquote>Bingo, after deleting the DMR ID in the channel form it works like a charm. I have to update my <a href="/viewtopic.php?f=12&amp;t=4183" class="postlink">CPS generator</a>.<br><br>Thanks a lot<br>Thomas<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6389">DA1TH</a> — Thu Oct 31, 2024 9:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-30T23:49:08</updated>
+
+		<published>2024-10-30T23:49:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33818#p33818</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33818#p33818"/>
+		<title type="html"><![CDATA[Re: Call not routed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33818#p33818"><![CDATA[
+<blockquote class="uncited"><div>I think you put the repeater DMR ID in the channel in your code plug?</div></blockquote>I'm going to update the text for this in the CPS, because several people seem to have entered their own DMR ID or the repeater DMR ID into this box, when its purpose if for when people have multiple DMR ID's which they use on different networks.<br><br>Just to re-iterate, Normally the DMR ID box on the Channel screen should be empty unless you are doing something non-standard and understand what you are doing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 30, 2024 11:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-30T21:49:46</updated>
+
+		<published>2024-10-30T21:49:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33816#p33816</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33816#p33816"/>
+		<title type="html"><![CDATA[Re: Call not routed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33816#p33816"><![CDATA[
+I think you put the repeater DMR ID in the channel in your code plug?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Oct 30, 2024 9:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-30T21:29:02</updated>
+
+		<published>2024-10-30T21:29:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33815#p33815</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33815#p33815"/>
+		<title type="html"><![CDATA[Re: Call not routed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33815#p33815"><![CDATA[
+Sorry but this forum is only to discuss OpenGD77 firmware related matters.<br><br>I have moved your post to the Off Topic section.<br><br>You should post to a Brandmeister related forum<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 30, 2024 9:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DA1TH]]></name></author>
+		<updated>2024-10-30T21:08:06</updated>
+
+		<published>2024-10-30T21:08:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33812#p33812</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33812#p33812"/>
+		<title type="html"><![CDATA[Call not routed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4538&amp;p=33812#p33812"><![CDATA[
+Handheld radio: DM-1701<br>Firmware: R20240908<br>I have a problem with repeaters. Local calls on repeaters are possible but my calls are not routed to connected repeaters in non local talkgroups. In brandmeister.network activity lists you can see my calls not with my DMR Id but instead with the repeater Id.<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2713&amp;sid=2486ec3c008df74c86f8e11a99b9c4e0" class="postimage" alt="Screenshot 2024-10-30 at 20-09-49 Zuletzt aktiv BrandMeister.png" onclick="viewableArea(this);" /></dt></dl></div>My calls have the red dot (call not routed). I had a QSO with DL1ZAP. My first idea was that it might be a problem with my brandmeister account and I have sent a help requests to brandmeister. They confirmed that my account is okay and my last successful login was 4 month ago. I remember that in the past (I think 4 month ago and later) my DM-1701 worked fine and my DMR Id was shown. That's why I suspected the firmware and installed firmware R20240511 again. But the problem remains. I also tried old codeplugs from this time with no success.<br><br>Does anyone have similar problems with Brandmeister or can give me tips on how to solve the problem?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6389">DA1TH</a> — Wed Oct 30, 2024 9:08 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

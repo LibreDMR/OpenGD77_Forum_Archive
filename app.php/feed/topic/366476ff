@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3664" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-01-14T10:37:08</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3664</id>
+
+		<entry>
+		<author><name><![CDATA[ec5zy]]></name></author>
+		<updated>2024-01-14T10:37:08</updated>
+
+		<published>2024-01-14T10:37:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28677#p28677</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28677#p28677"/>
+		<title type="html"><![CDATA[Re: MD-9600 V5 Doesn't Work on MMDVM Repeater]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28677#p28677"><![CDATA[
+I have version 5 and I have the same problem with duplex MMDVM. At the beginning of rx it gets stuck. It can only be solved by changing the canan and returning to the channel. If necessary I can send some information that can help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4772">ec5zy</a> — Sun Jan 14, 2024 10:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-09T05:51:04</updated>
+
+		<published>2024-01-09T05:51:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28528#p28528</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28528#p28528"/>
+		<title type="html"><![CDATA[Re: MD-9600 V5 Doesn't Work on MMDVM Repeater]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28528#p28528"><![CDATA[
+<blockquote class="uncited"><div>The codeplug in the MD-9600 is the same one successfully used on MD-UV390Pluses running OpenGD77.</div></blockquote>OK.<br><br>There were problems with V2 radios where the PA was not starting fast enough to transmit the beginning of each DMR pulse correctly, but this was fixed in subsequent versions.<br><br>With the V2 radios TYT told operators they had to run full power on DMR.<br><br>Did you try full power.<br><br>Also, I presume you listened to the FM modulation for things like PSU hum ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 09, 2024 5:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K1ST]]></name></author>
+		<updated>2024-01-09T03:04:55</updated>
+
+		<published>2024-01-09T03:04:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28525#p28525</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28525#p28525"/>
+		<title type="html"><![CDATA[Re: MD-9600 V5 Doesn't Work on MMDVM Repeater]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28525#p28525"><![CDATA[
+The codeplug in the MD-9600 is the same one successfully used on MD-UV390Pluses running OpenGD77.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=685">K1ST</a> — Tue Jan 09, 2024 3:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K1ST]]></name></author>
+		<updated>2024-01-09T03:01:05</updated>
+
+		<published>2024-01-09T03:01:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28524#p28524</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28524#p28524"/>
+		<title type="html"><![CDATA[Re: MD-9600 V5 Doesn't Work on MMDVM Repeater]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28524#p28524"><![CDATA[
+We have many OpenGD77 radios of many types on five MTR2000 STM32-DVM-MTR2K repeaters. They all work fine. These  are the first MD-9600s running OpenGD77. I'll have him try on a non-MMDVM Repeater and see if it works.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=685">K1ST</a> — Tue Jan 09, 2024 3:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4MWL]]></name></author>
+		<updated>2024-01-09T02:40:52</updated>
+
+		<published>2024-01-09T02:40:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28523#p28523</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28523#p28523"/>
+		<title type="html"><![CDATA[Re: MD-9600 V5 Doesn't Work on MMDVM Repeater]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28523#p28523"><![CDATA[
+I've seen a similar problem with our MTR2000 and STM32-DVM-MTR2K in Brisbane. <br><br>DMR works with a an MD9600, GD77 or RT3S running OpenGD77, but the audio is poor.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=837">VK4MWL</a> — Tue Jan 09, 2024 2:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-09T01:55:58</updated>
+
+		<published>2024-01-09T01:55:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28522#p28522</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28522#p28522"/>
+		<title type="html"><![CDATA[Re: MD-9600 V5 Doesn't Work on MMDVM Repeater]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28522#p28522"><![CDATA[
+<blockquote class="uncited"><div>I have a friend who bought a V5 MD-9600 and loaded OpenGD77. Works great on FM and DMR Simplex but doesn't work on a DMR Repeater that is a MTR2000 Running Pi-Star on a STM32-DVM-MTR2K board. Any suggestions?</div></blockquote>If you have other radios, confirm that the repeater works with those radios.<br>Check the colour code value and all other settings.<br><br>Check the frequency calibration matches with the radios which can access the repeater.<br><br>Also check other DMR repeaters, if possible.<br><br>AFIK.  MMDVM based DMR repeaters are difficult for the operator to calibrate and small variations in the transmitted modulation and or frequency can prevent them from receiving signals correctly<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 09, 2024 1:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K1ST]]></name></author>
+		<updated>2024-01-08T20:17:39</updated>
+
+		<published>2024-01-08T20:17:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28518#p28518</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28518#p28518"/>
+		<title type="html"><![CDATA[MD-9600 V5 Doesn't Work on MMDVM Repeater]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3664&amp;p=28518#p28518"><![CDATA[
+I have a friend who bought a V5 MD-9600 and loaded OpenGD77. Works great on FM and DMR Simplex but doesn't work on a DMR Repeater that is a MTR2000 Running Pi-Star on a STM32-DVM-MTR2K board. Any suggestions?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=685">K1ST</a> — Mon Jan 08, 2024 8:17 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

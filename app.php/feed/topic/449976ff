@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4499" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-15T06:51:54</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4499</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-15T06:51:54</updated>
+
+		<published>2024-12-15T06:51:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4499&amp;p=34674#p34674</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4499&amp;p=34674#p34674"/>
+		<title type="html"><![CDATA[Re: Is it possible to increase modulation rate?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4499&amp;p=34674#p34674"><![CDATA[
+<blockquote class="uncited"><div>Hi all,<br><br>I have 2 DM1701, both are power and frequency calibrated.<br>1 DM1701 works as a hotspot: Pi-star on a pi-nano-neo<br>RF power on both sides is 250mW (same results with 50 mW and 500mW)<br>BER is less than 1% but in parrot mode the echoed voice is quite unintelligible, I suspect that the modulation rate is too low because the signal strength displayed in the pistar console is never more than S4.<br><br>Is anyone has an idea to increase the signal strength ?<br><br>Thanks and 73!<br>Hubert / F8LJV</div></blockquote>No. There is no way in the firmware to adjust this in the firmware, but unless your radio's factory calibration data is incorrect there should be no need to do this.<br><br>It is not likely that the factory calibration is incorrect. <br><br>Its more likely the problem is the frequency calibration of each radio is not the same.   <br><br>Did you check the frequency calibration. It needs to be accurate to about +/- 100Hz<br><br>You don't need a frequency counter to do this. You only need to guarantee both radios transmit on exactly the same frequency; you can do this using a SDR to view the exact frequeny of the radio which has the lowest BER, then adjust the other other radio to that frequency.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 15, 2024 6:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F8LJV]]></name></author>
+		<updated>2024-10-18T08:58:48</updated>
+
+		<published>2024-10-18T08:58:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4499&amp;p=33557#p33557</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4499&amp;p=33557#p33557"/>
+		<title type="html"><![CDATA[Is it possible to increase modulation rate?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4499&amp;p=33557#p33557"><![CDATA[
+Hi all,<br><br>I have 2 DM1701, both are power and frequency calibrated.<br>1 DM1701 works as a hotspot: Pi-star on a pi-nano-neo<br>RF power on both sides is 250mW (same results with 50 mW and 500mW)<br>BER is less than 1% but in parrot mode the echoed voice is quite unintelligible, I suspect that the modulation rate is too low because the signal strength displayed in the pistar console is never more than S4.<br><br>Is anyone has an idea to increase the signal strength ?<br><br>Thanks and 73!<br>Hubert / F8LJV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6914">F8LJV</a> — Fri Oct 18, 2024 8:58 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

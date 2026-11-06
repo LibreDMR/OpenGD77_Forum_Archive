@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/29" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-06T22:48:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/29</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-06T22:48:41</updated>
+
+		<published>2025-07-06T22:48:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37670#p37670</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37670#p37670"/>
+		<title type="html"><![CDATA[Help needed • Re: OpenDG77 CPS]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37670#p37670"><![CDATA[
+<blockquote class="uncited"><div>Did mostly, but it is out of date since that was made</div></blockquote>CPS hasnt changed and the User Guide is constantly updated, so is generally 99% correct<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 06, 2025 10:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0MRB]]></name></author>
+		<updated>2025-07-06T22:47:03</updated>
+
+		<published>2025-07-06T22:47:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37669#p37669</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37669#p37669"/>
+		<title type="html"><![CDATA[Help needed • Re: OpenDG77 CPS]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37669#p37669"><![CDATA[
+Did mostly, but it is out of date since that was made<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8743">N0MRB</a> — Sun Jul 06, 2025 10:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-06T22:37:58</updated>
+
+		<published>2025-07-06T22:37:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37667#p37667</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37667#p37667"/>
+		<title type="html"><![CDATA[Help needed • Re: OpenDG77 CPS]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37667#p37667"><![CDATA[
+Did you read the CPS section in the User Guide<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#cps-software" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... s-software</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 06, 2025 10:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0MRB]]></name></author>
+		<updated>2025-07-05T22:50:35</updated>
+
+		<published>2025-07-05T22:50:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37663#p37663</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37663#p37663"/>
+		<title type="html"><![CDATA[Help needed • OpenDG77 CPS]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37663#p37663"><![CDATA[
+Good evening, <br><br>I know there is a manual for the key input, but is there one for the CPS programing version?<br><br>I am a bit confused over when I am programing the radio through the computer.  I think it is throwing me off. here is what I mean....<br><br>Usually I would Add each digital contact to the "Digital RX Group List" But I am guessing the TG List is Way different in the GD77 CPS.<br><br>So here is what I would like to know. <br><br>1) How does the TG List work in the CPS? aparently there is a limit...<br>2) What is a DTMF under Contacts?<br>3) Why is the Band limits all FFFF ?? (I live in the USA)<br>4) Is there a actual CPS manual for OpenGD77?  information on what section means, ect?<br><br>Sorry, but with the major difference between regular DMR to OpenGD77 on how to program the radio using the laptop. (my fingers are not as easy with trying to program the raddio using the keys, Arthritis, and Being a Diabetic leaves my fingers stiff or numb. So any help will be appreciated. I am just sort of lost on how to program using my laptop.<br><br>Thanks in Advance,<br>Ray - N0MRB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8743">N0MRB</a> — Sat Jul 05, 2025 10:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-09T11:42:07</updated>
+
+		<published>2025-06-09T11:42:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37450#p37450</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37450#p37450"/>
+		<title type="html"><![CDATA[Help needed • Re: Baofeng dm 1701 both time slots]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37450#p37450"><![CDATA[
+No, you can't listen to both timeslots at the same time. <br><br>You can enable both timeslots by turning off the TS Filter, you will then hear the first one to become active but while you are listening to that one you will not hear any activity on the second one. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Jun 09, 2025 11:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-09T11:38:05</updated>
+
+		<published>2025-06-09T11:38:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37448#p37448</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37448#p37448"/>
+		<title type="html"><![CDATA[Help needed • Re: Baofeng dm 1701 both time slots]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37448#p37448"><![CDATA[
+What do you mean "receive both time slots at the same time"?<br><br>Quick menu -&gt; TS Filter = OFF ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jun 09, 2025 11:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m3lqj]]></name></author>
+		<updated>2025-06-09T11:00:04</updated>
+
+		<published>2025-06-09T11:00:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37447#p37447</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37447#p37447"/>
+		<title type="html"><![CDATA[Help needed • Baofeng dm 1701 both time slots]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37447#p37447"><![CDATA[
+Hi,is it possible to receive both time slots at the same time on this radio.<br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8644">m3lqj</a> — Mon Jun 09, 2025 11:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-07T17:14:19</updated>
+
+		<published>2025-06-07T17:14:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37402#p37402</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37402#p37402"/>
+		<title type="html"><![CDATA[Help needed • Re: Radio goes quiet]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37402#p37402"><![CDATA[
+<blockquote class="uncited"><div>.is there any way to keep it from timing out?,would a hotspot help.<br>Regards</div></blockquote>No, you can not. because the repeater is not yours and you have no way to configure it. If you own a hotspot, then you can configure it the way you want. you can say a talk group will be there forever (Static) or something like that.<br><br>Hope this help,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Jun 07, 2025 5:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-07T11:30:53</updated>
+
+		<published>2025-06-07T11:30:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37399#p37399</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37399#p37399"/>
+		<title type="html"><![CDATA[Help needed • Re: Radio goes quiet]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37399#p37399"><![CDATA[
+<blockquote class="uncited"><div>Hi,and yes it's on the Brandmeister network.is there any way to keep it from timing out?,would a hotspot help.<br>Regards</div></blockquote>On your own hotspot you can set any talkgroup as static and the last keyed dynamic talkgroup is kept as "autostatic" until you select<br>another talkgroup or send a TG4000 disconnect.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 07, 2025 11:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m3lqj]]></name></author>
+		<updated>2025-06-07T11:19:51</updated>
+
+		<published>2025-06-07T11:19:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37398#p37398</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37398#p37398"/>
+		<title type="html"><![CDATA[Help needed • Re: Radio goes quiet]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37398#p37398"><![CDATA[
+Hi,and yes it's on the Brandmeister network.is there any way to keep it from timing out?,would a hotspot help.<br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8644">m3lqj</a> — Sat Jun 07, 2025 11:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-07T08:59:09</updated>
+
+		<published>2025-06-07T08:59:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37396#p37396</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37396#p37396"/>
+		<title type="html"><![CDATA[Help needed • Re: Radio goes quiet]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37396#p37396"><![CDATA[
+<blockquote class="uncited"><div>Hi all,I'm very new to dmr so don't shout at me.when open my local dmr repeater I can hear people but after a while it goes quiet until I open it again.is there a way of getting around this.<br>Regards</div></blockquote>Is it a Brandmeister repeater ?<br>If you key up a talkgroup it's normally active for 15 minutes and if there is no local activity the dynamic talkgroup is removed from the repeater.<br><br>Some repeaters have some static talkgroups. <br><br>Most DMR systems have some sort of portal where you can see such things.<br><br><a href="https://brandmeister.network/?page=repeaters" class="postlink">https://brandmeister.network/?page=repeaters</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 07, 2025 8:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m3lqj]]></name></author>
+		<updated>2025-06-07T07:27:34</updated>
+
+		<published>2025-06-07T07:27:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37395#p37395</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37395#p37395"/>
+		<title type="html"><![CDATA[Help needed • Radio goes quiet]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37395#p37395"><![CDATA[
+Hi all,I'm very new to dmr so don't shout at me.when open my local dmr repeater I can hear people but after a while it goes quiet until I open it again.is there a way of getting around this.<br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8644">m3lqj</a> — Sat Jun 07, 2025 7:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-05T21:20:41</updated>
+
+		<published>2025-06-05T21:20:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5162&amp;p=37387#p37387</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5162&amp;p=37387#p37387"/>
+		<title type="html"><![CDATA[Help needed • Re: promiscuous baofeng dm771]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5162&amp;p=37387#p37387"><![CDATA[
+OpenGD77 works the same on supported radios<br><br>Check the User Guide to see if it has the answer<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jun 05, 2025 9:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DA6VK]]></name></author>
+		<updated>2025-06-05T19:44:55</updated>
+
+		<published>2025-06-05T19:44:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37386#p37386</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37386#p37386"/>
+		<title type="html"><![CDATA[Help needed • Re: Can't get Open GD77 in DMR to work]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37386#p37386"><![CDATA[
+Hello,<br>i have changed the FW wich had the greatest sucsess. I got it working now on some Channels. Whats kind of strange is that i get two relais , one 70km and the other 50km away. The relais about 2 km away is only showing "Timeout" And i can't get any parrots to work. High Power, low Power doesent make a difference.<br>My CP Settings for the Contacts and Zones are the same as on my other Radio, and also compared the Settings from various CP i found in different forums. Is it possible that there is so less traffic on DMR? I would like to get my Local TGs like TG26253, TG26255,TG2625... On TG2625 i was able to listen to a QSO earlier this week, but it seems they could not receive me.<br>I keep trying... <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8630">DA6VK</a> — Thu Jun 05, 2025 7:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m3lqj]]></name></author>
+		<updated>2025-06-05T15:42:25</updated>
+
+		<published>2025-06-05T15:42:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5161&amp;p=37381#p37381</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5161&amp;p=37381#p37381"/>
+		<title type="html"><![CDATA[Help needed • Re: Theme not saving]]></title>
+
+					<category term="Help needed" scheme="http://localhost/opengd77/viewforum.php?f=29" label="Help needed"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5161&amp;p=37381#p37381"><![CDATA[
+Hi sorry,it's the dm1701 my mistake.<br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8644">m3lqj</a> — Thu Jun 05, 2025 3:42 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

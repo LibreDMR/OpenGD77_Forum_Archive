@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4644" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-10T06:28:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4644</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-10T06:28:49</updated>
+
+		<published>2024-12-10T06:28:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4644&amp;p=34533#p34533</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4644&amp;p=34533#p34533"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 12 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4644&amp;p=34533#p34533"><![CDATA[
+This version has now been superseded<br><br>See  <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4652" class="postlink">viewtopic.php?f=12&amp;t=4652</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 10, 2024 6:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-07T21:44:40</updated>
+
+		<published>2024-12-07T21:44:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4644&amp;p=34491#p34491</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4644&amp;p=34491#p34491"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2024 12 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4644&amp;p=34491#p34491"><![CDATA[
+A new version of the OpenGD77CPS is available<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/" class="postlink">downloads/PC_CPS/Latest/</a><br><br>Specifically<br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/OpenGD77CPSInstaller_R2024.12.07.01.exe" class="postlink">downloads/PC_CPS/Latest/OpenGD77CPSInst ... .07.01.exe</a><br><br><br>This version has a small change to the calibration screen so that it automatically prompts to save the calibration data to a file for non-GD77 radios.<br>This change was made because the CPS only supports adjusting the calibration data for GD-77 type radios, and the previous user interface didn't make it clear that the only think that it can do for non GD-77 radios is load and save data after its been read from the radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 07, 2024 9:44 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

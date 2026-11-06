@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5081" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-31T14:34:45</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5081</id>
+
+		<entry>
+		<author><name><![CDATA[KC1WSW]]></name></author>
+		<updated>2025-05-31T14:34:45</updated>
+
+		<published>2025-05-31T14:34:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37306#p37306</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37306#p37306"/>
+		<title type="html"><![CDATA[Re: Broken Audio in Direct Digital Communications]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37306#p37306"><![CDATA[
+This seems like the same issue I have, discussed in this thread: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4561&amp;start=10" class="postlink">viewtopic.php?f=19&amp;t=4561&amp;start=10</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8568">KC1WSW</a> — Sat May 31, 2025 2:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-25T02:17:52</updated>
+
+		<published>2025-05-25T02:17:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37221#p37221</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37221#p37221"/>
+		<title type="html"><![CDATA[Re: Broken Audio in Direct Digital Communications]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37221#p37221"><![CDATA[
+what happens if you put the radio in 4W? does it works fine in 4W?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sun May 25, 2025 2:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA1RAV]]></name></author>
+		<updated>2025-05-24T21:43:06</updated>
+
+		<published>2025-05-24T21:43:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37214#p37214</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37214#p37214"/>
+		<title type="html"><![CDATA[Re: Broken Audio in Direct Digital Communications]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5081&amp;p=37214#p37214"><![CDATA[
+The same thing happens to me.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8649">EA1RAV</a> — Sat May 24, 2025 9:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2WNW]]></name></author>
+		<updated>2025-04-21T19:44:41</updated>
+
+		<published>2025-04-21T19:44:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5081&amp;p=36861#p36861</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5081&amp;p=36861#p36861"/>
+		<title type="html"><![CDATA[Baofang DM1701 - Broken Audio in Direct Digital Communications]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5081&amp;p=36861#p36861"><![CDATA[
+I have a Baofeng DM1701 and a Retevis RT3S, both running openGD77 firmware.<br>When attempting a direct QSO between both radios in digital mode, the audio on the DM1701 becomes broken. It starts normally, but after 3–4 seconds, the issue begins.<br>From the RT3S to the DM1701, the audio is normal.<br>I reverted to the original firmware on the DM1701, and this issue did not occur, meaning it only happens with openGD77. I’ve tried both the stable and beta versions.<br>Can anyone help me? I would prefer not to revert to the original firmware as I prefer openGD77.<br><br><a href="https://youtube.com/shorts/b9V0jBq1-EE" class="postlink">https://youtube.com/shorts/b9V0jBq1-EE</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4140">PU2WNW</a> — Mon Apr 21, 2025 7:44 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

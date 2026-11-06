@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4720" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-31T16:26:42</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4720</id>
+
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2024-12-31T16:26:42</updated>
+
+		<published>2024-12-31T16:26:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34976#p34976</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34976#p34976"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34976#p34976"><![CDATA[
+<blockquote class="uncited"><div>I believe what you want to do is "Backup the radio by using the original CPS" If my understanding is accurate, then please confirm it so other people can assist you to achieve your goal.<br><br>However, As I understand it, you can only backup 3 things using Original CPS. (I might be wrong, I have never try to do it)<br>1.Original radio settings<br>2.Original Codeplug<br>3.Flash memory<br><br>The first two things you can not use OpenGD77 to read them, but the third one you can backup it after flashing the radio with OpenGD77. I can not comment on how to revert to original firmware, I have never done it.</div></blockquote>I believe you are right, 1 &amp; 2 can be done via CPS and 3 via OpenGD77 CPS...  Will confirm shortly<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Tue Dec 31, 2024 4:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2024-12-31T14:29:03</updated>
+
+		<published>2024-12-31T14:29:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34968#p34968</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34968#p34968"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34968#p34968"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>MY QUESTION is that after installing OpenGD77, then the backup is not the original calibration, flash...etc OR am I missing something?</div></blockquote>You are mis understanding. After flashing the radio with OpenGD77 and before modifying anything else. The Calibration, flash, etc. is still original. You can backup those using OpenGD77 CPS.</div></blockquote>THANK YOU....just what I wanted to hear!!!<br><br>Have a Happy New Year!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Tue Dec 31, 2024 2:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-31T12:33:49</updated>
+
+		<published>2024-12-31T12:33:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34965#p34965</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34965#p34965"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34965#p34965"><![CDATA[
+<blockquote class="uncited"><div><br>OK, Now whit that behind me....After installing OpenGD77 what can/should be backed up?<br><br>IF I wanted to go back to original then all I need is a copy of the firmware?  (these questions seem dumb to ask but I want to make sure...)</div></blockquote>After flashing the Radio with OpenGD77. Use OpenGD77 CPS back up anything and everything you can. <br><br>I can’t comment on how to revert back to original.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Dec 31, 2024 12:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-31T12:29:42</updated>
+
+		<published>2024-12-31T12:29:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34964#p34964</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34964#p34964"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34964#p34964"><![CDATA[
+<blockquote class="uncited"><div>MY QUESTION is that after installing OpenGD77, then the backup is not the original calibration, flash...etc OR am I missing something?</div></blockquote>You are mis understanding. After flashing the radio with OpenGD77 and before modifying anything else. The Calibration, flash, etc. is still original. You can backup those using OpenGD77 CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Dec 31, 2024 12:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2024-12-31T13:03:31 </updated>
+
+		<published>2024-12-31T12:28:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34963#p34963</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34963#p34963"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34963#p34963"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>'ve reinstalled the CPS for the 390 and it installs without errors (even in event log) but there is no COM port</div></blockquote>It'ts not clear what CPS you are taking about or what "event log" you are referring to.<br><br>If you are referring to the official TYT CPS for this radio, then the only thing you can backup is the calibration data, and you normally access this my holding Control-T in the official CPS<br><br>You can of course also read the official codeplug in the radio using the official CPS.<br><br>If you want to use your existing codeplug, the only way you can do this is if you can export the channels etc to CSV files using the official CPS, assuming it supports exporting to CSV. But AFIK there is no tool to directly convert from the official CPS CSV files to the OpenGD77CPS exported CSV format.<br><br><br>and like ZL2MGS  says, the official CPS does not use a COM port.  You will only see a COM port after installing the OpenGD77 firmware, and this COM port won't work with the official CPS, as it doesn't use that method.<br><br>Also. You can only install the OpenGD77 firmware using the OpenGD77CPS PC exe or the linux python script.<br><br>And.. The OpenGD77 firmware must be running for the OpenGD77CPS to communicate with the radio, i.e the radio must NOT be in DFU mode.</div></blockquote>"You will only see a COM port after installing the OpenGD77 firmware" wish I had know that a while ago.....I've been trying to get a COM port so I can do a backup BEFORE OpenGD77 but it just looks like you can't.  <br><br>OK, Now whit that behind me....After installing OpenGD77 what can/should be backed up?<br><br>***Happy New Years Down Under!<br><br>IF I wanted to go back to original then all I need is a copy of the firmware?  (these questions seem dumb to ask but I want to make sure...)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Tue Dec 31, 2024 12:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2024-12-31T12:23:30</updated>
+
+		<published>2024-12-31T12:23:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34962#p34962</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34962#p34962"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34962#p34962"><![CDATA[
+<blockquote class="uncited"><div>If by backup you're referring to backing up the radio's factory flash settings, you can't do that until after you've upgraded the radio to OpenGD77 firmware.<br><br>At that point, you then need to store the resulting backup file in two or more safe places in case you ever want to revert to the factory firmware.<br><br>I didn't try to backup my radio until after installing OpenGD77 (as detailed in the upgrade instructions), but I'm pretty sure you won't see a COM port in the OpenGD77 CPS until the radio has been ungraded. Edit: I see you've already answered that question for yourself.<br><br>Mike, ZL2MGS.</div></blockquote>That's what I don't understand "you can't do that until after you've upgraded the radio to OpenGD77 firmware".  I accidentally found that out.....as you mentioned...<br><br>MY QUESTION is that after installing OpenGD77, then the backup is not the original calibration, flash...etc OR am I missing something?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Tue Dec 31, 2024 12:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-31T11:41:25</updated>
+
+		<published>2024-12-31T11:41:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34961#p34961</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34961#p34961"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34961#p34961"><![CDATA[
+I believe what you want to do is "Backup the radio by using the original CPS" If my understanding is accurate, then please confirm it so other people can assist you to achieve your goal.<br><br>However, As I understand it, you can only backup 3 things using Original CPS. (I might be wrong, I have never try to do it)<br>1.Original radio settings<br>2.Original Codeplug<br>3.Flash memory<br><br>The first two things you can not use OpenGD77 to read them, but the third one you can backup it after flashing the radio with OpenGD77. I can not comment on how to revert to original firmware, I have never done it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Dec 31, 2024 11:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-12-30T21:50:43</updated>
+
+		<published>2024-12-30T21:50:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34958#p34958</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34958#p34958"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34958#p34958"><![CDATA[
+You can backup the original config first via the factory CPS, but this config can only be used with factory CPS.<br><br>The other backup is to backup the flash memory which contains data structures and config data for the factory firmware, this<br>backup is made as the first step after you have loaded OpenGD77 firmware but before you loaded any new config into the radio.<br><br>Normally the newly loaded OpenGD77 radio displays gibberish channel data in this step.<br><br>Radio should be powered on in normal mode (running OpenGD77) and then you go into Extras-&gt;OpenGD77 Support and click on "Backup Flash"<br><br>When you have saved the "Backup Flash" you can load a new codeplug from OpenGD77 which clears away the "gibberish"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Dec 30, 2024 9:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-30T21:46:47</updated>
+
+		<published>2024-12-30T21:46:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34957#p34957</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34957#p34957"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34957#p34957"><![CDATA[
+<blockquote class="uncited"><div>'ve reinstalled the CPS for the 390 and it installs without errors (even in event log) but there is no COM port</div></blockquote>It'ts not clear what CPS you are taking about or what "event log" you are referring to.<br><br>If you are referring to the official TYT CPS for this radio, then the only thing you can backup is the calibration data, and you normally access this my holding Control-T in the official CPS<br><br>You can of course also read the official codeplug in the radio using the official CPS.<br><br>If you want to use your existing codeplug, the only way you can do this is if you can export the channels etc to CSV files using the official CPS, assuming it supports exporting to CSV. But AFIK there is no tool to directly convert from the official CPS CSV files to the OpenGD77CPS exported CSV format.<br><br><br>and like ZL2MGS  says, the official CPS does not use a COM port.  You will only see a COM port after installing the OpenGD77 firmware, and this COM port won't work with the official CPS, as it doesn't use that method.<br><br>Also. You can only install the OpenGD77 firmware using the OpenGD77CPS PC exe or the linux python script.<br><br>And.. The OpenGD77 firmware must be running for the OpenGD77CPS to communicate with the radio, i.e the radio must NOT be in DFU mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 30, 2024 9:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2024-12-30T21:26:01</updated>
+
+		<published>2024-12-30T21:26:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34956#p34956</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34956#p34956"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34956#p34956"><![CDATA[
+If by backup you're referring to backing up the radio's factory flash settings, you can't do that until after you've upgraded the radio to OpenGD77 firmware.<br><br>At that point, you then need to store the resulting backup file in two or more safe places in case you ever want to revert to the factory firmware.<br><br>I didn't try to backup my radio until after installing OpenGD77 (as detailed in the upgrade instructions), but I'm pretty sure you won't see a COM port in the OpenGD77 CPS until the radio has been ungraded. Edit: I see you've already answered that question for yourself.<br><br>Mike, ZL2MGS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Mon Dec 30, 2024 9:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2024-12-30T19:31:51</updated>
+
+		<published>2024-12-30T19:31:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34954#p34954</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34954#p34954"/>
+		<title type="html"><![CDATA[TYT MD-UV390 GPS and NO COM Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4720&amp;p=34954#p34954"><![CDATA[
+Hello again and hope everyone had a Merry Christmas!<br><br>I now have the MD-UV390 GPS after returning the Retevis RT3S because of the USB issues and no COM port.<br><br>My 390 was not being detected by any of my 3 computers so I got a new TYT USB cable FOR the UV390 (original TYT USB cable came with the UV390).  The Second cable seems to be good as now I have the STM Device in DFU Mode.  <br><br>I've reinstalled the CPS for the 390 and it installs without errors (even in event log) but there is no COM port.  I can enter DFU mode and flash the 390 but I'm still stuck on wanting to backup first and without a COM port, I can't do it.....CORRECT me if I'm wrong!<br><br>Some please help as this is my 3rd radio.  The first radio I installed OpenGD77 and AFTER that initial flash, then the COM port became available but I had lost my config file and who know what else.<br><br>Someone....anyone?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Mon Dec 30, 2024 7:31 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

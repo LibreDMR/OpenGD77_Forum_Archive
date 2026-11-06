@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5048" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-14T19:12:42</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5048</id>
+
+		<entry>
+		<author><name><![CDATA[IK1HJT]]></name></author>
+		<updated>2025-04-12T12:01:25</updated>
+
+		<published>2025-04-12T12:01:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36716#p36716</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36716#p36716"/>
+		<title type="html"><![CDATA[Re: Strange behaviour]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36716#p36716"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello, i noticed strange behaviour of my brand new MD9600 with latest firmware release: fan start to turn for a couple of seconds when manually switching from some channel to another  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> <br>It seems to be funny, but this slows radio commands annoyingly.<br>In VFO mode nothing happens.<br>I'm the only one?</div></blockquote>The firmware doesn't have any control on the fan.<br><br>I bet the famous channels have APRS beaconing defined, hence the transceiver is transmitting (then the fan starts).</div></blockquote>Yessss!. No TX led, no meters on my power supply, who could know that radio switch in TX every channel change?  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=558">IK1HJT</a> — Sat Apr 12, 2025 12:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-11T13:02:36</updated>
+
+		<published>2025-04-11T13:02:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36702#p36702</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36702#p36702"/>
+		<title type="html"><![CDATA[Re: Strange behaviour]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36702#p36702"><![CDATA[
+<blockquote class="uncited"><div>Hello, i noticed strange behaviour of my brand new MD9600 with latest firmware release: fan start to turn for a couple of seconds when manually switching from some channel to another  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> <br>It seems to be funny, but this slows radio commands annoyingly.<br>In VFO mode nothing happens.<br>I'm the only one?</div></blockquote>The firmware doesn't have any control on the fan.<br><br>I bet the famous channels have APRS beaconing defined, hence the transceiver is transmitting (then the fan starts).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Apr 11, 2025 1:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IK1HJT]]></name></author>
+		<updated>2025-04-14T19:12:42 </updated>
+
+		<published>2025-04-11T11:31:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36699#p36699</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36699#p36699"/>
+		<title type="html"><![CDATA[Strange behaviour]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5048&amp;p=36699#p36699"><![CDATA[
+Hello, i noticed strange behaviour of my brand new MD9600 with latest firmware release: fan start to turn for a couple of seconds when manually switching from some channel to another  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> <br>It seems to be funny, but this slows radio commands annoyingly.<br>In VFO mode nothing happens.<br>I'm the only one?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=558">IK1HJT</a> — Fri Apr 11, 2025 11:31 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

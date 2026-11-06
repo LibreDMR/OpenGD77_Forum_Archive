@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5163" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-07T00:31:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5163</id>
+
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2025-06-07T00:31:00</updated>
+
+		<published>2025-06-07T00:31:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5163&amp;p=37394#p37394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5163&amp;p=37394#p37394"/>
+		<title type="html"><![CDATA[qdmr linux cps working with 20240908]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5163&amp;p=37394#p37394"><![CDATA[
+hiya kids!<br><br>Good News!!  qdmr program is now working good with opengd77 20240908.  this is a linux qt6 program that can read and write codeplug to opengd77.  the developer is a Fine Business Operator and qdmr works good.  Satellite kepler update is working now too.  You can edit the satellite list directly in qdmr.<br><br>the git repo is at <a href="https://github.com/hmatuschek/qdmr" class="postlink">https://github.com/hmatuschek/qdmr</a><br><br>i have tested the "devel" branch is working good on debian12 with md9600 and uv390 radios with 20240908 opengd firmware.<br><br>i can not say how happy i am to not have to use windoze vm with opengd.   <br><br>i have not tried the databse update yet.<br><br>YMMV.<br><br>--gaspo.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Sat Jun 07, 2025 12:31 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

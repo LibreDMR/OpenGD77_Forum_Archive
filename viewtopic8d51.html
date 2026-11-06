@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5072&sid=3e853d88628bac82404ed5af49e1eb17 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 15:09:46 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Problem hitting Retevis RT-97P repeater - OpenGD77</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - OpenGD77" href="app.php/feedb4e1?sid=3e853d88628bac82404ed5af49e1eb17">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="app.php/feed/topicsb4e1?sid=3e853d88628bac82404ed5af49e1eb17">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - TYT MD-9600 / Retevis RT-90" href="app.php/feed/forum/18b4e1?sid=3e853d88628bac82404ed5af49e1eb17">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - Problem hitting Retevis RT-97P repeater" href="app.php/feed/topic/5072b4e1?sid=3e853d88628bac82404ed5af49e1eb17">	
+	<link rel="canonical" href="viewtopica043.html?t=5072">
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="assets/css/font-awesome.min245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/stylesheet245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/en/stylesheet245c.css?assets_version=3" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/prosilver/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="indexb4e1.html?sid=3e853d88628bac82404ed5af49e1eb17" title="Board index"><span class="site_logo"></span></a>
+				<h1>OpenGD77</h1>
+				<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar"  style="display:none">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" style="display:none" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href=";sid=3e853d88628bac82404ed5af49e1eb17" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#;sid=3e853d88628bac82404ed5af49e1eb17" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="search.php?sid=3e853d88628bac82404ed5af49e1eb17" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="app.php/help/faqb4e1.html?sid=3e853d88628bac82404ed5af49e1eb17" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href=";sid=3e853d88628bac82404ed5af49e1eb17" title="" accesskey="x" role="menuitem">
+				<i class="" aria-hidden="true"></i><span></span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href=";sid=3e853d88628bac82404ed5af49e1eb17" role="menuitem">
+					<i class="" aria-hidden="true"></i><span></span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="indexb4e1.html?sid=3e853d88628bac82404ed5af49e1eb17" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+
+											<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="21"><a href="viewforumcfbc.html?f=21&amp;sid=3e853d88628bac82404ed5af49e1eb17" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Radios &amp; CPS</span></a><meta itemprop="position" content="2" /></span>
+															<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="18"><a href="viewforum81bd.html?f=18&amp;sid=3e853d88628bac82404ed5af49e1eb17" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">TYT MD-9600 / Retevis RT-90</span></a><meta itemprop="position" content="3" /></span>
+												</li>
+		
+					<li class="rightside responsive-search">
+				<a href="search.php?sid=3e853d88628bac82404ed5af49e1eb17" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="viewtopic8d51.html?f=18&amp;t=5072&amp;sid=3e853d88628bac82404ed5af49e1eb17">Problem hitting Retevis RT-97P repeater</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+
+
+
+<div class="action-bar bar-top">
+	
+			<a href="posting.php?mode=reply&amp;f=18&amp;t=5072&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic987b-2.html?f=18&amp;t=5072&amp;sid=3e853d88628bac82404ed5af49e1eb17&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="search.php?sid=3e853d88628bac82404ed5af49e1eb17">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="search.php?sid=3e853d88628bac82404ed5af49e1eb17" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="5072" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="3e853d88628bac82404ed5af49e1eb17" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			4 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+		</div>
+
+
+
+
+			<div id="p36808" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36808">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7314&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="username">kj7gqa</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7314&amp;sr=posts&amp;sid=3e853d88628bac82404ed5af49e1eb17">2</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Fri Nov 15, 2024 1:39 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36808">
+
+						<h3 class="first"><a href="#p36808">Problem hitting Retevis RT-97P repeater</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=36808&amp;sid=3e853d88628bac82404ed5af49e1eb17" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicbb05-2.html?p=36808&amp;sid=3e853d88628bac82404ed5af49e1eb17#p36808" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7314&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="username">kj7gqa</a></strong> &raquo; </span>Thu Apr 17, 2025 6:25 pm
+			</p>
+			
+			
+			
+			<div class="content">I have a TYT MD-UV390 radio. I'm running the openGD77 firmware. Something weird is happening when I try to transmit to a Retevis RT-97P DMR repeater. When I transmit, the repeater doesn't see the transmission and it's not repeated. The repeater is in the same room as me.<br>
+<br>
+However, if I transmit with a different radio, a Retevis RT29d, the repeater sees that. The screen on the repeater screen shows R-T slot 1 when receiving (and repeating) the transmission. And I receive the transmission on the md-UV390. For a few seconds after that, if I transmit with the MD-UV390, it works. But after a few seconds, the repeater no longer displays "R-T slot 1" and at that point I cannot transmit from the MD-UV390.<br>
+<br>
+So clearly the radio is capable of transmitting to the repeater, but it only works for a short time after another radio transmits to it, and it hasn't closed out that session.<br>
+<br>
+I have tried opengd77 stable version 20240908 as well as beta version 20250323. <br>
+<br>
+I have programmed in my channel with the CPS, as well as directly to the radio in VFO mode and it acts the same.<br>
+<br>
+Channel settings in the TYT with OpenGD77:<br>
+Rx: 451.800<br>
+Tx: 456.800<br>
+Mode: DMR<br>
+Location: No<br>
+DMR ID: none (despite programming one with the CPS. If I enter a dummy number here like 12345 it doesn't change anything)<br>
+Color code: 5<br>
+Timeslot: 1<br>
+TG Lst: RxSite (the correct talkgroup)<br>
+Contact: None<br>
+Rx/Tx CSS: N/A<br>
+Step: 2.5 khz<br>
+Vox: Off<br>
+Ch Power: Master (5 w)<br>
+Eco: Yes<br>
+TS Tx Ts1:off<br>
+TS Tx TS2:off<br>
+APRS: None<br>
+For DMO: No<br>
+<br>
+Quick settings:<br>
+Filter: None<br>
+DMR Filter: None<br>
+CC Scan: On<br>
+TS Filter: Off<br>
+Talkaround: Off<br>
+Roaming: Off<br>
+Mute: No<br>
+<br>
+Repeater settings:<br>
+Rx Freq: 456.800<br>
+Tx Freq: 451.800<br>
+Decode/Encode (greyed out, presumably only for analog): 136.5<br>
+Rx Color: 5<br>
+Tx Color: 5<br>
+Band (greyed out): W<br>
+Power: High<br>
+Ana/Dig: DMR</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p36848" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36848">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=558&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="username">IK1HJT</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=558&amp;sr=posts&amp;sid=3e853d88628bac82404ed5af49e1eb17">36</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon Mar 02, 2020 2:29 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36848">
+
+						<h3 ><a href="#p36848">Re: Problem hitting Retevis RT-97P repeater</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=36848&amp;sid=3e853d88628bac82404ed5af49e1eb17" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicb661.html?p=36848&amp;sid=3e853d88628bac82404ed5af49e1eb17#p36848" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=558&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="username">IK1HJT</a></strong> &raquo; </span>Sat Apr 19, 2025 5:23 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7314&amp;sid=3e853d88628bac82404ed5af49e1eb17">kj7gqa</a> wrote: <a href="viewtopicbb05-2.html?p=36808&amp;sid=3e853d88628bac82404ed5af49e1eb17#p36808" data-post-id="36808" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Apr 17, 2025 6:25 pm</div></cite>
+I have a TYT MD-UV390 radio. I'm running the openGD77 firmware. Something weird is happening when I try to transmit to a Retevis RT-97P DMR repeater. When I transmit, the repeater doesn't see the transmission and it's not repeated. The repeater is in the same room as me.<br>
+<br>
+However, if I transmit with a different radio, a Retevis RT29d, the repeater sees that. The screen on the repeater screen shows R-T slot 1 when receiving (and repeating) the transmission. And I receive the transmission on the md-UV390. For a few seconds after that, if I transmit with the MD-UV390, it works. But after a few seconds, the repeater no longer displays "R-T slot 1" and at that point I cannot transmit from the MD-UV390.<br>
+<br>
+So clearly the radio is capable of transmitting to the repeater, but it only works for a short time after another radio transmits to it, and it hasn't closed out that session.<br>
+<br>
+I have tried opengd77 stable version 20240908 as well as beta version 20250323. <br>
+<br>
+I have programmed in my channel with the CPS, as well as directly to the radio in VFO mode and it acts the same.<br>
+<br>
+Channel settings in the TYT with OpenGD77:<br>
+Rx: 451.800<br>
+Tx: 456.800<br>
+Mode: DMR<br>
+Location: No<br>
+DMR ID: none (despite programming one with the CPS. If I enter a dummy number here like 12345 it doesn't change anything)<br>
+Color code: 5<br>
+Timeslot: 1<br>
+TG Lst: RxSite (the correct talkgroup)<br>
+Contact: None<br>
+Rx/Tx CSS: N/A<br>
+Step: 2.5 khz<br>
+Vox: Off<br>
+Ch Power: Master (5 w)<br>
+Eco: Yes<br>
+TS Tx Ts1:off<br>
+TS Tx TS2:off<br>
+APRS: None<br>
+For DMO: No<br>
+<br>
+Quick settings:<br>
+Filter: None<br>
+DMR Filter: None<br>
+CC Scan: On<br>
+TS Filter: Off<br>
+Talkaround: Off<br>
+Roaming: Off<br>
+Mute: No<br>
+<br>
+Repeater settings:<br>
+Rx Freq: 456.800<br>
+Tx Freq: 451.800<br>
+Decode/Encode (greyed out, presumably only for analog): 136.5<br>
+Rx Color: 5<br>
+Tx Color: 5<br>
+Band (greyed out): W<br>
+Power: High<br>
+Ana/Dig: DMR
+</div></blockquote>
+
+Hello, i have same problem with my MD-9600 and MMDVM dual hat hotspot. Radio is able to hit my hotspot 1 time on 100 but, if there is some qso into the other slot, radio hits the hotspot without problems.<br>
+No problem with some other radios.<br>
+Another quirks is that on several repeaters near me, BER is always 2,5% or more</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p36849" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36849">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="avatar"><img class="avatar" src="download/file73c5.jpg?avatar=56_1576571525.jpg" width="90" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="username">F1RMB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=56&amp;sr=posts&amp;sid=3e853d88628bac82404ed5af49e1eb17">3426</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 5:42 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Grenoble, France</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36849">
+
+						<h3 ><a href="#p36849">Re: Problem hitting Retevis RT-97P repeater</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=36849&amp;sid=3e853d88628bac82404ed5af49e1eb17" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic183f.html?p=36849&amp;sid=3e853d88628bac82404ed5af49e1eb17#p36849" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="username">F1RMB</a></strong> &raquo; </span>Sat Apr 19, 2025 5:49 pm
+			</p>
+			
+			
+			
+			<div class="content">I think that you need to check the frequency accuracy first.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p36860" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36860">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7314&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="username">kj7gqa</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7314&amp;sr=posts&amp;sid=3e853d88628bac82404ed5af49e1eb17">2</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Fri Nov 15, 2024 1:39 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36860">
+
+						<h3 ><a href="#p36860">Re: Problem hitting Retevis RT-97P repeater</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=36860&amp;sid=3e853d88628bac82404ed5af49e1eb17" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic8ceb-2.html?p=36860&amp;sid=3e853d88628bac82404ed5af49e1eb17#p36860" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7314&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="username">kj7gqa</a></strong> &raquo; </span>Mon Apr 21, 2025 5:37 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=3e853d88628bac82404ed5af49e1eb17">F1RMB</a> wrote: <a href="viewtopic183f.html?p=36849&amp;sid=3e853d88628bac82404ed5af49e1eb17#p36849" data-post-id="36849" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Apr 19, 2025 5:49 pm</div></cite>
+I think that you need to check the frequency accuracy first.
+</div></blockquote>
+
+Thanks for your response. I will try to test the frequency calibration.<br>
+<br>
+But if I'm able to successfully hit the repeater shortly after transmitting from a different radio, doesn't that suggest that the frequency is ok?</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="posting.php?mode=reply&amp;f=18&amp;t=5072&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic987b-2.html?f=18&amp;t=5072&amp;sid=3e853d88628bac82404ed5af49e1eb17&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="viewtopic.php?f=18&amp;t=5072&amp;sid=3e853d88628bac82404ed5af49e1eb17">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			4 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="viewforum81bd.html?f=18&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to “TYT MD-9600 / Retevis RT-90”</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																				<li><a href="viewforum10b0.html?f=1&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-cat-link"> <span> OpenGD77 information</span></a></li>
+																<li><a href="viewforumdcfb.html?f=3&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Announcements</span></a></li>
+																<li><a href="viewforum7a33.html?f=5&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; FAQ</span></a></li>
+																<li><a href="viewforumcfbc.html?f=21&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-cat-link"> <span> Radios &amp; CPS</span></a></li>
+																<li><a href="viewforum8865.html?f=12&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; CPS</span></a></li>
+																<li><a href="viewforumf36f.html?f=13&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; GD-77 / DM-1801 / RD-5R / GD-77S</span></a></li>
+																<li><a href="viewforum81bd.html?f=18&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-9600 / Retevis RT-90</span></a></li>
+																<li><a href="viewforum68dc.html?f=19&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a></li>
+																<li><a href="viewforum35b7.html?f=28&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD2017 / Retevis RT-82</span></a></li>
+																<li><a href="viewforum8894.html?f=27&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Other unsupported radios</span></a></li>
+																<li><a href="viewforumd226.html?f=6&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-cat-link"> <span> Discussions</span></a></li>
+																<li><a href="viewforumab2b.html?f=10&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; New members must post here first</span></a></li>
+																<li><a href="viewforuma8a5.html?f=29&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Help needed</span></a></li>
+																<li><a href="viewforum981a.html?f=7&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; General discussions</span></a></li>
+																<li><a href="viewforum85c6.html?f=9&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Hotspot mode</span></a></li>
+																<li><a href="viewforum765f.html?f=22&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Voice prompts</span></a></li>
+																<li><a href="viewforumf09c.html?f=23&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Localisation</span></a></li>
+																<li><a href="viewforumd05f.html?f=14&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Codeplugs</span></a></li>
+																<li><a href="viewforum4fcf.html?f=17&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1801 specific</span></a></li>
+																<li><a href="viewforumdc40.html?f=25&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1701 / Retevis RT-84 specific</span></a></li>
+																<li><a href="viewforum9ffe.html?f=16&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Developer discussions</span></a></li>
+																<li><a href="viewforumd39c.html?f=26&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-2017 / RT-82</span></a></li>
+																<li><a href="viewforumc5f8.html?f=11&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Bug reports</span></a></li>
+																<li><a href="viewforum192d.html?f=8&amp;sid=3e853d88628bac82404ed5af49e1eb17" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Off topic</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer"  style="display:none" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="indexb4e1.html?sid=3e853d88628bac82404ed5af49e1eb17" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="UTC">UTC</span></li>
+							<li class="rightside">
+				<a href="ucp.php?mode=delete_cookies&amp;sid=3e853d88628bac82404ed5af49e1eb17" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+																<li class="rightside" data-last-responsive="true">
+				<a href="memberlist.php?mode=contactadmin&amp;sid=3e853d88628bac82404ed5af49e1eb17" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="cron927b.gif?cron_type=cron.task.core.tidy_sessions&amp;sid=3e853d88628bac82404ed5af49e1eb17" width="1" height="1" alt="cron" /></div>
+
+<script src="assets/javascript/jquery.min245c.js?assets_version=3"></script>
+<script src="assets/javascript/core245c.js?assets_version=3"></script>
+
+
+
+<script src="styles/prosilver/template/forum_fn245c.js?assets_version=3"></script>
+<script src="styles/prosilver/template/ajax245c.js?assets_version=3"></script>
+
+
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5072&sid=3e853d88628bac82404ed5af49e1eb17 by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 15:09:51 GMT -->
+</html>

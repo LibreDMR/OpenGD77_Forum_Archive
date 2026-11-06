@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3453" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-11-09T18:54:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3453</id>
+
+		<entry>
+		<author><name><![CDATA[iw5akt]]></name></author>
+		<updated>2023-11-09T18:54:17</updated>
+
+		<published>2023-11-09T18:54:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27327#p27327</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27327#p27327"/>
+		<title type="html"><![CDATA[Re: Failure to choose &quot;On&quot; &quot;Off&quot; in &quot;Call Receive Tone&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27327#p27327"><![CDATA[
+Thanks for the replies.<br><br>Claudio iw5akt<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4930">iw5akt</a> — Thu Nov 09, 2023 6:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-11-09T15:09:23</updated>
+
+		<published>2023-11-09T15:09:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27326#p27326</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27326#p27326"/>
+		<title type="html"><![CDATA[Re: Failure to choose &quot;On&quot; &quot;Off&quot; in &quot;Call Receive Tone&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27326#p27326"><![CDATA[
+These columns will disappear in the next release.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Nov 09, 2023 3:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-11-09T13:14:15</updated>
+
+		<published>2023-11-09T13:14:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27325#p27325</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27325#p27325"/>
+		<title type="html"><![CDATA[Re: Failure to choose &quot;On&quot; &quot;Off&quot; in &quot;Call Receive Tone&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27325#p27325"><![CDATA[
+You can't set the Call received tone because as far as I am aware it is not used in the OpenGD77 firmware. This setting is left over from the original firmware but does nothing.  Setting it on or off will make no difference. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Nov 09, 2023 1:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iw5akt]]></name></author>
+		<updated>2023-11-09T12:09:07</updated>
+
+		<published>2023-11-09T12:09:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27324#p27324</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27324#p27324"/>
+		<title type="html"><![CDATA[Failure to choose &quot;On&quot; &quot;Off&quot; in &quot;Call Receive Tone&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3453&amp;p=27324#p27324"><![CDATA[
+HI,<br>I have a problem with the OpenGD77 CPS and precisely when you insert a new contact in "Digital contacts" there is no possibility of selecting one of the two options "On" or "Off" in "Call receiving tone", but inserted automatically "On" without the possibility of changing it. <br>At the moment the solution is to open the .cvs file, with editing, and change them one by one. Maybe I missed an option?<br>Thank you.<br><br>Claudio iw5akt<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4930">iw5akt</a> — Thu Nov 09, 2023 12:09 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

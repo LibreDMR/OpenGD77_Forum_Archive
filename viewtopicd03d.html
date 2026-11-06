@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5150&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 17:13:58 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; Sending aprs message via satellite</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>Sending aprs message via satellite</h2>
+		<p><a href="viewtopic12ef-2.html?f=18&amp;t=5150">viewtopic.php?f=18&amp;t=5150</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Thu May 29, 2025 9:05 pm</strong></div>
+				<div class="author">by <strong>PD2CH</strong></div>
+				<div class="content">Hi all,<br>
+first of all thx for sharing opengd77. I made my first qso via the ISS with my Retevis RT3S! Working great.<br>
+<br>
+Got now opengd77 installed on my v5 TYT-MD9600 latest test firmware 20250323. All up and running. When I send a aprs beacon in the air via the normal local aprs Vhf freq I see the 'message' is arriving at the aprs rx station.<br>
+<br>
+When I send a aprs beacon via a satellite (ISS or Sonate-2) I think to see that only the position is send and not a message.<br>
+Can I add a aprs 'message' to the satellites.txt file, and if "yes you can"; How to configure this?<br>
+<br>
+Many thx and 73's<br>
+PD2CH</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Fri May 30, 2025 2:24 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=8499&amp;sid=5e42b5db3e5a41352b0293b4329bba11">PD2CH</a> wrote: <a href="viewtopic8198.html?p=37280&amp;sid=5e42b5db3e5a41352b0293b4329bba11#p37280" data-post-id="37280" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu May 29, 2025 9:05 pm</div></cite>
+Hi all,<br>
+first of all thx for sharing opengd77. I made my first qso via the ISS with my Retevis RT3S! Working great.<br>
+<br>
+Got now opengd77 installed on my v5 TYT-MD9600 latest test firmware 20250323. All up and running. When I send a aprs beacon in the air via the normal local aprs Vhf freq I see the 'message' is arriving at the aprs rx station.<br>
+<br>
+When I send a aprs beacon via a satellite (ISS or Sonate-2) I think to see that only the position is send and not a message.<br>
+Can I add a aprs 'message' to the satellites.txt file, and if "yes you can"; How to configure this?<br>
+<br>
+Many thx and 73's<br>
+PD2CH
+</div></blockquote>
+
+If you make an APRS config with the same name as the Satellite, this overrides the default setting for that satellite.<br>
+<br>
+Use a search engine and you will fing multiple articles about this<br>
+<br>
+<br>
+e.g.<br>
+<br>
+<a href="https://www.opengd77.com/viewtopic.php?t=3128&amp;start=70#p25770" class="postlink">viewtopic.php?t=3128&amp;start=70#p25770</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Fri May 30, 2025 8:25 am</strong></div>
+				<div class="author">by <strong>PD2CH</strong></div>
+				<div class="content">Thx,<br>
+<br>
+I searched the forum the best I could, but it is not clear to me yet how to get a "aprs message" added to the aprs beacon sent to a sat. Same as sent to terrestial aprs stations and know in opengd77 CPS aprs setting &lt;comment&gt;<br>
+<br>
+e.g. This is the original line in satellite.txt:<br>
+25544U,ISS     ,437.800,145.990,     67,       0,145.825,145.825,145.800,      0,RS0ISS<br>
+<br>
+Can I add my " aprs message" &lt;Hello World&gt; just like this:<br>
+25544U,ISS     ,437.800,145.990,     67,       0,145.825,145.825,145.800,      0,RS0ISS Hello World<br>
+<br>
+Or should I use a comma or whatever .....?<br>
+<br>
+I will try the above example. Was just wondering what the protocol is.<br>
+<br>
+Thx and 73's<br>
+pd2ch</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Fri May 30, 2025 9:27 am</strong></div>
+				<div class="author">by <strong>PD2CH</strong></div>
+				<div class="content">Secondly:<br>
+<br>
+to get the new satellite.txt config in the radio's;<br>
+<br>
+Shoud I :<br>
+A: install again the firmware, <br>
+B: or should I update the keplers file via cps,<br>
+C: or will this satellite.txt file get updatet by uploading the codeplug?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Fri May 30, 2025 9:40 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=8499&amp;sid=5e42b5db3e5a41352b0293b4329bba11">PD2CH</a> wrote: <a href="viewtopicea45-2.html?p=37284&amp;sid=5e42b5db3e5a41352b0293b4329bba11#p37284" data-post-id="37284" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Fri May 30, 2025 9:27 am</div></cite>
+Secondly:<br>
+<br>
+to get the new satellite.txt config in the radio's;<br>
+<br>
+Shoud I :<br>
+A: install again the firmware, <br>
+B: or should I update the keplers file via cps,<br>
+C: or will this satellite.txt file get updatet by uploading the codeplug?
+</div></blockquote>
+
+You don't edit the satellites.txt file<br>
+<br>
+You create an APRS config named ISS in the CPS</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Fri May 30, 2025 3:57 pm</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">As usual, it's in the user guide, but who bothers reading/searching...
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/filea085.png?id=2998&amp;sid=5e42b5db3e5a41352b0293b4329bba11" class="postimage" alt="Screenshot at 2025-05-30 17-56-12.png" onclick="viewableArea(this);" /></dt>
+						<dd>Screenshot at 2025-05-30 17-56-12.png (35.4 KiB) Viewed 682 times</dd>
+		</dl>
+		
+		
+		
+			</div></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Fri May 30, 2025 4:23 pm</strong></div>
+				<div class="author">by <strong>VE4HTO</strong></div>
+				<div class="content"><div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file54f4.png?id=2999&amp;sid=5e42b5db3e5a41352b0293b4329bba11" class="postimage" alt="Clipboard01.png" onclick="viewableArea(this);" /></dt>
+						<dd>Clipboard01.png (41.26 KiB) Viewed 680 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+just like that, and install via Codeplug...</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Fri May 30, 2025 6:48 pm</strong></div>
+				<div class="author">by <strong>PD2CH</strong></div>
+				<div class="content">Hi VE4HTO,<br>
+<br>
+thx for your reply. I do border to read the user-manual and did use a search tool before I made this thread.<br>
+<br>
+But I did not made the connection with the text in the user-manual &lt;define a APRS config&gt; with the setup possibilities in CPS. Nothing in CPS is called APRS config or something the like. Yes there is a setup box to add APRS settings but I thought this was only for terrestial stations. Anyway, leason learned and thx for pointing me in the right direction. I will give it a go <br>
+<br>
+73's</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Sending aprs message via satellite</h3>
+				<div class="date">Posted: <strong>Wed Jun 04, 2025 8:43 pm</strong></div>
+				<div class="author">by <strong>KA1CM</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=3963&amp;sid=5e42b5db3e5a41352b0293b4329bba11">VE4HTO</a> wrote: <a href="viewtopicbc6f-2.html?p=37295&amp;sid=5e42b5db3e5a41352b0293b4329bba11#p37295" data-post-id="37295" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Fri May 30, 2025 4:23 pm</div></cite>
+Clipboard01.png<br>
+<br>
+just like that, and install via Codeplug...
+</div></blockquote>
+
+I’ve made a new APRS profile as suggested, now ISS can not hear me anymore. Should I put ARISS or RS0ISS in the via box?</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5150&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 17:14:04 GMT -->
+</html>

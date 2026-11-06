@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4283" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-07-31T05:10:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4283</id>
+
+		<entry>
+		<author><name><![CDATA[N1KY]]></name></author>
+		<updated>2024-07-31T05:10:14</updated>
+
+		<published>2024-07-31T05:10:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4283&amp;p=32355#p32355</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4283&amp;p=32355#p32355"/>
+		<title type="html"><![CDATA[VOX issue, TX latches on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4283&amp;p=32355#p32355"><![CDATA[
+GD-77, RC1 2024 07 14<br><br>I am testing VOX for the first time and no matter what VOX threshold and mic gain values I use the radio goes into TX and will not stop.  Sometimes this happens instantly when VOX is first turned on and other times VOX works normally for a few seconds before TX is latched on.<br><br>I don't see any recent reports of this problem so maybe it is just me.  Looking for ideas on what to try.<br><br>N1KY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=822">N1KY</a> — Wed Jul 31, 2024 5:10 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

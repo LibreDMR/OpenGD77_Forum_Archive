@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4645" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-17T08:18:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4645</id>
+
+		<entry>
+		<author><name><![CDATA[VK4VAK]]></name></author>
+		<updated>2025-04-17T08:18:18</updated>
+
+		<published>2025-04-17T08:18:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=36798#p36798</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=36798#p36798"/>
+		<title type="html"><![CDATA[Re: New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=36798#p36798"><![CDATA[
+<blockquote class="uncited"><div>Do you have the correct CPS installed?<br>V1_15_241130<br>Then you have to use the correct button Import OP77.<br>Everything worked correctly for me!</div></blockquote>Ran across your post from a Google search and just wanted to say thanks for the info! I was having issues transitioning from my OpenGD77 export to the RT-4D. Much appreciated.<br><br>Kind regards,<br>Matthew<br>VK4VAK<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8406">VK4VAK</a> — Thu Apr 17, 2025 8:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV4QXF]]></name></author>
+		<updated>2025-03-16T17:55:42</updated>
+
+		<published>2025-03-16T17:55:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=36229#p36229</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=36229#p36229"/>
+		<title type="html"><![CDATA[Re: New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=36229#p36229"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger, I have contacted the manufacturer. They are happy to provide the documentation. The CPU is a  Atri AT32F423, with documentation available at <a href="https://www.arterychip.com/en/product/AT32F423.jsp#Resource" class="postlink">https://www.arterychip.com/en/product/A ... p#Resource</a>, the DMR chip is a HF6853 and they have sent me the document in Chinese. ChatGPT has translated the table of contents for me. It looks comprehensive. Please email me at <a href="mailto:yangys@live.com.au">yangys@live.com.au</a> so that I can sent it to you. The AM chip is a BK4819.</div></blockquote>From my research, I noticed that in the past year most Chinese radios have adopted the BK4819/29, which is an RF chip supporting F2D and F1W demodulation. However, in the case of the Radtel RT-4D, it uses the Horketech HF6853 as a vocoder.<br><br>The reason for this choice seems to be that the AT32F423, unlike STM32FXX, does not have a built-in I2S interface for handling audio. As a result, an external vocoder like the HF6853 is used.<br><br>Additionally, there is a separate firmware available for the HF6853, which likely handles different vocoder functions independently of the main MCU.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=587">SV4QXF</a> — Sun Mar 16, 2025 5:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-23T19:53:11</updated>
+
+		<published>2025-01-23T19:53:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35320#p35320</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35320#p35320"/>
+		<title type="html"><![CDATA[Re: New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35320#p35320"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger, I have contacted the manufacturer. They are happy to provide the documentation. The CPU is a  Atri AT32F423, with documentation available at <a href="https://www.arterychip.com/en/product/AT32F423.jsp#Resource" class="postlink">https://www.arterychip.com/en/product/A ... p#Resource</a>, the DMR chip is a HF6853 and they have sent me the document in Chinese. ChatGPT has translated the table of contents for me. It looks comprehensive. Please email me at <a href="mailto:yangys@live.com.au">yangys@live.com.au</a> so that I can sent it to you. The AM chip is a BK4819.</div></blockquote>OpenGD77 only supports the C6000 DMR chip. The firmware also only runs on Mk22 and STM32 CPUs<br><br>You will also find if you google for that DMR "chip",  you won't find any information <br><br>It's likely that the part number quoted is not a chip, but a self contained DMR module<br><br><br>If someone wants to attempt to port it to the CPU used in this radio, they can download the source code, but as the DMR  chip / module is different, some functionality like promiscuous mode, and listening on both TS may be impossible<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 23, 2025 7:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3YAN]]></name></author>
+		<updated>2025-01-23T07:42:57</updated>
+
+		<published>2025-01-23T07:42:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35312#p35312</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35312#p35312"/>
+		<title type="html"><![CDATA[Re: New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35312#p35312"><![CDATA[
+Hi Roger, I have contacted the manufacturer. They are happy to provide the documentation. The CPU is a  Atri AT32F423, with documentation available at <a href="https://www.arterychip.com/en/product/AT32F423.jsp#Resource" class="postlink">https://www.arterychip.com/en/product/A ... p#Resource</a>, the DMR chip is a HF6853 and they have sent me the document in Chinese. ChatGPT has translated the table of contents for me. It looks comprehensive. Please email me at <a href="mailto:yangys@live.com.au">yangys@live.com.au</a> so that I can sent it to you. The AM chip is a BK4819.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7848">VK3YAN</a> — Thu Jan 23, 2025 7:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-22T19:49:18</updated>
+
+		<published>2025-01-22T19:49:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35280#p35280</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35280#p35280"/>
+		<title type="html"><![CDATA[Re: New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35280#p35280"><![CDATA[
+<blockquote class="uncited"><div>Is it possible for this radio to have the Open GD77 firmware?</div></blockquote>No.<br><br>Because the radio uses a non updatable internal module for its DMR functionality<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 22, 2025 7:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3YAN]]></name></author>
+		<updated>2025-01-22T11:13:16</updated>
+
+		<published>2025-01-22T11:13:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35269#p35269</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35269#p35269"/>
+		<title type="html"><![CDATA[Re: New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=35269#p35269"><![CDATA[
+Is it possible for this radio to have the Open GD77 firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7848">VK3YAN</a> — Wed Jan 22, 2025 11:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG5JN]]></name></author>
+		<updated>2024-12-20T14:09:38</updated>
+
+		<published>2024-12-20T14:09:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34826#p34826</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34826#p34826"/>
+		<title type="html"><![CDATA[Re: New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34826#p34826"><![CDATA[
+Do you have the correct CPS installed?<br>V1_15_241130<br>Then you have to use the correct button Import OP77.<br>Everything worked correctly for me!<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2794&amp;sid=b296fd660a60410f5f4d8ee71c266526" class="postimage" alt="rt4.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6363">DG5JN</a> — Fri Dec 20, 2024 2:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-07T22:45:35</updated>
+
+		<published>2024-12-07T22:45:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34495#p34495</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34495#p34495"/>
+		<title type="html"><![CDATA[Re: New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34495#p34495"><![CDATA[
+<blockquote class="uncited"><div>Hello<br>I bought the still unknown Radtel rt-4d DMR. In the latest version of the included programming, there is explicitly the possibility to load a GD77 compatible CSV file. I went into my finished GD77 for the MD-UV380 and created all files with the Export to CSV function. unfortunately, these cannot be inserted with the Radtel software. It reports errors that the files are not comparable. What am I doing wrong? Are there very old DG77 files where other formats are stored? I would have liked to take over ready-made channel lists with plug and play. who can give me a tip?<br>73 DG5YHS</div></blockquote><br>The GD77 codedplug format has not changed, there are no 'old' versions which are different.<br><br>Every radio type has a different codeplug binary format and also different CSV format. <br><br>If the Radtel CPS has that ability to Export and Import, you should Export the current codeplug in the Radtel radio, even though it will be a minimal codeplug,  then look at the CSV files exported by OpenGD77 at the individual  columns  e.g. in Channels.CSV and then manually copy and paste the equivalent columns from the OpenGD77CPS CSV export into the Radtel CSV file(s).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 07, 2024 10:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG5YHS]]></name></author>
+		<updated>2024-12-07T22:21:50</updated>
+
+		<published>2024-12-07T22:21:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34493#p34493</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34493#p34493"/>
+		<title type="html"><![CDATA[New DMR Radio Radtel RT-4D Import DG77 channel list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4645&amp;p=34493#p34493"><![CDATA[
+Hello<br>I bought the still unknown Radtel rt-4d DMR. In the latest version of the included programming, there is explicitly the possibility to load a GD77 compatible CSV file. I went into my finished GD77 for the MD-UV380 and created all files with the Export to CSV function. unfortunately, these cannot be inserted with the Radtel software. It reports errors that the files are not comparable. What am I doing wrong? Are there very old DG77 files where other formats are stored? I would have liked to take over ready-made channel lists with plug and play. who can give me a tip?<br>73 DG5YHS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4134">DG5YHS</a> — Sat Dec 07, 2024 10:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

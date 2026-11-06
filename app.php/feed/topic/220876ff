@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2208" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-04-21T21:07:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2208</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-04-21T21:07:13</updated>
+
+		<published>2022-04-21T21:07:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2208&amp;p=18369#p18369</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2208&amp;p=18369#p18369"/>
+		<title type="html"><![CDATA[Re: Auto Power Shutoff]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2208&amp;p=18369#p18369"><![CDATA[
+This could be added, but at the moment when the power button is pressed to turn the radio off, it still consumes 50mA<br>We will eventually be able to reduce this to less than 1mA, but the radio can never be truely off, because it does not have hardware to completely disconnect from the supply<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Apr 21, 2022 9:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4MWL]]></name></author>
+		<updated>2022-04-21T10:04:16</updated>
+
+		<published>2022-04-21T10:04:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2208&amp;p=18365#p18365</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2208&amp;p=18365#p18365"/>
+		<title type="html"><![CDATA[Auto Power Shutoff]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2208&amp;p=18365#p18365"><![CDATA[
+Hi,<br><br>Is there any option to power off the radio if the voltage drops below a set value or alternatively after a timeout?<br><br>This would be useful so the MD9600 does not flatten your car battery.<br><br>Thanks Mike VK4MWL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=837">VK4MWL</a> — Thu Apr 21, 2022 10:04 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

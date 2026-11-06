@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4895" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-20T22:15:02</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4895</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-20T22:15:02</updated>
+
+		<published>2025-02-20T22:15:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35861#p35861</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35861#p35861"/>
+		<title type="html"><![CDATA[Re: GD-77  No device found error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35861#p35861"><![CDATA[
+<blockquote class="uncited"><div>Guys thank you so much!!!  I did my own handmade programming cable based on the digramm you have provided and flashed the firmware directly to OpenGD77 as you also suggested. Problem solved, I''m so greatful.. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cool.gif" width="15" height="17" alt="8-)" title="Cool"> <br><br>Many thanks!<br>73' de SV2TBR</div></blockquote>Good, I've seen a lot of people all over the groups including Facebook having wrong cables.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Feb 20, 2025 10:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV2TBR]]></name></author>
+		<updated>2025-02-20T15:30:57</updated>
+
+		<published>2025-02-20T15:30:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35855#p35855</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35855#p35855"/>
+		<title type="html"><![CDATA[Re: GD-77  No device found error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35855#p35855"><![CDATA[
+Guys thank you so much!!!  I did my own handmade programming cable based on the digramm you have provided and flashed the firmware directly to OpenGD77 as you also suggested. Problem solved, I''m so greatful.. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cool.gif" width="15" height="17" alt="8-)" title="Cool"> <br><br>Many thanks!<br>73' de SV2TBR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8136">SV2TBR</a> — Thu Feb 20, 2025 3:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-20T10:28:12</updated>
+
+		<published>2025-02-20T10:28:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35849#p35849</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35849#p35849"/>
+		<title type="html"><![CDATA[Re: GD-77  No device found error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35849#p35849"><![CDATA[
+And you don't need to flash any original firmware before the OpenGD77, as it's a complete firmware written from scratch.<br><br>About the cable, as SA0BUX wrote, there is no chip inside. That means, if you plug the cable alone on a USB port, nothing will happen, no new device is added to the device manager.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 20, 2025 10:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-20T09:49:58</updated>
+
+		<published>2025-02-20T09:49:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35848#p35848</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35848#p35848"/>
+		<title type="html"><![CDATA[Re: GD-77  No device found error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35848#p35848"><![CDATA[
+There is no chip in the cable for GD-77 so your profilic cable is  the wrong one.<br><br>The wiring is the same as for RT3S/MD-UV380/Anytone 868/878.  <br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2855&amp;sid=b9c60ceeb5f93d01dc91e17299e8534e" class="postimage" alt="RT3S_MD-UV380_GD77_cable_1.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Feb 20, 2025 9:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV2TBR]]></name></author>
+		<updated>2025-02-20T16:02:56 </updated>
+
+		<published>2025-02-20T09:09:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35846#p35846</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35846#p35846"/>
+		<title type="html"><![CDATA[GD-77  No device found error - SOLVED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4895&amp;p=35846#p35846"><![CDATA[
+Hi, I'm trying to follow step1 of the OpenGD-77 installation procedure and update the original firmware first (on my Radioddity GD77) to latest 4.3.9.sgl (from 3.02.01 installed) -before installing OpenGD-77. Pluging the cable on my win10 pc, putting the radio in DFU mode but when I try to hit "Download"for the update to begin "No Device found"error appears. The cable I use looks like this one: <a href="https://www.radioddity.com/products/programming-cable-for-tyt-md-380-md-390-md-680-radioddity-gd-77-gd-77s?srsltid=AfmBOorR8gV-mZxGrWtktaUQW07w6hFp8Ai56gYPaMIOx3pskCd7USPi&amp;fbclid=IwZXh0bgNhZW0CMTAAAR0_C17zeowdBUhF4ozh7ZvnHKWgIxXNLNaa61ahL2OESO7ZXHrOe_95__0_aem_SM1IgKiYcth7-pCjqevg5A" class="postlink">https://www.radioddity.com/products/pro ... -pCjqevg5A</a>. (I'm not 100% sure if this is the correct cable as the previous owner of the radio -which by the way is in prestine/like new condition- could not confirm if this was in the package when the radio was bought or is from an other radio he had). Attached the photo of the cable I have. When the cable is pluged in to USB(even if the radio is not attached on the other side), in device manager I can see that it's there and appears as: Prolific USB-to-Serial Comm Port (COM5) -COM5 is also the port I choose during the update process. So this is a USB cable clearly with a chip on it. Some fellow hams insisted that this is not the correct cable and that the right one is just a USB "fossil"without any chip on it. So MY QUESTION (at last <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> ): Can any body please confirm which is the correct cable for updating the -original- (not OpenGD77) firmware? If the cable is not the problem then what should I double-check?? Any advice / help would be appreciated. Thanks and 73' de SV2TBR<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2854&amp;sid=b9c60ceeb5f93d01dc91e17299e8534e" class="postimage" alt="01.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8136">SV2TBR</a> — Thu Feb 20, 2025 9:09 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3937" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-12T11:04:58</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3937</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-12T11:04:58</updated>
+
+		<published>2024-04-12T11:04:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30794#p30794</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30794#p30794"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 03 29]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30794#p30794"><![CDATA[
+This version has been superseded.<br><br>See <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=3980" class="postlink">viewtopic.php?f=18&amp;t=3980</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 12, 2024 11:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-05T01:01:15</updated>
+
+		<published>2024-04-05T01:01:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30622#p30622</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30622#p30622"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 03 29]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30622#p30622"><![CDATA[
+<blockquote class="uncited"><div>I was told that on the latest firmware The fan no longer works In the hotspot mode on high power.I do not know if this is true or not as I have not tested it</div></blockquote>What you have been told is wrong.<br><br>There is no CPU control of the fan in this radio.<br><br>i.e It's not that the firmware doesn't control the fan; there is no electrical connection from the CPU to the fan<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 05, 2024 1:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W1DSL]]></name></author>
+		<updated>2024-04-05T00:19:21</updated>
+
+		<published>2024-04-05T00:19:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30621#p30621</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30621#p30621"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 03 29]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30621#p30621"><![CDATA[
+I was told that on the latest firmware The fan no longer works In the hotspot mode on high power.I do not know if this is true or not as I have not tested it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5958">W1DSL</a> — Fri Apr 05, 2024 12:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T21:37:11</updated>
+
+		<published>2024-03-29T21:37:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30472#p30472</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30472#p30472"/>
+		<title type="html"><![CDATA[New Beta 2024 03 29]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3937&amp;p=30472#p30472"><![CDATA[
+A new Beta is available for the MD-9600 / RT-90<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/115b17b83d8ecad2e3c5d67b2984ba3b5b4b6c22" class="postlink">downloads/MD9600/Firmware/115b17b83d8ec ... 3b5b4b6c22</a><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><br><br>This version ...<br><br>* Fixes a problem with DMR Tx caused by the addition of the Force DMO functionality<br>* Fixes a problem with invalid FM CTCSS values in the codeplug<br>* Fixes a problem with the notification messages when displayed on the VFO sweep scan and other screens.<br>* Includes changes to multiple language translations<br><br>Thanks to Daniel F1RMB for fixing all of these problems<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 9:37 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

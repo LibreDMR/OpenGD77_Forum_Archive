@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5149" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-05T19:44:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5149</id>
+
+		<entry>
+		<author><name><![CDATA[DA6VK]]></name></author>
+		<updated>2025-06-05T19:44:55</updated>
+
+		<published>2025-06-05T19:44:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37386#p37386</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37386#p37386"/>
+		<title type="html"><![CDATA[Re: Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37386#p37386"><![CDATA[
+Hello,<br>i have changed the FW wich had the greatest sucsess. I got it working now on some Channels. Whats kind of strange is that i get two relais , one 70km and the other 50km away. The relais about 2 km away is only showing "Timeout" And i can't get any parrots to work. High Power, low Power doesent make a difference.<br>My CP Settings for the Contacts and Zones are the same as on my other Radio, and also compared the Settings from various CP i found in different forums. Is it possible that there is so less traffic on DMR? I would like to get my Local TGs like TG26253, TG26255,TG2625... On TG2625 i was able to listen to a QSO earlier this week, but it seems they could not receive me.<br>I keep trying... <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8630">DA6VK</a> — Thu Jun 05, 2025 7:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2025-06-04T20:43:04</updated>
+
+		<published>2025-06-04T20:43:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37372#p37372</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37372#p37372"/>
+		<title type="html"><![CDATA[Re: Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37372#p37372"><![CDATA[
+<blockquote class="uncited"><div>Hello to all,<br><br>I installed Open GD77 on by Baofeng DM1701but I cant get get DMR to work. No receiving and no transmitting. I went by the Manual, watched several YT Videos and even tried to different CP wich i downloaded. The Repeaters are in reach, most of them work also on 70cm or 2m FM. FM works with noch issues. I tried the different Parrots, called on the lokal Repeaters etc. but no reaction. I put it on scan "All Channels",and i found a Repeater where once and a while the green LED flashes. But no tone, even if i turn the Squelch off. I am pretty sure that i have something overlooked or wrong programmed, but according to the Manual it looks ok.<br><br>I have a Radioddity DB-25 D wich i wrote the CP for a few weeks before and it works. Not the way i would like to, but better than nothing <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_razz.gif" width="15" height="17" alt=":P" title="Razz">  But on the other side , that whole DMR-Thing is complete new to me.<br><br>Maybe someone as a tip, checklist, a "How to", or whatever it takes to get that radio to work.<br><br>Thank you. 73 DA6VK</div></blockquote><br>If DMR is not working at all, you may have NOT used the DONOR FILE properly during FW Loading...<br><br>Are you sure you have exactly followed the OpenGD77 FW installation directions on its manual??<br><br>Latest CPS,<br>Latest OpenGD77 FW ZIP file for you radio model,<br>Donor file ..<br><br>Let us know.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Wed Jun 04, 2025 8:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DA6VK]]></name></author>
+		<updated>2025-06-01T19:55:29</updated>
+
+		<published>2025-06-01T19:55:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37321#p37321</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37321#p37321"/>
+		<title type="html"><![CDATA[Re: Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37321#p37321"><![CDATA[
+Its the same regardless what powersetting i use. and i found out it won't do this on all channels. I had redone the Zones, Contacts etc. and also set up the Radio. The settings arr more or less the same on all  channels. <br>BTW: I tuned an external Antenna yesterday, and i got on a Power output between 7.1 and 7.4 Watts <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8630">DA6VK</a> — Sun Jun 01, 2025 7:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-01T01:53:49</updated>
+
+		<published>2025-06-01T01:53:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37309#p37309</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37309#p37309"/>
+		<title type="html"><![CDATA[Re: Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37309#p37309"><![CDATA[
+<blockquote class="uncited"><div>Now i have a new issue: I added a couple Repeaters, and after i transfered the Codeplug i get on every DMR Cannel "Timeout" Filters are Off<br>And i cant get my Parrots to work. On my other Radio they all work, so the issue is with the DM-1701 <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad"></div></blockquote>what happens if you transmit in 4W or less? works fine in less watts?<br><br>if yes, then maybe you are affected by this bug: <a href="https://www.opengd77.com/viewtopic.php?f=11&amp;t=4976" class="postlink">viewtopic.php?f=11&amp;t=4976</a><br><br>otherwise maybe is related with the frequency deviation and it can be easily calibrated with a SDR, like this...<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/8gB0CR20yBc">youtu.be/8gB0CR20yBc</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sun Jun 01, 2025 1:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DA6VK]]></name></author>
+		<updated>2025-05-31T23:33:42</updated>
+
+		<published>2025-05-31T23:33:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37308#p37308</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37308#p37308"/>
+		<title type="html"><![CDATA[Re: Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37308#p37308"><![CDATA[
+<blockquote class="uncited"><div>Your firmware is too old. Please download and install the latest firmware. Old firmware and new CPS don’t mix.</div></blockquote>Changed the FW, that bought me 2 Steps forward  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> Thank you!  <br>Now i have a new issue: I added a couple Repeaters, and after i transfered the Codeplug i get on every DMR Cannel "Timeout" Filters are Off<br>And i cant get my Parrots to work. On my other Radio they all work, so the issue is with the DM-1701 <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8630">DA6VK</a> — Sat May 31, 2025 11:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-29T20:20:25</updated>
+
+		<published>2025-05-29T20:20:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37279#p37279</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37279#p37279"/>
+		<title type="html"><![CDATA[Re: Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37279#p37279"><![CDATA[
+Your firmware is too old. Please download and install the latest firmware. Old firmware and new CPS don’t mix.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu May 29, 2025 8:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DA6VK]]></name></author>
+		<updated>2025-05-29T19:31:24</updated>
+
+		<published>2025-05-29T19:31:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37278#p37278</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37278#p37278"/>
+		<title type="html"><![CDATA[Re: Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37278#p37278"><![CDATA[
+Thank you for your Reply<br><br><br>Compare your DMR settings with the radio which works e.g. &gt; did that a couple Times even if the CP are different the settings seem to be the same. Also checked on repeaterbook for the Relais. Frequency, CC etc. are the same. I even created a new Zone where i copyed all Kontakts in, still nothing. I tried my other Radio to call the local parrot. Than i could her me talking, and Display showed my Name and DMR ID. The answer from the Parrot i did not receive on the DM-1701<br><br>There is also a possibility that the frequency calibrarion in your DM1701 is wrong &gt;&gt; i looked that up in the Manual. put the channel on 430 and 440MHZ, power on 5W. But i am not sure what i do with the value 184?<br><br>Also, check your Tx power (on FM) Power is on max. for now on all contacts. I can open Repeaters up to 35-40km away on FM. FM the Radio works fine.<br><br>To me it looks like the radio is not transmitting/receiving on DMR<br><br>CPS software is the version R2025.03.23.01, ( +DMR), and the installed FW on the Radio is 20240908143110 (9947546 D) CPU: TYT But this was the only FW i was able to install anyway.<br><br>The settings like DMR Filter, TS Filter, CC Scan.. i tried with different settings. I even reinstalled the Firmware.<br><br>Right now i dont have any idea what else to look for  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_confused.gif" width="15" height="17" alt=":?" title="Confused"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8630">DA6VK</a> — Thu May 29, 2025 7:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-29T03:45:12</updated>
+
+		<published>2025-05-29T03:45:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37272#p37272</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37272#p37272"/>
+		<title type="html"><![CDATA[Re: Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37272#p37272"><![CDATA[
+<blockquote class="uncited"><div>Hello to all,<br><br>I installed Open GD77 on by Baofeng DM1701but I cant get get DMR to work. No receiving and no transmitting. I went by the Manual, watched several YT Videos and even tried to different CP wich i downloaded. The Repeaters are in reach, most of them work also on 70cm or 2m FM. FM works with noch issues. I tried the different Parrots, called on the lokal Repeaters etc. but no reaction. I put it on scan "All Channels",and i found a Repeater where once and a while the green LED flashes. But no tone, even if i turn the Squelch off. I am pretty sure that i have something overlooked or wrong programmed, but according to the Manual it looks ok.<br><br>I have a Radioddity DB-25 D wich i wrote the CP for a few weeks before and it works. Not the way i would like to, but better than nothing <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_razz.gif" width="15" height="17" alt=":P" title="Razz">  But on the other side , that whole DMR-Thing is complete new to me.<br><br>Maybe someone as a tip, checklist, a "How to", or whatever it takes to get that radio to work.<br><br>Thank you. 73 DA6VK</div></blockquote>Compare your DMR settings with the radio which works e.g.<br><br>There is also a possibility that the frequency calibrarion in your DM1701 is wrong<br><br>Also, check your Tx power (on FM)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu May 29, 2025 3:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DA6VK]]></name></author>
+		<updated>2025-05-28T23:19:39</updated>
+
+		<published>2025-05-28T23:19:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37267#p37267</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37267#p37267"/>
+		<title type="html"><![CDATA[Can't get Open GD77 in DMR to work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5149&amp;p=37267#p37267"><![CDATA[
+Hello to all,<br><br>I installed Open GD77 on by Baofeng DM1701but I cant get get DMR to work. No receiving and no transmitting. I went by the Manual, watched several YT Videos and even tried to different CP wich i downloaded. The Repeaters are in reach, most of them work also on 70cm or 2m FM. FM works with noch issues. I tried the different Parrots, called on the lokal Repeaters etc. but no reaction. I put it on scan "All Channels",and i found a Repeater where once and a while the green LED flashes. But no tone, even if i turn the Squelch off. I am pretty sure that i have something overlooked or wrong programmed, but according to the Manual it looks ok.<br><br>I have a Radioddity DB-25 D wich i wrote the CP for a few weeks before and it works. Not the way i would like to, but better than nothing <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_razz.gif" width="15" height="17" alt=":P" title="Razz">  But on the other side , that whole DMR-Thing is complete new to me.<br><br>Maybe someone as a tip, checklist, a "How to", or whatever it takes to get that radio to work.<br><br>Thank you. 73 DA6VK<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8630">DA6VK</a> — Wed May 28, 2025 11:19 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

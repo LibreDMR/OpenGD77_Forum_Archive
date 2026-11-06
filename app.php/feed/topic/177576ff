@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1775" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-07-27T18:25:53</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1775</id>
+
+		<entry>
+		<author><name><![CDATA[daratt]]></name></author>
+		<updated>2021-07-27T18:25:53</updated>
+
+		<published>2021-07-27T18:25:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1775&amp;p=15364#p15364</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1775&amp;p=15364#p15364"/>
+		<title type="html"><![CDATA[Re: Latest DM-1801 FW location?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1775&amp;p=15364#p15364"><![CDATA[
+Thanks trengking...<br><br>So I read a bit further and found these instruction...  <a href="http://opengd77.com/viewtopic.php?f=13&amp;t=1770" class="postlink">http://opengd77.com/viewtopic.php?f=13&amp;t=1770</a><br><br><br>I now have latest CPS (the version which allows for individual Radio IDs per channel)<br><br>I have the 4.3.6 firmware which i understand has to be selected first for DMR functionality... after that I selected a DM1801 bin file which uploaded successfully. <br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1582">daratt</a> — Tue Jul 27, 2021 6:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[daratt]]></name></author>
+		<updated>2021-07-26T20:09:53</updated>
+
+		<published>2021-07-26T20:09:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1775&amp;p=15354#p15354</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1775&amp;p=15354#p15354"/>
+		<title type="html"><![CDATA[Latest DM-1801 FW location?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1775&amp;p=15354#p15354"><![CDATA[
+Hi all<br><br>My DM-1801 currently has firmware as follows;<br><br>Built<br>09:07:40<br>Mar 21 2021<br>[f899795]<br><br>Is there a later firmware available and where can the SGL file be downloaded from please?<br><br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1582">daratt</a> — Mon Jul 26, 2021 8:09 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

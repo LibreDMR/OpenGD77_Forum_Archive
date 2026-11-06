@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=2035&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 16:16:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; MD-9600 / RT-90 Installation</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>MD-9600 / RT-90 Installation</h2>
+		<p><a href="viewtopic3f0b.html?f=18&amp;t=2035">viewtopic.php?f=18&amp;t=2035</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>14</strong></div>
+					<div class="post">
+				<h3>MD-9600 / RT-90 Installation</h3>
+				<div class="date">Posted: <strong>Sat Jan 15, 2022 5:07 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><strong class="text-strong">Firmware installation instructions</strong><br>
+<br>
+This firmware is experimental and anyone installing it does so at their own risk.<br>
+<br>
+<br>
+Before installing the firmware, you should be sure you have a copy of the official firmware which works with your radio, in case you need to reinstall the official firmware.<br>
+<br>
+There are at least 4 different versions of MD-9600 hardware, and if you install the incorrect version of official firmware, you radio will not transmit or receive. You can partially determine which hardware version you have, by opening the top of the radio and reading the version number printed on the top of the PCB.<br>
+<br>
+Major versions are V2, V3, V4 , V4A and V5<br>
+As far as we are aware, the first V1 boards are actually labelled as V2.<br>
+Also V4A and V5 radios appear to be identical, so anyone with a V4A hardware version, should use the V5 OpenMd9600 firmware.<br>
+V2 and V3 radios should use the V2 version of OpenMd9600<br>
+If your V2 radio does not support dimming the display, please try the V1 OpenMD9600 firmware, as its probably V1 hardware radio.<br>
+<br>
+<br>
+EA5GK has supplied this list of links to various official firmware versions, and CPSs but there may also be other versions<br>
+<br>
+Firmware MD9600 V1, V2 y V3. <a href="https://open-dmr.fr/telecharger/firmware-officiel-tyt-md9600-toutes-versions/" class="postlink">https://open-dmr.fr/telecharger/firmwar ... -versions/</a><br>
+Firmware MD9600 V4. <a href="https://open-dmr.fr/telecharger/firmware-officiel-tyt-pour-md-9600-v4/" class="postlink">https://open-dmr.fr/telecharger/firmwar ... d-9600-v4/</a><br>
+MD9600 DMR download software. <a href="https://open-dmr.fr/telecharger/logiciel-maj-firmware-md-9600/" class="postlink">https://open-dmr.fr/telecharger/logicie ... e-md-9600/</a><br>
+MD9600 Driver windows. <a href="https://open-dmr.fr/telecharger/drivers-cable-tyt-usb-win7-vista/" class="postlink">https://open-dmr.fr/telecharger/drivers ... in7-vista/</a><br>
+CPS MD9600 V1, V2 y V3. <a href="https://open-dmr.fr/telecharger/editeur-cps-tyt-md-9600/" class="postlink">https://open-dmr.fr/telecharger/editeur ... t-md-9600/</a><br>
+CPS MD9600 V4. <a href="https://open-dmr.fr/telecharger/editeur-codeplug-cps-officiel-tyt-pour-md-9600-v4/" class="postlink">https://open-dmr.fr/telecharger/editeur ... d-9600-v4/</a><br>
+<br>
+
+<ul>
+<li>After you have confimed that you have an official version of firmware which works with your radio, you should use the official CPS to backup the calibration data in the radio</li>
+<li>With your Md9600 connected to a PC, using the official CPS, hold Control + T until the "test" screen is displayed</li>
+<li>You should also backup your codeplug using the official CPS</li>
+
+<li>Download and install the latest OpenGD77CPS from <a href="https://www.opengd77.com/viewforum.php?f=12" class="postlink">here</a></li>
+<li>Download the latest beta version from here <br>
+<a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a></li>
+<li> Download the Official firmware to act as the "donor" for the DMR codec <a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br>
+Unzip the donor firmware zip file, to extract the donor file MD9600-CSV(2571V5)-V26.45.bin<br>
+Note. This file is the same for all MD9600 hardware versions.</li>
+
+
+<li> Put the MD-9600 into firmware upload mode, by holding the orange and P1 buttons when applying power to the radio. The display backlight will flash and the display will be blank. <span style="text-decoration:underline">NOTE. You must disconnect and reconnect the power cable to the radio, not just use the power button to turn the radio off and on again to enter firmware upload mode.</span><br>
+When the radio is put into firmware upload mode, with the USB cable connected to your PC, the Windows should download and install the STM DFUSE driver that is required to communicate with the CPU in the radio.</li>
+
+
+<li> In the OpenGD77CPS, set the radio type to MD9600</li>
+<li> In the OpenGD77CPS, use the MD9600 firmware loader from the Extras menu.</li>
+<li> Select the location of the donor firmware file, you already extracted from the donor zip package</li>
+<li> Select the correct OpenMD9600 firmware which matches your radio hardware version<br>
+If the firmware loader is unable to connect to the radio, the problem is probably that Windows has installed the wrong driver.<br>
+In this case you will need to download the STM DFUSE driver from STM's website.<br>
+Google for "stm dfuse driver" to find where to download the driver</li>
+
+
+<li> After the firmware has installed, and you have rebooted the radio, the radio should show the normal OpenGD77 VFO screen, however the frequencies will be some random numbers e.g. 1666.6665MHz because the codeplug area used by the OpenMD9600 is probably full of 0xFF bytes.<br>
+Note. The official codplug used by the MD9600 is not supported. You must make a new codeplug using the OpenGD77 CPS, or use an existing GD77 codeplug.</li>
+<li> <strong class="text-strong">You should now backup the Flash memory in your MD9600 and save that file in a safe location</strong><br>
+<span style="text-decoration:underline">This is very important, because the official firmware will not run again on the radio unless you restore the Flash memory before reverting back to the official firmware.</span></li>
+<li> After the Flash backup is complete. Upload your normal OpenGD77 codeplug to the MD9600, you can also upload Voice Prompts, Satellite data and DMR ID's.</li>
+<li> After the codeplug is loaded the radio should now be functional<br>
+If the radio does not transmit or receive, you have probably installed the wrong firmware version, and it does not match your hardware.</li>
+</ul>
+
+<br>
+<strong class="text-strong">User Interface</strong><br>
+<br>
+The MD9600 does not have all the buttons on the GD77. At the moment these are the key / button mappings, and not all functions of SK1 and SK2 are currently supported<br>
+<br>
+P1 = SK2<br>
+P2 = SK1<br>
+P2 = (NO FUNCTION)<br>
+P4 = * (STAR)<br>
+<br>
+On the mic keypad<br>
+<br>
+A/B = Green<br>
+“A” key = Red<br>
+“B” key = Right Arrow<br>
+“C” key = LeftArrow”<br>
+Long press of “D” key toggles SK2 latch, so SK2 functions can be controlled from the mic<br>
+<br>
+On the front panel, Up and Down and the rotary control, change some things.<br>
+<br>
+On VFO and Channel,  Up / Down buttons are Right / Left, and rotary control is Up / Down <br>
+But in menus, the Up / Down buttons are Up/Down and rotary control is to adjust the settings<br>
+<br>
+In General Options, there is a setting called Button Remap, this changes the operation of the front panel buttons in the menus to be the same as on the Channel and VFO screens.<br>
+<br>
+<br>
+This is Beta / Experimental firmware, and does not have all OpenGD77 fumnctionality, and also contains many bugs<br>
+Notes.
+<ul>
+<li>If any of the screens e.g. Location , Lat / Long do not function, try disabling Voice Prompts.</li>
+<li>Power levels are not well calibrated.</li>
+<li>Some older radio hardware does not work well on DMR unless set to full power</li>
+</ul>
+
+<br>
+<strong class="text-strong">Removal of the firmware</strong><br>
+<br>
+If you need to remove the firmware, you should can reload the official firmware for your radio, using the official firmware loader application<br>
+The official codeplug will have been overwritten, and you may need to change the setting.ini file of the official cps to allow your old codeplug to be uploaded when the radio requires a passcode.<br>
+<br>
+Change<br>
+<br>
+password=0 to password=password<br>
+<br>
+<br>
+<img src="https://www.opengd77.com/download/file.php?id=1403" class="postimage" alt="Image"></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Sat Mar 19, 2022 4:28 pm</strong></div>
+				<div class="author">by <strong>M0JZX</strong></div>
+				<div class="content">Is it safe to order a MD-9600 to run openGD77 or should I try and only buy certain versions ?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Sat Mar 19, 2022 8:29 pm</strong></div>
+				<div class="author">by <strong>G4EML</strong></div>
+				<div class="content">As far as we know we have firmware for all of the currently available versions of the TYT MD-9600 and Retevis RT-90. <br>
+<br>
+Of course with the current chip shortages it is always possible they TYT will need to change the design yet again but there is no sign of that at the moment. <br>
+<br>
+Colin G4EML.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Fri Mar 25, 2022 2:25 pm</strong></div>
+				<div class="author">by <strong>WRPI448</strong></div>
+				<div class="content">How do we identify which hardware version a radio is? I am attempting to flash a Rugged Radio back to TYT firmware to enable VFO</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Fri Mar 25, 2022 3:55 pm</strong></div>
+				<div class="author">by <strong>G4EML</strong></div>
+				<div class="content">There is no easy way to tell. <br>
+The quickest way is just to try each version of firmware. All will load and run on any version of radio but only the correct one will transmit and receive. <br>
+<br>
+Colin G4EML.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Sat Apr 09, 2022 8:15 pm</strong></div>
+				<div class="author">by <strong>TA2KW</strong></div>
+				<div class="content">hi VK3KYY <br>
+<br>
+this file "<strong class="text-strong">MD9600-CSV(2571V5)-V26.45.bin</strong>" <br>
+<br>
+<a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br>
+<br>
+deleted from this link, <br>
+<br>
+can you upload it again?<br>
+<br>
+thanks</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Sat Apr 09, 2022 11:21 pm</strong></div>
+				<div class="author">by <strong>WR1S</strong></div>
+				<div class="content"><blockquote class="uncited"><div>hi VK3KYY<br>
+this file "MD9600-CSV(2571V5)-V26.45.bin"<br>
+<a href="https://www.passion-radio.com/index.php" class="postlink">https://www.passion-radio.com/index.php</a> ... chment=760<br>
+deleted from this link,<br>
+can you upload it again?<br>
+thanks</div></blockquote>
+
+When you go to the link<br>
+<a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br>
+you will receive file "210525 MD-9600  V4 firmware for PLL2571.zip"<br>
+Save that file to your computer and open the file.<br>
+The file that you want, "MD9600-CSV(2571V5)-V26.45.bin" is inside the file you saved from the link</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Sun Apr 10, 2022 6:30 am</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">Hi,<br>
+<br>
+   I just tried to download using the given URL, and it works here.<br>
+<br>
+<br>
+Cheers.<br>
+---<br>
+Daniel</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Sun Apr 10, 2022 7:34 am</strong></div>
+				<div class="author">by <strong>S58SMS</strong></div>
+				<div class="content">Hello. Can this be installed on rt90 too?<br>
+<br>
+S58sms<br>
+73</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Installation information</h3>
+				<div class="date">Posted: <strong>Fri May 13, 2022 10:08 pm</strong></div>
+				<div class="author">by <strong>G4EML</strong></div>
+				<div class="content">To permanently save a modified channel to the codeplug you need to use SK2 + Green.  Pressing Green on its own only makes a temporary change. <br>
+<br>
+On the MD 9600 press and hold the D button on the mic to set SK2 then press A/B (Green) to save the channel. <br>
+<br>
+Colin G4EML</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>14</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=2035&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 16:16:55 GMT -->
+</html>

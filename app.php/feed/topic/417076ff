@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4170" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-30T09:59:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4170</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-30T09:59:55</updated>
+
+		<published>2024-06-30T09:59:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4170&amp;p=31874#p31874</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4170&amp;p=31874#p31874"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 023]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4170&amp;p=31874#p31874"><![CDATA[
+This version has been superseded<br><br>See  <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4196" class="postlink">viewtopic.php?f=18&amp;t=4196</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 30, 2024 9:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-23T09:37:27</updated>
+
+		<published>2024-06-23T09:37:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4170&amp;p=31748#p31748</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4170&amp;p=31748#p31748"/>
+		<title type="html"><![CDATA[New Beta 2024 06 023]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4170&amp;p=31748#p31748"><![CDATA[
+A new MD9600 / RT90 Beta is now available<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/7ac02573abf529276c48ba7c0c931a994e34637a_2" class="postlink">downloads/MD9600/Firmware/7ac02573abf52 ... 4e34637a_2</a><br><br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><br><br><br><span style="font-size:150%;line-height:116%">EDIT.<br><br>This version appears to have problems then used with simplex hotspots.  <br>If you experience any problems with this version please download the previous beta and reinstall</span><br><br>Changes in this version<br><br>* Add Hotspot SMS passthrough function - Thanks for multiple authors including DL4LEX and Daniel for incorporating this change.<br>* Reinstate Private call alarm beep<br>* Add safe boot functionality (minimum functionality boot)<br>* Fix Hotspot echo bug and change hotspot version number<br>* Disable battery RAM to increase battery life / reduce current consumption<br>* Fix DTMF tone cancellation problem<br>* Fix TimeSlot detection and synchronisation when TimeSlot filter is disabled<br>* Fix bug with edit cursor problems<br>* Fix voltage history plotting bug<br>* Fix phantom PTT tiggering bug<br>* Changes to hardware debug screen<br><br>Thanks to Daniel F1RMB for this update<br><br>Edit.<br><br>I made a mistake with the integration with the language translation files, so I have now rebuilt / repackaged the firmware into the .zip files so that it now contains the latest translations<br><br>I have updated the link accordingly and the build date will now be 20240624, but the git revision code will be the same because the only change was actually the .gla language data files in the .zip file<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 23, 2024 9:37 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

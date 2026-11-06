@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=4899&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 11:42:52 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; CPS Unhandled expection error - SOLVED</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>CPS Unhandled expection error - SOLVED</h2>
+		<p><a href="viewtopiccbd5.html?f=12&amp;t=4899">viewtopic.php?f=12&amp;t=4899</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>CPS Unhandled expection error - SOLVED</h3>
+				<div class="date">Posted: <strong>Sun Feb 23, 2025 5:30 am</strong></div>
+				<div class="author">by <strong>VK7BOB</strong></div>
+				<div class="content">Hi all,<br>
+<br>
+After enjoying Open GD77 for some years I have unexpectedly had an issue. <br>
+<br>
+Recently a TYT MD-380 joined my set up and now when plugging in the TYT MD-760 to download the updated codeplug I get an error message.<br>
+To remedy this I have uninstalled and reinstalled the latest CPS. I have also selected to reinstall the drivers. I have found the 380 works flawlessly, however the 760 continues to create an error. What I mean by this is I plug in the 760 and get non stop errors, and then plug in the 380 and everything instantly works. <br>
+I am using Windows 10.<br>
+<br>
+The error from inside the OpenGd77 CPS says:<br>
+<br>
+See the end of this message for details on invoking <br>
+just-in-time (JIT) debugging instead of this dialog box.<br>
+<br>
+************** Exception Text **************<br>
+System.NullReferenceException: Object reference not set to an instance of an object.<br>
+   at DMR.OpenGD77Form.readOpenGD77RadioInfoAndUpdateUSBBufferSize(SerialPort port, Boolean stealth)<br>
+   at DMR.OpenGD77Form.probeRadioModel(Boolean stealth)<br>
+   at DMR.OpenGD77Form.OpenGD77Form_Load(Object sender, EventArgs e)<br>
+   at System.Windows.Forms.Form.OnLoad(EventArgs e)<br>
+   at System.Windows.Forms.Form.OnCreateControl()<br>
+   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)<br>
+   at System.Windows.Forms.Control.CreateControl()<br>
+   at System.Windows.Forms.Control.WmShowWindow(Message&amp; m)<br>
+   at System.Windows.Forms.Control.WndProc(Message&amp; m)<br>
+   at System.Windows.Forms.ScrollableControl.WndProc(Message&amp; m)<br>
+   at System.Windows.Forms.ContainerControl.WndProc(Message&amp; m)<br>
+   at System.Windows.Forms.Form.WmShowWindow(Message&amp; m)<br>
+   at System.Windows.Forms.Form.WndProc(Message&amp; m)<br>
+   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)<br>
+   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)<br>
+   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)<br>
+<br>
+<br>
+************** Loaded Assemblies **************<br>
+mscorlib<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9282.0 built by: NET481REL1LAST_C<br>
+    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll<br>
+----------------------------------------<br>
+OpenGD77CPS<br>
+    Assembly Version: 1.2.9165.30499<br>
+    Win32 Version: 1.0.0.0<br>
+    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/OpenGD77CPS.exe<br>
+----------------------------------------<br>
+System.Windows.Forms<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9251.0 built by: NET481REL1LAST_C<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll<br>
+----------------------------------------<br>
+System<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9282.0 built by: NET481REL1LAST_C<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll<br>
+----------------------------------------<br>
+System.Drawing<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9037.0 built by: NET481REL1<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll<br>
+----------------------------------------<br>
+WeifenLuo.WinFormsUI.Docking<br>
+    Assembly Version: 3.0.4.0<br>
+    Win32 Version: 3.0.4.0<br>
+    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/WeifenLuo.WinFormsUI.Docking.DLL<br>
+----------------------------------------<br>
+System.Data<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9214.0 built by: NET481REL1LAST_B<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll<br>
+----------------------------------------<br>
+System.Xml<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9037.0 built by: NET481REL1<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll<br>
+----------------------------------------<br>
+System.Configuration<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9037.0 built by: NET481REL1<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll<br>
+----------------------------------------<br>
+System.Core<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9277.0 built by: NET481REL1LAST_B<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll<br>
+----------------------------------------<br>
+Accessibility<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9037.0 built by: NET481REL1<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll<br>
+----------------------------------------<br>
+System.Numerics<br>
+    Assembly Version: 4.0.0.0<br>
+    Win32 Version: 4.8.9037.0 built by: NET481REL1<br>
+    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll<br>
+----------------------------------------<br>
+<br>
+************** JIT Debugging **************<br>
+To enable just-in-time (JIT) debugging, the .config file for this<br>
+application or computer (machine.config) must have the<br>
+jitDebugging value set in the system.windows.forms section.<br>
+The application must also be compiled with debugging<br>
+enabled.<br>
+<br>
+For example:<br>
+<br>
+&lt;configuration&gt;<br>
+    &lt;system.windows.forms jitDebugging="true" /&gt;<br>
+&lt;/configuration&gt;<br>
+<br>
+When JIT debugging is enabled, any unhandled exception<br>
+will be sent to the JIT debugger registered on the computer<br>
+rather than be handled by this dialog box.<br>
+<br>
+I believe the issue is logically in relation to using 2 different radios. And yes I have ensured to have selected the radio type to the top option as reinstalled the driver software using a different USB port.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: CPS Unhandled expection error</h3>
+				<div class="date">Posted: <strong>Sun Feb 23, 2025 9:22 am</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">Your firmware is way too old, and the CPS expects a newer one.<br>
+Update your firmware.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: CPS Unhandled expection error</h3>
+				<div class="date">Posted: <strong>Sun Feb 23, 2025 9:29 am</strong></div>
+				<div class="author">by <strong>VK7BOB</strong></div>
+				<div class="content">Thanks F1RMB, I will flash the firmware. If it works I'll change the thread to solved. I'm just getting a firmware file too large error to work out first.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: CPS Unhandled expection error</h3>
+				<div class="date">Posted: <strong>Sun Feb 23, 2025 10:41 am</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7964&amp">VK7BOB</a> wrote: <a href="viewtopic4c2a.html?p=35871&amp;sid=#p35871" data-post-id="35871" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Feb 23, 2025 9:29 am</div></cite>
+Thanks F1RMB, I will flash the firmware. If it works I'll change the thread to solved. I'm just getting a firmware file too large error to work out first.
+</div></blockquote>
+
+I don't know which CPS version your using, or the firmware file you're trying to flash.<br>
+This error message appears when the selected file a not really an expected OpenGD77 firmware, as the firmware file has a size limit.<br>
+The MD-760 is a GD-77.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: CPS Unhandled expection error</h3>
+				<div class="date">Posted: <strong>Sun Feb 23, 2025 11:30 am</strong></div>
+				<div class="author">by <strong>VK7BOB</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=56&amp">F1RMB</a> wrote: <a href="viewtopic65da.html?p=35872&amp;sid=#p35872" data-post-id="35872" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Feb 23, 2025 10:41 am</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7964&amp">VK7BOB</a> wrote: <a href="viewtopic4c2a.html?p=35871&amp;sid=#p35871" data-post-id="35871" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Feb 23, 2025 9:29 am</div></cite>
+Thanks F1RMB, I will flash the firmware. If it works I'll change the thread to solved. I'm just getting a firmware file too large error to work out first.
+</div></blockquote>
+
+I don't know which CPS version your using, or the firmware file you're trying to flash.<br>
+This error message appears when the selected file a not really an expected OpenGD77 firmware, as the firmware file has a size limit.<br>
+The MD-760 is a GD-77.
+</div></blockquote>
+
+Hi F1RMB, I was following the instructions by yours truly in this forum to ensure it was the latest files. The issue was me not reading past step 10 clearly and using the incorrect .bin file. I learnt the hard way it must be the open gd77 .bin file! As you also mentioned, upgrading the firmware (it was indeed very old, 2020) fixed the issue with the CPS software error. I will change the status to solved and hope this may assist others.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: CPS Unhandled expection error</h3>
+				<div class="date">Posted: <strong>Sun Feb 23, 2025 11:35 am</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7964&amp">VK7BOB</a> wrote: <a href="viewtopic5f39.html?p=35873&amp;sid=#p35873" data-post-id="35873" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Feb 23, 2025 11:30 am</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=56&amp">F1RMB</a> wrote: <a href="viewtopic65da.html?p=35872&amp;sid=#p35872" data-post-id="35872" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Feb 23, 2025 10:41 am</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7964&amp">VK7BOB</a> wrote: <a href="viewtopic4c2a.html?p=35871&amp;sid=#p35871" data-post-id="35871" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Feb 23, 2025 9:29 am</div></cite>
+Thanks F1RMB, I will flash the firmware. If it works I'll change the thread to solved. I'm just getting a firmware file too large error to work out first.
+</div></blockquote>
+
+I don't know which CPS version your using, or the firmware file you're trying to flash.<br>
+This error message appears when the selected file a not really an expected OpenGD77 firmware, as the firmware file has a size limit.<br>
+The MD-760 is a GD-77.
+</div></blockquote>
+
+Hi F1RMB, I was following the instructions by yours truly in this forum to ensure it was the latest files. The issue was me not reading past step 10 clearly and using the incorrect .bin file. I learnt the hard way it must be the open gd77 .bin file! As you also mentioned, upgrading the firmware (it was indeed very old, 2020) fixed the issue with the CPS software error. I will change the status to solved and hope this may assist others.
+</div></blockquote>
+
+Nice you solved the problem.</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=4899&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 11:42:52 GMT -->
+</html>

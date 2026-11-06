@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3286" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-29T03:43:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3286</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-29T03:43:27</updated>
+
+		<published>2025-05-29T03:43:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=37271#p37271</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=37271#p37271"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=37271#p37271"><![CDATA[
+<blockquote class="uncited"><div>How do you scroll to pages 2, 3 and 4 on the MD-9600 calibration page?</div></blockquote>Try SK2 (P1) + Up Down or P1+ Rotary<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu May 29, 2025 3:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2025-05-29T00:10:30</updated>
+
+		<published>2025-05-29T00:10:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=37268#p37268</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=37268#p37268"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=37268#p37268"><![CDATA[
+How do you scroll to pages 2, 3 and 4 on the MD-9600 calibration page?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Thu May 29, 2025 12:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-22T08:17:08</updated>
+
+		<published>2023-12-22T08:17:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28223#p28223</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28223#p28223"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28223#p28223"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hello !<br>I tried to do power calibration but data is not saved  when i power off and on the radio... If i don't power off (green button) the radio the cal values are kept. What's wrong ? Thank you !!</div></blockquote>Procedure is detailed in the manual<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#calibration-screen" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ion-screen</a></div></blockquote>I found that permanent save is done by pressing P1(sk1) + ENT(green), the procedure says P2(sk2) + ENT(green)...</div></blockquote>P1 is SK2 on the MD9600 <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#md-9600-and-rt-90-specific" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... 0-specific</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Dec 22, 2023 8:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1UPC]]></name></author>
+		<updated>2023-12-22T08:13:23</updated>
+
+		<published>2023-12-22T08:13:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28222#p28222</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28222#p28222"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28222#p28222"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello !<br>I tried to do power calibration but data is not saved  when i power off and on the radio... If i don't power off (green button) the radio the cal values are kept. What's wrong ? Thank you !!</div></blockquote>Procedure is detailed in the manual<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#calibration-screen" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ion-screen</a></div></blockquote>I found that permanent save is done by pressing P1(sk1) + ENT(green), the procedure says P2(sk2) + ENT(green)...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3055">F1UPC</a> — Fri Dec 22, 2023 8:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1UPC]]></name></author>
+		<updated>2023-12-22T08:05:48</updated>
+
+		<published>2023-12-22T08:05:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28221#p28221</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28221#p28221"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28221#p28221"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello !<br>I tried to do power calibration but data is not saved  when i power off and on the radio... If i don't power off (green button) the radio the cal values are kept. What's wrong ? Thank you !!</div></blockquote>Procedure is detailed in the manual<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#calibration-screen" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ion-screen</a></div></blockquote>Merci ! 73's !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3055">F1UPC</a> — Fri Dec 22, 2023 8:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-21T18:04:45</updated>
+
+		<published>2023-12-21T18:04:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28215#p28215</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28215#p28215"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28215#p28215"><![CDATA[
+<blockquote class="uncited"><div>Hello !<br>I tried to do power calibration but data is not saved  when i power off and on the radio... If i don't power off (green button) the radio the cal values are kept. What's wrong ? Thank you !!</div></blockquote>Procedure is detailed in the manual<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#calibration-screen" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ion-screen</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Dec 21, 2023 6:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1UPC]]></name></author>
+		<updated>2023-12-21T17:40:58</updated>
+
+		<published>2023-12-21T17:40:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28214#p28214</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28214#p28214"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=28214#p28214"><![CDATA[
+Hello !<br>I tried to do power calibration but data is not saved  when i power off and on the radio... If i don't power off (green button) the radio the cal values are kept. What's wrong ? Thank you !!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3055">F1UPC</a> — Thu Dec 21, 2023 5:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-16T22:02:59</updated>
+
+		<published>2023-09-16T22:02:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26306#p26306</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26306#p26306"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26306#p26306"><![CDATA[
+You can now do it by software, but I would still advise doing it using the analogue pots if you can, especially for large changes. There may be unknown side effects when adjusting the software values on these radios.  Presumably TYT fitted the pots for a reason. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Sep 16, 2023 10:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-09-16T21:57:54</updated>
+
+		<published>2023-09-16T21:57:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26305#p26305</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26305#p26305"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26305#p26305"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Isn't the frequency calibration on MD-9600 inside the radio?<br>Or can you do it via the software now?</div></blockquote>Software now.</div></blockquote>Nice!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Sep 16, 2023 9:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-16T21:52:41</updated>
+
+		<published>2023-09-16T21:52:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26303#p26303</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26303#p26303"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26303#p26303"><![CDATA[
+<blockquote class="uncited"><div>Isn't the frequency calibration on MD-9600 inside the radio?<br>Or can you do it via the software now?</div></blockquote>Software now.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 16, 2023 9:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-09-16T21:51:02</updated>
+
+		<published>2023-09-16T21:51:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26302#p26302</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26302#p26302"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26302#p26302"><![CDATA[
+Isn't the frequency calibration on MD-9600 inside the radio?<br>Or can you do it via the software now?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Sep 16, 2023 9:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-16T12:09:44</updated>
+
+		<published>2023-09-16T12:09:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26297#p26297</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26297#p26297"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26297#p26297"><![CDATA[
+4A for 25W output seems about right. <br><br>Of that about 1A is used by the radio and driver stages. So let's say 3A is being used by the PA. <br><br>3A * 13.8V = 41.4 W DC input. <br><br>That's about 60% efficiency which sounds reasonable. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Sep 16, 2023 12:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL4JOCO]]></name></author>
+		<updated>2023-09-16T08:41:32</updated>
+
+		<published>2023-09-16T08:41:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26285#p26285</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26285#p26285"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26285#p26285"><![CDATA[
+8A?!  That's good to know and starts to feel right re what I am seeing.   Mind you having 20A fuses seems odd.  That along with what other similar radios delivering 40-50W were documented as pulling at max out is where I go expectations from.  Maybe I read things wrong but that is where the ~15A came from.  Not and special calcs.<br><br>But thank you for the help and guidance.  This is all very new to me.<br><br>Cheers - James.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4193">ZL4JOCO</a> — Sat Sep 16, 2023 8:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-16T01:03:41</updated>
+
+		<published>2023-09-16T01:03:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26279#p26279</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26279#p26279"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26279#p26279"><![CDATA[
+Never try to calibrate the Output power using the Input current.<br><blockquote class="uncited"><div>Asking as the radio is expected to pull towards circa 18A at full power.</div></blockquote>Also your calculations are wildy off for the amount of input current required<br><br>18A at 12V is 216W input, for 25W output ??<br><br>This would make the effeciency less than 15%<br><br>Max current is normally less than 8A for 40W<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 16, 2023 1:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL4JOCO]]></name></author>
+		<updated>2023-09-16T00:08:22</updated>
+
+		<published>2023-09-16T00:08:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26278#p26278</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26278#p26278"/>
+		<title type="html"><![CDATA[Re: MD9600 and Calibration data - adjustable?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3286&amp;p=26278#p26278"><![CDATA[
+Re the screens - awesome. Thanks. <br><br>Re output power, will borrow/buy a meter to measure RF watts.  I had been going on the probable max current draw derived from the fuses and what I had managed to find online.  <br>Tests had been done in VHF.<br><br>Cheers -J<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4193">ZL4JOCO</a> — Sat Sep 16, 2023 12:08 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4885" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-22T20:38:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4885</id>
+
+		<entry>
+		<author><name><![CDATA[DG7PC]]></name></author>
+		<updated>2025-02-22T20:38:46</updated>
+
+		<published>2025-02-22T20:38:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35868#p35868</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35868#p35868"/>
+		<title type="html"><![CDATA[Re: How to update RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35868#p35868"><![CDATA[
+As an owner of one Anytone 878 and two Retevis RT-3s I can state updating the Anytone is more difficult. <br>Updating/Flashing OpenGD77 to te RT-3s was straight forward after I understood the donor firmware is not the one I expected it to be.<br><br>If you managed to update your Anytone, OpenDG77 should not make you problems.<br><br>Christian<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8072">DG7PC</a> — Sat Feb 22, 2025 8:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-02-19T01:58:08</updated>
+
+		<published>2025-02-19T01:58:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35827#p35827</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35827#p35827"/>
+		<title type="html"><![CDATA[Re: How to update RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35827#p35827"><![CDATA[
+The donor file is never flashed to the radio. It simply has to be available on your computer.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Feb 19, 2025 1:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-18T17:03:20</updated>
+
+		<published>2025-02-18T17:03:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35823#p35823</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35823#p35823"/>
+		<title type="html"><![CDATA[Re: How to update RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35823#p35823"><![CDATA[
+As the sticky post in this section explains, just follow the instructions steps:<br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Feb 18, 2025 5:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1CCV]]></name></author>
+		<updated>2025-02-18T16:30:57</updated>
+
+		<published>2025-02-18T16:30:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35822#p35822</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35822#p35822"/>
+		<title type="html"><![CDATA[Re: How to update RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35822#p35822"><![CDATA[
+Hi,<br><br>so I need to grab the donor file from here:<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#download-links-and-other-resources" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -resources</a><br><br>and flash it like described within the linked UserGuide?<br><br>Thanks for helping me out here!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8116">DO1CCV</a> — Tue Feb 18, 2025 4:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-02-17T22:51:58</updated>
+
+		<published>2025-02-17T22:51:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35803#p35803</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35803#p35803"/>
+		<title type="html"><![CDATA[Re: How to update RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35803#p35803"><![CDATA[
+Just to be clear, as Melerix did not mention it, do this using the OpenGD77 CPS, do not try to use the manufacturers firmware loader.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#download-links-and-other-resources" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -resources</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Feb 17, 2025 10:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-17T23:17:47 </updated>
+
+		<published>2025-02-17T22:34:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35802#p35802</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35802#p35802"/>
+		<title type="html"><![CDATA[Re: How to update RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35802#p35802"><![CDATA[
+update procedure is exactly like flashing OpenGD77, just open OpenGD77 CPS, firmware loader menu, select the right donor file, select the right opengd77 file and flash.<br><br>after that go to support menu and also update voice prompts and satellite data.<br><br>that's all.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Feb 17, 2025 10:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1CCV]]></name></author>
+		<updated>2025-02-17T22:07:25</updated>
+
+		<published>2025-02-17T22:07:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35801#p35801</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35801#p35801"/>
+		<title type="html"><![CDATA[How to update RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4885&amp;p=35801#p35801"><![CDATA[
+Hi,<br><br>hm, I bought my Retevis 3S right from Retevis with flashed OpenGD77 FW (202408021), because I was not sure how to do it properly (despite these YT videos etc.) and since there was no price difference I went with the OpenGD77 FW because I saw and heard the FW is amazing.<br><br>But now I wonder how to update the FW? Since I havent flashed it myself I do not have any experience with it, nor how to perform a Update. And I basically have no backup files or anything if I would need them.<br>I got a Anytone 878 and a pretty detailed FW update procedure, but with the GD77 I somehow can not find a update procedure.<br><br>If anyone could point me into the right direction, that be great.<br><br>Thanks in advance<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8116">DO1CCV</a> — Mon Feb 17, 2025 10:07 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

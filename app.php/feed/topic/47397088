@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4739" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-13T09:25:30</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4739</id>
+
+		<entry>
+		<author><name><![CDATA[SQ9APX]]></name></author>
+		<updated>2025-01-13T09:25:30</updated>
+
+		<published>2025-01-13T09:25:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35130#p35130</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35130#p35130"/>
+		<title type="html"><![CDATA[Re: DM-1701+Opengd77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35130#p35130"><![CDATA[
+Thank You for information about my DM-1701 i will try to set the radio on in the charger for 24 hours. Vy 73!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7626">SQ9APX</a> — Mon Jan 13, 2025 9:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-06T13:58:27</updated>
+
+		<published>2025-01-06T13:58:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35016#p35016</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35016#p35016"/>
+		<title type="html"><![CDATA[Re: DM-1701+Opengd77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35016#p35016"><![CDATA[
+<blockquote class="uncited"><div>Sorry I try to save a real-time and localization (like GPS) on my DM-1701 memory. All saved time and location are not writted into memory.Please any suggestions?</div></blockquote>There is a tiny rechargeable battery inside that powers the real time clock , this battery is only charged when the radio is on.<br><br>Have you tried ?<br><br>"Leave the radio turned on for 24 or 48 hours when in the charger, and see if the battery has recovered its capacity"<br><br><a href="https://www.opengd77.com/viewtopic.php?t=2466&amp;start=10" class="postlink">viewtopic.php?t=2466&amp;start=10</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Jan 06, 2025 1:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ9APX]]></name></author>
+		<updated>2025-01-06T13:42:08</updated>
+
+		<published>2025-01-06T13:42:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35015#p35015</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35015#p35015"/>
+		<title type="html"><![CDATA[DM-1701+Opengd77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4739&amp;p=35015#p35015"><![CDATA[
+Sorry I try to save a real-time and localization (like GPS) on my DM-1701 memory. All saved time and location are not writted into memory.Please any suggestions?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7626">SQ9APX</a> — Mon Jan 06, 2025 1:42 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

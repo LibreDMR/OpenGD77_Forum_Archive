@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/564" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-26T21:56:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/564</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-26T21:56:52</updated>
+
+		<published>2025-03-26T21:56:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=36484#p36484</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=36484#p36484"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=36484#p36484"><![CDATA[
+I have mod my RD-5R charger and set the charging current to 1 A (RTS = 0.1 Ohm). Trying with the original power supply (10V 0.5A) the battery was being charged at 0.6A. When switched to a 12V 3A power supply, the battery was being charged at 1 A. I then switched back to original power supply and completed the charge on the test battery. Everything was well, the power supply is in the normal temp.<br><br>In conclusion, If the selected charging current is more than the power supply can provide, the module will charge at maximum current it can, nothing damage.<br><br>With 12V 3A power supply<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2891&amp;sid=2de05a30036f75ec9e9eb1c1c27ca24d" class="postimage" alt="IMG_2029.jpeg" onclick="viewableArea(this);" /></dt></dl></div>With original power supply (10V 0.5A)<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2892&amp;sid=2de05a30036f75ec9e9eb1c1c27ca24d" class="postimage" alt="IMG_2028.jpeg" onclick="viewableArea(this);" /></dt></dl></div>I have also brought RED/BLUE common Anode LED for this project from Amazon. It's come in a pack of 200 LEDs, so If anyone in the US would like to have some, I will mail 10 of them to you for $1.<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2893&amp;sid=2de05a30036f75ec9e9eb1c1c27ca24d" class="postimage" alt="IMG_2037-EDIT.jpg" onclick="viewableArea(this);" /></dt></dl></div>Thank you everyone in this thread. Great information, fun project.<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Mar 26, 2025 9:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-26T19:45:13</updated>
+
+		<published>2025-03-26T19:45:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=36481#p36481</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=36481#p36481"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=36481#p36481"><![CDATA[
+<blockquote class="uncited"><div>It will be charged with 500mA and the cut will be voltage</div></blockquote>Thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Mar 26, 2025 7:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Juan Francisco]]></name></author>
+		<updated>2025-03-25T19:46:22</updated>
+
+		<published>2025-03-25T19:46:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=36459#p36459</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=36459#p36459"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=36459#p36459"><![CDATA[
+It will be charged with 500mA and the cut will be voltage<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=777">Juan Francisco</a> — Tue Mar 25, 2025 7:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-25T11:39:01</updated>
+
+		<published>2025-03-25T11:39:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=36442#p36442</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=36442#p36442"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=36442#p36442"><![CDATA[
+Hi TP 5100 people, Dumb question.<br><br>What will happen if I set TP 5100 to 1A charging current, but the power supply to the cradle can only provide 0.5A?<br><br>Will the module kill the power supply? OR it will charge at 0.5A?<br><br>We are talking about the constant current phase of the charge while the battery is below 80%, of course.<br><br>Thanks,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Mar 25, 2025 11:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-04-28T21:40:24</updated>
+
+		<published>2024-04-28T21:40:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=31073#p31073</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=31073#p31073"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=31073#p31073"><![CDATA[
+I don't think so. The charging voltage is defined internally in the chip. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Apr 28, 2024 9:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-04-28T11:40:00</updated>
+
+		<published>2024-04-28T11:40:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=31057#p31057</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=31057#p31057"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=31057#p31057"><![CDATA[
+Hi TP5100 people, great info here. I’m wondering is there a way to modify the fully charged voltage cutoff? Let say, If I want it to stop charging at 8.0Volt.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Apr 28, 2024 11:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-03T13:40:30</updated>
+
+		<published>2024-04-03T13:40:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=30568#p30568</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=30568#p30568"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=30568#p30568"><![CDATA[
+I personnaly charge @ 1A (removed 1 resistor, as you can see in that thread), for years.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Apr 03, 2024 1:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-04-03T12:49:39</updated>
+
+		<published>2024-04-03T12:49:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=30564#p30564</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=30564#p30564"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=30564#p30564"><![CDATA[
+<blockquote class="uncited"><div>The batteries are more than 2000mAH in most radios, so charging at 1A will still take 2 to 3 hours, and IMO would not be a problem.<br>Even 2A would be OK for a 2500mAH Battery.<br>I don't think many people change the default charge rate on these modules.<br><br>I didn't....</div></blockquote>Thnx for the answer<br>Did you remove one of the resitors for 1A charge current , or are you charging w. 2A ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Wed Apr 03, 2024 12:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-02T20:39:04</updated>
+
+		<published>2024-04-02T20:39:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=30548#p30548</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=30548#p30548"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=30548#p30548"><![CDATA[
+<blockquote class="uncited"><div><strong class="text-strong">Brilliant</strong> mod , i have just ordered some TPS5100 boards from Ali...<br>But I have a question about TPS5100 charge current, and am not an EE.<br><br>Wasn't the original charger set for 500mA ?<br>Has anyone making this "mod", had issues with the batteries getting <strong class="text-strong">hot/bad</strong> while charging ?<br><br>As i see it here (Pict)<br><a href="https://www.opengd77.com/viewtopic.php?f=8&amp;t=564&amp;start=30#p4884" class="postlink">viewtopic.php?f=8&amp;t=564&amp;start=30#p4884</a><br><br>It seems like <strong class="text-strong">that</strong> board came setup for 2A charge current, as there initially were two prarallel 0.1 ohm resisters (value R100 = 0.1 ohm)<br>By removing one, the charge current would be 1A.<br><br>DG1YFX mentioned the resistors should be in series for 500mA charge current, in the pict here..<br><a href="https://www.opengd77.com/viewtopic.php?f=8&amp;t=564&amp;start=10#p4794" class="postlink">viewtopic.php?f=8&amp;t=564&amp;start=10#p4794</a><br><br>But then again if no one has had any issues with the 1A charge current i'll gladly take the shorter charge time.</div></blockquote>The batteries are more than 2000mAH in most radios, so charging at 1A will still take 2 to 3 hours, and IMO would not be a problem.<br>Even 2A would be OK for a 2500mAH Battery.<br>I don't think many people change the default charge rate on these modules.<br><br>I didn't....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 02, 2024 8:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-04-02T18:04:18</updated>
+
+		<published>2024-04-02T18:04:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=30541#p30541</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=30541#p30541"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=30541#p30541"><![CDATA[
+<strong class="text-strong">Brilliant</strong> mod , i have just ordered some TPS5100 boards from Ali...<br>But I have a question about TPS5100 charge current, and am not an EE.<br><br>Wasn't the original charger set for 500mA ?<br>Has anyone making this "mod", had issues with the batteries getting <strong class="text-strong">hot/bad</strong> while charging ?<br><br>As i see it here (Pict)<br><a href="https://www.opengd77.com/viewtopic.php?f=8&amp;t=564&amp;start=30#p4884" class="postlink">viewtopic.php?f=8&amp;t=564&amp;start=30#p4884</a><br><br>It seems like <strong class="text-strong">that</strong> board came setup for 2A charge current, as there initially were two prarallel 0.1 ohm resisters (value R100 = 0.1 ohm)<br>By removing one, the charge current would be 1A.<br><br>DG1YFX mentioned the resistors should be in series for 500mA charge current, in the pict here..<br><a href="https://www.opengd77.com/viewtopic.php?f=8&amp;t=564&amp;start=10#p4794" class="postlink">viewtopic.php?f=8&amp;t=564&amp;start=10#p4794</a><br><br>But then again if no one has had any issues with the 1A charge current i'll gladly take the shorter charge time.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Tue Apr 02, 2024 6:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iz2qdh]]></name></author>
+		<updated>2022-12-17T10:04:31</updated>
+
+		<published>2022-12-17T10:04:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=21078#p21078</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=21078#p21078"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=21078#p21078"><![CDATA[
+I made it!<br>After some time and some italian blasphemities i've managed to install the TP-5100 and make it work at first try.<br>I've noticed that the LED does not shine so bright...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2804">iz2qdh</a> — Sat Dec 17, 2022 10:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iz2qdh]]></name></author>
+		<updated>2022-11-28T12:18:54</updated>
+
+		<published>2022-11-28T12:18:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=20906#p20906</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=20906#p20906"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=20906#p20906"><![CDATA[
+<blockquote class="uncited"><div>1. IMO the diode and coil is not 100% necessary, many people just use the TP5100 with no additional components<br>2. Probably constantly connecting the battery to the charger is not ideal, but it is not easy to find a battery eliminator for the GD77, so many people leave the radio in the charger.</div></blockquote>1. Ok, when i'll have all the parts needed i'll decide what to do<br>2. I prefer to charge the battery rather than leaving it in the charger<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2804">iz2qdh</a> — Mon Nov 28, 2022 12:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-11-28T09:59:37</updated>
+
+		<published>2022-11-28T09:59:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=20904#p20904</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=20904#p20904"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=20904#p20904"><![CDATA[
+<blockquote class="uncited"><div>Hi all and thanks for sharing this modification.<br>I've read all the thread, i'm gonna buy some TP5100s from Aliexpress and all the parts but i still have 2 questions:<br>1. what is the "correct" position for the diode? I've seen in the last schematics that it has to be in parallel with the coil, correct?<br>2. i use the GD-77 as a DMR scanner. After i modify the charger can i leave it plugged in the charger and turned on without wearing out or damaging the battery?<br><br>Thanks 73</div></blockquote>1. IMO the diode and coil is not 100% necessary, many people just use the TP5100 with no additional components<br>2. Probably constantly connecting the battery to the charger is not ideal, but it is not easy to find a battery eliminator for the GD77, so many people leave the radio in the charger.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Nov 28, 2022 9:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iz2qdh]]></name></author>
+		<updated>2022-11-28T08:06:42</updated>
+
+		<published>2022-11-28T08:06:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=20902#p20902</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=20902#p20902"/>
+		<title type="html"><![CDATA[Re: Modification of the Radioditty charger with &quot;TP5100&quot; card at $ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=20902#p20902"><![CDATA[
+Hi all and thanks for sharing this modification.<br>I've read all the thread, i'm gonna buy some TP5100s from Aliexpress and all the parts but i still have 2 questions:<br>1. what is the "correct" position for the diode? I've seen in the last schematics that it has to be in parallel with the coil, correct?<br>2. i use the GD-77 as a DMR scanner. After i modify the charger can i leave it plugged in the charger and turned on without wearing out or damaging the battery?<br><br>Thanks 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2804">iz2qdh</a> — Mon Nov 28, 2022 8:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-08-16T02:12:13</updated>
+
+		<published>2021-08-16T02:12:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=564&amp;p=15522#p15522</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=564&amp;p=15522#p15522"/>
+		<title type="html"><![CDATA[Re: Modificação do carregador Radioditty com cartão &quot;TP5100&quot; a US$ 2.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=564&amp;p=15522#p15522"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div> então...... deveria ser assim? </div></blockquote>O diodo está em curto para AC ele deve ficar em série não em paralelo com a entrada !</div></blockquote>"The diode is shorted to AC it must be in series not parallel with the input! "<br><br><br>(LOL)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Aug 16, 2021 2:12 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

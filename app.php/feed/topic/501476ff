@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5014" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-26T19:52:50</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5014</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-26T19:52:50</updated>
+
+		<published>2025-03-26T19:52:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36482#p36482</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36482#p36482"/>
+		<title type="html"><![CDATA[Re: Duplex MMDVM hotpot external duplexer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36482#p36482"><![CDATA[
+I did range testing a few years ago, comparing a very old hotspot which used a separate RF module , and a new MMDVM HS Duplex hotspot<br><br>The very old hotspot had better Rx sensitivity, but the maximum distance for Rx was still less than 5km<br><br>I checked the schematic for the very old AD7021 module and it used some sort of RF switching chip, so that the RF input and output pins of the AD7021 are more isolated than in the current hotspot designs, in which those pins are capacitive coupled<br><br><br><a href="https://github.com/phl0/MMDVM_HS_Dual_Hat/blob/master/hardware/r1.3/mmdvm_hs_dual_hat.pdf" class="postlink">https://github.com/phl0/MMDVM_HS_Dual_H ... al_hat.pdf</a><br><br>I did wonder whether cutting the Tx path trace on the Rx Ad7021 would improve the Rx sensitivity but I never got around to doing this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 26, 2025 7:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-03-26T17:16:43</updated>
+
+		<published>2025-03-26T17:16:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36477#p36477</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36477#p36477"/>
+		<title type="html"><![CDATA[Re: Duplex MMDVM hotpot external duplexer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36477#p36477"><![CDATA[
+Hello Charlie,<br><br>I can't recommend optimizing a duplex hotspot with a duplexer. It won't achieve the desired results.<br>The reason for this is that the ADF7021 RF chip is pretty deaf on 70cm.<br>You can read about an optimization attempt here:<br><a href="https://www.darc.de/fileadmin/filemounts/distrikte/c/ortsverbaende/15/webcontent/DB0MMRgross.pdf" class="postlink">https://www.darc.de/fileadmin/filemount ... Rgross.pdf</a><br><br>To work around this problem, you can use a SIMPLEX HS for YOUR ACTIVE DMR radio traffic, which is much better suited for transmitting. No talkgroups should be statically booked on the Brandmeister Single HS! Unfortunately, Brandmeister doesn't have any drop-in protection for talkgroups that are statically or dynamically booked on the same time slot!<br>I've described this in more detail here:<br><a href="http://tyrofly.at/funk.htm#Bug_Brandmeister_german" class="postlink">http://tyrofly.at/funk.htm#Bug_Brandmeister_german</a><br>For RX, you can then use your duplex HS and activate multiple talkgroups.<br><br>If you need even more TX power on the HS, I can recommend a high-power HS with OpenGD77 firmware.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#hotspot-mode" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... tspot-mode</a><br><br>73 Alfred, OE7ABH<br>Greetings from Austria!<br><a href="https://tyrofly.at/panos/bad_haering/" class="postlink">https://tyrofly.at/panos/bad_haering/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Wed Mar 26, 2025 5:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-26T14:59:59</updated>
+
+		<published>2025-03-26T14:59:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36468#p36468</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36468#p36468"/>
+		<title type="html"><![CDATA[Duplex MMDVM hotpot external duplexer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5014&amp;p=36468#p36468"><![CDATA[
+Hi, I'm sorry I did not try to hi jack your thread, but don't know how to contact you.<br><br>I have seen in your link you have a duplex hotspot connected to a duplexer. How well is it working? what kind of duplexer is that? <br><br>Thank you,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Mar 26, 2025 2:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

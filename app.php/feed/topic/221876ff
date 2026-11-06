@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2218" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-04-30T21:57:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2218</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-04-30T21:57:18</updated>
+
+		<published>2022-04-30T21:57:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18416#p18416</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18416#p18416"/>
+		<title type="html"><![CDATA[Re: MD-9600 V1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18416#p18416"><![CDATA[
+Firmware is still at Alpha stage.  See the alpha firmware thread of the latest version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 30, 2022 9:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL9HCJ]]></name></author>
+		<updated>2022-04-30T10:36:53</updated>
+
+		<published>2022-04-30T10:36:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18414#p18414</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18414#p18414"/>
+		<title type="html"><![CDATA[Re: MD-9600 V1(?)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18414#p18414"><![CDATA[
+Hi,<br>tnx for reply.<br>the box here says s/n 1711A00050 and V.01.22 and was sold im 2018<br>the mainboard sys: "MD9600-UV-V2.1-170608"<br>so you might be right, this could already be a V2 or even V3 as I determined from KC5HWB's video: <a href="https://www.youtube.com/watch?v=159P1NI_EvQ" class="postlink">https://www.youtube.com/watch?v=159P1NI_EvQ</a><br><br>Seems there are a lot of old links in the "Alpha version" thread.<br><br>This is the latest?! <br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/819b259a37c4ab42c182b38236cb221dc3be1e5d/" class="postlink">downloads/MD9600/Firmware/819b259a37c4a ... dc3be1e5d/</a><br><br>Is there any static link always pointing to the latest?<br><br>M.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2709">DL9HCJ</a> — Sat Apr 30, 2022 10:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-04-29T23:33:17</updated>
+
+		<published>2022-04-29T23:33:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18407#p18407</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18407#p18407"/>
+		<title type="html"><![CDATA[Re: MD-9600 V1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18407#p18407"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>is OpenGD77 available to MD-9600(GPS) Hardware V1.00?<br><br>Tnx<br>Matthias</div></blockquote>All hardware versions are supported.<br><br>But... Most radios which display V1 in the official firmware are actually hardware PCB version 2.x<br><br>You should try the V2 firmware version first.<br><br>The V1 firmware version is actually for the first V2 PCB radios. Although the PCB is labelled V2, there are some small differences, so we had to make a V1 firmware version for early V2 hardware versions.<br><br>We are not aware of how to determine if the hardware is old V2 or newer V2. Probably TYT knows this from the serial numbers, but we don't have this information.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 29, 2022 11:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL9HCJ]]></name></author>
+		<updated>2022-04-29T21:38:42</updated>
+
+		<published>2022-04-29T21:38:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18406#p18406</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18406#p18406"/>
+		<title type="html"><![CDATA[MD-9600 V1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2218&amp;p=18406#p18406"><![CDATA[
+Hi,<br><br>is OpenGD77 available to MD-9600(GPS) Hardware V1.00?<br><br>Tnx<br>Matthias<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2709">DL9HCJ</a> — Fri Apr 29, 2022 9:38 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

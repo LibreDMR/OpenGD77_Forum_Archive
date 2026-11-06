@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3841" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-04T23:15:09</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3841</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-04T23:15:09</updated>
+
+		<published>2024-03-04T23:15:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3841&amp;p=29948#p29948</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3841&amp;p=29948#p29948"/>
+		<title type="html"><![CDATA[Re: Retevis RT90 V4A Keplarian Data Empty File]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3841&amp;p=29948#p29948"><![CDATA[
+<blockquote class="uncited"><div>Hi everyone,<br><br>I just recently dug out my Retevis RT90 after taking it out of the truck when I had an unplanned medical disability retirement back in August. Figured kind of pointless to keep a radio in a truck that sits for days a a time and gets driven only a few minutes every other day, I used to have a 45 minute commute each way when I was working prior to August 22nd 2023. Having this radio made those commutes fly by in no time.<br>So anyways, I recently updated the Open GD77CPS to the latest version, R.2024.01.22.01. I was using the Open GD77 CPS version  R.2023.08.01.01 prior to this and it would load the keps no issue and the files would be there. <br>o now I went to the latest version and when I load the keps, it says Upload Complete, AO27, AO91, CAS3H, FO11, HADES-D, ISS, PO101, SO50, TEVEL2, TEVEL3, TEVEL4, TEVEL5, TEVEL6, TEVEL7.<br>Then I go to the RT90 and enter Satellite mode, and it sits with a blank screen. After hitting the UP and Down controls I get Pass None and List Empty.<br><br>I know I'm missing something here, any ideas or suggestions to get this running with the newer satellites?</div></blockquote>Keps file format got updated several months ago<br><br>Use the latest CPS and latest firmware, otherwise you are likely to have a data missmatch<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Mar 04, 2024 11:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NA1Q]]></name></author>
+		<updated>2024-03-04T22:59:02</updated>
+
+		<published>2024-03-04T22:59:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3841&amp;p=29947#p29947</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3841&amp;p=29947#p29947"/>
+		<title type="html"><![CDATA[Retevis RT90 V4A Keplarian Data Empty File]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3841&amp;p=29947#p29947"><![CDATA[
+Hi everyone,<br><br>I just recently dug out my Retevis RT90 after taking it out of the truck when I had an unplanned medical disability retirement back in August. Figured kind of pointless to keep a radio in a truck that sits for days a a time and gets driven only a few minutes every other day, I used to have a 45 minute commute each way when I was working prior to August 22nd 2023. Having this radio made those commutes fly by in no time.<br>So anyways, I recently updated the Open GD77CPS to the latest version, R.2024.01.22.01. I was using the Open GD77 CPS version  R.2023.08.01.01 prior to this and it would load the keps no issue and the files would be there. <br>o now I went to the latest version and when I load the keps, it says Upload Complete, AO27, AO91, CAS3H, FO11, HADES-D, ISS, PO101, SO50, TEVEL2, TEVEL3, TEVEL4, TEVEL5, TEVEL6, TEVEL7.<br>Then I go to the RT90 and enter Satellite mode, and it sits with a blank screen. After hitting the UP and Down controls I get Pass None and List Empty.<br><br>I know I'm missing something here, any ideas or suggestions to get this running with the newer satellites?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2489">NA1Q</a> — Mon Mar 04, 2024 10:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4421" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-21T13:53:11</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4421</id>
+
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2024-09-21T13:53:11</updated>
+
+		<published>2024-09-21T13:53:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33111#p33111</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33111#p33111"/>
+		<title type="html"><![CDATA[Re: TYT no longer listing MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33111#p33111"><![CDATA[
+<blockquote class="uncited"><div>Which website do you mean ?<br><br>One of TYT's websites seems to be tyt888.com and it still shows the 9600<br><br><a href="https://tyt888.com/pro_info144.html" class="postlink">https://tyt888.com/pro_info144.html</a><br><br><br>Do TYT have another mobile DMR transceiver ? As it seems unlikely they would discontinue it without a replacement</div></blockquote>I was on the same website yesterday, and was unable to locate that listing. I was looking for the MD-9600 and used the search function of the website and it did not pull up that product page. I also tried going through the products pull down selections and for some reason did not locate it yesterday (probably my fault).<br><br>Today I was able to find it using the product pull down from the main page via selecting DMR radios. I am fairly sure I did that yesterday also, but somehow I missed the listing and ended up using the search function, which end up in my making the post. I apologize if I have created any undue concern.<br><br>I will leave it to you Roger, if you want to delete this whole posting or leave up as an example of how us humans are fallible even with the best of intentions.<br><br>The reason I was looking for the listing on the official website is because a supplier here in the US mentioned that it was taking longer to get them back in stock and they did not have a delivery date yet from TYT. The radio clubs I belong to have members that, bit by bit, are getting more and more interested in the mobile (MD-9600) I have and my ability to use it not only for amature radio, but also Search and Rescue with the Sheriff's department, and with the public FRS/GMRS and MURS here in the USA. When I mention it now does APRS along with Satellite they nearly do not believe it. So long story short, I find myself helping other club members one by one getting a MD-9600 and getting OpenGD on the radio and then pointed to the manual. As a side note, also a lot of Comet CA-2x4SR antennas are getting purchased, as they work great across the various different frequencies.<br><br>Thank you Roger and all that help you in creating and maintaining this fantastic Firmware across all the supported radios.<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Sat Sep 21, 2024 1:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-20T22:11:48</updated>
+
+		<published>2024-09-20T22:11:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33098#p33098</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33098#p33098"/>
+		<title type="html"><![CDATA[Re: TYT no longer listing MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33098#p33098"><![CDATA[
+Which website do you mean ?<br><br>One of TYT's websites seems to be tyt888.com and it still shows the 9600<br><br><a href="https://tyt888.com/pro_info144.html" class="postlink">https://tyt888.com/pro_info144.html</a><br><br><br>Do TYT have another mobile DMR transceiver ? As it seems unlikely they would discontinue it without a replacement<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 20, 2024 10:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2024-09-20T21:11:20</updated>
+
+		<published>2024-09-20T21:11:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33097#p33097</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33097#p33097"/>
+		<title type="html"><![CDATA[TYT no longer listing MD-9600 [Not confirmed]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4421&amp;p=33097#p33097"><![CDATA[
+I was on the official TYT website and they no longer list the MD-9600 as an available product. There is the listing for the CPS but really nothing else.<br><br>Not sure exactly what that means but if you were thinking of getting a MD-9600 for running the OpenGD firmware, I would not wait to long.<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Fri Sep 20, 2024 9:11 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4736" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-05T23:56:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4736</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-05T23:56:46</updated>
+
+		<published>2025-01-05T23:56:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4736&amp;p=35008#p35008</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4736&amp;p=35008#p35008"/>
+		<title type="html"><![CDATA[Re: Twice a charm]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4736&amp;p=35008#p35008"><![CDATA[
+<blockquote class="uncited"><div>Why do I have to select the COM port twice? </div></blockquote>AFIK, this is something strange associated with Windows installing a driver per USB port.<br><br>Normally once a driver is installed on one port, Windows will automatically install it again onto a different product is plugged in, but in your case this doesn't seem to be happening.<br><br>You could try selecting the non-functioning port in the device manager and manually loading the driver files.<br><br><a href="https://www.opengd77.com/downloads/drivers/com_driver_files.zip" class="postlink">downloads/drivers/com_driver_files.zip</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jan 05, 2025 11:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[2E0UMK]]></name></author>
+		<updated>2025-01-05T21:51:24</updated>
+
+		<published>2025-01-05T21:51:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4736&amp;p=35006#p35006</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4736&amp;p=35006#p35006"/>
+		<title type="html"><![CDATA[Twice a charm]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4736&amp;p=35006#p35006"><![CDATA[
+Hi. First query.<br><br>I have a Baofeng DM1701 flashed with OpenGD77. My (Windows 10) PC has a number of USB ports. In one of them (call it "A"), I plug the radio and the PC says "Device not Recognised". Device Manager says "Unknown USB Device (Device Descriptor Request Failed)". I plug into another (call it "B") and W10 has no issues: it creates a new COM port.<br><br>The port A issue, I don't understand, but with respect to port B, if I then fire up the OpenGD77 CPS, and try to flash the codeplug, it makes me select a COM port. It's annoying, but fair enough. It then makes me select the COM port again, and from that point it works fine.<br><br>Why do I have to select the COM port twice? This is repeatable.<br><br>This had been working fine. The only thing I can think of that changed was that I installed the Retevis CPS and it may have changed the driver.<br> <br>I don't  an on using the Retevis software, so if any solution involves uninstalling it ... no big deal.<br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7623">2E0UMK</a> — Sun Jan 05, 2025 9:51 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

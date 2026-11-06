@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4790" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-08T17:27:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4790</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-03-08T17:27:47</updated>
+
+		<published>2025-03-08T17:27:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=36107#p36107</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=36107#p36107"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=36107#p36107"><![CDATA[
+When you plug in the cable to update the firmware there is a significant force applied to the PCB and things move slightly inside the radio. A connection that is only just working could easily be disturbed and stop working.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Mar 08, 2025 5:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W4TAB]]></name></author>
+		<updated>2025-03-07T01:06:03</updated>
+
+		<published>2025-03-07T01:06:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=36087#p36087</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=36087#p36087"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=36087#p36087"><![CDATA[
+Hi,<br><br>I just ran into the same issue with a white screen after installing the latest stable version for the uv-380. I used the latest CPS as well <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> <br><br>UPDATE: I was told that it was a ribbon cable issue. I was doubtful since the radio worked before the firmware updates, none the less I opened the radio, reset cables and everything works jsut fine. I was puzzled how a radio sitting on a desk would work one minute and stop the next when all I changed was the firmware. I am starting to believe that there is a tiny "Neo" moving from the computer world to the real world in this radios using GD77 to travel in and out <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3532">W4TAB</a> — Fri Mar 07, 2025 1:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-03T04:55:51</updated>
+
+		<published>2025-02-03T04:55:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35542#p35542</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35542#p35542"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35542#p35542"><![CDATA[
+Firmware validity checking will be part of the next release.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Feb 03, 2025 4:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-31T10:29:13</updated>
+
+		<published>2025-01-31T10:29:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35505#p35505</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35505#p35505"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35505#p35505"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hmmmm, I thought it could now only load .bin and .zip files.</div></blockquote>Yes. But donor is a bin file on the STM32 radios</div></blockquote>Ah, yes, true.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 31, 2025 10:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-31T10:11:07</updated>
+
+		<published>2025-01-31T10:11:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35504#p35504</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35504#p35504"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35504#p35504"><![CDATA[
+<blockquote class="uncited"><div>Hmmmm, I thought it could now only load .bin and .zip files.</div></blockquote>Yes. But donor is a bin file on the STM32 radios<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 31, 2025 10:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-31T10:04:38</updated>
+
+		<published>2025-01-31T10:04:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35502#p35502</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35502#p35502"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35502#p35502"><![CDATA[
+Hmmmm, I thought it could now only load .bin and .zip files.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 31, 2025 10:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-31T07:07:21</updated>
+
+		<published>2025-01-31T07:07:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35501#p35501</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35501#p35501"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35501#p35501"><![CDATA[
+<blockquote class="uncited"><div>Possibly we should change the CPS to prevent it allowing people to flash the official donor firmware, by checking that the firmware they select contains the string text OpenGD77.</div></blockquote>yes, that could solve the issue, making the CPS to only allow select specific donor file and specific opengd77 file according to the radio model selected in the CPS.<br><br>well, some people that does not read the procedures may still fail, but with that change they will fail less I guess xD<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Jan 31, 2025 7:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-31T06:05:16</updated>
+
+		<published>2025-01-31T06:05:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35500#p35500</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35500#p35500"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35500#p35500"><![CDATA[
+<blockquote class="uncited"><div>what I've understand for that thread is that he first flashed the radio with the proper donor firmware file and with the normal opengd77 for uv380 but after that the screen was completely black, so he decided to restored flash and thinking to go back to the original firmware, but instead of that he flashed again opengd77 but this time the Japanese version for uv380 and the same donor file, and that fixed the screen.</div></blockquote>The only difference with the Japanese version is that the font bitmap contains Japanese characters.<br><br>So probably he just did things correctly the last time he flashed the radio, but he also happened to use the Japanese version when he did things correctly.<br><br>The CPS won't flash the official firmware correctly, even for the donor firmware, onto the MD9600, because the official firmware file is encrypted but the OpenGD77 firmware isn't.<br><br>Possibly we should change the CPS to prevent it allowing people to flash the official donor firmware, by checking that the firmware they select contains the string text OpenGD77.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 31, 2025 6:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-31T03:45:38</updated>
+
+		<published>2025-01-31T03:45:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35499#p35499</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35499#p35499"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35499#p35499"><![CDATA[
+what I've understand for that thread is that he first flashed the radio with the proper donor firmware file and with the normal opengd77 for uv380 but after that the screen was completely black, so he decided to restored flash and thinking to go back to the original firmware, but instead of that he flashed again opengd77 but this time the Japanese version for uv380 and the same donor file, and that fixed the screen.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Jan 31, 2025 3:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-31T02:26:07</updated>
+
+		<published>2025-01-31T02:26:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35498#p35498</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35498#p35498"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35498#p35498"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>the fact one firmware turn the screen white, and another turn the screen all black makes me think it's not a ribbon cable connection problem which I'm aware of.<br><br>  I still think it's newer hardware ver....</div></blockquote>see this: <a href="https://www.opengd77.com/viewtopic.php?p=35489#p35489" class="postlink">viewtopic.php?p=35489#p35489</a> seems to be realated.</div></blockquote>That person seems to have loaded the Donor Firmware as the main firmware, which won't work at all on the RT3S / UV380 as the Donor firmware we use is from the MD9600<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 31, 2025 2:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-30T23:58:15</updated>
+
+		<published>2025-01-30T23:58:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35497#p35497</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35497#p35497"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35497#p35497"><![CDATA[
+<blockquote class="uncited"><div>the fact one firmware turn the screen white, and another turn the screen all black makes me think it's not a ribbon cable connection problem which I'm aware of.<br><br>  I still think it's newer hardware ver....</div></blockquote>see this: <a href="https://www.opengd77.com/viewtopic.php?p=35489#p35489" class="postlink">viewtopic.php?p=35489#p35489</a> seems to be realated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jan 30, 2025 11:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-30T19:40:41</updated>
+
+		<published>2025-01-30T19:40:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35495#p35495</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35495#p35495"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35495#p35495"><![CDATA[
+<blockquote class="uncited"><div>the fact one firmware turn the screen white, and another turn the screen all black makes me think it's not a ribbon cable connection problem which I'm aware of.<br><br>  I still think it's newer hardware ver....</div></blockquote>Please can you explain the problem again.<br><br>IIRC you are sawing that the screen is either "black" or "white" depending on which firmware target you install,  but you sy the screen is not "valid"<br><br>What does "valid" mean in this context?<br><br><br>Also I presume when you say back or white, you are referring to whether the backlight is illuminated or not.<br>I.e the difference with the 10w radios is that the manufacturer changed the hardware design and swapped the PA enable and backlight signals from the MCU ( CPU )<br><br>If you are sawing that on firmware e,g. The 10W illuminates the backlight, but the screen is blank, then it's still possible that you have a connection problem, i.e with the pixel data connections<br><br>If you can't find an official firmware version that works, it points to the same conclusion <br><br>Often the ribbon cable to the screen gets disturbed when people plug in the USB cable to update the firmware... This has happened to multiple people fairly recently<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 30, 2025 7:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n7eal]]></name></author>
+		<updated>2025-01-30T14:12:26</updated>
+
+		<published>2025-01-30T14:12:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35490#p35490</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35490#p35490"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35490#p35490"><![CDATA[
+the fact one firmware turn the screen white, and another turn the screen all black makes me think it's not a ribbon cable connection problem which I'm aware of.<br><br>  I still think it's newer hardware ver....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7468">n7eal</a> — Thu Jan 30, 2025 2:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-01-24T21:55:39</updated>
+
+		<published>2025-01-24T21:55:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35348#p35348</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35348#p35348"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35348#p35348"><![CDATA[
+Blank screen is usually caused by bad connections in the ribbon cable between the radio main board and the front panel. This is quite a common failure and may have coincidentally occured when you did the firmware update. <br><br>The usual fix for this it to disconnect and reconnect both ends of the ribbon cable. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Jan 24, 2025 9:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n7eal]]></name></author>
+		<updated>2025-01-24T18:00:59</updated>
+
+		<published>2025-01-24T18:00:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35347#p35347</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35347#p35347"/>
+		<title type="html"><![CDATA[Re: black or white screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4790&amp;p=35347#p35347"><![CDATA[
+I have not yet found a factory version that resores the screen. I thried a few.<br><br>The gd77 firmware is working, I can hear dmr being decoded, plays startup melody, etc,...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7468">n7eal</a> — Fri Jan 24, 2025 6:00 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4761" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-14T22:18:11</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4761</id>
+
+		<entry>
+		<author><name><![CDATA[N1KY]]></name></author>
+		<updated>2025-01-14T22:18:11</updated>
+
+		<published>2025-01-14T22:18:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4761&amp;p=35145#p35145</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4761&amp;p=35145#p35145"/>
+		<title type="html"><![CDATA[Re: Satellite CTCC tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4761&amp;p=35145#p35145"><![CDATA[
+Satellite operation is explained in OpenGD77 user guide:<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... r_Guide.md</a><br><br>Tx and "Arming" CTCSS tones are configurable for each satellite and are specified in the satellites.txt file which is located in the OpenGD77CPS installation folder.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=822">N1KY</a> — Tue Jan 14, 2025 10:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk2asg]]></name></author>
+		<updated>2025-01-14T07:10:31</updated>
+
+		<published>2025-01-14T07:10:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4761&amp;p=35139#p35139</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4761&amp;p=35139#p35139"/>
+		<title type="html"><![CDATA[Satellite CTCC tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4761&amp;p=35139#p35139"><![CDATA[
+Hi all<br><br>Quick question, I assume the CTCC tone is pre-programmed into the GD77 firmware<br>Is there a way to checking the ISS tone is correct at 67hz<br><br>Andrew<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7662">vk2asg</a> — Tue Jan 14, 2025 7:10 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

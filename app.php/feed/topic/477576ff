@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4775" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-22T17:12:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4775</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T17:12:18</updated>
+
+		<published>2025-01-22T17:12:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35278#p35278</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35278#p35278"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35278#p35278"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4787" class="postlink">viewtopic.php?f=18&amp;t=4787</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 5:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-22T09:06:02</updated>
+
+		<published>2025-01-22T09:06:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35268#p35268</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35268#p35268"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35268#p35268"><![CDATA[
+<blockquote class="uncited"><div>On my Tytera UV-MD390 and 380 radios APRS behaves as described by Daniel: <em class="text-italics">When any mode is selected, except PTT (which uses SK1 + 2 to trigger beaconing), you can just change to the next/previous channel, then come back to the original channel, that will send a beacon.</em><br>With the Tytera 9600 even though the GPS has acquired the position and the channel settings are correct this does not happen, the APRS beacon does not start when changing channels, in fact: it does not start at all, is it possible that I made a mistake in the configuration? Yet the code plug is basically the same.....</div></blockquote>My MD-9600 V2 transmit the aprs packets , I disabled decay as I'm at a fixed location and it transmit at 1 minute as I configured it.<br>A short interruption is heard when 434.025 is active. <br><div class="codebox"><p>CODE: </p><pre><code>2025-01-22 09:57:07 CET: SA0BUX-9&gt;APOG77,WIDE1-1,WIDE2-1,qAR,SM0RGQ-4:!\0OunS%X-C  !434.025MHz C077 +000 OpenGD77 MD-96002025-01-22 09:58:08 CET: SA0BUX-9&gt;APOG77,SK0VR-2,WIDE1*,WIDE2-1,qAR,SK0BJ-10:!\0OufS%X,C  !434.025MHz C077 +000 OpenGD77 MD-96002025-01-22 10:00:07 CET: SA0BUX-9&gt;APOG77,WIDE1-1,WIDE2-1,qAR,SM0RGQ-4:!\0Ou0S%X%C  !434.025MHz C077 +000 OpenGD77 MD-96002025-01-22 10:01:07 CET: SA0BUX-9&gt;APOG77,WIDE1-1,WIDE2-1,qAR,SM0RGQ-4:!\0OuFS%X!C  !434.025MHz C077 +000 OpenGD77 MD-96002025-01-22 10:02:07 CET: SA0BUX-9&gt;APOG77,WIDE1-1,WIDE2-1,qAR,SM0RGQ-4:!\0OuMS%WzC  !434.025MHz C077 +000 OpenGD77 MD-9600</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jan 22, 2025 9:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-01-22T08:21:23</updated>
+
+		<published>2025-01-22T08:21:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35264#p35264</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35264#p35264"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35264#p35264"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Another final question if I may.  Is it expected that when I change to a different TG that the "Last Talker" will still display despite that they haven't key'd up on that TG?<br><br>Cheers,<br><br>--<br>Shane<br>VK4GAN</div></blockquote>It's not TG filtered, it's the last entry of the heard list, so whatever TG you received, the last heard contact is displayed.</div></blockquote>All good.  Just wanted to confirm and understood.<br><br>Cheers,<br><br>--<br>Shane<br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Wed Jan 22, 2025 8:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T08:07:23</updated>
+
+		<published>2025-01-22T08:07:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35262#p35262</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35262#p35262"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35262#p35262"><![CDATA[
+<blockquote class="uncited"><div>Another final question if I may.  Is it expected that when I change to a different TG that the "Last Talker" will still display despite that they haven't key'd up on that TG?<br><br>Cheers,<br><br>--<br>Shane<br>VK4GAN</div></blockquote>It's not TG filtered, it's the last entry of the heard list, so whatever TG you received, the last heard contact is displayed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 8:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-01-22T07:44:52</updated>
+
+		<published>2025-01-22T07:44:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35261#p35261</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35261#p35261"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35261#p35261"><![CDATA[
+Another final question if I may.  Is it expected that when I change to a different TG that the "Last Talker" will still display despite that they haven't key'd up on that TG?<br><br>Cheers,<br><br>--<br>Shane<br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Wed Jan 22, 2025 7:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-01-22T07:28:12</updated>
+
+		<published>2025-01-22T07:28:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35259#p35259</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35259#p35259"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35259#p35259"><![CDATA[
+<blockquote class="uncited"><div>Well, from another thread, it seems I forgot the force the settings to be updated after flashing the latest beta.<br>As I wrote there, I will update the firmware beta later today to fix this.</div></blockquote>No problems.  Apologies as I haven't seen the thread you are referring to hence my post<br><br>All in all, a great update nonetheless.<br><br>Cheers,<br><br>--<br>Shane<br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Wed Jan 22, 2025 7:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T07:24:42</updated>
+
+		<published>2025-01-22T07:24:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35258#p35258</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35258#p35258"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35258#p35258"><![CDATA[
+Well, from another thread, it seems I forgot the force the settings to be updated after flashing the latest beta.<br>As I wrote there, I will update the firmware beta later today to fix this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 7:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-01-22T07:23:16</updated>
+
+		<published>2025-01-22T07:23:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35257#p35257</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35257#p35257"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35257#p35257"><![CDATA[
+<blockquote class="uncited"><div>This was added to the latest beta. I don't know what are the 180/300 seconds you're talking about come from.<br>The available values are Off, 1..30 seconds.</div></blockquote>I'll have to update my other 9600 to see if the behavior is the same but the Callsign was on screen forever, hence changing the values.  It definitely was greater than 30s.<br><br>Cheers,<br><br>--<br>Shane<br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Wed Jan 22, 2025 7:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T07:20:48</updated>
+
+		<published>2025-01-22T07:20:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35255#p35255</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35255#p35255"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35255#p35255"><![CDATA[
+This was added to the latest beta. I don't know what are the 180/300 seconds you're talking about come from.<br>The available values are Off, 1..30 seconds.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 7:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-01-22T07:07:25</updated>
+
+		<published>2025-01-22T07:07:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35254#p35254</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35254#p35254"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35254#p35254"><![CDATA[
+<blockquote class="uncited"><div>[*] Add last talker in screen option. <ul> <li> In DIGITAL mode, when this option is enabled, the last caller callsign and channel contact are displayed each x seconds alternatively, in both Channel and VFO menus.</li></ul></div></blockquote>Great update!<br><br>Just been playing with this and I can't recall what it was before I touched it (200 seconds or maybe 300??), at least that is what I am certain what the radio showed hence wanting to see if I could adjust it. I did change it to 180.  That I am certain of.  Scrolled all way back to 1s then it shows "off" which is fine and what I wanted to check if I want to turn it off.  Scrolling back up\, the maximum I can set now is 30s using either B and C on the mic or via the dial on the radio.<br><br>Is that how it is meant to be?<br><br>*edit I guess a lower setting of maybe 5 or 10s is probably better anyway.  Kinda like how my 878UVii works.  So it flicks between the callsign and TG quicker.  Adjusted to 5s and that works great*<br><br>Cheers,<br><br>--<br>Shane<br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Wed Jan 22, 2025 7:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T03:51:41</updated>
+
+		<published>2025-01-22T03:51:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35248#p35248</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35248#p35248"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35248#p35248"><![CDATA[
+<blockquote class="uncited"><div>Good evening, I installed the firmware and the final version was 9062722, is that correct?<br><br>Another question is, what is the button to listen to ReverseRepeater? I saw that special beeps were added when ReverseRepeater is activated/deactivated.<br><br>Thanks in advance PY4HZ <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br><br>obs tyt9600 V5</div></blockquote>Hash key, as written in the user manual <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#reverse-repeater-operation" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -operation</a><br><br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 3:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[py4hz]]></name></author>
+		<updated>2025-01-22T01:32:40</updated>
+
+		<published>2025-01-22T01:32:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35246#p35246</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35246#p35246"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35246#p35246"><![CDATA[
+Good evening, I installed the firmware and the final version was 9062722, is that correct?<br><br>Another question is, what is the button to listen to ReverseRepeater? I saw that special beeps were added when ReverseRepeater is activated/deactivated.<br><br>Thanks in advance PY4HZ <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br><br>obs tyt9600 V5<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6971">py4hz</a> — Wed Jan 22, 2025 1:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[i5ekx]]></name></author>
+		<updated>2025-01-21T17:25:16</updated>
+
+		<published>2025-01-21T17:25:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35245#p35245</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35245#p35245"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35245#p35245"><![CDATA[
+On my Tytera UV-MD390 and 380 radios APRS behaves as described by Daniel: <em class="text-italics">When any mode is selected, except PTT (which uses SK1 + 2 to trigger beaconing), you can just change to the next/previous channel, then come back to the original channel, that will send a beacon.</em><br>With the Tytera 9600 even though the GPS has acquired the position and the channel settings are correct this does not happen, the APRS beacon does not start when changing channels, in fact: it does not start at all, is it possible that I made a mistake in the configuration? Yet the code plug is basically the same.....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3315">i5ekx</a> — Tue Jan 21, 2025 5:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2KLF]]></name></author>
+		<updated>2025-01-20T13:34:32</updated>
+
+		<published>2025-01-20T13:34:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35218#p35218</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35218#p35218"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35218#p35218"><![CDATA[
+Hi, <br><br>I have loaded this firmware  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br>I am still having the strange issue where my "UP" button on the MD9600 radio itself (Not the mic) acting the same as the Band/Esc button.<br><br>I posted a thread just down from this, if you could give me your thoughts there.<br><br>Regards,<br><br>Sven<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6558">VK2KLF</a> — Mon Jan 20, 2025 1:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-19T11:49:35</updated>
+
+		<published>2025-01-19T11:49:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35195#p35195</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35195#p35195"/>
+		<title type="html"><![CDATA[New MD-9600 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4775&amp;p=35195#p35195"><![CDATA[
+<ul><li> Add GPS baud rate detection</li><li> Show channel distance when scan is paused</li><li> Fix bug in channel/VFO modes when scanning with VP</li><li> Add last talker in screen option. <ul> <li> In DIGITAL mode, when this option is enabled, the last caller callsign and channel contact are displayed each x seconds alternatively, in both Channel and VFO menus.</li> </ul></li><li> Don't display CSS in header while DW scanning.</li><li> Add APRS tx frequency support. <ul> <li> When a TX Frequency is set in the APRS Config, the device is tuned to that frequency before transmitting the frame.<br>     That permits setting an APRS Config to a DIGITAL channel (menuChannelDetails supports<br>     that too).</li>     <li> Also, a CODEPLUG_APRS_CONFIG_FLAG_TRANSMIT_QSY_INFO APRS Config flag is now supported,<br>     which add QSY information to the beacon text (like frequency / tone / shift). Tested<br>     on my TH-D74.</li>     <li>  NOTE: this is not enabled/supported while in Satellite mode.</li> <li> "APRS" word in the header had to be changed, since it could appear in DIGITAL mode too. It's now a "a", next to the mode.</li> <li> <strong class="text-strong">WARNING:</strong> The APRS Config version has been changed for this, so you need to read and write back your codeplug to update the APRS configurations, using the latest CPS (&gt;= 2025 01 19).</li></ul></li><li> Fix DMR Rx AGC (wasn't disabled once enabled, until the transceiver got power cycled).</li><li> Add special beeps when ReverseRepeater is enabled/disabled.</li><li> Contact TS override has to be displayed, no matter the Display option "Info" is set.</li><li> Many other small fixes/cleanups.</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/71KWT9ANZM#uzNy9HoPqGTF" class="postlink">https://drive.proton.me/urls/71KWT9ANZM#uzNy9HoPqGTF</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/TJPJF51XAC#jSxZ1Ln9GyI9" class="postlink">https://drive.proton.me/urls/TJPJF51XAC#jSxZ1Ln9GyI9</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/19, otherwise the APRS config won't work. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4773#p35193" class="postlink">viewtopic.php?f=12&amp;t=4773#p35193</a><br><br>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/Y6Q3ZDND7C#teUQ3T2TOpug" class="postlink">https://drive.proton.me/urls/Y6Q3ZDND7C#teUQ3T2TOpug</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 19, 2025 11:49 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3748" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-06T05:33:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3748</id>
+
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-02-06T05:33:34</updated>
+
+		<published>2024-02-06T05:33:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29314#p29314</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29314#p29314"/>
+		<title type="html"><![CDATA[Re: Subaudible decoding]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29314#p29314"><![CDATA[
+Thanks for the response! Much appreciated and I'll chalk this up to "normal behavior" for the radio (and CTSS in general).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Tue Feb 06, 2024 5:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-02-04T12:50:42</updated>
+
+		<published>2024-02-04T12:50:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29269#p29269</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29269#p29269"/>
+		<title type="html"><![CDATA[Re: Subaudible decoding]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29269#p29269"><![CDATA[
+Yes, that is quite normal. <br>CTCSS decoders in many radios will often respond to one tone either side of the correct one. This is due to the bandwidth of the tone filtering. When scanning tones the firmware stops on the first one it finds. <br>DCS doesn't suffer from this as two adjacent codes are completely different. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Feb 04, 2024 12:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-02-04T09:30:43</updated>
+
+		<published>2024-02-04T09:30:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29266#p29266</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29266#p29266"/>
+		<title type="html"><![CDATA[Subaudible decoding]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3748&amp;p=29266#p29266"><![CDATA[
+Not sure this is an issue worth reporting, but I thought I'd throw it out there for the group. Running the 2023 12 12 firmware on a 9600, I've used the CTSS scan feature a few times. I discovered it usually stops 1 tone before the actual broadcasted tone (I figured out something was wrong when nobody could hear me when I used the tone). So for example, if the tone being broadcasted is 100.0, the CTSS scanner will stop at 97.4 and pass the audio. Nudge it up to 100.0 and the radio does work as it's supposed to and passes the audio. Every once in awhile the CTSS scan will stop one tone after the actual broadcasted tone, but not pass audio.<br><br>I did some testing and with a GD77 set to the lowest power and on the other side of the house from the radio and the antenna for the 9600 on the roof, I did some checking on simplex and 100% of the time I would break squelch being 1 tone below the programmed RX CTSS. For kicks and giggles, I also tried the reverse, transmitting from my 9600 and the GD77 (which is running the latest beta firmware)  exhibited the exact same behavior.<br><br>None of this was an issue when using DCS, everything worked as it's supposed to.<br><br>Anyone experience anything similar?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Sun Feb 04, 2024 9:30 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5077" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-19T04:33:22</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5077</id>
+
+		<entry>
+		<author><name><![CDATA[BD1AMC]]></name></author>
+		<updated>2025-04-19T02:23:54</updated>
+
+		<published>2025-04-19T02:23:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5077&amp;p=36838#p36838</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5077&amp;p=36838#p36838"/>
+		<title type="html"><![CDATA[Re: OpenGD77 is awesome]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5077&amp;p=36838#p36838"><![CDATA[
+It doesn't have GPS, so I installed a GPS module, but it keeps restarting.<br>So I dismantled the GPS module, and now there is a noise floor when I am on the call, and sometimes it restarts or shuts down.<br>I am unable to fix it at the moment.<br><br>GPS module is ????? ATGM336H 6N-74 C92305<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8483">BD1AMC</a> — Sat Apr 19, 2025 2:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD1AMC]]></name></author>
+		<updated>2025-04-19T04:33:22 </updated>
+
+		<published>2025-04-19T02:13:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5077&amp;p=36837#p36837</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5077&amp;p=36837#p36837"/>
+		<title type="html"><![CDATA[OpenGD77 is awesome]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5077&amp;p=36837#p36837"><![CDATA[
+Hi guys, I'm just getting started with radio.<br>Get this radio, use OpenGD77 right now.<br>My English is not good,  I hope you can understand me.<br><img src="https://raw.githubusercontent.com/HoyAnGx/SatTracker/refs/heads/main/GD77-1.png" class="postimage" alt="Image"><br>I made this image based on GitHub images and added Chinese descriptions.<br><a href="https://raw.githubusercontent.com/HoyAnGx/SatTracker/refs/heads/main/GD77-1.png" class="postlink">https://raw.githubusercontent.com/HoyAn ... GD77-1.png</a><br>Please let me know if there are any mistakes, and I will fix them.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8483">BD1AMC</a> — Sat Apr 19, 2025 2:13 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

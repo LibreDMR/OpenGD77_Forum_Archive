@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3545" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-11T19:28:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3545</id>
+
+		<entry>
+		<author><name><![CDATA[SP5WWP]]></name></author>
+		<updated>2023-12-11T19:28:44</updated>
+
+		<published>2023-12-11T19:28:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3545&amp;p=28033#p28033</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3545&amp;p=28033#p28033"/>
+		<title type="html"><![CDATA[Re: MD-UV380 Source]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3545&amp;p=28033#p28033"><![CDATA[
+In the meantime, you might want to take a look at the OpenRTX project and see what it offers. Sounds like you could help them with their current tasks.<br><br>Project's homepage is at <a href="https://openrtx.org/" class="postlink">https://openrtx.org/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4265">SP5WWP</a> — Mon Dec 11, 2023 7:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE6BZD]]></name></author>
+		<updated>2023-12-04T21:29:46</updated>
+
+		<published>2023-12-04T21:29:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27866#p27866</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27866#p27866"/>
+		<title type="html"><![CDATA[Re: MD-UV380 Source]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27866#p27866"><![CDATA[
+Awesome, thanks a lot, looking forward to it!<br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5024">OE6BZD</a> — Mon Dec 04, 2023 9:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-04T20:36:59</updated>
+
+		<published>2023-12-04T20:36:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27865#p27865</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27865#p27865"/>
+		<title type="html"><![CDATA[Re: MD-UV380 Source]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27865#p27865"><![CDATA[
+Yes.<br><br>Current plan is to release source code for all platforms before Christmas, if the latest beta has no major bugs<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 04, 2023 8:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE6BZD]]></name></author>
+		<updated>2023-12-04T16:44:09</updated>
+
+		<published>2023-12-04T16:44:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27863#p27863</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27863#p27863"/>
+		<title type="html"><![CDATA[MD-UV380 Source]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3545&amp;p=27863#p27863"><![CDATA[
+Hi all,<br><br>sorry to be the guy that aks THAT question again but..<br>Is there any chance to get the source code for the latest MDUV380 release anytime soon?<br><br>I successfully compiled the available source (R20230311) and uploaded it to my MD-UV390G but unfortunately noticed, that a lot of things are out of date and there is no point in starting to work on this outdated source.<br><br>When or based on what indicator do you rate a version as stable and therefor release it's source?<br><br>I based would really like to help and smooth out a few things and since daytime job is actually writing firmware for STM32s, I believe I could actually be of help.<br><br>Thank you, best regards &amp; 73<br>Nico, OE6BZD<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5024">OE6BZD</a> — Mon Dec 04, 2023 4:44 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

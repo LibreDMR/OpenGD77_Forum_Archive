@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3999" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-16T17:57:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3999</id>
+
+		<entry>
+		<author><name><![CDATA[m0xrs]]></name></author>
+		<updated>2024-04-16T17:57:55</updated>
+
+		<published>2024-04-16T17:57:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30912#p30912</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30912#p30912"/>
+		<title type="html"><![CDATA[Re: Donor Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30912#p30912"><![CDATA[
+Thank you I will give that a go.<br><br>That worked fine thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2335">m0xrs</a> — Tue Apr 16, 2024 5:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-04-16T16:29:02</updated>
+
+		<published>2024-04-16T16:29:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30911#p30911</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30911#p30911"/>
+		<title type="html"><![CDATA[Re: Donor Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30911#p30911"><![CDATA[
+<blockquote class="uncited"><div>Has anyone got a link to donor firmware I seem to be coming up on dead ends?<br><br>Also Firmware updater is asking for MD9600 firmware is this correct? if so that seem to be coming up blank as well on TYT site</div></blockquote><a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br><br>You can try my copy too<br><a href="https://www.sa0bux.se/Ham/opengd77/210525%20MD-9600%20%20V4%20firmware%20for%20PLL2571.zip" class="postlink">https://www.sa0bux.se/Ham/opengd77/2105 ... LL2571.zip</a><br><br>And yes, the donor data is taken from a MD-9600 bin file for all radios that have same or very similar hardware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Apr 16, 2024 4:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m0xrs]]></name></author>
+		<updated>2024-04-16T16:15:56</updated>
+
+		<published>2024-04-16T16:15:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30910#p30910</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30910#p30910"/>
+		<title type="html"><![CDATA[Donor Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3999&amp;p=30910#p30910"><![CDATA[
+Has anyone got a link to donor firmware I seem to be coming up on dead ends?<br><br>Also Firmware updater is asking for MD9600 firmware is this correct? if so that seem to be coming up blank as well on TYT site<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2335">m0xrs</a> — Tue Apr 16, 2024 4:15 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

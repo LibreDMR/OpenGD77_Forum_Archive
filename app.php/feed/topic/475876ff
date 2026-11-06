@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4758" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-13T16:43:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4758</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-13T16:43:34</updated>
+
+		<published>2025-01-13T16:43:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4758&amp;p=35134#p35134</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4758&amp;p=35134#p35134"/>
+		<title type="html"><![CDATA[Re: Temp. Cal and Batt Cal]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4758&amp;p=35134#p35134"><![CDATA[
+Nope, as it's not part of the calibration data (which is stored in a specific flash memory area, area we never touch, and make a working copy in another location).<br>Bat and Temp are purely "calibrations" we added, hence it's stored in the settings.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Jan 13, 2025 4:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-01-13T16:08:23</updated>
+
+		<published>2025-01-13T16:08:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4758&amp;p=35132#p35132</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4758&amp;p=35132#p35132"/>
+		<title type="html"><![CDATA[Temp. Cal and Batt Cal]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4758&amp;p=35132#p35132"><![CDATA[
+Should Temp Cal and Batt Cal be part of calibration instead of General Options? My point is both of these values are not changing much. Once a user set the offset and it should be pretty much stay there. However, because both of them are part of General Options, when a user doing an options reset, or a new firmware came out with a requirement to do an options reset, these values are gone. And user might need to do some testing/measurement again to get the value back and put the offset back in the general options setting.<br><br>This is just my observation. I don't know if it is a good reasoning nor if it is possible to move them to another location, just an idea.<br><br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jan 13, 2025 4:08 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

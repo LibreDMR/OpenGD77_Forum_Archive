@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4572" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-10T13:37:39</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4572</id>
+
+		<entry>
+		<author><name><![CDATA[NE9D]]></name></author>
+		<updated>2024-11-10T13:37:39</updated>
+
+		<published>2024-11-10T13:37:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34029#p34029</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34029#p34029"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34029#p34029"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I’m having a tough time saying what I want. <br>My radio is in memory mode. It’s showing an A and B talk group name. For the sake of explanation, the A is showing the IN3118 group and the B is showing North America. I can scroll through both A and B to the different talk groups I have programmed. No matter what I do, it only operates with the talk group on the top line. I’m thinking that hitting the A/B button should switch it to the one on bottom or the B. I do this on all of my non DMR Baofengs. Maybe the DMR just doesn’t work like this or I have some kind of programming error?<br>I tried attaching a picture but couldn’t figure out how. I suspect image size too big but I never got any kind of error message. <br><br>Matt<br>Double clicking the orange button gets into the menu for moving VFO to memory or vice-versa.</div></blockquote>OK, I got you now. OpenGD77 is working in a different way than commercial/traditional DMR. In OpenGD77 the top line is talk group and the bottom line is channel.<br><br>on 1801 radio, you change channel by arrow up/down and change talkgroup with left/right<br>how to write a codeplug is the key. In Traditional DMR you will have to create multiple channel for a repeater. These channels are almost identical, only talk group and sometimes time slot that changed. on the radio, you can only change channels, there is noway to change talkgroup, except manual dial.<br><br>In OpenGD77, we use only one channel per repeater. then create a "talkgroup list" and attach the talkgroup list to the channel. Now on the radio you can change talkgroup.<br><br>Hope this make sense</div></blockquote>Yes!!! That explains it. It also shows me I need to change the way I’m labeling my channels as I was naming the channels the same as the talk groups. That’s why I could have the same name on both lines of the screen or different names. I thought it was like an A and B channel on a regular HT. <br>Thank you for the explanation!<br><br>Matt, NE9D<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7103">NE9D</a> — Sun Nov 10, 2024 1:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-11-10T01:45:04</updated>
+
+		<published>2024-11-10T01:45:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34028#p34028</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34028#p34028"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34028#p34028"><![CDATA[
+<blockquote class="uncited"><div>I’m having a tough time saying what I want. <br>My radio is in memory mode. It’s showing an A and B talk group name. For the sake of explanation, the A is showing the IN3118 group and the B is showing North America. I can scroll through both A and B to the different talk groups I have programmed. No matter what I do, it only operates with the talk group on the top line. I’m thinking that hitting the A/B button should switch it to the one on bottom or the B. I do this on all of my non DMR Baofengs. Maybe the DMR just doesn’t work like this or I have some kind of programming error?<br>I tried attaching a picture but couldn’t figure out how. I suspect image size too big but I never got any kind of error message. <br><br>Matt<br>Double clicking the orange button gets into the menu for moving VFO to memory or vice-versa.</div></blockquote>OK, I got you now. OpenGD77 is working in a different way than commercial/traditional DMR. In OpenGD77 the top line is talk group and the bottom line is channel.<br><br>on 1801 radio, you change channel by arrow up/down and change talkgroup with left/right<br>how to write a codeplug is the key. In Traditional DMR you will have to create multiple channel for a repeater. These channels are almost identical, only talk group and sometimes time slot that changed. on the radio, you can only change channels, there is noway to change talkgroup, except manual dial.<br><br>In OpenGD77, we use only one channel per repeater. then create a "talkgroup list" and attach the talkgroup list to the channel. Now on the radio you can change talkgroup.<br><br>Hope this make sense<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Nov 10, 2024 1:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NE9D]]></name></author>
+		<updated>2024-11-09T23:28:27</updated>
+
+		<published>2024-11-09T23:28:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34027#p34027</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34027#p34027"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34027#p34027"><![CDATA[
+I’m having a tough time saying what I want. <br>My radio is in memory mode. It’s showing an A and B talk group name. For the sake of explanation, the A is showing the IN3118 group and the B is showing North America. I can scroll through both A and B to the different talk groups I have programmed. No matter what I do, it only operates with the talk group on the top line. I’m thinking that hitting the A/B button should switch it to the one on bottom or the B. I do this on all of my non DMR Baofengs. Maybe the DMR just doesn’t work like this or I have some kind of programming error?<br>I tried attaching a picture but couldn’t figure out how. I suspect image size too big but I never got any kind of error message. <br><br>Matt<br>Double clicking the orange button gets into the menu for moving VFO to memory or vice-versa.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7103">NE9D</a> — Sat Nov 09, 2024 11:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-09T23:18:00</updated>
+
+		<published>2024-11-09T23:18:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34026#p34026</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34026#p34026"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34026#p34026"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>Or press and hold the Red button</div></blockquote>WOW!! I've never known that trick, learn something new everyday. Thanks,</div></blockquote>Its because not all radios have the Orange button<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 09, 2024 11:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-11-09T19:36:58</updated>
+
+		<published>2024-11-09T19:36:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34025#p34025</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34025#p34025"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34025#p34025"><![CDATA[
+<blockquote class="uncited"><div><br>Or press and hold the Red button</div></blockquote>WOW!! I've never known that trick, learn something new everyday. Thanks,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Nov 09, 2024 7:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-09T19:21:26</updated>
+
+		<published>2024-11-09T19:21:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34024#p34024</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34024#p34024"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34024#p34024"><![CDATA[
+<blockquote class="uncited"><div>I'm not sure if I'm understand your problem. Are you asking how to switch between VFO A and VFO B?<br>If so, double-click the orange button while in VFO mode.</div></blockquote>Or press and hold the Red button<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 09, 2024 7:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-11-09T19:05:41</updated>
+
+		<published>2024-11-09T19:05:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34023#p34023</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34023#p34023"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34023#p34023"><![CDATA[
+I'm not sure if I'm understand your problem. Are you asking how to switch between VFO A and VFO B?<br>If so, double-click the orange button while in VFO mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Nov 09, 2024 7:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NE9D]]></name></author>
+		<updated>2024-11-09T18:05:37</updated>
+
+		<published>2024-11-09T18:05:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34022#p34022</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34022#p34022"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34022#p34022"><![CDATA[
+I was guessing that this worked pretty much like all my other HTs. It appears that I have programmed both VFOs the same. However, I can’t get the radio to switch between the two VFOs. I hit the A/B button but I don’t get any indication of which VFO it is on or going to. As best I can tell, it is only working from VFO A. I can select different talk groups on each VFO using the center 4 way button but I can’t get it to switch to the B VFO. All my other non DMR HTs just switch via the A/B button. <br><br>Thanks, Matt, NE9D<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7103">NE9D</a> — Sat Nov 09, 2024 6:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-09T05:14:21</updated>
+
+		<published>2024-11-09T05:14:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34018#p34018</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34018#p34018"/>
+		<title type="html"><![CDATA[Re: A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34018#p34018"><![CDATA[
+<blockquote class="uncited"><div>I sorta just got my DM-1801 working with my hotspot. I’m a bit confused about some of the radio operations. It appears I have both A and B frequencies programmed with the same channels. It appears that I can select any of my talk groups on either A or B. However, the A/B button doesn’t switch between the two it only operates on the A. <br>Now, it’s entirely possible I don’t know what I’m doing and the 1801 doesn’t even have dual VFOs or they don’t work on DMR. I honestly don’t know!<img alt="🤷???" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f937-200d-2642-fe0f.svg"> I’m pretty surprised I even got it working with my hotspot!<br>If someone can figure out what I’m asking, I’d be appreciative if you can enlighten me what’s happening. <br><br>Thanks, Matt, NE9D</div></blockquote>The firmware has two VFOs  - A and B<br><br>The 2 frequencies for Channels are the Tx and Rx freqs.<br>Note the VFO's are effectively Channels and hence also have separare Tx and Rx freqs<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 09, 2024 5:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NE9D]]></name></author>
+		<updated>2024-11-09T04:15:21</updated>
+
+		<published>2024-11-09T04:15:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34015#p34015</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34015#p34015"/>
+		<title type="html"><![CDATA[A/B?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4572&amp;p=34015#p34015"><![CDATA[
+I sorta just got my DM-1801 working with my hotspot. I’m a bit confused about some of the radio operations. It appears I have both A and B frequencies programmed with the same channels. It appears that I can select any of my talk groups on either A or B. However, the A/B button doesn’t switch between the two it only operates on the A. <br>Now, it’s entirely possible I don’t know what I’m doing and the 1801 doesn’t even have dual VFOs or they don’t work on DMR. I honestly don’t know!<img alt="🤷???" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f937-200d-2642-fe0f.svg"> I’m pretty surprised I even got it working with my hotspot!<br>If someone can figure out what I’m asking, I’d be appreciative if you can enlighten me what’s happening. <br><br>Thanks, Matt, NE9D<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7103">NE9D</a> — Sat Nov 09, 2024 4:15 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

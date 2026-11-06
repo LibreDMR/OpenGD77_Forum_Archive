@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3961" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-08T14:46:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3961</id>
+
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-04-08T14:46:13</updated>
+
+		<published>2024-04-08T14:46:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3961&amp;p=30704#p30704</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3961&amp;p=30704#p30704"/>
+		<title type="html"><![CDATA[Re: TYT MD2017 DFU NOT DETECTED  [CLOSED]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3961&amp;p=30704#p30704"><![CDATA[
+Let me answer myself...<br><br><br>I had STM DFU DRIVER W10 installed and it's perfectlyy working.<br><br>Thanks !!!<br><br><br>73'Rafa<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Mon Apr 08, 2024 2:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-04-08T14:39:17</updated>
+
+		<published>2024-04-08T14:39:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3961&amp;p=30703#p30703</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3961&amp;p=30703#p30703"/>
+		<title type="html"><![CDATA[TYT MD2017 DFU NOT DETECTED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3961&amp;p=30703#p30703"><![CDATA[
+Hi,<br><br><br>I had to reinstall my PC and now it's unable to recognize TYT MD2017 DFU mode.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2346&amp;sid=9a03e3e1c1dbb0bd66e43556b60dd85d" class="postimage" alt="TYT MD2017 DFU NOT DETECTED.png" onclick="viewableArea(this);" /></dt></dl></div><br>Cable is OK as you can see here:<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2345&amp;sid=9a03e3e1c1dbb0bd66e43556b60dd85d" class="postimage" alt="TYT MD2017 STANDARD MODE DETECTED.png" onclick="viewableArea(this);" /></dt></dl></div><br>Is there something I'm leaving behind ??<br><br><br>NOTE:<br>I had lastest CPS (R2024.03.30.01) installed as Admin and drivers where also installed.<br>CPS does read/write correctly Codeplug.<br>Current FW:<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2347&amp;sid=9a03e3e1c1dbb0bd66e43556b60dd85d" class="postimage" alt="TYT MD2017 FW INFO.png" onclick="viewableArea(this);" /></dt></dl></div>Thansk,<br>Rafa.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Mon Apr 08, 2024 2:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

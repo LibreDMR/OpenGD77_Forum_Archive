@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4004" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-21T17:10:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4004</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-04-21T17:10:01</updated>
+
+		<published>2024-04-21T17:10:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30958#p30958</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30958#p30958"/>
+		<title type="html"><![CDATA[Re: DM-1801 on eBay with &quot;DO NOT FLASH&quot; comment???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30958#p30958"><![CDATA[
+Thank you, Daniel. very confusing world.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Apr 21, 2024 5:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-21T15:40:53</updated>
+
+		<published>2024-04-21T15:40:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30957#p30957</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30957#p30957"/>
+		<title type="html"><![CDATA[Re: DM-1801 on eBay with &quot;DO NOT FLASH&quot; comment???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30957#p30957"><![CDATA[
+<blockquote class="uncited"><div>Hi all, I've came across many listing of DM-1801 on eBay with "DO NOT FLASH" comment. What about it? Can I buy one of these and flash openGD77?<br><br>for example : <a href="https://www.ebay.com/itm/394345358300?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D262200%26meid%3D3ffa96e4c4d848bca927d4ffd2d13c25%26pid%3D101196%26rk%3D1%26rkt%3D10%26sd%3D116122790660%26itm%3D394345358300%26pmt%3D1%26noa%3D0%26pg%3D2332490%26algv%3DSimplAMLv5PairwiseWebWithBBEV2bAndUBSourceDemotionWithUltimatelyBoughtOfCoviewV1%26brand%3DBaofeng&amp;_trksid=p2332490.c101196.m2219&amp;itmprp=cksum%3A3943453583003ffa96e4c4d848bca927d4ffd2d13c25%7Cenc%3AAQAJAAABMKAGZatwWrSFioKhyF05YYps7xtgOI2Vu0BqB4BERv%252FNTfrUNkP50TZAJfREiGj7R%252BA2x2E5zTqSs43jfR6uCcmt8%252B%252BTUdobg9SfOq%252BIqjUBqvQtcLSYozqEF9fzyhEtkdadlOIM2e2PPYVqaiRLs0S3y%252F4foEzpUjE57x3HQGNBb%252BA5zscyjL0dVQMpTT%252Bh9VP5ULk9yOZGjbQlGUNpi2wH7LNI%252BI8onNsWnJOpo75z2MJsQ5pyiInjSP7fZX%252Bz0YMyaTSxrWmuRyXSEPHl66RM9EsAbO2bG6JxMYc54mmwrIx4DKZaTfnHclLYyF7grlKtndCo3c5RVaZJk1eB4KReuee%252BAG2SPJMT3f6lU4gNAnVtocGL4%252Bs%252FaPImIsUeIfCrumGMBaFhbnuEVBviFc4%253D%7Campid%3APL_CLK%7Cclp%3A2332490&amp;epid=3065674588&amp;itmmeta=01HW0E1XHFG5S2Q1NPQG1YV4CP" class="postlink">eBay listing</a></div></blockquote>Probably because it's a DR-1801 (they sold it as DM-1801 at the beginning, before renaming it DR-1801), and the hardware is different and not supported by the OpenGD77 firmware.<br><br>If you llook at the pictures, it's clearly a DR-1801.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Apr 21, 2024 3:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-04-21T13:46:50</updated>
+
+		<published>2024-04-21T13:46:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30955#p30955</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30955#p30955"/>
+		<title type="html"><![CDATA[DM-1801 on eBay with &quot;DO NOT FLASH&quot; comment???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4004&amp;p=30955#p30955"><![CDATA[
+Hi all, I've came across many listing of DM-1801 on eBay with "DO NOT FLASH" comment. What about it? Can I buy one of these and flash openGD77?<br><br>for example : <a href="https://www.ebay.com/itm/394345358300?_trkparms=amclksrc%3DITM%26aid%3D1110006%26algo%3DHOMESPLICE.SIM%26ao%3D1%26asc%3D262200%26meid%3D3ffa96e4c4d848bca927d4ffd2d13c25%26pid%3D101196%26rk%3D1%26rkt%3D10%26sd%3D116122790660%26itm%3D394345358300%26pmt%3D1%26noa%3D0%26pg%3D2332490%26algv%3DSimplAMLv5PairwiseWebWithBBEV2bAndUBSourceDemotionWithUltimatelyBoughtOfCoviewV1%26brand%3DBaofeng&amp;_trksid=p2332490.c101196.m2219&amp;itmprp=cksum%3A3943453583003ffa96e4c4d848bca927d4ffd2d13c25%7Cenc%3AAQAJAAABMKAGZatwWrSFioKhyF05YYps7xtgOI2Vu0BqB4BERv%252FNTfrUNkP50TZAJfREiGj7R%252BA2x2E5zTqSs43jfR6uCcmt8%252B%252BTUdobg9SfOq%252BIqjUBqvQtcLSYozqEF9fzyhEtkdadlOIM2e2PPYVqaiRLs0S3y%252F4foEzpUjE57x3HQGNBb%252BA5zscyjL0dVQMpTT%252Bh9VP5ULk9yOZGjbQlGUNpi2wH7LNI%252BI8onNsWnJOpo75z2MJsQ5pyiInjSP7fZX%252Bz0YMyaTSxrWmuRyXSEPHl66RM9EsAbO2bG6JxMYc54mmwrIx4DKZaTfnHclLYyF7grlKtndCo3c5RVaZJk1eB4KReuee%252BAG2SPJMT3f6lU4gNAnVtocGL4%252Bs%252FaPImIsUeIfCrumGMBaFhbnuEVBviFc4%253D%7Campid%3APL_CLK%7Cclp%3A2332490&amp;epid=3065674588&amp;itmmeta=01HW0E1XHFG5S2Q1NPQG1YV4CP" class="postlink">eBay listing</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Apr 21, 2024 1:46 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

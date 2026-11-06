@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4177" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-24T05:42:25</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4177</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-24T05:42:25</updated>
+
+		<published>2024-06-24T05:42:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4177&amp;p=31776#p31776</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4177&amp;p=31776#p31776"/>
+		<title type="html"><![CDATA[Re: Md9600 in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4177&amp;p=31776#p31776"><![CDATA[
+<blockquote class="uncited"><div>Is there a way to turn on the speaker on the radio so u can still listen without having another radio , in TX and RX mode<br><br>Thanks <br>Kb3nun</div></blockquote><br>If you mean, turn on the speaker while in Hotspot mode, then No. <br><br>This is not possible because the firmware operates completely differently in hostpot mode and handles the DMR data completely differently and does not decode the audio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 24, 2024 5:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kb3nun]]></name></author>
+		<updated>2024-06-24T03:35:30</updated>
+
+		<published>2024-06-24T03:35:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4177&amp;p=31774#p31774</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4177&amp;p=31774#p31774"/>
+		<title type="html"><![CDATA[Md9600 in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4177&amp;p=31774#p31774"><![CDATA[
+Is there a way to turn on the speaker on the radio so u can still listen without having another radio , in TX and RX mode<br><br>Thanks <br>Kb3nun<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1380">kb3nun</a> — Mon Jun 24, 2024 3:35 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

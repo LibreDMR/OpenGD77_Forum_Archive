@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4286" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-01T21:50:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4286</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-01T21:50:49</updated>
+
+		<published>2024-08-01T21:50:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32374#p32374</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32374#p32374"/>
+		<title type="html"><![CDATA[Re: GD-77 - CPS/Firmware Loader Can't Find Device]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32374#p32374"><![CDATA[
+The bootloader in the Radioddity GD-77, enumerates as a USB HID device.<br><br>These devices are not easy to see as they are hidden in with the keyboard and mouse devices on a PC<br><br>None of the radios that the OpenGD77 firmware supports, uses a serial / Com port for the firmware update<br><br><br><br>Btw. Did you every run something like Zadig on your PC to swap device drivers, as Zadig can screw up the drivers in the way you described<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Aug 01, 2024 9:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n3fl]]></name></author>
+		<updated>2024-08-01T21:29:24</updated>
+
+		<published>2024-08-01T21:29:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32373#p32373</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32373#p32373"/>
+		<title type="html"><![CDATA[Re: GD-77 - CPS/Firmware Loader Can't Find Device]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32373#p32373"><![CDATA[
+All,<br>Thanks for your replies. I solved the problem and here is what I did. <br>1. I used the TYT cable that works with all of the TYT radios that I have which includes the MD-UV380, the MD-430, and the TH-350.<br>2. I opened the Device Manager (Windows 10) and looked at the USB Com ports. I found that there were two devices named "Prolific". I looked at both of them,  one of which said that it was not working. I deleted it, made sure that the radio programming cable was not plugged in and then rebooted the PC.<br>3. After re-booting the PC, I checked Device Manager again and saw that there were no USB devices attached. I then uninstalled the OenGD77 CPS and re-installed it.<br>4. After the CPS was re-installed, I plugged the cable into the GD77, turned it on, and then plugged it into the USB port. OpenGD77 found it straightaway and I was able to convert two GD77s and on MD-UV380. The USB Com port now labels the connection as "OpenGD77".<br><br><br>Based on the above, I believe that the bad USB device driver (to which nothing was connected) was preventing the proper drivers from being installed. This problem is analogous to another post that I saw regarding USB drivers issues in the forum. Perhaps someone with more knowledge of the inner workings of Windows can elaborate.<br><br>Thanks to all who read and or commented on this thread.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3046">n3fl</a> — Thu Aug 01, 2024 9:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-08-01T19:56:20</updated>
+
+		<published>2024-08-01T19:56:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32372#p32372</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32372#p32372"/>
+		<title type="html"><![CDATA[Re: GD-77 - CPS/Firmware Loader Can't Find Device]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32372#p32372"><![CDATA[
+If the cable works with the TH350 then it is the wrong cable for the GD77. <br><br>The TH350 uses a serial interface chip in the cable. The GD77 does not. <br><br>I would have expected the RT3 cable to work.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Aug 01, 2024 7:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-08-01T18:38:03</updated>
+
+		<published>2024-08-01T18:38:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32371#p32371</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32371#p32371"/>
+		<title type="html"><![CDATA[Re: GD-77 - CPS/Firmware Loader Can't Find Device]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32371#p32371"><![CDATA[
+There is no reason that the transceiver is using a prolific driver. Something is definitely wrong here.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Aug 01, 2024 6:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n3fl]]></name></author>
+		<updated>2024-08-01T15:35:04</updated>
+
+		<published>2024-08-01T15:35:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32369#p32369</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32369#p32369"/>
+		<title type="html"><![CDATA[Re: GD-77 - CPS/Firmware Loader Can't Find Device]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32369#p32369"><![CDATA[
+Thanks for your response.<br>I am using the same cable that programs TYT radios including the MD-UV380 which multiple sources online say will work for the GD-77. I have verified that the cable works with the TYT TH-350 so the cable itself is "working". I have also tried the programming cable for the Retevis RT3 which yields the same results.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3046">n3fl</a> — Thu Aug 01, 2024 3:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-08-01T02:46:25</updated>
+
+		<published>2024-08-01T02:46:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32360#p32360</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32360#p32360"/>
+		<title type="html"><![CDATA[Re: GD-77 - CPS/Firmware Loader Can't Find Device]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32360#p32360"><![CDATA[
+<blockquote class="uncited"><div>After three years of sitting on my desk, I decided to convert my GD-77 to Open GD-77. During the firmware upload process, I get the error that it cannot find the device. I know that the USB cable is good (it is a TYT) since it works with my THT TH-350. I tried to use the Radiooddity CPS which was working fine two years ago but now it says it cannot find the device either. I uninstalled that CPS and reinstalled a more current version with the same issues. I encountered the same problems with the MD-UV380 which leads me to believe that something in Windows 10 is blocking the correct driver. The driver shows up as a Prolific USB device in the device manager. <br>Any suggestions? Thanks.</div></blockquote>Like using the right cable ?<br><br>The GD-77 cable is an empty shell, there is no USB/TTL converter fitted inside.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Aug 01, 2024 2:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n3fl]]></name></author>
+		<updated>2024-08-01T00:53:59</updated>
+
+		<published>2024-08-01T00:53:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32359#p32359</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32359#p32359"/>
+		<title type="html"><![CDATA[GD-77 - CPS/Firmware Loader Can't Find Device]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4286&amp;p=32359#p32359"><![CDATA[
+After three years of sitting on my desk, I decided to convert my GD-77 to Open GD-77. During the firmware upload process, I get the error that it cannot find the device. I know that the USB cable is good (it is a TYT) since it works with my THT TH-350. I tried to use the Radiooddity CPS which was working fine two years ago but now it says it cannot find the device either. I uninstalled that CPS and reinstalled a more current version with the same issues. I encountered the same problems with the MD-UV380 which leads me to believe that something in Windows 10 is blocking the correct driver. The driver shows up as a Prolific USB device in the device manager. <br>Any suggestions? Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3046">n3fl</a> — Thu Aug 01, 2024 12:53 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

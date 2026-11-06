@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3721" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-10T21:37:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3721</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-10T21:37:43</updated>
+
+		<published>2024-11-10T21:37:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=34033#p34033</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=34033#p34033"/>
+		<title type="html"><![CDATA[Re: Text messages [Not supported]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=34033#p34033"><![CDATA[
+<blockquote class="uncited"><div>Thank you Lars,<br>well I allready miss the handling and convenience of openGD77. Can we support Alex DL4LEX in any way for SMS implementation?</div></blockquote>We would be happy to incorporate SMS code into the firmware, as long as it is bug free and does not affect the existing functionality.<br><br>FYI.<br><br>We did try to encorporate the Hotspot SMS passthrough code from Alex, but somehow it affected some voice comms, so we had to remove that code again, and no one has since had time to debug why the hotspot SMS code broke the normal voice handling code.<br><br><br>Hence any submission would need to be thoroughly tested by the author first, as its a pain in the ass for us to remove code and re-release when there are bugs<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 10, 2024 9:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC7SU]]></name></author>
+		<updated>2024-11-10T21:02:54</updated>
+
+		<published>2024-11-10T21:02:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=34032#p34032</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=34032#p34032"/>
+		<title type="html"><![CDATA[Re: Text messages [Not supported]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=34032#p34032"><![CDATA[
+Thank you Lars,<br>well I allready miss the handling and convenience of openGD77. Can we support Alex DL4LEX in any way for SMS implementation?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7108">DC7SU</a> — Sun Nov 10, 2024 9:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-11-07T02:15:57</updated>
+
+		<published>2024-11-07T02:15:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33966#p33966</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33966#p33966"/>
+		<title type="html"><![CDATA[Re: Text messages]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33966#p33966"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>You must use the Baofeng firmware loader to load the official Baofeng firmware, because the officilal firmware is encrypted etc</div></blockquote>ist this the official boafen firmware? can't find it on their site<br><a href="https://www.sa0bux.se/Ham/RT84/From_Facebook_RT84/DM-1701%28CSV%29-V02.03.bin" class="postlink">https://www.sa0bux.se/Ham/RT84/From_Fac ... V02.03.bin</a><br><br>I tried and it worked - Hurra and thank you everybody!!</div></blockquote>Someone posted it on Facebook , I have some other files too , DM1701 &amp; RT84 is the same internally<br><a href="https://www.sa0bux.se/Ham/DM1701/" class="postlink">https://www.sa0bux.se/Ham/DM1701/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Nov 07, 2024 2:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC7SU]]></name></author>
+		<updated>2024-11-06T22:08:48</updated>
+
+		<published>2024-11-06T22:08:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33965#p33965</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33965#p33965"/>
+		<title type="html"><![CDATA[Re: Text messages]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33965#p33965"><![CDATA[
+<blockquote class="uncited"><div>You must use the Baofeng firmware loader to load the official Baofeng firmware, because the officilal firmware is encrypted etc</div></blockquote>ist this the official boafen firmware? can't find it on their site<br><a href="https://www.sa0bux.se/Ham/RT84/From_Facebook_RT84/DM-1701%28CSV%29-V02.03.bin" class="postlink">https://www.sa0bux.se/Ham/RT84/From_Fac ... V02.03.bin</a><br><br>I tried and it worked - Hurra and thank you everybody!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7108">DC7SU</a> — Wed Nov 06, 2024 10:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-05T08:35:34</updated>
+
+		<published>2024-11-05T08:35:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33942#p33942</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33942#p33942"/>
+		<title type="html"><![CDATA[Re: Text messages]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33942#p33942"><![CDATA[
+<blockquote class="uncited"><div>I also consider to try the original DM-1701 FW because SMS text message is an important DMR feature in my opinion. <br><br>Can I roll back with the openGD77 CPS or do I have to get it from Baofeng? Is a preparation necessary for roll back?<br><br>73</div></blockquote>You must use the Baofeng firmware loader to load the official Baofeng firmware, because the officilal firmware is encrypted etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 05, 2024 8:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC7SU]]></name></author>
+		<updated>2024-11-05T08:30:03</updated>
+
+		<published>2024-11-05T08:30:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33941#p33941</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33941#p33941"/>
+		<title type="html"><![CDATA[Re: Text messages]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=33941#p33941"><![CDATA[
+I also consider to try the original DM-1701 FW because SMS text message is an important DMR feature in my opinion. <br><br>Can I roll back with the openGD77 CPS or do I have to get it from Baofeng? Is a preparation necessary for roll back?<br><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7108">DC7SU</a> — Tue Nov 05, 2024 8:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Z32IT]]></name></author>
+		<updated>2024-01-27T18:12:22</updated>
+
+		<published>2024-01-27T18:12:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29033#p29033</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29033#p29033"/>
+		<title type="html"><![CDATA[Re: Text messages]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29033#p29033"><![CDATA[
+OK, the OpenGD77 is cool FW with more options versa original FW but for one of three my radios I need rool back to original FW.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2214">Z32IT</a> — Sat Jan 27, 2024 6:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-26T22:35:57</updated>
+
+		<published>2024-01-26T22:35:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29023#p29023</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29023#p29023"/>
+		<title type="html"><![CDATA[Re: Text messages]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29023#p29023"><![CDATA[
+<blockquote class="uncited"><div>Hi, It is possible to add Text messaging to OpenGD77 FW and CPS ? I need for sending messages to Pocsag-Dapnet !</div></blockquote>No.<br><br>DMR SMS/Text message are not suppoted.<br><br>Alex DL4LEX was working on this, but he said it is not possible<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 26, 2024 10:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Z32IT]]></name></author>
+		<updated>2024-01-26T21:53:32</updated>
+
+		<published>2024-01-26T21:53:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29020#p29020</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29020#p29020"/>
+		<title type="html"><![CDATA[Text messages [Not supported]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3721&amp;p=29020#p29020"><![CDATA[
+Hi, It is possible to add Text messaging to OpenGD77 FW and CPS ? I need for sending messages to Pocsag-Dapnet !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2214">Z32IT</a> — Fri Jan 26, 2024 9:53 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

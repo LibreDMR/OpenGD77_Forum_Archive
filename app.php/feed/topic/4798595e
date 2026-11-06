@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4798" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-30T02:49:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4798</id>
+
+		<entry>
+		<author><name><![CDATA[KC2SHO]]></name></author>
+		<updated>2025-01-30T02:49:24</updated>
+
+		<published>2025-01-30T02:49:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35477#p35477</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35477#p35477"/>
+		<title type="html"><![CDATA[Re: DM-1701 major issue, radio unusable, flashing on and off (fixed, read)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35477#p35477"><![CDATA[
+24 hours now, no issues<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7270">KC2SHO</a> — Thu Jan 30, 2025 2:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC2SHO]]></name></author>
+		<updated>2025-01-29T13:07:54</updated>
+
+		<published>2025-01-29T13:07:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35457#p35457</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35457#p35457"/>
+		<title type="html"><![CDATA[Re: DM-1701 major issue, radio unusable, flashing on and off]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35457#p35457"><![CDATA[
+Well here's the latest. Last night I reflowed just about every part of the board I could, I did have a little adverse shrinking on the plastic adhesive layer that hold the metal button bits in place and two LEDs in the same area fell off. I was able to reposition the button and re-solder the LEDs back in place. Otherwise it's been solid so far, but time will tell. I'll report in the coming days if this fix holds.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7270">KC2SHO</a> — Wed Jan 29, 2025 1:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-28T05:27:21</updated>
+
+		<published>2025-01-28T05:27:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35423#p35423</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35423#p35423"/>
+		<title type="html"><![CDATA[Re: DM-1701 major issue, radio unusable, flashing on and off]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35423#p35423"><![CDATA[
+maybe miss contact in flex ribbon cable?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Tue Jan 28, 2025 5:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC2SHO]]></name></author>
+		<updated>2025-01-28T04:51:58</updated>
+
+		<published>2025-01-28T04:51:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35422#p35422</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35422#p35422"/>
+		<title type="html"><![CDATA[Re: DM-1701 major issue, radio unusable, flashing on and off]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35422#p35422"><![CDATA[
+It's not the battery, i have 3 batteries and a battery eliminator, it does this regardless of the power source or state of charge. I also clipped my bench power supply directly to the spring terminals on the back, swept through the range of acceptable voltages. It's always the same. Sometimes it stops for a few minutes but then eventually it always returns to this behavior.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7270">KC2SHO</a> — Tue Jan 28, 2025 4:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LU7CGJ]]></name></author>
+		<updated>2025-01-26T20:18:20</updated>
+
+		<published>2025-01-26T20:18:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35387#p35387</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35387#p35387"/>
+		<title type="html"><![CDATA[Re: DM-1701 major issue, radio unusable, flashing on and off]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35387#p35387"><![CDATA[
+I would start by testing the battery's condition by applying a load to measure its performance under use.<br>You could also try connecting a power supply directly to the radio terminals.<br><br>Once you've ruled out the battery as the issue, I would open the radio and inspect the solder joints. I've seen photos showing very poor soldering quality.<br><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7866">LU7CGJ</a> — Sun Jan 26, 2025 8:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3V]]></name></author>
+		<updated>2025-01-26T01:30:53</updated>
+
+		<published>2025-01-26T01:30:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35359#p35359</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35359#p35359"/>
+		<title type="html"><![CDATA[Re: DM-1701 major issue, radio unusable, flashing on and off]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35359#p35359"><![CDATA[
+<blockquote class="uncited"><div>Has anyone seen behavior like this before? It comes and goes, it used to be short and occasional, now it's getting to the point where the radio is unusable and unreliable.<br><br><a href="https://www.kc2sho.com/docs/ham/DM-1701/2025-01-24%2010.02.16.mp4" class="postlink">https://www.kc2sho.com/docs/ham/DM-1701 ... .02.16.mp4</a><br><br>73,<br>KC2SHO</div></blockquote>Replace the battery with a new one.<br><br>Toni EA3V<br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4014">EA3V</a> — Sun Jan 26, 2025 1:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC2SHO]]></name></author>
+		<updated>2025-01-30T02:36:55 </updated>
+
+		<published>2025-01-24T17:15:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35345#p35345</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35345#p35345"/>
+		<title type="html"><![CDATA[DM-1701 major issue, radio unusable, flashing on and off (fixed, read)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4798&amp;p=35345#p35345"><![CDATA[
+Has anyone seen behavior like this before? It comes and goes, it used to be short and occasional, now it's getting to the point where the radio is unusable and unreliable.<br><br><a href="https://www.kc2sho.com/docs/ham/DM-1701/2025-01-24%2010.02.16.mp4" class="postlink">https://www.kc2sho.com/docs/ham/DM-1701 ... .02.16.mp4</a><br><br>73,<br>KC2SHO<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7270">KC2SHO</a> — Fri Jan 24, 2025 5:15 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

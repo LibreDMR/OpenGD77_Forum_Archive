@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3879" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-29T21:38:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3879</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T21:38:27</updated>
+
+		<published>2024-03-29T21:38:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30473#p30473</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30473#p30473"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 Beta for TYT MD-9600 / Retevis RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30473#p30473"><![CDATA[
+This version has been superseded<br><br>See  <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=3937" class="postlink">viewtopic.php?f=18&amp;t=3937</a><br><br>All users who installed this version should update to the new Beta because of a problem with DMR RMO initial operation<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 9:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-22T14:02:13</updated>
+
+		<published>2024-03-22T14:02:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30304#p30304</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30304#p30304"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 Beta for TYT MD-9600 / Retevis RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30304#p30304"><![CDATA[
+Hi,<br><br>   Okay, I will look at it when I get back home.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Mar 22, 2024 2:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2024-03-22T12:49:07</updated>
+
+		<published>2024-03-22T12:49:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30300#p30300</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30300#p30300"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 Beta for TYT MD-9600 / Retevis RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30300#p30300"><![CDATA[
+I have sent you an email Daniel.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Fri Mar 22, 2024 12:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-17T18:02:57</updated>
+
+		<published>2024-03-17T18:02:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30170#p30170</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30170#p30170"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 Beta for TYT MD-9600 / Retevis RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30170#p30170"><![CDATA[
+<blockquote class="uncited"><div>Hi. Yup, older firmware had 1 second option. Does this have anything to do with scan speed? As newer fw takes slower scan speed than older with 1 sec option... In scanning sense, older fw somehow manages to go through active repeaters faster than newer.<br><br>I will send you a video, do you have any mail or fb contact?<br><br>S58sms 73</div></blockquote>That 1 sec to 2 secs was made on August 2021, because 1 secs was too short.<br>If you have a problem with scanning, you need to increase the <strong class="text-strong">Scan dwell</strong> time, that's the relevant setting.<br>Filter time as nothing to do here, as it's just involved once a TS lock is acquired, and in scanning mode, that timer is resetted each time a new channel is selected.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 17, 2024 6:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2024-03-17T17:52:26</updated>
+
+		<published>2024-03-17T17:52:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30169#p30169</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30169#p30169"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 Beta for TYT MD-9600 / Retevis RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30169#p30169"><![CDATA[
+Hi. Yup, older firmware had 1 second option. Does this have anything to do with scan speed? As newer fw takes slower scan speed than older with 1 sec option... In scanning sense, older fw somehow manages to go through active repeaters faster than newer.<br><br>I will send you a video, do you have any mail or fb contact?<br><br>S58sms 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Sun Mar 17, 2024 5:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-17T17:44:22</updated>
+
+		<published>2024-03-17T17:44:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30168#p30168</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30168#p30168"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 Beta for TYT MD-9600 / Retevis RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30168#p30168"><![CDATA[
+Hi,<br><br>   That option doesn't exist, I guess you're refereing to <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#filter-time" class="postlink">Filter time</a>.<br><br>Short answer, no. Reason is, that would release the TS locking too early, and your transceiver can switch to the other TS way too soon, and mess up the current QSO.<br>I saw you tried to hack the code for this, for even shorter time. Don't expect that will land in the upstream code (default is 10S for a good reason, like don't fight your transceiver because it changed the current TS because the next guy in your current QSO took too much time to hit is PTT key).<br><br>You can still toggle the current TS, with the  <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#changing-timeslot-in-dmr-mode" class="postlink">STAR key</a><br><br><br>Cheers<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 17, 2024 5:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2024-03-17T16:21:52</updated>
+
+		<published>2024-03-17T16:21:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30163#p30163</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30163#p30163"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 Beta for TYT MD-9600 / Retevis RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30163#p30163"><![CDATA[
+Hello,<br><br>thank you very much, everything works great. One question, any possibility, to make parametre TS FILTERING min 2 sec to min 1 sec? Thanks in advance.<br><br>73<br>S58SMS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Sun Mar 17, 2024 4:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-17T06:37:28</updated>
+
+		<published>2024-03-17T06:37:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30152#p30152</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30152#p30152"/>
+		<title type="html"><![CDATA[New OpenGD77 Beta for TYT MD-9600 / Retevis RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3879&amp;p=30152#p30152"><![CDATA[
+A new Beta version is available for the TYT MD-9600 / Retevis RT-90 mobile radio<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/8aeb003c3e95657da03f747f3ff026e4741c233a" class="postlink">downloads/MD9600/Firmware/8aeb003c3e956 ... e4741c233a</a><br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><br><br>Changes in this version<br><br>* Fixes problems of the VFO and Channel screen sometimes being blank<br>* Fixes problems with AT1846S TRx chip register cache system<br>* Fixes problem when attempting to transmit DTMF in satellite mode.<br>* Fixes QuickKey problems e.g. in VFO Dual Watch<br>* Updated multiple translations<br>* Romanian added. Note: The latest CPS is required to be able to select Romanian<br>* Adds Force DMO open to DMR channels. This sets a channel to operate in simplex / DMO even when the Tx and Rx frequencies are different. The CPS has also been updated to support this option.<br><br>Thanks to Daniel F1RMB for his work on this new version, and thanks again to the translators<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Mar 17, 2024 6:37 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

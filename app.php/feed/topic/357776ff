@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3577" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-01T11:02:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3577</id>
+
+		<entry>
+		<author><name><![CDATA[ON8AD]]></name></author>
+		<updated>2024-02-01T11:02:13</updated>
+
+		<published>2024-02-01T11:02:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29204#p29204</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29204#p29204"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 12 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29204#p29204"><![CDATA[
+Hi, thanks for coming back.<br><br>Not really squelch, but it's like the RX is locking up. It's seen as a very high RSSI, but no incoming DMR signal. If I switch to Analog VFO, I hear a very high noise level, which is not there on other devices. <br><br>When the device exhibits this, and you power off / on again, the high RSSI is gone, but so are the settings.<br><br>Usually after a long time (+24h), I'll monitor this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1888">ON8AD</a> — Thu Feb 01, 2024 11:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-01T08:41:10</updated>
+
+		<published>2024-02-01T08:41:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29201#p29201</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29201#p29201"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 12 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29201#p29201"><![CDATA[
+<blockquote class="uncited"><div>Not sure if others experience this, but if I leave the device on for quite a while (Eco Mode 3, DMR AGC 0dB, 2 line info) - it seems to get "stuck" on RX with a high squelch. Upon turning off/on again - the settings are lost.</div></blockquote>No one else has reported this, but it is possible there is a bug.<br><br>What mode is your radio set to ? i.e You say the DMR AGC niy also give squelch setting, but DMR does not use squelch<br><br>Also. <br><br>How long before your radio gets "stuck" <br><br>Does it get stuck if the antenna is not connected, or its connected to a dummy load ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 01, 2024 8:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ON8AD]]></name></author>
+		<updated>2024-02-01T08:27:01</updated>
+
+		<published>2024-02-01T08:27:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29200#p29200</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29200#p29200"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 12 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3577&amp;p=29200#p29200"><![CDATA[
+Not sure if others experience this, but if I leave the device on for quite a while (Eco Mode 3, DMR AGC 0dB, 2 line info) - it seems to get "stuck" on RX with a high squelch. Upon turning off/on again - the settings are lost.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1888">ON8AD</a> — Thu Feb 01, 2024 8:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-12T05:18:59</updated>
+
+		<published>2023-12-12T05:18:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3577&amp;p=28045#p28045</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3577&amp;p=28045#p28045"/>
+		<title type="html"><![CDATA[New Beta 2023 12 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3577&amp;p=28045#p28045"><![CDATA[
+A new GD77/DM1801/RD5R/GD77S Beta is available<br><br>See<br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/5d2a79c66f0738ee2c39846a0cd7aa4842e682b9" class="postlink">downloads/GD77/Firmware/5d2a79c66f0738e ... 4842e682b9</a><br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">downloads/GD77/Firmware/Latest</a><br><br>This version fixes a possible null pointer problem in the QuickKeys display functionality.<br><br>Thanks to Daniel F1RMB for fixing this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 12, 2023 5:18 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

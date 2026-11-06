@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3328" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-25T20:28:08</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3328</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-25T20:28:08</updated>
+
+		<published>2023-09-25T20:28:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3328&amp;p=26552#p26552</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3328&amp;p=26552#p26552"/>
+		<title type="html"><![CDATA[Re: GD-77S expectations?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3328&amp;p=26552#p26552"><![CDATA[
+The CPS has a calibration screen for GD77 type radios, however I don't know if anyone tested it with the GD77S, and that screen is generally not longer used because the firmware now has a calibration screen for the radios which have a display<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 25, 2023 8:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g4irx]]></name></author>
+		<updated>2023-09-25T15:46:25</updated>
+
+		<published>2023-09-25T15:46:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3328&amp;p=26543#p26543</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3328&amp;p=26543#p26543"/>
+		<title type="html"><![CDATA[GD-77S expectations?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3328&amp;p=26543#p26543"><![CDATA[
+I have a GD-77S (no display but good speech prompts). I have discovered it is off frequency -250Hz @145MHz, -750Hz @435MHz which makes it unusable as far as DMR is concerned on 435MHz due to the high BER on local repeaters and my hotspot. It is currently using the stock V1.3.0 firmware and there does not appear to be any ability to adjust the reference oscillator.<br><br>Will installing the OpenGD77 firmware give me the ability to make adjustments, does the CPS support adjusting the reference oscillator and will it retain the voice prompt functionality  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_question.gif" width="15" height="17" alt=":?:" title="Question">  <br><br>Thanks,<br>NIck<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4578">g4irx</a> — Mon Sep 25, 2023 3:46 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

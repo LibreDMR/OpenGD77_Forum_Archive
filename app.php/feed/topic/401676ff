@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4016" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-28T16:01:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4016</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-28T16:01:34</updated>
+
+		<published>2024-04-28T16:01:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31064#p31064</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31064#p31064"/>
+		<title type="html"><![CDATA[Re: TS ADN CC HIGHLIGHTED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31064#p31064"><![CDATA[
+<blockquote class="uncited"><div>Point taken LOL, yeah ive figured it out now.  I do find that after I read these things I end up forgetting.  The inverted part is just showing CC or TS filter is off - just for the benefit of enyoune reading this whos might like to know.</div></blockquote>About Inverted CC, it's because SC Scan is ON. By default it's OFF because it introduces a lot of squaks, and not needed once the correct CC is found on the given frequency. That also introduce some channel scanning problem (no scanning pause on an active channel).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Apr 28, 2024 4:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[2E0LTD]]></name></author>
+		<updated>2024-04-28T13:24:06</updated>
+
+		<published>2024-04-28T13:24:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31059#p31059</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31059#p31059"/>
+		<title type="html"><![CDATA[Re: TS ADN CC HIGHLIGHTED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31059#p31059"><![CDATA[
+Point taken LOL, yeah ive figured it out now.  I do find that after I read these things I end up forgetting.  The inverted part is just showing CC or TS filter is off - just for the benefit of enyoune reading this whos might like to know.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4203">2E0LTD</a> — Sun Apr 28, 2024 1:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-27T14:14:46</updated>
+
+		<published>2024-04-27T14:14:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31048#p31048</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31048#p31048"/>
+		<title type="html"><![CDATA[Re: TS ADN CC HIGHLIGHTED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31048#p31048"><![CDATA[
+I suggest you to read the (whole) user guide:<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#filter" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... .md#filter</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Apr 27, 2024 2:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[2E0LTD]]></name></author>
+		<updated>2024-04-27T13:59:36</updated>
+
+		<published>2024-04-27T13:59:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31047#p31047</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31047#p31047"/>
+		<title type="html"><![CDATA[TS ADN CC HIGHLIGHTED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4016&amp;p=31047#p31047"><![CDATA[
+Hi does anyone know why the CC and TS become highlighted on the display?  MD9600 / RT90 radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4203">2E0LTD</a> — Sat Apr 27, 2024 1:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

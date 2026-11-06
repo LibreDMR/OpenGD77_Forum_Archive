@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/233" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-12-03T20:57:23</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/233</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-03T20:57:23</updated>
+
+		<published>2019-12-03T20:57:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1511#p1511</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1511#p1511"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1511#p1511"><![CDATA[
+Thanks<br><br>I've merged the PR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 03, 2019 8:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2019-12-03T20:39:34</updated>
+
+		<published>2019-12-03T20:39:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1508#p1508</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1508#p1508"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1508#p1508"><![CDATA[
+Hi Roger, <br><br>I think we overlapped. I have just submitted a PR which should fix this. It works for me on my repeater and on Simplex private calls. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Dec 03, 2019 8:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-03T19:44:50</updated>
+
+		<published>2019-12-03T19:44:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1496#p1496</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1496#p1496"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1496#p1496"><![CDATA[
+Colin<br><br>Ok.<br><br>I will change the call accept code to check the users own Id<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 03, 2019 7:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2019-12-03T17:32:18</updated>
+
+		<published>2019-12-03T17:32:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1473#p1473</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1473#p1473"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1473#p1473"><![CDATA[
+Roger, <br><br>I have just tested this.<br><br>The current firmware is incorrectly responding to a private call to any ID and displaying the 'Accept Call' prompt. It should only be triggered by a private call to its own ID. I looks like there is no filtering to test if the destination ID is the radios ID. <br><br>What IU4LEG is seeing is the repeated packets of his own private call to the other station due to the delay in the repeater.  The radio is seeing this as an incoming call and because there is no filtering on the destination ID it is triggering the 'Accept Call' message. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Dec 03, 2019 5:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU4LEG]]></name></author>
+		<updated>2019-12-03T14:37:32</updated>
+
+		<published>2019-12-03T14:37:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1466#p1466</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1466#p1466"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1466#p1466"><![CDATA[
+Hi Roger,<br>I was calling a private contact IZ4RCU, when I release the ptt the repeater returns a signal with my call IU4LEG as a private call.  a kind of echo.  this happens on all repeaters, not just on the brandmeister network.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=189">IU4LEG</a> — Tue Dec 03, 2019 2:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-02T20:28:31</updated>
+
+		<published>2019-12-02T20:28:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1395#p1395</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1395#p1395"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1395#p1395"><![CDATA[
+<blockquote class="uncited"><div>I tried, but the problem is still there. Watch the video clip I made.<br><br><a href="https://drive.google.com/open?id=14N_a-spkcP0V-GnSpmUCxo0-feahzWen" class="postlink">https://drive.google.com/open?id=14N_a- ... 0-feahzWen</a></div></blockquote>I can not understand what you were doing<br><br>What TG or PC is the channel you were using ?<br><br>e.g. Is it someone's PC or your PC or a TG ??<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 02, 2019 8:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-02T19:56:10</updated>
+
+		<published>2019-12-02T19:56:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1394#p1394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1394#p1394"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1394#p1394"><![CDATA[
+Ok.<br><br>I will watch the video.  Perhaps there is some difference between BM servers<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 02, 2019 7:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU4LEG]]></name></author>
+		<updated>2019-12-02T11:28:13</updated>
+
+		<published>2019-12-02T11:28:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1371#p1371</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1371#p1371"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1371#p1371"><![CDATA[
+I tried, but the problem is still there. Watch the video clip I made.<br><br><a href="https://drive.google.com/open?id=14N_a-spkcP0V-GnSpmUCxo0-feahzWen" class="postlink">https://drive.google.com/open?id=14N_a- ... 0-feahzWen</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=189">IU4LEG</a> — Mon Dec 02, 2019 11:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-12-02T11:20:29</updated>
+
+		<published>2019-12-02T11:20:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1370#p1370</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1370#p1370"/>
+		<title type="html"><![CDATA[Re: Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1370#p1370"><![CDATA[
+thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Mon Dec 02, 2019 11:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-02T10:39:13</updated>
+
+		<published>2019-12-02T10:39:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=233&amp;p=1368#p1368</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1368#p1368"/>
+		<title type="html"><![CDATA[Disable Private Call notification for special IDs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=233&amp;p=1368#p1368"><![CDATA[
+Some people reported problems with the Private Call alert, which I originally did not understand<br><br>However I now see that Brandmeister seems to reply to TG calls on reflectors by sending back a Private Call and this triggers the firmware to go into Private Call accept mode.<br><br>Looking at what BM replies, it sends replies from the ID number which is the same as the Reflector TG number and also seems to send the users own ID as the Talkgroup.<br><br>So.. I've put in a fix for this, by checking if the ID of the sender (BM) is equal to the TG you just transmitted on, and to then ignore it as a Private Call because its a special BM private call.<br><br>Hopefully this will solve some of the Private Call alert problems that some people have been reporting<p>[The extension <strong>sgl</strong> has been deactivated and can no longer be displayed.]</p><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 02, 2019 10:39 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

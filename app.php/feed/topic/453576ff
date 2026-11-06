@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4535" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-30T01:34:05</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4535</id>
+
+		<entry>
+		<author><name><![CDATA[AK5DN]]></name></author>
+		<updated>2024-10-30T01:34:05</updated>
+
+		<published>2024-10-30T01:34:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33781#p33781</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33781#p33781"/>
+		<title type="html"><![CDATA[Re: Worked yesterday, won't work today]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33781#p33781"><![CDATA[
+Thank you! I guess I didn't read the manual like I should have. It works fine now.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5572">AK5DN</a> — Wed Oct 30, 2024 1:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-30T00:04:35</updated>
+
+		<published>2024-10-30T00:04:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33780#p33780</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33780#p33780"/>
+		<title type="html"><![CDATA[Re: Worked yesterday, won't work today]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33780#p33780"><![CDATA[
+If you are not trying to upload a firmware, you don't need to put the radio in DFU mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Oct 30, 2024 12:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-29T22:56:55</updated>
+
+		<published>2024-10-29T22:56:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33778#p33778</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33778#p33778"/>
+		<title type="html"><![CDATA[Re: Worked yesterday, won't work today]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33778#p33778"><![CDATA[
+Check the USB cable connection.<br><br>Several people reported back connections at the radio end.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 29, 2024 10:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AK5DN]]></name></author>
+		<updated>2024-10-29T21:32:22</updated>
+
+		<published>2024-10-29T21:32:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33776#p33776</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33776#p33776"/>
+		<title type="html"><![CDATA[Worked yesterday, won't work today]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4535&amp;p=33776#p33776"><![CDATA[
+Hello. I installed open gd77 on my MD UV390 yesterday and didn't make a code plug. Today I made a codeplug and when I tried to write it to the radio, I got a pop-up asking for a com port. There doesn't seem to be a com port available and nothing I've tried works. Did I do something wrong? What's going on? TIA<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5572">AK5DN</a> — Tue Oct 29, 2024 9:32 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

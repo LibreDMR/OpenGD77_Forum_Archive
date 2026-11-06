@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4804" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-29T17:59:07</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4804</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-29T17:59:07</updated>
+
+		<published>2025-01-29T17:59:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4804&amp;p=35466#p35466</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4804&amp;p=35466#p35466"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 01 26]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4804&amp;p=35466#p35466"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4823" class="postlink">viewtopic.php?f=12&amp;t=4823</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 29, 2025 5:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-26T09:14:13</updated>
+
+		<published>2025-01-26T09:14:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4804&amp;p=35363#p35363</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4804&amp;p=35363#p35363"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2025 01 26]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4804&amp;p=35363#p35363"><![CDATA[
+<ul><li> Add APRS "Beaconing Silently" flag: when it's ticked, the FSK tones won't be heard on the transceiver (no effect on the MD-9600/MD-2017, as it's always silent).</li></ul>The installer can be downloaded from: <a href="https://drive.proton.me/urls/B8KHSHZP8C#UxBfPUKojJM1" class="postlink">https://drive.proton.me/urls/B8KHSHZP8C#UxBfPUKojJM1</a><br><br><strong class="text-strong">NOTE</strong>: you need a firmware greater or equal to the 2025/01/26 to be able to use the Beacon Silently option.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 26, 2025 9:14 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

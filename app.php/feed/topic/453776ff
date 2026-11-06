@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4537" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-01T08:34:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4537</id>
+
+		<entry>
+		<author><name><![CDATA[DC7SU]]></name></author>
+		<updated>2024-11-01T07:40:39</updated>
+
+		<published>2024-11-01T07:40:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33845#p33845</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33845#p33845"/>
+		<title type="html"><![CDATA[Re: Adding new channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33845#p33845"><![CDATA[
+Thank you SA0BUX for detailed reply. I’m going to understand.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_idea.gif" width="15" height="17" alt=":idea:" title="Idea"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7108">DC7SU</a> — Fri Nov 01, 2024 7:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-11-01T08:34:27 </updated>
+
+		<published>2024-10-30T18:53:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33810#p33810</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33810#p33810"/>
+		<title type="html"><![CDATA[Re: Adding new channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33810#p33810"><![CDATA[
+<blockquote class="uncited"><div>Here another proposal from a  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> bloody beginner:<br><br>When I added a channel for my home repeater I put its DMR-ID in that field. But this is wrong. <br><br>Maybe there is space enough in that window to write a remark like „leave blank for repeaters“. <br>But how is this for hotspots? If it’s the same it should be: <br><img class="smilies" src="http://localhost/opengd77/images/smilies/icon_arrow.gif" width="15" height="17" alt=":arrow:" title="Arrow">  „leave blank for repeaters or hotspots“.<br><br>Thanks for consider this VK3KYY</div></blockquote>DMR ID in the channel setup in  CPS is only used if you want to be identified by some other DMR ID for a specific channel.<br>Normally it's the DMR ID that you set under "DMR ID and Callsign" that is used as your own DMR ID.<br>It should never be the repeaters ID in that field, and it's normally blank for a hotspot channel too (unless you pretend to be someone else).<br><br>There are some help texts defined but not for that field ( Enable HelpView )<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Oct 30, 2024 6:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-10-30T16:30:56</updated>
+
+		<published>2024-10-30T16:30:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33808#p33808</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33808#p33808"/>
+		<title type="html"><![CDATA[Re: Adding new channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33808#p33808"><![CDATA[
+<blockquote class="uncited"><div>Here another proposal from a  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> bloody beginner:<br><br>When I added a channel for my home repeater I put its DMR-ID in that field. But this is wrong. <br><br>Maybe there is space enough in that window to write a remark like „leave blank for repeaters“. <br>But how is this for hotspots? If it’s the same it should be: <br><img class="smilies" src="http://localhost/opengd77/images/smilies/icon_arrow.gif" width="15" height="17" alt=":arrow:" title="Arrow">  „leave blank for repeaters or hotspots“.<br><br>Thanks for consider this VK3KYY</div></blockquote>Read again my previous comment.<br>You can make large channel order changes in the CSV file, then re-import the result in the CPS.<br>No need to put some kind of placeholders/memo (that won't happen, and there is no free space in the codeplug file).<br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Oct 30, 2024 4:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC7SU]]></name></author>
+		<updated>2024-10-30T15:23:14</updated>
+
+		<published>2024-10-30T15:23:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33806#p33806</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33806#p33806"/>
+		<title type="html"><![CDATA[Re: Adding new channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33806#p33806"><![CDATA[
+Here another proposal from a  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> bloody beginner:<br><br>When I added a channel for my home repeater I put its DMR-ID in that field. But this is wrong. <br><br>Maybe there is space enough in that window to write a remark like „leave blank for repeaters“. <br>But how is this for hotspots? If it’s the same it should be: <br><img class="smilies" src="http://localhost/opengd77/images/smilies/icon_arrow.gif" width="15" height="17" alt=":arrow:" title="Arrow">  „leave blank for repeaters or hotspots“.<br><br>Thanks for consider this VK3KYY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7108">DC7SU</a> — Wed Oct 30, 2024 3:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G8WBO]]></name></author>
+		<updated>2024-10-30T13:55:56</updated>
+
+		<published>2024-10-30T13:55:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33802#p33802</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33802#p33802"/>
+		<title type="html"><![CDATA[Re: Adding new channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33802#p33802"><![CDATA[
+Yes exactly that, the channels are set out in blocks with "empty" ones between them.<br><br>Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7170">G8WBO</a> — Wed Oct 30, 2024 1:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-30T13:12:42</updated>
+
+		<published>2024-10-30T13:12:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33800#p33800</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33800#p33800"/>
+		<title type="html"><![CDATA[Re: Adding new channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33800#p33800"><![CDATA[
+<blockquote class="uncited"><div>Running CPS 2024.10.23.01<br><br>How to add new channels at the end of the list ?  <br><br>I have 616 channels at the moment in a code plug written by someone else, clicking on “Add” brings up the add channel box usually but not always showing 583/616. Selecting the last button changes it to 616/616 and shows the values for the last entered channel. Selecting the green cross increments the 616 to 617 but reverts the channel currently being edited to 583 and seems to add a new empty one in that slot rather than on the end.<br><br>I have successfully, somehow, added one channel to the end but can't seem to repeat it now.  <br><br>What am I missing ?</div></blockquote>I believe the codeplug from somewone else has a gap in it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Oct 30, 2024 1:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-10-30T13:04:03</updated>
+
+		<published>2024-10-30T13:04:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33798#p33798</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33798#p33798"/>
+		<title type="html"><![CDATA[Re: Adding new channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33798#p33798"><![CDATA[
+By default, the CPS fills empty channels first.<br>If you want it all contiguous, export your codeplug as csv, then re-import it.<br><br>Cheers <br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Oct 30, 2024 1:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G8WBO]]></name></author>
+		<updated>2024-10-30T12:12:24</updated>
+
+		<published>2024-10-30T12:12:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33795#p33795</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33795#p33795"/>
+		<title type="html"><![CDATA[Adding new channels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4537&amp;p=33795#p33795"><![CDATA[
+Running CPS 2024.10.23.01<br><br>How to add new channels at the end of the list ?  <br><br>I have 616 channels at the moment in a code plug written by someone else, clicking on “Add” brings up the add channel box usually but not always showing 583/616. Selecting the last button changes it to 616/616 and shows the values for the last entered channel. Selecting the green cross increments the 616 to 617 but reverts the channel currently being edited to 583 and seems to add a new empty one in that slot rather than on the end.<br><br>I have successfully, somehow, added one channel to the end but can't seem to repeat it now.  <br><br>What am I missing ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7170">G8WBO</a> — Wed Oct 30, 2024 12:12 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

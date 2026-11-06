@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4849" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-07T05:03:37</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4849</id>
+
+		<entry>
+		<author><name><![CDATA[KC6WOG]]></name></author>
+		<updated>2025-02-07T05:03:37</updated>
+
+		<published>2025-02-07T05:03:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35617#p35617</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35617#p35617"/>
+		<title type="html"><![CDATA[Re: GPS Performance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35617#p35617"><![CDATA[
+Thanks, Roger. It's really an incredible improvement they've made, assuming my old radio isn't just defective. GPS isn't of particular importance to me, so I doubt I'll ever modify the old one. It sounds like my experience here is pretty typical. Cheers es 73.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4063">KC6WOG</a> — Fri Feb 07, 2025 5:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-07T02:31:54</updated>
+
+		<published>2025-02-07T02:31:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35614#p35614</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35614#p35614"/>
+		<title type="html"><![CDATA[Re: GPS Performance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35614#p35614"><![CDATA[
+<blockquote class="uncited"><div>I've had a MD-UV390 for about three years and have never been impressed by it's GPS reception. It does work, but only if I go outside. Laying the radio with the screen facing skyward seems to help. It was the same way with the ghastly factory firmware, it worked...sort of.<br><br>Cut to yesterday, when I received a second MD-UV390. Shockingly, GPS reception is vastly superior to the older one! Attached is a shot of both radios, indoor, same firmware and both turned on simultaneously for just a few minutes. Has TYT greatly improved their design, or is my original one a dud? The two radios perform absolutely identically in every other way.<br><br>Anyhow, I'm really happy to have a MD-UV390 with<em class="text-italics"> useful </em>GPS and wonder if anybody else has ever seen this big of a discrepancy in performance. Just curious.<br><br><br>gps.jpg</div></blockquote>GPS performance in the older UV380 / RT3S was not good.<br><br>Moving the antenna to the top of the radio improves the GPS reception but is not perfect, and the modification is not easy as it requires some plastic to be grinded away using a dremmel etc<br><br>We think the newer radios have a better GPS module,but AFIK the antenna has not been moved.<br><br>I have performed the antenna mod, and am now considering replacing the GPS module in my RT3S with a 10th generation module, but this mod is also not simple because the display board would need to be removed before a reflow tool could be used to remove the old GPS module.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Feb 07, 2025 2:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC6WOG]]></name></author>
+		<updated>2025-02-07T01:35:01</updated>
+
+		<published>2025-02-07T01:35:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35613#p35613</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35613#p35613"/>
+		<title type="html"><![CDATA[GPS Performance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4849&amp;p=35613#p35613"><![CDATA[
+I've had a MD-UV390 for about three years and have never been impressed by it's GPS reception. It does work, but only if I go outside. Laying the radio with the screen facing skyward seems to help. It was the same way with the ghastly factory firmware, it worked...sort of.<br><br>Cut to yesterday, when I received a second MD-UV390. Shockingly, GPS reception is vastly superior to the older one! Attached is a shot of both radios, indoor, same firmware and both turned on simultaneously for just a few minutes. Has TYT greatly improved their design, or is my original one a dud? The two radios perform absolutely identically in every other way.<br><br>Anyhow, I'm really happy to have a MD-UV390 with<em class="text-italics"> useful </em>GPS and wonder if anybody else has ever seen this big of a discrepancy in performance. Just curious.<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2839&amp;sid=0cae1731b417ae9d635fb16c6ebb59a1" class="postimage" alt="gps.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4063">KC6WOG</a> — Fri Feb 07, 2025 1:35 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

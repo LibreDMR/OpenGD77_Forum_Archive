@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3983" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-13T14:47:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3983</id>
+
+		<entry>
+		<author><name><![CDATA[K3SAD]]></name></author>
+		<updated>2024-04-13T14:47:52</updated>
+
+		<published>2024-04-13T14:47:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30836#p30836</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30836#p30836"/>
+		<title type="html"><![CDATA[Re: DCS Codes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30836#p30836"><![CDATA[
+Not sure about timing. I downloaded a firmware and a CPS in late summer of last year, and fought to get it installed because reading directions has generally been a blind spot for me. Using whatever that was, I loaded the firmware onto the machine at work and got it mostly functional, aside from the startup lag. Sometime late fall or early winter I was counting my woes about not being able to connect to local GMRS repeaters, when I stumbled upon the bug that allowed me to tab into the field, type whatever I wanted and save it, and it worked. The TYT moved up three slots in my preferred radio selection that day. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6008">K3SAD</a> — Sat Apr 13, 2024 2:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-13T05:44:17</updated>
+
+		<published>2024-04-13T05:44:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30818#p30818</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30818#p30818"/>
+		<title type="html"><![CDATA[Re: DCS Codes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30818#p30818"><![CDATA[
+Hi,<br><br>   BTW, it wasn't possible to use anything else than the 83 "standard" DCS codes, <a href="https://en.wikipedia.org/wiki/Squelch#DCS" class="postlink">see</a>, the code can't permit that, from the beginning (even if the CPS had a bug that permitted to enter it, which I can't remember).<br>In the CPS, the unsupported DCS codes were removed from the drop-down lists on May 2021.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Apr 13, 2024 5:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3SAD]]></name></author>
+		<updated>2024-04-13T02:32:37</updated>
+
+		<published>2024-04-13T02:32:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30811#p30811</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30811#p30811"/>
+		<title type="html"><![CDATA[Re: DCS Codes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30811#p30811"><![CDATA[
+<blockquote class="uncited"><div>It's more likely that if you are seeing a change, it's something to do with a Microsoft update to either your PC or to the PC we compiled the CPS on.<br><br>Did you try reinstalling the previous CPS version. English users have no absolute need to use this very latest version</div></blockquote>Thanks for the reply! No, I didn't try that - my previous mission was to chase down the APRS rabbithole and enjoy the improvements y'all have made in that regard since I'd originally installed it. Funny thing is, I was trying to load it onto a 2nd radio and I had some hardware changes (actually using a remote work Windows server via my personal Mac at home) so I decided to start from scratch. My original radio worked great but had a weird glitch (no doubt of my own doing) that caused it to take a few minutes to start up. When I finally overcame all my local issues and got it loaded onto the second radio, it started up immediately and the codeplug from the first went right on with no problem. I instantly swapped in the first radio and dumped in the new firmware, and it too fired right up the way it should. I was so stoked!<br><br>So that led me into my rabbithole playing with APRS, which I managed to get working whenever I had the APRS frequency up, and that was enough on that project. That's when I noticed the DCS code issue and worried that I was going to undo the best aspect of this radio and this software. I'm not sure what version I used first, I'll go looking and find the archive and see if I can load them both. I like the APRS improvements but the highest concern is actually talking with the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6008">K3SAD</a> — Sat Apr 13, 2024 2:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-12T21:07:42</updated>
+
+		<published>2024-04-12T21:07:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30807#p30807</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30807#p30807"/>
+		<title type="html"><![CDATA[Re: DCS Codes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30807#p30807"><![CDATA[
+<blockquote class="uncited"><div>There haven't been any recent threads that I've noticed, pardon if that's untrue.<br><br>Previous versions of the CPS had a very convenient glitch that allowed tabbing into the Rx and Tx tones and entering non-standard DCS codes for non-standard repeaters, which made the firmware absolutely ubiquitous. I recently upgraded to the latest and it appears that glitch was fixed; and although somehow it hasn't yet screwed up my previously entered DCS codes, it displays random wrong things in previously stored channels threatening to change them the next time I write to the radio, which is a source of heartburn. Is there a way for someone to restore the supremely handy glitch that allowed tabbing into the dropdown box and entering whatever you want, and probably by way of side effect display the actual DCS codes stored under those channels?</div></blockquote>There were no code changes in the latest CPS, the only changes were to the languages XML data files, which contain the UI  text.<br><br>It's more likely that if you are seeing a change, it's something to do with a Microsoft update to either your PC or to the PC we compiled the CPS on.<br><br>Did you try reinstalling the previous CPS version. English users have no absolute need to use this very latest version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 12, 2024 9:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3SAD]]></name></author>
+		<updated>2024-04-12T15:01:18</updated>
+
+		<published>2024-04-12T15:01:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30800#p30800</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30800#p30800"/>
+		<title type="html"><![CDATA[DCS Codes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3983&amp;p=30800#p30800"><![CDATA[
+There haven't been any recent threads that I've noticed, pardon if that's untrue.<br><br>Previous versions of the CPS had a very convenient glitch that allowed tabbing into the Rx and Tx tones and entering non-standard DCS codes for non-standard repeaters, which made the firmware absolutely ubiquitous. I recently upgraded to the latest and it appears that glitch was fixed; and although somehow it hasn't yet screwed up my previously entered DCS codes, it displays random wrong things in previously stored channels threatening to change them the next time I write to the radio, which is a source of heartburn. Is there a way for someone to restore the supremely handy glitch that allowed tabbing into the dropdown box and entering whatever you want, and probably by way of side effect display the actual DCS codes stored under those channels?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6008">K3SAD</a> — Fri Apr 12, 2024 3:01 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

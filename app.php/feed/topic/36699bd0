@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3669" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-30T09:14:04</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3669</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-30T09:14:04</updated>
+
+		<published>2025-01-30T09:14:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=35486#p35486</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=35486#p35486"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS VERSIONS NOT CURRENTLY SUPPORTED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=35486#p35486"><![CDATA[
+<blockquote class="uncited"><div>Can someone please provide download link for this experimental firmware again?<br><br>Tried flashing my UV390 (Plus, 10W, GPS), now getting a black display, used MD9600-CSV(2571V5)-V26.45.bin as the donor file and OpenMDUV380_10W_PLUS.zip for firmware. All details are the same for me as explained at this post: <br><a href="https://www.opengd77.com/viewtopic.php?t=3837" class="postlink">viewtopic.php?t=3837</a><br>"TYT MD-UV390 Plus"<br>"Post by kc1ueb » Sun Mar 03, 2024 5:31 am"<br><br>I have the hope the experimental firmware could solve it. Any help are welcome in advance! <br><br>(I made backup, but restore process crashes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"> )<br><blockquote class="uncited"><div>With information from KK7QLA we I now know that the LCD backlight control signal is on MCU / CPU pin PC6, this pin is used as the PA band select control in the original UV380<br><br>At the moment I don't know what pin now controls the PA band select, but assuming that the LCD backlight and the PA band select pins have been swapped,  <br><br>I have build a version where the PA band select now uses pin PD8, which is my current best guess about what pins are controlling the PA band select<br><br><br>See<br><br><a href="https://www.opengd77.com/downloads/MDUV380_DM1701/Firmware/Experimental/6e2e9ada6e75ce23912c2e07af3205a9922d9d6c/OpenMDUV380_PLUS.bin" class="postlink">downloads/MDUV380_DM1701/Firmware/Exper ... 0_PLUS.bin</a><br><br>...</div></blockquote></div></blockquote>This is a very old thread about something that was fixed nearly 12 months ago.<br><br>Assuming you have installed the latest Beta. Please post to the thread about that Beta.<br><br>If you didn't install the latest Beta, you should try that now.<br><br>This thread is now locked<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 30, 2025 9:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[hg0sza]]></name></author>
+		<updated>2025-01-30T08:26:33</updated>
+
+		<published>2025-01-30T08:26:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=35485#p35485</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=35485#p35485"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS VERSIONS NOT CURRENTLY SUPPORTED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=35485#p35485"><![CDATA[
+Can someone please provide download link for this experimental firmware again?<br><br>Tried flashing my UV390 (Plus, 10W, GPS), now getting a black display, used MD9600-CSV(2571V5)-V26.45.bin as the donor file and OpenMDUV380_10W_PLUS.zip for firmware. All details are the same for me as explained at this post: <br><a href="https://www.opengd77.com/viewtopic.php?t=3837" class="postlink">viewtopic.php?t=3837</a><br>"TYT MD-UV390 Plus"<br>"Post by kc1ueb » Sun Mar 03, 2024 5:31 am"<br><br>I have the hope the experimental firmware could solve it. Any help are welcome in advance! <br><br>(I made backup, but restore process crashes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"> )<br><blockquote class="uncited"><div>With information from KK7QLA we I now know that the LCD backlight control signal is on MCU / CPU pin PC6, this pin is used as the PA band select control in the original UV380<br><br>At the moment I don't know what pin now controls the PA band select, but assuming that the LCD backlight and the PA band select pins have been swapped,  <br><br>I have build a version where the PA band select now uses pin PD8, which is my current best guess about what pins are controlling the PA band select<br><br><br>See<br><br><a href="https://www.opengd77.com/downloads/MDUV380_DM1701/Firmware/Experimental/6e2e9ada6e75ce23912c2e07af3205a9922d9d6c/OpenMDUV380_PLUS.bin" class="postlink">downloads/MDUV380_DM1701/Firmware/Exper ... 0_PLUS.bin</a><br><br>...</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7942">hg0sza</a> — Thu Jan 30, 2025 8:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-22T17:16:21</updated>
+
+		<published>2024-04-22T17:16:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=30985#p30985</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=30985#p30985"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS VERSIONS NOT CURRENTLY SUPPORTED]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=30985#p30985"><![CDATA[
+<blockquote class="uncited"><div>Salut Daniel,<br><br>here is the link to the registers files (original one when I installed OpenGD77 and current one):<br><br><a href="https://disk.yandex.com/d/YVdM3s3fLSWoAg" class="postlink">https://disk.yandex.com/d/YVdM3s3fLSWoAg</a><br><br>In this directory I have also put a photograph of the label of the radio unter the battery.<br><br>Unfortunately, I have not checked output power before I installed OpenGD77.<br><br>I have redone the power output calibration on 145.500 for "4W" and I increased "adjust" from 144 (=4 watts) to the maximum value of 255. I measured 9.4 watts. So it seems  to be the 10 watts version.<br><br>soixante-treize<br>Dieter DL1DBY</div></blockquote>Send me an email, I have a FW to test for you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 22, 2024 5:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R2ZFN]]></name></author>
+		<updated>2024-03-05T11:05:12</updated>
+
+		<published>2024-03-05T11:05:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29964#p29964</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29964#p29964"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29964#p29964"><![CDATA[
+<blockquote class="uncited"><div>Someone else now has the UV380 Plus and some high quality test equipment and they will send me the necessary data</div></blockquote>Hi !<br><br>I noticed a very interesting fact. I calibrated the VHF range, then started calibrating the UHF range.<br>Today I changed the front panel to the old (bright) one + GPS, went into calibrations, and they became as they were before.<br>Where and how can calibrations be prescribed so that they do not change?<br><br>If I send you a complete table of my measurements, will you be able to add them to the firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5162">R2ZFN</a> — Tue Mar 05, 2024 11:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R2ZFN]]></name></author>
+		<updated>2024-02-28T13:11:15</updated>
+
+		<published>2024-02-28T13:11:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29845#p29845</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29845#p29845"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29845#p29845"><![CDATA[
+<blockquote class="uncited"><div>OK.<br><br>Someone else now has the UV380 Plus and some high quality test equipment and they will send me the necessary data</div></blockquote>VHF Calibrate<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2223&amp;sid=b18c03345c3caf72875046861d27d21a" class="postimage" alt="2024-02-28_16-09-13.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5162">R2ZFN</a> — Wed Feb 28, 2024 1:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-26T07:10:52</updated>
+
+		<published>2024-02-26T07:10:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29763#p29763</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29763#p29763"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29763#p29763"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>BTW.<br><br>What were the original values before you changed them ?<br><br>If you didn't do the "Factory Reset" in the OpenGD77 calibration screen, the power values should be the values from before you changed the official firmware</div></blockquote>Hi !<br>I couldn't set it up on the official firmware - Low -1W, medium - 2.5W, High - 5W.<br><br>On openGD77 it almost turned out, on the UHF range (middle and end) with a value of - 0, the output power was - 0.35-0.4W</div></blockquote>OK.<br><br>Someone else now has the UV380 Plus and some high quality test equipment and they will send me the necessary data<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 26, 2024 7:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R2ZFN]]></name></author>
+		<updated>2024-02-26T05:44:32</updated>
+
+		<published>2024-02-26T05:44:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29761#p29761</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29761#p29761"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29761#p29761"><![CDATA[
+<blockquote class="uncited"><div>BTW.<br><br>What were the original values before you changed them ?<br><br>If you didn't do the "Factory Reset" in the OpenGD77 calibration screen, the power values should be the values from before you changed the official firmware</div></blockquote>Hi !<br>I couldn't set it up on the official firmware - Low -1W, medium - 2.5W, High - 5W.<br><br>On openGD77 it almost turned out, on the UHF range (middle and end) with a value of - 0, the output power was - 0.35-0.4W<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5162">R2ZFN</a> — Mon Feb 26, 2024 5:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-22T06:03:24</updated>
+
+		<published>2024-02-22T06:03:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29691#p29691</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29691#p29691"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29691#p29691"><![CDATA[
+<blockquote class="uncited"><div>Hi. <br><br>I tried to calibrate on the native firmware, and nothing worked for me. I set the minimum level of 1W for all frequencies, and the value turned out to be 40-43. I saved it, recorded it in the station, read it from the station - everything is fine. I enter the calibration mode - and at a value of 40-43, I have 2.5W again at low power.</div></blockquote>BTW.<br><br>What were the original values before you changed them ?<br><br>If you didn't do the "Factory Reset" in the OpenGD77 calibration screen, the power values should be the values from before you changed the official firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 22, 2024 6:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-22T05:52:04</updated>
+
+		<published>2024-02-22T05:52:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29690#p29690</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29690#p29690"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29690#p29690"><![CDATA[
+<blockquote class="uncited"><div>Hi. <br><br>I tried to calibrate on the native firmware, and nothing worked for me. I set the minimum level of 1W for all frequencies, and the value turned out to be 40-43. I saved it, recorded it in the station, read it from the station - everything is fine. I enter the calibration mode - and at a value of 40-43, I have 2.5W again at low power.</div></blockquote>You will need to go to the Calibration screen in the OpenGD77 firmware, and select the Factory Reset option,  becuase when the firmware is first runs, it makes a copy of the offical calibration data and uses that copy so that the official calibration is never modified by the firmware<br><br>Probably the copy of the calibration data survived the official firmware being installed, and when you reloaded the OpenGD77 firmware, it used the existing copy of the data<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 22, 2024 5:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R2ZFN]]></name></author>
+		<updated>2024-02-21T11:53:07</updated>
+
+		<published>2024-02-21T11:53:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29670#p29670</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29670#p29670"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29670#p29670"><![CDATA[
+Hi. <br><br>I tried to calibrate on the native firmware, and nothing worked for me. I set the minimum level of 1W for all frequencies, and the value turned out to be 40-43. I saved it, recorded it in the station, read it from the station - everything is fine. I enter the calibration mode - and at a value of 40-43, I have 2.5W again at low power.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5162">R2ZFN</a> — Wed Feb 21, 2024 11:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R2ZFN]]></name></author>
+		<updated>2024-02-20T21:17:51</updated>
+
+		<published>2024-02-20T21:17:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29658#p29658</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29658#p29658"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29658#p29658"><![CDATA[
+<blockquote class="uncited"><div>BTW. <br>To reload the official Codeplug, you need to modify the setting.ini file for the official CPS and change the line that reads password=0   to password=password</div></blockquote><br>Today I will send a table with the calibrations that turned out to be on the TYT 390 Plus 10W.<br>But only you can add items 6-7-8-9-10W to the menu.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5162">R2ZFN</a> — Tue Feb 20, 2024 9:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-15T06:25:35</updated>
+
+		<published>2024-02-15T06:25:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29531#p29531</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29531#p29531"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29531#p29531"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Calibrate TYT 390 Plus 10W</div></blockquote>Thanks</div></blockquote>Hi!<br>If I connect a power meter to the Unified State Exam 390 Plus 10W, and through calibration mode (in the OpenGD77 firmware) I change the data so that they correspond to what is written. Will this help you make changes to the firmware?</div></blockquote>No.<br><br>Probably the most usefull thing would be to set radio to User Power level "-W+" and then adjust the User power level in the Options-&gt;Radio options, until the output is 1W and also repeat for 5W, and post the values required to create those power levels on both VHF and UHF<br><br>The problem is the manufacturer (TYT) should calibrate the radios for Low = 1W, Mid = 5W, High = 10W  power levels when using the official firmware but if you are seeing 2.5W when the OpenGD77 has 1W selected, then the Low power calibration data in the radio is creating 2.5W<br><br>You could also reload the official firmware and select Low, Mid and High power and confirm what power output the official firmware is producing<br><br>BTW. <br>To reload the official Codeplug, you need to modify the setting.ini file for the official CPS and change the line that reads password=0   to password=password<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 15, 2024 6:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R2ZFN]]></name></author>
+		<updated>2024-02-15T06:19:48</updated>
+
+		<published>2024-02-15T06:19:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29530#p29530</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29530#p29530"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29530#p29530"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Calibrate TYT 390 Plus 10W</div></blockquote>Thanks</div></blockquote>Hi!<br>If I connect a power meter to the Unified State Exam 390 Plus 10W, and through calibration mode (in the OpenGD77 firmware) I change the data so that they correspond to what is written ( 50 - 250 - 500 -750 - 1 -2 - 3 - 4 - 5 - 6 - 7 - 8 - 9 - 10 ). Will this help you make changes to the firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5162">R2ZFN</a> — Thu Feb 15, 2024 6:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R2BLT]]></name></author>
+		<updated>2024-02-13T06:25:22</updated>
+
+		<published>2024-02-13T06:25:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29475#p29475</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29475#p29475"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29475#p29475"><![CDATA[
+Hi,the power is 5 watts,the distance from the USB SDR is 7 meters.<br><a href="https://drive.google.com/file/d/1hqYE_hXReeQ-D6g2Wvzlm4Z2eLYxuzVT/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1hqYE_h ... sp=sharing</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5349">R2BLT</a> — Tue Feb 13, 2024 6:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-12T11:16:47</updated>
+
+		<published>2024-02-12T11:16:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29459#p29459</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29459#p29459"/>
+		<title type="html"><![CDATA[Re: 10W UV380/UV390 PLUS - WORK IN PROGRESS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3669&amp;p=29459#p29459"><![CDATA[
+<blockquote class="uncited"><div>Calibrate TYT 390 Plus 10W</div></blockquote>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 12, 2024 11:16 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

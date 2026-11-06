@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5201" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-16T06:24:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5201</id>
+
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-07-16T06:24:21</updated>
+
+		<published>2025-07-16T06:24:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37724#p37724</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37724#p37724"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37724#p37724"><![CDATA[
+I will add that after replacing the output transistor for the backlight with FMMT718 (there was no FMMT717 in my store), the screen became brighter than the RT82, previously they used FMMT717, why they changed it is unknown, perhaps the output resistors did not need to be changed, but I previously replaced them with 10 ohm 0603<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Wed Jul 16, 2025 6:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-07-05T04:03:23</updated>
+
+		<published>2025-07-05T04:03:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37659#p37659</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37659#p37659"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37659#p37659"><![CDATA[
+Too low voltage of the screen backlight, I bought RT82 and changed the display from UV390, you won't believe it but the UV390 screen is bright, I replaced two resistors with one 0603 10 ohm, it became brighter, but darker than RT82<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Sat Jul 05, 2025 4:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE2TIH]]></name></author>
+		<updated>2025-07-04T02:03:05</updated>
+
+		<published>2025-07-04T02:03:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37655#p37655</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37655#p37655"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37655#p37655"><![CDATA[
+Thanks for your help !<br><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8869">VE2TIH</a> — Fri Jul 04, 2025 2:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE2TIH]]></name></author>
+		<updated>2025-07-04T02:02:35</updated>
+
+		<published>2025-07-04T02:02:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37654#p37654</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37654#p37654"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37654#p37654"><![CDATA[
+<blockquote class="uncited"><div>Are you 100% sure that it's a GPS featured radio, as the firmware detects it by checking that it spits some NMEA sentences.<br><br>Maybe the radio as some HW problem in that case.<br><br>You could try to reset the settings (hold down SK2 key when powering up the radio).</div></blockquote>Effectively, there is no GPS in that radio ! I ordered the wrong unit by looking at the description instead of the picture... Aliexpess website is sometime not so intuive !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8869">VE2TIH</a> — Fri Jul 04, 2025 2:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE2TIH]]></name></author>
+		<updated>2025-07-04T02:00:33</updated>
+
+		<published>2025-07-04T02:00:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37653#p37653</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37653#p37653"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37653#p37653"><![CDATA[
+<blockquote class="uncited"><div>try with OpenMDUV380.zip and later you can select 10W in the options</div></blockquote>Effectively, I found Option, Radio, Mode: 10W is there and Thanks !!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8869">VE2TIH</a> — Fri Jul 04, 2025 2:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-07-04T01:20:23</updated>
+
+		<published>2025-07-04T01:20:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37652#p37652</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37652#p37652"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37652#p37652"><![CDATA[
+Are you 100% sure that it's a GPS featured radio, as the firmware detects it by checking that it spits some NMEA sentences.<br><br>Maybe the radio as some HW problem in that case.<br><br>You could try to reset the settings (hold down SK2 key when powering up the radio).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jul 04, 2025 1:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-07-03T20:06:21</updated>
+
+		<published>2025-07-03T20:06:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37650#p37650</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37650#p37650"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37650#p37650"><![CDATA[
+try with OpenMDUV380.zip and later you can select 10W in the options<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jul 03, 2025 8:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE2TIH]]></name></author>
+		<updated>2025-07-03T19:56:59</updated>
+
+		<published>2025-07-03T19:56:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37649#p37649</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37649#p37649"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37649#p37649"><![CDATA[
+I tried the Beta for 10W Plus: No display<br>I tried the Beta for 10W Plus Japan: No display<br>The only one that works with a display is the Beta for UV390 but it says I don't have a GPS and the power is limited to 5W obviously<br>On my Aliexpress order it says I ordered a TYT MD-UV390 Plus with GPS...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8869">VE2TIH</a> — Thu Jul 03, 2025 7:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-03T15:01:14</updated>
+
+		<published>2025-07-03T15:01:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37648#p37648</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37648#p37648"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37648#p37648"><![CDATA[
+<blockquote class="uncited"><div>I just tried it again, this one : MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23 <br>file MDUV380_10W_PLUS.zip<br>Still the same, blank screen... no luck for me !<br>What am I doing wrong ?</div></blockquote>Have you tried the other version that is not 10W_PLUS.<br>In that one can select the 10W model.<br><br>Depending on the 10W variant that may work with your display problem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Jul 03, 2025 3:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE2TIH]]></name></author>
+		<updated>2025-07-03T14:06:30</updated>
+
+		<published>2025-07-03T14:06:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37647#p37647</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37647#p37647"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37647#p37647"><![CDATA[
+I just tried it again, this one : MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23 <br>file MDUV380_10W_PLUS.zip<br>Still the same, blank screen... no luck for me !<br>What am I doing wrong ?<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3035&amp;sid=3ab1c0fef4d85464bd6ff5f7e61c07aa" class="postimage" alt="Capture d’écran 2025-07-03 100002.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8869">VE2TIH</a> — Thu Jul 03, 2025 2:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-03T09:57:45</updated>
+
+		<published>2025-07-03T09:57:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37645#p37645</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37645#p37645"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37645#p37645"><![CDATA[
+<blockquote class="uncited"><div>Thanks for this reply, I didn't find the compatible firmware yet, can you paste the link to it please ?</div></blockquote>See. <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4994#p36374" class="postlink">viewtopic.php?f=19&amp;t=4994#p36374</a><br><br>The 10W versions are clear by the file name<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 03, 2025 9:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE2TIH]]></name></author>
+		<updated>2025-07-03T08:31:59</updated>
+
+		<published>2025-07-03T08:31:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37644#p37644</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37644#p37644"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37644#p37644"><![CDATA[
+Thanks for this reply, I didn't find the compatible firmware yet, can you paste the link to it please ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8869">VE2TIH</a> — Thu Jul 03, 2025 8:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-02T22:44:01</updated>
+
+		<published>2025-07-02T22:44:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37632#p37632</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37632#p37632"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37632#p37632"><![CDATA[
+The problem with this display brightness on the 10W radios has been discussed extensively on this forum and IIRC is actually a hardware 'feature' on these radios, so that even with the official firmware the display is not as bright on the 10W radios as it is on the 5W radios.<br><br><br>You must however load the 10W compatible firmware, because the signal that turns backlight on / off is controlled from a different pin on the MCU/CPU. Hence why the 5W radio firmware won't work on the 10W radio.<br><br>There isn't a firmware fix that can make it any brighter.  <br><br>The only way to mask the issue is to create a theme with colours that are higher contrast. <br><br>IMO the default black&amp;white theme is probably already the highest contrast available, but you could try different contrasting colours<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jul 02, 2025 10:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE2TIH]]></name></author>
+		<updated>2025-07-02T22:30:22</updated>
+
+		<published>2025-07-02T22:30:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37631#p37631</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37631#p37631"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37631#p37631"><![CDATA[
+<a href="https://drive.proton.me/urls/Q1FEHX8N5G#Ws1ZHkUjl29w" class="postlink">https://drive.proton.me/urls/Q1FEHX8N5G#Ws1ZHkUjl29w</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8869">VE2TIH</a> — Wed Jul 02, 2025 10:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE2TIH]]></name></author>
+		<updated>2025-07-02T22:29:12</updated>
+
+		<published>2025-07-02T22:29:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37630#p37630</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37630#p37630"/>
+		<title type="html"><![CDATA[Re: Display issue with TYT MD-UV390 Plus 10W]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5201&amp;p=37630#p37630"><![CDATA[
+the one I just tried <br><a href="https://www.opengd77.com/viewtopic.php?t=4994" class="postlink">viewtopic.php?t=4994</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8869">VE2TIH</a> — Wed Jul 02, 2025 10:29 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

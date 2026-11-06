@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5175" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-13T17:20:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5175</id>
+
+		<entry>
+		<author><name><![CDATA[Doc53]]></name></author>
+		<updated>2025-06-13T17:20:14</updated>
+
+		<published>2025-06-13T17:20:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37482#p37482</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37482#p37482"/>
+		<title type="html"><![CDATA[Re: Which CPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37482#p37482"><![CDATA[
+Thank you everybody.  All my firmware dates were different.  I had put the test version on one radio and had a the previous version on another.  My fault.  I will fix that today.  I did not know that the codeplugs were interchangeable.  Great!  This makes it much easier to keep track of three different radios.  Stuart<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1311">Doc53</a> — Fri Jun 13, 2025 5:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-06-13T16:10:05</updated>
+
+		<published>2025-06-13T16:10:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37480#p37480</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37480#p37480"/>
+		<title type="html"><![CDATA[Re: Which CPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37480#p37480"><![CDATA[
+I first bought a DM1701, &amp; installed the GD77 FW. Then a local programmed in his code plug. A week later I got a RT3S. Again I installed the GD77 FW, &amp; wrote the saved 1701 code plug into the RT3S. This way I don’t have to save different code plugs for the different radios. GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Fri Jun 13, 2025 4:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-06-13T00:18:21</updated>
+
+		<published>2025-06-13T00:18:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37472#p37472</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37472#p37472"/>
+		<title type="html"><![CDATA[Re: Which CPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37472#p37472"><![CDATA[
+In addition to what KA1CM said about all supported radios using the same code plug and CPS, sometimes a newer firmware version will require a minimum CPS version to use with it - this is normally mentioned in the firmware release notice if such a requirement exists.<br><br>Mike.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Fri Jun 13, 2025 12:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-12T22:22:28</updated>
+
+		<published>2025-06-12T22:22:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37471#p37471</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37471#p37471"/>
+		<title type="html"><![CDATA[Re: Which CPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37471#p37471"><![CDATA[
+CPS and codeplug are the same on all supported radio. The latest firmware date on all the radio you have mentioned are the same.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Jun 12, 2025 10:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Doc53]]></name></author>
+		<updated>2025-06-12T19:12:12</updated>
+
+		<published>2025-06-12T19:12:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37470#p37470</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37470#p37470"/>
+		<title type="html"><![CDATA[Which CPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5175&amp;p=37470#p37470"><![CDATA[
+I have three radios each with the latest OpenGD77 firmware, a GD77, a TYT UV380 and a Baofeng DM-1701.  Can I use the latest CPS for all three, or do I need separate CPS programs for each radio?  Do I need different versions of the CPS dependent on the date of the latest firmware for each radio?  <br><br>I have searched for the answer in this forum and in the manual, but I am not having any luck.  Thank you.<br><br>Stuart<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1311">Doc53</a> — Thu Jun 12, 2025 7:12 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

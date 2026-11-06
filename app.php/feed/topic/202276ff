@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2022" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-01-21T20:29:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2022</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-01-21T20:29:34</updated>
+
+		<published>2022-01-21T20:29:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17197#p17197</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17197#p17197"/>
+		<title type="html"><![CDATA[Re: DMR mic gain]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17197#p17197"><![CDATA[
+Perhaps there is a lot of variation in mic level between different radios.<br><br>I was told today that at 0dB on my V2.1 hardware radion, that the audio was quiter than when using my GD77.<br><br>But also other people reported that they need to set their mic gain to -6dB on the MD9600 to reduce distortion<br><br>I think I will need to change the baseline to reduce the default gain at the 0dB setting, by -6dB, but some people may then needs to increase their mic gain setting if it is too quiet<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 21, 2022 8:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[I1KDO]]></name></author>
+		<updated>2022-01-21T17:53:49</updated>
+
+		<published>2022-01-21T17:53:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17192#p17192</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17192#p17192"/>
+		<title type="html"><![CDATA[Re: DMR mic gain]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17192#p17192"><![CDATA[
+I try on HS, RPT,DMO etc ... good audio for all DMR communications no noise, Mike level gain zero Db.<br>As soon as I do tests with FM I will update you<br>73<br>Lorenzo<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=64">I1KDO</a> — Fri Jan 21, 2022 5:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ7ECZ]]></name></author>
+		<updated>2022-01-21T14:59:03</updated>
+
+		<published>2022-01-21T14:59:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17187#p17187</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17187#p17187"/>
+		<title type="html"><![CDATA[Re: DMR mic gain]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17187#p17187"><![CDATA[
+I use BAFENG DM 1801. The "DMR Mic" option set to + 12dB. <br>For TYT MD 9600 (Ver. V2), the "DMR Mic" option set to + 6dB. <br>Recipients receive a signal from both devices at a similar level.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=593">SQ7ECZ</a> — Fri Jan 21, 2022 2:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-01-05T04:18:50</updated>
+
+		<published>2022-01-05T04:18:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17017#p17017</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17017#p17017"/>
+		<title type="html"><![CDATA[DMR mic gain]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2022&amp;p=17017#p17017"><![CDATA[
+Anyone testing this, could you let me know if the DMR Tx audio is possibly too loud<br><br>I think the value may be between 3 and 6db higher than the GD77, but does not seem to be clipping, so its probably subjective whether its considered too loud or not.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 05, 2022 4:18 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

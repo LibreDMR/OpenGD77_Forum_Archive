@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4707" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-27T11:40:30</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4707</id>
+
+		<entry>
+		<author><name><![CDATA[r1zdn]]></name></author>
+		<updated>2024-12-27T11:40:30</updated>
+
+		<published>2024-12-27T11:40:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34933#p34933</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34933#p34933"/>
+		<title type="html"><![CDATA[Re: Change in VFO DualWatch ??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34933#p34933"><![CDATA[
+If possible, I can post a short video of the screen in the evening.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6146">r1zdn</a> — Fri Dec 27, 2024 11:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[r1zdn]]></name></author>
+		<updated>2024-12-27T11:39:09</updated>
+
+		<published>2024-12-27T11:39:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34932#p34932</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34932#p34932"/>
+		<title type="html"><![CDATA[Re: Change in VFO DualWatch ??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34932#p34932"><![CDATA[
+I use TYT UV-MD390 5w noGPS. Of course, I changed something in the settings, but on previous firmware versions with similar settings, everything looked like frequency A and frequency B in a large green static font, without blinking. When the signal appeared on the frequency, the appearance became ordinary: the RX was larger on top, the TX was smaller on the bottom. Currently, when the Dual Watch function is turned on, the RX CH A and B at the top and the constantly flashing TX A and B at the bottom of the display are switched on alternately.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6146">r1zdn</a> — Fri Dec 27, 2024 11:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-24T07:48:22</updated>
+
+		<published>2024-12-24T07:48:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34906#p34906</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34906#p34906"/>
+		<title type="html"><![CDATA[Re: Change in VFO DualWatch ??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34906#p34906"><![CDATA[
+<blockquote class="uncited"><div>Hi All. In the latest firmware, I noticed a change compared to the previous firmware: when the dual-watch mode is turned on, the VFO-A and VFO-B frequencies are not displayed statically (as before), but blink alternately, with the lower line of the TX blinking indecently. Is this the way it's meant to be, or is it a bug?</div></blockquote>Following up my latest post, which settings are you changing from the defaults ?<br>BTW, you didn't mentionned which transceiver you're using.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 24, 2024 7:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-24T07:34:33</updated>
+
+		<published>2024-12-24T07:34:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34905#p34905</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34905#p34905"/>
+		<title type="html"><![CDATA[Re: Change in VFO DualWatch ??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34905#p34905"><![CDATA[
+I'm currently investigating this, but the problems I experienced are unrelated to this, and not part of the latest beta.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 24, 2024 7:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-23T20:57:15</updated>
+
+		<published>2024-12-23T20:57:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34898#p34898</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34898#p34898"/>
+		<title type="html"><![CDATA[Re: Change in DualWatch]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34898#p34898"><![CDATA[
+<blockquote class="uncited"><div>I'm running version 20241215112654, which I downloaded and installed only two days ago, on my TYT-UV390 GPS (non-Plus) and Dual Watch is behaving normally - RA and RB are displayed statically at the bottom of the screen as normal.<br><br>Is there a later version of firmware that I'm missing, or perhaps it's an issue with one radio specific variant?<br><br>Regards,<br>Mike, ZL2MGS.</div></blockquote>I think Daniel can replicate this problem, but I've tested on my RT3S (aka UV380), my DM1701 and also my MD2017, all of which share the same keyboard reading code, which Daniel thinks is responsible for the problem.<br><br>It sounds like it only happens on some radios, but at the moment I have no idea what could be causing it.<br><br>I initially thought possibly it was possibly a spurious / phantom keypress, but pressing virually any key during Dual Watch, exists from that function.<br><br>I also tried enabling Volume display, which I don't normally have enabled, but that didn't make any difference<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 23, 2024 8:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-23T20:28:02</updated>
+
+		<published>2024-12-23T20:28:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34897#p34897</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34897#p34897"/>
+		<title type="html"><![CDATA[Re: Change in DualWatch]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34897#p34897"><![CDATA[
+This problem doesn't seem to exist on all radios.  I can't replicate it on either my RT3S or DM1701<br><br>From Daniel's test, it appears that the problem is related to the keypad scanning, and the additional stability fix added last month.<br><br>I wonder if anyone else has this problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 23, 2024 8:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2024-12-23T20:20:30</updated>
+
+		<published>2024-12-23T20:20:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34896#p34896</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34896#p34896"/>
+		<title type="html"><![CDATA[Re: Change in DualWatch]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34896#p34896"><![CDATA[
+I'm running version 20241215112654, which I downloaded and installed only two days ago, on my TYT-UV390 GPS (non-Plus) and Dual Watch is behaving normally - RA and RB are displayed statically at the bottom of the screen as normal.<br><br>Is there a later version of firmware that I'm missing, or perhaps it's an issue with one radio specific variant?<br><br>Regards,<br>Mike, ZL2MGS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Mon Dec 23, 2024 8:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-23T16:59:17</updated>
+
+		<published>2024-12-23T16:59:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34895#p34895</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34895#p34895"/>
+		<title type="html"><![CDATA[Re: Change in DualWatch]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34895#p34895"><![CDATA[
+<blockquote class="uncited"><div>Hi All. In the latest firmware, I noticed a change compared to the previous firmware: when the dual-watch mode is turned on, the VFO-A and VFO-B frequencies are not displayed statically (as before), but blink alternately, with the lower line of the TX blinking indecently. Is this the way it's meant to be, or is it a bug?</div></blockquote>Seems like there are few problems with VFO scanning mode...<br>Thanks for the report.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Dec 23, 2024 4:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[r1zdn]]></name></author>
+		<updated>2024-12-23T16:43:52</updated>
+
+		<published>2024-12-23T16:43:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34894#p34894</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34894#p34894"/>
+		<title type="html"><![CDATA[Change in VFO DualWatch ??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4707&amp;p=34894#p34894"><![CDATA[
+Hi All. In the latest firmware, I noticed a change compared to the previous firmware: when the dual-watch mode is turned on, the VFO-A and VFO-B frequencies are not displayed statically (as before), but blink alternately, with the lower line of the TX blinking indecently. Is this the way it's meant to be, or is it a bug?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6146">r1zdn</a> — Mon Dec 23, 2024 4:43 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

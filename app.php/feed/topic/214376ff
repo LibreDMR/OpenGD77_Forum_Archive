@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2143" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-05-04T05:10:12</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2143</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-05-04T05:10:12</updated>
+
+		<published>2022-05-04T05:10:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18440#p18440</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18440#p18440"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18440#p18440"><![CDATA[
+Sorry ?! Do we owe you anything ?<br><br>You're the only one who had that problem flashing that pre-built firmware. I tried to explain you multiple times the only validated build method, and why using anything but redlib is bad.<br>Makefile was working in the past, but not anymore since it was linking larger libc, and to avoid any further problems it was deleted.<br>Like it or not, but XPresso + SDK  <strong class="text-strong">was/is/will be</strong> the only build method.<br><br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed May 04, 2022 5:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[jg1uaa]]></name></author>
+		<updated>2022-05-03T21:35:18</updated>
+
+		<published>2022-05-03T21:35:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18433#p18433</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18433#p18433"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18433#p18433"><![CDATA[
+Hello,<br><blockquote class="uncited"><div>   I told you that I did successfully flashed the released bin file.<br>Also, I could imagine the number of reports we would had if it was not working. </div></blockquote>Hmm, my issue is the first case of the not-workig problem. But there is no hint to solve it.<br><br>BTW, recently I found the souce code of R2022022801 is replaced, what happened?<br>It looks SDK is updated and Makefile is deleted.<br><br>I could not find any announcement about source code replacement. Where is it?<br>Removing Makefile <strong class="text-strong">without any comment</strong> looks this project untrustworthy<br>even if building with newlib-nano/picolibc is difficult, I think...<br><br>Regards,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1839">jg1uaa</a> — Tue May 03, 2022 9:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-04-07T10:39:48</updated>
+
+		<published>2022-04-07T10:39:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18161#p18161</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18161#p18161"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18161#p18161"><![CDATA[
+Hi,<br><br>   I told you that I did successfully flashed the released bin file.<br>Also, I could imagine the number of reports we would had if it was not working. <br><br><br>Cheers. <br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 07, 2022 10:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[jg1uaa]]></name></author>
+		<updated>2022-04-07T05:56:26</updated>
+
+		<published>2022-04-07T05:56:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18160#p18160</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18160#p18160"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18160#p18160"><![CDATA[
+Hi,<br><br>Firmware-Linux.exe worked successfully on Debian11 with udev rules at <br><a href="https://www.opengd77.com/viewtopic.php?t=771&amp;start=20#p6883" class="postlink">viewtopic.php?t=771&amp;start=20#p6883</a> but this is not current issue.<br><br>It is problem that officialy released DM-1801.bin binary is not working on my<br>DM-1801, programmed by any programming utility --- on Windows, on Linux/mono and<br>on Linux/python.<br><br>What do you think about this problem?<br>There is no clear answer for my question until now.<br><br>Again, this is no programming tool issue. Released binary's matter.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1839">jg1uaa</a> — Thu Apr 07, 2022 5:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-03-27T16:25:28</updated>
+
+		<published>2022-03-27T16:25:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18046#p18046</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18046#p18046"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18046#p18046"><![CDATA[
+Hi,<br><br>Have you installed the udev rules ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 27, 2022 4:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[jg1uaa]]></name></author>
+		<updated>2022-03-27T14:59:36</updated>
+
+		<published>2022-03-27T14:59:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18044#p18044</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18044#p18044"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=18044#p18044"><![CDATA[
+Hello,<br><blockquote class="uncited"><div>   It looks like you have a problem to read what I wrote, or that I have trouble making myself understood.<br><br><strong class="text-strong">NON MCUXPRESSO WITH SDK BUILDS WON'T WORK. </strong><br><br>Is it clear now ? <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"></div></blockquote>Sorry for my poor English, but please read carefully that I wrote.<br><span style="text-decoration:underline">I think that "official released OpenGD1801.bin does not work on my DM-1801" is the problem, it should be fixed if other person reports same issue.<br></span><br>To check OpenGD77 code is sane, I tried to build OpenDM1801.bin with "mandatory" MCUXpresso and it works fine.<br>This is no problem.<br><br>I also tried "not recommended" arm-none-eabi generic toolchain, it looks work but no transmit sound on DMR.<br>This might be a minor problem, but I treat as no problem because you do not want to support not-MCUXpresso build (yes I know!).<br>But I hope this information improves a quality of OpenGD77, if any bug is hidden.<br><blockquote class="uncited"><div>Hmmm, a 2 seconds check would have told you that FirmwareLoader-Linux.exe is a .Net sotware, requiring Mono on Linux.</div></blockquote>Of course I know. I ran FirmwareLoader-Linux.exe with mono on Debian-11.2.<br>But something goes wrong, so I abondoned use mono app. Python script is good enough to use.<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1413&amp;sid=435a888cad2269923510f94702e5ac9f" class="postimage" alt="sc.png" onclick="viewableArea(this);" /></dt></dl></div><blockquote class="uncited"><div><strong class="text-strong">EDIT</strong>: are you using the latest released flashing tools, and not an older version ?</div></blockquote>Yes, the flash tools (OpenGD77_FirmwareLoaders.zip) comes from <a href="https://www.opengd77.com/downloads/releases/R2022022801/sources_and_tools/" class="postlink">downloads/releases/R2022022801/sources_and_tools/</a> , latest release.<br><br>Best regards,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1839">jg1uaa</a> — Sun Mar 27, 2022 2:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-03-21T03:36:52</updated>
+
+		<published>2022-03-21T03:36:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17976#p17976</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17976#p17976"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17976#p17976"><![CDATA[
+Hi<br><blockquote class="uncited"><div>I checked there is no SDK version, because I have not installed any SDK yet.<br>I will install current (newest) version of NXP SDK and it will be help<br>to write a code for K22 or other MCUs.<br><br>But will installing SDK be a hint for solve current my problem?<br><br>At least I could obtain good OpenDM1801.bin from released zipball without SDK<br>on MCUXpresso. Partially work binary can be produced by generic<br>arm-none-eabi toolchain and Makefile.<br><br>The archive contains whole sourcecode to build. Only needs C library,<br>redlib or (not-recommended) newlib-nano/picolibc.<br><br>If it is needed to check using SDK version, we have to check source code<br>in zipball I think...</div></blockquote>Hi,<br><br>   It looks like you have a problem to read what I wrote, or that I have trouble making myself understood.<br><br><strong class="text-strong">NON MCUXPRESSO WITH SDK BUILDS WON'T WORK. </strong><br><br>Is it clear now ? <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br><br><blockquote class="uncited"><div><br>And I use both FirmwareLoader.exe (for Windows) and gd-77_firmware_loader.py<br>(for Linux) to program DM-1801 from <a href="https://www.opengd77.com/downloads/releases/R2022022801/sources_and_tools/OpenGD77_FirmwareLoaders.zip" class="postlink">downloads/releases/R2022022801/sources_ ... oaders.zip</a>,<br>the result is no difference. FirmwareLoader-Linux.exe did not work but it is enough to<br>use Python script.</div></blockquote><br>Hmmm, a 2 seconds check would have told you that FirmwareLoader-Linux.exe is a .Net sotware, requiring Mono on Linux.<br><div class="codebox"><p>CODE: </p><pre><code>~ $ file FirmwareLoader-Linux.exe FirmwareLoader-Linux.exe: PE32 executable (console) Intel 80386 Mono/.Net assembly, for MS Windows</code></pre></div><blockquote class="uncited"><div><br>To check what (patched binary) will be programmed to the transceiver,<br>I modified gd-77_firmware_loader.py as follows:<br><br>...</div></blockquote>All the provided flashing tools works, under Linux and Windows, I don't know what you are trying to do. If you are a software dev, I guess reading the Python code will tell you everything.<br><br><strong class="text-strong">EDIT</strong>: are you using the latest released flashing tools, and not an older version ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Mar 21, 2022 3:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[jg1uaa]]></name></author>
+		<updated>2022-03-20T21:03:13</updated>
+
+		<published>2022-03-20T21:03:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17970#p17970</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17970#p17970"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17970#p17970"><![CDATA[
+I checked there is no SDK version, because I have not installed any SDK yet.<br>I will install current (newest) version of NXP SDK and it will be help<br>to write a code for K22 or other MCUs.<br><br>But will installing SDK be a hint for solve current my problem?<br><br>At least I could obtain good OpenDM1801.bin from released zipball without SDK<br>on MCUXpresso. Partially work binary can be produced by generic<br>arm-none-eabi toolchain and Makefile.<br><br>The archive contains whole sourcecode to build. Only needs C library,<br>redlib or (not-recommended) newlib-nano/picolibc.<br><br>If it is needed to check using SDK version, we have to check source code<br>in zipball I think...<br><br><br>And I use both FirmwareLoader.exe (for Windows) and gd-77_firmware_loader.py<br>(for Linux) to program DM-1801 from <a href="https://www.opengd77.com/downloads/releases/R2022022801/sources_and_tools/OpenGD77_FirmwareLoaders.zip" class="postlink">downloads/releases/R2022022801/sources_ ... oaders.zip</a>,<br>the result is no difference. FirmwareLoader-Linux.exe did not work but it is enough to<br>use Python script.<br><br>To check what (patched binary) will be programmed to the transceiver,<br>I modified gd-77_firmware_loader.py as follows:<br><div class="codebox"><p>CODE: </p><pre><code>----------- gd-77_firmware_loader.py.orig       2022-03-07 22:23:01.078731385 +0900+++ gd-77_firmware_loader.py.new        2022-03-07 22:23:01.354696415 +0900@@ -3601,6 +3601,11 @@             print("Error. Firmware file too large.")             sys.exit(-4)+        f_temp = open("temp.bin", "wb")+        print(type(decrypted))+        f_temp.write(bytearray(decrypted))+        f_temp.close()+         if (sendInitialCommands(dev, encodeKey) == True):             if (sendFileData(fileBuf, dev) == True):                 print("Firmware update complete. Please reboot the {}.".format(outputModes[int(outputFormat)]))--------</code></pre></div>Comparing the result of OpenGD77-CPS "Backup MCU ROM", address 0x00004000~<br>480kbyte region is same as patched binary to be programmed.<br><br>I don't know what is programmed when official released binary (at least it<br>is not work on my GD-1801), but released OpenGD77 programmer for Windows<br>and Linux(Python script) works completely.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1839">jg1uaa</a> — Sun Mar 20, 2022 9:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-03-16T13:56:55</updated>
+
+		<published>2022-03-16T13:56:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17852#p17852</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17852#p17852"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17852#p17852"><![CDATA[
+<blockquote class="uncited"><div>I used official release R2022022801 at<br><a href="https://www.opengd77.com/downloads/releases/R2022022801/firmware/" class="postlink">downloads/releases/R2022022801/firmware/</a><br><br>and MD5 hashes are:<br><br>MD5 (OpenDM1801.zip) = 66f5ce5ba8e9c3be53a64e80e509c71c<br>MD5 (OpenDM1801.bin) = 8abe6811362313395e21397cd2881e22<br>MD5 (OpenDM1801_JA.zip) = 5f58c1e19a657a2d115bb8277a7ecd96<br>MD5 (OpenDM1801_JA.bin) = 2baf2e8ffc71bad4ec37656dda3eacd4<br><br>No need to show the hash value of GD-77_V4.3.6.sgl because<br>gd-77_firmware_loader.py calculates SHA256 internally to check the file<br>integrity.</div></blockquote>Yep, the FW bin is fine: OpenDM1801.bin = 8abe6811362313395e21397cd2881e22<br>And yes, the CPS is checking the sgl checksum.<br><br><blockquote class="uncited"><div>Flash with OpenDM1801.bin + GD-77_V4.3.6.sgl,<br>and OpenDM1801_JA.bin + GD-77_V4.3.6.sgl, my DM-1801 could not booted.<br><br>No DMR support, that is simply flash OpenDM1801.bin or OpenDM1801_JA.bin,<br>DM-1801 booted without any problem.<br><br>I doubt my DM-1801 is corrupted. But original DM-1801 firmware and<br>built-from-source-code binary works, so I think this is not hardware<br>trouble.<br><br><br>To build OpenGD77 from released source code, I simply installed MCUXpresso<br>11.5.0 (build 7232) on Debian-11.2/amd64 and no extra SDK.<br>How do I check the version of NXP SDK?</div></blockquote>Not using the SDK is a real bad idea, but it's up to you <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br>The installed SDK is listed in MCUXpresso, in a tab next to .../Tasks/Console/Progress/...  ones<br><br>BTW, which software are you using to flash the firmware ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Mar 16, 2022 1:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[jg1uaa]]></name></author>
+		<updated>2022-03-16T12:48:11</updated>
+
+		<published>2022-03-16T12:48:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17850#p17850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17850#p17850"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17850#p17850"><![CDATA[
+I used official release R2022022801 at<br><a href="https://www.opengd77.com/downloads/releases/R2022022801/firmware/" class="postlink">downloads/releases/R2022022801/firmware/</a><br><br>and MD5 hashes are:<br><br>MD5 (OpenDM1801.zip) = 66f5ce5ba8e9c3be53a64e80e509c71c<br>MD5 (OpenDM1801.bin) = 8abe6811362313395e21397cd2881e22<br>MD5 (OpenDM1801_JA.zip) = 5f58c1e19a657a2d115bb8277a7ecd96<br>MD5 (OpenDM1801_JA.bin) = 2baf2e8ffc71bad4ec37656dda3eacd4<br><br>No need to show the hash value of GD-77_V4.3.6.sgl because<br>gd-77_firmware_loader.py calculates SHA256 internally to check the file<br>integrity.<br><br>Flash with OpenDM1801.bin + GD-77_V4.3.6.sgl,<br>and OpenDM1801_JA.bin + GD-77_V4.3.6.sgl, my DM-1801 could not booted.<br><br>No DMR support, that is simply flash OpenDM1801.bin or OpenDM1801_JA.bin,<br>DM-1801 booted without any problem.<br><br>I doubt my DM-1801 is corrupted. But original DM-1801 firmware and<br>built-from-source-code binary works, so I think this is not hardware<br>trouble.<br><br><br>To build OpenGD77 from released source code, I simply installed MCUXpresso<br>11.5.0 (build 7232) on Debian-11.2/amd64 and no extra SDK.<br>How do I check the version of NXP SDK?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1839">jg1uaa</a> — Wed Mar 16, 2022 12:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-03-15T13:31:53</updated>
+
+		<published>2022-03-15T13:31:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17842#p17842</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17842#p17842"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17842#p17842"><![CDATA[
+Which release doesn't boot ?<br>I just flashed my DM-1801 with the stable release of Feb 28th (using the Python script), and it works.<br><br>You're talking about XPresso, what about NXP SDK version ?<br>About my comment about newlib, that was about external build process, using Makefile.<br>We are using redlib because it's small, really small, and the remaining space is getting tight.<br>You can do whatever you want, but don't expect any support from us if you're not following the only guaranteed way to compile the firmware.<br><br><strong class="text-strong">EDIT</strong>: I just recompiled a firmware for the DM-1801, using the latest released source files, then flashed. It works as expected.<br><strong class="text-strong">EDIT 2</strong>: I've done the same with the Japanese version, and it work as well.<br><br><br>Thanks.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 15, 2022 1:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[jg1uaa]]></name></author>
+		<updated>2022-03-15T12:48:20</updated>
+
+		<published>2022-03-15T12:48:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17841#p17841</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17841#p17841"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17841#p17841"><![CDATA[
+I built R2022022801 code with MCUXpresso 11.5.0 on Debian-11.2/am64.<br>The object works on my DM-1801 without problem. Very good.<br><br>Of course I use python script (gd-77_firmware_loader.py), so there is<br>no problem about programming tool.<br><br><br>But why official released binary could not work on my DM-1801?<br>Is there any differences between MCUXpresso?<br><br>And why newlib-nano based binary works?<br><br>You said that newlib (maybe newlib-nano) is too big to fit,<br>but actually I obtained working object with a minor problem.<br><br>The problem is already I wrote --- simply no sound on DMR Tx.<br>I found that sound level meter shows zero when pushing PTT switch.<br>I added a code and checked eDMA works. I think there is something wrong<br>between microphone and I2S-DAC path.<br><br>I replaced newlib-nano to picolibc (<a href="https://github.com/picolibc/picolibc" class="postlink">https://github.com/picolibc/picolibc</a>)<br>but same problem have occured.<br><br>You think "no need to support other (non-MCUXpresso) build tool",<br>but how about to use other tools to find hidden problems?<br>I hope my trial improves the quality of OpenGD77 project.<br><br>Here are binaries that I built with redlib(MCUXpresso), newlib-nano and picolibc.<br><a href="http://uaa.org.uk/gomitext/2022/20220313/" class="postlink">http://uaa.org.uk/gomitext/2022/20220313/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1839">jg1uaa</a> — Tue Mar 15, 2022 12:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-03-09T14:04:10</updated>
+
+		<published>2022-03-09T14:04:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17792#p17792</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17792#p17792"/>
+		<title type="html"><![CDATA[Re: cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17792#p17792"><![CDATA[
+Hi,<br><br>   You can't build the firmware with non MCU-Xpresso GCC anymore, as newlib is way too big to fit, redlib has to be used.<br><br>About the other problem, did you followed the procedure ?:<br><a href="https://www.opengd77.com/viewtopic.php?f=5&amp;t=1770" class="postlink">viewtopic.php?f=5&amp;t=1770</a><br><br>Under Linux, if you don't want to use Mono, you can use the python script (you need to specify the location of the official firmware, using "-s" command line option, at least once, as the python script store that location for futur usage).<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Mar 09, 2022 2:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[jg1uaa]]></name></author>
+		<updated>2022-03-09T12:25:21</updated>
+
+		<published>2022-03-09T12:25:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17788#p17788</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17788#p17788"/>
+		<title type="html"><![CDATA[[User built own firmware using incorrect libraries] cannot boot DM-1801 R2022022801 with GD-77_V4.3.6.sgl]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2143&amp;p=17788#p17788"><![CDATA[
+Hi,<br><br>I am trying R2022022801 pre-built binary (OpenDM1801.bin and OpenDM1801_JA.bin)<br>on my DM-1801 but it cannot boot with DMR support by GD-77_V4.3.6.sgl.<br><br>Simply program R202202280 only (without DMR support) booted.<br><br>And I built R2022022801 from source code on some Linux distros, using<br>binary-packaged arm-none-eabi toolchain (not MCUXpresso).<br>The object booted whether DMR blob was installed or not.<br>But there is no sound when transmitting DMR.<br><br>I tested following things, all reproduced the problem.<br><br>1. firmware programming tool<br>  - FirmwareLoader.exe (on Windows)<br>  - gd-77_firmware_loader.py (on Linux)<br><br>2. Debug/Release build (R2022022801)<br><br>3. Linux distro/Compiler version<br>  - Debian-11.2 (arm-none-eabi-gcc-8.3.1)<br>  - void Linux (arm-none-eabi-gcc-9.3.0)<br>  - Arch Linux (arm-none-eabi-gcc-11.2.0)<br><br>There is no problem to use with original BF-1801_V2.2.5.sgl firmware,<br>so I think DM-1801 hardware itself has no problem.<br><br>Does anyone have a good idea to shoot this trobule?<br>I think a small problem prevents to work OpenDM1801 properly.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1839">jg1uaa</a> — Wed Mar 09, 2022 12:25 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

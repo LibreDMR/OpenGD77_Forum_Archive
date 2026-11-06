@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4185" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-29T12:55:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4185</id>
+
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2024-06-29T12:55:43</updated>
+
+		<published>2024-06-29T12:55:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31866#p31866</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31866#p31866"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31866#p31866"><![CDATA[
+Using the Extras option on the CPS and Download screengrab, here is my screen with a custom power set and auto pwr off set to 90 (and Display Option Info set to ON<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2472&amp;sid=4381e13d454a76483091cf8125a7e7da" class="postimage" alt="custom_power.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Sat Jun 29, 2024 12:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2024-06-28T16:56:15</updated>
+
+		<published>2024-06-28T16:56:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31859#p31859</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31859#p31859"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31859#p31859"><![CDATA[
+Apparently this description in the User_Guide about Display Info got by me!<br>.....under Display Options:<br>Info<br>This setting controls whether the radio displays additional information on the VFO of Channel screen, by making the DMR Timeslot, or the Power level text bold, or both bold.<br>If TS or Both setting is selected, the TS value will be shown in bold if an override is applied to the TS, from a Contact TS override. If Pwr or Both setting is selected the power value will be shown in bold if a channel specific power override is being applied to the normal power setting.<br>The default setting is Off, and no overrides will be shown.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Fri Jun 28, 2024 4:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2024-06-28T16:51:18</updated>
+
+		<published>2024-06-28T16:51:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31858#p31858</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31858#p31858"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31858#p31858"><![CDATA[
+AHA!!   I set  Options-&gt;Display-&gt; Info to Pwr (or both) and now it works!<br>Previously I had Info set to Off.<br>-tom<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Fri Jun 28, 2024 4:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2024-06-27T18:32:34</updated>
+
+		<published>2024-06-27T18:32:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31849#p31849</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31849#p31849"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31849#p31849"><![CDATA[
+never mind...I see you told me to use QRZ info.  thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Thu Jun 27, 2024 6:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2024-06-27T18:29:47</updated>
+
+		<published>2024-06-27T18:29:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31848#p31848</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31848#p31848"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31848#p31848"><![CDATA[
+Daniel, can you send me an email address (to <a href="mailto:psbritt52@gmail.com">psbritt52@gmail.com</a>) that I can send files to?  <br>I am trying to attach a picture and codeplug and getting "file too big".<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Thu Jun 27, 2024 6:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-06-27T16:40:37</updated>
+
+		<published>2024-06-27T16:40:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31847#p31847</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31847#p31847"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31847#p31847"><![CDATA[
+Here are two pictures, one without Power override for the given channel, the other one has.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2469&amp;sid=4381e13d454a76483091cf8125a7e7da" class="postimage" alt="GD-77_screengrab-2024-06-27_18_39_36.png" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2468&amp;sid=4381e13d454a76483091cf8125a7e7da" class="postimage" alt="GD-77_screengrab-2024-06-27_18_39_44.png" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jun 27, 2024 4:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-06-27T16:25:56</updated>
+
+		<published>2024-06-27T16:25:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31846#p31846</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31846#p31846"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31846#p31846"><![CDATA[
+Are you sure the power is set for the channel on the transceiver (codeplug) ?<br><br>Share your codeplug and tell me which channel to check.<br>Or send it to me privately (email is available on qrz.com)<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jun 27, 2024 4:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2024-06-27T15:31:40</updated>
+
+		<published>2024-06-27T15:31:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31845#p31845</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31845#p31845"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31845#p31845"><![CDATA[
+Daniel, on what screen to you see the bold font for power level on a GD77?  <br>I flip between channels that use Master and ones that are Custom (eg. 1W) and I don't see any difference in font?<br>I must be looking in the wrong place.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Thu Jun 27, 2024 3:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-06-27T15:18:28</updated>
+
+		<published>2024-06-27T15:18:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31843#p31843</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31843#p31843"/>
+		<title type="html"><![CDATA[Re: Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31843#p31843"><![CDATA[
+Hi,<br><br>   Just checked, and it works as expected.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jun 27, 2024 3:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2024-06-27T12:46:38</updated>
+
+		<published>2024-06-27T12:46:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31839#p31839</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31839#p31839"/>
+		<title type="html"><![CDATA[Custom Power level in Bold Font]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4185&amp;p=31839#p31839"><![CDATA[
+Using  CPS(6-21) and  Firmware(6-24) on a GD77, I am setting a custom power level for a channel, and the user guide says: When a Channel has a custom power setting, the power will be displayed in a Bold font.<br>I don't see this happening.  I assume the power level displayed in the top center of the regular Status screen should be in Bold font for a custom level.<br>Is the issue that GD77 does not have a bold font?<br>-tom in Tucson,ab7ic<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Thu Jun 27, 2024 12:46 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

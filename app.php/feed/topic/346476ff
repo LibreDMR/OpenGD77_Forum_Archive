@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3464" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-05T18:08:11</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3464</id>
+
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-12-05T18:08:11</updated>
+
+		<published>2023-12-05T18:08:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27881#p27881</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27881#p27881"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27881#p27881"><![CDATA[
+Thanks for all your replies! Yes, I have GPS turned on so it must be installed. If background beaconing is ever enabled in the firmware I'll look into troubleshooting/fixing it <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> . Worst case I might buy another and use this one for a base station. I got it for $280 shipped on a sale so I'm not too unhappy.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Tue Dec 05, 2023 6:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-05T11:08:14</updated>
+
+		<published>2023-12-05T11:08:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27875#p27875</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27875#p27875"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27875#p27875"><![CDATA[
+And it's also pretty easy to replace, see <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=3058" class="postlink">viewtopic.php?f=18&amp;t=3058</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 05, 2023 11:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-12-05T10:42:51</updated>
+
+		<published>2023-12-05T10:42:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27874#p27874</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27874#p27874"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27874#p27874"><![CDATA[
+The RT90/MD9600 has a plug in antenna. It is possible the antenna is unplugged / not fitted / faulty.  GPS reception is probably not tested in the factory. <br><br>The GPS module and antenna is in the front panel. <br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Dec 05, 2023 10:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-05T09:08:33</updated>
+
+		<published>2023-12-05T09:08:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27871#p27871</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27871#p27871"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27871#p27871"><![CDATA[
+Look in Options -&gt; General options -&gt; GPS<br><br>If this says "None" then your radio does not have a GPS<br>If it says "Off" then it has a GPS , and you will need to turn it on.<br><br><br>The firmware turns on the power to the GPS when the radio is turned on, and if a GPS is fitted , the GPS unit will send some data almost immediatly, i.e in about 1 second or less.<br><br>The first time the firmware is run if gets any data from the GPS, it changes the status of the Options -&gt; General options -&gt; GPS setting from None to Off<br><br>Hence if you radio still says None for GPS then the radio does not have a GPS module or the module is defective.<br>If it says None is far more likely that it simply does not have a GPS fitted, as there have never been any reports of GPS that are fitted but that are defective<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 05, 2023 9:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-12-05T08:51:26</updated>
+
+		<published>2023-12-05T08:51:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27870#p27870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27870#p27870"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27870#p27870"><![CDATA[
+<blockquote class="uncited"><div>I ran my RT90 (supposedly with GPS) for several hours on my dashboard and it never "saw" a single hint of a satellite <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cry.gif" width="15" height="17" alt=":cry:" title="Crying or Very Sad"> <br>Is it possible that I was shipped a non-GPS radio?<br>Can the radio even detect whether it has a GPS?<br>My RT3S with GPS works fine on that dash - even works indoors <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"></div></blockquote>If OpenGD77 detects NMEA data on the GPS input to the MCU during startup it presume that a GPS chip is attached and<br>enables the possibility to enabled it in options.<br>So , you have something in the radio that at least think it is an GPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Dec 05, 2023 8:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-12-05T03:45:38</updated>
+
+		<published>2023-12-05T03:45:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27869#p27869</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27869#p27869"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27869#p27869"><![CDATA[
+I ran my RT90 (supposedly with GPS) for several hours on my dashboard and it never "saw" a single hint of a satellite <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cry.gif" width="15" height="17" alt=":cry:" title="Crying or Very Sad"> <br>Is it possible that I was shipped a non-GPS radio?<br>Can the radio even detect whether it has a GPS?<br>My RT3S with GPS works fine on that dash - even works indoors <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Tue Dec 05, 2023 3:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-11-25T06:47:33</updated>
+
+		<published>2023-11-25T06:47:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27680#p27680</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27680#p27680"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27680#p27680"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Just wanted to report that the GPS in my new RT-3S does work in the house but my even newer RT-90's GPS does not. I plan to dash mount the RT-90 so hope that will work well enough.</div></blockquote>Just an update - with the radio running  on my passenger seat the GPS never "sees" even a single satellite <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> . I hope it starts working when I mount the radio on the top of the dash?</div></blockquote>Cars can have a coated windshield that block most of the GPS signals, signal boosters exists that use an outside antenna together with an<br>amplifier that radiates the signal inside the car.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Nov 25, 2023 6:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-11-25T06:20:47</updated>
+
+		<published>2023-11-25T06:20:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27679#p27679</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27679#p27679"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27679#p27679"><![CDATA[
+<blockquote class="uncited"><div>Just wanted to report that the GPS in my new RT-3S does work in the house but my even newer RT-90's GPS does not. I plan to dash mount the RT-90 so hope that will work well enough.</div></blockquote>Just an update - with the radio running  on my passenger seat the GPS never "sees" even a single satellite <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> . I hope it starts working when I mount the radio on the top of the dash?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Sat Nov 25, 2023 6:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2023-11-13T14:56:25</updated>
+
+		<published>2023-11-13T14:56:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27412#p27412</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27412#p27412"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27412#p27412"><![CDATA[
+<blockquote class="uncited"><div>Have a look at this post.<br><br><a href="https://www.opengd77.com/viewtopic.php?f=8&amp;t=2512" class="postlink">viewtopic.php?f=8&amp;t=2512</a></div></blockquote>Thank you, that is most helpful.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Mon Nov 13, 2023 2:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4MWL]]></name></author>
+		<updated>2023-11-13T10:57:22</updated>
+
+		<published>2023-11-13T10:57:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27410#p27410</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27410#p27410"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27410#p27410"><![CDATA[
+Have a look at this post.<br><br><a href="https://www.opengd77.com/viewtopic.php?f=8&amp;t=2512" class="postlink">viewtopic.php?f=8&amp;t=2512</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=837">VK4MWL</a> — Mon Nov 13, 2023 10:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-11-12T21:14:31</updated>
+
+		<published>2023-11-12T21:14:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27394#p27394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27394#p27394"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27394#p27394"><![CDATA[
+My MD9600 did not come with a GPS. I soldered wires to the front PCB and use an external GPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 12, 2023 9:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE4HTO]]></name></author>
+		<updated>2023-11-12T20:27:03</updated>
+
+		<published>2023-11-12T20:27:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27391#p27391</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27391#p27391"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27391#p27391"><![CDATA[
+<blockquote class="uncited"><div>Just wanted to report that the GPS in my new RT-3S does work in the house but my even newer RT-90's GPS does not. I plan to dash mount the RT-90 so hope that will work well enough.</div></blockquote>I have mine under dash mounted, takes a little time to get a fix but it works...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3963">VE4HTO</a> — Sun Nov 12, 2023 8:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-11-12T19:51:35</updated>
+
+		<published>2023-11-12T19:51:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27385#p27385</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27385#p27385"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27385#p27385"><![CDATA[
+Just wanted to report that the GPS in my new RT-3S does work in the house but my even newer RT-90's GPS does not. I plan to dash mount the RT-90 so hope that will work well enough.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Sun Nov 12, 2023 7:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-11-12T19:07:03</updated>
+
+		<published>2023-11-12T19:07:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27383#p27383</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27383#p27383"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27383#p27383"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I have an external GPS attached to my MD-9600 via a cable from the back of the radio.<br><br>This cable is connected to the GPS connections in the front panel PCB of the radio and runs over the top of the PCB and out of the back of the radio through a hole in the heat sink.<br><br>V4A aka V5 hardware radios have a rubber plug in the heat sink, which can be removed, and the cable can be passed through he resulting hole.</div></blockquote>Is the MD-9600 a GPS model that came with the GPS installed or did you add it to a none GPS (standard) model ?<br><br>Also would it be possible to see a few pictures of the work you did and any notes that you think would be helpful to anyone else that would want to do this to their radio ?<br><br>AA3RP</div></blockquote>My md-9600 has gps installed from factory, but I use it from home QTH so it's not so useful. <br>And the radio would need an external GPS antenna to get better performance if it's in a car.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Nov 12, 2023 7:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2023-11-12T16:21:48</updated>
+
+		<published>2023-11-12T16:21:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27381#p27381</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27381#p27381"/>
+		<title type="html"><![CDATA[Re: Follow up on GPS for MD-9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3464&amp;p=27381#p27381"><![CDATA[
+<blockquote class="uncited"><div>I have an external GPS attached to my MD-9600 via a cable from the back of the radio.<br><br>This cable is connected to the GPS connections in the front panel PCB of the radio and runs over the top of the PCB and out of the back of the radio through a hole in the heat sink.<br><br>V4A aka V5 hardware radios have a rubber plug in the heat sink, which can be removed, and the cable can be passed through he resulting hole.</div></blockquote>Is the MD-9600 a GPS model that came with the GPS installed or did you add it to a none GPS (standard) model ?<br><br>Also would it be possible to see a few pictures of the work you did and any notes that you think would be helpful to anyone else that would want to do this to their radio ?<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Sun Nov 12, 2023 4:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2755" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-21T02:42:31</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2755</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-21T02:42:31</updated>
+
+		<published>2023-08-21T02:42:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25484#p25484</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25484#p25484"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25484#p25484"><![CDATA[
+This thread is for the firmware released in March.<br><br>If you updated to the latest CPS and didnt update the firmware then it will not work<br><br>I am locking this thread now becuase it is very old and irrelevant<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Aug 21, 2023 2:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BI1QJA]]></name></author>
+		<updated>2023-08-21T02:40:06</updated>
+
+		<published>2023-08-21T02:40:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25483#p25483</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25483#p25483"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25483#p25483"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello author, the latest version of 1701 firmware is in satellite mode. The interface is garbled after entering, and the satellite name cannot be displayed correctly.</div></blockquote>Can't reproduce<br><br>Please post screengrab</div></blockquote>Hi VK3KYY,<br><br>Similar problem here, reproduced with DM-1701. Attached are the screenshots.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1811&amp;sid=5ae4bca7094ea0df810a894bf3021f51" class="postimage" alt="screenshot.png" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1810&amp;sid=5ae4bca7094ea0df810a894bf3021f51" class="postimage" alt="screenshot1.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4339">BI1QJA</a> — Mon Aug 21, 2023 2:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-19T02:14:07</updated>
+
+		<published>2023-08-19T02:14:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25437#p25437</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25437#p25437"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25437#p25437"><![CDATA[
+<blockquote class="uncited"><div>Hello author, the latest version of 1701 firmware is in satellite mode. The interface is garbled after entering, and the satellite name cannot be displayed correctly.</div></blockquote>Can't reproduce<br><br>Please post screengrab<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Aug 19, 2023 2:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-18T17:25:48</updated>
+
+		<published>2023-08-18T17:25:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25421#p25421</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25421#p25421"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25421#p25421"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hello author, the latest version of 1701 firmware is in satellite mode. The interface is garbled after entering, and the satellite name cannot be displayed correctly.</div></blockquote>First thing first, introduce yourself: <a href="https://www.opengd77.com/viewforum.php?f=10" class="postlink">viewforum.php?f=10</a><br>Next, give details (software version, firmware version, etc).<br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Aug 18, 2023 5:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BH9FPF]]></name></author>
+		<updated>2023-08-18T17:10:05</updated>
+
+		<published>2023-08-18T17:10:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25418#p25418</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25418#p25418"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=25418#p25418"><![CDATA[
+Hello author, the latest version of 1701 firmware is in satellite mode. The interface is garbled after entering, and the satellite name cannot be displayed correctly.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3062">BH9FPF</a> — Fri Aug 18, 2023 5:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-04T21:30:54</updated>
+
+		<published>2023-08-04T21:30:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24816#p24816</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24816#p24816"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24816#p24816"><![CDATA[
+Did you try the new CPS from 2 days ago<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 04, 2023 9:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-07-18T17:47:21</updated>
+
+		<published>2023-07-18T17:47:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24518#p24518</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24518#p24518"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24518#p24518"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>  Okay, this is a happy ending  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>Some people, mostly using Turkish windows has some problems (IIRC, Win10), with a specific error number while in DFU.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>There was another Turkish guy in the Facebook group recently that has the same error code as the other Turks.<br><br>Haven't found another computer to test with Turkish Windows yet.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jul 18, 2023 5:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-07-18T17:31:07</updated>
+
+		<published>2023-07-18T17:31:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24516#p24516</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24516#p24516"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24516#p24516"><![CDATA[
+Hi,<br><br>  Okay, this is a happy ending  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>Some people, mostly using Turkish windows has some problems (IIRC, Win10), with a specific error number while in DFU.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jul 18, 2023 5:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-07-18T17:00:10</updated>
+
+		<published>2023-07-18T17:00:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24512#p24512</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24512#p24512"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24512#p24512"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>I have the same problem.<br>Details:<br>new Baofeng DM-1701, including cable<br>OpenGD77CPSInstaller_R2023.07.14.01  installed with "install drivers"<br>Radio in programming mode (red/green LED alternates) for firmware loading.<br>In OpenGD77 CPS under "Radio type" I select DM-1701<br>When I try to load the donor file (MD9600-CSV(2571V5)-V26.45.bin and OpenDM1701.bin, in "extras/firmware loader", selected DM-1701 again, donor file first, then update, get this:  "Radio not connected, or not in DFU mode."<br><br>If I open Microsoft (this is windows 10) device manager, I see after "Network adapters," a category "Other devices," in which there is "Digital Radio in USB mode."  If I select that, it says "The drivers for this device are not installed. (Code 28)  There are no compatible drivers for this device."<br><br>I tried updating/finding a driver but no luck.  I tried going to ST.com to get a driver I saw referenced (the OpenG77 manual says to look in Section 1.1, but no driver sources there), and finally (much effort) got the driver package "DfuSe_Demo_V3.0.6_Setup".  (the effort involved requesting the STSW-STM32080 driver package from st.com, and verifying my email multiple times....and trying to create a userid...and receiving MANY messages from ST but still getting "email not verified" ... and waiting, and waiting, and a couple of hours later it DID let me get the software from the email link message.  I installed it on my computer by running the downloaded .exe file).<br><br>(If I shut the radio off, the "Digital Radio in USB mode" disappears from device manager.)<br><br>I point "update driver" to the directory where the driver is from DfuSE (the Win10 subdir, not the x64 or x86 subdirs), and the driver installs.  A this point I rebooted the computer (just because, with drivers), and the GD77 CPS now successfully pushes the donor and update firmware to the radio!  Then I shut the radio off and turn it back on again, normal, and write the code plug (configuration files...."write") and download the callsign database with no region and 50 char record size.  And it all works!<br><br>So for me, this is how I got past the "Radio not connected" mode.  I had also tried from my wife's Windows 11 system with GD77 CPS, but same error.  I don't see a Win11 driver in that DfuSe package, so I didn't get it working on her system.</div></blockquote><a href="https://www.opengd77.com/viewforum.php?f=10" class="postlink">viewforum.php?f=10</a><br><br>73<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jul 18, 2023 5:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0PZE]]></name></author>
+		<updated>2023-07-18T16:42:41</updated>
+
+		<published>2023-07-18T16:42:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24511#p24511</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24511#p24511"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24511#p24511"><![CDATA[
+I have the same problem.<br>Details:<br>new Baofeng DM-1701, including cable<br>OpenGD77CPSInstaller_R2023.07.14.01  installed with "install drivers"<br>Radio in programming mode (red/green LED alternates) for firmware loading.<br>In OpenGD77 CPS under "Radio type" I select DM-1701<br>When I try to load the donor file (MD9600-CSV(2571V5)-V26.45.bin and OpenDM1701.bin, in "extras/firmware loader", selected DM-1701 again, donor file first, then update, get this:  "Radio not connected, or not in DFU mode."<br><br>If I open Microsoft (this is windows 10) device manager, I see after "Network adapters," a category "Other devices," in which there is "Digital Radio in USB mode."  If I select that, it says "The drivers for this device are not installed. (Code 28)  There are no compatible drivers for this device."<br><br>I tried updating/finding a driver but no luck.  I tried going to ST.com to get a driver I saw referenced (the OpenG77 manual says to look in Section 1.1, but no driver sources there), and finally (much effort) got the driver package "DfuSe_Demo_V3.0.6_Setup".  (the effort involved requesting the STSW-STM32080 driver package from st.com, and verifying my email multiple times....and trying to create a userid...and receiving MANY messages from ST but still getting "email not verified" ... and waiting, and waiting, and a couple of hours later it DID let me get the software from the email link message.  I installed it on my computer by running the downloaded .exe file).<br><br>(If I shut the radio off, the "Digital Radio in USB mode" disappears from device manager.)<br><br>I point "update driver" to the directory where the driver is from DfuSE (the Win10 subdir, not the x64 or x86 subdirs), and the driver installs.  A this point I rebooted the computer (just because, with drivers), and the GD77 CPS now successfully pushes the donor and update firmware to the radio!  Then I shut the radio off and turn it back on again, normal, and write the code plug (configuration files...."write") and download the callsign database with no region and 50 char record size.  And it all works!<br><br>So for me, this is how I got past the "Radio not connected" mode.  I had also tried from my wife's Windows 11 system with GD77 CPS, but same error.  I don't see a Win11 driver in that DfuSe package, so I didn't get it working on her system.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4186">N0PZE</a> — Tue Jul 18, 2023 4:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[f1trf]]></name></author>
+		<updated>2023-07-17T21:54:29</updated>
+
+		<published>2023-07-17T21:54:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24498#p24498</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24498#p24498"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24498#p24498"><![CDATA[
+DFU MODE<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1745&amp;sid=5ae4bca7094ea0df810a894bf3021f51" class="postimage" alt="71mdi8MiqEL._AC_SX679_.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4106">f1trf</a> — Mon Jul 17, 2023 9:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-17T21:10:00</updated>
+
+		<published>2023-07-17T21:10:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24497#p24497</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24497#p24497"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24497#p24497"><![CDATA[
+<blockquote class="uncited"><div>I'm trying to install the latest version of OpenGD77 on a DM-1701 but I get the following message:<br><br>"Radio not connected, or not in DFU mode."  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_surprised.gif" width="15" height="17" alt=":o" title="Surprised"> <br><br>Has anyone had this problem?</div></blockquote>Radio not put into DFU mode<br>Cable not plugged in correctly<br>Wrong cable<br>Broken cable<br>Dfu driver not installed<br>Wrong dfu driver version<br>Etc<br>Etc<br>Etc<br>Etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jul 17, 2023 9:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PY2GPS]]></name></author>
+		<updated>2023-07-17T19:38:01</updated>
+
+		<published>2023-07-17T19:38:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24496#p24496</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24496#p24496"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24496#p24496"><![CDATA[
+I'm trying to install the latest version of OpenGD77 on a DM-1701 but I get the following message:<br><br>"Radio not connected, or not in DFU mode."  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_surprised.gif" width="15" height="17" alt=":o" title="Surprised"> <br><br>Has anyone had this problem?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1088">PY2GPS</a> — Mon Jul 17, 2023 7:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S52SX]]></name></author>
+		<updated>2023-07-08T19:50:48</updated>
+
+		<published>2023-07-08T19:50:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24301#p24301</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24301#p24301"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24301#p24301"><![CDATA[
+HI,<br>Its working now, I have reinstalled new CPS and reflash again with new firmware.<br>Thanks to all!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3507">S52SX</a> — Sat Jul 08, 2023 7:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S52SX]]></name></author>
+		<updated>2023-07-04T17:01:55</updated>
+
+		<published>2023-07-04T17:01:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24219#p24219</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24219#p24219"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 firmware / Retevis RT-84]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2755&amp;p=24219#p24219"><![CDATA[
+Yes, I'm using latest released CPS on 02.07.2023.<br>Let me do one more time with WIN10 PC and not WIN11.<br>I'll let you know.<br><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3507">S52SX</a> — Tue Jul 04, 2023 5:01 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

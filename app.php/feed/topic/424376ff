@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4243" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-07-14T18:31:32</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4243</id>
+
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-07-14T18:31:32</updated>
+
+		<published>2024-07-14T18:31:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4243&amp;p=32123#p32123</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4243&amp;p=32123#p32123"/>
+		<title type="html"><![CDATA[Re: HELP!!! MD-9600 programming]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4243&amp;p=32123#p32123"><![CDATA[
+CPS:<br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/" class="postlink">downloads/PC_CPS/Latest/</a><br><br>Firmware (If you got it recently) i'd suggest to try a HW V5 firmware.<br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/0c885b34e52cca7e946d82a4881bb211cb488e61/" class="postlink">downloads/MD9600/Firmware/0c885b34e52cc ... 1cb488e61/</a><br><br><br>Donor file:<br>I used this donor file<br><a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br><br>Unzip the donor firmware zip file, to extract the donor file MD9600-CSV(2571V5)-V26.45.bin<br>Note. This file is the same for all MD9600 hardware versions.<br><br>I wrote a bit about converting mine here.<br><a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4211#p32001" class="postlink">viewtopic.php?f=18&amp;t=4211#p32001</a><br><br><br>.<br><br>Re: Comport ...<br>The MD-9600 will NOT show up as a serial-device (ComPort) , until you have loaded the OpenGD77 firmware into the device, and it has rebooted..<br><br>With "Factory firmware" it will "only" show up as a USB "STM device in DFU mode" i the windows hw manager<br><br>.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Sun Jul 14, 2024 6:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NM5GB]]></name></author>
+		<updated>2024-07-14T17:33:19</updated>
+
+		<published>2024-07-14T17:33:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4243&amp;p=32122#p32122</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4243&amp;p=32122#p32122"/>
+		<title type="html"><![CDATA[HELP!!! MD-9600 programming]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4243&amp;p=32122#p32122"><![CDATA[
+OK I don't know what's going wrong, but I cannot program my 9600. I already have a 9600 that I have programmed but this new one is giving me issues. If someone would kindly point me to the current "donor file" and to the latest firmware for that donor software I'd GREATLY appreciate it. Also, I'm having trouble getting a COM PORT even with the CPSInstaller on my computer (Windows 11).<br>Thanks in advance<br>73's<br>Garry, NM5GB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4852">NM5GB</a> — Sun Jul 14, 2024 5:33 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

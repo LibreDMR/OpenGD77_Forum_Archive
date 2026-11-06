@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4350" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-01T13:47:06</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4350</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-09-01T13:47:06</updated>
+
+		<published>2024-09-01T13:47:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32707#p32707</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32707#p32707"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32707#p32707"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Thank you Daniel, So, bacically, both RD-5R and GD77 have the same memory structure.</div></blockquote>Yes, it's identical.<br><blockquote class="uncited"><div>I might want to do the GPS mod in the future. Is it save to say, If I get the GPS mod done I will then need the NMEA version of the firmware?</div></blockquote>No, GPS support is available out of the box in the non NMEA firmwares. NMEA builds only add NMEA logging (which permits to extract logged tracks/data).</div></blockquote>Thank you, Daniel. Great info.<br><br>P.S. Memory upgrade on the GD77 went well, a little bit harder to dissemble the radio than the RD-5R, but not thing major.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2561&amp;sid=ffb780ee5c1823778fe18df27641be3e" class="postimage" alt="IMG_1285.jpeg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Sep 01, 2024 1:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-01T13:39:33</updated>
+
+		<published>2024-09-01T13:39:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32706#p32706</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32706#p32706"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32706#p32706"><![CDATA[
+<blockquote class="uncited"><div>Thank you Daniel, So, bacically, both RD-5R and GD77 have the same memory structure.</div></blockquote>Yes, it's identical.<br><blockquote class="uncited"><div>I might want to do the GPS mod in the future. Is it save to say, If I get the GPS mod done I will then need the NMEA version of the firmware?</div></blockquote>No, GPS support is available out of the box in the non NMEA firmwares. NMEA builds only add NMEA logging (which permits to extract logged tracks/data).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Sep 01, 2024 1:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-09-01T12:51:06</updated>
+
+		<published>2024-09-01T12:51:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32705#p32705</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32705#p32705"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32705#p32705"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>The RD-5R has an EEPROM, so there is no "extra" space on the GD77, or any supported radio (BTW, the firmware isn't located in the external Flash chip, but in the MCU).<br>The STM32 based radios don't have EEPROM.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Thank you Daniel, So, bacically, both RD-5R and GD77 have the same memory structure.<br><blockquote class="uncited"><div>The MK22's "NMEA" versions are supporting the NMEA logging, but it does impact the flash memory storage space (Voice and/or DMRID storage), as you need some space to store that NMEA sentences.<br>So, if you don't have made any GPS module mod, and not interested in related logging, you can safely ignore such firmware builds.</div></blockquote>I might want to do the GPS mod in the future. Is it save to say, If I get the GPS mod done I will then need the NMEA version of the firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Sep 01, 2024 12:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-01T08:20:39</updated>
+
+		<published>2024-09-01T08:20:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32698#p32698</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32698#p32698"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32698#p32698"><![CDATA[
+The MK22's "NMEA" versions are supporting the NMEA logging, but it does impact the flash memory storage space (Voice and/or DMRID storage), as you need some space to store that NMEA sentences.<br>So, if you don't have made any GPS module mod, and not interested in related logging, you can safely ignore such firmware builds.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Sep 01, 2024 8:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-09-01T06:48:32</updated>
+
+		<published>2024-09-01T06:48:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32697#p32697</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32697#p32697"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32697#p32697"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>NMEA has GPS support added, some people have added a GPS module in their radio.<br><br>The text strings that GPS modules output on the serial port is in the NMEA format  <a href="https://en.wikipedia.org/wiki/NMEA_0183" class="postlink">https://en.wikipedia.org/wiki/NMEA_0183</a></div></blockquote>Thank you for clarify, but why special firmware? In STM32 radio (UV380, 1701, etc.) only one firmware cover the GPS and non-GPS unit. Why do we need NMEA firmware for GD77 and 1801, memory problem? What are we treading off for the GPS capability?</div></blockquote>I think that the developers have to answer that question, but I guess it could be related to memory.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Sep 01, 2024 6:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-01T03:48:01</updated>
+
+		<published>2024-09-01T03:48:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32695#p32695</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32695#p32695"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32695#p32695"><![CDATA[
+Hi,<br><br>The RD-5R has an EEPROM, so there is no "extra" space on the GD77, or any supported radio (BTW, the firmware isn't located in the external Flash chip, but in the MCU).<br>The STM32 based radios don't have EEPROM.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Sep 01, 2024 3:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-08-31T10:37:03</updated>
+
+		<published>2024-08-31T10:37:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32693#p32693</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32693#p32693"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32693#p32693"><![CDATA[
+<blockquote class="uncited"><div>GD77 and RD5R have identical RAM as this is part of the CPU and they both have the same CPU<br>GD77 and RD5R also both have 1Mb Flash memory<br><br><span style="text-decoration:line-through">What the RD5R doesn't have is the 64k EEPROM, which is used to store some of the codeplug.</span><br>Correction. It does have the EEPROM. What it doesn't have is the hardware to allow data to be saved when the radio is switched to off</div></blockquote>Hi Roger, thank you for clarify, Please check if I understand things correctly. In RD-5R everything is in flash memory (firmware, codeplug, calibration, DMR ID database, etc.) However, for the GD77, some of the codeplug are store in the EEPROM? If that so, GD77 should have more space on the flash memory for DMRID database?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Aug 31, 2024 10:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-08-31T10:32:57</updated>
+
+		<published>2024-08-31T10:32:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32692#p32692</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32692#p32692"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32692#p32692"><![CDATA[
+<blockquote class="uncited"><div><br><br>NMEA has GPS support added, some people have added a GPS module in their radio.<br><br>The text strings that GPS modules output on the serial port is in the NMEA format  <a href="https://en.wikipedia.org/wiki/NMEA_0183" class="postlink">https://en.wikipedia.org/wiki/NMEA_0183</a></div></blockquote>Thank you for clarify, but why special firmware? In STM32 radio (UV380, 1701, etc.) only one firmware cover the GPS and non-GPS unit. Why do we need NMEA firmware for GD77 and 1801, memory problem? What are we treading off for the GPS capability?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Aug 31, 2024 10:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-08-31T10:23:13</updated>
+
+		<published>2024-08-31T10:23:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32691#p32691</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32691#p32691"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32691#p32691"><![CDATA[
+<blockquote class="uncited"><div><br>Interesting, perhaps the RAM in the RD-5R was "hobbled" in a way to keep it from loading as many RadioIDs as the GD-77.  In my experience, before you so kindly upgraded by RD-5R RAM, it held very few contacts.  Can you check the GD-77's ability and see if it has a larger contact database option?</div></blockquote>I'm going to open the 77 up and do a memory upgrade today, wish me luck, hihi. I believe many people here have the bigger memory version of the 77, either by the special order from Radioditty or DIY work.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Aug 31, 2024 10:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-31T07:44:25</updated>
+
+		<published>2024-08-31T07:44:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32690#p32690</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32690#p32690"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32690#p32690"><![CDATA[
+GD77 and RD5R have identical RAM as this is part of the CPU and they both have the same CPU<br>GD77 and RD5R also both have 1Mb Flash memory<br><br>What the RD5R doesn't have is the 64k EEPROM, which is used to store some of the codeplug.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Aug 31, 2024 7:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2024-08-31T05:34:59</updated>
+
+		<published>2024-08-31T05:34:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32689#p32689</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32689#p32689"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32689#p32689"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Well let us know how that works out with the new collection!<br><br>No picket fencing on my two.<br><br>Back in 2018, when I purchased my first RD-5R, I recalled that it was given less RAM than the GD-77, so as to not completely cannibalize sales of the GD-77.</div></blockquote>I have got the radio, and can confirm it has 1MB chip as the original RD-5R. The battery of the GD77 is not the same as RT3S, but they share the same charger...</div></blockquote>Interesting, perhaps the RAM in the RD-5R was "hobbled" in a way to keep it from loading as many RadioIDs as the GD-77.  In my experience, before you so kindly upgraded by RD-5R RAM, it held very few contacts.  Can you check the GD-77's ability and see if it has a larger contact database option?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Sat Aug 31, 2024 5:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-08-31T04:39:33</updated>
+
+		<published>2024-08-31T04:39:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32688#p32688</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32688#p32688"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32688#p32688"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Well let us know how that works out with the new collection!<br><br>No picket fencing on my two.<br><br>Back in 2018, when I purchased my first RD-5R, I recalled that it was given less RAM than the GD-77, so as to not completely cannibalize sales of the GD-77.</div></blockquote>I have got the radio, and can confirm it has 1MB chip as the original RD-5R. The battery of the GD77 is not the same as RT3S, but they share the same charger.<br><br>One Question, if anyone can help me out. What is the NMEA version of the firmware is all about?</div></blockquote>NMEA has GPS support added, some people have added a GPS module in their radio.<br><br>The text strings that GPS modules output on the serial port is in the NMEA format  <a href="https://en.wikipedia.org/wiki/NMEA_0183" class="postlink">https://en.wikipedia.org/wiki/NMEA_0183</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Aug 31, 2024 4:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-08-31T03:19:29</updated>
+
+		<published>2024-08-31T03:19:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32686#p32686</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32686#p32686"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32686#p32686"><![CDATA[
+<blockquote class="uncited"><div>Well let us know how that works out with the new collection!<br><br>No picket fencing on my two.<br><br>Back in 2018, when I purchased my first RD-5R, I recalled that it was given less RAM than the GD-77, so as to not completely cannibalize sales of the GD-77.</div></blockquote>I have got the radio, and can confirm it has 1MB chip as the original RD-5R. The battery of the GD77 is not the same as RT3S, but they share the same charger.<br><br>One Question, if anyone can help me out. What is the NMEA version of the firmware is all about?<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2559&amp;sid=ffb780ee5c1823778fe18df27641be3e" class="postimage" alt="IMG_1261.jpeg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Aug 31, 2024 3:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-27T20:34:41</updated>
+
+		<published>2024-08-27T20:34:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32653#p32653</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32653#p32653"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32653#p32653"><![CDATA[
+<blockquote class="uncited"><div>Well let us know how that works out with the new collection!<br><br>No picket fencing on my two.<br><br>Back in 2018, when I purchased my first RD-5R, I recalled that it was given less RAM than the GD-77, so as to not completely cannibalize sales of the GD-77.</div></blockquote>GD77 also has a small EEPROM, which is used to store part of the codeplug, but I don't think if affects the DMR ID storage, as the overall memory map of the MK22 CPU based radios is the same<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 27, 2024 8:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2024-08-27T17:25:26</updated>
+
+		<published>2024-08-27T17:25:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32652#p32652</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32652#p32652"/>
+		<title type="html"><![CDATA[Re: Open box GD-77's available from Radioddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4350&amp;p=32652#p32652"><![CDATA[
+Well let us know how that works out with the new collection!<br><br>No picket fencing on my two.<br><br>Back in 2018, when I purchased my first RD-5R, I recalled that it was given less RAM than the GD-77, so as to not completely cannibalize sales of the GD-77.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Aug 27, 2024 5:25 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

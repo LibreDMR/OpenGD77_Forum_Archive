@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3379" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-11T00:27:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3379</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-11T00:27:43</updated>
+
+		<published>2024-08-11T00:27:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32450#p32450</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32450#p32450"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32450#p32450"><![CDATA[
+<blockquote class="uncited"><div>At the moment, I am trying to understand the relationship between Contacts, Talk Groups, Channels and Zones.</div></blockquote>This is not specific to OpenGD77, its fundamental to the use of DMR for Ham radio. i.e this differs from how commercial operators use DMR<br><br>OpenGD77 provides enhanced functionality with releation to Rx Group Lists, as they are TalkGroup Lists and can be used from both Rx and Tx.<br><br>There are numerous resources online by various people about all these topics<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Aug 11, 2024 12:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2024-08-11T00:22:13</updated>
+
+		<published>2024-08-11T00:22:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32449#p32449</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32449#p32449"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32449#p32449"><![CDATA[
+If you look in the 'FAQ' section, the second option down on the forum index page, then look under the 'FAQ' sub-section to that, the fourth question provides links to two different versions of the OpenGD77 manual in two different languages.<br><br>I've found that both the forum and the manual are worth reading carefully, as pretty much all the usual questions are answered in one or the other.<br><br>No need to kill anyone - all the info is there for anyone who cares to look for it.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Sun Aug 11, 2024 12:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-10T21:26:24</updated>
+
+		<published>2024-08-10T21:26:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32447#p32447</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32447#p32447"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32447#p32447"><![CDATA[
+<blockquote class="uncited"><div>OK moving up or down is only part of the question. I must say a "sort" function would be nice also a "Find"<br><br>Is there a manual for the CPS as I too would like one.<br><br>At the moment, I am trying to understand the relationship between Contacts, Talk Groups, Channels and Zones.</div></blockquote>Its not practical to implemement sorting within the CPS because there are too many possible ways that people may want to 'sort' the various sections<br><br><br>Export to CSV, manipulate whatever you want using a spreadsheet, then import<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Aug 10, 2024 9:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G6KHW]]></name></author>
+		<updated>2024-08-10T16:01:01</updated>
+
+		<published>2024-08-10T16:01:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32445#p32445</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32445#p32445"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=32445#p32445"><![CDATA[
+OK moving up or down is only part of the question. I must say a "sort" function would be nice also a "Find"<br><br>Is there a manual for the CPS as I too would like one.<br><br>At the moment, I am trying to understand the relationship between Contacts, Talk Groups, Channels and Zones.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6638">G6KHW</a> — Sat Aug 10, 2024 4:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-17T23:08:21</updated>
+
+		<published>2023-10-17T23:08:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26882#p26882</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26882#p26882"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26882#p26882"><![CDATA[
+<blockquote class="uncited"><div>I meant right click.</div></blockquote>LOL - Yes, that's bueno  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Tue Oct 17, 2023 11:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-17T22:04:17</updated>
+
+		<published>2023-10-17T22:04:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26875#p26875</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26875#p26875"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26875#p26875"><![CDATA[
+Yeah, it's <em class="text-italics">bueno</em><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1949&amp;sid=d1189925e823a35894a66874e5b2fc07" class="postimage" alt="CPS_channel_context_menu.png" onclick="viewableArea(this);" /></dt></dl></div><br>The same CPS is used by all supported radio, so it doesn't make any difference here.<br><br>BTW, it seems you forgot to introduce yourself <a href="https://www.opengd77.com/viewforum.php?f=10" class="postlink">viewforum.php?f=10</a><br><br><br>EDIT: I meant right click.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Oct 17, 2023 10:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-17T20:45:24</updated>
+
+		<published>2023-10-17T20:45:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26873#p26873</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26873#p26873"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26873#p26873"><![CDATA[
+<blockquote class="uncited"><div>Hidden ? Left click on the tree.... Hidden...</div></blockquote>no bueno<br>I "left clicked" all over, what does "on the tree" mean?<br>If it makes a difference I have an RT-3S so have the CPS in that "mode"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Tue Oct 17, 2023 8:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-17T19:59:11</updated>
+
+		<published>2023-10-17T19:59:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26872#p26872</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26872#p26872"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26872#p26872"><![CDATA[
+Hidden ?<br><br>Left click on the tree....<br><br>Hidden...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Oct 17, 2023 7:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-17T18:28:41</updated>
+
+		<published>2023-10-17T18:28:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26870#p26870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26870#p26870"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26870#p26870"><![CDATA[
+<blockquote class="uncited"><div>easy, Ctrl-u for up or Ctrl-d for down</div></blockquote>Thanks! Who does one have to kill to get a list of all the hidden wonders of this CPS? <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Tue Oct 17, 2023 6:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE1MWW]]></name></author>
+		<updated>2023-10-17T17:54:28</updated>
+
+		<published>2023-10-17T17:54:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26869#p26869</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26869#p26869"/>
+		<title type="html"><![CDATA[Re: CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26869#p26869"><![CDATA[
+easy, Ctrl-u for up or Ctrl-d for down<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1203">OE1MWW</a> — Tue Oct 17, 2023 5:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-17T17:12:14</updated>
+
+		<published>2023-10-17T17:12:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26867#p26867</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26867#p26867"/>
+		<title type="html"><![CDATA[CPS manual or FAQ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3379&amp;p=26867#p26867"><![CDATA[
+Is there one? If so youse guys hid it well <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><br><br>In particular is there a way to move a channel up or down in the list like in CHIRP?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Tue Oct 17, 2023 5:12 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

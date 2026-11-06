@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5182" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-16T10:10:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5182</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-16T10:10:14</updated>
+
+		<published>2025-06-16T10:10:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5182&amp;p=37499#p37499</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5182&amp;p=37499#p37499"/>
+		<title type="html"><![CDATA[Re: The screen says TG 9]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5182&amp;p=37499#p37499"><![CDATA[
+<blockquote class="uncited"><div>Good evening, I have a question about a function on the screen that always shows TG 9, is this normal or did I do something wrong on the radio, if I did, I would like some help, thank you</div></blockquote>Either you didn't load an OpenGD77 codeplug or you didn't define a digital contact for the channel or vfo.<br>As a DMR transmission must have a TG ... If you don't specify one, the firmware uses TG9 as the default<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 16, 2025 10:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2VYW]]></name></author>
+		<updated>2025-06-16T02:18:36</updated>
+
+		<published>2025-06-16T02:18:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5182&amp;p=37498#p37498</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5182&amp;p=37498#p37498"/>
+		<title type="html"><![CDATA[The screen says TG 9]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5182&amp;p=37498#p37498"><![CDATA[
+Good evening, I have a question about a function on the screen that always shows TG 9, is this normal or did I do something wrong on the radio, if I did, I would like some help, thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3067">PU2VYW</a> — Mon Jun 16, 2025 2:18 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

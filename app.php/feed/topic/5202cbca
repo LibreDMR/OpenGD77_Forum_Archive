@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5202" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-10T20:42:37</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5202</id>
+
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-07-10T20:42:37</updated>
+
+		<published>2025-07-10T20:42:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37701#p37701</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37701#p37701"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37701#p37701"><![CDATA[
+Are you using Windows 11?<br><br>I could not get it to install so I did it easily in Windows 10.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Thu Jul 10, 2025 8:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-03T08:19:10</updated>
+
+		<published>2025-07-03T08:19:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37643#p37643</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37643#p37643"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37643#p37643"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>but remember that OpenGD77 CPS will not read the radio if the radio still has the original/stock firmware, OpenGD77 CPS will only read the radio if the radio has already installed a OpenGD77 firmware.</div></blockquote>He visto que eres hispanohablante, te lo explico mejor en español. No tengo ningun problema al conectar la radio al CPS original de baofeng, ahi si puedo entrar en su programacion. Pero no puedo en el CPS de OPENGD77. Lo que yo quiero es instalar el firmware OPENGD77, pero para hacerlo necesito que ese CPS me reconozca la radio. ¿Como puedo instalarme el OPENGD77?</div></blockquote>see this: <a href="https://crecj.org/instalacion-de-opengd77-en-un-baofeng-dm1701-pero-tambien-para-md9600-md-uv380-390-y-rt-3s/" class="postlink">https://crecj.org/instalacion-de-opengd ... 0-y-rt-3s/</a> <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_razz.gif" width="15" height="17" alt=":P" title="Razz"></div></blockquote>Conseguido. Muchisimas gracias!!!!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Thu Jul 03, 2025 8:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-07-03T07:49:47</updated>
+
+		<published>2025-07-03T07:49:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37642#p37642</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37642#p37642"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37642#p37642"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>And I told you the original CPS recognise the radio, but the OPENDGD77 CPS not. That's why I think it's not a problem with the USB port.</div></blockquote>but remember that OpenGD77 CPS will not read the radio if the radio still has the original/stock firmware, OpenGD77 CPS will only read the radio if the radio has already installed a OpenGD77 firmware.</div></blockquote>He visto que eres hispanohablante, te lo explico mejor en español. No tengo ningun problema al conectar la radio al CPS original de baofeng, ahi si puedo entrar en su programacion. Pero no puedo en el CPS de OPENGD77. Lo que yo quiero es instalar el firmware OPENGD77, pero para hacerlo necesito que ese CPS me reconozca la radio. ¿Como puedo instalarme el OPENGD77?</div></blockquote>see this: <a href="https://crecj.org/instalacion-de-opengd77-en-un-baofeng-dm1701-pero-tambien-para-md9600-md-uv380-390-y-rt-3s/" class="postlink">https://crecj.org/instalacion-de-opengd ... 0-y-rt-3s/</a> <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_razz.gif" width="15" height="17" alt=":P" title="Razz"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jul 03, 2025 7:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-03T07:42:01</updated>
+
+		<published>2025-07-03T07:42:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37641#p37641</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37641#p37641"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37641#p37641"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>And I told you the original CPS recognise the radio, but the OPENDGD77 CPS not. That's why I think it's not a problem with the USB port.</div></blockquote>but remember that OpenGD77 CPS will not read the radio if the radio still has the original/stock firmware, OpenGD77 CPS will only read the radio if the radio has already installed a OpenGD77 firmware.</div></blockquote>He visto que eres hispanohablante, te lo explico mejor en español. No tengo ningun problema al conectar la radio al CPS original de baofeng, ahi si puedo entrar en su programacion. Pero no puedo en el CPS de OPENGD77. Lo que yo quiero es instalar el firmware OPENGD77, pero para hacerlo necesito que ese CPS me reconozca la radio. ¿Como puedo instalarme el OPENGD77?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Thu Jul 03, 2025 7:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-03T07:40:09</updated>
+
+		<published>2025-07-03T07:40:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37640#p37640</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37640#p37640"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37640#p37640"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>then maybe there is an issue with COM Port driver, but is easy to fix, just leave the radio on in normal mode and while is connect to the PC install OpenGD77 CPS again, and that will install the COM Port driver again and should fix the issue.</div></blockquote>I did it as well, and it doesn't works. And I told you the original CPS recognise the radio, but the OPENDGD77 CPS not. That's why I think it's not a problem with the USB port.</div></blockquote>Same computer that you use with the factory CPS and flash programs ?<br><br>What do you see in Windows Device Manager ? , check both for normal startup of radio and startup in DFU mode (red/green blink)<br><br>STM_driver_in_DFU_mode.JPG</div></blockquote><br>As you can see I have this driver. And yes, I use the same computer in both cases.<br><img src="https://i.postimg.cc/2jPVnwpF/Sin-t-tulo.png" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Thu Jul 03, 2025 7:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-07-03T07:34:46</updated>
+
+		<published>2025-07-03T07:34:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37639#p37639</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37639#p37639"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37639#p37639"><![CDATA[
+<blockquote class="uncited"><div>And I told you the original CPS recognise the radio, but the OPENDGD77 CPS not. That's why I think it's not a problem with the USB port.</div></blockquote>but remember that OpenGD77 CPS will not read the radio if the radio still has the original/stock firmware, OpenGD77 CPS will only read the radio if the radio has already installed a OpenGD77 firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jul 03, 2025 7:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-03T07:27:03</updated>
+
+		<published>2025-07-03T07:27:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37638#p37638</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37638#p37638"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37638#p37638"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>then maybe there is an issue with COM Port driver, but is easy to fix, just leave the radio on in normal mode and while is connect to the PC install OpenGD77 CPS again, and that will install the COM Port driver again and should fix the issue.</div></blockquote>I did it as well, and it doesn't works. And I told you the original CPS recognise the radio, but the OPENDGD77 CPS not. That's why I think it's not a problem with the USB port.</div></blockquote>Same computer that you use with the factory CPS and flash programs ?<br><br>What do you see in Windows Device Manager ? , check both for normal startup of radio and startup in DFU mode (red/green blink)<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3034&amp;sid=b7a64be2cf310a07fa2d6cf34ef9d59b" class="postimage" alt="STM_driver_in_DFU_mode.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Jul 03, 2025 7:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-03T07:23:06</updated>
+
+		<published>2025-07-03T07:23:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37637#p37637</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37637#p37637"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37637#p37637"><![CDATA[
+<blockquote class="uncited"><div>then maybe there is an issue with COM Port driver, but is easy to fix, just leave the radio on in normal mode and while is connect to the PC install OpenGD77 CPS again, and that will install the COM Port driver again and should fix the issue.</div></blockquote>I did it as well, and it doesn't works. And I told you the original CPS recognise the radio, but the OPENDGD77 CPS not. That's why I think it's not a problem with the USB port.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Thu Jul 03, 2025 7:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-07-03T07:19:14</updated>
+
+		<published>2025-07-03T07:19:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37636#p37636</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37636#p37636"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37636#p37636"><![CDATA[
+then maybe there is an issue with COM Port driver, but is easy to fix, just leave the radio on in normal mode and while is connect to the PC install OpenGD77 CPS again, and that will install the COM Port driver again and should fix the issue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jul 03, 2025 7:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-03T07:13:35</updated>
+
+		<published>2025-07-03T07:13:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37635#p37635</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37635#p37635"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37635#p37635"><![CDATA[
+<blockquote class="uncited"><div>first the radio must be in DFU mode in order to flash the OpenGD77 (also STM DFU Driver must be installed) and after that, the radio must be in normal model to be detected by OpenGD77 CPS for programming.</div></blockquote>I do everything you told me and It doesn't work. The stm driver is already. I'm going to record a video to show you the problem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Thu Jul 03, 2025 7:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-07-02T23:33:56</updated>
+
+		<published>2025-07-02T23:33:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37634#p37634</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37634#p37634"/>
+		<title type="html"><![CDATA[Re: Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37634#p37634"><![CDATA[
+first the radio must be in DFU mode in order to flash the OpenGD77 (also STM DFU Driver must be installed) and after that, the radio must be in normal model to be detected by OpenGD77 CPS for programming.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Jul 02, 2025 11:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-02T22:57:11</updated>
+
+		<published>2025-07-02T22:57:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37633#p37633</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37633#p37633"/>
+		<title type="html"><![CDATA[Impossible to install OPENGD77 in Baofeng DM-1701A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5202&amp;p=37633#p37633"><![CDATA[
+Hello. I have a Baofeng DM-1701A with firmware version V002.006 and CP version V01.05. It's completely impossible to install OPENGD77. The original Baofeng CPS recognizes the radio and I can program it without any problems, but the OPENGD77 CPS doesn't detect the radio—it's impossible to access it. Could it be that my current firmware is incompatible with OPENGD77? In both cases, I have used the same cable and the same USB port. Can someone help me? Thank you very much.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Wed Jul 02, 2025 10:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

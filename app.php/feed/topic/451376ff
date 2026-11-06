@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4513" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-23T02:24:07</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4513</id>
+
+		<entry>
+		<author><name><![CDATA[k5fq]]></name></author>
+		<updated>2024-10-23T02:24:07</updated>
+
+		<published>2024-10-23T02:24:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33648#p33648</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33648#p33648"/>
+		<title type="html"><![CDATA[Re: Samples]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33648#p33648"><![CDATA[
+This helps quite a bit, thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7118">k5fq</a> — Wed Oct 23, 2024 2:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-23T01:08:14</updated>
+
+		<published>2024-10-23T01:08:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33646#p33646</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33646#p33646"/>
+		<title type="html"><![CDATA[Re: Samples]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33646#p33646"><![CDATA[
+<blockquote class="uncited"><div>First, to all, thanks  for all the hard work!<br><br>Is there a way to sample, or test drive, the various voice prompts before downloading them and pushing them to the radio?<br><br>I'm imagining a web interface which provides 3-5 standard sample where one could click on an icon and have the prompt played over the net......<br><br><br>Thanks in advance and 73.....<br><br>AL</div></blockquote>The voice prompt files are compressed using AMBE, so there is no way to play these on a PC, as the AMBE codec is proprietary.<br><br>However...  We use a free online text to MP3 converter <a href="http://www.ttsmp3.com" class="postlink">www.ttsmp3.com</a>  to generate the files.<br><br>The wordlist is in the localisation download folder<br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts/" class="postlink">downloads/localisation/voice_prompt_texts/</a><br><br><br><br>So if you look at the voice names of the prompt files e.g USA Joey,  and try using TTSMP3 to generate some audio, you would get an idea of roughly what it sounds like.  Albeit when audio is compressed using AMBE they don't sound identical to the original<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 23, 2024 1:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k5fq]]></name></author>
+		<updated>2024-10-23T00:06:01</updated>
+
+		<published>2024-10-23T00:06:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33645#p33645</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33645#p33645"/>
+		<title type="html"><![CDATA[Samples]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4513&amp;p=33645#p33645"><![CDATA[
+First, to all, thanks  for all the hard work!<br><br>Is there a way to sample, or test drive, the various voice prompts before downloading them and pushing them to the radio?<br><br>I'm imagining a web interface which provides 3-5 standard sample where one could click on an icon and have the prompt played over the net......<br><br><br>Thanks in advance and 73.....<br><br>AL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7118">k5fq</a> — Wed Oct 23, 2024 12:06 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

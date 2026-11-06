@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4411" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-29T03:40:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4411</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-29T03:40:24</updated>
+
+		<published>2025-05-29T03:40:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4411&amp;p=37270#p37270</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=37270#p37270"/>
+		<title type="html"><![CDATA[Re: Satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=37270#p37270"><![CDATA[
+<blockquote class="uncited"><div>For reliable predictions, how often should we install new satellite keps?</div></blockquote>Depends which satellite(s) you are trying to access.<br><br>The ISS is moved frequently to prevent collision with debris.<br><br>So updating daily for the ISS is often necessary. Other satellites, AFIK you can probably get away with updating once a week.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu May 29, 2025 3:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7DIT]]></name></author>
+		<updated>2025-05-29T02:41:55</updated>
+
+		<published>2025-05-29T02:41:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4411&amp;p=37269#p37269</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=37269#p37269"/>
+		<title type="html"><![CDATA[Re: Satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=37269#p37269"><![CDATA[
+For reliable predictions, how often should we install new satellite keps?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6881">W7DIT</a> — Thu May 29, 2025 2:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-19T06:29:38</updated>
+
+		<published>2024-09-19T06:29:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33041#p33041</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33041#p33041"/>
+		<title type="html"><![CDATA[Re: Satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33041#p33041"><![CDATA[
+<blockquote class="uncited"><div>totally looks like they snarfed the opengd code.  is that a software license violation?  </div></blockquote><br>No. Probably not.<br><br>They have copied some of the UI but probably not the code. <br><br>Their satellite prediction is extremely slow and also appears to be either inaccurate or incorrect some of the time, so its not likely to be the OpenGD77 prediction code, unless they have done something seriously wrong with using that code.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 19, 2024 6:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2024-09-19T05:33:20</updated>
+
+		<published>2024-09-19T05:33:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33040#p33040</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33040#p33040"/>
+		<title type="html"><![CDATA[Re: Satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33040#p33040"><![CDATA[
+totally looks like they snarfed the opengd code.  is that a software license violation?  my 878 sits unused since i found opengd77.  maybe ill update the firmware and make it a dedicated satellite receiver just so i keep the battery charged.  opengd kicks the snot out of 878 in so many ways....<br><br>--gaspo.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Thu Sep 19, 2024 5:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-18T23:12:34</updated>
+
+		<published>2024-09-18T23:12:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33031#p33031</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33031#p33031"/>
+		<title type="html"><![CDATA[Re: Satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33031#p33031"><![CDATA[
+<blockquote class="uncited"><div>Some more info about the 878<br><br>Capture.JPG</div></blockquote>We changed to using Celestrak for the data as it seemed to be consistently more accurate than Norad<br><br>The other link <a href="https://db.satnogs.org/api/transmitters/" class="postlink">https://db.satnogs.org/api/transmitters/</a>  does not contain keps. It seems to be a list of satellite transponder frequencies. However the satellite ID's don't seem to correspond to the Catalog number used in the keps data.<br><br>e.g. ISS is 25544U<br><br>e.g.<br><br><a href="https://www.satview.org/?sat_id=25544U" class="postlink">https://www.satview.org/?sat_id=25544U</a><br><br>I had to search on the freq of one of the ISS's transponders (145800) to find this data in that site<br><div class="codebox"><p>CODE: </p><pre><code>{        "uuid": "eozSf5mKyzNxoascs8V4bV",        "description": "Mode V/U FM - Voice Repeater",        "alive": true,        "type": "Transceiver",        "uplink_low": 145990000,        "uplink_high": null,        "uplink_drift": null,        "downlink_low": 437800000,        "downlink_high": null,        "downlink_drift": null,        "mode": "FM",        "mode_id": 1,        "uplink_mode": "FM",        "invert": false,        "baud": null,        "sat_id": "XSKZ-5603-1870-9019-3066",        "norad_cat_id": 25544,        "norad_follow_id": null,        "status": "active",        "updated": "2020-09-03T13:14:41.552071Z",        "citation": "https://www.ariss.org/press-releases/september-2-2020",        "service": "Amateur",        "iaru_coordination": "N/A",        "iaru_coordination_url": "",        "itu_notification": {            "urls": []        },        "frequency_violation": false,        "unconfirmed": false    },</code></pre></div>It looks like <br><br>"sat_id": "XSKZ-5603-1870-9019-3066",<br><br>is a NORAD code, but I've never seen any of keps data including this as its far too long to include within the character limit for the TLE data<br><br>Strangely, searching on "XSKZ-5603-1870-9019-3066" only seems to return results from db.satnogs.org, and even including NORAD in the search string doesn't give any useful results<br><br>Overall, I'm sceptical that satnogs data would be of any use, and how accurate it is.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 18, 2024 11:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-09-18T21:52:40</updated>
+
+		<published>2024-09-18T21:52:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33028#p33028</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33028#p33028"/>
+		<title type="html"><![CDATA[Re: Satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=33028#p33028"><![CDATA[
+Some more info about the 878<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2641&amp;sid=c302c2f979b1f55cbb22a644b6bba71c" class="postimage" alt="Capture.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Sep 18, 2024 9:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-17T07:26:51</updated>
+
+		<published>2024-09-17T07:26:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4411&amp;p=32985#p32985</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=32985#p32985"/>
+		<title type="html"><![CDATA[Re: Satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=32985#p32985"><![CDATA[
+<blockquote class="uncited"><div>Noticed that Anytone has included satellite support in the 3.04 release for 878UV+ &amp; 878UVII+<br>I guess they got the idea from OpenGD77.<br><br>The radar position seems about the same but time and elevation is totally different on the 878<br><br>RT3-878.JPG</div></blockquote>Someone emailed me links to YT videos about this today.<br><br>Looks like Anytone copied all of the OpenGD77 satellite functionality<br><br>Prediction on the Anytone seems to be very very slow, I was also told that sometimes its incorrect.<br>They also can't spell "predicting", adding an extra "i" into their version of this word <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>The OpenGD77 predictions have been verified by many people against the AMSAT web page predictions and also against various apps, and have always been correct.<br><br>Check the Anytone predictions against the AMSAT website etc<br><br>Also be aware that the predictions are only as good as the keps data.  Do you know where Anytone sources their keps ?<br>With OpenGD77 you can specify from where you download the keps.<br>The default is <a href="https://celestrak.org/NORAD/elements/amateur.txt" class="postlink">https://celestrak.org/NORAD/elements/amateur.txt</a>  because normally this is the most accurate source.<br><br>PS.<br><br>I'm not an expert in satellite operation, but this functionality is tested by people who are very expert in this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 17, 2024 7:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-09-17T07:10:57</updated>
+
+		<published>2024-09-17T07:10:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4411&amp;p=32984#p32984</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=32984#p32984"/>
+		<title type="html"><![CDATA[Satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4411&amp;p=32984#p32984"><![CDATA[
+Noticed that Anytone has included satellite support in the 3.04 release for 878UV+ &amp; 878UVII+<br>I guess they got the idea from OpenGD77.<br><br>The radar position seems about the same but time and elevation is totally different on the 878<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2640&amp;sid=c302c2f979b1f55cbb22a644b6bba71c" class="postimage" alt="RT3-878.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Sep 17, 2024 7:10 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

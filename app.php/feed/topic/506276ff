@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5062" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-15T11:45:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5062</id>
+
+		<entry>
+		<author><name><![CDATA[WC1G]]></name></author>
+		<updated>2025-04-15T11:45:18</updated>
+
+		<published>2025-04-15T11:45:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36762#p36762</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36762#p36762"/>
+		<title type="html"><![CDATA[Re: Radio with the best GPS/compatability]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36762#p36762"><![CDATA[
+Thanks! That's what I was interested in. I will look into swapping mine out. Surface mount isn't my strong suite, but I think I'll get some practice in on some scrap boards and see what I can do.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8461">WC1G</a> — Tue Apr 15, 2025 11:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-14T22:01:56</updated>
+
+		<published>2025-04-14T22:01:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36759#p36759</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36759#p36759"/>
+		<title type="html"><![CDATA[Re: Radio with the best GPS/compatability]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36759#p36759"><![CDATA[
+<blockquote class="uncited"><div>I have a couple of the original TYT 390's with GPS. I'm very happy with the firmware but as we all know the GPS reception is terrible. I tried a bunch of mods I've come across but still mediocre. I read that the "New version" has much better GPS but I can't tell if they are talking about the Plus model or just new production radios? If it is the Plus model is that now fully supported by OpenGD77? Or is there a completely different radio that's compatible with a decent GPS? I'm looking for a waterproof HT with APRS for around $100 and would prefer it runs OpenGD77.<br><br>I appreciate any input and clarification, thanks! <br>WC1G</div></blockquote>Its impossible to know what TYT are doing.<br><br>The 10W radio is a different hardware design to the 5W radio, and has been supported by OpenGD77 for many months.<br><br>People say the GPS is better in these radios than the older radios, but this seems to be because it has a slighly newer generation of GPS module in it.<br><br>However, newer is not latest... i.e They just put a slighly better GPS in these radios, possibly because they can no longer source the older GPS, as its unlikely to still be in production.<br><br>Eventually they'll need to fit the 5W / Non-Plus with the newer GPS modules, because the old module is not available<br><br>But its impossible to know, when you buy a 5W radio, when it was manufactured and what GPS it has in it.<br><br>If you really want the best possible GPS performance, you would need to replace the GPS module with a latest / M10 generation GPS, which supports multiple constellations. i.e these are now called GNSS not GPS, as GPS now generally refers to the American satellite network, whereas GNSS refers to multiple constellations.<br><br>However, currently OpenGD77 does not fully support M10 class GNSS modules, on the constellation and RSSI view, as they send this data in a slighly different way to the previous class of modules.<br><br>The radio can still however get a GPS fix. Its just those 2 screens don't work correctly.<br><br><br>I have retrofitted M10 class GPS modules into all my MD9600 radios, and I know other people who have done the same.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Apr 14, 2025 10:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WC1G]]></name></author>
+		<updated>2025-04-14T20:19:29</updated>
+
+		<published>2025-04-14T20:19:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36756#p36756</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36756#p36756"/>
+		<title type="html"><![CDATA[Radio with the best GPS/compatability]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5062&amp;p=36756#p36756"><![CDATA[
+I have a couple of the original TYT 390's with GPS. I'm very happy with the firmware but as we all know the GPS reception is terrible. I tried a bunch of mods I've come across but still mediocre. I read that the "New version" has much better GPS but I can't tell if they are talking about the Plus model or just new production radios? If it is the Plus model is that now fully supported by OpenGD77? Or is there a completely different radio that's compatible with a decent GPS? I'm looking for a waterproof HT with APRS for around $100 and would prefer it runs OpenGD77.<br><br>I appreciate any input and clarification, thanks! <br>WC1G<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8461">WC1G</a> — Mon Apr 14, 2025 8:19 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

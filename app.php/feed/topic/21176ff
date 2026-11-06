@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/211" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-12-01T21:21:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/211</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-01T21:21:57</updated>
+
+		<published>2019-12-01T21:21:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=211&amp;p=1286#p1286</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=211&amp;p=1286#p1286"/>
+		<title type="html"><![CDATA[Re: CPS - Firmware Loader feature request]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=211&amp;p=1286#p1286"><![CDATA[
+I think the loader is stable now.<br><br>I will remove the message completely<br><br>This will be in the next release of the CPS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 01, 2019 9:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-29T20:06:16</updated>
+
+		<published>2019-11-29T20:06:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=211&amp;p=1082#p1082</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=211&amp;p=1082#p1082"/>
+		<title type="html"><![CDATA[Re: CPS - Firmware Loader feature request]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=211&amp;p=1082#p1082"><![CDATA[
+Yes.<br><br>I will put this on the To Do list<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Nov 29, 2019 8:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG3GSP]]></name></author>
+		<updated>2019-11-29T15:29:49</updated>
+
+		<published>2019-11-29T15:29:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=211&amp;p=1063#p1063</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=211&amp;p=1063#p1063"/>
+		<title type="html"><![CDATA[[Solved - in next CPS release] CPS - Firmware Loader feature request]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=211&amp;p=1063#p1063"><![CDATA[
+Is it possible to show the experimental warning before the upload only once?<br><br>Maybe a checkbox with a "agree"-Button at the first use of the Firmware Loader as a idea?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=136">DG3GSP</a> — Fri Nov 29, 2019 3:29 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

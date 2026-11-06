@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3883" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-24T16:54:25</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3883</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-24T16:54:25</updated>
+
+		<published>2024-03-24T16:54:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30349#p30349</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30349#p30349"/>
+		<title type="html"><![CDATA[Re: Updated Voice prompts  2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30349#p30349"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Wow, I guess you forgot a small detail, everyone here is doing that FOR FREE, on their spare time, so I strongly suggest you to have a little more respect for that. Take care about the words you're using.<br>You're warned.<br><br>Next, the current voice prompt file is 100% identical to the that SP7CZO sent me, and it has been validated by him (from his email):<blockquote class="uncited"><div>If you publish voice files in this version, I assure you that Polish users will be satisfied. I recommend myself for the future.</div></blockquote> <br><br>To prove it, here is the diff of the current (latest) version, and the one he sent me in December:<div class="codebox"><p>CODE: </p><pre><code>--- /home/daniel/tmp/lang/polish/From_december/wordlist_polish.csv2024-03-23 03:58:32.766242015 +0100+++ languages/polish/wordlist_polish.csv2024-03-21 11:36:26.815478058 +0100@@ -359,3 +359,5 @@ aprs_turn_time,,,czas zwrotu auto_lock,,,automatyczna blokada +trackball,,,Trackball+dmr_force_dmo,,,DMR Force D M O</code></pre></div>So, if the resulting voice package is just crap in your eyes, I think you'd better to email Jeff Bezos to tell him how his (free) Amazon Polly service is crap. I think he will really appreciate that.<br><br>---<br>Daniel</div></blockquote><br>Je vous souhaite la bienvenue.<br>Je tiens à souligner que j'exprime toujours d'emblée mes remerciements pour votre engagement et votre temps.<br>Je vous demande donc de traiter vos complexes slaves ailleurs.<br><br>J'ai vu que dans la section consacrée à la possibilité de télécharger des fichiers linguistiques, pour la langue polonaise, il y a des fichiers datant de décembre de l'année dernière, ainsi que de nouveaux fichiers datant de mars de cette année.<br>Quel que soit le fichier que je télécharge vers la radio, le résultat final est très éloigné de ce qui a déjà été réalisé.<br>Et cela ressemble à la traduction en polonais d'avant l'époque où SP7CZO et moi-même avons repris la traduction.<br>Ne pensez-vous pas qu'il y a eu une erreur lors de la génération des fichiers ou de leur mise en ligne sur le serveur ?<br>Pour m'assurer que tout est en ordre, j'ai effacé complètement le fichier contenant les messages vocaux, je l'ai téléchargé proprement du site et je l'ai à nouveau téléchargé sur la radio. Le résultat est le même.<br>Je ne connais ni la programmation ni le code source. En tant que simple utilisateur, je fais part de mes observations, mais je me fais insulter, alors que je le fais poliment, sans aucun fondement.</div></blockquote><br>No need to switch to French.<br><br>When you insert<blockquote class="uncited"><div>However, I must say that your recent activities have been a total disaster.</div></blockquote>after your "thanks" (2nd line), let me tell that you get the wrong end of the stick.<br><br>The VP were updated and validated by SP7CZO. None of us understand Polish.<br>The resulting VP pack is automatically build, and IIRC, Roger is rebuilding everything on every release.<br><br>I suggest you to contact SP7CZO, and check with him if there is a problem between the latest version and the one he validated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 24, 2024 4:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sq9hht]]></name></author>
+		<updated>2024-03-24T13:37:38</updated>
+
+		<published>2024-03-24T13:37:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30345#p30345</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30345#p30345"/>
+		<title type="html"><![CDATA[Re: Updated Voice prompts  2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30345#p30345"><![CDATA[
+<blockquote class="uncited"><div>Wow, I guess you forgot a small detail, everyone here is doing that FOR FREE, on their spare time, so I strongly suggest you to have a little more respect for that. Take care about the words you're using.<br>You're warned.<br><br>Next, the current voice prompt file is 100% identical to the that SP7CZO sent me, and it has been validated by him (from his email):<blockquote class="uncited"><div>If you publish voice files in this version, I assure you that Polish users will be satisfied. I recommend myself for the future.</div></blockquote> <br><br>To prove it, here is the diff of the current (latest) version, and the one he sent me in December:<div class="codebox"><p>CODE: </p><pre><code>--- /home/daniel/tmp/lang/polish/From_december/wordlist_polish.csv2024-03-23 03:58:32.766242015 +0100+++ languages/polish/wordlist_polish.csv2024-03-21 11:36:26.815478058 +0100@@ -359,3 +359,5 @@ aprs_turn_time,,,czas zwrotu auto_lock,,,automatyczna blokada +trackball,,,Trackball+dmr_force_dmo,,,DMR Force D M O</code></pre></div>So, if the resulting voice package is just crap in your eyes, I think you'd better to email Jeff Bezos to tell him how his (free) Amazon Polly service is crap. I think he will really appreciate that.<br><br>---<br>Daniel</div></blockquote><br>Je vous souhaite la bienvenue.<br>Je tiens à souligner que j'exprime toujours d'emblée mes remerciements pour votre engagement et votre temps.<br>Je vous demande donc de traiter vos complexes slaves ailleurs.<br><br>J'ai vu que dans la section consacrée à la possibilité de télécharger des fichiers linguistiques, pour la langue polonaise, il y a des fichiers datant de décembre de l'année dernière, ainsi que de nouveaux fichiers datant de mars de cette année.<br>Quel que soit le fichier que je télécharge vers la radio, le résultat final est très éloigné de ce qui a déjà été réalisé.<br>Et cela ressemble à la traduction en polonais d'avant l'époque où SP7CZO et moi-même avons repris la traduction.<br>Ne pensez-vous pas qu'il y a eu une erreur lors de la génération des fichiers ou de leur mise en ligne sur le serveur ?<br>Pour m'assurer que tout est en ordre, j'ai effacé complètement le fichier contenant les messages vocaux, je l'ai téléchargé proprement du site et je l'ai à nouveau téléchargé sur la radio. Le résultat est le même.<br>Je ne connais ni la programmation ni le code source. En tant que simple utilisateur, je fais part de mes observations, mais je me fais insulter, alors que je le fais poliment, sans aucun fondement.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4266">sq9hht</a> — Sun Mar 24, 2024 1:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-23T03:13:54</updated>
+
+		<published>2024-03-23T03:13:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30321#p30321</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30321#p30321"/>
+		<title type="html"><![CDATA[Re: Updated Voice prompts  2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30321#p30321"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>The voice prompt files have been updated to include entries for new or revised functionality e.g. DMR Force DMO<br><br><a href="https://www.opengd77.com/downloads/Voice_Prompts/Latest/" class="postlink">downloads/Voice_Prompts/Latest/</a><br><br>Note.<br><br>Although the firmware now has Romanian language as an option we don't have voice prompt texts for that language</div></blockquote>Dear Colleagues.<br>Thank you for your work and, above all, your time.<br>However, I must say that your recent activities have been a total disaster.<br>I mean the Polish language, which has been totally converted and the messages have been used from some electronic translator.<br>There was already a thread in December last year together with my colleague sp7czo we sent manually translated files for Polish.<br>I daresay that, apart from English, it was one of the best translations for niche languages like Polish.<br>What is now available for download is absolutely and completely unusable.<br>Wouldn't it be possible to restore for our language the older version of the files, the ones we gave you?<br>What is currently there can simply be removed. It is better that there is no Polish language than it should look like this, especially since you have, after all, ready source files.<br>There is even a relevant thread on the forum.<br>I know that the key issue is that translations are needed for new features.<br>But it is better that a single message is not read than it is to be what it is now.<br>I would very much appreciate your taking a moment of your time on this issue.<br><br>73<br>Blind op Pawel sq9hht</div></blockquote>Wow, I guess you forgot a small detail, everyone here is doing that FOR FREE, on their spare time, so I strongly suggest you to have a little more respect for that. Take care about the words you're using.<br>You're warned.<br><br>Next, the current voice prompt file is 100% identical to the that SP7CZO sent me, and it has been validated by him (from his email):<blockquote class="uncited"><div>If you publish voice files in this version, I assure you that Polish users will be satisfied. I recommend myself for the future.</div></blockquote> <br><br>To prove it, here is the diff of the current (latest) version, and the one he sent me in December:<div class="codebox"><p>CODE: </p><pre><code>--- /home/daniel/tmp/lang/polish/From_december/wordlist_polish.csv2024-03-23 03:58:32.766242015 +0100+++ languages/polish/wordlist_polish.csv2024-03-21 11:36:26.815478058 +0100@@ -359,3 +359,5 @@ aprs_turn_time,,,czas zwrotu auto_lock,,,automatyczna blokada +trackball,,,Trackball+dmr_force_dmo,,,DMR Force D M O</code></pre></div>So, if the resulting voice package is just crap in your eyes, I think you'd better to email Jeff Bezos to tell him how his (free) Amazon Polly service is crap. I think he will really appreciate that.<br><br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 23, 2024 3:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sq9hht]]></name></author>
+		<updated>2024-03-22T18:51:06</updated>
+
+		<published>2024-03-22T18:51:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30311#p30311</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30311#p30311"/>
+		<title type="html"><![CDATA[Re: Updated Voice prompts  2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30311#p30311"><![CDATA[
+<blockquote class="uncited"><div>The voice prompt files have been updated to include entries for new or revised functionality e.g. DMR Force DMO<br><br><a href="https://www.opengd77.com/downloads/Voice_Prompts/Latest/" class="postlink">downloads/Voice_Prompts/Latest/</a><br><br>Note.<br><br>Although the firmware now has Romanian language as an option we don't have voice prompt texts for that language</div></blockquote>Dear Colleagues.<br>Thank you for your work and, above all, your time.<br>However, I must say that your recent activities have been a total disaster.<br>I mean the Polish language, which has been totally converted and the messages have been used from some electronic translator.<br>There was already a thread in December last year together with my colleague sp7czo we sent manually translated files for Polish.<br>I daresay that, apart from English, it was one of the best translations for niche languages like Polish.<br>What is now available for download is absolutely and completely unusable.<br>Wouldn't it be possible to restore for our language the older version of the files, the ones we gave you?<br>What is currently there can simply be removed. It is better that there is no Polish language than it should look like this, especially since you have, after all, ready source files.<br>There is even a relevant thread on the forum.<br>I know that the key issue is that translations are needed for new features.<br>But it is better that a single message is not read than it is to be what it is now.<br>I would very much appreciate your taking a moment of your time on this issue.<br><br>73<br>Blind op Pawel sq9hht<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4266">sq9hht</a> — Fri Mar 22, 2024 6:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2024-03-18T06:49:00</updated>
+
+		<published>2024-03-18T06:49:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30186#p30186</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30186#p30186"/>
+		<title type="html"><![CDATA[Re: Updated Voice prompts  2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30186#p30186"><![CDATA[
+thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Mon Mar 18, 2024 6:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-17T21:52:20</updated>
+
+		<published>2024-03-17T21:52:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30179#p30179</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30179#p30179"/>
+		<title type="html"><![CDATA[Updated Voice prompts  2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3883&amp;p=30179#p30179"><![CDATA[
+The voice prompt files have been updated to include entries for new or revised functionality e.g. DMR Force DMO<br><br><a href="https://www.opengd77.com/downloads/Voice_Prompts/Latest/" class="postlink">downloads/Voice_Prompts/Latest/</a><br><br>Note.<br><br>Although the firmware now has Romanian language as an option we don't have voice prompt texts for that language<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Mar 17, 2024 9:52 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

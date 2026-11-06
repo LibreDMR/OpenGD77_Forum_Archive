@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4846" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-06T04:48:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4846</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-06T04:48:59</updated>
+
+		<published>2025-02-06T04:48:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35600#p35600</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35600#p35600"/>
+		<title type="html"><![CDATA[Re: How to create and text voice prompts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35600#p35600"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Build tools are here<br><br>See <a href="https://www.opengd77.com/downloads/Voice_Prompts/tools" class="postlink">downloads/Voice_Prompts/tools</a></div></blockquote>I guess these tools are to create new voices?<br><blockquote class="uncited"><div>Localisation text files are here, but won't be the latest for the last beta, you will need to use the beta localisation files<br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts" class="postlink">downloads/localisation/voice_prompt_texts</a></div></blockquote>ok, I've checked this ones: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a> from the last beta: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4815" class="postlink">viewtopic.php?f=19&amp;t=4815</a><br><br>but what I want to know is if there is a way to test the XML files in the current voices to know is they sound properly? for example to verify pronunciations and some separated/individual characters modulation.</div></blockquote>We use a free online service called <a href="https://ttsmp3.com/" class="postlink">https://ttsmp3.com/</a>  to generate the voice files.<br><br>That site lets you type in text and listen to the audio.<br><br>However, be aware becuase ita a free service it has a limited number of words it will generate per day<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 06, 2025 4:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-06T00:26:08</updated>
+
+		<published>2025-02-06T00:26:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35597#p35597</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35597#p35597"/>
+		<title type="html"><![CDATA[Re: How to create and text voice prompts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35597#p35597"><![CDATA[
+<blockquote class="uncited"><div>Build tools are here<br><br>See <a href="https://www.opengd77.com/downloads/Voice_Prompts/tools" class="postlink">downloads/Voice_Prompts/tools</a></div></blockquote>I guess these tools are to create new voices?<br><blockquote class="uncited"><div>Localisation text files are here, but won't be the latest for the last beta, you will need to use the beta localisation files<br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts" class="postlink">downloads/localisation/voice_prompt_texts</a></div></blockquote>ok, I've checked this ones: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a> from the last beta: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4815" class="postlink">viewtopic.php?f=19&amp;t=4815</a><br><br>but what I want to know is if there is a way to test the XML files in the current voices to know is they sound properly? for example to verify pronunciations and some separated/individual characters modulation.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Feb 06, 2025 12:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-05T21:15:58</updated>
+
+		<published>2025-02-05T21:15:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35595#p35595</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35595#p35595"/>
+		<title type="html"><![CDATA[Re: How to create and text voice prompts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35595#p35595"><![CDATA[
+Build tools are here<br><br>See <a href="https://www.opengd77.com/downloads/Voice_Prompts/tools" class="postlink">downloads/Voice_Prompts/tools</a><br><br>Localisation text files are here, but won't be the latest for the last beta, you will need to use the beta localisation files<br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts" class="postlink">downloads/localisation/voice_prompt_texts</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 05, 2025 9:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-05T20:12:42</updated>
+
+		<published>2025-02-05T20:12:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35592#p35592</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35592#p35592"/>
+		<title type="html"><![CDATA[How to create and text voice prompts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35592#p35592"><![CDATA[
+<blockquote class="uncited"><div>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a></div></blockquote>about this, I would like to update the voice prompt text for spanish, because some are missing or have wrong translation, but... is there a way to test it? to know is these will sound properly in the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Feb 05, 2025 8:12 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

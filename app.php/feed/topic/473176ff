@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4731" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-05T11:01:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4731</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-01-05T11:01:29</updated>
+
+		<published>2025-01-05T11:01:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4731&amp;p=35001#p35001</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=35001#p35001"/>
+		<title type="html"><![CDATA[Re: MD 9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=35001#p35001"><![CDATA[
+Make sure you are turning the radio off from the front panel button. That allows it to save the last settings to flash. Just removing the power externally does not do this and relies on the internal backup battery which can easily become discharged. <br><br>You may also need to leave the radio connected to a power supply for an extended time (several days) to recharge the internal backup battery. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jan 05, 2025 11:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-05T06:45:25</updated>
+
+		<published>2025-01-05T06:45:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4731&amp;p=35000#p35000</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=35000#p35000"/>
+		<title type="html"><![CDATA[Re: MD 9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=35000#p35000"><![CDATA[
+<blockquote class="uncited"><div>I think maybe I posted my Question wrong please forgive me. When I turn my radio on now it comes up on say Zone A Channel 16. I change zones and channels throughout the day and when I turn it off it's on Zone E Channel 12 for example. When I turn it back on it comes up Zone A Channel 16 when I would like it to stay on whatever Zone and Channel, I turned it off on. I hope this makes more sense.<br><br> My apologies for not being clear on my issue, Thanks Len K3LJ</div></blockquote>Are you using the latest Beta version ?<br><br>We had to modify the firmware a while ago, so that it constantly saved the latest channel change etc to memory, otherwise if the power was disconnected, the last change of channel would not be saved, as the hardware does not have a battery to sustain the CPU for a second etc while it saves the current config<br><br>If you are running the latest Beta,  how old is your radio, as potentially it has a problem with the watch battery which powers the realtime clock and battery-backed RAM<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jan 05, 2025 6:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k3lj]]></name></author>
+		<updated>2025-01-04T23:30:22</updated>
+
+		<published>2025-01-04T23:30:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34996#p34996</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34996#p34996"/>
+		<title type="html"><![CDATA[Re: MD 9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34996#p34996"><![CDATA[
+I think maybe I posted my Question wrong please forgive me. When I turn my radio on now it comes up on say Zone A Channel 16. I change zones and channels throughout the day and when I turn it off it's on Zone E Channel 12 for example. When I turn it back on it comes up Zone A Channel 16 when I would like it to stay on whatever Zone and Channel, I turned it off on. I hope this makes more sense.<br><br> My apologies for not being clear on my issue, Thanks Len K3LJ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3881">k3lj</a> — Sat Jan 04, 2025 11:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k3lj]]></name></author>
+		<updated>2025-01-04T23:09:36</updated>
+
+		<published>2025-01-04T23:09:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34995#p34995</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34995#p34995"/>
+		<title type="html"><![CDATA[Re: MD 9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34995#p34995"><![CDATA[
+Thank you very much for the reply to my question.  best 73 Len K3LJ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3881">k3lj</a> — Sat Jan 04, 2025 11:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-04T22:32:38</updated>
+
+		<published>2025-01-04T22:32:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34993#p34993</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34993#p34993"/>
+		<title type="html"><![CDATA[Re: MD 9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34993#p34993"><![CDATA[
+<blockquote class="uncited"><div>I have a MD9600 that functions great using OpenGD77 and I have several portables in my collection that are on OpenGD77 as well. The issue that I am having is that I can't remember or find how to have my radio come back on to a particular zone and talk group when I turn the radio off. I had it so that when I turned the radio off, let's say I was Zone A channel 16 when I turned the radio off. When I turned the radio off and back on, I wanted it to return to Zone C channel 2 no matter where it was when I turned it off.<br><br>Thanks for any assistance that you can give me. 73, Len K3LJ</div></blockquote>The firmware doesn't have a concept of a default channel and default zone.  IIRC the official firmware doesn't have this either, so there won't be anywhere for this to be stored in the codeplug.<br><br>They only way you could have this extra functionality is to download the firmware source code, and modify it, and build it as a custom version for your specific requirement<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jan 04, 2025 10:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k3lj]]></name></author>
+		<updated>2025-01-04T21:57:56</updated>
+
+		<published>2025-01-04T21:57:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34990#p34990</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34990#p34990"/>
+		<title type="html"><![CDATA[MD 9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4731&amp;p=34990#p34990"><![CDATA[
+I have a MD9600 that functions great using OpenGD77 and I have several portables in my collection that are on OpenGD77 as well. The issue that I am having is that I can't remember or find how to have my radio come back on to a particular zone and talk group when I turn the radio off. I had it so that when I turned the radio off, let's say I was Zone A channel 16 when I turned the radio off. When I turned the radio off and back on, I wanted it to return to Zone C channel 2 no matter where it was when I turned it off.<br><br>Thanks for any assistance that you can give me. 73, Len K3LJ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3881">k3lj</a> — Sat Jan 04, 2025 9:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3804" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-19T08:11:06</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3804</id>
+
+		<entry>
+		<author><name><![CDATA[UR6LRD]]></name></author>
+		<updated>2025-05-19T08:11:06</updated>
+
+		<published>2025-05-19T08:11:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37171#p37171</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37171#p37171"/>
+		<title type="html"><![CDATA[R???????? ?? ????????? 250 ??? ???????????? ?????????? ????????? ????e: Request a copy of RD-5R firmware for hotspot sup]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37171#p37171"><![CDATA[
+250 mW I think is not the limit. RD-5R has a problem with the sound of a motor boat in the DMR, it manifests itself at maximum power. It is necessary to disassemble and measure which stabilizer sags during transmission. I think this is the problem of this radio. Users without experience in radio electronics should not install firmware with an access point. I think I will conduct an experiment in the next few days and will report the result.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8592">UR6LRD</a> — Mon May 19, 2025 8:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR6LRD]]></name></author>
+		<updated>2025-05-19T07:58:32</updated>
+
+		<published>2025-05-19T07:58:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37170#p37170</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37170#p37170"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37170#p37170"><![CDATA[
+Hello. At 7 volts, the USB connection drops out during transmission at 8 volts randomly, maybe 1 minute maybe 10 minutes. At 9 volts, the point worked for 4 hours yesterday. Today I will turn it on for the whole day and test it. The power at 9 volts does not increase significantly. At 250 mW, I did not try more. But I tried to irradiate with another station turned on at 5 watts, the connection was stable.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8592">UR6LRD</a> — Mon May 19, 2025 7:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-18T22:59:09</updated>
+
+		<published>2025-05-18T22:59:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37168#p37168</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37168#p37168"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37168#p37168"><![CDATA[
+<blockquote class="uncited"><div>Hello everyone. Unstable operation of the access point on the RD-5R is not related to USB interference. It is related to a power supply sag during transmission. I tried connecting an external power supply. At 9 volts, 1.5 amps and a power of 250 mW, everything has been working stably for three hours. I do not claim that I have found a solution, but for now it works. From the battery, the port fails depending on the battery charge.</div></blockquote>9V is much higher than the normal maximum voltage from the batteries, i.e max voltage when fully charged is usually 8.2V<br>Using 9V will cause the internal 5V and 3.3V voltage regulators to generate more heat than they are designed to dissipate.<br><br>Did you try using 8V or less, which is the normal operating voltage from batteries.?<br><br>Does it work at higher power levels using the external PSU?<br><br>Did you measure the Tx power ?  i.e The calibration data in the RD5R is not normally accurate and your output power may be higher or lower than this value. i.e possibly much lower<br><br>Also. Is the 250mW setting the maximum stable power even when suppied from an external PSU?<br><br><br><br>Overall, it still appears that Hotspot mode is not stable on the RD5R in its normal operating configuation.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 18, 2025 10:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR6LRD]]></name></author>
+		<updated>2025-05-18T22:14:21</updated>
+
+		<published>2025-05-18T22:14:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37167#p37167</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37167#p37167"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37167#p37167"><![CDATA[
+Hello everyone. Unstable operation of the access point on the RD-5R is not related to USB interference. It is related to a power supply sag during transmission. I tried connecting an external power supply. At 9 volts, 1.5 amps and a power of 250 mW, everything has been working stably for three hours. I do not claim that I have found a solution, but for now it works. From the battery, the port fails depending on the battery charge.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8592">UR6LRD</a> — Sun May 18, 2025 10:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR6LRD]]></name></author>
+		<updated>2025-05-15T07:28:03</updated>
+
+		<published>2025-05-15T07:28:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37120#p37120</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37120#p37120"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37120#p37120"><![CDATA[
+Thank you. I assembled and flashed RD5R with access point mode. DeepSeek did everything.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8592">UR6LRD</a> — Thu May 15, 2025 7:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR6LRD]]></name></author>
+		<updated>2025-05-13T20:08:04</updated>
+
+		<published>2025-05-13T20:08:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37091#p37091</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37091#p37091"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37091#p37091"><![CDATA[
+I figured out how to compile everything is ok. Now I need to figure out how to enable access point mode. Where can I enable it??<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8592">UR6LRD</a> — Tue May 13, 2025 8:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-13T11:02:46</updated>
+
+		<published>2025-05-13T11:02:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37089#p37089</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37089#p37089"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37089#p37089"><![CDATA[
+Yup!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue May 13, 2025 11:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-13T10:49:51</updated>
+
+		<published>2025-05-13T10:49:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37087#p37087</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37087#p37087"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37087#p37087"><![CDATA[
+<blockquote class="uncited"><div>And it's not possible to have the hotspot working on a RD5R, as the USB is interrupted while transmitting, hence MMDVMHost is hanging.</div></blockquote>I already told people multiple times that we know this doesn't work, but they don't seem to believe us.<br><br>E.g. <a href="https://www.opengd77.com/viewtopic.php?f=9&amp;t=3804#p29655" class="postlink">viewtopic.php?f=9&amp;t=3804#p29655</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue May 13, 2025 10:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-13T09:09:27</updated>
+
+		<published>2025-05-13T09:09:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37083#p37083</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37083#p37083"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37083#p37083"><![CDATA[
+And it's not possible to have the hotspot working on a RD5R, as the USB is interrupted while transmitting, hence MMDVMHost is hanging.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue May 13, 2025 9:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR6LRD]]></name></author>
+		<updated>2025-05-13T08:18:48</updated>
+
+		<published>2025-05-13T08:18:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37082#p37082</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37082#p37082"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37082#p37082"><![CDATA[
+Thanks for the answer. I use this program for the first time. I'm not sure if I'm doing everything right. I have a white screen without changing the source code.I choose .project then compile and export the file then flash it via cps and white screen. It's sad I've been struggling with this for the second evening.I try with these sources 20240908 for RD5R<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8592">UR6LRD</a> — Tue May 13, 2025 8:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-13T07:15:45</updated>
+
+		<published>2025-05-13T07:15:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37080#p37080</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37080#p37080"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37080#p37080"><![CDATA[
+<blockquote class="uncited"><div>good day. I tried to compile the RD5R firmware with access point mode. I got nothing, the firmware is loaded, then a white screen. I can’t find the firmware with an access point. If there is such a firmware for the RD5R, if there is such a firmware, I would be grateful. I have two such radios, with one I want to conduct an experiment on eliminating USB interference.</div></blockquote>Download the source code again, and recompile without your modifiation, then load it into the radio.<br><br>If this works but your modified version didn't work, then the problem is your modification.<br><br>If the unmodified version doesn't work either, then you have a problem with your build toolchain (MCUExpresso)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue May 13, 2025 7:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR6LRD]]></name></author>
+		<updated>2025-05-13T06:33:48</updated>
+
+		<published>2025-05-13T06:33:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37078#p37078</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37078#p37078"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=37078#p37078"><![CDATA[
+good day. I tried to compile the RD5R firmware with access point mode. I got nothing, the firmware is loaded, then a white screen. I can’t find the firmware with an access point. If there is such a firmware for the RD5R, if there is such a firmware, I would be grateful. I have two such radios, with one I want to conduct an experiment on eliminating USB interference.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8592">UR6LRD</a> — Tue May 13, 2025 6:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-21T19:57:43</updated>
+
+		<published>2024-02-21T19:57:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29677#p29677</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29677#p29677"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29677#p29677"><![CDATA[
+Code is compiled using MCUExpresso which is the official development IDE for the MK22 in the RD-5R<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 21, 2024 7:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BG2LWR]]></name></author>
+		<updated>2024-02-21T12:58:16</updated>
+
+		<published>2024-02-21T12:58:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29671#p29671</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29671#p29671"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29671#p29671"><![CDATA[
+<blockquote class="uncited"><div>It's available in the following forum section:<br><a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3636" class="postlink">viewtopic.php?f=13&amp;t=3636</a><br><br>Beware, hotspot (modem) mode is not supported on the RD-5R, because of hardware limitation.</div></blockquote>I guess I'll just buy a hot circuit. Thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5658">BG2LWR</a> — Wed Feb 21, 2024 12:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BG2LWR]]></name></author>
+		<updated>2024-02-21T03:12:15</updated>
+
+		<published>2024-02-21T03:12:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29663#p29663</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29663#p29663"/>
+		<title type="html"><![CDATA[Re: Request a copy of RD-5R firmware for hotspot support]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3804&amp;p=29663#p29663"><![CDATA[
+<blockquote class="uncited"><div>It's available in the following forum section:<br><a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3636" class="postlink">viewtopic.php?f=13&amp;t=3636</a><br><br>Beware, hotspot (modem) mode is not supported on the RD-5R, because of hardware limitation.</div></blockquote>Thank you, good wishes to you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5658">BG2LWR</a> — Wed Feb 21, 2024 3:12 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

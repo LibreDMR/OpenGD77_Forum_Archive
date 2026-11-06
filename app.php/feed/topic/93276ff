@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/932" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-15T07:02:23</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/932</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-15T07:02:23</updated>
+
+		<published>2025-05-15T07:02:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=37119#p37119</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=37119#p37119"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=37119#p37119"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>Ok. Thanks.<br><br>So does the toolchain download contain the API / SDK for the USB and GPIO and other peripherals of this MCU, or it's it only a toolchain to compile applications for the CPU core?</div></blockquote>it's only cpu compiler toolchain, not bsp, hr c7000's company has a demo dev kit for that.<br><br>  307949 2017? 5?23? Boot??????.docx<br> 1197367 2018? 3?13? boot_tools.rar<br> 9415144 2017?12? 8? C7000????.rar<br> 3360502 2019? 3?12? C7000_Rda1846s_AF_demo_v1.0.rar<br> 1764956 2017? 6?16? CDS?????????.docx<br>  946659 2017? 6?28? HR_C7000_AF??????.PDF<br>  681971 2017? 7?24? IAP????????????USB?.docx<br>  251928 2018? 1?15? TOOL.rar</div></blockquote>Could you please send me a copy of these documents? my email: <a href="mailto:qbs524@163.com">qbs524@163.com</a> ,TKS.<br>??????????????</div></blockquote>Just put them somewhere which does not require an account to download them<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu May 15, 2025 7:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-05-15T02:58:50</updated>
+
+		<published>2025-05-15T02:58:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=37118#p37118</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=37118#p37118"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=37118#p37118"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>c7000's ck803 is now <a href="https://www.xrvm.com/product/xuantie/E803?spm=xrvm.14300867.0.0.35f39b290cDPym" class="postlink">https://www.xrvm.com/product/xuantie/E8 ... 9b290cDPym</a>, so it actually has open(need registeration) toolchains, but c7000 has  it's own lib for builtin function like baseband/ambe codec.</div></blockquote>Ok. Thanks.<br><br>So does the toolchain download contain the API / SDK for the USB and GPIO and other peripherals of this MCU, or it's it only a toolchain to compile applications for the CPU core?</div></blockquote>it's only cpu compiler toolchain, not bsp, hr c7000's company has a demo dev kit for that.<br><br>  307949 2017? 5?23? Boot??????.docx<br> 1197367 2018? 3?13? boot_tools.rar<br> 9415144 2017?12? 8? C7000????.rar<br> 3360502 2019? 3?12? C7000_Rda1846s_AF_demo_v1.0.rar<br> 1764956 2017? 6?16? CDS?????????.docx<br>  946659 2017? 6?28? HR_C7000_AF??????.PDF<br>  681971 2017? 7?24? IAP????????????USB?.docx<br>  251928 2018? 1?15? TOOL.rar</div></blockquote>Could you please send me a copy of these documents? my email: <a href="mailto:qbs524@163.com">qbs524@163.com</a> ,TKS.<br>??????????????<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Thu May 15, 2025 2:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-04T23:25:18</updated>
+
+		<published>2024-12-04T23:25:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34377#p34377</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34377#p34377"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34377#p34377"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>c7000's ck803 is now <a href="https://www.xrvm.com/product/xuantie/E803?spm=xrvm.14300867.0.0.35f39b290cDPym" class="postlink">https://www.xrvm.com/product/xuantie/E8 ... 9b290cDPym</a>, so it actually has open(need registeration) toolchains, but c7000 has  it's own lib for builtin function like baseband/ambe codec.</div></blockquote>I've created an account there, but where are the tools? because can't find anything related with C7000 or E803 to download in that website.</div></blockquote>I couldn't track down the files either.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 04, 2024 11:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-04T23:14:00</updated>
+
+		<published>2024-12-04T23:14:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34375#p34375</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34375#p34375"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34375#p34375"><![CDATA[
+<blockquote class="uncited"><div>c7000's ck803 is now <a href="https://www.xrvm.com/product/xuantie/E803?spm=xrvm.14300867.0.0.35f39b290cDPym" class="postlink">https://www.xrvm.com/product/xuantie/E8 ... 9b290cDPym</a>, so it actually has open(need registeration) toolchains, but c7000 has  it's own lib for builtin function like baseband/ambe codec.</div></blockquote>I've created an account there, but where are the tools? because can't find anything related with C7000 or E803 to download in that website.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Dec 04, 2024 11:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-04T03:14:56</updated>
+
+		<published>2024-12-04T03:14:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34351#p34351</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34351#p34351"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34351#p34351"><![CDATA[
+<blockquote class="uncited"><div>.......<br><br><br>it's only cpu compiler toolchain, not bsp, hr c7000's company has a demo dev kit for that.<br><br>  307949 2017? 5?23? Boot??????.docx<br> 1197367 2018? 3?13? boot_tools.rar<br> 9415144 2017?12? 8? C7000????.rar<br> 3360502 2019? 3?12? C7000_Rda1846s_AF_demo_v1.0.rar<br> 1764956 2017? 6?16? CDS?????????.docx<br>  946659 2017? 6?28? HR_C7000_AF??????.PDF<br>  681971 2017? 7?24? IAP????????????USB?.docx<br>  251928 2018? 1?15? TOOL.rar</div></blockquote><br>post a link to those files<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 04, 2024 3:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7AS]]></name></author>
+		<updated>2024-12-04T03:13:01</updated>
+
+		<published>2024-12-04T03:13:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34350#p34350</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34350#p34350"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34350#p34350"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>c7000's ck803 is now <a href="https://www.xrvm.com/product/xuantie/E803?spm=xrvm.14300867.0.0.35f39b290cDPym" class="postlink">https://www.xrvm.com/product/xuantie/E8 ... 9b290cDPym</a>, so it actually has open(need registeration) toolchains, but c7000 has  it's own lib for builtin function like baseband/ambe codec.</div></blockquote>Ok. Thanks.<br><br>So does the toolchain download contain the API / SDK for the USB and GPIO and other peripherals of this MCU, or it's it only a toolchain to compile applications for the CPU core?</div></blockquote>it's only cpu compiler toolchain, not bsp, hr c7000's company has a demo dev kit for that.<br><br>  307949 2017? 5?23? Boot??????.docx<br> 1197367 2018? 3?13? boot_tools.rar<br> 9415144 2017?12? 8? C7000????.rar<br> 3360502 2019? 3?12? C7000_Rda1846s_AF_demo_v1.0.rar<br> 1764956 2017? 6?16? CDS?????????.docx<br>  946659 2017? 6?28? HR_C7000_AF??????.PDF<br>  681971 2017? 7?24? IAP????????????USB?.docx<br>  251928 2018? 1?15? TOOL.rar<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7395">BA7AS</a> — Wed Dec 04, 2024 3:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-30T10:34:02</updated>
+
+		<published>2024-11-30T10:34:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34275#p34275</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34275#p34275"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34275#p34275"><![CDATA[
+<blockquote class="uncited"><div>c7000's ck803 is now <a href="https://www.xrvm.com/product/xuantie/E803?spm=xrvm.14300867.0.0.35f39b290cDPym" class="postlink">https://www.xrvm.com/product/xuantie/E8 ... 9b290cDPym</a>, so it actually has open(need registeration) toolchains, but c7000 has  it's own lib for builtin function like baseband/ambe codec.</div></blockquote>Ok. Thanks.<br><br>So does the toolchain download contain the API / SDK for the USB and GPIO and other peripherals of this MCU, or it's it only a toolchain to compile applications for the CPU core?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 30, 2024 10:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7AS]]></name></author>
+		<updated>2024-11-30T06:51:37</updated>
+
+		<published>2024-11-30T06:51:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34274#p34274</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34274#p34274"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34274#p34274"><![CDATA[
+c7000's ck803 is now <a href="https://www.xrvm.com/product/xuantie/E803?spm=xrvm.14300867.0.0.35f39b290cDPym" class="postlink">https://www.xrvm.com/product/xuantie/E8 ... 9b290cDPym</a>, so it actually has open(need registeration) toolchains, but c7000 has  it's own lib for builtin function like baseband/ambe codec.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7395">BA7AS</a> — Sat Nov 30, 2024 6:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3GDZ]]></name></author>
+		<updated>2024-11-25T11:46:21</updated>
+
+		<published>2024-11-25T11:46:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34207#p34207</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34207#p34207"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34207#p34207"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi everyone ! By chance in the network found a specification for the chip HR_C7000, may be useful to someone, unfortunately in Chinese, but all the abbreviations in English - <a href="https://www.connectsystems.com/products/top/radios/CS120D/HR_C7000%20Document%201.pdf" class="postlink">https://www.connectsystems.com/products ... nt%201.pdf</a></div></blockquote>This document is already known.<br><br>The problem of supporting the C7000 is also that there is No   Software Development Kit ( SDK) for this chip, or any publically available C compiler / build tool chain</div></blockquote>Thanks for the answer ! I am unfortunately not competent in these matters, just thought it might help ! Also above wrote information that the developer is ready to assist in the development of firmware and even asked how he can help for this, I'm not sure, but it seems to me just need an understanding person to formulate a request and perhaps get what we need ! But of course this is just speculation and perhaps they are too naive )<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7377">UB3GDZ</a> — Mon Nov 25, 2024 11:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-25T09:45:56</updated>
+
+		<published>2024-11-25T09:45:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34206#p34206</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34206#p34206"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34206#p34206"><![CDATA[
+<blockquote class="uncited"><div>Hi everyone ! By chance in the network found a specification for the chip HR_C7000, may be useful to someone, unfortunately in Chinese, but all the abbreviations in English - <a href="https://www.connectsystems.com/products/top/radios/CS120D/HR_C7000%20Document%201.pdf" class="postlink">https://www.connectsystems.com/products ... nt%201.pdf</a></div></blockquote>This document is already known.<br><br>The problem of supporting the C7000 is also that there is No   Software Development Kit ( SDK) for this chip, or any publically available C compiler / build tool chain<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Nov 25, 2024 9:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3GDZ]]></name></author>
+		<updated>2024-11-25T09:26:59</updated>
+
+		<published>2024-11-25T09:26:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=34205#p34205</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34205#p34205"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=34205#p34205"><![CDATA[
+Hi everyone ! By chance in the network found a specification for the chip HR_C7000, may be useful to someone, unfortunately in Chinese, but all the abbreviations in English - <a href="https://www.connectsystems.com/products/top/radios/CS120D/HR_C7000%20Document%201.pdf" class="postlink">https://www.connectsystems.com/products ... nt%201.pdf</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7377">UB3GDZ</a> — Mon Nov 25, 2024 9:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-03-26T02:52:05</updated>
+
+		<published>2024-03-26T02:52:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=30364#p30364</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=30364#p30364"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=30364#p30364"><![CDATA[
+Ailunce HD2 inside, it uses C7000 chip too<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/BRSggYNPsXI">youtu.be/BRSggYNPsXI</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Tue Mar 26, 2024 2:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-07-23T05:36:59 </updated>
+
+		<published>2023-08-15T00:52:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=25246#p25246</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=25246#p25246"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=25246#p25246"><![CDATA[
+<blockquote class="uncited"><div>Thanks for the tool information, unfortunately I am giving up on the V2 radio, as I have found out when trying to use it in real world conditions that it stops transmitting after 6 seconds when PTT is kept pushed even with all timeouts set to very high values or fully disabled (and VFO nor full reset will help with that). Besides other issues I had with this radio (and even the tune tool will not improve the BER and somebody else is reporting terrible BER with DM1701 hotspot in this forum) I would strongly suggest this new version is just a waste of money.</div></blockquote>these symptoms makes me guess that your radio is misaligned/uncalibrated and that's why you have these issues, try check my post here: <a href="https://auto-cb18.ru/viewtopic.php?p=143751#p143751" class="postlink">https://auto-cb18.ru/viewtopic.php?p=143751#p143751</a> because something similar happened to others users too, and following the comments from there and the tool I've mentioned you can recover your radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Tue Aug 15, 2023 12:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-08-11T18:33:21</updated>
+
+		<published>2023-08-11T18:33:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=25142#p25142</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=25142#p25142"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=25142#p25142"><![CDATA[
+Thanks for the tool information, unfortunately I am giving up on the V2 radio, as I have found out when trying to use it in real world conditions that it stops transmitting after 6 seconds when PTT is kept pushed even with all timeouts set to very high values or fully disabled (and VFO nor full reset will help with that). Besides other issues I had with this radio (and even the tune tool will not improve the BER and somebody else is reporting terrible BER with DM1701 hotspot in this forum) I would strongly suggest this new version is just a waste of money.<br><blockquote class="uncited"><div><blockquote class="uncited"><div>I do not know of any way to adjust the factory calibration right now.<br>also the frequency calibration of this specific radio seems to be quite off (&gt; 200 Hz according to SDR/hotspot) at least in the UHF band.</div></blockquote>about that, there is a tool for calibration/alignment (<strong class="text-strong">HD1 Tune(C7000) v3.03</strong>).</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Fri Aug 11, 2023 6:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2023-07-19T10:39:29</updated>
+
+		<published>2023-07-19T10:39:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=932&amp;p=24546#p24546</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=932&amp;p=24546#p24546"/>
+		<title type="html"><![CDATA[Re: Ailunce HD1]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=932&amp;p=24546#p24546"><![CDATA[
+<blockquote class="uncited"><div>I do not know of any way to adjust the factory calibration right now.<br>[*]also the frequency calibration of this specific radio seems to be quite off (&gt; 200 Hz according to SDR/hotspot) at least in the UHF band.</div></blockquote>about that, there is a tool for calibration/alignment (<strong class="text-strong">HD1 Tune(C7000) v3.03</strong>).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Jul 19, 2023 10:39 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

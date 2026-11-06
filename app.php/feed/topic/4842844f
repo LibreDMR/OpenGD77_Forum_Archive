@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4842" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-17T04:17:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4842</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-17T04:17:59</updated>
+
+		<published>2025-02-17T04:17:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35794#p35794</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35794#p35794"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35794#p35794"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4883" class="postlink">viewtopic.php?f=12&amp;t=4883</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Feb 17, 2025 4:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB9WCN]]></name></author>
+		<updated>2025-02-16T17:27:14</updated>
+
+		<published>2025-02-16T17:27:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35787#p35787</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35787#p35787"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35787#p35787"><![CDATA[
+Hello Daniel<br><br>Many thanks.<br><br>Regarding VFO A/B, I just wanted to say that it is not translated in either setting.<br><br>Regards René<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3859">HB9WCN</a> — Sun Feb 16, 2025 5:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-16T15:58:49</updated>
+
+		<published>2025-02-16T15:58:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35786#p35786</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35786#p35786"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35786#p35786"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hello<br><br>Here is an update of the German language files.<br><br>I also noticed that for VFO A and VFO B force DMO is not translated.<br><br>Greeting<br>Rene</div></blockquote>Thanks for the update.<br>I fixed the VFO's "Force DMO" problem.<br>About the VFO A/B, that shouldn't be translated, as VFO names are read only.<br><br>All of this will be part of the next release (I will put the new German.xml file in the localization files download location).<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Feb 16, 2025 3:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB9WCN]]></name></author>
+		<updated>2025-02-16T15:03:17</updated>
+
+		<published>2025-02-16T15:03:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35785#p35785</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35785#p35785"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35785#p35785"><![CDATA[
+Hello<br><br>Here is an update of the German language files.<br><br>I also noticed that for VFO A and VFO B force DMO is not translated.<br><br>Greeting<br>Rene<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2845&amp;sid=4bafd09b2420839e2f40918e1407904b">German_HB9WCN.zip</a></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2844&amp;sid=4bafd09b2420839e2f40918e1407904b" class="postimage" alt="2025-02-16 14_52_04-OpenGD77 CPS (Version_ R2025.02.03.01)-no translation.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3859">HB9WCN</a> — Sun Feb 16, 2025 3:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-15T15:42:25</updated>
+
+		<published>2025-02-15T15:42:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35760#p35760</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35760#p35760"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35760#p35760"><![CDATA[
+Sorry, but it's not really clear.<br><br>AO-123 is already part of the satellites list.<br>But as a general safety usage, it would be better for you to keep your modified satellites.txt file in your Documents folder, and copy it to the OpenGD77 CPS installation folder after a software update. This way you can't lose your modifications.<br>BTW, as it already happened, double check the pristine satellites.txt file before dropping your modified version, as data structure can evolve.<br><br>The other trick (with the same content checking mentionned above) is to select a non-standard satellites.txt file. For this, in the "OpenGD77 support" window, hold down the Control key before clicking the "Install satellite keps" button. A file picker will appear, select your satellites.txt file (e.g located in your Documents folder).<br>The selected file will be stored as the default satellites.txt file, until it gets invalid or missing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 15, 2025 3:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2025-02-15T15:02:23</updated>
+
+		<published>2025-02-15T15:02:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35758#p35758</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35758#p35758"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35758#p35758"><![CDATA[
+So the file currently in c:/program86x/opengd77/ Satellites. Txt i have updated. I'm thinking I should just add A0-123 to that one before I update and save that file with the other ones I added in another folder just incase?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Sat Feb 15, 2025 3:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-15T06:46:20</updated>
+
+		<published>2025-02-15T06:46:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35749#p35749</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35749#p35749"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35749#p35749"><![CDATA[
+Yes, it always overwrites the satellites.txt file located in the installation folder.<br>But if you have selected another file satellites.txt, located elsewhere in the file system, it will not be overwritten.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 15, 2025 6:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2025-02-15T05:40:32</updated>
+
+		<published>2025-02-15T05:40:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35748#p35748</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35748#p35748"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35748#p35748"><![CDATA[
+So if I have a custom satellite . txt file will this update overwrite that file and remove the Satellites I added myself?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Sat Feb 15, 2025 5:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-05T14:31:56</updated>
+
+		<published>2025-02-05T14:31:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35589#p35589</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35589#p35589"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35589#p35589"><![CDATA[
+<blockquote class="uncited"><div>??????????</div></blockquote>Use a VPN. <br>This online storage will be used for the time being (and country filtering is out of my control).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Feb 05, 2025 2:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA4QHW]]></name></author>
+		<updated>2025-02-05T13:35:09</updated>
+
+		<published>2025-02-05T13:35:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35587#p35587</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35587#p35587"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35587#p35587"><![CDATA[
+??????????<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7192">BA4QHW</a> — Wed Feb 05, 2025 1:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2025-02-03T16:58:05</updated>
+
+		<published>2025-02-03T16:58:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35557#p35557</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35557#p35557"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35557#p35557"><![CDATA[
+Oh jeez, that's embarrassing. My name should be Dory.<br><br>My apologies.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Mon Feb 03, 2025 4:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-03T16:49:02</updated>
+
+		<published>2025-02-03T16:49:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35556#p35556</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35556#p35556"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35556#p35556"><![CDATA[
+<blockquote class="uncited"><div>I got a new laptop so I installed CPS 2025 01 29 on it and noticed an issue with the CSV export, it's placing some sort of tab character before the RX and TX frequencies. It's confusing the heck out of Excel. I just installed 2025 02 03 and it is doing the same thing.<br><br>I apologize, I don't recall what version of the CPS I had on the old laptop, so I don't know what version saw this change occur. Let me know if I need to share any CSV or codeplug files.</div></blockquote>You already asked about that (2024/08/01), and Colin explained you why.<br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4285&amp;p=32357&amp;hilit=csv+tab+excel#p32357" class="postlink">viewtopic.php?f=12&amp;t=4285&amp;p=32357&amp;hilit ... cel#p32357</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Feb 03, 2025 4:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2025-02-03T16:31:52</updated>
+
+		<published>2025-02-03T16:31:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35554#p35554</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35554#p35554"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35554#p35554"><![CDATA[
+I got a new laptop so I installed CPS 2025 01 29 on it and noticed an issue with the CSV export, it's placing some sort of tab character before the RX and TX frequencies. It's confusing the heck out of Excel. I just installed 2025 02 03 and it is doing the same thing.<br><br>I apologize, I don't recall what version of the CPS I had on the old laptop, so I don't know what version saw this change occur. Let me know if I need to share any CSV or codeplug files.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Mon Feb 03, 2025 4:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-03T16:10:10</updated>
+
+		<published>2025-02-03T16:10:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35552#p35552</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35552#p35552"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2025 02 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4842&amp;p=35552#p35552"><![CDATA[
+<ul><li> Check that the firmware that is going to be flashed is a real OpenGD77 firmware.</li><li> Italian update from IZ2EIB.</li></ul>The installer can be downloaded from: <a href="https://drive.proton.me/urls/AF40SNTSGC#zga068kVUff8" class="postlink">https://drive.proton.me/urls/AF40SNTSGC#zga068kVUff8</a><br><br><strong class="text-strong">NOTE</strong>: you need a firmware greater or equal to the 2025/01/26 to be able to use the Beacon Silently option.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Feb 03, 2025 4:10 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

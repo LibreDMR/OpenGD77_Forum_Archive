@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=4589&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 15:40:06 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>RT90 failure to TX/RX and display showing incorrect TG - OpenGD77</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - OpenGD77" href="app.php/feed76ff?sid=">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="app.php/feed/topics76ff?sid=">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - TYT MD-9600 / Retevis RT-90" href="app.php/feed/forum/1876ff?sid=">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - RT90 failure to TX/RX and display showing incorrect TG" href="app.php/feed/topic/458976ff?sid=">	
+	<link rel="canonical" href="viewtopicd41f-2.html?t=4589">
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="assets/css/font-awesome.min245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/stylesheet245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/en/stylesheet245c.css?assets_version=3" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/prosilver/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="index76ff.html?sid=" title="Board index"><span class="site_logo"></span></a>
+				<h1>OpenGD77</h1>
+				<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar"  style="display:none">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" style="display:none" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href="" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="search.php?sid=" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="app.php/help/faq76ff.html?sid=" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href="" title="" accesskey="x" role="menuitem">
+				<i class="" aria-hidden="true"></i><span></span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href="" role="menuitem">
+					<i class="" aria-hidden="true"></i><span></span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="index76ff.html?sid=" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+
+											<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="21"><a href="viewforum5dff.html?f=21&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Radios &amp; CPS</span></a><meta itemprop="position" content="2" /></span>
+															<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="18"><a href="viewforum3072.html?f=18&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">TYT MD-9600 / Retevis RT-90</span></a><meta itemprop="position" content="3" /></span>
+												</li>
+		
+					<li class="rightside responsive-search">
+				<a href="search.php?sid=" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="viewtopicb739.html?f=18&amp;t=4589&amp">RT90 failure to TX/RX and display showing incorrect TG</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+
+
+
+<div class="action-bar bar-top">
+	
+			<a href="posting.php?mode=reply&amp;f=18&amp;t=4589&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopicf7da.html?f=18&amp;t=4589&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="search.php?sid=">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="search.php?sid=" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="4589" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			7 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+		</div>
+
+
+
+
+			<div id="p34099" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile34099">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7005&amp" class="username">G4WQB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7005&amp;sr=posts&amp">4</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Sep 29, 2024 6:09 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content34099">
+
+						<h3 class="first"><a href="#p34099">RT90 failure to TX/RX and display showing incorrect TG</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=34099&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic172f-2.html?p=34099&amp;sid=#p34099" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7005&amp" class="username">G4WQB</a></strong> &raquo; </span>Fri Nov 15, 2024 6:27 pm
+			</p>
+			
+			
+			
+			<div class="content">Hi,<br>
+<br>
+My name is Keith and my callsign is G4WQB.  I am new to this forum.<br>
+<br>
+I purchased an RT90 at a National show recently.  It has the board number MD9600-UV-4.0-1805222027 and a serial number starting 2006R090 1.<br>
+<br>
+I have tried flashing with V5 and V4.  For some reason, the channel does not call up the correct TG, but always takes the fist in the list for the Zone.  I cannot get a transmit signal out, nor can I receive.<br>
+<br>
+Is this symptomatic of a sick radio - I cannot take it back - or is there a route to make it all better again?<br>
+<br>
+Many thanks for your help,<br>
+Keith</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p34100" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile34100">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=5068&amp" class="username">KA1CM</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=5068&amp;sr=posts&amp">459</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Tue Nov 28, 2023 4:14 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content34100">
+
+						<h3 ><a href="#p34100">Re: RT90 failure to TX/RX and display showing incorrect TG</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=34100&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopice38b.html?p=34100&amp;sid=#p34100" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=5068&amp" class="username">KA1CM</a></strong> &raquo; </span>Fri Nov 15, 2024 6:36 pm
+			</p>
+			
+			
+			
+			<div class="content">Sounds like you have more than one problem here.<br>
+first of all, how did you install OpenGD77? Do you have a name for the donor file?<br>
+
+<blockquote class="uncited"><div>
+I cannot get a transmit signal out, nor can I receive.
+</div></blockquote>
+Is this happening only on DMR or both FM analog and DMR?<br>
+
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7005&amp">G4WQB</a> wrote: <a href="viewtopic172f-2.html?p=34099&amp;sid=#p34099" data-post-id="34099" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Fri Nov 15, 2024 6:27 pm</div></cite>
+For some reason, the channel does not call up the correct TG, but always takes the fist in the list for the Zone.  
+</div></blockquote>
+
+I think your codeplug is configure in a traditional way and you are not familiar with "Talkgroup list" Can you post your codeplug here?</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p34101" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile34101">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=87&amp" class="username">G4EML</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=87&amp;sr=posts&amp">1056</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 10:01 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content34101">
+
+						<h3 ><a href="#p34101">Re: RT90 failure to TX/RX and display showing incorrect TG</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=34101&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopice9ff-2.html?p=34101&amp;sid=#p34101" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=87&amp" class="username">G4EML</a></strong> &raquo; </span>Fri Nov 15, 2024 6:39 pm
+			</p>
+			
+			
+			
+			<div class="content">First of all to check you are using the correct firmware test the radio on an FM simplex channel and make sure it receives and transmits. If it does then you are using the correct firmware. If it doesn't then try another version. <br>
+<br>
+Regarding the talkgroup selection,  that is probably a codeplug error or a misunderstanding of the way the firmware works. OpenGD77 normally uses one channel per repeater, selected with the knob. The talkgroup is then selected separately using the up and down buttons. <br>
+<br>
+We would need to see a copy of your code plug to confirm this. <br>
+<br>
+<br>
+Colin G4EML</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p34104" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile34104">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7005&amp" class="username">G4WQB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7005&amp;sr=posts&amp">4</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Sep 29, 2024 6:09 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content34104">
+
+						<h3 ><a href="#p34104">Re: RT90 failure to TX/RX and display showing incorrect TG</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=34104&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic196c-2.html?p=34104&amp;sid=#p34104" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7005&amp" class="username">G4WQB</a></strong> &raquo; </span>Sat Nov 16, 2024 11:11 am
+			</p>
+			
+			
+			
+			<div class="content">Firstly, thank you both for respoding so quickly.  The good news is that the radio now trasmits and receives on FM and digital simplex on the VFO VFO after installing version 4 of the firmware (properly).  However, the codeplug is in a bit of a pickle, I suspect.  It has been developed following my work with an Anytone, so your remark that there is a difference in parameterisation is very relevant, as is the one about my misunderstanding how it works.  The codeplug has some TGs that really should not be in the public domain, so I hope that Colin will fogive my impertenence in sending it by email.  Of course, any discussion should remain within the forum.  In the interim, is there a detailed guide to the construction fo the codeplug for OenGD77, other than the manual and Colin's excellent paper on CSV files.  I should like to understand things properly.<br>
+<br>
+Many thanks again for all your help<br>
+73<br>
+Keith G4WQB</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p34105" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile34105">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7005&amp" class="username">G4WQB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7005&amp;sr=posts&amp">4</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Sep 29, 2024 6:09 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content34105">
+
+						<h3 ><a href="#p34105">Re: RT90 failure to TX/RX and display showing incorrect TG</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=34105&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopiccb5b-2.html?p=34105&amp;sid=#p34105" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7005&amp" class="username">G4WQB</a></strong> &raquo; </span>Sat Nov 16, 2024 11:37 am
+			</p>
+			
+			
+			
+			<div class="content">(To Continue)<br>
+<br>
+It is usefult for me to presnt the vision that I was working to.  Near me, there are several DMR repeaters, Aylesbury, Tring, West London and so forth.  I also support a voluntery organisation that has several groups, let us say A, B and C.  Each of A,B &amp; C has a set of talkgroups for different purposes. So, If I am in Aylesbury, for example, I may need to use any one of the TGs belonging to A, B or C. I set up Zones for repeaters and ONE TG List for each Group, with the channel stying them together.  This may direct readers in a WRONG direction, as it DO'NT WORK! ( at least the way I did it)</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p34106" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile34106">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=87&amp" class="username">G4EML</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=87&amp;sr=posts&amp">1056</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 10:01 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content34106">
+
+						<h3 ><a href="#p34106">Re: RT90 failure to TX/RX and display showing incorrect TG</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=34106&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic41c9.html?p=34106&amp;sid=#p34106" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=87&amp" class="username">G4EML</a></strong> &raquo; </span>Sat Nov 16, 2024 12:22 pm
+			</p>
+			
+			
+			
+			<div class="content">You can only have one TG List allocated to a channel. So in your case you could have three channels, one for Aylesbury, one for Tring, and one for West London. All three channels could be linked to the same TG List containing all of the DMR+ (Phoenix) talkgroups.  <br>
+<br>
+If you need to use a different TG list you would need to define a new channel that is linked to that list. So you may need Aylesbury A , Aylesbury B, and Aylesbury C. <br>
+<br>
+Colin G4EML</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p34131" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile34131">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7005&amp" class="username">G4WQB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7005&amp;sr=posts&amp">4</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Sep 29, 2024 6:09 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content34131">
+
+						<h3 ><a href="#p34131">Re: RT90 failure to TX/RX and display showing incorrect TG</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=18&amp;p=34131&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic9188.html?p=34131&amp;sid=#p34131" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7005&amp" class="username">G4WQB</a></strong> &raquo; </span>Mon Nov 18, 2024 4:20 pm
+			</p>
+			
+			
+			
+			<div class="content">@Colin.<br>
+<br>
+Thank you very much for your help in clarifying the way to create a fresh codeplug.  <br>
+<br>
+Having defined my contacts, I prepared several TG lists using one for each teams A, B &amp; &amp; C, etc. and then set about defining several channels for each repeatereach calling up one TG list.  This linked Repeater 1 to TG Lists A, B &amp; C (3 channels) and Repeater 2 to TG Lists A, B &amp; C.and so forth.<br>
+<br>
+I then created Zones for each team, so that I could work the team I wanted and could switch between repeaters easily.  Zone A contains all Team A channels, Zone B, all B channels and so on.<br>
+<br>
+Sorry if that looks a bit complex, but I envision it as a form of matrix with zones horizontally and teams vertically with the channels in the middle with a third dimension of contacts.  I really must get a life!<br>
+<br>
+Colin, you have been great. Many thanks again.<br>
+73 Keith</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="posting.php?mode=reply&amp;f=18&amp;t=4589&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopicf7da.html?f=18&amp;t=4589&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="viewtopic.php?f=18&amp;t=4589&amp">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			7 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="viewforum3072.html?f=18&amp" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to “TYT MD-9600 / Retevis RT-90”</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																				<li><a href="viewforum24e8.html?f=1&amp" class="jumpbox-cat-link"> <span> OpenGD77 information</span></a></li>
+																<li><a href="viewforum3550.html?f=3&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Announcements</span></a></li>
+																<li><a href="viewforumbe59.html?f=5&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; FAQ</span></a></li>
+																<li><a href="viewforum5dff.html?f=21&amp" class="jumpbox-cat-link"> <span> Radios &amp; CPS</span></a></li>
+																<li><a href="viewforumf979.html?f=12&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; CPS</span></a></li>
+																<li><a href="viewforume4b2.html?f=13&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; GD-77 / DM-1801 / RD-5R / GD-77S</span></a></li>
+																<li><a href="viewforum3072.html?f=18&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-9600 / Retevis RT-90</span></a></li>
+																<li><a href="viewforum71f6.html?f=19&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a></li>
+																<li><a href="viewforum566e.html?f=28&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD2017 / Retevis RT-82</span></a></li>
+																<li><a href="viewforum976e.html?f=27&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Other unsupported radios</span></a></li>
+																<li><a href="viewforum68f5.html?f=6&amp" class="jumpbox-cat-link"> <span> Discussions</span></a></li>
+																<li><a href="viewforum5c89.html?f=10&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; New members must post here first</span></a></li>
+																<li><a href="viewforum3e36.html?f=29&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Help needed</span></a></li>
+																<li><a href="viewforum7cb0.html?f=7&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; General discussions</span></a></li>
+																<li><a href="viewforumc69f.html?f=9&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Hotspot mode</span></a></li>
+																<li><a href="viewforume094.html?f=22&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Voice prompts</span></a></li>
+																<li><a href="viewforumd275.html?f=23&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Localisation</span></a></li>
+																<li><a href="viewforum5cd2.html?f=14&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Codeplugs</span></a></li>
+																<li><a href="viewforum41c9.html?f=17&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1801 specific</span></a></li>
+																<li><a href="viewforum93b2.html?f=25&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1701 / Retevis RT-84 specific</span></a></li>
+																<li><a href="viewforume716.html?f=16&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Developer discussions</span></a></li>
+																<li><a href="viewforum53f9.html?f=26&amp" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-2017 / RT-82</span></a></li>
+																<li><a href="viewforum5fd2.html?f=11&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Bug reports</span></a></li>
+																<li><a href="viewforume051.html?f=8&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Off topic</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer"  style="display:none" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="index76ff.html?sid=" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="UTC">UTC</span></li>
+							<li class="rightside">
+				<a href="ucp.php?mode=delete_cookies&amp" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+																<li class="rightside" data-last-responsive="true">
+				<a href="memberlist.php?mode=contactadmin&amp" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="cron200f.gif?cron_type=cron.task.core.tidy_sessions&amp" width="1" height="1" alt="cron" /></div>
+
+<script src="assets/javascript/jquery.min245c.js?assets_version=3"></script>
+<script src="assets/javascript/core245c.js?assets_version=3"></script>
+
+
+
+<script src="styles/prosilver/template/forum_fn245c.js?assets_version=3"></script>
+<script src="styles/prosilver/template/ajax245c.js?assets_version=3"></script>
+
+
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=4589&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 15:40:15 GMT -->
+</html>

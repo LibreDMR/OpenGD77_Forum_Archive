@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2692" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-02-27T04:57:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2692</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-02-27T04:57:57</updated>
+
+		<published>2023-02-27T04:57:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2692&amp;p=22068#p22068</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2692&amp;p=22068#p22068"/>
+		<title type="html"><![CDATA[SUPPORTED RADIOS - Please read before posting about whether the firmware could work on another type of radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2692&amp;p=22068#p22068"><![CDATA[
+We constantly get posts asking if the firmware will work on a specific model of radio, or could be converted to run on a specific type of radio.<br><br>The firmware will <strong class="text-strong">only</strong> run on the following radios<br><br><strong class="text-strong">NXP MK22 CPU radios:</strong><br><br>Radioddity GD-77 / TYT MD-760<br>Baofeng DM-1801<br>Baofeng DM-1801A<br>Baofenng RD-5R / DM-5R Mk2 (Tier 2 version)<br>Radioddity GD-77S / TYT MD-750<br><br><strong class="text-strong">STM32 CPU Radios:</strong><br><br>TYT MD-UV380 / TYT MD-UV390 / Retevis RT-3S<br>TYT MD-9600 / Retevis RT-90<br>Baofeng DM-1701 / Retevis RT-84<br><br>The firmware could in theory be converted to run on any radio which uses the MK22 CPU or the STM32F405VGT CPU and uses the C6000 DMR chip<br>However,  for the firmware to be loaded into the radio the manufacturer's file encryption must already have been cracked.<br>And.. The firmware loading process must also have been reverse engineered.<br>Even with all those confitions met, the time taken to convert firmware to another radio, can be hundreds of hours<br><br>Radios that also use the MK22 or STM32 CPU and the C6000 include:<br><br>Ailunce HD1<br>TYT MD-2017 / Retevis RT-82<br>Baofeng DM-1702<br><br><br><br>In the future its highly unlikely that any new models of radios could be supported, because both TYT and Baofeng no longer use either the MK22 or STM32F405 CPU,   or use the C6000 DMR chip.<br><br>Most new radios use the new C7000, DMR and combined CPU chip, for which there is currently no way to build the firmware, because there is no publicly available Software Development Kit<br><br>Radios that use the C7000 include<br><br>Retevis RT-73<br>TYT MD-9800<br>Radioddity GD-88 <br>Radioddity GD-73<br>and many others<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 27, 2023 4:57 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

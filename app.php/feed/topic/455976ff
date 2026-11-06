@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4559" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-05T03:14:53</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4559</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-05T03:14:53</updated>
+
+		<published>2024-11-05T03:14:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4559&amp;p=33933#p33933</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4559&amp;p=33933#p33933"/>
+		<title type="html"><![CDATA[Re: Simplex vs. Duplex Hotspot?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4559&amp;p=33933#p33933"><![CDATA[
+<blockquote class="uncited"><div>Folks:<br><br>I have both Simplex and Duplex MMDVM hotspots built upon Raspberry Pi Zero 2 W boards with eBay sourced Hats. I use the WPSD software rather than the traditional Pi-star, as WPSD has more features, and is most importantly, actively maintained.<br><br>Both of these configurations work just fine, and although I have more than one DMR radio, I typically operate one at a time, on a single talkgroup.<br><br>I'm curious what others think the advantages / disadvantages of simplex vs. duplex MMDVM boards / hotspots might be?<br><br>Please discuss........<br><br><br><br>73<br><br>AL<br>K5FQ</div></blockquote>OpenGD77 will work with both simplex and duplex MMDVM based hotspots.<br><br>The you can disable TS filtering and this will allow you to listen on both Timeslots.<br><br><br>BTW.<br>This site is only for OpenGD77 firmware and CPS related things<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 05, 2024 3:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k5fq]]></name></author>
+		<updated>2024-11-05T03:08:37</updated>
+
+		<published>2024-11-05T03:08:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4559&amp;p=33932#p33932</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4559&amp;p=33932#p33932"/>
+		<title type="html"><![CDATA[Simplex vs. Duplex Hotspot?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4559&amp;p=33932#p33932"><![CDATA[
+Folks:<br><br>I have both Simplex and Duplex MMDVM hotspots built upon Raspberry Pi Zero 2 W boards with eBay sourced Hats. I use the WPSD software rather than the traditional Pi-star, as WPSD has more features, and is most importantly, actively maintained.<br><br>Both of these configurations work just fine, and although I have more than one DMR radio, I typically operate one at a time, on a single talkgroup.<br><br>I'm curious what others think the advantages / disadvantages of simplex vs. duplex MMDVM boards / hotspots might be?<br><br>Please discuss........<br><br><br><br>73<br><br>AL<br>K5FQ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7118">k5fq</a> — Tue Nov 05, 2024 3:08 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

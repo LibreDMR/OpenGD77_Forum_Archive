@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5166" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-08T03:01:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5166</id>
+
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-08T03:01:47</updated>
+
+		<published>2025-06-08T03:01:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5166&amp;p=37411#p37411</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5166&amp;p=37411#p37411"/>
+		<title type="html"><![CDATA[Re: New but not new]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5166&amp;p=37411#p37411"><![CDATA[
+MD380 is not compatible with OpenGD77, so try to install the original/stock firmware to recover that radio.<br><br>R3TS is compatible, just follow this guide: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sun Jun 08, 2025 3:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0MRB]]></name></author>
+		<updated>2025-06-08T01:25:04</updated>
+
+		<published>2025-06-08T01:25:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5166&amp;p=37409#p37409</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5166&amp;p=37409#p37409"/>
+		<title type="html"><![CDATA[New but not new]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5166&amp;p=37409#p37409"><![CDATA[
+Hello,<br><br>My name is Ray N0MRB, sort of new to DMR, but not to Amateur radio.  I have a TYT MD380, purchased a RT3S, tried to get opengd77 on it, but for some reason it bricked it. as in nothing. and I did follow what what posted, but still bricked it right after I put the openGD77 on it, every trick I tried to bypass things didnt work, I took it to a friend who tried, and said trying to put it on took it out, and bricked it. a 200 dollar radio a brick. That is sad. So now I need another radio, and also a bit afraid to try it again. Maybe I got a little confused on how to do it. <br><br>So now, I am going to wait and read all the information I can, Before I try to even put on the program.  <br><br>But it said this is the first post. so I am here to try to read again. <br><br>Ray<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8743">N0MRB</a> — Sun Jun 08, 2025 1:25 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

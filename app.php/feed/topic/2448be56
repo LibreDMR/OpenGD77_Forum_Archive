@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2448" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-23T22:23:38</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2448</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-23T22:23:38</updated>
+
+		<published>2022-10-23T22:23:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20286#p20286</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20286#p20286"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20286#p20286"><![CDATA[
+New alpha is now available which fixes the QuickMenu bug<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2452" class="postlink">viewtopic.php?f=19&amp;t=2452</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 23, 2022 10:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CU7AAZ]]></name></author>
+		<updated>2022-10-23T18:16:20</updated>
+
+		<published>2022-10-23T18:16:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20281#p20281</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20281#p20281"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20281#p20281"><![CDATA[
+<blockquote class="uncited"><div>A new Alpha version is now available<br><br><a href="https://www.opengd77.com/downloads/MDUV380/Firmware/97f4df95bc114a7883b7d33d6a945bc1f1cbea12" class="postlink">downloads/MDUV380/Firmware/97f4df95bc11 ... c1f1cbea12</a><br><br>This version fixes the following problems:<br><br>* Up / Down arrows now operate   squelch and power in the correct direction<br>* 1750Hz tone can now be sent by holding SK2 during Tx, like on the GD77 etc.<br>* DTMF characters A,B,C &amp; D can now be entered or sent using Up, SK1+Up, Down , and SK1+Down<br>* Charcter input cursor position for channel name on the Channel Details screen is now correct<br>* Channel and VFO scan will start when holding the Up key. i.e no need to hold and wait for the beep before releasing, simply holding down will start the scan<br><br>* Slight UI change to VFO Sweep scan.<br>         Rotary control adjusts sweep center frequency.<br>         SK2 + Rotary contorl adjusts step size / over sweep range<br>         Up increases gain<br>         Down decreases gain<br>         SK2 + Up increases lower RSSI threshold<br>         SK2 + Down decreases lower RSSI threshold<br><br>* Bug associacted with holding SK2 while changing the Rotary control, while in VFO Scan mode has been fixed.<br>* In Channel an VFO scan. <br>     The Star ( * ) key is now use to mark a channel or frequency to be skipped duing the current scan<br>     Pressing the Up arrow recommences the scan, if its paused on a busy frequency.</div></blockquote>Big Thanks!<br>CU7AAZ<br>73s<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2605">CU7AAZ</a> — Sun Oct 23, 2022 6:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-23T16:45:54</updated>
+
+		<published>2022-10-23T16:45:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20280#p20280</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20280#p20280"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20280#p20280"><![CDATA[
+Please be patient. <br>Don't forget that Roger is on the other side of the globe! <br>The reported problem will be fixed but people need to sleep sometimes!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Oct 23, 2022 4:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR5TNF]]></name></author>
+		<updated>2022-10-23T15:46:35</updated>
+
+		<published>2022-10-23T15:46:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20278#p20278</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20278#p20278"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20278#p20278"><![CDATA[
+<blockquote class="uncited"><div>Hello, there is a problem with this firmware:<br><br>On Quick Menu (SK1+Green) is impossible to change values with rotary knob...... like TS Filter value from Off to On <br><br>Can you please check !</div></blockquote>I confirm !!! There is such a problem as described above in the quote. Please fix.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2825">UR5TNF</a> — Sun Oct 23, 2022 3:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-23T14:36:21</updated>
+
+		<published>2022-10-23T14:36:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20275#p20275</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20275#p20275"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20275#p20275"><![CDATA[
+Not at present. <br><br>The code was originally written for radios with monochrome displays. As such it is not easy (or worth the considerable effort) to add colours just for one radio. <br><br>We may possibly make the foreground and background colours user selectable at a later date but his would still be just a two colour display.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Oct 23, 2022 2:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-23T11:21:46</updated>
+
+		<published>2022-10-23T11:21:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20270#p20270</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20270#p20270"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20270#p20270"><![CDATA[
+<blockquote class="uncited"><div>Hello, there is a problem with this firmware:<br><br>On Quick Menu (SK1+Green) is impossible to change values with rotary knob...... like TS Filter value from Off to On <br><br>Can you please check !</div></blockquote>OK<br><br>This problem only seems to be on the Channel screen. The VFO appears Quick Menu appears to be OK<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 23, 2022 11:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB3XPL]]></name></author>
+		<updated>2022-10-23T10:33:46</updated>
+
+		<published>2022-10-23T10:33:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20269#p20269</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20269#p20269"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20269#p20269"><![CDATA[
+Hello, there is a problem with this firmware:<br><br>On Quick Menu (SK1+Green) is impossible to change values with rotary knob...... like TS Filter value from Off to On <br><br>Can you please check !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=79">HB3XPL</a> — Sun Oct 23, 2022 10:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RIV]]></name></author>
+		<updated>2022-10-23T09:57:14</updated>
+
+		<published>2022-10-23T09:57:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20268#p20268</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20268#p20268"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20268#p20268"><![CDATA[
+Thank you 73's<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3032">F1RIV</a> — Sun Oct 23, 2022 9:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-22T21:14:36</updated>
+
+		<published>2022-10-22T21:14:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20263#p20263</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20263#p20263"/>
+		<title type="html"><![CDATA[ALPHA 2022-10-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2448&amp;p=20263#p20263"><![CDATA[
+A new Alpha version is now available<br><br><a href="https://www.opengd77.com/downloads/MDUV380/Firmware/97f4df95bc114a7883b7d33d6a945bc1f1cbea12" class="postlink">downloads/MDUV380/Firmware/97f4df95bc11 ... c1f1cbea12</a><br><br>This version fixes the following problems:<br><br>* Up / Down arrows now operate   squelch and power in the correct direction<br>* 1750Hz tone can now be sent by holding SK2 during Tx, like on the GD77 etc.<br>* DTMF characters A,B,C &amp; D can now be entered or sent using Up, SK1+Up, Down , and SK1+Down<br>* Charcter input cursor position for channel name on the Channel Details screen is now correct<br>* Channel and VFO scan will start when holding the Up key. i.e no need to hold and wait for the beep before releasing, simply holding down will start the scan<br><br>* Slight UI change to VFO Sweep scan.<br>         Rotary control adjusts sweep center frequency.<br>         SK2 + Rotary contorl adjusts step size / over sweep range<br>         Up increases gain<br>         Down decreases gain<br>         SK2 + Up increases lower RSSI threshold<br>         SK2 + Down decreases lower RSSI threshold<br><br>* Bug associacted with holding SK2 while changing the Rotary control, while in VFO Scan mode has been fixed.<br>* In Channel an VFO scan. <br>     The Star ( * ) key is now use to mark a channel or frequency to be skipped duing the current scan<br>     Pressing the Up arrow recommences the scan, if its paused on a busy frequency.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Oct 22, 2022 9:14 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

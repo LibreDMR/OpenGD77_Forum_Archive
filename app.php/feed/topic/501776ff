@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5017" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-28T18:52:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5017</id>
+
+		<entry>
+		<author><name><![CDATA[W8JMO]]></name></author>
+		<updated>2025-03-28T18:52:48</updated>
+
+		<published>2025-03-28T18:52:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5017&amp;p=36504#p36504</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5017&amp;p=36504#p36504"/>
+		<title type="html"><![CDATA[Repeater interface node as Hotspot?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5017&amp;p=36504#p36504"><![CDATA[
+I've got a DMR repeater that isn't networked to Brandmeister (yet) and I'm not sure if I want to use the MMDVM/Pi Hat as the repeater controller without first asking if what my subject eludes to is possible.<br><br>I have an RT3S with OpenGD77 on it and while I know the radio is easily interfaced with the pi via USB to make a hot spot, is it possible to make that hot spot act like a traditional radio would to key a repeater? My guess is no, but I haven't tinkered around a whole lot due to time constraints. I would prefer to use the repeater's built-in controller and have a node radio be the interface.. <br><br>Another thought is to use the MMDVM/repeater interaface in simplex mode to work the basic functions but still keep the repeater working as I desire... but given the subscriber radio creates a handshake with the repeater, would an MMDVM in simplex be able to use the data to steer talkgroups and pass audio? <br><br>Anyone have insight or made either scenario work? <br><br>-Josh<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4051">W8JMO</a> — Fri Mar 28, 2025 6:52 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

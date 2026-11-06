@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4853" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-15T08:56:28</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4853</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-15T08:56:28</updated>
+
+		<published>2025-02-15T08:56:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35755#p35755</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35755#p35755"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35755#p35755"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4879" class="postlink">viewtopic.php?f=18&amp;t=4879</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 15, 2025 8:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-12T06:05:56</updated>
+
+		<published>2025-02-12T06:05:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35709#p35709</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35709#p35709"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35709#p35709"><![CDATA[
+<blockquote class="uncited"><div>Thanks for a another great feature in this firmware, i installed this on my UV390 and my 3 MD9600, works great. One of my 9600 does not have a GPS, it was a bit to fiddle around to find the correct setting to use for a fixed poisition between the setting in the Options- APRS, CPS and the location used for the satelite tracking, i have it working now...<br>I wonder if there is a way to use different power levels for the channel i'm working in (100mW to the Openspot) and the APRS beacon. Ideal would be something like channel per CPS for that Channel and the APRS beacon power comes from the master power level or is set in the CPS - APRS menu next to the frequency for the beacon.  <br><br>thanks and 73</div></blockquote>I agree that beaconing at 50mW/100mW isn't that great...<br>Hence, I will add a power level in the APRS settings (firmware side), defaulted to "master" or 1W power setting (IDK right now).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Feb 12, 2025 6:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE4HTO]]></name></author>
+		<updated>2025-02-11T23:20:55</updated>
+
+		<published>2025-02-11T23:20:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35705#p35705</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35705#p35705"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35705#p35705"><![CDATA[
+Thanks for a another great feature in this firmware, i installed this on my UV390 and my 3 MD9600, works great. One of my 9600 does not have a GPS, it was a bit to fiddle around to find the correct setting to use for a fixed poisition between the setting in the Options- APRS, CPS and the location used for the satelite tracking, i have it working now...<br>I wonder if there is a way to use different power levels for the channel i'm working in (100mW to the Openspot) and the APRS beacon. Ideal would be something like channel per CPS for that Channel and the APRS beacon power comes from the master power level or is set in the CPS - APRS menu next to the frequency for the beacon.  <br><br>thanks and 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3963">VE4HTO</a> — Tue Feb 11, 2025 11:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-07T16:04:56</updated>
+
+		<published>2025-02-07T16:04:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35652#p35652</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35652#p35652"/>
+		<title type="html"><![CDATA[New MD-9600 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4853&amp;p=35652#p35652"><![CDATA[
+<ul><li> In DMR mode, clear the LC data after an APRS beaconing to avoid handling incomplete data (wrong IDs and so on).</li><li> Fix APRS QSY: RX and TX freqs were swapped.</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/BH7YMM2DFG#uuennWe2fZGi" class="postlink">https://drive.proton.me/urls/BH7YMM2DFG#uuennWe2fZGi</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG" class="postlink">https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/26. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4804" class="postlink">viewtopic.php?f=12&amp;t=4804</a><br><br>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a><br>The voice-prompts and localization files have not changed since the last beta.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 07, 2025 4:04 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

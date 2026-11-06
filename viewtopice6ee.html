@@ -1,0 +1,1474 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=16&t=4367&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 07:52:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Probable bug in OpenGD77 - OpenGD77</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - OpenGD77" href="app.php/feed76ff?sid=">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="app.php/feed/topics76ff?sid=">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - Developer discussions" href="app.php/feed/forum/1676ff?sid=">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - Probable bug in OpenGD77" href="app.php/feed/topic/436776ff?sid=">	
+	<link rel="canonical" href="viewtopic9784.html?t=4367">
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="assets/css/font-awesome.min245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/stylesheet245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/en/stylesheet245c.css?assets_version=3" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/prosilver/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="index76ff.html?sid=" title="Board index"><span class="site_logo"></span></a>
+				<h1>OpenGD77</h1>
+				<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar"  style="display:none">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" style="display:none" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href="" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="search.php?sid=" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="app.php/help/faq76ff.html?sid=" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href="" title="" accesskey="x" role="menuitem">
+				<i class="" aria-hidden="true"></i><span></span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href="" role="menuitem">
+					<i class="" aria-hidden="true"></i><span></span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="index76ff.html?sid=" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+
+											<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="6"><a href="viewforum68f5.html?f=6&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Discussions</span></a><meta itemprop="position" content="2" /></span>
+															<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="16"><a href="viewforume716.html?f=16&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Developer discussions</span></a><meta itemprop="position" content="3" /></span>
+												</li>
+		
+					<li class="rightside responsive-search">
+				<a href="search.php?sid=" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="viewtopice6ee.html?f=16&amp;t=4367&amp">Probable bug in OpenGD77</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+<div style="display: none !important;">Discussions related to the firmware code development<br /></div>
+
+
+<div class="action-bar bar-top">
+	
+			<a href="posting.php?mode=reply&amp;f=16&amp;t=4367&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic5fbf.html?f=16&amp;t=4367&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="search.php?sid=">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="search.php?sid=" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="4367" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			44 posts
+							<ul>
+		<li class="active"><span>1</span></li>
+				<li><a class="button" href="viewtopicd0b2.html?f=16&amp;t=4367&amp;sid=&amp;start=10" role="button">2</a></li>
+				<li><a class="button" href="viewtopic0b85.html?f=16&amp;t=4367&amp;sid=&amp;start=20" role="button">3</a></li>
+				<li><a class="button" href="viewtopic8223.html?f=16&amp;t=4367&amp;sid=&amp;start=30" role="button">4</a></li>
+				<li><a class="button" href="viewtopic0977.html?f=16&amp;t=4367&amp;sid=&amp;start=40" role="button">5</a></li>
+				<li class="arrow next"><a class="button button-icon-only" href="viewtopicd0b2.html?f=16&amp;t=4367&amp;sid=&amp;start=10" rel="next" role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Next</span></a></li>
+	</ul>
+					</div>
+		</div>
+
+
+
+
+			<div id="p32723" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32723">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=4783&amp;sr=posts&amp">32</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Oct 18, 2023 12:44 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32723">
+
+						<h3 class="first"><a href="#p32723">Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32723&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicd767.html?p=32723&amp;sid=#p32723" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a></strong> &raquo; </span>Mon Sep 02, 2024 9:14 pm
+			</p>
+			
+			
+			
+			<div class="content">Hi all, <br>
+<br>
+I think I found 2 bugs in opengd77. Is there a way to correct them?<br>
+<br>
+The first BUG may be in the USB buffer.<br>
+<br>
+<strong class="text-strong">In codec_interface.c</strong><br>
+<br>
+<span style="text-decoration:underline">I put:</span><br>
+<br>
+<strong class="text-strong">#include "usb/usb_com.h"</strong><br>
+<br>
+<span style="text-decoration:underline">then in:</span><br>
+void codecDecode(uint8_t *indata_ptr, int numbBlocks)<br>
+{<br>
+<br>
+soundSetupBuffer();// this just sets currentWaveBuffer but the compiler seems to optimise out the code if I try to do it in this file<br>
+		r2 = (int)bitbuffer_decode;<br>
+		r0 = (int)currentWaveBuffer;<br>
+		r1 = (int)ambebuffer_decode;<br>
+<br>
+<strong class="text-strong">USB_DEBUG_printf("%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d %c%c",bitbuffer_decode[0],bitbuffer_decode[1],bitbuffer_decode[2],bitbuffer_decode[3],bitbuffer_decode[4],bitbuffer_decode[5],bitbuffer_decode[6],bitbuffer_decode[7],bitbuffer_decode[8],bitbuffer_decode[9],bitbuffer_decode[10],bitbuffer_decode[11],bitbuffer_decode[12],bitbuffer_decode[13],bitbuffer_decode[14],bitbuffer_decode[15],bitbuffer_decode[16],bitbuffer_decode[17],bitbuffer_decode[18],bitbuffer_decode[19],bitbuffer_decode[20],bitbuffer_decode[21],bitbuffer_decode[22],bitbuffer_decode[23],bitbuffer_decode[24],bitbuffer_decode[25],bitbuffer_decode[26],bitbuffer_decode[27],bitbuffer_decode[28],bitbuffer_decode[29],bitbuffer_decode[30],bitbuffer_decode[31],bitbuffer_decode[32],bitbuffer_decode[33],bitbuffer_decode[34],bitbuffer_decode[35],bitbuffer_decode[36],bitbuffer_decode[37],bitbuffer_decode[38],bitbuffer_decode[39],bitbuffer_decode[40],bitbuffer_decode[41],bitbuffer_decode[42],bitbuffer_decode[43],bitbuffer_decode[44],bitbuffer_decode[45],bitbuffer_decode[46],bitbuffer_decode[47],bitbuffer_decode[48],0x0d,0x0a);</strong><br>
+<br>
+		asm volatile (<br>
+			"PUSH {R4-R11}\n"<br>
+			"SUB SP, SP, #0x10\n"<br>
+			"STR R1, [SP, #0x08]\n"<br>
+			"LDR R1, =1\n"<br>
+			"STR R1, [SP, #0x04]\n"<br>
+			"LDR R1, =0\n"<br>
+			"STR R1, [SP, #0x00]\n"<br>
+			"LDR R3, =0\n"<br>
+			"LDR R1, =80\n"<br>
+			"BL " QU(AMBE_DECODE)<br>
+			"ADD SP, SP, #0x10\n"<br>
+			"POP {R4-R11}"<br>
+		);<br>
+[...]<br>
+}<br>
+<br>
+<strong class="text-strong">If I put this in the old source code that was published here <a href="https://www.opengd77.com/downloads/releases/MDUV380/R20230311" class="postlink">downloads/releases/MDUV380/R20230311</a> it works fine and in Putty I get 49 bits of the AMBE frame.</strong><br>
+<strong class="text-strong">If I put this in the new source code of 12/31/2023, then as soon as a frame is received, Opengd77 freeze completely I am obliged to remove the battery and put it back on.</strong><br>
+<strong class="text-strong">Tested on a DM1701 and MDUV390.</strong></div>
+
+			
+			
+													<div class="notice">
+					Last edited by <a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a> on Mon Sep 02, 2024 9:49 pm, edited 3 times in total.
+									</div>
+			
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32724" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32724">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=4783&amp;sr=posts&amp">32</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Oct 18, 2023 12:44 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32724">
+
+						<h3 ><a href="#p32724">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32724&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic7744.html?p=32724&amp;sid=#p32724" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a></strong> &raquo; </span>Mon Sep 02, 2024 9:18 pm
+			</p>
+			
+			
+			
+			<div class="content"><strong class="text-strong">The second BUG is located at the reception level.</strong><br>
+<br>
+For the test I modify the emission and I emit AMBE frames only at 0 (49 bits at zero).<br>
+If I check the emission with DSD-FME, the AMBE frames emitted are all at 0.<br>
+
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file4927.png?id=2562&amp" class="postimage" alt="frames.png" onclick="viewableArea(this);" /></dt>
+						<dd>frames.png (32.48 KiB) Viewed 6966 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+But the reception is never correct on 3 bits, always the same: I randomly receive bits at 1 in position 37 and 33 and from time to time also on the 38 bit.<br>
+Tested on multiple DM1701s and multiple MDUV380, MDUV390. It is therefore not a hardware problem.<br>
+<br>
+<span style="text-decoration:underline">Example of RX:</span><br>
+<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000001000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000100100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000100100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000010000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000</code></pre></div>
+
+<span style="text-decoration:underline">To generate the null frames, i put :</span><br>
+<br>
+void codecEncodeBlock(uint8_t *outdata_ptr)<br>
+{<br>
+asm volatile (<br>
+		"PUSH {R4-R11}\n"<br>
+		"SUB SP, SP, #0x14\n"<br>
+		"STR R1, [SP, #0x0C]\n"<br>
+		"LDR R1, =0x00002000\n"<br>
+		"STR R1, [SP, #0x08]\n"<br>
+		"LDR R1, =1\n"<br>
+		"STR R1, [SP, #0x04]\n"<br>
+		"LDR R1, =0x00000800\n"<br>
+		"STR R1, [SP, #0x00]\n"<br>
+		"LDR R3, =80\n"<br>
+		"LDR R1, =0\n"<br>
+		"BL " QU(AMBE_ENCODE)<br>
+		"ADD SP, SP, #0x14\n"<br>
+		"POP {R4-R11}"<br>
+	);<br>
+<br>
+<strong class="text-strong">for (int i = 0; i &lt; 49; i++)<br>
+	{<br>
+		bitbuffer_encode [ i ]=0;<br>
+       }</strong><br>
+<br>
+	r0 = (int)bitbuffer_encode;<br>
+	r1 = (int)ambebuffer_encode_ecc;<br>
+<br>
+	asm volatile (<br>
+		"PUSH {R4-R11}\n"<br>
+		"SUB SP, SP, #0x14\n"<br>
+		"MOV R3, R1\n"<br>
+		"LDR R2, =0\n"<br>
+		"MOV R1, R0\n"<br>
+		"BL " QU(AMBE_ENCODE_ECC)<br>
+		"ADD SP, SP, #0x14\n"<br>
+		"POP {R4-R11}"<br>
+	);</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32725" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32725">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32725">
+
+						<h3 ><a href="#p32725">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32725&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic40c2.html?p=32725&amp;sid=#p32725" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Mon Sep 02, 2024 10:57 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=4783&amp">JP7NJT</a> wrote: <a href="viewtopicd767.html?p=32723&amp;sid=#p32723" data-post-id="32723" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Sep 02, 2024 9:14 pm</div></cite>
+Hi all, <br>
+<br>
+I think I found 2 bugs in opengd77. Is there a way to correct them?<br>
+<br>
+The first BUG may be in the USB buffer.<br>
+<br>
+<strong class="text-strong">In codec_interface.c</strong><br>
+<br>
+<span style="text-decoration:underline">I put:</span><br>
+<br>
+<strong class="text-strong">#include "usb/usb_com.h"</strong><br>
+<br>
+<span style="text-decoration:underline">then in:</span><br>
+void codecDecode(uint8_t *indata_ptr, int numbBlocks)<br>
+{<br>
+<br>
+soundSetupBuffer();// this just sets currentWaveBuffer but the compiler seems to optimise out the code if I try to do it in this file<br>
+		r2 = (int)bitbuffer_decode;<br>
+		r0 = (int)currentWaveBuffer;<br>
+		r1 = (int)ambebuffer_decode;<br>
+<br>
+<strong class="text-strong">USB_DEBUG_printf("%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d %c%c",bitbuffer_decode[0],bitbuffer_decode[1],bitbuffer_decode[2],bitbuffer_decode[3],bitbuffer_decode[4],bitbuffer_decode[5],bitbuffer_decode[6],bitbuffer_decode[7],bitbuffer_decode[8],bitbuffer_decode[9],bitbuffer_decode[10],bitbuffer_decode[11],bitbuffer_decode[12],bitbuffer_decode[13],bitbuffer_decode[14],bitbuffer_decode[15],bitbuffer_decode[16],bitbuffer_decode[17],bitbuffer_decode[18],bitbuffer_decode[19],bitbuffer_decode[20],bitbuffer_decode[21],bitbuffer_decode[22],bitbuffer_decode[23],bitbuffer_decode[24],bitbuffer_decode[25],bitbuffer_decode[26],bitbuffer_decode[27],bitbuffer_decode[28],bitbuffer_decode[29],bitbuffer_decode[30],bitbuffer_decode[31],bitbuffer_decode[32],bitbuffer_decode[33],bitbuffer_decode[34],bitbuffer_decode[35],bitbuffer_decode[36],bitbuffer_decode[37],bitbuffer_decode[38],bitbuffer_decode[39],bitbuffer_decode[40],bitbuffer_decode[41],bitbuffer_decode[42],bitbuffer_decode[43],bitbuffer_decode[44],bitbuffer_decode[45],bitbuffer_decode[46],bitbuffer_decode[47],bitbuffer_decode[48],0x0d,0x0a);</strong><br>
+<br>
+		asm volatile (<br>
+			"PUSH {R4-R11}\n"<br>
+			"SUB SP, SP, #0x10\n"<br>
+			"STR R1, [SP, #0x08]\n"<br>
+			"LDR R1, =1\n"<br>
+			"STR R1, [SP, #0x04]\n"<br>
+			"LDR R1, =0\n"<br>
+			"STR R1, [SP, #0x00]\n"<br>
+			"LDR R3, =0\n"<br>
+			"LDR R1, =80\n"<br>
+			"BL " QU(AMBE_DECODE)<br>
+			"ADD SP, SP, #0x10\n"<br>
+			"POP {R4-R11}"<br>
+		);<br>
+[...]<br>
+}<br>
+<br>
+<strong class="text-strong">If I put this in the old source code that was published here <a href="https://www.opengd77.com/downloads/releases/MDUV380/R20230311" class="postlink">downloads/releases/MDUV380/R20230311</a> it works fine and in Putty I get 49 bits of the AMBE frame.</strong><br>
+<strong class="text-strong">If I put this in the new source code of 12/31/2023, then as soon as a frame is received, Opengd77 freeze completely I am obliged to remove the battery and put it back on.</strong><br>
+<strong class="text-strong">Tested on a DM1701 and MDUV390.</strong>
+</div></blockquote>
+
+<br>
+Are you saying that when you added code to print to USB then the code now crashes?<br>
+<br>
+The code never contained the usb debug function.<br>
+<br>
+You can't simply add USB debug functions into time critical parts of the firmware and expect it to function correctly</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32726" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32726">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32726">
+
+						<h3 ><a href="#p32726">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32726&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic123c.html?p=32726&amp;sid=#p32726" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Mon Sep 02, 2024 11:00 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=4783&amp">JP7NJT</a> wrote: <a href="viewtopic7744.html?p=32724&amp;sid=#p32724" data-post-id="32724" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Sep 02, 2024 9:18 pm</div></cite>
+<strong class="text-strong">The second BUG is located at the reception level.</strong><br>
+<br>
+For the test I modify the emission and I emit AMBE frames only at 0 (49 bits at zero).<br>
+If I check the emission with DSD-FME, the AMBE frames emitted are all at 0.<br>
+<br>
+frames.png<br>
+<br>
+But the reception is never correct on 3 bits, always the same: I randomly receive bits at 1 in position 37 and 33 and from time to time also on the 38 bit.<br>
+Tested on multiple DM1701s and multiple MDUV380, MDUV390. It is therefore not a hardware problem.<br>
+<br>
+<span style="text-decoration:underline">Example of RX:</span><br>
+<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000001000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000100100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000100100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000010000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000
+0000000000000000000000000000000000000000000000000
+0000000000000000000000000000000000000100000000000</code></pre></div>
+
+<span style="text-decoration:underline">To generate the null frames, i put :</span><br>
+<br>
+void codecEncodeBlock(uint8_t *outdata_ptr)<br>
+{<br>
+asm volatile (<br>
+		"PUSH {R4-R11}\n"<br>
+		"SUB SP, SP, #0x14\n"<br>
+		"STR R1, [SP, #0x0C]\n"<br>
+		"LDR R1, =0x00002000\n"<br>
+		"STR R1, [SP, #0x08]\n"<br>
+		"LDR R1, =1\n"<br>
+		"STR R1, [SP, #0x04]\n"<br>
+		"LDR R1, =0x00000800\n"<br>
+		"STR R1, [SP, #0x00]\n"<br>
+		"LDR R3, =80\n"<br>
+		"LDR R1, =0\n"<br>
+		"BL " QU(AMBE_ENCODE)<br>
+		"ADD SP, SP, #0x14\n"<br>
+		"POP {R4-R11}"<br>
+	);<br>
+<br>
+<strong class="text-strong">for (int i = 0; i &lt; 49; i++)<br>
+	{<br>
+		bitbuffer_encode [ i ]=0;<br>
+       }</strong><br>
+<br>
+	r0 = (int)bitbuffer_encode;<br>
+	r1 = (int)ambebuffer_encode_ecc;<br>
+<br>
+	asm volatile (<br>
+		"PUSH {R4-R11}\n"<br>
+		"SUB SP, SP, #0x14\n"<br>
+		"MOV R3, R1\n"<br>
+		"LDR R2, =0\n"<br>
+		"MOV R1, R0\n"<br>
+		"BL " QU(AMBE_ENCODE_ECC)<br>
+		"ADD SP, SP, #0x14\n"<br>
+		"POP {R4-R11}"<br>
+	);
+</div></blockquote>
+
+<br>
+What is the bug in normal operation ?<br>
+<br>
+I don't really understand what you are saying<br>
+<br>
+I think you are saying you wrote 0x00 into the entire AMBE frame ???<br>
+<br>
+I don't know an entirely 0x00 AMBE frame is valid<br>
+<br>
+<br>
+AMBE is handled by the binary section  of the official firmware. We have no control of what this binary code does. We also can't control the internal processing of the C6000 DMR chip.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32727" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32727">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=4783&amp;sr=posts&amp">32</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Oct 18, 2023 12:44 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32727">
+
+						<h3 ><a href="#p32727">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32727&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopice7fe.html?p=32727&amp;sid=#p32727" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a></strong> &raquo; </span>Mon Sep 02, 2024 11:16 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote class="uncited"><div>Are you saying that when you added code to print to USB then the code now crashes?<br>
+<br>
+The code never contained the usb debug function.<br>
+<br>
+You can't simply add USB debug functions into time critical parts of the firmware and expect it to function correctly</div></blockquote>
+
+In this version <a href="https://www.opengd77.com/downloads/releases/MDUV380/R20230311" class="postlink">downloads/releases/MDUV380/R20230311</a> I can print with the USB debug function. The frames here are printed with the debug function :<br>
+
+<blockquote class="uncited"><div>0000000000000000000000000000000000000000000000000<br>
+0000000000000000000000000000000000000100000000000<br>
+0000000000000000000000000000000000000000000000000<br>
+0000000000000000000000000000000000000100000000000<br>
+0000000000000000000000000000000000000100000000000<br>
+0000000000000000000000000000000000000000000000000<br>
+0000000000000000000000000000000001000100000000000</div></blockquote>
+
+<strong class="text-strong">You mean that in the latest version of 12/31/2023 you removed the debug usb function?</strong></div>
+
+			
+			
+													<div class="notice">
+					Last edited by <a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a> on Mon Sep 02, 2024 11:44 pm, edited 3 times in total.
+									</div>
+			
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32728" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32728">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=4783&amp;sr=posts&amp">32</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Oct 18, 2023 12:44 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32728">
+
+						<h3 ><a href="#p32728">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32728&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopica3f6.html?p=32728&amp;sid=#p32728" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a></strong> &raquo; </span>Mon Sep 02, 2024 11:23 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote class="uncited"><div>I think you are saying you wrote 0x00 into the entire AMBE frame ???<br>
+<br>
+I don't know an entirely 0x00 AMBE frame is valid<br>
+<br>
+<br>
+AMBE is handled by the binary section of the official firmware. We have no control of what this binary code does. We also can't control the internal processing of the C6000 DMR chip.</div></blockquote>
+
+you can send whatever you want in the AMBE frames. Zeros are just one attempt among many.<br>
+<br>
+I mean that OpenGD77 modifies bits in reception when it shouldn't. If I use another opensource firmware like MD380Tools then the bits are not changed and my zeros or other things, arrive at their destination unaltered.<br>
+<br>
+So OpenGD77 alters the sound on 3 bits, which is not normal.<br>
+so I mean if it's not code of yours, then the code that comes from the MD9600 for the decoding of voice frames is not 100% compatible with the DM1701, MDUV390 and others.<br>
+in your old code a few years ago (the one where you used mbelib and not the extracted code of the MD9600 firmware) there is no problem of bits being altered when receiving.<br>
+
+<blockquote class="uncited"><div>What is the bug in normal operation ?</div></blockquote>
+
+The bug is that I lose 3 bits. if I send a fixed signal of 1000Hz (when you use a tone generator, the AMBE frames are fixed), the signal arrives at its destination altered by 3 bits randomly.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32730" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32730">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32730">
+
+						<h3 ><a href="#p32730">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32730&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic21ae.html?p=32730&amp;sid=#p32730" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Tue Sep 03, 2024 2:13 am
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=4783&amp">JP7NJT</a> wrote: <a href="viewtopica3f6.html?p=32728&amp;sid=#p32728" data-post-id="32728" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Sep 02, 2024 11:23 pm</div></cite>
+<blockquote class="uncited"><div>I think you are saying you wrote 0x00 into the entire AMBE frame ???<br>
+<br>
+I don't know an entirely 0x00 AMBE frame is valid<br>
+<br>
+<br>
+AMBE is handled by the binary section of the official firmware. We have no control of what this binary code does. We also can't control the internal processing of the C6000 DMR chip.</div></blockquote>
+
+you can send whatever you want in the AMBE frames. Zeros are just one attempt among many.<br>
+<br>
+I mean that OpenGD77 modifies bits in reception when it shouldn't. If I use another opensource firmware like MD380Tools then the bits are not changed and my zeros or other things, arrive at their destination unaltered.<br>
+<br>
+So OpenGD77 alters the sound on 3 bits, which is not normal.<br>
+so I mean if it's not code of yours, then the code that comes from the MD9600 for the decoding of voice frames is not 100% compatible with the DM1701, MDUV390 and others.<br>
+in your old code a few years ago (the one where you used mbelib and not the extracted code of the MD9600 firmware) there is no problem of bits being altered when receiving.<br>
+
+<blockquote class="uncited"><div>What is the bug in normal operation ?</div></blockquote>
+
+The bug is that I lose 3 bits. if I send a fixed signal of 1000Hz (when you use a tone generator, the AMBE frames are fixed), the signal arrives at its destination altered by 3 bits randomly.
+</div></blockquote>
+
+We never used mbelib. <br>
+We always use the codec from the TYT binaries. The all STM32 based versions use the  official MD9600 firmware as the donor for the AMBE codec and all MK22 versions use the official GD77 firmware as the donor.<br>
+<br>
+FYI. AFIK. AMBE is a voice only codec and is not designed to pass single frequency tones, or SSTV or music etc.<br>
+I think the TYT implementation of the AMBE standard does partially pass some tones, but this operation is not guaranteed and AFIK the AMBE3000 chips will not pass audio tones at all<br>
+<br>
+What other fireware e.g. MD380Tools does is not relevant, because this is hacked firmware and may or may not use the official TYT codec, and even if it does use a version of the TYT codec, it is unlikely to be the same version of codec that TYT use in the official MD9600 firmware<br>
+<br>
+AFIK. You are not using the firmware for its intended purpose, which is for voice communication. It won't work for sending tones or music or SSTV etc etc</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32737" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32737">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=4783&amp;sr=posts&amp">32</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Oct 18, 2023 12:44 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32737">
+
+						<h3 ><a href="#p32737">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32737&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicd159.html?p=32737&amp;sid=#p32737" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=4783&amp" class="username">JP7NJT</a></strong> &raquo; </span>Tue Sep 03, 2024 1:57 pm
+			</p>
+			
+			
+			
+			<div class="content">I continued my testing and this is not a problem with the AMBE codec and it causes the problem even with voice frames or silent frames. <br>
+This is either a hardware issue with the C6000 or a problem with the initialization of the C6000. But it would be surprising if it was a hardware issue since the issue does not occur with the MD380Tools firmware.<br>
+<br>
+<strong class="text-strong">Are there multiple ways to initialize the C6000?</strong><br>
+<br>
+<span style="text-decoration:underline">Example of a silence frame that is also received with incorrect bits (always the same) at random:</span><br>
+<br>
+11111000000000011010100110011111100011001110000<strong class="text-strong">1</strong>0<br>
+1111100000000001101010011001111110001100111000000<br>
+111110000000000110101001100111<strong class="text-strong">0</strong>110001100111000000<br>
+1111100000000001101010011001111110001100111000000<br>
+111110000000000110101001100111111000110011100000<strong class="text-strong">1</strong><br>
+111110000000000110101001100111111000110011100000<strong class="text-strong">1</strong><br>
+111110000000000110101001100111111000110011100000<strong class="text-strong">1</strong><br>
+111110000000000110101001100111111000110011100000<strong class="text-strong">1</strong><br>
+1111100000000001101010011001111110001100111000000<br>
+111110000000000110101001100111<strong class="text-strong">0</strong>110001100111000000<br>
+1111100000000001101010011001111110001100111000000<br>
+111110000000000110101001100111111000110011100000<strong class="text-strong">1</strong><br>
+1111100000000001101010011001111110001100111000<strong class="text-strong">1</strong>00<br>
+<br>
+I tested directly at the source in the HR-C6000.c file:<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>SPI1ReadPageRegByteArray(0x03, 0x00, DMR_frame_buffer + LC_DATA_LENGTH, AMBE_AUDIO_LENGTH);
+
+USB_DEBUG_printf("%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%0.2X%c%c",DMR_frame_buffer[0],DMR_frame_buffer[1],DMR_frame_buffer[2],DMR_frame_buffer[3],DMR_frame_buffer[4],DMR_frame_buffer[5],DMR_frame_buffer[6],DMR_frame_buffer[7],DMR_frame_buffer[8],DMR_frame_buffer[9],DMR_frame_buffer[10],DMR_frame_buffer[11],DMR_frame_buffer[12],DMR_frame_buffer[13],DMR_frame_buffer[14],DMR_frame_buffer[15],DMR_frame_buffer[16],DMR_frame_buffer[17],DMR_frame_buffer[18],DMR_frame_buffer[19],DMR_frame_buffer[20],DMR_frame_buffer[21],DMR_frame_buffer[22],DMR_frame_buffer[23],DMR_frame_buffer[24],DMR_frame_buffer[25],DMR_frame_buffer[26],0x0d,0x0a);</code></pre></div>
+
+<span style="text-decoration:underline">And here again, the silence frame is wrongly received on some bits:</span><br>
+<br>
+000000000001000001102DADB9E881526173002A6CF9E881526173<br>
+000000000001000001102DADB9E881526173002A6F39F881526173<br>
+000000000001000001102DADB9E881526173002A6BFDEC81527173<br>
+000000000001000001102DADB9E881526173002A6F39F881526173<br>
+000000000001000001102DADB9E881526173002A6EB1E881526173<br>
+000000000001000001102DADB9E88152617<strong class="text-strong">B</strong>002A<strong class="text-strong">7</strong>EF9E881526173<br>
+000000000001000001102DADF9<strong class="text-strong">F</strong>881526173002A6EB1E881526173<br>
+000000000001000001102DADB9E881526173002A6CF9E881526173<br>
+000000000001000001102DADB9E881526173002A6F39F881526173<br>
+000000000001000001102DADB9E881526173002A6EF1E881526173<br>
+000000000001000001102DADB9E88152617<strong class="text-strong">B</strong>002A<strong class="text-strong">7</strong>AF9E881526173<br>
+000000000001000001102DADB9E881526173002A6AF9EC81526173<br>
+000000000001000001102DADB9E88152617<strong class="text-strong">B</strong>002A6BB9E881527173<br>
+000000000001000001102DADB9E881526173002A6E<strong class="text-strong">B</strong>1E881526173<br>
+000000000001000001102DADB9E881526173002A6C<strong class="text-strong">F</strong>9E881526173<br>
+000000000001000001102DADB9E881526173002A6F<strong class="text-strong">3</strong>9F881526173<br>
+000000000001000001102DADB9E881526173002A6EF1E881526173<br>
+000000000001000001102DADB9E88152617B002A<strong class="text-strong">7</strong>AF9E881527173<br>
+000000000001000001102DADB9E881526173002A6F39F881527173<br>
+<br>
+<strong class="text-strong">Do you have the possibility to reproduce this problem on your radios?</strong><br>
+<br>
+<span style="text-decoration:underline">just change the AMBE frame to sending with a null frame (before the FEC):</span><br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>[...]
+uint8_t nullframe[49]={1,1,1,1,1,0,0,0,0,0,0,0,0,0,0,1,1,0,1,0,1,0,0,1,1,0,0,1,1,1,1,1,1,0,0,0,1,1,0,0,1,1,1,0,0,0,0,0,0};
+
+for (int i = 0; i &lt; 49; i++)
+{
+bitbuffer_encode [ i ]=nullframe [ i ];
+}
+
+r0 = (int)bitbuffer_encode;
+r1 = (int)ambebuffer_encode_ecc;
+
+[..]
+</code></pre></div>
+
+<br>
+<span style="text-decoration:underline">and on a second radio to display the AMBE frame received (after the FEC) :</span><br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>void codecDecode(uint8_t *indata_ptr, int numbBlocks)
+{
+
+soundSetupBuffer();// this just sets currentWaveBuffer but the compiler seems to optimise out the code if I try to do it in this file
+r2 = (int)bitbuffer_decode;
+r0 = (int)currentWaveBuffer;
+r1 = (int)ambebuffer_decode;
+
+USB_DEBUG_printf("%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d%d %c%c",bitbuffer_decode[0],bitbuffer_decode[1],bitbuffer_decode[2],bitbuffer_decode[3],bitbuffer_decode[4],bitbuffer_decode[5],bitbuffer_decode[6],bitbuffer_decode[7],bitbuffer_decode[8],bitbuffer_decode[9],bitbuffer_decode[10],bitbuffer_decode[11],bitbuffer_decode[12],bitbuffer_decode[13],bitbuffer_decode[14],bitbuffer_decode[15],bitbuffer_decode[16],bitbuffer_decode[17],bitbuffer_decode[18],bitbuffer_decode[19],bitbuffer_decode[20],bitbuffer_decode[21],bitbuffer_decode[22],bitbuffer_decode[23],bitbuffer_decode[24],bitbuffer_decode[25],bitbuffer_decode[26],bitbuffer_decode[27],bitbuffer_decode[28],bitbuffer_decode[29],bitbuffer_decode[30],bitbuffer_decode[31],bitbuffer_decode[32],bitbuffer_decode[33],bitbuffer_decode[34],bitbuffer_decode[35],bitbuffer_decode[36],bitbuffer_decode[37],bitbuffer_decode[38],bitbuffer_decode[39],bitbuffer_decode[40],bitbuffer_decode[41],bitbuffer_decode[42],bitbuffer_decode[43],bitbuffer_decode[44],bitbuffer_decode[45],bitbuffer_decode[46],bitbuffer_decode[47],bitbuffer_decode[48],0x0d,0x0a);
+
+asm volatile (
+"PUSH {R4-R11}\n"
+"SUB SP, SP, #0x10\n"
+"STR R1, [SP, #0x08]\n"
+"LDR R1, =1\n"
+"STR R1, [SP, #0x04]\n"
+"LDR R1, =0\n"
+"STR R1, [SP, #0x00]\n"
+"LDR R3, =0\n"
+"LDR R1, =80\n"
+"BL " QU(AMBE_DECODE)
+"ADD SP, SP, #0x10\n"
+"POP {R4-R11}"
+);
+[...]
+}</code></pre></div></div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32738" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32738">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=87&amp" class="username">G4EML</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=87&amp;sr=posts&amp">1056</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 10:01 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32738">
+
+						<h3 ><a href="#p32738">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32738&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic3c4e.html?p=32738&amp;sid=#p32738" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=87&amp" class="username">G4EML</a></strong> &raquo; </span>Tue Sep 03, 2024 3:37 pm
+			</p>
+			
+			
+			
+			<div class="content">It is unlikely to be a HRC-6000 configuration issue because we are using the same initialisation data as used by the official firmware. (Captured from the original radio) . <br>
+<br>
+As has been mentioned before the HRC-6000 is very poorly documented so most of what we have found has been from observing the original firmware behaviour. <br>
+<br>
+However there may of course be a bug in the code somewhere that has not been found. AMBE packets are very error tolerant so occasional single bit errors will be  corrected by the vocoder and not noticed. <br>
+<br>
+I doubt that any of the developers has the time to try to reproduce your findings. It sounds like you are probably the person best equipped to trace further.  If you do manage to find the cause it may well help the project overall. <br>
+<br>
+One point mentioned previously by Roger, the USBDebug_printf function was never intended to be used in time critical parts of the code. It can slow things down a lot and may affect normal operation. Whilst it may appear to be working at the moment I would be very cautious when using it. <br>
+<br>
+Colin G4EML</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p32742" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile32742">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content32742">
+
+						<h3 ><a href="#p32742">Re: Probable bug in OpenGD77</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=32742&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopice20c.html?p=32742&amp;sid=#p32742" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Wed Sep 04, 2024 12:20 am
+			</p>
+			
+			
+			
+			<div class="content">MD380 uses a different DMR chip. C5000 not the C6000 as used in the UV380. The initialisation of the C5000 is significantly different from the C6000, and its also possible that the C6000 has bugs that the C5000 does not and vice versa.<br>
+<br>
+If you are saying that the data from the C5000 and C6000 are different, this is entirely possible, as they are different chips.<br>
+<br>
+<br>
+How are you transmitting the silence frames.  I presume you have modified the MD380 firmware to send silence frames ?<br>
+What is your RF / audio connection between the MD380 and the UV380 ?  Have you looked at the received audio signal from the AT1846S Tx/Rx chip, and decoded this using some other means e.g. DSD<br>
+<br>
+Your presumption that there is a in the code presumes that the C6000 is receiving clean audio from the receiver and that your modulation is clean, or have you already verified this ?<br>
+<br>
+The TRx chip used in the UV380 is totally different from the Tx Rx system in the MD380 and the Rx side of the TRx chip is known to be poor quality and also susepetable to interference both in band and out of band, and also is not tollerant of signal overloading.<br>
+<br>
+Even if DSD can demodulate the signal, it does not guarantee that the C6000 can demodulate the signal.<br>
+<br>
+Currently there are many places in the process where your 'silence frame' data could have errors introduced. I don't understand your presumption that this must be a bug in the firmware, when it could be a RF / AF problem<br>
+<br>
+To remove the possiblity that its a RF / AF problem you would need to generate the 4FSK AF encoded signal some other way, and directly inject this into the PCB of the radio, and then adjust the modulation level and attempt to confirm whether this problem is AF/RF<br>
+<br>
+<br>
+You may be able to use USB Debug print, if you increase the CPU clock frequency. The CPU frequency is controlled by the clock manager code and is changed during Tx and Rx and is always significantly lower than the maximum frequency that the CPU supports.<br>
+<br>
+You should also change the code to prevent the radio entering its Eco / Power saving mode, as this will change the CPU frequency to much lower.<br>
+Possibly changing the code so that the firmware leaves the CPU freq at the same it uses for Tx (in DMR mode) may be fast enough to allow USB serial to work in the location you want to view it.<br>
+<br>
+If this is not fast enough you will need to change the clock settings for the entire chip. If you change the CPU clock frequency so that everything runs faster, that you need to ensure that the clock multiplier and divider frequencies provide the correct clock speed for the USB subsystem in the STM32, otherwise USB won't work. Also check the GPIO / SPI / I2C subsystem clock dividers etc to ensure you are not overclocking them if you increase the CPU core frequency.<br>
+<br>
+<br>
+<br>
+Generally however, USB serial should not be used in sections of code which have high CPU load or are time critical.<br>
+If you have a JLink or STLink there are methods to use the SWD print functionality, however the bootloader disables SWD, so you would need to patch the and reflash the bootloader, or relocate the code to not use the bootloader at all.<br>
+Or you can use other methods</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="posting.php?mode=reply&amp;f=16&amp;t=4367&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic5fbf.html?f=16&amp;t=4367&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="viewtopic.php?f=16&amp;t=4367&amp">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			44 posts
+							<ul>
+		<li class="active"><span>1</span></li>
+				<li><a class="button" href="viewtopicd0b2.html?f=16&amp;t=4367&amp;sid=&amp;start=10" role="button">2</a></li>
+				<li><a class="button" href="viewtopic0b85.html?f=16&amp;t=4367&amp;sid=&amp;start=20" role="button">3</a></li>
+				<li><a class="button" href="viewtopic8223.html?f=16&amp;t=4367&amp;sid=&amp;start=30" role="button">4</a></li>
+				<li><a class="button" href="viewtopic0977.html?f=16&amp;t=4367&amp;sid=&amp;start=40" role="button">5</a></li>
+				<li class="arrow next"><a class="button button-icon-only" href="viewtopicd0b2.html?f=16&amp;t=4367&amp;sid=&amp;start=10" rel="next" role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Next</span></a></li>
+	</ul>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="viewforume716.html?f=16&amp" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to “Developer discussions”</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																				<li><a href="viewforum24e8.html?f=1&amp" class="jumpbox-cat-link"> <span> OpenGD77 information</span></a></li>
+																<li><a href="viewforum3550.html?f=3&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Announcements</span></a></li>
+																<li><a href="viewforumbe59.html?f=5&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; FAQ</span></a></li>
+																<li><a href="viewforum5dff.html?f=21&amp" class="jumpbox-cat-link"> <span> Radios &amp; CPS</span></a></li>
+																<li><a href="viewforumf979.html?f=12&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; CPS</span></a></li>
+																<li><a href="viewforume4b2.html?f=13&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; GD-77 / DM-1801 / RD-5R / GD-77S</span></a></li>
+																<li><a href="viewforum3072.html?f=18&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-9600 / Retevis RT-90</span></a></li>
+																<li><a href="viewforum71f6.html?f=19&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a></li>
+																<li><a href="viewforum566e.html?f=28&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD2017 / Retevis RT-82</span></a></li>
+																<li><a href="viewforum976e.html?f=27&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Other unsupported radios</span></a></li>
+																<li><a href="viewforum68f5.html?f=6&amp" class="jumpbox-cat-link"> <span> Discussions</span></a></li>
+																<li><a href="viewforum5c89.html?f=10&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; New members must post here first</span></a></li>
+																<li><a href="viewforum3e36.html?f=29&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Help needed</span></a></li>
+																<li><a href="viewforum7cb0.html?f=7&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; General discussions</span></a></li>
+																<li><a href="viewforumc69f.html?f=9&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Hotspot mode</span></a></li>
+																<li><a href="viewforume094.html?f=22&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Voice prompts</span></a></li>
+																<li><a href="viewforumd275.html?f=23&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Localisation</span></a></li>
+																<li><a href="viewforum5cd2.html?f=14&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Codeplugs</span></a></li>
+																<li><a href="viewforum41c9.html?f=17&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1801 specific</span></a></li>
+																<li><a href="viewforum93b2.html?f=25&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1701 / Retevis RT-84 specific</span></a></li>
+																<li><a href="viewforume716.html?f=16&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Developer discussions</span></a></li>
+																<li><a href="viewforum53f9.html?f=26&amp" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-2017 / RT-82</span></a></li>
+																<li><a href="viewforum5fd2.html?f=11&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Bug reports</span></a></li>
+																<li><a href="viewforume051.html?f=8&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Off topic</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer"  style="display:none" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="index76ff.html?sid=" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="UTC">UTC</span></li>
+							<li class="rightside">
+				<a href="ucp.php?mode=delete_cookies&amp" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+																<li class="rightside" data-last-responsive="true">
+				<a href="memberlist.php?mode=contactadmin&amp" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="cron200f.gif?cron_type=cron.task.core.tidy_sessions&amp" width="1" height="1" alt="cron" /></div>
+
+<script src="assets/javascript/jquery.min245c.js?assets_version=3"></script>
+<script src="assets/javascript/core245c.js?assets_version=3"></script>
+
+
+
+<script src="styles/prosilver/template/forum_fn245c.js?assets_version=3"></script>
+<script src="styles/prosilver/template/ajax245c.js?assets_version=3"></script>
+
+
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=16&t=4367&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 07:52:31 GMT -->
+</html>

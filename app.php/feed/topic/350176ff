@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3501" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-11-30T14:12:02</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3501</id>
+
+		<entry>
+		<author><name><![CDATA[OE6BZD]]></name></author>
+		<updated>2023-11-30T14:12:02</updated>
+
+		<published>2023-11-30T14:12:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27769#p27769</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27769#p27769"/>
+		<title type="html"><![CDATA[Re: SCT3258 Baseband IC]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27769#p27769"><![CDATA[
+Do we by any chance know the hardware differences between the different versions of the AnyTone 878 like UV, UV+, UVII+ ?<br>73 Nico<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5024">OE6BZD</a> — Thu Nov 30, 2023 2:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-11-22T17:59:49</updated>
+
+		<published>2023-11-22T17:59:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27613#p27613</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27613#p27613"/>
+		<title type="html"><![CDATA[Re: SCT3258 Baseband IC]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27613#p27613"><![CDATA[
+I have looked at the data sheets for the SCT3258 before and it does look like an interesting chip. CML Microcircuits is a UK company so there might be some support available, and maybe even some example applications, but often that comes along with non-disclosure agreements which might make an open source project difficult. <br><br>None of the current developers has the time (or inclination) to take this on but it certainly looks as if it might be possible given enough effort. <br><br>You have also found one of the other problems with the Chinese radios. The manufacturers often change the design completely and still keep the original model number.  <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Nov 22, 2023 5:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE6BZD]]></name></author>
+		<updated>2023-11-23T08:12:38 </updated>
+
+		<published>2023-11-22T08:52:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27609#p27609</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27609#p27609"/>
+		<title type="html"><![CDATA[SCT3258 Baseband IC]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3501&amp;p=27609#p27609"><![CDATA[
+Hi all,<br><br>I just want to drop something here, the files below contain what seems like fairly comprehensive documentation for the CT3258/SCT3258 DMR Baseband IC:<br><br><a href="cdn.hackaday.io/files/1642237026116832/SCT3258_datasheet_v2_0.pdf" class="postlink">cdn.hackaday.io/files/1642237026116832/ ... t_v2_0.pdf</a><br><a href="cdn.hackaday.io/files/1642237026116832/CT3258_datasheet.pdf" class="postlink">cdn.hackaday.io/files/1642237026116832/ ... asheet.pdf</a><br><a href="cdn.hackaday.io/files/1642237026116832/CT3258_Packet_Interface.pdf" class="postlink">cdn.hackaday.io/files/1642237026116832/ ... erface.pdf</a><br><a href="cdn.hackaday.io/files/1642237026116832/CT3258_Analog_Setup.pdf" class="postlink">cdn.hackaday.io/files/1642237026116832/ ... _Setup.pdf</a><br><br>I found those a few years ago, while fooling around with the Retevis RT40 PMR/DMR Tier I radios (actually turned out to be fully Tier II compatible: <a href="hackaday.io/project/164223-retevis-rt40-reverse-engineering" class="postlink">hackaday.io/project/164223-retevis-rt40 ... ngineering</a>), which use that same Baseband IC. The datasheets don't seem to be available anywhere else than on my hackaday project page anymore.<br><br>The Datasheets for the CT3258 and the SCT3258 only seem to differ in the designation of the IC and in the name of the manufacturer and since the original manufacturer Sicomm was aquired by CML Microcircuits in 2016, I'm thinking that maybe they really only changed the designation and that maybe the packet interface of the SCT3258 is backwards compatible.<br><br>Why would this be relevant? Because the SCT3258 is apparently being used as the Baseband IC in the Anytone 878. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br>I am absolutely amazed by what you guys have accomplished for the GD77 with incomplete documentation of the baseband IC, so I'm wondering what you might be capable of, with the possibly complete documentation of the SCT3258 and the STM32 inside the Anytone. I actually just ordered a compatible radio a few days ago to finally try out OpenGD77 and that made me think about my own little DMR project again.<br><br>This should by no means be interpreted as a request for porting OpenGD77 to the Anytones, just a hint for anyone with a lot of spare time and motivation to pick up a new fight on a new platform.<br><br>I personally will be taking a closer look at the RT40s again in the next couple of days because they use an STM8S, which contains a ROM bootloader and they have an exposed SWIM interface. Furthermore, an implementation of a voltage fault injection attack for this very MCU was published a while ago (<a href="itooktheredpill.irgendwo.org/2020/stm8-readout-protection" class="postlink">itooktheredpill.irgendwo.org/2020/stm8- ... protection</a>), so I feel like there's a good chance of getting firmware out of and into the RT40, even if the flash should be locked. I don't know what my endgame is here, but since the manufacturer explicitly states that the Baseband IC supports SMS, maybe the RT40 can serve as a platform to explore and understand data only modes? Let's just see where this goes.<br><br>Oh by the way, the current version of the RT40 looks physically different and the latest Retevis CPS won't talk to my old hardware at all, so I suspect that they might have redesigned the hardware too. If someone feels like ordering and tearing down one of those new ones, I'd be curious to learn about the insides. <br><br>Best of luck and best regards to all of you<br>Nico, OE6BZD<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5024">OE6BZD</a> — Wed Nov 22, 2023 8:52 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

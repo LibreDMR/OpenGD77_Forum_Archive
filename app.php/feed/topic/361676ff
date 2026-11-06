@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3616" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-26T18:54:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3616</id>
+
+		<entry>
+		<author><name><![CDATA[EC3A]]></name></author>
+		<updated>2023-12-26T18:54:55</updated>
+
+		<published>2023-12-26T18:54:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28268#p28268</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28268#p28268"/>
+		<title type="html"><![CDATA[Re: no port available with CPS R2023.11.26.01 and GD77 Radioddity radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28268#p28268"><![CDATA[
+Hi SA0BUX and G4EML,<br><br>thank for anwers.<br><br>I wish a happy new year to both of you and your families.<br><br>Fernando, EC3A.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5202">EC3A</a> — Tue Dec 26, 2023 6:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-12-26T13:44:32</updated>
+
+		<published>2023-12-26T13:44:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28261#p28261</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28261#p28261"/>
+		<title type="html"><![CDATA[Re: no port available with CPS R2023.11.26.01 and GD77 Radioddity radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28261#p28261"><![CDATA[
+Download the GD-77 donor software and extract and select the GD-77_V4.3.6.sgl file in the OpenGD77 GD77 Firmware Loader.<br>When the donor software is verified use "Select a File &amp; Update together with the OpenGD77 Firmware.<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2054&amp;sid=dd846ffac38c08befe222d484e912938" class="postimage" alt="Screenshot 2023-12-26 143629.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Dec 26, 2023 1:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-12-26T13:00:37</updated>
+
+		<published>2023-12-26T13:00:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28260#p28260</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28260#p28260"/>
+		<title type="html"><![CDATA[Re: no port available with CPS R2023.11.26.01 and GD77 Radioddity radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28260#p28260"><![CDATA[
+It does not matter what firmware is loaded to your radio. The merge is done in the CPS before it is downloaded and this only works with the stated firmware version. You never need to load that version into your radio, it is only needed by the CPS.<br><br>If you follow the installation procedures completely, Including making a flash backup, you should be able to return to the original firmware. People have done this before. However this is not guaranteed, it is one of the small risks you take when loading unofficial firmware. It is up to you if you want to take that risk.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Dec 26, 2023 1:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EC3A]]></name></author>
+		<updated>2023-12-26T12:25:57</updated>
+
+		<published>2023-12-26T12:25:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28259#p28259</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28259#p28259"/>
+		<title type="html"><![CDATA[Re: no port available with CPS R2023.11.26.01 and GD77 Radioddity radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28259#p28259"><![CDATA[
+Thank you for your answer. <br><br>At this moment in my radio the firmware installed is  GD-77_V4.3.9.sgl that I have downloaded and installes few day ago from the last version of software available in the Radioddity WEB page <a href="https://www.radioddity.com/pages/radioddity-download" class="postlink">https://www.radioddity.com/pages/radioddity-download</a>. <br><br>I read in the <strong class="text-strong">OpenGD77 firmware installation</strong> document that the firmware file versión that I sould use is GD-77_V4.3.6.sgl file . <br><br>I have two questions:<br><br>1.-  Will the extras/firmware loader work correctly with version 4.3.9? . I have read in the same document that "Firmware loader can merge the OpenGD77 firmware with the codec from the official firmware" and I dont know if it will work also with this last version ( is not the 4.3.6 ) .<br><br>2.- Once the firmware is <strong class="text-strong">installed and merged</strong> with the OpenGD77 "extras/firmware loader", will I be able to go back to the original firmware or the original factory state of the radio? .<br><br>Thank you in advance for your support.<br><br>Fernando, EC3A.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2052&amp;sid=dd846ffac38c08befe222d484e912938" class="postimage" alt="Captura.PNG" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2053&amp;sid=dd846ffac38c08befe222d484e912938" class="postimage" alt="Captura1.PNG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5202">EC3A</a> — Tue Dec 26, 2023 12:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-12-25T17:34:33</updated>
+
+		<published>2023-12-25T17:34:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28249#p28249</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28249#p28249"/>
+		<title type="html"><![CDATA[Re: no port available with CPS R2023.11.26.01 and GD77 Radioddity radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28249#p28249"><![CDATA[
+Have you loaded the OpenGD77 firmware into the radio from the extras/firmware loader menu as detailed in the instructions? <br>The Com port will not appear until this has been done. The CPS cannot be used with the original manufacturers firmware. <br>Loading the firmware does not use the com port.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Dec 25, 2023 5:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EC3A]]></name></author>
+		<updated>2023-12-25T12:49:02</updated>
+
+		<published>2023-12-25T12:49:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28247#p28247</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28247#p28247"/>
+		<title type="html"><![CDATA[no port available with CPS R2023.11.26.01 and GD77 Radioddity radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3616&amp;p=28247#p28247"><![CDATA[
+Hello,<br><br>I am new using OpenGD77. My radio is a Radioddity GD77. I have downloaded and installed the OpenGD77CPSInstaller_R2023.11.26.02 version of CPS. When I use this version of CPS and try to read or write from the radio, I always get the same message SELECT OpenGD77 com port and although a drop-down menu appears, the program does not have any port identified to select. I do not know what is the problem. Anybody knows what could be the problem? . <br><br>Thank you.<br><br>Fernando, EC3A.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2050&amp;sid=dd846ffac38c08befe222d484e912938" class="postimage" alt="Captura.PNG" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5202">EC3A</a> — Mon Dec 25, 2023 12:49 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

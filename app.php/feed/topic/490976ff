@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4909" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-25T06:56:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4909</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-25T06:56:19</updated>
+
+		<published>2025-02-25T06:56:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35916#p35916</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35916#p35916"/>
+		<title type="html"><![CDATA[Re: about RD-5R Chinese display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35916#p35916"><![CDATA[
+<blockquote class="uncited"><div>Hello, thank you very much. I have expanded the flash chip to 4MB?</div></blockquote>I'm talking about the MCU flash, not the external flash chip.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Feb 25, 2025 6:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA4QHW]]></name></author>
+		<updated>2025-02-25T06:49:22</updated>
+
+		<published>2025-02-25T06:49:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35915#p35915</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35915#p35915"/>
+		<title type="html"><![CDATA[Re: about RD-5R Chinese display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35915#p35915"><![CDATA[
+Hello, thank you very much. I have expanded the flash chip to 4MB?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7192">BA4QHW</a> — Tue Feb 25, 2025 6:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-25T04:44:08</updated>
+
+		<published>2025-02-25T04:44:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35913#p35913</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35913#p35913"/>
+		<title type="html"><![CDATA[Re: about RD-5R Chinese display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35913#p35913"><![CDATA[
+As discussed many times, there is no Chinese support in the firmware, as there are too many glyphs to support, requires multibytes strings and so on. The memory space is limited, and the strings are bytes based.<br>We have a kind of special string support, bitmap fonts and stuff like that.<br>Japanese have Katakana, which uses a limited set of glyph, but Chinese and Russian don't, hence it's not possible to support such languages (I know some Russians are using a kind of hack to support their language in a modified version of the firmware).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Feb 25, 2025 4:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA4QHW]]></name></author>
+		<updated>2025-02-25T04:10:34</updated>
+
+		<published>2025-02-25T04:10:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35912#p35912</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35912#p35912"/>
+		<title type="html"><![CDATA[about RD-5R Chinese display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4909&amp;p=35912#p35912"><![CDATA[
+Is there a Chinese screen display file, or can anyone provide guidance on how to join? Thank you very much<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7192">BA4QHW</a> — Tue Feb 25, 2025 4:10 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

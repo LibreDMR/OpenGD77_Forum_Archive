@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=28&t=4777&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 15:11:50 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; New MD-2017/RT-82 Beta version 2025 01 19</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>New MD-2017/RT-82 Beta version 2025 01 19</h2>
+		<p><a href="viewtopic9009-2.html?f=28&amp;t=4777">viewtopic.php?f=28&amp;t=4777</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>New MD-2017/RT-82 Beta version 2025 01 19</h3>
+				<div class="date">Posted: <strong>Sun Jan 19, 2025 11:52 am</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content"><ul>
+<li> Add GPS baud rate detection</li>
+<li> Show channel distance when scan is paused</li>
+<li> Fix bug in channel/VFO modes when scanning with VP</li>
+<li> Add last talker in screen option.
+ <ul>
+ <li> In DIGITAL mode, when this option is enabled, the last caller callsign and channel contact are displayed each x seconds alternatively, in both Channel and VFO menus.</li>
+ </ul></li>
+<li> Don't display CSS in header while DW scanning.</li>
+<li> Add APRS tx frequency support.
+ <ul>
+ <li> When a TX Frequency is set in the APRS Config, the device is tuned to that frequency before transmitting the frame.<br>
+     That permits setting an APRS Config to a DIGITAL channel (menuChannelDetails supports<br>
+     that too).</li>    
+ <li> Also, a CODEPLUG_APRS_CONFIG_FLAG_TRANSMIT_QSY_INFO APRS Config flag is now supported,<br>
+     which add QSY information to the beacon text (like frequency / tone / shift). Tested<br>
+     on my TH-D74.</li>    
+ <li>  NOTE: this is not enabled/supported while in Satellite mode.</li>
+ <li> "APRS" word in the header had to be changed, since it could appear in DIGITAL mode too. It's now a "a", next to the mode.</li>
+ <li> <strong class="text-strong">WARNING:</strong> The APRS Config version has been changed for this, so you need to read and write back your codeplug to update the APRS configurations, using the latest CPS (&gt;= 2025 01 19).</li>
+</ul></li>
+<li> Fix DMR Rx AGC (wasn't disabled once enabled, until the transceiver got power cycled).</li>
+<li> Add special beeps when ReverseRepeater is enabled/disabled.</li>
+<li> Contact TS override has to be displayed, no matter the Display option "Info" is set.</li>
+<li> Many other small fixes/cleanups.</li>
+</ul>
+
+The firmwares are available at: <a href="https://drive.proton.me/urls/PD3G8PGKV8#ljn4PcoZQJAm" class="postlink">https://drive.proton.me/urls/PD3G8PGKV8#ljn4PcoZQJAm</a><br>
+The voice prompts are available at: <a href="https://drive.proton.me/urls/TJPJF51XAC#jSxZ1Ln9GyI9" class="postlink">https://drive.proton.me/urls/TJPJF51XAC#jSxZ1Ln9GyI9</a><br>
+<br>
+<strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/19, otherwise the APRS config won't work. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4773#p35193" class="postlink">viewtopic.php?f=12&amp;t=4773#p35193</a><br>
+<br>
+For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/Y6Q3ZDND7C#teUQ3T2TOpug" class="postlink">https://drive.proton.me/urls/Y6Q3ZDND7C#teUQ3T2TOpug</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: New MD-2017/RT-82 Beta version 2025 01 19</h3>
+				<div class="date">Posted: <strong>Sun Jan 19, 2025 7:43 pm</strong></div>
+				<div class="author">by <strong>HB9WCN</strong></div>
+				<div class="content">Hello<br>
+<br>
+Thanks for the new beta update.<br>
+When testing on the MD2017, i noticed that with the "Last Talker" setting, only P1 (smaller) works. P2 (larger) has no function.<br>
+<br>
+Many thanks and have a nice evening<br>
+<br>
+Regards René</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: New MD-2017/RT-82 Beta version 2025 01 19</h3>
+				<div class="date">Posted: <strong>Wed Jan 22, 2025 5:10 pm</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=28&amp;t=4789" class="postlink">viewtopic.php?f=28&amp;t=4789</a></div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=28&t=4777&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 15:11:50 GMT -->
+</html>

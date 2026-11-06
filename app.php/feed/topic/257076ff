@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2570" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-18T06:25:12</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2570</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-18T06:25:12</updated>
+
+		<published>2023-08-18T06:25:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=25409#p25409</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=25409#p25409"/>
+		<title type="html"><![CDATA[Re: turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=25409#p25409"><![CDATA[
+CPS has been updated with an option to clear the voice prompts<br><br>See <br><br><a href="https://www.opengd77.com/viewtopic.php?f=22&amp;t=3169" class="postlink">viewtopic.php?f=22&amp;t=3169</a><br><br>Thanks to Daniel F1RMB for this new feature<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 18, 2023 6:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-01-08T06:41:55</updated>
+
+		<published>2023-01-08T06:41:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21242#p21242</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21242#p21242"/>
+		<title type="html"><![CDATA[Re: turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21242#p21242"><![CDATA[
+<blockquote class="uncited"><div>BTW,  noticed that you can select Radio below the option "Use Voice Prompt memory" in the CPS "Download Callsign database"<br>I couldn't find RT3S/MD-UV380 in that list.</div></blockquote>This needs to be tidied up. I think its probably redundant, as the CPS now normally asks the firmware what type of radio it is, for most operations.<br><br>But a lot of people still run old quite old firmware which does not support reading the radio type <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"><br><br>BTW.<br><br>The reason that Voice Prompts default to on, is because otherwise blind users would be unable to use the radio after loading the Voice Prompts, as they would have no way to get to the menu to enable the prompts<br><br>Generally, once you turn off the VP they won't come back on unless you reset the settings or occasionaly on firmware updates the settings need to be cleared when new features are added or redundant settings are removed.<br><br>So its normally not a big problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jan 08, 2023 6:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-01-07T22:47:17</updated>
+
+		<published>2023-01-07T22:47:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21240#p21240</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21240#p21240"/>
+		<title type="html"><![CDATA[Re: turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21240#p21240"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Can you clean away the voice prompts from the radio?<br><br>I installed them just to test how they sounded.<br><br>Now I have to disable them every time the options are reset</div></blockquote>There isn't a feature to remove voice prompts, but you could reload the DMR ID database and choose the option to use the Voice Prompts memory as additional storage for DMR IDs. This would have the same effect</div></blockquote>I will try that.<br><br>BTW,  noticed that you can select Radio below the option "Use Voice Prompt memory" in the CPS "Download Callsign database"<br>I couldn't find RT3S/MD-UV380 in that list.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jan 07, 2023 10:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-01-07T20:49:15</updated>
+
+		<published>2023-01-07T20:49:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21236#p21236</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21236#p21236"/>
+		<title type="html"><![CDATA[Re: turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21236#p21236"><![CDATA[
+<blockquote class="uncited"><div>Can you clean away the voice prompts from the radio?<br><br>I installed them just to test how they sounded.<br><br>Now I have to disable them every time the options are reset</div></blockquote>There isn't a feature to remove voice prompts, but you could reload the DMR ID database and choose the option to use the Voice Prompts memory as additional storage for DMR IDs. This would have the same effect<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jan 07, 2023 8:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-01-07T14:00:09</updated>
+
+		<published>2023-01-07T14:00:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21230#p21230</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21230#p21230"/>
+		<title type="html"><![CDATA[Re: turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21230#p21230"><![CDATA[
+Can you clean away the voice prompts from the radio?<br><br>I installed them just to test how they sounded.<br><br>Now I have to disable them every time the options are reset<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jan 07, 2023 2:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kx4op]]></name></author>
+		<updated>2022-12-27T16:07:15</updated>
+
+		<published>2022-12-27T16:07:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21145#p21145</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21145#p21145"/>
+		<title type="html"><![CDATA[Re: turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21145#p21145"><![CDATA[
+OH TG! That was driving me crazy!<br>LOL!, The snake bit me! I read through that section and tried the sound options, apparently, I didn't connect SILENT means OFF!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br>Thank you Sir!<br>73's<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1689">kx4op</a> — Tue Dec 27, 2022 4:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-12-27T07:37:32</updated>
+
+		<published>2022-12-27T07:37:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21143#p21143</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21143#p21143"/>
+		<title type="html"><![CDATA[Re: turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21143#p21143"><![CDATA[
+<blockquote class="uncited"><div>I have just updated my MD-9600 to the beta version. (Very cool, especially the SAT modes). But after testing the Voice Prompts, how do I turn it off?!<br>73's<br>KX4OP</div></blockquote>Options -&gt; Sound options<br><br>See the user guide for full details<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 27, 2022 7:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-12-27T07:37:25</updated>
+
+		<published>2022-12-27T07:37:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21142#p21142</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21142#p21142"/>
+		<title type="html"><![CDATA[Re: turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21142#p21142"><![CDATA[
+<a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#prompt" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... .md#prompt</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 27, 2022 7:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kx4op]]></name></author>
+		<updated>2022-12-27T02:21:08</updated>
+
+		<published>2022-12-27T02:21:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21141#p21141</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21141#p21141"/>
+		<title type="html"><![CDATA[turn off Voice Prompts?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2570&amp;p=21141#p21141"><![CDATA[
+I have just updated my MD-9600 to the beta version. (Very cool, especially the SAT modes). But after testing the Voice Prompts, how do I turn it off?!<br>73's<br>KX4OP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1689">kx4op</a> — Tue Dec 27, 2022 2:21 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

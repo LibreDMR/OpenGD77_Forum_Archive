@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3063" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-19T04:30:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3063</id>
+
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2025-01-19T04:30:27</updated>
+
+		<published>2025-01-19T04:30:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=35190#p35190</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=35190#p35190"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=35190#p35190"><![CDATA[
+Sorry for being a bit off-topic, but what firmware are you running in your Quansheng? Is that a UV-K5(8)?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Sun Jan 19, 2025 4:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-17T22:22:49</updated>
+
+		<published>2024-03-17T22:22:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30183#p30183</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30183#p30183"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30183#p30183"><![CDATA[
+This is out of scope as the firmware can't be ported to this platform.<br><br>So I'm closing this thread as this forum is for OpenGD77 related subjects only<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Mar 17, 2024 10:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MM7FEE]]></name></author>
+		<updated>2024-03-17T22:06:03</updated>
+
+		<published>2024-03-17T22:06:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30182#p30182</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30182#p30182"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30182#p30182"><![CDATA[
+Yes It was done in Ghidra. The best thing to do is join the Dev group on telegram. Somebody will be able to hook you up with the project file.<br><blockquote class="uncited"><div><blockquote class="uncited"><div>After the K5 firmware he performed the same on the Retevis RT890 which uses many of the same components.  </div></blockquote>Do you, know, if by any chance the decompilation happened in Ghidra and if so, if the decompiled project is accessible somewhere? There is Abbree AR-2520 which has GPS, 128kB/32kB CPU and up to 25W, and whilst it will never have DMR and reach the potential of OpenGD77, it uses same codebase as the RT-890 but on a different processor (most likely a Chinese clone of AT32F415CBT7) so OEFW with some modifications would be possible. If the functions could be mapped from RT-890 the reversing would go much faster...<br><br>73, OK2MOP</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5749">MM7FEE</a> — Sun Mar 17, 2024 10:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K5CLC]]></name></author>
+		<updated>2024-03-15T23:55:03</updated>
+
+		<published>2024-03-15T23:55:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30131#p30131</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30131#p30131"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30131#p30131"><![CDATA[
+I have a Quansheng UV-K5 running on IJV firmware latest version. I can tell you it is hands down the coolest thing you could think a 'toy' dual band transceiver would ever do. Leaps and bounds above Baofeng UV-5R's of the past.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5667">K5CLC</a> — Fri Mar 15, 2024 11:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2024-03-11T13:49:39</updated>
+
+		<published>2024-03-11T13:49:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30063#p30063</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30063#p30063"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30063#p30063"><![CDATA[
+<blockquote class="uncited"><div>After the K5 firmware he performed the same on the Retevis RT890 which uses many of the same components.  </div></blockquote>Do you, know, if by any chance the decompilation happened in Ghidra and if so, if the decompiled project is accessible somewhere? There is Abbree AR-2520 which has GPS, 128kB/32kB CPU and up to 25W, and whilst it will never have DMR and reach the potential of OpenGD77, it uses same codebase as the RT-890 but on a different processor (most likely a Chinese clone of AT32F415CBT7) so OEFW with some modifications would be possible. If the functions could be mapped from RT-890 the reversing would go much faster...<br><br>73, OK2MOP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Mon Mar 11, 2024 1:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-07T20:44:30</updated>
+
+		<published>2024-03-07T20:44:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30014#p30014</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30014#p30014"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30014#p30014"><![CDATA[
+"Shunned" is a very strong work.<br><br>We no longer allow registrations on the forum for non-Hams, becuase this is the only way we can manage the huge number of bot and troll registrations which we started to receive.  <br><br>Its always been site policy for people to use their callsign as their username, but we ended up having to enforce this as a requirement<br><br>I don't remember any of the developers telling me they had been contacted directly by whoever "DT" is.<br><br>But OpenGD77 will never run on the UV-K5 becasue the CPU is far too small, and also it lacks the C6000 DMR chip.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 07, 2024 8:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MM7FEE]]></name></author>
+		<updated>2024-03-07T20:15:05</updated>
+
+		<published>2024-03-07T20:15:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30013#p30013</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30013#p30013"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=30013#p30013"><![CDATA[
+Hello, I was in the group on telegram watching as dualtachyon/userperson/...whatever-handle-he-uses-now decompiled the v.27 firmware.  It took him about a month of nearly full time work and he was assisted by a number of hams who helped him to understand various things like CTCSS etc.  This was done in parallel with the effort to reverse engineer a schematic as well.  DT literally went through every function and renamed them all.  This was all done in a private repo before it was uploaded to github.  Not much is known about DT other than he has spent most of his professional life reversing firmware and he is probably one of the best of the best.  After the K5 firmware he performed the same on the Retevis RT890 which uses many of the same components.  Coincidentally he tried to join in with OpenGD77 but was shunned as he does not have a ham ticket.  He has since moved on from ham radio for now and is presumably terrorising some other electronics manufacturer who thinks their product is secure.  Finally it should be added that his reversed code is entirely legal.<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Someone has done a great job of de-compiling the original firmware <strong class="text-strong">(or did they actually manage to get hold of the source from somewhere?)</strong> and </div></blockquote>I'd speculate that this is not a decompilation, and more likely to be based on the original source code, possibly a deliberate leak.<br>I've seem decompiled code that has all the function names and variable names.<br><br>Looking at the git history on the files and they all have full names for all the variables and functions from the initial commit, <br>Decompilation <strong class="text-strong">never </strong>has this. because the binary never contains the function names.<br><br>So either the decompiled and spent ages working out every single variable and function name, before comitting to github, or they had the source code<br><br>And logically there is no point in wasting time working out the internal function names for things like the display data transfer functions, before publishing the source code, as this would significantly delay when you could release the code<br><br><br><br>I could be wrong, but this does not look like a decompilation to me.</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5749">MM7FEE</a> — Thu Mar 07, 2024 8:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-12-07T11:52:03</updated>
+
+		<published>2023-12-07T11:52:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27935#p27935</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27935#p27935"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27935#p27935"><![CDATA[
+<blockquote class="uncited"><div>Rumor is that it is actually receiving DSBSC not USBSC so doesn't care if it's USB or LSB but obviously will crap out on a CB channel with both. One firmware claims to be able to transmit DSBSC <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"></div></blockquote>Yes it is DSB, it is just using the baseband zero IF signal and the LO leakage provides the BFO.  There is no filtering to remove the opposite sideband so it will receive USB and LSB. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Dec 07, 2023 11:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2023-12-07T10:58:56</updated>
+
+		<published>2023-12-07T10:58:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27932#p27932</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27932#p27932"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27932#p27932"><![CDATA[
+if you use the Fabrizio IU0IJV firmware you can transmit and receive in SSB with an excellent quality ... and the reception in AM is also fantastic... if you want to try it too you can find everything you need here<br><br><a href="https://www.universirius.com/preppers/quansheng-uv-k5-manuale-del-firmware-ijv/#Firmware-IJV" class="postlink">https://www.universirius.com/preppers/q ... rmware-IJV</a><br><br>Ciao<br>Sal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Thu Dec 07, 2023 10:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-12-07T04:20:17</updated>
+
+		<published>2023-12-07T04:20:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27923#p27923</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27923#p27923"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27923#p27923"><![CDATA[
+<blockquote class="uncited"><div>They have even managed to get it to receive SSB using another undocumented feature. It's not possible to transmit though.</div></blockquote>Rumor is that it is actually receiving DSBSC not USBSC so doesn't care if it's USB or LSB but obviously will crap out on a CB channel with both. One firmware claims to be able to transmit DSBSC <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Thu Dec 07, 2023 4:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-06T22:39:34</updated>
+
+		<published>2023-12-06T22:39:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27919#p27919</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27919#p27919"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27919#p27919"><![CDATA[
+<blockquote class="uncited"><div>Someone has done a great job of de-compiling the original firmware <strong class="text-strong">(or did they actually manage to get hold of the source from somewhere?)</strong> and </div></blockquote>I'd speculate that this is not a decompilation, and more likely to be based on the original source code, possibly a deliberate leak.<br>I've seem decompiled code that has all the function names and variable names.<br><br>Looking at the git history on the files and they all have full names for all the variables and functions from the initial commit, <br>Decompilation <strong class="text-strong">never </strong>has this. because the binary never contains the function names.<br><br>So either the decompiled and spent ages working out every single variable and function name, before comitting to github, or they had the source code<br><br>And logically there is no point in wasting time working out the internal function names for things like the display data transfer functions, before publishing the source code, as this would significantly delay when you could release the code<br><br><br><br>I could be wrong, but this does not look like a decompilation to me.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 06, 2023 10:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-12-06T22:13:14</updated>
+
+		<published>2023-12-06T22:13:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27917#p27917</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27917#p27917"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=27917#p27917"><![CDATA[
+I agree, the latest fork of the firmware for the UV-K5 from 'egzumer' is now very good. <br>Someone has done a great job of de-compiling the original firmware (or did they actually manage to get hold of the source from somewhere?) and creating a development environment that allows editing and recompiling. It is still based on the original firmware but has progressed from just patching the binary to being able to edit and recompile the source. I have even submitted a couple of PRs to fix some minor bugs. <br><br>The AM aircraft reception has been drastically improved. It now works really well as an aircraft receiver. The secret was to implement a software driven AGC loop which constantly adjusts the RF gain to keep the received signal level within the fairly narrow AM demodulation window. <br>It appears they are using an undocumented feature of the RF chip which demodulates AM but it only works within about a 20dB signal level window. They have even managed to get it to receive SSB using another undocumented feature. It's not possible to transmit though. <br><br>Having said all that there is not much scope left for any more enhancements. The Flash memory is very close to 100% used. in fact some of the less used original features have had to be disabled to get it all to fit.  <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Dec 06, 2023 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-17T23:29:33</updated>
+
+		<published>2023-10-17T23:29:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=26884#p26884</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=26884#p26884"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=26884#p26884"><![CDATA[
+Just an update that a clone/open firmware for the UV-K5 has been developed and mods are going forward based on that. I have this one loaded on mine and it's awesome!<br><a href="https://github.com/egzumer/uv-k5-firmware-custom/releases" class="postlink">https://github.com/egzumer/uv-k5-firmwa ... m/releases</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Tue Oct 17, 2023 11:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-15T07:50:49</updated>
+
+		<published>2023-08-15T07:50:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=25272#p25272</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=25272#p25272"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=25272#p25272"><![CDATA[
+<blockquote class="uncited"><div>I tried to confirm that the OpenRTX is working on a new firmware for this radio but I can't find any info, as I am not familiar with their discussion platforms, and I am not on Twitter (and now you need an account just to read posts there), or should I say, X.<br><br>SOrry I started this thread, kinda  distracting I must admit.</div></blockquote>I saw that they said that they would eventually support this radio, but they say that about every radio they get asked about.<br><br>I recommend you post and issue to<br><br><a href="https://github.com/OpenRTX/OpenRTX/issues" class="postlink">https://github.com/OpenRTX/OpenRTX/issues</a><br><br>and see if you can get a definitive answer, rather than a "yes... sometime in the future."<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 15, 2023 7:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-15T00:26:29</updated>
+
+		<published>2023-08-15T00:26:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3063&amp;p=25243#p25243</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=25243#p25243"/>
+		<title type="html"><![CDATA[Re: Quansheng UV-K5 w/ an active development scene]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3063&amp;p=25243#p25243"><![CDATA[
+<blockquote class="uncited"><div><a href="https://whosmatt.github.io/uvmod/" class="postlink">https://whosmatt.github.io/uvmod/</a> it is a modding platform for this radio, fairly easy to use.<br><br>I was just trying it out and it worked (but wait, did it crash my Windows 10 22H2? hahaha), including the webserial used for flashing the K5(8) I used to test it with.</div></blockquote>Someone already posted that link<br><br>I'm not interested in modding bytes in the offial firmware, its not going to add any functionality etc<br><br>Someone needs to start writing new firmware for it from scratch.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 15, 2023 12:26 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

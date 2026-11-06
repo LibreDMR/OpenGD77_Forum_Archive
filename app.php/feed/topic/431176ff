@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4311" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-31T08:19:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4311</id>
+
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-10-31T08:19:21</updated>
+
+		<published>2024-10-31T08:19:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4311&amp;p=33827#p33827</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=33827#p33827"/>
+		<title type="html"><![CDATA[Re: DMR &quot;Timeout&quot; on TX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=33827#p33827"><![CDATA[
+No...thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Thu Oct 31, 2024 8:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-11T06:44:42</updated>
+
+		<published>2024-08-11T06:44:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32456#p32456</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32456#p32456"/>
+		<title type="html"><![CDATA[Re: DMR &quot;Timeout&quot; on TX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32456#p32456"><![CDATA[
+<blockquote class="uncited"><div>OK I feel stupid. It was a typo on my part. I had 434.125 RX and 432.125 TX. When you see this you can delete this thread! Thanks and sorry!<br>73 de W8CPT</div></blockquote>So are you still getting the TimeOut message ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Aug 11, 2024 6:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-08-11T05:59:04</updated>
+
+		<published>2024-08-11T05:59:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32455#p32455</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32455#p32455"/>
+		<title type="html"><![CDATA[Re: DMR &quot;Timeout&quot; on TX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32455#p32455"><![CDATA[
+OK I feel stupid. It was a typo on my part. I had 434.125 RX and 432.125 TX. When you see this you can delete this thread! Thanks and sorry!<br>73 de W8CPT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Sun Aug 11, 2024 5:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-08-10T04:17:13</updated>
+
+		<published>2024-08-10T04:17:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32441#p32441</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32441#p32441"/>
+		<title type="html"><![CDATA[Re: DMR &quot;Timeout&quot; on TX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32441#p32441"><![CDATA[
+<blockquote class="uncited"><div>my Hotspot is set for one frequency, 434.12500 MHz. Thats all I di was put that frequency in the Anytone. It's the same Frequency for my OPENGD77 on my Baofeng DM-1701, Retevis RT3-S and my TYT MD-9600 and UV390 Plus. Why would I have to do anything else to "Adjust the Frequncy" to match the Anytone when all I did with the Anytone was put in the Channel "CptDonPiStar Tx 434.1250 RX 434.12500? <br><br>I didn't calibrate anything with the anytone I just entered 434.12500....</div></blockquote>You can't get a TIMEOUT notification on simplex, this only happen when a shift is set. You should double check your channel settings.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Aug 10, 2024 4:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-10T04:15:59</updated>
+
+		<published>2024-08-10T04:15:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32440#p32440</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32440#p32440"/>
+		<title type="html"><![CDATA[Re: DMR &quot;Timeout&quot; on TX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32440#p32440"><![CDATA[
+<blockquote class="uncited"><div>my Hotspot is set for one frequency, 434.12500 MHz. Thats all I di was put that frequency in the Anytone. It's the same Frequency for my OPENGD77 on my Baofeng DM-1701, Retevis RT3-S and my TYT MD-9600 and UV390 Plus. Why would I have to do anything else to "Adjust the Frequncy" to match the Anytone when all I did with the Anytone was put in the Channel "CptDonPiStar Tx 434.1250 RX 434.12500? <br><br>I didn't calibrate anything with the anytone I just entered 434.12500....</div></blockquote>If you have different Tx and Rx freqs and are using a simplex hotspot, then you have the hotspot incorrectly configured.<br><br>Only duplex hotspots have different Tx and Rx frequencies. <br><br>You can force the OpenGD77 to use DMO mode split freq simplex, but this is definitely not the correct configuation for a simplex hotspot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Aug 10, 2024 4:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-08-10T03:50:52</updated>
+
+		<published>2024-08-10T03:50:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32439#p32439</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32439#p32439"/>
+		<title type="html"><![CDATA[Re: DMR &quot;Timeout&quot; on TX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32439#p32439"><![CDATA[
+my Hotspot is set for one frequency, 434.12500 MHz. Thats all I di was put that frequency in the Anytone. It's the same Frequency for my OPENGD77 on my Baofeng DM-1701, Retevis RT3-S and my TYT MD-9600 and UV390 Plus. Why would I have to do anything else to "Adjust the Frequncy" to match the Anytone when all I did with the Anytone was put in the Channel "CptDonPiStar Tx 434.1250 RX 434.12500? <br><br>I didn't calibrate anything with the anytone I just entered 434.12500....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Sat Aug 10, 2024 3:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-09T08:28:17</updated>
+
+		<published>2024-08-09T08:28:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32438#p32438</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32438#p32438"/>
+		<title type="html"><![CDATA[Re: DMR &quot;Timeout&quot; on TX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32438#p32438"><![CDATA[
+<blockquote class="uncited"><div>So I have the TYT UV390 Plus GPS and the MD-9600. When I TX on DMR to my MMDVM Hotspot I get a TX Timeout and the MMDVM does not receive it. Same Channel settings and Color Codes on time slots as my Anytone 878 and that works. I searched the forum for an hore and found nothing on this.<br><br>Thanks in advance!</div></blockquote>MMDVM HS hotspots are very sensitive to frequency. I presume you calibrated the hotspot to work with your Anytone<br><br>For people with more than one radio, the only option is to calibrate all the radios to exactly the same frequency<br><br>So adjust the freq cal in both your UV390 and MD9600 to exactly the same as the anytone, to an accuracy of a about +/- 100Hz<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 09, 2024 8:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-08-09T06:54:46</updated>
+
+		<published>2024-08-09T06:54:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32437#p32437</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32437#p32437"/>
+		<title type="html"><![CDATA[DMR &quot;Timeout&quot; on TX [Tx &amp; Rx freq different]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4311&amp;p=32437#p32437"><![CDATA[
+So I have the TYT UV390 Plus GPS and the MD-9600. When I TX on DMR to my MMDVM Hotspot I get a TX Timeout and the MMDVM does not receive it. Same Channel settings and Color Codes on time slots as my Anytone 878 and that works. I searched the forum for an hore and found nothing on this.<br><br>Thanks in advance!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Fri Aug 09, 2024 6:54 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4796" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-24T01:17:23</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4796</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-24T01:17:23</updated>
+
+		<published>2025-01-24T01:17:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35330#p35330</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35330#p35330"/>
+		<title type="html"><![CDATA[Re: Hotspot audio is choppy/DMR repeater is fine]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35330#p35330"><![CDATA[
+<blockquote class="uncited"><div>Has anyone run into a situation where audio is really choppy (picket fencing) on any DMR TG via the hotspot, but perfectly fine when RX/TX on a local DMR repeater? Using the same MMDVM hotspot I have no choppy audio with an Anytone 878 or Alinco MD5 DMR radio. <br><br>Feedback welcome!<br><br>-Paul</div></blockquote><br>This question has been asked many times before on this forum. <br><br>Neither TYT or Baofeng seems to bother to calibrate these radios very accurately.<br><br>Try to calibrate your Hotspot to work with your OpenGD77 radio.<br><br>Alternatively calibrate your OpenGD77 radio to your other 2 radios.<br><br>Calibration functionality is documented in the User Guide<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 24, 2025 1:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-23T23:57:05</updated>
+
+		<published>2025-01-23T23:57:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35328#p35328</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35328#p35328"/>
+		<title type="html"><![CDATA[Re: Hotspot audio is choppy/DMR repeater is fine]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35328#p35328"><![CDATA[
+maybe is related with the alignment/calibration of your MMDVM hotspot<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jan 23, 2025 11:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NT7PS]]></name></author>
+		<updated>2025-01-23T23:45:24</updated>
+
+		<published>2025-01-23T23:45:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35327#p35327</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35327#p35327"/>
+		<title type="html"><![CDATA[Hotspot audio is choppy/DMR repeater is fine]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4796&amp;p=35327#p35327"><![CDATA[
+Has anyone run into a situation where audio is really choppy (picket fencing) on any DMR TG via the hotspot, but perfectly fine when RX/TX on a local DMR repeater? Using the same MMDVM hotspot I have no choppy audio with an Anytone 878 or Alinco MD5 DMR radio. <br><br>Feedback welcome!<br><br>-Paul<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7704">NT7PS</a> — Thu Jan 23, 2025 11:45 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

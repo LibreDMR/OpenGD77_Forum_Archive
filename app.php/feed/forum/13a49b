@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/13" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-14T04:39:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/13</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-14T04:39:47</updated>
+
+		<published>2025-07-14T04:39:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37712#p37712</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37712#p37712"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: next &quot;new stable version 2025&quot; ?]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37712#p37712"><![CDATA[
+<blockquote class="uncited"><div>There are a lot of changes and improvements with hard work since the latest stable version 2024-09. <br>Is there already a release candidate known for the "2025 stable version" ?<br>The 2025-03-25 beta might be a nice code basic.<br><br>All developers many thanks for all the time consuming work in the past. It is an impressive work if we look back to the orginal firmware it is a big gain.<br><br>All the best wishes<br>73 de Uli DL4GG</div></blockquote>There are no active developers on the project and currently there appears to be a bug in DMR Rx,  so its unlikely that there will be a release / stable version soon.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jul 14, 2025 4:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL4GG]]></name></author>
+		<updated>2025-07-13T21:25:03</updated>
+
+		<published>2025-07-13T21:25:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37709#p37709</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37709#p37709"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • next &quot;new stable version 2025&quot; ?]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37709#p37709"><![CDATA[
+There are a lot of changes and improvements with hard work since the latest stable version 2024-09. <br>Is there already a release candidate known for the "2025 stable version" ?<br>The 2025-03-25 beta might be a nice code basic.<br><br>All developers many thanks for all the time consuming work in the past. It is an impressive work if we look back to the orginal firmware it is a big gain.<br><br>All the best wishes<br>73 de Uli DL4GG<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=224">DL4GG</a> — Sun Jul 13, 2025 9:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-29T14:14:40</updated>
+
+		<published>2025-06-29T14:14:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37603#p37603</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37603#p37603"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37603#p37603"><![CDATA[
+<blockquote class="uncited"><div><br>Attention, the power supply is from 3V3, not from 5V (red pen). The 5V power supply is only on the schematic for the GPS module kit from PDF document, in reality the power supply is 3V3. There is no risk of damaging the processor. The current through the processor pin is around 0.6mA.<br><br>I used the schematic of GP-02 kit from this document, I did not redraw the internal wiring of the GPS Kit, the power supply there is marked 5V but I power the module from 3V3. <a href="https://eu.mouser.com/datasheet/2/975/645d0e566602a647gp_02_kit_specifications-3193653.pdf" class="postlink">https://eu.mouser.com/datasheet/2/975/6 ... 193653.pdf</a> Figure 5, page 11.</div></blockquote>Hi OM1AEG, I understand you use the schematic from the document. My comment is the Gp-02 kit does not make with the option to shutdown the LM3992 in mind, the EN pin of LM3992 is tie to Vcc via 10Kohm resister, it does not matter if the Vcc is 5 or 3.3. the best way, in my opinion, to shutdown the LM3992 is to remove the 10K resister and connect MCU pin97 directly to EN pin of LM 3992, as the schematic I've already provided.<br><br>Again, I can not see any benefit of using GP-02Kit. In my opinion, using GP-02 Module is a much cleaner MOD.<br><br><img src="https://www.opengd77.com/download/file.php?id=3030" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Jun 29, 2025 2:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[om1aeg]]></name></author>
+		<updated>2025-06-28T20:46:30</updated>
+
+		<published>2025-06-28T20:46:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37595#p37595</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37595#p37595"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37595#p37595"><![CDATA[
+<blockquote class="uncited"><div>I can't see how it will work. When the CPU pull the EN down there will be a current drawn pass the CPU pin and I believe that will cause some kind of damage.<br><br>As I said, I'm not sure if the EN on the LP3992 is 5V logic, but the better way to do it in my opinion (If one still insists to use the kit instead of the module) is to cut the VCC_5V and connect the EN directly to the CPU. Again, I don't think it is a good idea, just looks better than what it is. </div></blockquote>Attention, the power supply is from 3V3, not from 5V (red pen). The 5V power supply is only on the schematic for the GPS module kit from PDF document, in reality the power supply is 3V3. There is no risk of damaging the processor. The current through the processor pin is around 0.6mA.<br><br>I used the schematic of GP-02 kit from this document, I did not redraw the internal wiring of the GPS Kit, the power supply there is marked 5V but I power the module from 3V3. <a href="https://eu.mouser.com/datasheet/2/975/645d0e566602a647gp_02_kit_specifications-3193653.pdf" class="postlink">https://eu.mouser.com/datasheet/2/975/6 ... 193653.pdf</a> Figure 5, page 11.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2649">om1aeg</a> — Sat Jun 28, 2025 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-28T11:33:20</updated>
+
+		<published>2025-06-28T11:33:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37591#p37591</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37591#p37591"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37591#p37591"><![CDATA[
+<blockquote class="uncited"><div><br>Nope, after more than year and use only EN pin in LP3992 with directly connect to CPU and works great in my GD77. When GPS off in software then pull low, when on, pull up. <br><br>If you use N/F pad when GPS module (in OFF state) draw ca. 5mA constantly. <br>When use EN leg in LP3992 current draw (in OFF state) is some uA because LP3992 draw.</div></blockquote>Can you provide schematic diagram? I still not so sure if I follow.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Jun 28, 2025 11:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ1TAO]]></name></author>
+		<updated>2025-06-28T05:28:02</updated>
+
+		<published>2025-06-28T05:28:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37585#p37585</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37585#p37585"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37585#p37585"><![CDATA[
+<blockquote class="uncited"><div>I can't see how it will work. When the CPU pull the EN down there will be a current drawn pass the CPU pin and I believe that will cause some kind of damage.<br><br>Snímka obrazovky 2025-06-25 134704.jpg<br><br>As I said, I'm not sure if the EN on the LP3992 is 5V logic, but the better way to do it in my opinion (If one still insists to use the kit instead of the module) is to cut the VCC_5V and connect the EN directly to the CPU. Again, I don't think it is a good idea, just looks better than what it is. <br><br>Snímka obrazovky 2025-06-25 134704 (1).jpg</div></blockquote>Nope, after more than year and use only EN pin in LP3992 with directly connect to CPU and works great in my GD77. When GPS off in software then pull low, when on, pull up. <br><br>If you use N/F pad when GPS module (in OFF state) draw ca. 5mA constantly. <br>When use EN leg in LP3992 current draw (in OFF state) is some uA because LP3992 draw.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5554">SQ1TAO</a> — Sat Jun 28, 2025 5:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-26T15:23:24</updated>
+
+		<published>2025-06-26T15:23:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37559#p37559</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37559#p37559"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37559#p37559"><![CDATA[
+I can't see how it will work. When the CPU pull the EN down there will be a current drawn pass the CPU pin and I believe that will cause some kind of damage.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3028&amp;sid=b519a303c9796e04d1dc9ae0a3b784f1" class="postimage" alt="Snímka obrazovky 2025-06-25 134704.jpg" onclick="viewableArea(this);" /></dt></dl></div>As I said, I'm not sure if the EN on the LP3992 is 5V logic, but the better way to do it in my opinion (If one still insists to use the kit instead of the module) is to cut the VCC_5V and connect the EN directly to the CPU. Again, I don't think it is a good idea, just looks better than what it is. <br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3030&amp;sid=b519a303c9796e04d1dc9ae0a3b784f1" class="postimage" alt="Snímka obrazovky 2025-06-25 134704 (1).jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Jun 26, 2025 3:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ1TAO]]></name></author>
+		<updated>2025-06-25T17:25:59</updated>
+
+		<published>2025-06-25T17:25:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37549#p37549</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37549#p37549"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37549#p37549"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi, I used the GP-02Kit to add GPS to the GD77. <br>I connected the power control to the N/F pin of GP-02Kit. <br>To reduce the consumption, I connected the EN pin of the LP3992 to the N/F pin through a 560 ohm resistor. The total consuption is thus less than 0.6mA (through the MCU "shorted" 10k pull-up).</div></blockquote>I decided to go with the module (not the KIT) because we already have 3v3. To me, the kit is just a module with 5V0 to 3v3 regulator on it. In my opinion, it is a lot cleaner mod using the module.<br><br>I'm not sure about EN on the LP3992 regulator, Is it 5V logic? I don't think you can pull it down the way you are doing it. As I said, it is a lot better to getting rid of the regulator and N/F directly to the module.<br><br>BTW, I don't think the GP-02 support Active Antenna. I might be wrong, but that is how I understand it.</div></blockquote>Nope, I do the same. I connected EN pin straight to MCU pin and works perfectly more than year <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> <br>So use EN pin in LP3992 is the best way to cut power to GPS when is OFF in software.<br> 10k resistor on EN pin it's not a problem for CPU. <br>GP-02 kit have stock a passive antena but... can works with active antenna. GP-02 when turn on have 3.3v on antenna pin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5554">SQ1TAO</a> — Wed Jun 25, 2025 5:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-25T13:56:31</updated>
+
+		<published>2025-06-25T13:56:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37547#p37547</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37547#p37547"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37547#p37547"><![CDATA[
+<blockquote class="uncited"><div>Hi, I used the GP-02Kit to add GPS to the GD77. <br>I connected the power control to the N/F pin of GP-02Kit. <br>To reduce the consumption, I connected the EN pin of the LP3992 to the N/F pin through a 560 ohm resistor. The total consuption is thus less than 0.6mA (through the MCU "shorted" 10k pull-up).</div></blockquote>I decided to go with the module (not the KIT) because we already have 3v3. To me, the kit is just a module with 5V0 to 3v3 regulator on it. In my opinion, it is a lot cleaner mod using the module.<br><br>I'm not sure about EN on the LP3992 regulator, Is it 5V logic? I don't think you can pull it down the way you are doing it. As I said, it is a lot better to getting rid of the regulator and N/F directly to the module.<br><br>BTW, I don't think the GP-02 support Active Antenna. I might be wrong, but that is how I understand it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Jun 25, 2025 1:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[om1aeg]]></name></author>
+		<updated>2025-06-25T11:57:09</updated>
+
+		<published>2025-06-25T11:57:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37546#p37546</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37546#p37546"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: GPS (GP-02) kit module fitted in a GD-77]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3365&amp;p=37546#p37546"><![CDATA[
+Hi, I used the GP-02Kit to add GPS to the GD77. <br>I connected the power control to the N/F pin of GP-02Kit. <br>To reduce the consumption, I connected the EN pin of the LP3992 to the N/F pin through a 560 ohm resistor. The total consuption is thus less than 0.6mA (through the MCU "shorted" 10k pull-up).<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3025&amp;sid=b519a303c9796e04d1dc9ae0a3b784f1" class="postimage" alt="Snímka obrazovky 2025-06-25 134704.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2649">om1aeg</a> — Wed Jun 25, 2025 11:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL4GG]]></name></author>
+		<updated>2025-06-24T18:26:39</updated>
+
+		<published>2025-06-24T18:26:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37542#p37542</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37542#p37542"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: Ptt toggle]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37542#p37542"><![CDATA[
+Perhaps a software update to a newer release might be an option to get all new and full features and solved issues and optimized code base.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=224">DL4GG</a> — Tue Jun 24, 2025 6:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8OQJ]]></name></author>
+		<updated>2025-06-23T22:08:06</updated>
+
+		<published>2025-06-23T22:08:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37538#p37538</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37538#p37538"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: Ptt toggle]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37538#p37538"><![CDATA[
+Ok. Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8830">IU8OQJ</a> — Mon Jun 23, 2025 10:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-23T21:34:34</updated>
+
+		<published>2025-06-23T21:34:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37537#p37537</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37537#p37537"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: Ptt toggle]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37537#p37537"><![CDATA[
+<blockquote class="uncited"><div>Hi, I have a dm1801 with a 2021 open gd77 fimware. <br>In my radio there is a "push-to-talk" (PTT) button operating mode that, when activated, allows you to start and stop voice transmission with two separate presses of the button, without having to hold it down during communication?<br>Thanks</div></blockquote>Check PTT latch in the manual:<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#ptt-latch" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... #ptt-latch</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Jun 23, 2025 9:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8OQJ]]></name></author>
+		<updated>2025-06-23T20:34:12</updated>
+
+		<published>2025-06-23T20:34:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37536#p37536</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37536#p37536"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Ptt toggle]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5189&amp;p=37536#p37536"><![CDATA[
+Hi, I have a dm1801 with a 2021 open gd77 fimware. <br>In my radio there is a "push-to-talk" (PTT) button operating mode that, when activated, allows you to start and stop voice transmission with two separate presses of the button, without having to hold it down during communication?<br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8830">IU8OQJ</a> — Mon Jun 23, 2025 8:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[14FRS498]]></name></author>
+		<updated>2025-06-15T12:16:04</updated>
+
+		<published>2025-06-15T12:16:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5181&amp;p=37496#p37496</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5181&amp;p=37496#p37496"/>
+		<title type="html"><![CDATA[GD-77 / DM-1801 / RD-5R / GD-77S • Re: scann DMR]]></title>
+
+					<category term="GD-77 / DM-1801 / RD-5R / GD-77S" scheme="http://localhost/opengd77/viewforum.php?f=13" label="GD-77 / DM-1801 / RD-5R / GD-77S"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5181&amp;p=37496#p37496"><![CDATA[
+Thanks, I didn't remember this quick menu. It works<br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4455">14FRS498</a> — Sun Jun 15, 2025 12:16 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

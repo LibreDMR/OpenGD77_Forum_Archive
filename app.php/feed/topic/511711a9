@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5117" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-12T19:35:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5117</id>
+
+		<entry>
+		<author><name><![CDATA[Torax]]></name></author>
+		<updated>2025-05-12T19:35:57</updated>
+
+		<published>2025-05-12T19:35:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37075#p37075</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37075#p37075"/>
+		<title type="html"><![CDATA[Re: Firmware differences 1801]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37075#p37075"><![CDATA[
+Thank you very much for the explanation, I didn't know that  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1669">Torax</a> — Mon May 12, 2025 7:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-12T08:24:50</updated>
+
+		<published>2025-05-12T08:24:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37073#p37073</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37073#p37073"/>
+		<title type="html"><![CDATA[Re: Firmware differences 1801]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37073#p37073"><![CDATA[
+<blockquote class="uncited"><div>Hello Friends,<br><br>I have a question: what are the differences between these firmware versions?<br><br>OpenDM1801A_NMEA.zip<br><br>OpenDM1801A.zip<br><br>OpenDM1801.zip<br><br><br>greetings from west germany  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"></div></blockquote>1801 and 1801A are different radios (1801 has the a 4 ways button, 1801A hasn't).<br>*_NMEA firmware embed the NMEA loging feature, at the cost of a reduced memory space for DMRIds.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon May 12, 2025 8:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Torax]]></name></author>
+		<updated>2025-05-12T07:21:47</updated>
+
+		<published>2025-05-12T07:21:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37072#p37072</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37072#p37072"/>
+		<title type="html"><![CDATA[Firmware differences 1801]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5117&amp;p=37072#p37072"><![CDATA[
+Hello Friends,<br><br>I have a question: what are the differences between these firmware versions?<br><br>OpenDM1801A_NMEA.zip<br><br>OpenDM1801A.zip<br><br>OpenDM1801.zip<br><br><br>greetings from west germany  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1669">Torax</a> — Mon May 12, 2025 7:21 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

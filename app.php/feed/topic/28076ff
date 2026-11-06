@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/280" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-12-07T23:02:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/280</id>
+
+		<entry>
+		<author><name><![CDATA[LU3ERX]]></name></author>
+		<updated>2019-12-07T23:02:21</updated>
+
+		<published>2019-12-07T23:02:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1899#p1899</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1899#p1899"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1899#p1899"><![CDATA[
+thank you !!!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=130">LU3ERX</a> — Sat Dec 07, 2019 11:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA5JN]]></name></author>
+		<updated>2019-12-07T22:04:39</updated>
+
+		<published>2019-12-07T22:04:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1883#p1883</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1883#p1883"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1883#p1883"><![CDATA[
+Excellent work thanks to this forum the talkie is staying luxurious.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=128">EA5JN</a> — Sat Dec 07, 2019 10:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2019-12-07T18:27:45</updated>
+
+		<published>2019-12-07T18:27:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1867#p1867</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1867#p1867"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1867#p1867"><![CDATA[
+I activated, for almost 4 hours, the total scan with 169 analogue dmr mixed memories ..... it was never interrupted and a restart never took place ....... EXCELLENT WORK !!!<br>thanks<br>sal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Sat Dec 07, 2019 6:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-12-07T16:58:33</updated>
+
+		<published>2019-12-07T16:58:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1863#p1863</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1863#p1863"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1863#p1863"><![CDATA[
+Installed the latest from 7 Dec. Testing- so far so good. Thanks, Roger<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Sat Dec 07, 2019 4:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd2lh]]></name></author>
+		<updated>2019-12-07T16:30:43</updated>
+
+		<published>2019-12-07T16:30:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1859#p1859</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1859#p1859"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1859#p1859"><![CDATA[
+installed 12/7/19 updates and all appear working. <br><br>I know that this is lower priority, but will mention it. <br><br>Still have the intermittent hotspot hang on Pi-Star "Transmit" bug. This appears to only happen if the local hotspot has received an over the air transmission (Parrot on individual RadioID, not group ID) at some point which was forwarded to the VOIP infrastructure (Brandmeister), then the response transmitted by the hotspot locally. <br><br>It fails randomly a few minutes later, even if some other call (group ID) voice packets were received from the VOIP infrastructure. <br><br>Is there a recommended tracing setup for use on PiStar to observe the USB port? <br><br>Marc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=253">kd2lh</a> — Sat Dec 07, 2019 4:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-12-07T15:34:58</updated>
+
+		<published>2019-12-07T15:34:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1856#p1856</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1856#p1856"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1856#p1856"><![CDATA[
+All great updates and they seem to be working fine so far, will keep testing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Dec 07, 2019 3:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W1AEX]]></name></author>
+		<updated>2019-12-07T13:27:16</updated>
+
+		<published>2019-12-07T13:27:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1853#p1853</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1853#p1853"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1853#p1853"><![CDATA[
+Remembering the last menu item selected is a great solution! Thanks for that one Daniel and thanks to all for another excellent firmware release.<br><br>73,  Rob W1AEX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=125">W1AEX</a> — Sat Dec 07, 2019 1:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2019-12-07T12:41:02</updated>
+
+		<published>2019-12-07T12:41:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1852#p1852</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1852#p1852"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1852#p1852"><![CDATA[
+all the changes made work correctly, thanks to all of you<br>Sal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Sat Dec 07, 2019 12:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU4LEG]]></name></author>
+		<updated>2019-12-07T12:30:12</updated>
+
+		<published>2019-12-07T12:30:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1850#p1850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1850#p1850"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1850#p1850"><![CDATA[
+Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=189">IU4LEG</a> — Sat Dec 07, 2019 12:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-12-07T11:45:13</updated>
+
+		<published>2019-12-07T11:45:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1849#p1849</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1849#p1849"/>
+		<title type="html"><![CDATA[Re: &quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1849#p1849"><![CDATA[
+many thanks. all good here <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sat Dec 07, 2019 11:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-07T11:09:10</updated>
+
+		<published>2019-12-07T11:09:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=280&amp;p=1846#p1846</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1846#p1846"/>
+		<title type="html"><![CDATA[&quot;Latest&quot; firmware has been updated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=280&amp;p=1846#p1846"><![CDATA[
+I've update the "Latest" version, to include the changes in the "test" versions over the last couple of days.<br><br>The main changes since the last "Latest" release are....<br><ul><li>Options now include default squelch settings for VHF, 220MHz and UHF.<br>These values are applied to channels that do not have an OpenGD77 Squelch level , override already applied to them.<br>The settings do apply to the VFO, but since the VFO is actually just a Channel.. If you have manually changed the squelch setting on the VFO (A or B) then these default squelch settings will not be applied, in the same way as the manual / OpenGD77 Squelch level takes priority over the default to a "channel"</li></ul><ul><li>Improvements to the menu's so that when you press the Red menu to go back, the previous menu position is remembered (thanks Daniel)</li></ul><ul><li>Updates to various languages, including German, Spanish, Catalan and Finish   (Thanks to various contributors and to Daniel for cleaning the submissions)</li></ul><ul><li>Changes to try to fix the keyboard lockup issues - this has not fixed the problem for everyone (Thanks to Alex and to me)</li></ul><ul><li>Bug fix from Daniel to potential buffer overflow when using the All Channels zone</li></ul><ul><li>Fix to key long press functionality (Thanks to Alex)</li></ul><ul><li>Box is drawn around the TG when this TG has been entered as a number override. The TG number is also looked up and if its in the Contacts the Contact name is used instead of "TG xxx"  (Thanks to Alex)</li></ul>Most of these changes have already been tested in specific releases over the last 5 days.<br><br>This release is just to let everyone download them more easily.<br><br><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/8f025028e6b3ebd8c95158cc8958055cff07501b/firmware_binaries/daily_builds/OpenGD77_latest.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... latest.sgl</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 07, 2019 11:09 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

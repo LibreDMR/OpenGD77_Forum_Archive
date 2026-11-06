@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2573" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-31T20:22:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2573</id>
+
+		<entry>
+		<author><name><![CDATA[UB3AYH]]></name></author>
+		<updated>2024-10-31T20:22:13</updated>
+
+		<published>2024-10-31T20:22:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33835#p33835</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33835#p33835"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33835#p33835"><![CDATA[
+Good day! When my TYT 9600 was defined as "Digital Radio in USB Mode" I simply selected the DFU driver from those already installed. Simply selecting the right one. The window does not select the DFU driver even if it is installed and manual selection helps.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3483">UB3AYH</a> — Thu Oct 31, 2024 8:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-23T01:08:43</updated>
+
+		<published>2024-10-23T01:08:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33647#p33647</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33647#p33647"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33647#p33647"><![CDATA[
+<blockquote class="uncited"><div>I disabled automatic driver updates via Settings-&gt;About-&gt;Advanced System Settings-&gt;Hardware-&gt;Device Installation Settings <br>My Windows 11 laptop haven't messed with the dfu driver since.<br><br><a href="https://www.windowscentral.com/software-apps/windows-11/how-to-prevent-drivers-from-installing-automatically-on-windows-11" class="postlink">https://www.windowscentral.com/software ... windows-11</a></div></blockquote>Thanks for the tip<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 23, 2024 1:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-10-22T23:45:41</updated>
+
+		<published>2024-10-22T23:45:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33644#p33644</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33644#p33644"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33644#p33644"><![CDATA[
+I disabled automatic driver updates via Settings-&gt;About-&gt;Advanced System Settings-&gt;Hardware-&gt;Device Installation Settings <br>My Windows 11 laptop haven't messed with the dfu driver since.<br><br><a href="https://www.windowscentral.com/software-apps/windows-11/how-to-prevent-drivers-from-installing-automatically-on-windows-11" class="postlink">https://www.windowscentral.com/software ... windows-11</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Oct 22, 2024 11:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T23:38:53</updated>
+
+		<published>2024-10-22T23:38:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33643#p33643</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33643#p33643"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33643#p33643"><![CDATA[
+We have the correct driver zip on this server<br><br>See<br><br><a href="https://www.opengd77.com/downloads/drivers/" class="postlink">downloads/drivers/</a><br><br>For both the DFU driver and the com port driver.<br><br>Note. The GD77 type radios don't use a separate DFU driver, they use a Windows built in HID driver<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 11:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-10-22T22:58:08</updated>
+
+		<published>2024-10-22T22:58:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33642#p33642</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33642#p33642"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33642#p33642"><![CDATA[
+try with STM DFUSE v3.0.6.1<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Tue Oct 22, 2024 10:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T22:25:47</updated>
+
+		<published>2024-10-22T22:25:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33639#p33639</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33639#p33639"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33639#p33639"><![CDATA[
+<blockquote class="uncited"><div>Win11 strikes again...  or not?<br><br>A couple of days ago, I attempted to update the firmware on both my GD-77 and my MD-9600. My last successful update was on or about August 19. The GD-77 went without a hitch. The MD-9600, when placed in firmware update mode (blinking LCD) generated this error in the CPS:  "radio not connected or not in DFU mode." <br><br>I checked the cable and USB port by restarting the radio and downloading the code plug to the CPS. Worked fine. I checked Device Manager for an unknown device, couldn't find one. There were a couple of entries in the USB controllers section for devices that had failed to register, so I uninstalled them. I reinstalled the drivers that had worked up until then, at:<br><br>"c:\Program Files (x86)\STMicroelectronics\Software\DfuSe v3.0.6\Bin\Driver\Win10\dpinst_amd64.exe".<br><br>And I rebooted the PC.  Nothing worked. I gave up and went to bed. <br><br>The next day, I tried again. Again, I confirmed the cable and USB port by downloading the code plug from the radio, then switched the radio to DFU mode. This time, the firmware upgrade worked perfectly. The only thing I did differently was to use a different USB port. But the original port had successfully downloaded the code plug the day before, had successfully updated both radios in the past. And I never saw the telltale entry of "STM Device in DFU mode" in Device Manager, USB Controllers section. <br><br>Go figure...</div></blockquote>Windows seems to install a driver per USB port. Mostly it installs the same driver as on the other USB ports, but I guess it may be technically possible to have different DFU drivers on the different USB ports.<br><br><br>Windows 11 is a nightmare for updating drivers without asking whether its allowed to do this. (W10 may be the same but the problem hardly every occurs, whereas W11 it happens a lot)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 10:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2024-10-22T22:08:25</updated>
+
+		<published>2024-10-22T22:08:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33638#p33638</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33638#p33638"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=33638#p33638"><![CDATA[
+Win11 strikes again...  or not?<br><br>A couple of days ago, I attempted to update the firmware on both my GD-77 and my MD-9600. My last successful update was on or about August 19. The GD-77 went without a hitch. The MD-9600, when placed in firmware update mode (blinking LCD) generated this error in the CPS:  "radio not connected or not in DFU mode." <br><br>I checked the cable and USB port by restarting the radio and downloading the code plug to the CPS. Worked fine. I checked Device Manager for an unknown device, couldn't find one. There were a couple of entries in the USB controllers section for devices that had failed to register, so I uninstalled them. I reinstalled the drivers that had worked up until then, at:<br><br>"c:\Program Files (x86)\STMicroelectronics\Software\DfuSe v3.0.6\Bin\Driver\Win10\dpinst_amd64.exe".<br><br>And I rebooted the PC.  Nothing worked. I gave up and went to bed. <br><br>The next day, I tried again. Again, I confirmed the cable and USB port by downloading the code plug from the radio, then switched the radio to DFU mode. This time, the firmware upgrade worked perfectly. The only thing I did differently was to use a different USB port. But the original port had successfully downloaded the code plug the day before, had successfully updated both radios in the past. And I never saw the telltale entry of "STM Device in DFU mode" in Device Manager, USB Controllers section. <br><br>Go figure...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Tue Oct 22, 2024 10:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea2eke]]></name></author>
+		<updated>2024-04-30T07:15:00</updated>
+
+		<published>2024-04-30T07:15:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31092#p31092</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31092#p31092"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31092#p31092"><![CDATA[
+<img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br>In Windows 11 CPS dont have "save as". Have "save".<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5940">ea2eke</a> — Tue Apr 30, 2024 7:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO3HB]]></name></author>
+		<updated>2024-04-30T06:54:33</updated>
+
+		<published>2024-04-30T06:54:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31091#p31091</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31091#p31091"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31091#p31091"><![CDATA[
+Did you try „Save as“ and choose a folder under Documents?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1728">DO3HB</a> — Tue Apr 30, 2024 6:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea2eke]]></name></author>
+		<updated>2024-04-30T00:15:55</updated>
+
+		<published>2024-04-30T00:15:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31088#p31088</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31088#p31088"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=31088#p31088"><![CDATA[
+Hi all,<br><br>I have other problems with Windows 11 and cps. <br><br>I can load new channels on my md9600 V5, but when I try to save the codeplug it says access denied to the path. <br><br>I have installed CPS as administrator and run as administrator. some help? I'm new, sorry <img alt="😁" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f601.svg"><br><br>Cheers!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5940">ea2eke</a> — Tue Apr 30, 2024 12:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4WKW]]></name></author>
+		<updated>2024-01-05T23:59:33</updated>
+
+		<published>2024-01-05T23:59:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=28464#p28464</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=28464#p28464"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=28464#p28464"><![CDATA[
+<blockquote class="uncited"><div>I used to install the STM DFU driver under Windows 11 from the STM website and there was no problem you write about. It was a driver from the STSW-STM32080 package. You have to provide an email to download it. You must install this STSW-STM32080 software package, and the driver itself has to be installed manually. This is done by running: "c:\Program Files (x86)\STMicroelectronics\Software\DfuSe v3.0.6\Bin\Driver\Win10\dpinst_amd64.exe". <br>I did this about a month ago and it 100% worked under Windows 11 PRO 22H2. But first uninstall the driver you currently have and enable Memory Integrity. I used this Driver with Retevis RT3s.</div></blockquote>Thank you so much!  I used this on a laptop running Windows 10 Pro Version 22H2 and it allowed me to use the V1.12 RT3S Radio Programming Software again to read and write data to my radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4005">G4WKW</a> — Fri Jan 05, 2024 11:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2023-08-19T08:03:38</updated>
+
+		<published>2023-08-19T08:03:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=25440#p25440</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=25440#p25440"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=25440#p25440"><![CDATA[
+For what it's worth, I just updated to the 2023-08-18 firmware. This time, there were no issues. There has been at least one Windows (11) update since I last updated the firmware. Both Win11's Memory Integrity and the newer Kernel Mode Hardware-Enforced Stack Protection security features were enabled. So recently reinstalling the drivers using SP9TA's procedure and paths seems to have "held" this time. Who knows if it will continue, but I'm not arguing with success.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Sat Aug 19, 2023 8:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-29T07:09:46</updated>
+
+		<published>2023-07-29T07:09:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24679#p24679</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24679#p24679"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24679#p24679"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>This is a problem as more users move over to Windows 11.<br><br>Could it be possible to use drivers from the newer STM32CubeProgrammer if the CPS is modified for those API's ?</div></blockquote>CPS does not install DFU drivers. Windows does this.<br><br>It seems sometimes Windows installs very old drivers that may not work.<br><br>We can't distribute STM32 DFU Drivers because  AFIK the STM pacakage forbids this.<br><br>In that case people will need to download the DFU package from STM, which requires creating an account with STM and agreeing to the EULA etc<br><br>There is nothing we can do about the license on these drivers, and also which driver Windows installs.</div></blockquote>But it seems that no proper DFU driver exist for Windows 11 ? <br><br>So even if users download driver from STM there is a problem as the driver isn't compatible with Windows 11 unless you disable security functions in the OS.<br>Dfuse seems to be obsolete and replaced by STM32CubeProgrammer so I don't think that STM will update the old driver.<br><br>This will of course affect the Chinese original software too but I doubt that they will address the problem.</div></blockquote>OK.<br><br>But there is nothing we can do about this. The bootloader in the radio implements the DFU client, and its not possible to change the bootloader without dissassembling the radio and reflashing the MCU using a hardware programmer dongle.<br><br>If STM do not have a DFU driver that is compatibile with Windows 11, then people will need to use Windows 10 or Windows 7.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jul 29, 2023 7:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-07-29T07:06:11</updated>
+
+		<published>2023-07-29T07:06:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24678#p24678</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24678#p24678"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24678#p24678"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>This is a problem as more users move over to Windows 11.<br><br>Could it be possible to use drivers from the newer STM32CubeProgrammer if the CPS is modified for those API's ?</div></blockquote>CPS does not install DFU drivers. Windows does this.<br><br>It seems sometimes Windows installs very old drivers that may not work.<br><br>We can't distribute STM32 DFU Drivers because  AFIK the STM pacakage forbids this.<br><br>In that case people will need to download the DFU package from STM, which requires creating an account with STM and agreeing to the EULA etc<br><br>There is nothing we can do about the license on these drivers, and also which driver Windows installs.</div></blockquote>But it seems that no proper DFU driver exist for Windows 11 ? <br><br>So even if users download driver from STM there is a problem as the driver isn't compatible with Windows 11 unless you disable security functions in the OS.<br>Dfuse seems to be obsolete and replaced by STM32CubeProgrammer so I don't think that STM will update the old driver.<br><br>This will of course affect the Chinese original software too but I doubt that they will address the problem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jul 29, 2023 7:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-29T06:54:22</updated>
+
+		<published>2023-07-29T06:54:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24675#p24675</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24675#p24675"/>
+		<title type="html"><![CDATA[Re: New Win11 PC, can't load STM DFU driver for MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2573&amp;p=24675#p24675"><![CDATA[
+<blockquote class="uncited"><div>This is a problem as more users move over to Windows 11.<br><br>Could it be possible to use drivers from the newer STM32CubeProgrammer if the CPS is modified for those API's ?</div></blockquote>CPS does not install DFU drivers. Windows does this.<br><br>It seems sometimes Windows installs very old drivers that may not work.<br><br>We can't distribute STM32 DFU Drivers because  AFIK the STM pacakage forbids this.<br><br>In that case people will need to download the DFU package from STM, which requires creating an account with STM and agreeing to the EULA etc<br><br>There is nothing we can do about the license on these drivers, and also which driver Windows installs.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jul 29, 2023 6:54 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

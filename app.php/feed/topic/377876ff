@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3778" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-16T20:51:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3778</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-16T20:51:36</updated>
+
+		<published>2024-02-16T20:51:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29565#p29565</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29565#p29565"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29565#p29565"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Realized that an install password may be bad as it makes it problematic to analyze the CPS package in a sandbox.<br><br>I contacted Microsoft and reported this false flag detection and missed to inform them of the password so I got a reply that they closed<br>the case because they couldn't test it properly.<br><br>I have re-issued it now with the password.</div></blockquote>OK. Thanks<br><br>The password was to prevent internal scanning in the CPS by Google Safe Browsing, but like you say the password now causes other problems <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"></div></blockquote>The result from my file submission.<br><br>scan1.jpg</div></blockquote>Thanks.<br><br>I wonder if submission to Microsoft etc is now necessary for every CPS version, even if nothing much changed.<br><br>i.e. I have 1 change pending which only renames one of the satellites in satellites.txt, but because of the build process possibly the exe will be recompiled and may be falsely flagged again.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Feb 16, 2024 8:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-02-16T09:02:09</updated>
+
+		<published>2024-02-16T09:02:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29559#p29559</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29559#p29559"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29559#p29559"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Realized that an install password may be bad as it makes it problematic to analyze the CPS package in a sandbox.<br><br>I contacted Microsoft and reported this false flag detection and missed to inform them of the password so I got a reply that they closed<br>the case because they couldn't test it properly.<br><br>I have re-issued it now with the password.</div></blockquote>OK. Thanks<br><br>The password was to prevent internal scanning in the CPS by Google Safe Browsing, but like you say the password now causes other problems <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"></div></blockquote>The result from my file submission.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2208&amp;sid=cfe4367c923a8cba65a8e05b44b62acd" class="postimage" alt="scan1.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Feb 16, 2024 9:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-02-15T19:25:31</updated>
+
+		<published>2024-02-15T19:25:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29543#p29543</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29543#p29543"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29543#p29543"><![CDATA[
+<blockquote class="uncited"><div>It would not be practical to port the CPS to linux as it extensively use .NET and third party libraries outside of our control, and its also not OpenSource because we didn't write it. It was written by Radioddity and we just decompiled and modified their CPS</div></blockquote>I found this codeplug writer:<br><a href="https://dm3mat.darc.de/qdmr/" class="postlink">https://dm3mat.darc.de/qdmr/</a><br>Source code here:<br><a href="https://github.com/hmatuschek/qdmr" class="postlink">https://github.com/hmatuschek/qdmr</a><br><br>The program loads/runs on linux and because it is written in Qt porting should not be a huge hassle (Qt supports Windows and Mac).<br><br>However, I don't know how reliable it is in writing codeplugs.<br><br>As for binary signing, well, this is what you get when blindly paying for a single OS. The whole reason for this signing is making money, exploits are everywhere and never checked during the signing process.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Thu Feb 15, 2024 7:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-15T10:37:35</updated>
+
+		<published>2024-02-15T10:37:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29541#p29541</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29541#p29541"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29541#p29541"><![CDATA[
+<blockquote class="uncited"><div>Realized that an install password may be bad as it makes it problematic to analyze the CPS package in a sandbox.<br><br>I contacted Microsoft and reported this false flag detection and missed to inform them of the password so I got a reply that they closed<br>the case because they couldn't test it properly.<br><br>I have re-issued it now with the password.</div></blockquote>OK. Thanks<br><br>The password was to prevent internal scanning in the CPS by Google Safe Browsing, but like you say the password now causes other problems <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 15, 2024 10:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-02-15T09:24:05</updated>
+
+		<published>2024-02-15T09:24:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29539#p29539</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29539#p29539"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29539#p29539"><![CDATA[
+Realized that an install password may be bad as it makes it problematic to analyze the CPS package in a sandbox.<br><br>I contacted Microsoft and reported this false flag detection and missed to inform them of the password so I got a reply that they closed<br>the case because they couldn't test it properly.<br><br>I have re-issued it now with the password.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Feb 15, 2024 9:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-15T07:09:49</updated>
+
+		<published>2024-02-15T07:09:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29535#p29535</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29535#p29535"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29535#p29535"><![CDATA[
+<blockquote class="uncited"><div>... Hence the exact reason why this should not be detected as unfriendly by ANY ETHICAL AV.<br></div></blockquote><br>AntiVirus companies, always heavily bias towards false positives, so that in reviews they get better detection scores.<br><br>Generally reviews don't focus much on how bad these are at reporting false positives.<br><br>In this case, I've never heard of any of the AV companies whose products report the CPS as a virus, except Microsoft, and I've no ide why copy of Windows where the AV is totally up to date, has no problem with the CPS.<br><br>It seems a fairly limited number of people have a problem with this, considering the thousands of downloads and installs<br><br>I could make the files available as a zip with no installer, but people would then need to copy the file to some location on their machine and also run the COM driver installer, or perhaps even use the Device Manager to install the driver from the files in the zip<br><br>And the majority of people would probably find this more difficult that following the many tutorial vidoes on TY which should how to make a quarantine folder not scanned by the AV in question<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 15, 2024 7:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2024-02-15T06:37:04</updated>
+
+		<published>2024-02-15T06:37:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29532#p29532</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29532#p29532"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29532#p29532"><![CDATA[
+... Hence the exact reason why this should not be detected as unfriendly by ANY ETHICAL AV.<br><br>The machine that I work with just has plain Windows 11 (Windows Defender) along with the Chrome (Not Edge) Browser in use.<br><br>--&gt; My systems download and extract the files with no issues whatsoever.<br><br>I also employ a Ubuntu 23.10 client here ... With Chrome as the browser.<br><br>--&gt; Again - No issues observed downloading files.<br><br>Perhaps a "more ethical" security suite needs to be chosen? <br><br><span style="text-decoration:underline">Disable the security suite</span> -<span style="text-decoration:underline"> deploy</span> - and then <span style="text-decoration:underline">re-deploy the security suite</span> ! Sometimes this is what one must do with software and packages that one knows are safe. These packages ARE SAFE.<br><br>73<br><br>Steve I<br>VK3VM/VK3SIR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Thu Feb 15, 2024 6:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-15T02:54:36</updated>
+
+		<published>2024-02-15T02:54:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29526#p29526</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29526#p29526"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29526#p29526"><![CDATA[
+The CPS false positive has nothing to do with the IP relating to the AMBE codec.<br><br><strong class="text-strong">We do not include an AMBE codec in the firmware files,  or host any files containing the codec<br><br>The CPS does not include the codec. </strong><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 15, 2024 2:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2024-02-15T02:30:25</updated>
+
+		<published>2024-02-15T02:30:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29525#p29525</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29525#p29525"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29525#p29525"><![CDATA[
+This is a wider problem of Open Source vs Open Better vs Patents.<br><br>The method to overcome "patents" by extracting from manufacturer's files as used in this project is ingenious !<br><br>Patents are designed to protect against 3rd party gain from another's technology. <br><br>Yet we are Amateurs and experimenters. This is very grey area -  areas that should not and must not be subject to vicious legal pursuit (that we are all aware that has happened) !<br><br>Nobody here is making money from this ! Those selling radios with OpenGD77 are also in the grey; are just re-selling hardware that they have sourced [ which in itself may have firmware on it that violates DVSI's patents ... that we do not know and may be contributing to some of these issues ].<br><br><span style="text-decoration:underline">This is an issue that needs to be taken to Politicians world-wide for sorting out</span> ! Patent owners and holders have stepped well over the mark here by attacking the little guy, amateur and experimenter. <br><br>There are much better ways IN THAT THEY CAN WORK WITH US and GAIN THEMSELVES - Increasing their bottom lines - rather than by bullying and pursuing us !<br><br>i.e. Retaining ownership and permitting Amateur Experimentation (and the results of such experimentation) - but reserving the right to <span style="text-decoration:underline">demand royalties for use of patents from anyone selling or reselling anything that uses this derived work based on their IP</span> !<br><br>That is what we should be pursuing our lawmakers for. Everyone wins under this strategy !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Thu Feb 15, 2024 2:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-14T22:49:14</updated>
+
+		<published>2024-02-14T22:49:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29519#p29519</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29519#p29519"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29519#p29519"><![CDATA[
+<blockquote class="uncited"><div>if it's generated by the installer itself the one can try to use a different installer (NSIS).<br><br>or just ditch M$$$$ and go linux, but CPS needs to be ported somehow. (is it opensource?)</div></blockquote>I don't know if using NSIS would be any better. I guess I you could try it, but generally the most of the positive virus reports are basically "Susgen" i.e Suspicious Generator, i.e the EXE is not signed, and as I've previously explained multiple times; it is not practical for me to sign the exe because of the cost and also the legal obligations around owning a signing certificate and using it.<br><br>There is nothing to stop anyone taking the EXE of the installer or the EXE of the CPS and repackaging it and signing it themselves, if they pay for a signing certificate, but obviously thats not going to happen either.<br>i.e just take the installed files and run them through NSIS and see if that exe still gets flagged.<br><br>In one of my previous day jobs, I developed exe's which my employer distrubuted, and they had to jump through hoops to sign the EXE, including a dedicated PC used to sign the exe, which required 2 factor authentication as part of the signing process.<br><br>This is totally unworkable for a project done by a few people who get $0 for doing it.<br><br>It would not be practical to port the CPS to linux as it extensively use .NET and third party libraries outside of our control, and its also not OpenSource because we didn't write it. It was written by Radioddity and we just decompiled and modified their CPS<br><br><br>Edit.<br><br>I just got NSIS to generate an installer exe from the zip file and uploaded it to VirusTotal and it gets a whole load of new virus warnings<br><br><a href="https://www.virustotal.com/gui/file/ce01307d1cb36f4f9f926ba417d9bd4924021c3ff1f44175c05c4e1bd4dcc107?nocache=1" class="postlink">https://www.virustotal.com/gui/file/ce0 ... ?nocache=1</a><br><br>Uploading the zip uses to create the NSIS installer gives less warnings, i.e. which suggests that NSIS is injecting viruses<br><br><a href="https://www.virustotal.com/gui/file-analysis/OThiODFhMGI0OTYyZmI4YzAzYTViMGVkOTRiNzg1YTY6MTcwNzk1MTQwOA==" class="postlink">https://www.virustotal.com/gui/file-ana ... k1MTQwOA==</a><br><br><br>Uploading the exe on its own gives this report<br><br><a href="https://www.virustotal.com/gui/file/648450926c556bbc49515114948eacd0ea74da177fdbdefdbfead71196a71250" class="postlink">https://www.virustotal.com/gui/file/648 ... 1196a71250</a><br><br><br>Basically this just means its an unsigned exe<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 14, 2024 10:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-02-14T22:36:22</updated>
+
+		<published>2024-02-14T22:36:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29517#p29517</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29517#p29517"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29517#p29517"><![CDATA[
+if it's generated by the installer itself the one can try to use a different installer (NSIS).<br><br>or just ditch M$$$$ and go linux, but CPS needs to be ported somehow. (is it opensource?)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Wed Feb 14, 2024 10:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-13T21:17:44</updated>
+
+		<published>2024-02-13T21:17:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29504#p29504</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29504#p29504"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29504#p29504"><![CDATA[
+This problem is possibly becasue I set the installer exe to encrypted and M$ does not like that they can no longer inspect inside the installer becuase the antivirus does not know the password<br><br>I use InnoSetup <a href="https://jrsoftware.org/isinfo.php" class="postlink">https://jrsoftware.org/isinfo.php</a> to make the installer, and it seems almost an empty installer file is flagged by some antivirus as a problem<br><br>If you want to try to run the installer youself, I can post the config file, and then perhaps see whether VirusTotal still shows the installer as being a virus<br><br>IMO its crazy that if a file is indentified as containing a virus my one antivirus, then it should be identified by most antivirus, but VirusTotal show conflicting results, with most antivirus programs finding no problems<br><br>Edit. I just uploaded the CPS main exe to virustotal and I only 4 say its got a virus<br><br><a href="https://www.virustotal.com/gui/file/648450926c556bbc49515114948eacd0ea74da177fdbdefdbfead71196a71250?nocache=1" class="postlink">https://www.virustotal.com/gui/file/648 ... ?nocache=1</a><br><br>and they all disagree about what the virus is<br><br>i.e<br><ul><li>Bkav Pro:W32.AIDetectMalware.CS</li><li>MaxSecure:Trojan.Malware.300983.susgen</li><li>SecureAge:Malicious</li><li>TEHTRIS:Generic.Malware</li></ul><div class="codebox"><p>CODE: </p><pre><code></code></pre></div><br>LOL.<br><br>So SecureAge just think its bad without saying precisely what they think is wrong with it<br>SecureAge say basiclly the same thing<br>MaxSecure think its one type of trojan<br>and Bkav Pro think its something else<br><br><br>I looked up  <strong class="text-strong">W32.AIDetectMalware.CS</strong> and its defined as<br><blockquote class="uncited"><div>W32.AIDetectMalware is a heuristic detection designed to generically detect a Trojan Horse.</div></blockquote>i.e This is not a specific type, its just that the "AI"  didn't like the smell of it <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>The same with  MaxSecure,  becuase "susgen" means   <br><blockquote class="uncited"><div>(Suspicious of generator) </div></blockquote>i.e All of these are becasue its not possible to crypographically sign this file because its not a commercial file linked to a company<br><br><br>So. I thought I'd check the official TYT CPS<br><br><a href="https://www.virustotal.com/gui/file/b40ddd80098519629d88a74918adf833067c395e3f5a4031391ef1a05009a044" class="postlink">https://www.virustotal.com/gui/file/b40 ... a05009a044</a><br><br>It fails<br><br>Same with the official TYT firmware loader<br><br><a href="https://www.virustotal.com/gui/file/de14c9bfdbafb0a175e7890f80e8ac987678795c36ba8798cc7b65314ae364c7" class="postlink">https://www.virustotal.com/gui/file/de1 ... 314ae364c7</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Feb 13, 2024 9:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-02-13T20:48:52</updated>
+
+		<published>2024-02-13T20:48:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29502#p29502</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29502#p29502"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29502#p29502"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Windows 11 security is deleting the file as soon as I download it, stating there is a virus in the file.<br>I cannot bypass it, unfortunately it my business computer and it is managed by security folks.<br><br>This is new, in the past I had no issues. I downloaded the latest version from 01/22/2024. No way to install it.<br>Thanks</div></blockquote>This can be avoided by adding an exception to windows antivirus, to the folder or to the file... Up to you.</div></blockquote>This is the best option<br><br>Make a quarantine folder, download into that folder and install from the folder</div></blockquote><br>I was surprised by this unexpected behaviour by W10Pro64b and after a few slapping to Google Chrome, I realised issue came from Windows antivirus so, I set the exception to the folder in where I download OpenGD77 files and problem "Gone with the wind"...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Tue Feb 13, 2024 8:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-13T20:11:46</updated>
+
+		<published>2024-02-13T20:11:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29500#p29500</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29500#p29500"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29500#p29500"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Windows 11 security is deleting the file as soon as I download it, stating there is a virus in the file.<br>I cannot bypass it, unfortunately it my business computer and it is managed by security folks.<br><br>This is new, in the past I had no issues. I downloaded the latest version from 01/22/2024. No way to install it.<br>Thanks</div></blockquote>This can be avoided by adding an exception to windows antivirus, to the folder or to the file... Up to you.</div></blockquote>This is the best option<br><br>Make a quarantine folder, download into that folder and install from the folder<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Feb 13, 2024 8:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-02-13T15:42:22</updated>
+
+		<published>2024-02-13T15:42:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29497#p29497</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29497#p29497"/>
+		<title type="html"><![CDATA[Re: My antivirus deletes the CPS installer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3778&amp;p=29497#p29497"><![CDATA[
+<blockquote class="uncited"><div>Windows 11 security is deleting the file as soon as I download it, stating there is a virus in the file.<br>I cannot bypass it, unfortunately it my business computer and it is managed by security folks.<br><br>This is new, in the past I had no issues. I downloaded the latest version from 01/22/2024. No way to install it.<br>Thanks</div></blockquote>This can be avoided by adding an exception to windows antivirus, to the folder or to the file... Up to you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Tue Feb 13, 2024 3:42 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

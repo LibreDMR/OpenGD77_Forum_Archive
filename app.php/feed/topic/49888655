@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4988" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-10T21:38:12</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4988</id>
+
+		<entry>
+		<author><name><![CDATA[KC6WOG]]></name></author>
+		<updated>2025-04-10T21:38:12</updated>
+
+		<published>2025-04-10T21:38:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36691#p36691</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36691#p36691"/>
+		<title type="html"><![CDATA[Re: MD-UV390 &quot;Helicoptering&quot; Tx Audio on DMR Nets]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36691#p36691"><![CDATA[
+Do you know the mix of the ferrites you tried? It makes an enormous difference. I'd suggest mix 43 and/or 61 for vhf/uhf.<br><br>I'm glad you got it sorted out. Heil tends to put way too much cable on their headsets, I've always had to use multiple winds on a ferrite core to keep RF out of the audio path. I do like their microphone elements, especially for DX.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4063">KC6WOG</a> — Thu Apr 10, 2025 9:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2025-03-24T01:07:05</updated>
+
+		<published>2025-03-24T01:07:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36400#p36400</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36400#p36400"/>
+		<title type="html"><![CDATA[Re: MD-UV390 &quot;Helicoptering&quot; Tx Audio on DMR Nets]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36400#p36400"><![CDATA[
+PROBLEM SOLVED!  It was the Heil Headset.  I picked up a Retevis behind the head headset (EHK006) and my TX audio from the TYT on DMR nets is no longer distorted.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Mon Mar 24, 2025 1:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2025-03-23T01:03:04</updated>
+
+		<published>2025-03-23T01:03:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36361#p36361</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36361#p36361"/>
+		<title type="html"><![CDATA[Re: MD-UV390 &quot;Helicoptering&quot; Tx Audio on DMR Nets]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36361#p36361"><![CDATA[
+Ferrite beads had no effect.  By the way, I was only operating with only 50mw of Tx power.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Sun Mar 23, 2025 1:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-22T23:47:13</updated>
+
+		<published>2025-03-22T23:47:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36359#p36359</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36359#p36359"/>
+		<title type="html"><![CDATA[Re: MD-UV390 &quot;Helicoptering&quot; Tx Audio on DMR Nets]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36359#p36359"><![CDATA[
+This is RF pickup into the external mic cable.<br><br>If you want to use this external mic, you should try perhaps adding a ferrite core at the plug end.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 22, 2025 11:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-03-22T22:22:09</updated>
+
+		<published>2025-03-22T22:22:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36356#p36356</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36356#p36356"/>
+		<title type="html"><![CDATA[Re: MD-UV390 &quot;Helicoptering&quot; Tx Audio on DMR Nets]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36356#p36356"><![CDATA[
+I guess that DMR noise is getting into the audio circuits in the radio via  the headset cable.<br>The Anytone has better decoupling around the jacks, some small capacitors between signal and ground would probably fix it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Mar 22, 2025 10:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2025-03-22T21:30:15</updated>
+
+		<published>2025-03-22T21:30:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36354#p36354</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36354#p36354"/>
+		<title type="html"><![CDATA[Re: MD-UV390 &quot;Helicoptering&quot; Tx Audio on DMR Nets]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36354#p36354"><![CDATA[
+Using just the radio, or using a speaker mic, the TX audio is clear.<br>It's just when using the headset with boom mic (Heil HTH-K) that TX audio is distorted.  And as I mentioned, this problem does not occur when using the headset with my AT 878UVII Plus sitting right next to the 390.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Sat Mar 22, 2025 9:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WA3FME]]></name></author>
+		<updated>2025-03-22T07:02:00</updated>
+
+		<published>2025-03-22T07:02:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36350#p36350</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36350#p36350"/>
+		<title type="html"><![CDATA[Re: MD-UV390 &quot;Helicoptering&quot; Tx Audio on DMR Nets]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36350#p36350"><![CDATA[
+Out of curiosity have you tried using the radio without the headset? If so did you get the same feedback about the TX audio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3168">WA3FME</a> — Sat Mar 22, 2025 7:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2025-03-22T01:30:45</updated>
+
+		<published>2025-03-22T01:30:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36349#p36349</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36349#p36349"/>
+		<title type="html"><![CDATA[MD-UV390 &quot;Helicoptering&quot; Tx Audio on DMR Nets]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4988&amp;p=36349#p36349"><![CDATA[
+I've got an MD-UV390 GPS unit and tried using it with my Heil HTH-K headset w/boom mic.  Tx &amp; Rx audio are fine using FM analog.  Rx audio is fine on DMR, but Tx audio is reported as having a strong 'helicoptering' effect.  This has happened on multiple DMR nets I've tried it on.  However, if I plug it into my Anytone 878 sitting right next to the 390, the Tx audio is clear.  So it seems it's an issue with the 390, not necessarily the headset.  I did try adding ferrite beads at both ends of the headset cable, with virtually no effect on the distortion.<br>Any thoughts on what's going on?  Might there be a setting in the 390 I can adjust that might fix this?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Sat Mar 22, 2025 1:30 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

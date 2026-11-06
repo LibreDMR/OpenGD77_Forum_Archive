@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4135" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-08T13:54:51</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4135</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-06-08T13:54:51</updated>
+
+		<published>2024-06-08T13:54:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4135&amp;p=31610#p31610</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4135&amp;p=31610#p31610"/>
+		<title type="html"><![CDATA[Re: Baofeng 1801 Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4135&amp;p=31610#p31610"><![CDATA[
+Hi Dave,<br><br>I don't have DM-1801, but assume it should be the same as the RD-5R.<br><br>So, First of all you need a frequency counter or an SDR or something that can monitor the carrier frequency of your 1801.<br>now Menu -&gt; Options -&gt; Calibration<br>You should now be in the power calibration mode.<br>To go to frequency calibration mode. Press SK2 + up/down (or whatever button/knob that you use to change frequency/channel).<br>the page 3/4 should by the calibration for UHF @ 435Mhz.<br>In this page use left/right (or what ever button you use to change TalkGroups) to change the offset. press PTT and check with your frequency counter and keep adjusting the offset until you are satisfied.<br><br>Press SK2 + green(menu) to permanently save the calibration.<br><br>BTW, you can buy DM-1701 on eBay or amazon.com. I've just got one from eBay for $68. On the contrary, I'm looking for a DM-1801 but can't find one. All of them on eBay are DR-1801 which does not support by OpenGd firmware. <br><br>BTW, again. I've sold my 878 after I flashed my Retevis RT3S with OpenGD firmware, and will never go back to use one zone per one repeater ever again.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2448&amp;sid=a731ab76c80306963d01bcf5102ffaf7" class="postimage" alt="IMG_0867.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Jun 08, 2024 1:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W4EIP]]></name></author>
+		<updated>2024-06-08T13:39:14</updated>
+
+		<published>2024-06-08T13:39:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4135&amp;p=31609#p31609</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4135&amp;p=31609#p31609"/>
+		<title type="html"><![CDATA[Baofeng 1801 Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4135&amp;p=31609#p31609"><![CDATA[
+Hello,<br><br>Has anyone used the OpenGD77 calibration feature to calibrate a baofeng 1801?  <br>My 1801 is off frequeny (low) by about 700 Hz on 438.1 MHz.<br>I tried using the calibrate feature to recalibrate the radio with no success. <br>The instructions give no clue about how to use this feature.<br>Has anyone used it recalibrate a 1801?  <br>I would be very grateful for any guidance.<br><br>BTW, the 1701 is a great radio.  Too bad its out of production.  I have an 1801 but i prefer the 1701.<br>I especially like the feataure of being able to select talk groups and time slots from a group off TGs for a channel.<br>I wish that they "world standard" Anytone 878 had that feature!!<br><br>Thanks for any help,<br>Dave W4EIP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2677">W4EIP</a> — Sat Jun 08, 2024 1:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

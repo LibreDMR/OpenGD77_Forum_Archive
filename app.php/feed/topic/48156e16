@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4815" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-07T16:07:11</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4815</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-07T16:07:11</updated>
+
+		<published>2025-02-07T16:07:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35656#p35656</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35656#p35656"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35656#p35656"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4854" class="postlink">viewtopic.php?f=19&amp;t=4854</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 07, 2025 4:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-06T09:08:23</updated>
+
+		<published>2025-02-06T09:08:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35602#p35602</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35602#p35602"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35602#p35602"><![CDATA[
+<blockquote class="uncited"><div>Hmmmm, I just rechecked, and there is a bug, the RX and TX frequencies are swapped.<br>The fix will be part of the next beta.</div></blockquote>Thankyou  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Feb 06, 2025 9:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-06T05:24:45</updated>
+
+		<published>2025-02-06T05:24:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35601#p35601</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35601#p35601"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35601#p35601"><![CDATA[
+Hmmmm, I just rechecked, and there is a bug, the RX and TX frequencies are swapped.<br>The fix will be part of the next beta.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 06, 2025 5:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-05T22:07:36</updated>
+
+		<published>2025-02-05T22:07:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35596#p35596</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35596#p35596"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35596#p35596"><![CDATA[
+<blockquote class="uncited"><div>The specs are quite clear.<br>It sends YOUR Tx frequency, the CSS (CTCSS or DCS), the shift.<br>The CSS letter could also be a 'T' (with 'off''). The case of the letter describe if bandwidth (upcase for 25kHz, lowcase for 12.5).<br>On the TH-D74, you have a "Tune" option when you browse the received beacons, that will do a QSY to that given frequency, with correct shift and tone.<br>Of course, here, there's a limit of the sent parameters to what the transceiver supports (and in case you are on a 1750Hz one, that tone is not sent in the beacon), range is also not supported, etc.</div></blockquote>Take a look on this video, 145.230 is the  output frequency on the repeater and it has a - 0.600 shift.<br><br><a href="https://youtu.be/sUuJf4-N_cw?si=qVrw2xH9m3dCFbHE&amp;t=256" class="postlink">https://youtu.be/sUuJf4-N_cw?si=qVrw2xH9m3dCFbHE&amp;t=256</a> <br><br>Similar with the other examples.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Feb 05, 2025 10:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-05T19:21:06</updated>
+
+		<published>2025-02-05T19:21:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35591#p35591</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35591#p35591"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35591#p35591"><![CDATA[
+The specs are quite clear.<br>It sends YOUR Tx frequency, the CSS (CTCSS or DCS), the shift.<br>The CSS letter could also be a 'T' (with 'off''). The case of the letter describe if bandwidth (upcase for 25kHz, lowcase for 12.5).<br>On the TH-D74, you have a "Tune" option when you browse the received beacons, that will do a QSY to that given frequency, with correct shift and tone.<br>Of course, here, there's a limit of the sent parameters to what the transceiver supports (and in case you are on a 1750Hz one, that tone is not sent in the beacon), range is also not supported, etc.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Feb 05, 2025 7:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-05T18:40:53</updated>
+
+		<published>2025-02-05T18:40:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35590#p35590</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35590#p35590"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35590#p35590"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><ul><li> Fix firmware freezing when an APRS becon can't be sent (like when the squelch is constantly opened).</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/VRT4Q1YYAG#q28Sr1aVBTQg" class="postlink">https://drive.proton.me/urls/VRT4Q1YYAG#q28Sr1aVBTQg</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG" class="postlink">https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/26. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4804" class="postlink">viewtopic.php?f=12&amp;t=4804</a><br><br>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a></div></blockquote>Regarding the QSY info, I'm a bit confused if it shows the correct info , I tried to study the more "official" links:<br><a href="http://www.aprs.org/info/freqspec.txt" class="postlink">http://www.aprs.org/info/freqspec.txt</a><br><a href="http://aprsisce.wikidot.com/doc:qsy" class="postlink">http://aprsisce.wikidot.com/doc:qsy</a><br><br>But it's a still a bit unclear for me if you should announce the downlink ( Repeater TX ) or uplink ( Repeater RX ) <br><br>My MD9600 seems to announce the uplink ( My radios TX freq) on a repeater channel:<br><br>2025-02-03 22:18:06 CET: SA0BUX-9&gt;APOG77,WIDE1-1,WIDE2-1,qAR,SM0RGQ-4:!\0Ou)S%VbC  !432.625MHz c077 +200 OpenGD77 MD-9600<br>2025-02-03 22:19:43 CET: SA0BUX-9&gt;APOG77,WIDE1-1,WIDE2-1,qAO,SK0CT-1:!\0Ou3S%VNC  !145.187MHz toff +060 OpenGD77 MD-9600</div></blockquote>I have pooked around and tried to understand how it works on various Kenwood radios and it seems that they send the repeaters output frequency together with the shift. <br>Here we have it the other way around. <br><br>Problem is that the "specifications" don't clearly define how it should work.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Feb 05, 2025 6:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-03T22:12:56</updated>
+
+		<published>2025-02-03T22:12:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35560#p35560</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35560#p35560"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35560#p35560"><![CDATA[
+<blockquote class="uncited"><div><ul><li> Fix firmware freezing when an APRS becon can't be sent (like when the squelch is constantly opened).</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/VRT4Q1YYAG#q28Sr1aVBTQg" class="postlink">https://drive.proton.me/urls/VRT4Q1YYAG#q28Sr1aVBTQg</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG" class="postlink">https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/26. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4804" class="postlink">viewtopic.php?f=12&amp;t=4804</a><br><br>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a></div></blockquote>Regarding the QSY info, I'm a bit confused if it shows the correct info , I tried to study the more "official" links:<br><a href="http://www.aprs.org/info/freqspec.txt" class="postlink">http://www.aprs.org/info/freqspec.txt</a><br><a href="http://aprsisce.wikidot.com/doc:qsy" class="postlink">http://aprsisce.wikidot.com/doc:qsy</a><br><br>But it's a still a bit unclear for me if you should announce the downlink ( Repeater TX ) or uplink ( Repeater RX ) <br><br>My MD9600 seems to announce the uplink ( My radios TX freq) on a repeater channel:<br><br>2025-02-03 22:18:06 CET: SA0BUX-9&gt;APOG77,WIDE1-1,WIDE2-1,qAR,SM0RGQ-4:!\0Ou)S%VbC  !432.625MHz c077 +200 OpenGD77 MD-9600<br>2025-02-03 22:19:43 CET: SA0BUX-9&gt;APOG77,WIDE1-1,WIDE2-1,qAO,SK0CT-1:!\0Ou3S%VNC  !145.187MHz toff +060 OpenGD77 MD-9600<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Feb 03, 2025 10:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ke0mme]]></name></author>
+		<updated>2025-01-29T13:20:04</updated>
+
+		<published>2025-01-29T13:20:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35458#p35458</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35458#p35458"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35458#p35458"><![CDATA[
+Yup. Totally understand. The "amateur only" list is a sensible default! Thanks for all your hard work!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7916">ke0mme</a> — Wed Jan 29, 2025 1:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-29T05:57:39</updated>
+
+		<published>2025-01-29T05:57:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35450#p35450</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35450#p35450"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35450#p35450"><![CDATA[
+<blockquote class="uncited"><div>Oof. Another silly mistake on my part! I used "<a href="https://celestrak.org/NORAD/elements/gp.php?GROUP=active&amp;FORMAT=tle" class="postlink">https://celestrak.org/NORAD/elements/gp ... FORMAT=tle</a>" and was able to load everything! <br><br>You are the man! Thank you!</div></blockquote>We don't normally use the entire 'active' satellite list from Celestrack because it takes much longer to download and process than the Amateur radio group.<br><br>But of course you can get your TLE's from whatever source you like<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 29, 2025 5:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ke0mme]]></name></author>
+		<updated>2025-01-29T01:42:04</updated>
+
+		<published>2025-01-29T01:42:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35449#p35449</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35449#p35449"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35449#p35449"><![CDATA[
+Oof. Another silly mistake on my part! I used "<a href="https://celestrak.org/NORAD/elements/gp.php?GROUP=active&amp;FORMAT=tle" class="postlink">https://celestrak.org/NORAD/elements/gp ... FORMAT=tle</a>" and was able to load everything! <br><br>You are the man! Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7916">ke0mme</a> — Wed Jan 29, 2025 1:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-29T01:18:58</updated>
+
+		<published>2025-01-29T01:18:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35448#p35448</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35448#p35448"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35448#p35448"><![CDATA[
+<blockquote class="uncited"><div>Boyya! Adding that "0" did the trick. Oof, sorry I didn't see that! Thank you so much!<br><br>All my sats except NOAA sats are being loaded. I assume NOAA sats are stripped out by the CPS, because if I update my satellite.txt to only have NOAA sats, nothing gets loaded. Is that the case?<br><br>Thank you!</div></blockquote>The CPS strips nothing out. It's simply these two birds are not part of the downloaded list, hence they are ignored.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 29, 2025 1:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ke0mme]]></name></author>
+		<updated>2025-01-29T00:34:52</updated>
+
+		<published>2025-01-29T00:34:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35446#p35446</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35446#p35446"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35446#p35446"><![CDATA[
+Boyya! Adding that "0" did the trick. Oof, sorry I didn't see that! Thank you so much!<br><br>All my sats except NOAA sats are being loaded. I assume NOAA sats are stripped out by the CPS, because if I update my satellite.txt to only have NOAA sats, nothing gets loaded. Is that the case?<br><br>Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7916">ke0mme</a> — Wed Jan 29, 2025 12:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-28T16:11:40</updated>
+
+		<published>2025-01-28T16:11:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35429#p35429</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35429#p35429"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35429#p35429"><![CDATA[
+PCSat Tx1 value is empty, should be zero.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jan 28, 2025 4:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ke0mme]]></name></author>
+		<updated>2025-01-28T15:05:32</updated>
+
+		<published>2025-01-28T15:05:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35428#p35428</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35428#p35428"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35428#p35428"><![CDATA[
+No problem. Totally understand there may be other prioritizes.<br><br>LilacSat-2 has abbreviated frequency to make columns line up visually. This shortened freq. has no effect on loading the sat data, at least in my testing it didnt care! Just to be sure, I changed to be the full "437.200" and it still only loaded 13 sats, not the full 18. So I think something is still limiting it.<br><br>Thanks for your hard work!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7916">ke0mme</a> — Tue Jan 28, 2025 3:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-28T14:28:03</updated>
+
+		<published>2025-01-28T14:28:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35427#p35427</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35427#p35427"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4815&amp;p=35427#p35427"><![CDATA[
+I have no time to check this, but the LilacSat-2 line looks wrong (first frequency is missing digits).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jan 28, 2025 2:28 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

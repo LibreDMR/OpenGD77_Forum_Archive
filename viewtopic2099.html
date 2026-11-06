@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=5&t=3057&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 09:45:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; OpenGD77 CPS COM port problems</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>OpenGD77 CPS COM port problems</h2>
+		<p><a href="viewtopica38e-2.html?f=5&amp;t=3057">viewtopic.php?f=5&amp;t=3057</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>OpenGD77 CPS COM port problems</h3>
+				<div class="date">Posted: <strong>Wed Jul 19, 2023 12:21 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">The OpenGD77 firmware operates as a USB Serial Com port <strong class="text-strong">after</strong> the firmware has been installed<br>
+<br>
+Note. <br>
+Before the firmware is installed all radios will appear as whatever USB device the official firmware creates.<br>
+Also when the radios are in Device Firmware Update (DFU) mode, they do not appear as a USB serial device either<br>
+<br>
+<br>
+Window 7 and Windows 10 do not automatically recognise the OpenGD77 firmware USB connection as a Serial device because these versions of Windows do not query the USB device to find its device type.<br>
+<br>
+AFIK. Windows 11 and Linux do query USB devices and Windows 11 sometimes automatically installs a default USB Serial aka CDCACM driver.<br>
+However on Windows 11 this is a problem, becuase Windows does not name the device as "OpenGD77"  so the CPS has no way of knowing that a specicfic COM port is the OpenGD77 radio.<br>
+<br>
+<br>
+Windows 7 and Windows 10 do not query USB devices when they are connected, so the OpenGD77 CPS installer includes a small program, which uses a third party utility called LibWDI <a href="https://github.com/pbatard/libwdi" class="postlink">https://github.com/pbatard/libwdi</a>, to assign the built in   Windows USB Serial driver to the USB Vendor / Product ID of the USB Serial device created by the firmware.<br>
+<br>
+The LibWDI also names the com port as OpenGD77<br>
+<br>
+<br>
+When the OpenGD77 CPS need to read or wite to the firmware in the radio, it opens the Com port named "OpenGD77",  however becuase Windows 11 automatically installs the Serial driver, and gives it a gerneric name, hence the OpenGD77 will not be able to find which com port is the OpenGD77 radio<br>
+<br>
+If the CPS can't find the com port, you need to manually select it for each data transfer<br>
+<br>
+<br>
+On Windows 10. If the COM device works but is not named "OpenGD77", you should uninstall the default driver, and reinstall the OpenGD77 Com driver by re-installing the OpenGD77 CPS<br>
+<br>
+Also note that Windows installs a separate device driver to each USB socket, so plugging the radio into a different socket could potentially cause Windows to use a different driver.</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=5&t=3057&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 09:45:24 GMT -->
+</html>

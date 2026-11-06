@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3948" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-28T07:17:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3948</id>
+
+		<entry>
+		<author><name><![CDATA[SP9MQU]]></name></author>
+		<updated>2025-04-28T07:17:19</updated>
+
+		<published>2025-04-28T07:17:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36932#p36932</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36932#p36932"/>
+		<title type="html"><![CDATA[Re: Anyone knows the version of this pcb?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36932#p36932"><![CDATA[
+Thank you for the links! I tried all of the firmware versions, but I think there's something wrong with the FirmwareLoader 3.07.exe...<br><br>It looks like this:<br>When loading the firmware, the progress bar gets stuck roughly halfway – the radio stops blinking, then the green progress bar moves backward ;/<br>After a while, a pop-up window says "Success", but the radio isn't blinking anymore – and after a power reset, nothing appears on the screen.<br><br>I think I'll have to wait for an official update of the firmware loader and a new official firmware release.<br><br>Thanks a lot for your help! 73 <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8504">SP9MQU</a> — Mon Apr 28, 2025 7:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-23T18:51:54</updated>
+
+		<published>2025-04-23T18:51:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36882#p36882</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36882#p36882"/>
+		<title type="html"><![CDATA[Re: Anyone knows the version of this pcb?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36882#p36882"><![CDATA[
+<blockquote class="uncited"><div>I think You misunderstand me, I am looking for someone who make backup of original TYT  (V5) fit to my radio...  My MD 9600 works fine on V5 20250323054920 build - no issue <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> but I want return to original soft for selling purpose. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> may be someone can share original bin   73 <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>You can install the firmware package from <a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br><br>Or take a look on <a href="https://www.passion-radio.com/mobile/md9600-505.html" class="postlink">https://www.passion-radio.com/mobile/md9600-505.html</a><br><br>You have the CPS and some other versions there.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Apr 23, 2025 6:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9MQU]]></name></author>
+		<updated>2025-04-23T18:35:18</updated>
+
+		<published>2025-04-23T18:35:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36881#p36881</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36881#p36881"/>
+		<title type="html"><![CDATA[Re: Anyone knows the version of this pcb?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36881#p36881"><![CDATA[
+I think You misunderstand me, I am looking for someone who make backup of original TYT  (V5) fit to my radio...  My MD 9600 works fine on V5 20250323054920 build - no issue <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> but I want return to original soft for selling purpose. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> may be someone can share original bin   73 <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8504">SP9MQU</a> — Wed Apr 23, 2025 6:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-04-23T14:57:32</updated>
+
+		<published>2025-04-23T14:57:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36880#p36880</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36880#p36880"/>
+		<title type="html"><![CDATA[Re: Anyone knows the version of this pcb?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36880#p36880"><![CDATA[
+The firmware you downloaded and used for the donor file for OpenGD77 (V26.45.bin) should work on that radio.  Any TYT firmware starting V2..... Should work with a V5 radio. <br><br>TYT numbering convention...<br><br>V0x.xx  is for V1 , V2 and V3 radios. (All have identical chipset)<br>V1x.xx  is for V4 radios. (Different synthesiser chip)<br>V2x.xx  is for V5 radios. (Different synthesiser and IF chips)<br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Apr 23, 2025 2:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9MQU]]></name></author>
+		<updated>2025-04-23T13:41:56</updated>
+
+		<published>2025-04-23T13:41:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36879#p36879</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36879#p36879"/>
+		<title type="html"><![CDATA[Re: Anyone knows the version of this pcb?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=36879#p36879"><![CDATA[
+Hi there,<br><br>Do you have a backup of the original firmware?<br>I wanted to revert to the stock version, but unfortunately, I didn’t make a backup — I thought it would be enough to just download the right version from the TYT website...<br>Sadly, I haven’t been able to find one that works.<br><br>I’ve tried firmware from Radioddity (V16.45, V6.09), but after flashing any of them, the radio won’t boot.<br>The only version I can get working right now is OpenGD77.<br><br>The only thing I saved before flashing was a screenshot (of the original version info).<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2929&amp;sid=df27976864ba7c52a5f6ee5b17742286" class="postimage" alt="MyTYT.png" onclick="viewableArea(this);" /></dt></dl></div>I’d be really grateful for your help!!! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>edited: HW version is not 2.0 like on the prnscreen, based on OpenGD is version 5 - this version is working fine:)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8504">SP9MQU</a> — Wed Apr 23, 2025 1:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea2eke]]></name></author>
+		<updated>2024-04-03T18:49:00</updated>
+
+		<published>2024-04-03T18:49:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30594#p30594</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30594#p30594"/>
+		<title type="html"><![CDATA[Re: Anyone knows the version of this pcb?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30594#p30594"><![CDATA[
+<blockquote class="uncited"><div>That looks like what we refer to as the V5 board.</div></blockquote>Yes, is the V5 version, big thanks G4EML!<br><br>And big thanks too to EC2UT for the support and backup  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br>And a huge thank you to all those who make all this possible, GD77 is truly extraordinary, Im in love.<br><br>Cheers.<br><br>73 de EA2EKE Marcos<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5940">ea2eke</a> — Wed Apr 03, 2024 6:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-04-02T18:46:31</updated>
+
+		<published>2024-04-02T18:46:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30545#p30545</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30545#p30545"/>
+		<title type="html"><![CDATA[Re: Anyone knows the version of this pcb?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30545#p30545"><![CDATA[
+That looks like what we refer to as the V5 board.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Apr 02, 2024 6:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea2eke]]></name></author>
+		<updated>2024-04-02T18:32:20</updated>
+
+		<published>2024-04-02T18:32:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30543#p30543</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30543#p30543"/>
+		<title type="html"><![CDATA[Anyone knows the version of this pcb?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3948&amp;p=30543#p30543"><![CDATA[
+Hi all!<br><br>I bought a new TYT MD-9600 and when I opened the cover I saw that it does not indicate the version. <br><br>Does anyone know how to identify it correctly?<br><br>Thanks in advance!<br><br>Cheers.<br><br><img src="https://i.ibb.co/gdctyxc/20240402-152905.jpg" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5940">ea2eke</a> — Tue Apr 02, 2024 6:32 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

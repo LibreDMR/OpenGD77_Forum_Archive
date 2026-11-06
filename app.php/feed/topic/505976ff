@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5059" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-14T15:43:23</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5059</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-14T15:43:23</updated>
+
+		<published>2025-04-14T15:43:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5059&amp;p=36752#p36752</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5059&amp;p=36752#p36752"/>
+		<title type="html"><![CDATA[Re: RT3S Cable - Unknown USB Device (Port Reset Failed)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5059&amp;p=36752#p36752"><![CDATA[
+<ul><li>Are you running OpenGD77 or factory firmware ?</li><li> Have you installed a DFU driver and which version ?</li><li> Do you have the correct cable ?<br>(it should be without any chip)</li></ul><img src="https://www.sa0bux.se/Ham/RT3S/RT3S_MD-UV380_GD77_cable_1.jpg" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Apr 14, 2025 3:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1AH]]></name></author>
+		<updated>2025-04-14T13:54:21</updated>
+
+		<published>2025-04-14T13:54:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5059&amp;p=36749#p36749</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5059&amp;p=36749#p36749"/>
+		<title type="html"><![CDATA[RT3S Cable - Unknown USB Device (Port Reset Failed)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5059&amp;p=36749#p36749"><![CDATA[
+Hi All, <br><br>I just picked up an RT3S and cant get the darn USB cable to work. Scoured the internets but havent had any luck. I keep getting "Unknown USB Device (Port Reset Failed) when I plug it in. Any suggestions on how to get this to work? Using Win11 right now - <br><br>Many thanks! <br>Adam N1AH<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8346">N1AH</a> — Mon Apr 14, 2025 1:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

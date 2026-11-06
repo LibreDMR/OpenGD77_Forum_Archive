@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3608" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-21T11:13:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3608</id>
+
+		<entry>
+		<author><name><![CDATA[F1UPC]]></name></author>
+		<updated>2023-12-21T11:13:43</updated>
+
+		<published>2023-12-21T11:13:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28213#p28213</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28213#p28213"/>
+		<title type="html"><![CDATA[Re: MD-9600 V2.1 settings lost]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28213#p28213"><![CDATA[
+Thank you a lot for your explanations ! I was switching power off without pushing the green button before. Now settings are saved ! <br>73's. Happy christmas !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3055">F1UPC</a> — Thu Dec 21, 2023 11:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-21T10:20:43</updated>
+
+		<published>2023-12-21T10:20:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28212#p28212</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28212#p28212"/>
+		<title type="html"><![CDATA[Re: MD-9600 V2.1 settings lost]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28212#p28212"><![CDATA[
+<blockquote class="uncited"><div>Hi!<br>I just bought a second hand MD-9600 V2.1 and i decided to install the latest 2023 12 12 firmware. All was ok and the radio works perfectly with my DM-1801/RD-5R/RT-3S codeplug ! Except my settings are lost each time i power cycle the radio. I tried the 2023 02 28 firmware as it is noticed that the settings are saved into flash memory, and this firmware works ! Why the latest don't save my settings ?<br>Thank you !! 73's.</div></blockquote>There have been no changes to the savings of settings in any recent version.<br><br>Try resetting your settings.<br><br>Also, make sure you press the power button to turn off the radio.<br><br>If you remove power from the radio, e.g. if it is powered from the ignition switch in a car, and the ignition is turned off, then the settings will not be saved, because the radio does not contain batteries to allow it to save and do an orderly shutdown if the power is removed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 21, 2023 10:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1UPC]]></name></author>
+		<updated>2023-12-21T09:47:34</updated>
+
+		<published>2023-12-21T09:47:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28210#p28210</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28210#p28210"/>
+		<title type="html"><![CDATA[MD-9600 V2.1 settings lost]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3608&amp;p=28210#p28210"><![CDATA[
+Hi!<br>I just bought a second hand MD-9600 V2.1 and i decided to install the latest 2023 12 12 firmware. All was ok and the radio works perfectly with my DM-1801/RD-5R/RT-3S codeplug ! Except my settings are lost each time i power cycle the radio. I tried the 2023 02 28 firmware as it is noticed that the settings are saved into flash memory, and this firmware works ! Why the latest don't save my settings ?<br>Thank you !! 73's.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3055">F1UPC</a> — Thu Dec 21, 2023 9:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

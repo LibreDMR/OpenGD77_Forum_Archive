@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2463" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-11-04T17:10:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2463</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-11-04T17:10:44</updated>
+
+		<published>2022-11-04T17:10:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20563#p20563</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20563#p20563"/>
+		<title type="html"><![CDATA[Re: RT-3S Zone, Scan list, Channels &amp; Frequency Range Questions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20563#p20563"><![CDATA[
+No, The hardware cannot do that.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Nov 04, 2022 5:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-27T16:44:44</updated>
+
+		<published>2022-10-27T16:44:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20418#p20418</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20418#p20418"/>
+		<title type="html"><![CDATA[Re: RT-3S Zone, Scan list, Channels &amp; Frequency Range Questions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20418#p20418"><![CDATA[
+The CPS and codeplug are the same for all of the supported radios.  <br><br> The RT3S and the MDUV380 are identical as far as we can tell so the choice comes down to availability and price. <br>As far as we know all versions of these radios will work. <br><br>There is some question regarding the compatibility of the  MDUV390 so it might be worth avoiding that for the moment.<br><br>To be honest, if you already have a GD77 then changing to an RT3S or MDUV380 won't gain you much. The performance is pretty much the same. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Oct 27, 2022 4:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[rgchristy]]></name></author>
+		<updated>2022-10-27T16:21:14</updated>
+
+		<published>2022-10-27T16:21:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20417#p20417</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20417#p20417"/>
+		<title type="html"><![CDATA[Re: RT-3S Zone, Scan list, Channels &amp; Frequency Range Questions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20417#p20417"><![CDATA[
+I just went through the CPS. I was confused because everything says GD-77. I noticed that you choose radio type for the RT-3S.<br><br>I was also able to confirm that there are 80 channels per zone max and that there are no scan lists.<br><br>Now that I think that my questions have been answered, which radio should I buy, the TYT or the Retevis?<br><br>Are there any things that I need to look out for such as, manufacturer's date, firmware numbers, hardware changes during production? I know that certain radios, even though they have the same model number, will not work with GD-77, but others do.<br><br>Thanks again,<br>Rich<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=659">rgchristy</a> — Thu Oct 27, 2022 4:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[rgchristy]]></name></author>
+		<updated>2022-10-27T16:07:13</updated>
+
+		<published>2022-10-27T16:07:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20416#p20416</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20416#p20416"/>
+		<title type="html"><![CDATA[Re: RT-3S Zone, Scan list, Channels &amp; Frequency Range Questions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20416#p20416"><![CDATA[
+Thanks for the info Colin.<br><br>My GD-77 receives up to 512 MHz better than any scanner that I own, so that should be good.<br><br>Could you please confirm the number of channels per zone, per scan list? Also, did you eliminate scan lists as was done in the GD-77?<br><br>Is the CPS the same for all supported radios? <br><br>Any display that is larger would be great.<br><br>Like I said in my previous message, I just don't want to buy another radio that is not able to do what I want it to do.<br><br>Thanks again,<br>Rich<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=659">rgchristy</a> — Thu Oct 27, 2022 4:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-27T15:45:28</updated>
+
+		<published>2022-10-27T15:45:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20415#p20415</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20415#p20415"/>
+		<title type="html"><![CDATA[Re: RT-3S Zone, Scan list, Channels &amp; Frequency Range Questions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20415#p20415"><![CDATA[
+The RT3S running the Open firmware behaves almost exactly the same as the GD77. So, if you have a GD77 running openGD77 you already know what it can do.   The only significant differences are that the RT3S does not support the 220MHz band, and the button layout is different. <br><br>Coverage extends to 564MHz although the performance above 470Mhz cannot be guaranteed as it is operating outside the manufacturers specifications.  <br><br>You say you want a radio with a colour display. The RT3S has a colour display but the open firmware does not use colours. So the display will look almost the same as the GD77, just a little larger. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Oct 27, 2022 3:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[rgchristy]]></name></author>
+		<updated>2022-10-27T12:29:58</updated>
+
+		<published>2022-10-27T12:29:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20412#p20412</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20412#p20412"/>
+		<title type="html"><![CDATA[Re: RT-3S Zone, Scan list, Channels &amp; Frequency Range Questions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20412#p20412"><![CDATA[
+On page 6 of the Retevis RT-3S user's manual it says:<br><br>"Zone Selection<br><br>Zones is a channel group. Each radio can set 250 zones and each zone with max 16 channels."<br><br>Page 45:<br><br>"Scaning List<br><br>Create a scan list and assign a single channel / talkgroup, your radio can support up to 250 scan lists, each up to 16 members."<br><br>I just remember that originally, the GD-77 had a slow scan speed, could only be programmed up to 470 or 480 MHz and could only assign 16 or 31 channels to a zone or scan list. Somewhere in the development process of updates, you and the other developers were able to make it so the GD-77 scanned at a faster rate, could assign more channels to a zone and could program the radio above 480 MHz. I also believe that you completely eliminated scan lists and that you now scan zones. <br><br>I'm looking for a radio that has a larger, color display, can be programmed up to 512 MHz RX and can scan at least 100 channels, either by zone or scan list. I would be happy with a scan rate of 20 channels per second.<br><br>I recently purchased a Wouxun KG-UVN1, which from the factory can RX up to 512 MHz. Unfortunately, I found out after I purchased the radio that it has a limit of 16 channels per zone and 31 channels per scan list. I'm trying not to repeat the same mistake twice with the RT-3S.<br><br>Also, I spoke with the tech people at Radioddity about the GD-88 and they told me that they will not be making any firmware modifications to their radio. Wouxun told me the same thing.<br><br>So, my question is, will the RT-3S, with the developer's modifications, be able to do what I need it to do (RX to 512 MHz, scan at least 100 channels either by zone or scan list) or should I be looking elsewhere? I love my GD-77 and what all of you have done to it, but I need a larger, color display.<br><br>After the research that I've done, if the RT-3S won't do this, my alternative is the Anytone AT-D878UV. Any other suggestions would be appreciated, as well.<br><br>Thanks to all of you for all that you do for the radio hobby.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=659">rgchristy</a> — Thu Oct 27, 2022 12:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-27T04:24:16</updated>
+
+		<published>2022-10-27T04:24:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20410#p20410</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20410#p20410"/>
+		<title type="html"><![CDATA[Re: RT-3S Zone, Scan list, Channels &amp; Frequency Range Questions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20410#p20410"><![CDATA[
+<blockquote class="uncited"><div>If I remember correctly, before OpenGD77, the GD-77 was limited to 16 or 31 channels per scan list and/or zone. Also, the frequency range was limited to either 470 or 480 MHz and the scan speed was slow. I believe that in stock form, the RT-3S has similar specs.<br><br>With the new development updates for the RT-3S, has there been an increase in the number of channels per zone and/or scan list? Any increase in the scan speed? Any change to the upper MHz limit to 512, RX only?<br><br>I read through the posts, but couldn't find any information on this. I realize that the development updates are for amateur use, but was wondering if any of these changes were made.<br><br>Thanks in advance for your help.</div></blockquote>Where did you get this incorrect information?<br><br>The number of channels per zone is 80<br><br>The scan speed is limited by the hardware, e.g. PLL lock time and low pas filter on the RSSI and also S/N values from the AT1846S TRx chip.<br>Depends on your definition of slow scanning speed. Its probably not as fast as a dedicated scanning receiver. But generally 20 channels per second is not seen to be particularly slow.<br><br>Likewise the AT1846S chip has a range of frequencies which it supports. This is a hardware limitation. The data sheet for the AT1846S specifies the max freq as 520Mhz but in practice most chips will operate up to around 560Mhz. It varies from radio to radio.<br><br>We do not check whether the AT1846S has achieved PLL lock, so attempting to operate outside the hardware's published range requires the operator to confirm their hardware will operate on those frequencies, and these are well outside the Ham bands.<br><br>The only supported radio which is radio which is different is the MD-9600 because it has completely different RF hardware, with a more limited frequency range but faster scanning.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 27, 2022 4:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[rgchristy]]></name></author>
+		<updated>2022-10-27T03:13:59</updated>
+
+		<published>2022-10-27T03:13:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20408#p20408</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20408#p20408"/>
+		<title type="html"><![CDATA[RT-3S Zone, Scan list, Channels &amp; Frequency Range Questions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2463&amp;p=20408#p20408"><![CDATA[
+If I remember correctly, before OpenGD77, the GD-77 was limited to 16 or 31 channels per scan list and/or zone. Also, the frequency range was limited to either 470 or 480 MHz and the scan speed was slow. I believe that in stock form, the RT-3S has similar specs.<br><br>With the new development updates for the RT-3S, has there been an increase in the number of channels per zone and/or scan list? Any increase in the scan speed? Any change to the upper MHz limit to 512, RX only?<br><br>I read through the posts, but couldn't find any information on this. I realize that the development updates are for amateur use, but was wondering if any of these changes were made.<br><br>Thanks in advance for your help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=659">rgchristy</a> — Thu Oct 27, 2022 3:13 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

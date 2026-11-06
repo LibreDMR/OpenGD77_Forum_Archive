@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4295" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-03T06:14:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4295</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-03T06:14:35</updated>
+
+		<published>2024-08-03T06:14:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4295&amp;p=32393#p32393</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4295&amp;p=32393#p32393"/>
+		<title type="html"><![CDATA[Release Candidate 2 Version 2024 08 03]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4295&amp;p=32393#p32393"><![CDATA[
+A new Release Candidate version is now available for the TYT MD-9600 / Retevis RT-90<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/44be916f1416cf4f483a6ccabade4a36e505b3cd" class="postlink">downloads/MD9600/Firmware/44be916f1416c ... 36e505b3cd</a><br><br>This version fixes a small bug where VOX starts to trigger the radio to transmit even if the channel is set to Read only.<br>Thanks to Daniel F1RMB for fixing this bug<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Aug 03, 2024 6:14 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

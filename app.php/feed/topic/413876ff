@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4138" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-09T19:47:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4138</id>
+
+		<entry>
+		<author><name><![CDATA[iw6dry]]></name></author>
+		<updated>2024-06-09T19:47:34</updated>
+
+		<published>2024-06-09T19:47:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4138&amp;p=31618#p31618</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4138&amp;p=31618#p31618"/>
+		<title type="html"><![CDATA[Beacon APRS Distorted]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4138&amp;p=31618#p31618"><![CDATA[
+Hi everyone.<br>Is it possible to adjust the audio of the APRS beacon??<br><br>In some modems, the signal is distorted and the beacon is not decoded.<br><br>Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4240">iw6dry</a> — Sun Jun 09, 2024 7:47 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

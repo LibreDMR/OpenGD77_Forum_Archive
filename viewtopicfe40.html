@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=5001&start=20&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 04:09:36 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23 - Page 3</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h2>
+		<p><a href="viewtopic9b80.html?f=19&amp;t=5001">viewtopic.php?f=19&amp;t=5001</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>3</strong> of <strong>5</strong></div>
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Sun Apr 13, 2025 7:20 pm</strong></div>
+				<div class="author">by <strong>SQ9KCU</strong></div>
+				<div class="content">Hello.<br>
+<br>
+The problem is probably in the generation of additional sounds by the processor.<br>
+After changing sound options&gt;prompt&gt; to Silent, the problem of no or bad sound has not occurred for 2 hours. <br>
+I tested with heavy DMR traffic.<br>
+Previously, reception blocked every 15-20 minutes and a short press of PTT helped. <br>
+Radio RT3s + firmware 20250323054626.<br>
+'73<br>
+SP9KCU<br>
+--<br>
+old callsign SQ9KCU</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Wed Apr 16, 2025 12:28 am</strong></div>
+				<div class="author">by <strong>VK6XR</strong></div>
+				<div class="content">Doing this config change to mmdvmhost helped me (helicoptering and silent talkers).  I'm using WPSD with a MMDVM_HS_Dual_Hat (GPIO) with firmware 1.6.1.  Handheld is a RT3S (TYT CPU) on firmware 20250207164521<br>
+<br>
+[Modem]<br>
+DMRTXLevel=55<br>
+<br>
+[DMR]<br>
+CallHang=0<br>
+TXHang=6<br>
+<br>
+Just wondering if others notice an improvement with this?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Tue May 27, 2025 10:11 pm</strong></div>
+				<div class="author">by <strong>EA4IAU</strong></div>
+				<div class="content">Hello everyone.<br>
+<br>
+I don't know if this is the "official" thread for discussing the "helicoptering and Silent DMR" issue or if I should post in some other thread. (I can repost there).<br>
+<br>
+I've tried configuring my hotspot as described in the last post, and it did not work. I didn't get to install the test firmware so my DM1701 runs the latest stable.<br>
+<br>
+What it DID work regarding "Silent DMR", was to set Options &gt; Sound Options &gt; Prompt to "Beep".<br>
+Moreover, by setting it up to "Silent" it made the problem WAY worse. So much so that not even PPTing or opening the squelch via SK2-hold would do nothing to the sound.<br>
+<br>
+It did nothing for the "helicoptering DMR" though. I still have the issue in which the first frame of the transmission gets repeated like "rRRRRRRR". PTTing or opening the squelch takes it out of that hiccup. I'd understand that the two issues have different causes.<br>
+<br>
+Is there any test I can do? Is there a git repository that I can clone and compile to help make tests?<br>
+<br>
+73</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Wed May 28, 2025 7:19 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6012&amp;sid=55e393b30eaf9a4ffed49bf11cef1d72">EA4IAU</a> wrote: <a href="viewtopic5a00-2.html?p=37248&amp;sid=55e393b30eaf9a4ffed49bf11cef1d72#p37248" data-post-id="37248" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Tue May 27, 2025 10:11 pm</div></cite>
+Hello everyone.<br>
+<br>
+I don't know if this is the "official" thread for discussing the "helicoptering and Silent DMR" issue or if I should post in some other thread. (I can repost there).<br>
+<br>
+I've tried configuring my hotspot as described in the last post, and it did not work. I didn't get to install the test firmware so my DM1701 runs the latest stable.<br>
+<br>
+What it DID work regarding "Silent DMR", was to set Options &gt; Sound Options &gt; Prompt to "Beep".<br>
+Moreover, by setting it up to "Silent" it made the problem WAY worse. So much so that not even PPTing or opening the squelch via SK2-hold would do nothing to the sound.<br>
+<br>
+It did nothing for the "helicoptering DMR" though. I still have the issue in which the first frame of the transmission gets repeated like "rRRRRRRR". PTTing or opening the squelch takes it out of that hiccup. I'd understand that the two issues have different causes.<br>
+<br>
+Is there any test I can do? Is there a git repository that I can clone and compile to help make tests?<br>
+<br>
+73
+</div></blockquote>
+
+<a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4374" class="postlink">viewtopic.php?f=19&amp;t=4374</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Wed May 28, 2025 2:25 pm</strong></div>
+				<div class="author">by <strong>SP5AH</strong></div>
+				<div class="content">Last stable version is propably from 15.12.2024 in this thread: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Sat Jun 28, 2025 6:15 pm</strong></div>
+				<div class="author">by <strong>kf4hzu</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=8453&amp;sid=55e393b30eaf9a4ffed49bf11cef1d72">VK6XR</a> wrote: <a href="viewtopicce1c-2.html?p=36770&amp;sid=55e393b30eaf9a4ffed49bf11cef1d72#p36770" data-post-id="36770" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Wed Apr 16, 2025 12:28 am</div></cite>
+[DMR]<br>
+CallHang=0<br>
+TXHang=6<br>
+<br>
+Just wondering if others notice an improvement with this?
+</div></blockquote>
+
+I tried just changing CallHang to zero and it did seem to improve the muted reception issue slightly, but not eliminate it. The other settings didn't change anything.<br>
+<br>
+As a note, I've always had the muted reception issue and figured it was just an issue with the hardware (which maybe it is). Nice to know it is being worked on and hopefully a fix will be found. I'd be happy to provide more data/information to help the troubleshooting process.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Mon Jun 30, 2025 5:45 pm</strong></div>
+				<div class="author">by <strong>W1DSL</strong></div>
+				<div class="content">Willl the DM-1701 firmware work on the DM 1701-A ?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Mon Jun 30, 2025 5:47 pm</strong></div>
+				<div class="author">by <strong>MELERIX</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=5958&amp;sid=55e393b30eaf9a4ffed49bf11cef1d72">W1DSL</a> wrote: <a href="viewtopicbdef.html?p=37606&amp;sid=55e393b30eaf9a4ffed49bf11cef1d72#p37606" data-post-id="37606" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Jun 30, 2025 5:45 pm</div></cite>
+Willl the DM-1701 firmware work on the DM 1701-A ?
+</div></blockquote>
+
+yes.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Mon Jun 30, 2025 6:24 pm</strong></div>
+				<div class="author">by <strong>W1DSL</strong></div>
+				<div class="content">thank you</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-UV380/RT-3S/DM-1701/RT-84 Test version 2025 03 23</h3>
+				<div class="date">Posted: <strong>Mon Jul 07, 2025 10:18 pm</strong></div>
+				<div class="author">by <strong>EA4IAU</strong></div>
+				<div class="content">Hello everyone<br>
+<br>
+(I know i was instructed to post things about the silent DMR and helicoptering issues on the stable release thread, but it felt odd to get in too much detail on that thread)<br>
+<br>
+I’ve spent some weeks trying out stuff to see if I could just get my DM1701 to work reliably again. (I am referring to the mute DMR issue and the helicoptering issue).<br>
+<br>
+I’m going to list a couple of things that didn’t work, one thing that DID work, and a thing that was just… weird.<br>
+<br>
+What didn’t work:
+<ul><li>Changing the Eco level</li></ul>
+<ul><li>Setting the beep options to prompt, no keys or silent. DIdn’t matter</li></ul>
+<ul><li>Choosing a wider Offset between RX and TX frequency in my duplex hotspot. …Nope.</li></ul>
+
+What DID work:<br>
+<strong class="text-strong">Setting the hotspot to SIMPLEX</strong><br>
+<br>
+I have been using my hotspot in simplex mode, TXing with 50mW and getting transmissions back, complete, with no audio glitches whatsoever.<br>
+<br>
+Here is, however, a thing that is very weird, that you can repeatably do (I did it with my hotspot buy I assume it can be done with 2 radios):
+<ul><li>Set TS1 of your hotspot to a TG that is very busy</li></ul>
+<ul><li>Set the radio to TS filter OFF, but select the TS2, using the asterisk key</li></ul>
+<ul><li>Wait for someone to talk in that busy TG, which will make the radio play the TS1 transmission, despite being set to TS2</li></ul>
+<ul><li>Now <strong class="text-strong">change to TS1 by pressing asterisk</strong>. The radio will go completely silent despite being set to the correct TS</li></ul>
+<ul><li>Change back to TS2, the radio will talk again. It can also happen that it will become silent, somewhat replicating the issue</li></ul>
+
+Whatever this issue is, it’s rooted in the way OpenGD77 handles incoming transmissions when there is timeslot information, and it’s somehow worsened if TS filter is off.<br>
+<br>
+Haven’t gone around inspecting the code to try to be more helpful yet. If I manage to make sense of it and get a clue on what could be happening, I will be posting here.</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>3</strong> of <strong>5</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=5001&start=20&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 04:09:40 GMT -->
+</html>

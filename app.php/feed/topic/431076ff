@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4310" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-06T03:29:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4310</id>
+
+		<entry>
+		<author><name><![CDATA[NV2M]]></name></author>
+		<updated>2025-04-06T03:29:59</updated>
+
+		<published>2025-04-06T03:29:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36611#p36611</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36611#p36611"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36611#p36611"><![CDATA[
+Thanks for the verification. I ran through the upgrade as well and seemed to work. Thanks again.<br>I think the only thing I can note is that I believe the radio CP version as delivered was 1.06, and after using this firmware it was 1.05, but don't know if that's accurate or if it matters. At least in my case the radio seems to work fine.<br><br>But then I re-flahsed it with openGD77, so now I have a new toy to play with.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7956">NV2M</a> — Sun Apr 06, 2025 3:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-05T03:08:12</updated>
+
+		<published>2025-04-05T03:08:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36602#p36602</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36602#p36602"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36602#p36602"><![CDATA[
+the firmware in Github is ok, I've used it few days ago without issues to revert a DM-1701 to original firmware in order to check the original calibration values and to align the radio using a SDR, and then returned back to OpenGD77 without issues.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sat Apr 05, 2025 3:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NV2M]]></name></author>
+		<updated>2025-04-05T02:41:40</updated>
+
+		<published>2025-04-05T02:41:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36601#p36601</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36601#p36601"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36601#p36601"><![CDATA[
+I have the same issue, aliexpress DM-1701 with V002.006.<br><br>has anyone been brave enough to try the github firmware from daniel5600?<br><br>I didn't see any other update in the other referenced thread <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4662&amp;start=20" class="postlink">viewtopic.php?f=19&amp;t=4662&amp;start=20</a><br><br>I'm looking to update my 1701 to openGD77 but would like to have a working original firmware to revert back to.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7956">NV2M</a> — Sat Apr 05, 2025 2:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PR7LDR]]></name></author>
+		<updated>2025-02-28T23:12:00</updated>
+
+		<published>2025-02-28T23:12:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36016#p36016</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36016#p36016"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=36016#p36016"><![CDATA[
+I found the latest firmware for DM-1701. The maintainer claims it to be v2.06. I could not verify this information.<br><br><a href="https://github.com/daniel5600/BAOFENG-DM1701-Original-Firmware" class="postlink">https://github.com/daniel5600/BAOFENG-D ... l-Firmware</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4969">PR7LDR</a> — Fri Feb 28, 2025 11:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[T6YA]]></name></author>
+		<updated>2025-01-11T11:02:21</updated>
+
+		<published>2025-01-11T11:02:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35104#p35104</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35104#p35104"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35104#p35104"><![CDATA[
+Oh, sorry<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7660">T6YA</a> — Sat Jan 11, 2025 11:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-11T10:28:31</updated>
+
+		<published>2025-01-11T10:28:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35103#p35103</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35103#p35103"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35103#p35103"><![CDATA[
+<blockquote class="uncited"><div>Hello sir.<br>Do you have the latest update firmware Motorola DP2400e?<br>I really need it</div></blockquote>You're on the wrong forum.<br>Here you can only find manufacturers' firmwares for transceivers supported by OpenGD77 (and there are exceptions).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jan 11, 2025 10:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[T6YA]]></name></author>
+		<updated>2025-01-11T08:13:42</updated>
+
+		<published>2025-01-11T08:13:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35102#p35102</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35102#p35102"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35102#p35102"><![CDATA[
+Hello sir.<br>Do you have the latest update firmware Motorola DP2400e?<br>I really need it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7660">T6YA</a> — Sat Jan 11, 2025 8:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-07T21:23:50</updated>
+
+		<published>2025-01-07T21:23:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35050#p35050</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35050#p35050"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35050#p35050"><![CDATA[
+<blockquote class="uncited"><div>Good link, thank you.<br><br>I probably will never revert, once I upgrade to OpenGD77 later today, but I like to archive the resources for the future.</div></blockquote>OK<br><br>Same here. The only reason I would revert, would just be to test something in the official firmware. I'm never going to use it for normal operation<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 07, 2025 9:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-07T20:57:10</updated>
+
+		<published>2025-01-07T20:57:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35049#p35049</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35049#p35049"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35049#p35049"><![CDATA[
+Good link, thank you.<br><br>I probably will never revert, once I upgrade to OpenGD77 later today, but I like to archive the resources for the future.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jan 07, 2025 8:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-07T20:49:17</updated>
+
+		<published>2025-01-07T20:49:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35048#p35048</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35048#p35048"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35048#p35048"><![CDATA[
+<blockquote class="uncited"><div>Please provide your link to the FW here, too.</div></blockquote>The link in my post on <strong class="text-strong">this </strong>page still works<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4310#p32436" class="postlink">viewtopic.php?f=19&amp;t=4310#p32436</a><br><br>It contains firmware. However I never tested reverting to the official firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 07, 2025 8:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-07T20:32:11</updated>
+
+		<published>2025-01-07T20:32:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35047#p35047</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35047#p35047"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35047#p35047"><![CDATA[
+Please provide your link to the FW here, too.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jan 07, 2025 8:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-07T19:03:55</updated>
+
+		<published>2025-01-07T19:03:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35043#p35043</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35043#p35043"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35043#p35043"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Anybody an idea where to get the V02.06 from the AliExpress DM-1701 Radios???</div></blockquote>I just acquired a DM-1701 from AliExpress yesterday.<br><br>You download the CPS software and FW from Radioddity here:<br><br><a href="https://www.radioddity.com/pages/baofeng-download" class="postlink">https://www.radioddity.com/pages/baofeng-download</a><br><br>And Radioddity's link to their Guide to Firmware update is broken and when I get the proper link from their Customer Support I will provide it in this thread:<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4662&amp;p=35026#p35026" class="postlink">viewtopic.php?f=19&amp;t=4662&amp;p=35026#p35026</a></div></blockquote>No firmware , only CPS in that zip file on <a href="https://www.radioddity.com/pages/baofeng-download" class="postlink">https://www.radioddity.com/pages/baofeng-download</a>.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jan 07, 2025 7:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-07T18:54:42</updated>
+
+		<published>2025-01-07T18:54:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35041#p35041</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35041#p35041"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=35041#p35041"><![CDATA[
+<blockquote class="uncited"><div>Anybody an idea where to get the V02.06 from the AliExpress DM-1701 Radios???</div></blockquote>I just acquired a DM-1701 from AliExpress yesterday.<br><br>You download the CPS software and FW from Radioddity here:<br><br><a href="https://www.radioddity.com/pages/baofeng-download" class="postlink">https://www.radioddity.com/pages/baofeng-download</a><br><br>And Radioddity's link to their Guide to Firmware update is broken and when I get the proper link from their Customer Support I will provide it in this thread:<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4662&amp;p=35026#p35026" class="postlink">viewtopic.php?f=19&amp;t=4662&amp;p=35026#p35026</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jan 07, 2025 6:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC7SU]]></name></author>
+		<updated>2024-12-18T15:44:56</updated>
+
+		<published>2024-12-18T15:44:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=34772#p34772</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=34772#p34772"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=34772#p34772"><![CDATA[
+Anybody an idea where to get the V02.06 from the AliExpress DM-1701 Radios???<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7108">DC7SU</a> — Wed Dec 18, 2024 3:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-09T06:17:42</updated>
+
+		<published>2024-08-09T06:17:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4310&amp;p=32436#p32436</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=32436#p32436"/>
+		<title type="html"><![CDATA[Re: Restore Original Firmware on Baofeng DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4310&amp;p=32436#p32436"><![CDATA[
+Looking at the links in the text of the 2nd video, the official baofeng firmware can be found here<br><br><a href="https://dm-1701.s3.amazonaws.com/DM-1701%20CPS%201.05%20__%20FW%20V02.03.zip" class="postlink">https://dm-1701.s3.amazonaws.com/DM-170 ... V02.03.zip</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 09, 2024 6:17 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

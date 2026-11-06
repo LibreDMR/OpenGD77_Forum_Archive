@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4982" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-25T19:00:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4982</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-25T19:00:43</updated>
+
+		<published>2025-04-25T19:00:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36903#p36903</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36903#p36903"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36903#p36903"><![CDATA[
+<blockquote class="uncited"><div>OK.<br>I deinstalled driver supplied in cps package, then I was able to return to core protection switched on. Downloaded driver from <a href="downloads/drivers/Dfuse_3.0.6_drivers.zip." class="postlink">downloads/drivers/Dfuse_3.0.6_drivers.zip.</a>. It is released by stm and signed. Installed driver from win10 directory - dpinst_amd64.exe - this file size is larger than this from cps package. Radio is visible as STM Device in DFU Mode and CPS works.<br>Thanks a lot for advice.<br>I wanna play for a while with standard firmware, but most probably I will go for opengd77 which I've been using for a long time in my radiodditty GD77.</div></blockquote>The drivers in the zip file is extracted from the last official STM Dfuse package:<br><br><a href="https://www.st.com/en/development-tools/stsw-stm32080.html#get-software" class="postlink">https://www.st.com/en/development-tools ... t-software</a><br><br>STM recommends developers to move over to STM32CubeProg but those drivers are not compatible with the CPS programs for these radios.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Apr 25, 2025 7:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sp5iou]]></name></author>
+		<updated>2025-04-25T17:43:21</updated>
+
+		<published>2025-04-25T17:43:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36902#p36902</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36902#p36902"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36902#p36902"><![CDATA[
+OK.<br>I deinstalled driver supplied in cps package, then I was able to return to core protection switched on. Downloaded driver from <a href="downloads/drivers/Dfuse_3.0.6_drivers.zip." class="postlink">downloads/drivers/Dfuse_3.0.6_drivers.zip.</a>. It is released by stm and signed. Installed driver from win10 directory - dpinst_amd64.exe - this file size is larger than this from cps package. Radio is visible as STM Device in DFU Mode and CPS works.<br>Thanks a lot for advice.<br>I wanna play for a while with standard firmware, but most probably I will go for opengd77 which I've been using for a long time in my radiodditty GD77.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=797">sp5iou</a> — Fri Apr 25, 2025 5:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sp5iou]]></name></author>
+		<updated>2025-04-25T17:23:25</updated>
+
+		<published>2025-04-25T17:23:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36900#p36900</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36900#p36900"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36900#p36900"><![CDATA[
+It seems, that drivers supplied with cps package are denied by win11.<br>I had to disable core isolation to make this driver to work, then I was able to read and writ code plug from / to DM1701.<br>But now my win11 is not properly secured. I tried switch core isolation back, but win11 refused communicating that I have first to solve problems with some installed drivers. Perhaps it is STTub30.sys<br>I do not like such situation, so I have to find legal driver, accepted by win11 security system and working with radio. Maybe something directly from STM??<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=797">sp5iou</a> — Fri Apr 25, 2025 5:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-25T15:00:06</updated>
+
+		<published>2025-04-25T15:00:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36898#p36898</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36898#p36898"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36898#p36898"><![CDATA[
+<blockquote class="uncited"><div>OK. Now it works. Simply switching off security settings have not been stored, but now there are active.<br>Now radio is recognized as "<strong class="text-strong">STM Device in DFU mode</strong>" and CPS is able to read and write data.<br>I wonder if I return security to recommended state and then to automatic driver installations it should still work.<br><br>Thank You so much.</div></blockquote><br>Update, I did not read the last update when I wrote this below . <br>But I still wonder what will happen in the long run as the support for the old DFU driver will be more and troublesome. <br><br>Did you install from the Windows 10 driver in <a href="https://www.opengd77.com/downloads/drivers/Dfuse_3.0.6_drivers.zip" class="postlink">downloads/drivers/Dfuse_3.0.6_drivers.zip</a>.<br>?<br><br>Is it 3.0.6 in properties on the driver? <br><br>Haven't seen such problem before but I guess we will get more and more problems with the DFU driver as STM doesn't maintain it anymore. <br><br>Seems that someone has to investigate how to use the revised STM driver in the CPS code or otherwise we are in trouble as Windows is "evolving"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Apr 25, 2025 3:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sp5iou]]></name></author>
+		<updated>2025-04-25T14:30:52</updated>
+
+		<published>2025-04-25T14:30:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36897#p36897</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36897#p36897"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36897#p36897"><![CDATA[
+OK. Now it works. Simply switching off security settings have not been stored, but now there are active.<br>Now radio is recognized as "<strong class="text-strong">STM Device in DFU mode</strong>" and CPS is able to read and write data.<br>I wonder if I return security to recommended state and then to automatic driver installations it should still work.<br><br>Thank You so much.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=797">sp5iou</a> — Fri Apr 25, 2025 2:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sp5iou]]></name></author>
+		<updated>2025-04-25T12:01:06</updated>
+
+		<published>2025-04-25T12:01:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36896#p36896</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36896#p36896"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36896#p36896"><![CDATA[
+Thank You.<br>I switched off automatic update / installation, deleted device, but it was impossible to remove it completely. Then I run dpinst_amd64.exe.<br>Now radio is visible as STM Device in DFU mode, but with "I" mark. When I connect radio with cable, I see message: Driver: STTub30.sys. Security protection disables this driver load. Have to adjust settings to load this driver.<br><br>I switched off core protection, byt id didn't help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=797">sp5iou</a> — Fri Apr 25, 2025 12:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-25T08:06:54</updated>
+
+		<published>2025-04-25T08:06:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36895#p36895</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36895#p36895"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36895#p36895"><![CDATA[
+<blockquote class="uncited"><div>Hello.<br>I have same / similar problem with newly purchased Baofeng DM1701.<br>Firmware version V002.006, CPS V01.05.<br>It came with programming cable.<br>CPS 1.05 doesn't see radio, radio is visible in Device Manager as Digital Radio in USB mode.<br>I tried to install usb driver dpinst_amd64.exe, but it didn't change anything.<br>I tried on two laptops. One with Win11 and second with Win10 - same behavior.<br><br>Is it common problem with DM1701 or just my radio is broken and I should return it and order another one from different shop?<br>I'd like to stay with factory firmware, but I need to enter my DMR ID number, which I could do only using CPS.<br>Radio is operational. I configured, using manu digital channel to work with my hotspot. I hear stations, but not able to transmit without DMR ID entered.<br><br>Pls help.</div></blockquote>Uninstall the "Digital Radio in USB mode" device  via the device manager, I suggest that you also tick the "Delete the driver software for this device".<br><br>Problem is that "Digital Radio in USB mode" driver match the same USB device id and outranks the older STM DFU driver.<br><br>On my Windows 11 laptop I have also disabled automatic driver update as Windows could reinstall the unwanted driver via Windows Update.<br><a href="https://pureinfotech.com/disable-automatic-driver-install-windows-11/" class="postlink">https://pureinfotech.com/disable-automa ... indows-11/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Apr 25, 2025 8:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sp5iou]]></name></author>
+		<updated>2025-04-25T07:25:19</updated>
+
+		<published>2025-04-25T07:25:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36894#p36894</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36894#p36894"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36894#p36894"><![CDATA[
+Hello.<br>I have same / similar problem with newly purchased Baofeng DM1701.<br>Firmware version V002.006, CPS V01.05.<br>It came with programming cable.<br>CPS 1.05 doesn't see radio, radio is visible in Device Manager as Digital Radio in USB mode.<br>I tried to install usb driver dpinst_amd64.exe, but it didn't change anything.<br>I tried on two laptops. One with Win11 and second with Win10 - same behavior.<br><br>Is it common problem with DM1701 or just my radio is broken and I should return it and order another one from different shop?<br>I'd like to stay with factory firmware, but I need to enter my DMR ID number, which I could do only using CPS.<br>Radio is operational. I configured, using manu digital channel to work with my hotspot. I hear stations, but not able to transmit without DMR ID entered.<br><br>Pls help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=797">sp5iou</a> — Fri Apr 25, 2025 7:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-23T23:42:43</updated>
+
+		<published>2025-03-23T23:42:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36398#p36398</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36398#p36398"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36398#p36398"><![CDATA[
+<blockquote class="uncited"><div>hi, got the soft uploaded now, thanks for the tips.<br>the next part is a mess to understand:<br><br>The official codeplug used by the radio is not supported. You must make a new codeplug using the OpenGD77 CPS, or use an existing GD77 codeplug<br><br>where is the codeplug and how do you upload this ?</div></blockquote>You can go to the codeplug section of this forum and use one that suite you.<br>Or, using OpenGD77 CPS to create one.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Mar 23, 2025 11:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1cym]]></name></author>
+		<updated>2025-03-23T19:50:50</updated>
+
+		<published>2025-03-23T19:50:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36394#p36394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36394#p36394"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36394#p36394"><![CDATA[
+hi, got the soft uploaded now, thanks for the tips.<br>the next part is a mess to understand:<br><br>The official codeplug used by the radio is not supported. You must make a new codeplug using the OpenGD77 CPS, or use an existing GD77 codeplug<br><br>where is the codeplug and how do you upload this ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8043">oh1cym</a> — Sun Mar 23, 2025 7:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-03-23T09:04:54</updated>
+
+		<published>2025-03-23T09:04:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36386#p36386</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36386#p36386"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36386#p36386"><![CDATA[
+Donor software:<br><br><a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br><br>Unzip the donor file and use MD9600-CSV(2571V5)-V26.45.bin as donor file<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2889&amp;sid=9205cb999254033d6f5de555274a9402" class="postimage" alt="Donor_Software.JPG" onclick="viewableArea(this);" /></dt></dl></div>You should not unzip OpenDM1701.zip<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Mar 23, 2025 9:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-23T08:18:36</updated>
+
+		<published>2025-03-23T08:18:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36385#p36385</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36385#p36385"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36385#p36385"><![CDATA[
+<blockquote class="uncited"><div>as proof</div></blockquote>This is <strong class="text-strong">NOT</strong> the donor file.<br>You <strong class="text-strong">MUST</strong> select the donor file first, at least once, to make the upload firmware button active, to be able to select the firmware zip file.<br><br><span style="text-decoration:underline">Please, read carefully the flashing procedure.</span><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 23, 2025 8:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1cym]]></name></author>
+		<updated>2025-03-23T07:39:08</updated>
+
+		<published>2025-03-23T07:39:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36383#p36383</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36383#p36383"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36383#p36383"><![CDATA[
+as proof<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2888&amp;sid=9205cb999254033d6f5de555274a9402" class="postimage" alt="Screenshot_2.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8043">oh1cym</a> — Sun Mar 23, 2025 7:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1cym]]></name></author>
+		<updated>2025-03-23T07:17:07</updated>
+
+		<published>2025-03-23T07:17:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36381#p36381</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36381#p36381"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36381#p36381"><![CDATA[
+Yes I have the file download. Package extracted and 1701 ... Bin and language files. But it won't give the option to select the file.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8043">oh1cym</a> — Sun Mar 23, 2025 7:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-22T23:44:31</updated>
+
+		<published>2025-03-22T23:44:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36358#p36358</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36358#p36358"/>
+		<title type="html"><![CDATA[Re: Com port failure 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4982&amp;p=36358#p36358"><![CDATA[
+<blockquote class="uncited"><div>trying to upload the file but there is a problem it is not showing the document or file to upload. <br>seems to be stuck on another model.</div></blockquote>You have not downloaded the 'Donor' file.<br><br>Read the installation instructions, which includes links<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 22, 2025 11:44 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

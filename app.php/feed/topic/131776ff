@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1317" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2020-10-14T03:17:09</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1317</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2020-10-14T03:17:09</updated>
+
+		<published>2020-10-14T03:17:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1317&amp;p=11632#p11632</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1317&amp;p=11632#p11632"/>
+		<title type="html"><![CDATA[FEATURES NOT SUPPORTED - Please read before posting about features]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1317&amp;p=11632#p11632"><![CDATA[
+As there are often requests for things which are technically impossible, or will not be implemented for legal or other reasons. I'm listing answers to common questions about functionality here<br><ul><li>Encryption<br>Encryption is illegal for Amateur Radio in most countries, and will therefore not be included as part of the OpenGD77 firmware.<br>It should also be noted. That in Australia a law was passed last year, which requires me to add a secret back door to any encryption functions I write, ( if the government requests this). I its also illegal to tell anyone about any backdoors which have been added. <br>This effectively means that no Australian developers can write encryption software, as it can't be treated as secure.</li><li>More power levels and power levels below 50mW<br>Because the calibration data only contains 2 data points for power. Low power (1W) and High power (5W), its not technically possible to control the power level accurately outside this power range.<br>Power output will only be vaguely accurate if operators calibrate their own radios, and calibration is required for every 5Mhz section of the 70cm band, and the 2m band requires calibration for below 145MHz and above 145Mhz<br><br>The power levels below 1W are an approximation, and are only accurate to around 20%, due to significant variation in the overall PA gain between different radios of the same type.<br><br>The power output is also highly dependant upon the batter voltage.<br><br>Also below 50mW the output signal starts to generate spurious emissions, because 50mW is close to the excitation threshold of the PA section.</li><li> Other digital modes, e.g DStar, YSF, P25 etc.<br>None of these other modes are currently possible, because the DMR chip does not appear to allow access to the raw decoded 4FSK data.<br>Its possible the DMR chip (C6000) has ways to access this data, but its not in the data sheets we have managed to acquire.<br>And the company who makes the chip does not publicly release data sheets or application notes.</li><li>Dual Watch<br>The radio only has one receiver chip, any Dual Watch function requires the radio to constantly switch between 2 different frequencies.<br><br>This has been partially superseded by the Zone scan feature,and the TS filter disabling.<br><br>VFO mode now has a form of Dual Watch</li><li>SMS<br>This is technically possible. However the SMS standard is proprietary and undocumented. So unless someone can supply details of how SMS messages are encoded for transmission as DMR data, this function is not likely to be added.</li><li>Dual Capacity Direct Mode (DCDM)<br>This is technically possible, because the official firmware supports it. <br>However DCDM is patented by Motorola, so it could not legally be put into the firmware.</li><li>Single Frequency Repeater / aka Store and Forward Repeater<br>The GD77 transceiver chip can't switch between Tx and Rx for this to be possible.</li><li>Full duplex repeater using 2 GD-77 connected to PiStar<br>This is not technically possible, because :<br><br>1. Its not possible to control the timing of the 2 radios to the necessary precision via the USB connection<br>2. MMDVMHost at the core of PiStar does not support this type of configuration.</li></ul>This is my no means a complete list, and I will update it when I have more time<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 14, 2020 3:17 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

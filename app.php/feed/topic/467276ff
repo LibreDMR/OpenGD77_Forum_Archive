@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4672" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-16T22:04:10</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4672</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-16T22:04:10</updated>
+
+		<published>2024-12-16T22:04:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34725#p34725</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34725#p34725"/>
+		<title type="html"><![CDATA[Re: Updated Localisation files 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34725#p34725"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger.<br>No need to apologize, I understand that what you are doing is really a huge job.<br>Thanks for your tireless work!<br><br>73 best regards de Fabio IZ2EIB.</div></blockquote>Yes.<br><br>Maintaining the project takes a huge amount of time.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 16, 2024 10:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-12-16T19:34:44</updated>
+
+		<published>2024-12-16T19:34:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34724#p34724</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34724#p34724"/>
+		<title type="html"><![CDATA[Re: Updated Localisation files 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34724#p34724"><![CDATA[
+Hi Roger.<br>No need to apologize, I understand that what you are doing is really a huge job.<br>Thanks for your tireless work!<br><br>73 best regards de Fabio IZ2EIB.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Mon Dec 16, 2024 7:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-15T20:44:23</updated>
+
+		<published>2024-12-15T20:44:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34694#p34694</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34694#p34694"/>
+		<title type="html"><![CDATA[Re: Updated Localisation files 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34694#p34694"><![CDATA[
+Thanks Fabio and Daniel.<br><br>All localisation files have now been updated including the CPS xml and this latest change to the voice prompts.<br><br>I've also rebuilt the voice prompts to include this change and uploaded the new .vpr files<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 15, 2024 8:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-15T19:08:26</updated>
+
+		<published>2024-12-15T19:08:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34690#p34690</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34690#p34690"/>
+		<title type="html"><![CDATA[Re: Updated Localisation files 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34690#p34690"><![CDATA[
+<blockquote class="uncited"><div>Hi Daniel, sorry for the trouble, I had rewritten the file linked here:<br><a href="https://www.opengd77.com/downloads/localisation/CPS/Italian.xml" class="postlink">downloads/localisation/CPS/Italian.xml</a><br>Anyway here is the correct one extrapolated from the current CPS_R2024.12.10.0.<br>Italian.xml.zip<br>My apologies and many, many thanks for your hard work!<br><br>73 best regards de Fabio IZ2EIB.</div></blockquote>Also my apologies.<br><br>There are many different files I need to copy , and I only copied the voice prompt VPR ,  and text .h and word list files. I didn't remember the CPS XML files had also changed.<br><br>I will copy all the updated CPS XML to this server today<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 15, 2024 7:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-12-15T18:31:39</updated>
+
+		<published>2024-12-15T18:31:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34689#p34689</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34689#p34689"/>
+		<title type="html"><![CDATA[Re: Updated Localisation files 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34689#p34689"><![CDATA[
+Hi Daniel, sorry for the trouble, I had rewritten the file linked here:<br><a href="https://www.opengd77.com/downloads/localisation/CPS/Italian.xml" class="postlink">downloads/localisation/CPS/Italian.xml</a><br>Anyway here is the correct one extrapolated from the current CPS_R2024.12.10.0.<div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2781&amp;sid=ad68db9c956bab38e47c661f4ea12cd8">Italian.xml.zip</a></dt></dl></div>My apologies and many, many thanks for your hard work!<br><br>73 best regards de Fabio IZ2EIB.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Sun Dec 15, 2024 6:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-15T15:49:44</updated>
+
+		<published>2024-12-15T15:49:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34686#p34686</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34686#p34686"/>
+		<title type="html"><![CDATA[Re: Updated Localisation files 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34686#p34686"><![CDATA[
+<blockquote class="uncited"><div>HI Roger, Daniel, Colin and all the people involved in the OpenGD77 project.<br>Thanks to all of you for your tireless work!<br>Here are the new updated 15/12/2024 <strong class="text-strong">italian.h</strong>, <strong class="text-strong">wordlist_italian.csv</strong> and <strong class="text-strong">Italian.xml</strong>:<br>NEW_15122024_italian.h + wordlist_italian.csv + Italian.xml.zip<br><br><br>73 best regards de Fabio IZ2EIB.</div></blockquote>Thanks Fabio.<br><br>Your Italian.xml is really outdated, I suggest you to grab the latest one in the installation sub-directory.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Dec 15, 2024 3:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-12-15T12:40:47</updated>
+
+		<published>2024-12-15T12:40:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34682#p34682</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34682#p34682"/>
+		<title type="html"><![CDATA[Re: Updated Localisation files 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34682#p34682"><![CDATA[
+HI Roger, Daniel, Colin and all the people involved in the OpenGD77 project.<br>Thanks to all of you for your tireless work!<br>Here are the new updated 15/12/2024 <strong class="text-strong">italian.h</strong>, <strong class="text-strong">wordlist_italian.csv</strong> and <strong class="text-strong">Italian.xml</strong>:<div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2780&amp;sid=ad68db9c956bab38e47c661f4ea12cd8">NEW_15122024_italian.h + wordlist_italian.csv + Italian.xml.zip</a></dt></dl></div><br>73 best regards de Fabio IZ2EIB.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Sun Dec 15, 2024 12:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-15T06:40:32</updated>
+
+		<published>2024-12-15T06:40:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34664#p34664</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34664#p34664"/>
+		<title type="html"><![CDATA[Updated Localisation files 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4672&amp;p=34664#p34664"><![CDATA[
+The localisation files have been updated for the on-screen texts and voice prompts to include the 'Text size' option<br><br><a href="https://www.opengd77.com/downloads/localisation/" class="postlink">downloads/localisation/</a><br><br>The voice prompts text now also include the Russian translation<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 15, 2024 6:40 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

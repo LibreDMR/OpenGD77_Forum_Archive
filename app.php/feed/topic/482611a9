@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4826" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-30T12:56:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4826</id>
+
+		<entry>
+		<author><name><![CDATA[PU4RON]]></name></author>
+		<updated>2025-01-30T12:56:46</updated>
+
+		<published>2025-01-30T12:56:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35488#p35488</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35488#p35488"/>
+		<title type="html"><![CDATA[Re: Help (Safe Pwr-On) GD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35488#p35488"><![CDATA[
+Thank you all for your help and fixing the bug. Appreciate it!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=813">PU4RON</a> — Thu Jan 30, 2025 12:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-30T04:50:33</updated>
+
+		<published>2025-01-30T04:50:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35483#p35483</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35483#p35483"/>
+		<title type="html"><![CDATA[Re: Help (Safe Pwr-On) GD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35483#p35483"><![CDATA[
+New beta: <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=4827" class="postlink">viewtopic.php?f=13&amp;t=4827</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jan 30, 2025 4:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-30T04:36:27</updated>
+
+		<published>2025-01-30T04:36:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35480#p35480</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35480#p35480"/>
+		<title type="html"><![CDATA[Re: Help (Safe Pwr-On) GD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35480#p35480"><![CDATA[
+Fixed.<br>I don't think I have time to build a new beta release right now, but later today (MK22 only).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jan 30, 2025 4:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-30T03:47:46</updated>
+
+		<published>2025-01-30T03:47:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35479#p35479</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35479#p35479"/>
+		<title type="html"><![CDATA[Re: Help (Safe Pwr-On) GD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35479#p35479"><![CDATA[
+I just checked on my GD77, and there is a bug with this.<br>If you power on without SK1 down, while power safe is ON, the radio get stuck and you have to pull the battery, and re-power ON with SK1 down.<br><br>I seems only the GD77 and friends (MK22) are impacted (there is no problem on STM32 devices).<br><br>I'm fixing this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jan 30, 2025 3:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-30T00:40:03</updated>
+
+		<published>2025-01-30T00:40:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35475#p35475</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35475#p35475"/>
+		<title type="html"><![CDATA[Re: Help (Safe Pwr-On) GD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35475#p35475"><![CDATA[
+<blockquote class="uncited"><div>I activated the Safe Pwr-On ON option and my HT GD77 won't turn on. I tried to turn it on with SK1 and then Sk2 pressed and it didn't work. FW is Beta 2025 01 28 gd77. Does anyone know the solution to this problem?</div></blockquote>Remove and refit the battery with the radio turned off, and try again<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 30, 2025 12:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU4RON]]></name></author>
+		<updated>2025-01-30T00:04:48</updated>
+
+		<published>2025-01-30T00:04:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35474#p35474</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35474#p35474"/>
+		<title type="html"><![CDATA[Help (Safe Pwr-On) GD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4826&amp;p=35474#p35474"><![CDATA[
+I activated the Safe Pwr-On ON option and my HT GD77 won't turn on. I tried to turn it on with SK1 and then Sk2 pressed and it didn't work. FW is Beta 2025 01 28 gd77. Does anyone know the solution to this problem?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=813">PU4RON</a> — Thu Jan 30, 2025 12:04 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4774" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-22T17:12:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4774</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T17:12:57</updated>
+
+		<published>2025-01-22T17:12:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35279#p35279</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35279#p35279"/>
+		<title type="html"><![CDATA[Re: New GD-77/GD-77S/RD-5R/DM-1801 Beta 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35279#p35279"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=4786" class="postlink">viewtopic.php?f=13&amp;t=4786</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 5:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-20T05:05:07</updated>
+
+		<published>2025-01-20T05:05:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35216#p35216</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35216#p35216"/>
+		<title type="html"><![CDATA[Re: New GD-77/GD-77S/RD-5R/DM-1801 Beta 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35216#p35216"><![CDATA[
+Hi Fabio,<br><blockquote class="uncited"><div>Hi Daniel, <br>really terrific job, thank you very much to you and all the people involved in the OpenGD77 project for your priceless work!<br>Here are the new updated 19/01/2025 <strong class="text-strong">italian.h</strong>, <strong class="text-strong">wordlist_italian.csv</strong> and <strong class="text-strong">Italian.xml</strong>:<br>NEW_19012025_italian.h + wordlist_italian.csv + Italian.xml.zip<br>73 best regards de Fabio IZ2EIB.</div></blockquote>thanks for the update.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Jan 20, 2025 5:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2025-01-19T21:32:59</updated>
+
+		<published>2025-01-19T21:32:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35211#p35211</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35211#p35211"/>
+		<title type="html"><![CDATA[Re: New GD-77/GD-77S/RD-5R/DM-1801 Beta 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35211#p35211"><![CDATA[
+Hi Daniel, <br>really terrific job, thank you very much to you and all the people involved in the OpenGD77 project for your priceless work!<br>Here are the new updated 19/01/2025 <strong class="text-strong">italian.h</strong>, <strong class="text-strong">wordlist_italian.csv</strong> and <strong class="text-strong">Italian.xml</strong>:<div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2814&amp;sid=fde23443a208b1eb0b931edefeb71080">NEW_19012025_italian.h + wordlist_italian.csv + Italian.xml.zip</a></dt></dl></div>73 best regards de Fabio IZ2EIB.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Sun Jan 19, 2025 9:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-19T11:48:41</updated>
+
+		<published>2025-01-19T11:48:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35194#p35194</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35194#p35194"/>
+		<title type="html"><![CDATA[New GD-77/GD-77S/RD-5R/DM-1801 Beta 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4774&amp;p=35194#p35194"><![CDATA[
+<ul><li> Add GPS baud rate detection</li><li> Show channel distance when scan is paused</li><li> Fix bug in channel/VFO modes when scanning with VP</li><li> Add last talker in screen option. <ul> <li> In DIGITAL mode, when this option is enabled, the last caller callsign and channel contact are displayed each x seconds alternatively, in both Channel and VFO menus.</li> </ul></li><li> Don't display CSS in header while DW scanning.</li><li> Add APRS tx frequency support. <ul> <li> When a TX Frequency is set in the APRS Config, the device is tuned to that frequency before transmitting the frame.<br>     That permits setting an APRS Config to a DIGITAL channel (menuChannelDetails supports<br>     that too).</li>     <li> Also, a CODEPLUG_APRS_CONFIG_FLAG_TRANSMIT_QSY_INFO APRS Config flag is now supported,<br>     which add QSY information to the beacon text (like frequency / tone / shift). Tested<br>     on my TH-D74.</li>     <li>  NOTE: this is not enabled/supported while in Satellite mode.</li> <li> "APRS" word in the header had to be changed, since it could appear in DIGITAL mode too. It's now a "a", next to the mode.</li> <li> <strong class="text-strong">WARNING:</strong> The APRS Config version has been changed for this, so you need to read and write back your codeplug to update the APRS configurations, using the latest CPS (&gt;= 2025 01 19).</li></ul></li><li> Fix DMR Rx AGC (wasn't disabled once enabled, until the transceiver got power cycled).</li><li> Add special beeps when ReverseRepeater is enabled/disabled.</li><li> Contact TS override has to be displayed, no matter the Display option "Info" is set.</li><li> Many other small fixes/cleanups.</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/H7XVXX0XZ8#phLXSubY9bTe" class="postlink">https://drive.proton.me/urls/H7XVXX0XZ8#phLXSubY9bTe</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/TJPJF51XAC#jSxZ1Ln9GyI9" class="postlink">https://drive.proton.me/urls/TJPJF51XAC#jSxZ1Ln9GyI9</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/19, otherwise the APRS config won't work. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4773#p35193" class="postlink">viewtopic.php?f=12&amp;t=4773#p35193</a><br><br>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/Y6Q3ZDND7C#teUQ3T2TOpug" class="postlink">https://drive.proton.me/urls/Y6Q3ZDND7C#teUQ3T2TOpug</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 19, 2025 11:48 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=28&t=4468&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 15:54:24 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; New Beta 2024 10 09</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>New Beta 2024 10 09</h2>
+		<p><a href="viewtopic037a.html?f=28&amp;t=4468">viewtopic.php?f=28&amp;t=4468</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>New Beta 2024 10 09</h3>
+				<div class="date">Posted: <strong>Thu Oct 10, 2024 10:30 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">A new Beta version is now available<br>
+<br>
+Changes in this version<br>
+<br>
+•         Increase number of nuisance entries during scan from 16 to 32<br>
+•         Change Auto Power Off step size and maximum time<br>
+•         Volume notification is now supported on the 2017<br>
+•         Volume notification triggers the backlight<br>
+•         Tx Inhibit<br>
+•         Handle if settings can’t be saved to Flash because of Write failure<br>
+•         Added automatic roaming function, based on position e.g. from GPS or manual entry.<br>
+•         Force re-sorting of channels in Roaming mode, my pressing Green button on the Roaming setting e.g Roaming:Manual<br>
+•         Add option to display the time instead of the battery voltage or battery percentage (press and hold SK1 to display the battery voltage)<br>
+•         Show distance to a repeater / channel when button 8 is held down (long press)<br>
+•        Volume level can now be displayed in a popup, like on in the UV380 / DM1701 version. See Options-&gt;Display Options-&gt; Volume<br>
+<br>
+<br>
+Thanks to Daniel F1RMB and to the pre-Beta testers<br>
+<br>
+<br>
+See<br>
+<a href="https://www.opengd77.com/downloads/MD2017/Firmware/Latest" class="postlink">downloads/MD2017/Firmware/Latest</a><br>
+<br>
+<a href="https://www.opengd77.com/downloads/MD2017/Firmware/26f3f6f58c1c05d9cff39d9a5931812a11cbfba4" class="postlink">downloads/MD2017/Firmware/26f3f6f58c1c0 ... 2a11cbfba4</a><br>
+<br>
+<br>
+<br>
+<strong class="text-strong">Romaing</strong><br>
+<br>
+<br>
+The Roaming functionality supersedes the distance sorting functionality already in previous versions, by adding renaming this functionality and adding distance based options of 5km, 10km, and 20k.<br>
+<br>
+Note. Distance sorting and hence Roaming does not work on the All Channels Zone because this is not a real zone, its actually just the full channels list.<br>
+<br>
+When roaming is set to Manual, the current zone will be sorted by distance to each repeater, and the radio is automatically changed to the first channel in the sorted zone, i.e the closest repeater.<br>
+<br>
+Also every time the Manual roaming option is selected, by pressing the Green button, the zone will be re-sorted.<br>
+<br>
+In the distance based settings of 5km, 10km or 20km, when the position of the radio has changed by the specified distance, the channel list will be re-sorted by distance and the closest repeater selected again.<br>
+<br>
+e.g. when driving, the zone list will be sorted every 5km , 10km or 20km of travel.<br>
+<br>
+The zone will only be sorted during Rx, but will be sorted even if a signal is currently being received.<br>
+<br>
+If a new channel is selected after the zone is sorted, there will be a short dropout of audio on both FM and also more dropout on DMR as the radio re-synchronises to the new DMR repeater.<br>
+<br>
+If a new channel is selected, the radio will play the Alert beep and the display will illuminate.<br>
+<br>
+Roaming is most useful for radio which have a GPS fitted, but if the position is entered manually, the zone will also be re-sorted if necessary.<br>
+Also, in order that the radio can calculate the distance to each repeater, the position  Latitude / Longitude of each repeater needs to be entered into the CPS and the "Use location" checkbox need to be ticked.<br>
+<br>
+Channels which don't have the location entered or don't have the Use location checkbox checked, are sorted to the bottom of the list and the distance can't be shown for these.<br>
+<br>
+<br>
+Generally to use roaming, its probably best to make a separate zone which contains all the linked repeaters and switch to that zone when using the roaming functionality</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: New Beta 2024 10 09</h3>
+				<div class="date">Posted: <strong>Tue Nov 12, 2024 3:05 pm</strong></div>
+				<div class="author">by <strong>CT7ARF</strong></div>
+				<div class="content">Hello OM,<br>
+<br>
+I've noticed that the TimeOut in the Display Options ONLY works in the 5S setting. Or the OFF setting.<br>
+<br>
+(In a Retevis RT-82)<br>
+<br>
+Best regards and 73,<br>
+<br>
+Antonio Cochicho<br>
+(CT7ARF)</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: New Beta 2024 10 09</h3>
+				<div class="date">Posted: <strong>Tue Nov 12, 2024 7:17 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">Works fine for me.<br>
+<br>
+Something is retriggering your display to come on</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: New Beta 2024 10 09</h3>
+				<div class="date">Posted: <strong>Wed Nov 13, 2024 4:25 pm</strong></div>
+				<div class="author">by <strong>CT7ARF</strong></div>
+				<div class="content">Right: Please bare with me.<br>
+<br>
+How can something be retriggering  my screen and NOT retrigger it when the time out setting is set at 5 seconds ? Works flawlessly with that setting.<br>
+<br>
+Thank you!<br>
+<br>
+Best regards and 73,<br>
+<br>
+CT7ARF</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=28&t=4468&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 15:54:24 GMT -->
+</html>

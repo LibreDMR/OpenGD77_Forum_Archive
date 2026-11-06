@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=4348&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 11:38:00 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; what are the maximums?</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>what are the maximums?</h2>
+		<p><a href="viewtopica384-2.html?f=12&amp;t=4348">viewtopic.php?f=12&amp;t=4348</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>2</strong></div>
+					<div class="post">
+				<h3>what are the maximums?</h3>
+				<div class="date">Posted: <strong>Mon Aug 26, 2024 3:51 am</strong></div>
+				<div class="author">by <strong>AF6MQ</strong></div>
+				<div class="content">i've searched thru the manual, and the forums, all i found was max-channels-per-zone = 80.<br>
+<br>
+is there a list of maximums for the codeplug?<br>
+how many channels max?<br>
+how many zones max?<br>
+how many characters for channel name, zone name, etc?<br>
+forbidden characters in the names of things?<br>
+any other restrictions? (like "None" and not "NONE" saw that recently)<br>
+<br>
+or is there a .h in the source that  might list all these things?<br>
+how about which source file deals with the codeplug read/write etc?<br>
+<br>
+reason: been dinking around with the repeaterbook export/convert stuff that posted lately and would save a lot of trouble to do pre-checks while in .csv etc.<br>
+<br>
+thanks, <br>
+--gaspo.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Mon Aug 26, 2024 9:14 am</strong></div>
+				<div class="author">by <strong>G4EML</strong></div>
+				<div class="content">Number of Contacts = 1024<br>
+Number of Channels = 1024<br>
+Number of Zones = 68<br>
+Number of Channels in a Zone = 80<br>
+Number of TG lists = 76<br>
+Number of TGs in a TG List = 32	<br>
+<br>
+Channel name characters = 16<br>
+Zone name characters = 16</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Mon Aug 26, 2024 10:14 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">In addition to what Colin has written<br>
+<br>
+The firmware display font is 8 bit, so only a limited subset of characters are allowed.<br>
+<br>
+The font / character set is based on ASCII with special mapping to allow some accented and non-latin characters to be supported, but in general you should avoid any characters apart from A-Z a-z 0-9 and space<br>
+The full character set mapping is complicated and if you really need the full data on this, you would need to  download the last source code release for any supported radio and look For Example in the UV380 code, at /application/include/HX9535E_charset.h</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Tue Aug 27, 2024 12:13 am</strong></div>
+				<div class="author">by <strong>KB0PCH</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp">VK3KYY</a> wrote: <a href="viewtopic6895.html?p=32633&amp;sid=#p32633" data-post-id="32633" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Aug 26, 2024 10:14 am</div></cite>The font / character set is based on ASCII with special mapping to allow some accented and non-latin characters to be supported, but in general you should avoid any characters apart from A-Z a-z 0-9 and space
+</div></blockquote>
+
+I noticed a comma and period look the same. Just an observation for those thinking of contact names and how their home QTH might be displayed (if you include that).</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Sat Sep 07, 2024 10:34 pm</strong></div>
+				<div class="author">by <strong>AF6MQ</strong></div>
+				<div class="content">thank you both, exactly what i needed.  <br>
+<br>
+repeaterbook does have a export to opengd option but it seems its an older version of the codeplug.  is there any place the complete codeplug layout is listed? is the codeplug layout the same for the different radios? ( i assume not from what i've seen so far, ie, QDMR will read from my ogd gd77 ok but from my ogd uv390 about half the codeplug is ascii garbage when read).  <br>
+<br>
+i'm really keen to get bigger fonts on my uv390 and having a go at raking the source to understand these things.  is there any "guide to the source" type docs or notes anywhere?  i'd be willing to write such as i go along.  ref: i'm an oldschool unix hack, used to build kernels from source back in the sunos days, but not really up to speed on the rtos details and best practices.  i'd like to do my additions so that it fits into the tree as seamless as possible.<br>
+<br>
+thanks again to the dev team, you've made my ham radio experience so much better!<br>
+<br>
+--gaspo.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Sat Sep 07, 2024 11:15 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=403&amp">AF6MQ</a> wrote: <a href="viewtopic3ec1.html?p=32788&amp;sid=#p32788" data-post-id="32788" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Sep 07, 2024 10:34 pm</div></cite>
+ is there any "guide to the source" type docs or notes anywhere?  
+</div></blockquote>
+
+<br>
+No.<br>
+<br>
+This would be impossible / impractical / hugely time consuming and a maintenance nightmare.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Sun Sep 08, 2024 2:23 am</strong></div>
+				<div class="author">by <strong>AF6MQ</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp">VK3KYY</a> wrote: <a href="viewtopicdb9a.html?p=32789&amp;sid=#p32789" data-post-id="32789" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Sep 07, 2024 11:15 pm</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=403&amp">AF6MQ</a> wrote: <a href="viewtopic3ec1.html?p=32788&amp;sid=#p32788" data-post-id="32788" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Sep 07, 2024 10:34 pm</div></cite>
+ is there any "guide to the source" type docs or notes anywhere?  
+</div></blockquote>
+
+<br>
+No.<br>
+<br>
+This would be impossible / impractical / hugely time consuming and a maintenance nightmare.
+</div></blockquote>
+
+ok, do you have any suggestions on how to go about mucking with the source that respects your awesome work and keeps the tree intact? is there a git-submit type approach?  or just do patch-diff?  i'm all ears here so any suggestions or directions would be super appreciated.  i can just dive in and make the mods i want but that's not likely the best way to stay compatible etc.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Sun Sep 08, 2024 3:40 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=403&amp">AF6MQ</a> wrote: <a href="viewtopic3625.html?p=32792&amp;sid=#p32792" data-post-id="32792" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Sep 08, 2024 2:23 am</div></cite>
+...<br>
+ is there a git-submit type approach?  <br>
+or just do patch-diff? <br>
+<br>
+ i'm all ears here so any suggestions or directions would be super appreciated.  i can just dive in and make the mods i want but that's not likely the best way to stay compatible etc.
+</div></blockquote>
+
+(1) No.<br>
+(2) No.<br>
+(3) It is entirely dependant upon what you change and what may possible change in the master souce code.  We don't have a crystal ball about what will change in the codebase in the future.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Sun Sep 08, 2024 3:46 am</strong></div>
+				<div class="author">by <strong>AF6MQ</strong></div>
+				<div class="content">ok then, what do you suggest?  fork my own branch?  submit mods to you?  keep everything as #defines?  i'm sorry if this is a bother to you, i want to contribute without breaking anything or making any problems for you.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: what are the maximums?</h3>
+				<div class="date">Posted: <strong>Tue Mar 18, 2025 3:44 pm</strong></div>
+				<div class="author">by <strong>PU2UMK</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=87&amp">G4EML</a> wrote: <a href="viewtopic683c.html?p=32632&amp;sid=#p32632" data-post-id="32632" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Aug 26, 2024 9:14 am</div></cite>
+Number of Contacts = 1024<br>
+Number of Channels = 1024<br>
+Number of Zones = 68<br>
+Number of Channels in a Zone = 80<br>
+Number of TG lists = 76<br>
+Number of TGs in a TG List = 32	<br>
+<br>
+Channel name characters = 16<br>
+Zone name characters = 16
+</div></blockquote>
+
+Are these still the limits for the Retevis RT3S?</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>2</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=4348&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 11:38:00 GMT -->
+</html>

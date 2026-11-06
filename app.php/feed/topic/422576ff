@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4225" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-10T12:20:16</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4225</id>
+
+		<entry>
+		<author><name><![CDATA[ec5zy]]></name></author>
+		<updated>2024-08-10T12:20:16</updated>
+
+		<published>2024-08-10T12:20:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32442#p32442</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32442#p32442"/>
+		<title type="html"><![CDATA[Re: Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32442#p32442"><![CDATA[
+I am observing on several computers without version marking on the board. they are all V5<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4772">ec5zy</a> — Sat Aug 10, 2024 12:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R8CACH]]></name></author>
+		<updated>2024-07-27T12:37:24</updated>
+
+		<published>2024-07-27T12:37:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32327#p32327</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32327#p32327"/>
+		<title type="html"><![CDATA[Re: Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32327#p32327"><![CDATA[
+UP.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6484">R8CACH</a> — Sat Jul 27, 2024 12:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R8CACH]]></name></author>
+		<updated>2024-07-21T11:12:10</updated>
+
+		<published>2024-07-21T11:12:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32242#p32242</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32242#p32242"/>
+		<title type="html"><![CDATA[Re: Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32242#p32242"><![CDATA[
+Hi all, after update i have 2 problems. <br><br>1. Always when i trying to access DMR repeater and getting TIMOUT after 1 second TX. <br><br>FREQ, TS and CC is correct. and I can hear tg activity.<br>FM works fine. <br>Monitored tx attempts with sdr dongle - TX freq correct and i see some packets transieved on ptt push.  <br><br>I think that radio calibrations are missed and radio not working fullpower when setting it to 40W. Earlier before upgrade I opened that DMR repeater with 25W on same radio.<br><br>Can we use official calibration file (i saved with ctrl-t before upgrading) with opengd firmware or have to calibrate power with power meter manually ? <br><br>2. When i try to restore official firmware (to test DMR repeater access on it) i got blank screen radio and no reaction to buttons.<br><br>This is not a hardware problem. display works correctly when i writing codeplug or if i return it to opengd firmware. <br>I think that original firmware can"t start for some reason? maybe using wrong version or doing something wrong? <br><br>Radio was restored this way:<br>- restore flash (i backed up after upgrade to opengd)  <br>- download official firmware with official bootupdata v3.07 (i try : MD9600-REC(2571V4)-D26.57.bin, MD9600-CSV(2571V5)-V26.45.bin)<br>- write my old codeplug with CPS v1.33<br><br>doing something wrong ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6484">R8CACH</a> — Sun Jul 21, 2024 11:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R8CACH]]></name></author>
+		<updated>2024-07-07T15:35:05</updated>
+
+		<published>2024-07-07T15:35:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32039#p32039</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32039#p32039"/>
+		<title type="html"><![CDATA[Re: Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32039#p32039"><![CDATA[
+I did it. And it works. <br><br>Thanks a lot for you instructions. <br><br>You are the best.<br>73.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6484">R8CACH</a> — Sun Jul 07, 2024 3:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-07-07T09:19:32</updated>
+
+		<published>2024-07-07T09:19:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32031#p32031</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32031#p32031"/>
+		<title type="html"><![CDATA[Re: Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32031#p32031"><![CDATA[
+That is a V5 radio. The IF filters  near the green sticker indicate this. Other versions have a DSP IF chip which doesn't use discrete filters.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jul 07, 2024 9:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-07-07T08:00:01</updated>
+
+		<published>2024-07-07T08:00:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32030#p32030</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32030#p32030"/>
+		<title type="html"><![CDATA[Re: Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32030#p32030"><![CDATA[
+My brand new MD-9600 - - Serial : 2401A0xxx - 2571 Sticker on side (Whatever that is)<br>Was loaded with HW V5 firmware, that seems to function well.<br><br>I'm quite sure my radio also showed as HW V2.xx , in the original CPS info.<br>But i think my original version info said it was written w. CP(S) version 1.27.<br><br><br>I was collecting "Original FW" files from here, before the upgrade.<br><a href="https://www.passion-radio.fr/mobile-vhf-uhf/md9600-505.html" class="postlink">https://www.passion-radio.fr/mobile-vhf ... 0-505.html</a><br><a href="https://www.radioddity.com/pages/tyt-download" class="postlink">https://www.radioddity.com/pages/tyt-download</a><br><a href="https://www.tyt888.com/Download.html" class="postlink">https://www.tyt888.com/Download.html</a><br><br>My conversion steps<br><a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4211&amp;p=31946#p32001" class="postlink">viewtopic.php?f=18&amp;t=4211&amp;p=31946#p32001</a><br><strong class="text-strong">Pay attention to the backups,</strong> to be taken immediately after the opengd77 fw has been loaded into the radio.<br><br><br>Top - post in MD9600 conversion thread - This is the "reference"<br><a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=2035#p17115" class="postlink">viewtopic.php?f=18&amp;t=2035#p17115</a><br><br><br>I used this donor file<br>Download the Official firmware to act as the "donor" for the DMR codec <a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br>Unzip the donor firmware zip file, to extract the donor file MD9600-CSV(2571V5)-V26.45.bin<br>Note. This file is the same for all MD9600 hardware versions.<br><br>.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Sun Jul 07, 2024 8:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R8CACH]]></name></author>
+		<updated>2024-07-07T07:50:08</updated>
+
+		<published>2024-07-07T07:50:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32029#p32029</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32029#p32029"/>
+		<title type="html"><![CDATA[Re: Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32029#p32029"><![CDATA[
+OK, I think I can try..<br><br>But I don't understand, what can I do if any of them doesn't work ? How can I return current official firmware back ? Where can I get it ?<br><br>ps<br>It's new radio, can it be v5 ?  Do v5 has version no on plate ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6484">R8CACH</a> — Sun Jul 07, 2024 7:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-07-07T07:34:39</updated>
+
+		<published>2024-07-07T07:34:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32027#p32027</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32027#p32027"/>
+		<title type="html"><![CDATA[Re: Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32027#p32027"><![CDATA[
+All MD9600 use the same donor file<br><br>If you don't know how old the radio is, then you will need to try each version of OpenGD77 and see which version works with your radio<br><br>The display and controls will work for all radios even if you install the wrong version of OpenGD77, but the radio won't transmit or receive.<br><br>If the radio is not new, then its probably a V2 or possibly V1 radio<br><br>The only difference between V2 and V1 is the display dimming, and not many V1 radios were manufactured.<br><br>If V2 doesn't work, try the other versions<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 07, 2024 7:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R8CACH]]></name></author>
+		<updated>2024-07-07T04:12:16</updated>
+
+		<published>2024-07-07T04:12:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32023#p32023</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32023#p32023"/>
+		<title type="html"><![CDATA[Any suggestions about this radio ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4225&amp;p=32023#p32023"><![CDATA[
+Hi, all. Have a problem.<br>How to find out the version of this radio.<br><br>S/N on label 2405A00***<br>Revision 2517, no hardware version anywhere.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"> <br>Can't find firmware D126.061 too.   <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cry.gif" width="15" height="17" alt=":cry:" title="Crying or Very Sad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cry.gif" width="15" height="17" alt=":cry:" title="Crying or Very Sad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cry.gif" width="15" height="17" alt=":cry:" title="Crying or Very Sad"> <br><br>CPS shows hardware version V02.06 is that means that i need firmware for V2 ?<br><br>Is it possible to upgrade radio to opengd77 and which version of opengd and donor to use ?   <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>Thanks for your help.<br><br>All info in attachments.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2508&amp;sid=2edfdb3aa012ba97f46c731a124fefea" class="postimage" alt="2024-07-07 09.03.44.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2507&amp;sid=2edfdb3aa012ba97f46c731a124fefea" class="postimage" alt="2024-07-07 09.03.51.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2506&amp;sid=2edfdb3aa012ba97f46c731a124fefea" class="postimage" alt="2024-07-07 09.04.0.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6484">R8CACH</a> — Sun Jul 07, 2024 4:12 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

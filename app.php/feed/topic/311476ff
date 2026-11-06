@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3114" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-30T11:33:15</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3114</id>
+
+		<entry>
+		<author><name><![CDATA[iz5wga]]></name></author>
+		<updated>2023-08-30T11:33:15</updated>
+
+		<published>2023-08-30T11:33:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3114&amp;p=25756#p25756</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=25756#p25756"/>
+		<title type="html"><![CDATA[Re: DM 1801 and volume knob issues]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=25756#p25756"><![CDATA[
+Hi again,<br>thanks, I actually replaced the knob and now everything works as intended!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1118">iz5wga</a> — Wed Aug 30, 2023 11:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2023-08-30T06:50:21</updated>
+
+		<published>2023-08-30T06:50:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3114&amp;p=25754#p25754</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=25754#p25754"/>
+		<title type="html"><![CDATA[Re: DM 1801 and volume knob issues]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=25754#p25754"><![CDATA[
+<blockquote class="uncited"><div>Hi all,<br>I'm having some troubles with the volume knob, and I'd like to ask you if anyone faced anything similar.<br>Once I turn the radio on rotating the knob, it shuts down as soon as I go a little further (as everybody would do to increase the volume); at this point, if I decrease the volume turning the knob, it turns on again.<br>It seems like it likes to be "on" only if the knob is "right after" the click: as soon as I deviate from this position, the radio goes off.<br><br>This behaviour is not deterministic: sometimes it happens as soon as I keep the transceiver in my hands, and no matter how many times I try to turn it on and off. Sometimes it behaves normally for 20 minutes, 1 hour and then starts behaving like that. <br><br>Is it cursed ?</div></blockquote>Hi Matteo,<br><br>As per your explanation it looks like a electro-mechanical issue in the switch.<br><br>I may suggest you to:<br>-Check PCB soldering related to the knob. By check I mean, redo 'cause they may look like ok and not being working properly.<br>-Softly lateral press (not turning, not down) to check whether it goes off or not. If it goes off at any moment... Knob needs to be replaced.<br><br>Suggestions based on my own experience at electronics' service shop (car radio used to behave that way...)<br><br>I hope this helps.<br><br>P.D.:<br>As far as I see, it is nothing related to FW nor Codeplug, it's pure <em class="text-italics">electronics</em> item.<br><br>P.D.2:<br>If needed, you can find replacement knob in here:<br>If my memories are not wrong, you need 10K ohm with switch.<br><a href="https://a.aliexpress.com/_ExdSkMF" class="postlink">https://a.aliexpress.com/_ExdSkMF</a> or...<br><a href="https://a.aliexpress.com/_EyJWR8P" class="postlink">https://a.aliexpress.com/_EyJWR8P</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Wed Aug 30, 2023 6:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-09T08:28:51</updated>
+
+		<published>2023-08-09T08:28:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24929#p24929</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24929#p24929"/>
+		<title type="html"><![CDATA[Re: DM 1801 and volume knob issues]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24929#p24929"><![CDATA[
+Not to my knowledge, but it looks like a mechanical problem.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Aug 09, 2023 8:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iz5wga]]></name></author>
+		<updated>2023-08-09T08:18:01</updated>
+
+		<published>2023-08-09T08:18:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24927#p24927</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24927#p24927"/>
+		<title type="html"><![CDATA[Re: DM 1801 and volume knob issues]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24927#p24927"><![CDATA[
+I haven't opened it yet (since I removed the dust from it yesterday night), but I suppose it's a must-be-done step. I was wondering if it's a "common" issue with this handheld.<br>I'll check  solders tonight <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1118">iz5wga</a> — Wed Aug 09, 2023 8:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-09T08:10:41</updated>
+
+		<published>2023-08-09T08:10:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24926#p24926</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24926#p24926"/>
+		<title type="html"><![CDATA[Re: DM 1801 and volume knob issues]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24926#p24926"><![CDATA[
+Hi,<br><br>  Broken solder joint ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Aug 09, 2023 8:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iz5wga]]></name></author>
+		<updated>2023-08-09T08:08:43</updated>
+
+		<published>2023-08-09T08:08:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24925#p24925</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24925#p24925"/>
+		<title type="html"><![CDATA[DM 1801 and volume knob issues]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3114&amp;p=24925#p24925"><![CDATA[
+Hi all,<br>I'm having some troubles with the volume knob, and I'd like to ask you if anyone faced anything similar.<br>Once I turn the radio on rotating the knob, it shuts down as soon as I go a little further (as everybody would do to increase the volume); at this point, if I decrease the volume turning the knob, it turns on again.<br>It seems like it likes to be "on" only if the knob is "right after" the click: as soon as I deviate from this position, the radio goes off.<br><br>This behaviour is not deterministic: sometimes it happens as soon as I keep the transceiver in my hands, and no matter how many times I try to turn it on and off. Sometimes it behaves normally for 20 minutes, 1 hour and then starts behaving like that. <br><br>Is it cursed ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1118">iz5wga</a> — Wed Aug 09, 2023 8:08 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

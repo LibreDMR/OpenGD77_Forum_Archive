@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3930" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-21T16:03:11</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3930</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-21T16:03:11</updated>
+
+		<published>2025-04-21T16:03:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=36857#p36857</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=36857#p36857"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=36857#p36857"><![CDATA[
+I have some problems that received signals clip on my md-9600 V2 changing between wide or narrow or disabling rx ctcss does not make any significant difference.<br><br>I have also measured the tx deviation which measured lowered compared to other radios that I have.<br>Feels that my md-9600 is too narrow on both rx and tx.<br><br>Only about 2 kHz on narrow and 4 kHz on wide.<br>The circuit design in the MD-9600 differs from other models if I understood it correctly.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Apr 21, 2025 4:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3AYH]]></name></author>
+		<updated>2025-04-21T15:12:18</updated>
+
+		<published>2025-04-21T15:12:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=36856#p36856</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=36856#p36856"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=36856#p36856"><![CDATA[
+Hello everyone. My friend flashed a new 9600 radio today and when we tried to talk it was interrupted every 2 seconds. Our signal is locked to the DCS tone for transmission and reception. If I turn off the tone for reception I hear it normally. Also, if he reduces the microphone gain -9 then he can also be heard normally even with the tone for reception.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3483">UB3AYH</a> — Mon Apr 21, 2025 3:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-08T20:38:58</updated>
+
+		<published>2024-04-08T20:38:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30715#p30715</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30715#p30715"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30715#p30715"><![CDATA[
+<blockquote class="uncited"><div>Thank you for the responses, I sure do appreciate it. It's just weird to me that one radio (the 9600) has issues where other radios don't seem to have any issues at all with the same transmissions (GD-77, SDS-100). Perhaps the 9600 is more strict about CTSS decoding, or perhaps it's a Chinese radio production variance.<br><br>I mean, it's not going to keep me up at night, but I do hope to figure it out one day.</div></blockquote>GD77 and MD9600 have quite different Rx hardware so CTCSS decoding will not be identical<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Apr 08, 2024 8:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-04-08T17:40:11</updated>
+
+		<published>2024-04-08T17:40:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30708#p30708</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30708#p30708"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30708#p30708"><![CDATA[
+Thank you for the responses, I sure do appreciate it. It's just weird to me that one radio (the 9600) has issues where other radios don't seem to have any issues at all with the same transmissions (GD-77, SDS-100). Perhaps the 9600 is more strict about CTSS decoding, or perhaps it's a Chinese radio production variance.<br><br>I mean, it's not going to keep me up at night, but I do hope to figure it out one day.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Mon Apr 08, 2024 5:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-04-08T16:10:29</updated>
+
+		<published>2024-04-08T16:10:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30706#p30706</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30706#p30706"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30706#p30706"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>You need a frequency counter with some accuracy.<br>But maybe you can get some assistance from a fellow ham.<br>In the calibration menu there are two menus with calibration points for 145 &amp; 435 MHz that is accessible with Sk2 + arrow down.</div></blockquote>Ah, so if I can confirm the TX is properly calibrated, I can assume the RX is calibrated as well?  My counter showed 145.0000697 and 435.0002 which I'm guessing is within tolerance (but I certainly don't know that for sure). I'm using an old counter that uses an antenna and isn't connected inline to the radio's output.<br><br>Would recording the audio from the two guys who consistently through the CTSS decoding for a loop be helpful? Are the subaudible tones stripped from the audio prior to being sent to the speaker?<br><br>I know I keep saying this really isn't worth the troubleshooting, but now it's become the very nerd thing that will annoy me until I figure it out.</div></blockquote>Yes , 69.7 Hz &amp; 200 Hz is not so much  but it depends on the accuracy on the counter.<br>I think FCC requires +/- 2.5 ppm  or better on VHF/UHF.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Apr 08, 2024 4:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-04-08T10:36:03</updated>
+
+		<published>2024-04-08T10:36:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30701#p30701</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30701#p30701"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30701#p30701"><![CDATA[
+Making a recording probably wouldn't help. The tones won't be recorded. <br><br>It is not unusual for CTCSS to sometimes be affected by individual voices.  The transmitting radio should filter out any low frequencies in the voice before adding the CTCSS tone and likewise the receiving radio should filter out any voice frequencies to leave the CTCSS tone, but this filtering is not perfect and sometimes voice tones will interfere with the CTCSS decoding. <br><br>High modulation levels will also introduce distortion or noise to the signal which again can cause problems. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Apr 08, 2024 10:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-04-08T10:06:48</updated>
+
+		<published>2024-04-08T10:06:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30699#p30699</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30699#p30699"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30699#p30699"><![CDATA[
+<blockquote class="uncited"><div>You need a frequency counter with some accuracy.<br>But maybe you can get some assistance from a fellow ham.<br>In the calibration menu there are two menus with calibration points for 145 &amp; 435 MHz that is accessible with Sk2 + arrow down.</div></blockquote>Ah, so if I can confirm the TX is properly calibrated, I can assume the RX is calibrated as well?  My counter showed 145.0000697 and 435.0002 which I'm guessing is within tolerance (but I certainly don't know that for sure). I'm using an old counter that uses an antenna and isn't connected inline to the radio's output.<br><br>Would recording the audio from the two guys who consistently through the CTSS decoding for a loop be helpful? Are the subaudible tones stripped from the audio prior to being sent to the speaker?<br><br>I know I keep saying this really isn't worth the troubleshooting, but now it's become the very nerd thing that will annoy me until I figure it out.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Mon Apr 08, 2024 10:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-04-04T07:42:24</updated>
+
+		<published>2024-04-04T07:42:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30607#p30607</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30607#p30607"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30607#p30607"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Could be good to check the frequency calibration too, if radio is off it can also result in cuts when they modulate heavily.</div></blockquote>So I know just enough about electronics to be dangerous but not helpful. Are there any guides that I could try to follow to accomplish this? I also assume I'll need access to some test equipment.</div></blockquote>You need a frequency counter with some accuracy.<br>But maybe you can get some assistance from a fellow ham.<br>In the calibration menu there are two menus with calibration points for 145 &amp; 435 MHz that is accessible with Sk2 + arrow down.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Apr 04, 2024 7:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-04-04T06:18:17</updated>
+
+		<published>2024-04-04T06:18:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30603#p30603</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30603#p30603"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30603#p30603"><![CDATA[
+<blockquote class="uncited"><div>Could be good to check the frequency calibration too, if radio is off it can also result in cuts when they modulate heavily.</div></blockquote>So I know just enough about electronics to be dangerous but not helpful. Are there any guides that I could try to follow to accomplish this? I also assume I'll need access to some test equipment.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Thu Apr 04, 2024 6:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-04-03T16:28:19</updated>
+
+		<published>2024-04-03T16:28:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30584#p30584</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30584#p30584"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30584#p30584"><![CDATA[
+<blockquote class="uncited"><div>Thanks for the response! I've been listening a bit more lately and that same guy on the same repeater cuts out the same way every time on the MD-9600, but not on the GD-77. I've now found a second guy on a different repeater who has his audio cut out for about 3 seconds every 20 seconds or so. As before, the audio doesn't cut out at all when listening on the GD-77.<br><br>Thank you for the suggestion of checking the bandwidth setting, I had not thought of that. They were correctly set to 25kHz for the repeaters I was listening to. I'm not sure if it's just my radio or some strange combination of circumstances, but I can't even imagine how to troubleshoot this. Like you said, I think it will just be easier to turn off CTSS decode when I encounter this issue.</div></blockquote>Could be good to check the frequency calibration too, if radio is off it can also result in cuts when they modulate heavily.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Apr 03, 2024 4:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-04-03T16:19:22</updated>
+
+		<published>2024-04-03T16:19:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30582#p30582</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30582#p30582"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30582#p30582"><![CDATA[
+Thanks for the response! I've been listening a bit more lately and that same guy on the same repeater cuts out the same way every time on the MD-9600, but not on the GD-77. I've now found a second guy on a different repeater who has his audio cut out for about 3 seconds every 20 seconds or so. As before, the audio doesn't cut out at all when listening on the GD-77.<br><br>Thank you for the suggestion of checking the bandwidth setting, I had not thought of that. They were correctly set to 25kHz for the repeaters I was listening to. I'm not sure if it's just my radio or some strange combination of circumstances, but I can't even imagine how to troubleshoot this. Like you said, I think it will just be easier to turn off CTSS decode when I encounter this issue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Apr 03, 2024 4:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T09:21:38</updated>
+
+		<published>2024-03-29T09:21:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30448#p30448</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30448#p30448"/>
+		<title type="html"><![CDATA[Re: Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30448#p30448"><![CDATA[
+This is usually caused by over deviation on the signal.<br><br>I've not seen it occur on the input of the MD9600 or GD77 but thats the most probable cause<br><br>Check the bandwidth setting on that channel i.e 12.5kHz or 25kHz, but if that is correct there is not a lot that can be done because of the limitations of CTCSS detection in these radios.<br><br>Or just don't use CTCSS on Rx on your radios<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 9:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-03-29T06:47:40</updated>
+
+		<published>2024-03-29T06:47:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30446#p30446</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30446#p30446"/>
+		<title type="html"><![CDATA[Odd CTSS decode issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3930&amp;p=30446#p30446"><![CDATA[
+I was listening to a couple of guys chat on my MD-9600 in analog using a UHF repeater I get a good signal from. The repeater uses tone 103.5Hz for both the input and it includes it on the output. When one of the two people were talking, the audio would cut out for a little over a half second or so and did so every approximately 5 seconds. The signal strength meter didn't show any change in signal strength. When the second person was talking, the audio was perfectly fine. I asked him if he was hearing the first person's audio cut out and apparently I was the only one hearing it. I listened to them chat for 30 min and the radio only cut out audio for the one guy.<br><br>I grabbed by trusty GD-77 and everyone's audio sounded fine, including the one guy who was cutting out on my 9600 as I listened to my GD-77 as well. Thinking perhaps there was some odd external interference with the feedline and roof antenna, I connected my GD-77 to the same line the 9600 uses and it sounded fine.<br><br>I then heard the same two guys the following night and the exact same guy had his audio cutting out. I don't know them, but if I hear them again, I'm going to ask the one guy to try a different repeater with me just to see if my radio hates him specifically, or if it's just some weird combination of his audio and that one repeater.<br><br>The 9600 has firmware 20231231193015<br>The GD-77 has firmware 20231212154721<br><br>I think the 9600 is running the previous version to what was released recently. I was going to update it, but I saw the discussion here that one person was having some CTSS issues until he revered to the December version.<br><br>I know this is a strange issue to report, but I just wanted to mention it in case anyone has seen something similar. I really do hope I hear the guy again and hopefully he's down for some testing with a stranger <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Fri Mar 29, 2024 6:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

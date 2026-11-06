@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2099" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-02-13T07:08:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2099</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-02-13T07:08:17</updated>
+
+		<published>2022-02-13T07:08:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2099&amp;p=17460#p17460</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2099&amp;p=17460#p17460"/>
+		<title type="html"><![CDATA[Re: Hotspot with DM1801: HD1 with a bad tx quality]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2099&amp;p=17460#p17460"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Good evening to all.<br>I hope this would be the right section for my post. <br>As wrote on Subject i've got a boring issue with my new Ailunce HD1 GPS when i use it on my hotspot using a Baofeng DM1801 with OpenGD77 fw and a Pi-Star on Raspberry Pi3: who heard me tells that my modulation is so close, saturated, sometimes i lose some packet, simply it's very difficult and annoying to listen my talk. I can see a BER over 5%/6%, that's is so strange because with other radios there's no problem, no loss, no BER over 1, a great modulation; moreover HD1 works properly in other hotspots (tried with a GD77, with a MMDVM board on Pi-star and with 2 repeters) so i thought there's something like incompatibility between DM1801 (in HS mode) and this HD1. I hope i've explained all clearly despite my poor english. So, does anybody had same issues and could me take some opinion?<br>Thanks to all and 73</div></blockquote>I would like to see the MMDVMHost log after "bad quality" transmission (you have a download button in the PiStar's "Live Logs" tab in the web interface).<br>Also, you may check the HD1's hotspot channel configuration, maybe it's related to a wrong setting, as you wrote that it works correctly with other radios.<br>Or the radio (HD1) is a bit off frequency.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Feb 13, 2022 7:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IS0HYP]]></name></author>
+		<updated>2022-02-12T23:23:23</updated>
+
+		<published>2022-02-12T23:23:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2099&amp;p=17459#p17459</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2099&amp;p=17459#p17459"/>
+		<title type="html"><![CDATA[Hotspot with DM1801: HD1 with a bad tx quality]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2099&amp;p=17459#p17459"><![CDATA[
+Good evening to all.<br>I hope this would be the right section for my post. <br>As wrote on Subject i've got a boring issue with my new Ailunce HD1 GPS when i use it on my hotspot using a Baofeng DM1801 with OpenGD77 fw and a Pi-Star on Raspberry Pi3: who heard me tells that my modulation is so close, saturated, sometimes i lose some packet, simply it's very difficult and annoying to listen my talk. I can see a BER over 5%/6%, that's is so strange because with other radios there's no problem, no loss, no BER over 1, a great modulation; moreover HD1 works properly in other hotspots (tried with a GD77, with a MMDVM board on Pi-star and with 2 repeters) so i thought there's something like incompatibility between DM1801 (in HS mode) and this HD1. I hope i've explained all clearly despite my poor english. So, does anybody had same issues and could me take some opinion?<br>Thanks to all and 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2464">IS0HYP</a> — Sat Feb 12, 2022 11:23 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

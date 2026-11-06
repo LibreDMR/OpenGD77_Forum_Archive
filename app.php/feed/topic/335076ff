@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3350" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-11-23T14:17:26</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3350</id>
+
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-11-23T14:17:26</updated>
+
+		<published>2023-11-23T14:17:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27646#p27646</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27646#p27646"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27646#p27646"><![CDATA[
+I noticed that the symptom changed slightly with the latest firmware (11.19).  Now when I return to the  Channel display after multiple installing Keps, the GD-77 is completely locked up, ie. no buttons work.   All that works is Pwr Off.   To recover the radio, I do a real Pwr off (sk2+ pwr off) and pwr on.<br>I am  open to more ideas on how to troubleshoot/isolate is strange behavior.<br>regards, tom ab7ic<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Thu Nov 23, 2023 2:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-11-21T12:50:39</updated>
+
+		<published>2023-11-21T12:50:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27597#p27597</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27597#p27597"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27597#p27597"><![CDATA[
+The point here is that you're the only one who is experiencing that strange problem, and there is a bunch of people using the satellite feature, and as far as I remember no-one reported such problem,  and I'm not able to reproduce it on any device here, this is why it looks suspicious regarding a firmware bug.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Nov 21, 2023 12:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-11-21T12:32:22</updated>
+
+		<published>2023-11-21T12:32:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27596#p27596</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27596#p27596"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27596#p27596"><![CDATA[
+Mistakes in my last append:  "real pwr" off is sk2 + Pwr off.  and the word Stalling should have been "the Satellite screen"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Tue Nov 21, 2023 12:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-11-21T12:26:25</updated>
+
+		<published>2023-11-21T12:26:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27595#p27595</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27595#p27595"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27595#p27595"><![CDATA[
+Roger,  Please read the info at the beginning  of this thread where I describe the problem in detail and have several back/forths with Daniel.<br>Yes it is a GD-77.  now running firmware 11.19 and I'm using CPS 11.11<br>The computer is an IBM ThinkPad running Windows 7 Home version.  I have been using this Laptop for years to download firmware and code plugs to my GD77.  <br>Operation corrupt means,  when I return to the normal operation screen from Stalling, the arrow buttons no longer work, zones shows ?, and it takes a real PWR off (sk1 + pwr off) then on to restore normal operations.<br><br>I will work of finding another computer to try and recreate.  But given the nature of the issue (i.e. it requires multiple download of keps). I doubt it is the computer,  but agree it is more likely to be the radio, or something unique with my codeplug.<br>regards, tom ab7ic. in Tucson AZ.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Tue Nov 21, 2023 12:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-11-21T08:57:08</updated>
+
+		<published>2023-11-21T08:57:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27592#p27592</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27592#p27592"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27592#p27592"><![CDATA[
+I (re)tried, following the listed procedure, and I'm not experiencing any problem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Nov 21, 2023 8:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-11-20T21:12:47</updated>
+
+		<published>2023-11-20T21:12:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27575#p27575</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27575#p27575"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27575#p27575"><![CDATA[
+Please explain what you mean by<br><br>"install keps. Fail. ie radio function corrupt."<br><br>Please confirm you are using a GD-77<br><br>Please confirm what operating system you are using.<br><br>Have you tried uploading any different computers, i.e potentially there is a problem while uploading the data via USB on the computer you are using.<br><br><br>You appear to be the only person reporting this problem, despite hundreds of people using the satellite functionality every day, including regularly updating their keps file, so its likely that this problem is with either your PC or with your radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Nov 20, 2023 9:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-11-20T16:24:41</updated>
+
+		<published>2023-11-20T16:24:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27564#p27564</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27564#p27564"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=27564#p27564"><![CDATA[
+Sorry to report the problem still exists with the latest CPS and firmware. R2023.11.11.01 and  firmware of 11-19-2023<br>regards, ab7ic tom<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Mon Nov 20, 2023 4:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-10-07T13:12:07</updated>
+
+		<published>2023-10-07T13:12:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26744#p26744</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26744#p26744"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26744#p26744"><![CDATA[
+Another failing sequence.<br>From Channel screen, Install keps 5 times.  no problem. radio responds to arrow keys, operation in channel mode ok.<br>Go to Satellite mode, Predicting runs, scroll up/down the list, all ok.<br>Return to Channel mode (2 x red button).<br>install keps.  Fail. ie radio function corrupt.<br> I hope this is a clue,  -tom<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Sat Oct 07, 2023 1:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-10-06T17:11:12</updated>
+
+		<published>2023-10-06T17:11:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26730#p26730</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26730#p26730"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26730#p26730"><![CDATA[
+Just a thought..  is there any chance that the "Predicting" operation that occurs just after a firmware load in the satellite list screen is causing my issue?<br>Also,  my keps come from https:\\<a href="http://www.celestrak.com/NORAD/elements/amateur.txt" class="postlink">www.celestrak.com/NORAD/elements/amateur.txt</a>   Same for you?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Fri Oct 06, 2023 5:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-06T15:37:57</updated>
+
+		<published>2023-10-06T15:37:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26726#p26726</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26726#p26726"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26726#p26726"><![CDATA[
+Okay, thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Oct 06, 2023 3:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-10-06T15:05:21</updated>
+
+		<published>2023-10-06T15:05:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26725#p26725</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26725#p26725"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26725#p26725"><![CDATA[
+Sat: Manual<br>suspend: on<br>Allow PC: off<br>Timezone: -7:00<br>DMR Filter: TG<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Fri Oct 06, 2023 3:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-06T14:24:14</updated>
+
+		<published>2023-10-06T14:24:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26722#p26722</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26722#p26722"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26722#p26722"><![CDATA[
+<blockquote class="uncited"><div>Daniel I am not sure what you are asking.<br>Note: I am using the latest CPS (09.21) and firmware (09.15) on a GD-77.<br>After I do multiple "Install Satellite Keps"  from the satellite list screen. If I go back to channel mode, the arrows don't work, ZONE gives me ?6 characters. <br>I am not changing any settings. <br>Here is what I just did to recreate:<br>Starting with GD-77 is working correctly,  Keps are loaded and satellite list mode is up. I can switch back/forth to channel/satellite mode.<br>With satellite list up, I now "install keps".<br>all is still working, switch back to channel mode,  all is still working, switch back to satellite list, Install keps,  now radio is honked, cannot scroll down on satellite list, and cannot switch back to channel mode.  Radio is useless until I do SK2+Pwr off, then power on.<br>Do you need a list of all my settings under Options?</div></blockquote><br>Well, avoid updating the keps while in the satellite screens (any), next firnware will exit the sat screen when CPS communication happens.<br><br><br>About the options, I need to know which ones you're changing from the default value, as a matter to have the same conditions as you.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Oct 06, 2023 2:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-10-06T13:18:15</updated>
+
+		<published>2023-10-06T13:18:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26721#p26721</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26721#p26721"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26721#p26721"><![CDATA[
+Daniel I am not sure what you are asking.<br>Note: I am using the latest CPS (09.21) and firmware (09.15) on a GD-77.<br>After I do multiple "Install Satellite Keps"  from the satellite list screen. If I go back to channel mode, the arrows don't work, ZONE gives me ?6 characters. <br>I am not changing any settings. <br>Here is what I just did to recreate:<br>Starting with GD-77 is working correctly,  Keps are loaded and satellite list mode is up. I can switch back/forth to channel/satellite mode.<br>With satellite list up, I now "install keps".<br>all is still working, switch back to channel mode,  all is still working, switch back to satellite list, Install keps,  now radio is honked, cannot scroll down on satellite list, and cannot switch back to channel mode.  Radio is useless until I do SK2+Pwr off, then power on.<br>Do you need a list of all my settings under Options?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Fri Oct 06, 2023 1:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-06T06:20:49</updated>
+
+		<published>2023-10-06T06:20:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26713#p26713</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26713#p26713"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26713#p26713"><![CDATA[
+Hi,<br><br>  Well, I'm unable to reproduce for now.<br>Which settings are you changing when the settings get "updated" (apart Suspend: On)?<br><br><br>Cheers.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Oct 06, 2023 6:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2023-10-04T18:03:10</updated>
+
+		<published>2023-10-04T18:03:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26677#p26677</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26677#p26677"/>
+		<title type="html"><![CDATA[Re: Multiple install Satellite keps corrupts radio operation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3350&amp;p=26677#p26677"><![CDATA[
+Daniel,  I did not edit satellites.txt.  In fact I have not edited any file.<br>I sent you my codeplug to your email address in QRZ, as I did not know how to attach it here.<br>If there is anything at all I can so resolve this mystery, please let me know.<br>regards, tom AB7IC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Wed Oct 04, 2023 6:03 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

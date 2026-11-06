@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4729" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-15T22:24:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4729</id>
+
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-01-15T22:24:40</updated>
+
+		<published>2025-01-15T22:24:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4729&amp;p=35154#p35154</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4729&amp;p=35154#p35154"/>
+		<title type="html"><![CDATA[Re: Code plug for specific area]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4729&amp;p=35154#p35154"><![CDATA[
+What I have done in my code plug is enter all the repeater channels that I might regularly want, covering the entire country (NZ), and then put them into different zones that apply to the various parts of the country that I might visit. A channel can be in more than one zone, so I can put a channel in two or more zones if it might overlap a regional boundary or if the same repeater frequencies are used in multiple areas. Channels that I think I would be less likely to use, so aren't in my code plug, I can always enter into the VFOs from the keypad on an as required basis.<br><br>I also have some zones that only hold RX only channels and apply nationwide, such as Marine, UHF CB, rail network, etc., - this is mainly so I can use zone scan to easily monitor them. In addition to that I have a zone that includes Marine, my hot spot and a local VHF repeater that I use when at our holiday home to monitor things of interest and use to me there ie., a mixture of RX only and RX/TX channels.*<br><br>The firmware is very flexible when it comes to organising channels into zones, so I think needing to have more than one code plug for a single radio would be a very rare use case. <br><br>* - I have set "RX only" on all the non-amateur channels (the rail network ones don't even have a TX frequency entered), the code plug frequency limits are set to NZ VHF and UHF band limits and the radio is set to "CPS limits" - it would need two code plug mis-configurations, two deliberate changes to parameters in the radio or some combination of those to transmit where I shouldn't, so I'm not too worried about that possibility.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Wed Jan 15, 2025 10:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-04T17:53:06</updated>
+
+		<published>2025-01-04T17:53:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4729&amp;p=34988#p34988</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4729&amp;p=34988#p34988"/>
+		<title type="html"><![CDATA[Code plug for specific area]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4729&amp;p=34988#p34988"><![CDATA[
+Using open gd77 with a baofeng DM-1701. Is is acceptable to rename codeplug with a specific area when saving and should I create new codeplug for a new area that I'll travel to or is there another method to do that.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Sat Jan 04, 2025 5:53 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4971" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-10T06:59:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4971</id>
+
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-04-10T06:59:13</updated>
+
+		<published>2025-04-10T06:59:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36682#p36682</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36682#p36682"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36682#p36682"><![CDATA[
+Hello,<br><br>I'd also like to point out that the data lines on the Baofeng DM1701 programming cable are REVERSED from those on the RT3s/GD77! An RT3s/GD77 programming cable will NOT work on the Baofeng DM1701!<br><br>73 Alfred OE7ABH<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Thu Apr 10, 2025 6:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1cym]]></name></author>
+		<updated>2025-03-23T20:33:31</updated>
+
+		<published>2025-03-23T20:33:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36396#p36396</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36396#p36396"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36396#p36396"><![CDATA[
+thanks i got it. it was not in the blinking mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8043">oh1cym</a> — Sun Mar 23, 2025 8:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-21T14:57:02</updated>
+
+		<published>2025-03-21T14:57:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36339#p36339</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36339#p36339"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36339#p36339"><![CDATA[
+<blockquote class="uncited"><div>I don't know if it the genuine soft, it was sold mentioned opengd77 version.how can I check ?</div></blockquote>Please take a photo of you radio while it is running, it is very easy to tell by just looking at the screen of the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Mar 21, 2025 2:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1cym]]></name></author>
+		<updated>2025-03-21T12:38:06</updated>
+
+		<published>2025-03-21T12:38:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36330#p36330</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36330#p36330"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36330#p36330"><![CDATA[
+I don't know if it the genuine soft, it was sold mentioned opengd77 version.how can I check ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8043">oh1cym</a> — Fri Mar 21, 2025 12:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-21T12:13:24</updated>
+
+		<published>2025-03-21T12:13:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36328#p36328</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36328#p36328"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36328#p36328"><![CDATA[
+<blockquote class="uncited"><div>It s a genuine baofeng 1701</div></blockquote>Ok, so it is not running OpenGD77. <br>Now, if you want to install OpenGD77 to your 1701. There is a lot of tutorials out there, or you can follow the official one in the 1701 section of the forum. <br>If you want to stay with the original firmware, you might need to seek help on other sources, most of us here doesn’t have much experience with the original firmware and CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Mar 21, 2025 12:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1cym]]></name></author>
+		<updated>2025-03-21T11:34:44</updated>
+
+		<published>2025-03-21T11:34:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36326#p36326</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36326#p36326"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36326#p36326"><![CDATA[
+It s a genuine baofeng 1701<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8043">oh1cym</a> — Fri Mar 21, 2025 11:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-20T20:52:03</updated>
+
+		<published>2025-03-20T20:52:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36320#p36320</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36320#p36320"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36320#p36320"><![CDATA[
+<blockquote class="uncited"><div>Please anyone can tell me what is the appropriate driver to install to get this bit## work ? Thanks 73</div></blockquote>First of all. What kind of radio do you have? <br>Second, please search google for image of radio running OpenGD77 and compare to your radio.<br><br>If your radio is running OpenGD77. then the next question is what are you trying to do?<br>If your radio is NOT running OpenGD77, then the next question is what do you want to do?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Mar 20, 2025 8:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1cym]]></name></author>
+		<updated>2025-03-20T20:20:55</updated>
+
+		<published>2025-03-20T20:20:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36319#p36319</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36319#p36319"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36319#p36319"><![CDATA[
+Please anyone can tell me what is the appropriate driver to install to get this bit## work ? Thanks 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8043">oh1cym</a> — Thu Mar 20, 2025 8:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1cym]]></name></author>
+		<updated>2025-03-20T20:18:41</updated>
+
+		<published>2025-03-20T20:18:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36318#p36318</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36318#p36318"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36318#p36318"><![CDATA[
+I have same problem but reinstall of cps did not fix this. Have they changed some chips et. You mention there is possibly not the opengd77 in the radio, how can I know ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8043">oh1cym</a> — Thu Mar 20, 2025 8:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3DDS]]></name></author>
+		<updated>2025-03-18T12:47:47</updated>
+
+		<published>2025-03-18T12:47:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36265#p36265</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36265#p36265"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36265#p36265"><![CDATA[
+Thank you<br><br>This worked<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8289">W3DDS</a> — Tue Mar 18, 2025 12:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-03-17T23:35:03</updated>
+
+		<published>2025-03-17T23:35:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36259#p36259</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36259#p36259"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36259#p36259"><![CDATA[
+<blockquote class="uncited"><div>Hello Folks,<br><br>I am using Win 11 and have a TYT UV380.<br><br>My computer has the com. port driver for using the TYT CPS and it works fine.  When I try to use the latest version of the Open GD77 no com ports are recognized.  I am using the stock programming cable that came with my radio.  <br><br>Any suggestions?</div></blockquote>I've noticed the same, but is easy to fix, just leave the radio connected to your PC and reinstall OpenGD77 CPS that will reinstall the COM port driver too and will fix the issue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Mar 17, 2025 11:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-17T22:48:31</updated>
+
+		<published>2025-03-17T22:48:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36258#p36258</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36258#p36258"/>
+		<title type="html"><![CDATA[Re: Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36258#p36258"><![CDATA[
+<blockquote class="uncited"><div>Hello Folks,<br><br>I am using Win 11 and have a TYT UV380.<br><br>My computer has the com. port driver for using the TYT CPS and it works fine.  When I try to use the latest version of the Open GD77 no com ports are recognized.  I am using the stock programming cable that came with my radio.  <br><br>Any suggestions?</div></blockquote>Is your radio running OpenGD77 firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Mar 17, 2025 10:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3DDS]]></name></author>
+		<updated>2025-03-17T21:39:42</updated>
+
+		<published>2025-03-17T21:39:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36255#p36255</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36255#p36255"/>
+		<title type="html"><![CDATA[Com Port Driver]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4971&amp;p=36255#p36255"><![CDATA[
+Hello Folks,<br><br>I am using Win 11 and have a TYT UV380.<br><br>My computer has the com. port driver for using the TYT CPS and it works fine.  When I try to use the latest version of the Open GD77 no com ports are recognized.  I am using the stock programming cable that came with my radio.  <br><br>Any suggestions?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8289">W3DDS</a> — Mon Mar 17, 2025 9:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

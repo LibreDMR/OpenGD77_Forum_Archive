@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4641" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-06T16:37:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4641</id>
+
+		<entry>
+		<author><name><![CDATA[DN9CYL]]></name></author>
+		<updated>2024-12-06T16:37:48</updated>
+
+		<published>2024-12-06T16:37:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34447#p34447</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34447#p34447"/>
+		<title type="html"><![CDATA[Re: Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34447#p34447"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello,<br>why doesn't the display turn off?<br>where exactly do I have to make which setting?<br>I just can't find anything  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_confused.gif" width="15" height="17" alt=":?" title="Confused">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> <br><br>73,DN9CYL</div></blockquote>menu -&gt; options -&gt; display options -&gt; min brightness = 0<br><br>menu -&gt; options -&gt; display options -&gt; mode -&gt; set it as you like<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#mode-1" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... .md#mode-1</a><br><br>menu -&gt; options -&gt; display options -&gt; timeout -&gt; set it as you like <br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#timeout" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... md#timeout</a></div></blockquote>MERCI !!!!!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7172">DN9CYL</a> — Fri Dec 06, 2024 4:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-06T14:47:10</updated>
+
+		<published>2024-12-06T14:47:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34444#p34444</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34444#p34444"/>
+		<title type="html"><![CDATA[Re: Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34444#p34444"><![CDATA[
+<blockquote class="uncited"><div>Hello,<br>why doesn't the display turn off?<br>where exactly do I have to make which setting?<br>I just can't find anything  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_confused.gif" width="15" height="17" alt=":?" title="Confused">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> <br><br>73,DN9CYL</div></blockquote>menu -&gt; options -&gt; display options -&gt; min brightness = 0<br><br>menu -&gt; options -&gt; display options -&gt; mode -&gt; set it as you like<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#mode-1" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... .md#mode-1</a><br><br>menu -&gt; options -&gt; display options -&gt; timeout -&gt; set it as you like <br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#timeout" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... md#timeout</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Dec 06, 2024 2:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DN9CYL]]></name></author>
+		<updated>2024-12-06T14:18:54</updated>
+
+		<published>2024-12-06T14:18:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34443#p34443</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34443#p34443"/>
+		<title type="html"><![CDATA[Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4641&amp;p=34443#p34443"><![CDATA[
+Hello,<br>why doesn't the display turn off?<br>where exactly do I have to make which setting?<br>I just can't find anything  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_confused.gif" width="15" height="17" alt=":?" title="Confused">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> <br><br>73,DN9CYL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7172">DN9CYL</a> — Fri Dec 06, 2024 2:18 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

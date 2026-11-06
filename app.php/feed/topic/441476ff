@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4414" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-26T05:59:32</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4414</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-10-26T05:59:32</updated>
+
+		<published>2024-10-26T05:59:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33710#p33710</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33710#p33710"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33710#p33710"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Are you sure you press SK2 + GREEN to permanently store the use location setting ?</div></blockquote>YES. Today I plan to reload the latest CPS and Firmware again one more time just incase there was a issue with the previous uploads.<br><br>Will update finding over the next few days<br><br>Many thanks <br><br>John<br>GW6RTV</div></blockquote>I've checked the operation, and it is working, however it may not appear to be working. On my V2 9600 and my other radios.<br><br><br>I think the problem is that if you change the Location setting, must be saved permanently before it will take any effect.<br><br>And ... exiting from the Channel Details screen is not currently forcing a re-sort of the current zone.  So that even if you save it permanently, you won't see any difference unless you go into the QuickMenu -&gt; Roaming and force a re-sort by pressing enter on the Manual or distance value.<br><br>The reason you need to save this setting permanently for it to have an effect, is that the sorting requires that every channel in the zone needs to be reloaded from the codeplug data to get the Location On/Off setting and the Lat/Long, so the current channel , i.e that you just changed the Location status of;  will not remaing in memory and the temporary change of Location:Yes/No will be lost as each of the other channels is loaded into memory.<br><br>Probably one improvement would be for us to determine if the status of the Location setting has been changed by the operator and force a re-sort of the zone when this has happened, or even perhaps just when the operator has permanently saved a change to the channel details.</div></blockquote>Of course you need to permanently save the location flag and/or coordinates if you want to make the sorting function working, as per design if you temporary save the channel, the changes will be reverted on the first channel change (which the sorting function does).<br>In the latest beta, any change to the location flag or coordinates force the sorting function to be executed, but depending of the current channel you are editing, it could remain selected, but that's right because it depends of that channel position in the sorted list.<br>Try to enable/disable the location flag in, lets say, the first two channels of the sorted list, you will see that it works as expected.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Oct 26, 2024 5:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-26T00:14:45</updated>
+
+		<published>2024-10-26T00:14:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33707#p33707</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33707#p33707"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33707#p33707"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Are you sure you press SK2 + GREEN to permanently store the use location setting ?</div></blockquote>YES. Today I plan to reload the latest CPS and Firmware again one more time just incase there was a issue with the previous uploads.<br><br>Will update finding over the next few days<br><br>Many thanks <br><br>John<br>GW6RTV</div></blockquote>I've checked the operation, and it is working, however it may not appear to be working. On my V2 9600 and my other radios.<br><br><br>I think the problem is that if you change the Location setting, must be saved permanently before it will take any effect.<br><br>And ... exiting from the Channel Details screen is not currently forcing a re-sort of the current zone.  So that even if you save it permanently, you won't see any difference unless you go into the QuickMenu -&gt; Roaming and force a re-sort by pressing enter on the Manual or distance value.<br><br>The reason you need to save this setting permanently for it to have an effect, is that the sorting requires that every channel in the zone needs to be reloaded from the codeplug data to get the Location On/Off setting and the Lat/Long, so the current channel , i.e that you just changed the Location status of;  will not remaing in memory and the temporary change of Location:Yes/No will be lost as each of the other channels is loaded into memory.<br><br>Probably one improvement would be for us to determine if the status of the Location setting has been changed by the operator and force a re-sort of the zone when this has happened, or even perhaps just when the operator has permanently saved a change to the channel details.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Oct 26, 2024 12:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[gw6rtv]]></name></author>
+		<updated>2024-10-25T10:35:18</updated>
+
+		<published>2024-10-25T10:35:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33692#p33692</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33692#p33692"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33692#p33692"><![CDATA[
+<blockquote class="uncited"><div>Are you sure you press SK2 + GREEN to permanently store the use location setting ?</div></blockquote>YES. Today I plan to reload the latest CPS and Firmware again one more time just incase there was a issue with the previous uploads.<br><br>Will update finding over the next few days<br><br>Many thanks <br><br>John<br>GW6RTV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3150">gw6rtv</a> — Fri Oct 25, 2024 10:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-10-25T10:18:28</updated>
+
+		<published>2024-10-25T10:18:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33690#p33690</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33690#p33690"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33690#p33690"><![CDATA[
+Are you sure you press SK2 + GREEN to permanently store the use location setting ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Oct 25, 2024 10:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[gw6rtv]]></name></author>
+		<updated>2024-10-25T10:10:12</updated>
+
+		<published>2024-10-25T10:10:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33689#p33689</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33689#p33689"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33689#p33689"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Beta release #2 uploaded to my V2 Retevis RT90s successfully, but on reflection when I attempt toggle between location yes/no it does not save, tried via the microphone and the front of the radio,  will test it out over the weekend and report back.<br><br>John<br>GW6RTV</div></blockquote>Did you tried sk2 + green?</div></blockquote>I can comfirm that after the last week of testing the latest Beta, the abilty to switch between Location yes/no does not work on my V2 radio, I even reflashed the firmware again mid week in case there had been a problem with the initial install, I also noticed this morning that the Keps APRS function was also not working, this was comfirmed by using APRS.fi for comformation, other than that all seems to be working OK.<br><br>John<br>GW6RTV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3150">gw6rtv</a> — Fri Oct 25, 2024 10:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-18T14:11:06</updated>
+
+		<published>2024-10-18T14:11:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33572#p33572</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33572#p33572"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33572#p33572"><![CDATA[
+<blockquote class="uncited"><div><br><a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4497" class="postlink">viewtopic.php?f=18&amp;t=4497</a></div></blockquote>Thank you, will update tonight.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Oct 18, 2024 2:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-18T14:09:43</updated>
+
+		<published>2024-10-18T14:09:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33571#p33571</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33571#p33571"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33571#p33571"><![CDATA[
+<blockquote class="uncited"><div>Beta release #2 uploaded to my V2 Retevis RT90s successfully, but on reflection when I attempt toggle between location yes/no it does not save, tried via the microphone and the front of the radio,  will test it out over the weekend and report back.<br><br>John<br>GW6RTV</div></blockquote>Did you tried sk2 + green?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Oct 18, 2024 2:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[gw6rtv]]></name></author>
+		<updated>2024-10-18T13:08:38</updated>
+
+		<published>2024-10-18T13:08:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33570#p33570</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33570#p33570"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33570#p33570"><![CDATA[
+Beta release #2 uploaded to my V2 Retevis RT90s successfully, but on reflection when I attempt toggle between location yes/no it does not save, tried via the microphone and the front of the radio,  will test it out over the weekend and report back.<br><br>John<br>GW6RTV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3150">gw6rtv</a> — Fri Oct 18, 2024 1:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-18T05:54:25</updated>
+
+		<published>2024-10-18T05:54:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33550#p33550</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33550#p33550"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33550#p33550"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>Daniel F1RMB has been working on this.<br><br>I'll need to incorporate and test his changes today and then post another beta, either today or tomorrow</div></blockquote>Thank you,<br>Charlie,</div></blockquote>See <br><br><a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4497" class="postlink">viewtopic.php?f=18&amp;t=4497</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 18, 2024 5:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-17T23:16:18</updated>
+
+		<published>2024-10-17T23:16:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33538#p33538</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33538#p33538"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33538#p33538"><![CDATA[
+<blockquote class="uncited"><div><br>Daniel F1RMB has been working on this.<br><br>I'll need to incorporate and test his changes today and then post another beta, either today or tomorrow</div></blockquote>Thank you,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Oct 17, 2024 11:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-17T22:06:39</updated>
+
+		<published>2024-10-17T22:06:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33533#p33533</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33533#p33533"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33533#p33533"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger,<br><br>Today, I have encounter a down repeater. This repeater is in my codeplug with GPS coordinated entered and "use location flag" turned on. I was in the area and realize it is down. I was trying to unflag the use location from the front panel (channel details menu, to be exact), but there is no use location flag in the channel details menu. Is it possible to add this in the next beta?<br><br>P.S. This was on the 20241009 firmware. I decided to post here because I feel like it belong here and don't want to create noise on the beta 20241009 post.<br><br>Charlie,</div></blockquote>Daniel F1RMB has been working on this.<br><br>I'll need to incorporate and test his changes today and then post another beta, either today or tomorrow<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 17, 2024 10:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-17T21:20:42</updated>
+
+		<published>2024-10-17T21:20:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33532#p33532</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33532#p33532"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33532#p33532"><![CDATA[
+Hi Roger,<br><br>Today, I have encounter a down repeater. This repeater is in my codeplug with GPS coordinated entered and "use location flag" turned on. I was in the area and realize it is down. I was trying to unflag the use location from the front panel (channel details menu, to be exact), but there is no use location flag in the channel details menu. Is it possible to add this in the next beta?<br><br>P.S. This was on the 20241009 firmware. I decided to post here because I feel like it belong here and don't want to create noise on the beta 20241009 post.<br><br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Oct 17, 2024 9:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-01T09:50:48</updated>
+
+		<published>2024-10-01T09:50:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33305#p33305</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33305#p33305"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33305#p33305"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>OK.<br><br>I've made the changes for the beep and also turning on the backlight<br><br>I decided not to use 1km radius, as this would probably cause the channel to change too frequently.  However I can change this in the future if there is a good reason for a 1km raduis setting<br><br>The new version is here<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/2b33a4d7d7aa782bd5c2599443651f541f9af721" class="postlink">downloads/MD9600/Firmware/2b33a4d7d7aa7 ... 541f9af721</a></div></blockquote>Having uploaded the latest firmware, I can confirm the V2 version works perfectly, even noticed when driving around over the last couple of days while having a cluster zone selected (Group of repeaters linked) that the repeater change over when in use was perfect, the backlight confirmed the switch over to the next nearest repeater, and also the Audable did not overide the speach, therefore no break in the receive transmission.<br>This latest upgrade to the OpenGD77 firmware has taken it to another level.<br><br>John<br>GW6RTV</div></blockquote>Thanks for testing.<br><br>We are working on a few more changes, but nothing drastic, and will hopefully do a full public release at the weekend for all radios.<br>i.e it will also work on the UV380/RT-3S which have GPS fitted, or for that matter a GD77 if people have modified it to include a GPS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 01, 2024 9:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[gw6rtv]]></name></author>
+		<updated>2024-10-01T09:15:41</updated>
+
+		<published>2024-10-01T09:15:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33304#p33304</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33304#p33304"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33304#p33304"><![CDATA[
+<blockquote class="uncited"><div>OK.<br><br>I've made the changes for the beep and also turning on the backlight<br><br>I decided not to use 1km radius, as this would probably cause the channel to change too frequently.  However I can change this in the future if there is a good reason for a 1km raduis setting<br><br>The new version is here<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/2b33a4d7d7aa782bd5c2599443651f541f9af721" class="postlink">downloads/MD9600/Firmware/2b33a4d7d7aa7 ... 541f9af721</a></div></blockquote>Having uploaded the latest firmware, I can confirm the V2 version works perfectly, even noticed when driving around over the last couple of days while having a cluster zone selected (Group of repeaters linked) that the repeater change over when in use was perfect, the backlight confirmed the switch over to the next nearest repeater, and also the Audable did not overide the speach, therefore no break in the receive transmission.<br>This latest upgrade to the OpenGD77 firmware has taken it to another level.<br><br>John<br>GW6RTV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3150">gw6rtv</a> — Tue Oct 01, 2024 9:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-30T20:25:23</updated>
+
+		<published>2024-09-30T20:25:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33296#p33296</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33296#p33296"/>
+		<title type="html"><![CDATA[Re: Dist. Sort]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4414&amp;p=33296#p33296"><![CDATA[
+Thanks for testing<br><br>We are cleaning up a few things and renaming Distance Sort to Roaming etc, and hopefully we will be able to release it as a public Beta at the weekend<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 30, 2024 8:25 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

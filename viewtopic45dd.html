@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5134&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 17:52:39 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; Hotspot power on 9600</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>Hotspot power on 9600</h2>
+		<p><a href="viewtopic3234.html?f=18&amp;t=5134">viewtopic.php?f=18&amp;t=5134</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>Hotspot power on 9600</h3>
+				<div class="date">Posted: <strong>Thu May 22, 2025 12:27 am</strong></div>
+				<div class="author">by <strong>kg0rp</strong></div>
+				<div class="content">I recently updated my 9600 with the latest Open GD77 firmware.  Since that update, the power is set to 1 watt no matter what I set the power level to using the Eexpert-&gt;MMDVMHost-&gt;Infor-&gt;Power.  I tried several parameters, but no matter what I set it to it sets the radio to 1 watt.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Hotspot power on 9600</h3>
+				<div class="date">Posted: <strong>Thu May 22, 2025 7:37 am</strong></div>
+				<div class="author">by <strong>SA0BUX</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=4064&amp;sid=02086be075a0cdb32c289185587ec974">kg0rp</a> wrote: <a href="viewtopicdbf4.html?p=37187&amp;sid=02086be075a0cdb32c289185587ec974#p37187" data-post-id="37187" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu May 22, 2025 12:27 am</div></cite>
+I recently updated my 9600 with the latest Open GD77 firmware.  Since that update, the power is set to 1 watt no matter what I set the power level to using the Eexpert-&gt;MMDVMHost-&gt;Infor-&gt;Power.  I tried several parameters, but no matter what I set it to it sets the radio to 1 watt.
+</div></blockquote>
+
+<a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#hotspot-mode" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... tspot-mode</a><br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>MD-9600
+
+Power	Pi-Star RFLevel
+100mW	1
+250mW	5
+500mW	10
+750mW	15
+1W	20
+5W	40
+10W	60
+25W	80
+40W	99
++W-	N/A</code></pre></div></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Hotspot power on 9600</h3>
+				<div class="date">Posted: <strong>Mon May 26, 2025 1:17 am</strong></div>
+				<div class="author">by <strong>kg0rp</strong></div>
+				<div class="content">That is what I tried, and I tried several settings; but to no avail.  My current setting of 80 should be setting the radio to 25 watts, but it is only set to one watt.  Is there some other parameter that I need to set?  I have never had this problem before.  I`ve attached a screenshot of my configuration.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Hotspot power on 9600</h3>
+				<div class="date">Posted: <strong>Mon May 26, 2025 3:29 am</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">You misread the user guide section:
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/fileaaa0.png?id=2992&amp;sid=02086be075a0cdb32c289185587ec974" class="postimage" alt="Screenshot at 2025-05-26 05-21-21.png" onclick="viewableArea(this);" /></dt>
+						<dd>Screenshot at 2025-05-26 05-21-21.png (173.88 KiB) Viewed 552 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+You're not editing the <strong class="text-strong">MMDVMHost settings</strong>, but the <strong class="text-strong">Info</strong>.
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file45a9.png?id=2993&amp;sid=02086be075a0cdb32c289185587ec974" class="postimage" alt="Screenshot at 2025-05-26 05-30-03.png" onclick="viewableArea(this);" /></dt>
+						<dd>Screenshot at 2025-05-26 05-30-03.png (61.77 KiB) Viewed 552 times</dd>
+		</dl>
+		
+		
+		
+			</div></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Hotspot power on 9600</h3>
+				<div class="date">Posted: <strong>Mon May 26, 2025 10:17 am</strong></div>
+				<div class="author">by <strong>KA1CM</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=4064&amp;sid=02086be075a0cdb32c289185587ec974">kg0rp</a> wrote: <a href="viewtopic98a4-3.html?p=37230&amp;sid=02086be075a0cdb32c289185587ec974#p37230" data-post-id="37230" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon May 26, 2025 1:17 am</div></cite>
+That is what I tried, and I tried several settings; but to no avail.  My current setting of 80 should be setting the radio to 25 watts, but it is only set to one watt.  Is there some other parameter that I need to set?  I have never had this problem before.  I`ve attached a screenshot of my configuration.
+</div></blockquote>
+
+You have to set RFLevel not Power</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5134&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 17:52:41 GMT -->
+</html>

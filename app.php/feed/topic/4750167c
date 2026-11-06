@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4750" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-10T15:33:08</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4750</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-10T15:33:08</updated>
+
+		<published>2025-01-10T15:33:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4750&amp;p=35083#p35083</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4750&amp;p=35083#p35083"/>
+		<title type="html"><![CDATA[Re: Channel Setup Missing Digital ID?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4750&amp;p=35083#p35083"><![CDATA[
+"Override master DMR ID" is the new name, to make it clear that it's optional.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 10, 2025 3:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2025-01-10T15:11:04</updated>
+
+		<published>2025-01-10T15:11:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4750&amp;p=35081#p35081</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4750&amp;p=35081#p35081"/>
+		<title type="html"><![CDATA[Channel Setup Missing Digital ID?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4750&amp;p=35081#p35081"><![CDATA[
+A person trying to help me sent his channel info for our local repeater and his "channel" setting are different.  I guess this could change by version but I'm thinking I've missed a setting somewhere because this Digital ID looks important!<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2803&amp;sid=19a8f37a9f406549817af61a263de550" class="postimage" alt="DIGITAL ID MISSING.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Fri Jan 10, 2025 3:11 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

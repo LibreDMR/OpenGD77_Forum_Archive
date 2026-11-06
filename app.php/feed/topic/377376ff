@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3773" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-13T01:18:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3773</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-02-13T01:18:41</updated>
+
+		<published>2024-02-13T01:18:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29466#p29466</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29466#p29466"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29466#p29466"><![CDATA[
+Hold P3 when turning on the radio and the press ENT to accept the new settings. <br>That will reset all settings. Create a new codeplug using the CPS and load it. That will reset all channels.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Feb 13, 2024 1:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3DYP]]></name></author>
+		<updated>2024-02-13T00:10:32</updated>
+
+		<published>2024-02-13T00:10:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29464#p29464</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29464#p29464"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29464#p29464"><![CDATA[
+<blockquote class="uncited"><div>This is normal. cS2 indicates that the timeslot is being controlled by your contact setting.  When you define a talkgroup or contact you can also assign it a timeslot. <br><br><br>Loading new firmware will never reset the channels. They are defined in the codeplug and that never reset. If you want to remove channels just upload a new codeplug. <br><br>Colin G4EML</div></blockquote>So, after two firmware updates (old and latest), do I now have the default OpenGD77 settings, and only the channels from the old configuration are saved? Did nothing else from the old settings get preserved?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5586">UB3DYP</a> — Tue Feb 13, 2024 12:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-02-12T23:31:45</updated>
+
+		<published>2024-02-12T23:31:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29463#p29463</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29463#p29463"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29463#p29463"><![CDATA[
+This is normal. cS2 indicates that the timeslot is being controlled by your contact setting.  When you define a talkgroup or contact you can also assign it a timeslot. <br><br><br>Loading new firmware will never reset the channels. They are defined in the codeplug and that never reset. If you want to remove channels just upload a new codeplug. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Feb 12, 2024 11:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3DYP]]></name></author>
+		<updated>2024-02-12T23:18:23</updated>
+
+		<published>2024-02-12T23:18:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29462#p29462</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29462#p29462"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29462#p29462"><![CDATA[
+<blockquote class="uncited"><div>Nope, it's not documented for the MD-9600. I will fix that.</div></blockquote>Hello, F1RMB!<br><br>I rolled back to the firmware from February 2023 and got a "settings updated" response, but the channels remained))) Then I updated the firmware to the latest version. Look at the DMR status on the old firmware "TS2" and on the latest firmware, it's "cS2". Is that okay?<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2199&amp;sid=773dc2e486ae9f8ebbdb94697b0ccfcd" class="postimage" alt="photo_2024-02-13_02-09-57.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2198&amp;sid=773dc2e486ae9f8ebbdb94697b0ccfcd" class="postimage" alt="photo_2024-02-13_02-09-57 (2).jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5586">UB3DYP</a> — Mon Feb 12, 2024 11:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-02-12T03:51:00</updated>
+
+		<published>2024-02-12T03:51:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29451#p29451</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29451#p29451"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29451#p29451"><![CDATA[
+Nope, it's not documented for the MD-9600. I will fix that.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Feb 12, 2024 3:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-02-12T03:49:22</updated>
+
+		<published>2024-02-12T03:49:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29450#p29450</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29450#p29450"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29450#p29450"><![CDATA[
+P3 is settings reset on boot (is that documented ?  I will check that).<br>And it's a hardware limitation, we can't use any other key for that.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Feb 12, 2024 3:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-12T03:43:39</updated>
+
+		<published>2024-02-12T03:43:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29449#p29449</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29449#p29449"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29449#p29449"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>  I guess you're pressing P2 while booting ?<br>This is why you're getting black screen, as it's the trick the remote head code uses to enable itself on boot.<br>SK2 is P1 on the MD9600.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote>I tested on my MD9600 ands it seems P1 during power on or boot is not working <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 12, 2024 3:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-02-12T03:18:04</updated>
+
+		<published>2024-02-12T03:18:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29446#p29446</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29446#p29446"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29446#p29446"><![CDATA[
+Hi,<br><br>  I guess you're pressing P2 while booting ?<br>This is why you're getting black screen, as it's the trick the remote head code uses to enable itself on boot.<br>SK2 is P1 on the MD9600.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Feb 12, 2024 3:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-11T22:44:16</updated>
+
+		<published>2024-02-11T22:44:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29444#p29444</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29444#p29444"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29444#p29444"><![CDATA[
+If you downgrade to a much older version, then the settings version will probably be different and that should force a settings update<br><br>However we do not keep records of when settings version numbers where changed<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Feb 11, 2024 10:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3DYP]]></name></author>
+		<updated>2024-02-11T22:11:42</updated>
+
+		<published>2024-02-11T22:11:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29443#p29443</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29443#p29443"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29443#p29443"><![CDATA[
+<blockquote class="uncited"><div>OK.<br><br>I think there may be some bug in the settings reset on the MD9600.<br><br>I will need to investigate this</div></blockquote>Can downgrading the firmware to an older version and upgrading to the current one help reset all settings to default? Which firmware should I choose from the old ones?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5586">UB3DYP</a> — Sun Feb 11, 2024 10:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-11T21:40:13</updated>
+
+		<published>2024-02-11T21:40:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29442#p29442</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29442#p29442"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29442#p29442"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Settings are retained if there were no new settings added in the version you updated to<br><br>Most of the time , we avoid having to change the settings format, as this requires the settings to be reset. However sometimes if we adda new setting, it has tobe initialised to a specific value and the safest way to do this is to force a settings reset</div></blockquote>When I press SK2 and turn on the radio to perform a reset settings, the radio stops turning on altogether. The screen is off. To get the radio working again, I have to press the orange button + SK1 and reflash it.<br><br>I have been learning and trying out different settings, and now I want a pristine, clean firmware installation.<br><br>On tyt-uv380 I was able to reset the settings without any problems, but on 9600 I don’t understand how. I want even the loading screen to become default</div></blockquote>OK.<br><br>I think there may be some bug in the settings reset on the MD9600.<br><br>I will need to investigate this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Feb 11, 2024 9:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3DYP]]></name></author>
+		<updated>2024-02-11T21:33:37</updated>
+
+		<published>2024-02-11T21:33:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29441#p29441</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29441#p29441"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29441#p29441"><![CDATA[
+<blockquote class="uncited"><div>Settings are retained if there were no new settings added in the version you updated to<br><br>Most of the time , we avoid having to change the settings format, as this requires the settings to be reset. However sometimes if we adda new setting, it has tobe initialised to a specific value and the safest way to do this is to force a settings reset</div></blockquote>When I press SK2 and turn on the radio to perform a reset settings, the radio stops turning on altogether. The screen is off. To get the radio working again, I have to press the orange button + SK1 and reflash it.<br><br>I have been learning and trying out different settings, and now I want a pristine, clean firmware installation.<br><br>On tyt-uv380 I was able to reset the settings without any problems, but on 9600 I don’t understand how. I want even the loading screen to become default<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5586">UB3DYP</a> — Sun Feb 11, 2024 9:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-11T20:49:13</updated>
+
+		<published>2024-02-11T20:49:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29437#p29437</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29437#p29437"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29437#p29437"><![CDATA[
+Settings are retained if there were no new settings added in the version you updated to<br><br>Most of the time , we avoid having to change the settings format, as this requires the settings to be reset. However sometimes if we adda new setting, it has tobe initialised to a specific value and the safest way to do this is to force a settings reset<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Feb 11, 2024 8:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3DYP]]></name></author>
+		<updated>2024-02-11T19:36:48</updated>
+
+		<published>2024-02-11T19:36:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29432#p29432</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29432#p29432"/>
+		<title type="html"><![CDATA[Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3773&amp;p=29432#p29432"><![CDATA[
+Hello everyone,<br>I've recently attempted to reflash my TYT MD-9600 with the latest OpenGD77 firmware, expecting a full reset. However, post-flashing, I've noticed that all my previously programmed channels and even the custom welcome screen have been retained.<br><br>I'm puzzled as to how this could have happened since I thought the flashing process would overwrite all existing data. Could anyone shed light on what might have caused this and what steps should be taken to ensure a complete reset when flashing the firmware?<br><br>Additional information:<br>I followed the standard flashing procedure.<br>I was expecting the radio to revert to default settings post-flashing.<br>The custom welcome screen and channels were inputted manually before the attempt to reflash.<br>Any insights or guidance on this matter would be greatly appreciated. Thank you in advance for your time and assistance.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5586">UB3DYP</a> — Sun Feb 11, 2024 7:36 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

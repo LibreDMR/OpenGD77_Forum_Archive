@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3275" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-25T17:50:15</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3275</id>
+
+		<entry>
+		<author><name><![CDATA[gw6rtv]]></name></author>
+		<updated>2024-06-25T17:50:15</updated>
+
+		<published>2024-06-25T17:50:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3275&amp;p=31827#p31827</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3275&amp;p=31827#p31827"/>
+		<title type="html"><![CDATA[Re: Auto-channel tuning by GPS location]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3275&amp;p=31827#p31827"><![CDATA[
+I am currently working on a project for some sort of roaming aka Motorola style, using my Revetis RT90s using the Lat/long coordinates of each repeater there by giving me the distance from the radio to the repeater cluster that I am connected to, using a source code which was made available to me to experiment with, so far I have had some success in as much I can get the system to work if I select the next nearest repeater manually, it then resets the list to nearest first, just have to work out how best to get the radio to automatically switch to the nearest repeater on hearing the tone ident above a certain level so as not to switch on a weak signal.<br><br>John<br>GW6RTV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3150">gw6rtv</a> — Tue Jun 25, 2024 5:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE6BZD]]></name></author>
+		<updated>2023-11-30T13:55:04</updated>
+
+		<published>2023-11-30T13:55:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3275&amp;p=27768#p27768</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3275&amp;p=27768#p27768"/>
+		<title type="html"><![CDATA[Re: Auto-channel tuning by GPS location]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3275&amp;p=27768#p27768"><![CDATA[
+I like the general idea! Although I think the „shadow zones“ as you proposed them are hard, if not impossible to implement. I would instead attempt to combine distance to relay station with RSSI or BER. Just save a list of relais with their GPS coordinates. Try closest relay first (theoretically highest chance of success) -&gt; check if RSSI is sufficient for a stable connection, if not -&gt; try next relay and repeat. If successful -&gt; stay on that relay until RSSI drops below a certain threshold. Maybe apply a simple low-pass filter to the RSSI instead of checking it at fixed intervals for a more reliable decision.<br>The bigger question for me is: how do you get the RSSI value without taking up too much bandwidth on that relay?<br>Let‘s see if I can find the time to play around with this idea when my MD-UV390 arrives <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br>73 Nico<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5024">OE6BZD</a> — Thu Nov 30, 2023 1:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2023-09-12T15:48:27</updated>
+
+		<published>2023-09-12T15:48:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3275&amp;p=26177#p26177</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3275&amp;p=26177#p26177"/>
+		<title type="html"><![CDATA[Auto-channel tuning by GPS location]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3275&amp;p=26177#p26177"><![CDATA[
+HI!<br>I have a suggestion for an automatic channel tuning function based on GPS location for STM32 based radios with GPS receivers.<br>There are similar features implemented in the anytone radios, but they are based on RSSI, which is not a very good indication for DMR signals.<br>The feature would work as follows:<br><br>- create a GPS tuning zone.<br>- each channel would include a transmitter GPS location, input in CPS, It would also include a radius in km/miles of the transmitter range.<br>- each channel would include a list of "shadow zones" when the channel transmitter cannot be heard. Each entry would have GPS location and radius. (This is for mountainous regions like Colorado <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"> )<br>Global parameters:<br>- hysteresis for switching channels when overlapping zones<br>- timer for switching channels when exiting a particular area.( in other words how often we calculate all this. Every 10s 1m 10 m ..etc.)<br>- keypad mapping to turn auto-tuning on or off.<br><br>This is just to seed the idea, i am sure it can be improved.<br>Thoughts ?<br>Thanks!<br>73's<br>Luca<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Tue Sep 12, 2023 3:48 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

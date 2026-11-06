@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4688" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-07T17:45:26</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4688</id>
+
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-07T17:45:26</updated>
+
+		<published>2025-01-07T17:45:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35033#p35033</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35033#p35033"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning [Not a bug - Transmission is not Ham Radio]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35033#p35033"><![CDATA[
+<blockquote class="uncited"><div>Im monitoring ras repeaters, cap plus etc all the time and <strong class="text-strong">its working</strong>. <strong class="text-strong">Dmr crc off</strong>, <strong class="text-strong">ts filter off</strong>.</div></blockquote>as I've mentioned previously the bug about not hearing audio only happens when DMR Filter TG + DRM CRC Off + Scanning.<br><br>while when DMR filter Off + DMR CRC Off + Scanning the audio works normally.<br><blockquote class="uncited"><div>The only problem is ts filter time, as mentioned, also when monitoring both slots on duplex hotspot. Can developers maybe just correct on baofeng 1801 ts filter time to 1 sec min to test it or is my wish too big?</div></blockquote>I'm not sure if the bug is related with that, because that does not explain how in the screen sometimes OpenGD77 shows a TG that does not even match the right TG being transmitted and I guess this is due DMR CRC is off.<br><br>so is more likely related with this <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=2027&amp;p=17268#p17267" class="postlink">viewtopic.php?f=13&amp;t=2027&amp;p=17268#p17267</a> and that is why there is no audio output when DMR Filter TG, or a wrong TG is displayed on screen when DMR Filter Off, and is both cases with DMR CRC Off.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Tue Jan 07, 2025 5:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2025-01-07T07:41:47</updated>
+
+		<published>2025-01-07T07:41:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35031#p35031</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35031#p35031"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning [Not a bug - Transmission is not Ham Radio]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35031#p35031"><![CDATA[
+Im monitoring ras repeaters, cap plus etc all the time and its working. Dmr crc off, ts filter off. <br><br>The only problem is ts filter time, as mentioned, also when monitoring both slots on duplex hotspot. Can developers maybe just correct on baofeng 1801 ts filter time to 1 sec min to test it or is my wish too big?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Tue Jan 07, 2025 7:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-06T20:54:58</updated>
+
+		<published>2025-01-06T20:54:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35022#p35022</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35022#p35022"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning [Not a bug - Transmission is not Ham Radio]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35022#p35022"><![CDATA[
+<blockquote class="uncited"><div>Do you have any mail? I can send you an older firmware and you can make a test? Im 99% it will work with no problem <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"></div></blockquote>well, I can test in a MD-UV390 Plus, but I'm not sure if an older firmware will work on this radio due is a more recent radio model, mail: <span style="text-decoration:line-through"><em class="text-italics">melerix @ outlook . com</em></span><br><blockquote class="uncited"><div>What happens if dmr crc on and ts filter off?</div></blockquote>if I enable DMR CRC then I can't hear anything due these repeaters have RAS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Jan 06, 2025 8:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2025-01-06T20:46:11</updated>
+
+		<published>2025-01-06T20:46:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35021#p35021</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35021#p35021"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning [Not a bug - Transmission is not Ham Radio]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35021#p35021"><![CDATA[
+Do you have any mail? I can send you an older firmware and you can make a test? Im 99% it will work with no problem <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><br><br>What happens if dmr crc on and ts filter off?<br><br><br>Edit: sorry, this older fw is only for baofeng or gd77...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Mon Jan 06, 2025 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-06T20:25:21</updated>
+
+		<published>2025-01-06T20:25:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35020#p35020</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35020#p35020"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning [Not a bug - Transmission is not Ham Radio]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35020#p35020"><![CDATA[
+<blockquote class="uncited"><div>You must be monitoring multi site frequency or capacity plus two site or something in this style - which constantly changes slots, even between two modulations.</div></blockquote>well, in the frequencies where I've noticed the issue, are not using multi-site, neither capacity max, neither connect plus, the frequencies are just simple Motorola DMR repeaters with RAS enabled, and no multiple groups.<br><br>for me looks like the issue is related with RAS and DMR CRC off, causing somehow to OpenGD77 fails to identify the right TG, because for example i've tested with DMR filter off, and with the same frequencies, in the screen sometimes OpenGD77 shows a TG that does not even match the right TG being transmitted and I guess this is due CRC is off.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Jan 06, 2025 8:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2025-01-06T19:50:25</updated>
+
+		<published>2025-01-06T19:50:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35019#p35019</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35019#p35019"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning [Not a bug - Transmission is not Ham Radio]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=35019#p35019"><![CDATA[
+Hello, this is not connected to ras directly, but i believe to slot hold time. I have seen few reports of advanced users on this forum with same problem. You must be monitoring multi site frequency or capacity plus two site or something in this style - which constantly changes slots, even between two modulations. Ras is often persistand on those type of systems. It happens qso is missed sometimes. This happens in scan mode or without. <br><br>I have already asked developers, if there is possibility to make an option ts filter time to 1 second, like it was on older firmwares and i dont know the reason they have changed to to 2sec max, but itn this case its causing troubles.<br><br>I have two baofeng 1801, one with older fw - works perfectly, newer ones with filter time 2 sec misses qsos sometimes.<br><br><strong class="text-strong">This is not only connected to non ham</strong>, the same is if you monitor duplex hotspots and want to monitor both slots fast. If you monitor both slots and some modulation stops on slot 1 for example (on second slot also some qso) it takes two seconds to start monitoring both slots and "open" slot 2 modulation. For those, who want to jump.constantly from one to another ts is this setting not convinient at all.<br><br>Please if you change option ts filter time to 1 sec or 0.5sec minimum, to test at least if this is the reason. I think that also effect scan speed, as older fw scans faster but very rarely misses qso, newer ones have much more problems. <br><br>I think this is a point that can be improved, as it worked better in the past.<br><br>I hope you understand my point. <br><br>73<br>S58sms<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Mon Jan 06, 2025 7:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-20T02:40:35</updated>
+
+		<published>2024-12-20T02:40:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34819#p34819</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34819#p34819"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning [Not a bug - Transmission is not Ham Radio]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34819#p34819"><![CDATA[
+yes I know, I'll try to test if the same issue happens with hams repeaters or simplex DMR signal and I'll let you know if the issue persists (if I can find some hams repeater with same TG).<br><br>EDIT: after some researching, seems the issue is only happening randomly with DMR signals that have RAS, at least for now, I'll try to find more DMR signals with/without RAS to do more tests.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Dec 20, 2024 2:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-20T02:15:48</updated>
+
+		<published>2024-12-20T02:15:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34818#p34818</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34818#p34818"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34818#p34818"><![CDATA[
+<blockquote class="uncited"><div>one is from firefighters.</div></blockquote>The firmware is not designed to work with emergency services or other non-ham transmissions. <br><br>Often it will not receive these transmissions correctly<br><br>This firmware is only for Ham Radio operation and Rx.<br><br>Please do not post bug reports related to listening to Non-Ham transmissions, as these problems are not bugs related to Ham radio operation of the firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 20, 2024 2:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-20T00:52:40</updated>
+
+		<published>2024-12-20T00:52:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34817#p34817</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34817#p34817"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34817#p34817"><![CDATA[
+one is from firefighters.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Dec 20, 2024 12:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-20T00:48:38</updated>
+
+		<published>2024-12-20T00:48:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34816#p34816</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34816#p34816"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34816#p34816"><![CDATA[
+<blockquote class="uncited"><div>with DMR Filter in TG mode.<br><br>in two channels with same TG.<br><br>if the scan holds on channel 1 there is no audio, if I stop the scan there is still no audio but sometimes yes, unless... I use the knob to select another channel and return to the channel 1 and then the audio works.<br><br>but sometimes the channel 1 is just being ignored by the scan.<br><br>this issue is really weird xD</div></blockquote>Are these Ham radio signals?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 20, 2024 12:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-20T00:26:12</updated>
+
+		<published>2024-12-20T00:26:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34815#p34815</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34815#p34815"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34815#p34815"><![CDATA[
+with DMR Filter in TG mode.<br><br>in two channels with same TG.<br><br>if the scan holds on channel 1 there is no audio, if I stop the scan there is still no audio but sometimes yes, unless... I use the knob to select another channel and return to the channel 1 and then the audio works.<br><br>but sometimes the channel 1 is just being ignored by the scan.<br><br>this issue is really weird xD<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Dec 20, 2024 12:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-19T23:41:18</updated>
+
+		<published>2024-12-19T23:41:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34814#p34814</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34814#p34814"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34814#p34814"><![CDATA[
+<blockquote class="uncited"><div>same TG but different frequencies.</div></blockquote>That doesn't make any sense.<br><br>If you set TG filtering, the TG will be the one specific to that Channel and a channel is effectively just a frequency.<br><br>I presume what you are saying, is For Example...<br><br>You have Channel 1 set with a TG = 1234<br><br>There is a transmission on TG1234 on Channel 1<br><br>The scanning stops on Channel 1 and holds there, but you don't get any audio.<br><br>However, if you stop the scan, or manually change onto Channel 1, you do head the audio<br><br><br>Is this what you mean ?????<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 19, 2024 11:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-19T23:21:42</updated>
+
+		<published>2024-12-19T23:21:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34813#p34813</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34813#p34813"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34813#p34813"><![CDATA[
+same TG but different frequencies.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Dec 19, 2024 11:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-19T23:20:21</updated>
+
+		<published>2024-12-19T23:20:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34812#p34812</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34812#p34812"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34812#p34812"><![CDATA[
+<blockquote class="uncited"><div>not sure if a bug, but when you put DMR Filter in "TG" mode and you start scanning in a zone or the channel list, in some DMR channels the audio is not coming out, unless you stop the scan and select the channel manually with the knob, but... if you disable DMR filter and start scanning a zone or the channel list, the DMR channel audio works normally.</div></blockquote>Are the transmissions on the same TG as the one assigned to the Channel ? or a different TG<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 19, 2024 11:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-19T23:15:37</updated>
+
+		<published>2024-12-19T23:15:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34811#p34811</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34811#p34811"/>
+		<title type="html"><![CDATA[Re: issue with DMR Filter while scanning]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4688&amp;p=34811#p34811"><![CDATA[
+not DMR simplex, just DMR frequencies in RX only mode, just for listening.<br><br>btw, I've tested this issue in two different radio models, MD-UV390 Plus and MD-2107 and in both the same happens.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Dec 19, 2024 11:15 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

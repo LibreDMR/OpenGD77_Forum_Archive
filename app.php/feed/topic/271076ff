@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2710" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-01-19T03:33:42</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2710</id>
+
+		<entry>
+		<author><name><![CDATA[BH1AYY]]></name></author>
+		<updated>2024-01-19T03:33:42</updated>
+
+		<published>2024-01-19T03:33:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28791#p28791</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28791#p28791"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28791#p28791"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>md760 Is it supported</div></blockquote>Md760 = gd77</div></blockquote>Thank you very much?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5414">BH1AYY</a> — Fri Jan 19, 2024 3:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BH1AYY]]></name></author>
+		<updated>2024-01-19T03:32:28</updated>
+
+		<published>2024-01-19T03:32:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28790#p28790</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28790#p28790"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28790#p28790"><![CDATA[
+Thank you very much?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5414">BH1AYY</a> — Fri Jan 19, 2024 3:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-18T19:17:56</updated>
+
+		<published>2024-01-18T19:17:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28765#p28765</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28765#p28765"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28765#p28765"><![CDATA[
+<blockquote class="uncited"><div>md760 Is it supported</div></blockquote>Md760 = gd77<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 18, 2024 7:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BH1AYY]]></name></author>
+		<updated>2024-01-18T14:03:29</updated>
+
+		<published>2024-01-18T14:03:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28761#p28761</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28761#p28761"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28761#p28761"><![CDATA[
+md760 Is it supported<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5414">BH1AYY</a> — Thu Jan 18, 2024 2:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-29T16:28:15</updated>
+
+		<published>2023-12-29T16:28:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28331#p28331</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28331#p28331"/>
+		<title type="html"><![CDATA[Re: SOLVED Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28331#p28331"><![CDATA[
+<blockquote class="uncited"><div>I'm getting a "cant connect" error while trying to update my firmware. I'm not sure what the issue is bc the read and write is working fine.<br><br>current firmwear:<br>Built Jun 13 2021<br>e6e9ded<br><br>Screenshot 2023-12-29 095804.png<br><strong class="text-strong"><br>UPDATE :<br>i for got to: Turn on your transceiver in bootloader mode (SK1 + SK2 + power on).</strong></div></blockquote><a href="https://www.opengd77.com/viewforum.php?f=10" class="postlink">viewforum.php?f=10</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Dec 29, 2023 4:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KE8OQQ]]></name></author>
+		<updated>2023-12-29T15:03:20</updated>
+
+		<published>2023-12-29T15:03:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28328#p28328</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28328#p28328"/>
+		<title type="html"><![CDATA[SOLVED Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=28328#p28328"><![CDATA[
+I'm getting a "cant connect" error while trying to update my firmware. I'm not sure what the issue is bc the read and write is working fine.<br><br>current firmwear:<br>Built Jun 13 2021<br>e6e9ded<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2070&amp;sid=36761eccbe66e69c3911bece8049f6b0" class="postimage" alt="Screenshot 2023-12-29 095804.png" onclick="viewableArea(this);" /></dt></dl></div><strong class="text-strong"><br>UPDATE :<br>i for got to: Turn on your transceiver in bootloader mode (SK1 + SK2 + power on).</strong><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1324">KE8OQQ</a> — Fri Dec 29, 2023 3:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-02T00:45:30</updated>
+
+		<published>2023-09-02T00:45:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=25800#p25800</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=25800#p25800"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=25800#p25800"><![CDATA[
+<blockquote class="uncited"><div>I recently bought a DM-1801UV and can't enter firmware mode using the two side button procedure.  Is there a new way of doing it or did Baofeng remove the capability?</div></blockquote>Never heard of a DM-1801UV<br><br>Baofeng replaced the old DM-1801 with a model called the DR-1801 which is completely different hardware inside the case, and is <span style="text-decoration:underline">not updateable</span><br><br>Are you sure you bought a <span style="font-size:150%;line-height:116%">DM</span>-1801UV and not a <span style="font-size:150%;line-height:116%">DR</span>-1801UV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 02, 2023 12:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AI5MU]]></name></author>
+		<updated>2023-09-01T23:34:00</updated>
+
+		<published>2023-09-01T23:34:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=25799#p25799</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=25799#p25799"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=25799#p25799"><![CDATA[
+I recently bought a DM-1801UV and can't enter firmware mode using the two side button procedure.  Is there a new way of doing it or did Baofeng remove the capability?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4359">AI5MU</a> — Fri Sep 01, 2023 11:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-08T22:41:12</updated>
+
+		<published>2023-08-08T22:41:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24916#p24916</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24916#p24916"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24916#p24916"><![CDATA[
+AFIK there is only one hardware version for the DM1701<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 08, 2023 10:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iz5wga]]></name></author>
+		<updated>2023-08-08T22:33:32</updated>
+
+		<published>2023-08-08T22:33:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24915#p24915</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24915#p24915"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24915#p24915"><![CDATA[
+it's not the same cable, it's just a stright kenwood usb cable with no UART chip. It's the one I used to connect it to the rpi pi-star.<br>But apparently it's not a cable problem... the radio just turns off unless I keep the volume knob near the "power off". If I increase the volume, it gets down. Keeping the volume knob as low as possibile before the turn-off "click" it works.<br><br>Maybe I'm just better buy a 1701 (everyone is ok right? No special version trouble)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1118">iz5wga</a> — Tue Aug 08, 2023 10:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-08T22:24:39</updated>
+
+		<published>2023-08-08T22:24:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24914#p24914</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24914#p24914"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24914#p24914"><![CDATA[
+<blockquote class="uncited"><div>Tonight it seems it's not my night.<br>Beside this: after the hole in the water with md 380 (not UV), I brought back my dm 1801 on which I already have a opengd77 firmware (I used it as hotspot back in 2020-2021). I want to replace the firmware with this new one, but: when I connect it with its cable, windows 11 says that the usb is not recognised. I saw that should not be any driver to install (?).<br>The cable is working, since it's the very same I use to program an anytone 878.<br>Now: what am I missing? -.-<br><br>Thanks in advance</div></blockquote>Baofeng use a special cable. You can't use a cable for MD380 etc with a Baofeng<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 08, 2023 10:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iz5wga]]></name></author>
+		<updated>2023-08-08T22:18:08</updated>
+
+		<published>2023-08-08T22:18:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24913#p24913</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24913#p24913"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=24913#p24913"><![CDATA[
+Tonight it seems it's not my night.<br>Beside this: after the hole in the water with md 380 (not UV), I brought back my dm 1801 on which I already have a opengd77 firmware (I used it as hotspot back in 2020-2021). I want to replace the firmware with this new one, but: when I connect it with its cable, windows 11 says that the usb is not recognised. I saw that should not be any driver to install (?).<br>The cable is working, since it's the very same I use to program an anytone 878.<br>Now: what am I missing? -.-<br><br>Thanks in advance<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1118">iz5wga</a> — Tue Aug 08, 2023 10:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-07T21:54:31</updated>
+
+		<published>2023-03-07T21:54:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22457#p22457</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22457#p22457"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22457#p22457"><![CDATA[
+<blockquote class="uncited"><div>I actually forgot, thanks</div></blockquote>FYI.<br><br>You do not need to select it for each upload, you only need to do it once, and the location of the file will be stored. But if you move or delete the donor file and upload the firmware again, then DMR functionality will not work<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 07, 2023 9:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sq9lm]]></name></author>
+		<updated>2023-03-07T21:16:45</updated>
+
+		<published>2023-03-07T21:16:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22453#p22453</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22453#p22453"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22453#p22453"><![CDATA[
+I actually forgot, thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=168">sq9lm</a> — Tue Mar 07, 2023 9:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-07T21:08:35</updated>
+
+		<published>2023-03-07T21:08:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22451#p22451</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22451#p22451"/>
+		<title type="html"><![CDATA[Re: Stable release (2023 03 04)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2710&amp;p=22451#p22451"><![CDATA[
+<blockquote class="uncited"><div>OpenGD77.zip<br>2023-03-04 13:35<br><br>mam problem z t? wersj? radio dzia?a tylko w FM i FMN brak trybu DMR - Pomocy<br><br>I have a problem with this version the radio works only in FM and FMN no DMR mode - Help</div></blockquote>You probably did not select the official / donor firmware file in the CPS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 07, 2023 9:08 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

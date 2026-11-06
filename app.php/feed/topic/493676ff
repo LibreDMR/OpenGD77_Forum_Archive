@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4936" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-10T15:48:54</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4936</id>
+
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-04-10T15:48:54</updated>
+
+		<published>2025-04-10T15:48:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36685#p36685</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36685#p36685"/>
+		<title type="html"><![CDATA[Re: DM-1701 charger on 12V ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36685#p36685"><![CDATA[
+Just received a 1701 from a vendor in Miami Florida. It has the European wall wart with the round pins, so this package was for export, but I got it 100 miles north of Miami. I have plenty of 14 volt wall warts for Motorola Trbo radios. I notified the seller, &amp; waiting for a reply. I could get a US/European adaptor for $3, but I’m wondering if my 14 volt Moto wall warts could safely be used without causing damage. GARY.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Thu Apr 10, 2025 3:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DD5XL]]></name></author>
+		<updated>2025-04-10T09:42:08</updated>
+
+		<published>2025-04-10T09:42:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36684#p36684</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36684#p36684"/>
+		<title type="html"><![CDATA[Re: DM-1701 charger on 12V ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36684#p36684"><![CDATA[
+In the charger base VT1701 there is a SC6038 charging controller, datasheet <span style="text-decoration:line-through">see attached</span> is not allowed to attach.<br><br><a href="https://u.dianyuan.com/upload/space/2011/03/26/1301101488-424710.pdf" class="postlink">https://u.dianyuan.com/upload/space/201 ... 424710.pdf</a><br><br>Its Vin(max) is rated for 18V, so it might safely work at a 12V power supply, but I wouldn't recommend to use it without additional protection at a car lighter plug.<br><br>73 de Bert<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3024">DD5XL</a> — Thu Apr 10, 2025 9:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0LIY]]></name></author>
+		<updated>2025-03-06T16:55:50</updated>
+
+		<published>2025-03-06T16:55:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36084#p36084</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36084#p36084"/>
+		<title type="html"><![CDATA[Re: DM-1701 charger on 12V ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36084#p36084"><![CDATA[
+I've used mine on 12V without any problems. Note, not 13.8V.<br>Cheers,<br>Pieter.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7455">G0LIY</a> — Thu Mar 06, 2025 4:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-03-05T07:20:35</updated>
+
+		<published>2025-03-05T07:20:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36070#p36070</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36070#p36070"/>
+		<title type="html"><![CDATA[DM-1701 charger on 12V ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4936&amp;p=36070#p36070"><![CDATA[
+My 10V 1A PSU for the charger broke yesterday in the Europlug pin, as the radio was delivered with a US charger I had replaced it with one I bought on the European market. <br>Sometimes you wish you had UK plugs instead <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">  <br><br>10V is a bit unusual, most of the other radios (RT3S/MD2017) use a 12V PSU for the charger base.<br><br>Anyone tried to run the base on 12V instead ?<br><br>The chip is marked HC5812 MSLX236 and I haven't found any datasheet on google for it.<br><br>Or I could replace the circuit with some other Li-ion charger circuit, maybe a USB-C based from Aliexpress ?<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2869&amp;sid=3dda80462fd11f905a5f63b47e80a300" class="postimage" alt="20250304_204210.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 05, 2025 7:20 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

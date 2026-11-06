@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3905" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-24T12:39:26</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3905</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-24T12:39:26</updated>
+
+		<published>2024-03-24T12:39:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30344#p30344</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30344#p30344"/>
+		<title type="html"><![CDATA[Re: CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30344#p30344"><![CDATA[
+Hi,<br><br>   But that's not a bug, at all.<br>Turning on safe power on option enables that behavior, that's the operator's choice. Period.<br><br>Hence when the CPS writes data that need the transceiver to be rebooted,  of course that triggers the boot up protection.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 24, 2024 12:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2024-03-24T11:11:25</updated>
+
+		<published>2024-03-24T11:11:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30343#p30343</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30343#p30343"/>
+		<title type="html"><![CDATA[Re: CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30343#p30343"><![CDATA[
+I can confirm that it is the "Safe Pwr-on" option that triggers this behaviour. I noticed this happening a couple of weeks ago, but eventually decided it wasn't an unreasonable side effect of selecting "Safe Pwr-on" (I've only just started using this option), so I didn't bother raising it as a bug.<br><br>As stated by W3ATH, the clue is that if you watch carefully you can see a flash of life as the radio begins the reboot, and then it encounters the Safe Pwr-on flag and quits the boot process. <br><br>This seems sensible to me as it preserves, and is in compliance with, the settings that were present prior to whatever update has just been made.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Sun Mar 24, 2024 11:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2024-03-24T00:33:13</updated>
+
+		<published>2024-03-24T00:33:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30338#p30338</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30338#p30338"/>
+		<title type="html"><![CDATA[Re: CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30338#p30338"><![CDATA[
+I figured out the problem.  However, first I need to clarify what the problem was.  It wasn't an FW issue.  It had to do with the CPS writing the CP to the radio.<br><br>There was a coincidence of events that made the shut down occur.  I got the latest CPS software and used it AFTER I'd changed a setting on the radio to "Safe Pwr-On".  What that does is require you to hold the SK1 button (above PTT) while powering on the radio.  This prevents accidental (e.g., in a backpack) turning on of the unit.<br><br>If you watch the UV-890 screen when you write a CP to it, the radio flashes off/on at the end of the write process. I turned OFF the "Safe Pwr-On" mode and the new CPS behaves normally - after writing to the radio, the radio flashes off then immediately back on.  Turn on the "Safe Pwr-On" and it can't because you're not holding that SK1 key when it tries to turn on.<br><br>So, nothing wrong with CPS, just a quirk caused by a radio setting.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Sun Mar 24, 2024 12:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-23T01:26:13</updated>
+
+		<published>2024-03-23T01:26:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30320#p30320</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30320#p30320"/>
+		<title type="html"><![CDATA[Re: CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30320#p30320"><![CDATA[
+<blockquote class="uncited"><div>Strange, can you power off a 390 via the green button?<br>I have always used the volume/on-off switch and press sk1 + PTT when powering on radio in DFU mode.</div></blockquote>Ah.<br><br>I was confused, I thought this problem was on the MD9600 but I see now its the 390<br><br>The ability to reboot back into the firmware is not supported by the official loader but we found a way to do this with the OpenGD77 firmware loader<br><br>Howeever in this case, it sounds like for whatever reason the bootloader in the radio is not supporting reboot after installation.<br><br>The only thing which potentially could have caused this would be a Windows update, changing something in the .Net framework or the STM DFU driver<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 23, 2024 1:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-22T21:17:02</updated>
+
+		<published>2024-03-22T21:17:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30318#p30318</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30318#p30318"/>
+		<title type="html"><![CDATA[Re: CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30318#p30318"><![CDATA[
+Strange, can you power off a 390 via the green button?<br>I have always used the volume/on-off switch and press sk1 + PTT when powering on radio in DFU mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Mar 22, 2024 9:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-22T20:54:44</updated>
+
+		<published>2024-03-22T20:54:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30317#p30317</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30317#p30317"/>
+		<title type="html"><![CDATA[Re: CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30317#p30317"><![CDATA[
+I just checked and I'm pretty sure its because the radio was turned off before entering DFU mode<br><br>i.e If you turn off the radio from the green button on the front panel<br>Then turn off the PSU<br>Then hold Orange and P1 to enter DFU , and while still holding Orange and P1, turn on the PSU... The radio will power on and enter DFU mode<br>Then load the firmware<br>The radio will now reboot, but becuase the previous state prior to turning on the PSU with Orange and P1 held in.... Was OFF<br><br>Then the firmware will be in its OFF state<br><br><br>The confusion is proabbly becuase this radio is never actually OFF.<br><br>There is no power control circuity in this radio. When the radio appears to be off, its only every actually in Standby. The CPU is still running, albeit in a low current standby mode.<br><br>This is the same as the official fimware<br><br>You can tell that the radio is never truely off, even with the official firmware, becuase if you measure the current when the radio is "OFF" you'll find its not 0 (zero)<br>I forget how much current the radio takes when its in standby, its a few milliamps, possibly 10 or 15mA , I can't remember the exact value.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 22, 2024 8:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-22T20:43:40</updated>
+
+		<published>2024-03-22T20:43:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30316#p30316</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30316#p30316"/>
+		<title type="html"><![CDATA[Re: CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30316#p30316"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I just downloaded the new CPS, R2024.03.09.01 to my TYT MD-UV390.  It seems to work fine, but a major change is that it turns off my radio after I write to it (reading does not shut off the radio). The previous version left the radio on after a write.  I don't see any mention of this in the PDF that describes this latest version.  I checked the changes I made and it seems they were written to the radio.<br><br>Is this normal behavior for this latest version or should I return to the previous one?</div></blockquote>Do you mean after firmware update the radio is turned off?<br><br>The radio remembers it's On/Off state from before you put it into DFU mode</div></blockquote>As you need to press some buttons and power on the radio it should be in "on" after restart when doing upgrades? <br>At least my radios do that, sometimes you need to press enter if the settings registers have changed. <br>But it's a very flawless and easy update process compared to other radios.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Mar 22, 2024 8:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-22T19:38:04</updated>
+
+		<published>2024-03-22T19:38:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30314#p30314</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30314#p30314"/>
+		<title type="html"><![CDATA[Re: CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30314#p30314"><![CDATA[
+<blockquote class="uncited"><div>I just downloaded the new CPS, R2024.03.09.01 to my TYT MD-UV390.  It seems to work fine, but a major change is that it turns off my radio after I write to it (reading does not shut off the radio). The previous version left the radio on after a write.  I don't see any mention of this in the PDF that describes this latest version.  I checked the changes I made and it seems they were written to the radio.<br><br>Is this normal behavior for this latest version or should I return to the previous one?</div></blockquote>Do you mean after firmware update the radio is turned off?<br><br>The radio remembers it's On/Off state from before you put it into DFU mode<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 22, 2024 7:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2024-03-22T19:11:59</updated>
+
+		<published>2024-03-22T19:11:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30313#p30313</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30313#p30313"/>
+		<title type="html"><![CDATA[CPS R2024.03.09.01 Radio Shut Down?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3905&amp;p=30313#p30313"><![CDATA[
+I just downloaded the new CPS, R2024.03.09.01 to my TYT MD-UV390.  It seems to work fine, but a major change is that it turns off my radio after I write to it (reading does not shut off the radio). The previous version left the radio on after a write.  I don't see any mention of this in the PDF that describes this latest version.  I checked the changes I made and it seems they were written to the radio.<br><br>Is this normal behavior for this latest version or should I return to the previous one?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Fri Mar 22, 2024 7:11 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

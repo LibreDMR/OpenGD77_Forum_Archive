@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4921" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-28T01:01:06</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4921</id>
+
+		<entry>
+		<author><name><![CDATA[DO9RE]]></name></author>
+		<updated>2025-02-28T01:01:06</updated>
+
+		<published>2025-02-28T01:01:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35993#p35993</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35993#p35993"/>
+		<title type="html"><![CDATA[Re: Identifying the Revision of a Used MD-9600 / RT-90 for a Blind User]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35993#p35993"><![CDATA[
+Thx.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8178">DO9RE</a> — Fri Feb 28, 2025 1:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-27T23:58:47</updated>
+
+		<published>2025-02-27T23:58:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35991#p35991</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35991#p35991"/>
+		<title type="html"><![CDATA[Re: Identifying the Revision of a Used MD-9600 / RT-90 for a Blind User]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35991#p35991"><![CDATA[
+MD-9600 Plus is v5HW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Feb 27, 2025 11:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO9RE]]></name></author>
+		<updated>2025-02-27T20:44:15</updated>
+
+		<published>2025-02-27T20:44:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35990#p35990</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35990#p35990"/>
+		<title type="html"><![CDATA[Identifying the Revision of a Used MD-9600 / RT-90 for a Blind User]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4921&amp;p=35990#p35990"><![CDATA[
+Hello.<br><br>I am considering the purchase of a used MD-9600 or RT-90. As far as I understand, there are four or five different hardware revisions of this device, each requiring its own specific firmware version.  <br><br>My concern is how to accurately determine the revision of the unit if it still has the stock firmware installed or if it has already been modified with an older version of custom firmware. Ian Spencer mentions that one way is to open the device and read the revision label on the circuit board. However, he does not provide an exact description of where this label is located. Given that I am blind, this method is not ideal for me, and if I buy the device second-hand, there is a good chance that the seller may not know the revision either.  <br><br>Spencer also states that flashing the wrong firmware is not harmful, as the radio simply won’t transmit if the firmware does not match. However, following Murphy’s Law, I would likely have to flash the device four or five times until I get the correct version.  <br><br>I am therefore looking for an alternative way to identify the revision, preferably through a menu option in the stock firmware where I could quickly direct a sighted person, or another distinguishing feature that would allow for identification, either something I can determine myself as a blind user or something I can verify with sighted assistance.  <br><br>Additionally, if anyone happens to have an MD-9600 or RT-90 for sale and would be willing to ship to Germany, I would love to hear from you. Please feel free to reach out with details.  <br><br>Any useful insights would be greatly appreciated.  <br><br>73, DO9RE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8178">DO9RE</a> — Thu Feb 27, 2025 8:44 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3135" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-11T21:08:50</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3135</id>
+
+		<entry>
+		<author><name><![CDATA[OZ1MAX]]></name></author>
+		<updated>2023-09-11T21:08:50</updated>
+
+		<published>2023-09-11T21:08:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=26164#p26164</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=26164#p26164"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=26164#p26164"><![CDATA[
+got it working again thanks for help and info ...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=132">OZ1MAX</a> — Mon Sep 11, 2023 9:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-12T09:14:56</updated>
+
+		<published>2023-08-12T09:14:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25173#p25173</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25173#p25173"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25173#p25173"><![CDATA[
+<blockquote class="uncited"><div>Thanks Roger.<br>I´ve ordred a J-Link now, so i´ll see if i can get it to work again .. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><br>Thanks <br>Hardy de OZ1MAX</div></blockquote>ok.<br><br>you will need the patched bootloader , which i made, which can be downloaded from here<br><br><a href="https://opengd77.com/downloads/patched_bootloaders/" class="postlink">https://opengd77.com/downloads/patched_bootloaders/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Aug 12, 2023 9:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1MAX]]></name></author>
+		<updated>2023-08-12T08:33:13</updated>
+
+		<published>2023-08-12T08:33:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25172#p25172</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25172#p25172"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25172#p25172"><![CDATA[
+Thanks Roger.<br>I´ve ordred a J-Link now, so i´ll see if i can get it to work again .. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><br>Thanks <br>Hardy de OZ1MAX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=132">OZ1MAX</a> — Sat Aug 12, 2023 8:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-11T22:52:09</updated>
+
+		<published>2023-08-11T22:52:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25161#p25161</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25161#p25161"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25161#p25161"><![CDATA[
+I received you email<br><br>Unfortunately the last page of the MCU internal ROM, address seems to be full of random data<br><br>Your data looks like this.<br><div class="codebox"><p>CODE: </p><pre><code>Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F0007F7F0  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F800  50 29 2A 04 64 38 00 41 40 4E 10 73 C2 4D 60 AC  P)*.d8.A@N.sÂM`¬0007F810  19 41 54 E2 89 CE 00 72 B5 88 85 1F 28 B1 E0 84  .ATâ‰Î.rµˆ….(±à„0007F820  04 12 00 64 5D C6 F1 9D 0D 3A 20 6C D6 F2 E3 FF  ...d]Æñ..: lÖòãÿ0007F830  F0 E8 A7 B4 4F 81 94 A0 3E F1 A4 BC 33 C0 19 21  ðè§´O.” &gt;ñ¤¼3À.!0007F840  42 25 18 3B 9C 24 9F FC 1E D2 5A 00 0B 9B 4F DA  B%.;œ$Ÿü.ÒZ..›OÚ0007F850  B1 94 5A 75 02 62 65 6D 84 D2 FB 99 48 E0 B9 73  ±”Zu.bem„Òû™Hà¹s0007F860  AC 9C BF 2A 1F 86 21 6F EF E3 E0 7E 96 5E 41 7C  ¬œ¿*.†!oïãà~–^A|0007F870  6B A7 22 FF 75 72 55 78 83 30 BE AC C0 5E BA B9  k§"ÿurUxƒ0¾¬À^º¹0007F880  8D DB B1 1A AC 12 30 9E 30 E5 DA 3F A3 05 9E DE  .Û±.¬.0ž0åÚ?£.žÞ</code></pre></div><br>The data should look something like this<br><div class="codebox"><p>CODE: </p><pre><code>Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F0007F7F0  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F800  27 F8 3B 14 D7 90 9B 68 62 8E 31 BF D7 C4 09 28  'ø;.×.›hbŽ1¿×Ä.(0007F810  1E 53 FF FF BD FF 0E FC F5 BF D4 FF BA B1 8A BB  .Sÿÿ½ÿ.üõ¿Ôÿº±Š»0007F820  04 B2 00 64 FF FF FF FF FF FF FF FF FF FF FF FF  .².dÿÿÿÿÿÿÿÿÿÿÿÿ0007F830  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F840  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F850  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F860  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F870  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F880  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F890  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F8A0  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ0007F8B0  FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF FF  ÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ</code></pre></div>Unfortunately due to the insane copy protection in the bootloader, the bootloader will no longer allow you to update the radio, becuase the data at 0x7F800 does not match the unique signature bytes in the CPU <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"><br><br><br>The only solution we have for this is to open the radio and connect some wires to the PCB and reflash the MCU using a device like a JLink Edu mini etc<br><br>Do you know anyone with a programmer dongle ??<br><br>If not I think the only option would be to buy one.  <br><br>There are cleap clones on AliExpress, but they don't always work.<br><br>Or if you have a STM32F103 board I think its possible to make your own Jlink<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 11, 2023 10:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1MAX]]></name></author>
+		<updated>2023-08-11T22:40:31</updated>
+
+		<published>2023-08-11T22:40:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25159#p25159</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25159#p25159"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25159#p25159"><![CDATA[
+Roger ..<br><br>Thanks in advange for taking a peak on it ...have sendt you a mail ....<br><br>Hardy<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=132">OZ1MAX</a> — Fri Aug 11, 2023 10:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-11T21:07:28</updated>
+
+		<published>2023-08-11T21:07:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25155#p25155</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25155#p25155"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25155#p25155"><![CDATA[
+<blockquote class="uncited"><div>.. yes the radio have had OPGD77 all the time, just vanted to put the  new firmware on it, but it dosent stay in DFU mode, havent programed it with anything else than the firmware in here, usually it always have worked without problems, but this time it played a game with me <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> but as i said i can programe it via CPS read and write the Codeplug no problems ..</div></blockquote>The read the MCU ROM using the CPS zip it and email it to me.<br>Address is on QRZ.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 11, 2023 9:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1MAX]]></name></author>
+		<updated>2023-08-11T13:19:30</updated>
+
+		<published>2023-08-11T13:19:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25135#p25135</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25135#p25135"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25135#p25135"><![CDATA[
+.. yes the radio have had OPGD77 all the time, just vanted to put the  new firmware on it, but it dosent stay in DFU mode, havent programed it with anything else than the firmware in here, usually it always have worked without problems, but this time it played a game with me <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> but as i said i can programe it via CPS read and write the Codeplug no problems ..<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=132">OZ1MAX</a> — Fri Aug 11, 2023 1:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-11T10:44:50</updated>
+
+		<published>2023-08-11T10:44:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25124#p25124</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25124#p25124"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25124#p25124"><![CDATA[
+<blockquote class="uncited"><div>Hi all <br><br>Just starting getting this error, when i set my GD77 in DFU mode, it stays there for a couple off seconds, and then goes back into normal mode, i can read the radio and programe it in the CPS, and see the com port, but not getting it into firmware mode and staying in there, i use not the latest but that one before firmware ... any solutions on that ?<br><br>All the best <br>Hardy OZ1MAX</div></blockquote>Is this a radio you have already installed OpenGD77 previously?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 11, 2023 10:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-11T10:15:36</updated>
+
+		<published>2023-08-11T10:15:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25123#p25123</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25123#p25123"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25123#p25123"><![CDATA[
+Sounds like a protection bytes problem to me.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Aug 11, 2023 10:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-11T09:55:57</updated>
+
+		<published>2023-08-11T09:55:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25122#p25122</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25122#p25122"/>
+		<title type="html"><![CDATA[Re: DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25122#p25122"><![CDATA[
+<blockquote class="uncited"><div>Hi all <br><br>Just starting getting this error, when i set my GD77 in DFU mode, it stays there for a couple off seconds, and then goes back into normal mode, i can read the radio and programe it in the CPS, and see the com port, but not getting it into firmware mode and staying in there, i use not the latest but that one before firmware ... any solutions on that ?<br><br>All the best <br>Hardy OZ1MAX</div></blockquote>I've never heard of this problem before.<br><br>i.e WIth the radio disconnected from the PC, the radio will not stay in the bootloader ? <br><br>The only similar thing is that official firmware can prevent the radio entering the bootloader, but your problem sounds different if the radio stays in the bootloader for a few seconds<br><br>Is the radio definitely in the bootloader ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 11, 2023 9:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1MAX]]></name></author>
+		<updated>2023-08-11T09:53:24</updated>
+
+		<published>2023-08-11T09:53:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25121#p25121</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25121#p25121"/>
+		<title type="html"><![CDATA[[Resolved] DFU mode wount stay on]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3135&amp;p=25121#p25121"><![CDATA[
+Hi all <br><br>Just starting getting this error, when i set my GD77 in DFU mode, it stays there for a couple off seconds, and then goes back into normal mode, i can read the radio and programe it in the CPS, and see the com port, but not getting it into firmware mode and staying in there, i use not the latest but that one before firmware ... any solutions on that ?<br><br>All the best <br>Hardy OZ1MAX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=132">OZ1MAX</a> — Fri Aug 11, 2023 9:53 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

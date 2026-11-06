@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5098" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-03T11:23:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5098</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-03T11:23:59</updated>
+
+		<published>2025-05-03T11:23:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5098&amp;p=36981#p36981</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5098&amp;p=36981#p36981"/>
+		<title type="html"><![CDATA[Re: Monitor]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5098&amp;p=36981#p36981"><![CDATA[
+<blockquote class="uncited"><div>Hello how close group monitor in open gd 77 in rt 3 s</div></blockquote>Please look on the filters , especially the DMR Filter<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#filters-channel" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... rs-channel</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat May 03, 2025 11:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV1SIM]]></name></author>
+		<updated>2025-05-03T08:18:34</updated>
+
+		<published>2025-05-03T08:18:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5098&amp;p=36980#p36980</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5098&amp;p=36980#p36980"/>
+		<title type="html"><![CDATA[Monitor]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5098&amp;p=36980#p36980"><![CDATA[
+Hello how close group monitor in open gd 77 in rt 3 s<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7406">SV1SIM</a> — Sat May 03, 2025 8:18 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

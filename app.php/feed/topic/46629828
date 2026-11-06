@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4662" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-06T03:33:32</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4662</id>
+
+		<entry>
+		<author><name><![CDATA[NV2M]]></name></author>
+		<updated>2025-04-06T03:33:32</updated>
+
+		<published>2025-04-06T03:33:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=36612#p36612</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=36612#p36612"/>
+		<title type="html"><![CDATA[Re: DM-1701: Update RAM? Archive original FW]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=36612#p36612"><![CDATA[
+For what's it's worth, just posting here in this thread as the other one that lead me here was <a href="https://www.opengd77.com/viewtopic.php?f=8&amp;t=4310&amp;p=36611#p36611" class="postlink">viewtopic.php?f=8&amp;t=4310&amp;p=36611#p36611</a><br>On the topic of the 1701 firmware for 2.06. It was found on github and seems to work:<br><a href="https://github.com/daniel5600/BAOFENG-DM1701-Original-Firmware" class="postlink">https://github.com/daniel5600/BAOFENG-D ... l-Firmware</a><br>Although the firmware uploader is all in Chinese I think, but it still worked for me.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7956">NV2M</a> — Sun Apr 06, 2025 3:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-08T23:10:01</updated>
+
+		<published>2025-01-08T23:10:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35067#p35067</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35067#p35067"/>
+		<title type="html"><![CDATA[Re: DM-1701: Update RAM? Archive original FW]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35067#p35067"><![CDATA[
+By "Hmm" I suspect you think I am somewhat addled and lazy?!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> <br><br>Although not far from the truth, I was looking for this type of document, which was originally available for the DM-1701 and this example is for their GM-30 HT.<br><br>Maybe it is the one included with the zip, but it seems to me the originally provided Guide was a bit more polished:<br><br><a href="https://www.radioddity.com/blogs/all/how-to-update-radioddity-gm-30-firmware" class="postlink">https://www.radioddity.com/blogs/all/ho ... 0-firmware</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jan 08, 2025 11:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-08T23:02:09</updated>
+
+		<published>2025-01-08T23:02:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35066#p35066</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35066#p35066"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35066#p35066"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>The Radioddity link to their Guide to update FW is broken, but I have emailed their Customer Support for a new link.</div></blockquote>Customer Support wrote back that they no longer support this Guide.<br><br>Does anyone have a copy of the Radioddity DMR/Update Firmware Guide to share?</div></blockquote>Hmm, you have a docx file in both my 2.03 zip file and in the one that VK3YY shared.<br><br>But I converted it to PDF here: <a href="https://www.sa0bux.se/Ham/DM1701/DM1701_Firmware_Update_Operation.pdf" class="postlink">https://www.sa0bux.se/Ham/DM1701/DM1701 ... ration.pdf</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jan 08, 2025 11:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-08T22:38:17</updated>
+
+		<published>2025-01-08T22:38:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35065#p35065</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35065#p35065"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35065#p35065"><![CDATA[
+<blockquote class="uncited"><div>The Radioddity link to their Guide to update FW is broken, but I have emailed their Customer Support for a new link.</div></blockquote>Customer Support wrote back that they no longer support this Guide.<br><br>Does anyone have a copy of the Radioddity DMR/Update Firmware Guide to share?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jan 08, 2025 10:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-08T19:39:41</updated>
+
+		<published>2025-01-08T19:39:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35062#p35062</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35062#p35062"/>
+		<title type="html"><![CDATA[Re: DM-1701: Update RAM? Archive original FW]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35062#p35062"><![CDATA[
+<blockquote class="uncited"><div>After you have confirmed that you have an official version of firmware which works with your radio, you should use the official CPS to backup the calibration data in the radio<br>With your radio connected to a PC, using the official CPS, hold Control + T until the "test" screen is displayed<br>You should also backup your codeplug using the official CPS</div></blockquote>Am I interpreting this correctly that backing up the "calibration" is a separate step from my backup of the FW?<br><br>And if so, is there a link to this process?<br><br>With the LA Winds, I am postponing flashing the OpenGD77 firmware.  Even though my Mac mini is connected to a UPS, I don't want to risk it with sporadic momentary power outages. I was using the legacy 1701 DMR last night to monitor some local activity both on analog and DMR.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jan 08, 2025 7:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-07T19:23:53</updated>
+
+		<published>2025-01-07T19:23:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35046#p35046</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35046#p35046"/>
+		<title type="html"><![CDATA[DM-1701: Archive original FW]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35046#p35046"><![CDATA[
+Interesting:<br><br>Yes, I cannot recreate my download link to my previously downloaded version of CPS with FW, but your latest link does work and I have archived it!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jan 07, 2025 7:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-07T19:20:13</updated>
+
+		<published>2025-01-07T19:20:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35045#p35045</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35045#p35045"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35045#p35045"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I currently have v002.006<br><br>It turns out that when you download the Baofeng CPS software from Radioddity, it includes their V2.03 FW.  <br><br>The Radioddity link to their Guide to update FW is broken, but I have emailed their Customer Support for a new link.<br><br>In the meantime, I found this guide: but, I cannot seem to attach either a MS Word or PDF file here</div></blockquote>They have removed the firmware from the zip file, I have an older download with FW 2.03 here: <a href="https://www.sa0bux.se/Ham/DM1701/" class="postlink">https://www.sa0bux.se/Ham/DM1701/</a></div></blockquote><br>Also , it seems that not even "Baofeng" have access to 2.006<br><br><a href="https://www.facebook.com/groups/DM1701/posts/1866846837114302/" class="postlink">https://www.facebook.com/groups/DM1701/ ... 837114302/</a><blockquote class="uncited"><div>And lastly this is the response I have recieved from Baofeng: "Hi Herbert, This is Olivia from Baofeng support team. In order to prevent customers from misunderstanding, we have already removed the firmware of DM-1701 from our website. We are sorry that due to some internal reasons, we are unable to provide the V2.006 firmware at this time.<br>We would be more than happy to keep you informed if we are able to acquire the V2.006 firmware file in the future. We kindly ask for your patience and understanding in this matter.<br>We apologize for the inconvenience that this may cause. Hope for your kind understanding.</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jan 07, 2025 7:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-07T19:07:54</updated>
+
+		<published>2025-01-07T19:07:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35044#p35044</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35044#p35044"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35044#p35044"><![CDATA[
+<blockquote class="uncited"><div>I currently have v002.006<br><br>It turns out that when you download the Baofeng CPS software from Radioddity, it includes their V2.03 FW.  <br><br>The Radioddity link to their Guide to update FW is broken, but I have emailed their Customer Support for a new link.<br><br>In the meantime, I found this guide: but, I cannot seem to attach either a MS Word or PDF file here</div></blockquote>They have removed the firmware from the zip file, I have an older download with FW 2.03 here: <a href="https://www.sa0bux.se/Ham/DM1701/" class="postlink">https://www.sa0bux.se/Ham/DM1701/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jan 07, 2025 7:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-07T19:03:14</updated>
+
+		<published>2025-01-07T19:03:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35042#p35042</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35042#p35042"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35042#p35042"><![CDATA[
+I currently have v002.006<br><br>It turns out that when you download the Baofeng CPS software from Radioddity, it includes their V2.03 FW.  <br><br>The Radioddity link to their Guide to update FW is broken, but I have emailed their Customer Support for a new link.<br><br>In the meantime, I found this guide: but, I cannot seem to attach either a MS Word or PDF file here<br><br>"Internet FUN with ADD!" but, luckily I have my OCD as a backup!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jan 07, 2025 7:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-07T18:34:17</updated>
+
+		<published>2025-01-07T18:34:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35040#p35040</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35040#p35040"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35040#p35040"><![CDATA[
+<blockquote class="uncited"><div>Charlie: OK; I will overcome my ADD and do some research on this topic and post the result here for others to benefit from.<br><br>Thank you!</div></blockquote>Not so easy to find original DM-1701 firmware , what version do you have now ?<br><br>Retevis RT84 is the same hardware , Retevis customer support has supported me getting some firmware earlier.<br>(They have only the CPS software packages available on <a href="https://www.retevis.com/resources-center" class="postlink">https://www.retevis.com/resources-center</a> )<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jan 07, 2025 6:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-07T18:20:09</updated>
+
+		<published>2025-01-07T18:20:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35039#p35039</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35039#p35039"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35039#p35039"><![CDATA[
+Charlie: OK; I will overcome my ADD and do some research on this topic and post the result here for others to benefit from.<br><br>Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jan 07, 2025 6:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-01-07T18:15:51</updated>
+
+		<published>2025-01-07T18:15:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35037#p35037</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35037#p35037"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35037#p35037"><![CDATA[
+<blockquote class="uncited"><div><br>Can you link me on how to download the default Firmware for the DM-1701 and then I will move over to the next step of installing the OpenGD77 firmware?</div></blockquote>I have never downloaded the default firmware. The first thing I did with the radio was flashing it with OpenGD77, I have no expertise on this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Jan 07, 2025 6:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-07T17:48:43</updated>
+
+		<published>2025-01-07T17:48:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35034#p35034</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35034#p35034"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35034#p35034"><![CDATA[
+I did indeed have trouble installing and getting to work the USB driver in Windows 11.<br><br>Rather than solve that problem now, I moved over to my Intel Mac and it installed and worked nicely in Windows 10.<br><br>I used the Baofeng CPS Software v1.05 that I downloaded from Radioddity to download and archive the default codeplug and I installed the PAPA System cqodeplug for this radio, added my callsign and Digital_ID and voila: it works like a charm.<br><br>I hit my local PAPA DMR repeater and had a nice long chat with another OT from Ohio, first on World and then we moved over to NorthAmerica.<br><br>Can you link me on how to download the default Firmware for the DM-1701 and then I will move over to the next step of installing the OpenGD77 firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jan 07, 2025 5:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-01-07T07:02:03</updated>
+
+		<published>2025-01-07T07:02:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35030#p35030</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35030#p35030"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35030#p35030"><![CDATA[
+Charlie:<br><br>Lots of great information to work with here and now the battery is charged and I have napped. Thank you again!<br><br>SO UP UP and AWAY!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jan 07, 2025 7:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-01-06T23:55:41</updated>
+
+		<published>2025-01-06T23:55:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35029#p35029</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35029#p35029"/>
+		<title type="html"><![CDATA[Re: Update RAM in 1701?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4662&amp;p=35029#p35029"><![CDATA[
+<blockquote class="uncited"><div>Thank you again!<br><br>Is the Windows 11 problem only for the 1701, because I believe I used it for the RD-5R? But I did that 10 months ago.<br><br>My default 2024 M4 Mac Mini runs Windows 11 in Parallels virtualization, but I have access to Windows 10 and XP in Parallels on my older Intel Mac.  <br><br>Michael, W7ML</div></blockquote>The driver problem with newer radio. In the CPS menu radio type, you will see two group of radio the first one are radios that use MK22 CPU (GD77, RD-5R, 1801) the second group are the radios that use STM32 CPU. This newer radio type share the same STM32 in DFU mode driver.<br><br>BTW: the driver is here <a href="https://www.opengd77.com/downloads/drivers/" class="postlink">downloads/drivers/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jan 06, 2025 11:55 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

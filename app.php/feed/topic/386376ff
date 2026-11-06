@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3863" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-26T04:15:33</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3863</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-26T04:15:33</updated>
+
+		<published>2024-03-26T04:15:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30367#p30367</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30367#p30367"/>
+		<title type="html"><![CDATA[Re: Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30367#p30367"><![CDATA[
+<blockquote class="uncited"><div>Taking advantage of this thread regarding power calibration. <br><br>Is there any way to calibrate the power values of 1W, 750mW, 500mW... on the TYT MD-9600?</div></blockquote>No. The official calibration data table, which we also use, only contains 4 values per frequency band. 5W, 10W, 25W and 40W. Values below 5W are extrapolated from the 5W value.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 26, 2024 4:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ec2ut]]></name></author>
+		<updated>2024-03-25T16:51:44</updated>
+
+		<published>2024-03-25T16:51:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30361#p30361</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30361#p30361"/>
+		<title type="html"><![CDATA[Re: Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30361#p30361"><![CDATA[
+Taking advantage of this thread regarding power calibration. <br><br>Is there any way to calibrate the power values of 1W, 750mW, 500mW... on the TYT MD-9600?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1053">ec2ut</a> — Mon Mar 25, 2024 4:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-03-13T06:38:21</updated>
+
+		<published>2024-03-13T06:38:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30089#p30089</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30089#p30089"/>
+		<title type="html"><![CDATA[Re: Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30089#p30089"><![CDATA[
+<blockquote class="uncited"><div>Using a larger PSU is not going to help unless the voltage is dropping below 14V</div></blockquote>Yeah, I was having issues with a power supply that had insufficient amperage and I was seeing big voltage drops on UHF (VHF was fine). Bigger power supply seems to have solved those problems.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Mar 13, 2024 6:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-12T20:46:54</updated>
+
+		<published>2024-03-12T20:46:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30081#p30081</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30081#p30081"/>
+		<title type="html"><![CDATA[Re: Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30081#p30081"><![CDATA[
+The MD9600 was originally advertised as a 50W radio, but it isn't <br>I see Radioddity list it as 50/25W, which I presume means 50W on VHF and 25W on UHF, but I don't think the radio is capable of always producing 50W on VHF<br>Do not overdrive the PA on UHF trying to make it produce even 40W, increase the adjustment until you don't get a corresponding increase in power<br><br>Using a larger PSU is not going to help unless the voltage is dropping below 14V<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 12, 2024 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-03-12T18:34:56</updated>
+
+		<published>2024-03-12T18:34:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30080#p30080</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30080#p30080"/>
+		<title type="html"><![CDATA[Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3863&amp;p=30080#p30080"><![CDATA[
+I figured I'd start a new thread on this. It was shared that power calibration is now available on all models:<br><blockquote class="uncited"><div>The manual probably needs to be updated, because the calibration feature has been on all radios for about 6 months or more.<br><br>It is safe because it never actually changes the official calibration data. When the firmware is first run, after its first installed, it makes a copy of the official data and uses that. So any changes you make in the calibration screen change things in the copy <br><br>And the calibration screen has an option of "Factory reset" which re-reads from the official / master data.</div></blockquote>So I went to give it a try on my 9600. Whoa boy, pack a snack cause you're gonna be hitting buttons for a while. Fourteen frequencies get tested at four different power levels. The 40 watt tests were a problem on UHF frequencies since the radio doesn't seem to be able to do that much power (I did upgrade to a 30 amp power supply, for those that recall my previous power issues). So when turning up the PA value didn't seem to actually increase power, I just tried to settle on a number that seemed to trigger the best the radio could do (about 20 watts). I recall seeing something somewhere here about not overdriving the PA and I certainly don't want to break anything.<br><br>The documentation doesn't cover the 9600 yet, so it took a bit of guessing to figure out how to go from "Calibration 1/4" to "Calibration 2/4" but SK2(P1) + Up/Down rotates through he screens. I couldn't figure out what screens 2 &amp; 3 did, so I left them alone. A factory reset option is available on screen 4.<br><br>The calibration really improved the VHF side, the 5W setting used to be a little over a watt. Now each setting is pretty close to what the radio is putting out. UHF is less exciting but I attribute that to TYT.<br><br>I'm one of those amateur radio operators that knows just enough to be dangerous but not enough to be helpful, so I wanted to share my experiences for others that may be in the same boat as me.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Tue Mar 12, 2024 6:34 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

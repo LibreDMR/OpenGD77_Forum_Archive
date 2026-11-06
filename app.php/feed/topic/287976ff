@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2879" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-21T10:58:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2879</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-21T10:58:35</updated>
+
+		<published>2024-04-21T10:58:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2879&amp;p=30953#p30953</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=30953#p30953"/>
+		<title type="html"><![CDATA[Re: Ynt: BlueDV çal??t?ran Hotspot modunda RT3S TX gücünü azalt?n m??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=30953#p30953"><![CDATA[
+<blockquote class="uncited"><div>First of all, I learned how to adjust the TX power from this page, thank you very much. My question is, is there a place where we can choose Color Code and Time Slot? VFO mode does not work.</div></blockquote>If you're asking for BlueDV, it seems it always use CC 1. About the TS, as it's simplex, it's always TS2.<br>If it's about the FW config, I suggest you to read the user manual (VFO permits the same config as Channel): <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... r_Guide.md</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Apr 21, 2024 10:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA8PRO]]></name></author>
+		<updated>2024-04-21T10:52:53</updated>
+
+		<published>2024-04-21T10:52:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2879&amp;p=30952#p30952</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=30952#p30952"/>
+		<title type="html"><![CDATA[Ynt: BlueDV çal??t?ran Hotspot modunda RT3S TX gücünü azalt?n m??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=30952#p30952"><![CDATA[
+First of all, I learned how to adjust the TX power from this page, thank you very much. My question is, is there a place where we can choose Color Code and Time Slot? VFO mode does not work.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2539">TA8PRO</a> — Sun Apr 21, 2024 10:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0UJA]]></name></author>
+		<updated>2023-05-11T07:56:49</updated>
+
+		<published>2023-05-11T07:56:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23340#p23340</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23340#p23340"/>
+		<title type="html"><![CDATA[Re: Reduce RT3S TX power in Hotspot mode running BlueDV?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23340#p23340"><![CDATA[
+Thank you for the reply Daniel.<br><br>I had tried this many times before but I was setting the power in the memory channel rather than the VFO!<br><br>Your reply made me look at the settings again and it is now set how I want.<br><br>Many thanks.<br><br>James G0UJA<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3878">G0UJA</a> — Thu May 11, 2023 7:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-05-11T00:55:39</updated>
+
+		<published>2023-05-11T00:55:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23338#p23338</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23338#p23338"/>
+		<title type="html"><![CDATA[Re: Reduce RT3S TX power in Hotspot mode running BlueDV?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23338#p23338"><![CDATA[
+Hi,<br><br>Since BlueDV doesn't set the power, you have to set the power on the transceiver itself before starting the hotspot.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu May 11, 2023 12:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-05-10T23:54:24</updated>
+
+		<published>2023-05-10T23:54:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23336#p23336</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23336#p23336"/>
+		<title type="html"><![CDATA[Re: Reduce RT3S TX power in Hotspot mode running BlueDV?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23336#p23336"><![CDATA[
+<blockquote class="uncited"><div>Running RT3S in Hotspot mode with BlueDV and everything works great but...<br><br>Is there a way to reduce the TX power of the RT3S from 1W to 50mW?<br><br>I'm not sure if this is possible and certainly can't find any information in searches.<br><br>I have tried setting the radio to 50mW before enabling Hotspot mode and also moving the slider in BlueDV but nothing seems to have any effect.<br><br>James G0UJA</div></blockquote>Power in Hotspot mode is controlled by the host application. In your case BlueDV.<br><br>Look in the BlueDV documentation, or contact the BlueDV developer<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed May 10, 2023 11:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0UJA]]></name></author>
+		<updated>2023-05-10T21:33:04</updated>
+
+		<published>2023-05-10T21:33:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23332#p23332</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23332#p23332"/>
+		<title type="html"><![CDATA[Reduce RT3S TX power in Hotspot mode running BlueDV?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2879&amp;p=23332#p23332"><![CDATA[
+Running RT3S in Hotspot mode with BlueDV and everything works great but...<br><br>Is there a way to reduce the TX power of the RT3S from 1W to 50mW?<br><br>I'm not sure if this is possible and certainly can't find any information in searches.<br><br>I have tried setting the radio to 50mW before enabling Hotspot mode and also moving the slider in BlueDV but nothing seems to have any effect.<br><br>James G0UJA<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3878">G0UJA</a> — Wed May 10, 2023 9:33 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

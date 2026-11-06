@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4912" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-27T20:28:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4912</id>
+
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-02-27T20:28:18</updated>
+
+		<published>2025-02-27T20:28:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35989#p35989</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35989#p35989"/>
+		<title type="html"><![CDATA[Re: Room for Linux users]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35989#p35989"><![CDATA[
+Yes, I've also found that a VirtualBox VM running a Win10 instance is the most satisfactory solution.<br><br>After Win10 goes EOL later this year I'll be turning off the Win10 VM's access to the internet. I run the CPS in a VM with the CPS upgrade, firmware upgrade and CPS data files located in a folder on the Linux host which is accessible to the VM .<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Thu Feb 27, 2025 8:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-27T19:22:41</updated>
+
+		<published>2025-02-27T19:22:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35987#p35987</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35987#p35987"/>
+		<title type="html"><![CDATA[Re: Room for Linux users]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35987#p35987"><![CDATA[
+The main problem with the CPS is, under Linux, you can run it via Wine, but Wine's serial support is not that great, and that's the main problem.<br>To "solve" the problem, I'm using a Windows in a VirtualBox VM.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 27, 2025 7:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2025-02-27T17:55:56</updated>
+
+		<published>2025-02-27T17:55:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35986#p35986</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35986#p35986"/>
+		<title type="html"><![CDATA[Re: Room for Linux users]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35986#p35986"><![CDATA[
+<blockquote class="uncited"><div>While this might seem on the face of it to be a good idea, I have one reservation - this forum seems to be more than adequately supplied with users who don't bother reading sticky posts (eg., how to install OpenGD77) as it is, and my concern is that those same users would fail to read the sticky and assume from the mere presence of the topic that the developers are, in fact, working development of a CPS variant for Linux.<br><br>I seem to recall (open to correction here) that the developers have in the past rejected the idea of topic areas not directly related to OpenGD77 for a similar reason.</div></blockquote>Good and valid point.<br><br>Since I posted, I did find the post I was thinking of in the General Discussions. It just took manual digging and searching to find it. My frustration comes from the search function not being able to help me find that thread.<br><br>Roger and those that directly help him have done fantastic work over the years in developing / supporting  the GD77 firmware. For myself, when it comes to 2m and 70cm usage, I do not want to even consider a radio that does not operate with the GD77 firmware. I just wish there was some way those of us that are or will be Linux based can coordinate efforts and experience to support GD77 on Linux.<br><br>I am open to any and all suggestions, just hoping we can find one that is practical and manageable for all involved.<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Thu Feb 27, 2025 5:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-02-26T22:51:27</updated>
+
+		<published>2025-02-26T22:51:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35947#p35947</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35947#p35947"/>
+		<title type="html"><![CDATA[Re: Room for Linux users]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35947#p35947"><![CDATA[
+While this might seem on the face of it to be a good idea, I have one reservation - this forum seems to be more than adequately supplied with users who don't bother reading sticky posts (eg., how to install OpenGD77) as it is, and my concern is that those same users would fail to read the sticky and assume from the mere presence of the topic that the developers are, in fact, working development of a CPS variant for Linux.<br><br>I seem to recall (open to correction here) that the developers have in the past rejected the idea of topic areas not directly related to OpenGD77 for a similar reason.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Wed Feb 26, 2025 10:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2025-02-26T00:10:53</updated>
+
+		<published>2025-02-26T00:10:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35932#p35932</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35932#p35932"/>
+		<title type="html"><![CDATA[Room for Linux users]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4912&amp;p=35932#p35932"><![CDATA[
+I hope I have this in the right place.<br><br>I find myself moving my computers to Linux for many reasons. As such I am interested in finding away to keep using the OpenG77 firmware on the radios I have for it. I know there are threads about people who have found ways to do so using Linux, but when I go to search for them using the forum search function I get the message the the term "Linux" is to common and zero results are returned.<br><br>I understand that developers do not have the time to create a CPS for Linux, nor are they wanting to invest their time in doing so currently. Very understandable and reasonable. Yet there are people for one reason or another without a Windows computing system readily available, but will have Linux.<br><br>I would like to suggest creating a room for Linux users. Place a pinned post that makes it clear there is NO development support from the GD77 team, and the room is for those that have Linux. It should be a place to find or create working ways and methods to use the CPS and GD77 firmware on Linux, and those of us using Linux can share and dialogue with each other in reference to this wonderful Firmware that has been created and finding a home for it with Linux.<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed Feb 26, 2025 12:10 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

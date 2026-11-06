@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1802" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-30T05:47:45</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1802</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-30T05:47:45</updated>
+
+		<published>2024-05-30T05:47:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=31485#p31485</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=31485#p31485"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=31485#p31485"><![CDATA[
+Hi,<br><br>   Don't forget to introduce yourself in the right forum section.<br><br>Have you read the user guide regarding the installation of the hotspot and the special precautions to take ? :<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#hotspot-mode" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... tspot-mode</a><br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu May 30, 2024 5:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ1MLF]]></name></author>
+		<updated>2024-05-30T05:21:29</updated>
+
+		<published>2024-05-30T05:21:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=31484#p31484</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=31484#p31484"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=31484#p31484"><![CDATA[
+Good morning, I am using the MMDVM HOST application on WINDOWS 7, I connected a Baofeng 1701 with openGD77 firmware as a modem, everything works except often after a while that the system is working it disconnects me and gives me a com port error, I have to turn it off PC and radio and restart everything and then it starts working perfectly again, maybe it does this two or three times, while other times it works for the entire time it remains on, I have already tried to replace the radio but nothing, always the same problem, for some it already happened?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6271">IZ1MLF</a> — Thu May 30, 2024 5:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-08-15T09:09:07</updated>
+
+		<published>2021-08-15T09:09:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15520#p15520</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15520#p15520"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15520#p15520"><![CDATA[
+OK,<br><br>  Use your hotspot until you get these problems, then send me the mmdvmhost log file and your mmdvmhost config file.<br><br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Aug 15, 2021 9:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A3BKR]]></name></author>
+		<updated>2021-08-15T08:33:21</updated>
+
+		<published>2021-08-15T08:33:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15519#p15519</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15519#p15519"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15519#p15519"><![CDATA[
+<blockquote class="uncited"><div>   Since you're using a GD-77 as a hotspot, does your MMDVM configuration has RXOffset and TXOffset set to zero ?</div></blockquote>Yes ... from the start on zero.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=842">9A3BKR</a> — Sun Aug 15, 2021 8:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-08-14T10:33:57</updated>
+
+		<published>2021-08-14T10:33:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15515#p15515</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15515#p15515"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15515#p15515"><![CDATA[
+Hi,<br><br>   Since you're using a GD-77 as a hotspot, does your MMDVM configuration has RXOffset and TXOffset set to zero ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Aug 14, 2021 10:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A3BKR]]></name></author>
+		<updated>2021-08-14T10:09:50</updated>
+
+		<published>2021-08-14T10:09:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15514#p15514</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15514#p15514"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15514#p15514"><![CDATA[
+I have updated firmware, done some testing, used external antenna ... I also tried a different server (ping was around 10-20 ms) but the problems persist. The only thing that seems to bring positive results is connecting to a 4G internet connection. <br><br>It would seem that my home internet is causing the problems (call disconnects)! That comes as a big surprise to me since I have a very good and stable internet connection (at least it's what I thought).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=842">9A3BKR</a> — Sat Aug 14, 2021 10:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2021-08-11T13:38:02</updated>
+
+		<published>2021-08-11T13:38:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15505#p15505</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15505#p15505"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15505#p15505"><![CDATA[
+Those MMDVM error messages are nothing to do with the radio or its firmware, they are indicating a problem with your internet connection. The data is arriving too slowly and is resulting in lost data packets and hence lost speech. <br><br>It could be due to your internet connection or the server you are connected to. It might be worth choosing a different server.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Aug 11, 2021 1:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A3BKR]]></name></author>
+		<updated>2021-08-11T12:19:03</updated>
+
+		<published>2021-08-11T12:19:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15504#p15504</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15504#p15504"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15504#p15504"><![CDATA[
+It will take me some time to do the update. I will get back to you with the results once it's done. <br>Big thanks for your help so far!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=842">9A3BKR</a> — Wed Aug 11, 2021 12:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-08-11T10:10:02</updated>
+
+		<published>2021-08-11T10:10:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15503#p15503</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15503#p15503"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15503#p15503"><![CDATA[
+Hi,<br><br>  Update to the latest release.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Aug 11, 2021 10:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A3BKR]]></name></author>
+		<updated>2021-08-11T10:07:59</updated>
+
+		<published>2021-08-11T10:07:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15502#p15502</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15502#p15502"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15502#p15502"><![CDATA[
+I am running firmware version D2021.04.03.01<br><br>The problem is most noticeable when I receive the hotspot transmissions on my radio (tested on excera and motorola radios). <br>But also it seems that there is a problem when I am TXing from my radio over the hotspot  <br><br>I was not able to notice any pattern in the interruptions, that is frustrating  <br><br>This is c/p from the MMDVM log:<br><br>D: 2021-08-10 09:02:52.123 DMR Slot 2, lost audio for 415ms filling in<br>D: 2021-08-10 09:02:52.535 DMR Slot 2, lost audio for 410ms filling in<br>D: 2021-08-10 09:03:02.818 DMR Slot 2, lost audio for 415ms filling in<br>D: 2021-08-10 09:03:03.235 DMR Slot 2, lost audio for 415ms filling in<br>D: 2021-08-10 09:03:03.654 DMR Slot 2, lost audio for 417ms filling in<br>D: 2021-08-10 09:03:58.328 DMR Slot 2, lost audio for 414ms filling in<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=842">9A3BKR</a> — Wed Aug 11, 2021 10:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-08-11T09:02:55</updated>
+
+		<published>2021-08-11T09:02:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15501#p15501</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15501#p15501"/>
+		<title type="html"><![CDATA[Re: GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15501#p15501"><![CDATA[
+Hi,<br><br>   Which firmware version are you running ?<br><br>Something is not clear (to me), are you talking about TXing or RXing (with your transceiver, not the hotspot). <br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Aug 11, 2021 9:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A3BKR]]></name></author>
+		<updated>2021-08-11T09:00:03</updated>
+
+		<published>2021-08-11T09:00:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15500#p15500</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15500#p15500"/>
+		<title type="html"><![CDATA[GD77 + MMDVM Host problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1802&amp;p=15500#p15500"><![CDATA[
+Hi guys! <br>Please help me with this issue ... at random intervals I get TX interrupt on my hotspot and the calls just stop. <br><br>The setup is Win7 laptop running MMDVM Host and then connected to GD77. <br>When the call is interrupted in MMDVM I see several messages: audio lost for xxx ms. <br>That behavior is also happening when using BlueDV for Windows and also when using BlueDV for Android. <br><br>It happens at random intervals. Sometimes I can hear a full call, sometimes it stops after a few seconds and sometimes after 60 or more seconds. <br>I have tried many different settings including all the power settings. Also, I used ferrites on the USB cable, I used external antennas but the problem is still there. <br>Apparently there is a similar problem when I transmit over the hotspot ... not always but sometimes.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=842">9A3BKR</a> — Wed Aug 11, 2021 9:00 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2014" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-01-03T00:25:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2014</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-01-03T00:25:47</updated>
+
+		<published>2022-01-03T00:25:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2014&amp;p=16972#p16972</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2014&amp;p=16972#p16972"/>
+		<title type="html"><![CDATA[Differences between radio hardware revisions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2014&amp;p=16972#p16972"><![CDATA[
+The MD-9600 / RT-90 have 3 major hardware verions, which use different ICs and also other modifications<br><br>V2 and V3 radios use the same PLL and IF chips<br>V4 radios use a different PLL chip to V2/V3 but use the same IF chip<br>V5 (aka V4A) radios use a different PLL chip to the older radios and also use a different IF chip. Hence the V5 radios are quite different from the previous versions<br><br><br>The main difference between the V2 and V3 hardware are improvements to the PA to fix DMR BER problems. There is also a fix for the speaker click problem<br><br><br>Both the V4 and V5 have the PA fix, but don't seem to have the fix for the speaker click.<br><br>We think that possibly the fix for the speaker click caused other problems, possibly the loss in some audio at the start of Rx, but can't be sure.<br><br>It may be possible to partially fix the speaker click by changes to the firmware, specifically by using PWM modulation of the amplifier control signal, but I have not had time to investigate whether this is possible or whether it would cause other problems<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 03, 2022 12:25 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

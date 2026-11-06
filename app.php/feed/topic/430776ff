@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4307" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-06T19:45:15</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4307</id>
+
+		<entry>
+		<author><name><![CDATA[VA6GSB]]></name></author>
+		<updated>2024-08-06T19:45:15</updated>
+
+		<published>2024-08-06T19:45:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32423#p32423</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32423#p32423"/>
+		<title type="html"><![CDATA[Solved: Re: GD-77 is alive again, but not update to newer firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32423#p32423"><![CDATA[
+I downloaded it a couple of years ago from here (OpenGD77).<br><br>Downloaded and installed RC2 2024 08 03, works perfect.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4604">VA6GSB</a> — Tue Aug 06, 2024 7:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-06T06:24:33</updated>
+
+		<published>2024-08-06T06:24:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32420#p32420</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32420#p32420"/>
+		<title type="html"><![CDATA[Re: GD-77 is alive again, but not update to newer firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32420#p32420"><![CDATA[
+<blockquote class="uncited"><div>Used GD77_patched_bootloader.bin to revive it.<br><br>R2021071101 GD-77_V4.3.6.sgl and OpenGD77.bin dated 7/12/2021. Works<br><br>Tried using FirmwareLoader.exe 5/29/2021 to update firmware to 6/24/2024, but when I turn off/on the power button, screen remained blank.<br>What am I doing wrong?<br>VA6GSB</div></blockquote>Where did you download FirmwareLoader.exe from ?? URL ??<br><br>The loading process was changed since 2021, so old versions of the loader won't work.<br><br>You need to use the OpenGD77 CPS to load the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 06, 2024 6:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VA6GSB]]></name></author>
+		<updated>2024-08-05T23:01:29</updated>
+
+		<published>2024-08-05T23:01:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32419#p32419</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32419#p32419"/>
+		<title type="html"><![CDATA[GD-77 is alive again, but not update to newer firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4307&amp;p=32419#p32419"><![CDATA[
+Used GD77_patched_bootloader.bin to revive it.<br><br>R2021071101 GD-77_V4.3.6.sgl and OpenGD77.bin dated 7/12/2021. Works<br><br>Tried using FirmwareLoader.exe 5/29/2021 to update firmware to 6/24/2024, but when I turn off/on the power button, screen remained blank.<br>What am I doing wrong?<br>VA6GSB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4604">VA6GSB</a> — Mon Aug 05, 2024 11:01 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

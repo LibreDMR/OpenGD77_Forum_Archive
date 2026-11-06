@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2237" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-05-20T07:44:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2237</id>
+
+		<entry>
+		<author><name><![CDATA[OZ1MAX]]></name></author>
+		<updated>2022-05-20T07:44:46</updated>
+
+		<published>2022-05-20T07:44:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2237&amp;p=18595#p18595</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2237&amp;p=18595#p18595"/>
+		<title type="html"><![CDATA[Re: Beta version is now available - including in Japanese]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2237&amp;p=18595#p18595"><![CDATA[
+great job .. thanks ... <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=132">OZ1MAX</a> — Fri May 20, 2022 7:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-05-20T06:47:11</updated>
+
+		<published>2022-05-20T06:47:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2237&amp;p=18593#p18593</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2237&amp;p=18593#p18593"/>
+		<title type="html"><![CDATA[MD9600 Beta version is now available - including in Japanese]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2237&amp;p=18593#p18593"><![CDATA[
+After a discussion with Colin G4EML, we've decided to call this latest version a Beta release<br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/07cb014f0ec72c5a8c323f5ba0089e607d79dddc" class="postlink">downloads/MD9600/Firmware/07cb014f0ec72 ... 607d79dddc</a><br><br>No major changes from the last Alpha, except that Japanese versions are now available.<br><br>Note.<br><br>We are not close to have a full "Release" because at the moment, the current consumption when the radio is turned off, is still 100mA, which is far to high.<br><br>Colin did some tests and the official firmware consumes approximately 50mA when the radio is turned off. <br><br>However, I think this is much higher than is necessary, and I'm hoping to be able to get the "Off" current lower than the offical firmware. If possibly I want to get it to go much lower, but at the moment I don't know if thats practical.<br><br>Reducing the current when the radio is Off is not a trivial change to the firmware source code, so will NOT be available soon<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri May 20, 2022 6:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

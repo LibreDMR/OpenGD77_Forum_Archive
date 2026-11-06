@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3705" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-27T16:04:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3705</id>
+
+		<entry>
+		<author><name><![CDATA[BI1PND]]></name></author>
+		<updated>2024-03-27T16:04:34</updated>
+
+		<published>2024-03-27T16:04:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30397#p30397</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30397#p30397"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30397#p30397"><![CDATA[
+Sure, frequency calibration had been made. I have two 1701 and two 1701B, any of them works as hotspot can draw the same conclution.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5809">BI1PND</a> — Wed Mar 27, 2024 4:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-27T15:16:43</updated>
+
+		<published>2024-03-27T15:16:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30393#p30393</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30393#p30393"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30393#p30393"><![CDATA[
+<blockquote class="uncited"><div>I met  the similar problem using 1701 as hotspot working on UHF and another 1701 as the receiver, whatever the receiver worked with factory firmware or with OpenGD77.  But, at the same time, voice out of my AT-878UVII Plus was fine enough.<br>When I switched the frequency of hotspot to VHF, everything was OK now.<br>I have installed the lasted version of OpenGD77 for both 1701 and the problem is not solved.<br>It puzzles me for weeks and I tried many changes on settings and nothing happened. So, I'm afraid there could be some unkown bugs with 1701, even in the factory firmware.</div></blockquote><br>Have you verified the frequency calibration on the radios? <br>Could be that it's more off frequency on UHF.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 27, 2024 3:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BI1PND]]></name></author>
+		<updated>2024-03-27T14:30:50</updated>
+
+		<published>2024-03-27T14:30:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30392#p30392</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30392#p30392"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=30392#p30392"><![CDATA[
+I met  the similar problem using 1701 as hotspot working on UHF and another 1701 as the receiver, whatever the receiver worked with factory firmware or with OpenGD77.  But, at the same time, voice out of my AT-878UVII Plus was fine enough.<br>When I switched the frequency of hotspot to VHF, everything was OK now.<br>I have installed the lasted version of OpenGD77 for both 1701 and the problem is not solved.<br>It puzzles me for weeks and I tried many changes on settings and nothing happened. So, I'm afraid there could be some unkown bugs with 1701, even in the factory firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5809">BI1PND</a> — Wed Mar 27, 2024 2:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-01-23T18:48:43</updated>
+
+		<published>2024-01-23T18:48:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28894#p28894</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28894#p28894"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28894#p28894"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Actually get a longer support tube from a hardware store and also buy some plastic cable ties, you can then use the cable ties to hold the support tube to the corner of the balcony railing.</div></blockquote>I'm cursed with neighbours and an HOA that are particularly sensitive to "the aesthetics and uniform appearance of the building" so right now I'm cursed with being as stealty as possible. However, the flower pot antenna idea sounds quite exciting, I'll investigate that one.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"></div></blockquote>Yeah, put some larger pot with some large and high plant (maybe a plastic one) near the outside of the balcony and put some j-pole or slim-jim near the stem. <br>Or a hidden ground plane. <br><br>I have a diamond 770 on my balcony that works fine.<br>That antenna and some similar ones doesn't need any ground plane which is good.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jan 23, 2024 6:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7KLK]]></name></author>
+		<updated>2024-01-23T16:43:02</updated>
+
+		<published>2024-01-23T16:43:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28889#p28889</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28889#p28889"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28889#p28889"><![CDATA[
+<blockquote class="uncited"><div>Actually get a longer support tube from a hardware store and also buy some plastic cable ties, you can then use the cable ties to hold the support tube to the corner of the balcony railing.</div></blockquote>I'm cursed with neighbours and an HOA that are particularly sensitive to "the aesthetics and uniform appearance of the building" so right now I'm cursed with being as stealty as possible. However, the flower pot antenna idea sounds quite exciting, I'll investigate that one.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5355">EA7KLK</a> — Tue Jan 23, 2024 4:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-23T08:44:12</updated>
+
+		<published>2024-01-23T08:44:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28877#p28877</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28877#p28877"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28877#p28877"><![CDATA[
+You could easily use a single or dual band J-Pole or a flower-pot antenna.<br><br>You can make both of these from things you can buy at a hardware store and are very cheap to make and perform well.<br><br>Also, get some more clamps and clamp the antenna to the balcony rail.<br>Don't use those spring loaded clamps, get the ones which use the same mechanism as silicon sealant dispensers, as they don't have a screw thread and will be more water resistant<br><br>Edit.<br><br>Actually get a longer support tube from a hardware store and also buy some plastic cable ties, you can then use the cable ties to hold the support tube to the corner of the balcony railing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 23, 2024 8:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7KLK]]></name></author>
+		<updated>2024-01-23T07:56:33</updated>
+
+		<published>2024-01-23T07:56:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28875#p28875</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28875#p28875"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28875#p28875"><![CDATA[
+<blockquote class="uncited"><div>I have a lot of local QRM on 2m but 70cm is better<br><br>In your case, why not use 2m? The range will be better than on 70cm</div></blockquote>No space for a half decent 2m antenna. Got myself a homebrew 70cm GP from 10€ of parts, though:  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2113&amp;sid=b61441ed1421331383efe643f4abbde7" class="postimage" alt="2024-01-23 08.55.07.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5355">EA7KLK</a> — Tue Jan 23, 2024 7:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-22T20:51:35</updated>
+
+		<published>2024-01-22T20:51:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28863#p28863</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28863#p28863"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28863#p28863"><![CDATA[
+I have a lot of local QRM on 2m but 70cm is better<br><br>In your case, why not use 2m? The range will be better than on 70cm<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 22, 2024 8:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7KLK]]></name></author>
+		<updated>2024-01-22T18:03:12</updated>
+
+		<published>2024-01-22T18:03:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28854#p28854</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28854#p28854"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28854#p28854"><![CDATA[
+OK, <br><br>it seems the problem is solved. I changed the hotspot frequency just before the problems started appearing, namely to 430.400 MHz as one of the recomended frequencies for hotspots in Spain as per this page: <a href="https://ea1uro.com/radio/dmrsimplex/" class="postlink">https://ea1uro.com/radio/dmrsimplex/</a><br><br>Although I checked, with both analog and digital radios if that frequency was clear for quite a while, well, at least for some minutes, and I also did a sweep scan with the OpenGD77 radio in this band for a while, it seems it wasn't clear enough. <br><br>I wonder if the military comms installation nearby (huge antennas, microwave dishes, well within my line of sight has anything to do with it. Harmonics strong enough to bother me around 2Km away? Sounds plausible. <br><br>Fact is: I moved to 439.825 as the frequency for the OpenGD77 hotspot, and all is fine now. <br><br>Note to self: Do changes one at a time. If one tends to forget stuff, make a log of the changes. Saves lots of pain and time. <br><br>Sorry for bothering you all with this issue, and thanks for all the assistance.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5355">EA7KLK</a> — Mon Jan 22, 2024 6:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7KLK]]></name></author>
+		<updated>2024-01-22T12:02:34</updated>
+
+		<published>2024-01-22T12:02:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28847#p28847</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28847#p28847"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28847#p28847"><![CDATA[
+OK, thanks for all the great help so far... <br><br>Here is a video I've made, where you can get an accurate idea of how it sounds:  <strong>iframe</strong> <br><a href="http://youtu.be/9hhBGwl7R2E">youtu.be/9hhBGwl7R2E</a> <br><br>For good measure, I am attaching my MMDVM config. Maybe I have overseen something there:<br><div class="codebox"><p>CODE: </p><pre><code>[General]Callsign=EA7KLKId=2140410Timeout=240Duplex=0RFModeHang=300NetModeHang=300Display=NoneDaemon=1[Info]RXFrequency=430400000TXFrequency=430400000Power=3Latitude=50.00Longitude=-3.00Height=0Location="Town, L0C4T0R"Description="Country"URL=https://www.qrz.com/db/EA7KLK[Log]DisplayLevel=0FileLevel=2FilePath=/var/log/pi-starFileRoot=MMDVM[CW Id]Enable=0Time=1[DMR Id Lookup]File=/usr/local/etc/DMRIds.datTime=24[NXDN Id Lookup]File=/usr/local/etc/NXDN.csvTime=24[Modem]Port=/dev/ttyACM0TXInvert=1RXInvert=1PTTInvert=0TXDelay=100RXOffset=0TXOffset=0DMRDelay=0RXLevel=100TXLevel=100RXDCOffset=0TXDCOffset=0RFLevel=50CWIdTXLevel=50D-StarTXLevel=50DMRTXLevel=50YSFTXLevel=50P25TXLevel=50NXDNTXLevel=50POCSAGTXLevel=50RSSIMappingFile=/usr/local/etc/RSSI.datTrace=0Debug=0M17TXLevel=50FMTXLevel=50AX25TXLevel=50UseCOSAsLockout=0UARTSpeed=115200Protocol=uartUARTPort=/dev/ttyACM0[Transparent Data]Enable=1RemoteAddress=127.0.0.1RemotePort=40094LocalPort=40095[UMP]Enable=0Port=/dev/ttyACM1[D-Star]Enable=0Module=BSelfOnly=1AckReply=1AckTime=750ErrorReply=1RemoteGateway=0ModeHang=20AckMessage=0[DMR]Enable=1Beacons=0BeaconInterval=60BeaconDuration=3ColorCode=1SelfOnly=1EmbeddedLCOnly=0DumpTAData=1CallHang=3TXHang=4ModeHang=20OVCM=0Id=214041001[System Fusion]Enable=0LowDeviation=0SelfOnly=1TXHang=4RemoteGateway=0ModeHang=20[P25]Enable=0NAC=293SelfOnly=1OverrideUIDCheck=0RemoteGateway=0ModeHang=20TXHang=5[NXDN]Enable=0RAN=1RemoteGateway=0TXHang=5SelfOnly=1ModeHang=20[POCSAG]Enable=0Frequency=439987500[D-Star Network]Enable=0GatewayAddress=127.0.0.1GatewayPort=20010LocalPort=20011Debug=0ModeHang=20[DMR Network]Enable=1Type=DirectAddress=2141.master.brandmeister.networkPort=62031Jitter=360Password=No frigging way ;) Slot1=0Slot2=1Debug=0ModeHang=20RemoteAddress=2141.master.brandmeister.networkRemotePort=62031[System Fusion Network]Enable=0LocalAddress=127.0.0.1LocalPort=3200GatewayAddress=127.0.0.1GatewayPort=4200Debug=0ModeHang=20[P25 Network]Enable=0GatewayAddress=127.0.0.1GatewayPort=42020LocalPort=32010Debug=0ModeHang=20[NXDN Network]Enable=0LocalAddress=127.0.0.1LocalPort=14021GatewayAddress=127.0.0.1GatewayPort=14020Debug=0Protocol=IcomModeHang=20[POCSAG Network]Enable=0LocalAddress=127.0.0.1LocalPort=3800GatewayAddress=127.0.0.1GatewayPort=4800ModeHang=5Debug=0[TFT Serial]Port=/dev/ttyAMA0Brightness=50[HD44780]Rows=2Columns=16Pins=11,10,0,1,2,3I2CAddress=0x20PWM=0PWMPin=21PWMBright=100PWMDim=16DisplayClock=1UTC=0[Nextion]Port=/dev/ttyAMA0Brightness=50DisplayClock=1UTC=0ScreenLayout=0IdleBrightness=20[OLED]Type=3Brightness=0Invert=0Scroll=0Rotate=0Cast=0LogoScreensaver=0[LCDproc]Address=localhostPort=13666DimOnIdle=0DisplayClock=1UTC=0[M17]Enable=0CAN=0SelfOnly=1TXHang=5ModeHang=20[AX 25]Enable=0TXDelay=300RXTwist=6SlotTime=30PPersist=128Trace=0[M17 Network]Enable=0LocalAddress=127.0.0.1LocalPort=17011GatewayAddress=127.0.0.1GatewayPort=17010ModeHang=20Debug=0[AX 25 Network]Enable=0Port=/dev/ttyp7Speed=9600Debug=0[Lock File]Enable=0File=/tmp/MMDVMHost.lock[Mobile GPS]Enable=0Address=127.0.0.1Port=7834[Remote Control]Enable=0Port=7642Address=127.0.0.1[FM]Enable=0Callsign=M1ABCCallsignSpeed=20CallsignFrequency=1000CallsignTime=10CallsignHoldoff=0CallsignHighLevel=50CallsignLowLevel=20CallsignAtStart=1CallsignAtEnd=1CallsignAtLatch=0RFAck=KExtAck=NAckSpeed=20AckFrequency=1750AckMinTime=4AckDelay=1000AckLevel=50Timeout=180TimeoutLevel=80CTCSSFrequency=94.8CTCSSThreshold=30CTCSSHighThreshold=30CTCSSLowThreshold=20CTCSSLevel=20KerchunkTime=0HangTime=7AccessMode=1COSInvert=0RFAudioBoost=1MaxDevLevel=90ExtAudioBoost=1[AX.25]Enable=0TXDelay=300RXTwist=6SlotTime=30PPersist=128Trace=0[AX.25 Network]Enable=0Port=/dev/ttyp7Speed=9600Debug=0</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5355">EA7KLK</a> — Mon Jan 22, 2024 12:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-22T09:09:57</updated>
+
+		<published>2024-01-22T09:09:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28842#p28842</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28842#p28842"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28842#p28842"><![CDATA[
+Also AFIK the BER shown at the end of the transmisson is Not the average BER of the entire transmission, its the last BER from MMDVMHost<br><br>But I agree with Daniel, you need to transmit for longer than a few seconds and BER is not a super good measurement of whether the signal is readable.<br><br>BER has to be very high before the signal breaks up.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 22, 2024 9:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-01-22T08:53:19</updated>
+
+		<published>2024-01-22T08:53:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28841#p28841</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28841#p28841"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28841#p28841"><![CDATA[
+A 3 seconds sample is way too short to get the BER as an accurate value.<br><br>Also, it would be better to make a video to demonstrate your problem, using Parrot, and this for many seconds.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Jan 22, 2024 8:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7KLK]]></name></author>
+		<updated>2024-01-21T21:00:08</updated>
+
+		<published>2024-01-21T21:00:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28835#p28835</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28835#p28835"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28835#p28835"><![CDATA[
+Also, here are the logs from MMDVM:<br><br>On the OpenGD77 / Radio hotspot: <br><div class="codebox"><p>CODE: </p><pre><code>M: 2024-01-21 20:51:21.687 DMR Slot 2, received network voice header from 9990 to EA7KLKM: 2024-01-21 20:51:24.526 DMR Slot 2, received network end of voice transmission from 9990 to EA7KLK, 3.0 seconds, 0% packet loss, BER: 1.2%</code></pre></div>On the duplex MMDVM hotspot: <div class="codebox"><p>CODE: </p><pre><code>M: 2024-01-21 20:55:12.421 DMR Slot 1, received network voice header from 9990 to EA7KLK - Name:M: 2024-01-21 20:55:15.878 DMR Slot 1, received network end of voice transmission from 9990 to EA7KLK, 3.7 seconds, 0% packet loss, BER: 0.0% - Name:</code></pre></div>Both transmissions are from roughly the same distance. It seems my RT84 has gone deaf? Or have I missed some adjustment in OpenGD77 that could negatively influence the signal strenght?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5355">EA7KLK</a> — Sun Jan 21, 2024 9:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7KLK]]></name></author>
+		<updated>2024-01-21T20:32:27</updated>
+
+		<published>2024-01-21T20:32:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28834#p28834</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28834#p28834"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28834#p28834"><![CDATA[
+Could there be an issue in MMDVM or Pi-Star? Any news from other users of this mode? I mean, all was fine until Wednesday or so. JSWT updated often, but I also tried a Pistar image with identical results. <br><br>Well, there is a small change... Pistar gives me a BER of between 8-12%. I guess this is quite high. On my dual hotspot I don't remember ever seeing more than 2-3%. Loss is 0%, however. <br><br>I have DMR CRC on on both radios. Could that be a reason? <br><br>This is driving me a tad nuts.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5355">EA7KLK</a> — Sun Jan 21, 2024 8:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-21T19:28:32</updated>
+
+		<published>2024-01-21T19:28:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28831#p28831</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28831#p28831"/>
+		<title type="html"><![CDATA[Re: Some hotspot woes... Bad intelligibility]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3705&amp;p=28831#p28831"><![CDATA[
+<blockquote class="uncited"><div>OK, I tried again in DMR Direct mode from one radio to another. The RT84 is clearly putting out RF but no audio when using the built-in microphone. <br>Strange enough, when I connect an external headset to it, it transmits fine and with appropriate quality<br><br>I reflashed OpenGD77 (hoping that this might fix it, but no luck) <br><br>Any ideas - I'm not scared of opening devices for fun and profit, have magnifying glasses and have known for a long time which end to hold a soldering iron. <br><br>Else, as I am really fond of the hotspot functionality with an external radio - I dare not connecting a MMDVM radio board too a proper antenna, lest I pollute the entire RF-spectrum in my area. <br><br>Any suggestions to replace the RT84? Cheapest-ass OpenGD77 compatible radio that's not unobtainium.</div></blockquote>RT-84 is a rebranded Baofeng DM-1701<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jan 21, 2024 7:28 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

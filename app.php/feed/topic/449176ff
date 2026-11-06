@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4491" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-18T03:09:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4491</id>
+
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-10-18T03:09:19</updated>
+
+		<published>2024-10-18T03:09:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33541#p33541</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33541#p33541"/>
+		<title type="html"><![CDATA[Re: OEM GD-77 Charger likes to blink]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33541#p33541"><![CDATA[
+Thanks for the info!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Fri Oct 18, 2024 3:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-17T11:56:51</updated>
+
+		<published>2024-10-17T11:56:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33528#p33528</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33528#p33528"/>
+		<title type="html"><![CDATA[Re: OEM GD-77 Charger likes to blink]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33528#p33528"><![CDATA[
+FYI: GD77 share the same charger with UV-MD-380/RT-3S. If you happen to have one.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Oct 17, 2024 11:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-17T06:56:04</updated>
+
+		<published>2024-10-17T06:56:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33527#p33527</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33527#p33527"/>
+		<title type="html"><![CDATA[Re: OEM GD-77 Charger likes to blink]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33527#p33527"><![CDATA[
+<blockquote class="uncited"><div>So I have the standard charger that comes with a GD-77. I noticed the battery wasn't quite hanging in there like it used to (it's old) but also that the charger would turn red during charging but then after a long while start flashing between red and green. If I leave it alone long enough, it went green, but I figured this must be a sign that my aging battery was on the way out.<br><br>Purchased a brand new replacement battery from Radioddity, but now that battery on its first charge is doing the same thing!<br><br>Is the red/green flashing one of those 90% charged indicators that some Motorola chargers do or is my charger broken?</div></blockquote>The charger base that comes with the GD77 is not very good.  Most people replace the PCB in the charger base with a TP5100 module board<br><br>See the posts on this forum about this modification<br><br><br>e.g.<br><br><a href="https://www.opengd77.com/viewtopic.php?f=7&amp;t=2887&amp;hilit=tp5100" class="postlink">viewtopic.php?f=7&amp;t=2887&amp;hilit=tp5100</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 17, 2024 6:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-10-17T06:09:20</updated>
+
+		<published>2024-10-17T06:09:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33526#p33526</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33526#p33526"/>
+		<title type="html"><![CDATA[OEM GD-77 Charger likes to blink]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4491&amp;p=33526#p33526"><![CDATA[
+So I have the standard charger that comes with a GD-77. I noticed the battery wasn't quite hanging in there like it used to (it's old) but also that the charger would turn red during charging but then after a long while start flashing between red and green. If I leave it alone long enough, it went green, but I figured this must be a sign that my aging battery was on the way out.<br><br>Purchased a brand new replacement battery from Radioddity, but now that battery on its first charge is doing the same thing!<br><br>Is the red/green flashing one of those 90% charged indicators that some Motorola chargers do or is my charger broken?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Thu Oct 17, 2024 6:09 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

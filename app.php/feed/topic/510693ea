@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5106" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-06T16:55:51</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5106</id>
+
+		<entry>
+		<author><name><![CDATA[DL6EK]]></name></author>
+		<updated>2025-05-06T16:55:51</updated>
+
+		<published>2025-05-06T16:55:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37018#p37018</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37018#p37018"/>
+		<title type="html"><![CDATA[Re: RD-5R - cannot connect to hotspot - Timeout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37018#p37018"><![CDATA[
+Thanks for the suggestions!<br>Finally it was an issue with the calibration data.<br>After firmware installation and backup of calibration data the reference oscillator tuning was originally -55.<br>Changing it to -41 I was able to activate the mmdvm hotspot, with fine tuning to -37 I'm happy with very low BER.<br>Usually I try to avoid mess with calibration data, in this case with the second hand device I'm good.<br>vy 73 de Joachim<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8558">DL6EK</a> — Tue May 06, 2025 4:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-05T17:41:38</updated>
+
+		<published>2025-05-05T17:41:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37015#p37015</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37015#p37015"/>
+		<title type="html"><![CDATA[Re: RD-5R - cannot connect to hotspot - Timeout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37015#p37015"><![CDATA[
+Your RD-5R center frequency deviation is different than the 878 and 1701. If you have a SDR receiver, you can calibrate it. If you don’t have one you might have to calibrate your hotspot in the middle of all your radios. <br><br>Below is how to calibrate your RD-5R using a SDR receiver. <br>Hope this help,<br>Charlie,<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/8gB0CR20yBc">youtu.be/8gB0CR20yBc</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon May 05, 2025 5:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-05T06:41:28</updated>
+
+		<published>2025-05-05T06:41:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37006#p37006</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37006#p37006"/>
+		<title type="html"><![CDATA[Re: RD-5R - cannot connect to hotspot - Timeout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37006#p37006"><![CDATA[
+Put your hotspot in  Calibration mode, and check the BER using your RD5R.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon May 05, 2025 6:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL6EK]]></name></author>
+		<updated>2025-05-05T06:04:16</updated>
+
+		<published>2025-05-05T06:04:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37005#p37005</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37005#p37005"/>
+		<title type="html"><![CDATA[RD-5R - cannot connect to hotspot - Timeout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5106&amp;p=37005#p37005"><![CDATA[
+Hello,<br>I got an RD-5R second hand, installation of OGD77 went fine, thanks to all the devs.<br><br>The issue I have is that the radio cannot 'reach/activate'' the hotspot, error message: Timeout.<br>Two other radios Anytone 878 and DM1701 (OGD77) can activate and communicate through hotspot.<br>RD-5R can communicate via a DMR relais (Hytera RD625), outside the reach from where I'm located.<br><br>What I've checked with the RD-5R:<ul><li>Tried two different MMDVM duplex boards on two different RPis<br>both running latest Pi-Star 4.2.3 with latest HS Hat fw 1.6.1<br>no change with duplex/simplex config</li></ul><ul><li>Both OGD77 releases showing same issue (R20240908 and Beta20250323)</li></ul><ul><li>Frequency deviation seems not the issue, tested with TinySA and SDR</li></ul><ul><li>Calibration seems to be fine (compared with a ham providing screenshots)</li></ul>Any more hints to troubleshoot the issue?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8558">DL6EK</a> — Mon May 05, 2025 6:04 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1711" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-07-20T01:53:42</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1711</id>
+
+		<entry>
+		<author><name><![CDATA[ba7lrt]]></name></author>
+		<updated>2021-07-20T01:53:42</updated>
+
+		<published>2021-07-20T01:53:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15279#p15279</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15279#p15279"/>
+		<title type="html"><![CDATA[Re: Where  I can download or any ham send me DM1801 uploader]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15279#p15279"><![CDATA[
+Many thanks!<br><br>RETEVIS RT73 can be flashed open gd-77?<br><br>73!<br><br>BA7LRT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1830">ba7lrt</a> — Tue Jul 20, 2021 1:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-06-22T12:43:36</updated>
+
+		<published>2021-06-22T12:43:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15013#p15013</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15013#p15013"/>
+		<title type="html"><![CDATA[Re: Where  I can download or any ham send me DM1801 uploader]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15013#p15013"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hi,I am a ham from China, my callsign BA7LRT,I had a DM-1801, dgl file got,would update GD77 firmware,can any ham help me get the uploader? or send my mai-box:<a href="mailto:ba7lrt@163.com">ba7lrt@163.com</a>,thanks!<br><br>Often I have QSO on TG91 and log QSO on my QRZ page,73 my friend!</div></blockquote>Everything is located here: <a href="https://www.opengd77.com/downloads/" class="postlink">https://www.opengd77.com/downloads/</a><br>Grab the CPS, and the latest PublicBeta firmware version.<br>About the procedure, see this post: <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=1681&amp;start=80#p15001" class="postlink">https://www.opengd77.com/viewtopic.php? ... =80#p15001</a><br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jun 22, 2021 12:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ba7lrt]]></name></author>
+		<updated>2021-06-22T12:40:46</updated>
+
+		<published>2021-06-22T12:40:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15012#p15012</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15012#p15012"/>
+		<title type="html"><![CDATA[Where  I can download or any ham send me DM1801 uploader]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1711&amp;p=15012#p15012"><![CDATA[
+Hi,I am a ham from China, my callsign BA7LRT,I had a DM-1801, dgl file got,would update GD77 firmware,can any ham help me get the uploader? or send my mai-box:<a href="mailto:ba7lrt@163.com">ba7lrt@163.com</a>,thanks!<br><br>Often I have QSO on TG91 and log QSO on my QRZ page,73 my friend!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1830">ba7lrt</a> — Tue Jun 22, 2021 12:40 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

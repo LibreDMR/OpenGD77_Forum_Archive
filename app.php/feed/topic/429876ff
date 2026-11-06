@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4298" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-01T10:04:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4298</id>
+
+		<entry>
+		<author><name><![CDATA[UB3AYH]]></name></author>
+		<updated>2024-11-01T10:04:49</updated>
+
+		<published>2024-11-01T10:04:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33850#p33850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33850#p33850"/>
+		<title type="html"><![CDATA[Re: CAT Control]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33850#p33850"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Good day! I would really like to have the ability to control the radio for work in FT8, for example in the JTDX program, if possible.</div></blockquote>This radio is FM not SSB. It does not support FT8.</div></blockquote>Yes, exactly. I said nonsense. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3483">UB3AYH</a> — Fri Nov 01, 2024 10:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-31T20:53:20</updated>
+
+		<published>2024-10-31T20:53:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33838#p33838</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33838#p33838"/>
+		<title type="html"><![CDATA[Re: CAT Control]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33838#p33838"><![CDATA[
+<blockquote class="uncited"><div>Good day! I would really like to have the ability to control the radio for work in FT8, for example in the JTDX program, if possible.</div></blockquote>This radio is FM not SSB. It does not support FT8.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 31, 2024 8:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3AYH]]></name></author>
+		<updated>2024-10-31T20:26:34</updated>
+
+		<published>2024-10-31T20:26:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33836#p33836</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33836#p33836"/>
+		<title type="html"><![CDATA[Re: CAT Control]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=33836#p33836"><![CDATA[
+Good day! I would really like to have the ability to control the radio for work in FT8, for example in the JTDX program, if possible.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3483">UB3AYH</a> — Thu Oct 31, 2024 8:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-08-07T20:33:18</updated>
+
+		<published>2024-08-07T20:33:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32428#p32428</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32428#p32428"/>
+		<title type="html"><![CDATA[Re: CAT Control]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32428#p32428"><![CDATA[
+The processor does remain on in low power mode when the rig is 'Off' but the problem is, as Roger pointed out, that in low power mode the USB port is disabled. So there would be no way for it to receive the command to turn back on again.<br><br>Simple CAT control would be possible if it was only to select channels, However, it would not be possible to truly turn the radio off. You would have to leave the processor running in normal mode to keep the USB port active. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Aug 07, 2024 8:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4PZK]]></name></author>
+		<updated>2024-08-07T12:42:19</updated>
+
+		<published>2024-08-07T12:42:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32426#p32426</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32426#p32426"/>
+		<title type="html"><![CDATA[Re: CAT Control]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32426#p32426"><![CDATA[
+Hi<br><br>Thanks for the reply, it's answers my questions. Basically CAT isn't viable for this radio.<br><br>My use case was to be able to select different preprogrammed channels and to switch the radio on and off remotely. As, I presume, the CPU is powered down when the radio is switched off it's not possible to wake the proceessor up using just a command.<br><br>Cliff, G4PZK<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6634">G4PZK</a> — Wed Aug 07, 2024 12:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-03T22:13:01</updated>
+
+		<published>2024-08-03T22:13:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32401#p32401</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32401#p32401"/>
+		<title type="html"><![CDATA[Re: CAT Control]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32401#p32401"><![CDATA[
+<blockquote class="uncited"><div>I'm a new user to OpenGD77 and have recently purchased an MD9600 mobile radio. I'm wondering if it would be possible to add limited CAT style control to the radio things like <br><br>Read memories<br>Write memories<br>Power on and off<br>Adjust volume [not sure the hardware allows for that].<br><br>Simple serial commands in the syle of Yaesu CAT or Kenwood CAT would be my preference with duplex serial I/O via the port.<br><br>I'd be happy to contribute to the code if CAT is theoretically possible and relatively easy to implement.<br><br>Cliff, G4PZK</div></blockquote><br>I'm not sure what you mean by Read and Write memories. The firmware uses a codeplug for its channel(s) data and VFO(s) frequency, unlike HF radios which have a number of 'memories'<br><br>The CPS reads and writes the entire codeplug to the radio in one batch, by writing to the codeplug data address ranges in the Flash memory chip.<br>After the CPS overwrites the codeplug, the radio gets rebooted so the the firmware rereads the codeplug and rebuilds its internal caches etc.<br><br><br>The volume in the Md9600 is hard wired, it can't in general be controlled by the firmware<br><br>On this radio you it would be possible to write a command function to turn the radio off, but not to turn it on. Because once it's off it is not active on usb<br><br>Overall,  I don't understand your use-case<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Aug 03, 2024 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4PZK]]></name></author>
+		<updated>2024-08-03T18:14:50</updated>
+
+		<published>2024-08-03T18:14:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32398#p32398</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32398#p32398"/>
+		<title type="html"><![CDATA[CAT Control]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4298&amp;p=32398#p32398"><![CDATA[
+I'm a new user to OpenGD77 and have recently purchased an MD9600 mobile radio. I'm wondering if it would be possible to add limited CAT style control to the radio things like <br><br>Read memories<br>Write memories<br>Power on and off<br>Adjust volume [not sure the hardware allows for that].<br><br>Simple serial commands in the syle of Yaesu CAT or Kenwood CAT would be my preference with duplex serial I/O via the port.<br><br>I'd be happy to contribute to the code if CAT is theoretically possible and relatively easy to implement.<br><br>Cliff, G4PZK<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6634">G4PZK</a> — Sat Aug 03, 2024 6:14 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

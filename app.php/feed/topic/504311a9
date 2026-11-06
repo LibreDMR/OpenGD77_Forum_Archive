@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5043" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-09T06:56:53</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5043</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-09T06:56:53</updated>
+
+		<published>2025-04-09T06:56:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36670#p36670</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36670#p36670"/>
+		<title type="html"><![CDATA[Re: AES256]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36670#p36670"><![CDATA[
+<blockquote class="uncited"><div>As far as I know (I might completely be wrong) the devs are Australia based, and local laws would require them to provide a backdoor to the government and they are also not allowed to disclose that there is a backdoor, making encryption sort of useless (for licensed business use. Encryption is not allowed in ham radio use anywhere in the world).</div></blockquote>This is correct.<br><br><a href="https://cyberscoop.com/australia-encryption-backdoors-law-passes/" class="postlink">https://cyberscoop.com/australia-encryp ... aw-passes/</a><br><a href="https://www.wired.com/story/australia-encryption-law-global-impact/" class="postlink">https://www.wired.com/story/australia-e ... al-impact/</a><br><br>etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Apr 09, 2025 6:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TB1BOA]]></name></author>
+		<updated>2025-04-09T03:06:27</updated>
+
+		<published>2025-04-09T03:06:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36666#p36666</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36666#p36666"/>
+		<title type="html"><![CDATA[Re: AES256]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36666#p36666"><![CDATA[
+As far as I know (I might completely be wrong) the devs are Australia based, and local laws would require them to provide a backdoor to the government and they are also not allowed to disclose that there is a backdoor, making encryption sort of useless (for licensed business use. Encryption is not allowed in ham radio use anywhere in the world).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6878">TB1BOA</a> — Wed Apr 09, 2025 3:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-07T23:14:27</updated>
+
+		<published>2025-04-07T23:14:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36650#p36650</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36650#p36650"/>
+		<title type="html"><![CDATA[Re: AES256]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36650#p36650"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Encryption is not allowed in Amateur radio. OpenGD77 is a firmware for Amateur radio operator, so encryption of any type will not be support.</div></blockquote>I have read this explanation too. A few local repeaters owners allow their close friends to use encryption on their ham repeaters. But while that is the official answer, I wonder if the real explanation is “to modify the FW to do everything it does, encryption had to go to make space for the new features”. GARY.</div></blockquote>As I understand it, OpenGD77 will have a legal problem once it is not purely for amateur radio, hence, the dev team is trying to avoid anything that can be view as non-ham. However, that is my understanding. We might need to wait for the dev team to say on this one.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Apr 07, 2025 11:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-04-07T23:03:32</updated>
+
+		<published>2025-04-07T23:03:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36649#p36649</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36649#p36649"/>
+		<title type="html"><![CDATA[Re: AES256]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36649#p36649"><![CDATA[
+<blockquote class="uncited"><div>Encryption is not allowed in Amateur radio. OpenGD77 is a firmware for Amateur radio operator, so encryption of any type will not be support.</div></blockquote>I have read this explanation too. A few local repeaters owners allow their close friends to use encryption on their ham repeaters. But while that is the official answer, I wonder if the real explanation is “to modify the FW to do everything it does, encryption had to go to make space for the new features”. GARY.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Mon Apr 07, 2025 11:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-07T20:03:39</updated>
+
+		<published>2025-04-07T20:03:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36640#p36640</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36640#p36640"/>
+		<title type="html"><![CDATA[Re: AES256]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36640#p36640"><![CDATA[
+Encryption is not allowed in Amateur radio. OpenGD77 is a firmware for Amateur radio operator, so encryption of any type will not be support.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Apr 07, 2025 8:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OM8AMV]]></name></author>
+		<updated>2025-04-07T19:13:33</updated>
+
+		<published>2025-04-07T19:13:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36639#p36639</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36639#p36639"/>
+		<title type="html"><![CDATA[AES256]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5043&amp;p=36639#p36639"><![CDATA[
+support opengd77 AES256 ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=905">OM8AMV</a> — Mon Apr 07, 2025 7:13 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

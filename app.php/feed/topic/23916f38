@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2391" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-03T04:14:25</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2391</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-03T04:14:25</updated>
+
+		<published>2022-10-03T04:14:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19977#p19977</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19977#p19977"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19977#p19977"><![CDATA[
+New Alpha version   <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2409" class="postlink">viewtopic.php?f=19&amp;t=2409</a><br><br>This thread will now be locked, please post comments about the new Alpha to that thread<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 03, 2022 4:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CU7AAZ]]></name></author>
+		<updated>2022-09-26T21:40:27</updated>
+
+		<published>2022-09-26T21:40:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19879#p19879</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19879#p19879"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19879#p19879"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>Hi! any chance to send me de source of this firmware? pleaseeee<br><br>Big thanks<br><br>regards</div></blockquote>We only release source code to fully stable releases</div></blockquote>Ok Sir, Totally understandable, even being Alpha, it's excellent. I will send an email to explain. Thanks</div></blockquote>Email sent. to VK3KYY. thanks again<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2605">CU7AAZ</a> — Mon Sep 26, 2022 9:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CU7AAZ]]></name></author>
+		<updated>2022-09-26T21:29:04</updated>
+
+		<published>2022-09-26T21:29:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19878#p19878</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19878#p19878"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19878#p19878"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Update<br><br>In addition to the fixes listed above.<br><br>This version now fixes the DMR Tx bug when the radio has been idle and is in power saving mode when the PTT is pressed.<br><br><a href="https://www.opengd77.com/downloads/MDUV380/Firmware/b86e271149df39b3ba57579c11b14f1533437d7d" class="postlink">downloads/MDUV380/Firmware/b86e271149df ... 1533437d7d</a></div></blockquote>Hi! any chance to send me de source of this firmware? pleaseeee<br><br>Big thanks<br><br>regards</div></blockquote>We only release source code to fully stable releases</div></blockquote>Ok Sir, Totally understandable, even being Alpha, it's excellent. I will send an email to explain. Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2605">CU7AAZ</a> — Mon Sep 26, 2022 9:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-26T20:28:41</updated>
+
+		<published>2022-09-26T20:28:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19876#p19876</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19876#p19876"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19876#p19876"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Update<br><br>In addition to the fixes listed above.<br><br>This version now fixes the DMR Tx bug when the radio has been idle and is in power saving mode when the PTT is pressed.<br><br><a href="https://www.opengd77.com/downloads/MDUV380/Firmware/b86e271149df39b3ba57579c11b14f1533437d7d" class="postlink">downloads/MDUV380/Firmware/b86e271149df ... 1533437d7d</a></div></blockquote>Hi! any chance to send me de source of this firmware? pleaseeee<br><br>Big thanks<br><br>regards</div></blockquote>We only release source code to fully stable releases<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 26, 2022 8:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CU7AAZ]]></name></author>
+		<updated>2022-09-26T18:37:05</updated>
+
+		<published>2022-09-26T18:37:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19875#p19875</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19875#p19875"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19875#p19875"><![CDATA[
+<blockquote class="uncited"><div>Update<br><br>In addition to the fixes listed above.<br><br>This version now fixes the DMR Tx bug when the radio has been idle and is in power saving mode when the PTT is pressed.<br><br><a href="https://www.opengd77.com/downloads/MDUV380/Firmware/b86e271149df39b3ba57579c11b14f1533437d7d" class="postlink">downloads/MDUV380/Firmware/b86e271149df ... 1533437d7d</a></div></blockquote>Hi! any chance to send me de source of this firmware? pleaseeee<br><br>Big thanks<br><br>regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2605">CU7AAZ</a> — Mon Sep 26, 2022 6:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-26T05:56:42</updated>
+
+		<published>2022-09-26T05:56:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19864#p19864</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19864#p19864"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19864#p19864"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi,<br><br>When updating the firmware, the codeplug, dmrid database and keplerian elements aren't touched.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote>As I understand it, jamaxsantos is going to replace the factory firmware with OPENGD77</div></blockquote>Yes.<br><br>As I've stated in the video and in the installation instructions, you must backup the Flash after installing the firmware, so that if you want to restore to the official firmware, you have a backup of the Flash memory which contains all codeplug data etc<br><br>If you do not backup, the Flash, and then reinstall the official firmware, you won't be able to use the radio, becuase the radio says a password lock has been applied<br>This is because the codeplug of the OpenGD77 overwrites the password lock code memory which the offficial firmware uses.<br><br>I think there is a work-around for this, as documented for the MD-9600,  for people who did not backup their Flash memory<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 26, 2022 5:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-09-26T05:50:41</updated>
+
+		<published>2022-09-26T05:50:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19863#p19863</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19863#p19863"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19863#p19863"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>When updating the firmware, the codeplug, dmrid database and keplerian elements aren't touched.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote>As I understand it, jamaxsantos is going to replace the factory firmware with OPENGD77<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Mon Sep 26, 2022 5:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-09-26T04:16:38</updated>
+
+		<published>2022-09-26T04:16:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19862#p19862</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19862#p19862"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19862#p19862"><![CDATA[
+Hi,<br><br>When updating the firmware, the codeplug, dmrid database and keplerian elements aren't touched.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Sep 26, 2022 4:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-09-25T20:21:27</updated>
+
+		<published>2022-09-25T20:21:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19856#p19856</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19856#p19856"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19856#p19856"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>Note. The JA_ version is the Japanese language version</div></blockquote>Thank you very much, I'm new to GD77 and to the forum too, I would never have imagined it, learning little by little.<br>When an update is made, is it necessary to import the csv contacts again or not?</div></blockquote></div></blockquote>Contacts and channels will be erased.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Sun Sep 25, 2022 8:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-09-25T19:37:07</updated>
+
+		<published>2022-09-25T19:37:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19853#p19853</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19853#p19853"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19853#p19853"><![CDATA[
+<blockquote class="uncited"><div>Hello, please which file should I choose to send to the radio, JA_Open or Open? Thanks</div></blockquote>Note. The JA_ version is the Japanese language version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Sun Sep 25, 2022 7:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-09-23T21:26:30</updated>
+
+		<published>2022-09-23T21:26:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19832#p19832</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19832#p19832"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19832#p19832"><![CDATA[
+Sorry, I don't understand what you are saying.<br><br>The colour code scan works as it should on the VFO screen.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Sep 23, 2022 9:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-22T21:38:55</updated>
+
+		<published>2022-09-22T21:38:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19818#p19818</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19818#p19818"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19818#p19818"><![CDATA[
+<blockquote class="uncited"><div>Is the firmware update a matter of pointing to the new .bin file in the GD77 CPS "extra" menu and loading, or are there other required steps?<br><br>Thanks, this is excellent stuff.<br><br>Mark K5LXP<br>Albuquerque, NM</div></blockquote>You need also need  official bin for the MD9600 which provides the AMBE codec.<br>For legal reasons, we can't include the AMBE codec in the binary,<br><br>See the detailed instrallatin instructions<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 22, 2022 9:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-09-22T16:03:32</updated>
+
+		<published>2022-09-22T16:03:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19816#p19816</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19816#p19816"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19816#p19816"><![CDATA[
+Yes, If you already have an MDUV380 running the firmware you just need to put the radio into firmware update mode and upload the .bin file using the Extras Menu.<br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Sep 22, 2022 4:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k5lxp]]></name></author>
+		<updated>2022-09-22T14:34:46</updated>
+
+		<published>2022-09-22T14:34:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19815#p19815</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19815#p19815"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19815#p19815"><![CDATA[
+Is the firmware update a matter of pointing to the new .bin file in the GD77 CPS "extra" menu and loading, or are there other required steps?<br><br>Thanks, this is excellent stuff.<br><br>Mark K5LXP<br>Albuquerque, NM<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3043">k5lxp</a> — Thu Sep 22, 2022 2:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-22T06:42:27</updated>
+
+		<published>2022-09-22T06:42:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19813#p19813</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19813#p19813"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-09-22-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2391&amp;p=19813#p19813"><![CDATA[
+Update<br><br>In addition to the fixes listed above.<br><br>This version now fixes the DMR Tx bug when the radio has been idle and is in power saving mode when the PTT is pressed.<br><br><a href="https://www.opengd77.com/downloads/MDUV380/Firmware/b86e271149df39b3ba57579c11b14f1533437d7d" class="postlink">downloads/MDUV380/Firmware/b86e271149df ... 1533437d7d</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 22, 2022 6:42 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

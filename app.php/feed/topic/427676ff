@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4276" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-07-29T06:10:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4276</id>
+
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2024-07-29T06:10:43</updated>
+
+		<published>2024-07-29T06:10:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32350#p32350</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32350#p32350"/>
+		<title type="html"><![CDATA[Re: USB Error &quot;Unknown USB Device&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32350#p32350"><![CDATA[
+In order not to spoil the programming cable, you can make an adapter from a faulty USB cable and a USB socket. Remove the micro USB connector and solder it by swapping D+ and D-. There will be one programming cable for both 1701/1801 and TYT.<br><br>+5V can not be soldered. He is not needed. Do not forget to isolate the bitten off +5V wire well. A short circuit to the screen may occur.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Mon Jul 29, 2024 6:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-07-28T20:53:35</updated>
+
+		<published>2024-07-28T20:53:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32343#p32343</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32343#p32343"/>
+		<title type="html"><![CDATA[Re: USB Error &quot;Unknown USB Device&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32343#p32343"><![CDATA[
+Baofeng sell the cables separately with some radios, so this is likely to be a money making scheme<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 28, 2024 8:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N3SRZ]]></name></author>
+		<updated>2024-07-28T18:48:08</updated>
+
+		<published>2024-07-28T18:48:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32342#p32342</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32342#p32342"/>
+		<title type="html"><![CDATA[Re: USB Error &quot;Unknown USB Device&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32342#p32342"><![CDATA[
+I love it when a plan comes together!!!!<br>who'd a thought that Baofeng would change those!<br>It works fine, I assumed there would be one cable pinout for those radios  with FTDI in the cable and one for radios like the Anytone and TYT with the chip in the radio.<br>I am too smart for my own good sometimes<br>Thanks<br>N3SRZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6574">N3SRZ</a> — Sun Jul 28, 2024 6:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-07-28T13:01:34</updated>
+
+		<published>2024-07-28T13:01:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32337#p32337</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32337#p32337"/>
+		<title type="html"><![CDATA[Re: USB Error &quot;Unknown USB Device&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32337#p32337"><![CDATA[
+You need Baofeng direct cable, NOT the TYT Direct Cable. AS SA0BUX state. the DATA+ and DATA- are swapped between Baofeng and TYT.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Jul 28, 2024 1:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-07-28T06:55:14</updated>
+
+		<published>2024-07-28T06:55:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32333#p32333</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32333#p32333"/>
+		<title type="html"><![CDATA[Re: USB Error &quot;Unknown USB Device&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32333#p32333"><![CDATA[
+<blockquote class="uncited"><div>I am having trouble with the com port<br>I purchased a Baofeng with OpenGd77 installed. This is the info:<br>built 20230915173056<br>ad23585 D 1<br>CPU TYT<br>( I know it may need and update)<br>The CPS software loaded fine and I have a MD380 and a 868 and 878, I have been using the Anytone and TYT cables for these radios that do not use any FTDI in the cable.<br>When the openGD77 Software installed it installed fine and it asked to load a serial driver and I did. When Ever I start the CPS i get the pop up error "Unknown USB Device (Device Descriptor Request Failed)"<br>I deleted the device but it always comes back.<br>How can I clear this to read from and to the radio?<br>73 de N3SRZ</div></blockquote>Is it a Baofeng DM-1701 ?<br><br>The cable for DM-1701 is connected differently compared to the Anytone and TYT cables.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2538&amp;sid=89a3041f54ed29e0659429234c61d2a5" class="postimage" alt="DM-1701_RT84_Cable.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jul 28, 2024 6:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N3SRZ]]></name></author>
+		<updated>2024-07-28T06:33:23</updated>
+
+		<published>2024-07-28T06:33:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32332#p32332</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32332#p32332"/>
+		<title type="html"><![CDATA[USB Error &quot;Unknown USB Device&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4276&amp;p=32332#p32332"><![CDATA[
+I am having trouble with the com port<br>I purchased a Baofeng with OpenGd77 installed. This is the info:<br>built 20230915173056<br>ad23585 D 1<br>CPU TYT<br>( I know it may need and update)<br>The CPS software loaded fine and I have a MD380 and a 868 and 878, I have been using the Anytone and TYT cables for these radios that do not use any FTDI in the cable.<br>When the openGD77 Software installed it installed fine and it asked to load a serial driver and I did. When Ever I start the CPS i get the pop up error "Unknown USB Device (Device Descriptor Request Failed)"<br>I deleted the device but it always comes back.<br>How can I clear this to read from and to the radio?<br>73 de N3SRZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6574">N3SRZ</a> — Sun Jul 28, 2024 6:33 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

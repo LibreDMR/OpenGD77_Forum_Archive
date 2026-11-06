@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3524" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-04T18:11:28</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3524</id>
+
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2023-12-04T18:11:28</updated>
+
+		<published>2023-12-04T18:11:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27864#p27864</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27864#p27864"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27864#p27864"><![CDATA[
+Thanks Roger and Colin,<br><br>Given the information it seems best just to use the Audio out jack already on the back of the radio. Easier to do a custom two headed cable then to fiddle with the mic RJ45 connector.<br><br>Apricate the quick and concise response.<br><br>AA3RP<br>Robert<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Mon Dec 04, 2023 6:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-12-04T11:02:34</updated>
+
+		<published>2023-12-04T11:02:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27859#p27859</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27859#p27859"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27859#p27859"><![CDATA[
+As Roger says pins 7 and 8 are grounded in the front panel. <br>You might be able to disconnect those pins from ground and use them for audio but you might need to remove the whole socket to do it as the PCB is double sided. <br>There is low level audio on the volume control which could be used. If you wanted to drive a speaker you would need to run a separate cable to the main body PCB audio amp. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Dec 04, 2023 11:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-04T09:00:30</updated>
+
+		<published>2023-12-04T09:00:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27858#p27858</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27858#p27858"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27858#p27858"><![CDATA[
+<blockquote class="uncited"><div>Colin,<br><br>Thank for the background and info on the mic wiring for the MD-9600.<br><br>I notice it only uses 6 of 8 possible wire positions. The question I have at this point is the RJ45 connector on the radio, does it have audio-out on either of pin 7 or 8. I have two reasons for asking. One is if audio out is on either pin 7 or 8 it might be possible to wire up a speaker / mic, and the second reason is that I am looking to get a cable for the Digirig device to experiment with sound card based digital modes for such things and WinLink and Vara FM.<br><br>Finally looking at the work you did to create the remote head (impressive) I am assuming you where on the radio PCB one could find a pad / connection point for routing to mic RJ45 connector if not already done so.<br><br>Thanks in advance.</div></blockquote>According to the radio front panel schematic the other 2 pins are GND<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 04, 2023 9:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2023-12-04T07:09:22</updated>
+
+		<published>2023-12-04T07:09:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27853#p27853</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27853#p27853"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27853#p27853"><![CDATA[
+Colin,<br><br>Thank for the background and info on the mic wiring for the MD-9600.<br><br>I notice it only uses 6 of 8 possible wire positions. The question I have at this point is the RJ45 connector on the radio, does it have audio-out on either of pin 7 or 8. I have two reasons for asking. One is if audio out is on either pin 7 or 8 it might be possible to wire up a speaker / mic, and the second reason is that I am looking to get a cable for the Digirig device to experiment with sound card based digital modes for such things and WinLink and Vara FM.<br><br>Finally looking at the work you did to create the remote head (impressive) I am assuming you where on the radio PCB one could find a pad / connection point for routing to mic RJ45 connector if not already done so.<br><br>Thanks in advance.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Mon Dec 04, 2023 7:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2023-11-29T20:59:13</updated>
+
+		<published>2023-11-29T20:59:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27761#p27761</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27761#p27761"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27761#p27761"><![CDATA[
+Once again thank you to the both of you.<br><br>Good to know the history and what is out there.<br><br>The latest PDF should be ok and I will send it along.<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed Nov 29, 2023 8:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-11-29T20:02:52</updated>
+
+		<published>2023-11-29T20:02:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27760#p27760</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27760#p27760"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27760#p27760"><![CDATA[
+That last document is as good as it gets. The original was an existing scanned diagram for a Yaesu microphone which is almost the same. I just modified it to suit. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Nov 29, 2023 8:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-11-29T19:56:33</updated>
+
+		<published>2023-11-29T19:56:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27759#p27759</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27759#p27759"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27759#p27759"><![CDATA[
+<blockquote class="uncited"><div>Thank you both for the timely response.<br><br>Colin it seems the PDF files that I have of this schematic are bit scans of a print out as the lines are not totally clear or consistent. Do you have an original digital file of this schematic. The reason I ask is because I will be sending it to the person who will use it to build the custom cable for me.<br><br>Please let me know either way and thank you for your work on the MD-9600 in every aspect. With the Open firmware and your hardware insights and mods the radio is born anew !!!<br><br>If I get brave I may even attempt the remote head option for one of the vehicles next year.<br><br>AA3RP</div></blockquote>I also noticed the bad quality, I hope that Colin has a better one.<br><br>But this one is a bit better than the first I linked to:   <a href="https://www.miklor.com/MD9600/pdf/9600-Mic.pdf" class="postlink">https://www.miklor.com/MD9600/pdf/9600-Mic.pdf</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Nov 29, 2023 7:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2023-11-29T19:21:25</updated>
+
+		<published>2023-11-29T19:21:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27758#p27758</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27758#p27758"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27758#p27758"><![CDATA[
+Thank you both for the timely response.<br><br>Colin it seems the PDF files that I have of this schematic are bit scans of a print out as the lines are not totally clear or consistent. Do you have an original digital file of this schematic. The reason I ask is because I will be sending it to the person who will use it to build the custom cable for me.<br><br>Please let me know either way and thank you for your work on the MD-9600 in every aspect. With the Open firmware and your hardware insights and mods the radio is born anew !!!<br><br>If I get brave I may even attempt the remote head option for one of the vehicles next year.<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed Nov 29, 2023 7:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-11-29T10:48:43</updated>
+
+		<published>2023-11-29T10:48:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27754#p27754</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27754#p27754"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27754#p27754"><![CDATA[
+I was the author of that document. It is amazing where it appears around the internet! <br><br>I can confirm that it is correct.<br><br>RJ45s are tricky to wire as the location of pin 1 is not well defined. It is easy to wire them up in reverse.  I suggest double checking against a genuine microphone. If you look closely at the plug you can see the two not connected pins 7 and 8.<br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Nov 29, 2023 10:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-11-29T06:10:24</updated>
+
+		<published>2023-11-29T06:10:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27750#p27750</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27750#p27750"/>
+		<title type="html"><![CDATA[Re: MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27750#p27750"><![CDATA[
+<blockquote class="uncited"><div>I have looked around and I have come across two pieces of information on the pinouts for the MD-9600 microphone / jack. Unfortunately they do not align.<br><br>It would seem someone here would know exactly what the wiring of the RJ-45 for the microphone is. If possible may I be enlighten to such. I am looking to have custom cable built for the MD-9600 I use at my shack (base station).<br><br>Thanks in advance.<br><br>AA3RP</div></blockquote>Someone made this drawing , I haven't verified that it's correct:<br><br><a href="https://rclubvic.files.wordpress.com/2018/03/connexions-micrc3b2fon-tyt-md9600.pdf" class="postlink">https://rclubvic.files.wordpress.com/20 ... md9600.pdf</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Nov 29, 2023 6:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2023-11-29T01:45:07</updated>
+
+		<published>2023-11-29T01:45:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27747#p27747</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27747#p27747"/>
+		<title type="html"><![CDATA[MD-9600 mic pinouts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3524&amp;p=27747#p27747"><![CDATA[
+I have looked around and I have come across two pieces of information on the pinouts for the MD-9600 microphone / jack. Unfortunately they do not align.<br><br>It would seem someone here would know exactly what the wiring of the RJ-45 for the microphone is. If possible may I be enlighten to such. I am looking to have custom cable built for the MD-9600 I use at my shack (base station).<br><br>Thanks in advance.<br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed Nov 29, 2023 1:45 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

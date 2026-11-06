@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2403" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-16T21:20:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2403</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-16T21:20:29</updated>
+
+		<published>2022-10-16T21:20:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=20126#p20126</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=20126#p20126"/>
+		<title type="html"><![CDATA[Re: [Fixed] DMR Rx dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=20126#p20126"><![CDATA[
+Bug is now fixed, so this thread will be locked.<br><br>Start a new thread if you have this or another problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 16, 2022 9:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-03T02:54:54</updated>
+
+		<published>2022-10-03T02:54:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19972#p19972</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19972#p19972"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19972#p19972"><![CDATA[
+<blockquote class="uncited"><div>Não localizei no projeto "ALFA" com o RT3S os ajustes : " Digit Emergency System - TX Sync Wakeup (ms) e TX Wakeup Message " esses ajustes podem ser uteis para sanar problemas.</div></blockquote><br>This is an english language forum, everyone else has the curtacy to use Google translate to convert to english before posting<br><br>If you post any more non-english posts, I will delete all your posts<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 03, 2022 2:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ik2tif]]></name></author>
+		<updated>2022-10-01T16:25:13</updated>
+
+		<published>2022-10-01T16:25:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19962#p19962</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19962#p19962"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19962#p19962"><![CDATA[
+Good evening,<br><br>I have installed the 96mhz version for 2 days and I have no problem of drop, bad modulation or low signal.<br>Great for my RT3S, everything is fine for me.<br>Thanks to the whole team for the great job<br><br>73 Fabio<br><br>IK2TIF<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2977">ik2tif</a> — Sat Oct 01, 2022 4:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-30T21:06:14</updated>
+
+		<published>2022-09-30T21:06:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19955#p19955</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19955#p19955"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19955#p19955"><![CDATA[
+<blockquote class="uncited"><div>I've been using the 96 MHz version, and none of those cyclical drop outs. But over a couple days I've heard stations go to that underwater sound like we had in the early days of the GD-77 firmware, but only a couple times.</div></blockquote>Thanks<br><br>We have discovered multiple problems related to the processor clock frequency, the flash memory latency settings, the Serial Peripheral Interface speed.<br>All of which affect DMR RX and Tx <br><br>Its going to take some time to resolve these problems.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 30, 2022 9:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WY7JT]]></name></author>
+		<updated>2022-09-30T21:00:48</updated>
+
+		<published>2022-09-30T21:00:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19954#p19954</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19954#p19954"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19954#p19954"><![CDATA[
+I've been using the 96 MHz version, and none of those cyclical drop outs. But over a couple days I've heard stations go to that underwater sound like we had in the early days of the GD-77 firmware, but only a couple times.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=673">WY7JT</a> — Fri Sep 30, 2022 9:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-30T08:03:02</updated>
+
+		<published>2022-09-30T08:03:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19948#p19948</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19948#p19948"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19948#p19948"><![CDATA[
+<blockquote class="uncited"><div>No RX dropouts since! The battery life also seems to have improved with this version.</div></blockquote>Thanks<br><br>I've found some other problems with the processor clock speed setup, and have probably found the main cause of the dropout, which was not actually the clock speed.<br><br>However it needs more testing before I can post anything.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 30, 2022 8:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-09-30T07:45:41</updated>
+
+		<published>2022-09-30T07:45:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19947#p19947</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19947#p19947"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19947#p19947"><![CDATA[
+No RX dropouts since! The battery life also seems to have improved with this version.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Fri Sep 30, 2022 7:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-29T10:08:31</updated>
+
+		<published>2022-09-29T10:08:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19927#p19927</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19927#p19927"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19927#p19927"><![CDATA[
+<blockquote class="uncited"><div>Hello. <br>1.The 96 MHz version worked well. <br>2.Installed version Sep 29, 2022 - works for 3 hours, there are no errors yet. <br>3. What processor frequency is used in version Sep 29, 2022?</div></blockquote>Latest version is 96Mhz, becuase the CPU takes less current at 96Mhz and its not necessary to use the full processing power of the CPU<br><br>On the GD77, I think the default CPU clock frequency is even lower, but lower CPU clock frequencies cause display problems on the UV380 / RT3S<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 29, 2022 10:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-09-29T08:54:34</updated>
+
+		<published>2022-09-29T08:54:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19926#p19926</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19926#p19926"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19926#p19926"><![CDATA[
+Hello. <br>1.The 96 MHz version worked well. <br>2.Installed version Sep 29, 2022 - works for 3 hours, there are no errors yet. <br>3. What processor frequency is used in version Sep 29, 2022?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Thu Sep 29, 2022 8:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-29T07:31:38</updated>
+
+		<published>2022-09-29T07:31:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19923#p19923</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19923#p19923"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19923#p19923"><![CDATA[
+<blockquote class="uncited"><div>i will try it later today and report.</div></blockquote>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 29, 2022 7:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2022-09-29T07:18:59</updated>
+
+		<published>2022-09-29T07:18:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19922#p19922</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19922#p19922"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19922#p19922"><![CDATA[
+i will try it later today and report.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Thu Sep 29, 2022 7:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-29T01:39:17</updated>
+
+		<published>2022-09-29T01:39:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19919#p19919</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19919#p19919"/>
+		<title type="html"><![CDATA[Re: DMR Rx Dropout]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19919#p19919"><![CDATA[
+Anyone with the DMR Rx dropout<br><br>Can you change to using this version<br><br><a href="https://opengd77.com/downloads/MDUV380/Firmware/661790f5fc4f7d70110de94e51a15c01196e4f59" class="postlink">https://opengd77.com/downloads/MDUV380/ ... 01196e4f59</a><br><br>Colin has discovered a clash between various parts of the firmware accessing the C6000 DMR chip, which is probably what has been causing a lot of the problems.<br><br>I have also changed all the interrupt signal priorities to make sure the CPU can instantly respond to the C6000 when there is a DMR Timeslot synchronisation trigger.<br><br>And I have also changed the ADC processing which samples the volume control and battery and VOX, so this is handled by Direct Memory Access in the processor, rather than software ADC sampling<br>Its possible that the ADC sample rate will need to be adjusted, as I reduced it from 1000 samples per second, which was much more than was necessary to around 50 samples per second. But possibly we should use 100 samples per second for the volume control.<br><br>Note. The volume control in this radio is unfortunately not direct hardware, and the CPU has to handle the changes to volume control<br><br>Also battery voltage display averaging may also need to be adjusted, and currently the displayed battery voltage will not change as quickly in response to changes to supply / battery voltage changes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 29, 2022 1:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-28T11:13:04</updated>
+
+		<published>2022-09-28T11:13:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19895#p19895</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19895#p19895"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19895#p19895"><![CDATA[
+OK<br><br>I am working on some more changes, but will probably use 96Mhz if possible, because it gives better battery life, because the CPU takes less current at lower clock frequencies.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 28, 2022 11:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-09-28T11:00:20</updated>
+
+		<published>2022-09-28T11:00:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19893#p19893</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19893#p19893"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19893#p19893"><![CDATA[
+There were failures at 144 MHz. Now I have been testing 120 MHz for 24 hours.  There were no failures, most likely.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Wed Sep 28, 2022 11:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-09-27T17:08:13</updated>
+
+		<published>2022-09-27T17:08:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19888#p19888</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19888#p19888"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2403&amp;p=19888#p19888"><![CDATA[
+Thanks for the speed test versions! <br><br>Interesting to see others reporting on their good expericenes with the higher MHz versions... <br><br>I went from 144 MHz to 120 MHz and then tried the 96MHz. The 144&amp;120 MHz versions still had dropouts on my RT3S (test setup as per earlier post). The 96MHz version appears to be stable with no dropouts since this early AM. <br><br>Just went back to 144 MHz for a quick cross-check and had another dropout after ~20 Min.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Tue Sep 27, 2022 5:08 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

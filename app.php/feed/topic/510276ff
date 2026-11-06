@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5102" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-18T16:27:33</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5102</id>
+
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-05-18T16:27:33</updated>
+
+		<published>2025-05-18T16:27:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5102&amp;p=37161#p37161</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5102&amp;p=37161#p37161"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 charger cooling mod]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5102&amp;p=37161#p37161"><![CDATA[
+I’ve been on this forum a few months now because I’ve owned my DM1701, &amp; RT3S for a few months. I feel the OpenGD77 turned my radios from Clark Kent into Superman. I remember years ago the original MD380 chargers would toast the batteries. Here’s my findings. First, I never charge a battery with the radio attached. And I charge my batteries on the porch which does not have A/C, so it could be 90 degrees when I charge. I did order some of the 5100 boards figuring it’s the way to go. But after charging both the 1701, &amp; RT3S on their respective chargers, I measured the battery voltage with my Fluke multimeter just after the charge was complete, &amp; both batteries measured 8.27 volts, well under the 8.4 volt threshold. The wall wart, charging stand, &amp; battery were barely warm even if the porch was 90 F. So seeing that I’m not cooking my batteries, I’m not going to bother using the 5100 boards. Yeah, the chargers take longer than I’m used to with my Motorola Impres chargers, but I’ve got other batteries, or radios to use while my batteries safely, &amp; slowly charge. In closing, had OpenGD77 not existed, I would never have purchased these radios. So my compliments to the gang who created this. GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Sun May 18, 2025 4:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-04T22:45:45</updated>
+
+		<published>2025-05-04T22:45:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5102&amp;p=36994#p36994</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5102&amp;p=36994#p36994"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 charger cooling mod]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5102&amp;p=36994#p36994"><![CDATA[
+The original electronics in these chargers is not very good<br><br>Most people usually replace the electronics a TP5100 charger module, or a USB charger module.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 04, 2025 10:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EI8IHB]]></name></author>
+		<updated>2025-05-04T22:00:11</updated>
+
+		<published>2025-05-04T22:00:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5102&amp;p=36993#p36993</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5102&amp;p=36993#p36993"/>
+		<title type="html"><![CDATA[Baofeng DM1701 charger cooling mod]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5102&amp;p=36993#p36993"><![CDATA[
+DM-1701 lovers,<br>have you noticed an strange smell when you charge your devices on the cradle, that smell of heated/burned pcb, and the bottom of the battery/radio quite warm?<br><br>As I'm pretty curious and wanted to understand what was going on, before having major (and maybe dangerous) failures, I found that the charge controller (HC5812 MSLX401) is heating quite a lot specially when the battery is completely discharged, discovering that the cooling conditions are not the best at all for that component.<br><br>Usually in such cases the use of double sided PCB's with"heat tunnel" is a good practice to avoid sometime to install heat-sinks or having a forced ventilation.<br>Instead, on this cradle the board is a cheap single sided phenolic pcb, that definitely doesn't help at all to keep the IC cool enough to prevent problems on mid-long term.<br><br><img class="smilies" src="http://localhost/opengd77/images/smilies/icon_idea.gif" width="15" height="17" alt=":idea:" title="Idea"> So that's my solution... <div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2943&amp;sid=b4fb7f7884d23447b5ebaf2114dc4a8c" class="postimage" alt="IMG_0312.jpeg" onclick="viewableArea(this);" /></dt></dl></div>On the opposite side of the board I've installed a heatsink (using special heat conductive double sided adhesive), and on the bottom I've placed a simple aluminum plate that dissipate the excess of heat.<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2945&amp;sid=b4fb7f7884d23447b5ebaf2114dc4a8c" class="postimage" alt="IMG_0315.jpeg" onclick="viewableArea(this);" /></dt></dl></div>The IC is not in direct contact with that plate, using heat transfer silicon mat than ensure an optimal work there.<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2944&amp;sid=b4fb7f7884d23447b5ebaf2114dc4a8c" class="postimage" alt="IMG_0314.jpeg" onclick="viewableArea(this);" /></dt></dl></div>No more heat...no more smell  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>With that mod now I can also leave the radio powered on the cradle, without risking to face overheating anymore.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8552">EI8IHB</a> — Sun May 04, 2025 10:00 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2174" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-03-28T19:45:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2174</id>
+
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2022-03-28T19:45:34</updated>
+
+		<published>2022-03-28T19:45:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18056#p18056</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18056#p18056"/>
+		<title type="html"><![CDATA[Re: Looking Forward]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18056#p18056"><![CDATA[
+<blockquote class="uncited"><div>One extra thought. <br><br>Frequency calibration of the MD9600 is actually done using the two pots at the front of the main board. One for UHF and one for VHF. There is also a software frequency adjustment but it appears that TYT always set this to the same value and the factory calibration is done using the pots. <br><br>Colin G4EML.</div></blockquote>This is good to know and looking forward to progress and the releases to get to the 'stable' OpenGD9600 firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Mon Mar 28, 2022 7:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-03-28T18:48:21</updated>
+
+		<published>2022-03-28T18:48:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18055#p18055</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18055#p18055"/>
+		<title type="html"><![CDATA[Re: Looking Forward]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18055#p18055"><![CDATA[
+One extra thought. <br><br>Frequency calibration of the MD9600 is actually done using the two pots at the front of the main board. One for UHF and one for VHF. There is also a software frequency adjustment but it appears that TYT always set this to the same value and the factory calibration is done using the pots. <br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Mar 28, 2022 6:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-03-28T18:16:40</updated>
+
+		<published>2022-03-28T18:16:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18054#p18054</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18054#p18054"/>
+		<title type="html"><![CDATA[Re: Looking Forward]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18054#p18054"><![CDATA[
+Yes, we hope to be able to add calibration in the future. We have been able to work out where the calibration is stored. It needs some extra work to add the facility to change it. <br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Mar 28, 2022 6:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2022-03-28T16:31:27</updated>
+
+		<published>2022-03-28T16:31:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18053#p18053</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18053#p18053"/>
+		<title type="html"><![CDATA[Looking Forward]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2174&amp;p=18053#p18053"><![CDATA[
+Hello,<br><br>Just back from a week trip and used the MD-9600 as my mobile and a base station in the BnB I stayed. Not a single issue for me, worked great. So a great big thank you to all.<br><br>Through my local radio club I have access to a full test bench and equipment and am able to accurately measure RF power, Frequency, and track any drift. As such I am arranging to have the time to calibrate all my HT's and this got me thinking about the MD9600. I am aware that currently you do not have access to calibrate the MD-9600 with the Open CPS like you do with the GD77. I am curious if at some time in the future the CPS will be able to allow calibration of the MD-9600 radio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Mon Mar 28, 2022 4:31 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

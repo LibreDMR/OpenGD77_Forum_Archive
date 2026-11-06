@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2720" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-03-18T09:55:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2720</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-18T09:55:40</updated>
+
+		<published>2023-03-18T09:55:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22660#p22660</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22660#p22660"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22660#p22660"><![CDATA[
+BTW.<br><br>Possibly the track ball is the same as the one used by this Sparkfun breakout board<br><br><a href="https://littlebirdelectronics.com.au/products/sparkfun-blackberry-trackballer-breakout" class="postlink">https://littlebirdelectronics.com.au/pr ... r-breakout</a><br><br>Which references this schematic<br><br><a href="https://cdn.sparkfun.com/datasheets/Components/Switches/SparkFun_Blackberry_Trackballer_Breakout_v13.pdf" class="postlink">https://cdn.sparkfun.com/datasheets/Com ... ut_v13.pdf</a><br><br>There appears to a 9 track ribbon cable going to the track ball.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 18, 2023 9:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-18T06:29:25</updated>
+
+		<published>2023-03-18T06:29:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22659#p22659</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22659#p22659"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22659#p22659"><![CDATA[
+FYI<br><br>I opened my MD2017 today and I will try to find all the pin connections to the STM32<br><br>Edit<br><br>It looks like the connections to the Flash chip are on the same pins as the UV380 etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 18, 2023 6:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-16T10:32:41</updated>
+
+		<published>2023-03-16T10:32:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22631#p22631</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22631#p22631"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22631#p22631"><![CDATA[
+I did not open my radio yet, but I wrote a small test program to toggle each GPIO pin<br><br><br>And it seems that the  Red  and Green LEDs are on the same pins  PE0 and PE1<br><br>Display backlight is connected to PE4 which is <strong class="text-strong">different </strong>from the UV380 / DM1701 which uses this pin for SPI data transfer to the C6000<br><br>I think the audio amp control or mute pin may be the same. Its definitey on the same port, but I'm not sure yet if its on the same pin<br><br>I also tried reading all pins to see if any pins were constantly toggling or were changed when I pressed any buttons, but this idea didn't work because I did not pull any pin high because just pulling high may be enough to trigger the PA or the Rx Preamp, and I did not want to do this<br><br><br>I think it will be easier for me to dissassemble my MD-2017 on Saturday and attempt to 'buzz' the connections using a continuity meter<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 16, 2023 10:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-06T20:01:31</updated>
+
+		<published>2023-03-06T20:01:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22394#p22394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22394#p22394"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22394#p22394"><![CDATA[
+<blockquote class="uncited"><div>The AT1846S does have an alternate I2C address. It is set by pin 8 SEN.  Looking at the picture one chip has this pulled high and one low, so they appear to be using I2C.   The two address seem to be 0x2E and 0x71. <br><br>Also looking at the picture the right hand chip has no connection to the RF out pin 18. So it looks like this may be used for Rx only.</div></blockquote>OK.<br><br>That's good.<br><br><br>Both chips being on I2C should be easy to support<br><br>Perhaps they use one for Tx and one for RX, before they realised that its possible to do normal DMR Tier 2 only using 1 AT1846S<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Mar 06, 2023 8:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-03-06T16:09:38</updated>
+
+		<published>2023-03-06T16:09:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22381#p22381</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22381#p22381"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22381#p22381"><![CDATA[
+The AT1846S does have an alternate I2C address. It is set by pin 8 SEN.  Looking at the picture one chip has this pulled high and one low, so they appear to be using I2C.   The two address seem to be 0x2E and 0x71. <br><br>Also looking at the picture the right hand chip has no connection to the RF out pin 18. So it looks like this may be used for Rx only.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Mar 06, 2023 4:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4VOW]]></name></author>
+		<updated>2023-03-06T11:46:56</updated>
+
+		<published>2023-03-06T11:46:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22373#p22373</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22373#p22373"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22373#p22373"><![CDATA[
+<blockquote class="uncited"><div>Do all versions include GPS or is there also a non-gps version ?<br><br>Edit. I now see the text "Optional GPS"<br><br>My mistake...</div></blockquote>Don't worry about the GPS, I found a pin-to-pin compatible GPS module, which I can get full documents and support, it is named ATGM336H, and it was used in Baofeng DM-1702.<br>My Baofeng DM-1702 does not contain GPS Module, so I ordered some today for only $2/pcs, I hope to add the GPS and make it work.<br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/gps_compatible.png" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3550">BD4VOW</a> — Mon Mar 06, 2023 11:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-06T11:23:31</updated>
+
+		<published>2023-03-06T11:23:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22372#p22372</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22372#p22372"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22372#p22372"><![CDATA[
+Do all versions include GPS or is there also a non-gps version ?<br><br>Edit. I now see the text "Optional GPS"<br><br>My mistake...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Mar 06, 2023 11:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-06T11:14:25</updated>
+
+		<published>2023-03-06T11:14:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22369#p22369</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22369#p22369"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22369#p22369"><![CDATA[
+Thanks.<br><br>Very interesting.<br><br>Looks like the VHF PA is on the bottom of the PCB and the UHF PA is on the top.<br><br>Having 2 AT1846S is also strange, however if one is for Rx and the other for Tx, then SFR may be possible with this radio.<br><br>But like Colin says, probably one is for VHF and the other for UHF.<br><br>Or perhaps having 2 x AT1846S is for true Dual Watch functionality... That would be good.  <br><br><br>AT1846S is normally used as a I2C device, but to have 2 AT1846S on the same bus there would need to be a configuration pin on the AT1846S to set it to an alternative I2C address and looking in the data sheet(s) I can't see anything like that. But there may be an undocumented feature using a GPIO pin to change the I2C address<br><br>The AT1846S can also however be controlled via SPI, so perhaps in this radio this radio , the connection is via SPI, with separate enable signals<br><br>Edit.<br><br>Flash chip is 16M bytes, which is good<br><br>It does not appear to have an EEPROM.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Mar 06, 2023 11:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-03-06T10:27:51</updated>
+
+		<published>2023-03-06T10:27:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22366#p22366</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22366#p22366"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22366#p22366"><![CDATA[
+That's interesting, dual 1846S chips is something we have not seen before. Presumably one for UHF and one for VHF.  The MD2017 was one of the first dual band DMR radios so possibly they simply took two single band RF designs and put them on one PCB.  There is only one HRC6000 though so it can't be true dual receive on DMR.<br><br>I had always assumed that the  strange antenna shape was something to do with the GPS, but I see there is an internal GPS antenna and no obvious diplexing components on the external antenna input. <br><br>Colin G4EML<br><br>Q<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Mar 06, 2023 10:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4VOW]]></name></author>
+		<updated>2023-03-06T09:36:45</updated>
+
+		<published>2023-03-06T09:36:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22365#p22365</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22365#p22365"/>
+		<title type="html"><![CDATA[TYT MD-2017 Teardown]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2720&amp;p=22365#p22365"><![CDATA[
+Bellow teardown of my TYT MD-2017 For your information.<br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/1.jpg" class="postimage" alt="Image"><br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/2.jpg" class="postimage" alt="Image"><br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/3.jpg" class="postimage" alt="Image"><br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/4.jpg" class="postimage" alt="Image"><br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/5.jpg" class="postimage" alt="Image"><br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/6.jpg" class="postimage" alt="Image"><br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/7.jpg" class="postimage" alt="Image"><br><br>BTW:<br>This machine is selling in China as MD-780, but I checked the TYT website, and it shows MD-780 is another radio. <br>These model names are confusing.<br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/aka-MD-780-in-China.png" class="postimage" alt="Image"><br><img src="https://r.amo.host/public/images/Baofeng-DM-2017/teardown/tyt-website-md-780.jpg" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3550">BD4VOW</a> — Mon Mar 06, 2023 9:36 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

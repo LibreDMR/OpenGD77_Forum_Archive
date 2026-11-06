@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3770" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-21T01:27:37</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3770</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-21T01:27:37</updated>
+
+		<published>2024-12-21T01:27:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3770&amp;p=34840#p34840</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3770&amp;p=34840#p34840"/>
+		<title type="html"><![CDATA[Re: MD-UV390Plus 5W non working radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3770&amp;p=34840#p34840"><![CDATA[
+<blockquote class="uncited"><div>I have a MD-UV390plus 10W would that help?<br><br>Backlight is lower than stock but not unreadable, so I wouldn't call it "non working" or not supported, it's very much supported except the not-as-bright screen.</div></blockquote>This is a very old thread and should probably have been locked.<br><br>10W radios are different to the 5W radio and the dim backlight is a known hardware problem for which there is a hardware fix if you are willing to open the radio and replace some resistors<br><br>I'm now locking this thread to save further confusion<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 21, 2024 1:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TB1BOA]]></name></author>
+		<updated>2024-12-21T01:14:13</updated>
+
+		<published>2024-12-21T01:14:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3770&amp;p=34836#p34836</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3770&amp;p=34836#p34836"/>
+		<title type="html"><![CDATA[Re: MD-UV390Plus 5W non working radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3770&amp;p=34836#p34836"><![CDATA[
+I have a MD-UV390plus 10W would that help?<br><br>Backlight is lower than stock but not unreadable, so I wouldn't call it "non working" or not supported, it's very much supported except the not-as-bright screen.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6878">TB1BOA</a> — Sat Dec 21, 2024 1:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-02-11T11:06:08</updated>
+
+		<published>2024-02-11T11:06:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3770&amp;p=29428#p29428</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3770&amp;p=29428#p29428"/>
+		<title type="html"><![CDATA[MD-UV390Plus 5W non working radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3770&amp;p=29428#p29428"><![CDATA[
+Hi,<br><br>  If some of you own a MD-UV390Plus 5W non working radio (like backlight problem, etc), please post (or email me) your secure register (could be downloaded from the radio using the CPS Extras-&gt;OpenGD77 Support window).<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Feb 11, 2024 11:06 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

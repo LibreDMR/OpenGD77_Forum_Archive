@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4884" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-17T20:14:32</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4884</id>
+
+		<entry>
+		<author><name><![CDATA[YU2MZZ]]></name></author>
+		<updated>2025-02-17T20:14:32</updated>
+
+		<published>2025-02-17T20:14:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35799#p35799</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35799#p35799"/>
+		<title type="html"><![CDATA[Re: OpenGD77 MMDVM all mode host]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35799#p35799"><![CDATA[
+Thanks for the quick response and clarification.<br><br>I believe this answer will be useful to many in the future.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6190">YU2MZZ</a> — Mon Feb 17, 2025 8:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-02-17T20:07:39</updated>
+
+		<published>2025-02-17T20:07:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35798#p35798</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35798#p35798"/>
+		<title type="html"><![CDATA[Re: OpenGD77 MMDVM all mode host]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35798#p35798"><![CDATA[
+No, the Hotspot mode only works with DMR. The hardware design means that other modes are not possible.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Feb 17, 2025 8:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YU2MZZ]]></name></author>
+		<updated>2025-02-17T19:33:08</updated>
+
+		<published>2025-02-17T19:33:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35797#p35797</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35797#p35797"/>
+		<title type="html"><![CDATA[OpenGD77 MMDVM all mode host]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4884&amp;p=35797#p35797"><![CDATA[
+Can the 1701 be in host mode as FM and not DMR preselected mode?<br>This way it could be a host for YSF and other digital modes and not just DMR.<br><br>Or is there an option to choose between those two modes so that I could have multi mode with the 1701 like with the small MMDVM boards that mount on the RPI.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6190">YU2MZZ</a> — Mon Feb 17, 2025 7:33 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

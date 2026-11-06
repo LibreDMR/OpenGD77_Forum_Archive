@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4699" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-22T04:38:25</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4699</id>
+
+		<entry>
+		<author><name><![CDATA[ke4dyi]]></name></author>
+		<updated>2024-12-22T04:38:25</updated>
+
+		<published>2024-12-22T04:38:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4699&amp;p=34865#p34865</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4699&amp;p=34865#p34865"/>
+		<title type="html"><![CDATA[firmware does not properly implement DCS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4699&amp;p=34865#p34865"><![CDATA[
+Greetings:<br><br>I have noticed that the open variants don't properly implement all of DCS.<br>One of the selling points of DCS is that you will never get a squelch crash on RX or TX. This is achieved by having the radio cut the microphone, as well as the DCS, then sending out a burst of 134Hz at the end of every transmission. The length of this seems to vary a bit from radio to radio, but in my experience, it's usually between 200 and 300 ms. This will immediately cause the radio on the other end to stop decoding and close squelch.<br>Open doesn't do that, simply ending the transmission, meaning any radio will squelch crash, regardless if it's decoding DCS or open carrier.<br>I have never encountered a commercially produced radio that doesn't implement a 134 or 268 Hz burst (134 is far more common and less annoying, but both will work), at the end of every DCS transmission.<br><br>Since I use DCS for crossband purposes, I currently have to use a different HT not running this firmware to avoid double crashing on repeaters or simplex frequencies while crossbanding with DCS enabled.<br><br>Tested on a DM1801, RD-5R and MD-UV380.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=834">ke4dyi</a> — Sun Dec 22, 2024 4:38 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3766" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-13T14:20:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3766</id>
+
+		<entry>
+		<author><name><![CDATA[DO1ABC]]></name></author>
+		<updated>2024-02-13T14:20:27</updated>
+
+		<published>2024-02-13T14:20:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29496#p29496</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29496#p29496"/>
+		<title type="html"><![CDATA[Re: Unidentified problem with MD9600 (V4)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29496#p29496"><![CDATA[
+Thank you for the support - everything worked!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5581">DO1ABC</a> — Tue Feb 13, 2024 2:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-02-10T22:27:29</updated>
+
+		<published>2024-02-10T22:27:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29413#p29413</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29413#p29413"/>
+		<title type="html"><![CDATA[Re: Unidentified problem with MD9600 (V4)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29413#p29413"><![CDATA[
+Install the Windows 10 driver from <a href="https://www.opengd77.com/downloads/drivers/Dfuse_3.0.6_drivers.zip" class="postlink">downloads/drivers/Dfuse_3.0.6_drivers.zip</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Feb 10, 2024 10:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-10T21:47:03</updated>
+
+		<published>2024-02-10T21:47:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29411#p29411</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29411#p29411"/>
+		<title type="html"><![CDATA[Re: Unidentified problem with MD9600 (V4)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29411#p29411"><![CDATA[
+The DFU driver in your radio is wrong<br><br>See this video I made for the MD2017, the process is the same<br><br><a href="https://youtu.be/ZvFfMJ_FyUI?t=123" class="postlink">https://youtu.be/ZvFfMJ_FyUI?t=123</a><br><br>If you are seeing a USB device called "Digital Radio in USB mode"<br><br>Then the driver is not loaded, or its the wrong driver.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Feb 10, 2024 9:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1ABC]]></name></author>
+		<updated>2024-02-10T21:37:50</updated>
+
+		<published>2024-02-10T21:37:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29410#p29410</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29410#p29410"/>
+		<title type="html"><![CDATA[Unidentified problem with MD9600 (V4)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3766&amp;p=29410#p29410"><![CDATA[
+Unidentified problem with MD9600 (V4)<br><br>Hello to the experienced technology community.<br>In December 2023 I bought the TYT-MD9600 (version 4).<br>Since I have already programmed many MD9600 and RT90 devices via PC (Windows 10),<br>I was able to easily install a code plug on this new device. After just a few weeks, I tried to do a newer firmware update and noticed that the MD9600 suddenly got stuck in the middle of the charging process and now can't connect to the USB port.<br>It is also no longer possible to read or read the codepug (faulty or incorrect port).<br>In addition, the device no longer receives or transmits. After numerous attempts to fix the problem with new/current driver versions (STM32 driver; USB driver; PL23XX_Prolific driver, etc.), the PC could not find access to the MD9600.<br>I then tried the same procedure with different computers under Windows 11 and even Windows 7 - no chance - the same messages everywhere!<br>But every time I connect the TYT-MD9600 to the PC, there is this typical sound signal when I plug and unplug the USB cable but there is no connection to the device.<br>Even though the computer shows "Digital Radio in USB mode" in Device Manager, I'm at my wits' end.<br>An attempt to update the TYT-MD9600 with Open GD77 also showed the following message: Device not connected or not in DFU mode Finally,<br>I even tried installing the drivers using the command prompt.<br>I've already tried a lot of tips from the internet. Nothing works.<br>The dealer says this is a software problem and has nothing to do with the hardware.<br>But I'm starting to think that the MD9600's STM32 processor might be defective. But in order to confront the dealer with this, I have to completely rule out all alternative possibilities.<br>Maybe someone knows another option that I might have forgotten.<br>Sometimes it's just a small thing that you overlooked.<br>Maybe the screenshots will reveal the problem.<br><br>With regards<br><br>Bruno (DO1ABC<br><br>PS:<br>If the photos were not uploaded to my post, you can find them here on my website.<br><br><a href="http://do1abc.vfkmarburg.de/index.php/problems-with-ryr-md9600/" class="postlink">http://do1abc.vfkmarburg.de/index.php/p ... yr-md9600/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5581">DO1ABC</a> — Sat Feb 10, 2024 9:37 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

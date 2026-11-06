@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5095" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-03T17:40:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5095</id>
+
+		<entry>
+		<author><name><![CDATA[KD3AUF]]></name></author>
+		<updated>2025-05-03T17:40:14</updated>
+
+		<published>2025-05-03T17:40:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36983#p36983</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36983#p36983"/>
+		<title type="html"><![CDATA[Re: RT3S Choppy Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36983#p36983"><![CDATA[
+We seem to have a resolution. I got home from work this morning and tried again on different repeaters (100 miles away) and it worked.  I guess the two repeaters that I tried at work were both having issues?  (And not with my other radio) Either way it seems to be working correctly now.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8545">KD3AUF</a> — Sat May 03, 2025 5:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD3AUF]]></name></author>
+		<updated>2025-05-02T19:56:55</updated>
+
+		<published>2025-05-02T19:56:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36972#p36972</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36972#p36972"/>
+		<title type="html"><![CDATA[Re: RT3S Choppy Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36972#p36972"><![CDATA[
+I also tried uninstalling and reinstalling the older CPS from December.  I tried writing a fresh codeplug.  Neither worked.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8545">KD3AUF</a> — Fri May 02, 2025 7:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD3AUF]]></name></author>
+		<updated>2025-05-02T18:14:51</updated>
+
+		<published>2025-05-02T18:14:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36971#p36971</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36971#p36971"/>
+		<title type="html"><![CDATA[Re: RT3S Choppy Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36971#p36971"><![CDATA[
+Had been using R20240908 and then went to R20250323 to see if that would solve the problem.<br>Firmware is the file OpenMDUV380 from 2024-12-15.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8545">KD3AUF</a> — Fri May 02, 2025 6:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-02T17:19:35</updated>
+
+		<published>2025-05-02T17:19:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36970#p36970</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36970#p36970"/>
+		<title type="html"><![CDATA[Re: RT3S Choppy Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36970#p36970"><![CDATA[
+CPS version? firmware version?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri May 02, 2025 5:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD3AUF]]></name></author>
+		<updated>2025-05-02T09:00:11</updated>
+
+		<published>2025-05-02T09:00:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36962#p36962</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36962#p36962"/>
+		<title type="html"><![CDATA[RT3S Choppy Audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5095&amp;p=36962#p36962"><![CDATA[
+Hi, I have been using the software on my radio for about a month now with no issues.  Yesterday I added a bunch on data to my codeplug.  After doing so, I now have "choppy" audio when monitoring DMR.  DMR only, analog is fine.  I looked at an older save file of my codeplug and compared it to the new one and see no differences.  I even tried rolling back to my old codeplug and that did not help it.  I have adjusted just about every setting in the radio that I could and still no help.  Anyone have any ideas for me?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8545">KD3AUF</a> — Fri May 02, 2025 9:00 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

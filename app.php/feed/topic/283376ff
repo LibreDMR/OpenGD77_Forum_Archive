@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2833" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-29T02:57:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2833</id>
+
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2024-05-29T02:57:55</updated>
+
+		<published>2024-05-29T02:57:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2833&amp;p=31467#p31467</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2833&amp;p=31467#p31467"/>
+		<title type="html"><![CDATA[Re: GPS on DM1701 best hardware hookup?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2833&amp;p=31467#p31467"><![CDATA[
+not really. I got distracted with building DMR repeaters. <br>I had everything correct, but I could not solder the wire to the STM pin properly as you need a very thin wire , and I shorted 2 pins so the serial port no longer works.<br>I have a microscope , and could probably fix it , but I no longer have the time. The tricky part was finding a GPS antenna to fit at the top of the radio between the knobs. I used one out of a dead GPS watch because i could not find a similar one for sale. If you install the GPS , just power it permanently with the CPU power as the GPS off feature is not very useful and the power savings is minimal.<br><br>Goos luck.<br>Luca<br>VE2WKR//W0<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Wed May 29, 2024 2:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU7TKM]]></name></author>
+		<updated>2024-05-26T03:22:41</updated>
+
+		<published>2024-05-26T03:22:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2833&amp;p=31418#p31418</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2833&amp;p=31418#p31418"/>
+		<title type="html"><![CDATA[Re: GPS on DM1701 best hardware hookup?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2833&amp;p=31418#p31418"><![CDATA[
+Hello,<br><br>Have you managed to go forward with this project? I'm interested in also adding GPS to the DM1701.<br><br>73's<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6214">PU7TKM</a> — Sun May 26, 2024 3:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2023-04-20T16:31:21</updated>
+
+		<published>2023-04-20T16:31:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2833&amp;p=23053#p23053</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2833&amp;p=23053#p23053"/>
+		<title type="html"><![CDATA[GPS on DM1701 best hardware hookup?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2833&amp;p=23053#p23053"><![CDATA[
+HI, Colin, <br>I'm working on a solution to add a GPS receiver to the DM1701. I found that the ATGM336H module for arduino sold on aliexpress for ~$4 fits easily in the DM1701.<br>Looking at the code , the GPS on/off function is compiled out of the firmware, so I'll have to generate a new image.<br>Do you know what would be the best GPIO pin to power the GPS module ? ( I can then add the turn on/off function back in the firmware)<br>I see that in non MDUV380 radios usart0 is used for the GPS data input. Do you know if  this is  available in the DM1701 or should I use another one ?<br><br>Thanks,<br>73's<br>Luca<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Thu Apr 20, 2023 4:31 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

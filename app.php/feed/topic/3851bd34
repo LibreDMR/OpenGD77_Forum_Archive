@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3851" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-08T10:38:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3851</id>
+
+		<entry>
+		<author><name><![CDATA[R9OBQ]]></name></author>
+		<updated>2024-03-08T10:38:18</updated>
+
+		<published>2024-03-08T10:38:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3851&amp;p=30034#p30034</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3851&amp;p=30034#p30034"/>
+		<title type="html"><![CDATA[Re: Reference frequency calibration on RT82]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3851&amp;p=30034#p30034"><![CDATA[
+Thank you for your reply. As always, any question is solved by careful reading of the manual =)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=649">R9OBQ</a> — Fri Mar 08, 2024 10:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-07T06:16:13</updated>
+
+		<published>2024-03-07T06:16:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3851&amp;p=29996#p29996</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3851&amp;p=29996#p29996"/>
+		<title type="html"><![CDATA[Re: Reference frequency calibration on RT82]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3851&amp;p=29996#p29996"><![CDATA[
+<blockquote class="uncited"><div>It so happens that my RT82 has a shift of reference frequency (at 144mHz -500Hz, at 70cm already more than 1kHz). When working in analog modes it is not a problem, but when using dmr (especially hotspot) it is already a problem. So far I solve the problem by introducing frequency correction on rt82. <br>In CPS the calibration tab is inactive.</div></blockquote>CPS calibration tab only reads and writes the data file for the STM32 based radios. <br>It only displays the data for the GD77 type radios , including RD5R <br><br><br>You can calibrate the frequency in the firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 07, 2024 6:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R9OBQ]]></name></author>
+		<updated>2024-03-07T03:14:08</updated>
+
+		<published>2024-03-07T03:14:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3851&amp;p=29994#p29994</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3851&amp;p=29994#p29994"/>
+		<title type="html"><![CDATA[Reference frequency calibration on RT82]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3851&amp;p=29994#p29994"><![CDATA[
+It so happens that my RT82 has a shift of reference frequency (at 144mHz -500Hz, at 70cm already more than 1kHz). When working in analog modes it is not a problem, but when using dmr (especially hotspot) it is already a problem. So far I solve the problem by introducing frequency correction on rt82. <br>In CPS the calibration tab is inactive.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=649">R9OBQ</a> — Thu Mar 07, 2024 3:14 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4601" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-21T20:10:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4601</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-21T20:10:00</updated>
+
+		<published>2024-11-21T20:10:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4601&amp;p=34168#p34168</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4601&amp;p=34168#p34168"/>
+		<title type="html"><![CDATA[Re: Is the Retevis RT-52 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4601&amp;p=34168#p34168"><![CDATA[
+Short answer..... No<br><br><br>Long answer.  We already list every model of radio which the firmware supports.<br>We have 4 separate codebases, each of which builds multiple variants, e,g. The MD9600 alone has 5 different variants<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Nov 21, 2024 8:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2024-11-21T19:28:04</updated>
+
+		<published>2024-11-21T19:28:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4601&amp;p=34167#p34167</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4601&amp;p=34167#p34167"/>
+		<title type="html"><![CDATA[Is the Retevis RT-52 supported?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4601&amp;p=34167#p34167"><![CDATA[
+Is the Retevis RT-52 supported?<br><br>YM<br>ve2ymm<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Thu Nov 21, 2024 7:28 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

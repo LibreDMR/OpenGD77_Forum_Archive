@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/256" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-12-11T08:34:56</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/256</id>
+
+		<entry>
+		<author><name><![CDATA[YT5HOK]]></name></author>
+		<updated>2019-12-11T08:34:56</updated>
+
+		<published>2019-12-11T08:34:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2216#p2216</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2216#p2216"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2216#p2216"><![CDATA[
+<blockquote class="uncited"><div>Right- good point. So you've got to rebuild those after.</div></blockquote>I know cause I did. Had to fix after.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br><blockquote class="uncited"><div>i have successfully exported to csv, reordered and imported back into the cps, written to the radio and it didn't break anything, zones, rx groups (TG Lists) and scan lists, all fine<br><br>in channels, double click above '1' to highlight all channels, click 'export selected rows', load EXCEL, re order, save as new file name and select YES when prompted to keep workbook format. back in the CPS in channels click 'IMPORT CLEAR ALL' and write to radio.<br><br>works here, no problems</div></blockquote>Sound impossible, except if your codeplug (lists, groups, zones) is very simple. But, anyway, to each his own.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=97">YT5HOK</a> — Wed Dec 11, 2019 8:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-12-11T02:04:50</updated>
+
+		<published>2019-12-11T02:04:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2197#p2197</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2197#p2197"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2197#p2197"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>That would be a nice feature, but in the meantime it's easy to export to a csv then re-order with an external editor, then re-import.</div></blockquote>That does break associations with zones, RX groups and scan lists.</div></blockquote>i have successfully exported to csv, reordered and imported back into the cps, written to the radio and it didn't break anything, zones, rx groups (TG Lists) and scan lists, all fine<br><br>in channels, double click above '1' to highlight all channels, click 'export selected rows', load EXCEL, re order, save as new file name and select YES when prompted to keep workbook format. back in the CPS in channels click 'IMPORT CLEAR ALL' and write to radio.<br><br>works here, no problems<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Wed Dec 11, 2019 2:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-12-11T00:05:07</updated>
+
+		<published>2019-12-11T00:05:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2193#p2193</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2193#p2193"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2193#p2193"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>That would be a nice feature, but in the meantime it's easy to export to a csv then re-order with an external editor, then re-import.</div></blockquote>That does break associations with zones, RX groups and scan lists.</div></blockquote>Right- good point. So you've got to rebuild those after.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Wed Dec 11, 2019 12:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YT5HOK]]></name></author>
+		<updated>2019-12-10T23:52:46</updated>
+
+		<published>2019-12-10T23:52:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2192#p2192</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2192#p2192"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2192#p2192"><![CDATA[
+<blockquote class="uncited"><div>That would be a nice feature, but in the meantime it's easy to export to a csv then re-order with an external editor, then re-import.</div></blockquote>That does break associations with zones, RX groups and scan lists.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=97">YT5HOK</a> — Tue Dec 10, 2019 11:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-12-10T23:46:10</updated>
+
+		<published>2019-12-10T23:46:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2191#p2191</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2191#p2191"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2191#p2191"><![CDATA[
+<blockquote class="uncited"><div>Hi, will it be possible to order channels with OpenCPS software in the near future? Would be great.</div></blockquote>That would be a nice feature, but in the meantime it's easy to export to a csv then re-order with an external editor, then re-import.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Tue Dec 10, 2019 11:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-10T19:49:50</updated>
+
+		<published>2019-12-10T19:49:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2161#p2161</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2161#p2161"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2161#p2161"><![CDATA[
+Lol.<br><br>That’s what I use.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 10, 2019 7:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-12-10T19:47:41</updated>
+
+		<published>2019-12-10T19:47:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2158#p2158</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2158#p2158"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2158#p2158"><![CDATA[
+<blockquote class="uncited"><div>I made a video just about the Channel screen yesterday and it took 20 just for that screen !<br><br>And even then I missed a few things <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>I need to do a video about the CPS and codeplug creating, so I will try to do that today, using screen capture on my PC.</div></blockquote>FYI: OBS works really well for making screencast videos for my teaching stuff.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Tue Dec 10, 2019 7:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-10T19:44:12</updated>
+
+		<published>2019-12-10T19:44:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2155#p2155</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2155#p2155"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2155#p2155"><![CDATA[
+I made a video just about the Channel screen yesterday and it took 20 just for that screen !<br><br>And even then I missed a few things <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>I need to do a video about the CPS and codeplug creating, so I will try to do that today, using screen capture on my PC.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 10, 2019 7:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-12-10T14:00:05</updated>
+
+		<published>2019-12-10T14:00:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2145#p2145</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2145#p2145"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2145#p2145"><![CDATA[
+<blockquote class="uncited"><div>Hi Ben<br><br>I think there is now so much functionality its helpful to have a video as well as the User guide.  But as you can tell from my comment, I still didn't explain enough in the video <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"></div></blockquote>I totally agree with this, Roger. A series of videos explaining functions will be helpful. But that takes a lot of time to make those videos! I do it for my day job, teaching. Very effective but hard to do it well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Tue Dec 10, 2019 2:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-10T05:59:44</updated>
+
+		<published>2019-12-10T05:59:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2113#p2113</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2113#p2113"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2113#p2113"><![CDATA[
+Hi Ben<br><br>I think there is now so much functionality its helpful to have a video as well as the User guide.  But as you can tell from my comment, I still didn't explain enough in the video <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 10, 2019 5:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3tbs]]></name></author>
+		<updated>2019-12-10T02:33:29</updated>
+
+		<published>2019-12-10T02:33:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2107#p2107</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2107#p2107"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2107#p2107"><![CDATA[
+<blockquote class="uncited"><div>Hi Ben<br><br>Scanning works for individual zones (all 80 channels) or there is virtual "All Channels" zone that has all the Channels in it, and you can also scan that zone.</div></blockquote>Even better.  I knew you had thought of that before I did!<br>Love your video's also.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=272">vk3tbs</a> — Tue Dec 10, 2019 2:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-09T04:11:54</updated>
+
+		<published>2019-12-09T04:11:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2026#p2026</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2026#p2026"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2026#p2026"><![CDATA[
+Hi Ben<br><br>Scanning works for individual zones (all 80 channels) or there is virtual "All Channels" zone that has all the Channels in it, and you can also scan that zone.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 09, 2019 4:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3tbs]]></name></author>
+		<updated>2019-12-09T03:49:47</updated>
+
+		<published>2019-12-09T03:49:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=2025#p2025</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2025#p2025"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=2025#p2025"><![CDATA[
+<blockquote class="uncited"><div>I think the OpenGD77 CPS is now ready for testing<br><br>The main difference is the 80 channels zones rather than 16 channels.<br>Also I've changed the extension of the codeplug file from .dat to .g77. The CPS will read .dat files but it will default to .g77<br><br>I've also fixed the Digital Contacts so that the TS override data can be exported and imported and fixed an annoyance where the Digital Contact always displayed with loads of leading zeros, which was ,far as I can tell,  pointless.<br><br>This will install into a different directory and also use different registry keys, so in theory you should be able to run both CPS's independently <br><br><a href="https://github.com/rogerclarkmelbourne/radioddity_gd-77_cps/raw/master/installer/OpenGD77CPSInstaller.exe" class="postlink">https://github.com/rogerclarkmelbourne/ ... taller.exe</a></div></blockquote>Hi Roger, I have updated firmware, and CE and it all worked so well.  Thank you for what you have done.<br>Since you have upped the zones to 80 channels (what an improvement!), can the scan updated to match?<br><br>I was able to talk well into a DMR repeater also, was even able to up the power to the necessary power required, then back it off to save power - so easy!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=272">vk3tbs</a> — Mon Dec 09, 2019 3:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-12-06T17:42:10</updated>
+
+		<published>2019-12-06T17:42:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=1784#p1784</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=1784#p1784"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=1784#p1784"><![CDATA[
+yay, good to hear<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Fri Dec 06, 2019 5:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-12-06T17:36:28</updated>
+
+		<published>2019-12-06T17:36:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=256&amp;p=1783#p1783</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=256&amp;p=1783#p1783"/>
+		<title type="html"><![CDATA[Re: OpenGD77 v 0.0.0.1 ready for testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=256&amp;p=1783#p1783"><![CDATA[
+<strong class="text-strong">UPDATE</strong><br><br>problem solved. User error  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cry.gif" width="15" height="17" alt=":cry:" title="Crying or Very Sad"> <br><br>I had an issue with my imported DMR channels as the TG numbers were not specified though the names were. That was indicated in the error message. It's all good now.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Fri Dec 06, 2019 5:36 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/17" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-11-22T22:22:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/17</id>
+
+		<entry>
+		<author><name><![CDATA[IW6CNM]]></name></author>
+		<updated>2019-11-19T12:08:49</updated>
+
+		<published>2019-11-19T12:08:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=305#p305</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=305#p305"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=305#p305"><![CDATA[
+thanks Roger<br><br>i very appreciate your job<br>thanks again<br>de iw6cnm<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=157">IW6CNM</a> — Tue Nov 19, 2019 12:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-19T10:46:22</updated>
+
+		<published>2019-11-19T10:46:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=304#p304</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=304#p304"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=304#p304"><![CDATA[
+Its on the To Do list to make this as flexible as the old hotpot mode, but I changed the way the power is handled in the Tier 2 version to be in steps and it was easier for me to get the hotspot working,  to just calculate out the approximate step for each % power setting<br><br>The problem is really that the power curve is only relatively linear between 1W and 5W.<br><br>Below 1W the power curve is exponential.<br><br>To get the 250, 500 and 750mW settings relatively accurate, I subtract fixed values below the calibration PA drive value for 1W (where the raw value is normally around 1600 )<br><br>If someone could work out an equation of % power -&gt; PA drive value, it would be great , as we could use it for the hotspot<br><br>BTW. I did consider adding some more power options e.g 50mW and also 5W+  (i.e drive the PA to the Max)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 19, 2019 10:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IW6CNM]]></name></author>
+		<updated>2019-11-19T10:36:26</updated>
+
+		<published>2019-11-19T10:36:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=302#p302</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=302#p302"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=302#p302"><![CDATA[
+HI<br>maybe i'm off topics <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_geek.gif" width="17" height="17" alt=":geek:" title="Geek"> <br>I see min power now is 250 mw , is it possible reduce to few mills..<br><br>tnx<br>de iw6cnm<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=157">IW6CNM</a> — Tue Nov 19, 2019 10:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-11-17T13:33:40</updated>
+
+		<published>2019-11-17T13:33:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=137#p137</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=137#p137"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=137#p137"><![CDATA[
+all good here thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sun Nov 17, 2019 1:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LB9AB]]></name></author>
+		<updated>2019-11-17T13:33:16</updated>
+
+		<published>2019-11-17T13:33:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=136#p136</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=136#p136"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=136#p136"><![CDATA[
+<blockquote class="uncited"><div>I have successfully installed the latest TIER2 version (17 Nov) but I am missing the power adjustment menu.<br>I have searched into OPTIONS menu but it is not visible?<br>I am doing something wrong?   <br>Thanks in advance for you help<br>73 de SV3IBF</div></blockquote>Is not in the option menu..<br>Push and hold blue button and use left/right arrow keys to adjust power level <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=75">LB9AB</a> — Sun Nov 17, 2019 1:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP2ONG]]></name></author>
+		<updated>2019-11-19T17:27:27 </updated>
+
+		<published>2019-11-17T13:30:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=135#p135</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=135#p135"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=135#p135"><![CDATA[
+Please read:<br><br><a href="http://www.opengd77.com/viewtopic.php?f=7&amp;t=43&amp;sid=e353a1cd3267de319c51a2d5ee61f3fd#p82" class="postlink">viewtopic.php?f=7&amp;t=43&amp;sid=e353a1cd3267 ... 61f3fd#p82</a><br><br>in hotspot moede you can set level of power otput by seting in Pi-Star dashboard MMDVMhost in expert mode<br><blockquote class="uncited"><div>I have successfully installed the latest TIER2 version (17 Nov) but I am missing the power adjustment menu.<br>I have searched into OPTIONS menu but it is not visible?</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=82">SP2ONG</a> — Sun Nov 17, 2019 1:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV3IBF]]></name></author>
+		<updated>2019-11-17T13:17:09</updated>
+
+		<published>2019-11-17T13:17:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=133#p133</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=133#p133"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=133#p133"><![CDATA[
+I have successfully installed the latest TIER2 version (17 Nov) but I am missing the power adjustment menu.<br>I have searched into OPTIONS menu but it is not visible?<br>I am doing something wrong?   <br>Thanks in advance for you help<br>73 de SV3IBF<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=135">SV3IBF</a> — Sun Nov 17, 2019 1:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-22T22:22:52 </updated>
+
+		<published>2019-11-16T16:04:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=66#p66</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=66#p66"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=66#p66"><![CDATA[
+I am having a problem with local repeaters (my hotspot works fine). The issue is the TG only showing TG0 (or last Heard if I switch over to my hot spot and make a contact, that contact becomes the last heard). However, after turning the radio off then back on all I can get it the TG0 showing up. <br><br>These repeaters are Nebraska MotoTRBO network DMR MARC. I am having eh problem using both a channel from my cps and a VFO channel.<br>I have cleaned up my CPS, I have reloaded my ID contacts, cleaned up my contact database with no change. I am having this problem on two radios. When I load the factory firmware it works as expected, when a station is received the station call or DMR Id are displayed as normal and the talk group, not jut TG0 with no ID<br><br>I have tried to write a fresh, new Code Plug and also import a new set of ID's. I have also adjusted some of the settings to try to improve sensitivity but that did not help<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 16, 2019 4:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-11-16T14:24:08</updated>
+
+		<published>2019-11-16T14:24:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=62#p62</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=62#p62"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=62#p62"><![CDATA[
+Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sat Nov 16, 2019 2:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB3XPL]]></name></author>
+		<updated>2019-11-16T14:18:55</updated>
+
+		<published>2019-11-16T14:18:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=60#p60</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=60#p60"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=60#p60"><![CDATA[
+Working fine thanks  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_razz.gif" width="15" height="17" alt=":P" title="Razz"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=79">HB3XPL</a> — Sat Nov 16, 2019 2:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ7PTE]]></name></author>
+		<updated>2019-11-16T13:16:31</updated>
+
+		<published>2019-11-16T13:16:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=59#p59</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=59#p59"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=59#p59"><![CDATA[
+Thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=52">SQ7PTE</a> — Sat Nov 16, 2019 1:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO4CZ]]></name></author>
+		<updated>2019-11-16T12:17:29</updated>
+
+		<published>2019-11-16T12:17:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=51#p51</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=51#p51"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=51#p51"><![CDATA[
+Here the Link.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><br><a href="https://raw.githubusercontent.com/rogerclarkmelbourne/OpenGD77/master/firmware_binaries/daily_builds/OpenGD77_Tier2_latest.sgl" class="postlink">https://raw.githubusercontent.com/roger ... latest.sgl</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=73">DO4CZ</a> — Sat Nov 16, 2019 12:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ7PTE]]></name></author>
+		<updated>2019-11-16T11:38:57</updated>
+
+		<published>2019-11-16T11:38:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=48#p48</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=48#p48"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=48#p48"><![CDATA[
+You need a link to download the latest version. Roger, please.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=52">SQ7PTE</a> — Sat Nov 16, 2019 11:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-11-16T11:12:46</updated>
+
+		<published>2019-11-16T11:12:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=43#p43</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=43#p43"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=43#p43"><![CDATA[
+dont know whats up here. OpenGD77_Tier2_latest.sgl , black button seems to do  nothing,  blue dv reports unhandled exception when i select com port in set up<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sat Nov 16, 2019 11:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA5SW]]></name></author>
+		<updated>2019-11-16T10:14:01</updated>
+
+		<published>2019-11-16T10:14:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=17&amp;p=39#p39</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=17&amp;p=39#p39"/>
+		<title type="html"><![CDATA[Re: Hotspot mode 0.0.72 etc]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=17&amp;p=39#p39"><![CDATA[
+Thanks... now working, also tested Tier2 in my own mini repeater..<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=81">EA5SW</a> — Sat Nov 16, 2019 10:14 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

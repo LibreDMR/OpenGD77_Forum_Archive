@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4422" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-21T05:19:51</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4422</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-21T05:19:51</updated>
+
+		<published>2024-09-21T05:19:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4422&amp;p=33101#p33101</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4422&amp;p=33101#p33101"/>
+		<title type="html"><![CDATA[Re: &quot;Tx Failed: Be Disabled&quot; after using 4.2.6 for foundation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4422&amp;p=33101#p33101"><![CDATA[
+Are you referring to the official firmware 4.2.6 ??<br><br>i.e Not the OpenGD77 firmware ??<br><br>There are known bugs in the official firmware which under some circumstances, can cause the official firmware to prevent any new firmware updates being loaded.<br><br><br>So if your radio will no longer enter firmware update mode, then it sounds like you have that problem.<br><br>If thats the case there is No software fix. The only fix is to reflash the CPU using a programming dongle like a JLink Edu Mini, and this requires the radio to be disassembled and wires attached to the main PCB.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 21, 2024 5:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD4NUE]]></name></author>
+		<updated>2024-09-21T03:35:10</updated>
+
+		<published>2024-09-21T03:35:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4422&amp;p=33100#p33100</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4422&amp;p=33100#p33100"/>
+		<title type="html"><![CDATA[&quot;Tx Failed: Be Disabled&quot; after using 4.2.6 for foundation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4422&amp;p=33100#p33100"><![CDATA[
+The subject line says it all.   <br><br>I did every search I could to see if this has been brought up or solved.  <br><br>Further compounded with holding both Side Keys while Powering On causing a short solid Green LED, followed by a normal boot-up, thus preventing future attempts to reload correct firmware.     <br><br>I have the Calibration BKUP, EEPROM- BKUP and FLASH_BKUP binary files saved.  <br><br>David <br>KD4NUE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2724">KD4NUE</a> — Sat Sep 21, 2024 3:35 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

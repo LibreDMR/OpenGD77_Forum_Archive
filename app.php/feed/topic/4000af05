@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4000" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-29T08:33:39</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4000</id>
+
+		<entry>
+		<author><name><![CDATA[DF2BM]]></name></author>
+		<updated>2025-06-29T08:33:39</updated>
+
+		<published>2025-06-29T08:33:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4000&amp;p=37598#p37598</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=37598#p37598"/>
+		<title type="html"><![CDATA[Re: Audio problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=37598#p37598"><![CDATA[
+<blockquote class="uncited"><div>been doing some messing.<br><br>it would appear that the buzzing appears if the screen brightness is anything other that 100%, however, when the screen is at 100% the buzzing is replaced with a high pitched tone.<br><br>With the screen at less than 100% the buzzing is there until the screen goes off. When at 100% the high pitched tone is there and reduces when the screen goes off, but is still audible.</div></blockquote>I encounter exactly the same behavior on my TYT MD2017.<br>It's a early model, bought it in summer 2017.<br>I was told, this buzzing sound is even in the transmissions. Until the backlight switches off.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8854">DF2BM</a> — Sun Jun 29, 2025 8:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-17T12:06:21</updated>
+
+		<published>2024-04-17T12:06:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30919#p30919</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30919#p30919"/>
+		<title type="html"><![CDATA[Re: Audio problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30919#p30919"><![CDATA[
+<blockquote class="uncited"><div>Not sure on the age, I will try on a different radio and see if it is still present. definitely when the backlight is on, but wasn't there in the original firmware.<br><br>i will get it back to stock and see if its still present</div></blockquote>The official firmware does not support dimming of the display. What you are hearing is probably an artifact of the PWM used for the dimming<br><br>But AFIK no one else's radio has this artifact<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Apr 17, 2024 12:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m0xrs]]></name></author>
+		<updated>2024-04-17T11:57:29</updated>
+
+		<published>2024-04-17T11:57:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30918#p30918</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30918#p30918"/>
+		<title type="html"><![CDATA[Re: Audio problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30918#p30918"><![CDATA[
+Not sure on the age, I will try on a different radio and see if it is still present. definitely when the backlight is on, but wasn't there in the original firmware.<br><br>i will get it back to stock and see if its still present<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2335">m0xrs</a> — Wed Apr 17, 2024 11:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-16T21:03:23</updated>
+
+		<published>2024-04-16T21:03:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30915#p30915</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30915#p30915"/>
+		<title type="html"><![CDATA[Re: Audio problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30915#p30915"><![CDATA[
+I don't think anyone else has this problem, hence it may be specific to you own radio<br><br>How old is the radio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 16, 2024 9:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m0xrs]]></name></author>
+		<updated>2024-04-16T19:22:17</updated>
+
+		<published>2024-04-16T19:22:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30914#p30914</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30914#p30914"/>
+		<title type="html"><![CDATA[Re: Audio problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30914#p30914"><![CDATA[
+been doing some messing.<br><br>it would appear that the buzzing appears if the screen brightness is anything other that 100%, however, when the screen is at 100% the buzzing is replaced with a high pitched tone.<br><br>With the screen at less than 100% the buzzing is there until the screen goes off. When at 100% the high pitched tone is there and reduces when the screen goes off, but is still audible.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2335">m0xrs</a> — Tue Apr 16, 2024 7:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m0xrs]]></name></author>
+		<updated>2024-04-16T18:18:58</updated>
+
+		<published>2024-04-16T18:18:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30913#p30913</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30913#p30913"/>
+		<title type="html"><![CDATA[Audio problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4000&amp;p=30913#p30913"><![CDATA[
+I Have flashed on to a rt82, all is working file, however I notice a buzz on the received audio which is not present on other radios. does anyone else notice this?<br><br>73<br><br>Chris<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2335">m0xrs</a> — Tue Apr 16, 2024 6:18 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3375" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-10-16T23:21:05</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3375</id>
+
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2023-10-16T23:21:05</updated>
+
+		<published>2023-10-16T23:21:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26862#p26862</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26862#p26862"/>
+		<title type="html"><![CDATA[Re: tone decode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26862#p26862"><![CDATA[
+they changed the tone on the new repeater for me from the D116N to D311N and it works fine.  Not sure what the issue is with the 116N on the TYT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Mon Oct 16, 2023 11:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2023-10-16T01:05:08</updated>
+
+		<published>2023-10-16T01:05:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26854#p26854</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26854#p26854"/>
+		<title type="html"><![CDATA[Re: tone decode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26854#p26854"><![CDATA[
+Doesn't work as a saved channel.  Then scan<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Mon Oct 16, 2023 1:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-10-16T00:38:10</updated>
+
+		<published>2023-10-16T00:38:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26853#p26853</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26853#p26853"/>
+		<title type="html"><![CDATA[Re: tone decode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26853#p26853"><![CDATA[
+When you are changing the DCS code make sure that you are saving the change using SK2 + Green.<br><br>If you only press Green then the change is not permanent and changing channel or switching VFO/Memory will revert to the previous setting.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Oct 16, 2023 12:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2023-10-15T23:04:33</updated>
+
+		<published>2023-10-15T23:04:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26851#p26851</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26851#p26851"/>
+		<title type="html"><![CDATA[Re: tone decode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26851#p26851"><![CDATA[
+Powered down rig and restarted now its working again in the vfo.  not making any sense here<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sun Oct 15, 2023 11:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2023-10-15T23:02:25</updated>
+
+		<published>2023-10-15T23:02:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26850#p26850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26850#p26850"/>
+		<title type="html"><![CDATA[Re: tone decode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26850#p26850"><![CDATA[
+Switched back to the vfo after checking memory again and now it don't work on the vfo.  strange very strange<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sun Oct 15, 2023 11:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2023-10-15T23:00:55</updated>
+
+		<published>2023-10-15T23:00:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26849#p26849</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26849#p26849"/>
+		<title type="html"><![CDATA[Re: tone decode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26849#p26849"><![CDATA[
+Just checked mine on vfo and it worked there but not on the memory channel.  that is strange<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sun Oct 15, 2023 11:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-10-15T21:49:56</updated>
+
+		<published>2023-10-15T21:49:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26848#p26848</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26848#p26848"/>
+		<title type="html"><![CDATA[Re: tone decode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26848#p26848"><![CDATA[
+I have just tested D116N on my MD9600 and it is working OK.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Oct 15, 2023 9:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2023-10-15T02:18:33</updated>
+
+		<published>2023-10-15T02:18:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26844#p26844</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26844#p26844"/>
+		<title type="html"><![CDATA[tone decode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3375&amp;p=26844#p26844"><![CDATA[
+i have had a history of tone decode problems.  Found another tone that don't decode.  Haven't tested all but no luck with 116N digital tone.  Anyone else with tone issues?  This is on the MD9600<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sun Oct 15, 2023 2:18 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

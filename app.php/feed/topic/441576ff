@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4415" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-18T06:48:25</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4415</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-18T06:48:25</updated>
+
+		<published>2024-09-18T06:48:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33004#p33004</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33004#p33004"/>
+		<title type="html"><![CDATA[Re: MD9600 with Open Firmware pre-loaded (USA)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33004#p33004"><![CDATA[
+Yes. CPU is made by ST Micro aka STM, or its a Chinese clone of the CPU.<br><br>Yes. There is an old way and a new way to interface with the DFU driver, depending on which driver has been installed.<br><br>Its the commands / interface between the Windows application (i.e the CPS) and the driver which has changed.<br><br>Just to complicate things, the CPU is actually running special firmware when the radio is in update mode, which mimics the built in DFU functionality of the silicon of the CPU, but TYT etc added some extra non-standard functionality.<br><br>And potentially the new STM DFU driver may not be able to handle the non-standard functionality that the old driver could handle, so it may never be possible to make the new DFU driver work with the upload mode of the CPU.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 18, 2024 6:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2024-09-18T06:16:38</updated>
+
+		<published>2024-09-18T06:16:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33003#p33003</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33003#p33003"/>
+		<title type="html"><![CDATA[Re: MD9600 with Open Firmware pre-loaded (USA)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33003#p33003"><![CDATA[
+<blockquote class="uncited"><div>Unfortunately most of the problems with installing the firmware for the first time have been caused by STM the CPU manufacturer having 2 different and incompatible DFU drivers.<br><br>We use the older DFU driver which had been used for about 10 years, and probably got superseded about 1 or 2 years ago.<br><br>Windows 10 still seems to load the older DFU driver.  Windows 11 mostly seems to load the new driver.<br><br>I'm not sure what possessed STM to make their 2 drivers incompable with the applications that use them.<br>Its not just us thats impacted, loads of other radios have the same problem.<br><br>I think Baofeng and TYT may include the older DFU driver with their installers, but I'm not sure whether this in breach of the driver license, hence why we don't do this.<br><br>Also even if we did install the driver, its possible that someone is already using the newer driver on their PC for an unrelated / non-radio product and would not be happy if we replaced the driver that worked for that other device.</div></blockquote>I was not aware of that. Thank you for the insight.<br><br>So if I understand this correctly, when a device is manufactured using the STM (or clone) CPU there is choice of doing DFU the 'old' way or the 'new' way and the two ways do not get along with each other. That is what I take away.<br><br>This seems like inviting trouble you did not need.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed Sep 18, 2024 6:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-18T04:17:08</updated>
+
+		<published>2024-09-18T04:17:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33002#p33002</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33002#p33002"/>
+		<title type="html"><![CDATA[Re: MD9600 with Open Firmware pre-loaded (USA)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33002#p33002"><![CDATA[
+Unfortunately most of the problems with installing the firmware for the first time have been caused by STM the CPU manufacturer having 2 different and incompatible DFU drivers.<br><br>We use the older DFU driver which had been used for about 10 years, and probably got superseded about 1 or 2 years ago.<br><br>Windows 10 still seems to load the older DFU driver.  Windows 11 mostly seems to load the new driver.<br><br>I'm not sure what possessed STM to make their 2 drivers incompable with the applications that use them.<br>Its not just us thats impacted, loads of other radios have the same problem.<br><br>I think Baofeng and TYT may include the older DFU driver with their installers, but I'm not sure whether this in breach of the driver license, hence why we don't do this.<br><br>Also even if we did install the driver, its possible that someone is already using the newer driver on their PC for an unrelated / non-radio product and would not be happy if we replaced the driver that worked for that other device.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 18, 2024 4:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2024-09-18T06:07:56 </updated>
+
+		<published>2024-09-18T02:06:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33001#p33001</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33001#p33001"/>
+		<title type="html"><![CDATA[MD9600 with Open Firmware pre-loaded (USA)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4415&amp;p=33001#p33001"><![CDATA[
+For those in the USA at least there is a supplier that has OpenGD firmware pre-loaded on the GPS version of the MD-9600.<br><br>I have ordered and received MD-9600 radios from him in the past, (not pre-loaded) and they were all new in the box and work great. Other then purchasing radios from him in the past I have no other relationship, and receive no benefit from him or the company. I have just notice that it seems one of the most reoccurring issues is getting the Firmware loaded on correctly the first time, and thought this maybe of some help to those looking for this radio to run the OpenGD firmware on.<br><br>Here is the link<br><a href="https://letsgetreadyinc.com/open9600GPS" class="postlink">https://letsgetreadyinc.com/open9600GPS</a><br><br>AA3RP<br><br>P.S. I have no clue if he does international orders or not.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed Sep 18, 2024 2:06 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

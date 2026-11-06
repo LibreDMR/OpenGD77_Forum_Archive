@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4747" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-15T14:51:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4747</id>
+
+		<entry>
+		<author><name><![CDATA[K2CS]]></name></author>
+		<updated>2025-01-15T14:51:17</updated>
+
+		<published>2025-01-15T14:51:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35150#p35150</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35150#p35150"/>
+		<title type="html"><![CDATA[Re: MD9600 installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35150#p35150"><![CDATA[
+All,<br><br>Thank you for the suggestions, finally figured out what I was doing wrong.<br><br>Now, fighting with the opengd77 codeplug generator (in a Windows environment).<br><br>Maybe I'll move that projct over to my SUSE box.<br><br>All the best,<br>Chris, K2CS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7574">K2CS</a> — Wed Jan 15, 2025 2:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-11T02:01:54</updated>
+
+		<published>2025-01-11T02:01:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35092#p35092</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35092#p35092"/>
+		<title type="html"><![CDATA[Re: MD9600 installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35092#p35092"><![CDATA[
+The post correctly describes how to put the radio into DFU mode<br><blockquote class="uncited"><div>Put the MD-9600 into firmware upload mode, by holding the orange and P1 buttons when applying power to the radio. The display backlight will flash and the display will be blank. NOTE. You must disconnect and reconnect the power cable to the radio, not just use the power button to turn the radio off and on again to enter firmware upload mode.<br>When the radio is put into firmware upload mode, with the USB cable connected to your PC, the Windows should download and install the STM DFUSE driver that is required to communicate with the CPU in the radio.</div></blockquote>In firmware update mode the radio is not a COM device its a DFU (Device Firmware Update) device<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jan 11, 2025 2:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K2CS]]></name></author>
+		<updated>2025-01-11T00:39:48</updated>
+
+		<published>2025-01-11T00:39:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35090#p35090</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35090#p35090"/>
+		<title type="html"><![CDATA[Re: MD9600 installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35090#p35090"><![CDATA[
+Good eveing,<br><br>I have followed the entire process posted by VK3KYY and EA5GK and have gotten all accomplished until the actual installation of OpenGD77 on the MD-9600 - the OEM CPS works fine and upgrades to the newest firmware - the communications dropdown in OpenGD77 shows no available com port - that's where I'm stuck.<br><br>I see plenty of other posts that indicate this has been done so I'm sure I'm missing a step.<br><br>After 40 years in IT, I'm very well versed in Windows but have no idea why a com port (or virtual com port) is not availabe thru the OpenGD77 CPS - as mentioned, I see the STMicrosystems chip and it shows up in the hardware manager in the control panel. <br><br>Thank you for the anticipated support.<br><br>Chris, K2CS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7574">K2CS</a> — Sat Jan 11, 2025 12:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-01-09T21:40:33</updated>
+
+		<published>2025-01-09T21:40:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35072#p35072</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35072#p35072"/>
+		<title type="html"><![CDATA[Re: MD9600 installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35072#p35072"><![CDATA[
+see there: <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=2035" class="postlink">viewtopic.php?f=18&amp;t=2035</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jan 09, 2025 9:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K2CS]]></name></author>
+		<updated>2025-01-09T16:48:52</updated>
+
+		<published>2025-01-09T16:48:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35070#p35070</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35070#p35070"/>
+		<title type="html"><![CDATA[MD9600 installation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4747&amp;p=35070#p35070"><![CDATA[
+New to the forum, thanks to all the help so far via other posts and instructions.<br><br>I have a GD-77 that has been updated to OpenGD77 years ago, I also own a MD-9600 I would like to install OpenGD77 on.<br><br>The OEM CPS works fine on both. The MD-9600 is Version 2 according to the markings on the PC board in the radio.<br><br>I've downloaded and installed R2024.12.20.01, Windows sees the STMicrosystems chip but the OpenGD77 asks for a com before programming. I've tried this on Windows 7,10 &amp; 11 with the same result.<br><br>I know with other programs, a "virtual" com port is usually assigned, what am I missing?<br><br>Any help would be greatly appreciated.<br><br>Best DX,<br>Chris, K2CS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7574">K2CS</a> — Thu Jan 09, 2025 4:48 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

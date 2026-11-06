@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4709" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-25T09:45:11</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4709</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-12-25T09:45:11</updated>
+
+		<published>2024-12-25T09:45:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34911#p34911</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34911#p34911"/>
+		<title type="html"><![CDATA[Re: Firware upgrade from FAQ's]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34911#p34911"><![CDATA[
+The donor file is never loaded to the radio. You simply need to have it available on your computer for use by the firmware loader. Once you register it's presence you will not see it again, <br><br>As Charlie says the file you load to the radio is the .zip file.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Dec 25, 2024 9:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-25T03:15:06</updated>
+
+		<published>2024-12-25T03:15:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34910#p34910</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34910#p34910"/>
+		<title type="html"><![CDATA[Re: Firware upgrade from FAQ's]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34910#p34910"><![CDATA[
+After select the donor file ( GD-77_V4.3.6.sgl ) you have to select the openGD77 firmware<br><br>The latest firmware <a href="https://www.opengd77.com/downloads/GD77/Firmware/3ed4d3301fb6fb8c539d17a10ee36c6026206b9a/OpenGD77.zip" class="postlink">downloads/GD77/Firmware/3ed4d3301fb6fb8 ... enGD77.zip</a><br><br>Before click on the openGD77 firmware by click on “select a file and update”. Make sure your radio is connected to the computer. Press and hold PTT and the button right below it while turning it on. Then select the firmware. Now you should see the flashing begin. <br><br>Hope this helps,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Dec 25, 2024 3:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[wa1sth]]></name></author>
+		<updated>2024-12-25T02:50:53</updated>
+
+		<published>2024-12-25T02:50:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34909#p34909</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34909#p34909"/>
+		<title type="html"><![CDATA[Firware upgrade from FAQ's]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4709&amp;p=34909#p34909"><![CDATA[
+The firmware upgrade in the FAQ section is not working for me.  I followed the instructions multiple times still "no joy".  I click on the correct .sgl file it gets verified and that is it.  I DO NOT get  that file listed in the left box of the firmware loader panel???  Any help would be appreciated.  The radio is a GD77<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7534">wa1sth</a> — Wed Dec 25, 2024 2:50 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

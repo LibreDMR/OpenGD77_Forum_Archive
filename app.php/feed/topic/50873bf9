@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5087" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-27T10:41:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5087</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-27T10:41:52</updated>
+
+		<published>2025-04-27T10:41:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5087&amp;p=36925#p36925</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5087&amp;p=36925#p36925"/>
+		<title type="html"><![CDATA[Re: CPS Calibration Viewer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5087&amp;p=36925#p36925"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br>in CPS 2025.03.23.01 Calibration Viewer screen is empty after downloading data from radio or from disk file.<br>73,<br>Piotr SP5TAO</div></blockquote>That's normal.<br>The Calibration screen remains empty for STM32 based radio. You can only backup/restore the data file.<br>It only displays tuning widgets when a MK22 radio is connected (like GD-77, etc).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Apr 27, 2025 10:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5TAO]]></name></author>
+		<updated>2025-04-27T10:37:08</updated>
+
+		<published>2025-04-27T10:37:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5087&amp;p=36924#p36924</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5087&amp;p=36924#p36924"/>
+		<title type="html"><![CDATA[CPS Calibration Viewer]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5087&amp;p=36924#p36924"><![CDATA[
+Hi,<br>in CPS 2025.03.23.01 Calibration Viewer screen is empty after downloading data from radio or from disk file.<br>73,<br>Piotr SP5TAO<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8470">SP5TAO</a> — Sun Apr 27, 2025 10:37 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

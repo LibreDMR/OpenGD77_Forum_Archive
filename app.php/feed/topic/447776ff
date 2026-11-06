@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4477" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-18T01:59:16</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4477</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-10-18T01:59:16</updated>
+
+		<published>2024-10-18T01:59:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33540#p33540</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33540#p33540"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 10 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33540#p33540"><![CDATA[
+Hi,<br><br>Files processed.<br>Thanks for the updates.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Oct 18, 2024 1:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-17T22:07:20</updated>
+
+		<published>2024-10-17T22:07:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33534#p33534</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33534#p33534"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 10 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33534#p33534"><![CDATA[
+<blockquote class="uncited"><div>Hi guys.<br>A dutiful thanks to Roger, Daniel, Colin and all the people involved in the OpenGD77 project for the tireless work: OpenGD77 firmware improves, grows and earns features more and more!<br><br>Here are the new updated 17/10/2024 <strong class="text-strong">wordlist_italian.csv</strong>, <strong class="text-strong">Italian.xml</strong>, <strong class="text-strong">Italian.h</strong>:<br><br>italian.h + wordlist_italian.csv + Italian_17102024.zip<br><br>Hoping to have inserted the files in the right section, so in the probability of having made a mistake, I apologize in advance.<br><br>73 best regards de Fabio IZ2EIB</div></blockquote>Thanks.<br><br>We will process this update<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 17, 2024 10:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-10-17T20:38:18</updated>
+
+		<published>2024-10-17T20:38:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33531#p33531</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33531#p33531"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 10 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33531#p33531"><![CDATA[
+Hi guys.<br>A dutiful thanks to Roger, Daniel, Colin and all the people involved in the OpenGD77 project for the tireless work: OpenGD77 firmware improves, grows and earns features more and more!<br><br>Here are the new updated 17/10/2024 <strong class="text-strong">wordlist_italian.csv</strong>, <strong class="text-strong">Italian.xml</strong>, <strong class="text-strong">Italian.h</strong>:<br><div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2692&amp;sid=4ed736b46933dbbc3fe79b430aa910c1">italian.h + wordlist_italian.csv + Italian_17102024.zip</a></dt></dl></div>Hoping to have inserted the files in the right section, so in the probability of having made a mistake, I apologize in advance.<br><br>73 best regards de Fabio IZ2EIB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Thu Oct 17, 2024 8:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-12T22:06:12</updated>
+
+		<published>2024-10-12T22:06:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33456#p33456</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33456#p33456"/>
+		<title type="html"><![CDATA[Updated localisation files 2024 10 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4477&amp;p=33456#p33456"><![CDATA[
+I have dated all the localisation files on the server, so that they are correct for the latest Beta, which included the Roaming functionality<br><br>See <br><br><a href="https://www.opengd77.com/downloads/localisation/" class="postlink">downloads/localisation/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Oct 12, 2024 10:06 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

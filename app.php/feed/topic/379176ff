@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3791" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-11T12:23:42</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3791</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-04-11T12:23:42</updated>
+
+		<published>2024-04-11T12:23:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3791&amp;p=30762#p30762</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3791&amp;p=30762#p30762"/>
+		<title type="html"><![CDATA[Re: BlueDV hotspot stuttering or breaking up RX audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3791&amp;p=30762#p30762"><![CDATA[
+I did some tests on my Android with BlueDV towards Brandmeister some years ago and I used MMDVM on the radio instead of BlueDV <br><br>Have you tried that ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Apr 11, 2024 12:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[bh3emz]]></name></author>
+		<updated>2024-04-11T08:51:13</updated>
+
+		<published>2024-04-11T08:51:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3791&amp;p=30759#p30759</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3791&amp;p=30759#p30759"/>
+		<title type="html"><![CDATA[Re: BlueDV hotspot stuttering or breaking up RX audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3791&amp;p=30759#p30759"><![CDATA[
+i have same problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6001">bh3emz</a> — Thu Apr 11, 2024 8:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3KIT]]></name></author>
+		<updated>2024-02-17T11:17:15</updated>
+
+		<published>2024-02-17T11:17:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3791&amp;p=29583#p29583</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3791&amp;p=29583#p29583"/>
+		<title type="html"><![CDATA[BlueDV hotspot stuttering or breaking up RX audio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3791&amp;p=29583#p29583"><![CDATA[
+While I know this is probably not the issue with the firmware.  However, I am wondering if folks experiencing it and solved the problem.<br><br>I am using TYT-MD390UV with BlueDV hotspot enable.  Using my old Samsung Galaxy S8 install BlueDV and TCPUART.  I can transmit with any problem,TX audio quality is great.  But on the RX, the audio was stuttering, breaking up. The audio was bad and hardly understand any QSOs.<br><br>The cellphone in use is connected to the QTH wi-fi, not much chance of a poor network connection.  Both radios I use are fine.  I have used both radios (2 TYT-DM390UV) but instead of BlueDV I tried MMDVM with pi-star installed on my raspberry 3B+, no issue at all.  Audio is good both way TX and the RX.<br><br>There was no audio in or out to be tweaked within BlueDV app unlike the AMBE version.  I am wonder if the radio used for hotspot that connected to the android device have to be setting up properly, like MIC gain or something like that.<br><br>Any help or pointer would be appreciated.<br>73, Kit<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5303">W3KIT</a> — Sat Feb 17, 2024 11:17 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

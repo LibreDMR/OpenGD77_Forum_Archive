@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4175" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-25T20:22:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4175</id>
+
+		<entry>
+		<author><name><![CDATA[KC1UUF]]></name></author>
+		<updated>2024-06-25T20:22:35</updated>
+
+		<published>2024-06-25T20:22:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31829#p31829</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31829#p31829"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31829#p31829"><![CDATA[
+I desoldered the antenna connections and pulled the PCB. Thermal paste is everywhere on the bottom of the board. I used a known-good USB cable and pulled the USB-A enclosure back enough to get my multimeter probe in and use the test points on the board. Unfortunately, the data pins both worked. So, the data makes it to the board, which means it's likely a failed surface mount component on the PCB.<br><br>I reassembled the radio and tested it. It still works fine for TX/RX on the channels it's programmed for.  Oh well. It's still a good radio. I'll learn how to program it manually. I may pick up a new one to experiment with OpenGD77 at some point.<br><br>Thanks again for all your help!<br><br>Jason / KC1UUF <br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6338">KC1UUF</a> — Tue Jun 25, 2024 8:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC1UUF]]></name></author>
+		<updated>2024-06-25T17:39:12</updated>
+
+		<published>2024-06-25T17:39:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31826#p31826</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31826#p31826"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31826#p31826"><![CDATA[
+Thank you both! I'll give this a try and report back.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6338">KC1UUF</a> — Tue Jun 25, 2024 5:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-06-25T09:06:52</updated>
+
+		<published>2024-06-25T09:06:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31818#p31818</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31818#p31818"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31818#p31818"><![CDATA[
+This is the schematic and layout for the USB port. There are some test points which might help check the connection. <br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2466&amp;sid=94de1449851d68f8bbe06441bdec8eb6" class="postimage" alt="Screenshot_2024-06-25-09-50-48-489_com.google.android.apps.docs.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2467&amp;sid=94de1449851d68f8bbe06441bdec8eb6" class="postimage" alt="Screenshot_2024-06-25-10-09-32-118_com.google.android.apps.docs.jpg" onclick="viewableArea(this);" /></dt></dl></div>[]<br><br><br>USB_D- and USB_D+ connect directly to CPU pins 70 and 71. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Jun 25, 2024 9:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-06-25T08:40:21</updated>
+
+		<published>2024-06-25T08:40:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31817#p31817</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31817#p31817"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31817#p31817"><![CDATA[
+I can confirm that the TYT programming cable is just a standard USB cable. Any USB A to USB Mini cable should work. <br><br>You may need to check the soldering of the USB socket. That is the most likely failure point. <br><br>If you need to remove the PCB to do this it is fairly easy. Just remove lots of screws, unplug the fan and speaker and unsolder the short wire to the antenna connector.  The board should then lift out with the power cable attached. <br>Note that the screws are not all the same length, so make a note of where they come from. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Jun 25, 2024 8:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC1UUF]]></name></author>
+		<updated>2024-06-25T00:43:31</updated>
+
+		<published>2024-06-25T00:43:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31815#p31815</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31815#p31815"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31815#p31815"><![CDATA[
+<blockquote class="uncited"><div>Neither the official firmware or OpenGD77 have a feature to disable the USB<br><br>Put the radio into DFU / firmware update mode and if you don't see a USB device then you have a problem with the radio hardware or the USB cable</div></blockquote>Thanks. I've tested in DFU mode and still haven't had any luck. I've heard that the TYT-PROG-9600 programming cable is really just a generic USB cable. I'll test the cable with another USB device. I'm guessing it's the radio. It's still worth twice the price I paid for it.<br><br>Thanks again for your help and input.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6338">KC1UUF</a> — Tue Jun 25, 2024 12:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-24T20:32:23</updated>
+
+		<published>2024-06-24T20:32:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31805#p31805</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31805#p31805"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31805#p31805"><![CDATA[
+Neither the official firmware or OpenGD77 have a feature to disable the USB<br><br>Put the radio into DFU / firmware update mode and if you don't see a USB device then you have a problem with the radio hardware or the USB cable<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 24, 2024 8:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC1UUF]]></name></author>
+		<updated>2024-06-24T14:19:04</updated>
+
+		<published>2024-06-24T14:19:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31791#p31791</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31791#p31791"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31791#p31791"><![CDATA[
+<blockquote class="uncited"><div>The official firmware USB device is not a com port<br><br>Try plugging the radio into a Linux box and list all the USB devices before and after connecting the radio</div></blockquote>Using my Mac:<br><div class="codebox"><p>CODE: </p><pre><code># Nothing plugged in% cat usb-nohub-1.txt +-o Root  &lt;class IORegistryEntry, id 0x100000100, retain 29&gt;  +-o AppleT8112USBXHCI@01000000  &lt;class AppleT8112USBXHCI, id 0x1000002e6, registered, matched, active, busy 0 (39 ms), retain 37&gt;  +-o AppleT8112USBXHCI@00000000  &lt;class AppleT8112USBXHCI, id 0x1000002cb, registered, matched, active, busy 0 (1719 ms), retain 218&gt;# Mac USB port to TYT-PROG-9600 cable to the MD-9600 USB port while the radio was on % cat usb-nohub-2.txt+-o Root  &lt;class IORegistryEntry, id 0x100000100, retain 29&gt;  +-o AppleT8112USBXHCI@01000000  &lt;class AppleT8112USBXHCI, id 0x1000002e6, registered, matched, active, busy 0 (39 ms), retain 37&gt;  +-o AppleT8112USBXHCI@00000000  &lt;class AppleT8112USBXHCI, id 0x1000002cb, registered, matched, active, busy 0 (1719 ms), retain 218&gt;# Removed the radio and cable and plugged in a USB flash drive% ioreg -p IOUSB &gt; usb-nohub-3.txt% cat usb-nohub-3.txt             +-o Root  &lt;class IORegistryEntry, id 0x100000100, retain 29&gt;  +-o AppleT8112USBXHCI@01000000  &lt;class AppleT8112USBXHCI, id 0x1000002e6, registered, matched, active, busy 0 (228 ms), retain 49&gt;  | +-o SanDisk 3.2 Gen1@01200000  &lt;class IOUSBHostDevice, id 0x10000d634, registered, matched, active, busy 0 (188 ms), retain 33&gt;  +-o AppleT8112USBXHCI@00000000  &lt;class AppleT8112USBXHCI, id 0x1000002cb, registered, matched, active, busy 0 (1719 ms), retain 218&gt;</code></pre></div>I think the USB port on the radio is damaged or disabled. I tested it with a normal USB-A to USB-B-mini cable and got the same results. Do you know of a way to disable the USB port? Have you ever heard of one failing but the radio continuing to work?<br><br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6338">KC1UUF</a> — Mon Jun 24, 2024 2:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-23T22:03:34</updated>
+
+		<published>2024-06-23T22:03:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31767#p31767</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31767#p31767"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31767#p31767"><![CDATA[
+The official firmware USB device is not a com port<br><br>Try plugging the radio into a Linux box and list all the USB devices before and after connecting the radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 23, 2024 10:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC1UUF]]></name></author>
+		<updated>2024-06-23T18:03:40</updated>
+
+		<published>2024-06-23T18:03:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31759#p31759</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31759#p31759"/>
+		<title type="html"><![CDATA[TYT MD-9600 V5 2571 Dead USB Port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4175&amp;p=31759#p31759"><![CDATA[
+Hello all,<br><br>I was hoping for some advice on my MD-9600. I bought it at an estate sale (silent key) for a reasonable price. It's already programmed for the area that I live in. I want to use the CPS software to make some changes.  Unfortunately, it seems like the USB port is dead.<br><br>I've used a standard USB cable, a TYT-PROG-9600 cable, and another TYT COM-based cable. Using the first two, the host computer (Windows or Mac) does not respond. There is no indication that a USB device has been plugged in. I've used a combination of GUI and terminal apps to query the USB controllers. The COM-based cable creates a COM port in Windows Device Manager, but I now know it is the wrong cable type.<br><br>I've opened the case a couple of times. The board is V5. Recently, I opened it to see if I could find any damage related to the USB port. I work in IT at a school, and it's not unusual for a USB port to become damaged if stressed. I noticed a capacitor (470) on traces leading to the antenna connection. It had a white substance around the cap, but after scrapping it away, it didn't appear the capacitor was blown. There is white thermal paste in other parts of the radio. Maybe some migrated over there.<br><br>I didn't take the board entirely out, as I found the antenna connector is soldered to the board and would have to be desoldered to remove it. The USB port is on the bottom of the board.<br><br>The radio works fine otherwise.<br><br>Has anyone here had experience with a failed USB port on the MD-9600? Is there a way to disable it via software?<br><br>Thanks for your help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6338">KC1UUF</a> — Sun Jun 23, 2024 6:03 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

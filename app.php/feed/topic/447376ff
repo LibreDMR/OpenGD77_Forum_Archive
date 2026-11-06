@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4473" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-27T17:07:12</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4473</id>
+
+		<entry>
+		<author><name><![CDATA[M7JUZ]]></name></author>
+		<updated>2025-02-27T17:07:12</updated>
+
+		<published>2025-02-27T17:07:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4473&amp;p=35981#p35981</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=35981#p35981"/>
+		<title type="html"><![CDATA[Re: Broken external speaker jack]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=35981#p35981"><![CDATA[
+I recently had this fault with my MD9600. I soldered a cable with a mono 3.5mm plug directly to the internal speaker and passed it out the back through a spare grommet so I can now switch between internal and external speakers again. <br>This is a v5 unit so a shame to see TYT hasn’t dealt with this problem since V1.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8179">M7JUZ</a> — Thu Feb 27, 2025 5:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2025-01-13T04:29:00</updated>
+
+		<published>2025-01-13T04:29:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4473&amp;p=35126#p35126</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=35126#p35126"/>
+		<title type="html"><![CDATA[Re: Broken external speaker jack]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=35126#p35126"><![CDATA[
+I was able to fix it. For anyone else who might encounter the same issue, here's what I did.  I drilled a small vertical hole in the black plastic body of the jack, just beyond the point where the separator between the tip and ring would be when the plug is fully inserted. This exposed the tip contact in the jack. I probed around it with an unbent paper clip until I found a direction where the internal speaker came to life. It appeared that if I bent the contact a little towards the rear of the radio, it would again touch the contact that enables the internal speaker. A bit of pushing, and all was well again. So far, it's survived several insert/remove cycles. Much easier than removing the board and soldering in a replacement.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Mon Jan 13, 2025 4:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2024-10-20T00:37:11</updated>
+
+		<published>2024-10-20T00:37:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33603#p33603</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33603#p33603"/>
+		<title type="html"><![CDATA[Re: Broken external speaker jack]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33603#p33603"><![CDATA[
+Thanks, Roger.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Sun Oct 20, 2024 12:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-11T23:33:05</updated>
+
+		<published>2024-10-11T23:33:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33442#p33442</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33442#p33442"/>
+		<title type="html"><![CDATA[Re: Broken external speaker jack]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33442#p33442"><![CDATA[
+<blockquote class="uncited"><div>While playing with external speakers, I inserted a plug into the external speaker jack whose tip turned out to be a little larger diameter than it should have been. At which point the internal speaker stopped working when no plug was inserted. The speaker itself is OK, I tested it. External speakers also work fine. So probably the bad plug bent the make/break contacts for the internal speaker too far, so now they are always open.<br><br>Unfortunately, the jack is encased in black plastic. So getting at the contacts to bend them back into place is problematic. Can anyone suggest a fix? Or provide a source for a replacement jack that will fit the circuit board?<br><br>The radio is Version 1. Thanks for any help.</div></blockquote>There are some old schematic kicking around on the web.  But they may not be 100% accurate for the newer radios.<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2683&amp;sid=830c68dfade59c62fae634c0a4409e4d" class="postimage" alt="md9600_audio_amp.png" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 11, 2024 11:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2024-10-11T22:28:49</updated>
+
+		<published>2024-10-11T22:28:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33441#p33441</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33441#p33441"/>
+		<title type="html"><![CDATA[Broken external speaker jack]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4473&amp;p=33441#p33441"><![CDATA[
+While playing with external speakers, I inserted a plug into the external speaker jack whose tip turned out to be a little larger diameter than it should have been. At which point the internal speaker stopped working when no plug was inserted. The speaker itself is OK, I tested it. External speakers also work fine. So probably the bad plug bent the make/break contacts for the internal speaker too far, so now they are always open.<br><br>Unfortunately, the jack is encased in black plastic. So getting at the contacts to bend them back into place is problematic. Can anyone suggest a fix? Or provide a source for a replacement jack that will fit the circuit board?<br><br>The radio is Version 1. Thanks for any help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Fri Oct 11, 2024 10:28 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

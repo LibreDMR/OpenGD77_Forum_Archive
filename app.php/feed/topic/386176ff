@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3861" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-13T06:23:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3861</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-13T06:23:36</updated>
+
+		<published>2024-03-13T06:23:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30085#p30085</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30085#p30085"/>
+		<title type="html"><![CDATA[Re: MD9600 Hotspot Mode using DVSwitch (MMDVM_Bridge) in debian 10 ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30085#p30085"><![CDATA[
+Hotspot needs to be enabled in the Options in the firmware, otherwise the Com port will communicate with the MMDVMHost serial protocol<br><br>Reading the MMDVM Bridge docs e.g. <a href="https://www.qsl.net/kb9mwr/projects/dv/multi/MMDVM_Bridge.pdf" class="postlink">https://www.qsl.net/kb9mwr/projects/dv/ ... Bridge.pdf</a><br><br>It says "All Ports are UDP"<br><br>i.e this software is a network connectivity application<br><br>You need to run MMDVMHost to commicate with the MD9600 acting as a MMDVM modem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 13, 2024 6:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R9OBQ]]></name></author>
+		<updated>2024-03-13T03:50:16</updated>
+
+		<published>2024-03-13T03:50:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30083#p30083</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30083#p30083"/>
+		<title type="html"><![CDATA[Re: MD9600 Hotspot Mode using DVSwitch (MMDVM_Bridge) in debian 10 ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30083#p30083"><![CDATA[
+As far as I recall my work with this program, MMDVM_bridge basically does not interact with the MMDVM modem. It is a software stub for other things.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=649">R9OBQ</a> — Wed Mar 13, 2024 3:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-12T08:24:04</updated>
+
+		<published>2024-03-12T08:24:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30073#p30073</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30073#p30073"/>
+		<title type="html"><![CDATA[Re: MD9600 Hotspot Mode using DVSwitch (MMDVM_Bridge) in debian 10 ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30073#p30073"><![CDATA[
+<blockquote class="uncited"><div>Is it possible to setup a MD9600 Hotspot Mode using DVSwitch (MMDVM_Bridge) in debian 10 ?<br>I already install DVSwitch server and running MMDVM_bridge, and set up using the /dev/ttyACM0 , is the port detected in debian<br>Thanks in advance</div></blockquote>I use MMDVMHOST on my debian bookworm together with MD-9600 in MMDVM hotspot mode , works fine.<br>Using "UARTPort=/dev/ttyACM0"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Mar 12, 2024 8:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[xe2cs]]></name></author>
+		<updated>2024-03-12T02:12:30</updated>
+
+		<published>2024-03-12T02:12:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30071#p30071</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30071#p30071"/>
+		<title type="html"><![CDATA[MD9600 Hotspot Mode using DVSwitch (MMDVM_Bridge) in debian 10 ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3861&amp;p=30071#p30071"><![CDATA[
+Is it possible to setup a MD9600 Hotspot Mode using DVSwitch (MMDVM_Bridge) in debian 10 ?<br>I already install DVSwitch server and running MMDVM_bridge, and set up using the /dev/ttyACM0 , is the port detected in debian<br>Thanks in advance<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5724">xe2cs</a> — Tue Mar 12, 2024 2:12 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

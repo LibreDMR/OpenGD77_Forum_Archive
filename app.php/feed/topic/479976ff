@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4799" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-25T22:21:30</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4799</id>
+
+		<entry>
+		<author><name><![CDATA[VE3IIT]]></name></author>
+		<updated>2025-01-25T22:21:30</updated>
+
+		<published>2025-01-25T22:21:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35357#p35357</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35357#p35357"/>
+		<title type="html"><![CDATA[Re: Turn off count when transmitting. DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35357#p35357"><![CDATA[
+Got it.  Thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7858">VE3IIT</a> — Sat Jan 25, 2025 10:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-25T16:09:44</updated>
+
+		<published>2025-01-25T16:09:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35354#p35354</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35354#p35354"/>
+		<title type="html"><![CDATA[Re: Turn off count when transmitting. DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35354#p35354"><![CDATA[
+I think there is a misunderstanding here.<br>If you have a countdown, a TOT is set, if you have a count-up, it just displays the time of transmission, in seconds.<br>And no, there is no option to turn it off, and there never will be.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jan 25, 2025 4:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE3IIT]]></name></author>
+		<updated>2025-01-25T12:25:01</updated>
+
+		<published>2025-01-25T12:25:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35351#p35351</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35351#p35351"/>
+		<title type="html"><![CDATA[Re: Turn off count when transmitting. DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35351#p35351"><![CDATA[
+Thank you for that.  Now I just have to find the channel that I have TOT defined and not zero.  <br><br>All show set to 0, but I will have to check CPS.  <br><br>May take me some time, but would like to find out my mistake.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7858">VE3IIT</a> — Sat Jan 25, 2025 12:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-01-25T02:34:31</updated>
+
+		<published>2025-01-25T02:34:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35350#p35350</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35350#p35350"/>
+		<title type="html"><![CDATA[Re: Turn off count when transmitting. DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35350#p35350"><![CDATA[
+<a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#transmitting" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ansmitting</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Jan 25, 2025 2:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE3IIT]]></name></author>
+		<updated>2025-01-25T01:47:21</updated>
+
+		<published>2025-01-25T01:47:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35349#p35349</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35349#p35349"/>
+		<title type="html"><![CDATA[Turn off count when transmitting. DM-1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4799&amp;p=35349#p35349"><![CDATA[
+I must of pressed something, but every time I key the ptt in channel mode or vfo a count timer displays.  How do I shut it off?<br><br>I looking through manual, but cannot find it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7858">VE3IIT</a> — Sat Jan 25, 2025 1:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

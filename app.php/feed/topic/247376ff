@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2473" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-05T16:40:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2473</id>
+
+		<entry>
+		<author><name><![CDATA[EB3AM]]></name></author>
+		<updated>2023-09-05T16:40:36</updated>
+
+		<published>2023-09-05T16:40:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25955#p25955</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25955#p25955"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25955#p25955"><![CDATA[
+ok, sorry!<br><br>Merci<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=445">EB3AM</a> — Tue Sep 05, 2023 4:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-04T14:43:50</updated>
+
+		<published>2023-09-04T14:43:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25903#p25903</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25903#p25903"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25903#p25903"><![CDATA[
+Hi,<br><br>  Thanks for the update.<br><br>   One entry was wrong, as it couldn't fit (16 char hard limit):<br><blockquote class="uncited"><div>.calibration            = "Calibració de ràdio"</div></blockquote>So, I changed that to<br><blockquote class="uncited"><div>.calibration            = "Calibració ràdio",</div></blockquote>Cheers.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Sep 04, 2023 2:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-04T13:42:46</updated>
+
+		<published>2023-09-04T13:42:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25901#p25901</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25901#p25901"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25901#p25901"><![CDATA[
+Hi,<br><br> Thanks.<br>I checked the diff, there are even mode. <br>Soon, the new format will be released, the advantage is that only one file per language is needed.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Sep 04, 2023 1:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EB3AM]]></name></author>
+		<updated>2023-09-04T13:22:04</updated>
+
+		<published>2023-09-04T13:22:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25900#p25900</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25900#p25900"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25900#p25900"><![CDATA[
+.daytime_theme_day= "Tema dia", // MaxLen: 16<br>.daytime_theme_night= "Tema nit", // MaxLen: <br><br>.theme_chooser= "Elecció tema", // Maxlen: 16<br>.theme_fg_text_input= "Text Inici", // MaxLen: 16 (+ colour rect)<br>.theme_fg_splashscreen= "Front Inici", // MaxLen: 16 (+ colour rect)<br>.theme_bg_splashscreen= "Fons Inici", // MaxLen: 16 (+ colour rect)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=445">EB3AM</a> — Mon Sep 04, 2023 1:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-04T10:50:45</updated>
+
+		<published>2023-09-04T10:50:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25895#p25895</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25895#p25895"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25895#p25895"><![CDATA[
+<blockquote class="uncited"><div>Last version of catalan files<br>catalan.zip<br><br>Thanks</div></blockquote>What did you change ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 04, 2023 10:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EB3AM]]></name></author>
+		<updated>2023-09-04T10:50:01</updated>
+
+		<published>2023-09-04T10:50:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25894#p25894</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25894#p25894"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=25894#p25894"><![CDATA[
+Last version of catalan files<div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=1863&amp;sid=525f3f790bb3caceb19118aa9d895283">catalan.zip</a></dt></dl></div>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=445">EB3AM</a> — Mon Sep 04, 2023 10:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-03T15:42:04</updated>
+
+		<published>2023-08-03T15:42:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24788#p24788</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24788#p24788"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24788#p24788"><![CDATA[
+Hi,<br><br>  No, the quotation marks aren't included.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Aug 03, 2023 3:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2RU]]></name></author>
+		<updated>2023-08-03T15:33:54</updated>
+
+		<published>2023-08-03T15:33:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24787#p24787</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24787#p24787"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24787#p24787"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>  Yes, the encoding looks fine, thanks.<br><br>I quickly checked the length of the strings, and some are too long (we're limited to 16 characters), sometimes less (in case of option value, etc).<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Hi,<br><br>I checked lenght of string, but I think I missed some of them. I'll do it again.<br>Just one more question. Is the quotation included characters or should I count without them<br>With a change I'll inform you<br><br>Ilker<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4244">TA2RU</a> — Thu Aug 03, 2023 3:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-03T15:30:27</updated>
+
+		<published>2023-08-03T15:30:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24785#p24785</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24785#p24785"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24785#p24785"><![CDATA[
+Hi,<br><br>  Yes, the encoding looks fine, thanks.<br><br>I quickly checked the length of the strings, and some are too long (we're limited to 16 characters), sometimes less (in case of option value, etc).<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Aug 03, 2023 3:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2RU]]></name></author>
+		<updated>2023-08-03T14:13:09</updated>
+
+		<published>2023-08-03T14:13:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24782#p24782</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24782#p24782"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24782#p24782"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hi,<br><br>  I'm sorry, but you killed the encoding. You should use UTF-8.<br>I suggest you to use notepad++ (if you're using Windows), select UTF-8 in the Encoding menu.<br><br>The file you uploaded uses non standard extended ASCII text, hence it's unusable in its current state.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>If I understand right. Just use notepad++ with utf-8, and save and send like it is. You will process the rest. No problem. I'll do it</div></blockquote>If the resulting file is still correct regarding the texts you translated, yes.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote>This should be OK<div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=1778&amp;sid=525f3f790bb3caceb19118aa9d895283">turkish-to_utf-8.zip</a></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4244">TA2RU</a> — Thu Aug 03, 2023 2:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-03T14:05:49</updated>
+
+		<published>2023-08-03T14:05:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24781#p24781</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24781#p24781"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24781#p24781"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi,<br><br>  I'm sorry, but you killed the encoding. You should use UTF-8.<br>I suggest you to use notepad++ (if you're using Windows), select UTF-8 in the Encoding menu.<br><br>The file you uploaded uses non standard extended ASCII text, hence it's unusable in its current state.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>If I understand right. Just use notepad++ with utf-8, and save and send like it is. You will process the rest. No problem. I'll do it</div></blockquote>If the resulting file is still correct regarding the texts you translated, yes.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Aug 03, 2023 2:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2RU]]></name></author>
+		<updated>2023-08-03T14:12:36 </updated>
+
+		<published>2023-08-03T13:20:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24780#p24780</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24780#p24780"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24780#p24780"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>  I'm sorry, but you killed the encoding. You should use UTF-8.<br>I suggest you to use notepad++ (if you're using Windows), select UTF-8 in the Encoding menu.<br><br>The file you uploaded uses non standard extended ASCII text, hence it's unusable in its current state.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>If I understand right. Just use notepad++ with utf-8, and save and send like it is. You will process the rest. No problem. I'll do it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4244">TA2RU</a> — Thu Aug 03, 2023 1:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-03T11:15:17</updated>
+
+		<published>2023-08-03T11:15:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24778#p24778</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24778#p24778"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24778#p24778"><![CDATA[
+Hi,<br><br>  But I know what I'm talking about <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>The files in the source shouldn't be UTF-8 encoded.<br>If Roger or me ask to keep the UTF-8 encoding for a specific file, it's for a good reason (we have a tool to make conversion needed for some languages, Turkish is one of them).<br><br><br>Cheers.<br>---<br>Daniel<br><br><strong class="text-strong">Edit: I just read your edit <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"></strong><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Aug 03, 2023 11:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-08-03T11:05:11</updated>
+
+		<published>2023-08-03T11:05:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24777#p24777</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24777#p24777"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24777#p24777"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>  I'm sorry, but you killed the encoding. You should use UTF-8.<br>I suggest you to use notepad++ (if you're using Windows), select UTF-8 in the Encoding menu.<br><br>The file you uploaded uses non standard extended ASCII text, hence it's unusable in its current state.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Hmm, I am confused, in the file I see this:<br><div class="codebox"><p>CODE: </p><pre><code>/******************************************************************** * * VERY IMPORTANT. * This file should not be saved with UTF-8 encoding * Use Notepad++ on Windows with ANSI encoding * or emacs on Linux with windows-1252-unix encoding * ********************************************************************/</code></pre></div><strong class="text-strong">But I found the original message where you asked him to keep UTF-8 so I understand now.</strong><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Aug 03, 2023 11:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-03T09:36:14</updated>
+
+		<published>2023-08-03T09:36:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24776#p24776</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24776#p24776"/>
+		<title type="html"><![CDATA[Re: Updated localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2473&amp;p=24776#p24776"><![CDATA[
+Hi,<br><br>  I'm sorry, but you killed the encoding. You should use UTF-8.<br>I suggest you to use notepad++ (if you're using Windows), select UTF-8 in the Encoding menu.<br><br>The file you uploaded uses non standard extended ASCII text, hence it's unusable in its current state.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Aug 03, 2023 9:36 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4021" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-30T01:59:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4021</id>
+
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-04-30T01:59:52</updated>
+
+		<published>2024-04-30T01:59:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4021&amp;p=31090#p31090</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4021&amp;p=31090#p31090"/>
+		<title type="html"><![CDATA[Re: Windows 11 a big pain for hams?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4021&amp;p=31090#p31090"><![CDATA[
+it depends of what kind of USB TTL chip your cable uses.<br><br>some older or fake/clone Prolific chips are problematic with modern versions of Windows (unless you use a really old version of the driver)<br><br>CH340 is more reliable, FTDI too (except fakes/clones) and Silicon Labs too.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Tue Apr 30, 2024 1:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea2eke]]></name></author>
+		<updated>2024-04-30T00:26:55</updated>
+
+		<published>2024-04-30T00:26:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4021&amp;p=31089#p31089</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4021&amp;p=31089#p31089"/>
+		<title type="html"><![CDATA[Windows 11 a big pain for hams?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4021&amp;p=31089#p31089"><![CDATA[
+Hi all,<br><br>I posted a semiofftopic here <a href="https://www.opengd77.com/viewtopic.php?t=3434&amp;start=10#p31058" class="postlink">viewtopic.php?t=3434&amp;start=10#p31058</a>  about Windows 11 and cps driver problems.<br><br>Not only one, I have a lot of problems with VarAC, WSJT, USB serial adapters.. a big pain! I never have this problems with my others PCs running Windows 7.<br><br>Anyone knows where are the thing? The pc is a laptop Lenovo T470, with ssd and 8gb ram.<br><br>Thanks in advance and cheers!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5940">ea2eke</a> — Tue Apr 30, 2024 12:26 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

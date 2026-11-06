@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4668" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-19T12:00:06</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4668</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-19T12:00:06</updated>
+
+		<published>2025-01-19T12:00:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35202#p35202</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35202#p35202"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35202#p35202"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=28&amp;t=4777" class="postlink">viewtopic.php?f=28&amp;t=4777</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 19, 2025 12:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA5TX]]></name></author>
+		<updated>2025-01-19T02:15:04</updated>
+
+		<published>2025-01-19T02:15:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35185#p35185</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35185#p35185"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35185#p35185"><![CDATA[
+I have a problem with APRS. Even though I tried all kinds of options, I could not send the location. It sent neither the location at a fixed location nor the location on GPS. Can you tell me what I should do?<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2812&amp;sid=2cd1f4d4745bd0c0be0fb3ebf18c19bb" class="postimage" alt="Ekran görüntüsü 2025-01-19 044653.png" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2813&amp;sid=2cd1f4d4745bd0c0be0fb3ebf18c19bb" class="postimage" alt="IMG_20250119_045039 (2).jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7793">TA5TX</a> — Sun Jan 19, 2025 2:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-17T07:13:50</updated>
+
+		<published>2025-01-17T07:13:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35165#p35165</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35165#p35165"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35165#p35165"><![CDATA[
+I tested APRS with my MD-2017 this morning, it works as expected:<br><a href="https://aprs.fi/#!z=11&amp;call=a%2FF1RMB-7&amp;timerange=3600&amp;tail=3600" class="postlink">https://aprs.fi/#!z=11&amp;call=a%2FF1RMB-7 ... &amp;tail=3600</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 17, 2025 7:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-17T02:55:59</updated>
+
+		<published>2025-01-17T02:55:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35162#p35162</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35162#p35162"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35162#p35162"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>Yes, I've checked if a position is defined in the CPS (was the first thing I've fixed).<br><br>Even so, only the fixed position captured at boot is sent, with or without GPS.<br><br>I tried it on MD2017 and DM1701. On the 2017 I enabled GPS and drove around for a couple of hours, the position was never updated even if the packets were received and GPS had a lock.<br><br>The fast movements were obtained after I manually changed the position on the device and rebooted it.</div></blockquote>The "position at boot time" is the last one that was valid before turning off the GPS or the radio itself.<br>What are your APRS settings ?<br>Can you share your codeplug, and telling us the channel you're using for APRS beaconing ?<br>Also, are you sure to be heard by a Digipeater/iGate while driving ?<br><br>BTW, are you running the firmware version from the first post on this thread ?</div></blockquote>Yes I am running the fw version from the first post on this thread.<br>APRS settings in device are : PTT, Auto, Smart (cycling through them).<br><br>Yes the digipeater hears me, I can see the updates by comparing the last position field on APRS.fi.<br><br>Unfortunately, I only have one device with GPS.<br><br>UPDATE: <br>- after about 24 hours since last packet it seems to work, but...<br>- The location sent to APRS is different than the one reported in the device (both GPS and Status screens) about 100m different (approximated) <br>- in Auto and Smart mode APRS stops sending after about 3 minutes (rate set to 1 minute) is it listening to something, because reception is not always the greatest (this does not happen when I am close to the digipeater)</div></blockquote>Hmmm, I asked you about many details, but you only gave a fraction of answers.<br>I won't waste my time asking, over and over, for details if you're not inclined to give them.<br>Also, I think you don't know how SmartBeaconing works, hence I suggest you to document yourself about it, and read the OpenGD77 user manual too.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 17, 2025 2:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2025-01-16T18:54:04</updated>
+
+		<published>2025-01-16T18:54:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35159#p35159</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35159#p35159"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35159#p35159"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Check your APRS configuration, maybe you defined a position there.<br>Also, the GPS position is sent only when a valid position fix is acquired.<br>Finally, does your transceiver has a GPS (the DM-1701 doesn't), and it's turned on.<br><br>EDIT:<br>I just checked your frames on APRS.fi, you're moving, a bit too fast  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><div class="codebox"><p>CODE: </p><pre><code>2025-01-15 22:00:56 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!T=!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:03:31 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!SS!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:05:40 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/::!!T=!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:13:24 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!T=!![  !Are we there yet?2025-01-15 22:15:35 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/9et4U)m:[  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:16:23 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/9et4U)m:[  !Are we there yet?2025-01-15 22:20:02 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/5wI_U\]W[  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:21:04 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/5wI_U\]W[  !Are we there yet?2025-01-15 22:31:44 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/9et4U)m:[  !Are we there yet? [Location changes too fast (adaptive limit)]</code></pre></div></div></blockquote>Yes, I've checked if a position is defined in the CPS (was the first thing I've fixed).<br><br>Even so, only the fixed position captured at boot is sent, with or without GPS.<br><br>I tried it on MD2017 and DM1701. On the 2017 I enabled GPS and drove around for a couple of hours, the position was never updated even if the packets were received and GPS had a lock.<br><br>The fast movements were obtained after I manually changed the position on the device and rebooted it.</div></blockquote>The "position at boot time" is the last one that was valid before turning off the GPS or the radio itself.<br>What are your APRS settings ?<br>Can you share your codeplug, and telling us the channel you're using for APRS beaconing ?<br>Also, are you sure to be heard by a Digipeater/iGate while driving ?<br><br>BTW, are you running the firmware version from the first post on this thread ?</div></blockquote>Yes I am running the fw version from the first post on this thread.<br>APRS settings in device are : PTT, Auto, Smart (cycling through them).<br><br>Yes the digipeater hears me, I can see the updates by comparing the last position field on APRS.fi.<br><br>Unfortunately, I only have one device with GPS.<br><br>UPDATE: <br>- after about 24 hours since last packet it seems to work, but...<br>- The location sent to APRS is different than the one reported in the device (both GPS and Status screens) about 100m different (approximated) <br>- in Auto and Smart mode APRS stops sending after about 3 minutes (rate set to 1 minute) is it listening to something, because reception is not always the greatest (this does not happen when I am close to the digipeater)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Thu Jan 16, 2025 6:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-16T16:02:46</updated>
+
+		<published>2025-01-16T16:02:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35158#p35158</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35158#p35158"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35158#p35158"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Check your APRS configuration, maybe you defined a position there.<br>Also, the GPS position is sent only when a valid position fix is acquired.<br>Finally, does your transceiver has a GPS (the DM-1701 doesn't), and it's turned on.<br><br>EDIT:<br>I just checked your frames on APRS.fi, you're moving, a bit too fast  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><div class="codebox"><p>CODE: </p><pre><code>2025-01-15 22:00:56 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!T=!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:03:31 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!SS!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:05:40 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/::!!T=!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:13:24 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!T=!![  !Are we there yet?2025-01-15 22:15:35 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/9et4U)m:[  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:16:23 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/9et4U)m:[  !Are we there yet?2025-01-15 22:20:02 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/5wI_U\]W[  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:21:04 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/5wI_U\]W[  !Are we there yet?2025-01-15 22:31:44 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/9et4U)m:[  !Are we there yet? [Location changes too fast (adaptive limit)]</code></pre></div></div></blockquote>Yes, I've checked if a position is defined in the CPS (was the first thing I've fixed).<br><br>Even so, only the fixed position captured at boot is sent, with or without GPS.<br><br>I tried it on MD2017 and DM1701. On the 2017 I enabled GPS and drove around for a couple of hours, the position was never updated even if the packets were received and GPS had a lock.<br><br>The fast movements were obtained after I manually changed the position on the device and rebooted it.</div></blockquote>The "position at boot time" is the last one that was valid before turning off the GPS or the radio itself.<br>What are your APRS settings ?<br>Can you share your codeplug, and telling us the channel you're using for APRS beaconing ?<br>Also, are you sure to be heard by a Digipeater/iGate while driving ?<br><br>BTW, are you running the firmware version from the first post on this thread ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jan 16, 2025 4:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2025-01-16T15:45:43</updated>
+
+		<published>2025-01-16T15:45:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35157#p35157</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35157#p35157"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35157#p35157"><![CDATA[
+<blockquote class="uncited"><div>Check your APRS configuration, maybe you defined a position there.<br>Also, the GPS position is sent only when a valid position fix is acquired.<br>Finally, does your transceiver has a GPS (the DM-1701 doesn't), and it's turned on.<br><br>EDIT:<br>I just checked your frames on APRS.fi, you're moving, a bit too fast  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><div class="codebox"><p>CODE: </p><pre><code>2025-01-15 22:00:56 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!T=!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:03:31 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!SS!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:05:40 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/::!!T=!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:13:24 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!T=!![  !Are we there yet?2025-01-15 22:15:35 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/9et4U)m:[  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:16:23 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/9et4U)m:[  !Are we there yet?2025-01-15 22:20:02 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/5wI_U\]W[  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:21:04 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/5wI_U\]W[  !Are we there yet?2025-01-15 22:31:44 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/9et4U)m:[  !Are we there yet? [Location changes too fast (adaptive limit)]</code></pre></div></div></blockquote>Yes, I've checked if a position is defined in the CPS (was the first thing I've fixed).<br><br>Even so, only the fixed position captured at boot is sent, with or without GPS.<br><br>I tried it on MD2017 and DM1701. On the 2017 I enabled GPS and drove around for a couple of hours, the position was never updated even if the packets were received and GPS had a lock.<br><br>The fast movements were obtained after I manually changed the position on the device and rebooted it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Thu Jan 16, 2025 3:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-16T03:07:50</updated>
+
+		<published>2025-01-16T03:07:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35156#p35156</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35156#p35156"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35156#p35156"><![CDATA[
+Check your APRS configuration, maybe you defined a position there.<br>Also, the GPS position is sent only when a valid position fix is acquired.<br>Finally, does your transceiver has a GPS (the DM-1701 doesn't), and it's turned on.<br><br>EDIT:<br>I just checked your frames on APRS.fi, you're moving, a bit too fast  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><div class="codebox"><p>CODE: </p><pre><code>2025-01-15 22:00:56 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!T=!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:03:31 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!SS!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:05:40 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/::!!T=!![  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:13:24 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/::!!T=!![  !Are we there yet?2025-01-15 22:15:35 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/9et4U)m:[  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:16:23 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/9et4U)m:[  !Are we there yet?2025-01-15 22:20:02 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/5wI_U\]W[  !Are we there yet? [Location changes too fast (adaptive limit)]2025-01-15 22:21:04 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,BIF1-1:!/5wI_U\]W[  !Are we there yet?2025-01-15 22:31:44 CET: YO3IDG-10&gt;APOG77,YO3KXL-10*,WIDE2-1,qAR,YO3GWM-11:!/9et4U)m:[  !Are we there yet? [Location changes too fast (adaptive limit)]</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jan 16, 2025 3:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2025-01-15T18:03:06</updated>
+
+		<published>2025-01-15T18:03:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35153#p35153</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35153#p35153"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35153#p35153"><![CDATA[
+APRS position not updating.<br><br>Tried PTT, Auto and Smart modes, I can see the update on APRS.fi but the position is always the same (the one which was manually entered in the device).<br><br>It should use the GPS position(as per setting) but it does not.<br><br>UPDATE: tried on an DM1701 with openGD77 and it behaves similar (no GPS on that one), noticed it will only take the boot time "position".<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Wed Jan 15, 2025 6:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CT7ARF]]></name></author>
+		<updated>2025-01-11T11:40:31</updated>
+
+		<published>2025-01-11T11:40:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35105#p35105</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35105#p35105"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=35105#p35105"><![CDATA[
+After setup a fortnight ago it's working without a glitch. Including the screensaver...  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>Excellent work, as usual. Congratulations to you all, and THANK YOU!<br><br>Best regards and 73,<br><br>Antonio Cochicho<br>(CT7ARF)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6120">CT7ARF</a> — Sat Jan 11, 2025 11:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-15T03:05:41</updated>
+
+		<published>2024-12-15T03:05:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4668&amp;p=34659#p34659</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=34659#p34659"/>
+		<title type="html"><![CDATA[New MD2017/RT-82 Beta 2024 12 15]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4668&amp;p=34659#p34659"><![CDATA[
+Because the larger font size, added in the last Beta, was not universally liked, a new Beta is now available.<br><br><br><ul><li> This adds the "Text size" option to the Display Options.  1= normal size , 2 = larger size (double height), in for the Channel name, VFO Rx frequency and other parts of the firmware.<br>The text size will default to the original / normal size.</li><li> The Info setting has also been defaulted back to its original setting of "Off", as this was changed to "Both" in the previous Beta and possibly some users didn't want this to change.</li><li> This version also has a fix for the intermittent button and keypad key problem experienced by a few users. Thanks to HB9GNB for his investigations into this problem.</li><li> Add ability to store current GPS position in channel's Lat/Lon.<br> - On GPS featured devices, editing the Channel details Lat or Lon, longpress the STAR key will store current GPS position (if GPS is on, and fix acquired).</li><li> Add an option to disable any channel change (on Flash).<br>- see "Locked: Off/On" in General options. When it's on, SK2 + Green don't write the changes to the flash.</li><li> Fix APRS position conversion.<br>- In some case, the conversion to minutes goes wrong, and ambiguity can make it worse.</li><li> Fix DMTF entering and more:<br> - it was impossible to enter DTMF sequences on MD-UV390/MD-2017/MD-9600.<br> - A/B/C/D was unavailable in the numerical input.<br> - Many problem while txing<br> - it was impossible on most platform to navigate the contact (DMR/DTMF), from within Channel/VFO screen (no effect from Up/Down keys).<br> - On MD-9600, While using the numerical input (DTMF), long press 'A' permits to exit that screen</li></ul><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/dfb01ca3f824e2c08e71f0d4469c2a81bb04d63f" class="postlink">downloads/MD2017/Firmware/dfb01ca3f824e ... 81bb04d63f</a><br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/Latest" class="postlink">downloads/MD2017/Firmware/Latest</a><br><br>Most changes were developered by Daniel F1RMB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 15, 2024 3:05 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

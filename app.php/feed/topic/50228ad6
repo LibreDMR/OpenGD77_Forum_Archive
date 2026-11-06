@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5022" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-18T21:24:39</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5022</id>
+
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-18T21:24:39</updated>
+
+		<published>2025-04-18T21:24:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36833#p36833</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36833#p36833"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36833#p36833"><![CDATA[
+I wonder from what year of production are the TYT MD-UV390 Plus models that have the black screen problem with OpenMDUV380_10W_PLUS.zip because I've tested in a model from 2024/07 and it works fine with that firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Apr 18, 2025 9:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-18T05:52:34</updated>
+
+		<published>2025-04-18T05:52:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36816#p36816</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36816#p36816"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36816#p36816"><![CDATA[
+<img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"> <br>You don't need to modify/recompile, use the non 10W version, and change the power display mode <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#mode" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... de.md#mode</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Apr 18, 2025 5:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-04-18T04:59:25</updated>
+
+		<published>2025-04-18T04:59:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36815#p36815</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36815#p36815"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36815#p36815"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>for the TYT MD-UV390 Plus with GPS and 10W you must use the file: <strong class="text-strong">OpenMDUV380_10W_PLUS.zip</strong></div></blockquote>Dispongo del cable correcto, el problema es que con el OpenMDUV380_10W_PLUS.zip se me queda la pantalla en negro sin iluminacion, con el firmware normal de 380 si se ilumina y funciona bien.<br>Desconozco si es normal y si existe algúna solución en mi caso.<br><br>En la etiqueta del aparato puede leerse:<br>MD-UV390<br>Output 10W<br>Con pegatina roja redonda arriba a la derecha con las letras PLUS.<hr style="height:10px;border:0;box-shadow:0 10px 10px -10px #8c8b8b inset">I have the correct cable, but the problem is that with the OpenMDUV380_10W_PLUS.zip, the screen goes black with no light.<br>With the regular 380 normal firmware it lights up and works fine.<br>I don't know if this is normal or if there's a solution for my case.<br><br>The device's label reads:<br>MD-UV390<br>10W Output<br>With a round red sticker in the top right corner with the letters PLUS.</div></blockquote>Hi!<br> I got the same radio today. Mine also has the "PLUS" sticker and says "10W", so I assumed it was the 10W PLUS version.<br><br> But, just like you found, when I tried the "380 10w plus" firmware, I encountered the same screen problems and couldn't transmit to my Hotspot either.<br><br>Working great with the 380uv normal version!<br>Thanks!</div></blockquote>"<br>// PA_SEL_SW and LCB_BKLIGHT pins are swapped on the MD-UV390Plus 10W radios<br>#if defined(PLATFORM_VARIANT_UV380_PLUS_10W)<br>#undef PA_SEL_SW_Pin<br>#undef PA_SEL_SW_GPIO_Port<br>#undef LCD_BKLIGHT_Pin<br>#undef LCD_BKLIGHT_GPIO_Port<br>"<br>UV-390 PLUS has different hardware versions, that is, the backlight control and PA selection I/O are interchanged, and it can be solved by modifying the corresponding definition of /Core/Inc/main.h and recompiling it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Fri Apr 18, 2025 4:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5TAO]]></name></author>
+		<updated>2025-04-17T13:09:48</updated>
+
+		<published>2025-04-17T13:09:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36804#p36804</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36804#p36804"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36804#p36804"><![CDATA[
+Hi,<br>I received my TYT MD-UV390 10W plus  and have the same situation with the software and black display. After installing 380 software (not 10W plus) everything is ok. I had to calibrate the tx power levels, original were way off the displayed values.<br>73<br>SP5TAO<br>Piotr<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8470">SP5TAO</a> — Thu Apr 17, 2025 1:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2dka]]></name></author>
+		<updated>2025-04-03T19:14:17</updated>
+
+		<published>2025-04-03T19:14:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36586#p36586</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36586#p36586"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36586#p36586"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>On my MD390 Plus GPS 10W<br>With OpenMDUV380.zip, I'm not having any display issues.<br>It seems to work fine.<br>In radio settings, you can switch to 10W mode.<br>Regards</div></blockquote>for the TYT MD-UV390 Plus with GPS and 10W you must use the file: <strong class="text-strong">OpenMDUV380_10W_PLUS.zip</strong></div></blockquote>Dispongo del cable correcto, el problema es que con el OpenMDUV380_10W_PLUS.zip se me queda la pantalla en negro sin iluminacion, con el firmware normal de 380 si se ilumina y funciona bien.<br>Desconozco si es normal y si existe algúna solución en mi caso.<br><br>En la etiqueta del aparato puede leerse:<br>MD-UV390<br>Output 10W<br>Con pegatina roja redonda arriba a la derecha con las letras PLUS.<hr style="height:10px;border:0;box-shadow:0 10px 10px -10px #8c8b8b inset">I have the correct cable, but the problem is that with the OpenMDUV380_10W_PLUS.zip, the screen goes black with no light.<br>With the regular 380 normal firmware it lights up and works fine.<br>I don't know if this is normal or if there's a solution for my case.<br><br>The device's label reads:<br>MD-UV390<br>10W Output<br>With a round red sticker in the top right corner with the letters PLUS.</div></blockquote>Hi!<br> I got the same radio today. Mine also has the "PLUS" sticker and says "10W", so I assumed it was the 10W PLUS version.<br><br> But, just like you found, when I tried the "380 10w plus" firmware, I encountered the same screen problems and couldn't transmit to my Hotspot either.<br><br>Working great with the 380uv normal version!<br>Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5359">ve2dka</a> — Thu Apr 03, 2025 7:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE7LQV]]></name></author>
+		<updated>2025-04-01T01:39:52</updated>
+
+		<published>2025-04-01T01:39:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36551#p36551</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36551#p36551"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36551#p36551"><![CDATA[
+thanks for the help, made a home made cable (does not look pretty but it works). actually found the 2.5 plug at a thrift store for 20 cents. everything else I had old cables kicking around.<br><br>screen is now lighting up every time.<br><br>just waiting on registration approval for DMR account and then I will be on the air.<br><br>Thanks for all the help 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8377">VE7LQV</a> — Tue Apr 01, 2025 1:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-31T17:23:27</updated>
+
+		<published>2025-03-31T17:23:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36549#p36549</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36549#p36549"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36549#p36549"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>On my MD390 Plus GPS 10W<br>With OpenMDUV380.zip, I'm not having any display issues.<br>It seems to work fine.<br>In radio settings, you can switch to 10W mode.<br>Regards</div></blockquote>for the TYT MD-UV390 Plus with GPS and 10W you must use the file: <strong class="text-strong">OpenMDUV380_10W_PLUS.zip</strong></div></blockquote>Dispongo del cable correcto, el problema es que con el OpenMDUV380_10W_PLUS.zip se me queda la pantalla en negro sin iluminacion, con el firmware normal de 380 si se ilumina y funciona bien.<br>Desconozco si es normal y si existe algúna solución en mi caso.<br><br>En la etiqueta del aparato puede leerse:<br>MD-UV390<br>Output 10W<br>Con pegatina roja redonda arriba a la derecha con las letras PLUS.<hr style="height:10px;border:0;box-shadow:0 10px 10px -10px #8c8b8b inset">I have the correct cable, but the problem is that with the OpenMDUV380_10W_PLUS.zip, the screen goes black with no light.<br>With the regular 380 normal firmware it lights up and works fine.<br>I don't know if this is normal or if there's a solution for my case.<br><br>The device's label reads:<br>MD-UV390<br>10W Output<br>With a round red sticker in the top right corner with the letters PLUS.</div></blockquote>Yes, that's normal, there are multiple type of UV380 10W radio.<br>See the user guide about the 10W scale :<a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#mode" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... de.md#mode</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Mar 31, 2025 5:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA5ISV]]></name></author>
+		<updated>2025-03-31T15:27:16</updated>
+
+		<published>2025-03-31T15:27:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36548#p36548</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36548#p36548"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36548#p36548"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>On my MD390 Plus GPS 10W<br>With OpenMDUV380.zip, I'm not having any display issues.<br>It seems to work fine.<br>In radio settings, you can switch to 10W mode.<br>Regards</div></blockquote>for the TYT MD-UV390 Plus with GPS and 10W you must use the file: <strong class="text-strong">OpenMDUV380_10W_PLUS.zip</strong></div></blockquote>Dispongo del cable correcto, el problema es que con el OpenMDUV380_10W_PLUS.zip se me queda la pantalla en negro sin iluminacion, con el firmware normal de 380 si se ilumina y funciona bien.<br>Desconozco si es normal y si existe algúna solución en mi caso.<br><br>En la etiqueta del aparato puede leerse:<br>MD-UV390<br>Output 10W<br>Con pegatina roja redonda arriba a la derecha con las letras PLUS.<hr style="height:10px;border:0;box-shadow:0 10px 10px -10px #8c8b8b inset">I have the correct cable, but the problem is that with the OpenMDUV380_10W_PLUS.zip, the screen goes black with no light.<br>With the regular 380 normal firmware it lights up and works fine.<br>I don't know if this is normal or if there's a solution for my case.<br><br>The device's label reads:<br>MD-UV390<br>10W Output<br>With a round red sticker in the top right corner with the letters PLUS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7104">EA5ISV</a> — Mon Mar 31, 2025 3:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-03-31T10:46:49</updated>
+
+		<published>2025-03-31T10:46:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36547#p36547</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36547#p36547"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36547#p36547"><![CDATA[
+The multi headed cables normally contain a USB to serial converter chip. They won't work with DMR radios, which need a totally passive cable. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Mar 31, 2025 10:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-03-31T06:19:21</updated>
+
+		<published>2025-03-31T06:19:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36546#p36546</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36546#p36546"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36546#p36546"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Unfortunately it did not come with a programming cable and want to make sure that its nt a hardware issues before spending money on the cable.<br><br>I did find out through my search that the normal Baofenge cable do not work so that ands an extra worry of getting the right cable purchased. \</div></blockquote>this is the cable that you need: <a href="https://www.aliexpress.com/item/1005007143723097.html" class="postlink">https://www.aliexpress.com/item/1005007143723097.html</a><br><br>but if you have some skills with electronic, then you can make one by yourself, this is the schematic...<br><br><img src="https://i.imgur.com/VjmAfgg.png" class="postimage" alt="Image"></div></blockquote>I currently have one of those programming cables that goes from USB to multiple different radio connections inluding two types of jacks similar to the one I need for this one. will it work or should I be getting a separate cable as per the link that was posted?</div></blockquote>If your cable is passive it should work as long as the wiring is correct.<br><br>Btw, Anytone-868/878 also use the same cable.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Mar 31, 2025 6:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE7LQV]]></name></author>
+		<updated>2025-03-31T05:56:48</updated>
+
+		<published>2025-03-31T05:56:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36544#p36544</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36544#p36544"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36544#p36544"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Unfortunately it did not come with a programming cable and want to make sure that its nt a hardware issues before spending money on the cable.<br><br>I did find out through my search that the normal Baofenge cable do not work so that ands an extra worry of getting the right cable purchased. \</div></blockquote>this is the cable that you need: <a href="https://www.aliexpress.com/item/1005007143723097.html" class="postlink">https://www.aliexpress.com/item/1005007143723097.html</a><br><br>but if you have some skills with electronic, then you can make one by yourself, this is the schematic...<br><br><img src="https://i.imgur.com/VjmAfgg.png" class="postimage" alt="Image"></div></blockquote>I currently have one of those programming cables that goes from USB to multiple different radio connections inluding two types of jacks similar to the one I need for this one. will it work or should I be getting a separate cable as per the link that was posted?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8377">VE7LQV</a> — Mon Mar 31, 2025 5:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-03-31T04:08:12</updated>
+
+		<published>2025-03-31T04:08:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36541#p36541</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36541#p36541"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36541#p36541"><![CDATA[
+<blockquote class="uncited"><div>Unfortunately it did not come with a programming cable and want to make sure that its nt a hardware issues before spending money on the cable.<br><br>I did find out through my search that the normal Baofenge cable do not work so that ands an extra worry of getting the right cable purchased. \</div></blockquote>this is the cable that you need: <a href="https://www.aliexpress.com/item/1005007143723097.html" class="postlink">https://www.aliexpress.com/item/1005007143723097.html</a><br><br>but if you have some skills with electronic, then you can make one by yourself, this is the schematic...<br><br><img src="https://i.imgur.com/VjmAfgg.png" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Mar 31, 2025 4:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-03-30T23:30:21</updated>
+
+		<published>2025-03-30T23:30:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36536#p36536</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36536#p36536"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36536#p36536"><![CDATA[
+<blockquote class="uncited"><div>On my MD390 Plus GPS 10W<br>With OpenMDUV380.zip, I'm not having any display issues.<br>It seems to work fine.<br>In radio settings, you can switch to 10W mode.<br>Regards</div></blockquote>for the TYT MD-UV390 Plus with GPS and 10W you must use the file: <strong class="text-strong">OpenMDUV380_10W_PLUS.zip</strong><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sun Mar 30, 2025 11:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA5ISV]]></name></author>
+		<updated>2025-03-30T23:24:44</updated>
+
+		<published>2025-03-30T23:24:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36535#p36535</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36535#p36535"/>
+		<title type="html"><![CDATA[Re: New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36535#p36535"><![CDATA[
+En mi MD390 Plus GPS 10W<br>Con OpenMDUV380.zip no me da problemas de pantalla.<br>Aparentemente funciona bien.<br>En ajustes de radio puede cambiarse al modo 10W<br>Saludos.<br><hr style="height:10px;border:0;box-shadow:0 10px 10px -10px #8c8b8b inset">On my MD390 Plus GPS 10W<br>With OpenMDUV380.zip, I'm not having any display issues.<br>It seems to work fine.<br>In radio settings, you can switch to 10W mode.<br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7104">EA5ISV</a> — Sun Mar 30, 2025 11:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE7LQV]]></name></author>
+		<updated>2025-03-30T21:08:17</updated>
+
+		<published>2025-03-30T21:08:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36531#p36531</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36531#p36531"/>
+		<title type="html"><![CDATA[New to me MD-UV390 plus and DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5022&amp;p=36531#p36531"><![CDATA[
+picked up as a broken possible repair required due to screen not lighting up.  once and a while I can get it to light up pushing the talk button after turning on but only works 1 out of 25 plus times.  From what I have been finding in my searches that it could possibly be a software issue? when I was able to get the screen to light up I confirmed it has OpenGD77 on it. I was able to scroll through the menus list and some functions I was not able to change, not sure if its locked out in the programming?<br><br>Unfortunately it did not come with a programming cable and want to make sure that its nt a hardware issues before spending money on the cable.<br><br>I did find out through my search that the normal Baofenge cable do not work so that ands an extra worry of getting the right cable purchased. \<br><br>When I get a cable is it programmabing only done via a windows based computer or can I use another operating system (Mac, linux)<br><br>If I can get this working it will be my first dip into the DMR world.<br>thanks in advance<br><br><img src="%5Battachment=0%5DIMG_0621.JPG%5B/attachment%5D" class="postimage" alt="Image"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2897&amp;sid=41b9977ab6cee9c253844d06e8ad278e" class="postimage" alt="IMG_0621.JPG" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8377">VE7LQV</a> — Sun Mar 30, 2025 9:08 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

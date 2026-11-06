@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4640" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-26T05:57:23</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4640</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-26T05:57:23</updated>
+
+		<published>2025-01-26T05:57:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=35361#p35361</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=35361#p35361"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=35361#p35361"><![CDATA[
+<blockquote class="uncited"><div>Thanks!  Switching my DMR1701 to VFO works - allows me to do Pi-Star BER calibration, where leaving it in the different TX/RX channel did not.   <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> <br><br>ALSO:  Useful to remember that Pi-star won't allow me to XMIT between 435 and 438 MHZ as that range is reserved for Satellite.</div></blockquote>Looks like you channel is set to Dual mode. In this case, yes, you can't calibrate your hotspot, as a simplex mode is required (and the firmware will just failed with a timeout.<br><br>The MMDVM_HS firmware has two banned frequency ranges:<div class="codebox"><p>CODE: </p><pre><code>// Banned amateur frequency ranges (satellite only, ISS, etc)#define BAN1_MIN  145800000#define BAN1_MAX  146000000#define BAN2_MIN  435000000#define BAN2_MAX  438000000</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 26, 2025 5:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k7ks]]></name></author>
+		<updated>2025-01-26T04:44:56</updated>
+
+		<published>2025-01-26T04:44:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=35360#p35360</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=35360#p35360"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=35360#p35360"><![CDATA[
+Thanks!  Switching my DMR1701 to VFO works - allows me to do Pi-Star BER calibration, where leaving it in the different TX/RX channel did not.   <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> <br><br>ALSO:  Useful to remember that Pi-star won't allow me to XMIT between 435 and 438 MHZ as that range is reserved for Satellite.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2007">k7ks</a> — Sun Jan 26, 2025 4:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-06T17:52:48</updated>
+
+		<published>2024-12-06T17:52:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34453#p34453</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34453#p34453"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34453#p34453"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I would suggest dedicated the duplex hotspot to DMR and use the calibration tools on pi-star to calibrate to matched the 1701.<br>For D-star use the simplex hotspot.</div></blockquote>yes. its my plan before but now i cant calibrate. My hotspot cant RX my 1701 because of "time out" on the screen. hotspot not issue for this problem</div></blockquote>It is time out because the hotspot cannot hear the 1701 and then not waking up. use pi-star calibration tool to calibrate the hot spot to the tx frequency of the 1701.<br><br>use VFO and set 1701 to DMR simplex tune to the hotspot RX frequency and then calibrate using pi-star calibration tool. after calibrate it should work in duplex mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Dec 06, 2024 5:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-06T17:25:58</updated>
+
+		<published>2024-12-06T17:25:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34450#p34450</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34450#p34450"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34450#p34450"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi everyone. I need help.<br><br>I have 2 MMDVM Hotspot, 1 for simplex using Pi 2 zero adan another 1 is dual hat using Pi 3B. My DM7101 cannot TX to MMDVM Dual hat because of "Time out" appear on screen. when i change frequency to MMDVM simplex, its can TX.<br><br>Please give me any advice how to operate this radio for duplex. I can TX/RX to MMDVM Dual hat using Icom IC705 but DM7101 cant.</div></blockquote>When you use the IC705 you use D-star which is a much simpler digital protocol that does not use TDMA.<br><br>Duplex hotspots with DMR can be tricky to get working as the radio and duplex card must synchronize the packets.</div></blockquote> the issue is my 1701 cannot TX and "time out" appeared on the screen.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Fri Dec 06, 2024 5:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-06T17:22:40</updated>
+
+		<published>2024-12-06T17:22:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34449#p34449</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34449#p34449"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34449#p34449"><![CDATA[
+<blockquote class="uncited"><div>I would suggest dedicated the duplex hotspot to DMR and use the calibration tools on pi-star to calibrate to matched the 1701.<br>For D-star use the simplex hotspot.</div></blockquote>yes. its my plan before but now i cant calibrate. My hotspot cant RX my 1701 because of "time out" on the screen. hotspot not issue for this problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Fri Dec 06, 2024 5:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-06T17:24:39 </updated>
+
+		<published>2024-12-06T17:21:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34448#p34448</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34448#p34448"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34448#p34448"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div> so how i can solve this problem?</div></blockquote>Have you compared the transmission frequencies of Icom IC705 and DM7101? Probably 1701 has an offset. Do you have an RTL-SDR?</div></blockquote>i use same frequency and same offset. now not my hotspot but my 1701 appeared "time out" when i push ptt button.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Fri Dec 06, 2024 5:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-06T13:28:41</updated>
+
+		<published>2024-12-06T13:28:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34441#p34441</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34441#p34441"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34441#p34441"><![CDATA[
+I would suggest dedicated the duplex hotspot to DMR and use the calibration tools on pi-star to calibrate to matched the 1701.<br>For D-star use the simplex hotspot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Dec 06, 2024 1:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2024-12-06T10:27:41</updated>
+
+		<published>2024-12-06T10:27:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34437#p34437</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34437#p34437"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34437#p34437"><![CDATA[
+<blockquote class="uncited"><div> so how i can solve this problem?</div></blockquote>Have you compared the transmission frequencies of Icom IC705 and DM7101? Probably 1701 has an offset. Do you have an RTL-SDR?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Fri Dec 06, 2024 10:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-06T10:06:39</updated>
+
+		<published>2024-12-06T10:06:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34436#p34436</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34436#p34436"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34436#p34436"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi everyone. I need help.<br><br>I have 2 MMDVM Hotspot, 1 for simplex using Pi 2 zero adan another 1 is dual hat using Pi 3B. My DM7101 cannot TX to MMDVM Dual hat because of "Time out" appear on screen. when i change frequency to MMDVM simplex, its can TX.<br><br>Please give me any advice how to operate this radio for duplex. I can TX/RX to MMDVM Dual hat using Icom IC705 but DM7101 cant.</div></blockquote>When you use the IC705 you use D-star which is a much simpler digital protocol that does not use TDMA.<br><br>Duplex hotspots with DMR can be tricky to get working as the radio and duplex card must synchronize the packets.</div></blockquote> so how i can solve this problem?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Fri Dec 06, 2024 10:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-12-06T09:18:57</updated>
+
+		<published>2024-12-06T09:18:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34433#p34433</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34433#p34433"/>
+		<title type="html"><![CDATA[Re: Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34433#p34433"><![CDATA[
+<blockquote class="uncited"><div>Hi everyone. I need help.<br><br>I have 2 MMDVM Hotspot, 1 for simplex using Pi 2 zero adan another 1 is dual hat using Pi 3B. My DM7101 cannot TX to MMDVM Dual hat because of "Time out" appear on screen. when i change frequency to MMDVM simplex, its can TX.<br><br>Please give me any advice how to operate this radio for duplex. I can TX/RX to MMDVM Dual hat using Icom IC705 but DM7101 cant.</div></blockquote>When you use the IC705 you use D-star which is a much simpler digital protocol that does not use TDMA.<br><br>Duplex hotspots with DMR can be tricky to get working as the radio and duplex card must synchronize the packets.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Dec 06, 2024 9:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9m2ocw]]></name></author>
+		<updated>2024-12-06T07:13:24</updated>
+
+		<published>2024-12-06T07:13:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34430#p34430</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34430#p34430"/>
+		<title type="html"><![CDATA[Cannot TX to MMDVM Dual Hat]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4640&amp;p=34430#p34430"><![CDATA[
+Hi everyone. I need help.<br><br>I have 2 MMDVM Hotspot, 1 for simplex using Pi 2 zero adan another 1 is dual hat using Pi 3B. My DM7101 cannot TX to MMDVM Dual hat because of "Time out" appear on screen. when i change frequency to MMDVM simplex, its can TX.<br><br>Please give me any advice how to operate this radio for duplex. I can TX/RX to MMDVM Dual hat using Icom IC705 but DM7101 cant.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7171">9m2ocw</a> — Fri Dec 06, 2024 7:13 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

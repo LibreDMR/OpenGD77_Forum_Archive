@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/7" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-19T15:43:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/7</id>
+
+		<entry>
+		<author><name><![CDATA[M1CDM]]></name></author>
+		<updated>2025-07-19T15:43:47</updated>
+
+		<published>2025-07-19T15:43:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5185&amp;p=37742#p37742</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5185&amp;p=37742#p37742"/>
+		<title type="html"><![CDATA[General discussions • Re: Ailunce HD1]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5185&amp;p=37742#p37742"><![CDATA[
+Hi,<br><br>Yes point taken. I used to own one of these radios several years ago but went back to my trusty GD77.<br><br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8191">M1CDM</a> — Sat Jul 19, 2025 3:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-07-19T13:23:21</updated>
+
+		<published>2025-07-19T13:23:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37741#p37741</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37741#p37741"/>
+		<title type="html"><![CDATA[General discussions • Re: Which OpenGD77 Firmware Shows Last Heard Callsign?]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37741#p37741"><![CDATA[
+<blockquote class="uncited"><div>I'm currently using the OpenGD77 firmware version 20241215112702 with DM 1701, which doesn't appear to have the "Last Heard Callsign" feature displayed on the screen. Could you please let me know which firmware version includes support for that feature?</div></blockquote>AS Roger said, Last heard has been implemented long time ago. Menu -&gt; Last Heard. However, If you are talking about "Last Talker" Menu -&gt; Options -&gt; Display Options -&gt; Last Talker. Then it has been added recently, some time at the beginning of this year. I suggest update to the latest firmware and CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Jul 19, 2025 1:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-19T06:35:00</updated>
+
+		<published>2025-07-19T06:35:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37739#p37739</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37739#p37739"/>
+		<title type="html"><![CDATA[General discussions • Re: Which OpenGD77 Firmware Shows Last Heard Callsign?]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37739#p37739"><![CDATA[
+<blockquote class="uncited"><div>I'm currently using the OpenGD77 firmware version 20241215112702 with DM 1701, which doesn't appear to have the "Last Heard Callsign" feature displayed on the screen. Could you please let me know which firmware version includes support for that feature?</div></blockquote>The Last Head functionality has been in the firmware for several years.<br><br>Note. Obviously this only works on DMR and only if you have the callsign database loaded.<br>Brandmeister sends the callsign slowly during the reception so the database is not absolutely essential<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jul 19, 2025 6:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-07-19T06:19:15</updated>
+
+		<published>2025-07-19T06:19:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37738#p37738</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37738#p37738"/>
+		<title type="html"><![CDATA[General discussions • Which OpenGD77 Firmware Shows Last Heard Callsign?]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37738#p37738"><![CDATA[
+I'm currently using the OpenGD77 firmware version 20241215112702 with DM 1701, which doesn't appear to have the "Last Heard Callsign" feature displayed on the screen. Could you please let me know which firmware version includes support for that feature?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Sat Jul 19, 2025 6:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3V]]></name></author>
+		<updated>2025-07-14T12:11:43</updated>
+
+		<published>2025-07-14T12:11:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37715#p37715</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37715#p37715"/>
+		<title type="html"><![CDATA[General discussions • Re: [Themes] Post your creations here.]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37715#p37715"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>How can I view a simulation of the theme on the PC meanwhile modifying it, without needing to see it on the handy?<br><br>Edito que he visto que eres español: quiero decir, que como puedes ir viendo cómo va quedando la modificación del tema durante la marcha en el pc, sin necesidad de ir subiendo al walkie.</div></blockquote>No tengo ni idea de como puedes hacer lo que me preguntas... Yo los edité desde el propio walike en el menú Opciones / Opciones de color, y además el tema de día lo edité en la calle a plena luz del día para poder ver que colores se ven mejor a pleno sol...<br><br>73 EA3V</div></blockquote>Lo preguntaba porque me ha llamado mucho la atención ver las capturas de pantalla que aparecen en tu mensaje.</div></blockquote>Las capturas de las pantallas las puedes hacer desde la aplicación del CPS con el equipo conectado por USB, está explicado en el manual oficial de OpenGD77.<br><br>73 EA3V<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4014">EA3V</a> — Mon Jul 14, 2025 12:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-14T11:15:40</updated>
+
+		<published>2025-07-14T11:15:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4235&amp;p=37714#p37714</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4235&amp;p=37714#p37714"/>
+		<title type="html"><![CDATA[General discussions • Re: Grupo de ayuda de Telegram OpenGD77 zona EA]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4235&amp;p=37714#p37714"><![CDATA[
+<blockquote class="uncited"><div>Hola saludos a todos. <br><br>Me complace compartir un grupo de Telegram que he creado en la zona (EA España), trata de todo lo que tiene que ver con OpenGD77.<br>Todo el mundo es bienvenido siempre que se muestre cordialidad y respeto por los demás, el grupo es de lengua española pero también es bienvenido cualquier otro idioma...<br>Entre todos intentamos compartir este maravilloso proyecto que és el <strong class="text-strong">OpenGD77.</strong><br><br><strong class="text-strong"><a href="https://t.me/OpenGD77_EA" class="postlink">https://t.me/OpenGD77_EA</a></strong><br><br>73 EA3V</div></blockquote>Muy buena idea, acabo de enviar petición<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Mon Jul 14, 2025 11:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-14T00:03:07</updated>
+
+		<published>2025-07-14T00:03:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37711#p37711</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37711#p37711"/>
+		<title type="html"><![CDATA[General discussions • Re: [Themes] Post your creations here.]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37711#p37711"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hello, greetings everyone, here I leave you my version 4 theme for OpenGD77 with color screens.<br>This version is set with different day and night color themes, both in one file...<br>To configure the automatic mode from day to night, it is done from the device by activating the Options / Display Options menu / In this menu, activate the option, "Auto night: On".<br>Switch between day mode and night mode<br>Pressing and holding the SK1 button and touching the red button switches between day mode and night mode.<br>Thanks to friend Daniel F1RMB. Thank you very much Daniel for all the work you are doing!<br>P.D. The SK1 button is the one above the PTT.<br><a href="https://youtu.be/Yn9oZGb9YiM" class="postlink">https://youtu.be/Yn9oZGb9YiM</a></div></blockquote>How can I view a simulation of the theme on the PC meanwhile modifying it, without needing to see it on the handy?<br><br>Edito que he visto que eres español: quiero decir, que como puedes ir viendo cómo va quedando la modificación del tema durante la marcha en el pc, sin necesidad de ir subiendo al walkie.</div></blockquote>No tengo ni idea de como puedes hacer lo que me preguntas... Yo los edité desde el propio walike en el menú Opciones / Opciones de color, y además el tema de día lo edité en la calle a plena luz del día para poder ver que colores se ven mejor a pleno sol...<br><br>73 EA3V</div></blockquote>Lo preguntaba porque me ha llamado mucho la atención ver las capturas de pantalla que aparecen en tu mensaje.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Mon Jul 14, 2025 12:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3V]]></name></author>
+		<updated>2025-07-13T23:26:57</updated>
+
+		<published>2025-07-13T23:26:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37710#p37710</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37710#p37710"/>
+		<title type="html"><![CDATA[General discussions • Re: [Themes] Post your creations here.]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37710#p37710"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello, greetings everyone, here I leave you my version 4 theme for OpenGD77 with color screens.<br>This version is set with different day and night color themes, both in one file...<br>To configure the automatic mode from day to night, it is done from the device by activating the Options / Display Options menu / In this menu, activate the option, "Auto night: On".<br>Switch between day mode and night mode<br>Pressing and holding the SK1 button and touching the red button switches between day mode and night mode.<br>Thanks to friend Daniel F1RMB. Thank you very much Daniel for all the work you are doing!<br>P.D. The SK1 button is the one above the PTT.<br><a href="https://youtu.be/Yn9oZGb9YiM" class="postlink">https://youtu.be/Yn9oZGb9YiM</a></div></blockquote>How can I view a simulation of the theme on the PC meanwhile modifying it, without needing to see it on the handy?<br><br>Edito que he visto que eres español: quiero decir, que como puedes ir viendo cómo va quedando la modificación del tema durante la marcha en el pc, sin necesidad de ir subiendo al walkie.</div></blockquote>No tengo ni idea de como puedes hacer lo que me preguntas... Yo los edité desde el propio walike en el menú Opciones / Opciones de color, y además el tema de día lo edité en la calle a plena luz del día para poder ver que colores se ven mejor a pleno sol...<br><br>73 EA3V<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4014">EA3V</a> — Sun Jul 13, 2025 11:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7LIP]]></name></author>
+		<updated>2025-07-13T19:48:11</updated>
+
+		<published>2025-07-13T19:48:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37708#p37708</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37708#p37708"/>
+		<title type="html"><![CDATA[General discussions • Re: [Themes] Post your creations here.]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2894&amp;p=37708#p37708"><![CDATA[
+<blockquote class="uncited"><div>Hello, greetings everyone, here I leave you my version 4 theme for OpenGD77 with color screens.<br>This version is set with different day and night color themes, both in one file...<br>To configure the automatic mode from day to night, it is done from the device by activating the Options / Display Options menu / In this menu, activate the option, "Auto night: On".<br>Switch between day mode and night mode<br>Pressing and holding the SK1 button and touching the red button switches between day mode and night mode.<br>Thanks to friend Daniel F1RMB. Thank you very much Daniel for all the work you are doing!<br>P.D. The SK1 button is the one above the PTT.<br><a href="https://youtu.be/Yn9oZGb9YiM" class="postlink">https://youtu.be/Yn9oZGb9YiM</a></div></blockquote>How can I view a simulation of the theme on the PC meanwhile modifying it, without needing to see it on the handy?<br><br>Edito que he visto que eres español: quiero decir, que como puedes ir viendo cómo va quedando la modificación del tema durante la marcha en el pc, sin necesidad de ir subiendo al walkie.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8875">EA7LIP</a> — Sun Jul 13, 2025 7:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8OQJ]]></name></author>
+		<updated>2025-07-11T06:44:34</updated>
+
+		<published>2025-07-11T06:44:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37703#p37703</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37703#p37703"/>
+		<title type="html"><![CDATA[General discussions • Re: Dtmf sound on keyboard]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37703#p37703"><![CDATA[
+I have dm 1701<br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8830">IU8OQJ</a> — Fri Jul 11, 2025 6:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-10T21:09:08</updated>
+
+		<published>2025-07-10T21:09:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37702#p37702</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37702#p37702"/>
+		<title type="html"><![CDATA[General discussions • Re: Dtmf sound on keyboard]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37702#p37702"><![CDATA[
+It's a hardware limitation. There is no way to route the DTMF tone generator to the speaker during Tx on some radios<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 10, 2025 9:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-10T19:03:36</updated>
+
+		<published>2025-07-10T19:03:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37700#p37700</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37700#p37700"/>
+		<title type="html"><![CDATA[General discussions • Re: Dtmf sound on keyboard]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37700#p37700"><![CDATA[
+No, some radio models beep when you press keys but I think there some that doesn't.<br><br>What type of radio do you have?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Jul 10, 2025 7:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8OQJ]]></name></author>
+		<updated>2025-07-10T16:50:22</updated>
+
+		<published>2025-07-10T16:50:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37699#p37699</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37699#p37699"/>
+		<title type="html"><![CDATA[General discussions • Dtmf sound on keyboard]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5211&amp;p=37699#p37699"><![CDATA[
+Hi,<br>If I press PTT and transmit, I don't hear the DTMF tones when I press the numeric keypad (even though the other party receives them).<br>Is there a way to enable the DTMF tones when I press the various number during transmission?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8830">IU8OQJ</a> — Thu Jul 10, 2025 4:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU8OQJ]]></name></author>
+		<updated>2025-07-10T16:42:34</updated>
+
+		<published>2025-07-10T16:42:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5209&amp;p=37697#p37697</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5209&amp;p=37697#p37697"/>
+		<title type="html"><![CDATA[General discussions • Re: Display wakeup with volume on dm1701]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5209&amp;p=37697#p37697"><![CDATA[
+Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8830">IU8OQJ</a> — Thu Jul 10, 2025 4:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-07-10T10:50:07</updated>
+
+		<published>2025-07-10T10:50:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5209&amp;p=37693#p37693</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5209&amp;p=37693#p37693"/>
+		<title type="html"><![CDATA[General discussions • Re: Display wakeup with volume on dm1701]]></title>
+
+					<category term="General discussions" scheme="http://localhost/opengd77/viewforum.php?f=7" label="General discussions"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5209&amp;p=37693#p37693"><![CDATA[
+Try update your firmware to the latest version. I remember this problem has been fixed at the end of last year.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Jul 10, 2025 10:50 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

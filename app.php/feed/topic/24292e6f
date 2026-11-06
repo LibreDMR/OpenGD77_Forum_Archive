@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2429" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-18T21:30:45</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2429</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-18T21:30:45</updated>
+
+		<published>2022-10-18T21:30:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20160#p20160</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20160#p20160"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20160#p20160"><![CDATA[
+New Alpha<br><br><a href="https://opengd77.com/viewtopic.php?f=19&amp;t=2431" class="postlink">https://opengd77.com/viewtopic.php?f=19&amp;t=2431</a><br><br>Hopes to fix the audio muting problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 18, 2022 9:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-17T20:27:56</updated>
+
+		<published>2022-10-17T20:27:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20152#p20152</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20152#p20152"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20152#p20152"><![CDATA[
+Thanks for your information.<br>Now you have identified it as a volume control problem I have managed to reproduce the bug on my radio. <br><br>It only seems to happen when you are using low volume settings and ECO mode. If you have the volume control above about 30% it does not happen.<br><br>Maybe the people who are not seeing the problem have their volume controls higher than yours. I certainly did.  <br><br>The problem is actually a bug in the HRC6000 chip which I thought we had fixed, but it looks like the fix only works at higher volumes. <br><br>Now that we can reproduce the problem it should be possible to fix it. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Oct 17, 2022 8:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-10-17T18:47:42</updated>
+
+		<published>2022-10-17T18:47:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20150#p20150</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20150#p20150"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20150#p20150"><![CDATA[
+Clarification by mistake. <br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2425&amp;start=10#p20134" class="postlink">viewtopic.php?f=19&amp;t=2425&amp;start=10#p20134</a><br>The sound disappears, probably at a low volume. It is restored when the volume control is rotated by an angle of more than 50%. Switching channels does not restore sound. I was wrong about that.<br>This error appeared on the version from 10.16 and was repeated on 10.17.<br><br>We need to figure out if this is an error of my hardware or software with a certain combination of settings. Friends do not have such a mistake yet.<br><br>PS<br>Video of the error demonstration. Another radio station is playing in the background.<br><a href="https://disk.yandex.ru/d/kberAw18Hxm89Q" class="postlink">https://disk.yandex.ru/d/kberAw18Hxm89Q</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Mon Oct 17, 2022 6:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CU7AAZ]]></name></author>
+		<updated>2022-10-17T15:00:47</updated>
+
+		<published>2022-10-17T15:00:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20145#p20145</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20145#p20145"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20145#p20145"><![CDATA[
+<blockquote class="uncited"><div>Yes, it is slightly confusing at the moment. This may be changed in a future release but is actually quite complicated to change. <br><br>The original GD77 had left and right keys for this. Left was decrease and right was increase.  That is still true but the buttons have up and down arrows!</div></blockquote>A suggestion<br>Maybe in the "Radio Options" menu, the TX Power option could be there.<br>So there was a key free for something else<br><br>73s<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2605">CU7AAZ</a> — Mon Oct 17, 2022 3:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-17T12:03:00</updated>
+
+		<published>2022-10-17T12:03:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20143#p20143</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20143#p20143"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20143#p20143"><![CDATA[
+Yes, it is slightly confusing at the moment. This may be changed in a future release but is actually quite complicated to change. <br><br>The original GD77 had left and right keys for this. Left was decrease and right was increase.  That is still true but the buttons have up and down arrows!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Oct 17, 2022 12:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR5TNF]]></name></author>
+		<updated>2022-10-17T10:58:03</updated>
+
+		<published>2022-10-17T10:58:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20142#p20142</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20142#p20142"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20142#p20142"><![CDATA[
+Good afternoon, you can explain why the increase in power in the radio station is regulated by the button down, and the increase in power by the button down.  Well, it's kind of illogical.  Or is this how it should be and I'm wrong???<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2825">UR5TNF</a> — Mon Oct 17, 2022 10:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-17T10:23:03</updated>
+
+		<published>2022-10-17T10:23:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20139#p20139</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20139#p20139"/>
+		<title type="html"><![CDATA[ALPHA 2022-10-17-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2429&amp;p=20139#p20139"><![CDATA[
+New Alpha is available<br><br><a href="https://opengd77.com/downloads/MDUV380/Firmware/1e2cd0c58cee0911d438318675dd324fa8ef81fe" class="postlink">https://opengd77.com/downloads/MDUV380/ ... 4fa8ef81fe</a><br><br>This version fixes the following 2 bugs<br><br>* Creation of new channel from VFO fails when the active Zone is already full<br>* Creation of new channel from VFO does not correctly set the in-use flags used by the CPS and parts of the firmware<br><br>Thanks to Daniel for his work on the first bug.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 17, 2022 10:23 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

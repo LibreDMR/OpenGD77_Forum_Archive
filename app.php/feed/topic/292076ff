@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2920" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-06-15T07:58:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2920</id>
+
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2023-06-15T07:58:24</updated>
+
+		<published>2023-06-15T07:58:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23971#p23971</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23971#p23971"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23971#p23971"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Surprising to discover that Brandmeister does not implement any security over our Digital IDs. <br><br>I guess anyone could impersonate any of us!!</div></blockquote>Brandmeister have AirSecurity/TOTP that can be activated from selfservice.<br><br>This can protect your own ID within Brandmeister but ofc not other DMR users unless they also enable AirSecurity.<br><br><a href="https://wiki.brandmeister.network/index.php/AirSecurity" class="postlink">https://wiki.brandmeister.network/index.php/AirSecurity</a></div></blockquote>Interesting, but it still does not solve the problem of unlicensed users just grabbing a Digital ID at random, until one works, just to get "on the air," so to speak!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Thu Jun 15, 2023 7:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-06-15T06:39:27</updated>
+
+		<published>2023-06-15T06:39:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23970#p23970</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23970#p23970"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23970#p23970"><![CDATA[
+<blockquote class="uncited"><div>Surprising to discover that Brandmeister does not implement any security over our Digital IDs. <br><br>I guess anyone could impersonate any of us!!</div></blockquote>Brandmeister have AirSecurity/TOTP that can be activated from selfservice.<br><br>This can protect your own ID within Brandmeister but ofc not other DMR users unless they also enable AirSecurity.<br><br><a href="https://wiki.brandmeister.network/index.php/AirSecurity" class="postlink">https://wiki.brandmeister.network/index.php/AirSecurity</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Jun 15, 2023 6:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2023-06-15T01:00:37</updated>
+
+		<published>2023-06-15T01:00:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23966#p23966</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23966#p23966"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23966#p23966"><![CDATA[
+Surprising to discover that Brandmeister does not implement any security over our Digital IDs. <br><br>I guess anyone could impersonate any of us!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Thu Jun 15, 2023 1:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2023-06-14T22:30:54</updated>
+
+		<published>2023-06-14T22:30:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23964#p23964</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23964#p23964"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23964#p23964"><![CDATA[
+<blockquote class="uncited"><div>SO....for those (still) looking at this thread; here's what to take-away:<br><br>- Adding your ID to every channel makes for a messy codeplug.<br>- Be sure to double-check which DMR ID you enter in the File Menu -&gt; Settings -&gt; DMR ID and callsign. (The callsign is NOT what is transmitted to the Network; just your ID (number).)<br><br>es vy 73 om's de "baab" w9ya</div></blockquote>I agree that the take-away from the most recent posts to this thread is that double check the Digital ID that you enter for any typos or mistakes.<br><br>However and on the contrary, entering the Digital ID to every channel, while unnecessary, did help to lead us to the conclusion that the error was in the master entry of the Digital ID.  There was nothing messy about it.  I will of course, remove them from each channel now that the master Digital ID is correct.<br><br>So, again, thank you W9YA for your sample codeplug and for your edification here are the only changes I made to it:<br><br>1) DMR ID and callsign: Enter my callsign and Radio (Digital) ID<br><br>2) Contacts -&gt; Digital Contacts: I added additional TalkGroups that I use<br><br>3) TG Lists: I modified 1 of your analog and 6 of your digital lists<br><br>4) Zones: I modified 1 of your analog and 3 of your digital zones<br><br>5) Channels: I modified 3 of your analog channels to the specifications of the 3 PAPA System analog repeaters that can be hit from my home and 6 of your digital channels to the specifications of the 3 PAPA System digital repeaters that can be hit from my home (1 each for Slot 1 and Slot 2). I am a member of the PAPA System which has repeaters throughout Southern California and Southern Nevada.<br><br>Now that I have it working, I am going to go through and rip out the other information that is personal to your usage and add the remainder of my RD-5R codeplug information that adds my personal usage, such as the addition of GMRS repeater and simplex and MURS simplex frequencies and 2 meter and 70 cms repeaters and simplex frequencies so that it will complete my DM-5R codeplug.<br><br>Thank you again!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jun 14, 2023 10:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W9YA]]></name></author>
+		<updated>2023-06-14T19:57:56</updated>
+
+		<published>2023-06-14T19:57:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23958#p23958</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23958#p23958"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23958#p23958"><![CDATA[
+SO....for those (still) looking at this thread; here's what to take-away:<br><br>- Adding your ID to every channel makes for a messy codeplug.<br>- Be sure to double-check which DMR ID you enter in the File Menu -&gt; Settings -&gt; DMR ID and callsign. (The callsign is NOT what is transmitted to the Network; just your ID (number).)<br><br>es vy 73 om's de "baab" w9ya<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1091">W9YA</a> — Wed Jun 14, 2023 7:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2023-06-14T16:33:50</updated>
+
+		<published>2023-06-14T16:33:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23954#p23954</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23954#p23954"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23954#p23954"><![CDATA[
+<blockquote class="uncited"><div><br>KL5T has DMR ID 3111395 and you have 3111995 , almost the same.<br><br>Check again so you haven't entered a '3' instead of a '9' in position 5 on your ID by mistake.</div></blockquote>Good sleuthing!  That was indeed the problem in the main "Callsign - Digital ID" portion of the CPS.<br><br>Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jun 14, 2023 4:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W9YA]]></name></author>
+		<updated>2023-06-14T15:46:29</updated>
+
+		<published>2023-06-14T15:46:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23953#p23953</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23953#p23953"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23953#p23953"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>OK: So I found in each Channel box the "Radio ID" and entered my personal Digital ID number in each DMR Channel that I am using and this has fixed Brandmeister Hoseline for me.<br><br>I have no idea how the Alaska callsign (KL5T) was being imparted previously.  <br><br>Also, previously, using my 2nd DMR HT, when I transmitted through one DMR Repeater on a specific TalkGroup would show my personal Digital ID on the other DMR HT, so that aspect was working correctly to other Hams.<br><br>I also found the TA Tx in each Channel and they are all set for OFF.</div></blockquote>KL5T has DMR ID 3111395 and you have 3111995 , almost the same.<br><br>Check again so you haven't entered a '3' instead of a '9' in position 5 on your ID by mistake.</div></blockquote>Yeah, "what he said"....hi hi. More to the point; You (or any user) has to change what Brandmeister would use for an ID number as the Generic Codeplug I linked has an ID number which when you find it in the CPS you will see it isn't at all like what you are describing.<br><br>es vy 73 om de "baab" w9ya<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1091">W9YA</a> — Wed Jun 14, 2023 3:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-06-14T08:30:52</updated>
+
+		<published>2023-06-14T08:30:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23944#p23944</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23944#p23944"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23944#p23944"><![CDATA[
+<blockquote class="uncited"><div>OK: So I found in each Channel box the "Radio ID" and entered my personal Digital ID number in each DMR Channel that I am using and this has fixed Brandmeister Hoseline for me.<br><br>I have no idea how the Alaska callsign (KL5T) was being imparted previously.  <br><br>Also, previously, using my 2nd DMR HT, when I transmitted through one DMR Repeater on a specific TalkGroup would show my personal Digital ID on the other DMR HT, so that aspect was working correctly to other Hams.<br><br>I also found the TA Tx in each Channel and they are all set for OFF.</div></blockquote>KL5T has DMR ID 3111395 and you have 3111995 , almost the same.<br><br>Check again so you haven't entered a '3' instead of a '9' in position 5 on your ID by mistake.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jun 14, 2023 8:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2023-06-14T04:23:15</updated>
+
+		<published>2023-06-14T04:23:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23940#p23940</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23940#p23940"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23940#p23940"><![CDATA[
+<blockquote class="uncited"><div>Looks like your codeplug is a bit messy <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"></div></blockquote>Ooops to W9YA: have you ever watched Brandmeister Hoseline while using your Codeplug?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jun 14, 2023 4:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-06-14T03:51:02</updated>
+
+		<published>2023-06-14T03:51:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23939#p23939</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23939#p23939"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23939#p23939"><![CDATA[
+There is no need to enter the same DMR ID in every single DMR channel, as it's there to override the global one, if needed.<br>Looks like your codeplug is a bit messy <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jun 14, 2023 3:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2023-06-14T04:20:35 </updated>
+
+		<published>2023-06-13T22:44:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23938#p23938</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23938#p23938"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23938#p23938"><![CDATA[
+OK: So I found in each Channel box the "Radio ID" and entered my personal Digital ID number in each DMR Channel that I am using and this has fixed Brandmeister Hoseline for me.<br><br>I have no idea how the Alaska callsign (KL5T) was being imparted previously.  <br><br>Also, previously, using my 2nd DMR HT, when I transmitted through one DMR Repeater on a specific TalkGroup would show my personal Digital ID on the other DMR HT, so that aspect was working correctly to other Hams.<br><br>I also found the TA Tx in each Channel and they are all set for OFF.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jun 13, 2023 10:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2023-06-13T21:46:08</updated>
+
+		<published>2023-06-13T21:46:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23937#p23937</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23937#p23937"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23937#p23937"><![CDATA[
+I can't seem to find where to activate TA Tx in the CPS software.<br><br>Actually, I can't seem to find in the CPS software, most of the options that I see on the DM-5R when I hit the Menu button.  You'd think that these could be more easily read and set in the CPS software.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jun 13, 2023 9:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2023-06-13T19:00:50</updated>
+
+		<published>2023-06-13T19:00:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23934#p23934</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23934#p23934"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug; firmware install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23934#p23934"><![CDATA[
+Boot screen is “if lost” and then my phone number<br><br>Which screen can I disable TA?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Jun 13, 2023 7:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-06-13T14:11:22</updated>
+
+		<published>2023-06-13T14:11:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23930#p23930</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23930#p23930"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23930#p23930"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>IF'n all ya'all want to see how we do it here; here's "da link":<br><br><a href="https://www.qsl.net/nm5sh/files/generic_abq_230310.g77" class="postlink">https://www.qsl.net/nm5sh/files/generic_abq_230310.g77</a></div></blockquote>So indeed, I have been using your sample Codeplug with additions and modifications for my purposes on my DM-5R.<br><br>Yesterday, I decided to look at Brandmeister Hoseline while testing some TalkGroups after manual entry, and<br><br>I notice that the Hoseline identifies me as: "<strong class="text-strong">KL5T - Larry</strong>" even though I entered my Callsign and Digital Number in the appropriate spot in the codeplug!<br><br>Where is this call coming from? Is he related to you somehow?<br><br>Update: Using my RD-5R with its normal codeplug, the Hoseline shows my correct call and name.</div></blockquote><br>Check what is configured in "Boot Screen" in the CPS, seems that this data is used for the Talker Alias if TA Tx  is enabled on a channel.<br><br>I think that it would be better to define TA text separately as you may want to use the Boot screen for displaying you phone number or other<br>info that may help if your device is lost.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jun 13, 2023 2:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W9YA]]></name></author>
+		<updated>2023-06-13T13:11:52</updated>
+
+		<published>2023-06-13T13:11:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23929#p23929</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23929#p23929"/>
+		<title type="html"><![CDATA[Re: RD-5R codeplug to OpenRD-5R codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2920&amp;p=23929#p23929"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>IF'n all ya'all want to see how we do it here; here's "da link":<br><br><a href="https://www.qsl.net/nm5sh/files/generic_abq_230310.g77" class="postlink">https://www.qsl.net/nm5sh/files/generic_abq_230310.g77</a></div></blockquote>So indeed, I have been using your sample Codeplug with additions and modifications for my purposes on my DM-5R.<br><br>Yesterday, I decided to look at Brandmeister Hoseline while testing some TalkGroups after manual entry, and<br><br>I notice that the Hoseline identifies me as: "<strong class="text-strong">KL5T - Larry</strong>" even though I entered my Callsign and Digital Number in the appropriate spot in the codeplug!<br><br>Where is this call coming from? Is he related to you somehow?<br><br>Update: Using my RD-5R with its normal codeplug, the Hoseline shows my correct call and name.</div></blockquote>Nope.....<br><br>Many people here locally use that code plug without issue, so my first guess is it is something you did or did not do when incorporating the codeplugs. Perhaps doing a parameters reset might help.<br><br>es vy 73 om de "Baab" w9ya<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1091">W9YA</a> — Tue Jun 13, 2023 1:11 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5133" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-25T15:26:22</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5133</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-25T15:26:22</updated>
+
+		<published>2025-05-25T15:26:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37227#p37227</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37227#p37227"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37227#p37227"><![CDATA[
+And don't you find it strange to be the only one experiencing this?!<br>Personally, this surprises me...<br><br>Oh, BTW, I'm suggesting that you fix the webpage you mentioned above, the radio model is MD-UV380 and/or MD-UV390, NOT the MD-380 and/or MD-390, these ones are unsupported by the OpenGD77.<br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun May 25, 2025 3:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-05-25T12:41:13</updated>
+
+		<published>2025-05-25T12:41:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37224#p37224</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37224#p37224"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37224#p37224"><![CDATA[
+Additional note regarding the TYT/MD-390 Plus: The "Quick Menu" option is available by pressing the "SK1" keys + the "green" button. On my "TYT 390 Plus," I have to press the green button a second time (while holding down the SK1 button) to activate the menu.<br><br>I've run numerous tests since yesterday, and it's always the same. Sometimes pressing the green button once is enough, but 90% of the time, I have to press it a second time. This doesn't happen with other SK1 key combinations, and I also have no problem using the green button to access the menus. It's really the combination of these two keys that seems to be causing the problem with my TYT 390 Plus.<br><br>Yves,<br>ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Sun May 25, 2025 12:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-05-25T02:00:38</updated>
+
+		<published>2025-05-25T02:00:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37220#p37220</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37220#p37220"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37220#p37220"><![CDATA[
+I don’t think this is mechanic, it seems to be a bug because now it works perfectly. A timeout setting or something. I have a second 390 Plus. I have to flash the firmware for openGD77 and see if I have the same issue.<br><br>The TS filter was off, I set it on. I hope this will work. <br><br>Yves,<br>Ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Sun May 25, 2025 2:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-25T01:29:37</updated>
+
+		<published>2025-05-25T01:29:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37219#p37219</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37219#p37219"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37219#p37219"><![CDATA[
+<blockquote class="uncited"><div>I got it! It is a bit tricky, I have to click once on SK1 then TWICE on the green key. This is not described here. I’ve finally activated the TS filter.<br><br>Yves,<br>Ve2ymm.com</div></blockquote>Sounds like your radio has intermittent faults on the keypad.  The ribbon cable to the front panel may need to be reseated<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 25, 2025 1:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-05-25T01:22:41</updated>
+
+		<published>2025-05-25T01:22:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37217#p37217</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37217#p37217"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37217#p37217"><![CDATA[
+I got it! It is a bit tricky, I have to click once on SK1 then TWICE on the green key. This is not described here. I’ve finally activated the TS filter.<br><br>Yves,<br>Ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Sun May 25, 2025 1:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-05-25T00:23:28</updated>
+
+		<published>2025-05-25T00:23:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37216#p37216</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37216#p37216"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37216#p37216"><![CDATA[
+I can send you a video. There is no action when I press the SK1 and the green button.<br><br>PS : I have described in details an article on my web site about the DMR and also the TYT 390 Plus : <a href="https://ve2ymm.com/dmr#pgm_md380" class="postlink">https://ve2ymm.com/dmr#pgm_md380</a><br><br>Yves,<br>Ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Sun May 25, 2025 12:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-24T20:43:45</updated>
+
+		<published>2025-05-24T20:43:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37212#p37212</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37212#p37212"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37212#p37212"><![CDATA[
+<blockquote class="uncited"><div>Yes I’m sure <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><br><br>It is the model “plus”, perhaps there is a difference?<br><br>Yves,<br>Ve2ymm.com</div></blockquote>There is no hardware difference related to the keypad and buttons<br><br>Hold sk1 and press green<br><br>Assuming the sk1 ang green buttons are functional<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat May 24, 2025 8:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-05-24T20:40:23</updated>
+
+		<published>2025-05-24T20:40:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37210#p37210</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37210#p37210"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37210#p37210"><![CDATA[
+Yes I’m sure <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><br><br>It is the model “plus”, perhaps there is a difference?<br><br>Yves,<br>Ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Sat May 24, 2025 8:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-24T20:38:08</updated>
+
+		<published>2025-05-24T20:38:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37209#p37209</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37209#p37209"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37209#p37209"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>Unfortunately, I cannot find this menu on my TYT 390-Plus, the button SK1+green button do not show this menu.<br><br>Yves,<br>ve2ymm.com</div></blockquote>That is very weird, are you sure you were pressing the right keys?</div></blockquote>Read the manual link in the previous post<br><br>Specifically <br><br>"On the TYT MD-UV380 press SK1 and the Green button"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat May 24, 2025 8:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-24T18:39:02</updated>
+
+		<published>2025-05-24T18:39:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37208#p37208</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37208#p37208"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37208#p37208"><![CDATA[
+<blockquote class="uncited"><div><br><br>Unfortunately, I cannot find this menu on my TYT 390-Plus, the button SK1+green button do not show this menu.<br><br>Yves,<br>ve2ymm.com</div></blockquote>That is very weird, are you sure you were pressing the right keys?<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2986&amp;sid=7ac362cb5a85af74eb11865a5429edd1" class="postimage" alt="MD-UV380-CheatSheet-2.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat May 24, 2025 6:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-05-24T17:53:16</updated>
+
+		<published>2025-05-24T17:53:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37207#p37207</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37207#p37207"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37207#p37207"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>You are mixing things up. There are 2 problems here. <br>The first one is is How to config your hotspot to do what you want. <br>The second, How to config OpenGD77 radio to do what you want. <br><br>We can help with the second problem, You just need to turn on TS filter.</div></blockquote>How to turn it ON or OFF ?<br><br>Yves,<br>ve2ymm.com</div></blockquote><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#channel-quick-menu" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... quick-menu</a></div></blockquote>Unfortunately, I cannot find this menu on my TYT 390-Plus, the button SK1+green button do not show this menu.<br><br>Yves,<br>ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Sat May 24, 2025 5:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-05-23T05:38:48</updated>
+
+		<published>2025-05-23T05:38:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37197#p37197</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37197#p37197"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37197#p37197"><![CDATA[
+I rest my case.<br><br><a href="https://www.opengd77.com/viewtopic.php?f=7&amp;t=5126" class="postlink">viewtopic.php?f=7&amp;t=5126</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Fri May 23, 2025 5:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-22T20:08:49</updated>
+
+		<published>2025-05-22T20:08:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37194#p37194</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37194#p37194"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37194#p37194"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>You are mixing things up. There are 2 problems here. <br>The first one is is How to config your hotspot to do what you want. <br>The second, How to config OpenGD77 radio to do what you want. <br><br>We can help with the second problem, You just need to turn on TS filter.</div></blockquote>How to turn it ON or OFF ?<br><br>Yves,<br>ve2ymm.com</div></blockquote><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#channel-quick-menu" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... quick-menu</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu May 22, 2025 8:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-05-22T15:07:44</updated>
+
+		<published>2025-05-22T15:07:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37192#p37192</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37192#p37192"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37192#p37192"><![CDATA[
+<blockquote class="uncited"><div>You are mixing things up. There are 2 problems here. <br>The first one is is How to config your hotspot to do what you want. <br>The second, How to config OpenGD77 radio to do what you want. <br><br>We can help with the second problem, You just need to turn on TS filter.</div></blockquote>How to turn it ON or OFF ?<br><br>Yves,<br>ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Thu May 22, 2025 3:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2025-05-22T15:03:28</updated>
+
+		<published>2025-05-22T15:03:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37191#p37191</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37191#p37191"/>
+		<title type="html"><![CDATA[Re: How to set Open GD77 with MMDVM in duplex mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5133&amp;p=37191#p37191"><![CDATA[
+No, this is not about how to set MMDVMHOST and/or DMR Gateway, it is how to separate the 2 TS with Open GD77 in duplex mode.<br>It seems to be a filtering or something like this, unfortunately, I cannot find it how to do with Open GD77.<br><br>Yves,<br>ve2ymm.com<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Thu May 22, 2025 3:03 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

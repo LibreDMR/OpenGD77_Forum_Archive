@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4918" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-05T16:07:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4918</id>
+
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2025-03-05T16:07:21</updated>
+
+		<published>2025-03-05T16:07:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36076#p36076</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36076#p36076"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36076#p36076"><![CDATA[
+MELERIX,<br><br>Nope. Definitely using the only donor file permissible <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><br><br>.....<br><br>I now have "5 that can" ... That's enough for the immediate need. <br><br>Thanks to all those that assisted - but time to move on since I now have enough "fit for purpose" devices available.<br><br>73<br><br>Steve I VK3VM<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Wed Mar 05, 2025 4:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-01T02:03:22</updated>
+
+		<published>2025-03-01T02:03:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36019#p36019</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36019#p36019"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36019#p36019"><![CDATA[
+<blockquote class="uncited"><div>Trying to respond: mailin045.protonmail.ch rejected your message to the following email addresse ....<br><br>Text without "main"  Codeplug:<br><br>Hi Daniel,<br><br>Thanks for the response and assistance. I have ran the same procedure at the start of the thread (exactly what was used with the 3rd test radio that worked) again with no success.<br><br>Files used: Stock Firmware:<br><br>•<a href="https://gd-77.s3.amazonaws.com/GD-77S%20Firmware%20V1.3.0%20%26%20Software%20V1.1.10_20190712.zip" class="postlink">https://gd-77.s3.amazonaws.com/GD-77S%2 ... 190712.zip</a><br>And/or the 1.2 Version:<br>•<a href="https://gd-77.s3.amazonaws.com/GD-77S%20Firmware%26Software_201810.zip" class="postlink">https://gd-77.s3.amazonaws.com/GD-77S%2 ... 201810.zip</a><br><br>OpenGD77S Files used (and same as the 3rd one that worked):<br><br>•<a href="https://drive.proton.me/urls/43E0Z20PAR#63ZowszjWAa4" class="postlink">https://drive.proton.me/urls/43E0Z20PAR#63ZowszjWAa4</a>   (CPS)<br>•<a href="https://drive.proton.me/urls/NP5JFNAS1C#OaHOHeI1b5WJ" class="postlink">https://drive.proton.me/urls/NP5JFNAS1C#OaHOHeI1b5WJ</a> (Select GD77S Version )<br>•<a href="https://drive.proton.me/urls/D3JKT50X7M#Md1OQqCWViCJ" class="postlink">https://drive.proton.me/urls/D3JKT50X7M#Md1OQqCWViCJ</a> (Select The English Nicole 1.5 Monochrome)<br><br>[ Redacted ... Just using a Blank/New Codeplug and one with an Analog and a Digital Contact ]<br><br>73 and Thanks<br><br>Steve I VK3VM</div></blockquote>I'm asking for <strong class="text-strong">your</strong> files, the ones your using. Don't you think I have everything needed to flash any supported device?<br><br>Use some kind of online storage, and share with me.<br>And don't forget your codeplug.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 01, 2025 2:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-03-01T00:04:19</updated>
+
+		<published>2025-03-01T00:04:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36017#p36017</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36017#p36017"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36017#p36017"><![CDATA[
+<blockquote class="uncited"><div>Files used: Stock Firmware:<br><br>•<a href="https://gd-77.s3.amazonaws.com/GD-77S%20Firmware%20V1.3.0%20%26%20Software%20V1.1.10_20190712.zip" class="postlink">https://gd-77.s3.amazonaws.com/GD-77S%2 ... 190712.zip</a><br>And/or the 1.2 Version:<br>•<a href="https://gd-77.s3.amazonaws.com/GD-77S%20Firmware%26Software_201810.zip" class="postlink">https://gd-77.s3.amazonaws.com/GD-77S%2 ... 201810.zip</a></div></blockquote>seems you are using the wrong donor file, read here: <a href="https://www.opengd77.com/static/firmware_installation.php#null" class="postlink">static/firmware_installation.php#null</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sat Mar 01, 2025 12:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2025-02-28T21:39:21</updated>
+
+		<published>2025-02-28T21:39:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36015#p36015</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36015#p36015"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=36015#p36015"><![CDATA[
+Trying to respond: mailin045.protonmail.ch rejected your message to the following email addresse ....<br><br>Text without "main"  Codeplug:<br><br>Hi Daniel,<br><br>Thanks for the response and assistance. I have ran the same procedure at the start of the thread (exactly what was used with the 3rd test radio that worked) again with no success.<br><br>Files used: Stock Firmware:<br><br>•<a href="https://gd-77.s3.amazonaws.com/GD-77S%20Firmware%20V1.3.0%20%26%20Software%20V1.1.10_20190712.zip" class="postlink">https://gd-77.s3.amazonaws.com/GD-77S%2 ... 190712.zip</a><br>And/or the 1.2 Version:<br>•<a href="https://gd-77.s3.amazonaws.com/GD-77S%20Firmware%26Software_201810.zip" class="postlink">https://gd-77.s3.amazonaws.com/GD-77S%2 ... 201810.zip</a><br><br>OpenGD77S Files used (and same as the 3rd one that worked):<br><br>•<a href="https://drive.proton.me/urls/43E0Z20PAR#63ZowszjWAa4" class="postlink">https://drive.proton.me/urls/43E0Z20PAR#63ZowszjWAa4</a>   (CPS)<br>•<a href="https://drive.proton.me/urls/NP5JFNAS1C#OaHOHeI1b5WJ" class="postlink">https://drive.proton.me/urls/NP5JFNAS1C#OaHOHeI1b5WJ</a> (Select GD77S Version )<br>•<a href="https://drive.proton.me/urls/D3JKT50X7M#Md1OQqCWViCJ" class="postlink">https://drive.proton.me/urls/D3JKT50X7M#Md1OQqCWViCJ</a> (Select The English Nicole 1.5 Monochrome)<br><br>[ Redacted ... Just using a Blank/New Codeplug and one with an Analog and a Digital Contact ]<br><br>73 and Thanks<br><br>Steve I VK3VM<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Fri Feb 28, 2025 9:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-28T07:00:09</updated>
+
+		<published>2025-02-28T07:00:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35997#p35997</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35997#p35997"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35997#p35997"><![CDATA[
+<blockquote class="uncited"><div>Daniel F1RMB,<br><br>The question that I am asking here ... WIth the flash ... Was there OpenGD77 on the HT or was there stock firmware as the base?<br><br>[ Theory: That way I can trace back to a "Legacy" OpenGD77 firmware to deploy FIRST ... Even based on previous queries that I have made on this subject ... ]<br><br>As for SK2 Power-On - Yes. I have basically tried EVERYTHING from everywhere and trawled the internet extensively now for some time.<br><br>Perhaps there is something procedural that I have missed? Both "flavours" of voice prompt for Australian Accents have been tried... and as they are labelled Monochrome or MD380 one does not use the MD380 versions !!!<br><br>I am also trying to be assistive here for other uers that i know are experiencing similar issues.<br><br>Thanks and 73<br><br>Steve I VK3VM<br><br><strong class="text-strong">Update</strong>: Tried a 3rd radio (that was completely stock ... untested with any OpenGD77 attempts ... based on post instructions in here) ...<br><br>Success for the first time !<br><br>Now its just an issue diagnosing why the first two test devices m- that had CPS's clared to virgin states With both the Versions 1.2 and 1.3 firmwares tested ! Only 5 more radios to go (I have actually 8 functional versions of these) device !</div></blockquote>I'm currently at work, so can't assist until later today.<br>Long story short, you don't need any specific firmware flashed on the radio prior flashing the OpenGD77, as it's a complete replacement.<br>Send me the files you flashed on your non working 77S, this way I will be in the same conditions as you (I mean, firmware, voice prompts, codeplug and the donor file). You can get my email address on QRZ.com.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 28, 2025 7:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2025-02-28T05:50:39</updated>
+
+		<published>2025-02-28T05:50:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35995#p35995</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35995#p35995"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35995#p35995"><![CDATA[
+Daniel F1RMB,<br><br>The question that I am asking here ... WIth the flash ... Was there OpenGD77 on the HT or was there stock firmware as the base?<br><br>[ Theory: That way I can trace back to a "Legacy" OpenGD77 firmware to deploy FIRST ... Even based on previous queries that I have made on this subject ... ]<br><br>As for SK2 Power-On - Yes. I have basically tried EVERYTHING from everywhere and trawled the internet extensively now for some time.<br><br>Perhaps there is something procedural that I have missed? Both "flavours" of voice prompt for Australian Accents have been tried... and as they are labelled Monochrome or MD380 one does not use the MD380 versions !!!<br><br>I am also trying to be assistive here for other uers that i know are experiencing similar issues.<br><br>Thanks and 73<br><br>Steve I VK3VM<br><br><strong class="text-strong">Update</strong>: Tried a 3rd radio (that was completely stock ... untested with any OpenGD77 attempts ... based on post instructions in here) ...<br><br>Success for the first time !<br><br>Now its just an issue diagnosing why the first two test devices m- that had CPS's clared to virgin states With both the Versions 1.2 and 1.3 firmwares tested ! Only 5 more radios to go (I have actually 8 functional versions of these) device !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Fri Feb 28, 2025 5:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-27T17:22:07</updated>
+
+		<published>2025-02-27T17:22:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35983#p35983</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35983#p35983"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35983#p35983"><![CDATA[
+And I repeat, this morning, I flashed the latest beta + latest voice prompt (monochome version) + a codeplug (OpenGD77 format), and it simply works.<br><br>Have you tried to reset the settings ? (SK2 + power On).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 27, 2025 5:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2025-02-27T15:55:26</updated>
+
+		<published>2025-02-27T15:55:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35980#p35980</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35980#p35980"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35980#p35980"><![CDATA[
+Ps: All steps followed detailed in initial post !<br><br>People on forums always respond "But it works for me" 9and I thank those that have here for responses).<br><br>Yet what I have here is a number of "Gifted" radios - Plus one that I have had forever that the standard processes have not worked for. They are intended for working with visually impaired clients ...<br><br>Therefore instructions, from "Virgin Stock State" to working prompts is sought for here as I cannot for the life of me get the firmware functioning effectively on this model radio. Mind you the GD-77 (and many other "Flavours" of supported hardware - no issues) !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Thu Feb 27, 2025 3:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2025-02-27T11:32:36</updated>
+
+		<published>2025-02-27T11:32:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35978#p35978</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35978#p35978"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35978#p35978"><![CDATA[
+Did the reflashed radios start out with OpenGD77 FW on it or was it from a stock firmware? That can have implications...<br><br>[ The GD77S has no screen nor keypad for the reference of some responders ]<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Thu Feb 27, 2025 11:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-27T04:20:03</updated>
+
+		<published>2025-02-27T04:20:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35952#p35952</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35952#p35952"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35952#p35952"><![CDATA[
+Just tried the latest beta on my GD-77S, and it works as expected.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 27, 2025 4:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-27T03:55:19</updated>
+
+		<published>2025-02-27T03:55:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35951#p35951</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35951#p35951"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35951#p35951"><![CDATA[
+Did you flashed a codeplug after the firmware and/or voice prompts ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 27, 2025 3:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-27T18:43:01 </updated>
+
+		<published>2025-02-27T03:36:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35950#p35950</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35950#p35950"/>
+		<title type="html"><![CDATA[Re: GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35950#p35950"><![CDATA[
+but it become bricked even before you write the voice prompts or only after that?<br><br>also, if the radio is monochrome screen, make sure you select the monochrome voice prompt, and not the UV380-like voice prompt.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Feb 27, 2025 3:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk3vm]]></name></author>
+		<updated>2025-02-28T06:11:47 </updated>
+
+		<published>2025-02-27T03:01:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35949#p35949</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35949#p35949"/>
+		<title type="html"><![CDATA[GD77S - Firmware Updates effectively bricking radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4918&amp;p=35949#p35949"><![CDATA[
+[ Edited to reflect some additional info in later posts - omitted ]<br><br>Hi Folks,<br><br>I am having issues updating a "Troublesome" GD77S ,,, Meaning basically that I have to resort back to the stock firmware (That is shocking anyway)<br><br>Perhaps there is something procedural that I am doing/missing/lacking?<br><br>Steps Followed (Some truncation but steps accurate):<br><br>- Latest OpenGD77CPS Running<br>- Connect POWERED OFF GD77S via USB<br>- Place GD77S into Firmware Update Mode (Remove battery, Reinstall Battery, Press SK1 along with SK2 then power on device ... Green light appears)<br>- Enter CPS / Extras / Firmware Loader<br>--&gt; Select Radio Button for GD77S (etc)<br>--&gt; Push Select Official Donor File and select the "Component" From the GD77. All Successful.<br>--&gt; Select "Select a file and update" --&gt; Select the OpenGGD77 GD77S firmware file<br><br>All erases and flashes successfully.<br><br>- Power down and briefly remove battery.<br>- Reconnect Radio and Read Radio from CPS. Success/<br>- Select Extras / OpnGD77 Support<br>- Select "Write Voice Prompt" --? Select say any of the English AU Nicole Monochrome 1.5 VPR files and write this into radio<br>- Power Down Radio.<br><br>Final Step<br><br>- Power Radio on while pressing SK2<br><br>Radio is effectively bricked until one can eventually force the "Original" v1.3 firmware back onto it. i.e. power down for around 10 secs, Battery out, Battery back, then SK1 and SK2 power on and use original firmware loader techniques.<br><br>Any tips as to how to get the OpenGD77 firmware onto an working this hardware?<br><br>Is there earlier firmware, that works, that needs to be loaded first? The original firmware/CPS has some nasty bugs and I woud prefer to see the end of it !<br><br>73<br><br>Steve I<br>VK3VM/VK3SIR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=57">vk3vm</a> — Thu Feb 27, 2025 3:01 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4358" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-19T11:55:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4358</id>
+
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-09-19T11:55:21</updated>
+
+		<published>2024-09-19T11:55:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33066#p33066</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33066#p33066"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33066#p33066"><![CDATA[
+OK, we wll research that suggestion.<br><br>THANKS FOR YOUR SINCERELY HELP!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu Sep 19, 2024 11:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-19T11:29:25</updated>
+
+		<published>2024-09-19T11:29:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33063#p33063</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33063#p33063"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33063#p33063"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>How much space is required for the Chinese fonts e.f. 500kB, 1Mb, 2Mb etc ?????</div></blockquote>As I metioned, now we use only about 200KB (GB2312 font 11*12 charset) in MCU, and if we add the Chinese input later, may we need about 300KB.<br><br>if use GB18030-2022 FULL font charset (87,887 characters), maybe about 1.5-1.8MB in the future (if we can do).</div></blockquote>OK. See my post above about some code you could try changing. To reserve some space.<br>i.e if you need ~2Mb, you need to change <br><div class="codebox"><p>CODE: </p><pre><code>#define FLASH_ADDRESS_OFFSET  (128 * 1024)</code></pre></div>to probably<br><div class="codebox"><p>CODE: </p><pre><code>#define FLASH_ADDRESS_OFFSET  (2 * 1024 * 1024)</code></pre></div>BUT.<br>I didn't test this... There may be some effects I did not consider.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 19, 2024 11:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-09-19T11:17:22</updated>
+
+		<published>2024-09-19T11:17:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33062#p33062</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33062#p33062"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33062#p33062"><![CDATA[
+<blockquote class="uncited"><div><br>How much space is required for the Chinese fonts e.f. 500kB, 1Mb, 2Mb etc ?????</div></blockquote>As I metioned, now we use only about 200KB (GB2312 font 11*12 charset) in MCU, and if we add the Chinese input later, may we need about 300KB.<br><br>if use GB18030-2022 FULL font charset (87,887 characters), maybe about 1.5-1.8MB in the future (if we can do).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu Sep 19, 2024 11:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-19T10:56:25</updated>
+
+		<published>2024-09-19T10:56:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33061#p33061</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33061#p33061"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33061#p33061"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>So, does Chinese language has reduced glyph charset ?</div></blockquote>Now only import about 7000 word of Chinese normal character in MCU ROM for the test 3rd version firmware. That quantity is include 100% of GB2312 charset, but so small less than GBK / GB18030 / Unicode.<br>because he don't know where is free and can be used / overrided in Flash smoothly. we hope to let that charset all in Flash and need about 120KiB  space. So it's more helpful if you can give us the Eeprom Layout Explanation and where we can use freely, thanks!</div></blockquote>Look in codeplug.h<br><div class="codebox"><p>CODE: </p><pre><code>#define FLASH_ADDRESS_OFFSET  (128 * 1024)</code></pre></div>If you change this line, it will affect the location of the location of the virtual start of Flash memory used by the firmware<br><br>i.e I think if you change this to e.g. (1024 * 1024), then the flash address from 128k to 1024 will not be used.<br><br>To read / write to this you need to use the EEPOM adddress range. i.e the area above 128k  to &lt; 1024k should be unused.<br><br>Note. If you change this, all the data in your radio will be effectly corrupt, e.g. codeplug, DMR ID , Keps etc etc<br><br>So you would need to reload everything again from the CPS.<br><br>Also. I didn't try this, so there could be some side effects which I didn't consider.<br><br>NOTE. THIS ONLY WORKS ON RADIOS LIKE THE UV380/ DM1701/ MD9600/ MD2017 which have no EEPROM chip. IT WILL NOT WORK ON THE MK22 radios including the GD77 and DM1801 etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 19, 2024 10:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-19T07:55:42</updated>
+
+		<published>2024-09-19T07:55:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33042#p33042</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33042#p33042"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33042#p33042"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>So, does Chinese language has reduced glyph charset ?</div></blockquote>Now only import about 7000 word of Chinese normal character in MCU ROM for the test 3rd version firmware. That quantity is include 100% of GB2312 charset, but so small less than GBK / GB18030 / Unicode.<br>because he don't know where is free and can be used / overrided in Flash smoothly. we hope to let that charset all in Flash and need about 120KiB  space. So it's more helpful if you can give us the Eeprom Layout Explanation and where we can use freely, thanks!</div></blockquote>How much space is required for the Chinese fonts e.f. 500kB, 1Mb, 2Mb etc ?????<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 19, 2024 7:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-19T03:20:58</updated>
+
+		<published>2024-09-19T03:20:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33036#p33036</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33036#p33036"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33036#p33036"><![CDATA[
+There is no reserved space in the Flash.<br><br>Users can mostly fill the Flash with DMR ID data if they upload the entire DMR ID database into the radio<br><br>You would have to limit the DMR ID data upload size, perhaps in your version of the radio, to prevent that data overwriting any fonts you put in the Flash<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 19, 2024 3:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-09-19T04:04:22 </updated>
+
+		<published>2024-09-19T01:31:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33035#p33035</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33035#p33035"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=33035#p33035"><![CDATA[
+<blockquote class="uncited"><div><br>So, does Chinese language has reduced glyph charset ?</div></blockquote>Now only import about 7000 word of Chinese normal character in MCU ROM for the test 3rd version firmware. That quantity is include 100% of GB2312 charset, but so small less than GBK / GB18030 / Unicode.<br>because he don't know where is free and can be used / overrided in Flash smoothly. we hope to let that charset all in Flash and need about 120KiB  space. So it's more helpful if you can give us the Eeprom Layout Explanation and where we can use freely, thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu Sep 19, 2024 1:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-14T05:41:35</updated>
+
+		<published>2024-09-14T05:41:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32922#p32922</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32922#p32922"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32922#p32922"><![CDATA[
+This has already been discussed few weeks ago, there is no free space available in the external flash.<br>Chinese support has also been discussed, multiple times. Unlike Japanese, AFAIK there is no Katakana equivalent, the required minimum glyphs to support Chinese language is way to high to fit the remaining left space (as Latin has to also to be displayed).<br><br>So, does Chinese language has reduced glyph charset ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Sep 14, 2024 5:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-09-14T04:34:08</updated>
+
+		<published>2024-09-14T04:34:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32919#p32919</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32919#p32919"/>
+		<title type="html"><![CDATA[Re: DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32919#p32919"><![CDATA[
+<blockquote class="uncited"><div>May I ask where the external flash memory space of DM-1701 starts to be idle and unused? I would like to try storing the Chinese character table in it,thanks!</div></blockquote><br>TO @VK3KYY @F1RMB<br><br>It''s helpful for Chinese User if you can give @BA7IQE the introduction about the free space for the Chinese GB2312 Fonts Library. Thanks a lot!<br><br>Screenshot_20240901_203956.jpg show the Menu in Chinese, such as Firmware Info / Option / Last Heard / Radio Info / Satellite / GPS / Zone.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Sat Sep 14, 2024 4:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2024-08-30T01:42:11</updated>
+
+		<published>2024-08-30T01:42:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32678#p32678</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32678#p32678"/>
+		<title type="html"><![CDATA[DM-1701 external flash]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4358&amp;p=32678#p32678"><![CDATA[
+May I ask where the external flash memory space of DM-1701 starts to be idle and unused? I would like to try storing the Chinese character table in it,thanks!<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2560&amp;sid=508e74272c43a7806dd030acce0fdd0d" class="postimage" alt="Screenshot_20240901_203956.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Fri Aug 30, 2024 1:42 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

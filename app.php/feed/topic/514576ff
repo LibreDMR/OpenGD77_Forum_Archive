@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5145" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-28T20:13:10</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5145</id>
+
+		<entry>
+		<author><name><![CDATA[VE4HTO]]></name></author>
+		<updated>2025-05-28T20:13:10</updated>
+
+		<published>2025-05-28T20:13:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5145&amp;p=37263#p37263</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5145&amp;p=37263#p37263"/>
+		<title type="html"><![CDATA[Re: APRS and OSI network layers]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5145&amp;p=37263#p37263"><![CDATA[
+<blockquote class="uncited"><div>....<br>UHF DMR APRS<br>7 (Application)<br>6 (Presentation)<br>5 (session)<br>4 (Transport)<br>3 (Network)<br>2 (DATALINK) ---&gt; FM / TDMA<br>1 (Physical) ---&gt; UHF RF</div></blockquote>3 (Network) ---&gt; select data from DMR stream (e.g. at BM)<br>2 (DATALINK) ---&gt; FM / TDMA / embedding Data in DMR stream<br><br>I'm not a network guy, but that seems to make most sence to me <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3963">VE4HTO</a> — Wed May 28, 2025 8:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-27T12:57:20</updated>
+
+		<published>2025-05-27T12:57:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5145&amp;p=37243#p37243</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5145&amp;p=37243#p37243"/>
+		<title type="html"><![CDATA[APRS and OSI network layers]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5145&amp;p=37243#p37243"><![CDATA[
+I always confused with APRS. I believe people use the term "APRS" interchangeably with "Positioning report". Sometimes they can have APRS over DMR, most of the times they refer to FM, VHF/AFSK/AX.25/APRS. I, personally operate APRS mostly on 144.39Mhz (FM) and 10.1478Mhz (USB).<br><br>Now, I'm very confused when trying to put "APRS" on the layers. <br><br>So, I'm trying to put "APRS" on the OST layers model to be able to understand it. please help me, I'm not quite sure what I'm doing. Which layer is the APRS, I can't put it. OR it is not a protocol to begin with?<br><br>VHF FM APRS (144.390 in the US.)<br>OSI layers<br>7 (Application)<br>6 (Presentation)<br>5 (session)<br>4 (Transport)<br>3 (Network) <br>2 (DATALINK) ---&gt; AFSK / AX.25 / FM<br>1 (Physical) ---&gt; VHF RF<br><br>HF USB APRS (10.1478)<br>7 (Application)<br>6 (Presentation)<br>5 (session)<br>4 (Transport)<br>3 (Network) <br>2 (DATALINK) ---&gt; AFSK / AX.25 / USB<br>1 (Physical) ---&gt; HF RF<br><br>UHF DMR APRS<br>7 (Application)<br>6 (Presentation)<br>5 (session)<br>4 (Transport)<br>3 (Network) <br>2 (DATALINK) ---&gt; FM / TDMA<br>1 (Physical) ---&gt; UHF RF<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue May 27, 2025 12:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

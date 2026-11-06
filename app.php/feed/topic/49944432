@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4994" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-10T12:06:37</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4994</id>
+
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-05-10T12:06:37</updated>
+
+		<published>2025-05-10T12:06:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=37055#p37055</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=37055#p37055"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=37055#p37055"><![CDATA[
+I also have sound interruptions when I set AGC to 3dB or higher. However, when I set 0dB, in my opinion the sound is better than on the last version from 15.12.2024 because the sound is flat, i.e. there is no characteristic metallic-buzzing (Retevis RT-3s).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Sat May 10, 2025 12:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CD3VMX]]></name></author>
+		<updated>2025-04-25T20:28:59</updated>
+
+		<published>2025-04-25T20:28:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36907#p36907</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36907#p36907"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36907#p36907"><![CDATA[
+Hi maestros, I'm using this version and no problems so far, just a little suggestion. Would be nice if we can add/remove already created channels to a current zones in the radio menu. The only workaround for now is create a channel and this channel will be added to the current zone.<br><br>Thanks again for the great work you have done fir this project<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8512">CD3VMX</a> — Fri Apr 25, 2025 8:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2dka]]></name></author>
+		<updated>2025-04-22T03:03:16</updated>
+
+		<published>2025-04-22T03:03:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36862#p36862</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36862#p36862"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36862#p36862"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi !<br>Here is a recording where the audio bug (reception) can be heard. You can hear the wavering in my voice and the whispering.<br><br>Thanks !<br>73!</div></blockquote>Hi. I have exactly the same issue if I set the DMR Rx AGC to 3dB or more. The issue is stronger the higher the dB value is set. This applies to reception.The issue can be reproduced: while listening to a communication in progress on the repeater, go into Menu/Options/Sound Options and change the DMR Rx AGC: from off to 6 dB.<br>Often, simply entering the menu is sufficient. (but there must always be DMR Rx AGC increased)<br>On the home screen this also occurs but only sometimes.<br>RT3S SN 2202R03S11xxxxx STM CPU.<br>EDIT:I've just noticed that there may be a link to “Prompt: Beep”. When it is "Prompt: Silent" the problem does not seem to occur.</div></blockquote>Hi !<br><br>Yes, Same here. If I choose "Prompt: Silent". The problem is no more there. Same if I choose "DMR Rx AGC: Off".<br><br>Thanks !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5359">ve2dka</a> — Tue Apr 22, 2025 3:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9TA]]></name></author>
+		<updated>2025-04-18T18:44:17</updated>
+
+		<published>2025-04-18T18:44:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36831#p36831</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36831#p36831"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36831#p36831"><![CDATA[
+<blockquote class="uncited"><div>Hi !<br>Here is a recording where the audio bug (reception) can be heard. You can hear the wavering in my voice and the whispering.<br><br>Thanks !<br>73!</div></blockquote>Hi. I have exactly the same issue if I set the DMR Rx AGC to 3dB or more. The issue is stronger the higher the dB value is set. This applies to reception.The issue can be reproduced: while listening to a communication in progress on the repeater, go into Menu/Options/Sound Options and change the DMR Rx AGC: from off to 6 dB.<br>Often, simply entering the menu is sufficient. (but there must always be DMR Rx AGC increased)<br>On the home screen this also occurs but only sometimes.<br>RT3S SN 2202R03S11xxxxx STM CPU.<br>EDIT:I've just noticed that there may be a link to “Prompt: Beep”. When it is "Prompt: Silent" the problem does not seem to occur.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3373">SP9TA</a> — Fri Apr 18, 2025 6:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BG2LUA]]></name></author>
+		<updated>2025-04-16T14:04:56</updated>
+
+		<published>2025-04-16T14:04:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36777#p36777</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36777#p36777"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36777#p36777"><![CDATA[
+I can't open it for the time being and am unable to download it. Could you please send a copy of the firmware and CPS to my email address? Thank you so much.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8428">BG2LUA</a> — Wed Apr 16, 2025 2:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2dka]]></name></author>
+		<updated>2025-04-08T14:13:22</updated>
+
+		<published>2025-04-08T14:13:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36660#p36660</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36660#p36660"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36660#p36660"><![CDATA[
+<blockquote class="uncited"><div>Hello!<br><br>I'd like to report a bug that I'm experiencing with this version and also with version 2025-03-16. <br>I mentioned in 03-16 an audio bug with DMR reception where the audio is choppy. I'm also having the same bug with version 03-23. <br><br>I had this on my MD390UV, but today I received a new MD390UV-10Watts and with the last 2 firmwares I have the same audio bug on both radio. Both work fine with version 2025-02-15. <br><br>Thank you very much for the excellent work! <br>73!!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>Hi !<br>Here is a recording where the audio bug (reception) can be heard. You can hear the wavering in my voice and the whispering.<br><br>Thanks !<br>73!<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2911&amp;sid=6b2da28fd33061b9328a9909ce846b96">Testing_audio_bug.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5359">ve2dka</a> — Tue Apr 08, 2025 2:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2025-04-04T20:57:03</updated>
+
+		<published>2025-04-04T20:57:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36597#p36597</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36597#p36597"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36597#p36597"><![CDATA[
+<blockquote class="uncited"><div>work fine with version 2025-02-15. </div></blockquote>Unfortunately, on my MDUV380, the firmware version 2025.02.15 did not show up on the positive side.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Fri Apr 04, 2025 8:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2dka]]></name></author>
+		<updated>2025-04-03T19:39:17</updated>
+
+		<published>2025-04-03T19:39:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36588#p36588</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36588#p36588"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36588#p36588"><![CDATA[
+Hello!<br><br>I'd like to report a bug that I'm experiencing with this version and also with version 2025-03-16. <br>I mentioned in 03-16 an audio bug with DMR reception where the audio is choppy. I'm also having the same bug with version 03-23. <br><br>I had this on my MD390UV, but today I received a new MD390UV-10Watts and with the last 2 firmwares I have the same audio bug on both radio. Both work fine with version 2025-02-15. <br><br>Thank you very much for the excellent work! <br>73!!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5359">ve2dka</a> — Thu Apr 03, 2025 7:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-23T05:55:55</updated>
+
+		<published>2025-03-23T05:55:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36374#p36374</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36374#p36374"/>
+		<title type="html"><![CDATA[New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4994&amp;p=36374#p36374"><![CDATA[
+<ul><li> Reapply CSS RX once the DTMF sequence has ended.</li><li> Take care of RD5R display buffer height (48 vs 64 on MK22 platforms).</li><li> Screengrabber Python script takes care of RD5R screen size too.  <ul>  <li> available at <a href="https://drive.proton.me/urls/K2TF5ZCQJ8#NhIcfp2oKy0R" class="postlink">https://drive.proton.me/urls/K2TF5ZCQJ8#NhIcfp2oKy0R</a>.</li>  </ul></li><li> Add GPS support for RD5R platform.  <ul>  <li> NOTE: the RSSI screen <strong class="text-strong">doesn't</strong> display the sat's number, as there is no room for this on screen.</li>  </ul></li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/Q1FEHX8N5G#Ws1ZHkUjl29w" class="postlink">https://drive.proton.me/urls/Q1FEHX8N5G#Ws1ZHkUjl29w</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/CT7Y3QE8CC#ivbPuzbV8ty1" class="postlink">https://drive.proton.me/urls/CT7Y3QE8CC#ivbPuzbV8ty1</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/03/23. See the CPS section <a href="https://www.opengd77.com/viewforum.php?f=12" class="postlink">viewforum.php?f=12</a><br><br>For translators, the on-screen texts, voice prompts CSV are located at: <a href="https://drive.proton.me/urls/AFEPKF84F4#2ltiJXlnndiy" class="postlink">https://drive.proton.me/urls/AFEPKF84F4#2ltiJXlnndiy</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 23, 2025 5:55 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

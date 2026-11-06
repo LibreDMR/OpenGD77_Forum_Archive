@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4902" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-16T06:10:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4902</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-16T06:10:35</updated>
+
+		<published>2025-03-16T06:10:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36223#p36223</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36223#p36223"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36223#p36223"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4966" class="postlink">viewtopic.php?f=19&amp;t=4966</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 16, 2025 6:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[r1zdn]]></name></author>
+		<updated>2025-03-12T08:51:05</updated>
+
+		<published>2025-03-12T08:51:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36153#p36153</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36153#p36153"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36153#p36153"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Thank you so much for your work.<br>What I liked was the display of the latest correspondent, and finally dual watch was working properly. But there is 1 question: displaying the TS icon, it is now displayed as cS, why?</div></blockquote>Okay.<br>Errr, because you didn't read the user guide carefully  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#assignment-of-timeslot-to-digital-contact-talkgroup" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -talkgroup</a><br><br><strong class="text-strong">cS<em class="text-italics">x</em></strong> means that the current contact overrides the Channel's timeslot.</div></blockquote>Thanks, I read it and figured it out. In my opinion, it also makes sense <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6146">r1zdn</a> — Wed Mar 12, 2025 8:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-12T08:30:20</updated>
+
+		<published>2025-03-12T08:30:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36152#p36152</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36152#p36152"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36152#p36152"><![CDATA[
+<blockquote class="uncited"><div>Thank you so much for your work.<br>What I liked was the display of the latest correspondent, and finally dual watch was working properly. But there is 1 question: displaying the TS icon, it is now displayed as cS, why?</div></blockquote>Okay.<br>Errr, because you didn't read the user guide carefully  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#assignment-of-timeslot-to-digital-contact-talkgroup" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -talkgroup</a><br><br><strong class="text-strong">cS<em class="text-italics">x</em></strong> means that the current contact overrides the Channel's timeslot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Mar 12, 2025 8:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[r1zdn]]></name></author>
+		<updated>2025-03-12T08:25:42</updated>
+
+		<published>2025-03-12T08:25:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36151#p36151</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36151#p36151"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36151#p36151"><![CDATA[
+Thank you so much for your work.<br>What I liked was the display of the latest correspondent, and finally dual watch was working properly. But there is 1 question: displaying the TS icon, it is now displayed as cS, why?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6146">r1zdn</a> — Wed Mar 12, 2025 8:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU5DBA]]></name></author>
+		<updated>2025-03-07T04:23:18</updated>
+
+		<published>2025-03-07T04:23:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36096#p36096</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36096#p36096"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36096#p36096"><![CDATA[
+Very, very, very good man!!!!<br>Thanks a lot! <br>You are the best!<br>Congratulations once more.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7362">PU5DBA</a> — Fri Mar 07, 2025 4:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-07T04:07:02</updated>
+
+		<published>2025-03-07T04:07:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36095#p36095</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36095#p36095"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36095#p36095"><![CDATA[
+<blockquote class="uncited"><div>Thanks for reply so quickly.<br>Attached</div></blockquote>So, the codeplug was corrupted. Here is a fixed version.<br>Since it was corrupted, double check if nothing has changed.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2872&amp;sid=86dbfff1ced94d6f02d3ba9be01dd31a">PU5DBA_06_03_2025_FIXED_WITH_THEME.g77</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Mar 07, 2025 4:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU5DBA]]></name></author>
+		<updated>2025-03-07T03:34:16</updated>
+
+		<published>2025-03-07T03:34:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36093#p36093</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36093#p36093"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36093#p36093"><![CDATA[
+Thanks for reply so quickly.<br>Attached<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2871&amp;sid=86dbfff1ced94d6f02d3ba9be01dd31a">PU5DBA_06_03_2025.g77</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7362">PU5DBA</a> — Fri Mar 07, 2025 3:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-07T03:27:11</updated>
+
+		<published>2025-03-07T03:27:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36091#p36091</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36091#p36091"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36091#p36091"><![CDATA[
+<blockquote class="uncited"><div>Good evening and first of all congratulations on the excellent work.<br>However, I found an inconvenient bug.<br>When I press the button just below the PTT and turn the top button to go through the zones, when it reaches the last zone, if I move the button forward once more, it freezes. It doesn't even accept turning off the radio. I need to remove the battery so I can reset it.<br>I notice that in the radio's zones menu it has much blank zones and here in this position it also freezes, meaning I need to remove the battery to restart it.<br>Can you help me with this?</div></blockquote>Looks like a corrupted codeplug. Please post it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Mar 07, 2025 3:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU5DBA]]></name></author>
+		<updated>2025-03-07T02:54:19</updated>
+
+		<published>2025-03-07T02:54:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36089#p36089</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36089#p36089"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36089#p36089"><![CDATA[
+Good evening and first of all congratulations on the excellent work.<br>However, I found an inconvenient bug.<br>When I press the button just below the PTT and turn the top button to go through the zones, when it reaches the last zone, if I move the button forward once more, it freezes. It doesn't even accept turning off the radio. I need to remove the battery so I can reset it.<br>I notice that in the radio's zones menu it has much blank zones and here in this position it also freezes, meaning I need to remove the battery to restart it.<br>Can you help me with this?<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2870&amp;sid=86dbfff1ced94d6f02d3ba9be01dd31a" class="postimage" alt="here U can see a zone blank." onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7362">PU5DBA</a> — Fri Mar 07, 2025 2:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU8YCC]]></name></author>
+		<updated>2025-03-01T01:11:28</updated>
+
+		<published>2025-03-01T01:11:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36018#p36018</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36018#p36018"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=36018#p36018"><![CDATA[
+Boa Noite, tenho um baofeng DM 1701 e hoje estova usando e som parou de sair oras volta a funcionar e para novamente.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7323">PU8YCC</a> — Sat Mar 01, 2025 1:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-25T20:43:26</updated>
+
+		<published>2025-02-25T20:43:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35929#p35929</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35929#p35929"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35929#p35929"><![CDATA[
+<blockquote class="uncited"><div>It appears that the CPS R2025.02.03.01 won't allow me to install the beta firmware on a DM-1701. It appears to only accept .bin files for the MD-9600.</div></blockquote>That's the "donor file" that is needed for DMR support.<br>The OpenGD77 part is delivered in OpenDM1701.zip <br><br>You should select the donor file first in the firmware loader and CPS will remember the location.<br>After that you specify the open firmware and the loading will start.<br><br>Donor software:<br><a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br>(Use MD9600-CSV(2571V5)-V26.45.bin as donor for all radio types above)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Feb 25, 2025 8:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU8YCC]]></name></author>
+		<updated>2025-02-25T20:37:08</updated>
+
+		<published>2025-02-25T20:37:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35928#p35928</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35928#p35928"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35928#p35928"><![CDATA[
+<blockquote class="uncited"><div><ul><li> Add audio amp mute feature:    <ul>    <li> When the audio mute is enabled, the radio mode (FM/DMR) font is stroked.</li>    <li> Add "Mute: On/Off" in quick menus.</li>    <li> Use longpress '0' key for audio mute toggling.</li>    </ul></li><li> Some internal cleanups.</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/HTQT39G8G4#xR0c3xPLGvUQ" class="postlink">https://drive.proton.me/urls/HTQT39G8G4#xR0c3xPLGvUQ</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/D3JKT50X7M#Md1OQqCWViCJ" class="postlink">https://drive.proton.me/urls/D3JKT50X7M#Md1OQqCWViCJ</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/26. See the CPS section <a href="https://www.opengd77.com/viewforum.php?f=12" class="postlink">viewforum.php?f=12</a><br><br>For translators, the on-screen texts, voice prompts CSV are located at: <a href="https://drive.proton.me/urls/K6NBA7FRH0#owtc56LE34hj" class="postlink">https://drive.proton.me/urls/K6NBA7FRH0#owtc56LE34hj</a></div></blockquote>Boa tarde, tenho um Baofeng DM1701 e atualizei e esta tudo funcionado bem, parabéns pelo trabalho.<br>Forte 73.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7323">PU8YCC</a> — Tue Feb 25, 2025 8:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K6DRK]]></name></author>
+		<updated>2025-02-25T20:33:41</updated>
+
+		<published>2025-02-25T20:33:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35927#p35927</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35927#p35927"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35927#p35927"><![CDATA[
+It appears that the CPS R2025.02.03.01 won't allow me to install the beta firmware on a DM-1701. It appears to only accept .bin files for the MD-9600.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3562">K6DRK</a> — Tue Feb 25, 2025 8:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IK1HJT]]></name></author>
+		<updated>2025-02-25T09:53:34</updated>
+
+		<published>2025-02-25T09:53:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35918#p35918</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35918#p35918"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35918#p35918"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Good job, as usual.<br><br>A question about roaming, my favorite feature <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> :<br><br>It could be possible this scenario:<br><br>Switching on radio<br>GPS get fix<br>Radio compares actual position to nearest repeater position, as per repeater channel list, and switch to a proper repeater?<br>And in case of loosing position (e.g. moving to building or tunnel), when radio GPS hit again fix, switching to nearest repeater?<br>Thanks for patience <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>But it works like this, minus the fact that the firmware don't care about GPS fix losing, but a GPS fix is mandatory to perform continuous zone sorting.<br><br>You're defining a Roaming distance (5/10/20km), so if the last position where the channel list was sorted exceeds this distance, a new sort is performed, and the closest channel is selected.</div></blockquote>Ok, right. I mean that combining distance with gpx fix and, maybe, RSSI (a repeater can be the nearest but not the strongest, due to antenna orientation, etc...) could be fantastic, mainly for GPS poor performance in RT3S, for example.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=558">IK1HJT</a> — Tue Feb 25, 2025 9:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-25T04:54:27</updated>
+
+		<published>2025-02-25T04:54:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35914#p35914</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35914#p35914"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4902&amp;p=35914#p35914"><![CDATA[
+<blockquote class="uncited"><div>Good job, as usual.<br><br>A question about roaming, my favorite feature <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> :<br><br>It could be possible this scenario:<br><br>Switching on radio<br>GPS get fix<br>Radio compares actual position to nearest repeater position, as per repeater channel list, and switch to a proper repeater?<br>And in case of loosing position (e.g. moving to building or tunnel), when radio GPS hit again fix, switching to nearest repeater?<br>Thanks for patience <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>But it works like this, minus the fact that the firmware don't care about GPS fix losing, but a GPS fix is mandatory to perform continuous zone sorting.<br><br>You're defining a Roaming distance (5/10/20km), so if the last position where the channel list was sorted exceeds this distance, a new sort is performed, and the closest channel is selected.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Feb 25, 2025 4:54 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

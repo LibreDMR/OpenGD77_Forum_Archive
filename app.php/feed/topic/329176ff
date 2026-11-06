@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3291" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-20T22:23:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3291</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-20T22:23:49</updated>
+
+		<published>2023-09-20T22:23:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26424#p26424</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26424#p26424"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26424#p26424"><![CDATA[
+This version has been superseded and removed<br><br>See this new version<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3309" class="postlink">viewtopic.php?f=12&amp;t=3309</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 20, 2023 10:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2023-09-20T19:10:21</updated>
+
+		<published>2023-09-20T19:10:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26420#p26420</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26420#p26420"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26420#p26420"><![CDATA[
+<blockquote class="uncited"><div>New CPS<br><br>This version fixes problem with the Czech language file and also changes the default file type for firmware from .zip and .bin  to only .zip<br>.bin files can still be used, but the primary version is now only .zip<br><br><a href="https://www.opengd77.com/downloads/PC_CPS_20230910/Latest/OpenGD77CPSInstaller_R2023.09.17.01.zip" class="postlink">downloads/PC_CPS_20230910/Latest/OpenGD ... .17.01.zip</a><br><br>password is opengd77</div></blockquote>Password protected?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Wed Sep 20, 2023 7:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WY7JT]]></name></author>
+		<updated>2023-09-20T17:12:29</updated>
+
+		<published>2023-09-20T17:12:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26418#p26418</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26418#p26418"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26418#p26418"><![CDATA[
+I had some issues with the new CPS, which might have been due to VMWare which was running a Manjaro Linux desktop. It bricked my GD-77 with an error, and would error out when trying to update my database on the TYT MD-UV380. I closed down VMWare and rebooted. The firmware on the GD-77 loaded fine after I reselected the stock firmware and then a database update completed on the MD-UV380. I'll chock it down to Windows 10 weirdness, as things were working properly with assigning the USB port to the host verses guest. Consequently, I've never had issues using the CPS with a VMWare VM running at the same time.<br><br>I share in case someone has similar issues.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=673">WY7JT</a> — Wed Sep 20, 2023 5:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU4BLA]]></name></author>
+		<updated>2023-09-18T22:01:52</updated>
+
+		<published>2023-09-18T22:01:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26362#p26362</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26362#p26362"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26362#p26362"><![CDATA[
+Thanks<br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1856">PU4BLA</a> — Mon Sep 18, 2023 10:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[14FRS498]]></name></author>
+		<updated>2023-09-18T12:48:08</updated>
+
+		<published>2023-09-18T12:48:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26354#p26354</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26354#p26354"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26354#p26354"><![CDATA[
+Thanks<br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4455">14FRS498</a> — Mon Sep 18, 2023 12:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK1DTE]]></name></author>
+		<updated>2023-09-18T08:19:03</updated>
+
+		<published>2023-09-18T08:19:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26352#p26352</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26352#p26352"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26352#p26352"><![CDATA[
+Thank you, the CSV function works again in the Czech language <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1652">OK1DTE</a> — Mon Sep 18, 2023 8:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-17T07:09:41</updated>
+
+		<published>2023-09-17T07:09:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26326#p26326</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26326#p26326"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26326#p26326"><![CDATA[
+<blockquote class="uncited"><div>Hello,<br>I can confirm the Czech language fix is OK, thanks a lot.</div></blockquote>OK.<br><br>Thanks for testing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 17, 2023 7:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-17T07:03:28</updated>
+
+		<published>2023-09-17T07:03:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26325#p26325</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26325#p26325"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26325#p26325"><![CDATA[
+Hello,<br>I can confirm the Czech language fix is OK, thanks a lot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Sun Sep 17, 2023 7:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2023-09-17T04:21:42</updated>
+
+		<published>2023-09-17T04:21:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26319#p26319</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26319#p26319"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26319#p26319"><![CDATA[
+thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sun Sep 17, 2023 4:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-17T00:01:43</updated>
+
+		<published>2023-09-17T00:01:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26314#p26314</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26314#p26314"/>
+		<title type="html"><![CDATA[New CPS 2023 09 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3291&amp;p=26314#p26314"><![CDATA[
+New CPS<br><br>This version fixes problem with the Czech language file and also changes the default file type for firmware from .zip and .bin  to only .zip<br>.bin files can still be used, but the primary version is now only .zip<br><br><a href="https://www.opengd77.com/downloads/PC_CPS_20230910/Latest/OpenGD77CPSInstaller_R2023.09.17.01.zip" class="postlink">downloads/PC_CPS_20230910/Latest/OpenGD ... .17.01.zip</a><br><br>password is opengd77<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 17, 2023 12:01 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

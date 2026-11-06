@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/3" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-13T09:16:10</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/3</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-13T09:16:10</updated>
+
+		<published>2025-03-13T09:16:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4957&amp;p=36162#p36162</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4957&amp;p=36162#p36162"/>
+		<title type="html"><![CDATA[Announcements • Please post in English or include an English translations]]></title>
+
+					<category term="Announcements" scheme="http://localhost/opengd77/viewforum.php?f=3" label="Announcements"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4957&amp;p=36162#p36162"><![CDATA[
+Because an increasing number of posts which are not in English and don't include an English translation, the forum rules have been changed, and from now on, you must post an English translation if the post is not in English.<br><br>Failure to do this will eventually result in your post being deleted.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 13, 2025 9:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-14T22:13:07</updated>
+
+		<published>2023-12-14T22:13:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3586&amp;p=28084#p28084</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3586&amp;p=28084#p28084"/>
+		<title type="html"><![CDATA[Announcements • Forum registration is now only if you have a callsign]]></title>
+
+					<category term="Announcements" scheme="http://localhost/opengd77/viewforum.php?f=3" label="Announcements"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3586&amp;p=28084#p28084"><![CDATA[
+Because of the massive problem we had with thousands of bots registering on the site, we had to manually cull about 2000 bot accounts in September &amp;October 2023.<br><br>Following these deletions, all new account names must be people's registered callsign, which are verified against QRZ.com other reputable sources<br><br>Any registration which does not pass this test will be automatically deleted.<br><br>OpenGD77 is not the only forum which has needed to enforce registration rules,  PiStar forum also seems to require callsigns.<br><br>I know this prevents non-Hams from registering on the site, but the site is fully accessible to everyone, unlike many social media groups which are private.<br><br>And despite it being clearly stated in the registration page, that you must enter a valid callsign, we continue to average 5 invalid callsign registration attempts per day<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 14, 2023 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-04T21:54:48</updated>
+
+		<published>2023-03-04T21:54:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2712&amp;p=22316#p22316</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2712&amp;p=22316#p22316"/>
+		<title type="html"><![CDATA[Announcements • Baofeng DM-1701, DM-1802, RT-84 and TYT MD-2017 / RT-92]]></title>
+
+					<category term="Announcements" scheme="http://localhost/opengd77/viewforum.php?f=3" label="Announcements"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2712&amp;p=22316#p22316"><![CDATA[
+Thanks to the work of BD4VOW we are now developing a version of the firmware for the Baofeng DM-1701<br><br>It also looks likely that we will be able to develop a version which works on the TYT MD-2017 / Retevis RT-91<br><br>Currently the DM-1701 version still has some problems with the user interface keypad mapping, but we hope to improve this as soon as the DM-1701 which I ordered on 4th March arrives.<br><br>The latest firmware for the DM-1701 can be downloaded from here<br><br><a href="https://www.opengd77.com/downloads/DM1701/Firmware/Latest/" class="postlink">downloads/DM1701/Firmware/Latest/</a><br><br><br>The CPS is already being modified to support loading firmware onto these radios.<br><br>See the version of the CPS with the newest date in <a href="https://www.opengd77.com/downloads/CPS/Latest/" class="postlink">downloads/CPS/Latest/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 04, 2023 9:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-29T00:23:19</updated>
+
+		<published>2022-09-29T00:23:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2401&amp;p=19916#p19916</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2401&amp;p=19916#p19916"/>
+		<title type="html"><![CDATA[Announcements • Not compatible with new Baofeng DM-1801 or DM-1801A]]></title>
+
+					<category term="Announcements" scheme="http://localhost/opengd77/viewforum.php?f=3" label="Announcements"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2401&amp;p=19916#p19916"><![CDATA[
+We have know for a while that Baofeng have re-engineered the DM-1801 with completely new hardware, which is not compatible with the OpenGD77 firmware.<br><br>Today I've also been told that Baofeng also seems to have re-engineered the new version of the DM-1801A, hence this is no longer compatible with the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 29, 2022 12:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2020-01-13T06:14:52</updated>
+
+		<published>2020-01-13T06:14:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=117&amp;p=3833#p3833</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=117&amp;p=3833#p3833"/>
+		<title type="html"><![CDATA[Announcements • Re: Callsign as username]]></title>
+
+					<category term="Announcements" scheme="http://localhost/opengd77/viewforum.php?f=3" label="Announcements"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=117&amp;p=3833#p3833"><![CDATA[
+Note.<br><br>If you did not use your callsign as your username and can not login, please try using your callsign as your login, because I am changing user logins to be their callsign when possible<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 13, 2020 6:14 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

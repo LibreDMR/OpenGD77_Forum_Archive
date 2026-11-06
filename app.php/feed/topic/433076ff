@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4330" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-25T03:43:16</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4330</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-08-25T03:43:16</updated>
+
+		<published>2024-08-25T03:43:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32620#p32620</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32620#p32620"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32620#p32620"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>The DMR repeaters near me ID in analog CW. It makes my TYT-9600 make a little pop sound even though it's in DMR mode for that frequency.</div></blockquote>Had a listen to my local DMR repeater on analogue here in VK4 and interestingly, it doesn't ident on CW in analogue like the 2m and 70cm local analogue repeaters.</div></blockquote>Most DMR repeaters in VK don't transmit CW ID. This may be partially because a lot of the repeaters use commercial Motorola hardware, which is not designed for ham use and may not be able to transmit an FM CW ID.<br><br>Even the MMDVM based repeaters are not normally configured to transmit CW ID.<br><br>I have no idea whether this is strictly legal or not, but it's the way things are</div></blockquote>Not in Sweden either, most FM repeaters ID but not the DMR ones.<br>The Swedish PTS (PTT) regulations for amateur radio is extremely relaxed and we can do almost anything as long as we  are inside our allocated frequencies and  doesn't use more power than allowed.<br>The amateur radio usage should follow ITU and CEPT regulation, so we should use our callsigns in the beginning and end of the QSO and at regular intervals for longer contacts.<br><br>But nothing specific for repeaters, I guess that as almost all repeaters are documented, well known and at a fixed location it's possible to find out the owner anyway.<br><br>I use CW id on my hotspots but I doubt that others have enabled it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Aug 25, 2024 3:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-24T20:21:27</updated>
+
+		<published>2024-08-24T20:21:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32617#p32617</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32617#p32617"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32617#p32617"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>I dont' think DMR repeater around me identify itself, or maybe it did in F3E CW and I have never heard it did that because I'm in DMR mode.</div></blockquote>The DMR repeaters near me ID in analog CW. It makes my TYT-9600 make a little pop sound even though it's in DMR mode for that frequency.</div></blockquote>Had a listen to my local DMR repeater on analogue here in VK4 and interestingly, it doesn't ident on CW in analogue like the 2m and 70cm local analogue repeaters.</div></blockquote>Most DMR repeaters in VK don't transmit CW ID. This may be partially because a lot of the repeaters use commercial Motorola hardware, which is not designed for ham use and may not be able to transmit an FM CW ID.<br><br>Even the MMDVM based repeaters are not normally configured to transmit CW ID.<br><br>I have no idea whether this is strictly legal or not, but it's the way things are<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Aug 24, 2024 8:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2024-08-24T11:22:54</updated>
+
+		<published>2024-08-24T11:22:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32614#p32614</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32614#p32614"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32614#p32614"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I dont' think DMR repeater around me identify itself, or maybe it did in F3E CW and I have never heard it did that because I'm in DMR mode.</div></blockquote>The DMR repeaters near me ID in analog CW. It makes my TYT-9600 make a little pop sound even though it's in DMR mode for that frequency.</div></blockquote>Had a listen to my local DMR repeater on analogue here in VK4 and interestingly, it doesn't ident on CW in analogue like the 2m and 70cm local analogue repeaters.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Sat Aug 24, 2024 11:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-08-22T06:21:28</updated>
+
+		<published>2024-08-22T06:21:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32583#p32583</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32583#p32583"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32583#p32583"><![CDATA[
+<blockquote class="uncited"><div>I dont' think DMR repeater around me identify itself, or maybe it did in F3E CW and I have never heard it did that because I'm in DMR mode.</div></blockquote>The DMR repeaters near me ID in analog CW. It makes my TYT-9600 make a little pop sound even though it's in DMR mode for that frequency.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Thu Aug 22, 2024 6:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-08-21T18:48:38</updated>
+
+		<published>2024-08-21T18:48:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32580#p32580</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32580#p32580"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32580#p32580"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>You have to enable CW ID (part of the MMDVMHost configuration, so unrelated to the dashboard, e.g. raw Pi-Star can do that too). That will beacon your callsign.<br>There is no DMR feature like this, and CW beaconing is the thing that repeaters mostly use.</div></blockquote>Thank you</div></blockquote>I dont' think DMR repeater around me identify itself, or maybe it did in F3E CW and I have never heard it did that because I'm in DMR mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Aug 21, 2024 6:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7YCX]]></name></author>
+		<updated>2024-08-21T08:09:18</updated>
+
+		<published>2024-08-21T08:09:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32577#p32577</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32577#p32577"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32577#p32577"><![CDATA[
+<blockquote class="uncited"><div>You have to enable CW ID (part of the MMDVMHost configuration, so unrelated to the dashboard, e.g. raw Pi-Star can do that too). That will beacon your callsign.<br>There is no DMR feature like this, and CW beaconing is the thing that repeaters mostly use.</div></blockquote>Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6352">KD7YCX</a> — Wed Aug 21, 2024 8:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-08-20T05:31:25</updated>
+
+		<published>2024-08-20T05:31:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32576#p32576</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32576#p32576"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32576#p32576"><![CDATA[
+You have to enable CW ID (part of the MMDVMHost configuration, so unrelated to the dashboard, e.g. raw Pi-Star can do that too). That will beacon your callsign.<br>There is no DMR feature like this, and CW beaconing is the thing that repeaters mostly use.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Aug 20, 2024 5:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7YCX]]></name></author>
+		<updated>2024-08-19T20:40:34</updated>
+
+		<published>2024-08-19T20:40:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32572#p32572</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32572#p32572"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32572#p32572"><![CDATA[
+<blockquote class="uncited"><div>As far as I understand the question, its not specific to the OpenGD77 in hotspot mode.<br><br>DMR Hotspots in general do not transmit the ID of the owner of the hotspot, nor do full DMR repeaters, however I presume repeaters probably have different licencing arrangements from personal hotspots.<br><br>This is probably a question for a DMR specific forum in the USA where someone would know the legal aspects of running a hotspot in relation to FCC regulation.</div></blockquote>I'm still searching, was just hoping someone on this forum might know, openGD77 is the only platform that I'm aware of that makes this use case easy to implement.<br><br>Thanks,<br><br>KD7YCX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6352">KD7YCX</a> — Mon Aug 19, 2024 8:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7YCX]]></name></author>
+		<updated>2024-08-19T20:37:24</updated>
+
+		<published>2024-08-19T20:37:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32571#p32571</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32571#p32571"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32571#p32571"><![CDATA[
+<blockquote class="uncited"><div>What is your hotspot software? Can you enable identification on it?</div></blockquote>WPSD, It has the option for CW ID in FM but I can't seem to find any info on DMR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6352">KD7YCX</a> — Mon Aug 19, 2024 8:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-18T23:48:12</updated>
+
+		<published>2024-08-18T23:48:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32554#p32554</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32554#p32554"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32554#p32554"><![CDATA[
+As far as I understand the question, its not specific to the OpenGD77 in hotspot mode.<br><br>DMR Hotspots in general do not transmit the ID of the owner of the hotspot, nor do full DMR repeaters, however I presume repeaters probably have different licencing arrangements from personal hotspots.<br><br>This is probably a question for a DMR specific forum in the USA where someone would know the legal aspects of running a hotspot in relation to FCC regulation.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Aug 18, 2024 11:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-08-18T22:13:45</updated>
+
+		<published>2024-08-18T22:13:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32551#p32551</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32551#p32551"/>
+		<title type="html"><![CDATA[Re: FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32551#p32551"><![CDATA[
+What is your hotspot software? Can you enable identification on it?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Aug 18, 2024 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7YCX]]></name></author>
+		<updated>2024-08-17T23:39:57</updated>
+
+		<published>2024-08-17T23:39:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32538#p32538</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32538#p32538"/>
+		<title type="html"><![CDATA[FCC compliance]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4330&amp;p=32538#p32538"><![CDATA[
+I have a TYT 9600 setup in hotspot mode on a high gain antenna (11.9db). This works great, people from all over the Phoenix Az area can join in on Brandmeister or TGIF. My concern is FCC station ID compliance. Yaesu and D-Star as far as I know embed the station operators call sign in the digital header. With DMR its the DMR ID that's in the header and that's not a government issued ID. My thought was to set my call sign as the talker alias but I have not been able to verify if that would meet compliance or not. Any feedback would be much appreciated.<br><br>BTW thanks for the amazing work on this firmware, it took the TYT9600 and UV390 from radios I'd probably just give away to the best radios I've ever owned.<br><br>73's<br><br>KD7YCX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6352">KD7YCX</a> — Sat Aug 17, 2024 11:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

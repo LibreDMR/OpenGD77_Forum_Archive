@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5152" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-30T22:25:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5152</id>
+
+		<entry>
+		<author><name><![CDATA[VE4HTO]]></name></author>
+		<updated>2025-05-30T22:25:34</updated>
+
+		<published>2025-05-30T22:25:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37301#p37301</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37301#p37301"/>
+		<title type="html"><![CDATA[Re: GPS : Log]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37301#p37301"><![CDATA[
+I never used it myself, but it should be readable if you rename it as *.txt or convert to *.gpx depend on the software you import the file into.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3963">VE4HTO</a> — Fri May 30, 2025 10:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-30T21:48:04</updated>
+
+		<published>2025-05-30T21:48:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37300#p37300</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37300#p37300"/>
+		<title type="html"><![CDATA[Re: GPS : Log]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37300#p37300"><![CDATA[
+<blockquote class="uncited"><div>CPS -&gt; Extras -&gt; OpenGD77 Support -&gt; Save NMEA Log</div></blockquote>Thank you.<br>any idea how to open the .bin file? What kind of software I'm needing?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri May 30, 2025 9:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE4HTO]]></name></author>
+		<updated>2025-05-30T20:41:45</updated>
+
+		<published>2025-05-30T20:41:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37299#p37299</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37299#p37299"/>
+		<title type="html"><![CDATA[Re: GPS : Log]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37299#p37299"><![CDATA[
+CPS -&gt; Extras -&gt; OpenGD77 Support -&gt; Save NMEA Log<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3963">VE4HTO</a> — Fri May 30, 2025 8:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-30T19:54:22</updated>
+
+		<published>2025-05-30T19:54:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37297#p37297</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37297#p37297"/>
+		<title type="html"><![CDATA[GPS : Log]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5152&amp;p=37297#p37297"><![CDATA[
+Hi OpenGD77 friends. I have a question about GPS : Log. On my modified DM-1701 under General options -&gt; GPS. There are 4 Options; Off/On/NMEA/Log. The manual explains every options except “Log”. How this option works? Will it log the position in the flash memory? How to get the log out?<br><br>Thanks,<br>Charlie,<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3001&amp;sid=3e2b04df173c7e769a43fd3ab0b7e579" class="postimage" alt="IMG_2215.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3000&amp;sid=3e2b04df173c7e769a43fd3ab0b7e579" class="postimage" alt="IMG_2216.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri May 30, 2025 7:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

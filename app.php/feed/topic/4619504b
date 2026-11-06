@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4619" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-01T19:17:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4619</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-12-01T19:17:48</updated>
+
+		<published>2024-12-01T19:17:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34298#p34298</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34298#p34298"/>
+		<title type="html"><![CDATA[Re: Fehler,Timeout,Pi-Star,TS,]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34298#p34298"><![CDATA[
+There are several reasons why you may not be able to access a DMR repeater and are getting a timeout.  Some may seem obvious but people are often caught out with simple errors. <br><br>The repeater is not operating or is not a DMR repeater. Check with the repeater owner or other locals to make sure it is working. <br><br>The signal to or from the repeater is not strong enough.  Switch to FM and make sure that you can hear the repeaters characteristic buzzing sound. You may have to listen for some time if activity is low. <br><br>Your frequency settings are not correct.  Double check your transmit and receive frequencies. Make sure they are not reversed. <br><br>The Colour code is incorrect.  Make sure you channel is configured with the correct colour code for the repeater. You may be able to use the CC Scan in the quick menu to confirm this if the repeater is active.  Or contact the repeater owner to confirm the details. <br><br>Your DMR ID is incorrectly set. Some repeaters will only respond to valid DMR IDs.<br><br>Errors in the Talkgroup or Timeslot settings will not normally result in a timeout. You may not be heard by anyone else over the network but most repeaters will repeat whatever you send locally. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Dec 01, 2024 7:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DN9CYL]]></name></author>
+		<updated>2024-12-01T18:45:26</updated>
+
+		<published>2024-12-01T18:45:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34297#p34297</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34297#p34297"/>
+		<title type="html"><![CDATA[Re: Fehler,Timeout,Pi-Star,TS,]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34297#p34297"><![CDATA[
+I now have a Diamond 510n (roof mounted), I can't even get the repeater with DMR to work with it, it's only 25km from my QTH <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_cry.gif" width="15" height="17" alt=":cry:" title="Crying or Very Sad"> <br><br>I think there's something wrong with the settings <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><br><a href="https://v.bayern.de/YYNHG" class="postlink">https://v.bayern.de/YYNHG</a><br><br>73, DN9CYL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7172">DN9CYL</a> — Sun Dec 01, 2024 6:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DN9CYL]]></name></author>
+		<updated>2024-12-01T14:34:24</updated>
+
+		<published>2024-12-01T14:34:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34290#p34290</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34290#p34290"/>
+		<title type="html"><![CDATA[Re: Fehler,Timeout,Pi-Star,TS,]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34290#p34290"><![CDATA[
+<blockquote class="uncited"><div>When the radio is in repeater mode (tx and rx are not the same frequency) it will try to activate the repeater, if the radio can not activate the repeater ( because the repeater can not hear it, mostly) it will time out and about the tx. <br><br>The timeslot in the photo is the time slot for the talkgroup you’re programming. In this case, I believe, it is talkgroup 8 on the hotspot? If you are using simplex hotspot, set it to 2.</div></blockquote>I can do whatever I want, I have a Yagi pointed right at the repeater... but DMR doesn't work.<br>The LED on the RT82 flashes very quickly and after a few seconds I get a timeout.<br>I can get an FM repeater that is in the same direction to open with 1750Hz sound without any problems <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"> <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br> <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mad.gif" width="15" height="17" alt=":x" title="Mad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7172">DN9CYL</a> — Sun Dec 01, 2024 2:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-01T01:17:45</updated>
+
+		<published>2024-12-01T01:17:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34283#p34283</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34283#p34283"/>
+		<title type="html"><![CDATA[Re: Fehler,Timeout,Pi-Star,TS,]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34283#p34283"><![CDATA[
+When the radio is in repeater mode (tx and rx are not the same frequency) it will try to activate the repeater, if the radio can not activate the repeater ( because the repeater can not hear it, mostly) it will time out and about the tx. <br><br>The timeslot in the photo is the time slot for the talkgroup you’re programming. In this case, I believe, it is talkgroup 8 on the hotspot? If you are using simplex hotspot, set it to 2.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Dec 01, 2024 1:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DN9CYL]]></name></author>
+		<updated>2024-11-30T22:12:04</updated>
+
+		<published>2024-11-30T22:12:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34279#p34279</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34279#p34279"/>
+		<title type="html"><![CDATA[Fehler,Timeout,Pi-Star,TS,]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4619&amp;p=34279#p34279"><![CDATA[
+Hello,<br>so when I connect to my hotspot, there is no problem and everything works.<br><br>If I want to use a local repeater to do DMR, I always get a timeout, TX and RX frequencies including CC and TS are all entered in the contact. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"><br><br>And what does the selection of the picture mean for digital contacts.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_surprised.gif" width="15" height="17" alt=":o" title="Surprised"> <br><br>73, DN9CYL<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2746&amp;sid=7432ef877f310ce3e0b72c81c0984ba2" class="postimage" alt="D Kontakt TS.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7172">DN9CYL</a> — Sat Nov 30, 2024 10:12 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

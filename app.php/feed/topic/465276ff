@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4652" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-17T09:15:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4652</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-17T09:15:19</updated>
+
+		<published>2024-12-17T09:15:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34734#p34734</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34734#p34734"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 12 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34734#p34734"><![CDATA[
+This version has now been superseded.<br><br>See <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4684" class="postlink">viewtopic.php?f=12&amp;t=4684</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 17, 2024 9:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-17T09:14:58</updated>
+
+		<published>2024-12-17T09:14:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34733#p34733</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34733#p34733"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 12 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34733#p34733"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>When new features are added to the firmware, the text in the firmware and CPS is only in English.<br><br>We rely on volunteers to translate to other languages and often new features do not get translated</div></blockquote>This is not a new function. It was already available in older CPS. <br>It is translated in the translation file. Therefore the field should be translated.<br><br>Regards René</div></blockquote><br>See <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4684" class="postlink">viewtopic.php?f=12&amp;t=4684</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 17, 2024 9:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-17T08:31:48</updated>
+
+		<published>2024-12-17T08:31:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34731#p34731</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34731#p34731"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 12 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34731#p34731"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>When new features are added to the firmware, the text in the firmware and CPS is only in English.<br><br>We rely on volunteers to translate to other languages and often new features do not get translated</div></blockquote>This is not a new function. It was already available in older CPS. <br>It is translated in the translation file. Therefore the field should be translated.<br><br>Regards René</div></blockquote>OK.<br><br>That means that there is a linkage problem in the translation file, i.e the UI control name does not match the name in the translation file or the translation item is not in the correct place in the heirarchy, because the translations are applied automatically if the linkage is correct<br><br><br>Edit.<br><br>It looks like this is a 'case' sensitivity problem<br><br>dmo  vs DMO<br><br>I'll need to update either the UI or the xml files so that the name is an exact match including the upper case 'DMO'<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 17, 2024 8:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB9WCN]]></name></author>
+		<updated>2024-12-17T07:28:51</updated>
+
+		<published>2024-12-17T07:28:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34730#p34730</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34730#p34730"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 12 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34730#p34730"><![CDATA[
+<blockquote class="uncited"><div>When new features are added to the firmware, the text in the firmware and CPS is only in English.<br><br>We rely on volunteers to translate to other languages and often new features do not get translated</div></blockquote>This is not a new function. It was already available in older CPS. <br>It is translated in the translation file. Therefore the field should be translated.<br><br>Regards René<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3859">HB9WCN</a> — Tue Dec 17, 2024 7:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-16T19:23:13</updated>
+
+		<published>2024-12-16T19:23:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34722#p34722</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34722#p34722"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 12 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34722#p34722"><![CDATA[
+When new features are added to the firmware, the text in the firmware and CPS is only in English.<br><br>We rely on volunteers to translate to other languages and often new features do not get translated<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 16, 2024 7:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB9WCN]]></name></author>
+		<updated>2024-12-16T17:43:05</updated>
+
+		<published>2024-12-16T17:43:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34720#p34720</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34720#p34720"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 12 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34720#p34720"><![CDATA[
+Hello<br><br>Is it possible that the "Force DMO" field is no longer translated in the new CPS?<br><br>Regards René<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2786&amp;sid=f91cb93147c29c40684ec593b3d8481a" class="postimage" alt="OpenGD77 CPS (Version_ R2024.12.10.01) S__Funk_CodePlug_OpenGD77_Open GD77.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3859">HB9WCN</a> — Mon Dec 16, 2024 5:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-10T06:28:17</updated>
+
+		<published>2024-12-10T06:28:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34532#p34532</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34532#p34532"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2024 12 10]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4652&amp;p=34532#p34532"><![CDATA[
+A new version of the CPS is now available<br><br>This version adds support for the new AMSAT satellite AO-123<br><br>See<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/" class="postlink">downloads/PC_CPS/Latest/</a><br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/OpenGD77CPSInstaller_R2024.12.10.01.exe" class="postlink">downloads/PC_CPS/Latest/OpenGD77CPSInst ... .10.01.exe</a><br><br><br>Thanks to David N9KT   for the information about how to incorporate support for this into the CPS<br><br>See also his post  <a href="https://www.opengd77.com/viewtopic.php?f=7&amp;t=4651" class="postlink">viewtopic.php?f=7&amp;t=4651</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 10, 2024 6:28 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

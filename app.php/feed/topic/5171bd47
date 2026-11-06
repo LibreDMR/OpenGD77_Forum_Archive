@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5171" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-11T08:49:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5171</id>
+
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-06-11T08:49:35</updated>
+
+		<published>2025-06-11T08:49:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37465#p37465</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37465#p37465"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37465#p37465"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>The V5 radio uses two GT3136 IF chips.  These are conventional IF chips with normal filters. We don't have the schematic for these radios but the filters are switchable between narrow and wide. <br><br>Colin G4EML</div></blockquote>Thank you Colin, I am currently experiencing a problem, reading the audio buffer data of the MD-9600, I found that the received FSK audio data is sometimes overloaded, causing the decoding to fail, I want to see if there is a way to attenuate the input, I don't know if my description is accurate.</div></blockquote>The MCU has no control of the IF chips except to select the bandwidth of 12.5kHz or 25kHz, which is via a GPIO logic signal  Hight/Low.  There are no other adjustments.<br><br>Possibly the C6000 has some settings which control the input gain from the IF chip. but as you know the data sheet for the C6000 is not complete and there may not be a setting in the C6000 for this.</div></blockquote>I modified FMBpfOn for FM --<br>bandpass filter on, FSK decoding is working normally<br>//SPI0WritePageRegByte(0x04, 0x34, 0x3C);//Compressor off, Pre-Emph on 3KHz Audio Filter<br>SPI0WritePageRegByte(0x04, 0x34, 0xBC);//Compressor off, Pre-Emph on 3KHz Audio Filter on 2025-06-10<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Wed Jun 11, 2025 8:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-06-10T06:50:29</updated>
+
+		<published>2025-06-10T06:50:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37459#p37459</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37459#p37459"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37459#p37459"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>The V5 radio uses two GT3136 IF chips.  These are conventional IF chips with normal filters. We don't have the schematic for these radios but the filters are switchable between narrow and wide. <br><br>Colin G4EML</div></blockquote>Thank you Colin, I am currently experiencing a problem, reading the audio buffer data of the MD-9600, I found that the received FSK audio data is sometimes overloaded, causing the decoding to fail, I want to see if there is a way to attenuate the input, I don't know if my description is accurate.</div></blockquote>The MCU has no control of the IF chips except to select the bandwidth of 12.5kHz or 25kHz, which is via a GPIO logic signal  Hight/Low.  There are no other adjustments.<br><br>Possibly the C6000 has some settings which control the input gain from the IF chip. but as you know the data sheet for the C6000 is not complete and there may not be a setting in the C6000 for this.</div></blockquote>Understood, I'll try again, thanks again!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Tue Jun 10, 2025 6:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-10T05:13:31</updated>
+
+		<published>2025-06-10T05:13:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37458#p37458</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37458#p37458"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37458#p37458"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>The V5 radio uses two GT3136 IF chips.  These are conventional IF chips with normal filters. We don't have the schematic for these radios but the filters are switchable between narrow and wide. <br><br>Colin G4EML</div></blockquote>Thank you Colin, I am currently experiencing a problem, reading the audio buffer data of the MD-9600, I found that the received FSK audio data is sometimes overloaded, causing the decoding to fail, I want to see if there is a way to attenuate the input, I don't know if my description is accurate.</div></blockquote>The MCU has no control of the IF chips except to select the bandwidth of 12.5kHz or 25kHz, which is via a GPIO logic signal  Hight/Low.  There are no other adjustments.<br><br>Possibly the C6000 has some settings which control the input gain from the IF chip. but as you know the data sheet for the C6000 is not complete and there may not be a setting in the C6000 for this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jun 10, 2025 5:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-06-10T00:42:12</updated>
+
+		<published>2025-06-10T00:42:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37456#p37456</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37456#p37456"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37456#p37456"><![CDATA[
+<blockquote class="uncited"><div>The V5 radio uses two GT3136 IF chips.  These are conventional IF chips with normal filters. We don't have the schematic for these radios but the filters are switchable between narrow and wide. <br><br>Colin G4EML</div></blockquote>Thank you Colin, I am currently experiencing a problem, reading the audio buffer data of the MD-9600, I found that the received FSK audio data is sometimes overloaded, causing the decoding to fail, I want to see if there is a way to attenuate the input, I don't know if my description is accurate.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Tue Jun 10, 2025 12:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-09T10:02:20</updated>
+
+		<published>2025-06-09T10:02:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37444#p37444</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37444#p37444"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37444#p37444"><![CDATA[
+The V5 radio uses two GT3136 IF chips.  These are conventional IF chips with normal filters. We don't have the schematic for these radios but the filters are switchable between narrow and wide. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Jun 09, 2025 10:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-06-09T07:49:31</updated>
+
+		<published>2025-06-09T07:49:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37441#p37441</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37441#p37441"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37441#p37441"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>info about AK2365A: <a href="https://www.alldatasheet.com/datasheet-pdf/view/780938/AKM/AK2365A.html" class="postlink">https://www.alldatasheet.com/datasheet- ... 2365A.html</a></div></blockquote>//this function initialises the AK2365A IF Chip in V1-V4 Radios for the specified band and bandwidth and needs to be called whenever the receiver is turned on.<br>1?  Does the V5 also use AK2365A IF chip?<br>2 )  Another question: Does the MD-9600 use the C6000 to demodulate the FM, not through the IF chip?<br>Thanks!</div></blockquote>1. The V5 (aka V4A) radios do not use the same IF chip as previous versions.<br>I can't remember the part number of the IF chip, but it is NOT configurable via an SPI interface. <br>It simply has a control signal to allow bandwidth to be selected (Wide / Narrow)<br><br>Look at the souce code in the file radioHardwareInterface.c<br><br>2. Yes</div></blockquote>OK?Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Mon Jun 09, 2025 7:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-09T06:44:23</updated>
+
+		<published>2025-06-09T06:44:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37440#p37440</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37440#p37440"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37440#p37440"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>info about AK2365A: <a href="https://www.alldatasheet.com/datasheet-pdf/view/780938/AKM/AK2365A.html" class="postlink">https://www.alldatasheet.com/datasheet- ... 2365A.html</a></div></blockquote>//this function initialises the AK2365A IF Chip in V1-V4 Radios for the specified band and bandwidth and needs to be called whenever the receiver is turned on.<br>1?  Does the V5 also use AK2365A IF chip?<br>2 )  Another question: Does the MD-9600 use the C6000 to demodulate the FM, not through the IF chip?<br>Thanks!</div></blockquote>1. The V5 (aka V4A) radios do not use the same IF chip as previous versions.<br>I can't remember the part number of the IF chip, but it is NOT configurable via an SPI interface. <br>It simply has a control signal to allow bandwidth to be selected (Wide / Narrow)<br><br>Look at the souce code in the file radioHardwareInterface.c<br><br>2. Yes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 09, 2025 6:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-06-09T04:47:02</updated>
+
+		<published>2025-06-09T04:47:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37439#p37439</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37439#p37439"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37439#p37439"><![CDATA[
+<blockquote class="uncited"><div>info about AK2365A: <a href="https://www.alldatasheet.com/datasheet-pdf/view/780938/AKM/AK2365A.html" class="postlink">https://www.alldatasheet.com/datasheet- ... 2365A.html</a></div></blockquote>//this function initialises the AK2365A IF Chip in V1-V4 Radios for the specified band and bandwidth and needs to be called whenever the receiver is turned on.<br>1?  Does the V5 also use AK2365A IF chip?<br>2 )  Another question: Does the MD-9600 use the C6000 to demodulate the FM, not through the IF chip?<br>Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Mon Jun 09, 2025 4:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-09T04:16:23</updated>
+
+		<published>2025-06-09T04:16:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37438#p37438</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37438#p37438"/>
+		<title type="html"><![CDATA[Re: What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37438#p37438"><![CDATA[
+info about AK2365A: <a href="https://www.alldatasheet.com/datasheet-pdf/view/780938/AKM/AK2365A.html" class="postlink">https://www.alldatasheet.com/datasheet- ... 2365A.html</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Jun 09, 2025 4:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-06-09T01:44:58</updated>
+
+		<published>2025-06-09T01:44:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37435#p37435</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37435#p37435"/>
+		<title type="html"><![CDATA[What is the IF chip of MD-9600 V5?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5171&amp;p=37435#p37435"><![CDATA[
+MD-9600 V4 IF chip is AK2365A, and what is the IF chip of MD-9600 V5? Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Mon Jun 09, 2025 1:44 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

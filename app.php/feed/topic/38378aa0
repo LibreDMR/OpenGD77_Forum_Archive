@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3837" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-14T21:55:12</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3837</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-14T21:55:12</updated>
+
+		<published>2025-05-14T21:55:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37114#p37114</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37114#p37114"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37114#p37114"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>But why does the OpenMDUV380_10W_PLUS firmware file not work properly on my TYT 390 10W with GPS PLUS (because of the black screen) and I have to use the regular OpenMDUV380 file with 10W mode - why does the one dedicated to the 10W version not work?</div></blockquote>from what year is your radio?<br><br>because I've tested OpenMDUV380_10W_PLUS firmware file with a TYT 390 10W with GPS PLUS from 2024/07 and it works fine, no black screen.<br><br>NOTE: radio manufacturer date is in the first 4 digits of the serial number.</div></blockquote>The radio was purchased 12 days ago and was delivered to me today.<br><br>These first digits are 2406B...</div></blockquote>TYT don't publish information about which serial numbers match which hardware.<br><br>Does you radio produce 10w on 2m,, if you select the +W- (User power) setting<br><br>i.e the normal "5W" radios produce approximately 8W in this configuration.  If you radio produces 10W, then it's definitely the newer PCB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed May 14, 2025 9:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-05-14T21:18:33</updated>
+
+		<published>2025-05-14T21:18:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37112#p37112</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37112#p37112"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37112#p37112"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>But why does the OpenMDUV380_10W_PLUS firmware file not work properly on my TYT 390 10W with GPS PLUS (because of the black screen) and I have to use the regular OpenMDUV380 file with 10W mode - why does the one dedicated to the 10W version not work?</div></blockquote>from what year is your radio?<br><br>because I've tested OpenMDUV380_10W_PLUS firmware file with a TYT 390 10W with GPS PLUS from 2024/07 and it works fine, no black screen.<br><br>NOTE: radio manufacturer date is in the first 4 digits of the serial number.</div></blockquote>The radio was purchased 12 days ago and was delivered to me today.<br><br>These first digits are 2406B...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Wed May 14, 2025 9:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-05-14T21:13:48</updated>
+
+		<published>2025-05-14T21:13:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37110#p37110</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37110#p37110"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37110#p37110"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>But why does the OpenMDUV380_10W_PLUS firmware file not work properly on my TYT 390 10W with GPS PLUS (because of the black screen) and I have to use the regular OpenMDUV380 file with 10W mode - why does the one dedicated to the 10W version not work?</div></blockquote>Is your radio internal definitely the 10W version, i.e the newer PCB with different layout and larger PA FETs etc?</div></blockquote>Yes, 10W is written on the box and on the label under the battery<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Wed May 14, 2025 9:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-14T21:11:36</updated>
+
+		<published>2025-05-14T21:11:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37109#p37109</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37109#p37109"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37109#p37109"><![CDATA[
+<blockquote class="uncited"><div>But why does the OpenMDUV380_10W_PLUS firmware file not work properly on my TYT 390 10W with GPS PLUS (because of the black screen) and I have to use the regular OpenMDUV380 file with 10W mode - why does the one dedicated to the 10W version not work?</div></blockquote>from what year is your radio?<br><br>because I've tested OpenMDUV380_10W_PLUS firmware file with a TYT 390 10W with GPS PLUS from 2024/07 and it works fine, no black screen.<br><br>NOTE: radio manufacturer date is in the first 4 digits of the serial number.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed May 14, 2025 9:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-14T20:51:53</updated>
+
+		<published>2025-05-14T20:51:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37108#p37108</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37108#p37108"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37108#p37108"><![CDATA[
+<blockquote class="uncited"><div>But why does the OpenMDUV380_10W_PLUS firmware file not work properly on my TYT 390 10W with GPS PLUS (because of the black screen) and I have to use the regular OpenMDUV380 file with 10W mode - why does the one dedicated to the 10W version not work?</div></blockquote>Is your radio internal definitely the 10W version, i.e the newer PCB with different layout and larger PA FETs etc?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed May 14, 2025 8:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-05-14T20:47:05</updated>
+
+		<published>2025-05-14T20:47:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37107#p37107</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37107#p37107"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=37107#p37107"><![CDATA[
+But why does the OpenMDUV380_10W_PLUS firmware file not work properly on my TYT 390 10W with GPS PLUS (because of the black screen) and I have to use the regular OpenMDUV380 file with 10W mode - why does the one dedicated to the 10W version not work?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Wed May 14, 2025 8:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VA2PPZ]]></name></author>
+		<updated>2025-02-28T16:25:58</updated>
+
+		<published>2025-02-28T16:25:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36013#p36013</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36013#p36013"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36013#p36013"><![CDATA[
+Yup as discussed, the answer was in the manual.<br>Configuration value change is done by turning the top left knob.<br><br>Its easier, when you read the manual...thanks to all.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2866&amp;sid=c45c203ba3592e24a48ff03d6254e7b3" class="postimage" alt="390 buttons.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7857">VA2PPZ</a> — Fri Feb 28, 2025 4:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VA2PPZ]]></name></author>
+		<updated>2025-02-28T16:20:19</updated>
+
+		<published>2025-02-28T16:20:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36012#p36012</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36012#p36012"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36012#p36012"><![CDATA[
+Taught mechanics my whole life. RTFM, comes quite naturally from my lips. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> <br>Was looking for it as you wrote your response.<br>Thanks for posting the link, that is the OBVIOUS next proper step.<br><br>Cheers &amp; 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7857">VA2PPZ</a> — Fri Feb 28, 2025 4:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-28T16:14:20</updated>
+
+		<published>2025-02-28T16:14:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36011#p36011</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36011#p36011"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36011#p36011"><![CDATA[
+Hmmmm, I think you need to read the user manual  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... r_Guide.md</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 28, 2025 4:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-28T16:10:04</updated>
+
+		<published>2025-02-28T16:10:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36010#p36010</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36010#p36010"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36010#p36010"><![CDATA[
+<blockquote class="uncited"><div>When entering the configuration value as you request.<br>I'm seeing " 5w" as the present value.<br>When I press the green (enter) button to change the value, the screen reverts back out of the configuration mode ( back to the main screen).<br>Am I doing something wrong?...wrong button for value change?<br><br>Thanks,</div></blockquote>Use the selector knob on the top (next to volume) to change values in option settings.<br>Sometimes you need to save with SK2+Green but not for these options<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Feb 28, 2025 4:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VA2PPZ]]></name></author>
+		<updated>2025-02-28T16:03:06</updated>
+
+		<published>2025-02-28T16:03:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36009#p36009</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36009#p36009"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36009#p36009"><![CDATA[
+When entering the configuration value as you request.<br>I'm seeing " 5w" as the present value.<br>When I press the green (enter) button to change the value, the screen reverts back out of the configuration mode ( back to the main screen).<br>Am I doing something wrong?...wrong button for value change?<br><br>Thanks,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7857">VA2PPZ</a> — Fri Feb 28, 2025 4:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-28T15:02:22</updated>
+
+		<published>2025-02-28T15:02:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36008#p36008</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36008#p36008"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36008#p36008"><![CDATA[
+<blockquote class="uncited"><div>Success!!... here is what I did.<br>Downloaded and install the latest (OpenGD77CPSInstaller_R2025.02.03.01)<br>Using OpenGD77 CPS version R2025.02.03.01 <br><br>Downloaded and used the 210525 MD-9600 V4 firmware for PLL2571 (as the doner firmware).<br><br>Downloaded and used the OpenMDUV380.zip firmware (not the 10 Watt or GPS edition).<br>Did the firmware installation and screen now boots to VFO mode.<br><br>VA2PPZ is now very happy <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>Do we have a reference to how to set this radio back to calibrated values.<br>Or should I shay, back to 10Watts TX?<br><br>(ps), thank you for the immediate response &amp; suggestion.....it now works and others can take profit of this tribal knowledge.</div></blockquote>Go to Options -&gt; Radio Options and change Mode to 10W<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Feb 28, 2025 3:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VA2PPZ]]></name></author>
+		<updated>2025-02-28T14:44:42</updated>
+
+		<published>2025-02-28T14:44:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36007#p36007</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36007#p36007"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36007#p36007"><![CDATA[
+Success!!... here is what I did.<br>Downloaded and install the latest (OpenGD77CPSInstaller_R2025.02.03.01)<br>Using OpenGD77 CPS version R2025.02.03.01 <br><br>Downloaded and used the 210525 MD-9600 V4 firmware for PLL2571 (as the doner firmware).<br><br>Downloaded and used the OpenMDUV380.zip firmware (not the 10 Watt or GPS edition).<br>Did the firmware installation and screen now boots to VFO mode.<br><br>VA2PPZ is now very happy <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>Do we have a reference to how to set this radio back to calibrated values.<br>Or should I shay, back to 10Watts TX?<br><br>(ps), thank you for the immediate response &amp; suggestion.....it now works and others can take profit of this tribal knowledge.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7857">VA2PPZ</a> — Fri Feb 28, 2025 2:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-28T14:25:59</updated>
+
+		<published>2025-02-28T14:25:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36006#p36006</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36006#p36006"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36006#p36006"><![CDATA[
+Install the MD-UV380 firmware (non 10W) and tell us if the screen works.<br>If it's the case, you can change the power scale to 10W, see Display options =&gt; Mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 28, 2025 2:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VA2PPZ]]></name></author>
+		<updated>2025-02-28T14:27:13 </updated>
+
+		<published>2025-02-28T14:11:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36005#p36005</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36005#p36005"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 Plus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3837&amp;p=36005#p36005"><![CDATA[
+On January 30 2025, EB2BEP posted success with installing Opengd77 on a 390+ 10W (does not mention gps or not).<br>He also mentions having to use the Japanese edition of the firmware.<br><br>I want to report, that after having properly followed the instruction as per the original post on installation.<br>Neither firmware editions work on my 390+ (10w w/gps).<br>The radios behaviour after the installation with CPS ver. 2025-02 is the black screen.<br>Using the Opengd77 CPS, the radio info can be read..so there is communication.<br>I have also noticed writing (very very faint in the background of the black screen).<br><br>The exact credentials of my radio are as follows:<br>(Battery removed)<br>Model: MD-UV390 with orange plus sticker glued to the top right of the battery compartment.<br>serial number is : 2406BO01944<br><br>If anyone reading this has found a solution to this phenomena, do please share.<br>I will not be reverting back to OEM firmware for the next couple of days or weeks in hopes someone responds to this post.<br>73<br>Perry<br><br>edit: I've also backed up a copy of the registry BIN file to share, but cannot upload or attach it to this post.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7857">VA2PPZ</a> — Fri Feb 28, 2025 2:11 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4158" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-06T11:39:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4158</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-09-06T11:39:27</updated>
+
+		<published>2024-09-06T11:39:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32774#p32774</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32774#p32774"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32774#p32774"><![CDATA[
+<blockquote class="uncited"><div>Im not sure but the old MD9600 I have does seem to be too narrow on receive for FM stations on 2m running narrow deviation on transmit.. I get distortion and audio cut out when trying to receive these stations . Is there any way of making the receive on 2m FM slightly wider than it is please ? ...apart from setting my rig to 25Khz on receive. I have never used a deviation meter , this is going by ear and the other stations reports.</div></blockquote>I tested my MD-9600 V2 on TX deviation with a Marconi TF2304 and it seems that my MD-9600 is a bit narrower on both 2.5 and 5 kHz deviation, I also compared to a RT3S and a Yaesu FT-817DN and those was more or less 2.5 and 5 kHz on NFM and FM.<br><br>But my meter isn't calibrated for many years but I have verified it against my Marconi 2022D signalgenerator which I've verified via Bessel null so I don't think the deviation meter is so bad.<br><br>I also noticed that the MD-9600 seems a bit to narrow on RX but I don't know how to verify that via some measurement yet.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Sep 06, 2024 11:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LU2BAM]]></name></author>
+		<updated>2024-09-06T11:17:00</updated>
+
+		<published>2024-09-06T11:17:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32773#p32773</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32773#p32773"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32773#p32773"><![CDATA[
+Buen día, lo solicitado por usted es imposible ya que el déficit del ancho de banda está en la estación emisora (algunas personas hacen desviar más de 25 Kcs la emisión FM de sus equipos para mejorar el audio) y el discriminador de su equipo hace el recorte del exceso de esos picos de audio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2984">LU2BAM</a> — Fri Sep 06, 2024 11:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g0faj]]></name></author>
+		<updated>2024-09-06T09:43:50</updated>
+
+		<published>2024-09-06T09:43:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32772#p32772</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32772#p32772"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32772#p32772"><![CDATA[
+Im not sure but the old MD9600 I have does seem to be too narrow on receive for FM stations on 2m running narrow deviation on transmit.. I get distortion and audio cut out when trying to receive these stations . Is there any way of making the receive on 2m FM slightly wider than it is please ? ...apart from setting my rig to 25Khz on receive. I have never used a deviation meter , this is going by ear and the other stations reports.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1887">g0faj</a> — Fri Sep 06, 2024 9:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-08-18T21:15:47</updated>
+
+		<published>2024-08-18T21:15:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32548#p32548</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32548#p32548"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32548#p32548"><![CDATA[
+That resistor is the factory mod to improve the volume control. It is an old trick to change the slope of a potentiometer from linear to something closer to log law. <br><br>I originally suggested the mod with a 1K resistor but the factory decided to change that to 2K2. I still think 1K works better. <br><br>If you think it is bad now you should have tried it before they started fitting the mod! <br><br>I am still surprised that they have never changed to the proper log law pot. I can only assume it is a component supply or cost saving issue. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Aug 18, 2024 9:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WM7C]]></name></author>
+		<updated>2024-08-18T18:25:02</updated>
+
+		<published>2024-08-18T18:25:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32544#p32544</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32544#p32544"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32544#p32544"><![CDATA[
+I'm not sure who did this, but I have decided to leave it alone.  Such a great setup except for the volume of 0-10 in the width of a hair.<br><br>The image below shows a 2.2k ohm SMD resistor.<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2548&amp;sid=42c08e720ca96a696a107c8c977727df" class="postimage" alt="222.png" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3403">WM7C</a> — Sun Aug 18, 2024 6:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-07-21T18:42:24</updated>
+
+		<published>2024-07-21T18:42:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32251#p32251</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32251#p32251"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32251#p32251"><![CDATA[
+As far as we know all versions and variants of the MD9600 are the same. The volume control is a linear law pot not a log law pot as it should be.  <br><br>The only real fix is to replace the pot with the correct type. The manufacturers don't seem to be willing to do this. Possibly aa a cost saving exercise. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jul 21, 2024 6:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-07-21T18:37:10</updated>
+
+		<published>2024-07-21T18:37:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32250#p32250</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32250#p32250"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32250#p32250"><![CDATA[
+<blockquote class="uncited"><div>I am about to give up on the MD-9600 because of the volume going from 0 to 11 with a touch of moving the knob.  I want this to work for sarellites, but with no squelch and a knob that is hard to adjust, this is nerve racking.  I may just scrap the whole thing and go with a 9700.<br><br>Is the RT90 the same?  <br><br>Are newer MD-9600's better or the same?</div></blockquote>TYT used a linear potentiometer instead of a logarithmic. <br><a href="https://www.pc5e.nl/downloads/rt82/manuals/Mods%20for%20Tyt%20MD-9600%20By%20Colin%20Durbridge.pdf" class="postlink">https://www.pc5e.nl/downloads/rt82/manu ... bridge.pdf</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jul 21, 2024 6:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WM7C]]></name></author>
+		<updated>2024-07-21T19:01:11 </updated>
+
+		<published>2024-07-21T18:33:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32249#p32249</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32249#p32249"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=32249#p32249"><![CDATA[
+I am about to give up on the MD-9600 because of the volume going from 0 to 11 with a touch of moving the knob.  I want this to work for satellites, but with no squelch and a knob that is hard to adjust, this is nerve racking.  I may just scrap the whole thing and go with a 9700.<br><br>Is the RT90 the same?  <br><br>Are newer MD-9600's better or the same?<br><br><br><strong class="text-strong">&lt;edit&gt;  Got it!  I will try soldering in a 1K resistor as mentioned here.</strong> <a href="https://www.pc5e.nl/downloads/rt82/manuals/Mods%20for%20Tyt%20MD-9600%20By%20Colin%20Durbridge.pdf" class="postlink">https://www.pc5e.nl/downloads/rt82/manu ... bridge.pdf</a><br><br>I assume this would work....<a href="https://www.amazon.com/California-JOS-Carbon-Resistor-Tolerance/dp/B0BR6J2MCD/ref=sr_1_13?crid=1Z6PBCNOHYC96&amp;dib=eyJ2IjoiMSJ9.ESLr9fE6GhowZZnGStzHMs6vbVndVUi4AWLEJwn7nT5yjtRkbvmAFfmW-9cqTAX1GrLCQn2VMoFBP6WOkDCpnkHeFuZ7EshcbePMDNWVlHxrPIz02rO_mbeyVubrsMXqUwBv4-ugkEjEefXyP3PABuCPrsESYgZAttt6xHuuF0Ts2MJTXJtETjt171rfNAfaMekyHAMHhhFmRoN5rrF9qMHB5vxcrVlX4hfqMSnfPZg.5MqJ_sBXlA8KNi7_uLi99ypDubFsa7RdkhI15N9ZmBg&amp;dib_tag=se&amp;keywords=1K+resistor&amp;qid=1721588256&amp;sprefix=1k+resistor%2Caps%2C129&amp;sr=8-13" class="postlink">https://www.amazon.com/California-JOS-C ... 29&amp;sr=8-13</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3403">WM7C</a> — Sun Jul 21, 2024 6:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-07-03T10:10:57</updated>
+
+		<published>2024-07-03T10:10:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31910#p31910</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31910#p31910"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31910#p31910"><![CDATA[
+<blockquote class="uncited"><div>I've tested my MD-9600 with a small monitor speaker ( Audio Pro Avantek Onehouse ) but they have maybe to much bass performance.<br><br>I've ordered another radio communication speaker from amazon ( "Diamond TS 750" ) which has some -6 dB mute and some sort of filter built in .</div></blockquote>I have used the "Diamond TS 750" speaker some time now and for me it sound better compared to the built-in one which had some rattle and resonance problems in my installation.<br><br>But I doubt that the one I bought from amazon.se is a genuine Diamond and the buttons doesn't do as they should according to the markings.<br>The "MUTE (-8db)" is only an on/off switch and the "NOISE FILTER" maybe remove some noise but it mostly attenuate the sound.<br>( Filter consists of a RC filter with a 50 Ohm resistor and a 47 uF electrolytic )<br>I will probably experiment with it and change the wiring a bit later.<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2486&amp;sid=42c08e720ca96a696a107c8c977727df" class="postimage" alt="Capture.JPG" onclick="viewableArea(this);" /></dt></dl></div><br>Note the bare wires:<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2487&amp;sid=42c08e720ca96a696a107c8c977727df" class="postimage" alt="Capture2.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jul 03, 2024 10:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2024-07-03T08:02:54</updated>
+
+		<published>2024-07-03T08:02:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31909#p31909</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31909#p31909"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31909#p31909"><![CDATA[
+Thanks, Roger. I added the L-Pad to the Motorola speaker, and it did indeed help. I dialed in just enough attenuation so the DMR audio's usable range was a little higher on the volume control. Now I have a much more usable setup, and it's far less hair-trigger than before. I am already using the AGC +0 setting. <br><br>On my 9600, analog FM audio comes up gradually as the volume control is advanced. But before adding the L-Pad, DMR audio came on suddenly, medium-loud, and a couple of degrees higher, it was painfully loud. Even now, for a given volume setting, DMR is always substantially louder. <br><br>I also discovered that the external speaker jack is not well-made. Just from inserting and removing a standard 3mm plug a few times, the internal speaker is now always muted. The contacts that disconnect the internal speaker appear to be bent enough that they no longer make contact when the plug is removed. And the connector is sealed in black plastic, so bending the contacts back into position won't be easy. I don't want to risk destroying the jack entirely, so I may just leave it alone. Since I want to use the Motorola speaker anyway, it's probably not worth disassembling the whole radio and removing the main board to replace the jack.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Wed Jul 03, 2024 8:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-28T01:48:46</updated>
+
+		<published>2024-06-28T01:48:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31853#p31853</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31853#p31853"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31853#p31853"><![CDATA[
+<blockquote class="uncited"><div>Interestingly, this is not an issue on analog FM receive. </div></blockquote>The audio path for both DMR and FM goes through the same pot, so the rate of change of audio level, controlled by the pot, will be the same for both FM and DMR<br><br>There is also an option , in Sound options, to enable a form of audio AGC on DMR and set the default AGC gain level, which may improve things for you your specific case<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jun 28, 2024 1:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2024-06-27T22:41:01</updated>
+
+		<published>2024-06-27T22:41:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31852#p31852</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31852#p31852"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31852#p31852"><![CDATA[
+The Motorola HSN4038A speaker is a vast improvement over both the internal speaker and the MFJ “Cleartone” speaker. The audio frequency response is “just right” for my ears. All other speakers were either too “tubby” sounding, or would overly accentuate the DMR-typical distortion of higher-frequency consonants, which was driving me crazy.<br><br>I ordered an inexpensive variable L-pad from Amazon. I’ll see if that can reduce the audio at the speaker sufficiently that a reasonable average volume is beyond what is now the “suddenly too loud” point on the radio’s volume control. Even with the added resistor mod, it goes from too soft to too loud in just a couple of degrees at around the 8:00 o’clock position. Interestingly, this is not an issue on analog FM receive. <br><br>I’ve also noticed that even with the hardware click suppression mod, I am still getting some loud clicks sometimes. Adding the firmware click suppression as well often seems to help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Thu Jun 27, 2024 10:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2024-06-23T08:18:41</updated>
+
+		<published>2024-06-23T08:18:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31744#p31744</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31744#p31744"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31744#p31744"><![CDATA[
+I have an MFJ "ClearTone" speaker. It works very well for CW on HF. I tried it with the 9600, but wasn't completely happy with it. Very tinny-sounding.  It might very well be a good mobile speaker, as the high frequencies would carry over road noise. What I want for the shack is a reasonable amount of midtones and a little extra treble for intelligibility.<br><br>Being a major big spender, I decided to risk $20 (including shipping)  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink">  and ordered a used Motorola HSN4038A external speaker from The Auction Site. It has a reputation for very good audio. If anybody knows how to handle DMR audio, it ought to be Motorola, right?  I should get it early next week. Stay tuned, I'll let you all know how it works out.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Sun Jun 23, 2024 8:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE4HTO]]></name></author>
+		<updated>2024-06-22T23:03:29</updated>
+
+		<published>2024-06-22T23:03:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31735#p31735</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31735#p31735"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31735#p31735"><![CDATA[
+Since the internal speaker is never loud enough for me in the mobile, the external speaker from MFJ "Clearspeak" sounds best. There is also the same speaker under different brand names (DxE)  available. It is significant better compared to the (not so bad) rectangle one i used before, mainly because it needs only about one third audio level for the same loudness. This keeps the audio distorsions low and make a  easier listening all day long in the 18wheeler.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3963">VE4HTO</a> — Sat Jun 22, 2024 11:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-06-18T13:57:49</updated>
+
+		<published>2024-06-18T13:57:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31699#p31699</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31699#p31699"/>
+		<title type="html"><![CDATA[Re: MD-9600 Receive Audio, how to improve?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4158&amp;p=31699#p31699"><![CDATA[
+I've tested my MD-9600 with a small monitor speaker ( Audio Pro Avantek Onehouse ) but they have maybe to much bass performance.<br><br>I've ordered another radio communication speaker from amazon ( "Diamond TS 750" ) which has some -6 dB mute and some sort of filter built in .<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jun 18, 2024 1:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

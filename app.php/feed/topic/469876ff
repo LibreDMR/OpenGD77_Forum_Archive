@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4698" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-22T03:29:10</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4698</id>
+
+		<entry>
+		<author><name><![CDATA[k4jlw]]></name></author>
+		<updated>2024-12-22T03:29:10</updated>
+
+		<published>2024-12-22T03:29:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34864#p34864</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34864#p34864"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34864#p34864"><![CDATA[
+I couldn't get any version of OpenGD77 to load on the radio. However, I was able to install Radioddity's firmware and then OpenGD77's. I built up to the current version, and everything appears to be fine. The radio and the CPS are communicating. Thank you to everyone who offered help!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1003">k4jlw</a> — Sun Dec 22, 2024 3:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-21T18:42:36</updated>
+
+		<published>2024-12-21T18:42:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34857#p34857</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34857#p34857"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34857#p34857"><![CDATA[
+<blockquote class="uncited"><div>I loaded the CPS on my computer for the first time. In other words, the CPS has never been on this computer. When I ran into the issue, I changed to another laptop that had also never had the CPS installed on it. Both are updated Win 11.<br><br>When I select the firmware option in my radio, the following shows on the screen:<br>OpenGD77<br>Built<br>09:35:44<br>Aug 1 2020<br>[  edf674e  ]<br><br>Before I connected the cable and turned the radio on, the CPS could not find a COM port. Once I did and either tried to download from the radio or update the firmware, I got the error message.<br><br><blockquote class="uncited"><div>I can't recreate the problem<br><br>If no com port exists, the CPS shows the Com port selector screen.<br><br>I tried selecting COM port that wasn't the OpenGD77 radio but it still doesn't crash<br><br>Please give the exact steps you did to cause the crash, including what you did to the radio<br><br>The only thing I can think of, is perhaps you didn't actually update the firmware like you thought you did.<br><br>What is the firmware build date and code ,  See the Firmware info screen on the radio</div></blockquote></div></blockquote>You have to flash a newer firmware (latest stable or beta, it's up to you).<br>Once done, you could use the latest CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Dec 21, 2024 6:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k4jlw]]></name></author>
+		<updated>2024-12-21T18:07:48</updated>
+
+		<published>2024-12-21T18:07:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34856#p34856</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34856#p34856"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34856#p34856"><![CDATA[
+I loaded the CPS on my computer for the first time. In other words, the CPS has never been on this computer. When I ran into the issue, I changed to another laptop that had also never had the CPS installed on it. Both are updated Win 11.<br><br>When I select the firmware option in my radio, the following shows on the screen:<br>OpenGD77<br>Built<br>09:35:44<br>Aug 1 2020<br>[  edf674e  ]<br><br>Before I connected the cable and turned the radio on, the CPS could not find a COM port. Once I did and either tried to download from the radio or update the firmware, I got the error message.<br><br><blockquote class="uncited"><div>I can't recreate the problem<br><br>If no com port exists, the CPS shows the Com port selector screen.<br><br>I tried selecting COM port that wasn't the OpenGD77 radio but it still doesn't crash<br><br>Please give the exact steps you did to cause the crash, including what you did to the radio<br><br>The only thing I can think of, is perhaps you didn't actually update the firmware like you thought you did.<br><br>What is the firmware build date and code ,  See the Firmware info screen on the radio</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1003">k4jlw</a> — Sat Dec 21, 2024 6:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-21T16:48:55</updated>
+
+		<published>2024-12-21T16:48:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34855#p34855</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34855#p34855"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34855#p34855"><![CDATA[
+<blockquote class="uncited"><div>Agreed, but when I try to update firmware, I get the above message.</div></blockquote>maybe you have some older CPS files inside the OpenGD77 installation folder mixed with new files? try to uninstall OpenGD77 and make sure the installation folder is deleted too, and then install the new OpenGD77 again and test if works.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sat Dec 21, 2024 4:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-21T07:26:37</updated>
+
+		<published>2024-12-21T07:26:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34850#p34850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34850#p34850"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34850#p34850"><![CDATA[
+On top of that, radio model probing was introduced years ago, and it was decided that it was mandatory to use such old firmares with old CPS version.<br>Nevertheless, flashing an old firmware device is not a problem, it's like flashing a brand new transceiver running the manufacturer firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Dec 21, 2024 7:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-21T05:25:40</updated>
+
+		<published>2024-12-21T05:25:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34847#p34847</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34847#p34847"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34847#p34847"><![CDATA[
+Edit<br><br>I've had a look at the code and it would not be easy to handle invalid / obsolete data coming from the radio.<br><br>Loads of places in the firmware check the radio type etc, so every one of them would need to be changed to prevent this happening<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 21, 2024 5:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-21T04:19:29</updated>
+
+		<published>2024-12-21T04:19:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34846#p34846</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34846#p34846"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34846#p34846"><![CDATA[
+I can't recreate the problem<br><br>If no com port exists, the CPS shows the Com port selector screen.<br><br>I tried selecting COM port that wasn't the OpenGD77 radio but it still doesn't crash<br><br>Please give the exact steps you did to cause the crash, including what you did to the radio<br><br>The only thing I can think of, is perhaps you didn't actually update the firmware like you thought you did.<br><br>What is the firmware build date and code ,  See the Firmware info screen on the radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 21, 2024 4:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-21T02:30:17</updated>
+
+		<published>2024-12-21T02:30:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34845#p34845</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34845#p34845"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34845#p34845"><![CDATA[
+probeRadioModel() is not called when flashing the firmware, as the radio won't reply from it while in bootloader mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Dec 21, 2024 2:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k4jlw]]></name></author>
+		<updated>2024-12-21T02:23:44</updated>
+
+		<published>2024-12-21T02:23:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34844#p34844</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34844#p34844"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34844#p34844"><![CDATA[
+Agreed, but when I try to update firmware, I get the above message.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1003">k4jlw</a> — Sat Dec 21, 2024 2:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-21T02:21:16</updated>
+
+		<published>2024-12-21T02:21:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34843#p34843</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34843#p34843"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34843#p34843"><![CDATA[
+Update your firmware, the one installed on your transceiver is way too old.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Dec 21, 2024 2:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k4jlw]]></name></author>
+		<updated>2024-12-21T01:45:57</updated>
+
+		<published>2024-12-21T01:45:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34842#p34842</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34842#p34842"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34842#p34842"><![CDATA[
+It happens when I try to read the codeplug or when I try to update the firmware. The moment I select the opened 77 firmware, I get the same message.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1003">k4jlw</a> — Sat Dec 21, 2024 1:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-21T01:24:20</updated>
+
+		<published>2024-12-21T01:24:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34839#p34839</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34839#p34839"/>
+		<title type="html"><![CDATA[Re: Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34839#p34839"><![CDATA[
+What action were you doing in the CPS e.g. upload codeplug or download codeplug or attempt to update the firmware ?<br><br>I can't see how simply plugging in the radio crashes the CPS, as it won't interact with the radio unless you tell it to.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 21, 2024 1:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k4jlw]]></name></author>
+		<updated>2024-12-21T01:14:31</updated>
+
+		<published>2024-12-21T01:14:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34837#p34837</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34837#p34837"/>
+		<title type="html"><![CDATA[Can't read image]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4698&amp;p=34837#p34837"><![CDATA[
+I haven't used my GD77 in several years. I broke it out and charged it, installed the latest CPS and plugged the factory programming cable in. I am getting an error:<br><br>Unhandled exception has occurred in your application. If you click Continue, the application will ignore this error and attempt to continue. If you click Quit, the application will close immediately.<br><br>Object reference not set to an instance of an object.<br><br>. Could someone offer guidance? I am so lost.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2795&amp;sid=1460f248c707eec6e9adfb9f22ae230d" class="postimage" alt="Screenshot 2024-12-20 200930.png" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2795&amp;sid=1460f248c707eec6e9adfb9f22ae230d" class="postimage" alt="Screenshot 2024-12-20 200930.png" onclick="viewableArea(this);" /></dt></dl></div>The error details are below:<br><br>See the end of this message for details on invoking <br>just-in-time (JIT) debugging instead of this dialog box.<br><br>************** Exception Text **************<br>System.NullReferenceException: Object reference not set to an instance of an object.<br>   at DMR.OpenGD77Form.readOpenGD77RadioInfoAndUpdateUSBBufferSize(SerialPort port, Boolean stealth)<br>   at DMR.OpenGD77Form.probeRadioModel(Boolean stealth)<br>   at DMR.OpenGD77Form.OpenGD77Form_Load(Object sender, EventArgs e)<br>   at System.Windows.Forms.Form.OnLoad(EventArgs e)<br>   at System.Windows.Forms.Form.OnCreateControl()<br>   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)<br>   at System.Windows.Forms.Control.CreateControl()<br>   at System.Windows.Forms.Control.WmShowWindow(Message&amp; m)<br>   at System.Windows.Forms.Control.WndProc(Message&amp; m)<br>   at System.Windows.Forms.ScrollableControl.WndProc(Message&amp; m)<br>   at System.Windows.Forms.ContainerControl.WndProc(Message&amp; m)<br>   at System.Windows.Forms.Form.WmShowWindow(Message&amp; m)<br>   at System.Windows.Forms.Form.WndProc(Message&amp; m)<br>   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)<br>   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)<br>   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)<br><br><br>************** Loaded Assemblies **************<br>mscorlib<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9282.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll<br>----------------------------------------<br>OpenGD77CPS<br>    Assembly Version: 1.2.9120.29074<br>    Win32 Version: 1.0.0.0<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/OpenGD77CPS.exe<br>----------------------------------------<br>System.Windows.Forms<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9251.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll<br>----------------------------------------<br>System<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9282.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll<br>----------------------------------------<br>System.Drawing<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll<br>----------------------------------------<br>WeifenLuo.WinFormsUI.Docking<br>    Assembly Version: 3.0.4.0<br>    Win32 Version: 3.0.4.0<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/WeifenLuo.WinFormsUI.Docking.DLL<br>----------------------------------------<br>System.Data<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9214.0 built by: NET481REL1LAST_B<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll<br>----------------------------------------<br>System.Xml<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll<br>----------------------------------------<br>System.Configuration<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll<br>----------------------------------------<br>System.Core<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9277.0 built by: NET481REL1LAST_B<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll<br>----------------------------------------<br>Accessibility<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll<br>----------------------------------------<br>System.Numerics<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll<br>----------------------------------------<br>Microsoft.mshtml<br>    Assembly Version: 7.0.3300.0<br>    Win32 Version: 7.0.3300.0<br>    CodeBase: file:///C:/WINDOWS/assembly/GAC/Microsoft.mshtml/7.0.3300.0__b03f5f7f11d50a3a/Microsoft.mshtml.dll<br>----------------------------------------<br><br>************** JIT Debugging **************<br>To enable just-in-time (JIT) debugging, the .config file for this<br>application or computer (machine.config) must have the<br>jitDebugging value set in the system.windows.forms section.<br>The application must also be compiled with debugging<br>enabled.<br><br>For example:<br><br>&lt;configuration&gt;<br>    &lt;system.windows.forms jitDebugging="true" /&gt;<br>&lt;/configuration&gt;<br><br>When JIT debugging is enabled, any unhandled exception<br>will be sent to the JIT debugger registered on the computer<br>rather than be handled by this dialog box.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1003">k4jlw</a> — Sat Dec 21, 2024 1:14 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

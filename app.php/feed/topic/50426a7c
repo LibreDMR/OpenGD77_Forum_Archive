@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5042" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-08T19:41:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5042</id>
+
+		<entry>
+		<author><name><![CDATA[YO3COX]]></name></author>
+		<updated>2025-04-08T19:41:49</updated>
+
+		<published>2025-04-08T19:41:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36662#p36662</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36662#p36662"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36662#p36662"><![CDATA[
+Finally, with your help I managed to solve it, it's true that the firmware was very old. But I'm beginner and I have no experience, I ordered the station with opengd77 already installed. Now it works perfectly, complete menu and loads everything correctly from CPS.. Thank you very much to everyone <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8412">YO3COX</a> — Tue Apr 08, 2025 7:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-08T02:27:41</updated>
+
+		<published>2025-04-08T02:27:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36654#p36654</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36654#p36654"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36654#p36654"><![CDATA[
+The firmware is definitely too old, visual volume was added later (and a lot of features too).<br><br>Also the satellte data structure has changed over time. You can't use a recent CPS software with an "unmatching" firmware.<br><br>I would suggest you to update all of this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Apr 08, 2025 2:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-07T21:26:16</updated>
+
+		<published>2025-04-07T21:26:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36646#p36646</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36646#p36646"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36646#p36646"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>maybe the fw its corrupt ?</div></blockquote>or maybe the firmware you using in that radio is really old, make sure you use the latest CPS and upgrade the OpenGD77 version in that radio too.</div></blockquote>OH!!! I think you are right. he said firmware 2023.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Apr 07, 2025 9:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-07T21:19:02</updated>
+
+		<published>2025-04-07T21:19:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36645#p36645</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36645#p36645"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36645#p36645"><![CDATA[
+<blockquote class="uncited"><div>maybe the fw its corrupt ?</div></blockquote>or maybe the firmware you using in that radio is really old, make sure you use the latest CPS and upgrade the OpenGD77 version in that radio too.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Apr 07, 2025 9:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-07T21:10:28</updated>
+
+		<published>2025-04-07T21:10:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36644#p36644</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36644#p36644"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36644#p36644"><![CDATA[
+<blockquote class="uncited"><div><br>In menu list the "volume " is not exist .<br></div></blockquote>What do you means "Volume" is not exist? have you tried menu -&gt; options -&gt; display options -&gt; volume? <br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#volume" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... .md#volume</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Apr 07, 2025 9:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3COX]]></name></author>
+		<updated>2025-04-07T20:43:59</updated>
+
+		<published>2025-04-07T20:43:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36643#p36643</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36643#p36643"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36643#p36643"><![CDATA[
+i know all this ... my problem is after write from cps on radio, nothing show in menu ... after load and set utc/ location , etc...show in menu/sattelite ( list empty) <br>In menu list the "volume " is not exist .<br>The same " voice prompt " after upload from  cps <br>in radio dont show .... maybe the fw its corrupt ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8412">YO3COX</a> — Mon Apr 07, 2025 8:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-07T20:31:45</updated>
+
+		<published>2025-04-07T20:31:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36642#p36642</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36642#p36642"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36642#p36642"><![CDATA[
+satellites must be installed separately from CPS-&gt;Extras-Support, same with voice prompts, due these things are not included in the OpenGD77 firmware by default.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Apr 07, 2025 8:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3COX]]></name></author>
+		<updated>2025-04-07T20:34:48 </updated>
+
+		<published>2025-04-07T20:25:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36641#p36641</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36641#p36641"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36641#p36641"><![CDATA[
+ok, <br> i have a problem with load in cps ...some spec its not exist in menu , like "volume" !! its not to read , i know to read ...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8412">YO3COX</a> — Mon Apr 07, 2025 8:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-07T18:44:03</updated>
+
+		<published>2025-04-07T18:44:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36638#p36638</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36638#p36638"/>
+		<title type="html"><![CDATA[Re: Baofeng DM1701 sat/voice /volume upload problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36638#p36638"><![CDATA[
+please read the manual <br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#volume" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... .md#volume</a><br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#prompt" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... .md#prompt</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Apr 07, 2025 6:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3COX]]></name></author>
+		<updated>2025-04-07T18:39:44</updated>
+
+		<published>2025-04-07T18:39:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36637#p36637</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36637#p36637"/>
+		<title type="html"><![CDATA[Baofeng DM1701 sat/voice /volume upload problem [Solved. Firmware not up to date]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5042&amp;p=36637#p36637"><![CDATA[
+Hello, I bought a dm 1701 with OpenGD77 already installed but I have problems loading from cps for satellite list, the volume bar does not exist and no voice promt list...I load the cps correctly for all these functions, it shows that it is written correctly but nothing remains in the radio,it came with the fw version:20230509205957(b74d659 D) CPU TYT. Can someone help me with some advice? Thank you very much!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8412">YO3COX</a> — Mon Apr 07, 2025 6:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

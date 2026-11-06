@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3698" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-01-22T19:30:05</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3698</id>
+
+		<entry>
+		<author><name><![CDATA[N6JPH]]></name></author>
+		<updated>2024-01-22T19:30:05</updated>
+
+		<published>2024-01-22T19:30:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28857#p28857</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28857#p28857"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28857#p28857"><![CDATA[
+Thank you VK3KYY I appreciate all of your help with this thread.  Really enjoying the MD9600.  Now to figure out the optimal APRS power setting.  When I have it at 40W it screws with my wireless andorid auto dongle lol.  So I set it to 25W which is probably fine for the metro areas but out where I live in the valley of the mountains we have various hills that block my transmission.  Either that or its time to add a APRS reciever out here at my place in addition to my DMR repeater.  That might be a better solution, only problem is I plan to move from here in the near future so is it worth it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5417">N6JPH</a> — Mon Jan 22, 2024 7:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-19T01:55:26</updated>
+
+		<published>2024-01-19T01:55:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28788#p28788</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28788#p28788"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28788#p28788"><![CDATA[
+<blockquote class="uncited"><div>No worries, I was just trying to think of how to put aprs on one while I use the other for qso. But I don't think that's possible and it's no problem when I want to do aprs I'll just tune in over there.</div></blockquote>The firmware does not have functionality to change to a different Channel or VFO to transmit APRS.<br><br>You can set one VFO to have APRS on it and not on the other VFO, but it won't transmit until you change to the VFO which has APRS enabled.<br>Same also applies to channels<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 19, 2024 1:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N6JPH]]></name></author>
+		<updated>2024-01-19T01:25:29</updated>
+
+		<published>2024-01-19T01:25:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28787#p28787</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28787#p28787"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28787#p28787"><![CDATA[
+No worries, I was just trying to think of how to put aprs on one while I use the other for qso. But I don't think that's possible and it's no problem when I want to do aprs I'll just tune in over there.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5417">N6JPH</a> — Fri Jan 19, 2024 1:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-01-19T01:17:14</updated>
+
+		<published>2024-01-19T01:17:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28786#p28786</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28786#p28786"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28786#p28786"><![CDATA[
+I think you are refering to the fact that the original firmware appeared to support two frequencies or channels at the same time. In fact the radio only has one receiver so it was always scanning between the two. <br>OpenGD77 does not support this. Only one channel or VFO frequency can be selected at a time. If you need to monitor more then you need to use the scanning features. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Jan 19, 2024 1:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N6JPH]]></name></author>
+		<updated>2024-01-18T23:49:49</updated>
+
+		<published>2024-01-18T23:49:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28784#p28784</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28784#p28784"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28784#p28784"><![CDATA[
+Its ok I fully understand, as I work in IT all day and I ask people did you read the docs?  I promise you I did read them I guess I just didn't understand them well enough.  I'm used to understanding that when we say VFO mode it was meant to mean that its in individual frequency specifying mode.  But when I'm in zone mode it doesn't give me the option to specify a channel for VFO-A/B or I'm just not understanding the doc well enough.  I really do appreciate your time with this and I'm trying not to be a did you RTFM type of guy.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5417">N6JPH</a> — Thu Jan 18, 2024 11:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-18T23:39:52</updated>
+
+		<published>2024-01-18T23:39:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28783#p28783</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28783#p28783"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28783#p28783"><![CDATA[
+<blockquote class="uncited"><div>I can only see 1 VFO at a time on mine.  So I'm thinking I'm missing something somewhere in the radio to enable VFO-B.  I've seen the multi watch option in the documents but I'm not seeing that in the radio so I'm thinking that I'm over looking it or something.</div></blockquote>Sorry to keep saying this.<br><br>But this IS documented in the USER GUIDE under the VFO section<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#vfo-selection-a-or-b" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ion-a-or-b</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 18, 2024 11:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N6JPH]]></name></author>
+		<updated>2024-01-18T23:09:29</updated>
+
+		<published>2024-01-18T23:09:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28781#p28781</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28781#p28781"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28781#p28781"><![CDATA[
+I can only see 1 VFO at a time on mine.  So I'm thinking I'm missing something somewhere in the radio to enable VFO-B.  I've seen the multi watch option in the documents but I'm not seeing that in the radio so I'm thinking that I'm over looking it or something.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5417">N6JPH</a> — Thu Jan 18, 2024 11:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-18T23:06:38</updated>
+
+		<published>2024-01-18T23:06:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28780#p28780</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28780#p28780"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28780#p28780"><![CDATA[
+<blockquote class="uncited"><div>  I wish I could shove it off to the other VFO but I know thats not capable yet or I haven't figured it out.  </div></blockquote>Please explain ?<br><br>VFO's A and B are just glorified channels, i.e channels with one additional parameter which is the step size<br><br>Everything else is the same as a regular channel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 18, 2024 11:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N6JPH]]></name></author>
+		<updated>2024-01-18T22:43:26</updated>
+
+		<published>2024-01-18T22:43:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28779#p28779</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28779#p28779"/>
+		<title type="html"><![CDATA[Re: [User error] Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28779#p28779"><![CDATA[
+Thank you V3KYY and all of the devs who build this amazing firmware.  Its so nice to be able to update all of my radios with just one CPS.  I'm still learning all of the bells and whistles of the OpenGD and I know there are sections that I won't use.  I am grateful that you put in the APRS functionality.  I wish I could shove it off to the other VFO but I know thats not capable yet or I haven't figured it out.  But anyways thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5417">N6JPH</a> — Thu Jan 18, 2024 10:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-18T22:12:50</updated>
+
+		<published>2024-01-18T22:12:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28777#p28777</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28777#p28777"/>
+		<title type="html"><![CDATA[Re: Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28777#p28777"><![CDATA[
+<blockquote class="uncited"><div>Well now I feel dumb lol.  I read through that section multiple times and I guess I just kept thinking that it was referring to the channel power like in the channel details.  Now I realize that it was not referring to that.  I apologize for not realizing that sooner.</div></blockquote>Probably there are too many features.<br><br>I'm not sure if any other radios + CPS you can override the power level and set it per channel if you want. Possibly one of the mainstream Japanese radios by Kenwood, Yaesu , Icom etc have this.<br><br>Generally the per channel / custom power level feature probably doesn't by most people, but I think somone must have wanted it, or we wouldn't have gone to the effort of adding it as a feature<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 18, 2024 10:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N6JPH]]></name></author>
+		<updated>2024-01-18T22:03:13</updated>
+
+		<published>2024-01-18T22:03:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28776#p28776</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28776#p28776"/>
+		<title type="html"><![CDATA[Re: Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28776#p28776"><![CDATA[
+Well now I feel dumb lol.  I read through that section multiple times and I guess I just kept thinking that it was referring to the channel power like in the channel details.  Now I realize that it was not referring to that.  I apologize for not realizing that sooner.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5417">N6JPH</a> — Thu Jan 18, 2024 10:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-18T21:57:45</updated>
+
+		<published>2024-01-18T21:57:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28775#p28775</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28775#p28775"/>
+		<title type="html"><![CDATA[Re: Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28775#p28775"><![CDATA[
+Its all fully documented in the User Guide , that we spent weeks writing and keeping fully updated<br><br><br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#controlling-tx-power" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... g-tx-power</a><br><br><br>and for key mappings see<br><br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#md-9600-and-rt-90-specific" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... 0-specific</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 18, 2024 9:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-18T21:54:40</updated>
+
+		<published>2024-01-18T21:54:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28773#p28773</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28773#p28773"/>
+		<title type="html"><![CDATA[Re: Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28773#p28773"><![CDATA[
+<blockquote class="uncited"><div>Ok so what I'm trying to do is get the radio set to the 40W power level.  Right now all of my channels are reporting 1W on the transmit side.  I'm just trying to get them all set to abide by the master power level.  Which I'm guessing for some reason is currently set to 1W.  So I'll have to dig through the radio settings to find that setting and adjust it to 40W.  I looked in the CPS but couldn't find anything in there for setting the power level at the radio level.  <br>I'm sorry for the confusion that this has caused.  I just want to use the full power mode of the radio on all channels.</div></blockquote>Just turn up the power.<br><br>Hold down P1 on the front panel and press the Up arrow on the front panel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 18, 2024 9:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N6JPH]]></name></author>
+		<updated>2024-01-18T21:05:27</updated>
+
+		<published>2024-01-18T21:05:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28772#p28772</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28772#p28772"/>
+		<title type="html"><![CDATA[Re: Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28772#p28772"><![CDATA[
+Ok so what I'm trying to do is get the radio set to the 40W power level.  Right now all of my channels are reporting 1W on the transmit side.  I'm just trying to get them all set to abide by the master power level.  Which I'm guessing for some reason is currently set to 1W.  So I'll have to dig through the radio settings to find that setting and adjust it to 40W.  I looked in the CPS but couldn't find anything in there for setting the power level at the radio level.  <br>I'm sorry for the confusion that this has caused.  I just want to use the full power mode of the radio on all channels.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5417">N6JPH</a> — Thu Jan 18, 2024 9:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-18T20:59:01</updated>
+
+		<published>2024-01-18T20:59:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28770#p28770</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28770#p28770"/>
+		<title type="html"><![CDATA[Re: Master Power not working in channel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3698&amp;p=28770#p28770"><![CDATA[
+<blockquote class="uncited"><div>I apologize VK3KYY I guess I was looking in the wrong place.  The 4100 was what it defaulted to so I've just left it there.  I'll dig around in the radio some more and see if I can locate the power level for the radio so that I can get all of the channels bumped up.</div></blockquote>I'm not sure what you are trying to do.<br><br>Normally people just set the power level to 40W and then all channels will transmit at 40W<br><br>The radio is <strong class="text-strong">not </strong>capable of producing more than 40W even if you use the User Defined PA drive level set to 4100. In fact you will get less power at that drive level than using the 40W setting, because the PA drive value for the 40W setting is supposed to be set at the factory and the drive value stored in the internal calibration table data<br><br>TYT claim the radio is 50W but its not.  Well, perhaps on its absolute lowest operating frequeny of around 127MHz it may just manage to produce 50W, but 2m, 40W is about all you can get and 70cm its even less. Probably around 35W <br><br>The only reason to change the power level at a channel level, is if you For Example are constantly switching between using a hotspot distant repeaters, so that you don't want to use 40W to transmit to your local hotspot in case it overloads the front end.<br><br>Hence you can set the Hotspot channel override power level to e.g. 1W, and swiching to that channel will transmit at 1W<br>Changing back to your other channels, which don't have an override power setting, they will transmit on whatever power setting you set by turning the power up / down using the controls on the front panel or the mic buttons.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 18, 2024 8:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

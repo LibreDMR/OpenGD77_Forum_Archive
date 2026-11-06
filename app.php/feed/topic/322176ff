@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3221" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-04T08:23:31</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3221</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-04T08:23:31</updated>
+
+		<published>2023-09-04T08:23:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25886#p25886</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25886#p25886"/>
+		<title type="html"><![CDATA[Re: Scanning analog]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25886#p25886"><![CDATA[
+FYI, the user manual will be updated regarding scan skip/nuisance.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Sep 04, 2023 8:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-04T07:56:28</updated>
+
+		<published>2023-09-04T07:56:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25884#p25884</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25884#p25884"/>
+		<title type="html"><![CDATA[Re: Scanning analog]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25884#p25884"><![CDATA[
+Hi,<br><br>On the front-panel, Up key puts that channel in the nuisance list.<br>Turn the knob clockwise to just skip it (or use the Up arrow on the mic).<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Sep 04, 2023 7:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2023-09-04T07:53:28</updated>
+
+		<published>2023-09-04T07:53:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25883#p25883</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25883#p25883"/>
+		<title type="html"><![CDATA[Re: Scanning analog]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25883#p25883"><![CDATA[
+Thank you everyone for your responses! I apologize for not providing enough information, I'm still quite new with the firmware.<br><br>I have a V5 radio and here's what first tipped me off there was an issue. I have a zone that is all of the GMRS frequencies (for monitoring). I have another zone that is the local GMRS repeaters, including the CTSS/DCS configured on repeater's output. While scanning all channels, I'll hear repeater traffic on say GMRS Channel 20, but when I press up to continue scanning, it skips right by the channel with the GMRS repeater channel. If I manually select the repeater channel, I hear the traffic just fine, suggesting I do I have the repeater programmed in properly.<br><br>I then tried adding a zone with ham repeater outputs and found the radio would always hear the repeater traffic in the zone without CTSS setup, but would often miss (but not 100% of the time) traffic in the zone that had the channel programmed with the repeater's output CTSS.<br><br>As for why I use CTSS on the repeater outputs, well it's pretty noisy around here, but if I can't get the radio to behave, perhaps that's the easy fix.<br><br>Thanks again everyone!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Mon Sep 04, 2023 7:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO3HB]]></name></author>
+		<updated>2023-08-31T20:37:34</updated>
+
+		<published>2023-08-31T20:37:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25775#p25775</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25775#p25775"/>
+		<title type="html"><![CDATA[Re: Scanning analog]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25775#p25775"><![CDATA[
+<blockquote class="uncited"><div>…<br>I also wonder why people set a Rx CTCSS on their radios, unless you have a lot of local QRM.  <br>Juts becuase the repeater transmits CTCSS doesnt mean you have to set your radio to have Rx CTCSS<br>…</div></blockquote>One reason to enable RX CTCSS may be, when the repeater is operating C4FM and FM on the same frequency. Without activated subtone in the FM receiver, the squelch opens at a C4FM transmission and it hisses unpleasantly loud. Therefore e.g. here on FM a 100Hz subtone is also output:<br><a href="http://www.db0mdx.darc.de/" class="postlink">http://www.db0mdx.darc.de/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1728">DO3HB</a> — Thu Aug 31, 2023 8:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-08-31T10:22:11</updated>
+
+		<published>2023-08-31T10:22:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25768#p25768</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25768#p25768"/>
+		<title type="html"><![CDATA[Re: Scanning analog]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25768#p25768"><![CDATA[
+I would add:<br>  Did you tried to check if the CSS tone is the one you set (the FW can scan for this).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Aug 31, 2023 10:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-31T10:16:13</updated>
+
+		<published>2023-08-31T10:16:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25767#p25767</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25767#p25767"/>
+		<title type="html"><![CDATA[Re: Scanning analog]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25767#p25767"><![CDATA[
+I just tested this on my MD9600 and the scan stops OK using 30mS scan dell time, even if the channel has a RX CTCSS<br><br>Did you try adding a simplex channel to your repeater zone, and set it to have Rx CTCSS and see if it stops when you transmit on another FM radio with Tx set to the same CTCSS<br><br>You didnt say what version of MD9600 hardware you are running,  I tested on the latest V4A aka V5 hardware.<br>I do have a V2 MD9600 kicking around somewhere but it would take me quite a long time to find it and set it up tp run the same tests and I simply don't have time to do that at the moment.<br><br><br>I also wonder why people set a Rx CTCSS on their radios, unless you have a lot of local QRM.  <br>Juts becuase the repeater transmits CTCSS doesnt mean you have to set your radio to have Rx CTCSS<br><br>I know some people say it gives less squelch tail, but IMO squelch and hiss etc are all part of Ham radio and I'm happy to have it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Aug 31, 2023 10:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2023-08-31T05:40:15</updated>
+
+		<published>2023-08-31T05:40:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25763#p25763</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25763#p25763"/>
+		<title type="html"><![CDATA[Scanning analog]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3221&amp;p=25763#p25763"><![CDATA[
+I noticed my radio was not picking up repeaters that I had programmed RX CTSS tones while scanning. As a test I created a zone with the same repeaters without the CTSS on the RX frequencies and the radio always stopped for traffic.<br><br>I'm guessing the issue is the scan dwell setting. Has anyone found a sweet spot for the setting? I'm currently at the default of 30ms.<br><br>Thank you for the awesome firmware!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Thu Aug 31, 2023 5:40 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3490" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-11-23T14:34:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3490</id>
+
+		<entry>
+		<author><name><![CDATA[KD0RK]]></name></author>
+		<updated>2023-11-23T14:34:55</updated>
+
+		<published>2023-11-23T14:34:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27647#p27647</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27647#p27647"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27647#p27647"><![CDATA[
+<blockquote class="uncited"><div>This problem should be fixed by the latest version<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3509" class="postlink">viewtopic.php?f=12&amp;t=3509</a></div></blockquote>Thanks! I'll give it a go today.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4970">KD0RK</a> — Thu Nov 23, 2023 2:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-11-23T06:10:19</updated>
+
+		<published>2023-11-23T06:10:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27635#p27635</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27635#p27635"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27635#p27635"><![CDATA[
+This problem should be fixed by the latest version<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3509" class="postlink">viewtopic.php?f=12&amp;t=3509</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Nov 23, 2023 6:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD0RK]]></name></author>
+		<updated>2023-11-21T01:47:17</updated>
+
+		<published>2023-11-21T01:47:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27588#p27588</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27588#p27588"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27588#p27588"><![CDATA[
+Thank you and G4EML for taking a look so quickly! I patiently look forward to the fix and truly appreciate what you've done with this project! I almost immediately replaced the firmware on my RT3S with OpenGD77 and find it easy to navigate and designed by people that actually use the radios.<br><br>Thanks again for all your effort on this project.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4970">KD0RK</a> — Tue Nov 21, 2023 1:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-11-20T21:48:17</updated>
+
+		<published>2023-11-20T21:48:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27581#p27581</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27581#p27581"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27581#p27581"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger, <br><br>This is the rounding issue which was fixed in a previous release.  My PR104 has been overwritten by your update on Sep 11.<br>If you re-implement PR104 it will fix it. <br><br>Colin.</div></blockquote>OK.<br><br>I've just done my own fix, but I'll take a look at PR104<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Nov 20, 2023 9:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-11-20T21:46:02</updated>
+
+		<published>2023-11-20T21:46:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27580#p27580</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27580#p27580"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27580#p27580"><![CDATA[
+Hi Roger, <br><br>This is the rounding issue which was fixed in a previous release.  My PR104 has been overwritten by your update on Sep 11.<br>If you re-implement PR104 it will fix it. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Nov 20, 2023 9:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-11-20T21:26:53</updated>
+
+		<published>2023-11-20T21:26:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27576#p27576</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27576#p27576"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27576#p27576"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I did some tests both with regional setting English (United States) and English (Sweden) on my Windows 10, and I could reproduce it with 107.2<br>on both regional settings (Sweden uses decimal comma) but it seems to work with other subtones like 77.0 and 123.0<br>The CSV file has correct values.</div></blockquote>Thanks for going the extra mile and narrowing down my issue! I didn't give the extra info like you did (Windows 11, English US). I wonder what it is about this tone that it doesn't like; many repeaters in my area use that tone and I just stopped my testing assuming it was all tones as I was just looking at the first entry in my list.</div></blockquote>I will investigate this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Nov 20, 2023 9:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD0RK]]></name></author>
+		<updated>2023-11-20T18:08:02</updated>
+
+		<published>2023-11-20T18:08:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27567#p27567</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27567#p27567"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27567#p27567"><![CDATA[
+<blockquote class="uncited"><div>I did some tests both with regional setting English (United States) and English (Sweden) on my Windows 10, and I could reproduce it with 107.2<br>on both regional settings (Sweden uses decimal comma) but it seems to work with other subtones like 77.0 and 123.0<br>The CSV file has correct values.</div></blockquote>Thanks for going the extra mile and narrowing down my issue! I didn't give the extra info like you did (Windows 11, English US). I wonder what it is about this tone that it doesn't like; many repeaters in my area use that tone and I just stopped my testing assuming it was all tones as I was just looking at the first entry in my list.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4970">KD0RK</a> — Mon Nov 20, 2023 6:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-11-20T17:55:33</updated>
+
+		<published>2023-11-20T17:55:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27566#p27566</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27566#p27566"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27566#p27566"><![CDATA[
+<blockquote class="uncited"><div>I updated to 2023.11.11.01, created a new codeplug, changed the default Channel1 to analog and added a tx tone of 107.2. I exported as CSV to a folder and then immediately imported from that folder. The tx tone for the channel was set to None. I wonder if there is an issue with CSV import for analog channels.</div></blockquote>I did some tests both with regional setting English (United States) and English (Sweden) on my Windows 10, and I could reproduce it with 107.2<br>on both regional settings (Sweden uses decimal comma) but it seems to work with other subtones like 77.0 and 123.0<br>The CSV file has correct values.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Nov 20, 2023 5:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD0RK]]></name></author>
+		<updated>2023-11-20T16:11:28</updated>
+
+		<published>2023-11-20T16:11:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27563#p27563</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27563#p27563"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27563#p27563"><![CDATA[
+I updated to 2023.11.11.01, created a new codeplug, changed the default Channel1 to analog and added a tx tone of 107.2. I exported as CSV to a folder and then immediately imported from that folder. The tx tone for the channel was set to None. I wonder if there is an issue with CSV import for analog channels.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4970">KD0RK</a> — Mon Nov 20, 2023 4:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD0RK]]></name></author>
+		<updated>2023-11-18T15:22:33</updated>
+
+		<published>2023-11-18T15:22:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27506#p27506</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27506#p27506"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27506#p27506"><![CDATA[
+<blockquote class="uncited"><div>It is worth checking that you are not using the delimiter characters (comma or semi colon) anywhere in any of your channel names etc. These characters cannot be used anywhere or they will confuse the CSV parsing.  </div></blockquote>Oh, that's a good thing to check. I could accidentally have a character somewhere that is messing up the parsing. I'll double check and will start fresh to see if I can reproduce it as well (I'm just getting started with my code plug).<br><br>Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4970">KD0RK</a> — Sat Nov 18, 2023 3:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-11-18T12:25:14</updated>
+
+		<published>2023-11-18T12:25:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27501#p27501</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27501#p27501"/>
+		<title type="html"><![CDATA[Re: Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27501#p27501"><![CDATA[
+I have just checked here and it all appears to be working OK.  I exported my codeplug and then imported it back with no changes. <br> <br>It is worth checking that you are not using the delimiter characters (comma or semi colon) anywhere in any of your channel names etc. These characters cannot be used anywhere or they will confuse the CSV parsing.  <br><br>if you are still having problems post your codeplug here with an exact description of the problem. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Nov 18, 2023 12:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD0RK]]></name></author>
+		<updated>2023-11-18T00:34:04</updated>
+
+		<published>2023-11-18T00:34:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27500#p27500</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27500#p27500"/>
+		<title type="html"><![CDATA[Import/Export Mangling Data?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3490&amp;p=27500#p27500"><![CDATA[
+I'm using CPS R2023.10.11.01 (also happened with the latest release) and as a simple experiment, I exported my data as CSV and then re-imported it. The channels got messed up (FM channels) in that the tone and sometimes the frequency is not correct. I saw some threads about import/export, but nothing specifically about this.<br><br>Are there currently known issues with trying to do this? This is just an experiment as the channel data I'm trying to import is requiring me to hand edit each entry to make sure everything is correct.<br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4970">KD0RK</a> — Sat Nov 18, 2023 12:34 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

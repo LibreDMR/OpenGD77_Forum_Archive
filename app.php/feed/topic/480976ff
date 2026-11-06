@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4809" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-26T09:26:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4809</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-26T09:26:36</updated>
+
+		<published>2025-01-26T09:26:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4809&amp;p=35369#p35369</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4809&amp;p=35369#p35369"/>
+		<title type="html"><![CDATA[Re: APRS bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4809&amp;p=35369#p35369"><![CDATA[
+This is not a bug.<br>The APRS config location has the highest. <br><br><br>BTW, you're firmware is really outdated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 26, 2025 9:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K7IHZ]]></name></author>
+		<updated>2025-01-26T09:21:55</updated>
+
+		<published>2025-01-26T09:21:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4809&amp;p=35368#p35368</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4809&amp;p=35368#p35368"/>
+		<title type="html"><![CDATA[APRS bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4809&amp;p=35368#p35368"><![CDATA[
+I've been discussing with the author of qdmr: <a href="https://github.com/hmatuschek/qdmr/issues/551" class="postlink">https://github.com/hmatuschek/qdmr/issues/551</a> about how to work around the lack of GPS on the DM-1701 and actually use APRS.  The radio was prompting me for "Location?" and it took me a while to realize that the place to set the location is "Radio info":  just arrow down to the last screen and type the coordinates on the keypad.  Nice feature.<br><br>But there is another setting in Options | APRS Options | Location: I can choose GPS or Channel.   And on qdmr there is a feature to add a grid square to a channel via an OpenGD77 extension, which gets converted to coordinates (and thus is not very accurate, because it chooses the center of the grid square).  The bug in the OpenGD77 firmware that I seem to see is that if the channel location is set, this setting does not take effect: it will always use the channel location, rather than the location that I set on Radio Info.  I can't override it in  the field, AFAICT.  So basically it seems I have to work around that by <em class="text-italics">not</em> setting the channel location.  That way I can get the coordinates from my phone (with some GPS app that shows decimal degrees... most don't do it), type them in and send an APRS packet.<br><br>Whether this will work for APRS2SOTA self-spotting remains to be seen, but so far I don't see why not.  I've just tested so far by typing in different coordinates, sending a  regular APRS packet without SOTA in it, and checking on aprs.fi to see that my callsign moved.  I can also select different icons and SSIDs in qdmr, and that works.<br><br>I have the 20240908 firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7168">K7IHZ</a> — Sun Jan 26, 2025 9:21 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

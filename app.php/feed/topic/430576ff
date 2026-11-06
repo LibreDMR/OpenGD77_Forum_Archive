@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4305" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-03T10:24:54</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4305</id>
+
+		<entry>
+		<author><name><![CDATA[M7CXO]]></name></author>
+		<updated>2025-01-03T10:24:54</updated>
+
+		<published>2025-01-03T10:24:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4305&amp;p=34982#p34982</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=34982#p34982"/>
+		<title type="html"><![CDATA[Re: Random reboots]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=34982#p34982"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Seems to be continuing the reboot cycles.<br><br>Going to get it back on standard firmware and see if it does it, will return it if it does</div></blockquote>Did yopu solve the problem?<br><br>Did you try resetting the settings?</div></blockquote>Hi, apologies for the very late reply,<br><br>I solved it by going back to the factory firmware, I tried resetting everything, different configs, everything I tried seemed to point to when the battery was in a certain state of charge but I couldn't put my finger on it directly without more tools<br><br>So for now Im using the original firmware and it works ok<br><br>Dean<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6546">M7CXO</a> — Fri Jan 03, 2025 10:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-22T00:42:52</updated>
+
+		<published>2024-09-22T00:42:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4305&amp;p=33126#p33126</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=33126#p33126"/>
+		<title type="html"><![CDATA[Re: Random reboots]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=33126#p33126"><![CDATA[
+<blockquote class="uncited"><div>Seems to be continuing the reboot cycles.<br><br>Going to get it back on standard firmware and see if it does it, will return it if it does</div></blockquote>Did yopu solve the problem?<br><br>Did you try resetting the settings?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 22, 2024 12:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7CXO]]></name></author>
+		<updated>2024-08-19T13:10:01</updated>
+
+		<published>2024-08-19T13:10:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32564#p32564</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32564#p32564"/>
+		<title type="html"><![CDATA[Re: Random reboots]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32564#p32564"><![CDATA[
+Seems to be continuing the reboot cycles.<br><br>Going to get it back on standard firmware and see if it does it, will return it if it does<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6546">M7CXO</a> — Mon Aug 19, 2024 1:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7CXO]]></name></author>
+		<updated>2024-08-06T06:56:11</updated>
+
+		<published>2024-08-06T06:56:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32421#p32421</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32421#p32421"/>
+		<title type="html"><![CDATA[Re: Random reboots]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32421#p32421"><![CDATA[
+Think I figured it out with the help of a fellow nerd,<br><br>Battery charge was not calibrated, I had charged it to full in between firmware upgrades and it got confused.  Left it on overnight and its at 72% and stable.<br><br>Will keep and eye on it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6546">M7CXO</a> — Tue Aug 06, 2024 6:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7CXO]]></name></author>
+		<updated>2024-08-05T16:47:40</updated>
+
+		<published>2024-08-05T16:47:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32415#p32415</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32415#p32415"/>
+		<title type="html"><![CDATA[Random reboots]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4305&amp;p=32415#p32415"><![CDATA[
+Evening folks,<br><br>Have got a broken radio?  I've tried the latest firmware and 'fresh' codeplugs but my radio keeps turning off and on.<br><br>Its not constant, like a boot loop, just looses power and comes back on, sometimes it does it 10-15 times in a row sometimes its just once.<br><br>Anything I can do?<br><br><a href="https://youtu.be/YXsNxJObABc" class="postlink">https://youtu.be/YXsNxJObABc</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6546">M7CXO</a> — Mon Aug 05, 2024 4:47 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

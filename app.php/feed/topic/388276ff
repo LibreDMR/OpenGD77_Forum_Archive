@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3882" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-17T18:19:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3882</id>
+
+		<entry>
+		<author><name><![CDATA[iw2fiv]]></name></author>
+		<updated>2024-03-17T18:19:49</updated>
+
+		<published>2024-03-17T18:19:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3882&amp;p=30171#p30171</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3882&amp;p=30171#p30171"/>
+		<title type="html"><![CDATA[Re: GD-77 no tone CTCSS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3882&amp;p=30171#p30171"><![CDATA[
+Now I have reinstalled a fw version march 4 2023 and the ctcss tone are back, so its a bug into fw 20231231193513.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=915">iw2fiv</a> — Sun Mar 17, 2024 6:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[iw2fiv]]></name></author>
+		<updated>2024-03-17T16:13:16</updated>
+
+		<published>2024-03-17T16:13:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3882&amp;p=30162#p30162</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3882&amp;p=30162#p30162"/>
+		<title type="html"><![CDATA[GD-77 no tone CTCSS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3882&amp;p=30162#p30162"><![CDATA[
+Recently I have update the radio to20231231193513 fw.<br><br>Now if I set in codeplug tone ctcss both on tx and or rx analog I don't have it.<br>The codeplug shows that the channe have a CTCSS set on a tone frequecy but when I press the black  button on the radio the display shows:<br><br>Rx: none  Tx: none<br>SQL: 45%<br><br><br>I can't be received from a rpt or a radio who required a TSQL.<br><br>Anyone can help me?<br><br>Thanks <br>Carlo IW2FIV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=915">iw2fiv</a> — Sun Mar 17, 2024 4:13 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

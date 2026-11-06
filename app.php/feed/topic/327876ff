@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3278" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-17T00:02:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3278</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-17T00:02:19</updated>
+
+		<published>2023-09-17T00:02:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26315#p26315</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26315#p26315"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26315#p26315"><![CDATA[
+New version<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3291" class="postlink">viewtopic.php?f=12&amp;t=3291</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 17, 2023 12:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-16T20:37:33</updated>
+
+		<published>2023-09-16T20:37:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26300#p26300</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26300#p26300"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26300#p26300"><![CDATA[
+<blockquote class="uncited"><div>Hello,<br>I can confirm that the fix works, the strings were already present in the file, but in wrong section (OpenGD77 Support form?)<br><br>Thanks!</div></blockquote>Ok.<br><br>About 3 months ago the functionality was moved to the File menu, but somehow for Czech those strings did not get moved or were subsequently deleted. I checked all other languages and they had the strings in the correct location in the file<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 16, 2023 8:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-16T14:08:34</updated>
+
+		<published>2023-09-16T14:08:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26299#p26299</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26299#p26299"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26299#p26299"><![CDATA[
+Hello,<br>I can confirm that the fix works, the strings were already present in the file, but in wrong section (OpenGD77 Support form?)<br><br>Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Sat Sep 16, 2023 2:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-16T11:06:22</updated>
+
+		<published>2023-09-16T11:06:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26295#p26295</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26295#p26295"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26295#p26295"><![CDATA[
+I found the bug.<br><br>Some texts are missing from the czech.xml language file<br><br><div class="codebox"><p>CODE: </p><pre><code>&lt;Item Id="Please_select_a_folder_to_contain_the_.csv_files" Text="Please select a folder to contain the .csv files" /&gt;&lt;Item Id="Please_select_a_folder_containing_the_.csv_files" Text="Please select a folder containing the .csv files" /&gt;&lt;Item Id="Are_You_Sure_CSV" Text="Are You sure that you want to import the CSV files? All current data will be replaced." /&gt;</code></pre></div>at the end of<div class="codebox"><p>CODE: </p><pre><code>&lt;CSVEML Text="CSV Utility"&gt;&lt;Commons&gt;&lt;Item Id="CSVs_Created_in" Text="CSVs Created in" /&gt;&lt;Item Id="Imported" Text="Imported" /&gt;&lt;Item Id="Appended" Text="Appended" /&gt;&lt;Item Id="ERROR:-_Could_not_open" Text="ERROR:- Could not open" /&gt;&lt;Item Id="May_be_in_use_by_another_program" Text="May be in use by another program" /&gt;&lt;Item Id="Format_error_in" Text="Format error in"  /&gt;&lt;Item Id="Not_enough_columns_in_line" Text="Not enough columns in line" /&gt;&lt;Item Id="Line" Text="Line" /&gt;&lt;Item Id="is_not_valid_in" Text="is not valid in" /&gt;&lt;Item Id="and_will_be_skipped" Text="and will be skipped" /&gt;&lt;Item Id="Contacts" Text="Contacts" /&gt;&lt;Item Id="TG_Lists" Text="TG Lists" /&gt;&lt;Item Id="Channels" Text="Channels" /&gt;&lt;Item Id="Zones" Text="Zones" /&gt;&lt;Item Id="DTMF_Contacts" Text="DTMF Contacts" /&gt;&lt;Item Id="Codeplug_contains" Text="Codeplug contains" /&gt;&lt;Item Id="Codeplug_now_contains" Text="Codeplug now contains" /&gt;               &lt;Item Id="Please_select_a_folder_to_contain_the_.csv_files" Text="Please select a folder to contain the .csv files" /&gt;&lt;Item Id="Please_select_a_folder_containing_the_.csv_files" Text="Please select a folder containing the .csv files" /&gt;&lt;Item Id="Are_You_Sure_CSV" Text="Are You sure that you want to import the CSV files? All current data will be replaced." /&gt;&lt;/Commons&gt;&lt;/CSVEML&gt;</code></pre></div>If you update this part of the czech.xml file in the CPS install location, it will fix this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 16, 2023 11:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-16T10:57:29</updated>
+
+		<published>2023-09-16T10:57:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26294#p26294</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26294#p26294"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26294#p26294"><![CDATA[
+<blockquote class="uncited"><div>I can't replicate the problem even if I change the CPS to Czech language<br><br>Does the problem occur if you change the language in the menu in the CPS to English ?</div></blockquote>Actually, yes and no. I found out if you just change the language when the CPS is running, it does not influence the error. If I close the CPS and start it again, then the problem is influenced. So to summarize:<ul><li> Started with Czech, switched to English in runtime - directory selection window is not displayed, crashes with abovementioned exception</li><li> Started with English, switched to Czech in runtime or English is kept - OK</li><li> Switched to English, restarted - OK</li></ul>I suppose it has something to do with culture info or Czech labels?<br><br>Anyway I have only tried to switch the language in runtime first without restart, I will just keep it in English.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Sat Sep 16, 2023 10:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-16T09:30:05</updated>
+
+		<published>2023-09-16T09:30:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26286#p26286</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26286#p26286"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26286#p26286"><![CDATA[
+<blockquote class="uncited"><div>I am reporting an issue which is not limited to this version but was there at least since first September CPS, if I try to export (existing, or even a newly created empty codeplug) to CSV in Czech Windows, I get following exception:<div class="codebox"><p>CODE: </p><pre><code>System.Collections.Generic.KeyNotFoundException: Daný klí? není ve slovníku k dispozici.   v System.Collections.Generic.Dictionary`2.get_Item(TKey key)   v DMR.CSVEML.ExportCSV()   v DMR.MainForm.tsbtnExportCSV_Click(Object sender, EventArgs e)   v System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)   v System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)   v System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)   v System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)   v System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)   v System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)   v System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)   v System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)   v System.Windows.Forms.Control.WmMouseUp(Message&amp; m, MouseButtons button, Int32 clicks)   v System.Windows.Forms.Control.WndProc(Message&amp; m)   v System.Windows.Forms.ScrollableControl.WndProc(Message&amp; m)   v System.Windows.Forms.ToolStrip.WndProc(Message&amp; m)   v System.Windows.Forms.ToolStripDropDown.WndProc(Message&amp; m)   v System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)   v System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)   v System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)</code></pre></div>The translation of the exception text would be something like <em class="text-italics">"Given key is not available in the dictionary"</em>. Is anybody experiencing the same issues? I do not have English version of Windows available to me right now to check.</div></blockquote>I can't replicate the problem even if I change the CPS to Czech language<br><br>Does the problem occur if you change the language in the menu in the CPS to English ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 16, 2023 9:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-16T08:03:58</updated>
+
+		<published>2023-09-16T08:03:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26284#p26284</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26284#p26284"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26284#p26284"><![CDATA[
+I am reporting an issue which is not limited to this version but was there at least since first September CPS, if I try to export (existing, or even a newly created empty codeplug) to CSV in Czech Windows, I get following exception:<div class="codebox"><p>CODE: </p><pre><code>System.Collections.Generic.KeyNotFoundException: Daný klí? není ve slovníku k dispozici.   v System.Collections.Generic.Dictionary`2.get_Item(TKey key)   v DMR.CSVEML.ExportCSV()   v DMR.MainForm.tsbtnExportCSV_Click(Object sender, EventArgs e)   v System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)   v System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)   v System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)   v System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)   v System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)   v System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)   v System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)   v System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)   v System.Windows.Forms.Control.WmMouseUp(Message&amp; m, MouseButtons button, Int32 clicks)   v System.Windows.Forms.Control.WndProc(Message&amp; m)   v System.Windows.Forms.ScrollableControl.WndProc(Message&amp; m)   v System.Windows.Forms.ToolStrip.WndProc(Message&amp; m)   v System.Windows.Forms.ToolStripDropDown.WndProc(Message&amp; m)   v System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)   v System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)   v System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)</code></pre></div>The translation of the exception text would be something like <em class="text-italics">"Given key is not available in the dictionary"</em>. Is anybody experiencing the same issues? I do not have English version of Windows available to me right now to check.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Sat Sep 16, 2023 8:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-15T17:08:26</updated>
+
+		<published>2023-09-15T17:08:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26259#p26259</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26259#p26259"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26259#p26259"><![CDATA[
+Open GD77 CPS searches for the port by name, not number. So it should find the radio on any port number. However it sounds like on your computer it is not able to reliably identify the port. <br><br>The fact that windows has allocated COM25 to the port might indicate that you have previously used other serial port devices on that computer.  It may be that the drivers for those devices, even if they are not plugged in, are causing the problem.  Similar problems have benn reported by a few people before. <br><br>It might be worth manually re-assigning the com port to a different (lower) number. You can do that in the advanced settings when looking at the com port properties in device manager. <br>It may say that ports are in use even though the hardware for them is not currently connected. You can normally safely re-use those ports if you are sure the hardware is not present. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Sep 15, 2023 5:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K5GT]]></name></author>
+		<updated>2023-09-15T16:54:11</updated>
+
+		<published>2023-09-15T16:54:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26258#p26258</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26258#p26258"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26258#p26258"><![CDATA[
+Rebooted my PC and opened the software. When I turn on the radio I see OpenGD77 as COM25 in Device Manager. Click read Radio and am presented with the "Comm port not available" popup, when I click "OK" to close that window I am presented with the "No com port. Close and reopen the OpenGD77 window to select a com port.". When I click OK on that window I am presented with the OpenGD77 Support window. When I click "Read codeplug" I can successfully download the codeplug. I made a change (added an analog channel) and try to write it to the radio. Again I am presented with the "Comm port not available" message, clicking OK give me the "No com port. Close and reopen the OpenGD77 window to select a com port". Clicking OK again give me the OpenGD77 Support window, first time clicking "Write codeplug" gave me again the "Comm port not available", clicking OK on that closed the popup and the OpenGD77 Support window was still open. Clicking again on "write codeplug" successfully wrote the codeplug.<br><br>Yesterday I only wrote the 310 download of the callsign database, so today I try the 311 segment, Clicking write to radio gives me "Comm port not available", clicking "OK" gives me the "No com port. Close and reopen the OpenGD77 window to select a com port." message, Also click OK to close that popup, Second time click on "Write to radio" is successful.<br><br>John<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2312">K5GT</a> — Fri Sep 15, 2023 4:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-14T20:29:12</updated>
+
+		<published>2023-09-14T20:29:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26236#p26236</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26236#p26236"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26236#p26236"><![CDATA[
+<blockquote class="uncited"><div>Was just playing around with my RT3s, not sure if it is a PC issue or not. When I open the software and read the radio I am able to go to the extra menu and download the callsign database and write it to the radio. However, if in the meantime I have done something else (just uploaded the 310 section and read the radio afterwards) and go back to the extra menu and download another section and want to write that to the radio I get a popup that the 'comm port not available' and when I click okay the message 'No com port. Close and reopen the OpenGD77 window to select a com port' appears. When I close that I get the OpenGD77 Support window.<br>Can we set the com port somewhere? But it is strange as why can at one moment the software find the radio and later can not find it anymore. Radio still shows on the same com port in device manager. Running Win10Pro-x64</div></blockquote>Please write a step by step bullet point list to show how to always replicate the problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 14, 2023 8:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K5GT]]></name></author>
+		<updated>2023-09-14T18:00:05</updated>
+
+		<published>2023-09-14T18:00:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26231#p26231</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26231#p26231"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26231#p26231"><![CDATA[
+Was just playing around with my RT3s, not sure if it is a PC issue or not. When I open the software and read the radio I am able to go to the extra menu and download the callsign database and write it to the radio. However, if in the meantime I have done something else (just uploaded the 310 section and read the radio afterwards) and go back to the extra menu and download another section and want to write that to the radio I get a popup that the 'comm port not available' and when I click okay the message 'No com port. Close and reopen the OpenGD77 window to select a com port' appears. When I close that I get the OpenGD77 Support window.<br>Can we set the com port somewhere? But it is strange as why can at one moment the software find the radio and later can not find it anymore. Radio still shows on the same com port in device manager. Running Win10Pro-x64<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2312">K5GT</a> — Thu Sep 14, 2023 6:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2023-09-13T16:17:49</updated>
+
+		<published>2023-09-13T16:17:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26211#p26211</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26211#p26211"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26211#p26211"><![CDATA[
+Thank you...<br>Ciao<br>Sal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Wed Sep 13, 2023 4:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[14FRS498]]></name></author>
+		<updated>2023-09-13T09:14:17</updated>
+
+		<published>2023-09-13T09:14:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26208#p26208</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26208#p26208"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26208#p26208"><![CDATA[
+Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4455">14FRS498</a> — Wed Sep 13, 2023 9:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ9KCU]]></name></author>
+		<updated>2023-09-13T08:56:27</updated>
+
+		<published>2023-09-13T08:56:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26207#p26207</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26207#p26207"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26207#p26207"><![CDATA[
+Now the firmware loader starts.<br>Thank you.<br>Vy 73<br>SQ9KCU<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4433">SQ9KCU</a> — Wed Sep 13, 2023 8:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2023-09-13T06:06:35</updated>
+
+		<published>2023-09-13T06:06:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26202#p26202</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26202#p26202"/>
+		<title type="html"><![CDATA[Re: New CPS 2023 09 13]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3278&amp;p=26202#p26202"><![CDATA[
+thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Wed Sep 13, 2023 6:06 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

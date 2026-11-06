@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3884" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-03T14:22:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3884</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-03T14:22:44</updated>
+
+		<published>2024-04-03T14:22:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30571#p30571</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30571#p30571"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30571#p30571"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Localisation files for the on-screen texts and also the voice prompts have been updated<br><br><a href="https://www.opengd77.com/downloads/localisation/onscreen_texts/" class="postlink">downloads/localisation/onscreen_texts/</a><br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts/" class="postlink">downloads/localisation/voice_prompt_texts/</a><br><br>I would like to thank the people who have updated the translations for their languages.<br><br>PS. We do not have Romanian translation for either the CPS or Voice Prompts</div></blockquote>I have attached the wordlist for romanian voice prompts, I am curious how bad it will sound</div></blockquote>Here it is (I built only the 1.5 tempo).<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2325&amp;sid=fd399998bec37292bd6fa3d3d97365ed">romanian_Carmen-1.5_UV380-like.vpr</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Apr 03, 2024 2:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-04-02T21:19:16</updated>
+
+		<published>2024-04-02T21:19:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30550#p30550</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30550#p30550"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30550#p30550"><![CDATA[
+<blockquote class="uncited"><div>Localisation files for the on-screen texts and also the voice prompts have been updated<br><br><a href="https://www.opengd77.com/downloads/localisation/onscreen_texts/" class="postlink">downloads/localisation/onscreen_texts/</a><br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts/" class="postlink">downloads/localisation/voice_prompt_texts/</a><br><br>I would like to thank the people who have updated the translations for their languages.<br><br>PS. We do not have Romanian translation for either the CPS or Voice Prompts</div></blockquote>I have attached the wordlist for romanian voice prompts, I am curious how bad it will sound<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2319&amp;sid=fd399998bec37292bd6fa3d3d97365ed">wordlist_romanian_ASCII.csv</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Tue Apr 02, 2024 9:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-01T14:00:38</updated>
+
+		<published>2024-04-01T14:00:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30520#p30520</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30520#p30520"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30520#p30520"><![CDATA[
+<blockquote class="uncited"><div>Hi Daniel,<br>you are really super fast and kind, thanks a lot!<br>I agree with you, it is me who I'm very slow.<br>About the <strong class="text-strong">Italian.xml</strong> file I sent, actually there is a problem because one quotation marks (") is missing in line 439.<br>You wrote everything is fine, so I guess you have already fixed it, anyway here is the correct <strong class="text-strong">Italian.xml</strong> file:<br>Italian.zip<br>Thanks for everything and sorry for the extra work that I make you do, I'm really sorry.<br><br>73 best regards de Fabio IZ2EIB</div></blockquote>Hi Fabio,<br><br>   Ah, no, I didn't noticed it. Thanks for the fix.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 01, 2024 2:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-04-01T12:59:56</updated>
+
+		<published>2024-04-01T12:59:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30519#p30519</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30519#p30519"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30519#p30519"><![CDATA[
+Hi Daniel,<br>you are really super fast and kind, thanks a lot!<br>I agree with you, it is me who I'm very slow.<br>About the <strong class="text-strong">Italian.xml</strong> file I sent, actually there is a problem because one quotation marks (") is missing in line 439.<br>You wrote everything is fine, so I guess you have already fixed it, anyway here is the correct <strong class="text-strong">Italian.xml</strong> file:<div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2310&amp;sid=fd399998bec37292bd6fa3d3d97365ed">Italian.zip</a></dt></dl></div>Thanks for everything and sorry for the extra work that I make you do, I'm really sorry.<br><br>73 best regards de Fabio IZ2EIB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Mon Apr 01, 2024 12:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-30T18:29:04</updated>
+
+		<published>2024-03-30T18:29:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30494#p30494</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30494#p30494"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30494#p30494"><![CDATA[
+Hi Fabio,<br><blockquote class="uncited"><div>Hi Roger.<br>Apologize me for the great delay, but about the new <strong class="text-strong">CPS 2024 03 30</strong> (<a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3940" class="postlink">viewtopic.php?f=12&amp;t=3940</a>) seems to me something is weird with the Italian.xml file inside the upgraded CPS, because the modified document with the new additions does not seem to me to be the last revision I sent.<br>So here are the new updated <strong class="text-strong">Italian.xml</strong> together with the new updated <strong class="text-strong">italian.h</strong> and <strong class="text-strong">wordlist_italian.csv</strong> (I take advantage of this message to send all updated documents  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> )<br>italian.h_+_wordlist_italian.csv_+_Italian.xml.zip<br>Thank you very much to all you for the great and tireless work you are doing and Happy Easter everyone!<br><br>73 best regards de Fabio IZ2EIB</div></blockquote>Okay, your files were processed, everything is fine.<br>About the XML content, your latest update dates from "Tue Jan 23 2024", but a lot of changes/fixes were made in the language files since then.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 30, 2024 6:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-03-30T18:24:07</updated>
+
+		<published>2024-03-30T18:24:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30493#p30493</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30493#p30493"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30493#p30493"><![CDATA[
+Thank you very much Daniel, you are very kind.<br>Happy Easter everyone!<br><br>73 best regards de Fabio IZ2EIB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Sat Mar 30, 2024 6:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-30T18:19:45</updated>
+
+		<published>2024-03-30T18:19:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30492#p30492</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30492#p30492"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30492#p30492"><![CDATA[
+Hi Fabio,<br><br>  Okay. Thanks for the update.<br>I will handle this later today, or tomorrow morning.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 30, 2024 6:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-03-30T18:15:12</updated>
+
+		<published>2024-03-30T18:15:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30490#p30490</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30490#p30490"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30490#p30490"><![CDATA[
+Hi Roger.<br>Apologize me for the great delay, but about the new <strong class="text-strong">CPS 2024 03 30</strong> (<a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3940" class="postlink">viewtopic.php?f=12&amp;t=3940</a>) seems to me something is weird with the Italian.xml file inside the upgraded CPS, because the modified document with the new additions does not seem to me to be the last revision I sent.<br>So here are the new updated <strong class="text-strong">Italian.xml</strong> together with the new updated <strong class="text-strong">italian.h</strong> and <strong class="text-strong">wordlist_italian.csv</strong> (I take advantage of this message to send all updated documents  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> )<div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2306&amp;sid=fd399998bec37292bd6fa3d3d97365ed">italian.h_+_wordlist_italian.csv_+_Italian.xml.zip</a></dt></dl></div>Thank you very much to all you for the great and tireless work you are doing and Happy Easter everyone!<br><br>73 best regards de Fabio IZ2EIB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Sat Mar 30, 2024 6:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-17T21:54:35</updated>
+
+		<published>2024-03-17T21:54:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30180#p30180</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30180#p30180"/>
+		<title type="html"><![CDATA[Updated localisation files 2024/03/18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3884&amp;p=30180#p30180"><![CDATA[
+Localisation files for the on-screen texts and also the voice prompts have been updated<br><br><a href="https://www.opengd77.com/downloads/localisation/onscreen_texts/" class="postlink">downloads/localisation/onscreen_texts/</a><br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts/" class="postlink">downloads/localisation/voice_prompt_texts/</a><br><br>I would like to thank the people who have updated the translations for their languages.<br><br>PS. We do not have Romanian translation for either the CPS or Voice Prompts<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Mar 17, 2024 9:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

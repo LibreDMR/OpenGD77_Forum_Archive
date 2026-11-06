@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4014" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-17T05:07:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4014</id>
+
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-05-17T05:07:59</updated>
+
+		<published>2024-05-17T05:07:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31346#p31346</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31346#p31346"/>
+		<title type="html"><![CDATA[Re: APRS on MD-9600  questions...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31346#p31346"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>From what I have read and can configure, I believe you are correct in that you are tied to the APRS frequency if you intend to beacon your position. <br><br>It would be great to be able to configure an AAPRS channel and have the radio switch to that channel periodically to beacon position information and then switch back to the channel being monitored/operated. If that is already possible, I haven't found how to do it <br><br>Dave<br>G4UFS</div></blockquote>No periodic automatic switching to the APRS channel exists today for OpenGD77, as other radios with a single TX/RX circuit can do it I hope that<br>OpenGD77 will have that feature someday too.</div></blockquote>I agree that this would be a "nice to have" feature but I don't think the lack of this ability is a show-stopper. If you're out and about it's probably because you're running errands, shopping or something so you're not going to be talking on the radio that much. It's no big deal to leave GPS on and the radio running on the APRS frequency the rest of the time. So you'll miss sending a location report every now and then if you happen to be on another channel: no big deal. Besides, most of us have more than one HT so we can use another one for voice communications if we want to, say, monitor a repeater. But yes, not having to carry two radios would be very nice. I suppose it depends on how badly you need to be available for voice traffic vs. letting people know your location.<br><br>Edit: BTW I've noticed today that if I'm monitoring, say, a DMR channel or an FM repeater channel and I switch to the APRS channel it immediately transmits one or more beacons (this is with APRS in auto mode) so the radio must be doing some sort of store and forward. So it should be pretty easy to occasionally change channels to APRS and back again to get your beacons sent and it doesn't take more than a moment or two.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Fri May 17, 2024 5:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-05-10T16:35:16</updated>
+
+		<published>2024-05-10T16:35:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31213#p31213</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31213#p31213"/>
+		<title type="html"><![CDATA[Re: APRS on MD-9600  questions...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31213#p31213"><![CDATA[
+<blockquote class="uncited"><div>From what I have read and can configure, I believe you are correct in that you are tied to the APRS frequency if you intend to beacon your position. <br><br>It would be great to be able to configure an AAPRS channel and have the radio switch to that channel periodically to beacon position information and then switch back to the channel being monitored/operated. If that is already possible, I haven't found how to do it <br><br>Dave<br>G4UFS</div></blockquote>No periodic automatic switching to the APRS channel exists today for OpenGD77, as other radios with a single TX/RX circuit can do it I hope that<br>OpenGD77 will have that feature someday too.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri May 10, 2024 4:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4UFS]]></name></author>
+		<updated>2024-05-10T16:18:50</updated>
+
+		<published>2024-05-10T16:18:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31212#p31212</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31212#p31212"/>
+		<title type="html"><![CDATA[Re: APRS on MD-9600  questions...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31212#p31212"><![CDATA[
+From what I have read and can configure, I believe you are correct in that you are tied to the APRS frequency if you intend to beacon your position. <br><br>It would be great to be able to configure an AAPRS channel and have the radio switch to that channel periodically to beacon position information and then switch back to the channel being monitored/operated. If that is already possible, I haven't found how to do it <br><br>Dave<br>G4UFS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5997">G4UFS</a> — Fri May 10, 2024 4:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KE8VSI]]></name></author>
+		<updated>2024-04-29T22:28:53</updated>
+
+		<published>2024-04-29T22:28:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31085#p31085</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31085#p31085"/>
+		<title type="html"><![CDATA[Re: APRS on MD-9600  questions...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31085#p31085"><![CDATA[
+I am curious about this well. <br>On 2 other radios I have, you can talk on whatever channel you want and it will switch to beacon and switch back. <br><br>Anyone able to chime in on this?<br><br>It kind of makes you dedicate the radio to APRS if you want to use it. <br><br>  —Greg<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6101">KE8VSI</a> — Mon Apr 29, 2024 10:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-27T12:40:08</updated>
+
+		<published>2024-04-27T12:40:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31045#p31045</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31045#p31045"/>
+		<title type="html"><![CDATA[Re: APRS on MD-9600  questions...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31045#p31045"><![CDATA[
+I did some more reading so it appears APRS only transmits on a channel selected for APRS and no voice on said channel.<br>I was assuming the radio would send the beacon out no matter was frequency you were talking on and that would be a good thing if say you were offroading in a remote place and something went wrong.<br><br>What it does do is still good as a possible emergency location aid though...but other than that I don't see a use for it unless I'm missing something?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Sat Apr 27, 2024 12:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-26T21:47:27</updated>
+
+		<published>2024-04-26T21:47:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31039#p31039</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31039#p31039"/>
+		<title type="html"><![CDATA[APRS on MD-9600  questions...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4014&amp;p=31039#p31039"><![CDATA[
+I'm new to APRS...Seems to only work when I have my radio on the channel I made for APRS with the APRS Frequency...I thought it would ping the Frequency Channel when on auto without having to be on that channel? Also it seems I can't leave the programming cable plugged in cause as soon as I unplugged it it worked!<br><br>So does it only send the position when I'm on the APRSFM channel?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Fri Apr 26, 2024 9:47 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3921" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-28T20:44:23</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3921</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-28T20:44:23</updated>
+
+		<published>2024-03-28T20:44:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30430#p30430</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30430#p30430"/>
+		<title type="html"><![CDATA[Re: No com port, security error?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30430#p30430"><![CDATA[
+<blockquote class="uncited"><div>I did Roger,<br>Meanwhile I installed the CPS on another -same model- laptop, also with Win10/64, and here all worked fine!<br>So this error is specific related to this PC and I don't know how to resolve. I have to check what app's I installed last months to see if one can interfere with the com port handling or so.<br>Meanwhile I can use this second PC to programm, what works for the time.<br><br>Thanks for thinking with me.<br>Regards &amp; 73.<br>Henk</div></blockquote>Ok.<br><br>I have one PC where the STM DFU driver crashes to Blue Screen Of Death, but I never saw the problem you experienced<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 28, 2024 8:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PE0SSB]]></name></author>
+		<updated>2024-03-28T18:40:12</updated>
+
+		<published>2024-03-28T18:40:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30429#p30429</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30429#p30429"/>
+		<title type="html"><![CDATA[Re: No com port, security error?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30429#p30429"><![CDATA[
+I did Roger,<br>Meanwhile I installed the CPS on another -same model- laptop, also with Win10/64, and here all worked fine!<br>So this error is specific related to this PC and I don't know how to resolve. I have to check what app's I installed last months to see if one can interfere with the com port handling or so.<br>Meanwhile I can use this second PC to programm, what works for the time.<br><br>Thanks for thinking with me.<br>Regards &amp; 73.<br>Henk<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5899">PE0SSB</a> — Thu Mar 28, 2024 6:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-28T09:19:54</updated>
+
+		<published>2024-03-28T09:19:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30413#p30413</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30413#p30413"/>
+		<title type="html"><![CDATA[Re: No com port, security error?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30413#p30413"><![CDATA[
+Did you read this thread that was anwsered yesterday?<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=3920" class="postlink">viewtopic.php?f=19&amp;t=3920</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 28, 2024 9:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PE0SSB]]></name></author>
+		<updated>2024-03-27T22:59:21</updated>
+
+		<published>2024-03-27T22:59:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30407#p30407</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30407#p30407"/>
+		<title type="html"><![CDATA[No com port, security error?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3921&amp;p=30407#p30407"><![CDATA[
+Hi folks. I am new to this forum and discovered a lot of information here. Great!<br>I tried to reprogramm my GD77, wit OpenGD77 installed and use OpenGD77 CPS. Worked fine until nov 2023. Today March 27 2024 i can't come further due to com port error. CPS shows the error message "No com port .......". I run win10/64. In the win devicelist I discover OpenGD77 (com3) with a security? sign. Despite of this error i could upgrade my GD77 with latest firmware 2024 and PC with latest CPS, but without any change and still can't read and programm the radio. I wonder if someone can point me in the right direction to solve my programming issue with this wonderfull radio. Thanks in advance, Henk, PE0SSB.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5899">PE0SSB</a> — Wed Mar 27, 2024 10:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

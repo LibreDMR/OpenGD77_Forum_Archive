@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=3286&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 17:29:11 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; MD9600 and Calibration data - adjustable?</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>MD9600 and Calibration data - adjustable?</h2>
+		<p><a href="viewtopic0a0a.html?f=18&amp;t=3286">viewtopic.php?f=18&amp;t=3286</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>2</strong></div>
+					<div class="post">
+				<h3>MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Fri Sep 15, 2023 9:54 pm</strong></div>
+				<div class="author">by <strong>ZL4JOCO</strong></div>
+				<div class="content">Just wanted to check, re the calibration screens, per the manual they are not applicable to the MD9600. Assuming that is still current is there a method to perform calibration adjustments on the MD9600?  I did do a forum topics seach for the word "calibration" but didn't get any hits.<br>
+<br>
+Thanks for any advice/clarification.<br>
+<br>
+Cheers - James.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Fri Sep 15, 2023 10:03 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=4193&amp;sid=dee5dead76b8f17a613e76a7677e61c9">ZL4JOCO</a> wrote: <a href="viewtopic97eb.html?p=26262&amp;sid=dee5dead76b8f17a613e76a7677e61c9#p26262" data-post-id="26262" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Fri Sep 15, 2023 9:54 pm</div></cite>
+Just wanted to check, re the calibration screens, per the manual they are not applicable to the MD9600. Assuming that is still current is there a method to perform calibration adjustments on the MD9600?  I did do a forum topics seach for the word "calibration" but didn't get any hits.<br>
+<br>
+Thanks for any advice/clarification.<br>
+<br>
+Cheers - James.
+</div></blockquote>
+Doesn't the version you are using have the calibration screen ?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Fri Sep 15, 2023 10:58 pm</strong></div>
+				<div class="author">by <strong>ZL4JOCO</strong></div>
+				<div class="content">Thanks for the quick reply.   Yes I am running the very latest published firmware and it has the calibration screen.  However I was refering to the manuual which says<br>
+
+<blockquote class="uncited"><div>Calibration screen<br>
+<br>
+This screen currently only applies to the TYT MD-UV380 | Retevis RT-3S | Baofeng DM-1701 | Retevis RT-84.</div></blockquote>
+See link:  <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#calibration-screen" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ion-screen</a><br>
+<br>
+<br>
+So I was unsure if the screens would actually do anything or worse do something bad on the MD9600.<br>
+<br>
+Asking as the radio is expected to pull towards circa 18A at full power.  On a 25W setting on FM VHF I am not even pulling 4A which seems odd.<br>
+I have a suspicion that the the power calibration data is out of whack based on the amperage draw I am seeing compared to the power setting selected which started me wondering about calibration data. It also Has me wondering if I can reload the saved calibration data from the radio from before firmware update from within OpenGD77/CPS.<br>
+<br>
+Cheers - James.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Fri Sep 15, 2023 11:19 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">The manual needs to be updated. Both the GD77 and MD9600 have had the calibration screen added a while ago.<br>
+<br>
+Also, the UI for the calibration screen has now been standardised across all radios, with separate pages for each calibration area, i.e Power, VHF freq , and UHF freq<br>
+<br>
+<br>
+The power calibration is output power, not input current * voltage.  Use a Watt meter.<br>
+<br>
+Also, at the same time look at the current, because on some frequenceis these radios can't produce the advertised 40W and increasing the PA drive, in the calibration screen, just results in more current being drawn without any additional power<br>
+<br>
+i.e if you keep turning up the power and the radio will only output 35W, then don't increase the drive any more, in fact, turn the drive down until you see a reduction in output power<br>
+<br>
+These radios are sold as 50W but this is 50 Chinese Watts, and is only achieveable on VHF, some of my radios won't achieve 40W on UHF.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Sat Sep 16, 2023 12:08 am</strong></div>
+				<div class="author">by <strong>ZL4JOCO</strong></div>
+				<div class="content">Re the screens - awesome. Thanks. <br>
+<br>
+Re output power, will borrow/buy a meter to measure RF watts.  I had been going on the probable max current draw derived from the fuses and what I had managed to find online.  <br>
+Tests had been done in VHF.<br>
+<br>
+Cheers -J</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Sat Sep 16, 2023 1:03 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">Never try to calibrate the Output power using the Input current.<br>
+
+<blockquote class="uncited"><div>
+Asking as the radio is expected to pull towards circa 18A at full power.
+</div></blockquote>
+
+Also your calculations are wildy off for the amount of input current required<br>
+<br>
+18A at 12V is 216W input, for 25W output ??<br>
+<br>
+This would make the effeciency less than 15%<br>
+<br>
+Max current is normally less than 8A for 40W</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Sat Sep 16, 2023 8:41 am</strong></div>
+				<div class="author">by <strong>ZL4JOCO</strong></div>
+				<div class="content">8A?!  That's good to know and starts to feel right re what I am seeing.   Mind you having 20A fuses seems odd.  That along with what other similar radios delivering 40-50W were documented as pulling at max out is where I go expectations from.  Maybe I read things wrong but that is where the ~15A came from.  Not and special calcs.<br>
+<br>
+But thank you for the help and guidance.  This is all very new to me.<br>
+<br>
+Cheers - James.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Sat Sep 16, 2023 12:09 pm</strong></div>
+				<div class="author">by <strong>G4EML</strong></div>
+				<div class="content">4A for 25W output seems about right. <br>
+<br>
+Of that about 1A is used by the radio and driver stages. So let's say 3A is being used by the PA. <br>
+<br>
+3A * 13.8V = 41.4 W DC input. <br>
+<br>
+That's about 60% efficiency which sounds reasonable. <br>
+<br>
+Colin G4EML</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Sat Sep 16, 2023 9:51 pm</strong></div>
+				<div class="author">by <strong>SA0BUX</strong></div>
+				<div class="content">Isn't the frequency calibration on MD-9600 inside the radio?<br>
+Or can you do it via the software now?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD9600 and Calibration data - adjustable?</h3>
+				<div class="date">Posted: <strong>Sat Sep 16, 2023 9:52 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=2867&amp;sid=dee5dead76b8f17a613e76a7677e61c9">SA0BUX</a> wrote: <a href="viewtopic3dec.html?p=26302&amp;sid=dee5dead76b8f17a613e76a7677e61c9#p26302" data-post-id="26302" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Sep 16, 2023 9:51 pm</div></cite>
+Isn't the frequency calibration on MD-9600 inside the radio?<br>
+Or can you do it via the software now?
+</div></blockquote>
+
+Software now.</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>2</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=3286&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 17:29:15 GMT -->
+</html>

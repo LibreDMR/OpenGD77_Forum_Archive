@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2015" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-01-03T00:32:33</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2015</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-01-03T00:32:33</updated>
+
+		<published>2022-01-03T00:32:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2015&amp;p=16973#p16973</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2015&amp;p=16973#p16973"/>
+		<title type="html"><![CDATA[Differences between the GD77 and the MD9600]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2015&amp;p=16973#p16973"><![CDATA[
+The GD77 and MD9600 hardware are quite different<br><br>The only chips which are which both radios have in common are<br><br>* The C6000 DMR / DSP chip<br>* The type of Flash chip (but the Flash memory in the MD9600 is 16Mb and only 1Mb in the GD77)<br>* The display controller chip accepts most of the same commands and the frame buffer data organisation is the same, hence the same fonts can be used<br><br><br>All other chips are completely different.<br><br>The biggest difference is probably the CPU / MCU which is from a completely different manufacturer<br>The RF hardware is also completely different, with the MD9600 having sepatare chips for PLL and IF / Demodulation, whereas the GD77 has a single chip for all RF Tx and Rx.<br><br>The MD9600 also does not have the 128k EEPROM, which is used for fast data storage, it only has the 16Mb Flash chip, which is not suitable for fast or repetative data storage, becuase it has a limited number of Erase / Write cycles.<br><br>Because the MD9600 does not have the EEPROM, which stores part of the codeplug, it has been necessary for me to modify the CPS, and now to have a Radio Type menu, which controls how the CPS sends data to the radio, so that the codeplug all goes into Flash memory.<br><br>The MCU chip fortunately has a small amount of battery RAM, and this is used instead of the EEPROM for settings storage.<br><br>The MCU chip also has a built in realtime clock, which is also connected to the watch battery on the PCB, so the firmware is able to know the time even after the power has been completely disconnected<br><br>The MD9600 also does not have a power control circuit, so the power button does not actually turn off the power to the radio. i.e its like a mobile phone where the power button simply puts the hardware into a deep sleep, but the battery would eventually go flat, becuase it is not electrically isolated.<br><br>Currently we have no written the code to enable the CPU to go into deep sleep, hence when the radio appears to be off, it still consumes 50mA<br>We will fix this when we have time<br><br><br>Some versions of the MD9600 have a built in GPS. I don't personally have a radio with this hardware, but Colin G4EML has a V4 radio with GPS and has written the firmware to support using the GPS to set the location<br><br>However the GPS is known to not be very sensitive, becuase the location of the module is in the display and does not have a good antenna.<br><br>All radios have space on the PCB for the GPS module, but the module used in the radios does not seem to be available from any of the suppliers in China.<br><br><br>Because the internal GPS does not work very well, it is probably better to buy an external GPS module which outputs NMEA serial data at 9600 baud, and connect this to the PCB inside the radio, probably by fitting another connector (3.5mm stereo jack socket) in the rear panel.<br><br>These seem to be readily available on eBay and AliExpress etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 03, 2022 12:32 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

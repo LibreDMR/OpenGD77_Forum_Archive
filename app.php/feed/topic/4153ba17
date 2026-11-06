@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4153" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-21T22:57:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4153</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-21T22:57:52</updated>
+
+		<published>2025-06-21T22:57:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37532#p37532</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37532#p37532"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37532#p37532"><![CDATA[
+OpenGD77 CPS ONLY works with radios that have OpenGD77 installed already except that you can access the radio to write the OpenGD77 firmware<br>to it, that part is done via the DFU driver.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 21, 2025 10:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-21T22:29:48</updated>
+
+		<published>2025-06-21T22:29:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37531#p37531</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37531#p37531"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37531#p37531"><![CDATA[
+<blockquote class="uncited"><div>OK,<br><br>I think I have had enough of going in circles with trying to figure out why my RT3S (with the latest OpenDG77 CP) running, it keeps asking me for a comm port.  Can't read the radio period.<br><br>Below is my radio info<br><img src="https://shelbyohwx.com/1/RT3S.png" class="postimage" alt="Image"><br><br>The GD CP info<br><img src="https://shelbyohwx.com/1/RT3S-GD.png" class="postimage" alt="Image"><br><br>Now, tell me what is the (blank) and I doing wrong???  Oh also, seeing I DO NOT have a windows 10 computer, I have Windows 11 Pro one. and everything else works fine, Here is a question, Do I need any other drivers to show a comm port? Also I can read fine with the RT3S software, as well as write to it.  it is just this blasted GD CPS that is the problem.  <br><br>Any Solutions would be appreciated.<br>Ray</div></blockquote><br>Have you installed OpenGD77 on the radio?<br><br>You won't get a Com port if you still have the official firmware in the radio<br><br>Firmware loading does not use the com port.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jun 21, 2025 10:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0MRB]]></name></author>
+		<updated>2025-06-21T18:05:55</updated>
+
+		<published>2025-06-21T18:05:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37530#p37530</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37530#p37530"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=37530#p37530"><![CDATA[
+OK,<br><br>I think I have had enough of going in circles with trying to figure out why my RT3S (with the latest OpenDG77 CP) running, it keeps asking me for a comm port.  Can't read the radio period.<br><br>Below is my radio info<br><img src="https://shelbyohwx.com/1/RT3S.png" class="postimage" alt="Image"><br><br>The GD CP info<br><img src="https://shelbyohwx.com/1/RT3S-GD.png" class="postimage" alt="Image"><br><br>Now, tell me what is the (blank) and I doing wrong???  Oh also, seeing I DO NOT have a windows 10 computer, I have Windows 11 Pro one. and everything else works fine, Here is a question, Do I need any other drivers to show a comm port? Also I can read fine with the RT3S software, as well as write to it.  it is just this blasted GD CPS that is the problem.  <br><br>Any Solutions would be appreciated.<br>Ray<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8743">N0MRB</a> — Sat Jun 21, 2025 6:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0AMT]]></name></author>
+		<updated>2025-04-27T02:59:04</updated>
+
+		<published>2025-04-27T02:59:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36919#p36919</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36919#p36919"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36919#p36919"><![CDATA[
+I had a similar issue with loading the code plug on a V5 TYT MD-9600. The cause was a com port conflict with an Eltima virtual com port. I changed the OpenGD77 port to an unused one and it started working.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6175">W0AMT</a> — Sun Apr 27, 2025 2:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0NQA]]></name></author>
+		<updated>2025-04-23T21:35:37</updated>
+
+		<published>2025-04-23T21:35:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36885#p36885</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36885#p36885"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36885#p36885"><![CDATA[
+<blockquote class="uncited"><div>definitively you are using the wrong cable, because DM-1701 uses a direct USB cable and not a cable with USB-TTL chip.</div></blockquote>Thank you. <br>I was using wrong cables (modified for UV5R).<br>I found the 1701 cable and all is well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5617">G0NQA</a> — Wed Apr 23, 2025 9:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0NQA]]></name></author>
+		<updated>2025-04-23T21:34:06</updated>
+
+		<published>2025-04-23T21:34:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36884#p36884</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36884#p36884"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36884#p36884"><![CDATA[
+<blockquote class="uncited"><div>There is no Serial to USB converter chip in the transceiver's cable.</div></blockquote>Thank you it’s working.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5617">G0NQA</a> — Wed Apr 23, 2025 9:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-23T07:34:53</updated>
+
+		<published>2025-04-23T07:34:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36875#p36875</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36875#p36875"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36875#p36875"><![CDATA[
+Here's the schematic for the DM-1701<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2928&amp;sid=63fedb1b97cffb432abfe497b0049374" class="postimage" alt="DM-1701_RT84_Cable.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Apr 23, 2025 7:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-23T05:52:25</updated>
+
+		<published>2025-04-23T05:52:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36873#p36873</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36873#p36873"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36873#p36873"><![CDATA[
+definitively you are using the wrong cable, because DM-1701 uses a direct USB cable and not a cable with USB-TTL chip.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Apr 23, 2025 5:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-23T05:51:40</updated>
+
+		<published>2025-04-23T05:51:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36872#p36872</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36872#p36872"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36872#p36872"><![CDATA[
+There is no Serial to USB converter chip in the transceiver's cable.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Apr 23, 2025 5:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0NQA]]></name></author>
+		<updated>2025-04-23T05:29:48</updated>
+
+		<published>2025-04-23T05:29:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36871#p36871</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36871#p36871"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36871#p36871"><![CDATA[
+1. Is you radio in DFU mode?<br>Yes (red and green led flashing)<br>2. When you plug the cable is there any change in the Windows device managed ?<br>Ports and LPT: Silicon Labs CP210x USB to UART Bridge (COM4) (modified cable)<br>Universal Serial Bus Controllers: nothing showing<br>i.e If you have the wrong cable for the radio, Windows normaly displays a message to indicate a USB problem.<br>If nothing happens when you plug in the USB cable, then something is very broken, i..e the radio or the cable.<br>I have two 1701s both on Firmware 20231231192808 [140939c 1] same issue with both<br>I have two cables one modified, the other OEM Baofeng and neither work.<br>I have two laptops, both running Window 10 and have tied both without success.<br>My radios were working fine under OpenGD77. I changed nothing. Is this a Windows 10 issue?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5617">G0NQA</a> — Wed Apr 23, 2025 5:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-22T23:09:56</updated>
+
+		<published>2025-04-22T23:09:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36868#p36868</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36868#p36868"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36868#p36868"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>I'm having the same issue i.e no DFU mode even with my modified cable that worked with previous versions of OpenGD77 CPS. I've updated to latest CPS but it won't work with my 1701 so can't update firmware. CPS unable to communicate with radio loop is very frustrating. I'm using Windows 10.</div></blockquote>This is DFU mode that you try ? <br>(Start radio when pressing SK1 and PTT)<br><br>Does anything new appear in the windows device manager ?<br>The DFU driver should appear under <br>STM_driver_in_DFU_mode.JPG</div></blockquote><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>I'm having the same issue i.e no DFU mode even with my modified cable that worked with previous versions of OpenGD77 CPS. I've updated to latest CPS but it won't work with my 1701 so can't update firmware. CPS unable to communicate with radio loop is very frustrating. I'm using Windows 10.</div></blockquote>This is DFU mode that you try ? <br>(Start radio when pressing SK1 and PTT)<br><br>Does anything new appear in the windows device manager ?<br>The DFU driver should appear under <br>STM_driver_in_DFU_mode.JPG</div></blockquote>Nothing showing.</div></blockquote>A few things to check<br><br>1. Is you radio in DFU mode?<br>2. When you plug the cable is there any change in the Windows device managed ?<br>i.e If you have the wrong cable for the radio, Windows normaly displays a message to indicate a USB problem.<br>If nothing happens when you plug in the USB cable, then something is very broken, i..e the radio or the cable.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 22, 2025 11:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0NQA]]></name></author>
+		<updated>2025-04-22T21:16:01</updated>
+
+		<published>2025-04-22T21:16:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36867#p36867</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36867#p36867"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36867#p36867"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>The firmware update is not via the COM port, so it doesn't matter whether the COM port works or not.</div></blockquote>I'm having the same issue i.e no DFU mode even with my modified cable that worked with previous versions of OpenGD77 CPS. I've updated to latest CPS but it won't work with my 1701 so can't update firmware. CPS unable to communicate with radio loop is very frustrating. I'm using Windows 10.</div></blockquote>This is DFU mode that you try ? <br>(Start radio when pressing SK1 and PTT)<br><br>Does anything new appear in the windows device manager ?<br>The DFU driver should appear under <div class="inline-attachment"><!-- ia0 -->STM_driver_in_DFU_mode.JPG<!-- ia0 --></div></div></blockquote><blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>The firmware update is not via the COM port, so it doesn't matter whether the COM port works or not.</div></blockquote>I'm having the same issue i.e no DFU mode even with my modified cable that worked with previous versions of OpenGD77 CPS. I've updated to latest CPS but it won't work with my 1701 so can't update firmware. CPS unable to communicate with radio loop is very frustrating. I'm using Windows 10.</div></blockquote>This is DFU mode that you try ? <br>(Start radio when pressing SK1 and PTT)<br><br>Does anything new appear in the windows device manager ?<br>The DFU driver should appear under <div class="inline-attachment"><!-- ia0 -->STM_driver_in_DFU_mode.JPG<!-- ia0 --></div></div></blockquote>Nothing showing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5617">G0NQA</a> — Tue Apr 22, 2025 9:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-22T13:46:12</updated>
+
+		<published>2025-04-22T13:46:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36864#p36864</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36864#p36864"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36864#p36864"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Where can I get an older cps so I can at least establish communication.</div></blockquote>The firmware update is not via the COM port, so it doesn't matter whether the COM port works or not.</div></blockquote>I'm having the same issue i.e no DFU mode even with my modified cable that worked with previous versions of OpenGD77 CPS. I've updated to latest CPS but it won't work with my 1701 so can't update firmware. CPS unable to communicate with radio loop is very frustrating. I'm using Windows 10.</div></blockquote>This is DFU mode that you try ? <br>(Start radio when pressing SK1 and PTT)<br><br>Does anything new appear in the windows device manager ?<br>The DFU driver should appear under <div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2927&amp;sid=63fedb1b97cffb432abfe497b0049374" class="postimage" alt="STM_driver_in_DFU_mode.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Apr 22, 2025 1:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0NQA]]></name></author>
+		<updated>2025-04-22T12:10:04</updated>
+
+		<published>2025-04-22T12:10:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36863#p36863</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36863#p36863"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36863#p36863"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Where can I get an older cps so I can at least establish communication.</div></blockquote>The firmware update is not via the COM port, so it doesn't matter whether the COM port works or not.</div></blockquote>I'm having the same issue i.e no DFU mode even with my modified cable that worked with previous versions of OpenGD77 CPS. I've updated to latest CPS but it won't work with my 1701 so can't update firmware. CPS unable to communicate with radio loop is very frustrating. I'm using Windows 10.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5617">G0NQA</a> — Tue Apr 22, 2025 12:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2VL]]></name></author>
+		<updated>2025-04-20T00:38:47</updated>
+
+		<published>2025-04-20T00:38:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36851#p36851</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36851#p36851"/>
+		<title type="html"><![CDATA[Re: No Comm Port Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4153&amp;p=36851#p36851"><![CDATA[
+Thank you for the advice. Firmware now updated and able to program.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8481">VK2VL</a> — Sun Apr 20, 2025 12:38 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

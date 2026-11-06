@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3638" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-01-01T20:21:03</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3638</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-01T20:21:03</updated>
+
+		<published>2024-01-01T20:21:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3638&amp;p=28387#p28387</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3638&amp;p=28387#p28387"/>
+		<title type="html"><![CDATA[Re: GD77 NO Prog Modus, Rom Error please Help]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3638&amp;p=28387#p28387"><![CDATA[
+<blockquote class="uncited"><div>Hello guys, I'm new here and have had my first DMR device for 3 days and have already programmed it to death, I've been looking to solve this problem for days. Resetting the GD77 using the key combination was unsuccessful. The problem is I get into update mode (both side buttons under PTT and switch on at the same time) I can't get into update mode at all anymore, when I go to Id Info in the menu in the GD77 then the last line says ROM Error_01<br>I would be very grateful if someone could help me, thanks in advance, Reini</div></blockquote>Sounds like you are running the official firmware and have somehow corrupted the Flash memory or the ROM in the CPU<br><br>The only way to recover from this is to open the radio and connect a hardware programmer dongle to the CPU, to erase it and the reprogram the bootloader<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 01, 2024 8:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE5OBR]]></name></author>
+		<updated>2024-01-01T10:34:56</updated>
+
+		<published>2024-01-01T10:34:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3638&amp;p=28375#p28375</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3638&amp;p=28375#p28375"/>
+		<title type="html"><![CDATA[GD77 NO Prog Modus, Rom Error please Help]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3638&amp;p=28375#p28375"><![CDATA[
+Hello guys, I'm new here and have had my first DMR device for 3 days and have already programmed it to death, I've been looking to solve this problem for days. Resetting the GD77 using the key combination was unsuccessful. The problem is I get into update mode (both side buttons under PTT and switch on at the same time) I can't get into update mode at all anymore, when I go to Id Info in the menu in the GD77 then the last line says ROM Error_01<br>I would be very grateful if someone could help me, thanks in advance, Reini<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5291">OE5OBR</a> — Mon Jan 01, 2024 10:34 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

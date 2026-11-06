@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5139" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-27T22:39:38</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5139</id>
+
+		<entry>
+		<author><name><![CDATA[VK3TV]]></name></author>
+		<updated>2025-05-27T22:39:38</updated>
+
+		<published>2025-05-27T22:39:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37250#p37250</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37250#p37250"/>
+		<title type="html"><![CDATA[Re: COM Ports Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37250#p37250"><![CDATA[
+I had no problems when I used another Laptop, I was able to update the firmware and data base.  <br>The same problem popped up on the FB group and the<br>reply was posted.<br><br>I was able to resolve the issue with the following steps: (spoiler alert: It was not discoverable as a Com port device until AFTER it was flashed.)<br>Full un-install of the OpenGD77 CPS<br>Regedt32 as admin<br>Edit: Find: VID_15A2&amp;PID_0073 (Under Devices, HID Devices, Properties, Details, Hardware Ids (and confirmed with a linux machine for the USB connection to the radio)<br>Delete all the keys with that info in them.<br>Edit: Find: opengd77<br>Delete all the keys with that info<br>reboot the PC<br>Install the OpenGD77 CPS software, allowing driver as Admin.<br>Without running the CPS, I re-connected the radio both in normal and DFU modes.<br>No Change in discovering hardware. (Still HID Device)<br>Turned off and disconnected radio<br>Connected cable to radio, Turn on in DFU Mode.<br>Connect to USB<br>Opened OpenGD77 CPS as Admin.<br>Select Extras, Firmware Loader,<br>Click "Select official firmware (donor) file"<br>Select the GD-77_V4.3.6.sgl<br>Click "Select a File &amp; Update"<br>Select OpenGD770513.zip<br>It FINALLY was able to find and upload to the radio.<br>After completion, it rebooted the radio, and now it is found as OpenGD77 (Com3)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6541">VK3TV</a> — Tue May 27, 2025 10:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-25T01:28:25</updated>
+
+		<published>2025-05-25T01:28:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37218#p37218</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37218#p37218"/>
+		<title type="html"><![CDATA[Re: COM Ports Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37218#p37218"><![CDATA[
+<blockquote class="uncited"><div>Thanks, but still no luck unfortunately.<br>When I connect the radio the Device Manager refreshes and shows 'OpenGD77 (COM3)' <br>But I'm still getting an error message, 'Com port unavailable' when I try to read or write to the radio.</div></blockquote>Possibly you have GPS logging turned.<br><br>Try doing a settings reset.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 25, 2025 1:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3TV]]></name></author>
+		<updated>2025-05-24T21:18:37</updated>
+
+		<published>2025-05-24T21:18:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37213#p37213</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37213#p37213"/>
+		<title type="html"><![CDATA[Re: COM Ports Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37213#p37213"><![CDATA[
+Thanks, but still no luck unfortunately.<br>When I connect the radio the Device Manager refreshes and shows 'OpenGD77 (COM3)' <br>But I'm still getting an error message, 'Com port unavailable' when I try to read or write to the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6541">VK3TV</a> — Sat May 24, 2025 9:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-24T07:57:15</updated>
+
+		<published>2025-05-24T07:57:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37204#p37204</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37204#p37204"/>
+		<title type="html"><![CDATA[Re: COM Ports Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37204#p37204"><![CDATA[
+Don't put the radio into DFU mode except when loading firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat May 24, 2025 7:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3TV]]></name></author>
+		<updated>2025-05-24T07:44:38</updated>
+
+		<published>2025-05-24T07:44:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37203#p37203</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37203#p37203"/>
+		<title type="html"><![CDATA[COM Ports Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5139&amp;p=37203#p37203"><![CDATA[
+Hello,<br>I have been running OpenGD77 on my RT3S and everything was working fine. After downloading updating the call sign data base, I was unable to write to the radio. Only COM3 and COM4 are showing in the popup com port window. STM Device in DFU Mode is showing up in USB Controllers.<br>The Firmware Loader updated the Official (doner) File and Open Firmware &amp; Update. <br>So basically I am unable to read and write anything to the radio.<br>Any help appreciated thanks.<br>Mal - VK3TV<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6541">VK3TV</a> — Sat May 24, 2025 7:44 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

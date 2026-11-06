@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3649" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-08T18:17:31</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3649</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-08T18:17:31</updated>
+
+		<published>2024-04-08T18:17:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30710#p30710</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30710#p30710"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30710#p30710"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hallo<br><br>I revised the deutsch.h again.<br>I hope it fits now.<br><br>Greeting<br>René</div></blockquote>Okay, it looks fine. I see you also made few other changes.<br>So, I fixed the code alignment, hence I've attached the latest version, that you could use as a working copy.<br><br><br>Cheers.<br>---<br>Daniel<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2349&amp;sid=62bcaaf443cce364ec970fec3182cd13">german.h.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 08, 2024 6:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB9WCN]]></name></author>
+		<updated>2024-04-08T17:15:05</updated>
+
+		<published>2024-04-08T17:15:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30707#p30707</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30707#p30707"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30707#p30707"><![CDATA[
+Hallo<br><br>I revised the deutsch.h again.<br>I hope it fits now.<br><br>Greeting<br>René<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2348&amp;sid=62bcaaf443cce364ec970fec3182cd13">german_HB9WCN.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3859">HB9WCN</a> — Mon Apr 08, 2024 5:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-08T13:54:59</updated>
+
+		<published>2024-04-08T13:54:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30702#p30702</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30702#p30702"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30702#p30702"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hello<br><br>I have also revised the language files for the devices. I just made an adjustment to the designation Rx/Tx. Now everything is written in the same capital (RX/TX). It's just a detail, but maybe it can be incorporated.<br><br>Greeting<br>René</div></blockquote>The dmr_force_dmo is too long.<br><br>Also, don't bother to send the GLA file, we build it all the time.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 08, 2024 1:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB9WCN]]></name></author>
+		<updated>2024-04-08T09:13:22</updated>
+
+		<published>2024-04-08T09:13:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30698#p30698</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30698#p30698"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30698#p30698"><![CDATA[
+Hello<br><br>I have also revised the language files for the devices. I just made an adjustment to the designation Rx/Tx. Now everything is written in the same capital (RX/TX). It's just a detail, but maybe it can be incorporated.<br><br>Greeting<br>René<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2344&amp;sid=62bcaaf443cce364ec970fec3182cd13">German_CPS_HB9WCN.zip</a></dt></dl><br /><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2343&amp;sid=62bcaaf443cce364ec970fec3182cd13">German_MD380_HB9WCN.zip</a></dt></dl><br /><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2342&amp;sid=62bcaaf443cce364ec970fec3182cd13">german_HB9WCN.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3859">HB9WCN</a> — Mon Apr 08, 2024 9:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-27T16:31:03</updated>
+
+		<published>2024-03-27T16:31:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30398#p30398</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30398#p30398"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30398#p30398"><![CDATA[
+Hi Rafa,<br><blockquote class="uncited"><div>Ok... Here we go !!<br><br>Find attached SpanishCatalan.xml<br><br>While checking this one, I noticed Spanish does need a few fixes so, I'll send it in a while...<br><br>Cheers,<br>Rafa.</div></blockquote>Thanks for the Catalan update. I've attached the resulting file (nothing has changed, except I removed some trailing spaces/tabs.<br><br><br>Cheers.<br>---<br>Daniel<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2294&amp;sid=62bcaaf443cce364ec970fec3182cd13">SpanishCatalan.xml.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Mar 27, 2024 4:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-03-27T15:22:48</updated>
+
+		<published>2024-03-27T15:22:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30395#p30395</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30395#p30395"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30395#p30395"><![CDATA[
+Ok... Here we go !!<br><br>Find attached SpanishCatalan.xml<br><br>While checking this one, I noticed Spanish does need a few fixes so, I'll send it in a while...<br><br>Cheers,<br>Rafa.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2293&amp;sid=62bcaaf443cce364ec970fec3182cd13">SpanishCatalan.xml.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Wed Mar 27, 2024 3:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-26T08:01:00</updated>
+
+		<published>2024-03-26T08:01:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30376#p30376</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30376#p30376"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30376#p30376"><![CDATA[
+<blockquote class="uncited"><div>As today is a really "grey day" (rainy and cloudy) I guess I'll have time to check all translations...</div></blockquote>Okay (same WX here).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 26, 2024 8:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-03-26T07:57:32</updated>
+
+		<published>2024-03-26T07:57:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30375#p30375</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30375#p30375"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30375#p30375"><![CDATA[
+<blockquote class="uncited"><div>Hi Rafa,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Hi Rafa,<br><br><br><br>Okay, please use the attached XML file for you next update(s) (or if you want to test it), as I had to hand merge that because few fixes were made since the last release.<br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>Ok Daniel.<br><br>The file I created was line by Iine compared to English version in order to not leaving things behind.<br><br><br>Will use that new one you attached.<br><br>Cheers</div></blockquote>Yeah, that is fine, but English XML file has also got some fixes/cleanups, which aren't released yet, this is why I had to do that by hand and post the resulting file here <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>As today is a really "grey day" (rainy and cloudy) I guess I'll have time to check all translations...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Tue Mar 26, 2024 7:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-03-26T07:55:04</updated>
+
+		<published>2024-03-26T07:55:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30374#p30374</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30374#p30374"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30374#p30374"><![CDATA[
+<blockquote class="uncited"><div>Hi Rafa,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Hi Rafa,<br><br><br><br>Okay, please use the attached XML file for you next update(s) (or if you want to test it), as I had to hand merge that because few fixes were made since the last release.<br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>Ok Daniel.<br><br>The file I created was line by Iine compared to English version in order to not leaving things behind.<br><br><br>Will use that new one you attached.<br><br>Cheers</div></blockquote>Yeah, that is fine, but English XML file has also got some fixes/cleanups, which aren't released yet, this is why I had to do that by hand and post the resulting file here <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br><br>Cheers.<br>---<br>Daniel</div></blockquote>Oky... Thanks !!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Tue Mar 26, 2024 7:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-26T07:54:02</updated>
+
+		<published>2024-03-26T07:54:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30373#p30373</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30373#p30373"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30373#p30373"><![CDATA[
+Hi Rafa,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Hi Rafa,<br><blockquote class="uncited"><div>Hi,<br><br>Please find attached Spanish.xml CPS file.<br><br>I've added all missing lines versus English version... BTW:<br>I noticed "Utils" menu was duplicated on English version...(See attachment)<br><br>I'll wait to have "hands on Catalan" till you tell Spanish is OK 'cause I use Spanish as base to produce Catalan.<br><br><br>Cheers,<br>Rafa.</div></blockquote>Okay, please use the attached XML file for you next update(s) (or if you want to test it), as I had to hand merge that because few fixes were made since the last release.<br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>Ok Daniel.<br><br>The file I created was line by Iine compared to English version in order to not leaving things behind.<br><br><br>Will use that new one you attached.<br><br>Cheers</div></blockquote>Yeah, that is fine, but English XML file has also got some fixes/cleanups, which aren't released yet, this is why I had to do that by hand and post the resulting file here <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 26, 2024 7:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-03-26T07:51:57</updated>
+
+		<published>2024-03-26T07:51:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30372#p30372</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30372#p30372"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30372#p30372"><![CDATA[
+<blockquote class="uncited"><div>Hi Rafa,<br><blockquote class="uncited"><div>Hi,<br><br>Please find attached Spanish.xml CPS file.<br><br>I've added all missing lines versus English version... BTW:<br>I noticed "Utils" menu was duplicated on English version...(See attachment)<br><br>I'll wait to have "hands on Catalan" till you tell Spanish is OK 'cause I use Spanish as base to produce Catalan.<br><br><br>Cheers,<br>Rafa.</div></blockquote>Okay, please use the attached XML file for you next update(s) (or if you want to test it), as I had to hand merge that because few fixes were made since the last release.<br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>Ok Daniel.<br><br>The file I created was line by Iine compared to English version in order to not leaving things behind.<br><br><br>Will use that new one you attached.<br><br>Cheers<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Tue Mar 26, 2024 7:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-26T07:42:49</updated>
+
+		<published>2024-03-26T07:42:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30371#p30371</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30371#p30371"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30371#p30371"><![CDATA[
+Hi Rafa,<br><blockquote class="uncited"><div>Hi,<br><br>Please find attached Spanish.xml CPS file.<br><br>I've added all missing lines versus English version... BTW:<br>I noticed "Utils" menu was duplicated on English version...(See attachment)<br><br>I'll wait to have "hands on Catalan" till you tell Spanish is OK 'cause I use Spanish as base to produce Catalan.<br><br><br>Cheers,<br>Rafa.</div></blockquote>Okay, please use the attached XML file for you next update(s) (or if you want to test it), as I had to hand merge that because few fixes were made since the last release.<br><br>Cheers.<br>---<br>Daniel<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2292&amp;sid=62bcaaf443cce364ec970fec3182cd13">Spanish.xml.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 26, 2024 7:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-26T07:18:57</updated>
+
+		<published>2024-03-26T07:18:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30370#p30370</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30370#p30370"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30370#p30370"><![CDATA[
+Hi Rafa,<br><blockquote class="uncited"><div>Hi,<br><br>Please find attached Spanish.xml CPS file.<br><br>I've added all missing lines versus English version... BTW:<br>I noticed "Utils" menu was duplicated on English version...(See attachment)<br><br>I'll wait to have "hands on Catalan" till you tell Spanish is OK 'cause I use Spanish as base to produce Catalan.<br><br><br>Cheers,<br>Rafa.</div></blockquote>Okay. Thanks for the update, I will process it later today.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 26, 2024 7:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2024-03-25T19:19:23</updated>
+
+		<published>2024-03-25T19:19:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30362#p30362</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30362#p30362"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=30362#p30362"><![CDATA[
+Hi,<br><br>Please find attached Spanish.xml CPS file.<br><br>I've added all missing lines versus English version... BTW:<br>I noticed "Utils" menu was duplicated on English version...(See attachment)<br><br>I'll wait to have "hands on Catalan" till you tell Spanish is OK 'cause I use Spanish as base to produce Catalan.<br><br><br>Cheers,<br>Rafa.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2291&amp;sid=62bcaaf443cce364ec970fec3182cd13" class="postimage" alt="English CPS error.png" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2290&amp;sid=62bcaaf443cce364ec970fec3182cd13">CPS_Spanish.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Mon Mar 25, 2024 7:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-15T22:42:26</updated>
+
+		<published>2024-02-15T22:42:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3649&amp;p=29552#p29552</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=29552#p29552"/>
+		<title type="html"><![CDATA[Re: Updated localisation files 2024 01 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3649&amp;p=29552#p29552"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I will be contacting all translators via email asking them to check and update their translations if possible, however there are several people I do not have email addresses for.<br><br>Please can all translators review the translation file, because I think many languages are not fully translated or not translated at all.<br><br>I also noticed that the CPS is not translated into all languages that the firmware and voice prompts have been translated into, e.g. Dutch and Hungarian etc are missing <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":-(" title="Sad"></div></blockquote>Hi Roger, the Portuguese Brazilian translation has several texts not translated. I wanna help to translate to this language, if the original translator can't do.<br><br>Please point me to the right directions to do so.</div></blockquote>We have some changed pending for Portuguese Brazilian; please wait until after the next release<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 15, 2024 10:42 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

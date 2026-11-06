@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3309" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-10-20T16:31:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3309</id>
+
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-20T16:31:57</updated>
+
+		<published>2023-10-20T16:31:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26960#p26960</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26960#p26960"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26960#p26960"><![CDATA[
+<blockquote class="uncited"><div>I've been unable to find a working link to a stable version?</div></blockquote>Just for those following along <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> the link for the stable version is:<br><a href="https://www.opengd77.com/downloads/PC_CPS_20230910/Latest/" class="postlink">downloads/PC_CPS_20230910/Latest/</a><br>BUT - I'm told that also has the CSV export bug.<br>For some mysterious reason <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mrgreen.gif" width="15" height="17" alt=":mrgreen:" title="Mr. Green"> the only known-to-me mention of newer beta versions with the bug fixed is in this thread:<br><a href="https://www.opengd77.com/viewtopic.php?f=16&amp;t=3352" class="postlink">viewtopic.php?f=16&amp;t=3352</a><br>and the link is <a href="https://www.opengd77.com/downloads/PC_CPS_20230910/Experimental/" class="postlink">downloads/PC_CPS_20230910/Experimental/</a><br><br>DMR on!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Fri Oct 20, 2023 4:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-20T04:25:55</updated>
+
+		<published>2023-10-20T04:25:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26941#p26941</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26941#p26941"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26941#p26941"><![CDATA[
+I've been unable to find a working link to a stable version?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Fri Oct 20, 2023 4:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-20T04:12:58</updated>
+
+		<published>2023-10-20T04:12:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26939#p26939</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26939#p26939"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26939#p26939"><![CDATA[
+The <strong class="text-strong">someone</strong> is <span style="text-decoration:underline">ME</span><br><br>You want to use beta software, but don't follow the development versions.<br>That's the price to pay. Otherwise use stable releases.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Oct 20, 2023 4:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-20T04:09:46</updated>
+
+		<published>2023-10-20T04:09:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26938#p26938</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26938#p26938"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26938#p26938"><![CDATA[
+<blockquote class="uncited"><div>This is only a problem in the CPS in the Export / Import to CSV and is fixed in the next release</div></blockquote>Good to hear, someone told me I was nuts when I reported it and somehow locked my message  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_eek.gif" width="15" height="17" alt=":shock:" title="Shocked"><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3391" class="postlink">viewtopic.php?f=12&amp;t=3391</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Fri Oct 20, 2023 4:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-10-03T02:51:33</updated>
+
+		<published>2023-10-03T02:51:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26650#p26650</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26650#p26650"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26650#p26650"><![CDATA[
+<blockquote class="uncited"><div>There appears to be another bug, this one involving the Color Code.  R2023.05.08.01 properly exported the color code field to CSV but the latest, and previous release, write a zero to the Color Code column when you exports to CSV.</div></blockquote>The problem was that the export function was reading the Rx CC value from the Channel data not the Tx CC.<br><br>The firmware only ever used the Tx CC, and the Rx CC byte got re-used for the Lat/Lon in the last release<br><br>This is only a problem in the CPS in the Export / Import to CSV and is fixed in the next release<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 03, 2023 2:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-10-02T19:35:06</updated>
+
+		<published>2023-10-02T19:35:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26647#p26647</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26647#p26647"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26647#p26647"><![CDATA[
+<blockquote class="uncited"><div>There appears to be another bug, this one involving the Color Code.  R2023.05.08.01 properly exported the color code field to CSV but the latest, and previous release, write a zero to the Color Code column when you exports to CSV.</div></blockquote>Strange..<br><br>AFIK nothing was changed with the export.<br><br>However there was a duplicate CC value in the channel data structure and potentially the CSV code may be using the wrong byte in the channel data<br><br>I will need to check<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 02, 2023 7:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kg0rp]]></name></author>
+		<updated>2023-10-02T16:40:22</updated>
+
+		<published>2023-10-02T16:40:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26643#p26643</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26643#p26643"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26643#p26643"><![CDATA[
+There appears to be another bug, this one involving the Color Code.  R2023.05.08.01 properly exported the color code field to CSV but the latest, and previous release, write a zero to the Color Code column when you exports to CSV.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4064">kg0rp</a> — Mon Oct 02, 2023 4:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-10-01T14:29:06</updated>
+
+		<published>2023-10-01T14:29:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26630#p26630</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26630#p26630"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26630#p26630"><![CDATA[
+It is in the first post:<br><blockquote class="uncited"><div><br>The password is the release version<br><br>R2023.09.21.01</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Sun Oct 01, 2023 2:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M0RLF]]></name></author>
+		<updated>2023-10-01T13:49:20</updated>
+
+		<published>2023-10-01T13:49:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26629#p26629</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26629#p26629"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26629#p26629"><![CDATA[
+what is the password?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4120">M0RLF</a> — Sun Oct 01, 2023 1:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1TBP]]></name></author>
+		<updated>2023-09-29T14:58:58</updated>
+
+		<published>2023-09-29T14:58:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26603#p26603</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26603#p26603"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26603#p26603"><![CDATA[
+Thank you! 73, Helmut DO1TBP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3156">DO1TBP</a> — Fri Sep 29, 2023 2:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3HDD]]></name></author>
+		<updated>2023-09-21T17:43:39</updated>
+
+		<published>2023-09-21T17:43:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26449#p26449</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26449#p26449"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26449#p26449"><![CDATA[
+Thanks for your work 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4142">EA3HDD</a> — Thu Sep 21, 2023 5:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LU2BAM]]></name></author>
+		<updated>2023-09-21T11:56:16</updated>
+
+		<published>2023-09-21T11:56:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26444#p26444</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26444#p26444"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26444#p26444"><![CDATA[
+¡Gracias por el esfuerzo de su trabajo!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2984">LU2BAM</a> — Thu Sep 21, 2023 11:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2023-09-21T05:00:07</updated>
+
+		<published>2023-09-21T05:00:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26435#p26435</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26435#p26435"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26435#p26435"><![CDATA[
+thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Thu Sep 21, 2023 5:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2023-09-21T00:59:36</updated>
+
+		<published>2023-09-21T00:59:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26431#p26431</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26431#p26431"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26431#p26431"><![CDATA[
+<blockquote class="uncited"><div>I new CPS is available, which fixed the problem with Latitide and Longitude values between 0 and -1.0000 deg<br><br><a href="https://www.opengd77.com/downloads/PC_CPS_20230910/Latest/OpenGD77CPSInstaller_R2023.09.21.01.exe" class="postlink">downloads/PC_CPS_20230910/Latest/OpenGD ... .21.01.exe</a><br><br>Note.<br>Because of problems with Google automatically scanning any exe's on this site and the blocking access to them, I'm now trying password protecting the installer<br><br>The password is the release version<br><br>R2023.09.21.01</div></blockquote><br>Once more:<br><br>Thanks a lot for your helping !!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Thu Sep 21, 2023 12:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-20T22:23:10</updated>
+
+		<published>2023-09-20T22:23:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26423#p26423</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26423#p26423"/>
+		<title type="html"><![CDATA[New bug fix Beta 2023 09 21]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3309&amp;p=26423#p26423"><![CDATA[
+I new CPS is available, which fixed the problem with Latitide and Longitude values between 0 and -1.0000 deg<br><br><a href="https://www.opengd77.com/downloads/PC_CPS_20230910/Latest/OpenGD77CPSInstaller_R2023.09.21.01.exe" class="postlink">downloads/PC_CPS_20230910/Latest/OpenGD ... .21.01.exe</a><br><br>Note.<br>Because of problems with Google automatically scanning any exe's on this site and the blocking access to them, I'm now trying password protecting the installer<br><br>The password is the release version<br><br>R2023.09.21.01<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 20, 2023 10:23 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

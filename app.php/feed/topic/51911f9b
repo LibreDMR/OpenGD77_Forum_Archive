@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5191" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-10T16:42:56</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5191</id>
+
+		<entry>
+		<author><name><![CDATA[EI4JFB]]></name></author>
+		<updated>2025-07-10T16:42:56</updated>
+
+		<published>2025-07-10T16:42:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37698#p37698</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37698#p37698"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37698#p37698"><![CDATA[
+<a href="https://drive.google.com/file/d/1CX1IpTOYv7k7Et629QgqIQooZbwssC_r/view?usp=drivesdk" class="postlink">https://drive.google.com/file/d/1CX1IpT ... p=drivesdk</a>.<br><br>It's the 226 version worked for me with the gps.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8842">EI4JFB</a> — Thu Jul 10, 2025 4:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-04T06:35:52</updated>
+
+		<published>2025-07-04T06:35:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37656#p37656</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37656#p37656"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37656#p37656"><![CDATA[
+<blockquote class="uncited"><div>I'm so happy I could cry <img alt="😂" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f602.svg">. Finally I managed to get the original firmware back in. I did nothing profound, just kept  flashing back and forth between Opengd77 and different versions of Tyt firmware and finally one worked. I'd like to thank everyone who helped me these last few days. It was very much appreciated. It was certainly a learning curve on my end. <br><br>Shay.<br>Ei4JFB</div></blockquote>What version was that ?<br>Do you have some link to it for download ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Jul 04, 2025 6:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EI4JFB]]></name></author>
+		<updated>2025-07-03T21:07:20</updated>
+
+		<published>2025-07-03T21:07:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37651#p37651</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37651#p37651"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37651#p37651"><![CDATA[
+I'm so happy I could cry <img alt="😂" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f602.svg">. Finally I managed to get the original firmware back in. I did nothing profound, just kept  flashing back and forth between Opengd77 and different versions of Tyt firmware and finally one worked. I'd like to thank everyone who helped me these last few days. It was very much appreciated. It was certainly a learning curve on my end. <br><br>Shay.<br>Ei4JFB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8842">EI4JFB</a> — Thu Jul 03, 2025 9:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-07-02T16:11:16</updated>
+
+		<published>2025-07-02T16:11:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37625#p37625</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37625#p37625"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37625#p37625"><![CDATA[
+There is one other thing you could try. It is possible that the radio configuration data has been corrupted.<br> <br>There is a special program that TYT uses to assign configuration data to a radio. <br>Using it you can change the radio type, display type, etc. <br><br>There are no instructions. Use it at your own risk... <br><br><a href="gb3gf.co.uk/Files/MD9600_Customer_Factory.zip" class="postlink">gb3gf.co.uk/Files/MD9600_Customer_Factory.zip</a><br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Jul 02, 2025 4:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-02T10:25:44</updated>
+
+		<published>2025-07-02T10:25:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37623#p37623</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37623#p37623"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37623#p37623"><![CDATA[
+<blockquote class="uncited"><div>Yeah Im beginning to think whatever factory firmware versions are about are not compatible with the radio I have. I'm not sure which mcu I have. I'll have to pop the hood and take a look.</div></blockquote>I googled for the error message you posted, and people first reported this in 2019 on other forums.<br><br>Speculation was that the problem was a mismatch between the official CPS version, and the official firmware version in the radio.<br><br>There is still the possibility that the problem is the data in the memory, but you are not the first person to reload the official firmware back onto a MD9600, and the usual symptom of incompatible data in the memory, is that the radio becomes locked via a PIN number, and we there is a known solution to this by editing the official CPS .ini config file<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jul 02, 2025 10:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-02T07:50:21</updated>
+
+		<published>2025-07-02T07:50:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37622#p37622</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37622#p37622"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37622#p37622"><![CDATA[
+<blockquote class="uncited"><div>Yeah Im beginning to think whatever factory firmware versions are about are not compatible with the radio I have. I'm not sure which mcu I have. I'll have to pop the hood and take a look.</div></blockquote>Later opengd77 versions detect the mcu/cpu and displays it in "Firmware info"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jul 02, 2025 7:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EI4JFB]]></name></author>
+		<updated>2025-07-01T22:18:22</updated>
+
+		<published>2025-07-01T22:18:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37620#p37620</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37620#p37620"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37620#p37620"><![CDATA[
+Yeah Im beginning to think whatever factory firmware versions are about are not compatible with the radio I have. I'm not sure which mcu I have. I'll have to pop the hood and take a look.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8842">EI4JFB</a> — Tue Jul 01, 2025 10:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-01T16:19:49</updated>
+
+		<published>2025-07-01T16:19:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37619#p37619</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37619#p37619"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37619#p37619"><![CDATA[
+<blockquote class="uncited"><div>Ok so I tried using  Flash restore in Opengd77  support menu. and then popped the radio into DFU mode and tried flahing factory firmware using TYT Bootupdate V3.07. The radio takes the flash ok but on powerup the screen is just white and none of the buttons are responsive. Im getting close to admitting defeat on this. <br><br>Shay <br><br>EI4JFB</div></blockquote>It could still be that you don't have the correct factory firmware, that's the the problem with the recent radios that have minor differences. <br>Does this radio have a TYT or STM MCU? <br><br>A special firmware version may be needed for radios with TYT mcu's.<br><br>I'm not sure that I want to test going back to factory on my new MD-9600 as I can't find the version that radio was installed with.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jul 01, 2025 4:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EI4JFB]]></name></author>
+		<updated>2025-07-01T16:11:57</updated>
+
+		<published>2025-07-01T16:11:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37618#p37618</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37618#p37618"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37618#p37618"><![CDATA[
+Ok so I tried using  Flash restore in Opengd77  support menu. and then popped the radio into DFU mode and tried flahing factory firmware using TYT Bootupdate V3.07. The radio takes the flash ok but on powerup the screen is just white and none of the buttons are responsive. Im getting close to admitting defeat on this. <br><br>Shay <br><br>EI4JFB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8842">EI4JFB</a> — Tue Jul 01, 2025 4:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EI4JFB]]></name></author>
+		<updated>2025-06-28T11:10:36</updated>
+
+		<published>2025-06-28T11:10:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37590#p37590</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37590#p37590"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37590#p37590"><![CDATA[
+I understand now. I'm now wondering if that's been my problem all along  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_surprised.gif" width="15" height="17" alt=":o" title="Surprised">. Ill try that when I get home and let you know my progress. Thanks for the help.<br><br>Shay<br>EI4JFB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8842">EI4JFB</a> — Sat Jun 28, 2025 11:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-28T07:38:01</updated>
+
+		<published>2025-06-28T07:38:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37587#p37587</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37587#p37587"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37587#p37587"><![CDATA[
+<blockquote class="uncited"><div>Ahh. No I didn't do that.. in fact I wasn't aware you could do that with Opengd77 cps. I'll give that a try when I get home. Thanks again for the help.</div></blockquote>ok, The flash backup is only a backup of the 16 MB flash memory which is used for config/voice recording/contact database or other stuff that <br>the manufacture store.<br>So the task is to restore the memory structure to the layout that original firmware requires.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 28, 2025 7:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EI4JFB]]></name></author>
+		<updated>2025-06-28T07:15:25</updated>
+
+		<published>2025-06-28T07:15:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37586#p37586</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37586#p37586"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37586#p37586"><![CDATA[
+Ahh. No I didn't do that.. in fact I wasn't aware you could do that with Opengd77 cps. I'll give that a try when I get home. Thanks again for the help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8842">EI4JFB</a> — Sat Jun 28, 2025 7:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-28T05:02:53</updated>
+
+		<published>2025-06-28T05:02:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37584#p37584</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37584#p37584"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37584#p37584"><![CDATA[
+<blockquote class="uncited"><div>I downloaded and tried flashing your firmware backup. but it fails after a few seconds saying.. "cannot erase" then the screen goes white.. <img alt="🥴" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f974.svg">. I appreciate the share. Thanks <img alt="👍" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f44d.svg"></div></blockquote>Did you use the OpenGD77 CPS  "Restore Flash" for the restore ?<br><br>The procedure going back to factory firmware from OpenGD77 is:<br>1. Restore the flash backup via OpenGD77 CPS when still running OpenGD77 <br>2. Start radio in DFU mode and use the factory firmware updater to load factory firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 28, 2025 5:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EI4JFB]]></name></author>
+		<updated>2025-06-28T00:03:56</updated>
+
+		<published>2025-06-28T00:03:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37582#p37582</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37582#p37582"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37582#p37582"><![CDATA[
+I downloaded and tried flashing your firmware backup. but it fails after a few seconds saying.. "cannot erase" then the screen goes white.. <img alt="🥴" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f974.svg">. I appreciate the share. Thanks <img alt="👍" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f44d.svg"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8842">EI4JFB</a> — Sat Jun 28, 2025 12:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-27T06:37:14</updated>
+
+		<published>2025-06-27T06:37:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37570#p37570</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37570#p37570"/>
+		<title type="html"><![CDATA[Re: Trouble Flashing Stock Firmware.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5191&amp;p=37570#p37570"><![CDATA[
+<blockquote class="uncited"><div>Yeah that would be worth a shot. If anyone could provide me with their V5 firmware backup file I'd be much obliged. Failing that I'm at a loss</div></blockquote>Here's one I made recently on a new MD-9600<br>Radio was running S126.061 , CP Ver: V01.28<br>Serial no: 2503A02852<br><br><a href="https://www.sa0bux.se/Ham/opengd77/V5_radio.7z" class="postlink">https://www.sa0bux.se/Ham/opengd77/V5_radio.7z</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Jun 27, 2025 6:37 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

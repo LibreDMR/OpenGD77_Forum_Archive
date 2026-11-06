@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/118" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-11-26T05:11:20</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/118</id>
+
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2019-11-26T05:11:20</updated>
+
+		<published>2019-11-26T05:11:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=835#p835</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=835#p835"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=835#p835"><![CDATA[
+Roger,<br><br>As usual, it's a real pleasure to see how much effort you place in this project.<br><br><br><strong class="text-strong">Thank you very, very, very much !!!</strong><br><br>Keep doing !<br><br>(NOTE:  Time to go bed for me.... 06:10am local time  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_surprised.gif" width="15" height="17" alt=":o" title="Surprised">  )<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Tue Nov 26, 2019 5:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DB4ST]]></name></author>
+		<updated>2019-11-25T20:46:42</updated>
+
+		<published>2019-11-25T20:46:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=803#p803</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=803#p803"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=803#p803"><![CDATA[
+Hi there,<br><blockquote class="uncited"><div>Hotspot mode is activated by pressing black button above the blue one, not PTT button.</div></blockquote>Thanks a lot, that solves it. Makes also a lot more sense this way. <br>However, havn't found the post, where there was the reference to PTT again to post a correcting hint.<br>73,<br>DB4ST<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=215">DB4ST</a> — Mon Nov 25, 2019 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YT5HOK]]></name></author>
+		<updated>2019-11-23T13:37:45</updated>
+
+		<published>2019-11-23T13:37:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=607#p607</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=607#p607"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=607#p607"><![CDATA[
+Hotspot mode is activated by pressing black button above the blue one, not PTT button.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=97">YT5HOK</a> — Sat Nov 23, 2019 1:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DB4ST]]></name></author>
+		<updated>2019-11-23T13:28:39</updated>
+
+		<published>2019-11-23T13:28:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=606#p606</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=606#p606"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=606#p606"><![CDATA[
+Hi Roger,<br><blockquote class="uncited"><div>I've renamed the last Tier2Latest file to<br><br><strong class="text-strong">OpenGD77_stable.sgl</strong><br><br><strong class="text-strong">OpenGD77_latest.sgl</strong></div></blockquote>just to make shure, I keep up with your eager and productive development:<ul><li>these daily builds of the Tier2 include the Hotspot mode, and</li></ul><ul><li>the hotspot mode is activated by pressing PTT at the turning on of the GD77.</li></ul>I have no prob's with the old 0.0.6 Tier1/hotspot version. The beta of Tier2 with hotspot from Nov. 14 I could get into hotspot mode, but since yesterday I cannot get any newer version into hotspot mode. <br><br>This is a bit of a pity, as I wanted to present one of the recent versions at our DMR training workshop tomorrow. - A recent Version with the new font would be really cool.<br><br>So if I got the right files, then I need to do troubleshooting somewhere else on post on the other thread. But as far as I understand I do not need to tweak anything with the pi-star setup to incorporate and acitvate the latest development (running pi-star 4.1.0rc6)<br><br>Is there anything I am missing?<br><br>Cheers &amp; 73<br>Stefan.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=215">DB4ST</a> — Sat Nov 23, 2019 1:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ1HVD]]></name></author>
+		<updated>2019-11-21T13:24:56</updated>
+
+		<published>2019-11-21T13:24:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=497#p497</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=497#p497"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=497#p497"><![CDATA[
+Ok Roger, thank you very much!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=161">IZ1HVD</a> — Thu Nov 21, 2019 1:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU4LEG]]></name></author>
+		<updated>2019-11-21T12:36:27</updated>
+
+		<published>2019-11-21T12:36:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=493#p493</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=493#p493"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=493#p493"><![CDATA[
+thankyou 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=189">IU4LEG</a> — Thu Nov 21, 2019 12:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-20T19:53:24</updated>
+
+		<published>2019-11-20T19:53:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=432#p432</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=432#p432"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=432#p432"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger,<br>In both version are included the hotspot mode?<br><br>tnx, Fabio</div></blockquote>Yes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Nov 20, 2019 7:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU4LEG]]></name></author>
+		<updated>2019-11-20T12:55:20</updated>
+
+		<published>2019-11-20T12:55:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=416#p416</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=416#p416"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=416#p416"><![CDATA[
+Hi Roger,<br>In both version are included the hotspot mode?<br><br>tnx, Fabio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=189">IU4LEG</a> — Wed Nov 20, 2019 12:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OH0KCE]]></name></author>
+		<updated>2019-11-20T10:51:57</updated>
+
+		<published>2019-11-20T10:51:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=409#p409</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=409#p409"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=409#p409"><![CDATA[
+Hi !<br>And also the date when uploaded ex. OpenGD77_Tier2_latest_nov20.sgl <br><br>Thanks for a good work !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=62">OH0KCE</a> — Wed Nov 20, 2019 10:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-11-20T04:17:37</updated>
+
+		<published>2019-11-20T04:17:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=396#p396</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=396#p396"/>
+		<title type="html"><![CDATA[Re: Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=396#p396"><![CDATA[
+thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Wed Nov 20, 2019 4:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-19T22:44:35</updated>
+
+		<published>2019-11-19T22:44:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=118&amp;p=343#p343</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=118&amp;p=343#p343"/>
+		<title type="html"><![CDATA[Changes to file download names]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=118&amp;p=343#p343"><![CDATA[
+Because of the rapid pace of development and because the Hotspot mode is mostly working in the Tier2 version, I've decided to rename the downloadable files<br><br>I've renamed the last Tier2Latest file to<br><br><strong class="text-strong">OpenGD77_stable.sgl</strong><br><br>and made a new file called<br><br><strong class="text-strong">OpenGD77_latest.sgl</strong><br><br>which now has the very latest changes which have not had much testing and could possibly crash etc, but have the latest features and bug fixes.<br><br>When I know that the <strong class="text-strong">OpenGD77_latest.sgl </strong>has had enough testing and is stable, I"ll copy that version to <strong class="text-strong">OpenGD77_stable.sgl</strong><br><br>So the new location for the stable version is<br><br><strong class="text-strong"><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/master/firmware_binaries/daily_builds/OpenGD77_stable.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... stable.sgl</a></strong><br><br>and the very latest - not thoroughly tested version is here<br><br><strong class="text-strong"><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/master/firmware_binaries/daily_builds/OpenGD77_latest.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... latest.sgl</a></strong><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 19, 2019 10:44 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

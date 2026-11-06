@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5025" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-02T10:47:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5025</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-02T10:47:13</updated>
+
+		<published>2025-04-02T10:47:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36572#p36572</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36572#p36572"/>
+		<title type="html"><![CDATA[Re: Fram2Ham launched! They will be sending pictures.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36572#p36572"><![CDATA[
+Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Apr 02, 2025 10:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N9KT]]></name></author>
+		<updated>2025-04-02T10:07:55</updated>
+
+		<published>2025-04-02T10:07:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36571#p36571</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36571#p36571"/>
+		<title type="html"><![CDATA[Re: Fram2Ham launched! They will be sending pictures.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36571#p36571"><![CDATA[
+It's in the CelesTrak listing of ALL TLEs, but not in the "Amateur Radio" listing yet. I don't know if it will make it since the spaceflight will only last 4 more days maximum.<br><br>I've received 8 pictures now! It's being heavily spotted on the AMSAT Status page: <a href="https://www.amsat.org/status/" class="postlink">https://www.amsat.org/status/</a>  (Yellow means they are sending pictures).<br><br>The USSF 18th Space Defense Squadron has issued object number 63427 "DRAGON Fram2" for the mission, so I have updated my "satellites.txt" file for anyone that wants to use it: <a href="https://tinyurl.com/N9KT-satellites" class="postlink">https://tinyurl.com/N9KT-satellites</a><br><br>Right now you must use AMSAT TLEs: <a href="https://www.amsat.org/tle/dailytle.txt" class="postlink">https://www.amsat.org/tle/dailytle.txt</a> unless you use the giant file of all TLEs from CelesTrak.<br><br>The flight is also in SatNogs: <a href="https://db.satnogs.org/satellite/CXJW-8959-9671-2060-9440" class="postlink">https://db.satnogs.org/satellite/CXJW-8 ... -2060-9440</a><br><br>-David, N9KT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2972">N9KT</a> — Wed Apr 02, 2025 10:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-01T20:32:16</updated>
+
+		<published>2025-04-01T20:32:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36564#p36564</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36564#p36564"/>
+		<title type="html"><![CDATA[Re: Fram2Ham launched! They will be sending pictures.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36564#p36564"><![CDATA[
+<blockquote class="uncited"><div>This is the first crewed polar orbit spaceflight in history and is scheduled for 3-5 days.<br><br>My satellites.txt file with Fram2Ham in it is at: <a href="https://tinyurl.com/N9KT-satellites" class="postlink">https://tinyurl.com/N9KT-satellites</a><br><br>The TLEs are already in AMSAT's dailytle.txt: <a href="https://www.amsat.org/tle/dailytle.txt" class="postlink">https://www.amsat.org/tle/dailytle.txt</a><br><br>Fram2Ham will be sending images using Robot 36 on 437.550 MHz +/- doppler.<br><br>Upload or view images at <a href="https://ariss-usa.org/ARISS_SSTV/" class="postlink">https://ariss-usa.org/ARISS_SSTV/</a> <br>A certificate is available for uploading an image.<br><br>-David, N9KT</div></blockquote><br>Very interesting,<br><br>Do you know if celestrack will add this vehicle to their list that we normally use<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 01, 2025 8:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N9KT]]></name></author>
+		<updated>2025-04-01T05:30:25</updated>
+
+		<published>2025-04-01T05:30:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36553#p36553</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36553#p36553"/>
+		<title type="html"><![CDATA[Fram2Ham launched! They will be sending pictures.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5025&amp;p=36553#p36553"><![CDATA[
+This is the first crewed polar orbit spaceflight in history and is scheduled for 3-5 days.<br><br>My satellites.txt file with Fram2Ham in it is at: <a href="https://tinyurl.com/N9KT-satellites" class="postlink">https://tinyurl.com/N9KT-satellites</a><br><br>The TLEs are already in AMSAT's dailytle.txt: <a href="https://www.amsat.org/tle/dailytle.txt" class="postlink">https://www.amsat.org/tle/dailytle.txt</a><br><br>Fram2Ham will be sending images using Robot 36 on 437.550 MHz +/- doppler.<br><br>Upload or view images at <a href="https://ariss-usa.org/ARISS_SSTV/" class="postlink">https://ariss-usa.org/ARISS_SSTV/</a> <br>A certificate is available for uploading an image.<br><br>-David, N9KT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2972">N9KT</a> — Tue Apr 01, 2025 5:30 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

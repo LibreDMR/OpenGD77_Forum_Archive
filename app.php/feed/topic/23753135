@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2375" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-07T20:48:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2375</id>
+
+		<entry>
+		<author><name><![CDATA[KC6WOG]]></name></author>
+		<updated>2025-07-07T20:48:43</updated>
+
+		<published>2025-07-07T20:48:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=37672#p37672</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=37672#p37672"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=37672#p37672"><![CDATA[
+<blockquote class="uncited"><div>...in my TYT MD-9600 PLUS (Hardware Version 5 with GPS), which is actually less than one year old, suddenly the original JUMPSTAR JS-H210 module stopped working. I replaced it with the ATGM336H module. Everything fits one-to-one and everything seems to be working well!</div></blockquote>This is great to know! I have a few ATGM336H modules on the way, it's good to know that they'll drop right onto the board and work. Seems a lot less messy than gluing boards down and stringing loose wires around.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4063">KC6WOG</a> — Mon Jul 07, 2025 8:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-04-28T14:22:33</updated>
+
+		<published>2025-04-28T14:22:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36933#p36933</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36933#p36933"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36933#p36933"><![CDATA[
+Here is the only schematic we have. No component values, but it should be easy enough to work them out. Nothing critical. <br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2933&amp;sid=53b26228dc0a9e2da60288b3598c13f7" class="postimage" alt="MD9600 GPS.png" onclick="viewableArea(this);" /></dt></dl></div>73 Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Apr 28, 2025 2:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD1AMC]]></name></author>
+		<updated>2025-04-28T06:16:21</updated>
+
+		<published>2025-04-28T06:16:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36931#p36931</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36931#p36931"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36931#p36931"><![CDATA[
+<blockquote class="uncited"><div>Hello everyone!<br>This is Krzysztof SP6RSP. Just information on the topic of GPS modules: in my TYT MD-9600 PLUS (Hardware Version 5 with GPS), which is actually less than one year old, suddenly the original JUMPSTAR JS-H210 module stopped working. I replaced it with the ATGM336H module. Everything fits one-to-one and everything seems to be working well!<br>IMG_0354.jpg<br>IMG_0357.jpg</div></blockquote>I want to know the components near the GPS module. I don't have one on the PCB. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8483">BD1AMC</a> — Mon Apr 28, 2025 6:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD1AMC]]></name></author>
+		<updated>2025-04-19T09:45:56</updated>
+
+		<published>2025-04-19T09:45:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36843#p36843</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36843#p36843"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36843#p36843"><![CDATA[
+<blockquote class="uncited"><div>Hello everyone!<br>This is Krzysztof SP6RSP. Just information on the topic of GPS modules: in my TYT MD-9600 PLUS (Hardware Version 5 with GPS), which is actually less than one year old, suddenly the original JUMPSTAR JS-H210 module stopped working. I replaced it with the ATGM336H module. Everything fits one-to-one and everything seems to be working well!<br>IMG_0354.jpg<br>IMG_0357.jpg</div></blockquote>very very thankful<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8483">BD1AMC</a> — Sat Apr 19, 2025 9:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP6RSP]]></name></author>
+		<updated>2025-03-22T09:11:52</updated>
+
+		<published>2025-03-22T09:11:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36352#p36352</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36352#p36352"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=36352#p36352"><![CDATA[
+Hello everyone!<br>This is Krzysztof SP6RSP. Just information on the topic of GPS modules: in my TYT MD-9600 PLUS (Hardware Version 5 with GPS), which is actually less than one year old, suddenly the original JUMPSTAR JS-H210 module stopped working. I replaced it with the ATGM336H module. Everything fits one-to-one and everything seems to be working well!<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2885&amp;sid=53b26228dc0a9e2da60288b3598c13f7" class="postimage" alt="IMG_0354.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2886&amp;sid=53b26228dc0a9e2da60288b3598c13f7" class="postimage" alt="IMG_0357.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8320">SP6RSP</a> — Sat Mar 22, 2025 9:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-08-28T09:14:48</updated>
+
+		<published>2024-08-28T09:14:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=32656#p32656</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=32656#p32656"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=32656#p32656"><![CDATA[
+Setting the radio time won't have made any difference to the GPS. The CPU cannot send data to the GPS module. It looks like your problem was just the antenna fixing failure. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Aug 28, 2024 9:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KZ4DT]]></name></author>
+		<updated>2024-08-27T21:52:58</updated>
+
+		<published>2024-08-27T21:52:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=32655#p32655</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=32655#p32655"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=32655#p32655"><![CDATA[
+<blockquote class="uncited"><div><img src="https://www.opengd77.com/download/file.php?id=1492" class="postimage" alt="Image"></div></blockquote>The problem with one of my radios is that the adhesive holding the antenna let go so the antenna was not pointing up.  I fixed that with some hot glue, set my laptop to the exact correct time, uploaded the satellite keps to set the radio clock exact and it got its first GPS fix rather quickly.  Prior to that it would see only one satellite and then maybe two for a split second before going back to one or no satellites.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5311">KZ4DT</a> — Tue Aug 27, 2024 9:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-27T23:14:04</updated>
+
+		<published>2022-10-27T23:14:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20421#p20421</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20421#p20421"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20421#p20421"><![CDATA[
+<blockquote class="uncited"><div>I finally got a new IPX SMD connector, and soldered it in place. (not an easy task, but it worked on the second try). The GPS receiver works fine now.<br>With the radio sitting on a car dash it was able to acquire a position in 5 minutes, and it maintained the lock easily while driving around.<br>It would be quite easy to use a 25cm piggy tail from IPX to SMA female and route it out the back of the MD9600 where there is a hole with a rubber plug. <br>The radio providers 3.3V for the LNA. However the internal antenna with LNA  seems to work reasonably well.<br><br>To recap:<br><br>MD9600 with GPS V5<br><br>Problem:<br>Internal GPS antenna connector mounted 180deg reversed and shorted to ground.<br><br>How to diagnose:<br>The GPS receiver will acquire 2-3 satellites, but never get a position.<br>Open the radio top, then take apart the front of the radio. Disconnect the GPS antenna. Measure the resistance at the GPS antenna connector. If it is 0 ohm the connector is shorted. If it measures in the range of Mohm then it's fine.<br><br>The Fix: <br>Using a soldering iron remove the antenna IPX connector on the board. You will need to destroy it in the process.<br>Solder a new IPX  connector in the correct orientation ( 180deg rotation ). Reassemble the radio.<br><br>I hope this helps other folks with V5 radios and poor GPS reception.<br>73's<br>Luca</div></blockquote>Thanks for sharing<br><br>I don't have a MD9600 with GPS, but my RT3S has GPS, in the future I should be able to back-port most GPS related functions from the RT3S code into the MD9600 code.<br><br>e.g. I currently have an experimental version for the RT3S showing a satellite RSSI bar graph.<br>I'm also probably going to do a polar plot<br><br>I've also started to look at APRS via DMR Talker Alias bytes, but I'm very time poor at the moment, so it may take a while before I can get anything working<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 27, 2022 11:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2022-10-27T23:04:55</updated>
+
+		<published>2022-10-27T23:04:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20420#p20420</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20420#p20420"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20420#p20420"><![CDATA[
+I finally got a new IPX SMD connector, and soldered it in place. (not an easy task, but it worked on the second try). The GPS receiver works fine now.<br>With the radio sitting on a car dash it was able to acquire a position in 5 minutes, and it maintained the lock easily while driving around.<br>It would be quite easy to use a 25cm piggy tail from IPX to SMA female and route it out the back of the MD9600 where there is a hole with a rubber plug. <br>The radio providers 3.3V for the LNA. However the internal antenna with LNA  seems to work reasonably well.<br><br>To recap:<br><br>MD9600 with GPS V5<br><br>Problem:<br>Internal GPS antenna connector mounted 180deg reversed and shorted to ground.<br><br>How to diagnose:<br>The GPS receiver will acquire 2-3 satellites, but never get a position.<br>Open the radio top, then take apart the front of the radio. Disconnect the GPS antenna. Measure the resistance at the GPS antenna connector. If it is 0 ohm the connector is shorted. If it measures in the range of Mohm then it's fine.<br><br>The Fix: <br>Using a soldering iron remove the antenna IPX connector on the board. You will need to destroy it in the process.<br>Solder a new IPX  connector in the correct orientation ( 180deg rotation ). Reassemble the radio.<br><br>I hope this helps other folks with V5 radios and poor GPS reception.<br>73's<br>Luca<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Thu Oct 27, 2022 11:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-20T19:11:04</updated>
+
+		<published>2022-10-20T19:11:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20221#p20221</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20221#p20221"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20221#p20221"><![CDATA[
+That's a good find.  <br><br>On further investigation It looks like there are several different arrangements for the GPS. <br><br>The original Version 2 radios were fitted with a GPS module, a filter, a preamp chip and an unpowered antenna.<br>It looks like the V4 radios were fitted with a M710 GPS module and a powered antenna and seem to work fairly well. <br>Yours looks like a V5 radio with the H210 module and presumably a powered antenna. <br><br>I have a V4 radio and the connector is correctly fitted, so hopefully it may only be a small batch of V5s that have the fault you have found. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Oct 20, 2022 7:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2022-10-20T17:54:31</updated>
+
+		<published>2022-10-20T17:54:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20220#p20220</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20220#p20220"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20220#p20220"><![CDATA[
+I believe i figure it out.<br>I disconnected  the 2 components that go to the antenna pin from pin 14 and from pin 11 on the right of the antenna connector in the above picture. Pin 14 supplies 3.3v @20ma while pin 11 is the rf input.<br>The circuit is supposed to supply 3.3v to the antenna , so I still believe that the antenna is amplified, however there is a circuit board assembly problem that causes  the antenna to be shorted to ground even with all the components removed. <br>The IPX connector is installed 180 deg reversed. This causes the centre pin to be soldered to ground.<br>The problem now, is how to fix this....<br>I removed the IPX connector destroying it , so now i need to find another one to replace it, and solder it in the correct direction. <br>With the connector removed I get 3.3v at the centre pin.<br>So the mystery is solved. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"> Bad Chinese assembly line.<br>After fixing the connector, installing an external antenna is quite trivial: get a 25cm IPX to SMA female piggy tail and route it out the back though the unused plugged hole on the left of the fan.<br>However  i think that the internal antenna will work fine once is is connected properly.<br>73's<br>Luca<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Thu Oct 20, 2022 5:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-20T11:03:15</updated>
+
+		<published>2022-10-20T11:03:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20211#p20211</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20211#p20211"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20211#p20211"><![CDATA[
+The internal antenna in the md9600 does not have an amplifier, and so does not need a power supply. <br>You are correct, if you were to fit an amplified antenna then you would need to feed 3.3v into pin 14 of the GPS module.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Oct 20, 2022 11:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-10-20T05:44:59</updated>
+
+		<published>2022-10-20T05:44:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20200#p20200</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20200#p20200"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20200#p20200"><![CDATA[
+Hi, <br><br>  Are you sure the shipped antenna embed an LNA? <br>Also, maybe the default GNSS chip configuration doesn't enable the LNA power (pin 14).<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Oct 20, 2022 5:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-20T05:26:46</updated>
+
+		<published>2022-10-20T05:26:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20198#p20198</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20198#p20198"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20198#p20198"><![CDATA[
+Unfortunately none of my 3 MD9600 have GPS, so I could only speculate on why TYT did what they did.<br><br>I have considered buying an external RS232/Serial GPS module, as they would probably produce the same data as the official GPS in the MD9600, but I could not find a good place to fit the 3.5mm stereo jack socket that would be needed for the minimum 3 connections required for such an external GPS device.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 20, 2022 5:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2022-10-20T05:20:08</updated>
+
+		<published>2022-10-20T05:20:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20197#p20197</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20197#p20197"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600 / Retevis RT-90 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2375&amp;p=20197#p20197"><![CDATA[
+Roger,<br>I took a closer look at the terrible GPS antenna in the MD9600, and I think that there is a hardware error on the PCB.<br>Here is the pinout of the H210:<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1500&amp;sid=53b26228dc0a9e2da60288b3598c13f7" class="postimage" alt="h210-_pinout.jpg" onclick="viewableArea(this);" /></dt></dl></div>While the "RF in" pin 11 is connected to the antenna, the "VCC_RF" pin 14 is connected to ground. This results in the antenna being DC shorted to ground.<br>As far as I can tell the internal antenna of the MD9600 is an amplified antenna and needs 3.3V to work. However it's getting 0V and has terrible reception.<br>I bought a $1.5 amplified antenna that looks very similar, and has the exact same performance (I get 3 satellites at most).<br>Here is the PCB detail:<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1501&amp;sid=53b26228dc0a9e2da60288b3598c13f7" class="postimage" alt="h210_md9600.jpg" onclick="viewableArea(this);" /></dt></dl></div>Shorting the 2 top soldering pads just shorts the 3.3V power supply to ground and the radio does not turn on. <br>I believe that removing the 0ohm jumper that connects pin 14 to ground  and connecting  pin 14  "VCC_RF"  to the 3.3V power supply should get any amplified antenna to work properly.<br>I found some information on the H210 here:<br><a href="https://www.alibaba.com/product-detail/H210-Multi-GPS-GNSS-Beidou-GLONASS_60772500295.html" class="postlink">https://www.alibaba.com/product-detail/ ... 00295.html</a><br>But there is no application note on how to use it, so I'm guessing the functions of the pins.<br><br>Do you think I'm going in the right direction ?<br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Thu Oct 20, 2022 5:20 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

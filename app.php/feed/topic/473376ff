@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4733" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-19T20:56:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4733</id>
+
+		<entry>
+		<author><name><![CDATA[HC1LNM]]></name></author>
+		<updated>2025-05-19T20:56:35</updated>
+
+		<published>2025-05-19T20:56:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=37172#p37172</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=37172#p37172"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode- Update: Bad Radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=37172#p37172"><![CDATA[
+Hey good afternoon<br><br>Just FYI, I have a 1701 and it's working perfectly using BlueDV/MMDVM_HOST (windows) and using raspberyy images Pi-Star and WPSD, I sent a video with this test to some friends who were interested in OpenGD77. One tips, don't set the TX power to 50mW, at least set it to 250mW, use external antenna and put a ferrite in a USB cable to avoid RF inject.<br><br>Regards and 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8520">HC1LNM</a> — Mon May 19, 2025 8:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K4BMI]]></name></author>
+		<updated>2025-01-20T18:32:16</updated>
+
+		<published>2025-01-20T18:32:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35226#p35226</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35226#p35226"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35226#p35226"><![CDATA[
+Updating this post to report that the problem was caused to a faulty radio.<br>That 1701 for some reason doesn't like to work in Hotspot mode.I tested on another 1701 and the second one works fine!<br><br>I tried changing the calibration in both radio and hotspot but did not make any difference, the communication is received fine and audio is clear in the first 3 to 5 seconds than it starts becoming broken and garbled. If I hit PTT audio seems to sync and comes back clear, but after couple seconds it breaks up again.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7412">K4BMI</a> — Mon Jan 20, 2025 6:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-15T16:42:16</updated>
+
+		<published>2025-01-15T16:42:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35152#p35152</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35152#p35152"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35152#p35152"><![CDATA[
+<blockquote class="uncited"><div>I tried calibrating but I noticed the new settings will go away after powering cycle the radio! it only saves while the radio still on.<br><br>I also  could not fix the issue yet as it is a slow and painful process: change the calibration value, hit green to (partially) save it, power cycle the hotspot to start the radio in hotspot mode, wait x minutes to boot, when radio enters hotspot mode, wait for a an active TG to hear the results, than get disappointment that the issue still there <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">  start all over Even if I could find the right value, it will go away if I turn the radio off!<br><br>One thing I found, it is certainly hardware related! I got a second 1701, loaded OGD77 in it and this one worked fine in hotspot mode, at least on a quick test. However I need try calibrating the bad 1701 but simply having a extreme hard time to do it.<br><br>I re-loaded OGD77 in it and tried to copy the new 1701 calibration to the bad one but it did not work!</div></blockquote>I think you need to carefully read the post above yours.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 15, 2025 4:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K4BMI]]></name></author>
+		<updated>2025-01-15T16:36:10</updated>
+
+		<published>2025-01-15T16:36:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35151#p35151</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35151#p35151"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35151#p35151"><![CDATA[
+I tried calibrating but I noticed the new settings will go away after powering cycle the radio! it only saves while the radio still on.<br><br>I also  could not fix the issue yet as it is a slow and painful process: change the calibration value, hit green to (partially) save it, power cycle the hotspot to start the radio in hotspot mode, wait x minutes to boot, when radio enters hotspot mode, wait for a an active TG to hear the results, than get disappointment that the issue still there <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">  start all over Even if I could find the right value, it will go away if I turn the radio off!<br><br>One thing I found, it is certainly hardware related! I got a second 1701, loaded OGD77 in it and this one worked fine in hotspot mode, at least on a quick test. However I need try calibrating the bad 1701 but simply having a extreme hard time to do it.<br><br>I re-loaded OGD77 in it and tried to copy the new 1701 calibration to the bad one but it did not work!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7412">K4BMI</a> — Wed Jan 15, 2025 4:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-14T18:57:55</updated>
+
+		<published>2025-01-14T18:57:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35142#p35142</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35142#p35142"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35142#p35142"><![CDATA[
+<blockquote class="uncited"><div>I've been trying to use the Calibration function with no luck, is there any documentation that shows the process step by step? <br><br>I can access the function fine but once in the option, there is more than one frequency showing up for adjustment and I could not input my hotspot frequency either.</div></blockquote>The first submenu is for power calibration on a number of frequencies.<br>For frequency calibration you have two calibration points one for VHF and one for uhf.<br>Use sk2+down arrow to jump down to the frequency menus.<br>You must use sk2 +green to save changes to nvram<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jan 14, 2025 6:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K4BMI]]></name></author>
+		<updated>2025-01-14T16:35:55</updated>
+
+		<published>2025-01-14T16:35:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35140#p35140</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35140#p35140"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35140#p35140"><![CDATA[
+I've been trying to use the Calibration function with no luck, is there any documentation that shows the process step by step? <br><br>I can access the function fine but once in the option, there is more than one frequency showing up for adjustment and I could not input my hotspot frequency either.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7412">K4BMI</a> — Tue Jan 14, 2025 4:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK5DOC]]></name></author>
+		<updated>2025-01-07T11:57:47</updated>
+
+		<published>2025-01-07T11:57:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35032#p35032</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35032#p35032"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35032#p35032"><![CDATA[
+I had the same problem, I believe the 1701 was faulty. I replaced it with a RT3s with the BlueDV and no issue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6700">VK5DOC</a> — Tue Jan 07, 2025 11:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-07T13:19:37 </updated>
+
+		<published>2025-01-06T09:35:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35014#p35014</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35014#p35014"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35014#p35014"><![CDATA[
+<blockquote class="uncited"><div>That is correct, when I have the TYTs as modem, all works ok, but the 1701 just garbles and distorts the audio.<br><br>I am familiar with the WPSD config file and will look there however never touched the openGD77 calibration menu before, is there a guide or reference with the steps on how to calibrate using it? The Official guide mentions frequency adjustment but the steps there are just for TX power adjustment.<br><br>I would try adjusting  in the mmdvmhost config file, however I have two other radios, so ideally I would need adjust the 1701 instead.</div></blockquote>You can step down to frequency calibration with SK2+Down Arrow when you are in the calibration menu.<br><br>I have used my frequency counter and adjusted all radios and hotspots to be as accurate as possible.<br>Bit error is less than 0.2% in pi-star nodes.<br><br>You can also use a SDR with VHF/UHF coverage and at least adjust all your equipment to use the same carrier frequency.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Jan 06, 2025 9:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K4BMI]]></name></author>
+		<updated>2025-01-06T00:45:00</updated>
+
+		<published>2025-01-06T00:45:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35010#p35010</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35010#p35010"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35010#p35010"><![CDATA[
+That is correct, when I have the TYTs as modem, all works ok, but the 1701 just garbles and distorts the audio.<br><br>I am familiar with the WPSD config file and will look there however never touched the openGD77 calibration menu before, is there a guide or reference with the steps on how to calibrate using it? The Official guide mentions frequency adjustment but the steps there are just for TX power adjustment.<br><br>I would try adjusting  in the mmdvmhost config file, however I have two other radios, so ideally I would need adjust the 1701 instead.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7412">K4BMI</a> — Mon Jan 06, 2025 12:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-05T22:08:39</updated>
+
+		<published>2025-01-05T22:08:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35007#p35007</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35007#p35007"/>
+		<title type="html"><![CDATA[Re: Baofeng 1701 won't work well in hotspot mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35007#p35007"><![CDATA[
+<blockquote class="uncited"><div>I am not sure if anybody else having this issue but my 1701 just does work well while in Hotspot mode. I tried BlueDV and connect it to a Raspberry PI but audio is distorted and stuttering. <br><br>I tried adjust the BER in both Pi-Star and WPSD but neither will start the adjustment mode. Tried it directly using SSH "sudo pistar-mmdvmcal" and it says board not supported.<br><br>Adding ferrite chocks to the USB cable did nothing. The modulation even starts audible but it breaks up after a few seconds becoming garbled.<br>I know it is something with the 1701 because I tried a TYT9600 and a TYT 390 plus and both wotk fine. Not sure where to go from here.</div></blockquote>You use the 1701 as the hotspot radio modem ?<br><br>Then you either need to use the calibration menu in opengd77 or adjust it manually in the mmdvmhost config file.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jan 05, 2025 10:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K4BMI]]></name></author>
+		<updated>2025-01-20T18:35:50 </updated>
+
+		<published>2025-01-05T18:04:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35003#p35003</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35003#p35003"/>
+		<title type="html"><![CDATA[Baofeng 1701 won't work well in hotspot mode- Update: Bad Radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4733&amp;p=35003#p35003"><![CDATA[
+I am not sure if anybody else having this issue but my 1701 just does work well while in Hotspot mode. I tried BlueDV and connect it to a Raspberry PI but audio is distorted and stuttering. <br><br>I tried adjust the BER in both Pi-Star and WPSD but neither will start the adjustment mode. Tried it directly using SSH "sudo pistar-mmdvmcal" and it says board not supported.<br><br>Adding ferrite chocks to the USB cable did nothing. The modulation even starts audible but it breaks up after a few seconds becoming garbled.<br>I know it is something with the 1701 because I tried a TYT9600 and a TYT 390 plus and both wotk fine. Not sure where to go from here.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7412">K4BMI</a> — Sun Jan 05, 2025 6:04 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

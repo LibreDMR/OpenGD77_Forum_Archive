@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4924" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-16T06:08:26</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4924</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-16T06:08:26</updated>
+
+		<published>2025-03-16T06:08:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36221#p36221</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36221#p36221"/>
+		<title type="html"><![CDATA[Re: New MD-9600/RT-90 Beta version 2025 02 27.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36221#p36221"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4965" class="postlink">viewtopic.php?f=18&amp;t=4965</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 16, 2025 6:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ8NVJ]]></name></author>
+		<updated>2025-03-01T20:44:52</updated>
+
+		<published>2025-03-01T20:44:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36031#p36031</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36031#p36031"/>
+		<title type="html"><![CDATA[Re: New MD-9600/RT-90 Beta version 2025 02 27.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36031#p36031"><![CDATA[
+Hello everyone, so this Firmware will correct the codeplug power-on error, because it happens to me when I turn on my RT 90 it tells me Out of Band, then I go to No. 1 on the keypad it tells me go to 1 when I give consent and go to 1 the radio starts working again, I will try let me know if my observation is correct, thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1052">IZ8NVJ</a> — Sat Mar 01, 2025 8:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-01T04:25:52</updated>
+
+		<published>2025-03-01T04:25:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36021#p36021</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36021#p36021"/>
+		<title type="html"><![CDATA[New MD-9600/RT-90 Beta version 2025 02 27.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4924&amp;p=36021#p36021"><![CDATA[
+<ul><li> Fix codeplug corruption on power cycle.</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj" class="postlink">https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/D3JKT50X7M#Md1OQqCWViCJ" class="postlink">https://drive.proton.me/urls/D3JKT50X7M#Md1OQqCWViCJ</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/26. See the CPS section <a href="https://www.opengd77.com/viewforum.php?f=12" class="postlink">viewforum.php?f=12</a><br><br>For translators, the on-screen texts, voice prompts CSV are located at: <a href="https://drive.proton.me/urls/K6NBA7FRH0#owtc56LE34hj" class="postlink">https://drive.proton.me/urls/K6NBA7FRH0#owtc56LE34hj</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 01, 2025 4:25 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/284" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-12-09T15:03:33</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/284</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-08T07:16:44</updated>
+
+		<published>2019-12-08T07:16:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1943#p1943</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1943#p1943"/>
+		<title type="html"><![CDATA[Re: [Python Tool] Screengrabber for Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1943#p1943"><![CDATA[
+Thanks I've used your changes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 08, 2019 7:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-08T06:29:45</updated>
+
+		<published>2019-12-08T06:29:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1942#p1942</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1942#p1942"/>
+		<title type="html"><![CDATA[Re: [Python Tool] Screengrabber for Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1942#p1942"><![CDATA[
+Hi Roger,<br><br>   you have a PR for the CPS <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>Cheers.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Dec 08, 2019 6:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-08T06:25:17</updated>
+
+		<published>2019-12-08T06:25:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1941#p1941</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1941#p1941"/>
+		<title type="html"><![CDATA[Re: [Python Tool] Screengrabber for Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1941#p1941"><![CDATA[
+Cool<br><br>I've not had time to change the CPS, because I've been bug fixing the Tone Scan PR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 08, 2019 6:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-08T05:10:33</updated>
+
+		<published>2019-12-08T05:10:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1935#p1935</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1935#p1935"/>
+		<title type="html"><![CDATA[Re: [Python Tool] Screengrabber for Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1935#p1935"><![CDATA[
+Hi,<br><br>    I've updated the script in the first post. Default color is the same as EA3BIL used, default scale factor is 2.<br>It also works under Windows (you may need to install pillow, cimage and pyserial using pip.exe), default COM port is COM13.<br><br><br>Cheers.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Dec 08, 2019 5:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-07T23:05:24</updated>
+
+		<published>2019-12-07T23:05:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1900#p1900</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1900#p1900"/>
+		<title type="html"><![CDATA[Re: [Python Tool] Screengrabber for Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1900#p1900"><![CDATA[
+Yes, it has it (already part of this script).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Dec 07, 2019 11:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-07T22:59:12</updated>
+
+		<published>2019-12-07T22:59:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1896#p1896</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1896#p1896"/>
+		<title type="html"><![CDATA[Re: [Python Tool] Screengrabber for Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1896#p1896"><![CDATA[
+Hi Daniel<br><br>No worries<br><br>I can easily do it in the CPS. I already set the background colour to grey, and I think scaling the image is not difficult.<br><br>I'm sure Python (yes i hate it) has functions to do the same things<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 07, 2019 10:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-07T22:48:01</updated>
+
+		<published>2019-12-07T22:48:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1894#p1894</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1894#p1894"/>
+		<title type="html"><![CDATA[Re: [Python Tool] Screengrabber for Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1894#p1894"><![CDATA[
+Hi Roger,<br><br>   I can take a look at this, but tomorrow, it's pretty late here <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>I will also make the modifications to this script about default background color and default scale factor.<br><br>Cheers.<br>---<br>Daniel <br><br><strong class="text-strong">PS:</strong> but I still do hate python  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Dec 07, 2019 10:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-07T22:44:16</updated>
+
+		<published>2019-12-07T22:44:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1892#p1892</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1892#p1892"/>
+		<title type="html"><![CDATA[Re: [Python Tool] Screengrabber for Linux]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1892#p1892"><![CDATA[
+Cool<br><br>BTW. <br><br>I've been discussing with Rafa EA3BIL to change the CPS to set the background colour to the same colour he uses in his diagrams and also rescale to 200% ( probably by pixel replication )<br><br>However, I've not had time to do this yet.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 07, 2019 10:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-09T15:03:33 </updated>
+
+		<published>2019-12-07T22:18:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=284&amp;p=1885#p1885</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1885#p1885"/>
+		<title type="html"><![CDATA[[Python Tool] Screengrabber for Linux / Windows / OS-X (probably)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=284&amp;p=1885#p1885"><![CDATA[
+Hi,<br><br>    Here is a small python script to save screen capture to png file. It supports few parameters:<br><div class="codebox"><p>CODE: </p><pre><code>Usage:       gd-77_screen_grabber.py [OPTION]    -h, --help                     : Display this help text    -d, --device=&lt;COM port&gt;        : Use the specified device as serial port    -s, --scale=v                  : Apply scale factor (1..x)    -o, --output=&lt;filename&gt;        : Save the image in &lt;filename&gt;.png    -f, --foreground=#RRGGBB       : Use specified color as foreground pixel color    -b, --background=#RRGGBB       : Use specified color as background color</code></pre></div>It works with python-2 and python-3. You need python-serial module.<br><br>Cheers.<br>---<br>Daniel<br><br>.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=171&amp;sid=eba10b31984e1127d6c1817bc3ca8839">gd-77_screen_grabber.py.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Dec 07, 2019 10:18 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

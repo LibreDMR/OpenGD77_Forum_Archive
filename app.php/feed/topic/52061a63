@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5206" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-06T22:48:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5206</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-06T22:48:41</updated>
+
+		<published>2025-07-06T22:48:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37670#p37670</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37670#p37670"/>
+		<title type="html"><![CDATA[Re: OpenDG77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37670#p37670"><![CDATA[
+<blockquote class="uncited"><div>Did mostly, but it is out of date since that was made</div></blockquote>CPS hasnt changed and the User Guide is constantly updated, so is generally 99% correct<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 06, 2025 10:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0MRB]]></name></author>
+		<updated>2025-07-06T22:47:03</updated>
+
+		<published>2025-07-06T22:47:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37669#p37669</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37669#p37669"/>
+		<title type="html"><![CDATA[Re: OpenDG77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37669#p37669"><![CDATA[
+Did mostly, but it is out of date since that was made<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8743">N0MRB</a> — Sun Jul 06, 2025 10:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-06T22:37:58</updated>
+
+		<published>2025-07-06T22:37:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37667#p37667</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37667#p37667"/>
+		<title type="html"><![CDATA[Re: OpenDG77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37667#p37667"><![CDATA[
+Did you read the CPS section in the User Guide<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#cps-software" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... s-software</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 06, 2025 10:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0MRB]]></name></author>
+		<updated>2025-07-05T22:50:35</updated>
+
+		<published>2025-07-05T22:50:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37663#p37663</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37663#p37663"/>
+		<title type="html"><![CDATA[OpenDG77 CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5206&amp;p=37663#p37663"><![CDATA[
+Good evening, <br><br>I know there is a manual for the key input, but is there one for the CPS programing version?<br><br>I am a bit confused over when I am programing the radio through the computer.  I think it is throwing me off. here is what I mean....<br><br>Usually I would Add each digital contact to the "Digital RX Group List" But I am guessing the TG List is Way different in the GD77 CPS.<br><br>So here is what I would like to know. <br><br>1) How does the TG List work in the CPS? aparently there is a limit...<br>2) What is a DTMF under Contacts?<br>3) Why is the Band limits all FFFF ?? (I live in the USA)<br>4) Is there a actual CPS manual for OpenGD77?  information on what section means, ect?<br><br>Sorry, but with the major difference between regular DMR to OpenGD77 on how to program the radio using the laptop. (my fingers are not as easy with trying to program the raddio using the keys, Arthritis, and Being a Diabetic leaves my fingers stiff or numb. So any help will be appreciated. I am just sort of lost on how to program using my laptop.<br><br>Thanks in Advance,<br>Ray - N0MRB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8743">N0MRB</a> — Sat Jul 05, 2025 10:50 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2380" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-28T23:07:03</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2380</id>
+
+		<entry>
+		<author><name><![CDATA[N6SMN]]></name></author>
+		<updated>2025-05-28T23:07:03</updated>
+
+		<published>2025-05-28T23:07:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37266#p37266</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37266#p37266"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37266#p37266"><![CDATA[
+Thank you for the quick replies with information. Much appreciated. <br><br>Apologies for asking a question that was previously answered. My initial search didn't pull up the previous question and answers. I appreciate the additional information provided in the answers to my question, as the development process for this project is interesting.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8678">N6SMN</a> — Wed May 28, 2025 11:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-28T22:55:14</updated>
+
+		<published>2025-05-28T22:55:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37265#p37265</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37265#p37265"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37265#p37265"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>For a MD-UV390, the OpenGD77 firmware installation instructions state one should use donor firmware MD9600-CSV(2571V5)-V26.45.bin. The official MD9600 V5 firmware contains both MD9600-CSV(2571V5)-V26.45.bin and MD9600-CSV-GPS(2571V5)-P26.45.bin. The MD-UV390 being upgraded has GPS. Should one use MD9600-CSV-GPS(2571V5)-P26.45.bin, or use MD9600-CSV(2571V5)-V26.45.bin, as stated in the instructions?</div></blockquote>Always MD9600-CSV(2571V5)-V26.45.bin , this file is only used for extracting the DMR codec, nothing else.<br>Everything else is made with code made for OpenGD77.</div></blockquote>Just to clarify... We do not extract the codec.<br><br>We patch the official firmware and replace the UI and other functionality with OpenGD77 and leave the codec exactly as it is.<br><br>We can't extract the codec for legal reasons.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed May 28, 2025 10:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-28T22:03:15</updated>
+
+		<published>2025-05-28T22:03:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37264#p37264</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37264#p37264"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37264#p37264"><![CDATA[
+<blockquote class="uncited"><div>For a MD-UV390, the OpenGD77 firmware installation instructions state one should use donor firmware MD9600-CSV(2571V5)-V26.45.bin. The official MD9600 V5 firmware contains both MD9600-CSV(2571V5)-V26.45.bin and MD9600-CSV-GPS(2571V5)-P26.45.bin. The MD-UV390 being upgraded has GPS. Should one use MD9600-CSV-GPS(2571V5)-P26.45.bin, or use MD9600-CSV(2571V5)-V26.45.bin, as stated in the instructions?</div></blockquote>Always MD9600-CSV(2571V5)-V26.45.bin , this file is only used for extracting the DMR codec, nothing else.<br>Everything else is made with code made for OpenGD77.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed May 28, 2025 10:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-28T17:56:35</updated>
+
+		<published>2025-05-28T17:56:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37261#p37261</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37261#p37261"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37261#p37261"><![CDATA[
+<blockquote class="uncited"><div>For a MD-UV390, the OpenGD77 firmware installation instructions state one should use donor firmware MD9600-CSV(2571V5)-V26.45.bin. The official MD9600 V5 firmware contains both MD9600-CSV(2571V5)-V26.45.bin and MD9600-CSV-GPS(2571V5)-P26.45.bin. The MD-UV390 being upgraded has GPS. Should one use MD9600-CSV-GPS(2571V5)-P26.45.bin, or use MD9600-CSV(2571V5)-V26.45.bin, as stated in the instructions?</div></blockquote>the one stated in the instructions.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed May 28, 2025 5:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N6SMN]]></name></author>
+		<updated>2025-05-28T17:45:31</updated>
+
+		<published>2025-05-28T17:45:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37260#p37260</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37260#p37260"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=37260#p37260"><![CDATA[
+For a MD-UV390, the OpenGD77 firmware installation instructions state one should use donor firmware MD9600-CSV(2571V5)-V26.45.bin. The official MD9600 V5 firmware contains both MD9600-CSV(2571V5)-V26.45.bin and MD9600-CSV-GPS(2571V5)-P26.45.bin. The MD-UV390 being upgraded has GPS. Should one use MD9600-CSV-GPS(2571V5)-P26.45.bin, or use MD9600-CSV(2571V5)-V26.45.bin, as stated in the instructions?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8678">N6SMN</a> — Wed May 28, 2025 5:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-04-26T22:33:47</updated>
+
+		<published>2025-04-26T22:33:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36916#p36916</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36916#p36916"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36916#p36916"><![CDATA[
+Finally I somehow managed to solve this problem..<br><br>Thank you for your help<br><br>Best regards, <br>Piotr<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Sat Apr 26, 2025 10:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-26T06:49:06</updated>
+
+		<published>2025-04-26T06:49:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36910#p36910</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36910#p36910"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36910#p36910"><![CDATA[
+<a href="https://www.opengd77.com/downloads/drivers/" class="postlink">downloads/drivers/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 26, 2025 6:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-26T01:43:49</updated>
+
+		<published>2025-04-26T01:43:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36909#p36909</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36909#p36909"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36909#p36909"><![CDATA[
+<blockquote class="uncited"><div>Tyt UV390 plus - after installing OpenGD77 the radio works but the Radio is not recognized in the USB connection (Windows 11)  so I cannot use OpenGD77 CPS - please advise what to do? <br>I've been struggling with this for 3 hours now with no success.. I'm already devastated...</div></blockquote>easy to fix, just leave the radio on and connected to the PC and reinstall the OpenGD77 CPS and that will also reinstall the COM port driver and will fix the issue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sat Apr 26, 2025 1:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-25T20:22:28</updated>
+
+		<published>2025-04-25T20:22:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36905#p36905</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36905#p36905"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36905#p36905"><![CDATA[
+<blockquote class="uncited"><div>Tyt UV390 plus - after installing OpenGD77 the radio works but the Radio is not recognized in the USB connection (Windows 11)  so I cannot use OpenGD77 CPS - please advise what to do? <br>I've been struggling with this for 3 hours now with no success.. I'm already devastated...</div></blockquote>Please explain<br><br>Do you mean the com port driver has not installed?<br><br>See the numerous posts about re-installing the com port driver<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 25, 2025 8:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-04-25T15:39:57</updated>
+
+		<published>2025-04-25T15:39:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36899#p36899</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36899#p36899"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36899#p36899"><![CDATA[
+Tyt UV390 plus - after installing OpenGD77 the radio works but the Radio is not recognized in the USB connection (Windows 11)  so I cannot use OpenGD77 CPS - please advise what to do? <br>I've been struggling with this for 3 hours now with no success.. I'm already devastated...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Fri Apr 25, 2025 3:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-24T20:10:39</updated>
+
+		<published>2025-04-24T20:10:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36891#p36891</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36891#p36891"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36891#p36891"><![CDATA[
+<blockquote class="uncited"><div>Should I load MD9600-CSV(2571V5)-V26.45.bin but not MD9600-CSV-GPS(2571V5)-P26.45.bin ???<br>I'm asking because there are two identical files but one of them has "GPS" in the name....</div></blockquote>yes, only the <strong class="text-strong">"MD9600-CSV(2571V5)-V26.45.bin"</strong> file as strictly explained in the guides.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Apr 24, 2025 8:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-04-24T19:47:55</updated>
+
+		<published>2025-04-24T19:47:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36890#p36890</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36890#p36890"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36890#p36890"><![CDATA[
+Should I load MD9600-CSV(2571V5)-V26.45.bin but not MD9600-CSV-GPS(2571V5)-P26.45.bin ???<br>I'm asking because there are two identical files but one of them has "GPS" in the name....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Thu Apr 24, 2025 7:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-24T16:10:58</updated>
+
+		<published>2025-04-24T16:10:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36889#p36889</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36889#p36889"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36889#p36889"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br>I want to upload OpenGD77 to TYT UV890Plus and after unpacking the donar I have two files, which one should I use? MD9600-CSV(2571V5)-V26.45.bin or MD9600-CSV-GPS(2571V5)-P26.45.bin ??? <br><br>Best regards,<br>Piotr</div></blockquote>Unzip the donor firmware zip file, extract the donor file 'MD9600-CSV(2571V5)-V26.45.bin' and save it to your computer.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Apr 24, 2025 4:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-04-24T15:42:33</updated>
+
+		<published>2025-04-24T15:42:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36888#p36888</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36888#p36888"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36888#p36888"><![CDATA[
+Hi,<br>I want to upload OpenGD77 to TYT UV890Plus and after unpacking the donar I have two files, which one should I use? MD9600-CSV(2571V5)-V26.45.bin or MD9600-CSV-GPS(2571V5)-P26.45.bin ??? <br><br>Best regards,<br>Piotr<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Thu Apr 24, 2025 3:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AJ4GW]]></name></author>
+		<updated>2025-03-03T22:10:08</updated>
+
+		<published>2025-03-03T22:10:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36052#p36052</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36052#p36052"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380/390 / RT-3S / DM1701 Installation information]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2380&amp;p=36052#p36052"><![CDATA[
+Now is loads correctly! Go figure. Thanks for the help. I'm sure I will have more questions as I use this radio.<br>Cheers<br>AJ4GW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5021">AJ4GW</a> — Mon Mar 03, 2025 10:10 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

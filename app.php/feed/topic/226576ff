@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2265" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-06-17T16:16:33</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2265</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-06-17T16:16:33</updated>
+
+		<published>2022-06-17T16:16:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18872#p18872</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18872#p18872"/>
+		<title type="html"><![CDATA[Re: New MD9600 Beta June 17th 2022]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18872#p18872"><![CDATA[
+Yes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jun 17, 2022 4:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2022-06-17T15:37:13</updated>
+
+		<published>2022-06-17T15:37:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18871#p18871</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18871#p18871"/>
+		<title type="html"><![CDATA[Re: New MD9600 Beta June 17th 2022]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18871#p18871"><![CDATA[
+Just to be clear<br><br>The 'normal' method of removing power and holding buttons down when power applied will still put MD9600 into firmware update mode ?<br><br>Correct ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Fri Jun 17, 2022 3:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-06-17T10:06:44</updated>
+
+		<published>2022-06-17T10:06:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18868#p18868</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18868#p18868"/>
+		<title type="html"><![CDATA[New MD9600 Beta June 17th 2022]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2265&amp;p=18868#p18868"><![CDATA[
+A new MD9600 Beta is now available <br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/5d410fc470cef508bc2f58c85b0c51a320372d71" class="postlink">downloads/MD9600/Firmware/5d410fc470cef ... a320372d71</a><br><br>This version reduces the standby current consumption to about 75% of the current consumption of the official firmware when the radio is in standby.<br><br>Before this change the firmware consumed about 100mA when the radio was in standby. V5 radios now consume 19mA.<br>Colin G4EML tells me the older hardware radios consume more current in standby than the V5 radios, but the openMD9600 firmware always now takes less current than the official firmware when in standby mode.<br><br>Note.<br>The power button is not a physical switch on the MD9600, it is just a button connected to the CPU, and there is no hardware in the radio to completely disconnect the power.<br><br>When the button is pressed the CPU turns off the Rx and Tx and display and GPS and other internal supplies, but the CPU always continues to run.<br><br><br>As a by-product of this change, it is now possible to reload the firmware by holding Orange and P1 and then pressing and releasing the power button, because the method that we use to reduce the standby current is to reboot the radio into a minimal firmware loop.<br><br>However if you reload the firmware using this method, at the moment the radio will reboot back into standby mode after the firmware is loaded.<br><br>So we will need to make a new beta to overcome this.<br><br><br>Thanks as every to Colin G4EML and Daniel and F1RMB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jun 17, 2022 10:06 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

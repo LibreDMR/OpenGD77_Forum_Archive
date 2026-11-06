@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4751" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-10T15:34:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4751</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-10T15:34:34</updated>
+
+		<published>2025-01-10T15:34:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4751&amp;p=35084#p35084</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4751&amp;p=35084#p35084"/>
+		<title type="html"><![CDATA[Re: Talkgroup Display on Radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4751&amp;p=35084#p35084"><![CDATA[
+<a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#manual-talkgroup-number-entry" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... mber-entry</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 10, 2025 3:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2025-01-10T15:21:56</updated>
+
+		<published>2025-01-10T15:21:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4751&amp;p=35082#p35082</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4751&amp;p=35082#p35082"/>
+		<title type="html"><![CDATA[Talkgroup Display on Radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4751&amp;p=35082#p35082"><![CDATA[
+What causes a box or lines around the TG?<br><br>TG 9 is the ONLY one that has this and someone mentioned that the box has something to do with TG validation.....<br><br>Can someone give me a link to more info....I haven't found it yet...<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2804&amp;sid=01456d186d62641d7e78a79181521d6f" class="postimage" alt="TG Box.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Fri Jan 10, 2025 3:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

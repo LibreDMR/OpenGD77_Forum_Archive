@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4866" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-16T12:41:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4866</id>
+
+		<entry>
+		<author><name><![CDATA[M7RTI]]></name></author>
+		<updated>2025-02-16T12:41:36</updated>
+
+		<published>2025-02-16T12:41:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35784#p35784</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35784#p35784"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35784#p35784"><![CDATA[
+Host:<br>  Version:      9.0.2<br>  Architecture: x64<br>  Commit:       80aa709f5d<br>  RID:          win-x64<br><br>.NET SDKs installed:<br>  No SDKs were found.<br><br>.NET runtimes installed:<br>  Microsoft.AspNetCore.App 9.0.2 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]<br>  Microsoft.NETCore.App 9.0.2 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]<br>  Microsoft.WindowsDesktop.App 9.0.2 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]<br><br>Other architectures found:<br>  None<br><br>Environment variables:<br>  Not set<br><br>global.json file:<br>  Not found<br><br>Learn more:<br>  <a href="https://aka.ms/dotnet/info" class="postlink">https://aka.ms/dotnet/info</a><br><br>Download .NET:<br>  <a href="https://aka.ms/dotnet/download" class="postlink">https://aka.ms/dotnet/download</a><br><br><br>Still getting the same error message<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8062">M7RTI</a> — Sun Feb 16, 2025 12:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-16T07:49:05</updated>
+
+		<published>2025-02-16T07:49:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35783#p35783</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35783#p35783"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35783#p35783"><![CDATA[
+<blockquote class="uncited"><div>windows 10 won't allow a manual install of netframework as it is part if the operating system now. I've got all the windows updates installed but still not working and as I'm not the original poster it seems this is more to do with the cps program than our operating system environment.<br><br>Any other ideas?</div></blockquote><a href="https://dotnet.microsoft.com/en-us/download/dotnet?cid=getdotnetcorecli" class="postlink">https://dotnet.microsoft.com/en-us/down ... netcorecli</a><br><br>What does "dotnet --info" say ?<br>Here's my Windows 10 22H2 build: 19045.5487<br><blockquote class="uncited"><div>Microsoft Windows [Version 10.0.19045.5487]<br>(c) Microsoft Corporation. All rights reserved.<br><br>C:\Users\xxx&gt;dotnet --info<br><br>Host:<br>  Version:      7.0.20<br>  Architecture: x64<br>  Commit:       0fb6ac59fb<br><br>.NET SDKs installed:<br>  No SDKs were found.<br><br>.NET runtimes installed:<br>  Microsoft.NETCore.App 3.1.32 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]<br>  Microsoft.NETCore.App 5.0.13 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]<br>  Microsoft.NETCore.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]<br>  Microsoft.NETCore.App 7.0.20 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]<br>  Microsoft.WindowsDesktop.App 5.0.13 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]<br>  Microsoft.WindowsDesktop.App 6.0.36 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]<br>  Microsoft.WindowsDesktop.App 7.0.20 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]<br><br>Other architectures found:<br>  x86   [C:\Program Files (x86)\dotnet]<br>    registered at [HKLM\SOFTWARE\dotnet\Setup\InstalledVersions\x86\InstallLocation]<br><br>Environment variables:<br>  Not set<br><br>global.json file:<br>  Not found<br><br>Learn more:<br>  <a href="https://aka.ms/dotnet/info" class="postlink">https://aka.ms/dotnet/info</a><br><br>Download .NET:<br>  <a href="https://aka.ms/dotnet/download" class="postlink">https://aka.ms/dotnet/download</a></div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Feb 16, 2025 7:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-16T07:35:17</updated>
+
+		<published>2025-02-16T07:35:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35782#p35782</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35782#p35782"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35782#p35782"><![CDATA[
+From the CPS download number, 2 out of hundreds (lastest beta: 1176 downloads) users have a Compression lib problem. Do you still think it's a CPS problem ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Feb 16, 2025 7:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7RTI]]></name></author>
+		<updated>2025-02-16T07:07:05</updated>
+
+		<published>2025-02-16T07:07:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35780#p35780</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35780#p35780"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35780#p35780"><![CDATA[
+windows 10 won't allow a manual install of netframework as it is part if the operating system now. I've got all the windows updates installed but still not working and as I'm not the original poster it seems this is more to do with the cps program than our operating system environment.<br><br>Any other ideas?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8062">M7RTI</a> — Sun Feb 16, 2025 7:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-15T21:20:04</updated>
+
+		<published>2025-02-15T21:20:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35775#p35775</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35775#p35775"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35775#p35775"><![CDATA[
+I don't know, installing .Net 4.6.1 maybe.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 15, 2025 9:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7RTI]]></name></author>
+		<updated>2025-02-15T20:16:25</updated>
+
+		<published>2025-02-15T20:16:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35770#p35770</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35770#p35770"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35770#p35770"><![CDATA[
+<blockquote class="uncited"><div>Your .NET seems missing the Compression "librairies".</div></blockquote>Care to elaborate? Is there a way to actually fix this?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8062">M7RTI</a> — Sat Feb 15, 2025 8:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-15T19:34:42</updated>
+
+		<published>2025-02-15T19:34:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35769#p35769</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35769#p35769"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35769#p35769"><![CDATA[
+Your .NET seems missing the Compression "librairies".<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 15, 2025 7:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7RTI]]></name></author>
+		<updated>2025-02-15T19:25:21</updated>
+
+		<published>2025-02-15T19:25:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35767#p35767</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35767#p35767"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35767#p35767"><![CDATA[
+I too am getting this error on a virtual machine windows 10 and a bootcamp MAC. Is there something that needs setting in a new windows install to get this to work? Happens if radio connected or not.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8062">M7RTI</a> — Sat Feb 15, 2025 7:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-02-11T20:52:18</updated>
+
+		<published>2025-02-11T20:52:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35704#p35704</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35704#p35704"/>
+		<title type="html"><![CDATA[Re: RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35704#p35704"><![CDATA[
+What is your firmware version on the radio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Feb 11, 2025 8:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KQ4IFK]]></name></author>
+		<updated>2025-02-11T20:40:29</updated>
+
+		<published>2025-02-11T20:40:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35703#p35703</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35703#p35703"/>
+		<title type="html"><![CDATA[RE: Potenial issues with CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4866&amp;p=35703#p35703"><![CDATA[
+Hello All, <br><br>I am looking for any help into the error I am getting with the current version of CPS (R2025.02.03.1) when going to update my 380. <div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2842&amp;sid=2b17753e1e433c9177e65aa7ef092b14" class="postimage" alt="Screenshot (1).png" onclick="viewableArea(this);" /></dt></dl></div> <br><br>This is happing on a Clean install of windows 10 LTS, any advice or ideas would be help full.<br><br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8031">KQ4IFK</a> — Tue Feb 11, 2025 8:40 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

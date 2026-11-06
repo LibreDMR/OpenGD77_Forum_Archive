@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=5201&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 06:44:22 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; Display issue with TYT MD-UV390 Plus 10W</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>Display issue with TYT MD-UV390 Plus 10W</h2>
+		<p><a href="viewtopic76e8.html?f=19&amp;t=5201">viewtopic.php?f=19&amp;t=5201</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>2</strong></div>
+					<div class="post">
+				<h3>Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Wed Jul 02, 2025 7:16 pm</strong></div>
+				<div class="author">by <strong>VE2TIH</strong></div>
+				<div class="content">Hi, I have the TYT MD-UV390 Plus 10W, it was ordered at Aliexpress in june 2025. I’m experiencing display issue (as some others users too) when loading firmware R20240908 : There is no display at all…<br>
+<br>
+Now running under version 20240908143155 [9947546] without display issue but <br>
+GPS isn’t working, says ‘no GPS’.<br>
+There is supposed to be a hardware fix by replacing 2 resistors (0402 82R SMDT), but no one gave feedback to tell if it fixed the display isue or not and the thread is closed.<br>
+<br>
+Refering to thread: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4266&amp;start=40" class="postlink">viewtopic.php?f=19&amp;t=4266&amp;start=40</a><br>
+<br>
+Any help would be appreciated !<br>
+<br>
+Thanks, 73 to all OpenGD77 users  <img class="smilies" src="images/smilies/icon_razz.gif" width="15" height="17" alt=":P" title="Razz"> <br>
+<br>
+Michel - VE2TIH</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Wed Jul 02, 2025 8:27 pm</strong></div>
+				<div class="author">by <strong>SP9RZF</strong></div>
+				<div class="content">Try last beta version, should work fine. It's working for me without any issues (Other than the darker display).<br>
+<br>
+Of course, this is not a solution to the display problem, I'm used to it, but GPS works.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Wed Jul 02, 2025 10:27 pm</strong></div>
+				<div class="author">by <strong>VE2TIH</strong></div>
+				<div class="content">Thanks for answering, I just tried the Beta fw and didn't work. no display at all... maybe I got the wrong one...</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Wed Jul 02, 2025 10:29 pm</strong></div>
+				<div class="author">by <strong>VE2TIH</strong></div>
+				<div class="content">the one I just tried <br>
+<a href="https://www.opengd77.com/viewtopic.php?t=4994" class="postlink">viewtopic.php?t=4994</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Wed Jul 02, 2025 10:30 pm</strong></div>
+				<div class="author">by <strong>VE2TIH</strong></div>
+				<div class="content"><a href="https://drive.proton.me/urls/Q1FEHX8N5G#Ws1ZHkUjl29w" class="postlink">https://drive.proton.me/urls/Q1FEHX8N5G#Ws1ZHkUjl29w</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Wed Jul 02, 2025 10:44 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">The problem with this display brightness on the 10W radios has been discussed extensively on this forum and IIRC is actually a hardware 'feature' on these radios, so that even with the official firmware the display is not as bright on the 10W radios as it is on the 5W radios.<br>
+<br>
+<br>
+You must however load the 10W compatible firmware, because the signal that turns backlight on / off is controlled from a different pin on the MCU/CPU. Hence why the 5W radio firmware won't work on the 10W radio.<br>
+<br>
+There isn't a firmware fix that can make it any brighter.  <br>
+<br>
+The only way to mask the issue is to create a theme with colours that are higher contrast. <br>
+<br>
+IMO the default black&amp;white theme is probably already the highest contrast available, but you could try different contrasting colours</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Thu Jul 03, 2025 8:31 am</strong></div>
+				<div class="author">by <strong>VE2TIH</strong></div>
+				<div class="content">Thanks for this reply, I didn't find the compatible firmware yet, can you paste the link to it please ?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Thu Jul 03, 2025 9:57 am</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=8869&amp;sid=5b4a0d6d311be33645f2771db6f3991f">VE2TIH</a> wrote: <a href="viewtopic9475.html?p=37644&amp;sid=5b4a0d6d311be33645f2771db6f3991f#p37644" data-post-id="37644" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Jul 03, 2025 8:31 am</div></cite>
+Thanks for this reply, I didn't find the compatible firmware yet, can you paste the link to it please ?
+</div></blockquote>
+
+See. <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4994#p36374" class="postlink">viewtopic.php?f=19&amp;t=4994#p36374</a><br>
+<br>
+The 10W versions are clear by the file name</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Thu Jul 03, 2025 2:06 pm</strong></div>
+				<div class="author">by <strong>VE2TIH</strong></div>
+				<div class="content">I just tried it again, this one : MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23 <br>
+file MDUV380_10W_PLUS.zip<br>
+Still the same, blank screen... no luck for me !<br>
+What am I doing wrong ?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Display issue with TYT MD-UV390 Plus 10W</h3>
+				<div class="date">Posted: <strong>Thu Jul 03, 2025 3:01 pm</strong></div>
+				<div class="author">by <strong>SA0BUX</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=8869&amp;sid=5b4a0d6d311be33645f2771db6f3991f">VE2TIH</a> wrote: <a href="viewtopic588c.html?p=37647&amp;sid=5b4a0d6d311be33645f2771db6f3991f#p37647" data-post-id="37647" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Jul 03, 2025 2:06 pm</div></cite>
+I just tried it again, this one : MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 03 23 <br>
+file MDUV380_10W_PLUS.zip<br>
+Still the same, blank screen... no luck for me !<br>
+What am I doing wrong ?
+</div></blockquote>
+
+Have you tried the other version that is not 10W_PLUS.<br>
+In that one can select the 10W model.<br>
+<br>
+Depending on the 10W variant that may work with your display problem.</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>2</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=5201&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 06:44:25 GMT -->
+</html>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4007" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-27T13:18:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4007</id>
+
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-04-27T13:18:47</updated>
+
+		<published>2024-04-27T13:18:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31046#p31046</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31046#p31046"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31046#p31046"><![CDATA[
+Thanks for Daniel's help and fixed the bug which will be lanched next FW &amp; CPS version.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Sat Apr 27, 2024 1:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-25T16:39:22</updated>
+
+		<published>2024-04-25T16:39:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31020#p31020</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31020#p31020"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31020#p31020"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>Send me an email (address is available on QRZ.com), and tell me which build you need to test (DM-1701 or RT-84).</div></blockquote>Since I'm not HAM MEMBER now, I can't see your email. Pls wait me to apply for that.</div></blockquote>You can get in that source: <a href="https://github.com/f1rmb/sdrangel_helper_script/blob/master/sdrangel_helper_script.sh" class="postlink">https://github.com/f1rmb/sdrangel_helpe ... _script.sh</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 25, 2024 4:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-04-25T15:18:49</updated>
+
+		<published>2024-04-25T15:18:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31017#p31017</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31017#p31017"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31017#p31017"><![CDATA[
+<blockquote class="uncited"><div><br>Send me an email (address is available on QRZ.com), and tell me which build you need to test (DM-1701 or RT-84).</div></blockquote>Since I'm not HAM MEMBER now, I can't see your email. Pls wait me to apply for that.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu Apr 25, 2024 3:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-25T05:53:52</updated>
+
+		<published>2024-04-25T05:53:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31016#p31016</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31016#p31016"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31016#p31016"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I rechecked the code, PTT or Manual mode are supported.</div></blockquote>Could you please give me the detail setting step by step and give the successful screenshot image for me? thanks a lot.<br><br>I had use PTT mode, but also can't let the PO-101 APRS TX freq be changed to 437.5 Mhz.</div></blockquote>Send me an email (address is available on QRZ.com), and tell me which build you need to test (DM-1701 or RT-84).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 25, 2024 5:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-25T05:44:30</updated>
+
+		<published>2024-04-25T05:44:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31015#p31015</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31015#p31015"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31015#p31015"><![CDATA[
+I've found a bug in the FW code about APRS TX Freq.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 25, 2024 5:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-25T05:20:35</updated>
+
+		<published>2024-04-25T05:20:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31014#p31014</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31014#p31014"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31014#p31014"><![CDATA[
+About the frequency, I need to check the CPS first.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 25, 2024 5:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-04-25T05:03:47</updated>
+
+		<published>2024-04-25T05:03:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31013#p31013</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31013#p31013"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31013#p31013"><![CDATA[
+<blockquote class="uncited"><div>I rechecked the code, PTT or Manual mode are supported.</div></blockquote>Could you please give me the detail setting step by step and give the successful screenshot image for me? thanks a lot.<br><br>I had use PTT mode, but also can't let the PO-101 APRS TX freq be changed to 437.5 Mhz.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu Apr 25, 2024 5:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-25T04:27:05</updated>
+
+		<published>2024-04-25T04:27:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31011#p31011</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31011#p31011"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31011#p31011"><![CDATA[
+I rechecked the code, PTT or Manual mode are supported.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 25, 2024 4:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-04-25T01:21:01</updated>
+
+		<published>2024-04-25T01:21:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31009#p31009</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31009#p31009"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31009#p31009"><![CDATA[
+<blockquote class="uncited"><div>To select the Voice, APRS or Beacon fequency, press the keys 1, 2 or 3 respectively.</div></blockquote>This image which I had posted is just when I press the key 2 on the PO-101 frenquency screen.<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2386&amp;sid=a7bff629d15a4dfbbdd4491df97d26a0" class="postimage" alt="PO-101 APRS.jpg" onclick="viewableArea(this);" /></dt></dl></div><br>After I set the TX2 (APRS) freq of PO-101 as <strong class="text-strong"><em class="text-italics"><span style="text-decoration:underline"><span style="color:#FF0040">437.500</span></span></em></strong> like EC2UT [<a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3940&amp;start=4" class="postlink">viewtopic.php?f=12&amp;t=3940&amp;start=4</a>], the above screen is displayed APRS TX freq as <strong class="text-strong"><em class="text-italics"><span style="color:#0040FF">145.900</span></em></strong> (the same as RX freq), that is the  <strong class="text-strong"><span style="text-decoration:underline"><span style="color:#FF0000">bug / problem</span></span></strong>.<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2387&amp;sid=a7bff629d15a4dfbbdd4491df97d26a0" class="postimage" alt="EC2UT.jpg" onclick="viewableArea(this);" /></dt></dl></div><blockquote class="uncited"><div>The APRS Mode (from the Options submenu) has nothing to do with the Satellite's APRS.</div></blockquote><br>Since VK3KYY [<a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3940&amp;start=7" class="postlink">viewtopic.php?f=12&amp;t=3940&amp;start=7</a>] said that APRS mode in APRS option, I just pay attention that and changed it.<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2388&amp;sid=a7bff629d15a4dfbbdd4491df97d26a0" class="postimage" alt="VK3KYY.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu Apr 25, 2024 1:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-24T15:54:30</updated>
+
+		<published>2024-04-24T15:54:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31006#p31006</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31006#p31006"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31006#p31006"><![CDATA[
+The APRS Mode (from the Options submenu) has nothing to do with the Satellite's APRS.<br>Once in Satellite screen, APRS auto beaconing is disabled.<br>In Satellite screen, when you select the "APRS" mode, it uses APRS frequency from the keps, and you have to press PTT to xmit a beacon.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Apr 24, 2024 3:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-04-24T15:48:00</updated>
+
+		<published>2024-04-24T15:48:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31005#p31005</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31005#p31005"/>
+		<title type="html"><![CDATA[Re: PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31005#p31005"><![CDATA[
+<a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#satellite-live-data-screen" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ata-screen</a><br><br>To select the Voice, APRS or Beacon fequency, press the keys 1, 2 or 3 respectively.<br><br>Note:<br><br>Keys 1, 2 and 3 currently only operate on this screen and not the Polar or other satellite screens.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Apr 24, 2024 3:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-04-25T01:24:21 </updated>
+
+		<published>2024-04-24T15:39:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31004#p31004</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31004#p31004"/>
+		<title type="html"><![CDATA[PO-101 APRS TX freq.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4007&amp;p=31004#p31004"><![CDATA[
+This question is come from <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=3940&amp;start=4" class="postlink">viewtopic.php?f=12&amp;t=3940&amp;start=4</a> by ec2ut.<br><br>I just have the same question and confrmed by setting APRS mode to PTT in the APRS options, but it is not resolved. <br>PO-101 APRS TX freq. is diplayed same as RX freq. I don't  know how to display the correct one. Pls check.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2385&amp;sid=a7bff629d15a4dfbbdd4491df97d26a0" class="postimage" alt="PO-101 APRS.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2384&amp;sid=a7bff629d15a4dfbbdd4491df97d26a0" class="postimage" alt="APRS Mode.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2383&amp;sid=a7bff629d15a4dfbbdd4491df97d26a0" class="postimage" alt="satellites.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Wed Apr 24, 2024 3:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

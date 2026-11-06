@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4405" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-20T06:52:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4405</id>
+
+		<entry>
+		<author><name><![CDATA[DG5JN]]></name></author>
+		<updated>2024-10-20T06:52:17</updated>
+
+		<published>2024-10-20T06:52:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33608#p33608</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33608#p33608"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database [Fixed in latest version]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33608#p33608"><![CDATA[
+Thank you for your actions - everything works now without any problems.<br>73 - Eddie<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6363">DG5JN</a> — Sun Oct 20, 2024 6:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-20T06:28:23</updated>
+
+		<published>2024-10-20T06:28:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33607#p33607</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33607#p33607"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33607#p33607"><![CDATA[
+This bug has been fixed in the latest version<br><br>See<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4506" class="postlink">viewtopic.php?f=12&amp;t=4506</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 20, 2024 6:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-18T09:45:24</updated>
+
+		<published>2024-10-18T09:45:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33566#p33566</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33566#p33566"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33566#p33566"><![CDATA[
+<blockquote class="uncited"><div>I edited in the downloader, changed the "SPACE" to "COMMA", then, in second case to ",". After this, it crashed. Then i started to find setting in registry, as there is no .ini file to store the settings. I found this registry subfolder, deleted the separator related keys, and it has worked again. I guess, the .NET is not able to handle the separator related things....anyway, it works again.</div></blockquote>OK. I don't think that field was not intended to be editable, because not all characters will work.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 18, 2024 9:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG5JN]]></name></author>
+		<updated>2024-10-18T09:32:13</updated>
+
+		<published>2024-10-18T09:32:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33563#p33563</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33563#p33563"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33563#p33563"><![CDATA[
+Thanks for the tip.<br>I have deleted the registry entries.<br>CPS is working again without problems.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6363">DG5JN</a> — Fri Oct 18, 2024 9:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HA0BVT]]></name></author>
+		<updated>2024-10-18T09:30:27</updated>
+
+		<published>2024-10-18T09:30:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33562#p33562</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33562#p33562"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33562#p33562"><![CDATA[
+I edited in the downloader, changed the "SPACE" to "COMMA", then, in second case to ",". After this, it crashed. Then i started to find setting in registry, as there is no .ini file to store the settings. I found this registry subfolder, deleted the separator related keys, and it has worked again. I guess, the .NET is not able to handle the separator related things....anyway, it works again.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7111">HA0BVT</a> — Fri Oct 18, 2024 9:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-18T09:12:15</updated>
+
+		<published>2024-10-18T09:12:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33559#p33559</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33559#p33559"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33559#p33559"><![CDATA[
+<blockquote class="uncited"><div>Yes, it is true. I experienced the issue if i tried to change the separator character, for example to comma (,). In this case the callsing downloader issues crash. Probably that is why the registry hack worked. Thanks ! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote><br><br>You mean you edited the registry to have a different value.  The only options are Space and Dot  ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 18, 2024 9:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HA0BVT]]></name></author>
+		<updated>2024-10-18T09:07:54</updated>
+
+		<published>2024-10-18T09:07:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33558#p33558</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33558#p33558"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33558#p33558"><![CDATA[
+Yes, it is true. I experienced the issue if i tried to change the separator character, for example to comma (,). In this case the callsing downloader issues crash. Probably that is why the registry hack worked. Thanks ! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7111">HA0BVT</a> — Fri Oct 18, 2024 9:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-18T08:35:03</updated>
+
+		<published>2024-10-18T08:35:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33555#p33555</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33555#p33555"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33555#p33555"><![CDATA[
+The URL on github changed some time ago. This is outside of our control, and possibly we should not include any default value for an alternative URL<br><br>When the registry key is deleted, and the CPS is run, the key will be recreated with the value hard coded into the CPS exe<br><br>Currently the URL is<br><br><a href="https://raw.githubusercontent.com/ContactLists/NORMAL-ContactLists/master/RADIODDITY/GD77/GD77_WW_default.csv" class="postlink">https://raw.githubusercontent.com/Conta ... efault.csv</a><br><br>I just tested this the URL is still OK.<br><br>However, this may not be the cause of problems for everyone, as there are variations between the level of SSL support in different versions of the DotNet framework and also in each Windows installations, which often cause the download error<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 18, 2024 8:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HA0BVT]]></name></author>
+		<updated>2024-10-18T06:41:58</updated>
+
+		<published>2024-10-18T06:41:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33552#p33552</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33552#p33552"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=33552#p33552"><![CDATA[
+Hello,<br><br>I experienced the same. Even i reinstalled, the problem remained.<br>Finally, i could find the solution. I have deleted few registry entries, and after this<br>the CPS turned to working again.<br><br>The registry entries need to be deleted:<br><br>Számítógép\HKEY_USERS\S-1-5-21-1438549138-4016953747-2265292589-1001\Software\RadioddityCommunity\OpenGD77CPS<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2693&amp;sid=8e088455b72ed00434f58a6cdc05e1ff" class="postimage" alt="2024-10-18_084014.png" onclick="viewableArea(this);" /></dt></dl></div>Br<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7111">HA0BVT</a> — Fri Oct 18, 2024 6:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-16T20:35:19</updated>
+
+		<published>2024-09-16T20:35:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32978#p32978</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32978#p32978"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32978#p32978"><![CDATA[
+<blockquote class="uncited"><div>Unfortunately, opening the database is also not possible with this CPS version.<br><br>Error message:<br>Unhandled exception in application.<br>Click "Next" to ignore the error and continue using the application.<br>If you click on "Exit" the application will be terminated immediately.<br><br>The index was outside the array</div></blockquote>Ok<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 16, 2024 8:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG5JN]]></name></author>
+		<updated>2024-09-16T13:58:06</updated>
+
+		<published>2024-09-16T13:58:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32969#p32969</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32969#p32969"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32969#p32969"><![CDATA[
+Unfortunately, opening the database is also not possible with this CPS version.<br><br>Error message:<br>Unhandled exception in application.<br>Click "Next" to ignore the error and continue using the application.<br>If you click on "Exit" the application will be terminated immediately.<br><br>The index was outside the array<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6363">DG5JN</a> — Mon Sep 16, 2024 1:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-16T10:09:43</updated>
+
+		<published>2024-09-16T10:09:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32957#p32957</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32957#p32957"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32957#p32957"><![CDATA[
+<blockquote class="uncited"><div>System.IndexOutOfRangeException: The index was out of array range.<br>   at DMR.DMRIDForm..ctor()<br>   at DMR.MainForm.tsbtnDMRID_Click(Object sender, EventArgs e)<br>   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)<br>   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)<br>   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)<br>   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)<br>   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)<br>.....<br></div></blockquote>Can you try this 'test' version<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/Experimental/OpenGD77CPSInstaller_E2024.09.16.04.exe" class="postlink">downloads/PC_CPS/Latest/Experimental/Op ... .16.04.exe</a><br><br>If the problem is where I think it is, then it should not crash, but should display a message with some numbers in it,<br><br>Please tell me the numbers, assuming it doesn't still crash<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 16, 2024 10:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-16T09:46:25</updated>
+
+		<published>2024-09-16T09:46:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32953#p32953</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32953#p32953"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32953#p32953"><![CDATA[
+Actually. My mistake, that screen has change because the number of characters to write to the radio is now remembered<br><br>But I don't know if that's what is causing your error<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 16, 2024 9:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG5JN]]></name></author>
+		<updated>2024-09-16T08:57:01</updated>
+
+		<published>2024-09-16T08:57:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32948#p32948</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32948#p32948"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32948#p32948"><![CDATA[
+System.IndexOutOfRangeException: The index was out of array range.<br>   at DMR.DMRIDForm..ctor()<br>   at DMR.MainForm.tsbtnDMRID_Click(Object sender, EventArgs e)<br>   at System.Windows.Forms.ToolStripItem.RaiseEvent(Object key, EventArgs e)<br>   at System.Windows.Forms.ToolStripMenuItem.OnClick(EventArgs e)<br>   at System.Windows.Forms.ToolStripItem.HandleClick(EventArgs e)<br>   at System.Windows.Forms.ToolStripItem.HandleMouseUp(MouseEventArgs e)<br>   at System.Windows.Forms.ToolStripItem.FireEventInteractive(EventArgs e, ToolStripItemEventType met)<br>   at System.Windows.Forms.ToolStripItem.FireEvent(EventArgs e, ToolStripItemEventType met)<br>   at System.Windows.Forms.ToolStrip.OnMouseUp(MouseEventArgs mea)<br>   at System.Windows.Forms.ToolStripDropDown.OnMouseUp(MouseEventArgs mea)<br>   at System.Windows.Forms.Control.WmMouseUp(Message&amp; m, MouseButtons button, Int32 clicks)<br>   at System.Windows.Forms.Control.WndProc(Message&amp; m)<br>   at System.Windows.Forms.ScrollableControl.WndProc(Message&amp; m)<br>   at System.Windows.Forms.ToolStrip.WndProc(Message&amp; m)<br>   at System.Windows.Forms.ToolStripDropDown.WndProc(Message&amp; m)<br>   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)<br>   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)<br>   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)<br><br>************* Loaded Assemblies *************<br>mscorlib<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9261.0 built by: NET481REL1LAST_C.<br>    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll.<br>------------------------------------------------------<br>OpenGD77CPS<br>    Assembly version: 1.2.9022.32222.<br>    Win32 version: 1.0.0.0.<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/OpenGD77CPS.exe.<br>------------------------------------------------------<br>System.Windows.Forms<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9251.0 built by: NET481REL1LAST_C.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll.<br>------------------------------------------------------<br>system<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9261.0 built by: NET481REL1LAST_C.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll.<br>------------------------------------------------------<br>System.Drawing<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9037.0 built by: NET481REL1.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll.<br><br>System.Core<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9261.0 built by: NET481REL1LAST_C.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll.<br>------------------------------------------------------<br>System.Xml<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9037.0 built by: NET481REL1.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll.<br>------------------------------------------------------<br>System.Configuration<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9037.0 built by: NET481REL1.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll.<br>------------------------------------------------------<br>mscorlib.resources<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9037.0 built by: NET481REL1.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/mscorlib.resources/v4.0_4.0.0.0_de_b77a5c561934e089/mscorlib.resources.dll.<br>------------------------------------------------------<br>System.Windows.Forms.resources<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9037.0 built by: NET481REL1.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms.resources/v4.0_4.0.0.0_de_b77a5c561934e089/System.Windows.Forms.resources.dll.<br>------------------------------------------------------<br>System.Numerics<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9037.0 built by: NET481REL1.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll.<br>------------------------------------------------------<br>Accessibility<br>    Assembly version: 4.0.0.0.<br>    Win32 version: 4.8.9037.0 built by: NET481REL1.<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll.<br>------------------------------------------------------<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6363">DG5JN</a> — Mon Sep 16, 2024 8:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-16T08:24:48</updated>
+
+		<published>2024-09-16T08:24:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32945#p32945</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32945#p32945"/>
+		<title type="html"><![CDATA[Re: CPS does not open window for callsign database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4405&amp;p=32945#p32945"><![CDATA[
+<blockquote class="uncited"><div>Hello, my CPS program no longer opens the window to download the Callsign Database and responds with an error message!<br>Does anyone have an idea? CPS is version R2024.09.13.01</div></blockquote>Nothing has changed on this screen.<br><br>Please cut and paste the error message her<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 16, 2024 8:24 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

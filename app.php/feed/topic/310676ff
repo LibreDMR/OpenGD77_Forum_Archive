@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3106" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-07T04:08:53</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3106</id>
+
+		<entry>
+		<author><name><![CDATA[ve3pv]]></name></author>
+		<updated>2023-08-07T04:08:53</updated>
+
+		<published>2023-08-07T04:08:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24859#p24859</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24859#p24859"/>
+		<title type="html"><![CDATA[Re: Gd77 with 1.1.8 fw version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24859#p24859"><![CDATA[
+Thanks for explaining that I now understand.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4124">ve3pv</a> — Mon Aug 07, 2023 4:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-07T03:02:08</updated>
+
+		<published>2023-08-07T03:02:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24857#p24857</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24857#p24857"/>
+		<title type="html"><![CDATA[Re: Gd77 with 1.1.8 fw version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24857#p24857"><![CDATA[
+<blockquote class="uncited"><div>I have a gd77 radio with v1.1.8 fw is it safe to load the open gd77 firmware to it? I am having no luck finding the update.exe file needed to update the fw to 4.3.6.</div></blockquote>Yous post doesn't make any sense.<br><br>The OpenGD77 project does not a file called update.exe<br><br><br>It doesn't matter what version of official firmware is already on the radio. The firmware gets completely overwritten when you use the OpenGD77 to install OpenGD77 onto the radio.<br><br>It is not necessary or advisable to change to another official version before installing the OpenGD77 firmware, becuase the official firmware versions occasionally have a nasty habit of bricking the radio when you change from one official version to another official version.<br><br>You do need the official firmware version 4.3.6 binary file, but only to act as a Donor for the DMR codec. This is for legal reasons associated with the codec.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Aug 07, 2023 3:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve3pv]]></name></author>
+		<updated>2023-08-07T00:31:48</updated>
+
+		<published>2023-08-07T00:31:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24853#p24853</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24853#p24853"/>
+		<title type="html"><![CDATA[Gd77 with 1.1.8 fw version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3106&amp;p=24853#p24853"><![CDATA[
+I have a gd77 radio with v1.1.8 fw is it safe to load the open gd77 firmware to it? I am having no luck finding the update.exe file needed to update the fw to 4.3.6.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4124">ve3pv</a> — Mon Aug 07, 2023 12:31 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

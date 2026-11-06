@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3799" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-07T12:30:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3799</id>
+
+		<entry>
+		<author><name><![CDATA[W4TAB]]></name></author>
+		<updated>2025-03-07T12:30:14</updated>
+
+		<published>2025-03-07T12:30:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36098#p36098</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36098#p36098"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36098#p36098"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>i am having a similar issue but my screen is all white. They only reason I know it is the same screen as described on this thread is because I did a screen grab from the CPS. None of hte buttons work so I can't put the radio back on firmware mode <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"></div></blockquote>Probably a bad connection of the ribbon cable between the keyboard and main boards. Open the radio and reinsert both ends.</div></blockquote>THANK YOU!!!<br><br>That did the trick. Opened the radio this morning, reset all ribbon cable ends and the radio works as it should. I am puzzled how a radio on my desk would go from working to dead only by updating the firmware. None the less, radio surgery was a success.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3532">W4TAB</a> — Fri Mar 07, 2025 12:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-07T03:31:27</updated>
+
+		<published>2025-03-07T03:31:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36092#p36092</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36092#p36092"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36092#p36092"><![CDATA[
+<blockquote class="uncited"><div>i am having a similar issue but my screen is all white. They only reason I know it is the same screen as described on this thread is because I did a screen grab from the CPS. None of hte buttons work so I can't put the radio back on firmware mode <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"></div></blockquote>Probably a bad connection of the ribbon cable between the keyboard and main boards. Open the radio and reinsert both ends.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Mar 07, 2025 3:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W4TAB]]></name></author>
+		<updated>2025-03-07T03:05:40</updated>
+
+		<published>2025-03-07T03:05:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36090#p36090</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36090#p36090"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=36090#p36090"><![CDATA[
+i am having a similar issue but my screen is all white. They only reason I know it is the same screen as described on this thread is because I did a screen grab from the CPS. None of hte buttons work so I can't put the radio back on firmware mode <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3532">W4TAB</a> — Fri Mar 07, 2025 3:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-18T10:07:26</updated>
+
+		<published>2024-03-18T10:07:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=30188#p30188</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=30188#p30188"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=30188#p30188"><![CDATA[
+Hi,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Could send me the backup of your flash (private email, and you have to put the binary file somewhere on the internet, as it is too large for email).<br>You will find my email address on QRZ.com.<br>Also, from the CPS, Extas -&gt; OpenGD77 Support, read the secure register, and send it as well.</div></blockquote>I have just send you the files via wetransfer.<br>Looking forward to hearing from you, if you have a solution to this mystery.<br>I appreciate your help very much!</div></blockquote>Sorry to be a bit late. I tried to download your files, but the download link just expired...<br>Could you make another one ?<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Mar 18, 2024 10:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ7ET]]></name></author>
+		<updated>2024-03-11T09:46:22</updated>
+
+		<published>2024-03-11T09:46:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=30061#p30061</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=30061#p30061"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=30061#p30061"><![CDATA[
+<blockquote class="uncited"><div>Could send me the backup of your flash (private email, and you have to put the binary file somewhere on the internet, as it is too large for email).<br>You will find my email address on QRZ.com.<br>Also, from the CPS, Extas -&gt; OpenGD77 Support, read the secure register, and send it as well.</div></blockquote>I have just send you the files via wetransfer.<br>Looking forward to hearing from you, if you have a solution to this mystery.<br>I appreciate your help very much!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5664">OZ7ET</a> — Mon Mar 11, 2024 9:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ7ET]]></name></author>
+		<updated>2024-03-02T15:09:53</updated>
+
+		<published>2024-03-02T15:09:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29921#p29921</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29921#p29921"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29921#p29921"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Could send me the backup of your flash (private email, and you have to put the binary file somewhere on the internet, as it is too large for email).<br>You will find my email address on QRZ.com.<br>Also, from the CPS, Extas -&gt; OpenGD77 Support, read the secure register, and send it as well.</div></blockquote>Yes, I will try to send Thea files as soon as possible. (Should be within a few days).<br>You need to explain to me what the binary file is?</div></blockquote>The binary file is the flash backup, as you told us that you restore the flash<blockquote class="uncited"><div>When I restore flash and go back to the original firmware...</div></blockquote></div></blockquote>Thanks for clarifying this, I understand. I will send you all I have.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5664">OZ7ET</a> — Sat Mar 02, 2024 3:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-02T14:39:48</updated>
+
+		<published>2024-03-02T14:39:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29917#p29917</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29917#p29917"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29917#p29917"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Could send me the backup of your flash (private email, and you have to put the binary file somewhere on the internet, as it is too large for email).<br>You will find my email address on QRZ.com.<br>Also, from the CPS, Extas -&gt; OpenGD77 Support, read the secure register, and send it as well.</div></blockquote>Yes, I will try to send Thea files as soon as possible. (Should be within a few days).<br>You need to explain to me what the binary file is?</div></blockquote>The binary file is the flash backup, as you told us that you restore the flash<blockquote class="uncited"><div>When I restore flash and go back to the original firmware...</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 02, 2024 2:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ7ET]]></name></author>
+		<updated>2024-03-02T13:12:32</updated>
+
+		<published>2024-03-02T13:12:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29916#p29916</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29916#p29916"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29916#p29916"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>Ok, Thanks for explaining this.<br><br>When I install the open gd77 firmware, the CPS says something like’firmware update completed’ then the radio goes from black screen directly to the ‘settings updated’ screen. But no buttons are working after this.<br>(If I go back to original firmware, all buttons are working fine).</div></blockquote><br>Can you give more details about this radio. Is not new or old etc.<br><br>Did it work with an older version of OpenGD77 ??<br><br>FYI.<br><br>This problem is very similar to the problem with very old MD2017 radios.</div></blockquote>It is about a year old. I bought it to get open GD77.<br><br>First time I installed open GD77, it worked perfectly, with no problems at all.<br>When the first version of open GD77 with color themes Came I installed that. And it worked perfectly, until a day I was using the radio and it suddenly showed the settings updated screen and all buttons stopped working.<br>After that I tried installing the newest version of GD77 and after it did not work I switched to the original firmware and everything worked perfectly fine. I have then tried re installing open GD77 but unfortunately with no luck.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5664">OZ7ET</a> — Sat Mar 02, 2024 1:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ7ET]]></name></author>
+		<updated>2024-03-02T13:04:43</updated>
+
+		<published>2024-03-02T13:04:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29915#p29915</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29915#p29915"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29915#p29915"><![CDATA[
+<blockquote class="uncited"><div>Could send me the backup of your flash (private email, and you have to put the binary file somewhere on the internet, as it is too large for email).<br>You will find my email address on QRZ.com.<br>Also, from the CPS, Extas -&gt; OpenGD77 Support, read the secure register, and send it as well.</div></blockquote>Yes, I will try to send Thea files as soon as possible. (Should be within a few days).<br>You need to explain to me what the binary file is?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5664">OZ7ET</a> — Sat Mar 02, 2024 1:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-02T09:18:04</updated>
+
+		<published>2024-03-02T09:18:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29914#p29914</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29914#p29914"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29914#p29914"><![CDATA[
+<blockquote class="uncited"><div><br>Ok, Thanks for explaining this.<br><br>When I install the open gd77 firmware, the CPS says something like’firmware update completed’ then the radio goes from black screen directly to the ‘settings updated’ screen. But no buttons are working after this.<br>(If I go back to original firmware, all buttons are working fine).</div></blockquote><br>Can you give more details about this radio. Is not new or old etc.<br><br>Did it work with an older version of OpenGD77 ??<br><br>FYI.<br><br>This problem is very similar to the problem with very old MD2017 radios.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 02, 2024 9:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-02T09:16:07</updated>
+
+		<published>2024-03-02T09:16:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29913#p29913</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29913#p29913"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29913#p29913"><![CDATA[
+Zip the backup files, mostly it will be 0x00 for the main Flash backup, and the file will be much smaller<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 02, 2024 9:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-02T08:58:45</updated>
+
+		<published>2024-03-02T08:58:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29912#p29912</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29912#p29912"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29912#p29912"><![CDATA[
+Could send me the backup of your flash (private email, and you have to put the binary file somewhere on the internet, as it is too large for email).<br>You will find my email address on QRZ.com.<br>Also, from the CPS, Extas -&gt; OpenGD77 Support, read the secure register, and send it as well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 02, 2024 8:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ7ET]]></name></author>
+		<updated>2024-03-02T08:28:53</updated>
+
+		<published>2024-03-02T08:28:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29910#p29910</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29910#p29910"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29910#p29910"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>When I restore flash and go back to the original firmware (or newer version of open gd77. Does any data (e.g. some settings or other stuff) remain on the radio?<br> As I understand the settings updated screen that I get is because that some new features have been added to the new version of the firmware and I need to push green button for ‘ok’ (still no buttons are working).<br>If any settings data is not deleted when I flash to original or newest version of open GD77, is there any way to get rid of that? Maby the problem is some ‘old’ settings remaining, even after flashing. Is this a possibility?<br>If yes, is there a way to get rid of this? And start from scratch? <br><br>Looking forward to hearing from you guys.<br><br>And again, I really appreciate your time and effort in this project!</div></blockquote>Some data will remain when you change versions<br><br>Settings data e.g. Options settings, will get reset if the settings version in the version of firmware you load does not match the settings version in the radio.<br>Settings version does not change for each firmware version, it only changes if a new setting was added or there was a bug caused by the default value of one of the settings<br><br>On the UV380 etc, some of the OpenGD77 codeplug and settings data is in memory locations not used by the official codeplug and settings data.<br>So installing the official firmware and codeplug and then reinstalling OpenGD77, some OpenGD77 will still remain.<br><br><br>If your radio constantly reboots, even if you force a settings reset, and do not even reach the "Settings updated" screen, then there is currently no way to erase the entire flash memory.<br><br>If the radio reboots after the "Settings Updated" screen, you can use the CPS to back and restore the entire Flash memory.<br><br>i.e You could make a 16mB binary file full of 0x00 and upload this to the radio and it would completely erase the Flash memory, however, I'm not sure whether if you did this, you would be able to use the official firmware on the radio again, because the official firmware has its display font data in Flash memory, and possibly other things, and its not know for sure whether the official firmware files contain absolute every piece of data needed to install from a completely erased radio.<br><br><br>Does you radio reach the "Settings Updated" screen, and not reboot if you do not press any buttons ?</div></blockquote>Ok, Thanks for explaining this.<br><br>When I install the open gd77 firmware, the CPS says something like’firmware update completed’ then the radio goes from black screen directly to the ‘settings updated’ screen. But no buttons are working after this.<br>(If I go back to original firmware, all buttons are working fine).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5664">OZ7ET</a> — Sat Mar 02, 2024 8:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-01T21:42:55</updated>
+
+		<published>2024-03-01T21:42:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29904#p29904</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29904#p29904"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29904#p29904"><![CDATA[
+<blockquote class="uncited"><div>When I restore flash and go back to the original firmware (or newer version of open gd77. Does any data (e.g. some settings or other stuff) remain on the radio?<br> As I understand the settings updated screen that I get is because that some new features have been added to the new version of the firmware and I need to push green button for ‘ok’ (still no buttons are working).<br>If any settings data is not deleted when I flash to original or newest version of open GD77, is there any way to get rid of that? Maby the problem is some ‘old’ settings remaining, even after flashing. Is this a possibility?<br>If yes, is there a way to get rid of this? And start from scratch? <br><br>Looking forward to hearing from you guys.<br><br>And again, I really appreciate your time and effort in this project!</div></blockquote>Some data will remain when you change versions<br><br>Settings data e.g. Options settings, will get reset if the settings version in the version of firmware you load does not match the settings version in the radio.<br>Settings version does not change for each firmware version, it only changes if a new setting was added or there was a bug caused by the default value of one of the settings<br><br>On the UV380 etc, some of the OpenGD77 codeplug and settings data is in memory locations not used by the official codeplug and settings data.<br>So installing the official firmware and codeplug and then reinstalling OpenGD77, some OpenGD77 will still remain.<br><br><br>If your radio constantly reboots, even if you force a settings reset, and do not even reach the "Settings updated" screen, then there is currently no way to erase the entire flash memory.<br><br>If the radio reboots after the "Settings Updated" screen, you can use the CPS to back and restore the entire Flash memory.<br><br>i.e You could make a 16mB binary file full of 0x00 and upload this to the radio and it would completely erase the Flash memory, however, I'm not sure whether if you did this, you would be able to use the official firmware on the radio again, because the official firmware has its display font data in Flash memory, and possibly other things, and its not know for sure whether the official firmware files contain absolute every piece of data needed to install from a completely erased radio.<br><br><br>Does you radio reach the "Settings Updated" screen, and not reboot if you do not press any buttons ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 01, 2024 9:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ7ET]]></name></author>
+		<updated>2024-03-01T21:02:34</updated>
+
+		<published>2024-03-01T21:02:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29903#p29903</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29903#p29903"/>
+		<title type="html"><![CDATA[Re: Help on solving a “frozen” radio.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3799&amp;p=29903#p29903"><![CDATA[
+When I restore flash and go back to the original firmware (or newer version of open gd77. Does any data (e.g. some settings or other stuff) remain on the radio?<br> As I understand the settings updated screen that I get is because that some new features have been added to the new version of the firmware and I need to push green button for ‘ok’ (still no buttons are working).<br>If any settings data is not deleted when I flash to original or newest version of open GD77, is there any way to get rid of that? Maby the problem is some ‘old’ settings remaining, even after flashing. Is this a possibility?<br>If yes, is there a way to get rid of this? And start from scratch? <br><br>Looking forward to hearing from you guys.<br><br>And again, I really appreciate your time and effort in this project!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5664">OZ7ET</a> — Fri Mar 01, 2024 9:02 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

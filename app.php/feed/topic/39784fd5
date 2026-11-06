@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3978" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-23T09:47:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3978</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-23T09:47:48</updated>
+
+		<published>2024-06-23T09:47:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31751#p31751</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31751#p31751"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31751#p31751"><![CDATA[
+This version has been superseded<br><br>See <a href="https://www.opengd77.com/viewtopic.php?f=28&amp;t=4171" class="postlink">viewtopic.php?f=28&amp;t=4171</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 23, 2024 9:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-23T16:21:41</updated>
+
+		<published>2024-05-23T16:21:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31399#p31399</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31399#p31399"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31399#p31399"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>I was gifted an old Moonraker HT-500D (a rebadged RT-82) with a broken antenna socket and dodgy on/off volume pot.  I took it apart and replaced both with Boafeng parts, so the potentiometer shaft is not as tall as the original and the radio now has a male SMA socket, rather than the original female one.<br><br>After replacing the speaker cable with a longer one and re-assembling the radio, I was met with a black screen on switching it on (!).  I went ahead and put it in firmware update mode and loaded the latest Alpha 2024 04 12 onto it and found some info on trying to get the display working.  I took it apart again, took out the display ribbon cable and cleaned it with Isopropyl Alcohol (using a pipe cleaner).  After this, I do have a very dim display, which I can just read using a bright light shining on it.<br><br>I have set these Display Options:<br>- Brightness 100%<br>- Night Bright 100%<br>- Min Bright 90%<br><br>Is there anything else that anyone can suggest to try and get the display working properly again (it seems like a backlight issue)?<br><br>I have successfully used the radio with BlueDV for Windows (Version 1.0.0.9632) running on a desktop PC with Windows 10 Pro.  I have the radio running in VFO DMR mode on  70cm and connected to it from my Retrevis RT3S running OpenGD77.  I have configured BlueDV for FreeDMR and been trying different talkgroups, but will also try using TGIF with it too.<br><br>I also loaded Voice Prompts to the radio, namely "english_AU_nicole-1.5_UV380-like.vpr".  The operation with this file seems very flaky and it only works some of the time after first switching on the radio, which is a shame when I am having such a problem reading the display.</div></blockquote>Looks like there is a problem with the backlight. You can try to check the power line.<br><br>Otherwise, about voice prompts, you can enable to most verbose mode:<br>press and hold the '<strong class="text-strong">#</strong>' button while powering up the radio.<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#boot-key-combinations" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... mbinations</a><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu May 23, 2024 4:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4WKW]]></name></author>
+		<updated>2024-05-22T19:24:43</updated>
+
+		<published>2024-05-22T19:24:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31392#p31392</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31392#p31392"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31392#p31392"><![CDATA[
+I was gifted an old Moonraker HT-500D (a rebadged RT-82) with a broken antenna socket and dodgy on/off volume pot.  I took it apart and replaced both with Boafeng parts, so the potentiometer shaft is not as tall as the original and the radio now has a male SMA socket, rather than the original female one.<br><br>After replacing the speaker cable with a longer one and re-assembling the radio, I was met with a black screen on switching it on (!).  I went ahead and put it in firmware update mode and loaded the latest Alpha 2024 04 12 onto it and found some info on trying to get the display working.  I took it apart again, took out the display ribbon cable and cleaned it with Isopropyl Alcohol (using a pipe cleaner).  After this, I do have a very dim display, which I can just read using a bright light shining on it.<br><br>I have set these Display Options:<br>- Brightness 100%<br>- Night Bright 100%<br>- Min Bright 90%<br><br>Is there anything else that anyone can suggest to try and get the display working properly again (it seems like a backlight issue)?<br><br>I have successfully used the radio with BlueDV for Windows (Version 1.0.0.9632) running on a desktop PC with Windows 10 Pro.  I have the radio running in VFO DMR mode on  70cm and connected to it from my Retrevis RT3S running OpenGD77.  I have configured BlueDV for FreeDMR and been trying different talkgroups, but will also try using TGIF with it too.<br><br>I also loaded Voice Prompts to the radio, namely "english_AU_nicole-1.5_UV380-like.vpr".  The operation with this file seems very flaky and it only works some of the time after first switching on the radio, which is a shame when I am having such a problem reading the display.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4005">G4WKW</a> — Wed May 22, 2024 7:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CT7ARF]]></name></author>
+		<updated>2024-05-06T17:19:03</updated>
+
+		<published>2024-05-06T17:19:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31176#p31176</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31176#p31176"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31176#p31176"><![CDATA[
+And it's working... I'll monitor it for the next couple of days to see if it remains stable.<br><br>Merci F1RMB! And all at the OpenGD77 Team!<br><br>73 de CT7ARF<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6120">CT7ARF</a> — Mon May 06, 2024 5:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-06T16:21:48</updated>
+
+		<published>2024-05-06T16:21:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31173#p31173</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31173#p31173"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31173#p31173"><![CDATA[
+<blockquote class="uncited"><div>Hello again,<br><br>@SA0BUX<br><br>I'm sorry: ECO Level ? I'll check the manual ASAP.<br><br>@F1RMB<br><br>I've sent you an email with a photo of the back of the radio (without batery): S/N 1705RT821101869<br><br>Thank you both for your swift answer.<br><br>Best regards and 73,<br><br>Antonio Cochicho<br>(CT7ARF)</div></blockquote>Check your inbox <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon May 06, 2024 4:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CT7ARF]]></name></author>
+		<updated>2024-05-06T16:20:19</updated>
+
+		<published>2024-05-06T16:20:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31171#p31171</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31171#p31171"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31171#p31171"><![CDATA[
+Hello again,<br><br>@SA0BUX<br><br>I'm sorry: ECO Level ? I'll check the manual ASAP.<br><br>@F1RMB<br><br>I've sent you an email with a photo of the back of the radio (without batery): S/N 1705RT821101869<br><br>Thank you both for your swift answer.<br><br>Best regards and 73,<br><br>Antonio Cochicho<br>(CT7ARF)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6120">CT7ARF</a> — Mon May 06, 2024 4:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-06T07:37:04</updated>
+
+		<published>2024-05-06T07:37:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31159#p31159</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31159#p31159"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31159#p31159"><![CDATA[
+Yes, there is a known bug which got fixed.<br>Send me an email, telling me your radio model, I will send you a fixed firmware.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon May 06, 2024 7:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-05-06T07:11:38</updated>
+
+		<published>2024-05-06T07:11:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31158#p31158</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31158#p31158"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31158#p31158"><![CDATA[
+<blockquote class="uncited"><div>Hello all that OpenGD77 Team,<br><br>Just to let you know the following issue.<br><br>I've got a Retevis RT-82 and I've loaded both versions of firmware:<br><br>This one (latest):<br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/0f43e6cdffe5cd6ac6ce14eb1506c1c815dbb341" class="postlink">downloads/MD2017/Firmware/0f43e6cdffe5c ... c815dbb341</a><br><br>Does have an audio problem.<br><br>The previous one:<br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/049e598c09c247d77d96c620aaad3dcd1eb07016/" class="postlink">downloads/MD2017/Firmware/049e598c09c24 ... d1eb07016/</a><br><br>Is working just fine.<br><br>The audio problem is that the speaker - either via the Internal or via a SpeakerMic - stops working a minute or so after power on. I've consulted thoroughly the manual but did not found any speaker time out parameter. Also it happens in both DMR or FM, in Double Watch or simple VFO mode.<br><br>I can not emphasize enough how grateful I am for the brilliant work the team as done: My Retevis is now a completely new radio. Bought it 2nd hand in early 2018 and with this firmware the possibilities are incredible wider than with the original Firmware. THANK YOU!<br><br>All best from IM58 and 73,<br><br>Antonio Cochicho<br>(CT7ARF)</div></blockquote>I have a Retevis RT-82 running with 20240412 firmware and I have not detected any audio problem.<br><br>What ECO level do you use ?<br><br>I do have another problem with audio level in FM mode as it's much weaker than before.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon May 06, 2024 7:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CT7ARF]]></name></author>
+		<updated>2024-05-04T18:52:25</updated>
+
+		<published>2024-05-04T18:52:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31132#p31132</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31132#p31132"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31132#p31132"><![CDATA[
+Hello all that OpenGD77 Team,<br><br>Just to let you know the following issue.<br><br>I've got a Retevis RT-82 and I've loaded both versions of firmware:<br><br>This one (latest):<br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/0f43e6cdffe5cd6ac6ce14eb1506c1c815dbb341" class="postlink">downloads/MD2017/Firmware/0f43e6cdffe5c ... c815dbb341</a><br><br>Does have an audio problem.<br><br>The previous one:<br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/049e598c09c247d77d96c620aaad3dcd1eb07016/" class="postlink">downloads/MD2017/Firmware/049e598c09c24 ... d1eb07016/</a><br><br>Is working just fine.<br><br>The audio problem is that the speaker - either via the Internal or via a SpeakerMic - stops working a minute or so after power on. I've consulted thoroughly the manual but did not found any speaker time out parameter. Also it happens in both DMR or FM, in Double Watch or simple VFO mode.<br><br>I can not emphasize enough how grateful I am for the brilliant work the team as done: My Retevis is now a completely new radio. Bought it 2nd hand in early 2018 and with this firmware the possibilities are incredible wider than with the original Firmware. THANK YOU!<br><br>All best from IM58 and 73,<br><br>Antonio Cochicho<br>(CT7ARF)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6120">CT7ARF</a> — Sat May 04, 2024 6:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-29T20:15:35</updated>
+
+		<published>2024-04-29T20:15:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31084#p31084</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31084#p31084"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31084#p31084"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>With this version I have problems using dual slot DMR.<br><br>On an MMDVM duplex DMR hotspot I always activate TS1 even if I select the channel to use TS2. I also have another channel for the same hotspot but with TS1 enabled, that works on TS1. Frequencies for hotspot are 439MHz on RX and 430MHz on TX.<br>This behavior is not reproducible on simplex hotspots.<br><br>EDIT:<br>I figured it out, it was because * was pressed, the TS got "fixed" no mater if I changed the channel or rebooted the handy. There was no indication o screen that the TS was different than the TS of the channel.<br><br>On simplex DMR there is only one TS so it doesn't matter which number you set.</div></blockquote>Go to <strong class="text-strong">Options</strong> -&gt; <strong class="text-strong">Display options</strong> -&gt; and set <strong class="text-strong">Info</strong> to <strong class="text-strong">TS</strong> or <strong class="text-strong">Both</strong>. So, if you override the TS (using '*' key), the TS will be displayed using a bold font.<br>Also, the dispayed TS (in the header bar), displays the TX Timeslot.</div></blockquote>Should it not reset to what the channel is set to if I change the channel or turn off then on the device ?</div></blockquote>No. Long press star key clears the override. I suggest you to read the user guide.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 29, 2024 8:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-04-29T19:07:37</updated>
+
+		<published>2024-04-29T19:07:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31083#p31083</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31083#p31083"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31083#p31083"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>With this version I have problems using dual slot DMR.<br><br>On an MMDVM duplex DMR hotspot I always activate TS1 even if I select the channel to use TS2. I also have another channel for the same hotspot but with TS1 enabled, that works on TS1. Frequencies for hotspot are 439MHz on RX and 430MHz on TX.<br>This behavior is not reproducible on simplex hotspots.<br><br>EDIT:<br>I figured it out, it was because * was pressed, the TS got "fixed" no mater if I changed the channel or rebooted the handy. There was no indication o screen that the TS was different than the TS of the channel.<br><br>On simplex DMR there is only one TS so it doesn't matter which number you set.</div></blockquote>Go to <strong class="text-strong">Options</strong> -&gt; <strong class="text-strong">Display options</strong> -&gt; and set <strong class="text-strong">Info</strong> to <strong class="text-strong">TS</strong> or <strong class="text-strong">Both</strong>. So, if you override the TS (using '*' key), the TS will be displayed using a bold font.<br>Also, the dispayed TS (in the header bar), displays the TX Timeslot.</div></blockquote>Should it not reset to what the channel is set to if I change the channel or turn off then on the device ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Mon Apr 29, 2024 7:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-29T16:58:26</updated>
+
+		<published>2024-04-29T16:58:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31082#p31082</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31082#p31082"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31082#p31082"><![CDATA[
+<blockquote class="uncited"><div>With this version I have problems using dual slot DMR.<br><br>On an MMDVM duplex DMR hotspot I always activate TS1 even if I select the channel to use TS2. I also have another channel for the same hotspot but with TS1 enabled, that works on TS1. Frequencies for hotspot are 439MHz on RX and 430MHz on TX.<br>This behavior is not reproducible on simplex hotspots.<br><br>EDIT:<br>I figured it out, it was because * was pressed, the TS got "fixed" no mater if I changed the channel or rebooted the handy. There was no indication o screen that the TS was different than the TS of the channel.<br><br>On simplex DMR there is only one TS so it doesn't matter which number you set.</div></blockquote>Go to <strong class="text-strong">Options</strong> -&gt; <strong class="text-strong">Display options</strong> -&gt; and set <strong class="text-strong">Info</strong> to <strong class="text-strong">TS</strong> or <strong class="text-strong">Both</strong>. So, if you override the TS (using '*' key), the TS will be displayed using a bold font.<br>Also, the dispayed TS (in the header bar), displays the TX Timeslot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 29, 2024 4:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-04-29T15:33:09</updated>
+
+		<published>2024-04-29T15:33:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31081#p31081</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31081#p31081"/>
+		<title type="html"><![CDATA[Re: New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=31081#p31081"><![CDATA[
+With this version I have problems using dual slot DMR.<br><br>On an MMDVM duplex DMR hotspot I always activate TS1 even if I select the channel to use TS2. I also have another channel for the same hotspot but with TS1 enabled, that works on TS1. Frequencies for hotspot are 439MHz on RX and 430MHz on TX.<br>This behavior is not reproducible on simplex hotspots.<br><br>EDIT:<br>I figured it out, it was because * was pressed, the TS got "fixed" no mater if I changed the channel or rebooted the handy. There was no indication o screen that the TS was different than the TS of the channel.<br><br>On simplex DMR there is only one TS so it doesn't matter which number you set.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Mon Apr 29, 2024 3:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-12T10:41:48</updated>
+
+		<published>2024-04-12T10:41:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3978&amp;p=30789#p30789</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=30789#p30789"/>
+		<title type="html"><![CDATA[New Alpha 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3978&amp;p=30789#p30789"><![CDATA[
+A new Alpha version is available for the MD-2017/RT-82<br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/0f43e6cdffe5cd6ac6ce14eb1506c1c815dbb341" class="postlink">downloads/MD2017/Firmware/0f43e6cdffe5c ... c815dbb341</a><br><br>This version ...<br><br>* Fixes audio problems<br>* CSS bugs<br>* QSO info and notification display problem<br>* Updates to language translations<br><br>Thanks to Daniel F1RMB for fixing all of these problems, also thanks to the various translators<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 12, 2024 10:41 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

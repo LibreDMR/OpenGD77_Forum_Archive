@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2466" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-11-01T20:17:51</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2466</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-11-01T20:17:51</updated>
+
+		<published>2022-11-01T20:17:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20486#p20486</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20486#p20486"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20486#p20486"><![CDATA[
+<blockquote class="uncited"><div>The settings in the factory firmware are mostly (if not all) stored in the codeplug so that they can be changed in the CPS or in the radio.  Hence they will be stored in flash.  Probably the only thing people would notice if the battery was flat would be the clock setting and that would not be that obvious. <br><br>Provided people use the radio regularly then our method of using the battery backed ram works OK.  In practice even if the settings are occasionally lost it doesn't take long to reset them.<br><br>Colin.</div></blockquote>Thinking about the RD5R, I remembered it does have EEPROM, but it dioesnt have the power management circuit, so on that radio we have to save to EEPROM every time there is a settings change or channel change etc<br><br>The UV380 has the power management circuit, but no EEPROM.<br><br>I think the official firmware does use the battery RAM, because I recall reinstalling the official firmware, doing some tests, and then reinstalling OpenGD77, and the radio displayed the settings update message, which means the settings Magnic number must have been changed<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 01, 2022 8:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-11-01T14:55:46</updated>
+
+		<published>2022-11-01T14:55:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20485#p20485</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20485#p20485"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20485#p20485"><![CDATA[
+The settings in the factory firmware are mostly (if not all) stored in the codeplug so that they can be changed in the CPS or in the radio.  Hence they will be stored in flash.  Probably the only thing people would notice if the battery was flat would be the clock setting and that would not be that obvious. <br><br>Provided people use the radio regularly then our method of using the battery backed ram works OK.  In practice even if the settings are occasionally lost it doesn't take long to reset them.<br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Nov 01, 2022 2:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-11-01T10:26:59</updated>
+
+		<published>2022-11-01T10:26:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20484#p20484</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20484#p20484"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20484#p20484"><![CDATA[
+We could probably use the Flash memory for storage if people find that in normal use the backup battery keeps going flat.<br><br>The UV380 /RT3S doesnt have EEPROM that the GD77 uses for setting storage, which is better suited to storing things than Flash, but Flash would work.<br><br>The problem with using Flash is the eventual wear of part of the memory, but it would not be as bad on the UV380/RT3S as is on the RD5R which also only has flash but also does not have power management.<br><br>Whats strange is that ist highly likely that even new radios would have been sitting in storage for far longer than 6 weeks, and yet hardly anyone reports any problems with the settings not being retained.<br><br>Assuming the official firmware has the RTC enabled when it leaves the factory, then the batteries would be completely flat when most people receive their radio.<br><br>It seems unlikely that the official firmware had not been run on the radio prior to it being shipped, so unless there is some option to enable / disable the RTC in the official firmware, then the RTC would be running all the time the radio was in storage and transit.<br><br>I'm not at all familiar with the official firmware, so perhaps the RTC is disable by default, and only enabled when someone sets the time.<br><br><br>Anyway, this could be changed, but there are benefits to using the battery backed RAM and disadvantages to using the Flash, so we'd need to be sure it was necessary to change both the MD9600 and UV380 to use Flash for storage<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 01, 2022 10:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-11-01T10:11:57</updated>
+
+		<published>2022-11-01T10:11:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20483#p20483</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20483#p20483"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20483#p20483"><![CDATA[
+I have done a few rough calculations. <br><br>The battery capacity is 1mAh.<br>The datasheet say that the current drain on vbat is around 1uA. <br>So, with a fully charged battery you would expect it to last for around 1000 hours. <br>That is about 6 weeks. <br><br>A new radio will probably have been sitting without a main battery for longer than that, so it might be expected the RTC battery starts off life fairly flat. <br><br>I don't know exactly what the charging current is but the data sheet for the battery suggests 0.01mA. So the charging time for a flat battery would be 100 hours. <br><br>Based on that the battery should last for roughly 10 times longer than it has been used. <br><br>So leaving the radio turned on in the charger for 24 hours may well be a good thing occasionally. <br><br>The official firmware stores most of its settings back to the codeplug and only really uses the battery for the RTC. So it might not be quite as noticeable if the battery goes flat. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Nov 01, 2022 10:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-11-01T08:34:20</updated>
+
+		<published>2022-11-01T08:34:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20481#p20481</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20481#p20481"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20481#p20481"><![CDATA[
+<blockquote class="uncited"><div>It’s like a month old. I’ve been really busy with work so I didn’t use it that much (only to try the firmware). I’m gonna leave it on for the day today to see if it charges and if that solves the problem. But I remember that a couple weeks ago, I forgot to turn it off and it was on for like 12-ish hours, it should be charged. So either the battery is really bad and can’t hold the settings for more than a couple weeks, or mine is defective.</div></blockquote>Leave the radio turned on for 24 or 48 hours when in the charger, and see if the battery has recovered its capacity<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 01, 2022 8:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA5JAQ]]></name></author>
+		<updated>2022-11-01T07:27:47</updated>
+
+		<published>2022-11-01T07:27:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20480#p20480</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20480#p20480"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20480#p20480"><![CDATA[
+It’s like a month old. I’ve been really busy with work so I didn’t use it that much (only to try the firmware). I’m gonna leave it on for the day today to see if it charges and if that solves the problem. But I remember that a couple weeks ago, I forgot to turn it off and it was on for like 12-ish hours, it should be charged. So either the battery is really bad and can’t hold the settings for more than a couple weeks, or mine is defective.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=952">EA5JAQ</a> — Tue Nov 01, 2022 7:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-31T21:37:20</updated>
+
+		<published>2022-10-31T21:37:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20477#p20477</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20477#p20477"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20477#p20477"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>I'm having a similar problem. If I don't turn on the radio in a couple days, all my settings are gone. Isn't there any way to store the settings in a non-volatile memory that doesn't rely in a battery, like with the GD-77, etc.? When I don't use my DM-1801 in months, all the settings are still there.<br><br>The rest of the firmware features work like a charm. Thanks for everything.</div></blockquote>How old is your radio? <br>Was it unused for a long time?<br>Did you check whether the same problem happens on the official firmware?<br><br>If the battery is defective, it should be replaced.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 31, 2022 9:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA5JAQ]]></name></author>
+		<updated>2022-10-31T14:16:00</updated>
+
+		<published>2022-10-31T14:16:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20469#p20469</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20469#p20469"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20469#p20469"><![CDATA[
+Hi,<br><br>I'm having a similar problem. If I don't turn on the radio in a couple days, all my settings are gone. Isn't there any way to store the settings in a non-volatile memory that doesn't rely in a battery, like with the GD-77, etc.? When I don't use my DM-1801 in months, all the settings are still there.<br><br>The rest of the firmware features work like a charm. Thanks for everything.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=952">EA5JAQ</a> — Mon Oct 31, 2022 2:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-31T08:32:56</updated>
+
+		<published>2022-10-31T08:32:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20460#p20460</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20460#p20460"/>
+		<title type="html"><![CDATA[Re: Backup battery problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20460#p20460"><![CDATA[
+<blockquote class="uncited"><div>It also doesn't matter if the device is on, off, or charging.I've played through all scenarios.After about 10 seconds, all settings are gone.</div></blockquote>Sounds like the battery is defective, as it is not holding charge<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 31, 2022 8:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7PKY]]></name></author>
+		<updated>2022-10-30T23:59:02</updated>
+
+		<published>2022-10-30T23:59:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20456#p20456</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20456#p20456"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20456#p20456"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Thanks for the pointers. I loaded the stock firmware back on. It was one very messed up, unhappy radio until I reuploaded the codeplug, but I can confirm that this is indeed NOT the case. The clock correctly retains the time on battery pull.</div></blockquote>Do you mean the hardware RTC is not running when the radio is not turned on, or not running when you pull out the battery ?<br><br>If its the latter then, this suggests the RTC battery has a connection to the battery directly, rather than the regulated 3.3V rail; which is only powered then the radio is turned on, because the regulators take currently which would flatten the battery if they were constantly on.</div></blockquote>I mean the thing I read about is untrue. Pulling the battery has no effect. The RTC works correctly in all cases, suggesting the standard wiring you linked to is likely correct.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2495">M7PKY</a> — Sun Oct 30, 2022 11:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-30T23:55:18</updated>
+
+		<published>2022-10-30T23:55:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20455#p20455</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20455#p20455"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20455#p20455"><![CDATA[
+<blockquote class="uncited"><div>Thanks for the pointers. I loaded the stock firmware back on. It was one very messed up, unhappy radio until I reuploaded the codeplug, but I can confirm that this is indeed NOT the case. The clock correctly retains the time on battery pull.</div></blockquote>Do you mean the hardware RTC is not running when the radio is not turned on, or not running when you pull out the battery ?<br><br>If its the latter then, this suggests the RTC battery has a connection to the battery directly, rather than the regulated 3.3V rail; which is only powered then the radio is turned on, because the regulators take currently which would flatten the battery if they were constantly on.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 30, 2022 11:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7PKY]]></name></author>
+		<updated>2022-10-30T23:07:13</updated>
+
+		<published>2022-10-30T23:07:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20454#p20454</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20454#p20454"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20454#p20454"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>The RTC battery can't be charged, its a standard watch battery.<br><br>According to STM, who make the CPU, the RTC is powered by Vdd when the CPU is running, there is no special configuration required.<br><br>See <a href="https://community.st.com/s/question/0D53W00000OnDZXSA3/rtc-and-battery" class="postlink">https://community.st.com/s/question/0D5 ... nd-battery</a></div></blockquote>Makes sense that it would be, sure, but you know how weird these radios can be wired. Wouldn't be shocked if it was wired weirdly. Would you mind humoring me and testing using the battery pull method on stock fw I described? I would do it for you, but as I said, no flash backup, sorry!</div></blockquote>You can reload the official firmware and test this even without the backup of your Flash memory.<br><br>I think the only thing you need to do is change one of the configuation files in the official CPS to allow you to upload your official codeplug again, otherwise you won't be able to use the radio because the keypad is locked.<br><br>See the bottom of the installation post<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380&amp;p=19678&amp;hilit=password%3D0#p19678" class="postlink">viewtopic.php?f=19&amp;t=2380&amp;p=19678&amp;hilit ... 3D0#p19678</a><br><br>In settings.ini, Change<br><br>password=0 to password=password</div></blockquote>Thanks for the pointers. I loaded the stock firmware back on. It was one very messed up, unhappy radio until I reuploaded the codeplug, but I can confirm that this is indeed NOT the case. The clock correctly retains the time on battery pull.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2495">M7PKY</a> — Sun Oct 30, 2022 11:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-30T22:54:35</updated>
+
+		<published>2022-10-30T22:54:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20453#p20453</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20453#p20453"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20453#p20453"><![CDATA[
+Neither did I until I found the part number.  <br><br>It is a MS412F-FL26E cell and the datasheet can be downloaded from Mouser. <br><br>The capacity is 1 mAh !  <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Oct 30, 2022 10:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-30T22:39:41</updated>
+
+		<published>2022-10-30T22:39:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20452#p20452</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20452#p20452"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20452#p20452"><![CDATA[
+<blockquote class="uncited"><div>We don't have a schematic of the MDUV380 but we do have schematics for the MD380 and the MD9600 and it is very likely that the MDUV380 is the same. <br><br>Both of these have the same circuitry for the RTC battery and it turns out that it is in fact rechargable and has a 1K charging resistor from the 3.3V rail. I had always assumed it was non rechargable but checking the datasheet for the battery part number confirms that it is a rechargable type. <br><br>The RTC battery is however only recharged while the radio is turned on. So there will be a relationship between the number of hours the radio is turned on and the number of hours the RTC will continue running when the radio is turned off. <br><br>It may be that the people who are seeing the symptoms of a flat RTC battery have got into the state where the battery has a low charge. Using the radio for a short while and then turning it off will probably not put much charge into the RTC battery. <br><br>Maybe the way to fix this would be to leave the radio powered on for as long as possible, or even leave it turned on in the charger overnight. <br><br>I can also confirm that the problem is not unique to the open firmware. My MD9600 used to have the same problem when running it's factory firmware. <br><br>Colin G4EML</div></blockquote>Hi Colin<br><br>Thanks for investigating this.<br><br>I wasn't aware that those normal looking watch batteries could be recharged.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 30, 2022 10:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-10-30T22:36:24</updated>
+
+		<published>2022-10-30T22:36:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20451#p20451</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20451#p20451"/>
+		<title type="html"><![CDATA[Re: ALPHA version - Known problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2466&amp;p=20451#p20451"><![CDATA[
+We don't have a schematic of the MDUV380 but we do have schematics for the MD380 and the MD9600 and it is very likely that the MDUV380 is the same. <br><br>Both of these have the same circuitry for the RTC battery and it turns out that it is in fact rechargable and has a 1K charging resistor from the 3.3V rail. I had always assumed it was non rechargable but checking the datasheet for the battery part number confirms that it is a rechargable type. <br><br>The RTC battery is however only recharged while the radio is turned on. So there will be a relationship between the number of hours the radio is turned on and the number of hours the RTC will continue running when the radio is turned off. <br><br>It may be that the people who are seeing the symptoms of a flat RTC battery have got into the state where the battery has a low charge. Using the radio for a short while and then turning it off will probably not put much charge into the RTC battery. <br><br>Maybe the way to fix this would be to leave the radio powered on for as long as possible, or even leave it turned on in the charger overnight. <br><br>I can also confirm that the problem is not unique to the open firmware. My MD9600 used to have the same problem when running it's factory firmware. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Oct 30, 2022 10:36 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

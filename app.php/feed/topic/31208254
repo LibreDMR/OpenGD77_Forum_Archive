@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3120" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-09T11:38:06</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3120</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-09T11:38:06</updated>
+
+		<published>2023-08-09T11:38:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3120&amp;p=24944#p24944</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3120&amp;p=24944#p24944"/>
+		<title type="html"><![CDATA[FM Tx APRS functionality]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3120&amp;p=24944#p24944"><![CDATA[
+APRS Tx functionality is now supported on all radios.<br><br>The APRS position data is transmitted pressing the PTT on a channel that is configured with an APRS configuation<br>As soon as the APRS packet has ended the radio will stop transmitting even if the PTT is held in , or if PTT latch is enabled<br><br><br>The firmware uses the ToCall / Destination of APOG77. I have requested that this ToCall be registered and I'm waiting for a response from the guy who manages these unofficial APRS registrations<br><br>All other APRS settings, including Via/Digi path can be set using the APRS part of the CPS.<br><br>See APRS.org for a descripion of how APRS icons are selected, i.e from either the Primary or Secondary table<br><br><br>Notes. <br><br>1. Icon overlays are not currently supported.<br>2. Because of hardware limitations the MD-9600 and DM-1701 do not have any audio feedback of the APRS AFSK  tones while its being transmitted.<br><br><br>We had many requests for APRS receive functionality, but we do not know whether the hardware in any of the radios could be used for APRS, becuase we do not know if a suitable Rx audio signal is connected to an ADC pin on the CPU chips in any of the radios<br><br>Some radio types appear to have a Rx audio signal, but it is filtered, and we do no know whether the filtering would destroy the AFSK signal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Aug 09, 2023 11:38 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

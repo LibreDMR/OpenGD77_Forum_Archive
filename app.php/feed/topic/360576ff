@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3605" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-20T09:14:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3605</id>
+
+		<entry>
+		<author><name><![CDATA[PD5JOS]]></name></author>
+		<updated>2023-12-20T09:14:52</updated>
+
+		<published>2023-12-20T09:14:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28183#p28183</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28183#p28183"/>
+		<title type="html"><![CDATA[Re: OpenGD77 can not communicate with MD-1801]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28183#p28183"><![CDATA[
+Hi F1RMB,<br><br>Ok, totally succeeded. After downloading the sql file and in combination with the new Bin file everything works fine again. FW in the Porto is now March 4 2023. I managed to find another old .g77 file but didn't need it, after the upgrade everything was still in the Porto. It can read and write the DM-1801 again. I will check the new settings. <br><br>Thanks for the quick respone and support.<br>Jos, PD5JOS, 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5208">PD5JOS</a> — Wed Dec 20, 2023 9:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-20T08:48:39</updated>
+
+		<published>2023-12-20T08:48:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28182#p28182</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28182#p28182"/>
+		<title type="html"><![CDATA[Re: OpenGD77 can not communicate with MD-1801]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28182#p28182"><![CDATA[
+<blockquote class="uncited"><div>Hi F1RMB,<br><br>Thanks for your reply, Found the Update procedure and the file. Before i start can you tell me if the current codeplug is lost? Or is there another way to save it without before upgrading the porto.<br><br>Thanks, Jos</div></blockquote>Codeplug format has not changed, but some functionality has been added in the last 2 or 3 years, so some new settings like TS1/2 TA Tx and FM APRS configuation setting for each channel may be incorrect, and also FM APRS configuation section has been added, which may contain incompatible data in your very old codeplug.<br><br>Generally, its best to keep the CPS updated if possible.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 20, 2023 8:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PD5JOS]]></name></author>
+		<updated>2023-12-20T08:20:39</updated>
+
+		<published>2023-12-20T08:20:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28181#p28181</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28181#p28181"/>
+		<title type="html"><![CDATA[Re: OpenGD77 can not communicate with MD-1801]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28181#p28181"><![CDATA[
+Hi F1RMB,<br><br>Thanks for your reply, Found the Update procedure and the file. Before i start can you tell me if the current codeplug is lost? Or is there another way to save it without before upgrading the porto.<br><br>Thanks, Jos<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5208">PD5JOS</a> — Wed Dec 20, 2023 8:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-19T16:44:24</updated>
+
+		<published>2023-12-19T16:44:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28173#p28173</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28173#p28173"/>
+		<title type="html"><![CDATA[Re: OpenGD77 can not communicate with MD-1801]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28173#p28173"><![CDATA[
+Hi,<br><br>You're using a three year old firmware with a brand new CPS (from last month).<br>I suggest you to flash a matching firmware first (get latest CPS and latest Beta firmware).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 19, 2023 4:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PD5JOS]]></name></author>
+		<updated>2023-12-19T15:53:43</updated>
+
+		<published>2023-12-19T15:53:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28172#p28172</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28172#p28172"/>
+		<title type="html"><![CDATA[OpenGD77 can not communicate with MD-1801]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3605&amp;p=28172#p28172"><![CDATA[
+Hello,<br><br>I have had OpenGD77 on my Baofeng DM-1801 for years without any problem. Until today no problem at all. Only now I want to change eea in the code plug and can no longer communicate with OpenGD77 to the Porto.<br><br>Situation:<br>- Windows 10 is up-to-date, Com14 in use with 9600bps, 8, N, 1. Driver is called OpenGD77 (Com14) in devicemanager<br>- Using the correct cable (not for analogue Porto)<br>- In Porto loaded Software OpenDM 1801, Built 06:28:11, Oct 1 2020<br>- OpenGD77 CPS version R2023.11.26.01<br><br>When I try to connect to the CPS, an error comes up: Unexpected exception occurred in the application, the opject reference is not set to an instance of an object (See below, it was not possible to add .txt file) When we click continue on the OpenGD77 Support screen comes up where I can then do nothing either. <br><br>I myself feel that this may be because this was written away with an older version CPS (2019-2020) and is not compatible with the current release. <br><br>Who can help me with this problem, or possibly has an older version of OpenGD77 (2019-2020) to give this a try. On the Forum I have not been able to find any archive with old versions.<br><br>73, Jos<br><br>Details of te error:<br>************* Exception text  **************<br>System.NullReferenceException: The object reference is not set to an instance of an object.<br>On DMR.OpenGD77Form.readOpenGD77RadioInfoAndUpdateUSBBufferSize(SerialPort port, Boolean stealth)<br>   bij DMR.OpenGD77Form.probeRadioModel(Boolean stealth)<br>   bij DMR.OpenGD77Form.OpenGD77Form_Load(Object sender, EventArgs e)<br>   bij System.Windows.Forms.Form.OnLoad(EventArgs e)<br>   bij System.Windows.Forms.Form.OnCreateControl()<br>   bij System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)<br>   bij System.Windows.Forms.Control.CreateControl()<br>   bij System.Windows.Forms.Control.WmShowWindow(Message&amp; m)<br>   bij System.Windows.Forms.Control.WndProc(Message&amp; m)<br>   bij System.Windows.Forms.ScrollableControl.WndProc(Message&amp; m)<br>   bij System.Windows.Forms.ContainerControl.WndProc(Message&amp; m)<br>   bij System.Windows.Forms.Form.WmShowWindow(Message&amp; m)<br>   bij System.Windows.Forms.Form.WndProc(Message&amp; m)<br>   bij System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)<br>   bij System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)<br>   bij System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)<br><br><br>************** Loaded assembly's **************<br>mscorlib<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9181.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll<br>----------------------------------------<br>OpenGD77CPS<br>    Assembly-versie: 1.2.8730.16616<br>    Win32-versie: 1.0.0.0<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/OpenGD77CPS.exe<br>----------------------------------------<br>System.Windows.Forms<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9181.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll<br>----------------------------------------<br>System<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9206.0 built by: NET481REL1LAST_B<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll<br>----------------------------------------<br>System.Drawing<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9037.0 built by: NET481REL1<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll<br>----------------------------------------<br>WeifenLuo.WinFormsUI.Docking<br>    Assembly-versie: 3.0.4.0<br>    Win32-versie: 3.0.4.0<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/WeifenLuo.WinFormsUI.Docking.DLL<br>----------------------------------------<br>System.Data<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9191.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll<br>----------------------------------------<br>System.Xml<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9037.0 built by: NET481REL1<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll<br>----------------------------------------<br>System.Configuration<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9037.0 built by: NET481REL1<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll<br>----------------------------------------<br>System.Core<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9200.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll<br>----------------------------------------<br>Accessibility<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9037.0 built by: NET481REL1<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll<br>----------------------------------------<br>mscorlib.resources<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9037.0 built by: NET481REL1<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/mscorlib.resources/v4.0_4.0.0.0_nl_b77a5c561934e089/mscorlib.resources.dll<br>----------------------------------------<br>System.Windows.Forms.resources<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9037.0 built by: NET481REL1<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms.resources/v4.0_4.0.0.0_nl_b77a5c561934e089/System.Windows.Forms.resources.dll<br>----------------------------------------<br>System.Numerics<br>    Assembly-versie: 4.0.0.0<br>    Win32-versie: 4.8.9037.0 built by: NET481REL1<br>    CodeBase: file:///C:/Windows/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll<br>----------------------------------------<br><br>*************** JIT Debugging ***************<br>To enable JIT debugging, the configuration file for this must be in<br>application or computer (machine.config) value<br>jitDebugging in the system.windows.forms section are set.<br>The application must also be compiled while debugging<br>was enabled<br><br>Eample:<br><br>&lt;configuration&gt;<br>    &lt;system.windows.forms jitDebugging="true" /&gt;<br>&lt;/configuration&gt;<br><br>When JIT debugging is enabled, unhandled exceptions are thrown<br>sent to the JIT debugger registered on the computer<br>and are not processed by this dialog.<br><br>73, Jos<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5208">PD5JOS</a> — Tue Dec 19, 2023 3:53 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

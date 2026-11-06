@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=4183&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 11:45:33 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; Repeaterbook CSV creation Outside of North America</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>Repeaterbook CSV creation Outside of North America</h2>
+		<p><a href="viewtopicfaca-2.html?f=12&amp;t=4183">viewtopic.php?f=12&amp;t=4183</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>Repeaterbook CSV creation Outside of North America</h3>
+				<div class="date">Posted: <strong>Wed Jun 26, 2024 1:19 pm</strong></div>
+				<div class="author">by <strong>DA1TH</strong></div>
+				<div class="content">Hi, after trying different Codeplugs from other OMs I decided to create my own channels and zones. Its hard to do this manually, so I created a Python script doing the job based on the repeaterbook API. It is mainly for my (German = Outside of North America) needs and based on this locale. Feel free to <a href="https://github.com/TomHW/OpenGD77" class="postlink">download</a> the code and customize it for your requirements.<br>
+<br>
+I want to have zones for different locations where I often stay. The script expects these locations as YAML input, here is an example:
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>Mode: Load               # Should be 'Default', 'Load' or 'Dump'
+Country: Germany
+Zones:
+  Berlin:
+    Latitude: 52.5069386
+    Longitude: 13.2599274
+    MaxDistance: 100
+  Muenchen:
+    Latitude: 48.1549958
+    Longitude: 11.4594357
+    MaxDistance: 150
+  Frankfurt:
+    Latitude: 50.1210147
+    Longitude: 8.3247634
+    MaxDistance: 100</code></pre></div>
+You will get two zones (Analog / Digital) for each location and the channels in the zone are sorted with ascending distance.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Repeaterbook CSV creation Outside of North America</h3>
+				<div class="date">Posted: <strong>Thu Jul 25, 2024 7:37 pm</strong></div>
+				<div class="author">by <strong>DG3NAB</strong></div>
+				<div class="content">Thanks a lot. Very helpful!</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Repeaterbook CSV creation Outside of North America</h3>
+				<div class="date">Posted: <strong>Thu Aug 22, 2024 12:44 am</strong></div>
+				<div class="author">by <strong>N7DSB</strong></div>
+				<div class="content">This is awesome! I started a fork to to support North America and went down a rabbit hole with it.<br>
+<br>
+Changes:
+<ul>
+<li> Supports North America and Rest of World (In Theory)</li>
+<li> Added the ability to choose states. Just choosing United States has a max limit and may not include your locations.</li>
+<li> Limits Channel import to 80 channels, which is the max per zone</li>
+<li> Changed the PL/TSQL and Squelch to match the official OpenGD77 output from Repeaterbook.</li>
+<li> Supports points and commas in output</li>
+<li> Added delay in US calls to not hit the endpoint more than 2 times a minute.</li>
+<li> Added some print statements so you can see the progress. Doing 2 or more states takes a few minutes to complete.</li>
+</ul>
+
+You can find it here: <a href="https://github.com/desertblade/OpenGD77-Repeaterbook" class="postlink">https://github.com/desertblade/OpenGD77-Repeaterbook</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Repeaterbook CSV creation Outside of North America</h3>
+				<div class="date">Posted: <strong>Thu Oct 31, 2024 11:18 am</strong></div>
+				<div class="author">by <strong>DA1TH</strong></div>
+				<div class="content">I fixed my version due to the routing problem described <a href="../viewtopic4701.html?f=8&amp;t=4538" class="postlink">here</a>. Please update to this release if you have problems to route calls.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Repeaterbook CSV creation Outside of North America</h3>
+				<div class="date">Posted: <strong>Fri Feb 07, 2025 2:37 pm</strong></div>
+				<div class="author">by <strong>N0JYZ</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6781&amp">N7DSB</a> wrote: <a href="viewtopic9dd9.html?p=32582&amp;sid=#p32582" data-post-id="32582" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Aug 22, 2024 12:44 am</div></cite>
+This is awesome! I started a fork to to support North America and went down a rabbit hole with it.<br>
+<br>
+Changes:
+<ul>
+<li> Supports North America and Rest of World (In Theory)</li>
+<li> Added the ability to choose states. Just choosing United States has a max limit and may not include your locations.</li>
+<li> Limits Channel import to 80 channels, which is the max per zone</li>
+<li> Changed the PL/TSQL and Squelch to match the official OpenGD77 output from Repeaterbook.</li>
+<li> Supports points and commas in output</li>
+<li> Added delay in US calls to not hit the endpoint more than 2 times a minute.</li>
+<li> Added some print statements so you can see the progress. Doing 2 or more states takes a few minutes to complete.</li>
+</ul>
+
+You can find it here: <a href="https://github.com/desertblade/OpenGD77-Repeaterbook" class="postlink">https://github.com/desertblade/OpenGD77-Repeaterbook</a>
+</div></blockquote>
+
+Thank you for updating this on 6 Feb 25 with regards to a Repeaterbook change in the API!</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Repeaterbook CSV creation Outside of North America</h3>
+				<div class="date">Posted: <strong>Sat Feb 08, 2025 7:24 pm</strong></div>
+				<div class="author">by <strong>N7DSB</strong></div>
+				<div class="content">You're welcome!<br>
+<br>
+Reviewing RepeaterBooks changes and adding some more logic to make sure the csv files are importable into the CPS. <br>
+<br>
+Notable change are API calls will require a key. Its not implemented yet, but the now require an email in the header of the call. The APIs for US and the ROTW are different and their may be different requirements I have not looked at.<br>
+<br>
+Updated my fork with @DA1TH change for supporting expected number of zone columns. Thank you for creating this. It makes it easy to manage repeaters in OpenGD77.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Repeaterbook CSV creation Outside of North America</h3>
+				<div class="date">Posted: <strong>Mon Feb 10, 2025 6:40 pm</strong></div>
+				<div class="author">by <strong>DA1TH</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6781&amp">N7DSB</a> wrote: <a href="viewtopic12bb.html?p=35687&amp;sid=#p35687" data-post-id="35687" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Feb 08, 2025 7:24 pm</div></cite>
+Notable change are API calls will require a key. Its not implemented yet, but the now require an email in the header of the call.
+</div></blockquote>
+Thanks for the hint, I upgraded my repository, the user agent contains my mail address now.</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=4183&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 11:45:33 GMT -->
+</html>

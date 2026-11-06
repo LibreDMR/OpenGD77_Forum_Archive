@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3389" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-05T21:51:26</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3389</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-05T21:51:26</updated>
+
+		<published>2024-02-05T21:51:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3389&amp;p=29305#p29305</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3389&amp;p=29305#p29305"/>
+		<title type="html"><![CDATA[Re: Microphone Keypad Entry]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3389&amp;p=29305#p29305"><![CDATA[
+<blockquote class="uncited"><div>I resolved this and have it working via an ESP32 for remote changing the channels.</div></blockquote>OK<br><br>Yes. It does use an ADC in the radio, but the whole system is not that reliable.<br><br>If the mic plug doesn't make very good contact, then the mic buttons don't work.<br><br>BTW<br><br>Colin G4ELM developed a remote head system for the MD9600, this sends data via high speed serial, and is supported by the firmware, so possibly you may want to leverage that functionality<br><br>I can't remember the protocol, you'd need to download the source code and look in the mic / keypad handing code<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 05, 2024 9:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KJ5AJU]]></name></author>
+		<updated>2024-02-05T21:45:18</updated>
+
+		<published>2024-02-05T21:45:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3389&amp;p=29301#p29301</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3389&amp;p=29301#p29301"/>
+		<title type="html"><![CDATA[Re: Microphone Keypad Entry]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3389&amp;p=29301#p29301"><![CDATA[
+I resolved this and have it working via an ESP32 for remote changing the channels.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4135">KJ5AJU</a> — Mon Feb 05, 2024 9:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KJ5AJU]]></name></author>
+		<updated>2023-10-19T18:36:11</updated>
+
+		<published>2023-10-19T18:36:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3389&amp;p=26925#p26925</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3389&amp;p=26925#p26925"/>
+		<title type="html"><![CDATA[Microphone Keypad Entry]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3389&amp;p=26925#p26925"><![CDATA[
+I found in the forums a pinout for the RJ45 Microphone and a schematic showing the resistor array setup. It's my understanding one Pin indicates row of pushed button and another pin the column. So I assume there is an ADC built into the radio. Can anyone confirm this and does anyone know if it's a 6bit, 8bit, 12bit, etc ADC? I am working on an idea for emulating the Keypresses and would like to match the ADC type with a corresponding DAC (6bit, 8bit, etc). Any input would be appreciated.<br><br><br>Thanks,<br>Michael Balderas<br>KJ5AJU<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4135">KJ5AJU</a> — Thu Oct 19, 2023 6:36 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

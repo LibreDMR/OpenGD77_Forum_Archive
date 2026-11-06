@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5072&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 18:40:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; Problem hitting Retevis RT-97P repeater</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>Problem hitting Retevis RT-97P repeater</h2>
+		<p><a href="viewtopiccf01.html?f=18&amp;t=5072">viewtopic.php?f=18&amp;t=5072</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>Problem hitting Retevis RT-97P repeater</h3>
+				<div class="date">Posted: <strong>Thu Apr 17, 2025 6:25 pm</strong></div>
+				<div class="author">by <strong>kj7gqa</strong></div>
+				<div class="content">I have a TYT MD-UV390 radio. I'm running the openGD77 firmware. Something weird is happening when I try to transmit to a Retevis RT-97P DMR repeater. When I transmit, the repeater doesn't see the transmission and it's not repeated. The repeater is in the same room as me.<br>
+<br>
+However, if I transmit with a different radio, a Retevis RT29d, the repeater sees that. The screen on the repeater screen shows R-T slot 1 when receiving (and repeating) the transmission. And I receive the transmission on the md-UV390. For a few seconds after that, if I transmit with the MD-UV390, it works. But after a few seconds, the repeater no longer displays "R-T slot 1" and at that point I cannot transmit from the MD-UV390.<br>
+<br>
+So clearly the radio is capable of transmitting to the repeater, but it only works for a short time after another radio transmits to it, and it hasn't closed out that session.<br>
+<br>
+I have tried opengd77 stable version 20240908 as well as beta version 20250323. <br>
+<br>
+I have programmed in my channel with the CPS, as well as directly to the radio in VFO mode and it acts the same.<br>
+<br>
+Channel settings in the TYT with OpenGD77:<br>
+Rx: 451.800<br>
+Tx: 456.800<br>
+Mode: DMR<br>
+Location: No<br>
+DMR ID: none (despite programming one with the CPS. If I enter a dummy number here like 12345 it doesn't change anything)<br>
+Color code: 5<br>
+Timeslot: 1<br>
+TG Lst: RxSite (the correct talkgroup)<br>
+Contact: None<br>
+Rx/Tx CSS: N/A<br>
+Step: 2.5 khz<br>
+Vox: Off<br>
+Ch Power: Master (5 w)<br>
+Eco: Yes<br>
+TS Tx Ts1:off<br>
+TS Tx TS2:off<br>
+APRS: None<br>
+For DMO: No<br>
+<br>
+Quick settings:<br>
+Filter: None<br>
+DMR Filter: None<br>
+CC Scan: On<br>
+TS Filter: Off<br>
+Talkaround: Off<br>
+Roaming: Off<br>
+Mute: No<br>
+<br>
+Repeater settings:<br>
+Rx Freq: 456.800<br>
+Tx Freq: 451.800<br>
+Decode/Encode (greyed out, presumably only for analog): 136.5<br>
+Rx Color: 5<br>
+Tx Color: 5<br>
+Band (greyed out): W<br>
+Power: High<br>
+Ana/Dig: DMR</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Problem hitting Retevis RT-97P repeater</h3>
+				<div class="date">Posted: <strong>Sat Apr 19, 2025 5:23 pm</strong></div>
+				<div class="author">by <strong>IK1HJT</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7314&amp;sid=7ffc896d1375d1f0686e91598f8759cd">kj7gqa</a> wrote: <a href="viewtopic0953.html?p=36808&amp;sid=7ffc896d1375d1f0686e91598f8759cd#p36808" data-post-id="36808" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Apr 17, 2025 6:25 pm</div></cite>
+I have a TYT MD-UV390 radio. I'm running the openGD77 firmware. Something weird is happening when I try to transmit to a Retevis RT-97P DMR repeater. When I transmit, the repeater doesn't see the transmission and it's not repeated. The repeater is in the same room as me.<br>
+<br>
+However, if I transmit with a different radio, a Retevis RT29d, the repeater sees that. The screen on the repeater screen shows R-T slot 1 when receiving (and repeating) the transmission. And I receive the transmission on the md-UV390. For a few seconds after that, if I transmit with the MD-UV390, it works. But after a few seconds, the repeater no longer displays "R-T slot 1" and at that point I cannot transmit from the MD-UV390.<br>
+<br>
+So clearly the radio is capable of transmitting to the repeater, but it only works for a short time after another radio transmits to it, and it hasn't closed out that session.<br>
+<br>
+I have tried opengd77 stable version 20240908 as well as beta version 20250323. <br>
+<br>
+I have programmed in my channel with the CPS, as well as directly to the radio in VFO mode and it acts the same.<br>
+<br>
+Channel settings in the TYT with OpenGD77:<br>
+Rx: 451.800<br>
+Tx: 456.800<br>
+Mode: DMR<br>
+Location: No<br>
+DMR ID: none (despite programming one with the CPS. If I enter a dummy number here like 12345 it doesn't change anything)<br>
+Color code: 5<br>
+Timeslot: 1<br>
+TG Lst: RxSite (the correct talkgroup)<br>
+Contact: None<br>
+Rx/Tx CSS: N/A<br>
+Step: 2.5 khz<br>
+Vox: Off<br>
+Ch Power: Master (5 w)<br>
+Eco: Yes<br>
+TS Tx Ts1:off<br>
+TS Tx TS2:off<br>
+APRS: None<br>
+For DMO: No<br>
+<br>
+Quick settings:<br>
+Filter: None<br>
+DMR Filter: None<br>
+CC Scan: On<br>
+TS Filter: Off<br>
+Talkaround: Off<br>
+Roaming: Off<br>
+Mute: No<br>
+<br>
+Repeater settings:<br>
+Rx Freq: 456.800<br>
+Tx Freq: 451.800<br>
+Decode/Encode (greyed out, presumably only for analog): 136.5<br>
+Rx Color: 5<br>
+Tx Color: 5<br>
+Band (greyed out): W<br>
+Power: High<br>
+Ana/Dig: DMR
+</div></blockquote>
+
+Hello, i have same problem with my MD-9600 and MMDVM dual hat hotspot. Radio is able to hit my hotspot 1 time on 100 but, if there is some qso into the other slot, radio hits the hotspot without problems.<br>
+No problem with some other radios.<br>
+Another quirks is that on several repeaters near me, BER is always 2,5% or more</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Problem hitting Retevis RT-97P repeater</h3>
+				<div class="date">Posted: <strong>Sat Apr 19, 2025 5:49 pm</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">I think that you need to check the frequency accuracy first.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Problem hitting Retevis RT-97P repeater</h3>
+				<div class="date">Posted: <strong>Mon Apr 21, 2025 5:37 pm</strong></div>
+				<div class="author">by <strong>kj7gqa</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=7ffc896d1375d1f0686e91598f8759cd">F1RMB</a> wrote: <a href="viewtopic7007.html?p=36849&amp;sid=7ffc896d1375d1f0686e91598f8759cd#p36849" data-post-id="36849" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Apr 19, 2025 5:49 pm</div></cite>
+I think that you need to check the frequency accuracy first.
+</div></blockquote>
+
+Thanks for your response. I will try to test the frequency calibration.<br>
+<br>
+But if I'm able to successfully hit the repeater shortly after transmitting from a different radio, doesn't that suggest that the frequency is ok?</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5072&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 18:40:39 GMT -->
+</html>

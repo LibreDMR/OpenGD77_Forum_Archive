@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3936" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-12T11:18:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3936</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-12T11:18:35</updated>
+
+		<published>2024-04-12T11:18:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3936&amp;p=30796#p30796</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3936&amp;p=30796#p30796"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 03 29]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3936&amp;p=30796#p30796"><![CDATA[
+This version has been superseded<br><br>See  <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3982" class="postlink">viewtopic.php?f=13&amp;t=3982</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 12, 2024 11:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T21:31:22</updated>
+
+		<published>2024-03-29T21:31:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3936&amp;p=30470#p30470</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3936&amp;p=30470#p30470"/>
+		<title type="html"><![CDATA[New Beta 2024 03 29]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3936&amp;p=30470#p30470"><![CDATA[
+A new Beta version is available<br><br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/7bb4ad103152749418ae3721d79a44f69b555f66/" class="postlink">downloads/GD77/Firmware/7bb4ad103152749 ... 69b555f66/</a><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest/" class="postlink">downloads/GD77/Firmware/Latest/</a><br><br>This version ...<br><br>* Fixes a problem with DMR Tx caused by the addition of the Force DMO functionality<br>* Fixes a problem with invalid FM CTCSS values in the codeplug<br>* Fixes a problem with the notification messages when displayed on the VFO sweep scan and other screens.<br>* Display position fix on RD-5R<br>* Includes changes to multiple language translations<br><br><br>Thanks to Daniel F1RMB for fixing all of these problems<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 9:31 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

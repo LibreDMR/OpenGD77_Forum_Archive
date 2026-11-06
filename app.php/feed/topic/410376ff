@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4103" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-02T09:33:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4103</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-02T09:33:00</updated>
+
+		<published>2024-10-02T09:33:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33329#p33329</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33329#p33329"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33329#p33329"><![CDATA[
+<blockquote class="uncited"><div>These logs seems to indicate that RS0ISS is used.<br><br><a href="http://www.findu.com/cgi-bin/ariss/index.cgi?absolute=1" class="postlink">http://www.findu.com/cgi-bin/ariss/index.cgi?absolute=1</a><br><div class="codebox"><p>CODE: </p><pre><code>20241002075937 : RS0ISS]0P0PS6,APRSAT,qAR,7L2IWN-13:'v&amp;l SI]ARISS-International Space Station=20241002075637 : RS0ISS]0P0PS6,APRSAT,qAR,JJ1WTK-6:'v&amp;l SI]ARISS-International Space Station=20241002044255 : JR7IMN]T0TYT6,RS0ISS*,qAR,7L2IWN-13:`DHl -/`_120241002043522 : RS0ISS]0P0PS6,APRSAT,qAO,BM5GSV-10:'v&amp;l SI]ARISS-International Space Station=20241002043515 : BU2DR-3]CQ,RS0ISS*,RS0ISS,WIDE2-2,qAO,BM5GSV-10:!2457.09NS12127.18E#PHG2420CQ ARISS RS0ISS BR BU2DR20241002043507 : BH6IDD-6]BEACON,RS0ISS*,APRSAT,qAO,BM5GSV-10:!3445.59N/11337.87E`73_TU_FROM_ZhengZhou_CHINA20241002043433 : BH6IDD-6]BEACON,RS0ISS*,APRSAT,qAO,BG9EGA-10:!3445.59N/11337.87E`73_TU_FROM_ZhengZhou_CHINA20241002043328 : BH6IDD-6]BEACON,RS0ISS*,APRSAT,qAS,HS5SQI-1:!3445.59N/11337.87E`73_TU_FROM_ZhengZhou_CHINA20241002042921 : RS0ISS]0P0PS6,APRSAT,qAR,HS5SQI-2:'v&amp;l SI]ARISS-International Space Station=20241002042621 : RS0ISS]0P0PS6,APRSAT,qAS,HS5SQI-1:'v&amp;l SI]ARISS-International Space Station=20241002032502 : W1FRD-7]SXQWQT,RS0ISS*,WIDE2-1,qAR,N6DAN-1:`2X=l"7[/`"3x}Hello from space. On Instagram @w1frdradio_0</code></pre></div></div></blockquote>Yes. Currently the ISS seems to be set to callsign RS0ISS<br><br>However as per this link<br><br><a href="https://www.ariss.org/contact-the-iss.html" class="postlink">https://www.ariss.org/contact-the-iss.html</a><br><br>This appears to change depending on who is operating the station<br><br>i.e RS0ISS is the Russian ISS operators callsign<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 02, 2024 9:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-10-02T09:24:11</updated>
+
+		<published>2024-10-02T09:24:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33328#p33328</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33328#p33328"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33328#p33328"><![CDATA[
+These logs seems to indicate that RS0ISS is used.<br><br><a href="http://www.findu.com/cgi-bin/ariss/index.cgi?absolute=1" class="postlink">http://www.findu.com/cgi-bin/ariss/index.cgi?absolute=1</a><br><div class="codebox"><p>CODE: </p><pre><code>20241002075937 : RS0ISS]0P0PS6,APRSAT,qAR,7L2IWN-13:'v&amp;l SI]ARISS-International Space Station=20241002075637 : RS0ISS]0P0PS6,APRSAT,qAR,JJ1WTK-6:'v&amp;l SI]ARISS-International Space Station=20241002044255 : JR7IMN]T0TYT6,RS0ISS*,qAR,7L2IWN-13:`DHl -/`_120241002043522 : RS0ISS]0P0PS6,APRSAT,qAO,BM5GSV-10:'v&amp;l SI]ARISS-International Space Station=20241002043515 : BU2DR-3]CQ,RS0ISS*,RS0ISS,WIDE2-2,qAO,BM5GSV-10:!2457.09NS12127.18E#PHG2420CQ ARISS RS0ISS BR BU2DR20241002043507 : BH6IDD-6]BEACON,RS0ISS*,APRSAT,qAO,BM5GSV-10:!3445.59N/11337.87E`73_TU_FROM_ZhengZhou_CHINA20241002043433 : BH6IDD-6]BEACON,RS0ISS*,APRSAT,qAO,BG9EGA-10:!3445.59N/11337.87E`73_TU_FROM_ZhengZhou_CHINA20241002043328 : BH6IDD-6]BEACON,RS0ISS*,APRSAT,qAS,HS5SQI-1:!3445.59N/11337.87E`73_TU_FROM_ZhengZhou_CHINA20241002042921 : RS0ISS]0P0PS6,APRSAT,qAR,HS5SQI-2:'v&amp;l SI]ARISS-International Space Station=20241002042621 : RS0ISS]0P0PS6,APRSAT,qAS,HS5SQI-1:'v&amp;l SI]ARISS-International Space Station=20241002032502 : W1FRD-7]SXQWQT,RS0ISS*,WIDE2-1,qAR,N6DAN-1:`2X=l"7[/`"3x}Hello from space. On Instagram @w1frdradio_0</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Oct 02, 2024 9:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-02T07:32:48</updated>
+
+		<published>2024-10-02T07:32:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33327#p33327</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33327#p33327"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33327#p33327"><![CDATA[
+SSID is unlikely to be the problem.<br><br>The ISS probably changed their configuation to require RS0ISS instead of ARISS<br><br>Looking at one of the ISS web pages<br><br><a href="https://www.ariss.org/contact-the-iss.html" class="postlink">https://www.ariss.org/contact-the-iss.html</a><br><br>It states<blockquote class="uncited"><div>Packet Operations<br><br>There is one radio on the ISS that operates as a packet digipeater. The Columbus D710GA can support those operation at about 10 watts and uses NA1SS. It will respond to the alias "ARISS".</div></blockquote>However....<br><br>Above this on the same page it says<br><blockquote class="uncited"><div>Call Signs in Use<br><br>The following call signs are available for use on the ISS:<br><br>    Russian: RS0ISS<br><br>    USA: NA1SS<br><br>    European: DP0ISS, OR4ISS, IR0ISS</div></blockquote><br>So I think probably what has happened, is that the current callsign is not NA1SS but is RS0ISS and somehow the packet configuation has been changed to this<br><br>In which case, if there is a European operator, then possibly the ISS APRS settings could change again to DP0ISS, OR4IS or  IR0ISS<br><br>In the normal APRS configs, create a configuration called ISS and then define the settings you want e.g. use RS0ISS and then try again.<br>The APRS config of ISS should override the settings in satellites.txt<br><br>Yes. I know this is not documented. It appears to be missing from the User Guide<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 02, 2024 7:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UT7UX]]></name></author>
+		<updated>2024-10-01T18:35:13</updated>
+
+		<published>2024-10-01T18:35:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33319#p33319</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33319#p33319"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33319#p33319"><![CDATA[
+<blockquote class="uncited"><div>ISS APRS is not always active. Check the ISS status web page</div></blockquote>Yes, <a href="http://www1.findu.com/cgi-bin/ariss/index.cgi" class="postlink">Findu</a> appears a good source to check. Also, I've got another HT to monitor both mine and ISS' packets with APRSdroid software.<br><blockquote class="uncited"><div>You do not need to change satellites.txt</div></blockquote>Actually no, I may need to change satellites.txt since default PATH does not appear the working one. For some reason ISS wants exact RS0ISS instead of satellite alias ARISS. I don't need WIDEn-N when my beacon is bouncing off the SAT since ISS covers some 15 million square kilometers from its orbit; other packet satellites on higher orbits have even greater area coverage. It appears pretty irresponsible to engage terrestrial digis in relaying the packet that is already broadcasted to such huge area. Also, I may wish my packets to reaman NOGATE or RFONLY, to be relayed via some particular satgate, and so on.<br><br>What is still unclear to me is how do I change SSID to 12 (one-way tracker) since SSID-7 (man-controlled portable station that supports messaging) is definitely incorrect and confusing. Also, it would be fun to play with APRS symbol.<br><br><br><blockquote class="uncited"><div>One-way trackers should best use the -12 one-way SSID indicator<br>because the -9's usually mean a ham in full APRS communication<br>both message and voice.  The -9's can be contacted by APRS message<br>or by Voice on his frequency included in his beacon, or on Voice<br>Alert if he is in simplex range.  The -12's are just moving Icons<br>on the map and since they have no 2 way communication for ham radio<br>they are not generally of routine interest to other operators.</div></blockquote><a href="http://www.aprs.org/aprs11/SSIDs.txt" class="postlink">© WB4APR</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6239">UT7UX</a> — Tue Oct 01, 2024 6:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-30T11:24:49</updated>
+
+		<published>2024-09-30T11:24:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33288#p33288</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33288#p33288"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33288#p33288"><![CDATA[
+ISS APRS is not always active. Check the ISS status web page<br><br>You do not need to change satellites.txt<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 30, 2024 11:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UT7UX]]></name></author>
+		<updated>2024-09-29T21:00:58</updated>
+
+		<published>2024-09-29T21:00:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33278#p33278</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33278#p33278"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=33278#p33278"><![CDATA[
+So far I make some changes in the satellites.txt:<br><div class="codebox"><p>CODE: </p><pre><code>25544U,ISS     ,437.800,145.990,     67,       0,145.825,145.825,145.800,      0,RS0ISS APRS</code></pre></div>This ended up with following packets:<br><div class="codebox"><p>CODE: </p><pre><code>UT7UX-7&gt;APOG77,RS0ISS,APRS:!&lt;my_coordinates_here&gt;E0</code></pre></div>Where:<br><ul><li>UT7UX-<strong class="text-strong">7</strong> appears incorrect; must be UT7UX-<strong class="text-strong">12</strong> since it's the one-way tracker</li></ul><ul><li>RS0ISS,APRS appears correct since ISS may not accept standard ARISS alias for some reason (normally should be ARISS) and sure we'd wish our beacon to be seen on APRS. We should <strong class="text-strong">not</strong> use WideN-n here as with enormous satellite coverage we don't need any further relaying among terrestrial digipeaters.</li></ul><ul><li>! (exclamation mark) appears correct since we cannot exchange messages with one-way tracker</li></ul><ul><li>0 (zero, the last character) is APRS symbol '0' (overlay). How may I chose smth else among standard/alternative APRS symbols there are?</li></ul>Anyway, it does work.<br><br>Any more suggestions?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6239">UT7UX</a> — Sun Sep 29, 2024 9:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yu3ssp]]></name></author>
+		<updated>2024-07-06T18:51:37</updated>
+
+		<published>2024-07-06T18:51:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32014#p32014</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32014#p32014"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32014#p32014"><![CDATA[
+<blockquote class="uncited"><div>Nice work YU3SSP<br><br>My satellite.txt entry for ISS <br>&lt;&lt;25544U,ISS     ,437.800,145.990,     67,       0,145.825,145.825,145.800,      0,ARISS 0WIDE2 1&gt;&gt;<br>I changed to <br>&lt;&lt;25544U,ISS     ,437.800,145.990,     67,       0,145.825,145.825,145.800,      0,RS0ISS 0WIDE2 1&gt;&gt;<br>no luck so far<br><br>Best wishes<br>YO3ABC</div></blockquote>My satellite.txt is the same with RS0ISS.<br><br>Best wishes<br>YU3SSP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6464">yu3ssp</a> — Sat Jul 06, 2024 6:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3ABC]]></name></author>
+		<updated>2024-07-06T15:51:15</updated>
+
+		<published>2024-07-06T15:51:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32009#p32009</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32009#p32009"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32009#p32009"><![CDATA[
+Nice work YU3SSP<br><br>My satellite.txt entry for ISS <br>&lt;&lt;25544U,ISS     ,437.800,145.990,     67,       0,145.825,145.825,145.800,      0,ARISS 0WIDE2 1&gt;&gt;<br>I changed to <br>&lt;&lt;25544U,ISS     ,437.800,145.990,     67,       0,145.825,145.825,145.800,      0,RS0ISS 0WIDE2 1&gt;&gt;<br>no luck so far<br><br>Best wishes<br>YO3ABC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6456">YO3ABC</a> — Sat Jul 06, 2024 3:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yu3ssp]]></name></author>
+		<updated>2024-07-06T12:27:42</updated>
+
+		<published>2024-07-06T12:27:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32005#p32005</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32005#p32005"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=32005#p32005"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello<br><br>I m trying to hit the ISS's digipeater with my DM-1701 <br>and send a position report unsuccessfully.<br>Can you post your satellite.txt ISS settings?<br><br>Thank you very much<br>YO3ABC</div></blockquote>I'm also trying to hit the ISS's digipeater with DM-1701 and so far with no luck.<br><br>Best regards<br>YU3SSP</div></blockquote>Last night I finally succeeded to make contact to ISS digipeater and to have my call sign on the  <a href="http://ariss.net/" class="postlink">http://ariss.net/</a><br><br><strong class="text-strong">Call MessageslatlonTime Heard (UTC)<br>YU3SSP-7 ...20240705215644</strong><br><br>So it is possible to do it with DM-1701.<br><br>I didn't manage to send my location so I will try to solve this problem in the future.<br><br>Best regards<br>YU3SSP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6464">yu3ssp</a> — Sat Jul 06, 2024 12:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC6WOG]]></name></author>
+		<updated>2024-07-06T02:47:35</updated>
+
+		<published>2024-07-06T02:47:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31996#p31996</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31996#p31996"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31996#p31996"><![CDATA[
+<blockquote class="uncited"><div>As far as IIn any case the file satellites.txt (which Windows' File Explorer insists on displaying as merely "satellites")</div></blockquote>Go to folder options/view/advanced settings, unclick "Hide extensions for known file types" and your Windoze experience will be much more pleasant. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4063">KC6WOG</a> — Sat Jul 06, 2024 2:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yu3ssp]]></name></author>
+		<updated>2024-07-04T07:12:22</updated>
+
+		<published>2024-07-04T07:12:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31938#p31938</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31938#p31938"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31938#p31938"><![CDATA[
+<blockquote class="uncited"><div>Hello<br><br>I m trying to hit the ISS's digipeater with my DM-1701 <br>and send a position report unsuccessfully.<br>Can you post your satellite.txt ISS settings?<br><br>Thank you very much<br>YO3ABC</div></blockquote>I'm also trying to hit the ISS's digipeater with DM-1701 and so far with no luck.<br><br>Best regards<br>YU3SSP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6464">yu3ssp</a> — Thu Jul 04, 2024 7:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3ABC]]></name></author>
+		<updated>2024-07-02T05:41:30</updated>
+
+		<published>2024-07-02T05:41:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31893#p31893</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31893#p31893"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31893#p31893"><![CDATA[
+Hello<br><br>I m trying to hit the ISS's digipeater with my DM-1701 <br>and send a position report unsuccessfully.<br>Can you post your satellite.txt ISS settings?<br><br>Thank you very much<br>YO3ABC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6456">YO3ABC</a> — Tue Jul 02, 2024 5:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UT7UX]]></name></author>
+		<updated>2024-06-14T17:29:09</updated>
+
+		<published>2024-06-14T17:29:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31673#p31673</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31673#p31673"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31673#p31673"><![CDATA[
+<blockquote class="uncited"><div>I was digipeated 8 or so times</div></blockquote>So, it does work. Great!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6239">UT7UX</a> — Fri Jun 14, 2024 5:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-06-07T10:28:21</updated>
+
+		<published>2024-06-07T10:28:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31599#p31599</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31599#p31599"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31599#p31599"><![CDATA[
+I tried again just now during an 87 degree pass. I was digipeated 8 or so times but I'm not showing up on either ariss.net or aprs.fi. Apparently their aren't any 145.825MHz igates in my part of SE Asia. Oh well. At least I was able to hit the ISS's service module packet radio. I guess that's something, anyway. Some 4450 km. on 5 watts.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Fri Jun 07, 2024 10:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DW7GDL]]></name></author>
+		<updated>2024-06-05T00:59:44</updated>
+
+		<published>2024-06-05T00:59:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31547#p31547</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31547#p31547"/>
+		<title type="html"><![CDATA[Re: APRS Config with Keps]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4103&amp;p=31547#p31547"><![CDATA[
+I heard one packet the other evening when I tried, before I had edited satellites.txt. I know my packets are getting out because I can hear them on other radios. I'm going to keep trying, this time connecting the RT3S to a roll-up dual band slim jim (basically a folded dipole) that's hanging up around 8.5 meters high and should be more clear of local obstructions (houses), then I can try from the comfort of my own shack without having to go out onto the street somewhere. (I have a Comet SO-239 to SMA male adapter cable around 50cm long made with RG-186.) Someday there will be a combination of a close pass and the ISS APRS/packet radio being turned on and working.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6137">DW7GDL</a> — Wed Jun 05, 2024 12:59 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

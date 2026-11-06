@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3391" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-10-20T03:31:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3391</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-20T03:31:59</updated>
+
+		<published>2023-10-20T03:31:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3391&amp;p=26934#p26934</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3391&amp;p=26934#p26934"/>
+		<title type="html"><![CDATA[Re: Bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3391&amp;p=26934#p26934"><![CDATA[
+Just checked, you're wrong, CC/TS are there.<br>I think you need to calm down, take a deep breath, double check/document yourself before posting (e.g read/search the forum/internet).<br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Oct 20, 2023 3:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1LSJ]]></name></author>
+		<updated>2023-10-20T02:35:22</updated>
+
+		<published>2023-10-20T02:35:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3391&amp;p=26931#p26931</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3391&amp;p=26931#p26931"/>
+		<title type="html"><![CDATA[Bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3391&amp;p=26931#p26931"><![CDATA[
+The CPS has a HUGE bug in it, .csv export does NOT export the color codes. All of mine were wiped as I was exporting and then editing the .csv file to import again  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4732">N1LSJ</a> — Fri Oct 20, 2023 2:35 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

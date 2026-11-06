@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5183" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-22T21:30:39</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5183</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-22T21:30:39</updated>
+
+		<published>2025-06-22T21:30:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37535#p37535</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37535#p37535"/>
+		<title type="html"><![CDATA[Re: Problem with RETEVIS RT3s and HotSpot]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37535#p37535"><![CDATA[
+<blockquote class="uncited"><div>The calibration worked. I can finally use the RT3 via the hotspot. Thank you so much for your patience and knowledge, KA1CM.<br><br>73s</div></blockquote>I'm glad it helps,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Jun 22, 2025 9:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea2faw]]></name></author>
+		<updated>2025-06-22T21:17:18</updated>
+
+		<published>2025-06-22T21:17:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37534#p37534</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37534#p37534"/>
+		<title type="html"><![CDATA[Re: Problem with RETEVIS RT3s and HotSpot]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37534#p37534"><![CDATA[
+The calibration worked. I can finally use the RT3 via the hotspot. Thank you so much for your patience and knowledge, KA1CM.<br><br>73s<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8783">ea2faw</a> — Sun Jun 22, 2025 9:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-16T11:56:52</updated>
+
+		<published>2025-06-16T11:56:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37501#p37501</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37501#p37501"/>
+		<title type="html"><![CDATA[Re: Problem with RETEVIS RT3s and HotSpot]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37501#p37501"><![CDATA[
+carrier frequency deviation problem. you can try to calibrate your RT3S.<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/8gB0CR20yBc">youtu.be/8gB0CR20yBc</a><br><br>I have had the same problem with my RD-5R. This is a common problem when trying to use multiple radio with one hotspot, especially a duplex hotspot.<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/MemxYX_RS7k">youtu.be/MemxYX_RS7k</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jun 16, 2025 11:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea2faw]]></name></author>
+		<updated>2025-06-16T10:54:12</updated>
+
+		<published>2025-06-16T10:54:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37500#p37500</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37500#p37500"/>
+		<title type="html"><![CDATA[Problem with RETEVIS RT3s and HotSpot]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5183&amp;p=37500#p37500"><![CDATA[
+Hello everyone, and thank you very much for joining the forum.<br><br>I'm sharing my problem to see if anyone else has had a similar experience.<br><br>I have a hotspot that I can access from any of my digital devices (TYT9600 and 878 UV2+) without any problems.<br><br>I just purchased a Retevis RT3s and installed opengd77, but I can't seem to "open" the hotspot when I press the PTT button on my new walkie-talkie. I've tried everything, including inserting the TYT9600's cocodeplug, since it works on this device, but I can't open the HS. I've also tried correcting the hotspot frequency, but to no avail. It doesn't receive anything, and as soon as I move it from its current location, the "Time Out" message starts appearing on the Retevis screen, so I assume there's no need to move it. I'm starting to think the modem is broken, but... Has anyone else had something similar happen to them...?<br><br>Thank you all so much!!<br><br>73s.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8783">ea2faw</a> — Mon Jun 16, 2025 10:54 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

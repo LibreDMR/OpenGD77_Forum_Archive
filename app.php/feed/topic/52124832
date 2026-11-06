@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5212" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-15T20:51:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5212</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-15T20:51:35</updated>
+
+		<published>2025-07-15T20:51:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37719#p37719</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37719#p37719"/>
+		<title type="html"><![CDATA[Re: MD-UV390 has 417Hz tone during Tx]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37719#p37719"><![CDATA[
+<blockquote class="uncited"><div>Another club member has been digging into the problem.  It seems that the tone we hear is likely a harmonic of the CTCSS tone for the repeater.  Interestingly, during a net this morning, my friend monitored with his test equipment and noticed the tone was present on everyone's Tx, although it wasn't audible.  I've tried boosting my mic gain to see if that resolves it but it does not.<br><br>BTW, recording of the uplink from my radio does not have the tone.<br><br>So it seems part of the problem is our local repeater but the issue is definitely aggravated by something in the OGD77 FW in my TYT MD-UV390.  Bottom line:  I can live with this as I like the additional capabilities OGD77 brings to the radio (it's the reason I picked up the radio in the first place).  This seems to be the only repeater in our area where I have this issue, so I'll just not use the TYT on that repeater.<br><br>It is a mystery though.  I'll post if further testing turns up any additional information.<br><br>Steve</div></blockquote>As your friend to measure the deviation of the CTCSS tone on you radio and other people's radios.<br><br>My guess is that the deviation of the tone on OpenGD77 may be slightly higher, however reducing the deviation used by the firmware would not be practical as it my prevent some people accessing repeaters which need this much deviation<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jul 15, 2025 8:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2025-07-15T19:34:56</updated>
+
+		<published>2025-07-15T19:34:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37718#p37718</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37718#p37718"/>
+		<title type="html"><![CDATA[Re: MD-UV390 has 417Hz tone during Tx]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37718#p37718"><![CDATA[
+Another club member has been digging into the problem.  It seems that the tone we hear is likely a harmonic of the CTCSS tone for the repeater.  Interestingly, during a net this morning, my friend monitored with his test equipment and noticed the tone was present on everyone's Tx, although it wasn't audible.  I've tried boosting my mic gain to see if that resolves it but it does not.<br><br>BTW, recording of the uplink from my radio does not have the tone.<br><br>So it seems part of the problem is our local repeater but the issue is definitely aggravated by something in the OGD77 FW in my TYT MD-UV390.  Bottom line:  I can live with this as I like the additional capabilities OGD77 brings to the radio (it's the reason I picked up the radio in the first place).  This seems to be the only repeater in our area where I have this issue, so I'll just not use the TYT on that repeater.<br><br>It is a mystery though.  I'll post if further testing turns up any additional information.<br><br>Steve<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Tue Jul 15, 2025 7:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2025-07-14T19:53:38</updated>
+
+		<published>2025-07-14T19:53:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37716#p37716</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37716#p37716"/>
+		<title type="html"><![CDATA[Re: MD-UV390 has 417Hz tone during Tx]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37716#p37716"><![CDATA[
+I'll give that a try. FYI, the tone is 141.3.  The repeater without any background tone has a CTCSS of 146.2.<br>Steve<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Mon Jul 14, 2025 7:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-14T04:45:42</updated>
+
+		<published>2025-07-14T04:45:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37713#p37713</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37713#p37713"/>
+		<title type="html"><![CDATA[Re: MD-UV390 has 417Hz tone during Tx]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37713#p37713"><![CDATA[
+Its very strange that this is only occuring on one repeater.<br><br>Have you tried manually setting up the VFO for use with the same repeater?<br>i.e Don't copy the channel to the VFO... Manually enter the Tx and Rx freqs and don't change anything else, except what is necessary e.g. set a CTCSS tone.<br><br>I'm wondering if somehow the tone you are hearing is related to the CTCSS tone freq e.g. a harmonic ???<br><br><br>If the tone was on all FM Tx, its possibly the backlight dimming PWM.  But as you say this is not on Simplex etc, I doubt its the PWM, as that would apply to all FM transmissions<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jul 14, 2025 4:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2025-07-12T19:54:05</updated>
+
+		<published>2025-07-12T19:54:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37705#p37705</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37705#p37705"/>
+		<title type="html"><![CDATA[MD-UV390 has 417Hz tone during Tx]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5212&amp;p=37705#p37705"><![CDATA[
+I'm running the 20241215 FW, but this also occurred using the 20240908 FW.  Whenever I contact someone using a local repeater at 146.73, my Tx transmissions have a 417Hz tone in the background.  This has nothing to do with my location as it occurs from home or when I am participating in a net from a local park.  In the latter case, there are other Hams with me using other radios and they don't have the tone on their signals.  When I use any other radio from either location, there is no tone.<br><br>Today, I reverted to the OEM FW, and the tone was not present.  When I reloaded OGD77 upgrading to FW 20241215, the tone returned.  I've checked the channel settings and I see no settings that might cause this.  The channel is set to the proper upload PL tone.  This does not happen when I use Simplex at 146.000 or on another repeater at 146.07.<br><br>I forgot to mention I have an MD-UV390 GPS.  Another clue is that someone else I know has the MD-UV390 plus and gets the same tone on the same repeater during Tx.<br><br>Any clues on why apparently one repeater is doing this and not another or on simplex??<br><br>Steve W3ATN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Sat Jul 12, 2025 7:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

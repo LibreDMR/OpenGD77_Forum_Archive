@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5109" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-09T05:04:05</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5109</id>
+
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-05-09T05:02:27</updated>
+
+		<published>2025-05-09T05:02:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37042#p37042</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37042#p37042"/>
+		<title type="html"><![CDATA[Re: Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37042#p37042"><![CDATA[
+<blockquote class="uncited"><div>in the original firmware you can monitor both A and B, but that does not mean that you will hear both at same time, dual watch is like a ping pong between A and B, like is you have two channels in scan mode or VFO and a channel in scan mode.</div></blockquote>Okay, I have looked at the circuit diagram, and indeed there is a U/V_AF_SW control switch to select the audio channel for U/V, and it seems that it cannot be A/B simultaneously for U or simultaneously for V.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Fri May 09, 2025 5:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-09T05:04:05 </updated>
+
+		<published>2025-05-09T03:59:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37041#p37041</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37041#p37041"/>
+		<title type="html"><![CDATA[Re: Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37041#p37041"><![CDATA[
+in the original firmware you can monitor both A and B, but that does not mean that you will hear both at same time, dual watch is like a ping pong between A and B, like if you have two channels in scan mode or VFO and a channel in scan mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri May 09, 2025 3:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-05-09T00:46:05</updated>
+
+		<published>2025-05-09T00:46:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37038#p37038</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37038#p37038"/>
+		<title type="html"><![CDATA[Re: Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37038#p37038"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>it have dual watch with the original firmware, but not dual reception.<br><br>OpenGD77 does not support dual watch for channels yet, only for VFO and temporarily: <a href="https://www.opengd77.com/viewtopic.php?t=1360" class="postlink">viewtopic.php?t=1360</a></div></blockquote>OK, thank you.</div></blockquote>FYI.<br><br>Each IF has its own analogue RSSI signal level output, which is read by an ADC in the CPU, hence in theory the hardware is capable of true 'dual watch' if one channel is VHF and the other channel is UHF, however I doubt the official firmware uses this advantage of the hardware and most likely the official firmware constantly changes frequency when in dual watch mode.<br><br>I think most users would be confused if the 'dual watch' functionality behaved slighly differently of the 2 frequenices were on different bands, compared when both frequencies were on the same band.</div></blockquote>Yes, I have this confusion too. I once asked the seller, and they said it can monitor both A and B channels simultaneously. I became interested in this machine, thank you for your suggestion.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Fri May 09, 2025 12:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-08T06:56:04</updated>
+
+		<published>2025-05-08T06:56:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37030#p37030</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37030#p37030"/>
+		<title type="html"><![CDATA[Re: Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37030#p37030"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>it have dual watch with the original firmware, but not dual reception.<br><br>OpenGD77 does not support dual watch for channels yet, only for VFO and temporarily: <a href="https://www.opengd77.com/viewtopic.php?t=1360" class="postlink">viewtopic.php?t=1360</a></div></blockquote>OK, thank you.</div></blockquote>FYI.<br><br>Each IF has its own analogue RSSI signal level output, which is read by an ADC in the CPU, hence in theory the hardware is capable of true 'dual watch' if one channel is VHF and the other channel is UHF, however I doubt the official firmware uses this advantage of the hardware and most likely the official firmware constantly changes frequency when in dual watch mode.<br><br>I think most users would be confused if the 'dual watch' functionality behaved slighly differently of the 2 frequenices were on different bands, compared when both frequencies were on the same band.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu May 08, 2025 6:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-05-08T06:37:31</updated>
+
+		<published>2025-05-08T06:37:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37029#p37029</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37029#p37029"/>
+		<title type="html"><![CDATA[Re: Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37029#p37029"><![CDATA[
+<blockquote class="uncited"><div>it have dual watch with the original firmware, but not dual reception.<br><br>OpenGD77 does not support dual watch for channels yet, only for VFO and temporarily: <a href="https://www.opengd77.com/viewtopic.php?t=1360" class="postlink">viewtopic.php?t=1360</a></div></blockquote>OK, thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Thu May 08, 2025 6:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-05-08T06:36:39</updated>
+
+		<published>2025-05-08T06:36:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37028#p37028</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37028#p37028"/>
+		<title type="html"><![CDATA[Re: Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37028#p37028"><![CDATA[
+<blockquote class="uncited"><div>It should be noted that although the MD9600 does have separate IF's for VHF and UHF, it only has 1 FM demodulator  becasue the DMR / DSP chip is used to demodulate FM.<br><br>So I doubt it would be possible to demodulate signals from both bands at the same time, even if you changed the firmware to enable both the VHF and UHF Rx chains at the same time.<br><br>The firmware souce code is however available, so you could download, modifiy and recompile it, to conduct your own experiments in this area.</div></blockquote>OK, thank you very much!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Thu May 08, 2025 6:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-08T06:16:52</updated>
+
+		<published>2025-05-08T06:16:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37027#p37027</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37027#p37027"/>
+		<title type="html"><![CDATA[Re: Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37027#p37027"><![CDATA[
+It should be noted that although the MD9600 does have separate IF's for VHF and UHF, it only has 1 FM demodulator  becasue the DMR / DSP chip is used to demodulate FM.<br><br>So I doubt it would be possible to demodulate signals from both bands at the same time, even if you changed the firmware to enable both the VHF and UHF Rx chains at the same time.<br><br>The firmware souce code is however available, so you could download, modifiy and recompile it, to conduct your own experiments in this area.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu May 08, 2025 6:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-08T03:01:52</updated>
+
+		<published>2025-05-08T03:01:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37026#p37026</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37026#p37026"/>
+		<title type="html"><![CDATA[Re: Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37026#p37026"><![CDATA[
+it have dual watch with the original firmware, but not dual reception.<br><br>OpenGD77 does not support dual watch for channels yet, only for VFO and temporarily: <a href="https://www.opengd77.com/viewtopic.php?t=1360" class="postlink">viewtopic.php?t=1360</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu May 08, 2025 3:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2025-05-08T01:42:04</updated>
+
+		<published>2025-05-08T01:42:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37025#p37025</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37025#p37025"/>
+		<title type="html"><![CDATA[Can the MD-9600 receive U-U or U-V?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5109&amp;p=37025#p37025"><![CDATA[
+Can the MD-9600 receive U-U or U-V?  <br>For example: A: 435.000 / B: 439.000  <br>                    A: 145.000 / B: 435.000<br>Do the speakers sound A/B at the same time?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Thu May 08, 2025 1:42 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

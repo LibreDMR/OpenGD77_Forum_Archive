@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3522" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-11-28T20:27:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3522</id>
+
+		<entry>
+		<author><name><![CDATA[PR7LDR]]></name></author>
+		<updated>2023-11-28T20:27:43</updated>
+
+		<published>2023-11-28T20:27:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27741#p27741</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27741#p27741"/>
+		<title type="html"><![CDATA[Re: How to develop within OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27741#p27741"><![CDATA[
+<blockquote class="uncited"><div><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2742" class="postlink">viewtopic.php?f=19&amp;t=2742</a></div></blockquote>Roger, I have read <a href="https://www.opengd77.com/viewtopic.php?f=16&amp;t=1565" class="postlink">viewtopic.php?f=16&amp;t=1565</a>, so now I have more doubts than before... Initially I thought the project was open, in the literal sense of the openness word. <br><br>But now I know that it is the work of you and few people, so I kindly thank you all for your efforts. And too, now I know that you can close it with no advice... <br><br>I noticed you are too busy with your own life, so I am worried about the future of the project. Sure, it is YOUR work... but it is important to the ham community too.<br><br>I hope that there are solutions for this in the future. I would not like to see the project disappearing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4969">PR7LDR</a> — Tue Nov 28, 2023 8:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-11-28T20:04:16</updated>
+
+		<published>2023-11-28T20:04:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27740#p27740</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27740#p27740"/>
+		<title type="html"><![CDATA[Re: How to develop within OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27740#p27740"><![CDATA[
+<a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2742" class="postlink">viewtopic.php?f=19&amp;t=2742</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 28, 2023 8:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PR7LDR]]></name></author>
+		<updated>2023-11-28T19:05:18</updated>
+
+		<published>2023-11-28T19:05:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27737#p27737</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27737#p27737"/>
+		<title type="html"><![CDATA[How to develop within OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3522&amp;p=27737#p27737"><![CDATA[
+Hi, folks! Hope you are doing well...<br><br>I could not figure out where are the sources, nor were they are hosted... How do I do to contribute, do pull requests or similar things? there is a Github account or similar workplace?<br><br>I am seeing several pieces of code spread above several threads, so is difficult to get involved...<br><br>Can you point me the needed steps to code within the project? Is this project open source? <br><br>Where can I get the sources for DM-1701, for example? I have this radio, and want to play coding with it.<br><br>Thanks for your comments.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4969">PR7LDR</a> — Tue Nov 28, 2023 7:05 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

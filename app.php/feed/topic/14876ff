@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/148" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-11-23T13:53:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/148</id>
+
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-23T13:53:01</updated>
+
+		<published>2019-11-23T13:53:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=608#p608</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=608#p608"/>
+		<title type="html"><![CDATA[Re: Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=608#p608"><![CDATA[
+Ok sounds good, I understand<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 23, 2019 1:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T02:32:36</updated>
+
+		<published>2019-11-23T02:32:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=585#p585</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=585#p585"/>
+		<title type="html"><![CDATA[Re: Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=585#p585"><![CDATA[
+I don't think we should aim to be able to do absolutely everything that the CPS can do. Its more of a way to modify whats already in the radio in case you cant get to the CPS e.g. away on holiday etc<br><br>So perhaps just checking if the TG is used and if its used then it can't be deleted.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 2:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-23T02:29:01</updated>
+
+		<published>2019-11-23T02:29:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=583#p583</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=583#p583"/>
+		<title type="html"><![CDATA[Re: Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=583#p583"><![CDATA[
+I think it could be a nice addition, thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 23, 2019 2:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL4LEX]]></name></author>
+		<updated>2019-11-23T02:16:30</updated>
+
+		<published>2019-11-23T02:16:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=579#p579</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=579#p579"/>
+		<title type="html"><![CDATA[Re: Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=579#p579"><![CDATA[
+The delete function is not yet included in this version.<br><br>When it's merged it is for private contacts only.<br><br>Deleting TGs requires to check every RX Group to not delete a used contact.<br><br>But I will add this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=109">DL4LEX</a> — Sat Nov 23, 2019 2:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T01:40:13</updated>
+
+		<published>2019-11-23T01:40:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=577#p577</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=577#p577"/>
+		<title type="html"><![CDATA[Re: Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=577#p577"><![CDATA[
+Mike<br><br>Alex just told me Function + Red deletes, but I've not tried it myself. I'm not sure if its for TG's or PCs or both<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 1:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-23T01:23:52</updated>
+
+		<published>2019-11-23T01:23:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=576#p576</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=576#p576"/>
+		<title type="html"><![CDATA[Re: Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=576#p576"><![CDATA[
+I loaded the firmware and tested by adding 9990 (BM Parrot). I saved it and tested it with my hot spot and it worked as expected. Nice job. One thing I would suggest is maybe put a delete key in. I made a mistake on my first attempt and saved  a talk group just playing around that I did not mean to. If there is a way to delete it I did not see it? Nice addition and while I will test more so far seems to be working fine<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 23, 2019 1:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T01:02:27</updated>
+
+		<published>2019-11-23T01:02:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=575#p575</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=575#p575"/>
+		<title type="html"><![CDATA[Re: Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=575#p575"><![CDATA[
+Ken<br><br>Thanks for testing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 1:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-11-23T00:02:12</updated>
+
+		<published>2019-11-23T00:02:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=574#p574</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=574#p574"/>
+		<title type="html"><![CDATA[Re: Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=574#p574"><![CDATA[
+so I went into contacts screen and added new contacts, all slot 2 private. as follows...... <br><br>4000 (disconnect), <br>4400 (uk calling), <br>5000 (channel info), <br>9990 (parrot) <br><br>all saved successfully<br><br>from the channel screen, pressing # # # displays the contact screen and up and down selects the contact ie. 9990, and GREEN confirms it, pressing the ptt works and I dont get that annoying accept call thing anymore, after my transmission, pressing the left or right arrow returns me to TG9. excellent work. Also BLUE + # then # works too... amazing work thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sat Nov 23, 2019 12:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-22T23:16:38</updated>
+
+		<published>2019-11-22T23:16:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=148&amp;p=573#p573</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=148&amp;p=573#p573"/>
+		<title type="html"><![CDATA[Contacts screen]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=148&amp;p=573#p573"><![CDATA[
+Thanks to Alex DL4LEX..<br><br>We now have a way to add new Contacts in the OpenGD77 firmware<br><br>There is a new menu item for Contacts with options of "Contact list" and "New contact"<br><br>Both TalkGroup and Private Call  contacts can be added.<br><br>In the Contacts list, the initial display are the TG's . To access the Private Calls, press the # key<br><br>Access to the Contacts list is also available from the CHannel and VFO screens by pressing Function (Blue) + #, and press # to get access the PC list.<br><br>I've uploaded these new features into the OpenGD77_latest.sgl <br><br><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/master/firmware_binaries/daily_builds/OpenGD77_latest.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... latest.sgl</a><br><br>Specifically this commit to github<br><br><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/9281da685fbec75341e2e9b4cb5a0d9a9c957f76/firmware_binaries/daily_builds/OpenGD77_latest.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... latest.sgl</a><br><br><br><strong class="text-strong">Note. </strong><br>Although Alex and I have tested this. There is a slight chance it may have bugs, including corrupting your codeplug in the radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Nov 22, 2019 11:16 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

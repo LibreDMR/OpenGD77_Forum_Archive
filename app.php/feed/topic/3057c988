@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3057" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-07-19T00:21:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3057</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-19T00:21:18</updated>
+
+		<published>2023-07-19T00:21:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3057&amp;p=24529#p24529</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3057&amp;p=24529#p24529"/>
+		<title type="html"><![CDATA[OpenGD77 CPS COM port problems]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3057&amp;p=24529#p24529"><![CDATA[
+The OpenGD77 firmware operates as a USB Serial Com port <strong class="text-strong">after</strong> the firmware has been installed<br><br>Note. <br>Before the firmware is installed all radios will appear as whatever USB device the official firmware creates.<br>Also when the radios are in Device Firmware Update (DFU) mode, they do not appear as a USB serial device either<br><br><br>Window 7 and Windows 10 do not automatically recognise the OpenGD77 firmware USB connection as a Serial device because these versions of Windows do not query the USB device to find its device type.<br><br>AFIK. Windows 11 and Linux do query USB devices and Windows 11 sometimes automatically installs a default USB Serial aka CDCACM driver.<br>However on Windows 11 this is a problem, becuase Windows does not name the device as "OpenGD77"  so the CPS has no way of knowing that a specicfic COM port is the OpenGD77 radio.<br><br><br>Windows 7 and Windows 10 do not query USB devices when they are connected, so the OpenGD77 CPS installer includes a small program, which uses a third party utility called LibWDI <a href="https://github.com/pbatard/libwdi" class="postlink">https://github.com/pbatard/libwdi</a>, to assign the built in   Windows USB Serial driver to the USB Vendor / Product ID of the USB Serial device created by the firmware.<br><br>The LibWDI also names the com port as OpenGD77<br><br><br>When the OpenGD77 CPS need to read or wite to the firmware in the radio, it opens the Com port named "OpenGD77",  however becuase Windows 11 automatically installs the Serial driver, and gives it a gerneric name, hence the OpenGD77 will not be able to find which com port is the OpenGD77 radio<br><br>If the CPS can't find the com port, you need to manually select it for each data transfer<br><br><br>On Windows 10. If the COM device works but is not named "OpenGD77", you should uninstall the default driver, and reinstall the OpenGD77 Com driver by re-installing the OpenGD77 CPS<br><br>Also note that Windows installs a separate device driver to each USB socket, so plugging the radio into a different socket could potentially cause Windows to use a different driver.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jul 19, 2023 12:21 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

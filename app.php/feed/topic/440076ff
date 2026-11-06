@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4400" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-13T18:47:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4400</id>
+
+		<entry>
+		<author><name><![CDATA[EA3V]]></name></author>
+		<updated>2024-12-13T18:47:01</updated>
+
+		<published>2024-12-13T18:47:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34601#p34601</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34601#p34601"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34601#p34601"><![CDATA[
+It seems that the text they have enlarged is not proportional in height and width... Proportionally, I see it a bit more vertically stretched. <br>Anyway, I prefer the text to be larger. Ideally, it should be proportional in both width and height.<br><br>Toni EA3V<br>73<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2776&amp;sid=f2ea866ab1ac0cf5e20c22bca363464e" class="postimage" alt="tyt.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4014">EA3V</a> — Fri Dec 13, 2024 6:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OM2DEF]]></name></author>
+		<updated>2024-12-12T10:57:05</updated>
+
+		<published>2024-12-12T10:57:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34570#p34570</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34570#p34570"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34570#p34570"><![CDATA[
+Hello, This modification realy works for me! I am so happy  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> Many thanks, good job!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6904">OM2DEF</a> — Thu Dec 12, 2024 10:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-08T01:15:08</updated>
+
+		<published>2024-12-08T01:15:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34497#p34497</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34497#p34497"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34497#p34497"><![CDATA[
+I emailed you my version<br><br>BTW.<br><br>I looked at your code but the calls to HAL_GPIO_WritePin are in the wrong place and also the commented out delay loop is also in the wrong place<br><br>I also did some optimisation of the pin mask to speed things up, as I could not guarantee that the compiler would make a variable for the pinmaps and is likely to waste time making the pin masks 6 times when it only needs to be done 2 times if they are put in a 2 variables.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2774&amp;sid=f2ea866ab1ac0cf5e20c22bca363464e">OpenMDUV380.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 08, 2024 1:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-08T00:36:02</updated>
+
+		<published>2024-12-08T00:36:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34496#p34496</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34496#p34496"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34496#p34496"><![CDATA[
+<blockquote class="uncited"><div>I added the two lines in keyboard.c and the equivalent in buttons.c.<br>Still works great..<br><br>But when I add a short delay (for loop to 100) before pin write or after. I experience some problems in detecting two button presses. For example when changing power levels (blue button and key up/down). <br><br>you find the code I currently run again added in mod.zip with your suggestions but without a delay</div></blockquote>OK.<br><br>I'm implementing a change which sets the GPIO pins to LOW (GPIO_PIN_RESET), before calling the GPIO init when setting the pinmode to GPIO_MODE_OUTPUT_PP, and adding a small delay of 10 in between driving the pins low and setting them to input<br><br>This will be in the next 'experimental' version, which also has some other unrelated changes.<br><br>I'll probably email you this version  before I post it online, to see if my variation works OK for you.<br><br>I also need to implement the same change on the MD-2017 as some MD2017's seem to have a constantly problem with the keypad not working at all, and we never found what was causing the problem.  Possibly this change may fix the problem, but I'm not super confident it will fix the problem on those few MD2017 as their problem seems to be worse than is happening with your radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 08, 2024 12:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[hb9gnb]]></name></author>
+		<updated>2024-12-05T12:07:51</updated>
+
+		<published>2024-12-05T12:07:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34394#p34394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34394#p34394"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34394#p34394"><![CDATA[
+I added the two lines in keyboard.c and the equivalent in buttons.c.<br>Still works great..<br><br>But when I add a short delay (for loop to 100) before pin write or after. I experience some problems in detecting two button presses. For example when changing power levels (blue button and key up/down). <br><br>you find the code I currently run again added in mod.zip with your suggestions but without a delay<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2757&amp;sid=f2ea866ab1ac0cf5e20c22bca363464e">mod.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7411">hb9gnb</a> — Thu Dec 05, 2024 12:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-05T07:18:13</updated>
+
+		<published>2024-12-05T07:18:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34381#p34381</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34381#p34381"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34381#p34381"><![CDATA[
+<blockquote class="uncited"><div>Thank you for the explanations, very helpful -<br><br>I already stumbled across this line when I was inspecting the display code <div class="codebox"><p>CODE: </p><pre><code>*((volatile uint8_t*) LCD_FSMC_ADDR_DATA) = 0;// write 0 to the display pins , to pull them all low, so keyboard reads don't need to</code></pre></div>And I fully agree that setting the pins to output again - do nothing - and resetting them back to input should not really have an effect. <br><br>But I tested my device now for several hours and used the keypad and buttons intensively. It works perfectly.<br><br>I zipped and attached the files below. <br>Maybe you can manage to create a build and test with the device of your friend you mentioned in another post above. <br>It would be interesting to see if it also works for his device. <br><br><br>Recarding the CPU .<br><br>CPU : "STM"<br>CPU Sig: 0x0413<br>CPU Rev: 0x1007<br>CPU Pack: 0x0005</div></blockquote>OK<br><br>Looks like when the pin functionality is changed from FSMC to GPIO, that there is probably a glitch , which may randomly drive the pins high for a short time before.<br><br>Hence your code of setting them to Output <span style="text-decoration:underline">probably</span> drives them low.<br><br>However, I think for safety, that the GPIO pins should be set to Low i.e "GPIO_PIN_RESET". <br><br>by adding these 2 lines to your code, if you didn't already do that<br><div class="codebox"><p>CODE: </p><pre><code>HAL_GPIO_WritePin((GPIOD, LCD_D0_Pin | LCD_D1_Pin | LCD_D2_Pin | LCD_D3_Pin, GPIO_PIN_RESET);HAL_GPIO_WritePin((GPIOE, LCD_D4_Pin | LCD_D5_Pin | LCD_D6_Pin | LCD_D7_Pin, GPIO_PIN_RESET);</code></pre></div>Also, the time the pins are being driven low will be quite short, and I would also be tempted to add a small for(;;) loop delay between driving the pins low and setting then to input<br><br><br>Setting the pins low is probably the most important and the delay would be optional.<br><br>Could you please try adding my code, and confirm there are no adverse effects.<br><br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 05, 2024 7:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[hb9gnb]]></name></author>
+		<updated>2024-12-05T06:42:42</updated>
+
+		<published>2024-12-05T06:42:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34380#p34380</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34380#p34380"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34380#p34380"><![CDATA[
+Thank you for the explanations, very helpful -<br><br>I already stumbled across this line when I was inspecting the display code <div class="codebox"><p>CODE: </p><pre><code>*((volatile uint8_t*) LCD_FSMC_ADDR_DATA) = 0;// write 0 to the display pins , to pull them all low, so keyboard reads don't need to</code></pre></div>And I fully agree that setting the pins to output again - do nothing - and resetting them back to input should not really have an effect. <br><br>But I tested my device now for several hours and used the keypad and buttons intensively. It works perfectly.<br><br>I zipped and attached the files below. <br>Maybe you can manage to create a build and test with the device of your friend you mentioned in another post above. <br>It would be interesting to see if it also works for his device. <br><br><br>Recarding the CPU .<br><br>CPU : "STM"<br>CPU Sig: 0x0413<br>CPU Rev: 0x1007<br>CPU Pack: 0x0005<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2755&amp;sid=f2ea866ab1ac0cf5e20c22bca363464e">mod.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7411">hb9gnb</a> — Thu Dec 05, 2024 6:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-04T23:20:47</updated>
+
+		<published>2024-12-04T23:20:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34376#p34376</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34376#p34376"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34376#p34376"><![CDATA[
+Without seeing all the code, its difficult to know exactly what you did<br><br>However it looks like you added another block of code like this<br><br><br><div class="codebox"><p>CODE: </p><pre><code>GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT;GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;GPIO_InitStruct.Pull = GPIO_PULLDOWN;GPIO_InitStruct.Pin = LCD_D0_Pin | LCD_D1_Pin | LCD_D2_Pin | LCD_D3_Pin;HAL_GPIO_Init(GPIOD, &amp;GPIO_InitStruct);GPIO_InitStruct.Pin = LCD_D4_Pin | LCD_D5_Pin | LCD_D6_Pin | LCD_D7_Pin;HAL_GPIO_Init(GPIOE, &amp;GPIO_InitStruct);</code></pre></div>Which sets the 'input' pins to output, and effectly kept the previous code that sets the pins to input.<br><br>This probably has the effect of driving the pins low, but you should probably also have also added<br><br><div class="codebox"><p>CODE: </p><pre><code>HAL_GPIO_WritePin((GPIOD, LCD_D0_Pin | LCD_D1_Pin | LCD_D2_Pin | LCD_D3_Pin, GPIO_PIN_RESET);HAL_GPIO_WritePin((GPIOE, LCD_D4_Pin | LCD_D5_Pin | LCD_D6_Pin | LCD_D7_Pin, GPIO_PIN_RESET);</code></pre></div><br>before the call to HAL_GPIO_Init()<br><br>If ypu look in main.c (which is automatically generated code from the STM32 Cube IDE), you will see that it had multiple calls to HAL_GPIO_WritePin() before calling Init<br><br>e.g.<br><br><br><div class="codebox"><p>CODE: </p><pre><code>  HAL_GPIO_WritePin(GPIOE, DMR_SPI_CS_Pin|C6000_PWD_Pin, GPIO_PIN_SET);   </code></pre></div><br><br>The keyboard input pins are shared with the display output pins, and the same pins are written to by the FSMC controller part of the MCU during display updates<br><br>I checked the code and we do set the FSMC output register to 0  in the renderRows() function<br><div class="codebox"><p>CODE: </p><pre><code>*((volatile uint8_t*) LCD_FSMC_ADDR_DATA) = 0;// write 0 to the display pins , to pull them all low, so keyboard reads don't need to</code></pre></div><br>So this should have left the pins driven low, and it should not have been necessary to set the GPIO pins to Output before setting them to input<br><br><br>However, its possible that the MCU has some "Errata" aka bugs in its silicon.<br><br><br>Can you look in the Firmware Info screen, and check whether your radio has a genuine STM MCU or whether it has a Chinese clone.<br><br>If the CPU type is "STM" its genuine,  if it reads "TYT" then its the unknown Chinese clone , fitted by TYT and probably also the same clone used in the Baofeng radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 04, 2024 11:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[hb9gnb]]></name></author>
+		<updated>2024-12-04T20:05:59</updated>
+
+		<published>2024-12-04T20:05:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34370#p34370</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34370#p34370"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34370#p34370"><![CDATA[
+Not reading key "0" just leads to other keys emitting events....<br><br>I have changed the readKeys to <br><div class="codebox"><p>CODE: </p><pre><code>uint32_t keyboardRead(void){uint32_t result = KEY_NONE;GPIO_InitTypeDef GPIO_InitStruct = { 0 };GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;    &lt;---------------  outputGPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;GPIO_InitStruct.Pull = GPIO_PULLDOWN;GPIO_InitStruct.Pin = LCD_D0_Pin | LCD_D1_Pin | LCD_D2_Pin | LCD_D3_Pin;HAL_GPIO_Init(GPIOD, &amp;GPIO_InitStruct);GPIO_InitStruct.Pin = LCD_D4_Pin | LCD_D5_Pin | LCD_D6_Pin | LCD_D7_Pin;HAL_GPIO_Init(GPIOE, &amp;GPIO_InitStruct);GPIO_InitStruct.Mode = GPIO_MODE_INPUT;   &lt;--------------- back to inputGPIO_InitStruct.Pin = LCD_D0_Pin | LCD_D1_Pin | LCD_D2_Pin | LCD_D3_Pin;HAL_GPIO_Init(GPIOD, &amp;GPIO_InitStruct);GPIO_InitStruct.Pin = LCD_D4_Pin | LCD_D5_Pin | LCD_D6_Pin | LCD_D7_Pin;HAL_GPIO_Init(GPIOE, &amp;GPIO_InitStruct);and also in buttons.c{GPIO_InitTypeDef GPIO_InitStruct = {0};uint32_t result = BUTTON_NONE;GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;   &lt;-------------- outputGPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;GPIO_InitStruct.Pull = GPIO_PULLDOWN;GPIO_InitStruct.Pin =#if defined(PLATFORM_RT84_DM1701) || defined(PLATFORM_MD2017)LCD_D5_Pin |#endif#if ! defined(PLATFORM_MD2017)LCD_D6_Pin |#endifLCD_D7_Pin;HAL_GPIO_Init(GPIOE, &amp;GPIO_InitStruct);GPIO_InitStruct.Mode = GPIO_MODE_INPUT;   &lt;---- inputHAL_GPIO_Init(GPIOE, &amp;GPIO_InitStruct);</code></pre></div><br><br><br>This seems to work for me... at least until now... will test it a bit longer to be sure....<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7411">hb9gnb</a> — Wed Dec 04, 2024 8:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[hb9gnb]]></name></author>
+		<updated>2024-12-04T10:39:25</updated>
+
+		<published>2024-12-04T10:39:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34359#p34359</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34359#p34359"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34359#p34359"><![CDATA[
+OK<br><br>-&gt;  Are you a professional programmer??<br>I am working as a software engineer with a master degree in computer science for a rail company. Working mainly with Backend Services. <br>But I do not work with embedded systems. All my knowledge I have with embedded systems is from my education in the module "linux kernel development in RT System with Xenomai " where we programmed a few linux kernel modules with some interrupt handlers for real time embedded devices. So I know what a Chip Select a pullup or a pulldown is. But again not working in this area in my daily life. <br><br><br>To the suggestions <br><br>I tried with PULLUP and PULLDOWN instead of  GPIO_InitStruct.Pull = GPIO_NOPULL <br>result -&gt; keypad is not working at all. <br><br>changing the PortSpeed does not have any effect. <br><br>I also changed the code that it reads the pin 3 times and waits between each read. But this did also have no effect. <br>Works still in the same way. <br><br>In my device it is always Key "0" that is emitted as KEY_EVENT. this evening I will invest more time and try to not read that "0" key at all. <br>just to see if there are other keys causing problems, or if it is just related to this row and gpio pin for key "0"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7411">hb9gnb</a> — Wed Dec 04, 2024 10:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-04T02:44:35</updated>
+
+		<published>2024-12-04T02:44:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34349#p34349</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34349#p34349"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34349#p34349"><![CDATA[
+<blockquote class="uncited"><div>Ok I tried to modify the <br><br>void displayWriteCmd(uint8_t cmd)<br>{<br>    *((volatile uint8_t*) LCD_FSMC_ADDR_COMMAND) = cmd;<br>}<br><br>That it just returns.. (removed the line to write the cmd)<br><br><br>The display stays white of of course. But I was in VFO mode and entered a "1" short after that i was able to hear beep sounds. They are coming from the "'0" entered until a 100.0000 frequency is there and then for every additional "0'" a beep is hearable indicating a not valid frequency. <br><br>That proofs that removing the line in desplayWriteCmd does not help. <br><br>Any other ideas I can try?  <br><br>And yes to increase the settling time does not remove the problem. I even tried with factor 10...</div></blockquote>I don't know if this makes much difference in Push Pull mode, but you could try changing<br><br><div class="codebox"><p>CODE: </p><pre><code>GPIO_InitStruct.Pull = GPIO_NOPULL;</code></pre></div>to<br><div class="codebox"><p>CODE: </p><pre><code>GPIO_InitStruct.Pull = GPIO_PULLDOWN;</code></pre></div><br>Also.<br><br>I don't know if the GPIO port speed actually needs to be set to Low<br><br><div class="codebox"><p>CODE: </p><pre><code>GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;</code></pre></div>you could try one of the other values e.g.<br><div class="codebox"><p>CODE: </p><pre><code>#define  GPIO_SPEED_FREQ_LOW         0x00000000U  /*!&lt; IO works at 2 MHz, please refer to the product datasheet */#define  GPIO_SPEED_FREQ_MEDIUM      0x00000001U  /*!&lt; range 12,5 MHz to 50 MHz, please refer to the product datasheet */#define  GPIO_SPEED_FREQ_HIGH        0x00000002U  /*!&lt; range 25 MHz to 100 MHz, please refer to the product datasheet  */#define  GPIO_SPEED_FREQ_VERY_HIGH   0x00000003U  /*!&lt; range 50 MHz to 200 MHz, please refer to the product datasheet  */</code></pre></div><br>Also a few other thoughts<br><br>Is your backlight set to 100% and constantly on ?   Otherwise perhaps you have some form of signal injection caused by the backlight control signal or the supply voltage fluction to the display board becasue of the backlight.<br><br>i.e the front PC is connected via a thin ribbon cable and there have been problems on other types of radio becasue the GND connection via the ribbon is not ideal.<br><br>Also. if the problem is some sort of noise pickup, you could attempt to implement something similar to bebounce functionality,  e.g.<br><br>in<br><div class="codebox"><p>CODE: </p><pre><code>for (size_t k = 0; k &lt; KEYBOARD_KEYS_PER_ROW; k++){if((KeyboardMatrix[i].Rows[k].Key != KEY_NONE) &amp;&amp;(HAL_GPIO_ReadPin(KeyboardMatrix[i].Rows[k].GPIOPort, KeyboardMatrix[i].Rows[k].GPIOPin) == GPIO_PIN_SET)){result = KeyboardMatrix[i].Rows[k].Key;break;}}</code></pre></div>modify the code so that it checks each input pin multiple times, with a small delay between each check and only if the pin was High for all iterations, should it be accepted as a valid keypress<br><br><br><br>There are probably also other things you could try.  Are you a professional programmer??<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 04, 2024 2:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[hb9gnb]]></name></author>
+		<updated>2024-12-03T20:43:41</updated>
+
+		<published>2024-12-03T20:43:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34337#p34337</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34337#p34337"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34337#p34337"><![CDATA[
+Ok I tried to modify the <br><br>void displayWriteCmd(uint8_t cmd)<br>{<br>    *((volatile uint8_t*) LCD_FSMC_ADDR_COMMAND) = cmd;<br>}<br><br>That it just returns.. (removed the line to write the cmd)<br><br><br>The display stays white of of course. But I was in VFO mode and entered a "1" short after that i was able to hear beep sounds. They are coming from the "'0" entered until a 100.0000 frequency is there and then for every additional "0'" a beep is hearable indicating a not valid frequency. <br><br>That proofs that removing the line in desplayWriteCmd does not help. <br><br>Any other ideas I can try?  <br><br>And yes to increase the settling time does not remove the problem. I even tried with factor 10...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7411">hb9gnb</a> — Tue Dec 03, 2024 8:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-03T19:19:08</updated>
+
+		<published>2024-12-03T19:19:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34331#p34331</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34331#p34331"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34331#p34331"><![CDATA[
+I would need to look at the code, but I thought that on one of the radios that they lines need to all be driven low for a while, before one of them can be driven high, but I can't remember which code that was in<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 03, 2024 7:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-03T19:15:10</updated>
+
+		<published>2024-12-03T19:15:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34330#p34330</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34330#p34330"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34330#p34330"><![CDATA[
+<blockquote class="uncited"><div>I saw the same problem back in the early days of the development. <br><br>The settling delay is needed and was added to allow for the capacitance and pull up resistors of the keyboard matrix. It takes a noticeable time for the signals on the selected and unselected rows to stabilise to the correct levels. So reading them too early can result in ghost key presses like you are seeing.  There will be differences between individual radios so the current delay might be on the edge of working for your radio.  It could be that small changes in temperature or humidity are causing the settling time to vary. <br><br>Those delays are quite short so there is probably no harm in doubling them for everybody. <br><br>Colin G4EML</div></blockquote>BTW.<br><br>Settling time does not seem to be the problem why a few MD2017 keyboards don't work. I tried doubling the settling time in the MD2017 code and sent it to someone whose Md2017 keypad didn't work, however they said that it didn't fix the problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 03, 2024 7:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-12-03T11:41:02</updated>
+
+		<published>2024-12-03T11:41:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34323#p34323</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34323#p34323"/>
+		<title type="html"><![CDATA[Re: RT3S GPS - keyboard stops responding built 20240908143155]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4400&amp;p=34323#p34323"><![CDATA[
+I saw the same problem back in the early days of the development. <br><br>The settling delay is needed and was added to allow for the capacitance and pull up resistors of the keyboard matrix. It takes a noticeable time for the signals on the selected and unselected rows to stabilise to the correct levels. So reading them too early can result in ghost key presses like you are seeing.  There will be differences between individual radios so the current delay might be on the edge of working for your radio.  It could be that small changes in temperature or humidity are causing the settling time to vary. <br><br>Those delays are quite short so there is probably no harm in doubling them for everybody. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Dec 03, 2024 11:41 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

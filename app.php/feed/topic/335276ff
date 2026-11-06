@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3352" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-04T16:30:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3352</id>
+
+		<entry>
+		<author><name><![CDATA[PU7PZB]]></name></author>
+		<updated>2024-11-04T16:30:17</updated>
+
+		<published>2024-11-04T16:30:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33919#p33919</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33919#p33919"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33919#p33919"><![CDATA[
+Hello, I'm available to be a beta tester.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4276">PU7PZB</a> — Mon Nov 04, 2024 4:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-03T23:21:21</updated>
+
+		<published>2024-11-03T23:21:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33907#p33907</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33907#p33907"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33907#p33907"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>I actually started to look at this a few weeks ago, but then had some unrelated problems because I fitted a much better GPS module, externally to my MD9600<br><br>I am still working on the code that handles the data from the GPS so that I will support u-blox M10 class multi constellation GPS modules</div></blockquote>I'm reading in the thread you are working on, very interesting, seems overkill to me though.</div></blockquote>Not sure why, but we don't seem to get very good GPS coverage where I live. Even the android based GPS in my car takes several minutes to get a lock.<br><br>So we do need this level GPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 03, 2024 11:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-11-03T21:20:27</updated>
+
+		<published>2024-11-03T21:20:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33906#p33906</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33906#p33906"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33906#p33906"><![CDATA[
+<blockquote class="uncited"><div><br>I actually started to look at this a few weeks ago, but then had some unrelated problems because I fitted a much better GPS module, externally to my MD9600<br><br>I am still working on the code that handles the data from the GPS so that I will support u-blox M10 class multi constellation GPS modules</div></blockquote>I'm reading in the thread you are working on, very interesting, seems overkill to me though.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Nov 03, 2024 9:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-03T19:52:02</updated>
+
+		<published>2024-11-03T19:52:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33902#p33902</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33902#p33902"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33902#p33902"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>It's on my ToDo list, but don't hold your breath...</div></blockquote>That is all the good news. Thank you so much.<br>Charlie,</div></blockquote>I actually started to look at this a few weeks ago, but then had some unrelated problems because I fitted a much better GPS module, externally to my MD9600<br><br>I am still working on the code that handles the data from the GPS so that I will support u-blox M10 class multi constellation GPS modules<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 03, 2024 7:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-11-03T19:43:25</updated>
+
+		<published>2024-11-03T19:43:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33901#p33901</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33901#p33901"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33901#p33901"><![CDATA[
+<blockquote class="uncited"><div><br>It's on my ToDo list, but don't hold your breath...</div></blockquote>That is all the good news. Thank you so much.<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Nov 03, 2024 7:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-03T19:11:37</updated>
+
+		<published>2024-11-03T19:11:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33899#p33899</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33899#p33899"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33899#p33899"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Installed, beaconing appears to work as described (both smart and auto), intervals work perfectly and messages decode correctly.  I've set it on VFO mode at the moment and it transmits on the TX channel set.  Usefully you can still TX manually when auto mode is on, and this seems to reset the decay timer, so if you know you're going to start moving and you want to send a packet before you set off then you can.  Am only picking up the response locally at the moment (on Pi with NinoTNC connected to a Yaesu 8900 to listen), not feeding to aprs.fi, but will test it going around Harrow and Watford tomorrow where it should be picked up.<br><br>One thought for the future -- it may be useful to send the APRS "in the background", that is you can keep the radio listening to whatever channel you want to monitor and when it's time to auto-TX the APRS packet the radio could auto-switch to a dedicated APRS channel (where the frequency is set), send the packet, and then switch back.  Probably already in plans, but I thought I'd suggest it.  (This is how auto-aprs tx works on my Retevis RT73).<br><br>Great work guys <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"></div></blockquote>Hi Daniel, Roger,<br><br>I've gone through this thread from the top, and wondering if the "APRS Beaconing in background" will be possible in the future? It would be great if the radio can switch to APRS frequency (144.390 in North America, 144.66 in Japan, 144.575 in New Zealand, etc.), beacon, and then switch back just like M0GZP suggested.<br><br>Thanks,<br>Charlie,</div></blockquote>It's on my ToDo list, but don't hold your breath...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 03, 2024 7:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-11-03T16:29:46</updated>
+
+		<published>2024-11-03T16:29:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33897#p33897</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33897#p33897"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=33897#p33897"><![CDATA[
+<blockquote class="uncited"><div>Installed, beaconing appears to work as described (both smart and auto), intervals work perfectly and messages decode correctly.  I've set it on VFO mode at the moment and it transmits on the TX channel set.  Usefully you can still TX manually when auto mode is on, and this seems to reset the decay timer, so if you know you're going to start moving and you want to send a packet before you set off then you can.  Am only picking up the response locally at the moment (on Pi with NinoTNC connected to a Yaesu 8900 to listen), not feeding to aprs.fi, but will test it going around Harrow and Watford tomorrow where it should be picked up.<br><br>One thought for the future -- it may be useful to send the APRS "in the background", that is you can keep the radio listening to whatever channel you want to monitor and when it's time to auto-TX the APRS packet the radio could auto-switch to a dedicated APRS channel (where the frequency is set), send the packet, and then switch back.  Probably already in plans, but I thought I'd suggest it.  (This is how auto-aprs tx works on my Retevis RT73).<br><br>Great work guys <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"></div></blockquote>Hi Daniel, Roger,<br><br>I've gone through this thread from the top, and wondering if the "APRS Beaconing in background" will be possible in the future? It would be great if the radio can switch to APRS frequency (144.390 in North America, 144.66 in Japan, 144.575 in New Zealand, etc.), beacon, and then switch back just like M0GZP suggested.<br><br>Thanks,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Nov 03, 2024 4:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-09T19:24:15</updated>
+
+		<published>2024-01-09T19:24:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28548#p28548</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28548#p28548"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28548#p28548"><![CDATA[
+<blockquote class="uncited"><div>Is it possible to clear Location on radio startup?<br><br>Sometimes in manual mode I send a beacon, forgetting I need to check if GPS has acquired location yet - and end up sending my last known location which is somewhere else entirely. <br><br>Also, the documentation mentions SmartBeaconing™ modes like Car/Sailing/e-Bike - where is that configured?  Thanks!<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#smartbeaconing" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... tbeaconing</a></div></blockquote>The parameters for smart beaconing presets like Car, Sailing or eBike are hard coded and can't be edited. <br><br>Currently there is no way to clear the location. <br><br><br>The source code was published for the last Release version on 2023/12/31, so that people can modify it to suit their own requirements<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 09, 2024 7:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB8YKF]]></name></author>
+		<updated>2024-01-09T16:52:45</updated>
+
+		<published>2024-01-09T16:52:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28547#p28547</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28547#p28547"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28547#p28547"><![CDATA[
+<blockquote class="uncited"><div>"Smart beaconing" sets the parameters to defaults for given activity type. On the APRS settings screen you just push the 1, 2, etc. buttons. You cannot change these presets, they are hardcoded in firmware for now.</div></blockquote>Thanks, thats what I needed help with was how to change the preset.  In case it helps others, Options -&gt; APRS options -&gt; Mode then use rotary knob on RT3S to select "Smart" and while that menu option is still selected, press 1-6 to change what preset you are using.<br><br>Still curious what to do about sending wrong Location, when previous Location is populated at power-on.  Docs show:<br><blockquote class="uncited"><div>If the location data is not valid in Manual or PTT beaconing modes, the word "Location?" will be displayed on the screen and the data will not be transmitted. In automatic modes (Auto and Smart), no beacon will be transmitted until a valid location is set (in Location screen screen or having a GPS fix on featured transceivers).</div></blockquote>Is there a way to delete Location manually?  I can set my coordinates manually, but I'm trying to replicate the "Location?" behavior described above.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4778">KB8YKF</a> — Tue Jan 09, 2024 4:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-01-09T16:17:15</updated>
+
+		<published>2024-01-09T16:17:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28546#p28546</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28546#p28546"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28546#p28546"><![CDATA[
+The presets values are hardcoded, but you can still make adjustements of the settings after selecting a preset.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jan 09, 2024 4:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2024-01-09T16:08:59</updated>
+
+		<published>2024-01-09T16:08:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28545#p28545</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28545#p28545"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28545#p28545"><![CDATA[
+"Smart beaconing" sets the parameters to defaults for given activity type. On the APRS settings screen you just push the 1, 2, etc. buttons. You cannot change these presets, they are hardcoded in firmware for now.<br><br>Resetting the location on startup is IMO not possible, you would have to switch the channel to one without APRS before turning off and wait until the position is acquired before switching back.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Tue Jan 09, 2024 4:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB8YKF]]></name></author>
+		<updated>2024-01-09T13:02:39</updated>
+
+		<published>2024-01-09T13:02:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28543#p28543</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28543#p28543"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=28543#p28543"><![CDATA[
+Is it possible to clear Location on radio startup?<br><br>Sometimes in manual mode I send a beacon, forgetting I need to check if GPS has acquired location yet - and end up sending my last known location which is somewhere else entirely. <br><br>Also, the documentation mentions SmartBeaconing™ modes like Car/Sailing/e-Bike - where is that configured?  Thanks!<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#smartbeaconing" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... tbeaconing</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4778">KB8YKF</a> — Tue Jan 09, 2024 1:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KJ7PVO]]></name></author>
+		<updated>2023-11-30T23:02:09</updated>
+
+		<published>2023-11-30T23:02:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27783#p27783</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27783#p27783"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27783#p27783"><![CDATA[
+Thanks, it looks like i have not updated the firmware and cps for a while on my RD-5R. Got everything working last night. I really enjoy this software. keep up the awesome work!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3771">KJ7PVO</a> — Thu Nov 30, 2023 11:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-11-29T02:43:59</updated>
+
+		<published>2023-11-29T02:43:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27749#p27749</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27749#p27749"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27749#p27749"><![CDATA[
+It's already supported. Only GPS positioning isn't supported.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Nov 29, 2023 2:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KJ7PVO]]></name></author>
+		<updated>2023-11-29T02:28:30</updated>
+
+		<published>2023-11-29T02:28:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27748#p27748</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27748#p27748"/>
+		<title type="html"><![CDATA[Re: APRS beacon testers needed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3352&amp;p=27748#p27748"><![CDATA[
+Will APRS beaconing ever be supported on the RD-5R, even though it does not have built in GPS?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3771">KJ7PVO</a> — Wed Nov 29, 2023 2:28 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4464" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-15T15:06:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4464</id>
+
+		<entry>
+		<author><name><![CDATA[DS5HDN]]></name></author>
+		<updated>2024-10-15T15:06:49</updated>
+
+		<published>2024-10-15T15:06:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4464&amp;p=33508#p33508</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4464&amp;p=33508#p33508"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 10 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4464&amp;p=33508#p33508"><![CDATA[
+cps Extras -&gt; Calibration -&gt; Calibration viewer [VHF] The bottom part of the screen is cut off<br><br>R2024.09.13.02 is displayed normally<br>R2024.10.01.01, R2024.10.03.01, R2024.10.07.01 are cut off<br><br>Thank you to the Opengd77 development team<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1859">DS5HDN</a> — Tue Oct 15, 2024 3:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-10T06:47:38</updated>
+
+		<published>2024-10-10T06:47:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4464&amp;p=33404#p33404</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4464&amp;p=33404#p33404"/>
+		<title type="html"><![CDATA[New CPS 2024 10 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4464&amp;p=33404#p33404"><![CDATA[
+A new CPS version is now available<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/OpenGD77CPSInstaller_R2024.10.07.01.exe" class="postlink">downloads/PC_CPS/Latest/OpenGD77CPSInst ... .07.01.exe</a><br><br>This version has an updated Satellites.txt file and an update to the keps download URL. Thanks to David N9KT<br>It also fixes a problem for screen readers which are used by blind operators<br>It also fixes a crash bug if a non codeplug file is dropped onto the OpenGD77 exe icon.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 10, 2024 6:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3022" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-15T14:23:56</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3022</id>
+
+		<entry>
+		<author><name><![CDATA[HA7VM]]></name></author>
+		<updated>2025-01-15T14:23:56</updated>
+
+		<published>2025-01-15T14:23:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=35149#p35149</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=35149#p35149"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=35149#p35149"><![CDATA[
+Hey,<br>After reading this thread I ordered a GPS module from Aliexpress (<a href="https://vi.aliexpress.com/item/1005001704030454.html" class="postlink">https://vi.aliexpress.com/item/1005001704030454.html</a>), which is I think small enough to fit in the radio.<br>It hasn't arrived yet, but I would like to ask you about the connections.<br>Someone mentioned that it would need a transistor to power the GPS module, as the pins can't provide enough current. However, I checked the datasheet of the MCU and it states the "absolute maximum current rating" of that pin is 25mA, which should be enough for the module (on the product page, it shows &lt;25mA @3.3V).<br>Any suggestions or comments on this? Is it possible that I wouldn't need a transistor, or just do it to be safe?<br>Thanks in advance.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6043">HA7VM</a> — Wed Jan 15, 2025 2:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PR7LDR]]></name></author>
+		<updated>2023-11-21T18:23:44</updated>
+
+		<published>2023-11-21T18:23:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=27603#p27603</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=27603#p27603"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=27603#p27603"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>how can i activate my gps in Baofeng 1701 with opengd77 ?</div></blockquote>There is no GPS in the DM1701<br><br>If you want to connect a GPS module to the MCU chip<br><br>NMEA serial data input pin is PA 10<br>Power enable is PA 9<br><br>Note.<br><br>The power enable pin is not able to supply the full current of a GPS module, you need to build a circuit of a PNP and NPN transistor to control the power to the GPS module from the power enable signal.<br><br>I have opened my DM1701 and there is very little room inside and it would be difficult to fit a GPS module and antenna inside this radio, however you could fit a GPS module outside the radio.</div></blockquote>Thank you very much, it is valuable information. I was searching for this details for a while.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4969">PR7LDR</a> — Tue Nov 21, 2023 6:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-23T04:56:45</updated>
+
+		<published>2023-09-23T04:56:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26485#p26485</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26485#p26485"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26485#p26485"><![CDATA[
+<blockquote class="uncited"><div>As a final question to this topic for DM-1701, if I enter my location in Status screen menu, is it transmitted also in the DMR call data or rather not?</div></blockquote>Depends on the Channel TA settings for TS1 and TS2<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 23, 2023 4:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-23T04:53:28</updated>
+
+		<published>2023-09-23T04:53:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26484#p26484</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26484#p26484"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26484#p26484"><![CDATA[
+I totally agree, even if one wants to fit different GPS module and buy radio without GPS, it is better to buy a radio model which has at least space in casing and soldering pads broken out for GPS. I only bought this radio besides my other ones to use it as hotspot in future originally.<br><br>As a final question to this topic for DM-1701, if I enter my location in Status screen menu, is it transmitted also in the DMR call data or rather not?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Sat Sep 23, 2023 4:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-23T03:50:06</updated>
+
+		<published>2023-09-23T03:50:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26483#p26483</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26483#p26483"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26483#p26483"><![CDATA[
+<blockquote class="uncited"><div>Yes, it could be even possible to use phone app for that and K to phone cables exist for around $15. But I was just not sure if this was the only use, maybe SQ9KCU waned to use it DMR in call positioning  (DMR repeaters are quite widespread in PL) or satellite predictions as well.</div></blockquote>Plugging-in anything disconnects the speaker and the mic, when it connects USB,  so even if you did build an external device to act as USB host and send GPS position to the radio, you'd also need to build and external speaker mic system for DMR in call positioning.<br><br>If these things are that important to an operator, the could spend extra and buy a RT3S with GPS rather than a DM1701<br><br>For Satellite prediction, it seems like complete overkill to have a device you plug into the radio just to set the location, when you could use a mobile phone and enter the location.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 23, 2023 3:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-23T03:44:47</updated>
+
+		<published>2023-09-23T03:44:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26482#p26482</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26482#p26482"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26482#p26482"><![CDATA[
+Yes, it could be even possible to use phone app for that and K to phone cables exist for around $15. But I was just not sure if this was the only use, maybe SQ9KCU waned to use it DMR in call positioning  (DMR repeaters are quite widespread in PL) or satellite predictions as well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Sat Sep 23, 2023 3:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-22T20:49:47</updated>
+
+		<published>2023-09-22T20:49:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26477#p26477</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26477#p26477"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26477#p26477"><![CDATA[
+PE12 can't be remapped to Rx data, the remapping is to flow control<br><br>If you are going to connect an external GPS and microprocessor then it can generate the APRS data and transmit those tones via the mic input<br>Products already exist which do this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 22, 2023 8:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-22T18:02:43</updated>
+
+		<published>2023-09-22T18:02:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26472#p26472</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26472#p26472"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26472#p26472"><![CDATA[
+The USB could clash with the software UART if you forgot to switch it, right? <br><br>I wonder, what about the PTT_EXTERNAL_Pin, what is its number on DM-1701, is it different from internal PTT (i.e GPIOE/GPIO_PIN_12)? Could we abuse this pin with sofware or HW UART by switching external PTT to GPS input? Since PTT on K connector uses the outermost contacts of both K connector pins, we could probably use shorter connector which would not disconnect MIC/SPEAKER on radio as normal K connectors do.<br><br>Alternatively, it could be possible to connect the GPS module to something like ESP-32 running code with USB host implementation (part of SDK), but you would loose the audio with normal connectors and it would require to implement some extra USB commands into the radio.<br><br>EDIT: If it actually is PE12, it cannot be remapped to any UART per the datasheet if I am reading it right  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Fri Sep 22, 2023 6:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ9KCU]]></name></author>
+		<updated>2023-09-22T17:28:13</updated>
+
+		<published>2023-09-22T17:28:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26470#p26470</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26470#p26470"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26470#p26470"><![CDATA[
+<blockquote class="uncited"><div>No.<br><br>I checked the data sheet for the STM32F405 and neither of the USB pins PA11 and PA12 can be configured as UART Rx.<br><br>And just in case anyone asks about the GD77. The same applies. The USB pins on the MCU can not be used as UART, in fact on the MK22FN512 MCU used in the GD77 the USB pins can only function as USB, they can't be reconfigured even as GPIO</div></blockquote>Maybe a software UART is possible?<br><br><a href="https://github.com/liyanboy74/soft-uart" class="postlink">https://github.com/liyanboy74/soft-uart</a><br>Vy 73<br>SQ9KCU<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4433">SQ9KCU</a> — Fri Sep 22, 2023 5:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-22T08:25:39</updated>
+
+		<published>2023-09-22T08:25:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26467#p26467</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26467#p26467"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26467#p26467"><![CDATA[
+<blockquote class="uncited"><div>Just a thought I had regarding the GPS function.<br><br>How does the software "know" that a GPS is available ?<br><br>On my radios (RT3S,DM-1701) without GPS, I can't even enable it.</div></blockquote>When the firmware boots, when the status of the GPS us unknown, the firmware enables power to the GPS and then listens for data from the GPS module<br><br><br>All GPS modules send data constantly even when they do not have a position fix.<br><br>After data is received the firmware knows that a GPS is fitted and operational, and the GPS status changes to "Off", and then turns the power to the GPS off.<br><br>If you radio displays "Not fitted" for GPS either its not fitted or its not functional<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 22, 2023 8:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-09-22T08:12:17</updated>
+
+		<published>2023-09-22T08:12:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26466#p26466</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26466#p26466"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26466#p26466"><![CDATA[
+Just a thought I had regarding the GPS function.<br><br>How does the software "know" that a GPS is available ?<br><br>On my radios (RT3S,DM-1701) without GPS, I can't even enable it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Sep 22, 2023 8:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-22T07:52:49</updated>
+
+		<published>2023-09-22T07:52:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26465#p26465</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26465#p26465"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26465#p26465"><![CDATA[
+<blockquote class="uncited"><div>Hello.<br>Is it possible to direct the GPS pin to one of the pins of the USB port? Switch USB / GPS in the DM1701 menu? <br>It would be easy to use an external GPS receiver by connecting it with a modified USB-C cable. <br>The power supply for the GPS receiver can be external.<br>Vy 73<br>SQ9KCU</div></blockquote>No.<br><br>I checked the data sheet for the STM32F405 and neither of the USB pins PA11 and PA12 can be configured as UART Rx.<br><br>And just in case anyone asks about the GD77. The same applies. The USB pins on the MCU can not be used as UART, in fact on the MK22FN512 MCU used in the GD77 the USB pins can only function as USB, they can't be reconfigured even as GPIO<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 22, 2023 7:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ9KCU]]></name></author>
+		<updated>2023-09-22T07:28:53</updated>
+
+		<published>2023-09-22T07:28:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26464#p26464</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26464#p26464"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26464#p26464"><![CDATA[
+Hello.<br>Is it possible to direct the GPS pin to one of the pins of the USB port? Switch USB / GPS in the DM1701 menu? <br>It would be easy to use an external GPS receiver by connecting it with a modified USB-C cable. <br>The power supply for the GPS receiver can be external.<br>Vy 73<br>SQ9KCU<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4433">SQ9KCU</a> — Fri Sep 22, 2023 7:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-21T21:54:28</updated>
+
+		<published>2023-09-21T21:54:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26454#p26454</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26454#p26454"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26454#p26454"><![CDATA[
+<blockquote class="uncited"><div>Yes, I did this and it did not work.<br>Fitting the antenna is not a problem, just get an 8mmx8mm antenna and fit it between the top knobs.<br>The GPS module goes behind the knobs.,<br>However attaching to PA10 killed the USB port to connect to the PC.<br>So I can no longer load the radio. I am not sure why , but I guess that USART is used for the USB com port.<br>73's<br>Luca</div></blockquote>You probably shorted some pins<br><br>USB is on PA11 and PA12<br><br>Check you did not short PA11 to PA10 or even short PA11 and PA12 etc together<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 21, 2023 9:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2023-09-21T17:37:22</updated>
+
+		<published>2023-09-21T17:37:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26448#p26448</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26448#p26448"/>
+		<title type="html"><![CDATA[Re: clarification on Baofeng DM-1701 and GPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3022&amp;p=26448#p26448"><![CDATA[
+Yes, I did this and it did not work.<br>Fitting the antenna is not a problem, just get an 8mmx8mm antenna and fit it between the top knobs.<br>The GPS module goes behind the knobs.,<br>However attaching to PA10 killed the USB port to connect to the PC.<br>So I can no longer load the radio. I am not sure why , but I guess that USART is used for the USB com port.<br>73's<br>Luca<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Thu Sep 21, 2023 5:37 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

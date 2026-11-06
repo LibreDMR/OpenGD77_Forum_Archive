@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4870" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-12T12:11:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4870</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-12T12:11:57</updated>
+
+		<published>2025-02-12T12:11:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4870&amp;p=35714#p35714</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4870&amp;p=35714#p35714"/>
+		<title type="html"><![CDATA[Re: Hotspot Mode - Garbled TX on 70cm, Fine on 2m]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4870&amp;p=35714#p35714"><![CDATA[
+Check your mmdvm configuration, the rx and tx offsets should be set to zero.<br>Next step is to check the frequency alignement of the transceivers.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Feb 12, 2025 12:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M0KSK]]></name></author>
+		<updated>2025-02-12T11:45:26</updated>
+
+		<published>2025-02-12T11:45:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4870&amp;p=35713#p35713</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4870&amp;p=35713#p35713"/>
+		<title type="html"><![CDATA[Hotspot Mode - Garbled TX on 70cm, Fine on 2m]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4870&amp;p=35713#p35713"><![CDATA[
+Hi all,<br><br>I'm running firmware 20240908143110 on my Baofeng 1701, which I use in hotspot mode. When I transmit on 70cm, the signal is garbled. However, when I switch to 2m, the transmission sounds fine.<br><br>The receiving unit is a TYT MD-UV380, running the same firmware.<br><br>Troubleshooting Steps Taken:<br><img alt="?" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/2705.svg"> Tested on an MMDVM hotspot – Both bands work fine, no issues.<br><img alt="?" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/2705.svg"> Tried Pi-Star and WSPD – 2m works fine, 70cm is garbled.<br><img alt="?" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/2705.svg"> Switched between an RPI3 and RPI4 – 2m works fine, 70cm is garbled.<br><img alt="?" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/2705.svg"> Upgraded to the latest beta firmware – 2m works fine, 70cm is garbled.<br><img alt="?" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/2705.svg"> Swapped the 1701 with the 380. Guess what... Same issue. <br><br>At this point, I feel like I've ruled out everything I can think of. Maybe someone smarter than me has a suggestion?<br><br>Thanks in advance!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7908">M0KSK</a> — Wed Feb 12, 2025 11:45 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

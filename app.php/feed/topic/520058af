@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5200" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-02T14:59:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5200</id>
+
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2025-07-02T14:59:40</updated>
+
+		<published>2025-07-02T14:59:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5200&amp;p=37624#p37624</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5200&amp;p=37624#p37624"/>
+		<title type="html"><![CDATA[DMRID overwritten by CPS when writing KEBS/DMRID DB]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5200&amp;p=37624#p37624"><![CDATA[
+HI!<br>This is a small problem, but I noticed that when I upload the KEBS, and the DMRID database the radio DMRID is updated.<br>This is without writing a codeplug. Is this intended behaviour ?<br>Or should the radio DMRID only be written into the radio when the codeplug is written to the radio ?<br>This is with the 2025.03.23 CPS.<br>Thanks.<br>Luca<br>VE2WKR/W0<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Wed Jul 02, 2025 2:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

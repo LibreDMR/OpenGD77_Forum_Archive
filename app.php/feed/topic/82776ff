@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/827" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-07-17T22:13:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/827</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-17T22:13:48</updated>
+
+		<published>2023-07-17T22:13:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=24499#p24499</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=24499#p24499"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=24499#p24499"><![CDATA[
+<blockquote class="uncited"><div>Hello all...<br><br>I´m using DM-5R with OpenRD5R Built 07:25:41 Aug 29 2020 and my radio keeps the display always on. Has anyone here noticed this same problem?<br><br>Thanks<br>PY2GPS<br>Rafael</div></blockquote>Your username has been changed to your callsign, becuase its site policy for people to use their callsign as their user name if they have a callsign<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jul 17, 2023 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2021-08-23T08:03:57</updated>
+
+		<published>2021-08-23T08:03:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=15600#p15600</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15600#p15600"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15600#p15600"><![CDATA[
+<blockquote class="uncited"><div><br>Also, what do you mean by "grapped?"</div></blockquote>Sorry, mispelling.<br>I mixed to words.<br><br>Wrapped, grabbed, hostage, captured, held, limited, restricted...<br><br>As The Police song;<br>"Wrapped arround your fingers..."<br><br><br>Note:<br>As I've previously mentioned English is my 3rd language and from time to time I do this kind of mistakes... <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Mon Aug 23, 2021 8:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-08-23T02:53:38</updated>
+
+		<published>2021-08-23T02:53:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=15596#p15596</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15596#p15596"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15596#p15596"><![CDATA[
+<blockquote class="uncited"><div>While I read the User Guide (thank you), let me ask:<br><br>It seems to me that the RD-5R is missing two important features of the GD-77, so as to not bastardize sales of the GD-77:<br><br>1) An ability to program a new DMR repeater from the keyboard (requiring use of a computer even "on the road"); and<br><br>2) A very limited memory to hold Digital Contacts, such as the hundreds of thousands of worldwide Digital IDs.<br><br>Does the Open version of the firmware fix these two deficiencies?<br><br>Also, what do you mean by "grapped?"</div></blockquote>The OpenGD77 firmware is completely different to the official firmware on any of these radios.<br>The OpenGD77/DM1801/RD5R does not have a lot of the features that are in the official firmware.<br>SMS is not supported, nor is DCDM and various other things.<br><br>Your guess is as good as mine to why various features are not in the official RD5R firmware, but ultimately the firmware for all these radios is written by the same secretive organistion, whose name we can't determine. <br><br>The OpenRD5R is most of the features of the OpenGD77/ OpenDM108, except for Hotspot mode, and some features in the future can't be supported on the RD-5R due to hardware limitations.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Aug 23, 2021 2:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2021-08-22T21:58:30</updated>
+
+		<published>2021-08-22T21:58:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=15591#p15591</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15591#p15591"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15591#p15591"><![CDATA[
+While I read the User Guide (thank you), let me ask:<br><br>It seems to me that the RD-5R is missing two important features of the GD-77, so as to not bastardize sales of the GD-77:<br><br>1) An ability to program a new DMR repeater from the keyboard (requiring use of a computer even "on the road"); and<br><br>2) A very limited memory to hold Digital Contacts, such as the hundreds of thousands of worldwide Digital IDs.<br><br>Does the Open version of the firmware fix these two deficiencies?<br><br>Also, what do you mean by "grapped?"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Sun Aug 22, 2021 9:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2021-08-17T16:02:35</updated>
+
+		<published>2021-08-17T16:02:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=15531#p15531</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15531#p15531"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15531#p15531"><![CDATA[
+OpenGD firmware benefits are easy to sumarize:<br><br>It makes those walkies to change their performance and way to use them from professional to amateur way of doing.<br><br><br>Adjusting squelch, mic gain, swap between TSs, backlight level, key enter TG...<br>It's a really long list that makes target equiment to become hamradio friendly.<br><br>Obviously those benefits are sometimes dificult to evaluate if you haven't been "grapped" by original firmware.<br><br>I suggest you to have a calmy a long look to the manual available in here:<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/" class="postlink">https://github.com/LibreDMR/OpenGD77_UserGuide/</a><br><br><br>I hope this information is usefull to all new users to evaluate OpenGD benefits vs original FW.<br><br><br>Note:<br>You can change your profile config to get eMail notification on new messages.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Tue Aug 17, 2021 4:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2021-08-17T15:43:59</updated>
+
+		<published>2021-08-17T15:43:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=15530#p15530</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15530#p15530"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15530#p15530"><![CDATA[
+Thank you for your generous reply; I did not receive email notification of it, so I am delayed in responding.<br>I posted my Amateur Radio and GMRS call signs, hopefully in the correct place.<br>Please advise me the main benefits of Open firmware other than Hotspots.<br>I have access to 3 DMR repeaters in my local area, so at this time, a Hotspot is not my priority.<br>But what other benefits would I glean from this Open Firmware?<br>Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Tue Aug 17, 2021 3:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2021-07-22T14:33:44</updated>
+
+		<published>2021-07-22T14:33:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=15325#p15325</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15325#p15325"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15325#p15325"><![CDATA[
+<blockquote class="uncited"><div>I am a RD5R user since 2018 and recently discovered the OpenGD77 discussion.<br><br>Is there a link to a primer on using it with the RD5R?<br><br>I notice that download links for the firmware and the CPS to GitHub no longer work; where do I download?<br><br>Thank you!</div></blockquote><br>I suggest you to download and install the most recent CPS.<br>Once done, download the OpenGD binary file for your radio<br>Both them can by found at <a href="http://www.opengd77.com/downloads" class="postlink">www.opengd77.com/downloads</a>  (as G4EML previously pointed...)<br><br>And.... Follow these directions:<br><a href="https://www.opengd77.com/static/firmware_installation.php" class="postlink">https://www.opengd77.com/static/firmwar ... lation.php</a><br>Also available here:<br><a href="http://opengd77.com/viewtopic.php?f=13&amp;t=1770" class="postlink">http://opengd77.com/viewtopic.php?f=13&amp;t=1770</a><br><br><br>I hope this helps.<br><br>And... btw: <strong class="text-strong">Welcome to OpenGD</strong> !!<br><br><br>Enjoy and have fun...<br><br><br><em class="text-italics">NOTE:<br>Michael, it will be nice you to update your profile to show your CALLSIGN.<br>Thanks'</em><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Thu Jul 22, 2021 2:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2021-07-18T10:32:03</updated>
+
+		<published>2021-07-18T10:32:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=15253#p15253</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15253#p15253"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15253#p15253"><![CDATA[
+All downloads are now at <a href="http://www.opengd77.com/downloads" class="postlink">www.opengd77.com/downloads</a><br><br>The user manual is here.  <a href="https://github.com/LibreDMR/OpenGD77_UserGuide" class="postlink">https://github.com/LibreDMR/OpenGD77_UserGuide</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jul 18, 2021 10:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2021-07-18T04:36:54</updated>
+
+		<published>2021-07-18T04:36:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=15250#p15250</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15250#p15250"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=15250#p15250"><![CDATA[
+I am a RD5R user since 2018 and recently discovered the OpenGD77 discussion.<br><br>Is there a link to a primer on using it with the RD5R?<br><br>I notice that download links for the firmware and the CPS to GitHub no longer work; where do I download?<br><br>Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Sun Jul 18, 2021 4:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-04-26T22:53:27</updated>
+
+		<published>2021-04-26T22:53:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=14558#p14558</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=14558#p14558"/>
+		<title type="html"><![CDATA[Re: Experimental Baofeng RD-5R version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=14558#p14558"><![CDATA[
+<blockquote class="uncited"><div>I have similar frequency calibration problems with my RD-5R, but I presumed it was just bad calibration of my radio.<br><br>I don’t have an accurate freq counter. I think it’s resolution is only 1kHz , but I will try to compare the Tx freq on FM with the official firmware. I buy this module from <a href="https://www.mazuzee.com/index.php?route=product/category&amp;path=90" class="postlink">marine equipment suppliers in UAE</a> with few months vearty<br>Last edited by uKK2Vebu on Fri Mar 12, 2021 11:49 am, edited 1 time in total.</div></blockquote>There was a bug fix to to resolve a calibration problem which I found on my DM-1801. But that fix was done several months ago<br><br>So if you are still experiencing a problem, the the calibration could be wrong in your radio.<br><br>1kHz counter resolution isn't really accurate enough. You need around 100Hz accuracy to be totally accurate.<br><br>To work out the correction offeset on my DM-1801, I had to make a special version of the firmware where the VFO step frequency was 1/100th of the displayed value, so I could then fairly easily keep stepping the frequency until my radio would communicate with my hotspot.<br><br>After I got the frequency to match the hotspot, I used a SDR dongle to visually look at the transmission frequency, and then adjusted the calibration data, to that the radio would be on that frequency without needing the offset I was applying to the VFO freq<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Apr 26, 2021 10:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-03-17T23:48:25</updated>
+
+		<published>2021-03-17T23:48:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=13968#p13968</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13968#p13968"/>
+		<title type="html"><![CDATA[Re: USB cable does not install as COM port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13968#p13968"><![CDATA[
+<blockquote class="uncited"><div>I have a Baofeng DM-5R PLUS. The original firmware displays BF-5R when starting. Some versions displayed RD-5R. Maybe this can even be changed via the original CPS?<br><br>To install OpenRD5R firmware, you have to boot the radio into firmware upload mode. That is, press the two buttons around PTT and power up. Then the radio appears as a HID device, not a COM port. You can then use the Baofeng firmware uploader or OpenGD77 firmware uploader to upload the OpenRD5R .sgl file to the radio.<br><br>After the firmware upload, power the radio down and then normally up. The radio should now appear as a COM port. Now you can use the OpenGD77 CPS to backup the calibration, flash, EEPROM and MCU of your radio. After that you can build a codeplug with OpenGD77 CPS and upload it to the radio.<br><br>In addition to the above mentioned tools there are Python scripts for firmware upload, backup and codeplug upload.</div></blockquote>Some DM-5R plus radios are actually the Tier 1 version.<br>I checked with someone who has an old DM-5R and it is not at all compatible with the OpenGD77 firmware. He tells me that the programming cable for his radio has a Prolific RS232 chip in it. Hence is RS232 only and its impossible to install the firmware onto the original DM-5R Plus.<br><br>However, it sounds like the radio that kc2ovx has is probably the new DM-5R which is the Tier 2 version, and may probably be compatible<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 17, 2021 11:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh1fss]]></name></author>
+		<updated>2021-03-17T21:47:44</updated>
+
+		<published>2021-03-17T21:47:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=13961#p13961</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13961#p13961"/>
+		<title type="html"><![CDATA[Re: USB cable does not install as COM port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13961#p13961"><![CDATA[
+I have a Baofeng DM-5R PLUS. The original firmware displays BF-5R when starting. Some versions displayed RD-5R. Maybe this can even be changed via the original CPS?<br><br>To install OpenRD5R firmware, you have to boot the radio into firmware upload mode. That is, press the two buttons around PTT and power up. Then the radio appears as a HID device, not a COM port. You can then use the Baofeng firmware uploader or OpenGD77 firmware uploader to upload the OpenRD5R .sgl file to the radio.<br><br>After the firmware upload, power the radio down and then normally up. The radio should now appear as a COM port. Now you can use the OpenGD77 CPS to backup the calibration, flash, EEPROM and MCU of your radio. After that you can build a codeplug with OpenGD77 CPS and upload it to the radio.<br><br>In addition to the above mentioned tools there are Python scripts for firmware upload, backup and codeplug upload.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=764">oh1fss</a> — Wed Mar 17, 2021 9:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-03-17T20:42:20</updated>
+
+		<published>2021-03-17T20:42:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=13959#p13959</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13959#p13959"/>
+		<title type="html"><![CDATA[Re: USB cable does not install as COM port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13959#p13959"><![CDATA[
+Firstly the model of radio (BF-5R) is not on the supported list.<br><br>Is it a Tier 2 DMR radio?<br><br>If it is the same as the DM-5R V2  or the RD-5R, but if it's the same as the original DM-5R ( version 1) then it won't work as that radio has different internal hardware, using the Tier 1 DMR chip ( HR-C4000 )<br><br>Assuming it is the Tier 2 version, sold under a different name, then the firmware loader in the CPS should install onto the radio without a driver being required.<br><br>However just because the CPS detects and uploads the firmware to the radio, does not guarantee the firmware is compatible with that radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 17, 2021 8:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ok1pt]]></name></author>
+		<updated>2021-03-17T16:32:56</updated>
+
+		<published>2021-03-17T16:32:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=13958#p13958</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13958#p13958"/>
+		<title type="html"><![CDATA[Re: USB cable does not install as COM port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13958#p13958"><![CDATA[
+The firmware loader uses different protocol than CPS, so it doesn't want COM port, it's happy with HID device. So you can use tha cable which you have and if you start the radio in bootloader mode, it will find it and flash it. I'm using a separate flasher available for GD-77, possibly the same will work for BF-5R, but you can start the flash from CPS, it will work as well, even if CPS itself doesn't communicate.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=958">ok1pt</a> — Wed Mar 17, 2021 4:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kc2ovx]]></name></author>
+		<updated>2021-03-17T15:56:30</updated>
+
+		<published>2021-03-17T15:56:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=827&amp;p=13957#p13957</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13957#p13957"/>
+		<title type="html"><![CDATA[Re: USB cable does not install as COM port]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=827&amp;p=13957#p13957"><![CDATA[
+I am using the stock firmware, the radio is right out of the box.<br><br>Radio:<br>BF-5R<br><br>CPS v1.1.5<br>H-version:<br>V1.0.3<br>Software:<br>V2.01.03<br>DSP Version<br>HRC6000<br>V1.2.6<br>Program Time:<br>2021<br>3.16<br>20:04<br><br>How do I get the modified firmware loaded on it if the cable and radio won't show up as a Comm Port ?<br><br>I must be missing something<br><br>Is there a special cable required ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1535">kc2ovx</a> — Wed Mar 17, 2021 3:56 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4863" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-11T12:16:20</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4863</id>
+
+		<entry>
+		<author><name><![CDATA[VK7BOB]]></name></author>
+		<updated>2025-02-11T12:16:20</updated>
+
+		<published>2025-02-11T12:16:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4863&amp;p=35700#p35700</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4863&amp;p=35700#p35700"/>
+		<title type="html"><![CDATA[Re: Problema, &quot;posible desvío de frecuencia&quot;.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4863&amp;p=35700#p35700"><![CDATA[
+Hello Abel,<br><br>I've not come across this issue before in DMR due to the nature of how the signal works. Digital signals are quite robust and can withstand QRM and decode at a lot lower strength than analogue until we reach the cliff where it stops. <br>I haven't heard of any offset issues as DMR generally will either decode or not. A repeater will generally ignore the transmission. But I also don't use any Baofengs as they are often poorly made and I've had a lot of issues with quality control.<br>I would work on what are the variables to the problem to get closer to a solution. Were the radios doing this prior to using OpenGD77? I've had to return radios brand new due to poor quality control and faulty components.<br><br>A recent Radioddity device was decoding DMR in a strange garbled way and it was deemed the chip was faulty. It's important to test radios first to ensure they work as it's not as straightforward as they once were when analogue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7964">VK7BOB</a> — Tue Feb 11, 2025 12:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7KBH]]></name></author>
+		<updated>2025-02-10T20:14:56</updated>
+
+		<published>2025-02-10T20:14:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4863&amp;p=35698#p35698</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4863&amp;p=35698#p35698"/>
+		<title type="html"><![CDATA[Problema, &quot;posible desvío de frecuencia&quot;.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4863&amp;p=35698#p35698"><![CDATA[
+Good evening, my name is Abel, “ EA7KBH ”. I tell you my problem.<br>I have programmed 4 Baofeng DM 1701 walkies, but there are a couple of friends who do not hear me well. I get “full signal”, but as displaced. I have been informed in the OpenGD Telegram group, that it could be a frequency offset issue and that this fellow solved the problem, by installing the flash of one of the other DM 1701 radios “ that were working fine ”.<br><br>Will I be able to fix it this way? Does anyone know about this problem? Regards!<br><br>Translated with DeepL.com (free version)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8025">EA7KBH</a> — Mon Feb 10, 2025 8:14 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

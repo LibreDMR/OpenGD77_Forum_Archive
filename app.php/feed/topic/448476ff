@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4484" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-15T08:47:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4484</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-15T08:47:01</updated>
+
+		<published>2024-10-15T08:47:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4484&amp;p=33506#p33506</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4484&amp;p=33506#p33506"/>
+		<title type="html"><![CDATA[Re: Zastone uv008 not supported]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4484&amp;p=33506#p33506"><![CDATA[
+<blockquote class="uncited"><div>Any chance with this radio? Good potential, supporting the 220MHz in DMR too!<br><a href="https://www.zastone.com/product/showproduct.php?id=117&amp;lang=en" class="postlink">https://www.zastone.com/product/showpro ... 17&amp;lang=en</a><br><br>Yves,<br>ve2ymm</div></blockquote>According to their web page <br><br><a href="https://www.zastone.com/product/showproduct.php?id=117&amp;lang=en" class="postlink">https://www.zastone.com/product/showpro ... 17&amp;lang=en</a> <br>It doesn't suppport 220MHz.<br><br><br>Anyone who wants to port the firmware to any arbitary radio, is welcome to do so as long as they adhere to the source code license.<br>The source code for all supported radios is available on this site.<br><br>However, you have a lot of work ahead of you, as it does not appear to use an ARM based CPU unlike all supported radios.<br>Looking at the firmware update file, I suspect it probably uses the C7000 combined CPU and DMR chip, for which there is no development SDK and API or compiler<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 15, 2024 8:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2ymm]]></name></author>
+		<updated>2024-10-15T03:01:39</updated>
+
+		<published>2024-10-15T03:01:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4484&amp;p=33497#p33497</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4484&amp;p=33497#p33497"/>
+		<title type="html"><![CDATA[Zastone uv008 not supported]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4484&amp;p=33497#p33497"><![CDATA[
+Any chance with this radio? Good potential, supporting the 220MHz in DMR too!<br><a href="https://www.zastone.com/product/showproduct.php?id=117&amp;lang=en" class="postlink">https://www.zastone.com/product/showpro ... 17&amp;lang=en</a><br><br>Yves,<br>ve2ymm<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7035">ve2ymm</a> — Tue Oct 15, 2024 3:01 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

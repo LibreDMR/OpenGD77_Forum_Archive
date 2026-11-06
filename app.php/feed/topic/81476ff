@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/814" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-16T13:39:53</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/814</id>
+
+		<entry>
+		<author><name><![CDATA[Ea4esg]]></name></author>
+		<updated>2024-02-16T13:39:53</updated>
+
+		<published>2024-02-16T13:39:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=29562#p29562</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=29562#p29562"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=29562#p29562"><![CDATA[
+por favor, podriais explicarme como modifico en el baofeng 1701 y en moden pi-star para que no trasmita con 50mw ?  por mas cambios que hago no cambia la potencia del walkie cuando esta en modo hostpot, y tambien se me desconecta mucho del modo hostpot con la raspberry pi 3B, que puede ser el problema ? gracias.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5499">Ea4esg</a> — Fri Feb 16, 2024 1:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2020-04-09T17:04:35</updated>
+
+		<published>2020-04-09T17:04:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7338#p7338</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7338#p7338"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7338#p7338"><![CDATA[
+<blockquote class="uncited"><div>Eureka! That was it. I was in the wrong section. <br><br>Default value is 100. When i changed it 50 it changed the radio to 500mW. <br><br>I learned something new today!<br><br>Many thanks Daniel!<br><br>Chuck</div></blockquote> <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 09, 2020 5:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K9RPL]]></name></author>
+		<updated>2020-04-09T16:41:07</updated>
+
+		<published>2020-04-09T16:41:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7337#p7337</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7337#p7337"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7337#p7337"><![CDATA[
+Eureka! That was it. I was in the wrong section. <br><br>Default value is 100. When i changed it 50 it changed the radio to 500mW. <br><br>I learned something new today!<br><br>Many thanks Daniel!<br><br>Chuck<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=663">K9RPL</a> — Thu Apr 09, 2020 4:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2020-04-09T16:26:17</updated>
+
+		<published>2020-04-09T16:26:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7336#p7336</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7336#p7336"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7336#p7336"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>I enabled the logging from pi-star and noticed the power value set in MMDVMHost is actually in watts and not a percentage. Power=1 is  1Watt, Power=15 is 15 Watts. Anything under 1 is 0 Watts.<br><br><br>I: 2020-04-09 15:07:35.682 MMDVM protocol version: 1, description: OpenGD77 Hotspot v0.1.0 GitID #bc46565<br>I: 2020-04-09 15:07:35.703 Display Parameters<br>I: 2020-04-09 15:07:35.703 Type: None<br>W: 2020-04-09 15:07:35.703 No valid display found, disabling<br>I: 2020-04-09 15:07:35.703 DMR Network Parameters<br>I: 2020-04-09 15:07:35.703 Address: 107.191.99.14<br>I: 2020-04-09 15:07:35.703 Port: 62031<br>I: 2020-04-09 15:07:35.703 Local: random<br>I: 2020-04-09 15:07:35.703 Jitter: 360ms<br>I: 2020-04-09 15:07:35.703 Slot 1: disabled<br>I: 2020-04-09 15:07:35.703 Slot 2: enabled<br>I: 2020-04-09 15:07:35.703 Mode Hang: 20s<br>I: 2020-04-09 15:07:35.703 Info Parameters<br>I: 2020-04-09 15:07:35.703 Callsign: K9RPL<br>I: 2020-04-09 15:07:35.703 RX Frequency: 438035000Hz<br>I: 2020-04-09 15:07:35.703 TX Frequency: 438035000Hz<br>I: 2020-04-09 15:07:35.703 Power: 15W   &lt;============================= Power set to 15<br>I: 2020-04-09 15:07:35.703 Latitude: 41.914078deg N<br>I: 2020-04-09 15:07:35.703 Longitude: -88.313049deg E<br><br><br>I: 2020-04-09 14:59:09.952 MMDVM protocol version: 1, description: OpenGD77 Hotspot v0.1.0 GitID #bc46565<br>I: 2020-04-09 14:59:09.973 Display Parameters<br>I: 2020-04-09 14:59:09.973 Type: None<br>W: 2020-04-09 14:59:09.973 No valid display found, disabling<br>I: 2020-04-09 14:59:09.973 DMR Network Parameters<br>I: 2020-04-09 14:59:09.973 Address: 107.191.99.14<br>I: 2020-04-09 14:59:09.973 Port: 62031<br>I: 2020-04-09 14:59:09.973 Local: random<br>I: 2020-04-09 14:59:09.973 Jitter: 360ms<br>I: 2020-04-09 14:59:09.973 Slot 1: disabled<br>I: 2020-04-09 14:59:09.973 Slot 2: enabled<br>I: 2020-04-09 14:59:09.973 Mode Hang: 20s<br>I: 2020-04-09 14:59:09.973 Info Parameters<br>I: 2020-04-09 14:59:09.973 Callsign: K9RPL<br>I: 2020-04-09 14:59:09.973 RX Frequency: 438035000Hz<br>I: 2020-04-09 14:59:09.973 TX Frequency: 438035000Hz<br>I: 2020-04-09 14:59:09.973 Power: 1W    &lt;============================= Power set to 1 <br>I: 2020-04-09 14:59:09.973 Latitude: 41.914078deg N<br>I: 2020-04-09 14:59:09.974 Longitude: -88.313049deg E<br><br><br>I: 2020-04-09 14:58:52.122 MMDVM protocol version: 1, description: OpenGD77 Hotspot v0.1.0 GitID #bc46565<br>I: 2020-04-09 14:58:52.143 Display Parameters<br>I: 2020-04-09 14:58:52.143 Type: None<br>W: 2020-04-09 14:58:52.143 No valid display found, disabling<br>I: 2020-04-09 14:58:52.143 DMR Network Parameters<br>I: 2020-04-09 14:58:52.143 Address: 107.191.99.14<br>I: 2020-04-09 14:58:52.143 Port: 62031<br>I: 2020-04-09 14:58:52.143 Local: random<br>I: 2020-04-09 14:58:52.143 Jitter: 360ms<br>I: 2020-04-09 14:58:52.143 Slot 1: disabled<br>I: 2020-04-09 14:58:52.143 Slot 2: enabled<br>I: 2020-04-09 14:58:52.143 Mode Hang: 20s<br>I: 2020-04-09 14:58:52.143 Info Parameters<br>I: 2020-04-09 14:58:52.144 Callsign: K9RPL<br>I: 2020-04-09 14:58:52.144 RX Frequency: 438035000Hz<br>I: 2020-04-09 14:58:52.144 TX Frequency: 438035000Hz<br>I: 2020-04-09 14:58:52.144 Power: 0W    &lt;============================= Power set to .1 <br>I: 2020-04-09 14:58:52.144 Latitude: 41.914078deg N<br>I: 2020-04-09 14:58:52.144 Longitude: -88.313049deg E</div></blockquote>It seems you're modifying the wrong section of the MMDVM ini file. The one you're displaying here is part of the [Info] section.<br>The one you need to change is in [Modem] section, RFLevel value.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 09, 2020 4:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K9RPL]]></name></author>
+		<updated>2020-04-09T15:15:26</updated>
+
+		<published>2020-04-09T15:15:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7331#p7331</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7331#p7331"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7331#p7331"><![CDATA[
+I enabled the logging from pi-star and noticed the power value set in MMDVMHost is actually in watts and not a percentage. Power=1 is  1Watt, Power=15 is 15 Watts. Anything under 1 is 0 Watts.<br><br><br>I: 2020-04-09 15:07:35.682 MMDVM protocol version: 1, description: OpenGD77 Hotspot v0.1.0 GitID #bc46565<br>I: 2020-04-09 15:07:35.703 Display Parameters<br>I: 2020-04-09 15:07:35.703 Type: None<br>W: 2020-04-09 15:07:35.703 No valid display found, disabling<br>I: 2020-04-09 15:07:35.703 DMR Network Parameters<br>I: 2020-04-09 15:07:35.703 Address: 107.191.99.14<br>I: 2020-04-09 15:07:35.703 Port: 62031<br>I: 2020-04-09 15:07:35.703 Local: random<br>I: 2020-04-09 15:07:35.703 Jitter: 360ms<br>I: 2020-04-09 15:07:35.703 Slot 1: disabled<br>I: 2020-04-09 15:07:35.703 Slot 2: enabled<br>I: 2020-04-09 15:07:35.703 Mode Hang: 20s<br>I: 2020-04-09 15:07:35.703 Info Parameters<br>I: 2020-04-09 15:07:35.703 Callsign: K9RPL<br>I: 2020-04-09 15:07:35.703 RX Frequency: 438035000Hz<br>I: 2020-04-09 15:07:35.703 TX Frequency: 438035000Hz<br>I: 2020-04-09 15:07:35.703 Power: 15W   &lt;============================= Power set to 15<br>I: 2020-04-09 15:07:35.703 Latitude: 41.914078deg N<br>I: 2020-04-09 15:07:35.703 Longitude: -88.313049deg E<br><br><br>I: 2020-04-09 14:59:09.952 MMDVM protocol version: 1, description: OpenGD77 Hotspot v0.1.0 GitID #bc46565<br>I: 2020-04-09 14:59:09.973 Display Parameters<br>I: 2020-04-09 14:59:09.973 Type: None<br>W: 2020-04-09 14:59:09.973 No valid display found, disabling<br>I: 2020-04-09 14:59:09.973 DMR Network Parameters<br>I: 2020-04-09 14:59:09.973 Address: 107.191.99.14<br>I: 2020-04-09 14:59:09.973 Port: 62031<br>I: 2020-04-09 14:59:09.973 Local: random<br>I: 2020-04-09 14:59:09.973 Jitter: 360ms<br>I: 2020-04-09 14:59:09.973 Slot 1: disabled<br>I: 2020-04-09 14:59:09.973 Slot 2: enabled<br>I: 2020-04-09 14:59:09.973 Mode Hang: 20s<br>I: 2020-04-09 14:59:09.973 Info Parameters<br>I: 2020-04-09 14:59:09.973 Callsign: K9RPL<br>I: 2020-04-09 14:59:09.973 RX Frequency: 438035000Hz<br>I: 2020-04-09 14:59:09.973 TX Frequency: 438035000Hz<br>I: 2020-04-09 14:59:09.973 Power: 1W    &lt;============================= Power set to 1 <br>I: 2020-04-09 14:59:09.973 Latitude: 41.914078deg N<br>I: 2020-04-09 14:59:09.974 Longitude: -88.313049deg E<br><br><br>I: 2020-04-09 14:58:52.122 MMDVM protocol version: 1, description: OpenGD77 Hotspot v0.1.0 GitID #bc46565<br>I: 2020-04-09 14:58:52.143 Display Parameters<br>I: 2020-04-09 14:58:52.143 Type: None<br>W: 2020-04-09 14:58:52.143 No valid display found, disabling<br>I: 2020-04-09 14:58:52.143 DMR Network Parameters<br>I: 2020-04-09 14:58:52.143 Address: 107.191.99.14<br>I: 2020-04-09 14:58:52.143 Port: 62031<br>I: 2020-04-09 14:58:52.143 Local: random<br>I: 2020-04-09 14:58:52.143 Jitter: 360ms<br>I: 2020-04-09 14:58:52.143 Slot 1: disabled<br>I: 2020-04-09 14:58:52.143 Slot 2: enabled<br>I: 2020-04-09 14:58:52.143 Mode Hang: 20s<br>I: 2020-04-09 14:58:52.143 Info Parameters<br>I: 2020-04-09 14:58:52.144 Callsign: K9RPL<br>I: 2020-04-09 14:58:52.144 RX Frequency: 438035000Hz<br>I: 2020-04-09 14:58:52.144 TX Frequency: 438035000Hz<br>I: 2020-04-09 14:58:52.144 Power: 0W    &lt;============================= Power set to .1 <br>I: 2020-04-09 14:58:52.144 Latitude: 41.914078deg N<br>I: 2020-04-09 14:58:52.144 Longitude: -88.313049deg E<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=663">K9RPL</a> — Thu Apr 09, 2020 3:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K9RPL]]></name></author>
+		<updated>2020-04-08T13:24:21</updated>
+
+		<published>2020-04-08T13:24:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7298#p7298</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7298#p7298"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7298#p7298"><![CDATA[
+Cool. Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=663">K9RPL</a> — Wed Apr 08, 2020 1:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LY1RF]]></name></author>
+		<updated>2020-04-08T13:21:35</updated>
+
+		<published>2020-04-08T13:21:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7297#p7297</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7297#p7297"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7297#p7297"><![CDATA[
+Just switch backlight off in normal mode ant it'll remain off in hotspot mode<br><br>R.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=553">LY1RF</a> — Wed Apr 08, 2020 1:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K9RPL]]></name></author>
+		<updated>2020-04-08T13:11:22</updated>
+
+		<published>2020-04-08T13:11:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7296#p7296</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7296#p7296"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7296#p7296"><![CDATA[
+I'm familiar with digital mode and trying to measure power. <br><br>Just for a sanity check I'm going to switch the radio to FM mode and see what my watt meter shows.<br><br>By chance is there a way to turn off the backlight in Hotspot mode?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=663">K9RPL</a> — Wed Apr 08, 2020 1:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2020-04-08T00:16:55</updated>
+
+		<published>2020-04-08T00:16:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7288#p7288</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7288#p7288"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7288#p7288"><![CDATA[
+In PiStar the value is the percentage of max power<br><br>100 = 100%<br>50  = 50 %<br><br>However in the OpenGD77 we ignore the value if its 100%, because the radio's 100% power is 5W and we don't want people accidentally running 5W<br><br>If you set 99% you will actually get 5W, as the OpenGD77 evaluates the 99% to the closest power setting to 99% of 5W, i.e 5W<br><br>Its not possible to control the OpenGD77 power by percentage e.g. to get 37% of 5W, because the PA drive vs output power is non-linear. <br>There is a quite complicated calculation to achieve the power setting steps, which uses the 1W and 5W calibration data points for the frequency you are transmitting on, and either does linear interpolation (between 1 and 5W), or uses a faction of the 1W power data point for values below 1W<br><br>This also relies on you actually calibrating your radio, because the factory calibration is wildly inaccurate.<br><br>If you don't calibrate your own radio using screen in the CPS, the power output is likely to be totally wrong.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Apr 08, 2020 12:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K9RPL]]></name></author>
+		<updated>2020-04-07T23:21:21</updated>
+
+		<published>2020-04-07T23:21:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7287#p7287</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7287#p7287"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7287#p7287"><![CDATA[
+In my case the default in pi-star is 1 which would be ignored by the DM1801 Hotspot since it apparently ignores anything below 10 as we've learned. Any value I put in doesn't change the value displayed on the radio.<br><br>It appears there is a bit of a disconnect between pi-star and Hotspot mode. <br><br>I manually set it to 50mW in the radio as a workaround.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=663">K9RPL</a> — Tue Apr 07, 2020 11:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1ajw]]></name></author>
+		<updated>2020-04-07T23:13:56</updated>
+
+		<published>2020-04-07T23:13:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7286#p7286</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7286#p7286"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7286#p7286"><![CDATA[
+Guys to change the power in pi-star you go to expert mode and mmdvmhost settings.  "RF Power changes the power.  100 =1 watt.  lesser numbers are less.  I would like to find out how to make it 2 watts or 3 watts for longer trials.  Thanks  Alec  N1AJW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=117">n1ajw</a> — Tue Apr 07, 2020 11:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K9RPL]]></name></author>
+		<updated>2020-04-07T22:58:21</updated>
+
+		<published>2020-04-07T22:58:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7285#p7285</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7285#p7285"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7285#p7285"><![CDATA[
+So the value is percentage. If I set a value of say 15 in pi-star that results in 1.25. Which is also a percentage?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=663">K9RPL</a> — Tue Apr 07, 2020 10:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2020-04-07T22:38:10</updated>
+
+		<published>2020-04-07T22:38:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7284#p7284</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7284#p7284"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7284#p7284"><![CDATA[
+Hi,<br><br><blockquote class="uncited"><div>umm<br><br>The display may not be updating.<br><br>I've not checked the code recently</div></blockquote>Value less then 10 are ignored. Value below 50 are divided by 12. For the other, I can't remember.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Apr 07, 2020 10:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2020-04-07T22:34:29</updated>
+
+		<published>2020-04-07T22:34:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7283#p7283</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7283#p7283"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7283#p7283"><![CDATA[
+umm<br><br>The display may not be updating.<br><br>I've not checked the code recently<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 07, 2020 10:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K9RPL]]></name></author>
+		<updated>2020-04-07T22:21:18</updated>
+
+		<published>2020-04-07T22:21:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=814&amp;p=7281#p7281</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7281#p7281"/>
+		<title type="html"><![CDATA[Re: Setting DM1801 TX Power in Hotspot Mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=814&amp;p=7281#p7281"><![CDATA[
+I wasn't measuring the power. Just hoping the power level displayed by the radio is at least in the ballpark.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=663">K9RPL</a> — Tue Apr 07, 2020 10:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

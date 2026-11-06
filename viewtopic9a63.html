@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=5147&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 11:21:55 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; DMR APRS Beaconing</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>DMR APRS Beaconing</h2>
+		<p><a href="viewtopice592.html?f=19&amp;t=5147">viewtopic.php?f=19&amp;t=5147</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>DMR APRS Beaconing</h3>
+				<div class="date">Posted: <strong>Mon Feb 19, 2024 2:19 pm</strong></div>
+				<div class="author">by <strong>R9OBQ</strong></div>
+				<div class="content">Good afternoon. <br>
+I propose an idea how to implement dmr aprs beacon in In-Call GPS mode. It will not be correct, not right, but quite working. Just checked the idea, personal call to ***999 (in Russia 250999) is perfectly decoded by BM servers and sent to aprs network. It remains to force Opengd with the frequency of existing settings of "analog aprs" to make an automatic personal call to ***999 with silence (perhaps through the known registers HRC6000 can turn off the microphone or make it as silent as possible) for the duration necessary for the transmission of In-Call GPS data.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: DMR APRS</h3>
+				<div class="date">Posted: <strong>Tue May 27, 2025 9:08 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=649&amp;sid=0350fbbbef0ba34fcd8311944143e9bb">R9OBQ</a> wrote: <a href="viewtopic4b73-2.html?p=29616&amp;sid=0350fbbbef0ba34fcd8311944143e9bb#p29616" data-post-id="29616" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Feb 19, 2024 2:19 pm</div></cite>
+Good afternoon. <br>
+I propose an idea how to implement dmr aprs beacon in In-Call GPS mode. It will not be correct, not right, but quite working. Just checked the idea, personal call to ***999 (in Russia 250999) is perfectly decoded by BM servers and sent to aprs network. It remains to force Opengd with the frequency of existing settings of "analog aprs" to make an automatic personal call to ***999 with silence (perhaps through the known registers HRC6000 can turn off the microphone or make it as silent as possible) for the duration necessary for the transmission of In-Call GPS data.
+</div></blockquote>
+
+Using TA for APRS  beaconing is very inefficient because the transmission would need to be several seconds long to guarantee that the frame containing the GPS information has been sent and also received, additionally there is the repeater triggering process which also takes time.<br>
+<br>
+I think this would be highly disruptive to other users of the repeater.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: DMR APRS Beaconing</h3>
+				<div class="date">Posted: <strong>Wed May 28, 2025 7:54 pm</strong></div>
+				<div class="author">by <strong>VE4HTO</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=649&amp;sid=0350fbbbef0ba34fcd8311944143e9bb">R9OBQ</a> wrote: <a href="viewtopic4b73-2.html?p=29616&amp;sid=0350fbbbef0ba34fcd8311944143e9bb#p29616" data-post-id="29616" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Feb 19, 2024 2:19 pm</div></cite>
+Good afternoon. <br>
+I propose an idea how to implement dmr aprs beacon in In-Call GPS mode. It will not be correct, not right, but quite working. Just checked the idea, personal call to ***999 (in Russia 250999) is perfectly decoded by BM servers and sent to aprs network. It remains to force Opengd with the frequency of existing settings of "analog aprs" to make an automatic personal call to ***999 with silence (perhaps through the known registers HRC6000 can turn off the microphone or make it as silent as possible) for the duration necessary for the transmission of In-Call GPS data.
+</div></blockquote>
+
+Brandmeister decodes the position data within TA on every TG (and forward them to APRS-IS network), not only on ***999 or ***997 etc. To have this working, you have to configure your account data in BM selfcare accordingly. Note that this is only with Brandmeister -  DMRplus etc. is not working this way...</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=5147&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 11:21:56 GMT -->
+</html>

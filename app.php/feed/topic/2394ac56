@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2394" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-09-26T15:01:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2394</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-09-26T15:01:17</updated>
+
+		<published>2022-09-26T15:01:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19872#p19872</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19872#p19872"/>
+		<title type="html"><![CDATA[Re: Power calibration may be wrong]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19872#p19872"><![CDATA[
+At the moment there is no way of adjusting the calibration without going back to the factory firmware. We are considering ways that this might be done. <br>The difference between the factory and the openGD77 firmware is not great, so it is unlikely to case any problems. However if you wish to be cautious then don't use a power setting greater then 4W.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Sep 26, 2022 3:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB3XPL]]></name></author>
+		<updated>2022-09-26T13:07:43</updated>
+
+		<published>2022-09-26T13:07:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19870#p19870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19870#p19870"/>
+		<title type="html"><![CDATA[Re: Power calibration may be wrong]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19870#p19870"><![CDATA[
+can we do a manual calibration via the CPS ???? or its better not touch !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=79">HB3XPL</a> — Mon Sep 26, 2022 1:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-25T23:50:54</updated>
+
+		<published>2022-09-25T23:50:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19858#p19858</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19858#p19858"/>
+		<title type="html"><![CDATA[Power calibration may be wrong]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2394&amp;p=19858#p19858"><![CDATA[
+Please note.<br><br>I just compared the power output when using the official RT-3S/UV380 firmware, versus the OpenUV380 firmware, and the power output on both 2m and 70cm were not the same.<br><br>Its likely that the power output is higher than it should be<br><br>Please check your own power output, and don't use any power levels which are in excess of 5W<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 25, 2022 11:50 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

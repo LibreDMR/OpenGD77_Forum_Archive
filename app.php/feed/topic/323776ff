@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3237" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-15T21:59:37</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3237</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-15T21:59:37</updated>
+
+		<published>2023-09-15T21:59:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3237&amp;p=26264#p26264</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=26264#p26264"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=26264#p26264"><![CDATA[
+This version has now been superseded by this version<br><br><a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3287" class="postlink">viewtopic.php?f=13&amp;t=3287</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 15, 2023 9:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2023-09-04T08:37:46</updated>
+
+		<published>2023-09-04T08:37:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25887#p25887</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25887#p25887"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25887#p25887"><![CDATA[
+thank you<br>Ciao<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Mon Sep 04, 2023 8:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-04T00:29:43</updated>
+
+		<published>2023-09-04T00:29:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25872#p25872</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25872#p25872"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25872#p25872"><![CDATA[
+<blockquote class="uncited"><div>excellent, thank you, all good</div></blockquote>Thanks<br><br>I didnt noticed the Tx locking bug, becuase I always have Lat/Lon entred into my radio and its stored in th settings<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 04, 2023 12:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2023-09-03T23:26:33</updated>
+
+		<published>2023-09-03T23:26:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25870#p25870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25870#p25870"/>
+		<title type="html"><![CDATA[Re: New bug fix Beta 2023 09 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25870#p25870"><![CDATA[
+excellent, thank you, all good<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sun Sep 03, 2023 11:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-03T22:58:22</updated>
+
+		<published>2023-09-03T22:58:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25862#p25862</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25862#p25862"/>
+		<title type="html"><![CDATA[New bug fix Beta 2023 09 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3237&amp;p=25862#p25862"><![CDATA[
+This is a bug fix to yesterday's release which had a problem with APRS Tx locking in Tx if the Location was not set<br><br><a href="https://opengd77.com/downloads/GD77/Firmware/a2073aaef8f0ce7d25602d08b1407262cda5bd02" class="postlink">https://opengd77.com/downloads/GD77/Fir ... 62cda5bd02</a><br><a href="https://opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">https://opengd77.com/downloads/GD77/Firmware/Latest</a><br><br>Please read this post for full details of the changes in yesterday's version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 03, 2023 10:58 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

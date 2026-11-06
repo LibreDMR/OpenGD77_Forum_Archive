@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4214" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-07-05T02:58:53</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4214</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-07-05T02:58:53</updated>
+
+		<published>2024-07-05T02:58:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4214&amp;p=31971#p31971</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4214&amp;p=31971#p31971"/>
+		<title type="html"><![CDATA[Re: DR-1801UV]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4214&amp;p=31971#p31971"><![CDATA[
+<blockquote class="uncited"><div>This Baofeng radio has an issue with its transmit audio and am wondering where I can get more recent firmware. Apart from this background noise, the radio works and is usable. <br><br>I know it has the A6 chip which i know is not supported. I just want to fix this noise issue to make it usable<br>and not just a receiver. As yet I have had no success in locating anything other than some old files.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><br><br>73's VK1JT.</div></blockquote>AFIK. This radio uses a DMR radio module rather than separate CPU etc.<br><br>I don't think Baofeng every published any updated firmware for this radio or any application/tool to upload firmware to this radio.<br><br>Possibly because the radio uses a module, which connects to the outside world via an old fashioned serial cable, the module may not support being updated at all<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jul 05, 2024 2:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK1JT]]></name></author>
+		<updated>2024-07-05T02:11:42</updated>
+
+		<published>2024-07-05T02:11:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4214&amp;p=31969#p31969</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4214&amp;p=31969#p31969"/>
+		<title type="html"><![CDATA[DR-1801UV]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4214&amp;p=31969#p31969"><![CDATA[
+This Baofeng radio has an issue with its transmit audio and am wondering where I can get more recent firmware. Apart from this background noise, the radio works and is usable. <br><br>I know it has the A6 chip which i know is not supported. I just want to fix this noise issue to make it usable<br>and not just a receiver. As yet I have had no success in locating anything other than some old files.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><br><br>73's VK1JT.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5853">VK1JT</a> — Fri Jul 05, 2024 2:11 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4919" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-01T10:44:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4919</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-01T10:44:46</updated>
+
+		<published>2025-03-01T10:44:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36024#p36024</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36024#p36024"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36024#p36024"><![CDATA[
+The external flash memory write rime.<br>I increased the latency before the last write and the effective "power off".<br>We had similar problem with the DM-1801.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 01, 2025 10:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-03-01T07:47:34</updated>
+
+		<published>2025-03-01T07:47:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36023#p36023</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36023#p36023"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36023#p36023"><![CDATA[
+<blockquote class="uncited"><div>Thanks for the reports.<br>I will make the release now (please not that it's identical to the one I posted here).<br><br>Cheers.<br>---<br>Daniel</div></blockquote>What was the cause for it as it only affected some mD-9600 radios ?<br><br>Haven't noticed anything on my MD-9600 V2.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Mar 01, 2025 7:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-01T04:24:57</updated>
+
+		<published>2025-03-01T04:24:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36020#p36020</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36020#p36020"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36020#p36020"><![CDATA[
+Thanks for the reports.<br>I will make the release now (please not that it's identical to the one I posted here).<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 01, 2025 4:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-02-28T08:18:20</updated>
+
+		<published>2025-02-28T08:18:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36001#p36001</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36001#p36001"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36001#p36001"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>For the ones who are experiencing codeplug corruption, please try these firmwares and <strong class="text-strong">REPORT</strong> if it works (or not):<br><a href="https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj" class="postlink">https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj</a><br><br>In case that solves the problem, I will release a new beta for the MD-9600 (only).<br><br><strong class="text-strong">EDIT</strong>: I forgot to mention, once the codeplug is corrupted, it's corrupted. You need to re-flash it after flashing the firmware.</div></blockquote>I updated the firmware that you posted above. I did it how you suggested above and loaded the refreshed code plug that you sent back to me and so far so good.<br><br>My V5 9600 works every time after a power cycle with no errors. Can select any zone, channel and then power cycle the radio and it powers back up with no errors. I'll continue to monitor it over the coming days.<br><br>May I ask, how can I in the future determine if my code plug is corrupted to assist with my own troubleshooting?<br><br>Many thanks for your assistance Daniel.<br><br>Cheers<br><br>VK4GAN</div></blockquote>Great.<br>Well, if you notice some weird value (like crazy ColorCodem, Power, FM channel becoming DMR by their own, CTCSS/DCS self enabling value, unwanted boot image/melody changes and stuff like that), you can suspect codeplug corruption.<br>On the CPS side, after reading the codeplug from the transceiver, and noticing weird values in channels, or unmanageable zones, you can suspect some corruption.<br>It's always good to store codeplug evolutions stages, as you can go back before the corruption. Another one is to export and store the CSV files generated by the CPS, as it's fast and easy to rebuild a codeplug from scratch.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Cheers Daniel <br><br>Understood. Will be more diligent with all this moving forward.<br><br>Again appreciate your time and patience.<br><br>Cheers and 73,<br><br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Fri Feb 28, 2025 8:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-28T08:09:17</updated>
+
+		<published>2025-02-28T08:09:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36000#p36000</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36000#p36000"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=36000#p36000"><![CDATA[
+Hi,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>For the ones who are experiencing codeplug corruption, please try these firmwares and <strong class="text-strong">REPORT</strong> if it works (or not):<br><a href="https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj" class="postlink">https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj</a><br><br>In case that solves the problem, I will release a new beta for the MD-9600 (only).<br><br><strong class="text-strong">EDIT</strong>: I forgot to mention, once the codeplug is corrupted, it's corrupted. You need to re-flash it after flashing the firmware.</div></blockquote>I updated the firmware that you posted above. I did it how you suggested above and loaded the refreshed code plug that you sent back to me and so far so good.<br><br>My V5 9600 works every time after a power cycle with no errors. Can select any zone, channel and then power cycle the radio and it powers back up with no errors. I'll continue to monitor it over the coming days.<br><br>May I ask, how can I in the future determine if my code plug is corrupted to assist with my own troubleshooting?<br><br>Many thanks for your assistance Daniel.<br><br>Cheers<br><br>VK4GAN</div></blockquote>Great.<br>Well, if you notice some weird value (like crazy ColorCodem, Power, FM channel becoming DMR by their own, CTCSS/DCS self enabling value, unwanted boot image/melody changes and stuff like that), you can suspect codeplug corruption.<br>On the CPS side, after reading the codeplug from the transceiver, and noticing weird values in channels, or unmanageable zones, you can suspect some corruption.<br>It's always good to store codeplug evolutions stages, as you can go back before the corruption. Another one is to export and store the CSV files generated by the CPS, as it's fast and easy to rebuild a codeplug from scratch.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 28, 2025 8:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-02-28T07:32:00</updated>
+
+		<published>2025-02-28T07:32:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35999#p35999</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35999#p35999"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35999#p35999"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Can it be some other issue that corrupts the stored codeplug ?<br>Some memory corruption ?</div></blockquote>Make sure you use the latest CPS and the latest Firmware. Do NOT mix older FW or older CPS with their newer versions. Keep your radios and the CPS on the same version. If you upgrade, read the codeplug into the new CPS version and then re-write the Codeplug back into the radio after the FW is upgraded. <br><br>One more possiblity is, that a radio has a weak memory battery. My oldest 9600, a v2, starts to act up a bit if i haven't used it for  week or longer. Usally it goes into the "Settings updated" screen, but one never know.<br><br>just my 2 cents on this...</div></blockquote>That's a great tip and i should have also followed that as I would have done with my 878uvii as they advise you to do after a firmware update as the CPS is supposed to match the firmware version and reading from the radio before writing to it.<br><br>Cheers,<br><br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Fri Feb 28, 2025 7:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-02-28T07:27:52</updated>
+
+		<published>2025-02-28T07:27:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35998#p35998</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35998#p35998"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35998#p35998"><![CDATA[
+<blockquote class="uncited"><div>For the ones who are experiencing codeplug corruption, please try these firmwares and <strong class="text-strong">REPORT</strong> if it works (or not):<br><a href="https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj" class="postlink">https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj</a><br><br>In case that solves the problem, I will release a new beta for the MD-9600 (only).<br><br><strong class="text-strong">EDIT</strong>: I forgot to mention, once the codeplug is corrupted, it's corrupted. You need to re-flash it after flashing the firmware.</div></blockquote>I updated the firmware that you posted above. I did it how you suggested above and loaded the refreshed code plug that you sent back to me and so far so good.<br><br>My V5 9600 works every time after a power cycle with no errors. Can select any zone, channel and then power cycle the radio and it powers back up with no errors. I'll continue to monitor it over the coming days.<br><br>May I ask, how can I in the future determine if my code plug is corrupted to assist with my own troubleshooting?<br><br>Many thanks for your assistance Daniel.<br><br>Cheers<br><br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Fri Feb 28, 2025 7:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LU2BAM]]></name></author>
+		<updated>2025-02-27T17:42:47</updated>
+
+		<published>2025-02-27T17:42:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35984#p35984</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35984#p35984"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35984#p35984"><![CDATA[
+Gracias por su trabajo, lo mantendré informado del funcionamiento.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2984">LU2BAM</a> — Thu Feb 27, 2025 5:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-27T17:12:18</updated>
+
+		<published>2025-02-27T17:12:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35982#p35982</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35982#p35982"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35982#p35982"><![CDATA[
+For the ones who are experiencing codeplug corruption, please try these firmwares and <strong class="text-strong">REPORT</strong> if it works (or not):<br><a href="https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj" class="postlink">https://drive.proton.me/urls/PB0DP8TTJC#Hh0aZNxb9euj</a><br><br>In case that solves the problem, I will release a new beta for the MD-9600 (only).<br><br><strong class="text-strong">EDIT</strong>: I forgot to mention, once the codeplug is corrupted, it's corrupted. You need to re-flash it after flashing the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 27, 2025 5:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VE4HTO]]></name></author>
+		<updated>2025-02-27T15:08:13</updated>
+
+		<published>2025-02-27T15:08:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35979#p35979</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35979#p35979"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35979#p35979"><![CDATA[
+<blockquote class="uncited"><div>Can it be some other issue that corrupts the stored codeplug ?<br>Some memory corruption ?</div></blockquote>Make sure you use the latest CPS and the latest Firmware. Do NOT mix older FW or older CPS with their newer versions. Keep your radios and the CPS on the same version. If you upgrade, read the codeplug into the new CPS version and then re-write the Codeplug back into the radio after the FW is upgraded. <br><br>One more possiblity is, that a radio has a weak memory battery. My oldest 9600, a v2, starts to act up a bit if i haven't used it for  week or longer. Usally it goes into the "Settings updated" screen, but one never know.<br><br>just my 2 cents on this...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3963">VE4HTO</a> — Thu Feb 27, 2025 3:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-02-27T11:01:41</updated>
+
+		<published>2025-02-27T11:01:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35977#p35977</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35977#p35977"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35977#p35977"><![CDATA[
+<blockquote class="uncited"><div>Once the OpenGD77 firmware is installed, you don't need to remove the power line to switch to the bootloader mode (Orange+P1+Power). Just turn off the transceiver, and press the two buttons and power button.<br><br>For you codeplug, you can post it Herr (or see my email on QRZ.com).</div></blockquote>Have to call it for tonight but will pick it up again tomorrow.  Codeplug(s) sent via email.<br><br>Cheers,<br><br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Thu Feb 27, 2025 11:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-27T11:01:11</updated>
+
+		<published>2025-02-27T11:01:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35976#p35976</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35976#p35976"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35976#p35976"><![CDATA[
+<blockquote class="uncited"><div><br>I've tired both. Power cycle via both just turning the radio off and also via the power supply.  Whenever I have done a firmware upgrade I have always killed the power supply then held the Orange button and P1 and then applied power via the power supply.</div></blockquote>You don't need to do power off via the PSU when you already have OpenGD77 installed, just hold Orange button and P1 and power on with the green button.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Feb 27, 2025 11:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-27T10:49:47</updated>
+
+		<published>2025-02-27T10:49:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35975#p35975</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35975#p35975"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35975#p35975"><![CDATA[
+Once the OpenGD77 firmware is installed, you don't need to remove the power line to switch to the bootloader mode (Orange+P1+Power). Just turn off the transceiver, and press the two buttons and power button.<br><br>For you codeplug, you can post it here (or see my email on QRZ.com).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 27, 2025 10:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-02-27T10:33:16</updated>
+
+		<published>2025-02-27T10:33:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35974#p35974</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35974#p35974"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35974#p35974"><![CDATA[
+<blockquote class="uncited"><div>Sorry, I'm at my work place, so no radio to test right now.<br><br>When you write "power cycle", do you mean turning off/on the power supply, or turning off/on the transceiver ?<br>FYI, I've tested my MD9600 V5 this weekend, updating my codeplug too, and I didn't experienced any corruption.</div></blockquote>I've tired both. Power cycle via both just turning the radio off and also via the power supply.  Whenever I have done a firmware upgrade I have always killed the power supply then held the Orange button and P1 and then applied power via the power supply.<br><br><blockquote class="uncited"><div>Can you share your codeplug ?</div></blockquote>Happy to send all I have tried.  How do I share them to you?<br><blockquote class="uncited"><div>Anyawy, using the latest Beta (CPS/FW), create a new codeplug, flash it and check if it works (no power supply cyling).</div></blockquote>Will try that again.  What do you mean no power cycling?<br><br>Appreciate the support you guys provide.<br><br>Cheers,<br><br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Thu Feb 27, 2025 10:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LU2BAM]]></name></author>
+		<updated>2025-02-27T10:28:26</updated>
+
+		<published>2025-02-27T10:28:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35973#p35973</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35973#p35973"/>
+		<title type="html"><![CDATA[Re: V5 MD9600 &quot;TG 9 - Out Of Band&quot;]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4919&amp;p=35973#p35973"><![CDATA[
+Buen dìa, mi caso es igual, me pasa exactamente lo mismo. Mi tyt 9600 es V2 y tiene instalado las ùltimas beta del CPS y del firmware. No me atrevo a relatarlo porque no domino el idioma ingles, solo hablo y escribo español.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2984">LU2BAM</a> — Thu Feb 27, 2025 10:28 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

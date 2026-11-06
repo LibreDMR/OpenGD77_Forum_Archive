@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4227" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-20T14:47:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4227</id>
+
+		<entry>
+		<author><name><![CDATA[VK2KLF]]></name></author>
+		<updated>2025-01-20T14:47:36</updated>
+
+		<published>2025-01-20T14:47:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35221#p35221</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35221#p35221"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35221#p35221"><![CDATA[
+Just FYI, I pulled the radio apart and cleaned the ribbon cable on the board and the head unit and it now works! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6558">VK2KLF</a> — Mon Jan 20, 2025 2:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-20T14:23:12</updated>
+
+		<published>2025-01-20T14:23:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35220#p35220</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35220#p35220"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35220#p35220"><![CDATA[
+This has nothing to do with the firmware.<br>Try to reseat the frontpanel's ribbon cable.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Jan 20, 2025 2:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2KLF]]></name></author>
+		<updated>2025-01-20T13:41:19</updated>
+
+		<published>2025-01-20T13:41:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35219#p35219</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35219#p35219"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35219#p35219"><![CDATA[
+Sorry, I meant the UP button on the radio itself.  Mine acts like the Band/ESC button... which is very strange indeed.<br><br>Would you mind going into the radio menu, and in the firmware section, does your CPU type say STM or TYT?<br><br>I am trying to diagnose this strange issue.<br><br>Regards,<br><br>Sven<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6558">VK2KLF</a> — Mon Jan 20, 2025 1:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2025-01-20T08:01:48</updated>
+
+		<published>2025-01-20T08:01:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35217#p35217</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35217#p35217"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35217#p35217"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>TYT MD-9600 PLUS GPS AES 256</div></blockquote>That's the exact radio I also purchased and received about 2 weeks ago.  Mine did come with GPS installed.  I actually bought it from the same seller listed in the link above.<br><br>73<br><br>VK4TMD</div></blockquote> Quick question, Does your volume UP on the radio function correctly? Mine acts like the band/esc button.  I have the latest OpenGD77 FW.<br><br>Regards,<br><br>Sven VK2KLF</div></blockquote>Hi Sven,<br><br>Not 100% sure what you mean mate.  The volume dial works exactly as it should on my radio.  I'm not familiar with any other way to do it unless I have missed a feature, I am unaware of.  What do you mean Volume UP?  Current firmware also running on the 9600 in front of me.<br><br>The Up and Down buttons do function as they are the meant to on my radio same as with my 2nd 9600.  TG selection, options etc.  Both purchased only a month or so apart from the same seller on AliExpress.<br><br>Cheers,<br><br>Shane<br>VK4GAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Mon Jan 20, 2025 8:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2KLF]]></name></author>
+		<updated>2025-01-19T16:22:35</updated>
+
+		<published>2025-01-19T16:22:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35205#p35205</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35205#p35205"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=35205#p35205"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>TYT MD-9600 PLUS GPS AES 256</div></blockquote>That's the exact radio I also purchased and received about 2 weeks ago.  Mine did come with GPS installed.  I actually bought it from the same seller listed in the link above.<br><br>73<br><br>VK4TMD</div></blockquote> Quick question, Does your volume UP on the radio function correctly? Mine acts like the band/esc button.  I have the latest OpenGD77 FW.<br><br>Regards,<br><br>Sven VK2KLF<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6558">VK2KLF</a> — Sun Jan 19, 2025 4:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-09T22:27:49</updated>
+
+		<published>2024-12-09T22:27:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=34526#p34526</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=34526#p34526"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=34526#p34526"><![CDATA[
+<blockquote class="uncited"><div>Hi was hoping someone can help, I have MD-9600 {M1-V4A} GPS 2205 on the main board, would this be AES compatible? I can program AES keys over to the radio and it comes up with the encryption logo in the radio but it's not encrypting the audio, so I am either doing something wrong or the radio is not compatible?<br><br>Hardware version = 02.09<br>MCU = S026.045<br><br>Thank you</div></blockquote>This forum is dedicated to the OpenGD77 firmware which does not support any form of encryption becuase its totally illegal for Ham radio use.<br><br>The OpenGD77 firmware will never include encryption because even to add it to the firmware would be a legal nightmare for the developers.<br><br>So you won't find the answer to that question here.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 09, 2024 10:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M7EZU]]></name></author>
+		<updated>2024-12-09T20:41:11</updated>
+
+		<published>2024-12-09T20:41:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=34525#p34525</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=34525#p34525"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=34525#p34525"><![CDATA[
+Hi was hoping someone can help, I have MD-9600 {M1-V4A} GPS 2205 on the main board, would this be AES compatible? I can program AES keys over to the radio and it comes up with the encryption logo in the radio but it's not encrypting the audio, so I am either doing something wrong or the radio is not compatible?<br><br>Hardware version = 02.09<br>MCU = S026.045<br><br>Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7457">M7EZU</a> — Mon Dec 09, 2024 8:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC7SU]]></name></author>
+		<updated>2024-10-25T06:51:34</updated>
+
+		<published>2024-10-25T06:51:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=33686#p33686</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=33686#p33686"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=33686#p33686"><![CDATA[
+Thank you all for your reports!<br><br><a href="https://de.aliexpress.com/item/1005007185257245.html" class="postlink">https://de.aliexpress.com/item/1005007185257245.html</a><br><br>I found this, should deliver fast to Berlin, DL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7108">DC7SU</a> — Fri Oct 25, 2024 6:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2024-07-14T08:57:36</updated>
+
+		<published>2024-07-14T08:57:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32105#p32105</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32105#p32105"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32105#p32105"><![CDATA[
+<blockquote class="uncited"><div>Questions for those of you who have the new model:<br><br>- Is the volume control still hair-trigger on DMR, going from nothing to suddenly medium loud, and then too loud in a couple of degrees?<br>- Does the radio emit the annoying pops and clicks (which the click suppression and simple capacitor hardware mod were designed to fix)?<br><br>73,<br>--Peter, KD7MW</div></blockquote>V5 radio delivered 2 weeks ago<br><br>Volume control on my radio is smooth.  Definitely not like my 878UVii.  Works great on analogue and digital.<br><br>I do kinda get pops If I have the radio scanning all channels (mix of analogue and digital) and just listening to a DMR talk group in general, when people key up I hear the "pop" if that's what you mean.  For me it's not a deal breaker but it's there.  The click sup option in the menus helped immensely.<br><br>The pops only occur with DMR traffic.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Sun Jul 14, 2024 8:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2024-07-14T08:15:22</updated>
+
+		<published>2024-07-14T08:15:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32102#p32102</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32102#p32102"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32102#p32102"><![CDATA[
+Questions for those of you who have the new model:<br><br>- Is the volume control still hair-trigger on DMR, going from nothing to suddenly medium loud, and then too loud in a couple of degrees?<br>- Does the radio emit the annoying pops and clicks (which the click suppression and simple capacitor hardware mod were designed to fix)?<br><br>73,<br>--Peter, KD7MW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Sun Jul 14, 2024 8:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4GAN]]></name></author>
+		<updated>2024-07-09T01:26:55</updated>
+
+		<published>2024-07-09T01:26:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32051#p32051</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32051#p32051"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32051#p32051"><![CDATA[
+<blockquote class="uncited"><div>TYT MD-9600 PLUS GPS AES 256</div></blockquote>That's the exact radio I also purchased and received about 2 weeks ago.  Mine did come with GPS installed.  I actually bought it from the same seller listed in the link above.<br><br>73<br><br>VK4TMD<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6488">VK4GAN</a> — Tue Jul 09, 2024 1:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2024-07-08T13:34:16</updated>
+
+		<published>2024-07-08T13:34:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32049#p32049</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32049#p32049"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32049#p32049"><![CDATA[
+Thank you for the first hand report.<br><br>Good to know that the OpenGD firmware continues to work with the current production models. <br><br>I would be curious in a follow up report once you have used it for awhile. Hopefully there will be nothing new to report.<br><br>All the best and enjoy the radio<br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Mon Jul 08, 2024 1:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2024-07-08T04:32:34</updated>
+
+		<published>2024-07-08T04:32:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32047#p32047</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32047#p32047"/>
+		<title type="html"><![CDATA[Re: &quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32047#p32047"><![CDATA[
+I just got this one with AES 256 mentioned <br><a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4211#p32001" class="postlink">viewtopic.php?f=18&amp;t=4211#p32001</a><br>It now runs with OpenGD77 V5 firmware<br><br>Note: I ordered w. GPS , but it came wo. GPS<br><br>This one is listed as Plus, and reviews saya it runs OpenGD77 fine<br><a href="https://www.aliexpress.com/item/1005006160812187.html" class="postlink">https://www.aliexpress.com/item/1005006160812187.html</a>?<br><br>.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Mon Jul 08, 2024 4:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2024-07-08T04:00:36</updated>
+
+		<published>2024-07-08T04:00:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32046#p32046</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32046#p32046"/>
+		<title type="html"><![CDATA[&quot;NEW&quot; MD-9600 version ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4227&amp;p=32046#p32046"><![CDATA[
+A fellow amatuer radio friend asked me about my MD-9600 setup I have in the car. One of the questions was how much would it cost. So I went online and took a look around. The supplier I have used most in getting my MD-9600 is showing them out of stock, so I searched around and I noticed the following,<br><br>TYT MD-9600 PLUS GPS AES 256<br><br>As a listing for the MD-9600 from several vendors. This is the first time I have seen or heard of a 'Plus' version with AES 256.<br><br>I am curious if anyone knows more about this, and if it is able to use the OpenGD77 firmware or not?<br><br>Thanks in advance<br><br>Robert Pickell<br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Mon Jul 08, 2024 4:00 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

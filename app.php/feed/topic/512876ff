@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5128" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-18T20:54:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5128</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-18T20:54:17</updated>
+
+		<published>2025-05-18T20:54:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37165#p37165</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37165#p37165"/>
+		<title type="html"><![CDATA[Re: MMDVM_Host and cross mode config]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37165#p37165"><![CDATA[
+<blockquote class="uncited"><div>Ok, I don't want to bother anyone, I already did it with the pi-star, but OpenGD77 is a special firmware, pi-star users usually don't know it, but opengd users do know mmdvm_host, that's why I asked the question here, anyway thanks for the answer for my closed question</div></blockquote>OpenGD77 mimics the MMMDVM_HS USB serial modem. There is nothing 'special.'<br><br>The only reason that PiStar has a separate menu selection for OpenGD77, is to make it easier for people to select.<br>Prior to PiStar adding this option, you could still use OpenGD77 with PiStar by selecting the USB serial modem option<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 18, 2025 8:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HC1LNM]]></name></author>
+		<updated>2025-05-18T18:46:51</updated>
+
+		<published>2025-05-18T18:46:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37162#p37162</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37162#p37162"/>
+		<title type="html"><![CDATA[Re: MMDVM_Host and cross mode config]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37162#p37162"><![CDATA[
+Ok, I don't want to bother anyone, I already did it with the pi-star, but OpenGD77 is a special firmware, pi-star users usually don't know it, but opengd users do know mmdvm_host, that's why I asked the question here, anyway thanks for the answer for my closed question<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8520">HC1LNM</a> — Sun May 18, 2025 6:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-18T15:45:45</updated>
+
+		<published>2025-05-18T15:45:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37160#p37160</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37160#p37160"/>
+		<title type="html"><![CDATA[Re: MMDVM_Host and cross mode config]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37160#p37160"><![CDATA[
+Still, this is not the right forum.<br><br>If you want to build such setup, that's possible, but you need to read a lot of stuff, as you need to setup MMMDVMHost/DMRGateway and the CrossMode sofware.<br>Using a frontend like PiStar makes the life easier, trust me, I started such manual configurations before PiStar existed, took me days.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun May 18, 2025 3:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HC1LNM]]></name></author>
+		<updated>2025-05-18T12:15:29</updated>
+
+		<published>2025-05-18T12:15:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37159#p37159</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37159#p37159"/>
+		<title type="html"><![CDATA[Re: MMDVM_Host and cross mode config]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37159#p37159"><![CDATA[
+Hey<br><br>No, it's not Pi-Star, I means mmdvm_host application for windows using OpenGD77 radios<br><br>Have a nice weekend<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8520">HC1LNM</a> — Sun May 18, 2025 12:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-16T20:43:56</updated>
+
+		<published>2025-05-16T20:43:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37138#p37138</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37138#p37138"/>
+		<title type="html"><![CDATA[Re: MMDVM_Host and cross mode config]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37138#p37138"><![CDATA[
+<blockquote class="uncited"><div>Hey guys<br><br>Is there anyway to config MMDVM_HOST (windows) to work using DMR in gateway mode and cross mode with C4FM or NXDN ? <br><br>My Baofeng 1701 (with OpenGD77) is working excelent with this applicaction<br><br>Thanks</div></blockquote><br>This is a question for a different forum. E.g PiStar<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri May 16, 2025 8:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HC1LNM]]></name></author>
+		<updated>2025-05-16T19:35:29</updated>
+
+		<published>2025-05-16T19:35:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37135#p37135</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37135#p37135"/>
+		<title type="html"><![CDATA[MMDVM_Host and cross mode config]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5128&amp;p=37135#p37135"><![CDATA[
+Hey guys<br><br>Is there anyway to config MMDVM_HOST (windows) to work using DMR in gateway mode and cross mode with C4FM or NXDN ? <br><br>My Baofeng 1701 (with OpenGD77) is working excelent with this applicaction<br><br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8520">HC1LNM</a> — Fri May 16, 2025 7:35 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

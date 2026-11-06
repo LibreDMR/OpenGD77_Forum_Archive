@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4490" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-22T03:44:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4490</id>
+
+		<entry>
+		<author><name><![CDATA[ve2cuz]]></name></author>
+		<updated>2025-06-22T03:44:49</updated>
+
+		<published>2025-06-22T03:44:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4490&amp;p=37533#p37533</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=37533#p37533"/>
+		<title type="html"><![CDATA[Re: opengd77 codeplug generator]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=37533#p37533"><![CDATA[
+Thanks for your work!<br><br>Is it possible to add GPS coordinates (ROAMING) by city to your PY script using this API?<br><br>Thanks again, 73! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><br><br><a href="https://operations.osmfoundation.org/policies/nominatim/" class="postlink">https://operations.osmfoundation.org/po ... nominatim/</a><br><br><a href="https://nominatim.openstreetmap.org/search?q=Saint-Jerome,+Quebec,+Canada&amp;format=json" class="postlink">https://nominatim.openstreetmap.org/sea ... ormat=json</a>  <br><br>reponse json = <br><br>[<br>  {<br>    "place_id": 342728519,<br>    "licence": "Data © OpenStreetMap contributors, ODbL 1.0. <a href="http://osm.org/copyright" class="postlink">http://osm.org/copyright</a>",<br>    "osm_type": "relation",<br>    "osm_id": 7698652,<br>    "lat": "45.7780402",<br>    "lon": "-74.0033272",<br>    "class": "boundary",<br>    "type": "administrative",<br>    "place_rank": 16,<br>    "importance": 0.464032037502361,<br>    "addresstype": "city",<br>    "name": "Saint-Jérôme",<br>    "display_name": "Saint-Jérôme, La Rivière-du-Nord, Laurentides, Québec, Canada",<br>    "boundingbox": [<br>      "45.7433599",<br>      "45.8503960",<br>      "-74.1438790",<br>      "-73.9476576"<br>    ]<br>  }<br>]<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8653">ve2cuz</a> — Sun Jun 22, 2025 3:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1ECA]]></name></author>
+		<updated>2024-12-18T06:35:38</updated>
+
+		<published>2024-12-18T06:35:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34762#p34762</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34762#p34762"/>
+		<title type="html"><![CDATA[Re: opengd77 codeplug generator]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34762#p34762"><![CDATA[
+<blockquote class="uncited"><div>thanks for your work.<br>fetching a list for Germany gives an error, or do I use this wrong:<br><br>codeplug_generator.py --countries germany<br>Loading data from local file map.json (less than 24h old)<br>Traceback (most recent call last):<br>  File "codeplug_generator.py", line 477, in &lt;module&gt;<br>    main()<br>    ~~~~^^<br>  File "codeplug_generator.py", line 459, in main<br>    repeaters = fetch_repeaters(states, cities, countries)<br>  File "codeplug_generator.py", line 357, in fetch_repeaters<br>    params.extend([('country', Germany) for country in countries])<br>                               ^^^^^^^<br>NameError: name 'Germany' is not defined</div></blockquote>Here is the correct prompt for Germany:<br><div class="codebox"><p>CODE: </p><pre><code>python codeplug_generator.py --countries "Germany"</code></pre></div>Thank you for this wonderful script <strong class="text-strong">@VE2WKR</strong><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3071">TA1ECA</a> — Wed Dec 18, 2024 6:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DM5UE]]></name></author>
+		<updated>2024-12-17T13:46:21</updated>
+
+		<published>2024-12-17T13:46:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34738#p34738</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34738#p34738"/>
+		<title type="html"><![CDATA[Re: opengd77 codeplug generator]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34738#p34738"><![CDATA[
+thanks for your work.<br>fetching a list for Germany gives an error, or do I use this wrong:<br><br>codeplug_generator.py --countries germany<br>Loading data from local file map.json (less than 24h old)<br>Traceback (most recent call last):<br>  File "codeplug_generator.py", line 477, in &lt;module&gt;<br>    main()<br>    ~~~~^^<br>  File "codeplug_generator.py", line 459, in main<br>    repeaters = fetch_repeaters(states, cities, countries)<br>  File "codeplug_generator.py", line 357, in fetch_repeaters<br>    params.extend([('country', Germany) for country in countries])<br>                               ^^^^^^^<br>NameError: name 'Germany' is not defined<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7463">DM5UE</a> — Tue Dec 17, 2024 1:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2024-11-26T17:15:48</updated>
+
+		<published>2024-11-26T17:15:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34227#p34227</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34227#p34227"/>
+		<title type="html"><![CDATA[Re: opengd77 codeplug generator]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=34227#p34227"><![CDATA[
+I updated the codeplug generator to use the new BM api v2. So it is now much faster, and more repeaters will get their location set. Also it no longer uses any web scraping or selenium.<br>I also have a web page based version which I have not published yet. I'm still working out the kinks such as a BM API ban when used too much.<br><br>73's<br>Luca<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Tue Nov 26, 2024 5:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU7PZB]]></name></author>
+		<updated>2024-10-25T04:07:24</updated>
+
+		<published>2024-10-25T04:07:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33683#p33683</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33683#p33683"/>
+		<title type="html"><![CDATA[Re: opengd77 codeplug generator]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33683#p33683"><![CDATA[
+<blockquote class="uncited"><div>Hello,<br>Given the amazing features of the latest opsngd77 code, that includes a repeater location , and roaming features I’ve made codeplug loading into CPS simpler. This program auto-generates CSV files, which can be imported into the OpenGD77 CPS using the File -&gt; CSV -&gt; Append CSV function.<br><br>How it works:<br>When you run the codeplug generator, it retrieves repeater details from radioid.net for one or more areas (defined by city, state, or country). It then attempts to find the repeater's location on brandmeister.network, though this process can be slow due to limited APIs. If the repeater is not a Brandmeister repeater or its location isn’t found, the program uses map data from radioid.net.<br><br>This functionality allows your OpenGD77 radio to sort repeaters by distance when GPS is enabled, making it easy to quickly find local repeaters. Additionally, you could automatically program a roaming zone for specific networks, like NEDECN.<br><br>The program currently supports Brandmeister, TGIF, ADN, and DMR+ networks by default. Other networks can be added via the command line. Keep in mind, you need a Talkgroup (TG) list that matches the network name (e.g., BM, NEDECN, DMR-PLUS, etc.), or the TG will be empty on your radio, and you’ll have to input it manually using the # key.<br><br>example:<br>codeplug_generator.py --states "new york","new hampshire",massachussets,vermont,connecticut,"new jersey" --additional-networks nedecn<br><br>The code is available on github with this link:<br><br><a href="https://github.com/lmartini/opengd77-codeplug-generator?tab=readme-ov-file#opengd77-codeplug-generator" class="postlink">https://github.com/lmartini/opengd77-co ... -generator</a><br>( in the Code button select "Download ZIP")<br><br>I’ll update this as time allows. If you need assistance, I sometimes monitor OpenGD77 BM TG 98977 during US daytime. (Please note: I know very little about Windows, as I’m primarily a Linux expert.)<br><br>To repeater owners:<br>Please make sure your repeater info on radioid.net is correct to help us automatically build accurate codeplugs.<br><br>73’s,<br>Luca<br>VE2WKR</div></blockquote>Very interesting, just think about him working together with the CPS itself. It would be cool!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4276">PU7PZB</a> — Fri Oct 25, 2024 4:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-16T23:29:59</updated>
+
+		<published>2024-10-16T23:29:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33525#p33525</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33525#p33525"/>
+		<title type="html"><![CDATA[Re: opengd77 codeplug generator]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33525#p33525"><![CDATA[
+Thanks for sharing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 16, 2024 11:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ve2wkr]]></name></author>
+		<updated>2024-10-16T20:09:12</updated>
+
+		<published>2024-10-16T20:09:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33524#p33524</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33524#p33524"/>
+		<title type="html"><![CDATA[opengd77 codeplug generator]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4490&amp;p=33524#p33524"><![CDATA[
+Hello,<br>Given the amazing features of the latest opsngd77 code, that includes a repeater location , and roaming features I’ve made codeplug loading into CPS simpler. This program auto-generates CSV files, which can be imported into the OpenGD77 CPS using the File -&gt; CSV -&gt; Append CSV function.<br><br>How it works:<br>When you run the codeplug generator, it retrieves repeater details from radioid.net for one or more areas (defined by city, state, or country). It then attempts to find the repeater's location on brandmeister.network, though this process can be slow due to limited APIs. If the repeater is not a Brandmeister repeater or its location isn’t found, the program uses map data from radioid.net.<br><br>This functionality allows your OpenGD77 radio to sort repeaters by distance when GPS is enabled, making it easy to quickly find local repeaters. Additionally, you could automatically program a roaming zone for specific networks, like NEDECN.<br><br>The program currently supports Brandmeister, TGIF, ADN, and DMR+ networks by default. Other networks can be added via the command line. Keep in mind, you need a Talkgroup (TG) list that matches the network name (e.g., BM, NEDECN, DMR-PLUS, etc.), or the TG will be empty on your radio, and you’ll have to input it manually using the # key.<br><br>example:<br>codeplug_generator.py --states "new york","new hampshire",massachussets,vermont,connecticut,"new jersey" --additional-networks nedecn<br><br>The code is available on github with this link:<br><br><a href="https://github.com/lmartini/opengd77-codeplug-generator?tab=readme-ov-file#opengd77-codeplug-generator" class="postlink">https://github.com/lmartini/opengd77-co ... -generator</a><br>( in the Code button select "Download ZIP")<br><br>I’ll update this as time allows. If you need assistance, I sometimes monitor OpenGD77 BM TG 98977 during US daytime. (Please note: I know very little about Windows, as I’m primarily a Linux expert.)<br><br>To repeater owners:<br>Please make sure your repeater info on radioid.net is correct to help us automatically build accurate codeplugs.<br><br>73’s,<br>Luca<br>VE2WKR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1214">ve2wkr</a> — Wed Oct 16, 2024 8:09 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

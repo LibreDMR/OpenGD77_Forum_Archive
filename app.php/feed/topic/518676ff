@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5186" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-17T20:14:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5186</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-17T20:14:59</updated>
+
+		<published>2025-06-17T20:14:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37512#p37512</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37512#p37512"/>
+		<title type="html"><![CDATA[Re: Hello VA3PGS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37512#p37512"><![CDATA[
+You need to save the details whilst still in the channel details screen.<br>SK2 + Green will then save the changes and exit the screen. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Jun 17, 2025 8:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-17T16:43:31</updated>
+
+		<published>2025-06-17T16:43:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37511#p37511</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37511#p37511"/>
+		<title type="html"><![CDATA[Re: Hello VA3PGS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37511#p37511"><![CDATA[
+<blockquote class="uncited"><div>Just to confirm, <br><br>SK2 is the button below the PTT?<br><br>Also, when you make changes in Channel Details, should you back out of Channel Details then press the key combination? <br>Or<br>While in Channel Details, make changes then press SK2 and Green?<br><br>I will try when I get home tonight.<br><br><br>Thanks</div></blockquote>I think it's two buttons below PTT on DM-1701, I mainly use RT3S.<br>So SK2 is the second one below PTT. <br><br>Here's pictures for the various radios.<br>I recommend that you use the manual as a reference when you have problems.<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#the-control-keys-and-buttons" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... nd-buttons</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jun 17, 2025 4:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Va3pgs]]></name></author>
+		<updated>2025-06-17T15:34:15</updated>
+
+		<published>2025-06-17T15:34:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37510#p37510</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37510#p37510"/>
+		<title type="html"><![CDATA[Re: Hello VA3PGS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37510#p37510"><![CDATA[
+Just to confirm, <br><br>SK2 is the button below the PTT?<br><br>Also, when you make changes in Channel Details, should you back out of Channel Details then press the key combination? <br>Or<br>While in Channel Details, make changes then press SK2 and Green?<br><br>I will try when I get home tonight.<br><br><br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8563">Va3pgs</a> — Tue Jun 17, 2025 3:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-17T05:35:01</updated>
+
+		<published>2025-06-17T05:35:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37509#p37509</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37509#p37509"/>
+		<title type="html"><![CDATA[Re: Hello VA3PGS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37509#p37509"><![CDATA[
+<blockquote class="uncited"><div>Hello everyone my name is Lou Toronto Canada. <br><br>I'm having problems figuring out how to save an existing Channel but change stuff like the channel name and also change power level and receiving it into the existing memory. <br><br>I'm using DM1701</div></blockquote>Hold SK2 and press Green to save changes in "Channel Details" permanently<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jun 17, 2025 5:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Va3pgs]]></name></author>
+		<updated>2025-06-17T03:32:03</updated>
+
+		<published>2025-06-17T03:32:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37508#p37508</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37508#p37508"/>
+		<title type="html"><![CDATA[Hello VA3PGS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5186&amp;p=37508#p37508"><![CDATA[
+Hello everyone my name is Lou Toronto Canada. <br><br>I'm having problems figuring out how to save an existing Channel but change stuff like the channel name and also change power level and receiving it into the existing memory. <br><br>I'm using DM1701<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8563">Va3pgs</a> — Tue Jun 17, 2025 3:32 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2016" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-03-07T19:34:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2016</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-03-07T19:34:49</updated>
+
+		<published>2022-03-07T19:34:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17768#p17768</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17768#p17768"/>
+		<title type="html"><![CDATA[Re: FYI. Porting to other TYT / Retevis radios]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17768#p17768"><![CDATA[
+<blockquote class="uncited"><div>I just joined as I have a MD-9600.<br>As for the other TYT/Retevis radios,  I am running Ty Weaver's (KG5RKI)  MD-2017/RT82 firmware in my couple of radios.<br>They work fine with his firmware except for one glitch.  After a while, when you go into the MENU&gt;UTILITY section instead of seeing<br>PROGRAM you will see one of the ZONES instead.  At this point you can back out to the first menu level and go into CALLS and then backout<br>and go back into UTILITY&gt;PROGRAM.  I know he released the source code for this project as he wasn't interested in continuing on the project.<br>I remember seeing that he has also modified part of the MD-9600 firmware dealing with database display but that's the last I heard about it.<br>Here is the github link to RT82 toolz</div></blockquote>MD380Tools modifies the official firmware by overriding individual functions.<br>This firmware works completely differently. We only use the AMBE codec from the official firmware, everything else is written from scratch, including things like the bitmap fonts, graphics and beeps etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Mar 07, 2022 7:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ke8bg]]></name></author>
+		<updated>2022-03-07T16:45:34</updated>
+
+		<published>2022-03-07T16:45:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17767#p17767</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17767#p17767"/>
+		<title type="html"><![CDATA[Re: FYI. Porting to other TYT / Retevis radios]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17767#p17767"><![CDATA[
+I just joined as I have a MD-9600.<br>As for the other TYT/Retevis radios,  I am running Ty Weaver's (KG5RKI)  MD-2017/RT82 firmware in my couple of radios.<br>They work fine with his firmware except for one glitch.  After a while, when you go into the MENU&gt;UTILITY section instead of seeing<br>PROGRAM you will see one of the ZONES instead.  At this point you can back out to the first menu level and go into CALLS and then backout<br>and go back into UTILITY&gt;PROGRAM.  I know he released the source code for this project as he wasn't interested in continuing on the project.<br>I remember seeing that he has also modified part of the MD-9600 firmware dealing with database display but that's the last I heard about it.<br>Here is the github link to RT82 toolz<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2541">ke8bg</a> — Mon Mar 07, 2022 4:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KI5PGJ]]></name></author>
+		<updated>2022-01-05T02:08:52</updated>
+
+		<published>2022-01-05T02:08:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17015#p17015</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17015#p17015"/>
+		<title type="html"><![CDATA[Re: FYI. Porting to other TYT / Retevis radios]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17015#p17015"><![CDATA[
+if you ever have a need for a MD-2017 let me know, it isn't going anywhere.<br><br>well I can still provide the radio to a developer, even if you use it as a paperweight <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><br><br>I figure it has more usefulness in the hands of someone other than myself.<br><br>FWIW, I've donated quite a bit of hardware to OpenBSD project over the years and I never had expectations anything would come of my donations, that is the nature of open source projects.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1862">KI5PGJ</a> — Wed Jan 05, 2022 2:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-01-05T00:42:17</updated>
+
+		<published>2022-01-05T00:42:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17014#p17014</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17014#p17014"/>
+		<title type="html"><![CDATA[Re: FYI. Porting to other TYT / Retevis radios]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17014#p17014"><![CDATA[
+<blockquote class="uncited"><div>I have a TYT MD-2017 (no GPS) which I can donate to your team<br><br>The only issue is it now displays in chinese language after the last factory firmware update, which makes it unusable for me</div></blockquote>At the moment  I have too much to do, getting the MD9600 and also then RT3S / UV380 working<br><br>Currently only Colina and I are the only people working on the MD9600 and I don't think Colin has a RT3S, so won't be able to help with that radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 05, 2022 12:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KI5PGJ]]></name></author>
+		<updated>2022-01-04T22:00:16</updated>
+
+		<published>2022-01-04T22:00:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17010#p17010</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17010#p17010"/>
+		<title type="html"><![CDATA[Re: FYI. Porting to other TYT / Retevis radios]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17010#p17010"><![CDATA[
+I have a TYT MD-2017 (no GPS) which I can donate to your team<br><br>The only issue is it now displays in chinese language after the last factory firmware update, which makes it unusable for me<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1862">KI5PGJ</a> — Tue Jan 04, 2022 10:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-01-04T21:45:21</updated>
+
+		<published>2022-01-04T21:45:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17008#p17008</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17008#p17008"/>
+		<title type="html"><![CDATA[Re: FYI. Porting to other TYT / Retevis radios]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=17008#p17008"><![CDATA[
+My RT3S has been on the shelf, in pieces for over 12 months. <br><br>So I don't think we are likely to have an RT3S version soon.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 04, 2022 9:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-01-04T13:18:33</updated>
+
+		<published>2022-01-04T13:18:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2016&amp;p=16993#p16993</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=16993#p16993"/>
+		<title type="html"><![CDATA[Re: FYI. Porting to other TYT / Retevis radios]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=16993#p16993"><![CDATA[
+New year, new playgrounds <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> Some weeks ago I accidentally came across a very low priced RT3s with built-in GPS, yet it somehow went straight to the shelf. If the device is planned to work with the new port I'll be happy to dedicate it to upcoming alpha/beta testing...<br><br>Cheers!<br>—Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Tue Jan 04, 2022 1:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-01-03T01:02:34</updated>
+
+		<published>2022-01-03T01:02:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2016&amp;p=16974#p16974</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=16974#p16974"/>
+		<title type="html"><![CDATA[FYI. Porting to other TYT / Retevis radios]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2016&amp;p=16974#p16974"><![CDATA[
+In July 2020, I bough a Retevis RT-3S (aks MD-UV380) with the aim to port the firmware to that radio, however it took over 1 month simply to be able to be able to flash the LED on the radio, so I had to stop development becuase I did not have time to continue<br><br>In September 2021, both Daniel F1RMB and Colin G4EML were very interested in porting to a the MD9600, so I bought 2 brand new MD-9600 and started to convert my RT-3S project to become the MD9600 project<br><br>I ported all of the GD77 user interface to the MD9600 project, as well as the display control and some basic inpuyt from the micropjone<br>Colin then used that version and wrote all of the PLL and RF control firmware<br><br>I worked on the AMBE codec section from the official MD9600 firmware and after several weeks managed to make that work, but at that time we did not have DMR Rx or Tx functionality, only FM.<br><br>Colin wrote ported the DMR Rx and Tx functionality from the GD77, and both Colin and I worked on the digital audio path so tha eventually the voice prompts were working and then the DMR Rx and then the DMR Tx.<br><br>Daniel also worked on various aspects of the firmware.<br><br><br><br>This now gives us a firmware platform using the STM32F4 chip as used in many TYT radios, however the other radios have different RF hardware and also different displays<br><br>So although it will be possible to use this platform for other TYT radios, it is not a simple or easy conversion<br><br>After the MD9600 firmware is much more stable, the next radio which is likely to be supported is the UV-380 / RT-3S, becuase this has the same CPU as the MD9600 but the same RF chip as the GD77.<br><br>It does have a different LCD display to both radios, but I don't think that is the most difficult problem to solve.<br><br><br>The other limitation is whether the firmware encryption has been cracked or a specific radio.<br><br>I know it has been cracked for the UV380 and the MD380, but I'm not sure about the MD2017<br><br>And I do not have the money to buy let another type of TYT radio, so unless TYT etc will send me several free samples, I am not likely to work on any radio I don't currently own.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 03, 2022 1:02 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

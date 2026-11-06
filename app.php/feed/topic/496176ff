@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4961" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-14T21:59:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4961</id>
+
+		<entry>
+		<author><name><![CDATA[DO9RE]]></name></author>
+		<updated>2025-03-14T21:59:44</updated>
+
+		<published>2025-03-14T21:59:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4961&amp;p=36182#p36182</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4961&amp;p=36182#p36182"/>
+		<title type="html"><![CDATA[Audio/voice prompt Issue and Improvement Suggestion for Quick Keys OpenGD77 on Retevis RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4961&amp;p=36182#p36182"><![CDATA[
+Dear OpenGD77 Team,  <br><br>First of all, I want to express my sincere gratitude for the amazing OpenGD77 firmware. It is an outstanding project, and I truly appreciate the effort and dedication that goes into its development.  <br><br>I would like to report an issue and suggest an improvement related to the Quick Keys feature.  <br><br><strong class="text-strong">Issue 1: Voice Prompt Interruption on Quick Key Value Change</strong><br><br>I am blind and rely on Voice Prompts for operation. When using Quick Keys to change a value in the menu, if the spoken value takes longer to be announced, the radio returns too quickly to the previous screen. This causes the Voice Prompt to be interrupted because the information of the previous screen is prioritized and spoken instead.  <br><br>For example, when adjusting the CTCSS value in the Channel Info menu, the speech output does not have enough time to fully announce the changed value before it gets interrupted by the screen change.  <br><br><strong class="text-strong">Issue 2: Missing Acknowledgment Tones for Quick Key Assignments </strong><br><br>I encountered an issue after assigning several Quick Keys: the acknowledgment tones for both assigning and deleting Quick Keys were no longer audible. However, I have not been able to reproduce this issue consistently, and it has not reappeared since then.  <br><br>Once again, I want to thank you for the fantastic work on OpenGD77! It makes a significant difference for visually impaired users like me.  <br><br>73, Richard, DO9RE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8178">DO9RE</a> — Fri Mar 14, 2025 9:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

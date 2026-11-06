@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2270" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-06-19T17:38:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2270</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-06-19T17:38:43</updated>
+
+		<published>2022-06-19T17:38:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18905#p18905</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18905#p18905"/>
+		<title type="html"><![CDATA[Re: Power display calibration volts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18905#p18905"><![CDATA[
+It will work in the next firmware release.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jun 19, 2022 5:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-06-19T16:49:37</updated>
+
+		<published>2022-06-19T16:49:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18903#p18903</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18903#p18903"/>
+		<title type="html"><![CDATA[Re: Power display calibration volts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18903#p18903"><![CDATA[
+<blockquote class="uncited"><div>Thanks I know.  But probyval does not work!!!!  rebuilt -0.4 and does not work!!!  still displays 14.2v<br><br>this calibration does not work</div></blockquote>take a deep breath, everything will be fine.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jun 19, 2022 4:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR5TNF]]></name></author>
+		<updated>2022-06-19T15:47:59</updated>
+
+		<published>2022-06-19T15:47:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18902#p18902</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18902#p18902"/>
+		<title type="html"><![CDATA[Re: Power display calibration volts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18902#p18902"><![CDATA[
+Thanks I know.  But probyval does not work!!!!  rebuilt -0.4 and does not work!!!  still displays 14.2v<br><br>this calibration does not work<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2825">UR5TNF</a> — Sun Jun 19, 2022 3:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-06-19T15:32:30</updated>
+
+		<published>2022-06-19T15:32:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18901#p18901</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18901#p18901"/>
+		<title type="html"><![CDATA[Re: Power display calibration volts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18901#p18901"><![CDATA[
+Hi,<br><br>In the General Options<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#batt-cal" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... d#batt-cal</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jun 19, 2022 3:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR5TNF]]></name></author>
+		<updated>2022-06-19T15:03:57</updated>
+
+		<published>2022-06-19T15:03:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18900#p18900</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18900#p18900"/>
+		<title type="html"><![CDATA[Power display calibration volts]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2270&amp;p=18900#p18900"><![CDATA[
+Good afternoon, for a long time I want to ask this question about the voltage correction (v).  When 13.8v is applied, the radio displays 14.2v.  All attempts to set the correction -0.4v do not work.  How to set the correct voltage.  Does this option work or not???  Sorry for the broken English, I use google translator.  Please developers answer this question .... how to properly calibrate the md9600 supply voltage display<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2825">UR5TNF</a> — Sun Jun 19, 2022 3:03 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

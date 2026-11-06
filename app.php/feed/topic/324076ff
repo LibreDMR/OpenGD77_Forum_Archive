@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3240" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-05T09:08:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3240</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-05T09:08:13</updated>
+
+		<published>2023-09-05T09:08:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25947#p25947</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25947#p25947"/>
+		<title type="html"><![CDATA[Re: CPS R2023.09.04.01 Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25947#p25947"><![CDATA[
+<blockquote class="uncited"><div>With this new version I could no longer reproduce the error.<br>Thanks for fixing.</div></blockquote>OK.<br><br>Thanks for testing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 05, 2023 9:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Matt - DH2LAB]]></name></author>
+		<updated>2023-09-05T08:41:49</updated>
+
+		<published>2023-09-05T08:41:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25946#p25946</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25946#p25946"/>
+		<title type="html"><![CDATA[Re: CPS R2023.09.04.01 Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25946#p25946"><![CDATA[
+With this new version I could no longer reproduce the error.<br>Thanks for fixing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1981">Matt - DH2LAB</a> — Tue Sep 05, 2023 8:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-05T03:11:30</updated>
+
+		<published>2023-09-05T03:11:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25929#p25929</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25929#p25929"/>
+		<title type="html"><![CDATA[Re: CPS R2023.09.04.01 Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25929#p25929"><![CDATA[
+Please try this version<br><br><a href="https://www.opengd77.com/downloads/CPS/Experimental/OpenGD77CPSInstaller_R2023.09.05.01.exe" class="postlink">downloads/CPS/Experimental/OpenGD77CPSI ... .05.01.exe</a><br><br>PS.<br><br>I thought perhaps this was a new bug related to APRS but it seems to be a bug which has been in the CPS for a long time<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 05, 2023 3:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Matt - DH2LAB]]></name></author>
+		<updated>2023-09-04T15:19:07</updated>
+
+		<published>2023-09-04T15:19:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25906#p25906</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25906#p25906"/>
+		<title type="html"><![CDATA[CPS R2023.09.04.01 Error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3240&amp;p=25906#p25906"><![CDATA[
+<img src="https://up.picr.de/46262661mh.png" class="postimage" alt="Image"><br><br>In the new CPS there is also an error that only occurs in German. Is at least reproducible in German, but not in English.<br>If I turn off APRS in the channel and then set RX Tone and TX Tone to "None", the error window comes up.<br><br>"The input string is in the wrong format."<br><br>73, Matt<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1981">Matt - DH2LAB</a> — Mon Sep 04, 2023 3:19 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

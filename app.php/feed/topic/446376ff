@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4463" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-18T09:51:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4463</id>
+
+		<entry>
+		<author><name><![CDATA[F6EGK]]></name></author>
+		<updated>2024-12-18T09:51:35</updated>
+
+		<published>2024-12-18T09:51:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34767#p34767</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34767#p34767"/>
+		<title type="html"><![CDATA[Re: New Beta version 2024-10-09]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34767#p34767"><![CDATA[
+It's perfectly clear and smart  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> . Thank you indeed for these additional informations, that would be of interest for many users of the MD-9600. <br><br>73 - Jean-Roger<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1970">F6EGK</a> — Wed Dec 18, 2024 9:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-18T09:20:54</updated>
+
+		<published>2024-12-18T09:20:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34766#p34766</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34766#p34766"/>
+		<title type="html"><![CDATA[Re: New Beta version 2024-10-09]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34766#p34766"><![CDATA[
+<blockquote class="uncited"><div>Dear Roger and all,<br><br>I know that this version is supersed by several ones, but I have a question that probably deals also with all recent versions. It is written :<br><br>• (MD9600 only) Use battery RAM for settings, so that if power is removed from the radio the last change to settings / channel / vfo will be retained<br>• Handle if settings can’t be saved to Flash because of Write failure<br><br>Does it mean that settings ar now only retained thanks to the battery RAM ? And so settings are no more retained in a part of the flash memory ? The battery RAM is not very reliable, specially if the transceiver remains on a shelf for a long time. <br><br>On my side I have kept the last stable version (R20240908), because of my misunderstanding of this new feature.<br><br>Thanks to all the team for the continuous developments, and best wishes for 2025.<br><br>73 - Jean-Roger</div></blockquote>Long story<br><br>Originally, on both the MD9600 and RT3S, we used the battery RAM to store settings, but we found that the RAM battery would go flat after a few weeks of the radio not being used.<br><br>So we changed both the RT3S and MD9600 to use the Flash memory for settings storage.<br><br>This works fine on the RT3S because the settings can be trigged to save to Flash when the radio is turned off by the operator.<br><br>On the MD9600 this was not so satisfactorty, becasue although the settings are saved if the operator presses the power button to turn the radio off.<br><br>However because many people use the MD9600 in their car, connected via the 'ignition' or accessories circuit, which is only powered when the car is running, it was common for the power to be interrupted to the radio when the operator stopped the engine of the car, and the radio was then not saving the data to Flash.<br><br>So I changed the saving system on the MD9600, so that any changes to frequency , channels and options are almost immediatly written to the RAM, so that if the power is interrupted then the last change is not normally lost.<br><br>Also, <span style="text-decoration:underline">when the radio is powered on</span>, the firmware checks the contents of the Flash storage and if it is not up to date, then the settings from RAM are written to Flash<br><br>If the MD9600 is not used for a few weeks, and the internal backup battery goes flat, then when the radio is powered on, the RAM settings will be invalid, and the settings are instead loaded from Flash<br><br><br><br>I hope this explains how the changes to saving, now work on the MD9600<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 18, 2024 9:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F6EGK]]></name></author>
+		<updated>2024-12-18T06:59:23</updated>
+
+		<published>2024-12-18T06:59:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34763#p34763</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34763#p34763"/>
+		<title type="html"><![CDATA[Re: New Beta version 2024-10-09]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4463&amp;p=34763#p34763"><![CDATA[
+Dear Roger and all,<br><br>I know that this version is supersed by several ones, but I have a question that probably deals also with all recent versions. It is written :<br><br>• (MD9600 only) Use battery RAM for settings, so that if power is removed from the radio the last change to settings / channel / vfo will be retained<br>• Handle if settings can’t be saved to Flash because of Write failure<br><br>Does it mean that settings ar now only retained thanks to the battery RAM ? And so settings are no more retained in a part of the flash memory ? The battery RAM is not very reliable, specially if the transceiver remains on a shelf for a long time. <br><br>On my side I have kept the last stable version (R20240908), because of my misunderstanding of this new feature.<br><br>Thanks to all the team for the continuous developments, and best wishes for 2025.<br><br>73 - Jean-Roger<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1970">F6EGK</a> — Wed Dec 18, 2024 6:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-10T05:25:16</updated>
+
+		<published>2024-10-10T05:25:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4463&amp;p=33403#p33403</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4463&amp;p=33403#p33403"/>
+		<title type="html"><![CDATA[New Beta version 2024-10-09]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4463&amp;p=33403#p33403"><![CDATA[
+A new MD9600 beta version is now available<br><br>Changes in this version<br><br>•         Increase number of nuisance entries during scan from 16 to 32<br>•         Change Auto Power Off step size and maximum time<br>•         Tx Inhibit<br>•         (MD9600 only) Use battery RAM for settings, so that if power is removed from the radio the last change to settings / channel / vfo will be retained<br>•         Handle if settings can’t be saved to Flash because of Write failure<br>•         Added automatic roaming function, based on position e.g. from GPS or manual entry.<br>•         Force re-sorting of channels in Roaming mode, my pressing the Enter button on the Roaming setting e.g Roaming:Manual<br>•         (MD9600/UV380/DM1701/MD2017) Add option to display the time instead of the battery voltage or battery percentage (press and hold SK1 to display the battery voltage)<br>•         Show distance to a repeater / channel when button 8 is held down (long press)<br><br>Thanks to Daniel F1RMB and to the pre-Beta testers<br><br>See<br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/5397f2c6761cdca235ba258297cd42af95cd54bd" class="postlink">downloads/MD9600/Firmware/5397f2c6761cd ... af95cd54bd</a><br><br><strong class="text-strong">Romaing</strong><br><br><br>The Roaming functionality supersedes the distance sorting functionality already in previous versions, by adding renaming this functionality and adding distance based options of 5km, 10km, and 20k.<br><br>Note. Distance sorting and hence Roaming does not work on the All Channels Zone because this is not a real zone, its actually just the full channels list.<br><br>When roaming is set to Manual, the current zone will be sorted by distance to each repeater, and the radio is automatically changed to the first channel in the sorted zone, i.e the closest repeater.<br><br>Also every time the Manual roaming option is selected, by pressing the Green button, the zone will be re-sorted.<br><br>In the distance based settings of 5km, 10km or 20km, when the position of the radio has changed by the specified distance, the channel list will be re-sorted by distance and the closest repeater selected again.<br><br>e.g. when driving, the zone list will be sorted every 5km , 10km or 20km of travel.<br><br>The zone will only be sorted during Rx, but will be sorted even if a signal is currently being received.<br><br>If a new channel is selected after the zone is sorted, there will be a short dropout of audio on both FM and also more dropout on DMR as the radio re-synchronises to the new DMR repeater.<br><br>If a new channel is selected, the radio will play the Alert beep and the display will illuminate.<br><br>Roaming is most useful for radio which have a GPS fitted, but if the position is entered manually, the zone will also be re-sorted if necessary.<br>Also, in order that the radio can calculate the distance to each repeater, the position  Latitude / Longitude of each repeater needs to be entered into the CPS and the "Use location" checkbox need to be ticked.<br><br>Channels which don't have the location entered or don't have the Use location checkbox checked, are sorted to the bottom of the list and the distance can't be shown for these.<br><br><br>Generally to use roaming, its probably best to make a separate zone which contains all the linked repeaters and switch to that zone when using the roaming functionality<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 10, 2024 5:25 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

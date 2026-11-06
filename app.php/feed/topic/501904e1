@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5019" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-28T23:59:45</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5019</id>
+
+		<entry>
+		<author><name><![CDATA[KO6CJM]]></name></author>
+		<updated>2025-03-28T23:59:45</updated>
+
+		<published>2025-03-28T23:59:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5019&amp;p=36508#p36508</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5019&amp;p=36508#p36508"/>
+		<title type="html"><![CDATA[SOLVED Com port problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5019&amp;p=36508#p36508"><![CDATA[
+"Windows cannot verify the digital signature for the drivers required for this device. A recent hardware or software change might have installed a file that is signed incorrectly or damaged, or that might be malicious software from an unknown source. (Code 52)"<br><br>Did not get this error on the first dm-1701 I flashed a few months ago.  Don't really have access to this radio that did not have com issues.<br><br>I can't remember if I used some type of work around?<br><br>Any guidance or suggestions greatly appreciated.<br><br>Thanks.<br><br>73<br><br>EDIT  DISABLED DEVICE DRIVER SIGNING.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2895&amp;sid=811820d49675d4834a819d57d49124ba" class="postimage" alt="gd77 error.PNG" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7583">KO6CJM</a> — Fri Mar 28, 2025 11:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

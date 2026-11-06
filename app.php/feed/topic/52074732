@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5207" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-09T20:32:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5207</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-09T20:32:40</updated>
+
+		<published>2025-07-09T20:32:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37691#p37691</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37691#p37691"/>
+		<title type="html"><![CDATA[Re: TYT UV-390 Plus Minimal Volume Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37691#p37691"><![CDATA[
+<blockquote class="uncited"><div>the minimum audio level, just above the 'off' level, is higher than I would like.</div></blockquote>Unfortunately this is basically a hardware limitation.<br><br>If its DMR you are listening to, sometimes the received audio data has very high intrinsic volume levels. In which case you could try turing on the DMR AGC setting and turn down the AGC gain, but this will have the effect of making all DMR signals less loud and also have the AGC turned on, which will attempt to normalise the volume on all signals , not just loud signals<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jul 09, 2025 8:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AC5A]]></name></author>
+		<updated>2025-07-09T18:21:27</updated>
+
+		<published>2025-07-09T18:21:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37688#p37688</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37688#p37688"/>
+		<title type="html"><![CDATA[Re: TYT UV-390 Plus Minimal Volume Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37688#p37688"><![CDATA[
+the minimum audio level, just above the 'off' level, is higher than I would like.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6354">AC5A</a> — Wed Jul 09, 2025 6:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-06T22:46:57</updated>
+
+		<published>2025-07-06T22:46:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37668#p37668</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37668#p37668"/>
+		<title type="html"><![CDATA[Re: TYT UV-390 Plus Minimal Volume Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37668#p37668"><![CDATA[
+<blockquote class="uncited"><div>My TYT UV-390 Plus works very well using the OpenGD77 firmware. However, I can't seem to get the receive volume adjusted to the low volume setting. It basically has a lot of intensity on the lowest setting. Any ideas? Thanks.</div></blockquote>Depends what you mean by low setting.  <br><br>On the UV380, and DM1701 and MD2017 the volume control is not a simple pot in series with the analogue audio. The control is a pot, but its not connected to the audio signal; its used as an input into the CPU, i.e its a soft volume control<br><br>The CPU reads the pot via an ADC and then uses the ADC value to change the output gain of the DSP / DMR chip.<br><br>Unfotunately the resolution of the output gain on the DSP chip is not great, and from what I can remember... in order to get no volume at all at the lowest pot setting, we may have needed to turn off the audio amp, because the lowest output gain setting isn't that low.<br><br><br>Does the volume turn off completely, when the pot is turned completely counter clockwise, or do you mean that the minumum audio level, just above the 'off' level, is higher than you would like ??<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 06, 2025 10:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-07-06T15:02:28</updated>
+
+		<published>2025-07-06T15:02:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37666#p37666</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37666#p37666"/>
+		<title type="html"><![CDATA[Re: TYT UV-390 Plus Minimal Volume Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37666#p37666"><![CDATA[
+<blockquote class="uncited"><div>My TYT UV-390 Plus works very well using the OpenGD77 firmware. However, I can't seem to get the receive volume adjusted to the low volume setting. It basically has a lot of intensity on the lowest setting. Any ideas? Thanks.</div></blockquote>Could it be that they used a linear potentiometer? <br><br>My older md-9600 version 2 used a linear potentiometer instead of a logarithmic, my new version 5 one has a logarithmic potentiometer.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jul 06, 2025 3:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AC5A]]></name></author>
+		<updated>2025-07-06T14:15:01</updated>
+
+		<published>2025-07-06T14:15:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37665#p37665</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37665#p37665"/>
+		<title type="html"><![CDATA[TYT UV-390 Plus Minimal Volume Issue]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5207&amp;p=37665#p37665"><![CDATA[
+My TYT UV-390 Plus works very well using the OpenGD77 firmware. However, I can't seem to get the receive volume adjusted to the low volume setting. It basically has a lot of intensity on the lowest setting. Any ideas? Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6354">AC5A</a> — Sun Jul 06, 2025 2:15 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

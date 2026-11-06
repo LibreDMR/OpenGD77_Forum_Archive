@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4906" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-10T11:43:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4906</id>
+
+		<entry>
+		<author><name><![CDATA[Gav-G0LGB]]></name></author>
+		<updated>2025-03-10T11:43:27</updated>
+
+		<published>2025-03-10T11:43:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=36117#p36117</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=36117#p36117"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=36117#p36117"><![CDATA[
+Interesting thread, i hear that same audio, but only from 1 local repeater, never heard it at from any of my hotspots or TG91.<br><br>I just assumed it was an issue with that repeater....<br><br>Heard it on a 380, a 1701 and a 9600...and only on it's ident...mind you that is maybe not so surprising as there is almost zero life on any of the repeaters around here these days.<br><br>I'll try the keying the ptt and see if it cures it....although i have come across that in the past with some elderly Philips FM1000's when their pll refused to lock after powering up, but if you blipped the ptt it locked and all was well...could it be a similar thing?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3585">Gav-G0LGB</a> — Mon Mar 10, 2025 11:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WD5GNR]]></name></author>
+		<updated>2025-03-09T04:20:30</updated>
+
+		<published>2025-03-09T04:20:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=36112#p36112</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=36112#p36112"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=36112#p36112"><![CDATA[
+<blockquote class="uncited"><div><br>I've confirmed this bug is happening in DM-1701, MD-UV380/390 and a MD-2017.<br><br></div></blockquote>I also see it on a DM-1701 and an MD-9600. A quick PTT or toggle of time slot fixes it.<br><br>I had thought maybe it was because of "scanning" when using promiscuous mode, but even with the fitlers on it seems to do the same thing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8221">WD5GNR</a> — Sun Mar 09, 2025 4:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB8YKF]]></name></author>
+		<updated>2025-02-26T12:41:15</updated>
+
+		<published>2025-02-26T12:41:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35937#p35937</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35937#p35937"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35937#p35937"><![CDATA[
+<blockquote class="uncited"><div><a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=4877&amp;p=35806&amp;hilit=silent#p35806" class="postlink">viewtopic.php?f=13&amp;t=4877&amp;p=35806&amp;hilit=silent#p35806</a></div></blockquote>Are you saying the "silent" issue in that other thread and the loud noise I put in the original post are one in the same?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4778">KB8YKF</a> — Wed Feb 26, 2025 12:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-26T06:54:56</updated>
+
+		<published>2025-02-26T06:54:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35935#p35935</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35935#p35935"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35935#p35935"><![CDATA[
+<a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=4877&amp;p=35806&amp;hilit=silent#p35806" class="postlink">viewtopic.php?f=13&amp;t=4877&amp;p=35806&amp;hilit=silent#p35806</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Feb 26, 2025 6:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-26T20:02:39 </updated>
+
+		<published>2025-02-26T05:49:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35934#p35934</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35934#p35934"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35934#p35934"><![CDATA[
+this makes me think that maybe there is a bug with DMR donor firmware or in the DMR implementation in OpenGd77 that causes some compatibility issues with some DMR repeaters (even in ham DMR repeaters).<br><br>I've confirmed this bug is happening in DM-1701, MD-UV380/390 and a MD-2017.<br><br>but no idea if this issue occurs in others models that uses the other donor file from GD77, for example in GD-77/S, RD-5R an DM-1801.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Feb 26, 2025 5:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IK1HJT]]></name></author>
+		<updated>2025-02-25T17:05:03</updated>
+
+		<published>2025-02-25T17:05:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35926#p35926</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35926#p35926"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35926#p35926"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Same radio, same problem. Changing channel quickly an back to the previous, the problem disappear</div></blockquote>That also works for me - I'll press asterisk <strong class="text-strong">*</strong> key to change timeslots, then press it again to go back and the audio will be clear. <br><br>The suggestion earlier in thread of tapping PTT is faster fix - one less button push <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> also works for me.</div></blockquote>So those radios requires a litlle bit of work to run correctly <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=558">IK1HJT</a> — Tue Feb 25, 2025 5:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB8YKF]]></name></author>
+		<updated>2025-02-25T16:54:02</updated>
+
+		<published>2025-02-25T16:54:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35925#p35925</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35925#p35925"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35925#p35925"><![CDATA[
+<blockquote class="uncited"><div>Same radio, same problem. Changing channel quickly an back to the previous, the problem disappear</div></blockquote>That also works for me - I'll press asterisk <strong class="text-strong">*</strong> key to change timeslots, then press it again to go back and the audio will be clear. <br><br>The suggestion earlier in thread of tapping PTT is faster fix - one less button push <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> also works for me.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4778">KB8YKF</a> — Tue Feb 25, 2025 4:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IK1HJT]]></name></author>
+		<updated>2025-02-25T15:15:56</updated>
+
+		<published>2025-02-25T15:15:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35924#p35924</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35924#p35924"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35924#p35924"><![CDATA[
+<blockquote class="uncited"><div>I have an RT3S w/GPS running latest beta 2025 02 23.  I am using WPSD with MMDVM Duplex Pi Hat.<br><br>Radio has latest OpenGD77, WPSD is latest version, MMDVM firmware is latest.   I've had this issue for months, pretty much since I started using hotspot.  So I had same issue on older firmware versions as well.<br><br>95% of the time the people on Brandmeister Talk Group 91 sound perfect, but everyone once in a while I get the audio recorded below.   In this example someone must have heard the person talking without any issues, because another ham replied. <br><br>Example audio:<br><br><a href="https://youtube.com/shorts/Yl4LSUb4KGc?si=KdCR8Gr2u7oJvp6u" class="postlink">https://youtube.com/shorts/Yl4LSUb4KGc? ... r2u7oJvp6u</a></div></blockquote>Same radio, same problem. Changing channel quickly an back to the previous, the problem disappear<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=558">IK1HJT</a> — Tue Feb 25, 2025 3:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB8YKF]]></name></author>
+		<updated>2025-02-25T14:49:02</updated>
+
+		<published>2025-02-25T14:49:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35923#p35923</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35923#p35923"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35923#p35923"><![CDATA[
+<blockquote class="uncited"><div>if you put the DMR filter in TG, do you stop hearing that garbled audio?</div></blockquote>I changed my WPSD hotspot so that only TG 91 Brandmeister was on TS1, then I setup DMR filter on OpenGD77 to "TG".    Still get that noise for some stations talking on TG 91.  Once this morning both sides of the conversation had the same noise, I could see the call sign/name switch on the display and both sides had the same issue with the "noise".  Hitting PTT immediately cleared up the audio.   But dozens of QSOs on TG 91 sounded perfect this morning.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4778">KB8YKF</a> — Tue Feb 25, 2025 2:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2025-02-25T12:40:38</updated>
+
+		<published>2025-02-25T12:40:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35922#p35922</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35922#p35922"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35922#p35922"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I wrote a long time ago about the problem of sound distortion</div></blockquote>Was this your previous thread? <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2558" class="postlink">viewtopic.php?f=19&amp;t=2558</a></div></blockquote>Yes, I wrote there. But it's about a completely different noise.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Tue Feb 25, 2025 12:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB8YKF]]></name></author>
+		<updated>2025-02-25T12:19:55</updated>
+
+		<published>2025-02-25T12:19:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35921#p35921</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35921#p35921"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35921#p35921"><![CDATA[
+<blockquote class="uncited"><div>I wrote a long time ago about the problem of sound distortion</div></blockquote>Was this your previous thread? <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2558" class="postlink">viewtopic.php?f=19&amp;t=2558</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4778">KB8YKF</a> — Tue Feb 25, 2025 12:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2025-02-25T12:14:19</updated>
+
+		<published>2025-02-25T12:14:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35920#p35920</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35920#p35920"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35920#p35920"><![CDATA[
+I wrote a long time ago about the problem of sound distortion, as well as the complete loss of decoding and receiving a signal from a neighboring timeslot. <br> At first, they told me that they couldn't repeat these mistakes. Then they said that the MD380UV/RT3S has a hardware error and the factory firmware has it too. I specially flashed the factory firmware and made observations - I did not hear any sound distortion, but there were cases of silence in the presence of a DMR signal. <br>I may be wrong, but at one time in older firmware versions, the error of modulating was extremely rare, when the error became more intense, I find it difficult to say. It is quite problematic to flash old firmware versions with old CPS, they are already lost. <br>Also, these errors are only present in duplex. Everything is fine in the simplex. This is probably why not everyone can detect them.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Tue Feb 25, 2025 12:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB8YKF]]></name></author>
+		<updated>2025-02-25T03:07:38</updated>
+
+		<published>2025-02-25T03:07:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35911#p35911</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35911#p35911"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35911#p35911"><![CDATA[
+Setting "EmbeddedLCOnly: Enabled" on WSPD hotspot to disable talker aliases didn't help.  Had it happen again after a couple hours of listening to TG 91 on Brandmeister.<br><br>Trying DMR filter setting of talkgroup instead of promiscuous in opengd77 next<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4778">KB8YKF</a> — Tue Feb 25, 2025 3:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB8YKF]]></name></author>
+		<updated>2025-02-24T22:27:59</updated>
+
+		<published>2025-02-24T22:27:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35908#p35908</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35908#p35908"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35908#p35908"><![CDATA[
+<blockquote class="uncited"><div>I've never experienced this, but I would suspect Talker Alias. Try turn it off and On and see if it help?</div></blockquote>I found out on WPSD Discord this is how to turn off having the Hotspot transmit Talker Alias - I will test this out.<br><br>Under "General DMR Settings" in WPSD Configuration:<br><br>Set "DMR EmbeddedLCOnly: Enabled"<br>Also set "DMR DumpTAData: Disabled"<br><br>Description of settings:<br><blockquote class="uncited"><div>DMR EmbeddedLCOnly: Turn ON to disable extended message support, including GPS and Talker Alias data. This can help reduce problems with some DMR Radios that do not support such features.<br><br>DMR DumpTAData: Turn ON to dump GPS and Talker Alias data to MMDVMHost log file. </div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4778">KB8YKF</a> — Mon Feb 24, 2025 10:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-24T23:16:55 </updated>
+
+		<published>2025-02-24T21:40:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35905#p35905</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35905#p35905"/>
+		<title type="html"><![CDATA[Re: RT3S Why garbled audio sometimes?  Example audio included]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4906&amp;p=35905#p35905"><![CDATA[
+if you put the DMR filter in TG, do you stop hearing that garbled audio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Mon Feb 24, 2025 9:40 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

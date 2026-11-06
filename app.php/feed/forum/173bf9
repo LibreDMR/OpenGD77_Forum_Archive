@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/17" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-18T06:51:04</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/17</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-18T06:51:04</updated>
+
+		<published>2025-05-18T06:51:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37149#p37149</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37149#p37149"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: Hard Reset.]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37149#p37149"><![CDATA[
+<blockquote class="uncited"><div>.....<br>It's not a cable, because the same cable works and... another radio.<br><br>...</div></blockquote><br>Then it's a fault with the radio hardware.<br><br>Other people have reported broken connections to the PCB from the 2.5mm and 3.5mm jack sockets<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 18, 2025 6:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-18T03:20:04</updated>
+
+		<published>2025-05-18T03:20:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37148#p37148</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37148#p37148"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: Hard Reset.]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37148#p37148"><![CDATA[
+There is no such thing in the OpenGD77 firmware, and there is no need for this.<br><br>First, give the firmware and CPS version you're using, then check if the cable is the right one, and in working condition (you will find the cabling here).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun May 18, 2025 3:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU1VAR]]></name></author>
+		<updated>2025-05-18T01:43:45</updated>
+
+		<published>2025-05-18T01:43:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37147#p37147</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37147#p37147"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: Hard Reset.]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37147#p37147"><![CDATA[
+Ok, I've already done this. I'm using OpenGD77 on the Baofeng DM1801. It simply doesn't communicate with the computer anymore, it's not a cable, because the same cable works and... another radio. I'd like to try a Hard Reset, just resetting the settings didn't work. Try something to get the radio to communicate with the computer again.<br><br>Maybe the right term is FULL Reset.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2250">PU1VAR</a> — Sun May 18, 2025 1:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-18T00:49:28</updated>
+
+		<published>2025-05-18T00:49:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37146#p37146</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37146#p37146"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: Hard Reset.]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37146#p37146"><![CDATA[
+in the official firmware?<br><br>with the radio off...<br><br>press and hold <strong class="text-strong">SK1 Key</strong> + <strong class="text-strong">Key 1</strong> and turn on the radio, you will see <strong class="text-strong">Memory Reset?</strong> in the screen, and then confirm with Menu button and the led will flash in orange color for few seconds, and then it will be factory reset/hard reset.<br><br>in OpenGD77 firmware?<br><br>with the radio off...<br><br>press and hold the <strong class="text-strong">SK2 key</strong> and turn on the radio, you will see <strong class="text-strong">Settings Updated</strong> in the screen (that will reset settings only), and after that open the OpenGD77 CPS and write a new codeplug (that will reset the other things).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sun May 18, 2025 12:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-17T20:59:26</updated>
+
+		<published>2025-05-17T20:59:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37144#p37144</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37144#p37144"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: Hard Reset.]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37144#p37144"><![CDATA[
+<blockquote class="uncited"><div>How do I Hard Reset (FULL) Baofeng DM1801 with OpenGD77?</div></blockquote>What is a Hard Reset<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat May 17, 2025 8:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU1VAR]]></name></author>
+		<updated>2025-05-17T20:38:55</updated>
+
+		<published>2025-05-17T20:38:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37143#p37143</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37143#p37143"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Hard Reset.]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37143#p37143"><![CDATA[
+How do I Hard Reset (FULL) Baofeng DM1801 with OpenGD77?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2250">PU1VAR</a> — Sat May 17, 2025 8:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-19T09:38:21</updated>
+
+		<published>2024-12-19T09:38:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4689&amp;p=34780#p34780</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4689&amp;p=34780#p34780"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: Codeplug for DR-1801UV]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4689&amp;p=34780#p34780"><![CDATA[
+<blockquote class="uncited"><div>Anyone can share the latest codeplug for Baofeng DR-1801UV (A6  processor version), many thanks</div></blockquote>This is not a OpenGD77 compatible radio.<br><br>This forum is dedicated to only the OpenGD77 firmware and CPS.<br><br>This thread has now been locked<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 19, 2024 9:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ9APP]]></name></author>
+		<updated>2024-12-19T09:06:25</updated>
+
+		<published>2024-12-19T09:06:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4689&amp;p=34779#p34779</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4689&amp;p=34779#p34779"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Codeplug for DR-1801UV]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4689&amp;p=34779#p34779"><![CDATA[
+Anyone can share the latest codeplug for Baofeng DR-1801UV (A6  processor version), many thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7498">SQ9APP</a> — Thu Dec 19, 2024 9:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-04T18:18:48</updated>
+
+		<published>2024-12-04T18:18:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1175&amp;p=34368#p34368</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1175&amp;p=34368#p34368"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: DM-1801 Cheatsheet]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1175&amp;p=34368#p34368"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Would be great if they had a Cheatsheet for the Baofeng 1701  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_question.gif" width="15" height="17" alt=":?:" title="Question">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"></div></blockquote>Ditto</div></blockquote>Some people should read the manual...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Dec 04, 2024 6:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ae5tc]]></name></author>
+		<updated>2024-12-04T17:22:55</updated>
+
+		<published>2024-12-04T17:22:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1175&amp;p=34367#p34367</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1175&amp;p=34367#p34367"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: DM-1801 Cheatsheet]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1175&amp;p=34367#p34367"><![CDATA[
+<blockquote class="uncited"><div>Would be great if they had a Cheatsheet for the Baofeng 1701  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_question.gif" width="15" height="17" alt=":?:" title="Question">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"></div></blockquote>Ditto<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7041">ae5tc</a> — Wed Dec 04, 2024 5:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-11-19T05:05:18</updated>
+
+		<published>2024-11-19T05:05:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34141#p34141</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34141#p34141"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: APRS wrong location]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34141#p34141"><![CDATA[
+<blockquote class="uncited"><div>Thanks F1RMB,<br>Now it's working.<br><br>The direwolf log:<br><div class="codebox"><p>CODE: </p><pre><code>PU5JNP-7 audio level = 22(8/9)   [NONE]   ||||||___[0.2] PU5JNP-7&gt;APOG77,WIDE1-1,WIDE2-1:!/\Hr-B4Qy[  !DM-1801Position, HumanS 27 35.0759, W 048 35.1180DM-1801[rx&gt;ig] PU5JNP-7&gt;APOG77,WIDE1-1,WIDE2-1,qAR,PU5JNP-10:!/\Hr-B4Qy[  !DM-1801</code></pre></div></div></blockquote>You can also try using uncompressed format.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Nov 19, 2024 5:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU5JNP]]></name></author>
+		<updated>2024-11-18T19:41:02</updated>
+
+		<published>2024-11-18T19:41:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34134#p34134</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34134#p34134"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: APRS wrong location]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34134#p34134"><![CDATA[
+Thanks F1RMB,<br>Now it's working.<br><br>The direwolf log:<br><div class="codebox"><p>CODE: </p><pre><code>PU5JNP-7 audio level = 22(8/9)   [NONE]   ||||||___[0.2] PU5JNP-7&gt;APOG77,WIDE1-1,WIDE2-1:!/\Hr-B4Qy[  !DM-1801Position, HumanS 27 35.0759, W 048 35.1180DM-1801[rx&gt;ig] PU5JNP-7&gt;APOG77,WIDE1-1,WIDE2-1,qAR,PU5JNP-10:!/\Hr-B4Qy[  !DM-1801</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7328">PU5JNP</a> — Mon Nov 18, 2024 7:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-11-18T18:08:53</updated>
+
+		<published>2024-11-18T18:08:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34133#p34133</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34133#p34133"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: APRS wrong location]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34133#p34133"><![CDATA[
+Replied <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Nov 18, 2024 6:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU5JNP]]></name></author>
+		<updated>2024-11-18T17:58:07</updated>
+
+		<published>2024-11-18T17:58:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34132#p34132</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34132#p34132"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: APRS wrong location]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34132#p34132"><![CDATA[
+Sent! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7328">PU5JNP</a> — Mon Nov 18, 2024 5:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-11-17T17:09:11</updated>
+
+		<published>2024-11-17T17:09:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34122#p34122</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34122#p34122"/>
+		<title type="html"><![CDATA[Baofeng DM-1801 specific • Re: APRS wrong location]]></title>
+
+					<category term="Baofeng DM-1801 specific" scheme="http://localhost/opengd77/viewforum.php?f=17" label="Baofeng DM-1801 specific"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4591&amp;p=34122#p34122"><![CDATA[
+<blockquote class="uncited"><div>I tested with not compressed too, it's the same result.</div></blockquote>Send me an email, I have a test version with a bugfix for you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Nov 17, 2024 5:09 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

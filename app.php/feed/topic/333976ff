@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3339" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-29T01:43:09</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3339</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-29T01:43:09</updated>
+
+		<published>2023-09-29T01:43:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26598#p26598</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26598#p26598"/>
+		<title type="html"><![CDATA[Re: Ability to program in a non-standard CTCSS Tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26598#p26598"><![CDATA[
+<blockquote class="uncited"><div>Perhaps in the CPS, it could be coded to not allow anything but "official" tones?      </div></blockquote>Yes. Technically possible<br><br>But AFIK no one has any spare time to work on such low priority functionality<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 29, 2023 1:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n4tii]]></name></author>
+		<updated>2023-09-29T01:41:43</updated>
+
+		<published>2023-09-29T01:41:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26597#p26597</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26597#p26597"/>
+		<title type="html"><![CDATA[Re: Ability to program in a non-standard CTCSS Tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26597#p26597"><![CDATA[
+It's all good, my friends - just throwing out the observation.<br><br>Perhaps in the CPS, it could be coded to not allow anything but "official" tones?      <br><br>In the meantime, users just need to be aware that a "non-standard" tone may be possible - and thus, double check your work before writing to radio.<br><br>in any case, I love OpenGD77 - and will never look back.  I absolutely love what you guys have done for these radios!  Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3607">n4tii</a> — Fri Sep 29, 2023 1:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-28T21:33:27</updated>
+
+		<published>2023-09-28T21:33:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26596#p26596</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26596#p26596"/>
+		<title type="html"><![CDATA[Re: Ability to program in a non-standard CTCSS Tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26596#p26596"><![CDATA[
+We don't validate the codeplug data as it would be impractical to do so as there are thousands of settings / value combinations<br><br>Like Colin says, you can put whatever value you want into virtually any of the various settings, but this may or may not work depending on what radio you are using becuase the radio hardware differs as does some of the code. i.e the code is not completely unified across all 8 supported radios<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 28, 2023 9:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-28T20:28:40</updated>
+
+		<published>2023-09-28T20:28:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26591#p26591</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26591#p26591"/>
+		<title type="html"><![CDATA[Re: Ability to program in a non-standard CTCSS Tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26591#p26591"><![CDATA[
+The hardware used to generate the CTCSS tone in the two radios is different so the firmware also differs slightly. <br><br>Although it may appear that you can program non standard tones there is no guarantee that they are actually being generated correctly.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Sep 28, 2023 8:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n4tii]]></name></author>
+		<updated>2023-09-28T15:01:28</updated>
+
+		<published>2023-09-28T15:01:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26589#p26589</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26589#p26589"/>
+		<title type="html"><![CDATA[Ability to program in a non-standard CTCSS Tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3339&amp;p=26589#p26589"><![CDATA[
+Interesting "feature" I found recently...<br><br>I was in "hurry up" mode, dumping in several new analog repeaters for an upcoming trip.   I mistakenly input by hand the wrong CTCSS tone (107.1 vs 107.2, and similar types of typos).<br><br>I have both an MD9600 and an MDUV380 using the same code plug.<br><br>When writing to the radio, I see the following:<br><br>1.  The MD-UV380 will "conform" the bad CTCSS entries to the correct one when the codeplug is written to the radio.<br>2.  The MD9600 will take them as-is and program them in as-is. (and of course, the repeater in accessible).<br><br>On the the MD9600, once you go to channel details and toggle it back and forth, it drops to the correct tone and you can re-save the entry.<br><br>Anyway - thought that behavior was worth reporting in.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3607">n4tii</a> — Thu Sep 28, 2023 3:01 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

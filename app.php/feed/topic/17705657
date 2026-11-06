@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1770" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-07-22T19:38:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1770</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-07-22T19:38:27</updated>
+
+		<published>2021-07-22T19:38:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1770&amp;p=15333#p15333</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1770&amp;p=15333#p15333"/>
+		<title type="html"><![CDATA[[HOWTO] Flash the OpenGD77 firmware (new procedure)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1770&amp;p=15333#p15333"><![CDATA[
+<span style="font-size:150%;line-height:116%"><strong class="text-strong">This procedure is valid for all the supported transceivers, regardless of the brand and model.</strong></span><br><br><span style="font-size:150%;line-height:116%"><strong class="text-strong">You <span style="text-decoration:underline">must </span>use this installation procedure</strong></span><br><br><ol style="list-style-type:decimal"><li> Install the <strong class="text-strong">latest</strong> CPS, available <a href="https://www.opengd77.com/viewforum.php?f=12" class="postlink">here</a></li><li> Check installation instruction <a href="https://www.opengd77.com/static/firmware_installation.php" class="postlink">here</a><br><em class="text-italics">you also have a dedicated button in the CPS's Firmware Loader window</em><div class="inline-attachment"><!-- ia0 -->flash_instructions.png<!-- ia0 --></div></li><li> As described in the installation instructions, download to your computer the Radioditty official firmware (<strong class="text-strong"><em class="text-italics">GD-77 Firmware V4.3.6 [Ham Version]</em></strong>).</li><li> Unzip the downloaded zip archive, then copy, somewhere on your hardrive (e.g. "<em class="text-italics">My Documents</em>"), the file <strong class="text-strong">GD-77_V4.3.6.sgl</strong>, located in "<em class="text-italics">Firmware software V4.3.6\</em>" sub-directory.<br><ul><li><span style="text-decoration:underline">This file has to remain in that location, as it will be re-used the next time you will flash another OpenGD77 firmware file.</span></li></ul></li><li>Start the CPS</li><li>In "<strong class="text-strong">Extras</strong>" menu, click on "<strong class="text-strong">Firmware loader</strong>" entry.</li><li>Click the "<em class="text-italics">Select Firmware v4.3.6</em>" button.<div class="inline-attachment"><!-- ia4 -->01-select_official_FW_button.png<!-- ia4 --></div></li><li>A file selection window will pop-up. Go to the location where you saved the <strong class="text-strong">GD-77_V4.3.6.sgl</strong> file, select it, click the "<em class="text-italics">Open</em>" button.<div class="inline-attachment"><!-- ia3 -->02-select_official_FW_file.png<!-- ia3 --></div></li><li>The software will check the SGL file validity, a "<strong class="text-strong">[+DMR]</strong>" text is now displayed in the Firmware Loader window title.<div class="inline-attachment"><!-- ia2 -->03-official_FW_validated.png<!-- ia2 --></div></li><li>Turn on your transceiver in bootloader mode (<strong class="text-strong">SK1</strong> + <strong class="text-strong">SK2</strong> + <strong class="text-strong">power on</strong>).<br><ul><li>The Green led lit up, the screen remains off (or black).</li></ul></li><li><span style="text-decoration:underline">Select the correct radio model</span>.</li><li>Now click on the "<em class="text-italics">Select a File &amp; Update</em>" button,<div class="inline-attachment"><!-- ia1 -->04-Select_a_bin_file.png<!-- ia1 --></div></li><li>A file selection window will pop-up, go and select the OpenGD77 firmware you want to flash (a .bin file).</li><li>The flashing procedure will start right after the OpenGD77 firmware file is selected.</li></ol><br><br><strong class="text-strong">Note</strong>: The next time you need to flash an OpenGD77 firmware, directly jump to <strong class="text-strong">10</strong>.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jul 22, 2021 7:38 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

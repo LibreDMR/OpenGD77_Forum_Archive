@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3900" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-22T12:47:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3900</id>
+
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2024-03-22T12:47:21</updated>
+
+		<published>2024-03-22T12:47:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30299#p30299</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30299#p30299"/>
+		<title type="html"><![CDATA[Re: Any Plans for CPS to Save Radio Settings?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30299#p30299"><![CDATA[
+Understood. Thanks for the clarification.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Fri Mar 22, 2024 12:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-22T02:43:12</updated>
+
+		<published>2024-03-22T02:43:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30286#p30286</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30286#p30286"/>
+		<title type="html"><![CDATA[Re: Any Plans for CPS to Save Radio Settings?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30286#p30286"><![CDATA[
+<blockquote class="uncited"><div>I'm new to OpenGD77 on a new TYT MD-UV390 and am loving the combination.  However, I did accidentally pressed SK2 while powering on and of course reset the FW and so all the radio settings.  That's when it dawned on me that there's nowhere in the CPS where radio settings are stored.  Am I missing something or is there another way to save the radio settings (display, sound, etc.)?  If not, is the OpenGD77 team planning on including that cape bility at some point in the future so we can backup the radio settings?</div></blockquote>This isn't practical because the settings format changes sometimes when the firmware is updated  to fix bugs and add new features. So to have a system to backup and restore the settings would need the CPS to be updated when the firmware was updated, and often people update the CPS and the firmware independently <br><br>And would also need to handle if the CPS settings version didn't match the firmware settings version and handle this error etc etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 22, 2024 2:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2024-03-22T02:11:44</updated>
+
+		<published>2024-03-22T02:11:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30284#p30284</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30284#p30284"/>
+		<title type="html"><![CDATA[Any Plans for CPS to Save Radio Settings?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3900&amp;p=30284#p30284"><![CDATA[
+I'm new to OpenGD77 on a new TYT MD-UV390 and am loving the combination.  However, I did accidentally pressed SK2 while powering on and of course reset the FW and so all the radio settings.  That's when it dawned on me that there's nowhere in the CPS where radio settings are stored.  Am I missing something or is there another way to save the radio settings (display, sound, etc.)?  If not, is the OpenGD77 team planning on including that cape bility at some point in the future so we can backup the radio settings?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Fri Mar 22, 2024 2:11 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

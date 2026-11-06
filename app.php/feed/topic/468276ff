@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4682" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-22T06:48:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4682</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-22T06:48:19</updated>
+
+		<published>2024-12-22T06:48:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34868#p34868</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34868#p34868"/>
+		<title type="html"><![CDATA[Re: Distance Information Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34868#p34868"><![CDATA[
+<blockquote class="uncited"><div>I apologize for not explaining it very well. If a video would be helpful, let me know and I'll make one. I'm using a radio installed in my shack and it doesn't have GPS, so showing cached distances certainly isn't an issue for me. I can see however how mobile units with GPS enabled really complicates things.</div></blockquote>Fix for this will be in the next Beta<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 22, 2024 6:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-12-22T06:32:32</updated>
+
+		<published>2024-12-22T06:32:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34867#p34867</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34867#p34867"/>
+		<title type="html"><![CDATA[Re: Distance Information Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34867#p34867"><![CDATA[
+I apologize for not explaining it very well. If a video would be helpful, let me know and I'll make one. I'm using a radio installed in my shack and it doesn't have GPS, so showing cached distances certainly isn't an issue for me. I can see however how mobile units with GPS enabled really complicates things.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Sun Dec 22, 2024 6:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-21T08:46:34</updated>
+
+		<published>2024-12-21T08:46:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34851#p34851</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34851#p34851"/>
+		<title type="html"><![CDATA[Re: Distance Information Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34851#p34851"><![CDATA[
+I've had a look at this and its definitely a bug, but its a not quite what I thought you had described.<br><br>What appears to be happening, is if the scanning holds on a channel its not calculating the distance to that repeater, its displaying the last distance that was calculated to a repeater<br><br>e.g. If you start on Channel 1 and its distance is 10.5km  and then start scanning.  When the scan holds on a channel because of a signal, the distance that is displayed to that Channel is show as 10.5km even if the distance to the repeater is not 10.5km,  i.e its using the cached distance<br><br>I will investigate and fix this problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 21, 2024 8:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-20T23:26:36</updated>
+
+		<published>2024-12-20T23:26:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34835#p34835</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34835#p34835"/>
+		<title type="html"><![CDATA[Re: Distance Information Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34835#p34835"><![CDATA[
+<blockquote class="uncited"><div>I know this isn't particularly important but I figured I'd throw this out there just as a FYI.<br><br>I have a zone full of ham repeaters, hit scan and it stops on a ham repeater. The distance says "--- km". The radio is set to scan mode: hold and roaming is set to off. I turn the knob to the left to stop the scanning and the distance "xx.x km" appears (sometimes I have to turn left again to the previous channel and then turn right to get back on the channel with traffic for the distance appears - it's a little inconsistent). I hit scan again, then turn the knob to the right to move on scanning the rest of the zone. If the radio doesn't pick up any traffic on other channels and ends up stopping again on the same channel, the distance will appear, but if it stops on another active channel it sometimes shows the distance, but usually reverts back to "--- km". There seems to be a time component here, sort of how long the radio has been scanning since last displaying a repeater's distance.<br><br>Normally I try to write bug reports or feed back with reproducible steps since it's really hard for the code slingers to decipher what's going on, but man, this one is kinda wonky.<br><br>Argh, of course after typing all that out, I now see that I have the 20241212 firmware and there's now a 20241215 version. I'll get the radio updated and try again.</div></blockquote>OK<br><br>So basically I think what you are saying is that the distance is not showing during scaning, even when it holds on a channel.<br><br>I will need to look at the code, but if this is the case, I think what is probably happening is that the distance calculation is disabled during scanning, as its quite processor intensive and not necessary for it to calculate the distance multiple times per second as each channel is loaded and the RSSI/SN check to see if there is a signal.<br><br>But... If the scanning holds on a channel, or the operator exists from the scan, then the distance should be displayed, and it sounds like this is not happening.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 20, 2024 11:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-12-20T22:26:13</updated>
+
+		<published>2024-12-20T22:26:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34834#p34834</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34834#p34834"/>
+		<title type="html"><![CDATA[Re: Distance Information Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34834#p34834"><![CDATA[
+I know this isn't particularly important but I figured I'd throw this out there just as a FYI.<br><br>I have a zone full of ham repeaters, hit scan and it stops on a ham repeater. The distance says "--- km". The radio is set to scan mode: hold and roaming is set to off. I turn the knob to the left to stop the scanning and the distance "xx.x km" appears (sometimes I have to turn left again to the previous channel and then turn right to get back on the channel with traffic for the distance appears - it's a little inconsistent). I hit scan again, then turn the knob to the right to move on scanning the rest of the zone. If the radio doesn't pick up any traffic on other channels and ends up stopping again on the same channel, the distance will appear, but if it stops on another active channel it sometimes shows the distance, but usually reverts back to "--- km". There seems to be a time component here, sort of how long the radio has been scanning since last displaying a repeater's distance.<br><br>Normally I try to write bug reports or feed back with reproducible steps since it's really hard for the code slingers to decipher what's going on, but man, this one is kinda wonky.<br><br>Argh, of course after typing all that out, I now see that I have the 20241212 firmware and there's now a 20241215 version. I'll get the radio updated and try again.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Fri Dec 20, 2024 10:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-12-16T06:08:18</updated>
+
+		<published>2024-12-16T06:08:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34711#p34711</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34711#p34711"/>
+		<title type="html"><![CDATA[Distance Information Display]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4682&amp;p=34711#p34711"><![CDATA[
+Am I crazy, or in the past was it possible to see the repeater distance when you hit the P2 (SK1) button when the option to display the distance in the settings was set to off? I used to have the display distance set to off since the most of the zones had names which encroached on the ability to display the distance, so I'd just hit P2 to see how far away the repeater was if I was interested.<br><br>I also noticed that when scanning, with display distance turned on, the radio stops for a transmission and shows "--" for distance unless you stop the scan, then the distance immediately appears. I unfortunately don't recall if this is a new phenomenon or if it's always been that way, but I figured I mention it just in case it was new and unintentional.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Mon Dec 16, 2024 6:08 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

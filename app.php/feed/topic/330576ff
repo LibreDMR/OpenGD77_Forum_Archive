@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3305" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-20T13:21:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3305</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-20T13:21:00</updated>
+
+		<published>2023-09-20T13:21:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26414#p26414</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26414#p26414"/>
+		<title type="html"><![CDATA[Re: A way to convert official codeplug to GD77 format?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26414#p26414"><![CDATA[
+OpenGD77-CSV has been removed because the OpenGD77 CPS now  has that function. <br><br>I never wrote a MDUV380-CSV but there is one for the MD9600 which should at least partially work with the UV380.  <br><br>You will always have to do some manual editing though because the codeplug structure is different. For example the original firmware had A and B parts for each zone. openGD77 does not use these. <br><br>I would still recommend writing a new codeplug from scratch to make best use of the OpenGD77 features. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Sep 20, 2023 1:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2023-09-20T12:06:05</updated>
+
+		<published>2023-09-20T12:06:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26412#p26412</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26412#p26412"/>
+		<title type="html"><![CDATA[Re: A way to convert official codeplug to GD77 format?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26412#p26412"><![CDATA[
+I am afraid it will not be straightforward, at least this was my case with RT3s radio which I guess has the same CPS software as MD-UV380. I have tried several ways, but in the end I had to do some conversion manually. <br><br>What should work and I did when changing the firmware from stock some months back:<ul><li> Download the codeplug from your radio in stock CPS software before converting the radio to OpenGD77. Save it somewhere, and in the contacts and channels entries, it should be possible to export the zones, channels and contacts into CSV files. This can be partially done in stock CPS, or there are external tools which generate the CSV files from the .rdt file.</li> <li> Create an empty codeplug (or one with some sample DMR and FM channels) in OpenGD77 CPS and use CSV export to create base files for it, copy and paste relevant columns from exported CSV files to the empty ones (and adapt them when necessary).</li><li> Import the files back into the CPS (keep the fingers crossed there is no import error)</li><li> Optionally back up the contents of the flash memory from the original radio just after the upgrade before changing anything.</li><li> Only when this is all done upload the new codeplug and contacts to the radio with OpenGD77 firmware.</li></ul>I have tried to use tools such as qdmr, but was not successful. Also, there is a set of tools from GB3GF (e.g. MD380-CSV.zip), there was one (now not listed on his site), there was a utility from @G4EML called <a href="https://www.opengd77.com/viewtopic.php?f=7&amp;t=1372" class="postlink">OpenGD77-CSV.zip </a> but the functionality should be inside the CSV import in CPS now so probably because of that it was taken down. But I was not able to make working CSV files to be imported into CPS with either. <br><br>Maybe somebody can suggest a better way if you want to keep just your codeplug and not download the channels from external source?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Wed Sep 20, 2023 12:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP2WLF]]></name></author>
+		<updated>2023-09-20T11:11:43</updated>
+
+		<published>2023-09-20T11:11:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26402#p26402</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26402#p26402"/>
+		<title type="html"><![CDATA[A way to convert official codeplug to GD77 format?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3305&amp;p=26402#p26402"><![CDATA[
+Hey There, Jake SP2WLF here!<br><br>I'm planning for some time to flash OpenGD77 firmware to the TYT MD-UV380 radio. I know every pros/cons about it. Studied whole manua? on github and all seems nice and easy to understand.<br><br>But my biggest concern is converting stock codeplug to the OpenGD format<br>In stock cp I have over 300 channels,  many many talkgroups, over 5000 contacts.<br><br>Is there an easy way to convert stock(official) codeplug to the OpenGD format? I was making the codeplug for over 2 years, adding new channels, new talkgroups. I don't wanna do IT from scratch once more.<br><br>Thanks for the answers to!<br>Regards, Jake<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4526">SP2WLF</a> — Wed Sep 20, 2023 11:11 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

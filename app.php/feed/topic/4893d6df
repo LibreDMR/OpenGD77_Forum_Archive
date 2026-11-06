@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4893" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-19T22:37:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4893</id>
+
+		<entry>
+		<author><name><![CDATA[PU1JLA]]></name></author>
+		<updated>2025-02-19T22:37:40</updated>
+
+		<published>2025-02-19T22:37:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35845#p35845</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35845#p35845"/>
+		<title type="html"><![CDATA[Re: Escribir simbolo (-) en coordenadas opengd77 baofeng 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35845#p35845"><![CDATA[
+Down arrow.<br>SK2 + arrow to change east/west.<br><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4404">PU1JLA</a> — Wed Feb 19, 2025 10:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3V]]></name></author>
+		<updated>2025-02-19T21:44:48</updated>
+
+		<published>2025-02-19T21:44:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35843#p35843</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35843#p35843"/>
+		<title type="html"><![CDATA[Re: Escribir simbolo (-) en coordenadas opengd77 baofeng 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35843#p35843"><![CDATA[
+En el manual oficial tienes la respuesta.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#location-screen" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ion-screen</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4014">EA3V</a> — Wed Feb 19, 2025 9:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[XE1JMB]]></name></author>
+		<updated>2025-02-19T19:29:34</updated>
+
+		<published>2025-02-19T19:29:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35840#p35840</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35840#p35840"/>
+		<title type="html"><![CDATA[Escribir simbolo (-) en coordenadas opengd77 baofeng 1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4893&amp;p=35840#p35840"><![CDATA[
+Alguien sabe como poner coordenadas en negativo para poder ingresar correctamente mi ubicación en el Baofeng 1701?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7986">XE1JMB</a> — Wed Feb 19, 2025 7:29 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

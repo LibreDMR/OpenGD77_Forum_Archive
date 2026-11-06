@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5156" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-08T17:33:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5156</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-08T17:33:41</updated>
+
+		<published>2025-06-08T17:33:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37422#p37422</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37422#p37422"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37422#p37422"><![CDATA[
+The side tone through the speaker is not the same as the transmitted tone, it is generated separately.  The hardware doesn't allow the transmitted audio to be sent to the speaker.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jun 08, 2025 5:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-08T16:47:54</updated>
+
+		<published>2025-06-08T16:47:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37421#p37421</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37421#p37421"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37421#p37421"><![CDATA[
+<blockquote class="uncited"><div>Interesting:<br><br>1740Hz come from the speaker of the TX device.<br>1750Hz come from the speaker of a second receiver.<br><br>73 Alfred OE7ABH</div></blockquote>Haven't tried yet to open any repeater with the new radio as most of our repeaters use subtone now. <br>But I will try to find one that use 1750<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jun 08, 2025 4:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-06-08T16:24:37</updated>
+
+		<published>2025-06-08T16:24:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37420#p37420</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37420#p37420"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37420#p37420"><![CDATA[
+Interesting:<br><br>1740Hz come from the speaker of the TX device.<br>1750Hz come from the speaker of a second receiver.<br><br>73 Alfred OE7ABH<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Sun Jun 08, 2025 4:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-08T15:03:28</updated>
+
+		<published>2025-06-08T15:03:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37418#p37418</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37418#p37418"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37418#p37418"><![CDATA[
+<blockquote class="uncited"><div>From memory the 1750Hz tone was set to 50% system deviation, like the DTMF tones.  About 1.25KHz on narrow and about 2.5kHz on wide.  So it sounds like it is working as intended. <br><br>Colin G4EML</div></blockquote>Good to know.<br><br>My issue has been my V2 radio that seems to be much narrower on both RX and TX.<br>On RX I had problems with clipping when I had both squelch and RX subtone.<br>It got better when I used 0% squelch and relied on the subtone.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jun 08, 2025 3:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-08T14:22:10</updated>
+
+		<published>2025-06-08T14:22:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37414#p37414</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37414#p37414"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37414#p37414"><![CDATA[
+From memory the 1750Hz tone was set to 50% system deviation, like the DTMF tones.  About 1.25KHz on narrow and about 2.5kHz on wide.  So it sounds like it is working as intended. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jun 08, 2025 2:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-08T06:51:25</updated>
+
+		<published>2025-06-08T06:51:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37412#p37412</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37412#p37412"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37412#p37412"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello,<br><br>The frequency counter shows 1740 Hz, which is 10 Hz too low.<br><br>But I think the sound isn't modulated enough, which is why the repeaters can't be opened. It's noticeable that this only affects brand-new devices with V5 firmware!<br><br>73 Alfred OE7ABH</div></blockquote>I made a quick test on my newly arrived V5 radio which is still running factory firmware ( S126.061 ) by connecting demodulated output from <br>my Marconi TF2304 deviation meter to a frequency counter.<br>( Have never tried that before so I hope it's the right way to do it )   <br><br>The tone was 1751 Hz and and I also noticed that the deviation was 2 kHz for a NFM channel and 4 kHz for FM, so it seems fine with factory<br>firmware.<br>I also compared with my V2 radio running latest OpenGD77 and 1750 Hz was within a Hz or so but the deviation was lower, NFM 1.5 kHz &amp; 2 kHz on FM, the deviation on speech is lower than expected. <br><br>I will redo the tests when I moved over to OpenGD77 on the V5 radio.</div></blockquote>Radio is now upgraded to OpenGD77 20250323 V5<br><br>1750 Hz is almost spot on on the counter , tone deviation is lower than factory firmware: NFM 1.5 kHz &amp; FM 2 kHz which is similar to my V2<br>but speech deviation is wider than my V2 and similar to the V5 factory firmware ( around 2.5 kHZ NFM and 4 kHz FM )<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jun 08, 2025 6:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-07T11:57:11</updated>
+
+		<published>2025-06-07T11:57:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37400#p37400</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37400#p37400"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37400#p37400"><![CDATA[
+<blockquote class="uncited"><div>Hello,<br><br>The frequency counter shows 1740 Hz, which is 10 Hz too low.<br><br>But I think the sound isn't modulated enough, which is why the repeaters can't be opened. It's noticeable that this only affects brand-new devices with V5 firmware!<br><br>73 Alfred OE7ABH</div></blockquote>I made a quick test on my newly arrived V5 radio which is still running factory firmware ( S126.061 ) by connecting demodulated output from <br>my Marconi TF2304 deviation meter to a frequency counter.<br>( Have never tried that before so I hope it's the right way to do it )   <br><br>The tone was 1751 Hz and and I also noticed that the deviation was 2 kHz for a NFM channel and 4 kHz for FM, so it seems fine with factory<br>firmware.<br>I also compared with my V2 radio running latest OpenGD77 and 1750 Hz was within a Hz or so but the deviation was lower, NFM 1.5 kHz &amp; 2 kHz on FM, the deviation on speech is lower than expected. <br><br>I will redo the tests when I moved over to OpenGD77 on the V5 radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 07, 2025 11:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-06-07T09:52:25</updated>
+
+		<published>2025-06-07T09:52:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37397#p37397</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37397#p37397"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37397#p37397"><![CDATA[
+Hello,<br><br>The frequency counter shows 1740 Hz, which is 10 Hz too low.<br><br>But I think the sound isn't modulated enough, which is why the repeaters can't be opened. It's noticeable that this only affects brand-new devices with V5 firmware!<br><br>73 Alfred OE7ABH<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Sat Jun 07, 2025 9:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F4LBY]]></name></author>
+		<updated>2025-06-05T17:06:43</updated>
+
+		<published>2025-06-05T17:06:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37382#p37382</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37382#p37382"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37382#p37382"><![CDATA[
+Hello, <br><br>About the 1750Hz check it with a sound analyzer like spectroid, in my case it's not 1750 but lower which is not handled by the reapeater.<br><br>Regards.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7924">F4LBY</a> — Thu Jun 05, 2025 5:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-06-03T07:47:22</updated>
+
+		<published>2025-06-03T07:47:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37354#p37354</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37354#p37354"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37354#p37354"><![CDATA[
+Thanks Colin,<br><br>The display is now correct.<br>I've deleted this entry in the CPS (Codeplug from MD9600):<br><a href="http://tyrofly.at/forum/Codeplug_MD9600.jpg" class="postlink">http://tyrofly.at/forum/Codeplug_MD9600.jpg</a><br><br>The 1750Hz tone is still too quiet, however, and the FM repeater cannot be opened. All devices are brand new, directly from China.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Tue Jun 03, 2025 7:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-03T07:19:54</updated>
+
+		<published>2025-06-03T07:19:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37353#p37353</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37353#p37353"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37353#p37353"><![CDATA[
+<blockquote class="uncited"><div>Hi Colin,<br><br>I've loaded the contact list onto the TYT MD9600 PLUS device.<br>The call sign and ID are correct!<br><br><a href="https://www.tyrofly.at/forum/contact_list.jpg" class="postlink">https://www.tyrofly.at/forum/contact_list.jpg</a><br><br>When I transmit with my RT3s with TG9 and receive with the MD9600, this display appears:<br><img src="https://www.tyrofly.at/forum/Simplex.png" class="postimage" alt="Image"><br><br>73 Alfred, OE7ABH</div></blockquote>My md9600 is displaying my callsign etc correctly <br><br>Try doing a setting reset<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jun 03, 2025 7:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-06-03T07:02:16</updated>
+
+		<published>2025-06-03T07:02:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37352#p37352</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37352#p37352"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37352#p37352"><![CDATA[
+Hi Colin,<br><br>I've loaded the contact list onto the TYT MD9600 PLUS device.<br>The call sign and ID are correct!<br><br><a href="https://www.tyrofly.at/forum/contact_list.jpg" class="postlink">https://www.tyrofly.at/forum/contact_list.jpg</a><br><br>When I transmit with my RT3s with TG9 and receive with the MD9600, this display appears:<br><img src="https://www.tyrofly.at/forum/Simplex.png" class="postimage" alt="Image"><br><br>73 Alfred, OE7ABH<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Tue Jun 03, 2025 7:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-02T21:14:13</updated>
+
+		<published>2025-06-02T21:14:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37344#p37344</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37344#p37344"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37344#p37344"><![CDATA[
+Regarding the PC display. The radio should be looking up your ID number in its contacts list and displaying whatever is entered. Check the contacts list on your radio, it may have 'PC' in the contact name. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Jun 02, 2025 9:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-06-02T20:44:52</updated>
+
+		<published>2025-06-02T20:44:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37340#p37340</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37340#p37340"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37340#p37340"><![CDATA[
+Unfortunately the 1750Hz sound is too quiet!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Mon Jun 02, 2025 8:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-02T19:15:02 </updated>
+
+		<published>2025-06-02T19:13:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37338#p37338</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37338#p37338"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD9600 PLUS - 1750Hz Tone is quiet - DMR Display ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5156&amp;p=37338#p37338"><![CDATA[
+If it's V5 (latest) hardware you can't use other HW versions as they have different circuits for PLL and IF circuits.<br><br>I'm waiting for another MD-9600 from Aliexpress which will be interesting to test, I'm running on a V2 now.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Jun 02, 2025 7:13 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3338" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-10-07T02:35:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3338</id>
+
+		<entry>
+		<author><name><![CDATA[BI8DHC]]></name></author>
+		<updated>2023-10-07T02:35:18</updated>
+
+		<published>2023-10-07T02:35:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26736#p26736</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26736#p26736"/>
+		<title type="html"><![CDATA[Re: BootItem Error in chinese language]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26736#p26736"><![CDATA[
+<blockquote class="uncited"><div>There's some wrong with Chinese.xml<br>You can change <strong class="text-strong">BootScreenForm</strong> to <strong class="text-strong">BootItemForm</strong>, <strong class="text-strong">BootScreen</strong> to <strong class="text-strong">BootItem</strong>.<br>Then is works.<br><br>bootitem.png</div></blockquote>thanks is work<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4373">BI8DHC</a> — Sat Oct 07, 2023 2:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-28T21:18:58</updated>
+
+		<published>2023-09-28T21:18:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26593#p26593</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26593#p26593"/>
+		<title type="html"><![CDATA[Re: BootItem Error in chinese language]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26593#p26593"><![CDATA[
+This will be fixed in the next release<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 28, 2023 9:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD7PKR]]></name></author>
+		<updated>2023-09-28T08:35:47</updated>
+
+		<published>2023-09-28T08:35:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26587#p26587</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26587#p26587"/>
+		<title type="html"><![CDATA[Re: BootItem Error in chinese language]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26587#p26587"><![CDATA[
+There's some wrong with Chinese.xml<br>You can change <strong class="text-strong">BootScreenForm</strong> to <strong class="text-strong">BootItemForm</strong>, <strong class="text-strong">BootScreen</strong> to <strong class="text-strong">BootItem</strong>.<br>Then is works.<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1912&amp;sid=b8cdc321728087b9bcd5691e321beef5" class="postimage" alt="bootitem.png" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4423">BD7PKR</a> — Thu Sep 28, 2023 8:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-28T06:50:30</updated>
+
+		<published>2023-09-28T06:50:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26586#p26586</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26586#p26586"/>
+		<title type="html"><![CDATA[Re: BootItem Error in chinese language]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26586#p26586"><![CDATA[
+Probably something missing from the language XML file<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 28, 2023 6:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BI8DHC]]></name></author>
+		<updated>2023-09-28T06:36:16</updated>
+
+		<published>2023-09-28T06:36:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26585#p26585</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26585#p26585"/>
+		<title type="html"><![CDATA[BootItem Error in chinese language]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3338&amp;p=26585#p26585"><![CDATA[
+select setting-&gt;boot screen will an error in chinese language<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1910&amp;sid=b8cdc321728087b9bcd5691e321beef5" class="postimage" alt="2.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1911&amp;sid=b8cdc321728087b9bcd5691e321beef5" class="postimage" alt="3.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4373">BI8DHC</a> — Thu Sep 28, 2023 6:36 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

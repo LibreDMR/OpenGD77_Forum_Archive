@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4254" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-14T12:54:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4254</id>
+
+		<entry>
+		<author><name><![CDATA[HB9TCT]]></name></author>
+		<updated>2024-08-14T12:54:46</updated>
+
+		<published>2024-08-14T12:54:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32503#p32503</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32503#p32503"/>
+		<title type="html"><![CDATA[Re: crackling noise in the speaker]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32503#p32503"><![CDATA[
+Hello,<br><br>I can confirm this<br>I use a mmdvm hs dual hat with firmware 1.6.1<br>The computer is a raspberry 3b+<br>I don't want simplex, I want both time slots  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> <br><br>Best regards<br>es73<br><br>Hb9tct<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6547">HB9TCT</a> — Wed Aug 14, 2024 12:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ec5zy]]></name></author>
+		<updated>2024-08-10T12:29:48</updated>
+
+		<published>2024-08-10T12:29:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32443#p32443</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32443#p32443"/>
+		<title type="html"><![CDATA[Re: crackling noise in the speaker]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32443#p32443"><![CDATA[
+It is an unpleasant noise that blocks reception. I see it in several on md9600 and rt3s along with duplex hotspot. in simplex it works OK. Indeed, pressing PTT or changing the channel solves it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4772">ec5zy</a> — Sat Aug 10, 2024 12:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB9TCT]]></name></author>
+		<updated>2024-07-18T12:02:52</updated>
+
+		<published>2024-07-18T12:02:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32177#p32177</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32177#p32177"/>
+		<title type="html"><![CDATA[crackling noise in the speaker]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4254&amp;p=32177#p32177"><![CDATA[
+Hello,<br><br>i use an TYT MD-9600 with latest Open GD77 firmware.<br><br>The only problem is that I occasionally hear a crackling noise in the speaker.<br>After briefly pressing PTT it synchronizes immediately and the reception is OK again.<br><br>the connection is to a Hotspot MMDVM_HS_Dual_Hat (MMDVM) WPSD<br><br>Who knows this?<br><br>Thanks<br><br>Best Regards<br><br>Leo, HB9TCT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6547">HB9TCT</a> — Thu Jul 18, 2024 12:02 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

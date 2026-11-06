@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4993" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-23T05:54:50</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4993</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-23T05:54:50</updated>
+
+		<published>2025-03-23T05:54:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4993&amp;p=36372#p36372</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4993&amp;p=36372#p36372"/>
+		<title type="html"><![CDATA[New MD-9600/RT-90 Beta version 2025 03 23.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4993&amp;p=36372#p36372"><![CDATA[
+<ul><li> Reapply CSS RX once the DTMF sequence has ended.</li><li> Take care of RD5R display buffer height (48 vs 64 on MK22 platforms).</li><li> Screengrabber Python script takes care of RD5R screen size too.  <ul>  <li> available at <a href="https://drive.proton.me/urls/K2TF5ZCQJ8#NhIcfp2oKy0R" class="postlink">https://drive.proton.me/urls/K2TF5ZCQJ8#NhIcfp2oKy0R</a>.</li>  </ul></li><li> Add GPS support for RD5R platform.  <ul>  <li> NOTE: the RSSI screen <strong class="text-strong">doesn't</strong> display the sat's number, as there is no room for this on screen.</li>  </ul></li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/C3MS9A7SBR#fMg7p9SGnrcP" class="postlink">https://drive.proton.me/urls/C3MS9A7SBR#fMg7p9SGnrcP</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/CT7Y3QE8CC#ivbPuzbV8ty1" class="postlink">https://drive.proton.me/urls/CT7Y3QE8CC#ivbPuzbV8ty1</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/03/23. See the CPS section <a href="https://www.opengd77.com/viewforum.php?f=12" class="postlink">viewforum.php?f=12</a><br><br>For translators, the on-screen texts, voice prompts CSV are located at: <a href="https://drive.proton.me/urls/AFEPKF84F4#2ltiJXlnndiy" class="postlink">https://drive.proton.me/urls/AFEPKF84F4#2ltiJXlnndiy</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 23, 2025 5:54 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1848" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-09-20T06:11:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1848</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-09-20T06:11:18</updated>
+
+		<published>2021-09-20T06:11:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15882#p15882</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15882#p15882"/>
+		<title type="html"><![CDATA[Re: RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15882#p15882"><![CDATA[
+<blockquote class="uncited"><div>Welcome Roger!<br>My name is Zsolt.<br>Private person. Electric engineer.<br>I don't trade at all. I radio with my family and some friends.<br><a href="mailto:reti.zsolt@gmail.com">reti.zsolt@gmail.com</a><br><br>Thank you for your work here too!<br>Have a nice weekend!<br>Zsolt</div></blockquote>I'm not sure why you want an electrical indication that the radio is receiving, but you could download the source code from <a href="https://www.opengd77.com/downloads/releases/R2021071101/sources_and_tools/" class="postlink">https://www.opengd77.com/downloads/rele ... and_tools/</a><br><br>And either change the code to log things out to the USB port, i.e USB serial print<br><br>There is debug functionality in usb_com.c <br><br>USB_DEBUG_printf()<br><br>Which could be used for that purpose<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 20, 2021 6:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Fecskebeka]]></name></author>
+		<updated>2021-09-19T08:31:44</updated>
+
+		<published>2021-09-19T08:31:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15875#p15875</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15875#p15875"/>
+		<title type="html"><![CDATA[Re: RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15875#p15875"><![CDATA[
+Welcome Roger!<br>My name is Zsolt.<br>Private person. Electric engineer.<br>I don't trade at all. I radio with my family and some friends.<br><a href="mailto:reti.zsolt@gmail.com">reti.zsolt@gmail.com</a><br><br>Thank you for your work here too!<br>Have a nice weekend!<br>Zsolt<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1771">Fecskebeka</a> — Sun Sep 19, 2021 8:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-09-18T21:18:54</updated>
+
+		<published>2021-09-18T21:18:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15870#p15870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15870#p15870"/>
+		<title type="html"><![CDATA[Re: RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15870#p15870"><![CDATA[
+<blockquote class="uncited"><div>Hi!<br>Thank you very much for the detailed professional post !!<br><br>If the green LED really only indicated when the amp was open. It could be used. Too bad you can't set how it works.<br>But I also miss the busy frequency TX transmission avoidance setting also "Busy Channel Lock". The green LED now also indicates.<br>(The boys did fantastic things. But they're missing some basic features now. They're useful! Of course I understand.)<br><br>I don't know the detailed operating world of the MK22 CPU. To the Data + or Data- output connector, is it possible to superimpose this enabling MCU signal with components? With impunity!<br>  Without interfering with USB communication. Firmware, ... downloading, ...<br><br>This could be a problem in hotspot mode.<br><br>Thanks again!</div></blockquote><br>I think this has been asked before.<br><br>But do you have a Ham radio callsign. Its site policy for all ham radio operators to use their callsign as their username on this site.<br><br>If you are not Ham radio operator, please let us know the nature of use of the firmware, as there are some license conditions e.g. commercial use is not allowed under any conditions<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 18, 2021 9:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Fecskebeka]]></name></author>
+		<updated>2021-09-18T09:18:55</updated>
+
+		<published>2021-09-18T09:18:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15864#p15864</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15864#p15864"/>
+		<title type="html"><![CDATA[Re: RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15864#p15864"><![CDATA[
+Hi!<br>Thank you very much for the detailed professional post !!<br><br>If the green LED really only indicated when the amp was open. It could be used. Too bad you can't set how it works.<br>But I also miss the busy frequency TX transmission avoidance setting also "Busy Channel Lock". The green LED now also indicates.<br>(The boys did fantastic things. But they're missing some basic features now. They're useful! Of course I understand.)<br><br>I don't know the detailed operating world of the MK22 CPU. To the Data + or Data- output connector, is it possible to superimpose this enabling MCU signal with components? With impunity!<br>  Without interfering with USB communication. Firmware, ... downloading, ...<br><br>This could be a problem in hotspot mode.<br><br>Thanks again!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1771">Fecskebeka</a> — Sat Sep 18, 2021 9:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UA0LMC]]></name></author>
+		<updated>2021-09-17T16:19:36</updated>
+
+		<published>2021-09-17T16:19:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15858#p15858</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15858#p15858"/>
+		<title type="html"><![CDATA[Re: RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15858#p15858"><![CDATA[
+<blockquote class="uncited"><div>I think the candidate is an Amp IC.<br>The detail just can't be read in the picture. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"></div></blockquote>An audio power amp IC outlined on the photo is a clone of tda2822 (at least that's what in my dm1801).<br> <br>This IC is powered only when the speaker is active - i.e. when radio beeps, plays voice prompts, DMR RX, open squelch etc. It should be (and as far as I checked it is) powered off in any other condition, mainly for power saving reasons. The power-off delay I observed is almost none (definitely much less than a second).<br><br>The power (about 8V DC, or whatever your battery voltage is) is fed to the IC pin2 from the drain of a P-channel MOSFET (presumably ao3401) located right of the IC, which is driven by a smaller transistor slightly below (the one under the red outline), which in turn is presumably driven directly from the MCU.<br><br>So, you can get the signal from the IC pin2 or from MOSFET drain (they are connected), whichever is easier for you to tap. Make sure to limit the voltage and/or the current to your device (in most cases a single 4.7k to 10k resistor should suffice, but your mileage may vary). Of course you can tap to a smaller transistor - but I think a dead MOSFET or dead audio amp is much better than a dead MCU in case something goes wrong =)<br><br><blockquote class="uncited"><div>How cool it would be if you showed up at Data+ or Data-</div></blockquote>No, you can't.<br>According to MK22FN512 datasheet USB0_DM and USB0_DP pins are not configurable. Maybe it's still possible to use some dirty hack - but I doubt it makes any sense.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1163">UA0LMC</a> — Fri Sep 17, 2021 4:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-09-16T21:19:49</updated>
+
+		<published>2021-09-16T21:19:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15851#p15851</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15851#p15851"/>
+		<title type="html"><![CDATA[Re: RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15851#p15851"><![CDATA[
+Check the MK22 CPU data sheet but AFIK the USB connection can NOT be reconfigured to do anything except USB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 16, 2021 9:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Fecskebeka]]></name></author>
+		<updated>2021-09-16T19:49:00</updated>
+
+		<published>2021-09-16T19:49:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15850#p15850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15850#p15850"/>
+		<title type="html"><![CDATA[Re: RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15850#p15850"><![CDATA[
+Thanks for the tips!<br><br>A green led is not a good solution. Flashes even when there is no amp opening.<br>But a color-filtered Opto coupler could be good then. <br>A cumbersome, non-sophisticated solution<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1310&amp;sid=c8542c7f5ba8c0b8013a0d435165123d" class="postimage" alt="BF_amp3.jpg" onclick="viewableArea(this);" /></dt></dl></div>Photo taken by a team member.<br>I think the candidate is an Amp IC.<br>The detail just can't be read in the picture. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><br><br>How cool it would be if you showed up at Data+ or Data-<br>(When there is no Hotspot mode)<br>It would be accessible from any radio without the house being dismantled<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1311&amp;sid=c8542c7f5ba8c0b8013a0d435165123d" class="postimage" alt="progcable.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1771">Fecskebeka</a> — Thu Sep 16, 2021 7:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-09-15T22:06:58</updated>
+
+		<published>2021-09-15T22:06:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15829#p15829</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15829#p15829"/>
+		<title type="html"><![CDATA[Re: RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15829#p15829"><![CDATA[
+You won't be able to read anything from the display, as its a bitmap data stream<br><br>Depending on what radio you have, e.g. GD77 or DM1801, etc , you could solder a wire to the speaker enable pin on the audio amplier chip or on the DM1801 / RD5R there is a transistor that controls the audio amplifier chip.<br><br>Or solder a wire to the green LED on the PCB<br><br>We don't have any PCB layout information etc, so you'll need to find these points youself. The green LED is probably the easiest to find.<br>The audio amp chip is also not hard to find either<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 15, 2021 10:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Fecskebeka]]></name></author>
+		<updated>2021-09-15T21:01:04</updated>
+
+		<published>2021-09-15T21:01:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15828#p15828</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15828#p15828"/>
+		<title type="html"><![CDATA[RX status sign point]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1848&amp;p=15828#p15828"><![CDATA[
+Hi guys!<br><br>In the DM-1801 radio ...<br>Can someone show me in a photo where to read the RX active reception status on the panel as an electrical logic signal?<br>Logical point (s) that start the speaker drive output stage.<br>(perhaps not fully integrated).<br><br>In advance Thanks for the information, help!<br>All the best!<br>Zsolt<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1771">Fecskebeka</a> — Wed Sep 15, 2021 9:01 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

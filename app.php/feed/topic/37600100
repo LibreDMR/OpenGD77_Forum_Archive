@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3760" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-13T08:39:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3760</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-13T08:39:14</updated>
+
+		<published>2024-02-13T08:39:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29490#p29490</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29490#p29490"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29490#p29490"><![CDATA[
+<blockquote class="uncited"><div>When I had the Marconi SG running I made some RSSI tests on my RT3's and MD9600 too.<br><br><a href="https://www.sa0bux.se/Ham/opengd77/OpenGD77_RSSI_tests.xlsx" class="postlink">https://www.sa0bux.se/Ham/opengd77/Open ... tests.xlsx</a></div></blockquote>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Feb 13, 2024 8:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-02-13T08:29:58</updated>
+
+		<published>2024-02-13T08:29:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29489#p29489</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29489#p29489"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29489#p29489"><![CDATA[
+When I had the Marconi SG running I made some RSSI tests on my RT3's and MD9600 too.<br><br><a href="https://www.sa0bux.se/Ham/opengd77/OpenGD77_RSSI_tests.xlsx" class="postlink">https://www.sa0bux.se/Ham/opengd77/Open ... tests.xlsx</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Feb 13, 2024 8:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh2fhj]]></name></author>
+		<updated>2024-02-11T20:15:39</updated>
+
+		<published>2024-02-11T20:15:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29434#p29434</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29434#p29434"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29434#p29434"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Also, the singnal bar meter doesn't follow any standard, s1 should be -121 and with official standard 6db between s units. Japanese radios uses 3db between s-units. Usually s meters are off by quite a lot, but this graf jump around a lot. Like -121 is something like 1.5s units and -114 is 4 s units so the scale is more like closer to 2db s unit <br><br>If it's something easy to change, I propose to go with -121 as s1 and then use either the Japan stand ( yaesu, icom etz) and go by 3db s unit steps or by the official standard 6db a s unit. Bought have their sides, if you're used to japanese radios you feel like the singnal meter doesn't move enough. And if you're used to other radios you feel like the s meter is moving too much</div></blockquote>From what I can remember there is no definitive standard for  RSSI -&gt; S meter mapping <br>i.e as you mentioned Yeasu  , Icom etc use one mapping and there are many other mappings e.g.<br><br><a href="https://hamwaves.com/decibel/en/" class="postlink">https://hamwaves.com/decibel/en/</a>   <br><br><br>If we used your proposed mapping then the value for S9 would be -97dBm instead of the IARU recommendation that S9 is -93dBm<br><br>We currently correspond to the IARU recommendation, for S9 at -93dBm, but have a 4dBm step becuase of the dynamic range of the receiver\<br><br>If we used 3dBm per S pount, then by my calculations S1 would be at -117dBm, but you are proposing -121dBm becuase this is effectively the lower Rx threshold of the radio<br><br>I lot of thought and research has already been undertaken, during the initial Radioddity GD-77 development, consulting multiple RF engineers, and the table we currently use, was agreed at the time to be the be compromise for a radio with a $1 TRx chip, which has considerable variation between each individual chip.<br><br>The official calibration data in the GD-77 has valus for S Meter low end and S Meter high end, but we don't use these becasue<br>1. They are always the same because TYT don't bother to calibrate the Rx RSSI in the factory<br>2. We don't know what value "Low" and "High" are supposed to represent, i.e the Low value in the GD-77 calibration data is always 32 and the High value is always 39.  This does not correspond with the range of RSSI values from the RF chip, so is basically useless<br><br><div class="codebox"><p>CODE: </p><pre><code>#define SMETER_S0                             -129#define SMETER_S1                             -125#define SMETER_S2                             -121#define SMETER_S3                             -117#define SMETER_S4                             -113#define SMETER_S5                             -109#define SMETER_S6                             -105#define SMETER_S7                             -101#define SMETER_S8                             -97#define SMETER_S9                             -93#define SMETER_S9_10                          -83#define SMETER_S9_20                          -73#define SMETER_S9_30                          -63#define SMETER_S9_40                          -53#define SMETER_S9_50                          -43#define SMETER_S9_60                          -33</code></pre></div></div></blockquote>yes, that makes a lot of sense, thank you for taking time to give me a long and in depth answer, all the best !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5537">oh2fhj</a> — Sun Feb 11, 2024 8:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-11T09:32:23</updated>
+
+		<published>2024-02-11T09:32:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29423#p29423</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29423#p29423"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29423#p29423"><![CDATA[
+<blockquote class="uncited"><div>Here's my measurements, I used both my Marconi signalgenerator and the TinySA signalgenerator.<br><br>The TinySA has a decent SG but it seemed to flatten out below -110 dBm compared to the Marconi 2022D, but a TinySA could be a an alternative<br>to an expensive SA &amp; SG.<br><br>I got some variance on some values when I repeated the measurements (with both instruments) , maybe something with AGC and dual receiver ?  <br><br><a href="https://www.sa0bux.se/Ham/opengd77/rt82_rssi_messurments.ods" class="postlink">https://www.sa0bux.se/Ham/opengd77/rt82 ... rments.ods</a></div></blockquote>Excellent<br><br>Thankyou.  I will analyse the data tomorrow. ie its already 20:30 local here in Melbourne and I don't have time to do it this evening<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Feb 11, 2024 9:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-02-11T09:34:09 </updated>
+
+		<published>2024-02-11T09:30:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29421#p29421</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29421#p29421"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29421#p29421"><![CDATA[
+Here's my measurements for my RT82, I used both my Marconi signalgenerator and the TinySA signalgenerator, same settings as OH2FHJ.<br>Tried to get some average on the low level RSSI values that was jumping a bit.  <br><br>The TinySA has a decent SG but it seemed to flatten out below -110 dBm compared to the Marconi 2022D, but a TinySA could be a an alternative<br>to an expensive SA &amp; SG.<br><br>I got some variance on some values when I repeated the measurements (with both instruments) , maybe something with AGC and dual receiver ?  <br><br><a href="https://www.sa0bux.se/Ham/opengd77/rt82_rssi_messurments.ods" class="postlink">https://www.sa0bux.se/Ham/opengd77/rt82 ... rments.ods</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Feb 11, 2024 9:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-09T21:13:43</updated>
+
+		<published>2024-02-09T21:13:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29394#p29394</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29394#p29394"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29394#p29394"><![CDATA[
+<blockquote class="uncited"><div>Also, the singnal bar meter doesn't follow any standard, s1 should be -121 and with official standard 6db between s units. Japanese radios uses 3db between s-units. Usually s meters are off by quite a lot, but this graf jump around a lot. Like -121 is something like 1.5s units and -114 is 4 s units so the scale is more like closer to 2db s unit <br><br>If it's something easy to change, I propose to go with -121 as s1 and then use either the Japan stand ( yaesu, icom etz) and go by 3db s unit steps or by the official standard 6db a s unit. Bought have their sides, if you're used to japanese radios you feel like the singnal meter doesn't move enough. And if you're used to other radios you feel like the s meter is moving too much</div></blockquote>From what I can remember there is no definitive standard for  RSSI -&gt; S meter mapping <br>i.e as you mentioned Yeasu  , Icom etc use one mapping and there are many other mappings e.g.<br><br><a href="https://hamwaves.com/decibel/en/" class="postlink">https://hamwaves.com/decibel/en/</a>   <br><br><br>If we used your proposed mapping then the value for S9 would be -97dBm instead of the IARU recommendation that S9 is -93dBm<br><br>We currently correspond to the IARU recommendation, for S9 at -93dBm, but have a 4dBm step becuase of the dynamic range of the receiver\<br><br>If we used 3dBm per S pount, then by my calculations S1 would be at -117dBm, but you are proposing -121dBm becuase this is effectively the lower Rx threshold of the radio<br><br>I lot of thought and research has already been undertaken, during the initial Radioddity GD-77 development, consulting multiple RF engineers, and the table we currently use, was agreed at the time to be the be compromise for a radio with a $1 TRx chip, which has considerable variation between each individual chip.<br><br>The official calibration data in the GD-77 has valus for S Meter low end and S Meter high end, but we don't use these becasue<br>1. They are always the same because TYT don't bother to calibrate the Rx RSSI in the factory<br>2. We don't know what value "Low" and "High" are supposed to represent, i.e the Low value in the GD-77 calibration data is always 32 and the High value is always 39.  This does not correspond with the range of RSSI values from the RF chip, so is basically useless<br><br><div class="codebox"><p>CODE: </p><pre><code>#define SMETER_S0                             -129#define SMETER_S1                             -125#define SMETER_S2                             -121#define SMETER_S3                             -117#define SMETER_S4                             -113#define SMETER_S5                             -109#define SMETER_S6                             -105#define SMETER_S7                             -101#define SMETER_S8                             -97#define SMETER_S9                             -93#define SMETER_S9_10                          -83#define SMETER_S9_20                          -73#define SMETER_S9_30                          -63#define SMETER_S9_40                          -53#define SMETER_S9_50                          -43#define SMETER_S9_60                          -33</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Feb 09, 2024 9:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh2fhj]]></name></author>
+		<updated>2024-02-09T17:39:26</updated>
+
+		<published>2024-02-09T17:39:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29390#p29390</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29390#p29390"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29390#p29390"><![CDATA[
+Also, the singnal bar meter doesn't follow any standard, s1 should be -121 and with official standard 6db between s units. Japanese radios uses 3db between s-units. Usually s meters are off by quite a lot, but this graf jump around a lot. Like -121 is something like 1.5s units and -114 is 4 s units so the scale is more like closer to 2db s unit <br><br>If it's something easy to change, I propose to go with -121 as s1 and then use either the Japan stand ( yaesu, icom etz) and go by 3db s unit steps or by the official standard 6db a s unit. Bought have their sides, if you're used to japanese radios you feel like the singnal meter doesn't move enough. And if you're used to other radios you feel like the s meter is moving too much<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5537">oh2fhj</a> — Fri Feb 09, 2024 5:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oh2fhj]]></name></author>
+		<updated>2024-02-09T13:41:52</updated>
+
+		<published>2024-02-09T13:41:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29385#p29385</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29385#p29385"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29385#p29385"><![CDATA[
+here you go. the measurements were taken with wide fm pusshing 2.5k modulation to the radio, with lower signal strength the values were jumping arround quite a bit, but i try tio write down some in between number, there is a few videos off messuring in case you need to werify or ar interested<br><a href="http://kride.dy.fi:83/mesurments/rssi_mesurments/" class="postlink">http://kride.dy.fi:83/mesurments/rssi_mesurments/</a><br><br>let me know if I can help more.<br><br>thanks for your hard work, chears<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5537">oh2fhj</a> — Fri Feb 09, 2024 1:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-02-09T06:20:53</updated>
+
+		<published>2024-02-09T06:20:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29381#p29381</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29381#p29381"/>
+		<title type="html"><![CDATA[Re: MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29381#p29381"><![CDATA[
+I would like to add that you have to set the ECO mode to zero.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 09, 2024 6:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-08T20:53:59</updated>
+
+		<published>2024-02-08T20:53:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29374#p29374</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29374#p29374"/>
+		<title type="html"><![CDATA[MD2017/RT-82 RSSI test version]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3760&amp;p=29374#p29374"><![CDATA[
+I've uploaded a special version for RSSI testing<br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/Experimental_20240209/OpenMD2017_RSSI_DISPLAY.bin" class="postlink">downloads/MD2017/Firmware/Experimental_ ... ISPLAY.bin</a><br><br>This version only has the English langauge text, and you need to select "Legacy firmware files (*.bin)" files <br><br>This version is not for normal use, it has a lot of other changes associated with the use of both TRx chips in the radio, for the dual RSSI display<br><br>On the RSSI screen press * (STAR) to change to display raw values<br><br>Note.<br>On the dual RSSI screen, the value at the top of the screen is the Primary TRx chip RSSI, and the value in the lower half of the screen is the Secondary TRx chip RSSI<br><br>In VFO mode the active VFO freq is loaded to the Primary TRx chip and the other VFO is loaded into Secondary TRx screen.<br><br>In Channel mode, only the Primary TRx is loaded, so the secondary TRx may be undefined or will have the last value from the inactive VFO from the VFO screen<br><br>For RSSI calibration we need a spreadsheet for signal values ranging from below the detectable threshold to max observable value of the raw data value<br><br>Probably steps of 5dBm or 10dbM would be adequate.  It depends on the range.<br><br>We need this for both VHF and UHF<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 08, 2024 8:53 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

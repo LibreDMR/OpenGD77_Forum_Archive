@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3335" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-28T01:48:37</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3335</id>
+
+		<entry>
+		<author><name><![CDATA[WD5BYQ]]></name></author>
+		<updated>2023-09-28T01:48:37</updated>
+
+		<published>2023-09-28T01:48:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26582#p26582</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26582#p26582"/>
+		<title type="html"><![CDATA[Re: Erase Callsign Database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26582#p26582"><![CDATA[
+Thanks, so much. I wondered about that. Good to know from an expert.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2368">WD5BYQ</a> — Thu Sep 28, 2023 1:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-26T23:01:02</updated>
+
+		<published>2023-09-26T23:01:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26573#p26573</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26573#p26573"/>
+		<title type="html"><![CDATA[Re: Erase Callsign Database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26573#p26573"><![CDATA[
+<blockquote class="uncited"><div>Is it possible to erase a downloaded and installed Callsign Database from a radio using the CPS?<br>I want to clear the memory and start over.</div></blockquote>Everytime you upload, it overwrite what was previously there, so there is no 'clear' function, as it is not needed.<br><br>If you want to no longer have any DMR IDs in the database, you would need to set the region to something that does not exist and upload empty data<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 26, 2023 11:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WD5BYQ]]></name></author>
+		<updated>2023-09-26T22:11:39</updated>
+
+		<published>2023-09-26T22:11:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26572#p26572</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26572#p26572"/>
+		<title type="html"><![CDATA[Erase Callsign Database]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3335&amp;p=26572#p26572"><![CDATA[
+Is it possible to erase a downloaded and installed Callsign Database from a radio using the CPS?<br>I want to clear the memory and start over.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2368">WD5BYQ</a> — Tue Sep 26, 2023 10:11 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

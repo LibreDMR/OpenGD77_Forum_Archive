@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4179" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-30T09:40:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4179</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-30T09:40:27</updated>
+
+		<published>2024-06-30T09:40:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31870#p31870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31870#p31870"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31870#p31870"><![CDATA[
+This version has been superseded <br><br>See<br><br><a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=4194" class="postlink">viewtopic.php?f=13&amp;t=4194</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 30, 2024 9:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-06-25T00:25:17</updated>
+
+		<published>2024-06-25T00:25:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31814#p31814</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31814#p31814"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31814#p31814"><![CDATA[
+I'm glade to report that there is no problem listen to a real repeater. During half an hour NEDECN net, both radio receieve and decode every transmission with no issue. So, there must be something with hotspot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Jun 25, 2024 12:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-24T23:34:50</updated>
+
+		<published>2024-06-24T23:34:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31813#p31813</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31813#p31813"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31813#p31813"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Umm<br><br>Looks like some bug was introduced as part of either the Hostpot SMS handling or the improved TS synching.<br><br>My guess is that its the "improved" TS syncing<br><br><br>I presume you are using a simplex hotspot ????, becuase neither Daniel or I noticed this problem, and AFIK, we both use a duplex hotspot or real repeaters.<br><br>I'd recommend you revert to the previous Beta until this problem can be isolated and fixed</div></blockquote>I'm using Duplex Hotspot. I will try with real repeater tonight during NEDECN NET.</div></blockquote>OK.<br><br>Other people have been using the firmware with real repeaters and not noticed any problems.<br><br>It will need to be retested with duplex and simplex hotspots<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 24, 2024 11:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-06-24T23:00:54</updated>
+
+		<published>2024-06-24T23:00:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31812#p31812</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31812#p31812"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31812#p31812"><![CDATA[
+<blockquote class="uncited"><div>Umm<br><br>Looks like some bug was introduced as part of either the Hostpot SMS handling or the improved TS synching.<br><br>My guess is that its the "improved" TS syncing<br><br><br>I presume you are using a simplex hotspot ????, becuase neither Daniel or I noticed this problem, and AFIK, we both use a duplex hotspot or real repeaters.<br><br>I'd recommend you revert to the previous Beta until this problem can be isolated and fixed</div></blockquote>I'm using Duplex Hotspot. I will try with real repeater tonight during NEDECN NET.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jun 24, 2024 11:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-24T22:13:42</updated>
+
+		<published>2024-06-24T22:13:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31811#p31811</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31811#p31811"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31811#p31811"><![CDATA[
+Umm<br><br>Looks like some bug was introduced as part of either the Hostpot SMS handling or the improved TS synching.<br><br>My guess is that its the "improved" TS syncing<br><br><br>I presume you are using a simplex hotspot ????, becuase neither Daniel or I noticed this problem, and AFIK, we both use a duplex hotspot or real repeaters.<br><br>I'd recommend you revert to the previous Beta until this problem can be isolated and fixed<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 24, 2024 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-06-24T21:41:56</updated>
+
+		<published>2024-06-24T21:41:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31808#p31808</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31808#p31808"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31808#p31808"><![CDATA[
+Hi Roger, Daniel.<br><br>I've install this new beta today and the radio will intermittently not decode DMR. The green LED lit up, S-meter showing, but no audio and no caller information on the display. This happened on Duplex hotspot with TimeSlot filter turned off on RD-5R.<br><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2465&amp;sid=913b1720c7fa239ef9c1d3ed437940fe" class="postimage" alt="IMG_0970.jpeg" onclick="viewableArea(this);" /></dt></dl></div> <strong>iframe</strong> <br><a href="http://youtu.be/sfMK9osiMHg">youtu.be/sfMK9osiMHg</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jun 24, 2024 9:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1KY]]></name></author>
+		<updated>2024-06-24T20:57:04</updated>
+
+		<published>2024-06-24T20:57:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31807#p31807</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31807#p31807"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31807#p31807"><![CDATA[
+<blockquote class="uncited"><div>Clear your browser cache</div></blockquote>That was it, thanks!<br><br>N1KY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=822">N1KY</a> — Mon Jun 24, 2024 8:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-24T20:28:45</updated>
+
+		<published>2024-06-24T20:28:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31804#p31804</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31804#p31804"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31804#p31804"><![CDATA[
+<blockquote class="uncited"><div>The "Latest" hyperlink still points to the previous release.<br><br>Thanks to all who had a part in this release!<br><br>N1KY</div></blockquote>Clear your browser cache<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 24, 2024 8:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1KY]]></name></author>
+		<updated>2024-06-24T17:17:26</updated>
+
+		<published>2024-06-24T17:17:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31796#p31796</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31796#p31796"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31796#p31796"><![CDATA[
+The "Latest" hyperlink still points to the previous release.<br><br>Thanks to all who had a part in this release!<br><br>N1KY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=822">N1KY</a> — Mon Jun 24, 2024 5:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-06-24T09:24:19</updated>
+
+		<published>2024-06-24T09:24:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31786#p31786</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31786#p31786"/>
+		<title type="html"><![CDATA[New Beta 2024 06 24]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4179&amp;p=31786#p31786"><![CDATA[
+A new Beta version is now available which fixes multiple bugs<br><br><span style="font-size:150%;line-height:116%">EDIT.<br><br>This version appears to have problems then used with simplex hotspots.  <br>If you experience any problems with this version please download the previous beta and reinstall</span><br><br><a href="http://www.opengd77.com/downloads/GD77/Firmware/d818421d4dbc3fc08fba11490b95936d172e379e" class="postlink">http://www.opengd77.com/downloads/GD77/ ... 6d172e379e</a><br><br><a href="http://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">http://www.opengd77.com/downloads/GD77/Firmware/Latest</a><br><br>Changes in this version<br><br>* Add Hotspot SMS passthrough function - Thanks for multiple authors including DL4LEX and Daniel for incorporating this change.<br>* Reinstate Private call alarm beep<br>* Add safe boot functionality (minimum functionality boot)<br>* Fix cursor Y position problem on RD-5R<br>* Fix Hotspot echo bug and change hotspot version number<br>* Fix DTMF tone cancellation problem<br>* Fix TimeSlot detection and synchronisation when TimeSlot filter is disabled<br>* Fix bug with edit cursor problems<br>* Fix voltage history plotting bug<br>* Fix phantom PTT tiggering bug<br>* Changes to hardware debug screen<br><br>Thanks to Daniel F1RMB for all these changes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 24, 2024 9:24 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

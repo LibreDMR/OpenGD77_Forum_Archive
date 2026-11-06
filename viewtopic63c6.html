@@ -1,0 +1,1105 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=4038&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 10:48:03 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>RepeaterBook CSV to CPS CSV converter - OpenGD77</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - OpenGD77" href="app.php/feed76ff?sid=">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="app.php/feed/topics76ff?sid=">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - CPS" href="app.php/feed/forum/1276ff?sid=">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - RepeaterBook CSV to CPS CSV converter" href="app.php/feed/topic/403876ff?sid=">	
+	<link rel="canonical" href="viewtopic855c.html?t=4038">
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="assets/css/font-awesome.min245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/stylesheet245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/en/stylesheet245c.css?assets_version=3" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/prosilver/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="index76ff.html?sid=" title="Board index"><span class="site_logo"></span></a>
+				<h1>OpenGD77</h1>
+				<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar"  style="display:none">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" style="display:none" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href="" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="search.php?sid=" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="app.php/help/faq76ff.html?sid=" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href="" title="" accesskey="x" role="menuitem">
+				<i class="" aria-hidden="true"></i><span></span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href="" role="menuitem">
+					<i class="" aria-hidden="true"></i><span></span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="index76ff.html?sid=" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+
+											<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="21"><a href="viewforum5dff.html?f=21&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Radios &amp; CPS</span></a><meta itemprop="position" content="2" /></span>
+															<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="12"><a href="viewforumf979.html?f=12&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">CPS</span></a><meta itemprop="position" content="3" /></span>
+												</li>
+		
+					<li class="rightside responsive-search">
+				<a href="search.php?sid=" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="viewtopic63c6.html?f=12&amp;t=4038&amp">RepeaterBook CSV to CPS CSV converter</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+<div style="display: none !important;">OpenGD77CPS<br /></div>
+
+
+<div class="action-bar bar-top">
+	
+			<a href="posting.php?mode=reply&amp;f=12&amp;t=4038&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic384b.html?f=12&amp;t=4038&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="search.php?sid=">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="search.php?sid=" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="4038" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			12 posts
+							<ul>
+		<li class="active"><span>1</span></li>
+				<li><a class="button" href="viewtopic9337.html?f=12&amp;t=4038&amp;sid=&amp;start=10" role="button">2</a></li>
+				<li class="arrow next"><a class="button button-icon-only" href="viewtopic9337.html?f=12&amp;t=4038&amp;sid=&amp;start=10" rel="next" role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Next</span></a></li>
+	</ul>
+					</div>
+		</div>
+
+
+
+
+			<div id="p31181" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31181">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6136&amp;sr=posts&amp">17</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon May 06, 2024 3:46 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31181">
+
+						<h3 class="first"><a href="#p31181">RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31181&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic0db0.html?p=31181&amp;sid=#p31181" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a></strong> &raquo; </span>Tue May 07, 2024 3:57 am
+			</p>
+			
+			
+			
+			<div class="content">Hey all! I was getting tired of manually typing in all my channels, so I put together a little script to automatically take a Repeaterbook CSV export and convert it into Zones and Channels for the CPS to import. Zones are based on the county that's associated with each channel, so it's mostly location based. This does DMR and Analog repeaters, and copies locations over. It also filters out any repeaters with the status listed as unknown or offline, or any repeaters that aren't analog or DMR.<br>
+<br>
+Go to repeaterbook.com, open the repeater listing for whatever category you want (I usually go by bands, as the script automatically sorts out all the modes) and then Export &gt; CSV. If you want to put together multiple listings, just combine the files, but remember to only have one header. Also check that the downloaded CSV file doesn't have any PHP errors (stuff like &lt;br&gt;) at the top. If it does, just delete those lines.<br>
+Usage is pretty simple, albeit only tested on Linux. Just mark it as executable (chmod +x convert.py) and then run it and give the path of your Repeaterbook CSV. My command would be: ./convert.py repeaterbookfull.csv while Windows would probably look like python convert.py repeaterbook.csv<br>
+Take the two output files, Channels.csv and Zones.csv, don't rename them, and put them in a directory. In the CPS, press Ctrl-I and it'll ask you to point it at the folder you put the files into. Hit OK and it'll pull them in and give you a summary of what it did to your codeplug. From here, make whatever modifications you like, and upload it normally.<br>
+See you on the air :). 73 KJ5DFL<br>
+<br>
+Script (just copy-paste this into a file. i saved mine as convert.py) (please don't bully me lol, i know this is awful):
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>import sys 
+
+def shorten(string):
+    return string.replace("a", "").replace("e", "").replace("i", "").replace("o", "").replace("u", "").replace(" ", "").replace("-", " ")
+
+
+chanfile = open(sys.argv[1])
+chanfiledata = chanfile.read()
+chanfile.close()
+chans = chanfiledata.split("\n")
+splitchans = []
+for i in chans:
+    if ((("DMR" not in i) and ("Analog" not in i) and ("analog" not in i)) or ("On-Air" not in i) or ("OPEN" not in i)):
+        continue
+    toapp = i.split(",")
+    toapp[5] = toapp[5].replace('"', "")
+    splitchans.append(toapp)
+
+outchan = open("Channels.csv", "w")
+outzones = open("Zones.csv", "w")
+counties = {}
+channum = 1
+outchan.write("Channel Number,Channel Name,Channel Type,Rx Frequency,Tx Frequency,Bandwidth (kHz),Colour Code,Timeslot,Contact,TG List,DMR ID,TS1_TA_Tx,TS2_TA_Tx ID,RX Tone,TX Tone,Squelch,Power,Rx Only,Zone Skip,All Skip,TOT,VOX,No Beep,No Eco,APRS,Latitude,Longitude,Use Location\n")
+for i in splitchans:
+    if "analog" in i[12]:
+        # Channel number
+        outchan.write(str(channum) + ",")
+        channum += 1
+        # Channel name.
+        channame = str(i[9] + "-" + shorten(i[5]))
+        channame = channame[:14]
+        channame = channame.strip()
+        outchan.write(channame + ",")
+        # Assign the channel to a zone, and check if there's a zone for its county.
+        countyname = i[6].replace(" ","")
+        countyname = countyname[:14]
+        try:
+            counties[countyname].append(channame)
+        except KeyError:
+            counties[countyname] = []
+            counties[countyname].append(channame)
+
+        # Channel type. We've already checked the type if we're running this codeblock.
+        outchan.write("Analogue,")
+        # Channel frequencies, RX then TX
+        outchan.write(str(i[0]) + "," + str(i[1]) + ",")
+        # Channel bandwidth. Should always be 25khz.
+        outchan.write("25,")
+        # Color code, Timeslot, Contact, Talkgroup, DMR ID, and some other nonsense that doesn't matter here.
+        outchan.write(",,,,,,,")
+        # Tones. We have to make sure an uplink tone is set, and I just don't use downlink tones. 
+        if i[3] == "" or i[3] == "CSQ":
+            uptone = "None"
+        else:
+            uptone = i[3]
+        outchan.write(f"None,{uptone},")
+        # Squelch. "Disabled" just means to use the default setting.
+        outchan.write("Disabled,")
+        # Power. Master just means to use default.
+        outchan.write("Master,")
+        # Some other stuff like RX only, Scan skips, TOT, VOX. I turn it all off, but set TOT to 180s.
+        outchan.write("No,No,No,180,Off,No,No,None,")
+        # Coordinates in latitude/longitude decimal format.
+        outchan.write(f"{i[7]},{i[8]},")
+        # "use location" toggle (?)
+        outchan.write("Yes\n")
+    if "DMR" in i[12]:
+        # Channel number
+        outchan.write(str(channum) + ",")
+        channum += 1
+        # Channel name.
+        channame = str(i[9] + "-" + shorten(i[5]))
+        channame = channame[:15]
+        channame = channame.strip()
+        outchan.write(channame + ",")
+        # Assign the channel to a zone, and check if there's a zone for its county.
+        countyname = i[6].replace(" ","")
+        countyname = countyname[:14]
+        try:
+            counties[countyname].append(channame)
+        except KeyError:
+            counties[countyname] = []
+            counties[countyname].append(channame)
+        # Channel type. We've already checked the type if we're running this codeblock.
+        outchan.write("Digital,")
+        # Channel frequencies, RX then TX
+        outchan.write(str(i[0]) + "," + str(i[1]) + ",")
+        # Channel bandwidth. Not set on digital stations.
+        outchan.write(",")
+        # All the DMR stuff. Color code to TS2_TA_Tx ID. Don't ask me.
+        outchan.write(f"{i[13]},1,None,None,None,Off,Off,")
+        # Tones, Squelch.
+        outchan.write(",,,")
+        # Power. Master just means to use default.
+        outchan.write("Master,")
+        # Some other stuff like RX only, Scan skips, TOT, VOX. I turn it all off, but set TOT to 180s.
+        outchan.write("No,No,No,180,Off,No,No,None,")
+        # Coordinates, lat/long decimal format.
+        outchan.write(f"{i[7]},{i[8]},")
+        # The "use location" setting. (?)
+        outchan.write("Yes\n")
+
+# Let's set up zones. Unlike the last part that was awful because I'm awful at programming, this
+# is awful because I'm bad at programming _and_ the format is awful. Yay.
+
+outzones.write("Zone Name,Channel1,Channel2,Channel3,Channel4,Channel5,Channel6,Channel7,Channel8,Channel9,Channel10,Channel11,Channel12,Channel13,Channel14,Channel15,Channel16,Channel17,Channel18,Channel19,Channel20,Channel21,Channel22,Channel23,Channel24,Channel25,Channel26,Channel27,Channel28,Channel29,Channel30,Channel31,Channel32,Channel33,Channel34,Channel35,Channel36,Channel37,Channel38,Channel39,Channel40,Channel41,Channel42,Channel43,Channel44,Channel45,Channel46,Channel47,Channel48,Channel49,Channel50,Channel51,Channel52,Channel53,Channel54,Channel55,Channel56,Channel57,Channel58,Channel59,Channel60,Channel61,Channel62,Channel63,Channel64,Channel65,Channel66,Channel67,Channel68,Channel69,Channel70,Channel71,Channel72,Channel73,Channel74,Channel75,Channel76,Channel77,Channel78,Channel79,Channel80\n")
+for i in counties:
+    outzones.write(f"{i},")
+    counter = 0
+    for b in counties[i]:
+        outzones.write(f"{b},")
+        counter += 1
+    for b in range(79 - counter):
+        outzones.write(",")
+    outzones.write("\n")
+</code></pre></div></div>
+
+			
+			
+													<div class="notice">
+					Last edited by <a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a> on Sat Jan 18, 2025 1:47 am, edited 3 times in total.
+									</div>
+			
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31206" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31206">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=3561&amp" class="username">PU2URT</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=3561&amp;sr=posts&amp">7</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon Feb 20, 2023 3:09 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31206">
+
+						<h3 ><a href="#p31206">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31206&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopica5bc.html?p=31206&amp;sid=#p31206" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=3561&amp" class="username">PU2URT</a></strong> &raquo; </span>Thu May 09, 2024 5:47 pm
+			</p>
+			
+			
+			
+			<div class="content">Thank you for that!</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31297" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31297">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=6175&amp" class="avatar"><img class="avatar" src="download/file805c.jpg?avatar=6175_1715706624.jpg" width="90" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6175&amp" class="username">W0AMT</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6175&amp;sr=posts&amp">4</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Tue May 14, 2024 2:48 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31297">
+
+						<h3 ><a href="#p31297">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31297&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic8ff2.html?p=31297&amp;sid=#p31297" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6175&amp" class="username">W0AMT</a></strong> &raquo; </span>Tue May 14, 2024 5:16 pm
+			</p>
+			
+			
+			
+			<div class="content">This looks great. I will try it out today.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31316" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31316">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6136&amp;sr=posts&amp">17</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon May 06, 2024 3:46 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31316">
+
+						<h3 ><a href="#p31316">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31316&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic4276.html?p=31316&amp;sid=#p31316" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a></strong> &raquo; </span>Thu May 16, 2024 1:10 am
+			</p>
+			
+			
+			
+			<div class="content">Update time! There were some weird issues with zone stuff but I changed some of the code so it should be fine now? If you ever see any empty zones or channels that aren't in any zones please tell me, there's probably something wrong.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31718" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31718">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="avatar"><img class="avatar" src="download/file4b01.png?avatar=6389_1718910309.png" width="76" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="username">DA1TH</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6389&amp;sr=posts&amp">13</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Jun 19, 2024 1:06 pm</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> JO64je</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31718">
+
+						<h3 ><a href="#p31718">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31718&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic64c2.html?p=31718&amp;sid=#p31718" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="username">DA1TH</a></strong> &raquo; </span>Thu Jun 20, 2024 6:50 pm
+			</p>
+			
+			
+			
+			<div class="content">Great work, but the script doesn't work with "rest of world" repeaters because the repeater type is missing in the CSV export.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31719" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31719">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6136&amp;sr=posts&amp">17</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon May 06, 2024 3:46 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31719">
+
+						<h3 ><a href="#p31719">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31719&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic562f.html?p=31719&amp;sid=#p31719" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a></strong> &raquo; </span>Thu Jun 20, 2024 8:42 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6389&amp">DO3THM</a> wrote: <a href="viewtopic64c2.html?p=31718&amp;sid=#p31718" data-post-id="31718" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Jun 20, 2024 6:50 pm</div></cite>
+Great work, but the script doesn't work with "rest of world" repeaters because the repeater type is missing in the CSV export.
+</div></blockquote>
+
+Ah, damnit! I didn't even test that, sorry. I'll go have a look, shouldn't be too hard I hope.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31720" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31720">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6136&amp;sr=posts&amp">17</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon May 06, 2024 3:46 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31720">
+
+						<h3 ><a href="#p31720">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31720&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicd00d.html?p=31720&amp;sid=#p31720" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a></strong> &raquo; </span>Thu Jun 20, 2024 8:58 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6389&amp">DO3THM</a> wrote: <a href="viewtopic64c2.html?p=31718&amp;sid=#p31718" data-post-id="31718" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Jun 20, 2024 6:50 pm</div></cite>
+Great work, but the script doesn't work with "rest of world" repeaters because the repeater type is missing in the CSV export.
+</div></blockquote>
+
+Actually, I'm trying to pull down some CSVs from RepeaterBook for RoW repeaters but all the CSV files are just empty; would you mind giving me one of the files you're trying to use, and if you tried running it what error messages it spits out? Thanks.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31721" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31721">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="avatar"><img class="avatar" src="download/file4b01.png?avatar=6389_1718910309.png" width="76" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="username">DA1TH</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6389&amp;sr=posts&amp">13</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Jun 19, 2024 1:06 pm</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> JO64je</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31721">
+
+						<h3 ><a href="#p31721">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31721&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic52e7.html?p=31721&amp;sid=#p31721" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="username">DA1TH</a></strong> &raquo; </span>Thu Jun 20, 2024 9:19 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6136&amp">KJ5DFL</a> wrote: <a href="viewtopicd00d.html?p=31720&amp;sid=#p31720" data-post-id="31720" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Jun 20, 2024 8:58 pm</div></cite>
+would you mind giving me one of the files you're trying to use, and if you tried running it what error messages it spits out? Thanks.
+</div></blockquote>
+The CSV files didn't contain the column with the repeater type (i.e. Analog / Digital) - you cannot fix it  <img class="smilies" src="images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed"> .<br>
+<br>
+In the meantime I wrote my own script based on the Radioddity (GD77) export format. I have to change the delimiter from ',' to ';' and the locale to German (decimal point is ',') and to append 3 columns (aprs, longitude, latitude).</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31806" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31806">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="avatar"><img class="avatar" src="download/file4b01.png?avatar=6389_1718910309.png" width="76" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="username">DA1TH</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6389&amp;sr=posts&amp">13</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Jun 19, 2024 1:06 pm</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> JO64je</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31806">
+
+						<h3 ><a href="#p31806">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31806&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicf72a.html?p=31806&amp;sid=#p31806" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6389&amp" class="username">DA1TH</a></strong> &raquo; </span>Mon Jun 24, 2024 8:49 pm
+			</p>
+			
+			
+			
+			<div class="content">The last evenings I wrote my own converter. It is based on the repeaterbook API and depends not on CSV exports. It is mainly for my (German = Outside of North America) needs and based on this locale. Feel free to <a href="https://github.com/TomHW/OpenGD77" class="postlink">download</a> the code and customize it for your requirements.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p31816" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile31816">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6136&amp;sr=posts&amp">17</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon May 06, 2024 3:46 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content31816">
+
+						<h3 ><a href="#p31816">Re: RepeaterBook CSV to CPS CSV converter</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=31816&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopiceacb.html?p=31816&amp;sid=#p31816" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6136&amp" class="username">KJ5DFL</a></strong> &raquo; </span>Tue Jun 25, 2024 1:42 am
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6389&amp">DO3THM</a> wrote: <a href="viewtopicf72a.html?p=31806&amp;sid=#p31806" data-post-id="31806" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Jun 24, 2024 8:49 pm</div></cite>
+The last evenings I wrote my own converter. It is based on the repeaterbook API and depends not on CSV exports. It is mainly for my (German = Outside of North America) needs and based on this locale. Feel free to <a href="https://github.com/TomHW/OpenGD77" class="postlink">download</a> the code and customize it for your requirements.
+</div></blockquote>
+
+Hey, nice work! Much cleaner than my awful bitbanging :P<br>
+You should also go ahead and create your own thread, would probably make it easier to find.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="posting.php?mode=reply&amp;f=12&amp;t=4038&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic384b.html?f=12&amp;t=4038&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="viewtopic.php?f=12&amp;t=4038&amp">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			12 posts
+							<ul>
+		<li class="active"><span>1</span></li>
+				<li><a class="button" href="viewtopic9337.html?f=12&amp;t=4038&amp;sid=&amp;start=10" role="button">2</a></li>
+				<li class="arrow next"><a class="button button-icon-only" href="viewtopic9337.html?f=12&amp;t=4038&amp;sid=&amp;start=10" rel="next" role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Next</span></a></li>
+	</ul>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="viewforumf979.html?f=12&amp" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to “CPS”</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																				<li><a href="viewforum24e8.html?f=1&amp" class="jumpbox-cat-link"> <span> OpenGD77 information</span></a></li>
+																<li><a href="viewforum3550.html?f=3&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Announcements</span></a></li>
+																<li><a href="viewforumbe59.html?f=5&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; FAQ</span></a></li>
+																<li><a href="viewforum5dff.html?f=21&amp" class="jumpbox-cat-link"> <span> Radios &amp; CPS</span></a></li>
+																<li><a href="viewforumf979.html?f=12&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; CPS</span></a></li>
+																<li><a href="viewforume4b2.html?f=13&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; GD-77 / DM-1801 / RD-5R / GD-77S</span></a></li>
+																<li><a href="viewforum3072.html?f=18&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-9600 / Retevis RT-90</span></a></li>
+																<li><a href="viewforum71f6.html?f=19&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a></li>
+																<li><a href="viewforum566e.html?f=28&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD2017 / Retevis RT-82</span></a></li>
+																<li><a href="viewforum976e.html?f=27&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Other unsupported radios</span></a></li>
+																<li><a href="viewforum68f5.html?f=6&amp" class="jumpbox-cat-link"> <span> Discussions</span></a></li>
+																<li><a href="viewforum5c89.html?f=10&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; New members must post here first</span></a></li>
+																<li><a href="viewforum3e36.html?f=29&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Help needed</span></a></li>
+																<li><a href="viewforum7cb0.html?f=7&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; General discussions</span></a></li>
+																<li><a href="viewforumc69f.html?f=9&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Hotspot mode</span></a></li>
+																<li><a href="viewforume094.html?f=22&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Voice prompts</span></a></li>
+																<li><a href="viewforumd275.html?f=23&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Localisation</span></a></li>
+																<li><a href="viewforum5cd2.html?f=14&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Codeplugs</span></a></li>
+																<li><a href="viewforum41c9.html?f=17&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1801 specific</span></a></li>
+																<li><a href="viewforum93b2.html?f=25&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1701 / Retevis RT-84 specific</span></a></li>
+																<li><a href="viewforume716.html?f=16&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Developer discussions</span></a></li>
+																<li><a href="viewforum53f9.html?f=26&amp" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-2017 / RT-82</span></a></li>
+																<li><a href="viewforum5fd2.html?f=11&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Bug reports</span></a></li>
+																<li><a href="viewforume051.html?f=8&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Off topic</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer"  style="display:none" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="index76ff.html?sid=" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="UTC">UTC</span></li>
+							<li class="rightside">
+				<a href="ucp.php?mode=delete_cookies&amp" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+																<li class="rightside" data-last-responsive="true">
+				<a href="memberlist.php?mode=contactadmin&amp" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="cron200f.gif?cron_type=cron.task.core.tidy_sessions&amp" width="1" height="1" alt="cron" /></div>
+
+<script src="assets/javascript/jquery.min245c.js?assets_version=3"></script>
+<script src="assets/javascript/core245c.js?assets_version=3"></script>
+
+
+
+<script src="styles/prosilver/template/forum_fn245c.js?assets_version=3"></script>
+<script src="styles/prosilver/template/ajax245c.js?assets_version=3"></script>
+
+
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=4038&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 10:48:25 GMT -->
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4975" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-31T01:14:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4975</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-31T01:14:17</updated>
+
+		<published>2025-03-31T01:14:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36539#p36539</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36539#p36539"/>
+		<title type="html"><![CDATA[Re: Admit Criteria as a feature?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36539#p36539"><![CDATA[
+<blockquote class="uncited"><div>Thank you for your reply.<br><br>I suppose something as simple as "If ID shown on screen -&gt; inhibit TX" could be helpful towards this goal but that is a good point about getting everyone to upgrade their firmware</div></blockquote>Yeah, sure.<br>Source code is available, pick it up, we're now waiting for your dumb patch.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Mar 31, 2025 1:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KQ4TVB]]></name></author>
+		<updated>2025-03-31T01:08:10</updated>
+
+		<published>2025-03-31T01:08:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36538#p36538</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36538#p36538"/>
+		<title type="html"><![CDATA[Re: Admit Criteria as a feature?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36538#p36538"><![CDATA[
+Thank you for your reply.<br><br>I suppose something as simple as "If ID shown on screen -&gt; inhibit TX" could be helpful towards this goal but that is a good point about getting everyone to upgrade their firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8291">KQ4TVB</a> — Mon Mar 31, 2025 1:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-19T19:54:09</updated>
+
+		<published>2025-03-19T19:54:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36301#p36301</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36301#p36301"/>
+		<title type="html"><![CDATA[Re: Admit Criteria as a feature?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36301#p36301"><![CDATA[
+This isn't a problem which would be resolved even if an Admit Criteria function could be added<br><br>Specifically if such a feature could be added, It would definately be off by default, because most of the existing user base would be annoyed if the current functionality was changed.<br><br>Hence you would need to convince all the people who are not operating  courteously to install updated firmware and then change their codeplug, etc<br><br>Good luck with that......<br><br><br>Also.   IIRC, the Admit Criteria function in the official firmware for these radios didn't work every well, so there may be problems with the DMR chipset which would prevent this functionality being possible<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 19, 2025 7:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KQ4TVB]]></name></author>
+		<updated>2025-03-19T00:19:14</updated>
+
+		<published>2025-03-19T00:19:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36280#p36280</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36280#p36280"/>
+		<title type="html"><![CDATA[Admit Criteria as a feature?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4975&amp;p=36280#p36280"><![CDATA[
+Hello,<br><br>I'm sorry if I've missed this somewhere, I did search the forums and saw that it was suggested before a while back.<br><br>I'm on a large, closed network down here in Florida and OpenGD77 has taken off with the userbase here. Unfortunately we've come to a problem where there are a lot of people doubling over each other. What would it take to add Admit Criteria like the commercial Land Mobile stuff has? Color code free seems to be the suggested preference from the adminitstrator (He mostly runs Motorola stuff).<br><br>I'm not a developer but this is definitely a feature that would be helpful so that OpenGD77 users can be courteous to other hams. If there's any suggestions or ways I could help this get implemented, please let me know.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8291">KQ4TVB</a> — Wed Mar 19, 2025 12:19 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

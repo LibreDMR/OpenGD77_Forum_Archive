@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=13&t=4941&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 14:23:02 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; Possible bug on RD-5R on Power and Color Code.</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>Possible bug on RD-5R on Power and Color Code.</h2>
+		<p><a href="viewtopic550f-2.html?f=13&amp;t=4941">viewtopic.php?f=13&amp;t=4941</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>2</strong></div>
+					<div class="post">
+				<h3>Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Thu Mar 06, 2025 11:42 pm</strong></div>
+				<div class="author">by <strong>Nat</strong></div>
+				<div class="content">I wonder if anyone has noticed this strange behavior on the RD-5R:<br>
+<br>
+Output Power: <br>
+in DMR you can't set it freely. When you scroll the power the values don't go in sequence, they jump, for example, from 1W to 4W to 2W. Also, going one step beyond 5W you get null&gt;25.<br>
+<br>
+Color Code: <br>
+although the color code is set to 1 in the codeplug, it shows a different code, usually 3. So when it receives a signal it takes some time to set it to the correct code.<br>
+<br>
+Firmware Version: 20250223 but I have seen this behavior on previous versions too.<br>
+<br>
+Note: I have same settings, same version and same codeplug installed on DM1801 without problems</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Fri Mar 07, 2025 3:44 am</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=1296&amp">Nat</a> wrote: <a href="viewtopicf54f.html?p=36086&amp;sid=#p36086" data-post-id="36086" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Mar 06, 2025 11:42 pm</div></cite>
+I wonder if anyone has noticed this strange behavior on the RD-5R:<br>
+<br>
+Output Power: <br>
+in DMR you can't set it freely. When you scroll the power the values don't go in sequence, they jump, for example, from 1W to 4W to 2W. Also, going one step beyond 5W you get null&gt;25.<br>
+<br>
+Color Code: <br>
+although the color code is set to 1 in the codeplug, it shows a different code, usually 3. So when it receives a signal it takes some time to set it to the correct code.<br>
+<br>
+Firmware Version: 20250223 but I have seen this behavior on previous versions too.<br>
+<br>
+Note: I have same settings, same version and same codeplug installed on DM1801 without problems
+</div></blockquote>
+
+When you change the power from Channels/VFO screens, or in the Channel details ?<br>
+<br>
+I just tried on my RD-5R, and I'm unable to reproduce.<br>
+<br>
+Could you, <strong class="text-strong">read the codeplug from your RD-5R</strong> and post it here (or email it me).</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Fri Mar 07, 2025 12:58 pm</strong></div>
+				<div class="author">by <strong>Nat</strong></div>
+				<div class="content">to F1RMB<br>
+<br>
+Not easy to replicate. If I Change power from Channel Details appears normal. But as I go to Channel/VFO the set value is not always correct. Then if I try to set it sometime it jumps from one value tu another by itself, it usualy stop on 4W. Anyway, if I go over 5W I get (null + a random number).<br>
+<br>
+About Color Code It sets by itself to CC 3.<br>
+<br>
+Attached there is the codeplug read from radio.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Fri Mar 07, 2025 4:20 pm</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">So, I tried on my DM-5R, and don't notice anything strange.<br>
+<br>
+What looks really suspicous is the &gt;5W value, has it should display <strong class="text-strong">+W-</strong>, and that string is hardcoded in the firmware.<br>
+<br>
+I would suggest you to re-download the latest beta firmware, the latest CPS and re-flash your RD-5R.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Fri Mar 07, 2025 10:04 pm</strong></div>
+				<div class="author">by <strong>Nat</strong></div>
+				<div class="content">F1RMB<br>
+<br>
+Okay, I re-downloaded and re-flashed the latest beta firmware and codeplug. At first everything worked fine. Then I started playing with the date and clock settings and then the strange behavior appeared. I re-flashed the latest firmware again and everything was fine until I set the clock and date. I did this a few more times with the same result. The date/clock setting introduced the faulty behavior.<br>
+Then, somehow or other, the problem disappeared. I don't know how to replicate it at the moment.<br>
+<br>
+I will continue to monitor the issue and if I have any news I will let you know.<br>
+<br>
+Thank you very much for your prompt reply.<br>
+<br>
+Nat</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Thu Mar 13, 2025 12:36 pm</strong></div>
+				<div class="author">by <strong>Nat</strong></div>
+				<div class="content">to f1rmb <br>
+Hi <br>
+I found the way to recreate the issue. <br>
+<br>
+On RD-5R &gt; quik menu &gt; Roaming = Manual.<br>
+<br>
+Setting Roaming off everything is OK.<br>
+<br>
+Setting Roaming anyway on DM-1801 make no problems.<br>
+<br>
+Hope this info could be usefull to trace the bug.<br>
+<br>
+<br>
+<br>
+Nat</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Thu Mar 13, 2025 1:40 pm</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">Nice finding, I have the CC and PWR that self changing.<br>
+<br>
+I guess why this bug happen on this platform.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Thu Mar 13, 2025 1:56 pm</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">Okay, it's confirmed, found and fixed.<br>
+<br>
+The fix will be part of the next release.<br>
+<br>
+Many thanks for the investigation.<br>
+<br>
+Cheers.<br>
+---<br>
+Daniel<br>
+<br>
+EDIT: email me for a test firmware.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Thu Mar 13, 2025 3:56 pm</strong></div>
+				<div class="author">by <strong>Nat</strong></div>
+				<div class="content">As I cannot have your e-mail address I will send my on mail of adminnistrators. Check it.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Possible bug on RD-5R on Power and Color Code.</h3>
+				<div class="date">Posted: <strong>Thu Mar 13, 2025 4:07 pm</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=1296&amp">Nat</a> wrote: <a href="viewtopic5f34.html?p=36169&amp;sid=#p36169" data-post-id="36169" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Mar 13, 2025 3:56 pm</div></cite>
+As I cannot have your e-mail address I will send my on mail of adminnistrators. Check it.
+</div></blockquote>
+
+I don't receive such emails.<br>
+Use "f1rmb AT pm.me"</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>2</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=13&t=4941&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 14:23:03 GMT -->
+</html>

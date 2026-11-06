@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5080&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 17:58:23 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; MD-9600 TX audio distortion on FM 25 KHz mode.</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>MD-9600 TX audio distortion on FM 25 KHz mode.</h2>
+		<p><a href="viewtopic6010-2.html?f=18&amp;t=5080">viewtopic.php?f=18&amp;t=5080</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>MD-9600 TX audio distortion on FM 25 KHz mode.</h3>
+				<div class="date">Posted: <strong>Mon Apr 21, 2025 4:55 pm</strong></div>
+				<div class="author">by <strong>SP9TA</strong></div>
+				<div class="content">Hello. I'm a fairly new MD-9600 owner and I don't know if it's a hardware or software problem, but I hope it's software. I don't have the original firmware anymore, so I have no way to check if this was the case. I may have uploaded the incorrect version of OpenGD, as I don't have the markings on the board, and uploaded 2025 03 23 V5, which seems to work.<br>
+Correspondents have noticed unpleasant interference on my voice on the 2m band in FM 25 kHz mode. In FM 12.5 kHz mode it is ok. I checked this by recording my voice via RTL-SDR and GQRX and this was indeed confirmed. I connected a function generator in place of the microphone capsule and started testing. I noticed that the problem occurs with sounds above 1430 Hz when we overdrive the signal a little. When speaking into the microphone it is quite easy to overdrive the sibilants, because the pre-emphasis boosts the high notes a lot. In practice, the FM 25 kHz mode is thus useless. It is possible to work in the 12.5 kHz mode, but if the correspondents work in 25 kHz mode and I work in the 12.5 kHz mode, the squelch sometimes closes and cuts out the sound despite the strong signal of the correspondent, so it would be nice if the 25 kHz mode worked after all.<br>
+I have been testing on 144.525 MHz, and have determined that:<br>
+- The distortion effect only occurs in 25 kHz mode and above 1430 Hz, nothing strange happens in 12.5 mode when the signal is very heavily overdriven  (700mV Vpp at mic capsule), the same below this magic frequency of 1430 Hz, also a heavily overdriven signal can be fed, and it will only be clipped without additional distortion.<br>
+- The distortion 1570 Hz sinewave waveform looks like this:
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file59b7.png?id=2925&amp;sid=1c0d60571fb1d9d1162a7abbc8ab033b" class="postimage" alt="TYT-MD-9600_FM25kHz.png" onclick="viewableArea(this);" /></dt>
+						<dd>TYT-MD-9600_FM25kHz.png (169.04 KiB) Viewed 725 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+Wave file: <div class="inline-attachment">
+			
+		
+		
+				<dl class="file">
+			<dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="download/file3700.php?id=2926&amp;sid=1c0d60571fb1d9d1162a7abbc8ab033b">Distortion_CUT.zip</a></dt>
+						<dd>(129.43 KiB) Downloaded 23 times</dd>
+		</dl>
+		
+		
+			</div>
+The two signals differ by 1 mV Vpp at the microphone capsule terminals, sinusoidal frequency 1570 Hz. The upper graph is after the signal has exceeded the level at which the distortion occurs, the lower one before the exceedance. On lower only deviation clipping occurs, which looks correct.<br>
+This is a waveform of a recording made with RTL-SDR and GQRX of an FM demodulated signal without deemphasis or filtering.<br>
+To me it looks like some variable in the DSP processing is overflowing when calculating the preemphasis.<br>
+- The higher the frequency, e.g. 2 kHz, the easier the effect is to achieve.<br>
+1.5 kHz 36 mV Vpp <br>
+1.6 kHz 29 mV Vpp<br>
+1.7 kHz 21 mV Vpp<br>
+1.8 kHz 18 mV Vpp<br>
+1.9 kHz 16 mV Vpp<br>
+2.0 kHz 14 mV Vpp<br>
+2.1 kHz 11 mV Vpp<br>
+2.2 kHz 10  mV Vpp<br>
+2.3 kHz 8.7 mV Vpp<br>
+2.4 kHz 8.0 mV Vpp<br>
+2.5 kHz 7.3 mV Vpp (at 4.3 mV the signal starts to be clipped by the deviation limiter)<br>
+2.7 kHz 8.0 mV Vpp<br>
+2.8 kHz 8.5 mV Vpp<br>
+2.9 kHz 16 mV Vpp<br>
+3.0 kHz 23 mV Vpp<br>
+3.1 kHz 47 mV Vpp<br>
+3.2 kHz no problem (700 mV Vpp still ok)<br>
+<br>
+At 2.5 kHz there is only a 4.6 dB headroom, from clipping the signal to the occurrence of additional distortion. For the other frequencies I have not measured exactly, as this is difficult for me to measure and takes a lot of time, but if it is necessary I can do so.<br>
+In addition, when I set the FM mic in Sound Options to: -6 dB, then, in order to achieve the distortion effect, I have to amplify the signals those 6 dB stronger.<br>
+I hope this is not a hardware problem, but some software problem that can be solved.<br>
+Thank you.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-9600 TX audio distortion on FM 25 KHz mode.</h3>
+				<div class="date">Posted: <strong>Sun May 25, 2025 12:07 pm</strong></div>
+				<div class="author">by <strong>R3UF</strong></div>
+				<div class="content">I also noticed that it's the other way around. <img class="smilies" src="images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed"> <br>
+I also wanted it to look like this <img class="smilies" src="images/smilies/icon_mrgreen.gif" width="15" height="17" alt=":mrgreen:" title="Mr. Green"> <br>
+FMN-12,5 khz<br>
+FMW-25 khz</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-9600 TX audio distortion on FM 25 KHz mode.</h3>
+				<div class="date">Posted: <strong>Sun May 25, 2025 1:22 pm</strong></div>
+				<div class="author">by <strong>SA0BUX</strong></div>
+				<div class="content">I measured my MD-9600 V2 with a deviation meter and it doesn't provide the specified deviation at any of the settings compared to other radios I tested with.<br>
+<br>
+And I had problems on RX with some people talking on svxlink repeaters, audio clipped.<br>
+But I could minimize the clipping if I set squelch to 0% and only use subtone on receive.<br>
+<br>
+Need to do more investigations, and I need to buy a function generator.<br>
+<br>
+I have also a new MD-9600 on order so I can compare more with the original firmware.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: MD-9600 TX audio distortion on FM 25 KHz mode.</h3>
+				<div class="date">Posted: <strong>Sun May 25, 2025 2:23 pm</strong></div>
+				<div class="author">by <strong>R3UF</strong></div>
+				<div class="content">That's right, you noticed that version H 5 and also have problems, but you can live with it if you swap them. <img class="smilies" src="images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"></div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=18&t=5080&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 17:58:24 GMT -->
+</html>

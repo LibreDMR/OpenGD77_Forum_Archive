@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4816" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-07T16:08:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4816</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-07T16:08:41</updated>
+
+		<published>2025-02-07T16:08:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4816&amp;p=35658#p35658</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4816&amp;p=35658#p35658"/>
+		<title type="html"><![CDATA[Re: New MD-2017/RT-82 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4816&amp;p=35658#p35658"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=28&amp;t=4855" class="postlink">viewtopic.php?f=28&amp;t=4855</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 07, 2025 4:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-28T04:26:47</updated>
+
+		<published>2025-01-28T04:26:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4816&amp;p=35417#p35417</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4816&amp;p=35417#p35417"/>
+		<title type="html"><![CDATA[New MD-2017/RT-82 Beta version 2025 01 28]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4816&amp;p=35417#p35417"><![CDATA[
+<ul><li> Fix firmware freezing when an APRS becon can't be sent (like when the squelch is constantly opened).</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/726HK319RM#VmYmSgyF8Grx" class="postlink">https://drive.proton.me/urls/726HK319RM#VmYmSgyF8Grx</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG" class="postlink">https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/26. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4804" class="postlink">viewtopic.php?f=12&amp;t=4804</a><br><br>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jan 28, 2025 4:26 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

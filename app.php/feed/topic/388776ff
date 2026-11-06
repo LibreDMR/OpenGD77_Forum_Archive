@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3887" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-21T12:17:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3887</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-21T12:17:35</updated>
+
+		<published>2024-03-21T12:17:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30261#p30261</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30261#p30261"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30261#p30261"><![CDATA[
+Glad you solved it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Mar 21, 2024 12:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1DRE]]></name></author>
+		<updated>2024-03-21T12:03:51</updated>
+
+		<published>2024-03-21T12:03:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30260#p30260</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30260#p30260"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30260#p30260"><![CDATA[
+First of all, I would like to thank all the masters (F1RMB, SA0BUX, VK3KYY) who replied to me. I found the source of the problem. As you know, since there is no DMR server in Turkey, I have to use servers from other countries. I used the Bulgarian server in my first duplex hotspot with my mmdvm card, but I chose the UK server in the hotspot I made with opengd77, thinking it would be better. Finally, when there was nothing left to do, I chose the Bulgarian server instead of the UK in the configuration and the process was completed, now the hotspot appears on the map. I think there is a problem with the server. I'm so sorry to take up your time, but it was a good experience.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2274&amp;sid=d63175ccbb196a571531113553711412" class="postimage" alt="sa0bux.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5811">TA1DRE</a> — Thu Mar 21, 2024 12:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1DRE]]></name></author>
+		<updated>2024-03-21T06:35:30</updated>
+
+		<published>2024-03-21T06:35:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30256#p30256</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30256#p30256"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30256#p30256"><![CDATA[
+First of all, I would like to thank all the masters (F1RMB, SA0BUX, VK3KYY) who replied to me. I found the source of the problem. As you know, since there is no DMR server in Turkey, I have to use servers from other countries. I used the Bulgarian server in my first duplex hotspot with my mmdvm card, but I chose the UK server in the hotspot I made with opengd77, thinking it would be better. Finally, when there was nothing left to do, I chose the Bulgarian server instead of the UK in the configuration and the process was completed, now the hotspot appears on the map. I think there is a problem with the server. I'm so sorry to take up your time, but it was a good experience.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5811">TA1DRE</a> — Thu Mar 21, 2024 6:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-20T15:49:41</updated>
+
+		<published>2024-03-20T15:49:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30237#p30237</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30237#p30237"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30237#p30237"><![CDATA[
+<blockquote class="uncited"><div>I think there is a bug in 4.2.1 , normally is the ESSID number added to the callsign in the update packets but it seems that it only use the callsign.<br>In my tests I can see several hotspots updating my main number.<br>"MMDVM Unknown" is the one connected to a OpenGD77 radio and a Pi with 4.2.1<br>"MMDVM HS Hat" is my main hotspot which use 2400354 without extension and 4.1.8<br>I will change the test setup to use 4.1.8 later to verify the difference<br><br>But as said earlier this is something for pi-star forum.<br><div class="codebox"><p>CODE: </p><pre><code>2024-03-20 10:39:52 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@200939z4051.07N/02637.87EQPHG1000MMDVM Unknown 433.5500/433.5500 CC1 [Location changes too fast (adaptive limit)]2024-03-20 10:55:50 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@200955z5918.37N/01801.57EQPHG1100MMDVM MMDVM HS Hat 434.0000/434.0000 CC12024-03-20 10:56:30 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@200956z4051.07N/02637.87EQPHG1000MMDVM Unknown 433.5500/433.5500 CC1 [Location changes too fast (adaptive limit)]2024-03-20 11:12:28 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@201012z5918.37N/01801.57EQPHG1100MMDVM MMDVM HS Hat 434.0000/434.0000 CC12024-03-20 11:13:05 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@201013z4051.07N/02637.87EQPHG1000MMDVM Unknown 433.5500/433.5500 CC15 [Location changes too fast (adaptive limit)]</code></pre></div></div></blockquote>After some more testing it seems that it's a limit after ESSID = 15 so everything above that goes to the callsign without any extension in aprs.fi.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 20, 2024 3:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-20T11:02:56</updated>
+
+		<published>2024-03-20T11:02:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30236#p30236</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30236#p30236"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30236#p30236"><![CDATA[
+I think there is a bug in 4.2.1 , normally is the ESSID number added to the callsign in the update packets but it seems that it only use the callsign.<br>In my tests I can see several hotspots updating my main number.<br>"MMDVM Unknown" is the one connected to a OpenGD77 radio and a Pi with 4.2.1<br>"MMDVM HS Hat" is my main hotspot which use 2400354 without extension and 4.1.8<br>I will change the test setup to use 4.1.8 later to verify the difference<br><br>But as said earlier this is something for pi-star forum.<br><div class="codebox"><p>CODE: </p><pre><code>2024-03-20 10:39:52 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@200939z4051.07N/02637.87EQPHG1000MMDVM Unknown 433.5500/433.5500 CC1 [Location changes too fast (adaptive limit)]2024-03-20 10:55:50 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@200955z5918.37N/01801.57EQPHG1100MMDVM MMDVM HS Hat 434.0000/434.0000 CC12024-03-20 10:56:30 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@200956z4051.07N/02637.87EQPHG1000MMDVM Unknown 433.5500/433.5500 CC1 [Location changes too fast (adaptive limit)]2024-03-20 11:12:28 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@201012z5918.37N/01801.57EQPHG1100MMDVM MMDVM HS Hat 434.0000/434.0000 CC12024-03-20 11:13:05 CET: SA0BUX&gt;APBM1S,TCPIP*,qAS,SA7BGG-15:@201013z4051.07N/02637.87EQPHG1000MMDVM Unknown 433.5500/433.5500 CC15 [Location changes too fast (adaptive limit)]</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 20, 2024 11:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-19T22:49:02</updated>
+
+		<published>2024-03-19T22:49:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30232#p30232</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30232#p30232"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30232#p30232"><![CDATA[
+<blockquote class="uncited"><div>Thank you for your answer.  I understand what you say, but I do not want the radios to send daprs signals via hotspot.  Aprs.fi also shows the location coordinates of hotspots made with mmdvm cards purchased from Chinese sites.  Can't we see this hotspot we created with opengd77 on the aprs.fi map?</div></blockquote>OK. <br>In which case you should post your question to the PiStar forum<br><br><a href="https://forum.pistar.uk" class="postlink">https://forum.pistar.uk</a><br><br>.. as this has nothing to do with OpenGD77, becasue the OpenGD77 radio / firmware is only acting as a modem and had no APRS functionality<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 19, 2024 10:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1DRE]]></name></author>
+		<updated>2024-03-19T18:12:37</updated>
+
+		<published>2024-03-19T18:12:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30225#p30225</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30225#p30225"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30225#p30225"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>I haven't entered any aprs password for my HAT hotspots, but I can try running a pi-star only connected to a OpenGD77 radio to see what happens.<br>I think it should work out of the box.</div></blockquote>I couldn't see where to enter the aprs password in the hotspot.  I have made a hotspot with mmdvm cards before and I still use them and there was no such problem with them.  I would be very happy if you could try it for me.  with my pages</div></blockquote>Which pi star release do you have on it?</div></blockquote>hi 4.2.1 last version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5811">TA1DRE</a> — Tue Mar 19, 2024 6:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-19T17:12:49</updated>
+
+		<published>2024-03-19T17:12:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30223#p30223</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30223#p30223"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30223#p30223"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Yes, few years ago all the APRS connection has been moved to the dedicated APRSGateway software.<br>Of course, in its configuration, you also need to enter your own Ham "password" to connect aprs.fi (I think there is an editor in the Expert "tab" fro the APRSGateway).<br><br>You can also take a look at the APRSGateway log (located in /var/log/pi-star/) to check if the connection is successul or not.</div></blockquote>I haven't entered any aprs password for my HAT hotspots, but I can try running a pi-star only connected to a OpenGD77 radio to see what happens.<br>I think it should work out of the box.</div></blockquote>I couldn't see where to enter the aprs password in the hotspot.  I have made a hotspot with mmdvm cards before and I still use them and there was no such problem with them.  I would be very happy if you could try it for me.  with my pages</div></blockquote>Which pi star release do you have on it?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Mar 19, 2024 5:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-19T16:54:34</updated>
+
+		<published>2024-03-19T16:54:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30222#p30222</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30222#p30222"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30222#p30222"><![CDATA[
+APRS password is build once you apply the configuration.<br><br>You better look at the APRSGateway log file, to see the status of the connection.<br>All of this has to be done on your pi-star, no one can do it for you, unless you configure your router to open an access to you LAN.<br><br>If you want, you can send me (privately, email is available on QRZ.com) a backup of your pi-star configuration and logs, just to check if something looks wrong. You can build that from the pi-star web interface, IIRC.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 19, 2024 4:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1DRE]]></name></author>
+		<updated>2024-03-19T16:40:00</updated>
+
+		<published>2024-03-19T16:40:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30221#p30221</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30221#p30221"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30221#p30221"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Yes, few years ago all the APRS connection has been moved to the dedicated APRSGateway software.<br>Of course, in its configuration, you also need to enter your own Ham "password" to connect aprs.fi (I think there is an editor in the Expert "tab" fro the APRSGateway).<br><br>You can also take a look at the APRSGateway log (located in /var/log/pi-star/) to check if the connection is successul or not.</div></blockquote>I haven't entered any aprs password for my HAT hotspots, but I can try running a pi-star only connected to a OpenGD77 radio to see what happens.<br>I think it should work out of the box.</div></blockquote>I couldn't see where to enter the aprs password in the hotspot.  I have made a hotspot with mmdvm cards before and I still use them and there was no such problem with them.  I would be very happy if you could try it for me.  with my pages<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5811">TA1DRE</a> — Tue Mar 19, 2024 4:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-19T16:25:57</updated>
+
+		<published>2024-03-19T16:25:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30220#p30220</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30220#p30220"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30220#p30220"><![CDATA[
+<blockquote class="uncited"><div>Yes, few years ago all the APRS connection has been moved to the dedicated APRSGateway software.<br>Of course, in its configuration, you also need to enter your own Ham "password" to connect aprs.fi (I think there is an editor in the Expert "tab" fro the APRSGateway).<br><br>You can also take a look at the APRSGateway log (located in /var/log/pi-star/) to check if the connection is successul or not.</div></blockquote>I haven't entered any aprs password for my HAT hotspots, but I can try running a pi-star only connected to a OpenGD77 radio to see what happens.<br>I think it should work out of the box.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Mar 19, 2024 4:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-19T16:07:13</updated>
+
+		<published>2024-03-19T16:07:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30219#p30219</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30219#p30219"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30219#p30219"><![CDATA[
+Yes, few years ago all the APRS connection has been moved to the dedicated APRSGateway software.<br>Of course, in its configuration, you also need to enter your own Ham "password" to connect aprs.fi (I think there is an editor in the Expert "tab" fro the APRSGateway).<br><br>You can also take a look at the APRSGateway log (located in /var/log/pi-star/) to check if the connection is successul or not.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 19, 2024 4:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1DRE]]></name></author>
+		<updated>2024-03-19T16:03:29</updated>
+
+		<published>2024-03-19T16:03:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30217#p30217</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30217#p30217"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30217#p30217"><![CDATA[
+<blockquote class="uncited"><div>If I used MMDVMHost standalone (on a Linux host without pi-star)  I noticed that aprs.fi wasn't update so it's probably some other component in pi-star<br>that reports to aprs.fi , probably APRSGateway.<br><br>But check that you enabled it in pi-star: <br>Capture.JPG</div></blockquote>Sir, I added two screenshots, the settings are as you did, but I couldn't understand them.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2272&amp;sid=d63175ccbb196a571531113553711412" class="postimage" alt="Screenshot_20240319_184830_Chrome.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5811">TA1DRE</a> — Tue Mar 19, 2024 4:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-19T15:58:19</updated>
+
+		<published>2024-03-19T15:58:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30216#p30216</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30216#p30216"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30216#p30216"><![CDATA[
+If I used MMDVMHost standalone (on a Linux host without pi-star)  I noticed that aprs.fi wasn't update so it's probably some other component in pi-star<br>that reports to aprs.fi , probably APRSGateway.<br><br>But check that you enabled it in pi-star: <div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2270&amp;sid=d63175ccbb196a571531113553711412" class="postimage" alt="Capture.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Mar 19, 2024 3:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1DRE]]></name></author>
+		<updated>2024-03-19T16:00:17 </updated>
+
+		<published>2024-03-19T15:57:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30215#p30215</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30215#p30215"/>
+		<title type="html"><![CDATA[Re: repeater in hotspot mode not visible on aprs.fi page]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3887&amp;p=30215#p30215"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>AFIK aprs.fi is a completely different service to Brandmiester.<br><br>The hotspot does not receive APRS signals on FM or DMR and send then to aprs.fi, so I can't see why it should appear on the aprs.fi map.<br><br>The firmware can't receive APRS FM signals, or operate in FM mode with PiStar<br><br>In DMR mode the hotspot will pass the In-Call GPS data, which it receives as part of a normal DMR audio transmission, but the network Brandmeister handles forwarding the In-Call GPS to aprs aggregation servers.</div></blockquote>Thank you for your answer.  I understand what you say, but I do not want the radios to send daprs signals via hotspot.  Aprs.fi also shows the location coordinates of hotspots made with mmdvm cards purchased from Chinese sites.  Can't we see this hotspot we created with opengd77 on the aprs.fi map?</div></blockquote>That hotspot location needs to be defined in the MMDVMHost configuration (see <strong class="text-strong">[Info]</strong> section).</div></blockquote>Thank you, but even though I entered the coordinates on both the configuration and info pages, they do not appear.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2271&amp;sid=d63175ccbb196a571531113553711412" class="postimage" alt="Screenshot_20240319_185410_Chrome.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5811">TA1DRE</a> — Tue Mar 19, 2024 3:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

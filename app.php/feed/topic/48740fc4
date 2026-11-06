@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4874" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-14T23:06:04</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4874</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-14T23:06:04</updated>
+
+		<published>2025-02-14T23:06:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35746#p35746</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35746#p35746"/>
+		<title type="html"><![CDATA[Re: Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35746#p35746"><![CDATA[
+OpenGD77 is promiscous by default and you will hear all active talkgroups.<br>Use DMR Filters from the quick menu to filter on TG/Contact/TG List<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Feb 14, 2025 11:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC6WOG]]></name></author>
+		<updated>2025-02-14T20:55:28</updated>
+
+		<published>2025-02-14T20:55:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35744#p35744</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35744#p35744"/>
+		<title type="html"><![CDATA[Re: Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35744#p35744"><![CDATA[
+<blockquote class="uncited"><div>Yes, I'm using the zumspot 1.3<br><br>On my dm-1701, if i start typing '4000' it is changing the frequency; Where or how do I key up '4000'?  I'm sorry, I'm completely new to this DMR world!!</div></blockquote>Hit # first to enter the TG number. (And read the manual! It's well written and easy to understand.)<br><br>None of this is actually related to OpenGD77 so you'll probably get more help in a general DMR forum. That being said, installing it was the right move, as it's far more intuitive (and powerful!) than the original firmware. At some point, it will all "click" for you and using DMR will become a lot easier. Meanwhile, I'd strongly suggest not setting 91 as static on your hotspot, it's really busy and WILL dominate your reception, just as you've described. Should you want to use it, it can be accessed dynamically with just a few keystrokes.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4063">KC6WOG</a> — Fri Feb 14, 2025 8:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-02-14T12:50:13</updated>
+
+		<published>2025-02-14T12:50:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35740#p35740</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35740#p35740"/>
+		<title type="html"><![CDATA[Re: Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35740#p35740"><![CDATA[
+<blockquote class="uncited"><div>Brandmeister also have a annoying "feature" Autostatic for simplex hotspots.<br><br><a href="https://help.brandmeister.us/talk-groups/dynamic-vs-static#auto-static-simplex-hotspots-only" class="postlink">https://help.brandmeister.us/talk-group ... spots-only</a><blockquote class="uncited"><div>Auto-static (Simplex Hotspots only)<br>A auto-static is for hotspots only and sets the hotspot to stay on the current active talk group which was activated by keying up the radio through the hotspot by the user. This means this talk group will stay active until the user on the hotspot keys up another talk group and of which will set the new talkgroup as the new auto-static. <br></div></blockquote>Wish that this "feature" could be disabled via selfservice.</div></blockquote>I kinda like this feature. Back in the day while I was using duplex hotspot, I have to set static TG in selfceare and/of API. These Static TG can not be unlink via the radio. On the contrary, in simplex hotspot, Auto static TG is unlinkable. However, this is kinda personal preference and I do like the idea of being able to enable/disable the feature.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Feb 14, 2025 12:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-14T06:17:08</updated>
+
+		<published>2025-02-14T06:17:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35739#p35739</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35739#p35739"/>
+		<title type="html"><![CDATA[Re: Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35739#p35739"><![CDATA[
+Brandmeister also have a annoying "feature" Autostatic for simplex hotspots.<br><br><a href="https://help.brandmeister.us/talk-groups/dynamic-vs-static#auto-static-simplex-hotspots-only" class="postlink">https://help.brandmeister.us/talk-group ... spots-only</a><blockquote class="uncited"><div>Auto-static (Simplex Hotspots only)<br>A auto-static is for hotspots only and sets the hotspot to stay on the current active talk group which was activated by keying up the radio through the hotspot by the user. This means this talk group will stay active until the user on the hotspot keys up another talk group and of which will set the new talkgroup as the new auto-static. <br></div></blockquote>Wish that this "feature" could be disabled via selfservice.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Feb 14, 2025 6:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-02-13T23:08:51</updated>
+
+		<published>2025-02-13T23:08:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35738#p35738</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35738#p35738"/>
+		<title type="html"><![CDATA[Re: Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35738#p35738"><![CDATA[
+first of all, Please read the manual <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... r_Guide.md</a><br><br>Secondly, Talk group 91 is very active, hence it is very hard to unlink. I assume your hot spot is a simplex hotspot. If you can hear anything that means your hotspot is transmitting, just like any other simplex transceivers, when it is in transmit it will not hear anything. to be able to key up on tK 4000 to unlink, you need to key in in the gab between the stations, just like if you were to break in. <br><br>another way to unlink is go to brandmeister website, login, then select My device on the left and remove 91 out of static Talk group.<br><br> Hope this help<br>Charlie,<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2843&amp;sid=8f1801702d456e5aedd9af967f73e88b" class="postimage" alt="Screenshot 2025-02-13 at 6.06.32?PM.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Feb 13, 2025 11:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd9ajh]]></name></author>
+		<updated>2025-02-13T21:14:58</updated>
+
+		<published>2025-02-13T21:14:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35736#p35736</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35736#p35736"/>
+		<title type="html"><![CDATA[Re: Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35736#p35736"><![CDATA[
+I created a TG for 4000, keyed up, and TG is still taking priority and interrupting other talk groups.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8044">kd9ajh</a> — Thu Feb 13, 2025 9:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd9ajh]]></name></author>
+		<updated>2025-02-13T20:50:34</updated>
+
+		<published>2025-02-13T20:50:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35735#p35735</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35735#p35735"/>
+		<title type="html"><![CDATA[Re: Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35735#p35735"><![CDATA[
+Yes, I'm using the zumspot 1.3<br><br>On my dm-1701, if i start typing '4000' it is changing the frequency; Where or how do I key up '4000'?  I'm sorry, I'm completely new to this DMR world!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8044">kd9ajh</a> — Thu Feb 13, 2025 8:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-02-13T19:54:20</updated>
+
+		<published>2025-02-13T19:54:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35734#p35734</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35734#p35734"/>
+		<title type="html"><![CDATA[Re: Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35734#p35734"><![CDATA[
+Are you using hotspot? If so key up 4000 to clear all the talk group, and then not key up 91. This is the priority of your hot spot.<br><br>If you are listen to a repeater and have no control over that repeater, then turn the DMR filter to TG.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Feb 13, 2025 7:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd9ajh]]></name></author>
+		<updated>2025-02-13T19:16:11</updated>
+
+		<published>2025-02-13T19:16:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35732#p35732</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35732#p35732"/>
+		<title type="html"><![CDATA[Dm-1701 TG taking priority over others]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4874&amp;p=35732#p35732"><![CDATA[
+Hey everyone - newbie here; Sorry if this has been posted, I've searched everywhere for answers but can't seem to find answers.<br><br>My DM-1701 has three TG's programmed right now: Talkgroup 9, 91, and KC Wide 313136.  Whenever I listen to another talkgroup, 91 ALWAYS overrides what I'm listening to and is taking priority over other channels.  It's rather annoying and I have absolutely no idea how to stop it from happening.  If i'm listening to any talk group, I want to listen to that talkgroup only and not be interrupted by TG 91.  <br><br>I hope this is making sense. Can anyone help me out please?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8044">kd9ajh</a> — Thu Feb 13, 2025 7:16 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

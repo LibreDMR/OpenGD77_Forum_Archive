@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3925" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-30T08:35:04</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3925</id>
+
+		<entry>
+		<author><name><![CDATA[N8ZI]]></name></author>
+		<updated>2024-03-30T08:35:04</updated>
+
+		<published>2024-03-30T08:35:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30486#p30486</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30486#p30486"/>
+		<title type="html"><![CDATA[Re: Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30486#p30486"><![CDATA[
+<blockquote class="uncited"><div>Your main problem may be internal PCB damage. <br><br>The PCB is an 8 layer board with the 12V supply running on one of the internal layers. The place you can see the burning is where the internal layer links to the bottom layer.  If it has got hot enough to damage the insulation between layers then it might not be easily repairable. <br><br><br>Colin G4EML</div></blockquote>Oh that's not good to hear. <br>On a positive note, my repair guy is a close friend and never charges me labor. Only the cost of shipping and any replacement parts. Also the transceiver was purchased used for $100 and functioned flawlessly for several years. I think a compatible dual band DMR/analog rig costs around $300+ new. So it's worth attempting repairs on this one.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5883">N8ZI</a> — Sat Mar 30, 2024 8:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-03-29T15:39:46</updated>
+
+		<published>2024-03-29T15:39:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30459#p30459</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30459#p30459"/>
+		<title type="html"><![CDATA[Re: Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30459#p30459"><![CDATA[
+Your main problem may be internal PCB damage. <br><br>The PCB is an 8 layer board with the 12V supply running on one of the internal layers. The place you can see the burning is where the internal layer links to the bottom layer.  If it has got hot enough to damage the insulation between layers then it might not be easily repairable. <br><br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Mar 29, 2024 3:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N8ZI]]></name></author>
+		<updated>2024-03-29T14:17:09</updated>
+
+		<published>2024-03-29T14:17:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30458#p30458</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30458#p30458"/>
+		<title type="html"><![CDATA[Re: Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30458#p30458"><![CDATA[
+<blockquote class="uncited"><div>The burnt area in your picture is not a component, it is a PCB track. <br><br>This track links the 12V Battery supply (on internal PCB layer 4) to the 'always on' 4V regulator that in turn supplies the 3V3 for the main processor. <br><br>As this is a multi layer board you may have some internal damage which would be difficult to repair. <br><br>The regulator in question is on the rear of the board.  You would need to remove the board and trace the connection on the top side to get to it. <br><br>I have attached some extracts from the documents to show the area you would need to check.  The red dot is where your burnt track is. <br><br>I would first check C1015 22uF 20V which is from the 12V supply to ground. This is the most likely failure and may be short circuit. <br>Also check L1001 which may have burnt out. <br>It is also possible that U1002 has failed short circuit.  <br><br>Colin G4EML</div></blockquote>Excellent Colin. Exactly the information I was seeking and greatly appreciated.<br>I have to admit this is beyond my comfort zone, so off it goes to my electronics guru who has the SMD equipment and experience to attempt a repair.<br><br>I will reply back if further information is required and let everyone known if repairs were successful, or if the transceiver became a brick.<br><br>Tom N8ZI<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5883">N8ZI</a> — Fri Mar 29, 2024 2:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N8ZI]]></name></author>
+		<updated>2024-03-29T14:08:51</updated>
+
+		<published>2024-03-29T14:08:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30457#p30457</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30457#p30457"/>
+		<title type="html"><![CDATA[Re: Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30457#p30457"><![CDATA[
+<blockquote class="uncited"><div>There are no board layout / PCB files<br><br>Someone posted and old schematic a few weeks ago, but apparantly its an old version of the schematic and the newer radios have some changes to the electronics, hence its unknown how correct any part of the old schematic is</div></blockquote>Thank you Roger. Yes I found the schematics previously posted and looked them over. <br>This transceiver is at least 4-5 years old, so those schematics might be correct.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5883">N8ZI</a> — Fri Mar 29, 2024 2:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-03-29T12:55:01</updated>
+
+		<published>2024-03-29T12:55:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30456#p30456</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30456#p30456"/>
+		<title type="html"><![CDATA[Re: Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30456#p30456"><![CDATA[
+The burnt area in your picture is not a component, it is a PCB track. <br><br>This track links the 12V Battery supply (on internal PCB layer 4) to the 'always on' 4V regulator that in turn supplies the 3V3 for the main processor. <br><br>As this is a multi layer board you may have some internal damage which would be difficult to repair. <br><br>The regulator in question is on the rear of the board.  You would need to remove the board and trace the connection on the top side to get to it. <br><br>I have attached some extracts from the documents to show the area you would need to check.  The red dot is where your burnt track is. <br><br>I would first check C1015 22uF 20V which is from the 12V supply to ground. This is the most likely failure and may be short circuit. <br>Also check L1001 which may have burnt out. <br>It is also possible that U1002 has failed short circuit.  <br><br>Colin G4EML<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2299&amp;sid=eb1b8d754a031b048b18de548842958c" class="postimage" alt="Layout.png" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2300&amp;sid=eb1b8d754a031b048b18de548842958c" class="postimage" alt="Schematic.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Mar 29, 2024 12:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T09:23:23</updated>
+
+		<published>2024-03-29T09:23:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30449#p30449</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30449#p30449"/>
+		<title type="html"><![CDATA[Re: Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30449#p30449"><![CDATA[
+There are no board layout / PCB files<br><br>Someone posted and old schematic a few weeks ago, but apparantly its an old version of the schematic and the newer radios have some changes to the electronics, hence its unknown how correct any part of the old schematic is<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 9:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N8ZI]]></name></author>
+		<updated>2024-03-29T01:39:00</updated>
+
+		<published>2024-03-29T01:39:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30445#p30445</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30445#p30445"/>
+		<title type="html"><![CDATA[Re: Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30445#p30445"><![CDATA[
+Ok, thanks for clarifying that.<br><br>One photo shows the entire board with a red dot signifying the location of burnt component. The other is a closer view of the failed part.<br><br>Hopefully someone can share the board layouts and determine what the toasted component is.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2296&amp;sid=eb1b8d754a031b048b18de548842958c" class="postimage" alt="20240314_124639.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2297&amp;sid=eb1b8d754a031b048b18de548842958c" class="postimage" alt="20240314_122423.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5883">N8ZI</a> — Fri Mar 29, 2024 1:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-28T20:46:46</updated>
+
+		<published>2024-03-28T20:46:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30431#p30431</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30431#p30431"/>
+		<title type="html"><![CDATA[Re: Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30431#p30431"><![CDATA[
+<blockquote class="uncited"><div>Hello,<br>I'm looking for help with a Westcom DM-880B which is allegedly a rebranded TYT MD-9600/Retevis RT-90. Need a schematic with a board layout diagram. This is a friend's transceiver that stopped functioning so I'm looking into it for him.<br><br>The fan runs continuously, when connected to power, yet the radio will not turn on. I pulled the cover off and noticed a component let the smoke out. <br><br>Any help in determining a suitable replacement would be greatly appreciated.<br><br>Apparently I do not have permission to post photos?<br>I get an error message stating the file is too large, but the photo is only 346kb?</div></blockquote>Images have to be less than 100k<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 28, 2024 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N8ZI]]></name></author>
+		<updated>2024-03-28T14:08:57</updated>
+
+		<published>2024-03-28T14:08:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30425#p30425</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30425#p30425"/>
+		<title type="html"><![CDATA[Westcom DM880B]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3925&amp;p=30425#p30425"><![CDATA[
+Hello,<br>I'm looking for help with a Westcom DM-880B which is allegedly a rebranded TYT MD-9600/Retevis RT-90. Need a schematic with a board layout diagram. This is a friend's transceiver that stopped functioning so I'm looking into it for him.<br><br>The fan runs continuously, when connected to power, yet the radio will not turn on. I pulled the cover off and noticed a component let the smoke out. <br><br>Any help in determining a suitable replacement would be greatly appreciated.<br><br>Apparently I do not have permission to post photos?<br>I get an error message stating the file is too large, but the photo is only 346kb?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5883">N8ZI</a> — Thu Mar 28, 2024 2:08 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

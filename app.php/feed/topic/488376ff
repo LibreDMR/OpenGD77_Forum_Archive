@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4883" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-23T16:33:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4883</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-23T16:33:29</updated>
+
+		<published>2025-02-23T16:33:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4883&amp;p=35886#p35886</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4883&amp;p=35886#p35886"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2025 02 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4883&amp;p=35886#p35886"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4905" class="postlink">viewtopic.php?f=12&amp;t=4905</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Feb 23, 2025 4:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-17T04:17:00</updated>
+
+		<published>2025-02-17T04:17:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4883&amp;p=35793#p35793</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4883&amp;p=35793#p35793"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2025 02 17]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4883&amp;p=35793#p35793"><![CDATA[
+<ul><li> Fix "Force DMO" checkbox position and label translation management in VFO screen.</li><li> Fix "DMR ID" label translation management in VFO screen.</li><li> German update from HB9WCN.</li><li> Italian update from IZ2EIB.</li></ul>The installer can be downloaded from: <a href="https://drive.proton.me/urls/5ECJNM7AMM#QZihEz92WXYZ" class="postlink">https://drive.proton.me/urls/5ECJNM7AMM#QZihEz92WXYZ</a><br><br>For localization files are available at: <a href="https://drive.proton.me/urls/76C4XRJ8CW#gL3UIcpa6Y9E" class="postlink">https://drive.proton.me/urls/76C4XRJ8CW#gL3UIcpa6Y9E</a><br><br><strong class="text-strong">NOTE</strong>: you need a firmware greater or equal to the 2025/01/26 to be able to use the Beacon Silently option.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Feb 17, 2025 4:17 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

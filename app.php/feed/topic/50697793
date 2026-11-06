@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5069" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-18T18:45:30</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5069</id>
+
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-06-18T18:45:30</updated>
+
+		<published>2025-06-18T18:45:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5069&amp;p=37515#p37515</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5069&amp;p=37515#p37515"/>
+		<title type="html"><![CDATA[Re: Empty Satellites List]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5069&amp;p=37515#p37515"><![CDATA[
+same issue with me, looking for old version of CPS, I have tried with all available CPS but no success.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Wed Jun 18, 2025 6:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-16T20:47:59</updated>
+
+		<published>2025-04-16T20:47:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5069&amp;p=36787#p36787</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5069&amp;p=36787#p36787"/>
+		<title type="html"><![CDATA[Re: Empty Satellites List]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5069&amp;p=36787#p36787"><![CDATA[
+that version is really old, better try with the last CPS and the last OpenGD77 BETA.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Apr 16, 2025 8:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IW0ROT]]></name></author>
+		<updated>2025-04-16T20:11:16</updated>
+
+		<published>2025-04-16T20:11:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5069&amp;p=36786#p36786</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5069&amp;p=36786#p36786"/>
+		<title type="html"><![CDATA[Empty Satellites List]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5069&amp;p=36786#p36786"><![CDATA[
+Hy,<br>I'm Mario IW0ROT. <br>My radio is Baofeng DM 1701a with Opengd77.<br>I try to download satellites TLE trought CPS.<br>During this activity i read on display of the radio "Writing Satellites Data". But when the radio is in Satellite Mode there is "Empty Satellites List".<br>Reading in the web some friends solved the problem with CPS versione 2023.08.10.01. <br>I'm not able to find this version.<br>Can you help me ?<br>Thanks<br>83<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8468">IW0ROT</a> — Wed Apr 16, 2025 8:11 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

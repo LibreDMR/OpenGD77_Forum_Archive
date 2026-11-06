@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/22" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-06T04:48:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/22</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-06T04:48:59</updated>
+
+		<published>2025-02-06T04:48:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35600#p35600</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35600#p35600"/>
+		<title type="html"><![CDATA[Voice prompts • Re: How to create and text voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35600#p35600"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Build tools are here<br><br>See <a href="https://www.opengd77.com/downloads/Voice_Prompts/tools" class="postlink">downloads/Voice_Prompts/tools</a></div></blockquote>I guess these tools are to create new voices?<br><blockquote class="uncited"><div>Localisation text files are here, but won't be the latest for the last beta, you will need to use the beta localisation files<br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts" class="postlink">downloads/localisation/voice_prompt_texts</a></div></blockquote>ok, I've checked this ones: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a> from the last beta: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4815" class="postlink">viewtopic.php?f=19&amp;t=4815</a><br><br>but what I want to know is if there is a way to test the XML files in the current voices to know is they sound properly? for example to verify pronunciations and some separated/individual characters modulation.</div></blockquote>We use a free online service called <a href="https://ttsmp3.com/" class="postlink">https://ttsmp3.com/</a>  to generate the voice files.<br><br>That site lets you type in text and listen to the audio.<br><br>However, be aware becuase ita a free service it has a limited number of words it will generate per day<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 06, 2025 4:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-06T00:26:08</updated>
+
+		<published>2025-02-06T00:26:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35597#p35597</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35597#p35597"/>
+		<title type="html"><![CDATA[Voice prompts • Re: How to create and text voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35597#p35597"><![CDATA[
+<blockquote class="uncited"><div>Build tools are here<br><br>See <a href="https://www.opengd77.com/downloads/Voice_Prompts/tools" class="postlink">downloads/Voice_Prompts/tools</a></div></blockquote>I guess these tools are to create new voices?<br><blockquote class="uncited"><div>Localisation text files are here, but won't be the latest for the last beta, you will need to use the beta localisation files<br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts" class="postlink">downloads/localisation/voice_prompt_texts</a></div></blockquote>ok, I've checked this ones: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a> from the last beta: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4815" class="postlink">viewtopic.php?f=19&amp;t=4815</a><br><br>but what I want to know is if there is a way to test the XML files in the current voices to know is they sound properly? for example to verify pronunciations and some separated/individual characters modulation.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Feb 06, 2025 12:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-05T21:15:58</updated>
+
+		<published>2025-02-05T21:15:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35595#p35595</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35595#p35595"/>
+		<title type="html"><![CDATA[Voice prompts • Re: How to create and text voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35595#p35595"><![CDATA[
+Build tools are here<br><br>See <a href="https://www.opengd77.com/downloads/Voice_Prompts/tools" class="postlink">downloads/Voice_Prompts/tools</a><br><br>Localisation text files are here, but won't be the latest for the last beta, you will need to use the beta localisation files<br><br><a href="https://www.opengd77.com/downloads/localisation/voice_prompt_texts" class="postlink">downloads/localisation/voice_prompt_texts</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 05, 2025 9:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-05T20:12:42</updated>
+
+		<published>2025-02-05T20:12:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35592#p35592</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35592#p35592"/>
+		<title type="html"><![CDATA[Voice prompts • How to create and text voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4846&amp;p=35592#p35592"><![CDATA[
+<blockquote class="uncited"><div>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a></div></blockquote>about this, I would like to update the voice prompt text for spanish, because some are missing or have wrong translation, but... is there a way to test it? to know is these will sound properly in the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Feb 05, 2025 8:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3GDZ]]></name></author>
+		<updated>2024-12-21T20:40:15</updated>
+
+		<published>2024-12-21T20:40:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34861#p34861</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34861#p34861"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34861#p34861"><![CDATA[
+Thanks !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7377">UB3GDZ</a> — Sat Dec 21, 2024 8:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-21T20:35:06</updated>
+
+		<published>2024-12-21T20:35:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34860#p34860</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34860#p34860"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34860#p34860"><![CDATA[
+<blockquote class="uncited"><div>Thanks, I get it, I saw that it looked like a stub or silence between words and wanted to make those files even smaller to save memory</div></blockquote>Yes. The silence is the space between words. Although this could be hard coded into the firmware, radios like the GD-77 have virtually no free program space and its essential for us to not put things into program space which can be put into Flash memory<br><br>The other items can't be deleted because they would break backwards compatibility with the firmware. i.e you would need to recompile the firmware to match the changes to your voice prompt items index, and  your VP's would only work with your version of firmware<br><br><br>We do not change the structure of the VPs e.g. remove items which are unused, because this would require every user to update their firmware to match the new VP structure<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 21, 2024 8:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3GDZ]]></name></author>
+		<updated>2024-12-21T19:43:08</updated>
+
+		<published>2024-12-21T19:43:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34859#p34859</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34859#p34859"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34859#p34859"><![CDATA[
+Thanks, I get it, I saw that it looked like a stub or silence between words and wanted to make those files even smaller to save memory<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7377">UB3GDZ</a> — Sat Dec 21, 2024 7:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-21T19:38:07</updated>
+
+		<published>2024-12-21T19:38:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34858#p34858</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34858#p34858"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34858#p34858"><![CDATA[
+<blockquote class="uncited"><div>There are files like PROMPT_UNUSED_10 in the package, can they be deleted ? The PROMPT_SPACE file does silence or pause, and UNUSED is not used in any way ?</div></blockquote>Do not delete anything. If you delete anything they voice prompts will not work correctly<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 21, 2024 7:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-21T16:30:09</updated>
+
+		<published>2024-12-21T16:30:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34854#p34854</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34854#p34854"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34854#p34854"><![CDATA[
+<blockquote class="uncited"><div>There are files like PROMPT_UNUSED_10 in the package, can they be deleted ? The PROMPT_SPACE file does silence or pause, and UNUSED is not used in any way ?</div></blockquote>No, there is nothing to delete.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Dec 21, 2024 4:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3GDZ]]></name></author>
+		<updated>2024-12-21T15:42:15</updated>
+
+		<published>2024-12-21T15:42:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34853#p34853</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34853#p34853"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34853#p34853"><![CDATA[
+There are files like PROMPT_UNUSED_10 in the package, can they be deleted ? The PROMPT_SPACE file does silence or pause, and UNUSED is not used in any way ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7377">UB3GDZ</a> — Sat Dec 21, 2024 3:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3GDZ]]></name></author>
+		<updated>2024-12-18T10:30:01</updated>
+
+		<published>2024-12-18T10:30:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34768#p34768</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34768#p34768"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34768#p34768"><![CDATA[
+Thank you ! Yes I have it working like that, so my .RAW is correct, apparently when I re-compress the original MP3s they become larger than they were originally and the tempo_1.25 package hits the size limits ! I tried for a test pre-compressing the MP3s to poor quality with very small file sizes, but the FFMPEG re-conversion brings everything back to the same size as before<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2790&amp;sid=d650051c57bf4ce6944b48f03ddd3b38" class="postimage" alt="??????.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7377">UB3GDZ</a> — Wed Dec 18, 2024 10:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-18T04:22:30</updated>
+
+		<published>2024-12-18T04:22:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34761#p34761</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34761#p34761"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34761#p34761"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I presume you mean, that if you open the RAW files with that setting, then Audacity plays the audio at the correct speed etc.<br><br>If this is the case, then check the conversion parameters for ffmpeg. They work OK with the MP3 files from TTSMP3, so the presumption is that ffmpeg could output the file with the same RAW paramaters , regardless of the mp3</div></blockquote>If I play the .RAW file in Audacity as it is defined, namely in 44100 Hz, it plays in accelerated mode, as soon as I manually change this value to 8000Hz, it sounds fine ! Apparently I need to somehow disconnect the script from TTSMP3 and work only locally !</div></blockquote>RAW files do not contain a header with the encoding and sample rate etc, so you need to manually select these values in Audacity.<br><br>If changing the sample rate, in Audacity, to 8000Hz plays the audio at the correct speed and pitch, then the audio has been correctly converted by ffmpeg to 8Khz mono 16 bit.<br><br>The file size of your raw files should not be significantly different to the equivalent files in another language, e.g. German,  depending on your exact translation of the English text, i.e German translations are often longer than the English version because of the nature of the German language.<br><br>If you created replacement MP3 files, then you need to deleted your RAW and AMB files and re-run the script.<br><br>It checks if the mp3 files are present and does not download them again if the already exist. It then checks for the RAW version and if this does not exist then the script creates the RAW version, and finally the script checks for AMB files and if these do not exist, the script will use the radio to convert RAW to AMB and then build a new VPR file<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 18, 2024 4:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3GDZ]]></name></author>
+		<updated>2024-12-17T22:03:18</updated>
+
+		<published>2024-12-17T22:03:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34750#p34750</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34750#p34750"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34750#p34750"><![CDATA[
+I'll try and work it out, all I'm doing is facing this for the first time without any skills so I realise how stupid I look, sorry about that  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_redface.gif" width="15" height="17" alt=":oops:" title="Embarrassed"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7377">UB3GDZ</a> — Tue Dec 17, 2024 10:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UB3GDZ]]></name></author>
+		<updated>2024-12-17T22:01:23</updated>
+
+		<published>2024-12-17T22:01:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34749#p34749</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34749#p34749"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34749#p34749"><![CDATA[
+<blockquote class="uncited"><div>I presume you mean, that if you open the RAW files with that setting, then Audacity plays the audio at the correct speed etc.<br><br>If this is the case, then check the conversion parameters for ffmpeg. They work OK with the MP3 files from TTSMP3, so the presumption is that ffmpeg could output the file with the same RAW paramaters , regardless of the mp3</div></blockquote>If I play the .RAW file in Audacity as it is defined, namely in 44100 Hz, it plays in accelerated mode, as soon as I manually change this value to 8000Hz, it sounds fine ! Apparently I need to somehow disconnect the script from TTSMP3 and work only locally !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7377">UB3GDZ</a> — Tue Dec 17, 2024 10:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-17T21:55:21</updated>
+
+		<published>2024-12-17T21:55:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34748#p34748</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34748#p34748"/>
+		<title type="html"><![CDATA[Voice prompts • Re: Building voice prompts]]></title>
+
+					<category term="Voice prompts" scheme="http://localhost/opengd77/viewforum.php?f=22" label="Voice prompts"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3726&amp;p=34748#p34748"><![CDATA[
+I presume you mean, that if you open the RAW files with that setting, then Audacity plays the audio at the correct speed etc.<br><br>If this is the case, then check the conversion parameters for ffmpeg. They work OK with the MP3 files from TTSMP3, so the presumption is that ffmpeg could output the file with the same RAW paramaters , regardless of the mp3<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 17, 2024 9:55 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

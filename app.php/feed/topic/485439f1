@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4854" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-15T08:55:03</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4854</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-15T08:55:03</updated>
+
+		<published>2025-02-15T08:55:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35753#p35753</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35753#p35753"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35753#p35753"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4878" class="postlink">viewtopic.php?f=19&amp;t=4878</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 15, 2025 8:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-02-13T19:04:27</updated>
+
+		<published>2025-02-13T19:04:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35731#p35731</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35731#p35731"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35731#p35731"><![CDATA[
+Thank you for posting your answer after I posted I had successfully installed the firmware!<br><br>And yes, I already have the Manual from my time installing the firmware in my Radioddity RD-5R.<br><br>And yes, that is the exact link to the installation procedure that resulted in my question.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Thu Feb 13, 2025 7:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2025-02-13T15:52:00</updated>
+
+		<published>2025-02-13T15:52:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35730#p35730</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35730#p35730"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35730#p35730"><![CDATA[
+Question is as easy as reading OpenGD manual.<br><br>You can find it here:<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... r_Guide.md</a><br><br>Also the Installation procedure available here:<br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><br><br>73' Rafael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Thu Feb 13, 2025 3:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-02-13T05:42:39</updated>
+
+		<published>2025-02-13T05:42:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35728#p35728</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35728#p35728"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35728#p35728"><![CDATA[
+<blockquote class="uncited"><div>I already told you that's the same procedure for all the STM32 based transceiver.<br>You have never read someone bricked their device flashing the OpenGD77 firmware, that never happen. The only thing that could happen is a wrong firmware get flashed and the device stays in bootloader mode, waiting for a correct firmware to be flashed. That's all.<br><br>The MD-9600/MD-UV3x0/RT-3S/DM-1701 are working the same, in firmware flashing point of view. Only the USB cable differs.<br><br>You have tons of video on YT about this topic. Don't expect me to take you by the hand to flash the firmware, there are enough Howtos and threads here, YT videos, etc, about this topic.<br><br>Sorry to be a bit harsh, but since you're an Ham Radio, it means you're a bit technical person, used to document yourself.<br><br>Thanks.</div></blockquote>In law school, I took the course, Secured Transactions, from a renowned genius in his field, Professor Stefan Riesenfeld.<br><br>He was so brilliant that when someone would ask him a question, he would respond in his German accent: "Why would you ask that question?  You STUPID DUMMKOPF!!!<br><br>That's all I have to say about your style of responding to my questions, but thank you for pointing out that there is no fear of "bricking" any radio with OpenGD77.  With that self-confidence, I easily installed OpenGD77 on my Baofeng DM-1701.<br><br>Now that I have proven how easy it is to upgrade the least expensive DMR HT to OpenGD77, I am bored with it and will offer it for sale at my cost to our local DMR Net next Monday night and go back to using my RD-5R and DM-5R!  Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Thu Feb 13, 2025 5:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-13T05:02:52</updated>
+
+		<published>2025-02-13T05:02:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35727#p35727</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35727#p35727"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35727#p35727"><![CDATA[
+<blockquote class="uncited"><div>??????????????????????</div></blockquote>Use online translation tool, this forum use English language.<br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Feb 13, 2025 5:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BI4VWR]]></name></author>
+		<updated>2025-02-13T03:56:16</updated>
+
+		<published>2025-02-13T03:56:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35725#p35725</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35725#p35725"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35725#p35725"><![CDATA[
+??????????????????????<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2267">BI4VWR</a> — Thu Feb 13, 2025 3:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-08T14:15:57</updated>
+
+		<published>2025-02-08T14:15:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35686#p35686</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35686#p35686"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35686#p35686"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><ul><li>/cut/</li><li> Fix APRS QSY: RX and TX freqs were swapped.<br>/cut/</li></ul></div></blockquote>Excuse me, do you mean that previously in QSY APRS was transmitting "backwards"?</div></blockquote>For repeater channels it showed the repeater input frequency (uplink) instead of the output (downlink)<br><br>Old version:    !432.625MHz c077 +200 OpenGD77 MD-9600<br><br>Fixed version: !434.625MHz c077 -200 OpenGD77 MD-9600<br><br>( We have -2 MHz shift in Sweden on 70 cm and the repeaters are TX'ing on 434 MHz )<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Feb 08, 2025 2:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-02-08T14:03:52</updated>
+
+		<published>2025-02-08T14:03:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35685#p35685</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35685#p35685"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35685#p35685"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><ul><li>/cut/</li><li> Fix APRS QSY: RX and TX freqs were swapped.<br>/cut/</li></ul></div></blockquote>Excuse me, do you mean that previously in QSY APRS was transmitting "backwards"?</div></blockquote>The APRS sentence when QSY TX has a standardize format. In previous firmware we are not construct the sentence according to the standard. please have a look at this thread, <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4815&amp;start=10#p35560" class="postlink">viewtopic.php?f=19&amp;t=4815&amp;start=10#p35560</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Feb 08, 2025 2:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[i5ekx]]></name></author>
+		<updated>2025-02-08T13:40:42</updated>
+
+		<published>2025-02-08T13:40:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35684#p35684</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35684#p35684"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35684#p35684"><![CDATA[
+<blockquote class="uncited"><div><ul><li>/cut/</li><li> Fix APRS QSY: RX and TX freqs were swapped.<br>/cut/</li></ul></div></blockquote>Excuse me, do you mean that previously in QSY APRS was transmitting "backwards"?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3315">i5ekx</a> — Sat Feb 08, 2025 1:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-08T08:16:30</updated>
+
+		<published>2025-02-08T08:16:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35678#p35678</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35678#p35678"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35678#p35678"><![CDATA[
+I already told you that's the same procedure for all the STM32 based transceiver.<br>You have never read someone bricked their device flashing the OpenGD77 firmware, that never happen. The only thing that could happen is a wrong firmware get flashed and the device stays in bootloader mode, waiting for a correct firmware to be flashed. That's all.<br><br>The MD-9600/MD-UV3x0/RT-3S/DM-1701 are working the same, in firmware flashing point of view. Only the USB cable differs.<br><br>You have tons of video on YT about this topic. Don't expect me to take you by the hand to flash the firmware, there are enough Howtos and threads here, YT videos, etc, about this topic.<br><br>Sorry to be a bit harsh, but since you're an Ham Radio, it means you're a bit technical person, used to document yourself.<br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 08, 2025 8:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-02-08T07:26:41</updated>
+
+		<published>2025-02-08T07:26:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35677#p35677</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35677#p35677"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35677#p35677"><![CDATA[
+<blockquote class="uncited"><div>The thread title is: "<strong class="text-strong">TYT MD-UV380/390 / RT-3S / DM1701 Installation information</strong>", is that not clear enough ?  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"></div></blockquote>I read stories about people improperly flashing firmware and "bricking" their radios.  I waited many weeks for this DM-1701 to arrive from China and I want to do the correct procedure.<br><br>While the thread title includes the listing of the "DM1701" it is clear that the YouTube video was prepared for the 380/RT3S only, so please humor me and give me a yes or no answer:<br><br>For the DM-1701, must I download both the DM1701 firmware and then also download the 9600 firmware and click the necessary box as shown in the video to add this firmware additionally?  If so, do both firmwares install at the same time, or must I run the software twice.<br><br>Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Sat Feb 08, 2025 7:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-08T07:02:43</updated>
+
+		<published>2025-02-08T07:02:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35676#p35676</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35676#p35676"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35676#p35676"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>From the post:<blockquote class="uncited"><div>Note. We use the MD9600 firmware as the ‘donor’ firmware, because the CPU in the MD-UV380 is the same as in the MD9600, and the codec in the MD9600 firmware is identical to the MD-UV380 codec, and to use the MD-UV380 official firmware as the ‘donor’ would require a lot of additional work for the developers.</div></blockquote>The MD9600 original firmware is used as a donor file for the codec, it's not meant to be flashed at all. This is the case for all the STM32 based transceivers supported by the firmware.</div></blockquote>Yes, thank you. I did read all of that but it is above my pay grade. <br><br>I am an end-user, so reading the quote from the post still does not tell me if I must do this step; i.e., be a donor file for the DM-1701 as well.</div></blockquote>The thread title is: "<strong class="text-strong">TYT MD-UV380/390 / RT-3S / DM1701 Installation information</strong>", is that not clear enough ?  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 08, 2025 7:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-02-08T06:53:50</updated>
+
+		<published>2025-02-08T06:53:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35675#p35675</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35675#p35675"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35675#p35675"><![CDATA[
+<blockquote class="uncited"><div><br>From the post:<blockquote class="uncited"><div>Note. We use the MD9600 firmware as the ‘donor’ firmware, because the CPU in the MD-UV380 is the same as in the MD9600, and the codec in the MD9600 firmware is identical to the MD-UV380 codec, and to use the MD-UV380 official firmware as the ‘donor’ would require a lot of additional work for the developers.</div></blockquote>The MD9600 original firmware is used as a donor file for the codec, it's not meant to be flashed at all. This is the case for all the STM32 based transceivers supported by the firmware.</div></blockquote>Yes, thank you. I did read all of that but it is above my pay grade. <br><br>I am an end-user, so reading the quote from the post still does not tell me if I must do this step; i.e., be a donor file for the DM-1701 as well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Sat Feb 08, 2025 6:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-08T04:33:41</updated>
+
+		<published>2025-02-08T04:33:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35674#p35674</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35674#p35674"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35674#p35674"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I don't know which video you're talking about…</div></blockquote>TYT-MD380/390 / RT3S / DM-1701 Installation Information <br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink"> https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380</a><br><br>I did select the correct radio, but the video goes on to indicate in the Extras Menu adding the 9600 firmware additionally and separately.</div></blockquote>From the post:<blockquote class="uncited"><div>Note. We use the MD9600 firmware as the ‘donor’ firmware, because the CPU in the MD-UV380 is the same as in the MD9600, and the codec in the MD9600 firmware is identical to the MD-UV380 codec, and to use the MD-UV380 official firmware as the ‘donor’ would require a lot of additional work for the developers.</div></blockquote>The MD9600 original firmware is used as a donor file for the codec, it's not meant to be flashed at all. This is the case for all the STM32 based transceivers supported by the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 08, 2025 4:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-02-08T06:24:46 </updated>
+
+		<published>2025-02-08T04:25:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35673#p35673</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35673#p35673"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4854&amp;p=35673#p35673"><![CDATA[
+<blockquote class="uncited"><div>I don't know which video you're talking about…</div></blockquote>TYT-MD380/390 / RT3S / DM-1701 Installation Information <br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink"> https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380</a><br><br><a href="https://youtu.be/65SEEGfYz4M?si=xfxeXVvT0n5sa1Tp" class="postlink"> https://youtu.be/65SEEGfYz4M?si=xfxeXVvT0n5sa1Tp</a><br><br>I did select the correct radio, but the video goes on to indicate in the Extras Menu adding the 9600 firmware <span style="text-decoration:underline">additionally and separately</span>.<br><br>Perhaps this is only required when flashing the 380, but since the YouTube video is not specifically for the DM-1701, it is not clear if this is needed for the DM-1701 as well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Sat Feb 08, 2025 4:25 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

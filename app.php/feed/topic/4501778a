@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4501" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-07T21:36:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4501</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-07T21:36:18</updated>
+
+		<published>2024-12-07T21:36:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34490#p34490</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34490#p34490"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34490#p34490"><![CDATA[
+<blockquote class="uncited"><div>One thing I found in the menu, there is an entry for 220MHz squelch, this radio does not have support for that band, can it be removed?</div></blockquote>The AT1846S RF chip used in this radio does support 220MHz. Hence why there is a squelch setting for it..<br><br>All the OpenGD77 compatible handheld radios use the same chip.<br><br>However the MD9600 mobile radio does use the same chip, and does not support 220Mhz, hence it does not have the 220MHz squelch option<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Dec 07, 2024 9:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-12-07T21:01:21</updated>
+
+		<published>2024-12-07T21:01:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34489#p34489</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34489#p34489"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34489#p34489"><![CDATA[
+One thing I found in the menu, there is an entry for 220MHz squelch, this radio does not have support for that band, can it be removed?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Sat Dec 07, 2024 9:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-12-07T20:48:19</updated>
+
+		<published>2024-12-07T20:48:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34488#p34488</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34488#p34488"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34488#p34488"><![CDATA[
+<blockquote class="uncited"><div>There is no way to passively detect the correct Tx tone. The only way would be to transmit with every tone until the repeater responded.  Not a very frequency friendly thing to do.</div></blockquote>That is exactly how I thought this function works. Now I see it works only for RX.<br><br>I my area there are several repeaters with different TX and RX tones, it was done this way because Sporadic-E makes VHF/UHF go DX.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Sat Dec 07, 2024 8:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-12-07T18:14:28</updated>
+
+		<published>2024-12-07T18:14:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34485#p34485</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34485#p34485"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34485#p34485"><![CDATA[
+The Tx and Rx tones are normally the same.  It is rare for them to be different. <br><br>There is no way to passively detect the correct Tx tone. The only way would be to transmit with every tone until the repeater responded.  Not a very frequency friendly thing to do.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Dec 07, 2024 6:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-12-07T16:24:32</updated>
+
+		<published>2024-12-07T16:24:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34482#p34482</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34482#p34482"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34482#p34482"><![CDATA[
+<blockquote class="uncited"><div>Are you sure the repeater was transmitting during all of the scan?  It takes several seconds to do a complete scan.  Also some repeaters only send a CTCSS tone while they are in use and not when identing.</div></blockquote>I am trying to find the TX tone, the RX tone is kind of useless.<br><br>This repeater keys back very fast, less than a second.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Sat Dec 07, 2024 4:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-12-07T16:07:10</updated>
+
+		<published>2024-12-07T16:07:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34480#p34480</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34480#p34480"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34480#p34480"><![CDATA[
+Are you sure the repeater was transmitting during all of the scan?  It takes several seconds to do a complete scan.  Also some repeaters only send a CTCSS tone while they are in use and not when identing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Dec 07, 2024 4:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-12-07T14:19:01</updated>
+
+		<published>2024-12-07T14:19:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34479#p34479</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34479#p34479"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34479#p34479"><![CDATA[
+Maybe I am doing something wrong or the CTCSS tone search function doesn't work.<br><br>I set the correct TX/RX frequencies (known repeater) and check that the repeater is in range using another transceiver.<br><br>I got to "short menu" select CTCSS search and hit the menu button.<br><br>I can see the CTCSS tones on the screen, there is CTR shown in the upper status bar, but no CTCSS tone is found.<br><br>Wasn't it suppose to find the TX CTCSS tone?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Sat Dec 07, 2024 2:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-28T10:23:56</updated>
+
+		<published>2024-11-28T10:23:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34250#p34250</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34250#p34250"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34250#p34250"><![CDATA[
+<blockquote class="uncited"><div>maybe he does not know about it, because is you use search function here in the forums to search for: "settings" or "updated" or "updated settings" is always throw a message about these are common words so does not show any search result related with that question <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"></div></blockquote>Use google<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Nov 28, 2024 10:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-05T01:25:25 </updated>
+
+		<published>2024-11-28T03:36:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34242#p34242</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34242#p34242"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34242#p34242"><![CDATA[
+maybe he does not know about it, because is you use search function here in the forums to search for: "settings" or "updated" or "updated settings" is always throw a message about these are common words so does not show any search result related with that question <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><br><br>EDIT: check this: <a href="https://www.opengd77.com/viewtopic.php?t=3104" class="postlink">viewtopic.php?t=3104</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Nov 28, 2024 3:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-11-24T02:29:26</updated>
+
+		<published>2024-11-24T02:29:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34195#p34195</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34195#p34195"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34195#p34195"><![CDATA[
+That was explained multiple times on the forum.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Nov 24, 2024 2:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-11-23T22:11:23</updated>
+
+		<published>2024-11-23T22:11:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34190#p34190</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34190#p34190"/>
+		<title type="html"><![CDATA[Re: New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=34190#p34190"><![CDATA[
+just updated to this, why is it not sticky?<br><br>so far, the settings have been reset, but the message said "Updated settings" which seems misleading. possibly needs improvement to handle actual settings update.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Sat Nov 23, 2024 10:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-18T09:28:18</updated>
+
+		<published>2024-10-18T09:28:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4501&amp;p=33561#p33561</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=33561#p33561"/>
+		<title type="html"><![CDATA[New MD2017/RT-82 Beta 2024 10 18]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4501&amp;p=33561#p33561"><![CDATA[
+A new MD2017/RT-82 Beta is available<br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/fc51ad5c4642508a8f063aa1ae4ab8d994e387b6" class="postlink">downloads/MD2017/Firmware/fc51ad5c46425 ... d994e387b6</a><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/Latest" class="postlink">downloads/MD2017/Firmware/Latest</a><br><br>Changes in this version<br><br>* On the Channel Details screen, the repeater Latitude and Longitude can be entered and also the "Use location" setting, can be set to Yes/No.<br>Note. the Use location is called "Location" because "Use location" won't fit on the screen<br>* Prevent Roaming channels re-sorting when a scan is ended.<br>* Updates to the Italian language translation<br><br>Thanks to Daniel F1RMB for his work on these changes and enhancements, and to IZ2EIB  for the Italian language translation<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 18, 2024 9:28 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

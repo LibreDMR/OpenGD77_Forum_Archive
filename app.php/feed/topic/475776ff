@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4757" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-13T16:40:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4757</id>
+
+		<entry>
+		<author><name><![CDATA[dj5bm]]></name></author>
+		<updated>2025-01-13T16:40:47</updated>
+
+		<published>2025-01-13T16:40:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35133#p35133</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35133#p35133"/>
+		<title type="html"><![CDATA[Re: Problems with the contact list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35133#p35133"><![CDATA[
+Thank you very much for the answers and the help. It worked. It only worked after I created a zone manually with a few entries. Why it worked after that is a mystery to me. But the main thing is that it works now.<br>VY73 DJ5BM<br><br><a href="https://www.pic-upload.de/view-37457941/IMG_20250113_160202.jpg.html" class="postlink"><img src="https://www2.pic-upload.de/thumb/37457941/IMG_20250113_160202.jpg" class="postimage" alt="Image"></a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7680">dj5bm</a> — Mon Jan 13, 2025 4:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-01-13T11:59:49</updated>
+
+		<published>2025-01-13T11:59:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35131#p35131</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35131#p35131"/>
+		<title type="html"><![CDATA[Re: Problems with the contact list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35131#p35131"><![CDATA[
+<blockquote class="uncited"><div>Hello Charlie,<br>No, I've tried that too, it doesn't work either. Only the call sign is displayed.</div></blockquote>Have you changed any display colors? Make sure the colors of the information and the background are not the same.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jan 13, 2025 11:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-13T07:07:42</updated>
+
+		<published>2025-01-13T07:07:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35129#p35129</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35129#p35129"/>
+		<title type="html"><![CDATA[Re: Problems with the contact list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35129#p35129"><![CDATA[
+<blockquote class="uncited"><div>@VK3KYY<br>Thanks for your answer, I have a lot of DMR transceivers in use and they are all displayed in the CPS in the ID list, which is also useful for editing a contact manually. Why doesn't that work in the Opengd77 CPS for the MD2017? Unfortunately, only the call sign is displayed in the transceiver, even with the setting 2 lines and 50??</div></blockquote>It does display the full contact if the DMR ID database is successfuly loaded. Also, the lookup order matters (see <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#order" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... e.md#order</a>).<br><br>The codeplug itself supports only 1024 contact, with a 16 characters limit, that's why the DMR ID database is located elsewhere in the device flash memory, and not available in the CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Jan 13, 2025 7:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[dj5bm]]></name></author>
+		<updated>2025-01-13T06:48:22</updated>
+
+		<published>2025-01-13T06:48:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35128#p35128</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35128#p35128"/>
+		<title type="html"><![CDATA[Re: Problems with the contact list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35128#p35128"><![CDATA[
+@VK3KYY<br>Thanks for your answer, I have a lot of DMR transceivers in use and they are all displayed in the CPS in the ID list, which is also useful for editing a contact manually. Why doesn't that work in the Opengd77 CPS for the MD2017? Unfortunately, only the call sign is displayed in the transceiver, even with the setting 2 lines and 50??<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7680">dj5bm</a> — Mon Jan 13, 2025 6:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[dj5bm]]></name></author>
+		<updated>2025-01-13T06:29:56</updated>
+
+		<published>2025-01-13T06:29:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35127#p35127</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35127#p35127"/>
+		<title type="html"><![CDATA[Re: Problems with the contact list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35127#p35127"><![CDATA[
+Hello Charlie,<br>No, I've tried that too, it doesn't work either. Only the call sign is displayed. And why are there no entries in the CPS? I've tried everything possible, it just doesn't work.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7680">dj5bm</a> — Mon Jan 13, 2025 6:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-01-13T01:11:20</updated>
+
+		<published>2025-01-13T01:11:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35125#p35125</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35125#p35125"/>
+		<title type="html"><![CDATA[Re: Problems with the contact list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35125#p35125"><![CDATA[
+<blockquote class="uncited"><div>The call signs are displayed in the MD2017, but without the first name or last name or city. What am I doing wrong? Does anyone have a solution for this? Or the same problem?<br>VY 73 DJ5BM<br></div></blockquote>Change 16 characters to 50. And make sure to set menu -&gt; options -&gt; display options-&gt; contact -&gt; 2 line <br><br>Hope this helps,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jan 13, 2025 1:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-12T22:30:48</updated>
+
+		<published>2025-01-12T22:30:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35124#p35124</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35124#p35124"/>
+		<title type="html"><![CDATA[Re: Problems with the contact list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35124#p35124"><![CDATA[
+DMR ID database is separate from Digital Contacts<br><br>This is the same on all most DMR Radios, not just OpenGD77<br><br>DMR ID database is only to show the callsign and name etc of the station being received (Rx)<br><br>Digital Contacts are used for Tx e.g. TG and Private Calls.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jan 12, 2025 10:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[dj5bm]]></name></author>
+		<updated>2025-01-12T21:50:13</updated>
+
+		<published>2025-01-12T21:50:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35123#p35123</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35123#p35123"/>
+		<title type="html"><![CDATA[Problems with the contact list]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4757&amp;p=35123#p35123"><![CDATA[
+I have a problem importing the contact list. I load the contacts into the MD2017 device using the 262. They are displayed when I download them. Unfortunately, they are not visible in the CPS afterwards. The call signs are displayed in the MD2017, but without the first name or last name or city. What am I doing wrong? Does anyone have a solution for this? Or the same problem?<br>VY 73 DJ5BM<br><br><a href="https://www.pic-upload.de/view-37457666/kontaktlist.jpg.html" class="postlink"><img src="https://www2.pic-upload.de/thumb/37457666/kontaktlist.jpg" class="postimage" alt="Image"></a><br><br><a href="https://www.pic-upload.de/view-37457667/kontakt2.jpg.html" class="postlink"><img src="https://www2.pic-upload.de/thumb/37457667/kontakt2.jpg" class="postimage" alt="Image"></a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7680">dj5bm</a> — Sun Jan 12, 2025 9:50 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4962" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-24T19:14:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4962</id>
+
+		<entry>
+		<author><name><![CDATA[R9WAA]]></name></author>
+		<updated>2025-03-24T19:14:18</updated>
+
+		<published>2025-03-24T19:14:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36410#p36410</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36410#p36410"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36410#p36410"><![CDATA[
+There was a similar problem that was solved. It is necessary that the radio station is in the access area for satellites. Then the module is activated and the possibility of turning it on appears in the menu.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8331">R9WAA</a> — Mon Mar 24, 2025 7:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[4X5EV]]></name></author>
+		<updated>2025-03-24T08:09:00</updated>
+
+		<published>2025-03-24T08:09:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36401#p36401</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36401#p36401"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36401#p36401"><![CDATA[
+had exactly the same issue on a uv390 plus 10w I was helping a friend with..<br>I reinstalled the original firmware to check there, and it was stuck with the same message as yours. luckily that friend didn't care a sh17 about gps so he use it without and seemingly happy, but I searched just in case and found a thread about retrofitting a gps receiver into those radios and if u're a technically skilled u can try to mod yours with another receiver <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2415&amp;start=130" class="postlink">viewtopic.php?f=19&amp;t=2415&amp;start=130</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7476">4X5EV</a> — Mon Mar 24, 2025 8:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-20T13:25:18</updated>
+
+		<published>2025-03-20T13:25:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36307#p36307</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36307#p36307"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36307#p36307"><![CDATA[
+<blockquote class="uncited"><div>Someone else is having this exact same problem now. They told me that on the original firmware, GPS was working (globe without the cross), and then on OpenGD77 it's "GPS: None".</div></blockquote>Turns out this other person ordered the non-GPS version of the RT3S, so that explains it. Mine is the GPS version.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Thu Mar 20, 2025 1:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-20T13:25:59 </updated>
+
+		<published>2025-03-19T19:16:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36299#p36299</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36299#p36299"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36299#p36299"><![CDATA[
+<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2877&amp;sid=b33281b19eab6566eaf281dff778d9d7" class="postimage" alt="rt3soriginal.jpeg" onclick="viewableArea(this);" /></dt></dl></div>Edit: This is my GPS version original codeplug.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Wed Mar 19, 2025 7:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-20T13:25:38 </updated>
+
+		<published>2025-03-19T19:14:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36298#p36298</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36298#p36298"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36298#p36298"><![CDATA[
+Someone else is having this exact same problem now. They told me that on the original firmware, GPS was working (globe without the cross), and then on OpenGD77 it's "GPS: None".<br><br>Edit: They ordered the non-GPS version...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Wed Mar 19, 2025 7:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-15T18:22:12</updated>
+
+		<published>2025-03-15T18:22:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36213#p36213</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36213#p36213"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36213#p36213"><![CDATA[
+<blockquote class="uncited"><div>No, there is no impact of using the "original" firmware first.<br>Maybe your transceiver has a hardware problem, some users already experienced some problems too.</div></blockquote>That must be it I suppose... Thanks again for your help. I'll see if I can get it replaced.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Sat Mar 15, 2025 6:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-15T18:04:42</updated>
+
+		<published>2025-03-15T18:04:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36210#p36210</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36210#p36210"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36210#p36210"><![CDATA[
+No, there is no impact of using the "original" firmware first.<br>Maybe your transceiver has a hardware problem, some users already experienced some problems too.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 15, 2025 6:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-15T14:53:39</updated>
+
+		<published>2025-03-15T14:53:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36207#p36207</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36207#p36207"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36207#p36207"><![CDATA[
+By the way, thanks a lot for your replies and your time! You're being amazing in trying to help me, and I can't thank you enough.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Sat Mar 15, 2025 2:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-15T14:53:11</updated>
+
+		<published>2025-03-15T14:53:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36206#p36206</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36206#p36206"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36206#p36206"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Here's the NMEA log, in any case...<br><br><a href="https://drive.google.com/file/d/1oEAAj77acH9DV1zIJBmCi_PLN8jsjAAm/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1oEAAj7 ... sp=sharing</a><br><br>Upon further inspection (I asked ChatGPT), this file seems to be entirely `0xFF`.</div></blockquote>It's useless, the firmware won't log anything, as it's a GPS "mode" (see the manual).<br>As expected, the log area is empty (full of 0xFF bytes).</div></blockquote>I mean, I have no idea what else to try, so I thought I'd give the logs a shot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Sat Mar 15, 2025 2:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-15T14:52:09</updated>
+
+		<published>2025-03-15T14:52:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36205#p36205</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36205#p36205"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36205#p36205"><![CDATA[
+<blockquote class="uncited"><div>Well, the code already tries 10 time, for each speed (9600, 19200, 38400, 57600, 115200, 230400, 460800), to get any NMEA data, not even valid, just bytes, with at least one "carriage return".</div></blockquote>Well, fair enough. I'm running out of ideas then... Could it be because I flashed OpenGD77 before actually "using" the original firmware? As in, I only turned the radio on and did the backups on the original CPS, but I didn't transmit, didn't touch the keypad or anything like that. Could this somehow have skipped some initial setup of the GPS module?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Sat Mar 15, 2025 2:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-15T14:51:30</updated>
+
+		<published>2025-03-15T14:51:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36204#p36204</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36204#p36204"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36204#p36204"><![CDATA[
+<blockquote class="uncited"><div>Here's the NMEA log, in any case...<br><br><a href="https://drive.google.com/file/d/1oEAAj77acH9DV1zIJBmCi_PLN8jsjAAm/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1oEAAj7 ... sp=sharing</a><br><br>Upon further inspection (I asked ChatGPT), this file seems to be entirely `0xFF`.</div></blockquote>It's useless, the firmware won't log anything, as it's a GPS "mode" (see the manual).<br>As expected, the log area is empty (full of 0xFF bytes).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 15, 2025 2:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-15T14:48:34</updated>
+
+		<published>2025-03-15T14:48:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36203#p36203</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36203#p36203"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36203#p36203"><![CDATA[
+Well, the code already tries 10 time, for each speed (9600, 19200, 38400, 57600, 115200, 230400, 460800), to get any NMEA data, not even valid, just bytes, with at least one "carriage return".<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 15, 2025 2:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-15T14:37:44</updated>
+
+		<published>2025-03-15T14:37:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36202#p36202</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36202#p36202"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36202#p36202"><![CDATA[
+Here's the NMEA log, in any case...<br><br><a href="https://drive.google.com/file/d/1oEAAj77acH9DV1zIJBmCi_PLN8jsjAAm/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1oEAAj7 ... sp=sharing</a><br><br>Upon further inspection (I asked ChatGPT), this file seems to be entirely `0xFF`.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Sat Mar 15, 2025 2:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-15T14:25:43</updated>
+
+		<published>2025-03-15T14:25:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36201#p36201</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36201#p36201"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36201#p36201"><![CDATA[
+Also, would it be too hard to compile a custom firmware that waits longer for the GPS module to reply? I could try to do it, given some guidance. I'm a software developer, but mostly in Python, but I can compile a thing or two here and there...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Sat Mar 15, 2025 2:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2UMK]]></name></author>
+		<updated>2025-03-15T14:22:26</updated>
+
+		<published>2025-03-15T14:22:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36200#p36200</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36200#p36200"/>
+		<title type="html"><![CDATA[Re: &quot;GPS: None&quot; on RT3S with GPS, can't enable it.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4962&amp;p=36200#p36200"><![CDATA[
+I tried waiting outdoors and nothing changed I believe. I'll try waiting outdoors for longer. Do you know a sure way to tell if the GPS module is working via the original firmware? Maybe a menu option or info text that changes?<br><br>For example, under "Menu &gt; GPS/BeiDou Info &gt; RX GPSInfo" it says "NO GPSInfo", and under "Menu &gt; GPS/BeiDou Info &gt; GPS/BeiDou Vie." it says "Satellite UnLock". Is that what a healthy radio should say if the GPS is working, just not locked to a satellite?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8281">PU2UMK</a> — Sat Mar 15, 2025 2:22 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

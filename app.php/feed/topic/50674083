@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5067" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-17T13:01:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5067</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-17T13:01:21</updated>
+
+		<published>2025-04-17T13:01:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36802#p36802</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36802#p36802"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36802#p36802"><![CDATA[
+There is no detailled installation procedure in the user guide.<br>We're waiting for your pull request about improvment in this area...<br><br>I think I've wasted enough time with you for now.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 17, 2025 1:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[w9lw]]></name></author>
+		<updated>2025-04-17T12:34:01</updated>
+
+		<published>2025-04-17T12:34:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36800#p36800</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36800#p36800"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36800#p36800"><![CDATA[
+<blockquote class="uncited"><div>The user guide is for the firmware usage, not the firmware installation/removal procedures.</div></blockquote>If this is true, the user guide's editors should remove its "Installation" section. The presence of that section clearly implies to people who actually read the guide (like me, despite your unnecessary implication to the contrary) that the guide contains all the information needed to install (and, potentially, uninstall) the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=914">w9lw</a> — Thu Apr 17, 2025 12:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-17T02:45:24</updated>
+
+		<published>2025-04-17T02:45:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36794#p36794</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36794#p36794"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36794#p36794"><![CDATA[
+The user guide is for the firmware usage, not the firmware installation/removal procedures.<br><br>And yes, there is a little effort to be made, like searching a bit by yourself, that's also part of the hobby...<br><br>As SA0BUX mentionned, you're using the wrong tool. I suggest you to read the installation procedure post a bit carefully.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Apr 17, 2025 2:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-16T19:54:07</updated>
+
+		<published>2025-04-16T19:54:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36785#p36785</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36785#p36785"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36785#p36785"><![CDATA[
+<blockquote class="uncited"><div>Thank you for informing me and other readers that the OpenGD77 User Guide is not a reliable source of information for users and that we must instead search for forum posts.<br><br>Also, the the post to which you directed me reads, "you should use the official CPS to backup the calibration data in the radio. With your radio connected to a PC, using the official CPS, hold Control + T until the "test" screen is displayed."<br><br>Using the current CPS version, I held "Control + T" for 30 seconds. No "test" screen appeared.</div></blockquote>Official CPS here is the factory/stock CPS  not the OpenGD77 one.<br><br>These steps are before you flash OpenGD77.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Apr 16, 2025 7:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[w9lw]]></name></author>
+		<updated>2025-04-16T18:44:10</updated>
+
+		<published>2025-04-16T18:44:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36784#p36784</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36784#p36784"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36784#p36784"><![CDATA[
+Thank you for informing me and other readers that the OpenGD77 User Guide is not a reliable source of information for users and that we must instead search for forum posts.<br><br>Also, the the post to which you directed me reads, "you should use the official CPS to backup the calibration data in the radio. With your radio connected to a PC, using the official CPS, hold Control + T until the "test" screen is displayed."<br><br>Using the current CPS version, I held "Control + T" for 30 seconds. No "test" screen appeared.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=914">w9lw</a> — Wed Apr 16, 2025 6:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-16T18:06:03</updated>
+
+		<published>2025-04-16T18:06:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36783#p36783</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36783#p36783"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36783#p36783"><![CDATA[
+It's documented in the installation instructions, in this forum section, in the sticky posts (on top of the list)<br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380#p19678" class="postlink">viewtopic.php?f=19&amp;t=2380#p19678</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Apr 16, 2025 6:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[w9lw]]></name></author>
+		<updated>2025-04-16T18:01:57</updated>
+
+		<published>2025-04-16T18:01:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36782#p36782</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36782#p36782"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36782#p36782"><![CDATA[
+<blockquote class="uncited"><div>All of this is documented in the installation procedure, but as usual, (almost) no one reads the documentations.</div></blockquote>Thank you, F1RMB for taking the time to reply. The <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md" class="postlink">documentation I read</a> does not, in fact document "all of this," as you assert. The documentation advises backing up the "EEPROM, Flash memory, Calibration data, MCU ROM and the Codeplug" but fails to explain why we must backup anything other than flash memory, if flash memory is the only data we can restore. Further, the documentation does not match the current version of the CPS (R2025.03.23.01), which provides no facility to back up EEPROM or calibration as depicted in the documentation.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=914">w9lw</a> — Wed Apr 16, 2025 6:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-16T15:04:00</updated>
+
+		<published>2025-04-16T15:04:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36780#p36780</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36780#p36780"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36780#p36780"><![CDATA[
+No.<br>You need and external progammer device to restore the MCU.<br><br>If you want to get back to manufacturer firmware, you need to restore the flash, then flash the manufacturer's firmware with the manufacturer's tools.<br><br>All of this is documented in the installation procedure, but as usual, (almost) no one reads the documentations.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Apr 16, 2025 3:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ON3EF]]></name></author>
+		<updated>2025-04-16T14:35:55</updated>
+
+		<published>2025-04-16T14:35:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36779#p36779</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36779#p36779"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36779#p36779"><![CDATA[
+Hi,<br><br>AFAIK You have to "restore flash". It also contains MCU etc.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8200">ON3EF</a> — Wed Apr 16, 2025 2:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-16T14:16:42</updated>
+
+		<published>2025-04-16T14:16:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36778#p36778</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36778#p36778"/>
+		<title type="html"><![CDATA[Re: How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36778#p36778"><![CDATA[
+I'm not so sure, but it is a ROM (Read Only Memory), so I think it is normal that you can't write it. The reason to backup might be if you were to replace the ROM chip, you can use the backup file to write to the new ROM chip with a hardware ROM programming tool.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Apr 16, 2025 2:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[w9lw]]></name></author>
+		<updated>2025-04-16T12:23:21</updated>
+
+		<published>2025-04-16T12:23:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36773#p36773</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36773#p36773"/>
+		<title type="html"><![CDATA[How to restore MCU ROM?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5067&amp;p=36773#p36773"><![CDATA[
+In the OpenGD77 Support dialog box of CPS version R2025.03.23.01, there are buttons to backup the MCU ROM and to back up registers, but not buttons to restore these files. How does one restore the MCU ROM and registers if one wants to return the radio to factory firmware?<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2919&amp;sid=555ce16bb76a5684aaf3b71322c0c15e" class="postimage" alt="OpenGD77 Support Dialog.png" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=914">w9lw</a> — Wed Apr 16, 2025 12:23 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

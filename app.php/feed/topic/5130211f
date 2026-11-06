@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5130" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-18T06:51:04</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5130</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-18T06:51:04</updated>
+
+		<published>2025-05-18T06:51:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37149#p37149</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37149#p37149"/>
+		<title type="html"><![CDATA[Re: Hard Reset.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37149#p37149"><![CDATA[
+<blockquote class="uncited"><div>.....<br>It's not a cable, because the same cable works and... another radio.<br><br>...</div></blockquote><br>Then it's a fault with the radio hardware.<br><br>Other people have reported broken connections to the PCB from the 2.5mm and 3.5mm jack sockets<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 18, 2025 6:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-18T03:20:04</updated>
+
+		<published>2025-05-18T03:20:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37148#p37148</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37148#p37148"/>
+		<title type="html"><![CDATA[Re: Hard Reset.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37148#p37148"><![CDATA[
+There is no such thing in the OpenGD77 firmware, and there is no need for this.<br><br>First, give the firmware and CPS version you're using, then check if the cable is the right one, and in working condition (you will find the cabling here).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun May 18, 2025 3:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU1VAR]]></name></author>
+		<updated>2025-05-18T01:43:45</updated>
+
+		<published>2025-05-18T01:43:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37147#p37147</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37147#p37147"/>
+		<title type="html"><![CDATA[Re: Hard Reset.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37147#p37147"><![CDATA[
+Ok, I've already done this. I'm using OpenGD77 on the Baofeng DM1801. It simply doesn't communicate with the computer anymore, it's not a cable, because the same cable works and... another radio. I'd like to try a Hard Reset, just resetting the settings didn't work. Try something to get the radio to communicate with the computer again.<br><br>Maybe the right term is FULL Reset.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2250">PU1VAR</a> — Sun May 18, 2025 1:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-05-18T00:49:28</updated>
+
+		<published>2025-05-18T00:49:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37146#p37146</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37146#p37146"/>
+		<title type="html"><![CDATA[Re: Hard Reset.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37146#p37146"><![CDATA[
+in the official firmware?<br><br>with the radio off...<br><br>press and hold <strong class="text-strong">SK1 Key</strong> + <strong class="text-strong">Key 1</strong> and turn on the radio, you will see <strong class="text-strong">Memory Reset?</strong> in the screen, and then confirm with Menu button and the led will flash in orange color for few seconds, and then it will be factory reset/hard reset.<br><br>in OpenGD77 firmware?<br><br>with the radio off...<br><br>press and hold the <strong class="text-strong">SK2 key</strong> and turn on the radio, you will see <strong class="text-strong">Settings Updated</strong> in the screen (that will reset settings only), and after that open the OpenGD77 CPS and write a new codeplug (that will reset the other things).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sun May 18, 2025 12:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-17T20:59:26</updated>
+
+		<published>2025-05-17T20:59:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37144#p37144</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37144#p37144"/>
+		<title type="html"><![CDATA[Re: Hard Reset.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37144#p37144"><![CDATA[
+<blockquote class="uncited"><div>How do I Hard Reset (FULL) Baofeng DM1801 with OpenGD77?</div></blockquote>What is a Hard Reset<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat May 17, 2025 8:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU1VAR]]></name></author>
+		<updated>2025-05-17T20:38:55</updated>
+
+		<published>2025-05-17T20:38:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37143#p37143</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37143#p37143"/>
+		<title type="html"><![CDATA[Hard Reset.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5130&amp;p=37143#p37143"><![CDATA[
+How do I Hard Reset (FULL) Baofeng DM1801 with OpenGD77?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2250">PU1VAR</a> — Sat May 17, 2025 8:38 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

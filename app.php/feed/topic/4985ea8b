@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4985" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-23T21:36:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4985</id>
+
+		<entry>
+		<author><name><![CDATA[EA3V]]></name></author>
+		<updated>2025-03-23T21:36:49</updated>
+
+		<published>2025-03-23T21:36:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36397#p36397</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36397#p36397"/>
+		<title type="html"><![CDATA[Re: TYT MD UV390 vs DM 1701 - Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36397#p36397"><![CDATA[
+<blockquote class="uncited"><div>Yes, followed it step by step. No issue with the install process. <br><br>Not sure what is the issue, both radios show visual signs of transmitting, there is just no audio coming from either.</div></blockquote>It's clear that you missed something during the update process or you have something incorrectly configured in the CPS.<br><br>EA3V 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4014">EA3V</a> — Sun Mar 23, 2025 9:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ5KA]]></name></author>
+		<updated>2025-03-23T20:27:02</updated>
+
+		<published>2025-03-23T20:27:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36395#p36395</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36395#p36395"/>
+		<title type="html"><![CDATA[Re: TYT MD UV390 vs DM 1701 - Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36395#p36395"><![CDATA[
+Yes, followed it step by step. No issue with the install process. <br><br>Not sure what is the issue, both radios show visual signs of transmitting, there is just no audio coming from either.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8245">SQ5KA</a> — Sun Mar 23, 2025 8:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WA3FME]]></name></author>
+		<updated>2025-03-22T07:03:13</updated>
+
+		<published>2025-03-22T07:03:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36351#p36351</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36351#p36351"/>
+		<title type="html"><![CDATA[Re: TYT MD UV390 vs DM 1701 - Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36351#p36351"><![CDATA[
+Did you read the install guide? When flashing the firmware did you flash the donor firmware required for dmr to work?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3168">WA3FME</a> — Sat Mar 22, 2025 7:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ5KA]]></name></author>
+		<updated>2025-03-21T18:47:04</updated>
+
+		<published>2025-03-21T18:47:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36342#p36342</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36342#p36342"/>
+		<title type="html"><![CDATA[TYT MD UV390 vs DM 1701 - Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4985&amp;p=36342#p36342"><![CDATA[
+Hello <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>I recently put OpenGD77 on both of my DMRs (UV390 and DM1701) and i have issues with audio transmission on DMR, the PMR works just fine. <br><br>Is there maybe a pre-existing settings file to upload to both of the DMR so they could work?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8245">SQ5KA</a> — Fri Mar 21, 2025 6:47 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

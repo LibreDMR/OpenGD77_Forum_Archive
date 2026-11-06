@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5215" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-14T04:39:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5215</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-14T04:39:47</updated>
+
+		<published>2025-07-14T04:39:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37712#p37712</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37712#p37712"/>
+		<title type="html"><![CDATA[Re: next &quot;new stable version 2025&quot; ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37712#p37712"><![CDATA[
+<blockquote class="uncited"><div>There are a lot of changes and improvements with hard work since the latest stable version 2024-09. <br>Is there already a release candidate known for the "2025 stable version" ?<br>The 2025-03-25 beta might be a nice code basic.<br><br>All developers many thanks for all the time consuming work in the past. It is an impressive work if we look back to the orginal firmware it is a big gain.<br><br>All the best wishes<br>73 de Uli DL4GG</div></blockquote>There are no active developers on the project and currently there appears to be a bug in DMR Rx,  so its unlikely that there will be a release / stable version soon.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jul 14, 2025 4:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL4GG]]></name></author>
+		<updated>2025-07-13T21:25:03</updated>
+
+		<published>2025-07-13T21:25:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37709#p37709</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37709#p37709"/>
+		<title type="html"><![CDATA[next &quot;new stable version 2025&quot; ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5215&amp;p=37709#p37709"><![CDATA[
+There are a lot of changes and improvements with hard work since the latest stable version 2024-09. <br>Is there already a release candidate known for the "2025 stable version" ?<br>The 2025-03-25 beta might be a nice code basic.<br><br>All developers many thanks for all the time consuming work in the past. It is an impressive work if we look back to the orginal firmware it is a big gain.<br><br>All the best wishes<br>73 de Uli DL4GG<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=224">DL4GG</a> — Sun Jul 13, 2025 9:25 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

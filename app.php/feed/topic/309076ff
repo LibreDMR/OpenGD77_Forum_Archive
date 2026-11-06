@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3090" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-02T03:57:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3090</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-02T03:57:24</updated>
+
+		<published>2023-08-02T03:57:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3090&amp;p=24755#p24755</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3090&amp;p=24755#p24755"/>
+		<title type="html"><![CDATA[Re: PROBLEMAS DE RECEPÇÃO E TRANSMISSÃO RD5R]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3090&amp;p=24755#p24755"><![CDATA[
+Translates to <br><blockquote class="uncited"><div>Hello! I have an HT RD5r with OpenGd77 installed, latest stable version.<br>I'm encountering the following problem:<br>When I program the HT to Operate via Hotspot the radio transmits and receives normally, however when I program it for a local repeater it does not transmit or receive (I see that there is a signal arriving at the Bargrafh) however there is no reception and when I transmit there is no connection to the repeater (Timeout). All TGs, CC, Time Slots and frequencies are within the parameters (I even did a test with another HT DM1701 with its original firmware and it works perfectly.<br>Another curiosity... when I put the RD5R to operate in a scanner I normally receive DMR signals from other services...<br><br>I don't know if it's a problem related to the updated firmware... I wanted to do a test with older firmware but I'm not finding it... I don't know if any comrades had this problem with their radio, but here is my post and a possible help: D</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Aug 02, 2023 3:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU1TAP]]></name></author>
+		<updated>2023-08-02T00:12:09</updated>
+
+		<published>2023-08-02T00:12:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3090&amp;p=24753#p24753</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3090&amp;p=24753#p24753"/>
+		<title type="html"><![CDATA[PROBLEMAS DE RECEPÇÃO E TRANSMISSÃO RD5R]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3090&amp;p=24753#p24753"><![CDATA[
+Por PU1TAP Armenio - Brasil.<br>Olá! Eu tenho um HT RD5r com OpenGd77 instalado, ultima versão estável.<br>Estou encontrando o seguinte problema:<br>Quando eu programo o HT para Operar via Hotspot o radio transmite e recebe normalmente, porem quando eu programo ele para uma repetidora local ele não transmite e nem recebe (Vejo que tem sinal chegando no Bargrafh) porem não há recepção e quando eu transmito não há conexão com a repetidora (Timeout). Todos os TGs, CC, Time Slots e frequencias estão dentro dos parametros (inclusive fiz um teste com um outro HT DM1701 com o firmware original dele e funciona perfeitamente.<br>Outra curiosidade...quando eu coloco o RD5R para operar em scanner eu recebo normalmente sinais DMR de outros serviços...<br><br>Não sei se é algum problema relativo ao firmware atualizado...queria fazer um teste com firmware mais antigo porem não estou encontrando...Não sei se algum camarada teve esse problema com seu radio, mas fica aqui meu post e uma possivel ajuda <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br>73 a todos<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1394">PU1TAP</a> — Wed Aug 02, 2023 12:12 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

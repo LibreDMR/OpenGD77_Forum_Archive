@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4848" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-07T02:58:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4848</id>
+
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-07T02:58:00</updated>
+
+		<published>2025-02-07T02:58:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35616#p35616</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35616#p35616"/>
+		<title type="html"><![CDATA[Re: typo in &quot;wordlist_english_USA.csv&quot; ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35616#p35616"><![CDATA[
+exactly, sounds really weird (in mp3tts website) as quickkey xD<br><br>unless you put quickKey or quick key<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Feb 07, 2025 2:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-07T02:33:20</updated>
+
+		<published>2025-02-07T02:33:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35615#p35615</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35615#p35615"/>
+		<title type="html"><![CDATA[Re: typo in &quot;wordlist_english_USA.csv&quot; ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35615#p35615"><![CDATA[
+What is wrong with QuickKey ?<br><br>Do you mean that it is not voiced as "Quick Key" i.e it may be voiced as "Quickey"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Feb 07, 2025 2:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-07T00:39:30</updated>
+
+		<published>2025-02-07T00:39:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35612#p35612</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35612#p35612"/>
+		<title type="html"><![CDATA[Re: typo in &quot;wordlist_english_USA.csv&quot; ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35612#p35612"><![CDATA[
+also this ones...<br><br>line 231 <div class="codebox"><p>CODE: </p><pre><code>set_quickkey,,,Set Quickkey</code></pre></div>line 313 <div class="codebox"><p>CODE: </p><pre><code>theme_bg_splashscreen,,,Boot screen backgound</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Feb 07, 2025 12:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-07T00:09:51</updated>
+
+		<published>2025-02-07T00:09:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35611#p35611</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35611#p35611"/>
+		<title type="html"><![CDATA[Re: typo in &quot;wordlist_english_USA.csv&quot; ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35611#p35611"><![CDATA[
+<blockquote class="uncited"><div>not sure if this is the main language, but in the line 288 it says...<br><div class="codebox"><p>CODE: </p><pre><code>safe_power_on,,,Save power on</code></pre></div>so how it should be? Save or Safe? xD<br><br>and I guess more files are affected.</div></blockquote>You are correct. This seems to be a typo that no one has noticed in the 2 years since this feature was created.<br><br>probably only the english VPs are incorrect, as the translators probably translated it as "Safe" not Save<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Feb 07, 2025 12:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-02-06T23:48:57</updated>
+
+		<published>2025-02-06T23:48:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35610#p35610</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35610#p35610"/>
+		<title type="html"><![CDATA[typo in &quot;wordlist_english_USA.csv&quot; ?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4848&amp;p=35610#p35610"><![CDATA[
+not sure if this is the main language, but in the line 288 it says...<br><div class="codebox"><p>CODE: </p><pre><code>safe_power_on,,,Save power on</code></pre></div>so how it should be? Save or Safe? xD<br><br>and I guess more files are affected.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Feb 06, 2025 11:48 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

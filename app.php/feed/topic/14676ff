@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/146" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-12-03T17:20:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/146</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-03T17:20:24</updated>
+
+		<published>2019-12-03T17:20:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1471#p1471</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1471#p1471"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1471#p1471"><![CDATA[
+<blockquote class="uncited"><div>Python loader worked nicely for me too, and didn't need to unbind the HID driver, though it did (without any udev rules) require root on the box I tested it on. I think that probably this means that we don't actually need to unbind the HID driver, but need to point the .NET loader at a different device node.</div></blockquote>Nice to read that <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><br><br>About unbinding, if I can succeed to make the CPS working with Mono, firmware flashing from within the CPS will require usbhid unbind. Codeplug reading/writing, with OpenGD77 will work as is, without unbinding, since it access it using a CDC ACM device. About official firmware, that will also require unbinding.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 03, 2019 5:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC7RBW]]></name></author>
+		<updated>2019-12-03T15:41:41</updated>
+
+		<published>2019-12-03T15:41:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1467#p1467</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1467#p1467"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1467#p1467"><![CDATA[
+Python loader worked nicely for me too, and didn't need to unbind the HID driver, though it did (without any udev rules) require root on the box I tested it on. I think that probably this means that we don't actually need to unbind the HID driver, but need to point the .NET loader at a different device node.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=182">KC7RBW</a> — Tue Dec 03, 2019 3:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-02T17:46:27</updated>
+
+		<published>2019-12-02T17:46:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1387#p1387</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1387#p1387"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1387#p1387"><![CDATA[
+Hi Roger,<br><blockquote class="uncited"><div>Hi Roger,<br><blockquote class="uncited"><div>This is probably a stupid question, but why don't you just use the Python loader I wrote ?<br>I presume that would work on the RPi</div></blockquote>That was the first thing I tried under Linux. I fixed and extended a bit the python script, it flash ATM, but the GD won't boot after that.<br>I need to check why (probably mistake from my side).</div></blockquote>Here is a working version of the python loader.<br><br>The PR has also been created.<br><br><strong class="text-strong">EDIT: updated the attachement with a version that works with python2 and python3<br></strong><br><br>Cheers.<br>---<br>Daniel<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=110&amp;sid=cefb298e8f80cb57056e3640d4168308">gd-77_firmware_loader.py.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Dec 02, 2019 5:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-02T05:51:27</updated>
+
+		<published>2019-12-02T05:51:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1344#p1344</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1344#p1344"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1344#p1344"><![CDATA[
+Roger,<br><blockquote class="uncited"><div>I have a Rpi 4 but not really any time to test this.</div></blockquote>Yeah, no problem <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>Since Andrew idea to use the last third field from the end, that should work (hopefully) for all Linux platforms.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Dec 02, 2019 5:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-02T05:47:10</updated>
+
+		<published>2019-12-02T05:47:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1341#p1341</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1341#p1341"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1341#p1341"><![CDATA[
+Hi Roger,<br><blockquote class="uncited"><div>This is probably a stupid question, but why don't you just use the Python loader I wrote ?<br>I presume that would work on the RPi</div></blockquote>That was the first thing I tried under Linux. I fixed and extended a bit the python script, it flash ATM, but the GD won't boot after that.<br>I need to check why (probably mistake from my side).<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=98&amp;sid=cefb298e8f80cb57056e3640d4168308">gd-77_firmware_loader.py.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Dec 02, 2019 5:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-02T05:44:52</updated>
+
+		<published>2019-12-02T05:44:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1340#p1340</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1340#p1340"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1340#p1340"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Well, it took me 8 hours to install mono-complete on a RPi 3 A+ <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":-D" title="Very Happy"><br><br>Replace the udev rules file with the attached one, then execute the following (or reboot):<br><br><strong class="text-strong">sudo udevadm control --reload-rules</strong><br><br>Cheers.</div></blockquote>Yikes. 8 hours is a long time. Possibly a faster MicroSD would work better. I'm sure it didn't take me that long.<br><br>I tried the rules file you sent, and it didn't work either, but this time I found where the logs went.<br><div class="codebox"><p>CODE: </p><pre><code>Dec 01 19:30:26 pi systemd-udevd[12613]: Process '/bin/bash -c 'ID=$(echo /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4/1-1.4:1.0/usbmisc/hiddev0 | cut -d/ -f8); echo $ID &gt; /sys/bus/usb/drivers/usbhid/unbind'' failed with exit code 1.</code></pre></div>Looking at what's going on there, I wonder if grabbing the third in from the end would work better than grabbing the 7th or 8th depending on platform. You can do this using cut by using rev before and after. The following rule worked for me. If it works on non-Rasbian installations that would be great. I don't know what $devpath is on other Linuxes, but you may.<br><div class="codebox"><p>CODE: </p><pre><code>KERNEL=="hiddev*", ATTRS{idVendor}=="15a2", ATTRS{idProduct}=="0073", MODE="0666", GROUP="plugdev", RUN+="/bin/bash -c 'ID=$(echo %p | rev | cut -d/ -f3 | rev); echo $ID &gt; /sys/bus/usb/drivers/usbhid/unbind'"</code></pre></div>I also tried to find a better way, but I haven't found it yet.</div></blockquote>Okay. I guess you're using a RPi 4, beast I don't own. Yep, reversing should work regardless platforms.<br><br>So, are you able to flash your GD now ?<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Try with this line as replacement:<br><div class="codebox"><p>CODE: </p><pre><code>KERNEL=="hiddev*", ATTRS{idVendor}=="15a2", ATTRS{idProduct}=="0073", MODE="0666", GROUP="plugdev", RUN+="/bin/bash -c 'ID=$(IFS=/; read -a array &lt;&lt;&lt; %p; echo ${array[-3]}); echo $ID &gt; /sys/bus/usb/drivers/usbhid/unbind'"</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Dec 02, 2019 5:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-02T05:37:40</updated>
+
+		<published>2019-12-02T05:37:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1334#p1334</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1334#p1334"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1334#p1334"><![CDATA[
+I have a Rpi 4 but not really any time to test this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 02, 2019 5:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-02T05:05:41</updated>
+
+		<published>2019-12-02T05:05:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1331#p1331</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1331#p1331"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1331#p1331"><![CDATA[
+Hi,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Well, it took me 8 hours to install mono-complete on a RPi 3 A+ <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":-D" title="Very Happy"><br><br>Replace the udev rules file with the attached one, then execute the following (or reboot):<br><br><strong class="text-strong">sudo udevadm control --reload-rules</strong><br><br>Cheers.</div></blockquote>Yikes. 8 hours is a long time. Possibly a faster MicroSD would work better. I'm sure it didn't take me that long.<br><br>I tried the rules file you sent, and it didn't work either, but this time I found where the logs went.<br><div class="codebox"><p>CODE: </p><pre><code>Dec 01 19:30:26 pi systemd-udevd[12613]: Process '/bin/bash -c 'ID=$(echo /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4/1-1.4:1.0/usbmisc/hiddev0 | cut -d/ -f8); echo $ID &gt; /sys/bus/usb/drivers/usbhid/unbind'' failed with exit code 1.</code></pre></div>Looking at what's going on there, I wonder if grabbing the third in from the end would work better than grabbing the 7th or 8th depending on platform. You can do this using cut by using rev before and after. The following rule worked for me. If it works on non-Rasbian installations that would be great. I don't know what $devpath is on other Linuxes, but you may.<br><div class="codebox"><p>CODE: </p><pre><code>KERNEL=="hiddev*", ATTRS{idVendor}=="15a2", ATTRS{idProduct}=="0073", MODE="0666", GROUP="plugdev", RUN+="/bin/bash -c 'ID=$(echo %p | rev | cut -d/ -f3 | rev); echo $ID &gt; /sys/bus/usb/drivers/usbhid/unbind'"</code></pre></div>I also tried to find a better way, but I haven't found it yet.</div></blockquote>Okay. I guess you're using a RPi 4, beast I don't own. Yep, reversing should work regardless platforms.<br><br>So, are you able to flash your GD now ?<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Dec 02, 2019 5:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-12-02T04:21:28</updated>
+
+		<published>2019-12-02T04:21:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1326#p1326</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1326#p1326"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1326#p1326"><![CDATA[
+This is probably a stupid question, but why don't you just use the Python loader I wrote ?<br>I presume that would work on the RPi<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Dec 02, 2019 4:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC7RBW]]></name></author>
+		<updated>2019-12-02T04:00:06</updated>
+
+		<published>2019-12-02T04:00:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1323#p1323</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1323#p1323"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1323#p1323"><![CDATA[
+<blockquote class="uncited"><div>Well, it took me 8 hours to install mono-complete on a RPi 3 A+ <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":-D" title="Very Happy"><br><br>Replace the udev rules file with the attached one, then execute the following (or reboot):<br><br><strong class="text-strong">sudo udevadm control --reload-rules</strong><br><br>Cheers.</div></blockquote>Yikes. 8 hours is a long time. Possibly a faster MicroSD would work better. I'm sure it didn't take me that long.<br><br>I tried the rules file you sent, and it didn't work either, but this time I found where the logs went.<br><div class="codebox"><p>CODE: </p><pre><code>Dec 01 19:30:26 pi systemd-udevd[12613]: Process '/bin/bash -c 'ID=$(echo /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.4/1-1.4:1.0/usbmisc/hiddev0 | cut -d/ -f8); echo $ID &gt; /sys/bus/usb/drivers/usbhid/unbind'' failed with exit code 1.</code></pre></div>Looking at what's going on there, I wonder if grabbing the third in from the end would work better than grabbing the 7th or 8th depending on platform. You can do this using cut by using rev before and after. The following rule worked for me. If it works on non-Rasbian installations that would be great. I don't know what $devpath is on other Linuxes, but you may.<br><div class="codebox"><p>CODE: </p><pre><code>KERNEL=="hiddev*", ATTRS{idVendor}=="15a2", ATTRS{idProduct}=="0073", MODE="0666", GROUP="plugdev", RUN+="/bin/bash -c 'ID=$(echo %p | rev | cut -d/ -f3 | rev); echo $ID &gt; /sys/bus/usb/drivers/usbhid/unbind'"</code></pre></div>I also tried to find a better way, but I haven't found it yet.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=182">KC7RBW</a> — Mon Dec 02, 2019 4:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-12-01T16:59:51</updated>
+
+		<published>2019-12-01T16:59:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1269#p1269</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1269#p1269"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1269#p1269"><![CDATA[
+Hi,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Looks like the udev file /etc/udev/rules.d/99-gd77.rules is missing, as usbdev has claimed the interface.</div></blockquote>The udev rule is definitely present. I'm unsure why it's not working. It did work the first time I tried it. I also tried rebooting but this didn't help. I haven't figured out how to debug udev when it's not logging to a file. The journal doesn't seem to show anything relevant except what's coming from the kernel log (already posted).<br><blockquote class="uncited"><div>And good catch for the libusb symlink. I remember reading that, but didn't experienced that problem with LinuxMint. What distro are you using in your RPi (jessie, stretch, buster)?</div></blockquote>Currently running Raspbian 10 (Buster).</div></blockquote>Well, it took me 8 hours to install mono-complete on a RPi 3 A+ <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":-D" title="Very Happy"><br><br>Replace the udev rules file with the attached one, then execute the following (or reboot):<br><br><strong class="text-strong">sudo udevadm control --reload-rules</strong><br><br>Cheers.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=82&amp;sid=cefb298e8f80cb57056e3640d4168308">99-gd77.rules.rpi.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Dec 01, 2019 4:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-11-29T09:30:30</updated>
+
+		<published>2019-11-29T09:30:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1053#p1053</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1053#p1053"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1053#p1053"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>On OSX High Sierra 10.13.6, with mono<br><div class="codebox"><p>CODE: </p><pre><code>jangeloracoma:GD77_FirmwareLoader jangelo$ mono GD77_FirmwareLoader.exe OpenGD77_latest2.sgl Firmware file confirmed as SGL.ERROR: Submit Async Read Failed.Error read returned Error sending command Error while sending initial commands^C</code></pre></div>Mono version is:<br><br>Mono JIT compiler version 6.4.0.198 (2019-06/fe64a4765e6 Wed Sep 18 14:14:51 EDT 2019)<br>Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. <a href="http://www.mono-project.com" class="postlink">www.mono-project.com</a></div></blockquote>   Yes, as Alex reported, there is a problem with the USB HID claiming, as under Linux, where you can solve that with a udev rule. We need to find how to do that on OS-X.<br><br>Thanks for the tests.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Nov 29, 2019 9:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2019-11-29T09:28:43</updated>
+
+		<published>2019-11-29T09:28:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1052#p1052</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1052#p1052"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1052#p1052"><![CDATA[
+Hi,<br><blockquote class="uncited"><div><blockquote class="uncited"><div>Looks like the udev file /etc/udev/rules.d/99-gd77.rules is missing, as usbdev has claimed the interface.</div></blockquote>The udev rule is definitely present. I'm unsure why it's not working. It did work the first time I tried it. I also tried rebooting but this didn't help. I haven't figured out how to debug udev when it's not logging to a file. The journal doesn't seem to show anything relevant except what's coming from the kernel log (already posted).<br><blockquote class="uncited"><div>And good catch for the libusb symlink. I remember reading that, but didn't experienced that problem with LinuxMint. What distro are you using in your RPi (jessie, stretch, buster)?</div></blockquote>Currently running Raspbian 10 (Buster).</div></blockquote>Okay. So, I'll try that on a RPi here, after I finished the fonts stuff.<br><br>Thanks for tests.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Nov 29, 2019 9:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC7RBW]]></name></author>
+		<updated>2019-11-29T03:23:45</updated>
+
+		<published>2019-11-29T03:23:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1046#p1046</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1046#p1046"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1046#p1046"><![CDATA[
+<blockquote class="uncited"><div>Looks like the udev file /etc/udev/rules.d/99-gd77.rules is missing, as usbdev has claimed the interface.</div></blockquote>The udev rule is definitely present. I'm unsure why it's not working. It did work the first time I tried it. I also tried rebooting but this didn't help. I haven't figured out how to debug udev when it's not logging to a file. The journal doesn't seem to show anything relevant except what's coming from the kernel log (already posted).<br><blockquote class="uncited"><div>And good catch for the libusb symlink. I remember reading that, but didn't experienced that problem with LinuxMint. What distro are you using in your RPi (jessie, stretch, buster)?</div></blockquote>Currently running Raspbian 10 (Buster).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=182">KC7RBW</a> — Fri Nov 29, 2019 3:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DU2XXR]]></name></author>
+		<updated>2019-11-29T02:31:18</updated>
+
+		<published>2019-11-29T02:31:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=146&amp;p=1044#p1044</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1044#p1044"/>
+		<title type="html"><![CDATA[Re: [Testers Needed] GD-77 Firmware Loader for Linux and OS-X]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=146&amp;p=1044#p1044"><![CDATA[
+On OSX High Sierra 10.13.6, with mono<br><div class="codebox"><p>CODE: </p><pre><code>jangeloracoma:GD77_FirmwareLoader jangelo$ mono GD77_FirmwareLoader.exe OpenGD77_latest2.sgl Firmware file confirmed as SGL.ERROR: Submit Async Read Failed.Error read returned Error sending command Error while sending initial commands^C</code></pre></div>Mono version is:<br><br>Mono JIT compiler version 6.4.0.198 (2019-06/fe64a4765e6 Wed Sep 18 14:14:51 EDT 2019)<br>Copyright (C) 2002-2014 Novell, Inc, Xamarin Inc and Contributors. <a href="http://www.mono-project.com" class="postlink">www.mono-project.com</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=236">DU2XXR</a> — Fri Nov 29, 2019 2:31 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

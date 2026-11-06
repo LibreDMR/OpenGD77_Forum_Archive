@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4713" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-27T15:40:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4713</id>
+
+		<entry>
+		<author><name><![CDATA[N1KY]]></name></author>
+		<updated>2024-12-27T15:40:48</updated>
+
+		<published>2024-12-27T15:40:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34937#p34937</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34937#p34937"/>
+		<title type="html"><![CDATA[Re: 1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34937#p34937"><![CDATA[
+<blockquote class="uncited"><div>If the simplex hotspot does not lose contact with BM, then the last TG will be on reception indefinitely.</div></blockquote>It persists through connection disruptions.  When the simplex hotspot reconnects BM will resume routing traffic for the auto-static TG.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=822">N1KY</a> — Fri Dec 27, 2024 3:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1KY]]></name></author>
+		<updated>2024-12-27T15:29:53</updated>
+
+		<published>2024-12-27T15:29:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34936#p34936</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34936#p34936"/>
+		<title type="html"><![CDATA[Re: 1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34936#p34936"><![CDATA[
+<blockquote class="uncited"><div>Usually transmitting on a specific talk group will make this a dynamic TG route, but I can't remember if this times out on BM for a simplex or duplex hotspot.<br><br>Possibly with simplex hotspots, dynamic TG's don't timeout.</div></blockquote>This is correct for Brandmeister.  On simplex nodes the last dynamic TG used becomes auto-static and does not time out.  It really irks me that Brandmeister does not allow you to disable this "feature".<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=822">N1KY</a> — Fri Dec 27, 2024 3:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2024-12-27T13:13:38</updated>
+
+		<published>2024-12-27T13:13:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34934#p34934</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34934#p34934"/>
+		<title type="html"><![CDATA[Re: 1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34934#p34934"><![CDATA[
+<blockquote class="uncited"><div>Usually transmitting on a specific talk group will make this a dynamic TG route, but I can't remember if this times out on BM for a simplex or duplex hotspot.<br><br>Possibly with simplex hotspots, dynamic TG's don't timeout.</div></blockquote>If the simplex hotspot does not lose contact with BM, then the last TG will be on reception indefinitely.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Fri Dec 27, 2024 1:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-27T11:39:01</updated>
+
+		<published>2024-12-27T11:39:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34931#p34931</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34931#p34931"/>
+		<title type="html"><![CDATA[Re: 1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34931#p34931"><![CDATA[
+Usually transmitting on a specific talk group will make this a dynamic TG route, but I can't remember if this times out on BM for a simplex or duplex hotspot.<br><br>Possibly with simplex hotspots, dynamic TG's don't timeout.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 27, 2024 11:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP1RAC]]></name></author>
+		<updated>2024-12-27T08:44:45</updated>
+
+		<published>2024-12-27T08:44:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34927#p34927</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34927#p34927"/>
+		<title type="html"><![CDATA[Re: 1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34927#p34927"><![CDATA[
+Log in to your account <a href="https://brandmeister.network/" class="postlink">https://brandmeister.network/</a> <br><br>On the left side you have My Devices - go to your 310784501 and add the group you want to hear as the main one in Static Talkgroups Timeslot 1. <br>For example, I have 260 because it's my Polish group.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7330">SP1RAC</a> — Fri Dec 27, 2024 8:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2024-12-27T05:55:28</updated>
+
+		<published>2024-12-27T05:55:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34926#p34926</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34926#p34926"/>
+		<title type="html"><![CDATA[Re: 1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34926#p34926"><![CDATA[
+<blockquote class="uncited"><div>I should clarify on the wpsd dashboard that I can see my ratio tx to parrot and the the gateway traffic of my tx and then the rx from parrot back to me. However none of this happens when I switch to a talk group on my radio.</div></blockquote>Judging by the log <br><a href="https://brandmeister.network/?page=lh&amp;ContextID=310784501" class="postlink">https://brandmeister.network/?page=lh&amp;C ... =310784501</a><br>you have not made a single exit to the group.  There are only private calls.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Fri Dec 27, 2024 5:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Kk6jvj]]></name></author>
+		<updated>2024-12-27T05:04:39</updated>
+
+		<published>2024-12-27T05:04:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34925#p34925</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34925#p34925"/>
+		<title type="html"><![CDATA[Re: 1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34925#p34925"><![CDATA[
+I should clarify on the wpsd dashboard that I can see my ratio tx to parrot and the the gateway traffic of my tx and then the rx from parrot back to me. However none of this happens when I switch to a talk group on my radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7539">Kk6jvj</a> — Fri Dec 27, 2024 5:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-27T01:19:47</updated>
+
+		<published>2024-12-27T01:19:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34924#p34924</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34924#p34924"/>
+		<title type="html"><![CDATA[Re: 1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34924#p34924"><![CDATA[
+<blockquote class="uncited"><div>I have a baofeng 1701 on open gd77 v.  2024 12 15 and wpsd hotspot. I can tx to parrot and hear reply but cannot hear any talk groups. I’ve double checked talk group contacts and turned off radio filters. I’m at a loss of what else to try.  Why would a private call work but no talk groups?</div></blockquote>Do you mean that you can see inbound DMR calls on your WPSD dashboard and that your hotspot is transmitting these DMR signals, but that nothing happens on the radio at all?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Dec 27, 2024 1:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Kk6jvj]]></name></author>
+		<updated>2024-12-27T00:29:15</updated>
+
+		<published>2024-12-27T00:29:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34923#p34923</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34923#p34923"/>
+		<title type="html"><![CDATA[1701 can hear pvt call but not talk group]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4713&amp;p=34923#p34923"><![CDATA[
+I have a baofeng 1701 on open gd77 v.  2024 12 15 and wpsd hotspot. I can tx to parrot and hear reply but cannot hear any talk groups. I’ve double checked talk group contacts and turned off radio filters. I’m at a loss of what else to try.  Why would a private call work but no talk groups?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7539">Kk6jvj</a> — Fri Dec 27, 2024 12:29 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

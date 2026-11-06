@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2091" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-10-24T11:57:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2091</id>
+
+		<entry>
+		<author><name><![CDATA[UB6LUM]]></name></author>
+		<updated>2023-10-24T11:57:48</updated>
+
+		<published>2023-10-24T11:57:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2091&amp;p=27012#p27012</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2091&amp;p=27012#p27012"/>
+		<title type="html"><![CDATA[Re: CPS on Linux ... again!]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2091&amp;p=27012#p27012"><![CDATA[
+<a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=2426" class="postlink">viewtopic.php?f=12&amp;t=2426</a><br><br><br>Just checked again from scratch, works like a charm.<br><br>Have fun!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3128">UB6LUM</a> — Tue Oct 24, 2023 11:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LU3IBM]]></name></author>
+		<updated>2023-10-20T20:51:01</updated>
+
+		<published>2023-10-20T20:51:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2091&amp;p=26974#p26974</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2091&amp;p=26974#p26974"/>
+		<title type="html"><![CDATA[Re: CPS on Linux ... again!]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2091&amp;p=26974#p26974"><![CDATA[
+Hello ok1pt! <br><br>Do you have any updates about this? <br><br>I use Linux Mint and I'm not able to use the CPS software. Everything works fine, but the com ports are not recognized. <br><br>Thank you very much in advance. <br><br>LU3IBM<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4518">LU3IBM</a> — Fri Oct 20, 2023 8:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ok1pt]]></name></author>
+		<updated>2022-02-08T18:39:37</updated>
+
+		<published>2022-02-08T18:39:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2091&amp;p=17399#p17399</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2091&amp;p=17399#p17399"/>
+		<title type="html"><![CDATA[CPS on Linux ... again!]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2091&amp;p=17399#p17399"><![CDATA[
+Hi!<br>  I would like to ask for explanation of the comm protocol between CPS and the radio (in normal "codeplug" mode, not in upgrade mode). The problem is, that we (I with my friend) are able to perfectly run CPS on Linux (using wine), but it can't communicate with the radio.<br>  AFAIK, when the radio is connected to the USB port, a new serial communication device appears. It's visible from the kernel log:<br>Feb  8 17:37:21 log kernel: usb 2-1.3: new full-speed USB device number 31 using ehci-pci<br>Feb  8 17:37:21 log kernel: usb 2-1.3: New USB device found, idVendor=1fc9, idProduct=0094, bcdDevice= 1.01<br>Feb  8 17:37:21 log kernel: usb 2-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0<br>Feb  8 17:37:21 log kernel: usb 2-1.3: Product: OpenGD77 Transceiver<br>Feb  8 17:37:21 log kernel: usb 2-1.3: Manufacturer: <a href="http://www.opengd77.com" class="postlink">www.opengd77.com</a><br>Feb  8 17:37:21 log kernel: cdc_acm 2-1.3:1.0: ttyACM0: USB ACM device<br>Feb  8 17:37:23 log kernel: usb 2-1.3: reset full-speed USB device number 31 using ehci-pci<br>  So, Linux kernel recognizes the radio (it's even visible in the dmesg itself) and properly creates /dev/ttyACM0.<br>  As the next step, we created an obvious link in wine's dosdevices directory, mapping /dev/ttyACM0 to COM3.<br>  Of course, using udev, we also changed permissions for the USB device as well as for the ttyACM0 port.<br>  Then, we started CPS.<br>  The GUI is perfectly working, but it's not communicating with the radio.<br>  I don't understand, what's happening: <br>  - CPS uses COM port for accessing the radio.<br>  - wine supplies the COM port to the CPS.<br>  So, I believe, that there's no need to use a special driver - COM port is there, for the CPS it should look lhat the windows driver is installed (I believe that the windows driver doesn't do anything more than creating the COM port, which is natively replaced by the recent Linux kernels as well).<br>  We would like to solve this issue, because it looks like the last one preventing us from running the CPS on Linux.<br><br>WIth regards / 73<br>  Pavel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=958">ok1pt</a> — Tue Feb 08, 2022 6:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

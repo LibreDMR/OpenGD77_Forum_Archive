@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5033" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-19T07:58:07</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5033</id>
+
+		<entry>
+		<author><name><![CDATA[EB2GXW]]></name></author>
+		<updated>2025-05-19T07:58:07</updated>
+
+		<published>2025-05-19T07:58:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5033&amp;p=37169#p37169</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=37169#p37169"/>
+		<title type="html"><![CDATA[Re: Volume indicator.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=37169#p37169"><![CDATA[
+<blockquote class="uncited"><div>menu -&gt; options -&gt; display options -&gt; volume = On</div></blockquote>Thank's<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8312">EB2GXW</a> — Mon May 19, 2025 7:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-03T22:30:37</updated>
+
+		<published>2025-04-03T22:30:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36591#p36591</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36591#p36591"/>
+		<title type="html"><![CDATA[Re: Volume indicator.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36591#p36591"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>menu -&gt; options -&gt; display options -&gt; volume = On</div></blockquote>Thanks. I don’t know how I missed that, but it’s working now. GARY.</div></blockquote>You are welcome, Normally I press SK2.<br><br>Or you can use menu -&gt; options -&gt; Display options -&gt; min brightness = 5<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Apr 03, 2025 10:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-04-03T22:00:51</updated>
+
+		<published>2025-04-03T22:00:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36590#p36590</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36590#p36590"/>
+		<title type="html"><![CDATA[Re: Volume indicator.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36590#p36590"><![CDATA[
+<blockquote class="uncited"><div>menu -&gt; options -&gt; display options -&gt; volume = On</div></blockquote>Thanks. I don’t know how I missed that, but it’s working now. GARY.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Thu Apr 03, 2025 10:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-03T20:13:04</updated>
+
+		<published>2025-04-03T20:13:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36589#p36589</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36589#p36589"/>
+		<title type="html"><![CDATA[Re: Volume indicator.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36589#p36589"><![CDATA[
+menu -&gt; options -&gt; display options -&gt; volume = On<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Apr 03, 2025 8:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-04-03T19:15:13</updated>
+
+		<published>2025-04-03T19:15:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36587#p36587</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36587#p36587"/>
+		<title type="html"><![CDATA[Volume indicator.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5033&amp;p=36587#p36587"><![CDATA[
+On my Baofeng 1701, with the factory CPS, when I’d turn the volume control, it’d wake up the screen, &amp; show the volume setting. While I don’t really care for the setting, it wakes up the radio so I can see the screen which was asleep. With the GD77 FW, I must turn the ch knob, or push a button to wake up the radio. I’d like to wake up the radio by turning the volume control. I also realize to add some features, some must go away to make room for the new. So is this possible? Thanks for the great effort. It’s like these radios are a surrogate for the FW/CPS. GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Thu Apr 03, 2025 7:15 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

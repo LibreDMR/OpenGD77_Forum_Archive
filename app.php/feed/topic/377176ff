@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3771" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-11T15:25:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3771</id>
+
+		<entry>
+		<author><name><![CDATA[UB3DYP]]></name></author>
+		<updated>2024-02-11T15:25:27</updated>
+
+		<published>2024-02-11T15:25:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3771&amp;p=29430#p29430</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3771&amp;p=29430#p29430"/>
+		<title type="html"><![CDATA[Transmitting Issue with MD-380 through MD-9600 Hotspot Using BlueDV]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3771&amp;p=29430#p29430"><![CDATA[
+Hello, I've encountered an issue while using the TYT MD-380 in combination with the MD-9600 as a hotspot and BlueDV software to access the DMR BrandMeister network. Pressing PTT on the MD-380 triggers all notifications on the hotspot and establishes a network connection, but the TX status indicator on the hotspot does not activate and shows no activity. Furthermore, when attempting to do an echo test on TalkGroup 9990 by double-pressing the hash (#) key and entering 9990, I also observe a problem with TX activation. However, when using the MD-380 and MD-9600 in repeater mode, everything functions correctly.<br><br>For the reference:<br>- The radios are set to operate in Simplex with the same TX/RX frequencies.<br>- The MD-9600 repeater is verified on the BrandMeister website and appears as an active device.<br>- My transmission attempts are recorded in the BrandMeister logs.<br>- The latest versions of software and firmware are installed on all devices, including BlueDV and radios.<br>I am seeking assistance in resolving this issue; perhaps someone has encountered something similar or can suggest additional diagnostic measures and solutions.<br><br>Thank you in advance for any help you can provide.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2188&amp;sid=e0499867db3ef9000f048cf78b418a27" class="postimage" alt="?????? ?????? 2024-02-11 ? 19.34.15.png" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2187&amp;sid=e0499867db3ef9000f048cf78b418a27" class="postimage" alt="?????? ?????? 2024-02-11 ? 19.30.58.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5586">UB3DYP</a> — Sun Feb 11, 2024 3:25 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

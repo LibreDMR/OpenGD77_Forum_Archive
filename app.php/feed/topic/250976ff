@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2509" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-06T19:54:54</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2509</id>
+
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2024-04-06T19:54:54</updated>
+
+		<published>2024-04-06T19:54:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=30679#p30679</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=30679#p30679"/>
+		<title type="html"><![CDATA[Re: Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=30679#p30679"><![CDATA[
+Thanks Daniel (et al.)! I'll increase my data record lengths then again (esp. once I updated the memory chip)...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Sat Apr 06, 2024 7:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-06T16:13:25</updated>
+
+		<published>2024-04-06T16:13:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=30672#p30672</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=30672#p30672"/>
+		<title type="html"><![CDATA[Re: Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=30672#p30672"><![CDATA[
+Bug fixed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Apr 06, 2024 4:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-12-29T12:56:50</updated>
+
+		<published>2022-12-29T12:56:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21166#p21166</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21166#p21166"/>
+		<title type="html"><![CDATA[Re: Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21166#p21166"><![CDATA[
+Thanks Colin.<br><br>You are correct - „2 Lines“ or „Auto“ is/was set on both RD5R and also on most of my other devices. <br><br>I just compared the GD77 display to the RD5R and the “issue creating contacts” show up nicely with the „line below the line“ on a GD77 – yet that content probably creates the „few pixels“ on the RD5R. My assumption was that this is always cropped based on TRX capabilities, no matter how many chars are in contacts/DB or via TA (while being created in mem and before transferring to the actual display). <br><br>As it seems the RD5R can cope with a total of 25 chars for callsign plus additional info without showing any additional pixels. One of the RD5R is currently configured with „2 Lines“ and callsign database write parameters limited to these 25 chars to check if CC issue shows up again. The other RD5R is set to “1 Line” for now.<br><br>I’ll continue with some testing and provide further details once the “candidates” with the longer DB/TA details show up again…<br><br>Cheers<br>—Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Thu Dec 29, 2022 12:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-12-29T12:07:11</updated>
+
+		<published>2022-12-29T12:07:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21165#p21165</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21165#p21165"/>
+		<title type="html"><![CDATA[Re: Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21165#p21165"><![CDATA[
+Hi Michael, <br><br>As I don't have an RD5R I may not be able to progress this much further. It may need to wait until Roger is able to have a look at it. <br><br>In the meantime can you check your Display Options and set Contact to '1 Line'. I think that setting it to '2 Lines' potentially could cause your problem. <br><br>If you have a GD77 or an 1801 maybe you could also compare the display layout with that of the RD5R. I am suspicious that the contact information from the database or TA is being written to the wrong location on the RD5R. Unfortunately the code is very convoluted in this area as there are a lot of different things that get written to the screen at different times, so it is not easy to work out what is happening, especially as I did not write that part of the code. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Dec 29, 2022 12:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-12-29T10:05:28</updated>
+
+		<published>2022-12-29T10:05:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21164#p21164</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21164#p21164"/>
+		<title type="html"><![CDATA[Re: Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21164#p21164"><![CDATA[
+Hi Michael,<br><br>I have never seen those extra pixels on any of my radios, but I don't have an RD5R and I also don't use 32 chars. It may well be a bug that only affects the one radio type. <br>I will Have a look at the code later today and try to spot where it might be happening. <br><br>The display is first generated in memory and then transferred to the real display, so there is the potential for memory corruption if the code tries to write outside the allocated area. <br><br>The operators name that appears when the other station transmits seems to be very close to the bottom of the screen. I don't remember it being that far down, so maybe there is just an error in where it starts to write the data. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Dec 29, 2022 10:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-12-29T08:24:51</updated>
+
+		<published>2022-12-29T08:24:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21162#p21162</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21162#p21162"/>
+		<title type="html"><![CDATA[Re: Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21162#p21162"><![CDATA[
+Good Morning Colin,<br><br>thanks for your feedback! I had noticed the „extra pixels“ quite some time ago but somehow attributed them to the overall beta status and your described difference between the various TRX displays. Your „eagle-eyed review“ on the pixels gave the hint to review my CPS standard procedure (Note: I follow the same procedure also for the GD77, RT3s and the DM1801 but haven't come across the "CC out of range effect" on these TRX so far). <br><br>I usually adjust the callsign database write parameters to a 32 char data record lengths and only download data region „26“ for all of my TRX, so plenty of memory for these ~ 19k contacts as of today. There are many IDs that have details &gt;16 chars, so I assumed that the display will "show what's possible and simply cut of based on HW/FW capabilities", yet now it seems this could have cause memory corruption effecting the CC.<br><br>As you stated the TA may also add/overwrite data (depending on display options settings - my standard order is Ct/DB/TA) causing the described CC effect. Not sure how this combines with my previous 32 char callsign database data, yet at least this would clarify on why all my CC outside range drifts only appear when OM A is speaking whereas OM B (C, D…) does not make the CC „drift“ at all. CC drifts actually only appear for OMs that have „additional pixels“.<br><br>I have just updated both RD5R with 16 char data records for now to see if the out of range CC reappears. Need to wait for the “usual suspects” to show up on the QRG  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>Cheers<br>—Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Thu Dec 29, 2022 8:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-12-28T22:07:28</updated>
+
+		<published>2022-12-28T22:07:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21158#p21158</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21158#p21158"/>
+		<title type="html"><![CDATA[Re: Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21158#p21158"><![CDATA[
+Thanks for the video. I will have a closer look tomorrow.<br><br>There is one thing I can immediately  see that does not look correct or normal. When the error occurs, at the very bottom of the screen, there appears to be some extra pixels. These look like they may be the tops of a line of text that extends off the bottom of the screen. If the firmare is trying to write outside of the screen area then it could easily be overwriting and corrupting other variables.<br>If that is the TA text from the other station then what happens would depend on the content of the data. <br><br>I seem to remember that the RD5R has a slightly different screen to the GD77 so it may be there is some bug in the screen handling code that only affects the one radio type. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Dec 28, 2022 10:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-12-28T17:56:08</updated>
+
+		<published>2022-12-28T17:56:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21157#p21157</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21157#p21157"/>
+		<title type="html"><![CDATA[Re: Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=21157#p21157"><![CDATA[
+Hi Roger, Colin – and everyone else reading here  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><br>Hope you all had a great Christmas season! Thanks again for all your posts to clarify on potential cause...<br><br>The above described bug showed up again in recent days… This time I had the camera ready, so I am following up with some muted video footage as per below link.<br><br><a href="https://cloud.dg1gmy.de/index.php/s/BqR3AnoASwzRARa" class="postlink">https://cloud.dg1gmy.de/index.php/s/BqR3AnoASwzRARa</a><br><br>I have two RD-5R and both are showing the same strange behavior (yet not necessarily replicable on both devices at the same time). Both TRX are usually on latest beta FW (currently Nov 29). CC shown seems to be a random number outside of the defined range (C19, C31).<br><br>I could not reproduce the behavior on my other OpenXXX devices so far, so this seems to be “dedicated” to the RD-5R. <br><br>As noted in prior posts this is NOT a behavior that only started with latest beta version. I already came across this phenomenon &gt;6-9 months ago. One of the RD5R is mainly for testing the FW, so I might have moved some bits into the wrong area some time… Just wonder why the 2nd RD5R now shows the same effect. Maybe it replicated via codeplug?<br><br>Please check the video first! Switching to i.e. VFO or another channel brings back the correct C1, yet as shown the device readjusts to the incorrect CC right away (muting the QSO accordingly). This is all with “CC Scan:Off”, which is the standard setup on all of my devices. TRX will stay on incorrect CC and remain muted without manual intervention. Yet it mostly appears as only ONE of the stations is causing the CC drift while the other station(s) could be heard as normal – if I manage to manually clear the CC before or during that station starts talking. Otherwise the green LED shows a signal from the hotspot but audio will remain muted due to wrong CC until I switch VFO, channel or initiate an off/on reboot…<br><br>Closer to the end in the video it shows the behavior with “CC Scan:On”. Strangely it discovers the correct CC (1) but loses it again right away and reverts back to incorrect C19 or C31. Also looping.<br><br>Various attempts to simply reflash the firmware (older versions up to current beta) and/or redo/reload the codeplug etc. didn’t fix the behavior. Any suggestion on how to “wipe” and restart from scratch are welcome <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> Yet, as this seems to be a “my specific problem only so far", I am mainly reporting on this to have it captured in the forum in case others come across a similar behavior. I have other devices that still work <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br>Thanks for all the coding and supporting in 2022 and all the best for 2023!<br><br>Cheers<br>—Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Wed Dec 28, 2022 5:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-11-18T19:32:31</updated>
+
+		<published>2022-11-18T19:32:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20730#p20730</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20730#p20730"/>
+		<title type="html"><![CDATA[Re: New Beta version 2022 11 02]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20730#p20730"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I had a look at the code as well, and I can't see anything obvious which would cause this.</div></blockquote>Thanks Roger. I'll keep trying to reproduce - and I won't be unhappy if I fail <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"></div></blockquote>LOL<br><br>OK.<br><br>I had look to see if I could find anything in the code which would cause this.<br><br>Mostly the variable is checked for values, and limited to only 0 - 15, but there are a few places in the code where the value is not checked.<br>This is becuse the checking is always on when the CC value is set.<br><br>So if, in theory, it can't be set to a value outside 0 -   15, then there should be no need to check when displaying the value, etc, that it is in range.<br><br>But the firmware is very complex, and runings a pre-emptive multi-tasking operating system, as well as having interrupt service routines. So sometimes unexpected things can happen becuase of strange alignments of timings<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Nov 18, 2022 7:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-11-18T18:54:50</updated>
+
+		<published>2022-11-18T18:54:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20727#p20727</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20727#p20727"/>
+		<title type="html"><![CDATA[Re: New Beta version 2022 11 02]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20727#p20727"><![CDATA[
+<blockquote class="uncited"><div>I had a look at the code as well, and I can't see anything obvious which would cause this.</div></blockquote>Thanks Roger. I'll keep trying to reproduce - and I won't be unhappy if I fail <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Fri Nov 18, 2022 6:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-11-18T18:37:57</updated>
+
+		<published>2022-11-18T18:37:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20725#p20725</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20725#p20725"/>
+		<title type="html"><![CDATA[Re: New Beta version 2022 11 02]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20725#p20725"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>That's very strange behaviour.<br>[...]</div></blockquote>Colin, thanks for getting back on this. Strange indeed! I am aware on valid 0-15 CC range, that's why I was wondering that "C19" even came up. I didn't have time for further tests since and unfortunately missed to create some footage when this occured. Also assumed some memory curruption and therefore reflashed/reprogrammed the device last week (and will load 2022-11-18 beta in a few seconds...). Let's see if it's coming back!<br><br>Yet I also remember something similar on my other RD5R (or maybe it was the GD77?) some months ago, so clearly on older FW. If I remember correctly all occurences where when listening to a 6-digit TG (i.e. DMR repeater's own ID as local TG). I use both RD5Rs 99,9% with my various hotspots, yet tried to reproduce the "C19" on a nearby "regular repeater" end of last week before reflashing. It did not come up again within a few hours of testing. Unclear if it might happen there as well over a longer period of time...<br><br>I only reported the "C19" to have this captured here - in case someone else may come across something similar... <br><br>Will proceed with testing the latest beta FW and provide additional insights as/if they occur... <br><br>Thanks again!<br>–Michael</div></blockquote>I had a look at the code as well, and I can't see anything obvious which would cause this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Nov 18, 2022 6:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-11-18T17:19:22</updated>
+
+		<published>2022-11-18T17:19:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20723#p20723</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20723#p20723"/>
+		<title type="html"><![CDATA[Re: New Beta version 2022 11 02]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20723#p20723"><![CDATA[
+<blockquote class="uncited"><div>That's very strange behaviour.<br>[...]</div></blockquote>Colin, thanks for getting back on this. Strange indeed! I am aware on valid 0-15 CC range, that's why I was wondering that "C19" even came up. I didn't have time for further tests since and unfortunately missed to create some footage when this occured. Also assumed some memory curruption and therefore reflashed/reprogrammed the device last week (and will load 2022-11-18 beta in a few seconds...). Let's see if it's coming back!<br><br>Yet I also remember something similar on my other RD5R (or maybe it was the GD77?) some months ago, so clearly on older FW. If I remember correctly all occurences where when listening to a 6-digit TG (i.e. DMR repeater's own ID as local TG). I use both RD5Rs 99,9% with my various hotspots, yet tried to reproduce the "C19" on a nearby "regular repeater" end of last week before reflashing. It did not come up again within a few hours of testing. Unclear if it might happen there as well over a longer period of time...<br><br>I only reported the "C19" to have this captured here - in case someone else may come across something similar... <br><br>Will proceed with testing the latest beta FW and provide additional insights as/if they occur... <br><br>Thanks again!<br>–Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Fri Nov 18, 2022 5:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-11-11T21:13:06</updated>
+
+		<published>2022-11-11T21:13:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20652#p20652</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20652#p20652"/>
+		<title type="html"><![CDATA[Re: New Beta version 2022 11 02]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20652#p20652"><![CDATA[
+That's very strange behaviour.  When you are not using CC Scan the colour code should never change. Also if you are really seeing C19 then it is an invalid value. CC can only be 0 to 15 because it is only 4 bits long. <br><br>It sounds like the CC value in memory is being corrupted by something. If it is a memory overwrite from elsewhere in the code it could be very difficult to find the cause. It really needs as much information gathered as possible. <br><br>You say it was on one of your RD5Rs, does it only happen on one of them? <br>Does it only happen when listening to a hotspot?<br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Nov 11, 2022 9:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2022-11-11T17:08:06</updated>
+
+		<published>2022-11-11T17:08:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20650#p20650</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20650#p20650"/>
+		<title type="html"><![CDATA[Out of range CC code indicated]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2509&amp;p=20650#p20650"><![CDATA[
+"OpenRD5R auto switching to C19 during QSO"<br><br>I just came across a "new behaviour" on one of my RD5Rs today, running the latest beta (2022-11-02). TRX was standby via one of my dual slot MMDVMs with a few low frequented TGs subscribed on both slots. <br><br>After a QSO on one of the TGs started the C1 jumped to C19 on the display and QSO therefore was muted. CC Scan was set to "OFF". Only option to come back to C1 was a channel change or i.e. switch to FM-VFO and go back to DMR (or switch off the TRX for a moment). Yet within a few seconds (with the next QSO handover the latest) the C19 came back and the whole process needed to be redone. Trapped in a loop.<br><br>If CC Scan is set to "ON" the device seems to also go &amp; stay on C19 but detects the correct C1 and let's the audio pass through accordingly. Yet within seconds the CC here goes back to C19 as well and audio is muted again. The loop continues.<br><br>Such "auto switching" does not happen all of the time. Yet it may happen and then persist for a while. <br><br>Not sure if this is more related to TRX &lt;-&gt; MMDVM sync issues or due to other reasons (it's not a new setup).<br><br>Also wonder why especially "C19"?  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>Any hint welcome!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Fri Nov 11, 2022 5:08 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

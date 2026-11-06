@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3239" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-03T23:13:23</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3239</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-03T23:13:23</updated>
+
+		<published>2023-09-03T23:13:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3239&amp;p=25869#p25869</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3239&amp;p=25869#p25869"/>
+		<title type="html"><![CDATA[New bug fix Beta 2023 09 04]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3239&amp;p=25869#p25869"><![CDATA[
+Because of a APRS Tx locking problem if no location was set, a new Beta has been created<br><br><a href="https://opengd77.com/downloads/MD9600/Firmware/d6ecfafd5fe3c1609ccd74d39ffceca41f6540f7" class="postlink">https://opengd77.com/downloads/MD9600/F ... a41f6540f7</a><br><a href="https://opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">https://opengd77.com/downloads/MD9600/Firmware/Latest</a><br><br>For full details of the major changes in the last Beta release, please read this post<br><br><a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=3230" class="postlink">viewtopic.php?f=18&amp;t=3230</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 03, 2023 11:13 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

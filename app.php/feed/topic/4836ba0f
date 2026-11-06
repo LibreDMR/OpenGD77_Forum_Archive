@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4836" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-19T11:37:58</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4836</id>
+
+		<entry>
+		<author><name><![CDATA[SV2BBO]]></name></author>
+		<updated>2025-03-19T11:37:58</updated>
+
+		<published>2025-03-19T11:37:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4836&amp;p=36291#p36291</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=36291#p36291"/>
+		<title type="html"><![CDATA[Re: Donor file for Retevis RT3S with GPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=36291#p36291"><![CDATA[
+<blockquote class="uncited"><div>It's probably a faulty device.<br>At one point, it let me turn on the GPS, and it found my location. But after a while, it lost it again.<br>This happens after successive - continuous Firmware Loaders.</div></blockquote>Problem with GPS solved.<br>Poor connection on the ribbon cable.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7586">SV2BBO</a> — Wed Mar 19, 2025 11:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV2BBO]]></name></author>
+		<updated>2025-02-02T07:02:01</updated>
+
+		<published>2025-02-02T07:02:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35538#p35538</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35538#p35538"/>
+		<title type="html"><![CDATA[Re: Donor file for Retevis RT3S with GPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35538#p35538"><![CDATA[
+It's probably a faulty device.<br>At one point, it let me turn on the GPS, and it found my location. But after a while, it lost it again.<br>This happens after successive - continuous Firmware Loaders.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7586">SV2BBO</a> — Sun Feb 02, 2025 7:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV2BBO]]></name></author>
+		<updated>2025-02-02T06:54:42</updated>
+
+		<published>2025-02-02T06:54:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35537#p35537</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35537#p35537"/>
+		<title type="html"><![CDATA[Re: Donor file for Retevis RT3S with GPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35537#p35537"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><span style="text-decoration:underline"></span><strong class="text-strong"></strong>However, I know that in the file [<strong class="text-strong">operation.doc</strong>] it says:<br>Following two are for the version of 100,000 contacts<br>MD-9600(CSV-GPS)-P26.45.bin <span style="color:#FF0000">for GPS version</span><br>MD-9600(CSV)-V26.45.bin <span style="color:#FF0000">for common version</span><br><br>But I don't care about that. My problem is that <strong class="text-strong">the GPS doesn't change from the None option</strong>.<br>I'm trying to find a solution to this.<br>Maybe it's a faulty device.</div></blockquote>Operation.doc ? , where have you found that file ?<br>(Sounds like some factory document, that is not valid when you run OpenGD77) <br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#download-links-and-other-resources" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -resources</a><br><blockquote class="uncited"><div>Donor File for TYT MD-9600 | Retevis RT-90 | TYT MD-UV380 | Retevis RT-3S | Baofeng DM-1701 | Retevis RT-84<br><a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br>Unzip the donor firmware zip file, extract the donor file 'MD9600-CSV(2571V5)-V26.45.bin' and save it to your computer.<br>Note, this file is the same for all of the radio types above.</div></blockquote>OpenGD77 detects if there is any NMEA serial output activity when radio is started and if so it can be activated.</div></blockquote>Be careful. Inside the file [210525 MD-9600 V4 firmware for PLL2571.zip] there is [Operation.doc].<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7586">SV2BBO</a> — Sun Feb 02, 2025 6:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-02T06:27:39</updated>
+
+		<published>2025-02-02T06:27:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35536#p35536</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35536#p35536"/>
+		<title type="html"><![CDATA[Re: Donor file for Retevis RT3S with GPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35536#p35536"><![CDATA[
+<blockquote class="uncited"><div><span style="text-decoration:underline"></span><strong class="text-strong"></strong>However, I know that in the file [<strong class="text-strong">operation.doc</strong>] it says:<br>Following two are for the version of 100,000 contacts<br>MD-9600(CSV-GPS)-P26.45.bin <span style="color:#FF0000">for GPS version</span><br>MD-9600(CSV)-V26.45.bin <span style="color:#FF0000">for common version</span><br><br>But I don't care about that. My problem is that <strong class="text-strong">the GPS doesn't change from the None option</strong>.<br>I'm trying to find a solution to this.<br>Maybe it's a faulty device.</div></blockquote>Hence, no GPS is fitted, or it's faulty. This is why you can't enable it.<br>The firmware turns the GPS module on at boot time, after installation, and looks for NMEA sentences, <strong class="text-strong">and this on every platforms</strong>, except the GD-77S and RD-5R.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Feb 02, 2025 6:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-02T06:23:28</updated>
+
+		<published>2025-02-02T06:23:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35535#p35535</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35535#p35535"/>
+		<title type="html"><![CDATA[Re: Donor file for Retevis RT3S with GPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35535#p35535"><![CDATA[
+<blockquote class="uncited"><div><span style="text-decoration:underline"></span><strong class="text-strong"></strong>However, I know that in the file [<strong class="text-strong">operation.doc</strong>] it says:<br>Following two are for the version of 100,000 contacts<br>MD-9600(CSV-GPS)-P26.45.bin <span style="color:#FF0000">for GPS version</span><br>MD-9600(CSV)-V26.45.bin <span style="color:#FF0000">for common version</span><br><br>But I don't care about that. My problem is that <strong class="text-strong">the GPS doesn't change from the None option</strong>.<br>I'm trying to find a solution to this.<br>Maybe it's a faulty device.</div></blockquote>Operation.doc ? , where have you found that file ?<br>(Sounds like some factory document, that is not valid when you run OpenGD77) <br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#download-links-and-other-resources" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -resources</a><br><blockquote class="uncited"><div>Donor File for TYT MD-9600 | Retevis RT-90 | TYT MD-UV380 | Retevis RT-3S | Baofeng DM-1701 | Retevis RT-84<br><a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br>Unzip the donor firmware zip file, extract the donor file 'MD9600-CSV(2571V5)-V26.45.bin' and save it to your computer.<br>Note, this file is the same for all of the radio types above.</div></blockquote>OpenGD77 detects if there is any NMEA serial output activity when radio is started and if so it can be activated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Feb 02, 2025 6:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV2BBO]]></name></author>
+		<updated>2025-02-02T05:27:12</updated>
+
+		<published>2025-02-02T05:27:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35534#p35534</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35534#p35534"/>
+		<title type="html"><![CDATA[Re: Donor file for Retevis RT3S with GPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35534#p35534"><![CDATA[
+<span style="text-decoration:underline"></span><strong class="text-strong"></strong>However, I know that in the file [<strong class="text-strong">operation.doc</strong>] it says:<br>Following two are for the version of 100,000 contacts<br>MD-9600(CSV-GPS)-P26.45.bin <span style="color:#FF0000">for GPS version</span><br>MD-9600(CSV)-V26.45.bin <span style="color:#FF0000">for common version</span><br><br>But I don't care about that. My problem is that <strong class="text-strong">the GPS doesn't change from the None option</strong>.<br>I'm trying to find a solution to this.<br>Maybe it's a faulty device.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7586">SV2BBO</a> — Sun Feb 02, 2025 5:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-01T18:55:25</updated>
+
+		<published>2025-02-01T18:55:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35531#p35531</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35531#p35531"/>
+		<title type="html"><![CDATA[Re: Donor file for Retevis RT3S with GPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35531#p35531"><![CDATA[
+I think you didn't read the installation instruction.<br>The MD9600 firmware is only used for the codec, it has NO relation with GPS. The OpenGD77 is written from scratch.<br>If the firmware detects the GPS module, it will be usable.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 01, 2025 6:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SV2BBO]]></name></author>
+		<updated>2025-02-01T18:14:26</updated>
+
+		<published>2025-02-01T18:14:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35530#p35530</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35530#p35530"/>
+		<title type="html"><![CDATA[Donor file for Retevis RT3S with GPS?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4836&amp;p=35530#p35530"><![CDATA[
+<strong class="text-strong"><strong class="text-strong"></strong></strong><span style="text-decoration:underline"></span>I have the <strong class="text-strong">Retevis RT3S</strong> with <strong class="text-strong">GPS</strong>. S/N: 2308R03S1104481 APR.2024.<br>In Firmware loader if I select either [MD9600-CSV-GPS(2571V5)-P26.45.bin] or [MD9600-GPS-REC(2571V5)-S26.45.bin] donor file, this message appears:<br><em class="text-italics">"The file you selected was NOT the official firmware version MD9600-CSV(2571V5)-V26.45.bin"</em><br>But in [operation.doc] it says:<br>Following two are for the version of 100.000 contacts<br>MD-9600(CSV-GPS)-P26.45.bin for GPS version <br>MD-9600(CSV)-V26.45.bin for common version <br>I am forced to continue with <strong class="text-strong">MD9600-CSV(2571V5)-V26.45.bin</strong> and [<strong class="text-strong">OpenMDUV380.zip</strong>] firmware.<br>The Firmware loader completes normally but in General Options the <strong class="text-strong">GPS </strong>is set to <strong class="text-strong"><span style="color:#FF0000">None </span></strong>and <strong class="text-strong"><span style="color:#FF0000">does not change</span></strong> when the [Select] knob is turned.<br>I have tried both the stable [R20240908] and the Beta version 2025 01 28 of [OpenMDUV380.zip] Firmware.<br>Any idea what is going on?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7586">SV2BBO</a> — Sat Feb 01, 2025 6:14 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

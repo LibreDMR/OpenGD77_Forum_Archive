@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5018" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-01T09:47:10</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5018</id>
+
+		<entry>
+		<author><name><![CDATA[IT9KHS]]></name></author>
+		<updated>2025-04-01T09:47:10</updated>
+
+		<published>2025-04-01T09:47:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36557#p36557</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36557#p36557"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36557#p36557"><![CDATA[
+<img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy">  A thousand thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8362">IT9KHS</a> — Tue Apr 01, 2025 9:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-31T01:05:00</updated>
+
+		<published>2025-03-31T01:05:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36537#p36537</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36537#p36537"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36537#p36537"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>here I am, I confirm that it is the Kenwood theme color, and by changing the color from the Baofeng itself I solve it, only that as soon as I turn the radio off and on again it goes back to how it was before, so I should load it from the CPS itself... then another curiosity about this menu, I call it from SK2 and not SK1, why?</div></blockquote>No, you have to save permanently the theme change (it's like channel details, see the user guide).</div></blockquote>ok but can it be done from the radio or do I have to do it from the cps?</div></blockquote><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#theme-options-1" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -options-1</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Mar 31, 2025 1:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IT9KHS]]></name></author>
+		<updated>2025-03-30T19:19:02</updated>
+
+		<published>2025-03-30T19:19:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36529#p36529</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36529#p36529"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36529#p36529"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>here I am, I confirm that it is the Kenwood theme color, and by changing the color from the Baofeng itself I solve it, only that as soon as I turn the radio off and on again it goes back to how it was before, so I should load it from the CPS itself... then another curiosity about this menu, I call it from SK2 and not SK1, why?</div></blockquote>No, you have to save permanently the theme change (it's like channel details, see the user guide).</div></blockquote>ok but can it be done from the radio or do I have to do it from the cps?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8362">IT9KHS</a> — Sun Mar 30, 2025 7:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-30T13:25:01</updated>
+
+		<published>2025-03-30T13:25:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36528#p36528</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36528#p36528"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36528#p36528"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>I tried but it doesn't work, maybe there is some setting to activate first?</div></blockquote>No.<br>Are you sure to press and hold the SK1 button ?<br><br>Lemme guess, you installed a theme, and CSS/SQL are the defined as the same colour as the background (you can check that directly on the radio, if you don't want to fire up the CPS).<br><br>In the case you used a pre-made theme, downloaded from the forum, can you tell me which is it (I will fix it) ?</div></blockquote>I had a similar problem with the "Kenwood clone theme"before. I would have reported it, but it slipped my mind. Seeing your entry reminded me of it again. It used to be on the second page of the theme section.<br><br>Btw, changing the text color solved that issue. <br><br>73</div></blockquote>I've fixed the "Kenwoord 74" theme.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 30, 2025 1:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-30T13:22:54</updated>
+
+		<published>2025-03-30T13:22:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36526#p36526</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36526#p36526"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36526#p36526"><![CDATA[
+<blockquote class="uncited"><div>here I am, I confirm that it is the Kenwood theme color, and by changing the color from the Baofeng itself I solve it, only that as soon as I turn the radio off and on again it goes back to how it was before, so I should load it from the CPS itself... then another curiosity about this menu, I call it from SK2 and not SK1, why?</div></blockquote>No, you have to save permanently the theme change (it's like channel details, see the user guide).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 30, 2025 1:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IT9KHS]]></name></author>
+		<updated>2025-03-30T12:54:18</updated>
+
+		<published>2025-03-30T12:54:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36525#p36525</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36525#p36525"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36525#p36525"><![CDATA[
+here I am, I confirm that it is the Kenwood theme color, and by changing the color from the Baofeng itself I solve it, only that as soon as I turn the radio off and on again it goes back to how it was before, so I should load it from the CPS itself... then another curiosity about this menu, I call it from SK2 and not SK1, why?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8362">IT9KHS</a> — Sun Mar 30, 2025 12:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1ECA]]></name></author>
+		<updated>2025-03-29T19:26:56</updated>
+
+		<published>2025-03-29T19:26:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36521#p36521</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36521#p36521"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36521#p36521"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I tried but it doesn't work, maybe there is some setting to activate first?</div></blockquote>No.<br>Are you sure to press and hold the SK1 button ?<br><br>Lemme guess, you installed a theme, and CSS/SQL are the defined as the same colour as the background (you can check that directly on the radio, if you don't want to fire up the CPS).<br><br>In the case you used a pre-made theme, downloaded from the forum, can you tell me which is it (I will fix it) ?</div></blockquote>I had a similar problem with the "Kenwood clone theme"before. I would have reported it, but it slipped my mind. Seeing your entry reminded me of it again. It used to be on the second page of the theme section.<br><br>Btw, changing the text color solved that issue. <br><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3071">TA1ECA</a> — Sat Mar 29, 2025 7:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-29T07:00:23</updated>
+
+		<published>2025-03-29T07:00:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36513#p36513</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36513#p36513"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36513#p36513"><![CDATA[
+<blockquote class="uncited"><div>I tried but it doesn't work, maybe there is some setting to activate first?</div></blockquote>No.<br>Are you sure to press and hold the SK1 button ?<br><br>Lemme guess, you installed a theme, and CSS/SQL are the defined as the same colour as the background (you can check that directly on the radio, if you don't want to fire up the CPS).<br><br>In the case you used a pre-made theme, downloaded from the forum, can you tell me which is it (I will fix it) ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 29, 2025 7:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IT9KHS]]></name></author>
+		<updated>2025-03-29T06:44:53</updated>
+
+		<published>2025-03-29T06:44:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36512#p36512</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36512#p36512"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36512#p36512"><![CDATA[
+I tried but it doesn't work, maybe there is some setting to activate first?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8362">IT9KHS</a> — Sat Mar 29, 2025 6:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1ECA]]></name></author>
+		<updated>2025-03-28T20:58:57</updated>
+
+		<published>2025-03-28T20:58:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36506#p36506</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36506#p36506"/>
+		<title type="html"><![CDATA[Re: How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36506#p36506"><![CDATA[
+<blockquote class="uncited"><div>Guys how do you activate this information on DM1701 baofeng</div></blockquote>Press and hold sk1 on the main screen.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3071">TA1ECA</a> — Fri Mar 28, 2025 8:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IT9KHS]]></name></author>
+		<updated>2025-03-28T19:46:59</updated>
+
+		<published>2025-03-28T19:46:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36505#p36505</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36505#p36505"/>
+		<title type="html"><![CDATA[How to activate the info menu?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5018&amp;p=36505#p36505"><![CDATA[
+Guys how do you activate this information on DM1701 baofeng<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2894&amp;sid=2879fe37d7a0a8a3133c520583ae216a" class="postimage" alt="Screenshot_20250328-105821~3.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8362">IT9KHS</a> — Fri Mar 28, 2025 7:46 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

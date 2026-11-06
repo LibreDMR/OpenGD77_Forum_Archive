@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/83" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-22T00:13:20</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/83</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-20T15:25:38</updated>
+
+		<published>2025-03-20T15:25:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=36310#p36310</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=36310#p36310"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=36310#p36310"><![CDATA[
+<blockquote class="uncited"><div>Probably some colleagues have converted chargers for a lower voltage and others do not. The charger originally 8.58V and this is too much. I also converted the charger to 8.36V and therefore shows less% V<br>The charger does not fully charge the battery ...</div></blockquote>Hi SQ7PTE, I would like to have a charger that do not fully charge my battery, can you point me to a tutorial on how to modify my charger to do so?<br><br>Thank you,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Mar 20, 2025 3:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-22T00:13:20 </updated>
+
+		<published>2025-03-20T11:50:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=36306#p36306</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=36306#p36306"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=36306#p36306"><![CDATA[
+Joined here last week, &amp; looking through old posts to learn what I can. Just got a DM1701 made in 2024. Has FW 20241215, &amp; CPU TYT. After a full charge, the display shows the battery at 100%, &amp; 8.2 volts. Using a Fluke multimeter measuring the battery voltage when it comes off the charger at the contacts that power the radio, the voltage is 8.27. I was considering the TP5100 upgrade, but the original charger  doesn’t seem to overcharge the battery, &amp; both the charger, &amp; battery stay cool. Sure it’s slow, but I have other radios I can use while this one is charging. So I think your charging parameters are right on. Who knows, maybe the mfr changed some components to lower the voltage due to feedback. Again, thanks for all you did to make these radios so much better. GARY. N4KVE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Thu Mar 20, 2025 11:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-22T06:44:26</updated>
+
+		<published>2019-11-22T06:44:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=535#p535</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=535#p535"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=535#p535"><![CDATA[
+BTW. I changed the averaging period, from 1 minute to 2 minutes.<br><br>This will mean if you transmit on high power for about 2 minutes then note the battery percentage, then turn the radio off and on again, the percentage will not be the same as initially it will be the direct reading of a few samples, not the 2 minute average.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Nov 22, 2019 6:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ7PTE]]></name></author>
+		<updated>2019-11-22T06:43:57</updated>
+
+		<published>2019-11-22T06:43:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=534#p534</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=534#p534"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=534#p534"><![CDATA[
+I agree Roger with you fully ...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=52">SQ7PTE</a> — Fri Nov 22, 2019 6:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-22T06:42:20</updated>
+
+		<published>2019-11-22T06:42:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=533#p533</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=533#p533"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=533#p533"><![CDATA[
+I think 8.2V is a reasonable compromise.<br><br>I know because of some problems with the audio amplifier oscillating, people have modified their charger so that the voltage does not exceed 8V, but this will reduce the battery capacity by at least 10%, so I am not going to change the 100% value to 7.9V as it would not be the correct representation of the capacity<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Nov 22, 2019 6:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ7PTE]]></name></author>
+		<updated>2019-11-22T06:37:37</updated>
+
+		<published>2019-11-22T06:37:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=532#p532</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=532#p532"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=532#p532"><![CDATA[
+Roger.<br>Personally, I don't mind. I know my charger is not fully charging and I am aware of it. And then, he shows me less% V and I agree with that.<br>Lower charging voltage - longer battery life <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":-)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=52">SQ7PTE</a> — Fri Nov 22, 2019 6:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-22T06:26:21</updated>
+
+		<published>2019-11-22T06:26:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=531#p531</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=531#p531"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=531#p531"><![CDATA[
+In the latest version, I changed it so that rather than 8.3V = 100% , now 8.2V = 100%<br><br>My radio now normally displays 100% when in the charger, but if I transmit the value will reduce as the battery voltage decreases<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Nov 22, 2019 6:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ7PTE]]></name></author>
+		<updated>2019-11-22T06:35:09 </updated>
+
+		<published>2019-11-22T06:22:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=530#p530</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=530#p530"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=530#p530"><![CDATA[
+Probably some colleagues have converted chargers for a lower voltage and others do not. The charger originally 8.58V and this is too much. I also converted the charger to 8.36V and therefore shows less% V<br>The charger does not fully charge the battery ...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=52">SQ7PTE</a> — Fri Nov 22, 2019 6:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-20T09:09:42</updated>
+
+		<published>2019-11-20T09:09:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=401#p401</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=401#p401"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=401#p401"><![CDATA[
+Interesting<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Nov 20, 2019 9:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK6NJP]]></name></author>
+		<updated>2019-11-20T07:39:41</updated>
+
+		<published>2019-11-20T07:39:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=398#p398</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=398#p398"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=398#p398"><![CDATA[
+I have noticed that my GD77 battery voltage appears at 84% in VFO and 93% in Hotspot ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=77">VK6NJP</a> — Wed Nov 20, 2019 7:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-19T19:44:30</updated>
+
+		<published>2019-11-19T19:44:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=318#p318</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=318#p318"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=318#p318"><![CDATA[
+I will lower the voltage number e.g 8.2v which is used as the 100% value <br><br>I can’t Remember the actual number, but it will be something like 8.3V<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 19, 2019 7:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[M3HBI]]></name></author>
+		<updated>2019-11-19T19:38:31</updated>
+
+		<published>2019-11-19T19:38:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=317#p317</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=317#p317"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=317#p317"><![CDATA[
+In Reference to the battery percentage i have noticed i never see 100% or 100 normally around 96-98 any ideas.<br><br>And its nice to see a forum for this makes finding info great keep up the great work.<br><br>Craig<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=178">M3HBI</a> — Tue Nov 19, 2019 7:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-11-19T12:32:47</updated>
+
+		<published>2019-11-19T12:32:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=307#p307</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=307#p307"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=307#p307"><![CDATA[
+<blockquote class="uncited"><div>I've changed the averaging period to 2 minutes instead of 1 minute, and this will be part of the next release.</div></blockquote>Thanks, Roger.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Tue Nov 19, 2019 12:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-19T10:19:21</updated>
+
+		<published>2019-11-19T10:19:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=300#p300</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=300#p300"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=300#p300"><![CDATA[
+I've changed the averaging period to 2 minutes instead of 1 minute, and this will be part of the next release.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 19, 2019 10:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-11-17T20:09:02</updated>
+
+		<published>2019-11-17T20:09:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=83&amp;p=167#p167</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=83&amp;p=167#p167"/>
+		<title type="html"><![CDATA[Re: Battery voltage percentage fluctuation]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=83&amp;p=167#p167"><![CDATA[
+I suppose what I'm noticing is that the 0-100 range of the percentage shows those fluctuations much more relative to the more common 3-bar graph indicators used on most radios. Yes increasing the averaging period may help.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Sun Nov 17, 2019 8:09 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5044" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-08T13:29:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5044</id>
+
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2025-04-08T13:29:57</updated>
+
+		<published>2025-04-08T13:29:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5044&amp;p=36658#p36658</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5044&amp;p=36658#p36658"/>
+		<title type="html"><![CDATA[STM32Based $60 - 10MHz &quot;good enough&quot; GPSDO]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5044&amp;p=36658#p36658"><![CDATA[
+I just got one of these.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br><strong class="text-strong">The "Brain" is a Bluepill .... </strong><br><br>STM32Based $60 (w. coupons) - 10MHz "good enough" GPSDO  <br><a href="https://www.aliexpress.com/item/1005008144934326.html" class="postlink">https://www.aliexpress.com/item/1005008144934326.html</a>?<br>OCXO - Isotemp 143-141 - Sine out<br><br>EEvblog thread - Now about the alternate fw<br><a href="https://www.eevblog.com/forum/testgear/10mhz-gpsdo-by-bh3sap/" class="postlink">https://www.eevblog.com/forum/testgear/ ... by-bh3sap/</a><br><br>Alternate fw - Github - Original author (sleeping ?)<br><a href="https://github.com/dankar/gpsdo-fw" class="postlink">https://github.com/dankar/gpsdo-fw</a><br><br>Alternate fw - Github - Forked , and <strong class="text-strong">active/current.</strong><br><a href="https://github.com/fredzo/gpsdo-fw" class="postlink">https://github.com/fredzo/gpsdo-fw</a><br><br>Does work  quite ok - But it's not a Tbolt or HP<br>But 0.1..0.2 ppb seems acheivable.<br><br>Output is an OpAmp buffered Sine - 50R.<br><br>Runs off 8..12v  (Or whatever you feed the 7805CV and can "Cool" ... lower is better, as the rest is burned up in heat in the 7805)<br><strong class="text-strong">Could be usable for portable</strong> .... And might even run off the car battery, check case bottom for excess heat from the regulator.<br><br>Edit attached fredo_ firmware v0.1.13 binary, for someone not fluent in git/cmake<br><br>.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2914&amp;sid=5bb76f17875b2ef76ab92cc7035bf58d">gpsdo-fw-v0.1.13.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Tue Apr 08, 2025 1:29 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

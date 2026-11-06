@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3559" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-12T05:37:07</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3559</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-12T05:37:07</updated>
+
+		<published>2023-12-12T05:37:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3559&amp;p=28048#p28048</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3559&amp;p=28048#p28048"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 12 08]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3559&amp;p=28048#p28048"><![CDATA[
+This version has now been superseded<br><br>See <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=3578" class="postlink">viewtopic.php?f=18&amp;t=3578</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 12, 2023 5:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-07T21:02:30</updated>
+
+		<published>2023-12-07T21:02:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3559&amp;p=27950#p27950</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3559&amp;p=27950#p27950"/>
+		<title type="html"><![CDATA[New Beta 2023 12 08]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3559&amp;p=27950#p27950"><![CDATA[
+A new MD-9600 RT-90 Beta is available<br><br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/3e0614a2a8e60a27932d6bb93f42954547bcb982" class="postlink">downloads/MD9600/Firmware/3e0614a2a8e60 ... 4547bcb982</a><br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><br><br>This version changes the functionality of the Last Heard list<br><br>Pressing Enter (A/B) now changes the TG to the TG of the currently selected line<br>Pressing P1 + Enter (A/B) now sets the radio to make a private call to the station currently selected<br><br>Thanks to Daniel F1RMB for adding the new functionality<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 07, 2023 9:02 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

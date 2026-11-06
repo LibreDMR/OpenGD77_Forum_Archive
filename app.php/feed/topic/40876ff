@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/408" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-06T03:35:16</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/408</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-06T03:35:16</updated>
+
+		<published>2023-09-06T03:35:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=408&amp;p=26001#p26001</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=408&amp;p=26001#p26001"/>
+		<title type="html"><![CDATA[Re: [Help Requested] Embedded GPS info]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=408&amp;p=26001#p26001"><![CDATA[
+<blockquote class="uncited"><div>Hello<br><br>I am an owner of AnyTone AT-D868UV<br>This HT has GPS and capable of doing digital APRS<br>Correct me if i wrong but you are looking for a sample of the data packet that contain GPS location data?<br>If yes - i might be able to help you with that<br><br>Also, as far as i know, there is no GPS in GD-77 which is a shame<br>It would be a great feature in that nice HT<br>At some moment in time i was thinking that if you guys are so proficient in firmware creation, than it may be possible to add dAPRS in to it?<br>Hardware wise it should not be an extremely hard task - modern GNSS/GPS modules are small, lightweight and consume not that much of an energy<br>Standard NMEA protocol is also pretty easy to decode<br>So it seems to me that you are exploring this idea<br>Am i right?<br><br>Joshoa</div></blockquote>What is your callsign ?  Accounts without callsigns will soon be purged<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 06, 2023 3:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2020-01-31T15:07:48</updated>
+
+		<published>2020-01-31T15:07:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=408&amp;p=4880#p4880</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4880#p4880"/>
+		<title type="html"><![CDATA[Re: [Help Requested] Embedded GPS info]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4880#p4880"><![CDATA[
+Hi David,<br><blockquote class="uncited"><div>Helo, find attached some dmr frames with aprs data sent to the tg 214999 which is the one we use in Spain.<br><br>{"signature":"DMRD","seq":4,"source":2143827,"destination":214999,"repeaterId":2143827,"slot":1,"callType":1,"frameType":2,"dataType":6,"voiceSeq":6,"streamId":3541696321,"data":{"type":"Buffer","data":[67,254,21,44,67,219,115,219,162,35,39,171,5,141,93,127,119,253,117,115,56,89,112,74,250,129,7,131,195,134,17,180,155,0,52]}}<br><br>Calltype: TG or PC<br><br>FrameType: enum DMRFrameType {<br>    VOICE,<br>    VOICE_SYNC,<br>    DATA_SYNC,<br>    UNUSED<br>}<br><br>DMRDataType: enum DMRDataType {<br>    PRIVACY_INDICATOR,<br>    VOICE_HEADER,<br>    VOICE_TERMINATOR,<br>    CSBK,<br>    MULTIBLOCK,<br>    MULTIBLOCK1,<br>    DATA,<br>    RATE12DATA,<br>    RATE34DATA,<br>    IDLE,<br>    BURST_A,<br>    BURST_B,<br>    BURST_C,<br>    BURST_D,<br>    BURST_E,<br>    BURST_F<br>}<br><br><br>dataType and voiceSeq are the same, just two names of the same data field and its meaning depends if is voice or data.<br><br>The information contained should be something like: <br>41.399901N<br>002.183680E<br>2020-01-31<br>15:57:21<br>V0.0M/S<br>H19.1<br><br>Hope it is helpful<br><br>David</div></blockquote>Yeah, I will look closer. Thanks for all the details.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 31, 2020 3:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea3ihi]]></name></author>
+		<updated>2020-01-31T15:00:21</updated>
+
+		<published>2020-01-31T15:00:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=408&amp;p=4878#p4878</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4878#p4878"/>
+		<title type="html"><![CDATA[Re: [Help Requested] Embedded GPS info]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4878#p4878"><![CDATA[
+Helo, find attached some dmr frames with aprs data sent to the tg 214999 which is the one we use in Spain.<br><br>{"signature":"DMRD","seq":4,"source":2143827,"destination":214999,"repeaterId":2143827,"slot":1,"callType":1,"frameType":2,"dataType":6,"voiceSeq":6,"streamId":3541696321,"data":{"type":"Buffer","data":[67,254,21,44,67,219,115,219,162,35,39,171,5,141,93,127,119,253,117,115,56,89,112,74,250,129,7,131,195,134,17,180,155,0,52]}}<br><br>Calltype: TG or PC<br><br>FrameType: enum DMRFrameType {<br>    VOICE,<br>    VOICE_SYNC,<br>    DATA_SYNC,<br>    UNUSED<br>}<br><br>DMRDataType: enum DMRDataType {<br>    PRIVACY_INDICATOR,<br>    VOICE_HEADER,<br>    VOICE_TERMINATOR,<br>    CSBK,<br>    MULTIBLOCK,<br>    MULTIBLOCK1,<br>    DATA,<br>    RATE12DATA,<br>    RATE34DATA,<br>    IDLE,<br>    BURST_A,<br>    BURST_B,<br>    BURST_C,<br>    BURST_D,<br>    BURST_E,<br>    BURST_F<br>}<br><br><br>dataType and voiceSeq are the same, just two names of the same data field and its meaning depends if is voice or data.<br><br>The information contained should be something like: <br>41.399901N<br>002.183680E<br>2020-01-31<br>15:57:21<br>V0.0M/S<br>H19.1<br><br>Hope it is helpful<br><br>David<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=571&amp;sid=2137a4eac9e4ca50e64809451780d621">2020_0_31_14_47_23_2143827-214999-758093909.dat</a></dt></dl><br /><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=570&amp;sid=2137a4eac9e4ca50e64809451780d621">2020_0_31_14_47_24_2143827-214999-3541696321.dat</a></dt></dl><br /><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=569&amp;sid=2137a4eac9e4ca50e64809451780d621">2020_0_31_14_47_23_2143827-214999-3984822337.dat</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=409">ea3ihi</a> — Fri Jan 31, 2020 3:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2020-01-31T12:31:06</updated>
+
+		<published>2020-01-31T12:31:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=408&amp;p=4872#p4872</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4872#p4872"/>
+		<title type="html"><![CDATA[Re: [Help Requested] Embedded GPS info]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4872#p4872"><![CDATA[
+Hi David,<br><blockquote class="uncited"><div>Hello Daniel, I can capture some dmr frames with my hotspot, the anytone 878uv, and some of my nodejs based utilities which allows me to run my own server. Do you have some special requirements for the capture?<br><br>I attach a sample of how the data will look like.<br><br><br>David</div></blockquote>It would be nice to comment some field in the attached data, until callType (which looks like TG), it's fine, but after that it's unclear to me.<br><br>About defining a Maidenhead locator (short version, 6 chars) in the settings, and sending converted coordinates packed into a handmade LC 0x08 data packet wouldn't be that complicated (we are already able to send TA), but I need Roger's advice for this.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jan 31, 2020 12:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ea3ihi]]></name></author>
+		<updated>2020-01-31T12:00:24</updated>
+
+		<published>2020-01-31T12:00:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=408&amp;p=4871#p4871</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4871#p4871"/>
+		<title type="html"><![CDATA[Re: [Help Requested] Embedded GPS info]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4871#p4871"><![CDATA[
+Hello Daniel, I can capture some dmr frames with my hotspot, the anytone 878uv, and some of my nodejs based utilities which allows me to run my own server. Do you have some special requirements for the capture?<br><br>I attach a sample of how the data will look like.<br><br><br>David<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=568&amp;sid=2137a4eac9e4ca50e64809451780d621">2019_10_18_21_56_22_2143827-21463-2817141022.dat</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=409">ea3ihi</a> — Fri Jan 31, 2020 12:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP2ONG]]></name></author>
+		<updated>2020-01-31T10:37:44</updated>
+
+		<published>2020-01-31T10:37:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=408&amp;p=4870#p4870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4870#p4870"/>
+		<title type="html"><![CDATA[Re: [Help Requested] Embedded GPS info]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4870#p4870"><![CDATA[
+And he can also enter options in CPS for entering coordinates manually and if they are GD-77 will send dAPRS positions<br>or, for example, from the OpenGD77 menu control on the radio, you enter coordinates or maybe the locator grid which will be used to convert to the coordinates of the center of the square and send the dAPRS position. Some radios that have GPS allow you to enter the coordinates manually instead of those taken from GPS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=82">SP2ONG</a> — Fri Jan 31, 2020 10:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Anonymous]]></name></author>
+		<updated>2020-01-31T04:10:55</updated>
+
+		<published>2020-01-31T04:10:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=408&amp;p=4864#p4864</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4864#p4864"/>
+		<title type="html"><![CDATA[Re: [Help Requested] Embedded GPS info]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=408&amp;p=4864#p4864"><![CDATA[
+Hello<br><br>I am an owner of AnyTone AT-D868UV<br>This HT has GPS and capable of doing digital APRS<br>Correct me if i wrong but you are looking for a sample of the data packet that contain GPS location data?<br>If yes - i might be able to help you with that<br><br>Also, as far as i know, there is no GPS in GD-77 which is a shame<br>It would be a great feature in that nice HT<br>At some moment in time i was thinking that if you guys are so proficient in firmware creation, than it may be possible to add dAPRS in to it?<br>Hardware wise it should not be an extremely hard task - modern GNSS/GPS modules are small, lightweight and consume not that much of an energy<br>Standard NMEA protocol is also pretty easy to decode<br>So it seems to me that you are exploring this idea<br>Am i right?<br><br>Joshoa<p>Statistics: Posted by Guest — Fri Jan 31, 2020 4:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2020-01-02T04:17:52</updated>
+
+		<published>2020-01-02T04:17:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=408&amp;p=3254#p3254</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=408&amp;p=3254#p3254"/>
+		<title type="html"><![CDATA[[Help Requested] Embedded GPS info]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=408&amp;p=3254#p3254"><![CDATA[
+Hi all,<br><br> I would like to know if someone here knows where I can get some embedded GPS info in-frame (BM TG), or if someone is equipped for this (AFAIK, that doesn't work with chinese HTs, but Hytera ones seems supported), and agree to make some tests with me.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jan 02, 2020 4:17 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

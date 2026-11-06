@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3671" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-01-12T12:31:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3671</id>
+
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2024-01-12T12:31:47</updated>
+
+		<published>2024-01-12T12:31:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28633#p28633</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28633#p28633"/>
+		<title type="html"><![CDATA[Re: Better source than buytwowayradios.com?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28633#p28633"><![CDATA[
+<blockquote class="uncited"><div><br>After the file has been saved, zip it and post it here<br></div></blockquote>RT3S<br><a href="https://disk.yandex.ru/d/awqZlc4N-rt_lg" class="postlink">https://disk.yandex.ru/d/awqZlc4N-rt_lg</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Fri Jan 12, 2024 12:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-11T06:49:35</updated>
+
+		<published>2024-01-11T06:49:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28601#p28601</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28601#p28601"/>
+		<title type="html"><![CDATA[Re: Better source than buytwowayradios.com?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28601#p28601"><![CDATA[
+Please will anyone who has the UV380/390 PLUS version, whether it works correctly or not with the OpenGD77 firmware,  use the "Backup registers" function in the CPS, and zip the file and then post it here<br><br>In the CPS. <br>Make sure you select the Radio Type as MD-9600/UV380 etc<br>In the Extras menu item select "OpenGD77 support"<br>On the OpenGD77 support screen, press the "Backup registers" button.<br><br>This will prompt to save the file.<br><br>After the file has been saved, zip it and post it here<br><br>We need this data for multiple versions of the UV380/390 PLUS  radios, both 5W and 10W to try to understand the manufacturer settuings which may be affecting the display operation on the 10W version of the UV380/390<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 11, 2024 6:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K5FYI]]></name></author>
+		<updated>2024-01-10T17:52:44</updated>
+
+		<published>2024-01-10T17:52:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28574#p28574</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28574#p28574"/>
+		<title type="html"><![CDATA[Re: Better source than buytwowayradios.com?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28574#p28574"><![CDATA[
+Just FYI - BTWR admitted they only have 10W non-GPS now despite their page selling the radio stating it's 5W and has GPS. Buyers beware of this seller!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1835">K5FYI</a> — Wed Jan 10, 2024 5:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-09T23:01:16</updated>
+
+		<published>2024-01-09T23:01:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28559#p28559</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28559#p28559"/>
+		<title type="html"><![CDATA[Re: Better source than buytwowayradios.com?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28559#p28559"><![CDATA[
+<blockquote class="uncited"><div>I ordered the 5W/GPS version of the MD-UV390 Plus from buytwowayradios.com but received the 10W version without GPS. It doesn't appear that they have control over the stock of their radios. I thought I was ordering from a reputable place. Can anyone recommend a better source for the 5W/GPS version of this radio? I understand that at this time it is not a supported radio.</div></blockquote>People reported that the original production run of UV390 PLUS radios worked OK with the firmware, but in the last 2 or 3 weeks multiple people bought new radios which don't appear to work.<br><br>We don't know why this is, and presume that the latest batch of UV390 PLUS must have some hardware differences<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 09, 2024 11:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K5FYI]]></name></author>
+		<updated>2024-01-09T22:31:17</updated>
+
+		<published>2024-01-09T22:31:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28557#p28557</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28557#p28557"/>
+		<title type="html"><![CDATA[Better source than buytwowayradios.com?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3671&amp;p=28557#p28557"><![CDATA[
+I ordered the 5W/GPS version of the MD-UV390 Plus from buytwowayradios.com but received the 10W version without GPS. It doesn't appear that they have control over the stock of their radios. I thought I was ordering from a reputable place. Can anyone recommend a better source for the 5W/GPS version of this radio? I understand that at this time it is not a supported radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1835">K5FYI</a> — Tue Jan 09, 2024 10:31 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

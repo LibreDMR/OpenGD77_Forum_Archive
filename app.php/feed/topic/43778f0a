@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4377" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-19T10:40:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4377</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-19T10:40:52</updated>
+
+		<published>2024-09-19T10:40:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33059#p33059</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33059#p33059"/>
+		<title type="html"><![CDATA[Re: New Stable version R20240908]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33059#p33059"><![CDATA[
+<blockquote class="uncited"><div>Thank You! I'm betting that I'm not the first one that you reminded that... <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>73 de CT7ARF</div></blockquote>LOL.<br><br>Probably we need to try to check the DFU driver version using the CPS, but we have many other things to do at the moment, both in the CPS to support Chinese and also the firmware to fix some small bugs and add some small functionality<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 19, 2024 10:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CT7ARF]]></name></author>
+		<updated>2024-09-19T10:35:30</updated>
+
+		<published>2024-09-19T10:35:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33055#p33055</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33055#p33055"/>
+		<title type="html"><![CDATA[Re: New Stable version R20240908]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33055#p33055"><![CDATA[
+Thank You! I'm betting that I'm not the first one that you reminded that... <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>73 de CT7ARF<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6120">CT7ARF</a> — Thu Sep 19, 2024 10:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-19T00:22:11</updated>
+
+		<published>2024-09-19T00:22:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33032#p33032</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33032#p33032"/>
+		<title type="html"><![CDATA[Re: New Stable version R20240908]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33032#p33032"><![CDATA[
+<blockquote class="uncited"><div>Exactly. And that was i was trying to do: Update to the latest firmware for the RT-82 with the latest version of the CPS. And just trying to make obvious that the cable is working.<br><br>Thanks and 73,<br><br>Antonio Cochicho<br>(CT7ARF)</div></blockquote>Check you have the correct driver installed. <br><br>See <a href="https://opengd77.com/downloads/drivers" class="postlink">https://opengd77.com/downloads/drivers</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 19, 2024 12:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CT7ARF]]></name></author>
+		<updated>2024-09-18T21:41:13</updated>
+
+		<published>2024-09-18T21:41:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33027#p33027</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33027#p33027"/>
+		<title type="html"><![CDATA[Re: New Stable version R20240908]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33027#p33027"><![CDATA[
+Exactly. And that was i was trying to do: Update to the latest firmware for the RT-82 with the latest version of the CPS. And just trying to make obvious that the cable is working.<br><br>Thanks and 73,<br><br>Antonio Cochicho<br>(CT7ARF)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6120">CT7ARF</a> — Wed Sep 18, 2024 9:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-18T20:59:59</updated>
+
+		<published>2024-09-18T20:59:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33026#p33026</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33026#p33026"/>
+		<title type="html"><![CDATA[Re: New Stable version R20240908]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33026#p33026"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>Can't update with this latest version: the latest CPS updates the radio Kepler's, updates de Code Plug but doesn't recognize the radio in DFU mode.<br><br>Regards and 73,<br><br>Antonio Cochicho<br>(CT7ARF)</div></blockquote>DFU means "Device Firmware Update"<br><br>It's not used for other data transfers<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Sep 18, 2024 8:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CT7ARF]]></name></author>
+		<updated>2024-09-18T20:56:19</updated>
+
+		<published>2024-09-18T20:56:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33024#p33024</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33024#p33024"/>
+		<title type="html"><![CDATA[Re: New Stable version R20240908]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=33024#p33024"><![CDATA[
+Hi,<br><br>Can't update with this latest version: the latest CPS updates the radio Kepler's, updates de Code Plug but doesn't recognize the radio in DFU mode.<br><br>Regards and 73,<br><br>Antonio Cochicho<br>(CT7ARF)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6120">CT7ARF</a> — Wed Sep 18, 2024 8:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-08T10:28:37</updated>
+
+		<published>2024-09-08T10:28:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4377&amp;p=32802#p32802</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=32802#p32802"/>
+		<title type="html"><![CDATA[New Stable version R20240908]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4377&amp;p=32802#p32802"><![CDATA[
+The source code for the latest stable release version as well as the firmware and voice prompts file can be downloaded from this URL<br><br><a href="https://opengd77.com/downloads/releases/MD2017/R20240908" class="postlink">https://opengd77.com/downloads/releases ... /R20240908</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 08, 2024 10:28 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

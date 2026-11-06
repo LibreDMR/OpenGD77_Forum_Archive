@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5164" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-07T17:14:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5164</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-07T17:14:19</updated>
+
+		<published>2025-06-07T17:14:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37402#p37402</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37402#p37402"/>
+		<title type="html"><![CDATA[Re: Radio goes quiet]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37402#p37402"><![CDATA[
+<blockquote class="uncited"><div>.is there any way to keep it from timing out?,would a hotspot help.<br>Regards</div></blockquote>No, you can not. because the repeater is not yours and you have no way to configure it. If you own a hotspot, then you can configure it the way you want. you can say a talk group will be there forever (Static) or something like that.<br><br>Hope this help,<br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Jun 07, 2025 5:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-07T11:30:53</updated>
+
+		<published>2025-06-07T11:30:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37399#p37399</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37399#p37399"/>
+		<title type="html"><![CDATA[Re: Radio goes quiet]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37399#p37399"><![CDATA[
+<blockquote class="uncited"><div>Hi,and yes it's on the Brandmeister network.is there any way to keep it from timing out?,would a hotspot help.<br>Regards</div></blockquote>On your own hotspot you can set any talkgroup as static and the last keyed dynamic talkgroup is kept as "autostatic" until you select<br>another talkgroup or send a TG4000 disconnect.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 07, 2025 11:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m3lqj]]></name></author>
+		<updated>2025-06-07T11:19:51</updated>
+
+		<published>2025-06-07T11:19:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37398#p37398</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37398#p37398"/>
+		<title type="html"><![CDATA[Re: Radio goes quiet]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37398#p37398"><![CDATA[
+Hi,and yes it's on the Brandmeister network.is there any way to keep it from timing out?,would a hotspot help.<br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8644">m3lqj</a> — Sat Jun 07, 2025 11:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-07T08:59:09</updated>
+
+		<published>2025-06-07T08:59:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37396#p37396</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37396#p37396"/>
+		<title type="html"><![CDATA[Re: Radio goes quiet]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37396#p37396"><![CDATA[
+<blockquote class="uncited"><div>Hi all,I'm very new to dmr so don't shout at me.when open my local dmr repeater I can hear people but after a while it goes quiet until I open it again.is there a way of getting around this.<br>Regards</div></blockquote>Is it a Brandmeister repeater ?<br>If you key up a talkgroup it's normally active for 15 minutes and if there is no local activity the dynamic talkgroup is removed from the repeater.<br><br>Some repeaters have some static talkgroups. <br><br>Most DMR systems have some sort of portal where you can see such things.<br><br><a href="https://brandmeister.network/?page=repeaters" class="postlink">https://brandmeister.network/?page=repeaters</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 07, 2025 8:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m3lqj]]></name></author>
+		<updated>2025-06-07T07:27:34</updated>
+
+		<published>2025-06-07T07:27:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37395#p37395</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37395#p37395"/>
+		<title type="html"><![CDATA[Radio goes quiet]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5164&amp;p=37395#p37395"><![CDATA[
+Hi all,I'm very new to dmr so don't shout at me.when open my local dmr repeater I can hear people but after a while it goes quiet until I open it again.is there a way of getting around this.<br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8644">m3lqj</a> — Sat Jun 07, 2025 7:27 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

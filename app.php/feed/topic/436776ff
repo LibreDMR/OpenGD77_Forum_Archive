@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4367" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-23T19:47:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4367</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-16T21:57:32</updated>
+
+		<published>2024-09-16T21:57:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32983#p32983</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32983#p32983"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32983#p32983"><![CDATA[
+Alex DL4LEX has done extensive work on SMS, and AFIK was able to receive SMS and possibly send SMS. But the SMS protocol is proprietary and possibly could not be fully implemented in firmware.<br><br>We did release a version where hotspot mode could pass / send / receive SMS and AFIK this functionality worked OK.<br>However we had to withdraw that version, because some of the changes somehow stopped normal operation of voice use for some people.<br>We may add this functionality again when the bugs have been fixed, but currently we have higher priority things to work on, and very limited time in our lives to spend on this project<br><br>Its possible when the official firmware sends and receives SMS that it configures the C6000 differently, but this firmware was written to work for voice traffic.<br><br><br>I don't know if Alex DL4LEX is still working on SMS support or not. You would need to contact him directly. But from what I understand he thinks its not practical to support SMS.<br><br><br>There is nothing to stop you modifying the firmware in any way to support your own specific usage, but we will not be modifying the firmware which in any way reduces its normal functionality, for voice traffic under a wide variety of conditions.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Sep 16, 2024 9:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-09-16T21:13:18</updated>
+
+		<published>2024-09-16T21:13:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32981#p32981</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32981#p32981"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32981#p32981"><![CDATA[
+It is a hardware problem. We have proved that the HRC6000 is not good at decoding the signal when operating in AF mode. <br><br>There are many settings for the AT1846S and the HRC6000. Many are not documented and we don't know what they do. There may be other settings that would affect reception but finding them would be guesswork. <br><br>As far as we know the manufacturers calibration table does not contain any settings which would affect reception. We are already using all of the parameters that are relevant to the new firmware.<br><br>Adding SMS needs a much better knowledge of the protocol. It is not well documented and parts of it are proprietary to Motorola. It is error tolerant so unlikely to be connected to your issue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Sep 16, 2024 9:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[JP7NJT]]></name></author>
+		<updated>2024-09-16T17:46:00</updated>
+
+		<published>2024-09-16T17:46:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32974#p32974</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32974#p32974"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32974#p32974"><![CDATA[
+Yes I know it doesn't work, it's because I explained it. With the volume to 0xFF there are some errors on the 0s and 1s in the last bytes. With the volume to 0xCF there are no more errors on the 0s but a lot of errors with the 1s, even in the first bytes.<br><br>You told me that it is impossible for there to be errors with the 1s and not with the 0s.<br><br><em class="text-italics">"The data you posted does not make sense. Why would 0's be 100% correct, and the Silence frame also be OK, but sending all 1's have very high BER"</em><br><br>Ok it's impossible but I see it.<br><br>And I have explained several times that the data is modified before the FEC. The FEC is added after the modified data.<br><br>This shows that it is indeed a software problem with the configuration in reception in opengd77 and not a hardware problem.<br>But apart from the volume, is there anything else that can be modified in the AT1846S.c file or elsewhere, that's what I was asking before:<br><em class="text-italics">Are there any other parameters (other than the internal volume) that could be set in opengd77? Is there any data that manages these parameters for each radio that can be extracted from the radio (such as calibration data)?</em><br><br>Last question, about SMS: no one has been able to reliably send and receive SMS with opengd77: for some it works, for others it doesn't. Is the bug I found: loss of some bits at the reception, could it be related to the problem of SMS?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4783">JP7NJT</a> — Mon Sep 16, 2024 5:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-13T21:48:00</updated>
+
+		<published>2024-09-13T21:48:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32912#p32912</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32912#p32912"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32912#p32912"><![CDATA[
+Another update on the effects of reducing the AF gain.<br><br>During testing several people reported that reducing the AF  gain completely stops the firmware working with their hotspot.<br><br>So it is not going to be possible to release a version with lower gain setting.<br><br>@JP7NJT, your use-case is not the normal use-case for this firmware. So if it does not work for your purpose, you will need to modify it to suit your own needs.<br><br>It is unlikely that we would add a calibration setting for this, as almost no one would use it. Especially as AFIK there is no way to determine the Rx BER, without sending test patterns from another radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 13, 2024 9:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-12T21:20:57</updated>
+
+		<published>2024-09-12T21:20:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32888#p32888</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32888#p32888"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32888#p32888"><![CDATA[
+As a follow up to my last comment <br><br>Reducing the AF gain to 0xCF stops DMR Rx from working correctly on some radios. Specifically some DM1701 but the same problem may apply to some UV380<br><br>So at the moment we can't release a version with lower AF gain<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 12, 2024 9:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-10T20:53:46</updated>
+
+		<published>2024-09-10T20:53:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32847#p32847</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32847#p32847"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32847#p32847"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>Its only the UV380/DM1701 where we know the AF gain setting was too high and resulted in audio levels &gt; 1V PP which are greater than the maximum input for the C6000.  The new setting for the UV380/DM1701 now sends 0.8V PP to the C6000 which is the optimial level on that radio<br><br>Also. Daniel tried changing the MD2017 AF gain to the same setting that is required for the UV380/DM1701 but this resulted in problems on that radio.<br>So probably because the MD2017 has some MUX between the dual AT1846S and the C6000 that there is some attenuation in AF signal level on the MD2017 and the maximum AF gain, or something close to maximum AF gain is required in the MD2017<br><br>At the moment we will only be changing the AF gain setting in the UV380/DM1701 code.</div></blockquote>Is this change for MD-UV380/DM1701 already in the latest release ( R20240908 ) ?</div></blockquote><br>It was too high risk to include in the Stable release, as reducing the AF gain may cause problems for people using repeaters with inaccurate Tx deviation settings.<br><br>Hence we will release a new Beta or possibly an Experimental version with this change , this weekend<br><br>The change will only be to the UV380/DM1701 code, because this is the only radio where the problem is actually known to exist.<br>The GD77 type radios already use a lower AF gain setting, and the MD2017 hardware is different and seems to require a very high gain setting<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 10, 2024 8:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-10T09:06:53</updated>
+
+		<published>2024-09-10T09:06:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32845#p32845</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32845#p32845"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32845#p32845"><![CDATA[
+No. It will be part of the next Beta.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Sep 10, 2024 9:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-09-10T08:17:28</updated>
+
+		<published>2024-09-10T08:17:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32844#p32844</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32844#p32844"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32844#p32844"><![CDATA[
+<blockquote class="uncited"><div><br>Its only the UV380/DM1701 where we know the AF gain setting was too high and resulted in audio levels &gt; 1V PP which are greater than the maximum input for the C6000.  The new setting for the UV380/DM1701 now sends 0.8V PP to the C6000 which is the optimial level on that radio<br><br>Also. Daniel tried changing the MD2017 AF gain to the same setting that is required for the UV380/DM1701 but this resulted in problems on that radio.<br>So probably because the MD2017 has some MUX between the dual AT1846S and the C6000 that there is some attenuation in AF signal level on the MD2017 and the maximum AF gain, or something close to maximum AF gain is required in the MD2017<br><br>At the moment we will only be changing the AF gain setting in the UV380/DM1701 code.</div></blockquote>Is this change for MD-UV380/DM1701 already in the latest release ( R20240908 ) ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Sep 10, 2024 8:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-10T06:22:57</updated>
+
+		<published>2024-09-10T06:22:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32843#p32843</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32843#p32843"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32843#p32843"><![CDATA[
+The data you posted does not make sense<br><br>Why would 0's be 100% correct, and the Silence frame also be OK, but sending all 1's have very high BER<br><br>How are you handling the FEC encoding and decoding of your data ?<br><br><br>It should also be noted that although you are implying this is a bug on all radios, except perhaps the MD9600, that AFIK Colin did not find any errors with the GD77 which already used the correct AF gain setting.<br><br>Its only the UV380/DM1701 where we know the AF gain setting was too high and resulted in audio levels &gt; 1V PP which are greater than the maximum input for the C6000.  The new setting for the UV380/DM1701 now sends 0.8V PP to the C6000 which is the optimial level on that radio<br><br>Also. Daniel tried changing the MD2017 AF gain to the same setting that is required for the UV380/DM1701 but this resulted in problems on that radio.<br>So probably because the MD2017 has some MUX between the dual AT1846S and the C6000 that there is some attenuation in AF signal level on the MD2017 and the maximum AF gain, or something close to maximum AF gain is required in the MD2017<br><br>At the moment we will only be changing the AF gain setting in the UV380/DM1701 code.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 10, 2024 6:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[JP7NJT]]></name></author>
+		<updated>2024-10-23T19:47:17 </updated>
+
+		<published>2024-09-10T00:35:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32838#p32838</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32838#p32838"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32838#p32838"><![CDATA[
+<blockquote class="uncited"><div>As has been demonstrated, the errors are due to the combination of the HRC-6000 and it's AF connection to the AT1846 receive chip. The range of adjustment is limited and the optimum point will most likely be different for every radio.  A completely error free solution is unlikely to be achievable with these low cost radios. <br>Colin G4EML</div></blockquote>Are there any other parameters (other than the internal volume) that could be set in opengd77? Is there any data that manages these parameters for each radio that can be extracted from the radio (such as calibration data)?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4783">JP7NJT</a> — Tue Sep 10, 2024 12:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-09-10T00:00:12</updated>
+
+		<published>2024-09-10T00:00:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32836#p32836</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32836#p32836"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32836#p32836"><![CDATA[
+As has been demonstrated, the errors are due to the combination of the HRC-6000 and it's AF connection to the AT1846 receive chip. The range of adjustment is limited and the optimum point will most likely be different for every radio.  A completely error free solution is unlikely to be achievable with these low cost radios. <br><br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Sep 10, 2024 12:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[JP7NJT]]></name></author>
+		<updated>2024-09-09T20:46:18</updated>
+
+		<published>2024-09-09T20:46:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32830#p32830</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32830#p32830"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32830#p32830"><![CDATA[
+<span style="text-decoration:underline">but if we send only "ones", there are plenty of errors and these errors are no longer only in the last bytes:</span><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2608&amp;sid=5b1f34e46b0eab178cedefa619e756ae" class="postimage" alt="one.png" onclick="viewableArea(this);" /></dt></dl></div><span style="text-decoration:underline">Firmwares that emit "ones" :</span><br><div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2610&amp;sid=5b1f34e46b0eab178cedefa619e756ae">OpenDM1701-ONES.zip</a></dt></dl></div><div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2609&amp;sid=5b1f34e46b0eab178cedefa619e756ae">MDUV380_firmware-ONES.zip</a></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4783">JP7NJT</a> — Mon Sep 09, 2024 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[JP7NJT]]></name></author>
+		<updated>2024-09-09T22:06:30 </updated>
+
+		<published>2024-09-09T20:44:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32828#p32828</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32828#p32828"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32828#p32828"><![CDATA[
+<span style="text-decoration:underline">others firmwares that emits zeros:</span><br><div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2605&amp;sid=5b1f34e46b0eab178cedefa619e756ae">OpenMDUV380-DEBUG2.zip</a></dt></dl></div><div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2604&amp;sid=5b1f34e46b0eab178cedefa619e756ae">OpenMD2017-DEBUG2.zip</a></dt></dl></div><div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2603&amp;sid=5b1f34e46b0eab178cedefa619e756ae">OpenGD77S-DEBUG2.zip</a></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4783">JP7NJT</a> — Mon Sep 09, 2024 8:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[JP7NJT]]></name></author>
+		<updated>2024-09-09T22:09:15 </updated>
+
+		<published>2024-09-09T19:16:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32824#p32824</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32824#p32824"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32824#p32824"><![CDATA[
+<strong class="text-strong">EDIT : Unfortunately the bug is not fixed completely.</strong><br><br><span style="text-decoration:underline">If zeros are emit, they are received without any errors :</span><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2607&amp;sid=5b1f34e46b0eab178cedefa619e756ae" class="postimage" alt="zero.png" onclick="viewableArea(this);" /></dt></dl></div><span style="text-decoration:underline">firmware for DM1701 that emits zeros:</span><br><div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2600&amp;sid=5b1f34e46b0eab178cedefa619e756ae">OpenDM1701-DEBUG2.zip</a></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4783">JP7NJT</a> — Mon Sep 09, 2024 7:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-09-06T15:45:29</updated>
+
+		<published>2024-09-06T15:45:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32776#p32776</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32776#p32776"/>
+		<title type="html"><![CDATA[Re: Probable bug in OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4367&amp;p=32776#p32776"><![CDATA[
+A possible fix......<br><br>It looks like the AF level from the AT1846S to the HRC6000 is very critical. Reducing the level seems to fix the problem for me. <br>I note from the software comment that we did have some problems with this level early in the project but probably didn't spend a lot of time investigating. <br><br>Please try changing this... <br><br>in the file 'application/source/hardware/AT1846S.c'<br>Change the last entry in the AT1846DMRSettings[] array from {0x44, 0x07, 0xFF}  to {0x44, 0x07, 0xCF}<br><div class="codebox"><p>CODE: </p><pre><code>const uint8_t AT1846DMRSettings[][AT1846_BYTES_PER_COMMAND] = {{0x40, 0x00, 0x31}, // UNDOCUMENTED. THIS IS THE MAGIC REGISTER WHICH ALLOWS LOW FREQ AUDIO BY SETTING THE LS BIT{0x15, 0x11, 0x00}, // IF tuning bits (12:9){0x32, 0x44, 0x95}, // agc target power{0x3A, 0x00, 0xC3}, // modu_det_sel (SQ setting). Tx No mic input, as the DMR signal directly modulates the master reference oscillator{0x3C, 0x1B, 0x34}, // Pk_det_th (SQ setting){0x3F, 0x29, 0xD1}, // Rssi3_th (SQ setting){0x41, 0x41, 0x22}, // Digital voice gain, (bits 6:0) however default value is supposed to be 0x4006 hence some bits are being set outside the documented range{0x42, 0x10, 0x52}, // RDA1846 lists this as Vox Shut threshold{0x43, 0x01, 0x00}, // FM deviation{0x48, 0x19, 0xB1}, // noise1_th (SQ setting){0x58, 0x9C, 0xDD}, // Disable all filters in DMR mode{0x44, 0x07, 0xCF}, // set internal volume to 100% (doesn't seem to decode correctly at lower levels on this radio)};</code></pre></div>This reduces the analogue gain of the AT1846S when in DMR mode. <br>This setting seems to be very critical. Hopefully it will be the same for all radios but this might need to be tested. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Sep 06, 2024 3:45 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

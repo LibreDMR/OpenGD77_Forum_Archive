@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3809" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-05T19:18:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3809</id>
+
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-03-05T19:18:35</updated>
+
+		<published>2024-03-05T19:18:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29967#p29967</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29967#p29967"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29967#p29967"><![CDATA[
+Thanks for this info! This definitely helps me understand why my radio was doing what it was doing.<br><br>I also plan on trying the calibration as soon as I get a chance.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Tue Mar 05, 2024 7:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2024-03-05T02:05:09</updated>
+
+		<published>2024-03-05T02:05:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29955#p29955</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29955#p29955"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29955#p29955"><![CDATA[
+i have 5 of the md9600 running opengd.  they all are very sensitive to the voltage input.  at 12.0vdc they only put out about 10-15 watts FM, but at 13.2v they put out 40watts and 13.8v closer to 50watts.  i see 7-8amps of draw at the 13.2v and get max 45watts.  this is all VHF analog FM numbers into swr1.1 antenna.   on UHF i get about 1/2 the output power as VHF with same 7-8 amps draw.  i have not done any calibrations.  next time i upgrade the firmware i probably will.<br>--gaspo.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Tue Mar 05, 2024 2:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2PWR]]></name></author>
+		<updated>2024-02-29T16:12:47</updated>
+
+		<published>2024-02-29T16:12:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29886#p29886</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29886#p29886"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29886#p29886"><![CDATA[
+internal meters in radios are only for input reference, so that you can be sure of the radio's power supply, I have several radios that happen the same thing, it's normal, the voltage just can't drop too much in the power supply, this one mine has 30A switched and always at 13.9 volts...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2476">PU2PWR</a> — Thu Feb 29, 2024 4:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-02-28T19:04:42</updated>
+
+		<published>2024-02-28T19:04:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29858#p29858</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29858#p29858"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29858#p29858"><![CDATA[
+Awesome, good to know! I'll give it a go ASAP.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Feb 28, 2024 7:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-28T06:46:53</updated>
+
+		<published>2024-02-28T06:46:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29823#p29823</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29823#p29823"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29823#p29823"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>The firmware has a frequency and power calibration screen</div></blockquote>Is it safe to use on all models now? If so, I'll definitely give that a shot. Although I don't know what's worse, my cheap Chinese power meter or the cheap Chinese radio  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"></div></blockquote>The manual probably needs to be updated, because the calibration feature has been on all radios for about 6 months or more.<br><br>It is safe because it never actually changes the official calibration data. When the firmware is first run, after its first installed, it makes a copy of the official data and uses that. So any changes you make in the calibration screen change things in the copy <br><br>And the calibration screen has an option of "Factory reset" which re-reads from the official / master data.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 28, 2024 6:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-02-28T05:01:31</updated>
+
+		<published>2024-02-28T05:01:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29822#p29822</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29822#p29822"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29822#p29822"><![CDATA[
+<blockquote class="uncited"><div>The firmware has a frequency and power calibration screen</div></blockquote>I did see that, but the manual states it's only for certain radios. Since messing with power output seems like something that could mess up a radio, I've stayed away from it since my model was listed in the manual.<br><br>Is it safe to use on all models now? If so, I'll definitely give that a shot. Although I don't know what's worse, my cheap Chinese power meter or the cheap Chinese radio  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Feb 28, 2024 5:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-28T04:31:00</updated>
+
+		<published>2024-02-28T04:31:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29821#p29821</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29821#p29821"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29821#p29821"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>You also need to set the power calibration in Options-&gt;Calibration to get the correct power output, however you will be lucky to get more than 35W on UHF</div></blockquote>Yeah so far I'm feeling like this amp does the job, I think you're spot on. I do have a question about calibration though, I've always stayed away from the screen because the manual says:<br><blockquote class="uncited"><div>Calibration screen<br><br>This screen currently only applies to the TYT MD-UV380 | Retevis RT-3S | Baofeng DM-1701 | Retevis RT-84.</div></blockquote>I have a GD-77 and MD-9600 do I didn't think either of my radios qualified to use the calibration options. Am I misinterpreting something?</div></blockquote>The firmware has a frequency and power calibration screen<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 28, 2024 4:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-02-28T03:53:49</updated>
+
+		<published>2024-02-28T03:53:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29819#p29819</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29819#p29819"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29819#p29819"><![CDATA[
+<blockquote class="uncited"><div>You also need to set the power calibration in Options-&gt;Calibration to get the correct power output, however you will be lucky to get more than 35W on UHF</div></blockquote>Yeah so far I'm feeling like this amp does the job, I think you're spot on. I do have a question about calibration though, I've always stayed away from the screen because the manual says:<br><blockquote class="uncited"><div>Calibration screen<br><br>This screen currently only applies to the TYT MD-UV380 | Retevis RT-3S | Baofeng DM-1701 | Retevis RT-84.</div></blockquote>I have a GD-77 and MD-9600 do I didn't think either of my radios qualified to use the calibration options. Am I misinterpreting something?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Feb 28, 2024 3:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-26T09:10:33</updated>
+
+		<published>2024-02-26T09:10:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29770#p29770</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29770#p29770"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29770#p29770"><![CDATA[
+<blockquote class="uncited"><div>Again, thanks to all who chimed in with advice and suggestions. For the Google-seekers who may land here hoping for an ending to this saga, after some digging I discovered my power supply was putting out 5 amps and not 7 amps like I thought. I got ahold of a bigger power supply (9 amps, peak 12 amps) and viola, the UHF maximum output jumped to 20 watts. Still not quite up to manufacture's advertised maximum, but I also suspect even the 9 amps isn't enough. I have a 30 amp power supply headed this way to hopefully put an end to this journey.<br><br>Again, thanks everyone and especially thanks to the people who made this firmware. I run it on two different radios (GD77 and MD-9600) and I can't imagine trying to figure out DMR with the provided firmware/CPS.</div></blockquote>9A should be enough. I use a 10A and it normally shows 8A on full power<br><br>You also need to set the power calibration in Options-&gt;Calibration to get the correct power output, however you will be lucky to get more than 35W on UHF<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 26, 2024 9:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-02-26T09:06:07</updated>
+
+		<published>2024-02-26T09:06:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29768#p29768</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29768#p29768"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29768#p29768"><![CDATA[
+Again, thanks to all who chimed in with advice and suggestions. For the Google-seekers who may land here hoping for an ending to this saga, after some digging I discovered my power supply was putting out 5 amps and not 7 amps like I thought. I got ahold of a bigger power supply (9 amps, peak 12 amps) and viola, the UHF maximum output jumped to 20 watts. Still not quite up to manufacture's advertised maximum, but I also suspect even the 9 amps isn't enough. I have a 30 amp power supply headed this way to hopefully put an end to this journey.<br><br>Again, thanks everyone and especially thanks to the people who made this firmware. I run it on two different radios (GD77 and MD-9600) and I can't imagine trying to figure out DMR with the provided firmware/CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Mon Feb 26, 2024 9:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-02-22T07:29:15</updated>
+
+		<published>2024-02-22T07:29:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29694#p29694</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29694#p29694"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29694#p29694"><![CDATA[
+<blockquote class="uncited"><div>OK, it was just a thought.</div></blockquote>A good thought too. I appreciate everyone's help!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Thu Feb 22, 2024 7:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-22T01:35:42</updated>
+
+		<published>2024-02-22T01:35:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29689#p29689</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29689#p29689"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29689#p29689"><![CDATA[
+<blockquote class="uncited"><div>No, I was under the impression that the calibration features were not to be used on the 9600.</div></blockquote>Power and frequency calibration works on all radios.<br><br>Beware with the MD9600 however that the power vs PA drive characteristic has an inverse kink at high PA drive levels.<br><br>i.e On UHF you may find the radio will only produce approx 35W and increasing the PA drive beyond a certain level does not result increased power output.<br>This seem to be a quirk of the PA design in these radios.<br><br>Increasing PA drive above the level which causes the power to increase, can under some curcimstances result in less output RF power being produced, but causes increased current consumption. <br>The input current will then be going into making heat, which is Not good.<br><br>Personally, when calibrating the power of the MD-9600, I increase the PA drive until I notice that its not making any difference to the RF output and then I back it off about 0.5W so I know that I'm not overdriving the PA FETs<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 22, 2024 1:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-02-22T00:19:22</updated>
+
+		<published>2024-02-22T00:19:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29688#p29688</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29688#p29688"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29688#p29688"><![CDATA[
+OK, it was just a thought. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Feb 22, 2024 12:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-02-22T00:09:27</updated>
+
+		<published>2024-02-22T00:09:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29687#p29687</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29687#p29687"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29687#p29687"><![CDATA[
+<blockquote class="uncited"><div>Have you done a power recalibration at any time?  If you have then you may have set the UHF drive level too high in an attempt to get maximum output power.</div></blockquote>No, I was under the impression that the calibration features were not to be used on the 9600. I've also never tried anything related to the +W- power settings.<br><br>Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Thu Feb 22, 2024 12:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-02-21T23:56:26</updated>
+
+		<published>2024-02-21T23:56:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29686#p29686</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29686#p29686"/>
+		<title type="html"><![CDATA[Re: Voltage Oddity]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3809&amp;p=29686#p29686"><![CDATA[
+Have you done a power recalibration at any time?  If you have then you may have set the UHF drive level too high in an attempt to get maximum output power.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Feb 21, 2024 11:56 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

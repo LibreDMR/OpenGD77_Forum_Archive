@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3606" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-21T08:22:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3606</id>
+
+		<entry>
+		<author><name><![CDATA[PD5JOS]]></name></author>
+		<updated>2023-12-21T08:22:55</updated>
+
+		<published>2023-12-21T08:22:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28209#p28209</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28209#p28209"/>
+		<title type="html"><![CDATA[Re: DM-1801 TX prohibit]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28209#p28209"><![CDATA[
+Ok, thanks to all of you,<br><br>I will set rx only to all channels together with the bandwith.<br><br>Merry Christmas and a Happy New Year to all<br>73, Jos<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5208">PD5JOS</a> — Thu Dec 21, 2023 8:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-21T06:07:11</updated>
+
+		<published>2023-12-21T06:07:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28205#p28205</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28205#p28205"/>
+		<title type="html"><![CDATA[Re: DM-1801 TX prohibit]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28205#p28205"><![CDATA[
+<blockquote class="uncited"><div>...<br><br>or maybe try with factory software as it may be easier to block certain settings with that one.</div></blockquote>They could simply re-install OpenGD77 and transmit.<br><br>The DM-1801 is a transceiver and apart from damaging the Tx hardware e.g. short the RF tracks to GND and remove the PA FETs,  it could always be made to transmit.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 21, 2023 6:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-12-20T23:20:04</updated>
+
+		<published>2023-12-20T23:20:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28202#p28202</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28202#p28202"/>
+		<title type="html"><![CDATA[Re: DM-1801 TX prohibit]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28202#p28202"><![CDATA[
+Whatever method you try to disable TX it's possible to go into channel details and change it.<br><br>Trust the person or maybe try with factory software as it may be easier to block certain settings with that one.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Dec 20, 2023 11:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2023-12-20T19:06:07</updated>
+
+		<published>2023-12-20T19:06:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28193#p28193</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28193#p28193"/>
+		<title type="html"><![CDATA[Re: DM-1801 TX prohibit]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28193#p28193"><![CDATA[
+Just a thought of how to have the effect you are looking for.<br><br>In the settings on the Radio Options make sure you have the Band Limits set to CPS. Then in the CPS define your frequency range to something you will not be monitoring.<br><br>For example I would set the VHF to 174 to 175 MHZ and the UHF to 490 to 491. Now anytime if the PTT is pushed you will get the Out of Band message and no TX will take place.<br><br>Not exactly what you where looking for but might work in the situation you describe.<br><br>All the Best,<br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Wed Dec 20, 2023 7:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-20T15:06:29</updated>
+
+		<published>2023-12-20T15:06:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28190#p28190</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28190#p28190"/>
+		<title type="html"><![CDATA[Re: DM-1801 TX prohibit]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28190#p28190"><![CDATA[
+Hi,<br><br>There is no global TX inhibit. You have to enable RX Only on every single channel (including VFO).<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Dec 20, 2023 3:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PD5JOS]]></name></author>
+		<updated>2023-12-20T12:28:22</updated>
+
+		<published>2023-12-20T12:28:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28186#p28186</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28186#p28186"/>
+		<title type="html"><![CDATA[DM-1801 TX prohibit]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3606&amp;p=28186#p28186"><![CDATA[
+Hi,<br><br>Is there any way to make the entire porto (DM-1801) RX only or TX Prohibit in 1 go, in place of having to define RX only per channel?<br><br>This question because I am going to give the Porto to a listening amateur as a scanner, and want to prevent him from transmitting illegally anywhere.<br><br>Thanks, Jos<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5208">PD5JOS</a> — Wed Dec 20, 2023 12:28 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

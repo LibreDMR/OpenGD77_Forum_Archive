@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2431" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-22T11:17:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2431</id>
+
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-10-22T11:17:47</updated>
+
+		<published>2022-10-22T11:17:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20255#p20255</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20255#p20255"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20255#p20255"><![CDATA[
+Hello<br>R6FHC uses jumbospot V1.3 HS_Dual_Hat MMDVM, v1.5.2<br>When converting a hotspot to a simplex, the error shown in the video<br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2431#p20238" class="postlink">viewtopic.php?f=19&amp;t=2431#p20238</a> does not appear. <br>Incorrect operation of mmdvm with  rt3s?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Sat Oct 22, 2022 11:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UR5TNF]]></name></author>
+		<updated>2022-10-21T16:31:18</updated>
+
+		<published>2022-10-21T16:31:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20243#p20243</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20243#p20243"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20243#p20243"><![CDATA[
+I confirm!!!  After watching the video from R6FHC, this problem pops up very often on my RT3S.  There is such a problem with signal decoding, the radio station itself.<br><br>I will add I use Duplex mmdvm.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2825">UR5TNF</a> — Fri Oct 21, 2022 4:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-21T06:35:06</updated>
+
+		<published>2022-10-21T06:35:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20239#p20239</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20239#p20239"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20239#p20239"><![CDATA[
+<blockquote class="uncited"><div>Hello.<br>R6FHC on ALPHA 2022-10-19-01 found such an error (video). <br><br><a href="https://disk.yandex.ru/d/94JeJmIWQkZ6aA" class="postlink">https://disk.yandex.ru/d/94JeJmIWQkZ6aA</a><br><br>This was not the case on previous versions. I and two friends of radio amateurs did not have an error that looked like on the video. I couldn't repeat it. Changing ECO 1-3 does not affect.  The R6FHC operates via a duplex hotspot. We looked at the codeplag settings - everything seems to be fine. Any idea what's going on?</div></blockquote>I think perhaps I have also heard this, but its difficult to generate this problem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Oct 21, 2022 6:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-10-21T06:28:44</updated>
+
+		<published>2022-10-21T06:28:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20238#p20238</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20238#p20238"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20238#p20238"><![CDATA[
+Hello.<br>R6FHC on ALPHA 2022-10-19-01 found such an error (video). <br><br><a href="https://disk.yandex.ru/d/94JeJmIWQkZ6aA" class="postlink">https://disk.yandex.ru/d/94JeJmIWQkZ6aA</a><br><br>This was not the case on previous versions. I and two friends of radio amateurs did not have an error that looked like on the video. I couldn't repeat it. Changing ECO 1-3 does not affect.  The R6FHC operates via a duplex hotspot. We looked at the codeplag settings - everything seems to be fine. Any idea what's going on?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Fri Oct 21, 2022 6:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[py2bt]]></name></author>
+		<updated>2022-10-19T13:20:12</updated>
+
+		<published>2022-10-19T13:20:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20182#p20182</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20182#p20182"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20182#p20182"><![CDATA[
+tanks for nice work !!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3009">py2bt</a> — Wed Oct 19, 2022 1:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[pu7olw]]></name></author>
+		<updated>2022-10-19T12:33:17</updated>
+
+		<published>2022-10-19T12:33:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20180#p20180</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20180#p20180"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20180#p20180"><![CDATA[
+Thanks a lot !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1886">pu7olw</a> — Wed Oct 19, 2022 12:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2022-10-19T01:58:44</updated>
+
+		<published>2022-10-19T01:58:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20166#p20166</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20166#p20166"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20166#p20166"><![CDATA[
+Thanks Roger ...<br>Thanks Colin<br>Sal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Wed Oct 19, 2022 1:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[CU7AAZ]]></name></author>
+		<updated>2022-10-18T21:41:25</updated>
+
+		<published>2022-10-18T21:41:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20161#p20161</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20161#p20161"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20161#p20161"><![CDATA[
+Thanks!<br><br>Best 73s<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2605">CU7AAZ</a> — Tue Oct 18, 2022 9:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-18T21:27:15</updated>
+
+		<published>2022-10-18T21:27:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20159#p20159</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20159#p20159"/>
+		<title type="html"><![CDATA[ALPHA 2022-10-19-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2431&amp;p=20159#p20159"><![CDATA[
+New Alpha<br><br>* Possibly fixes problem audio muting<br><br><a href="https://www.opengd77.com/downloads/MDUV380/Firmware/e0685a7abdaabd3a3f6da785159dd57d0991db67" class="postlink">downloads/MDUV380/Firmware/e0685a7abdaa ... 7d0991db67</a><br><br>Files have also been copied into the "Latest" version folder for anyone who installs for the first time using the installation instructions<br><br>Thanks to Colin G4EML for his work in fixing this problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 18, 2022 9:27 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

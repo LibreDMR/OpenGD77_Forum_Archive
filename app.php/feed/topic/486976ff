@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4869" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-12T19:01:08</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4869</id>
+
+		<entry>
+		<author><name><![CDATA[WB4WTN]]></name></author>
+		<updated>2025-02-12T19:01:08</updated>
+
+		<published>2025-02-12T19:01:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35719#p35719</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35719#p35719"/>
+		<title type="html"><![CDATA[Re: TG 9?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35719#p35719"><![CDATA[
+Thanks for the reply, I made a change in one of the channels and loaded the new codeplug and that seems to have fix the problem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6365">WB4WTN</a> — Wed Feb 12, 2025 7:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-12T11:10:19</updated>
+
+		<published>2025-02-12T11:10:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35712#p35712</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35712#p35712"/>
+		<title type="html"><![CDATA[Re: TG 9?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35712#p35712"><![CDATA[
+Post your codeplug here.<br><br>There is no phantom TG in the firmware, TG-9 is a fallback value when your codeplug has configuration problems.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Feb 12, 2025 11:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WB4WTN]]></name></author>
+		<updated>2025-02-12T08:41:31</updated>
+
+		<published>2025-02-12T08:41:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35710#p35710</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35710#p35710"/>
+		<title type="html"><![CDATA[TG 9?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4869&amp;p=35710#p35710"><![CDATA[
+I flashed the OpenGD77 firmware to my DM-1701 and I have it working OK, but there is a "Phamtom" talkgroup 9 in the radio that I can't get rid of. It's not in the codeplug, but when I upload a new codeplug and turn the radio on it's the first thing displayed. When I look at Digital Contacts on the radio I don't see it. Is it somehow burned into the Firmware? How do I remove it?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6365">WB4WTN</a> — Wed Feb 12, 2025 8:41 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

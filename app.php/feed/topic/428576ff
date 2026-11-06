@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4285" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-01T06:20:50</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4285</id>
+
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-08-01T06:20:50</updated>
+
+		<published>2024-08-01T06:20:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32362#p32362</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32362#p32362"/>
+		<title type="html"><![CDATA[Re: Exports inserting tabs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32362#p32362"><![CDATA[
+Thank you for the info! I'm sure I'm an edge case because I use the same code plug for both the GD-77 and TYT-9600, I like to edit the channels.csv to remove any frequencies that are between 199 and 300 before uploading to the 9600 (since it doesn't support 1.25m frequencies). Excel won't do that unless the fields are designated as a number, which excel won't do while the tabs are in there.<br><br>The easy work around is to use the "transform data" option and import the channels.csv into a new file and then using the save as to save the file as Channels.csv to overwrite the existing file. Import into the CPS and bam, I'm in business.<br><br>If anyone has a faster workaround, please let me know. My Excel-fu isn't bad, but I'm no Jedi Master.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Thu Aug 01, 2024 6:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-07-31T23:36:49</updated>
+
+		<published>2024-07-31T23:36:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32358#p32358</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32358#p32358"/>
+		<title type="html"><![CDATA[Re: Exports inserting tabs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32358#p32358"><![CDATA[
+The tabs are intentional. <br><br>It forces the spreadsheet program to interpret the field as a string of characters and not try to convert it to a number. <br><br>When importing back into the CPS the tab is optional. All fields are treated as strings when importing. Tabs are ignored. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Jul 31, 2024 11:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2024-07-31T23:12:37</updated>
+
+		<published>2024-07-31T23:12:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32357#p32357</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32357#p32357"/>
+		<title type="html"><![CDATA[Exports inserting tabs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4285&amp;p=32357#p32357"><![CDATA[
+Howdy!<br><br>I noticed awhile back that when you export to CSV that the channels file has a tab character before the RX and TX frequency entries. Excel kinda struggles with these extra tabs being in there.<br><br>Those tabs always been there or is this perhaps something new? If they don't need to be there it might be advantageous to remove them.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Jul 31, 2024 11:12 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2401" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-09-29T00:23:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2401</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-09-29T00:23:19</updated>
+
+		<published>2022-09-29T00:23:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2401&amp;p=19916#p19916</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2401&amp;p=19916#p19916"/>
+		<title type="html"><![CDATA[Not compatible with new Baofeng DM-1801 or DM-1801A]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2401&amp;p=19916#p19916"><![CDATA[
+We have know for a while that Baofeng have re-engineered the DM-1801 with completely new hardware, which is not compatible with the OpenGD77 firmware.<br><br>Today I've also been told that Baofeng also seems to have re-engineered the new version of the DM-1801A, hence this is no longer compatible with the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 29, 2022 12:23 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4835" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-01T19:35:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4835</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-01T19:35:13</updated>
+
+		<published>2025-02-01T19:35:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35532#p35532</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35532#p35532"/>
+		<title type="html"><![CDATA[Re: Probably a stupid question!]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35532#p35532"><![CDATA[
+<blockquote class="uncited"><div>Many thanks.  I did see that but wasn't sure if that meant that the firmware hadn't seen it as it was the non-GPS version.<br><br>73<br>Mike-G8NSZ</div></blockquote>I had a look at the User Guide, and it doesn't look like we have documented why 'none' is displayed, so the User Guide will need to be updated<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#gps" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ide.md#gps</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Feb 01, 2025 7:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[GM4NSZ]]></name></author>
+		<updated>2025-02-01T17:17:57</updated>
+
+		<published>2025-02-01T17:17:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35529#p35529</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35529#p35529"/>
+		<title type="html"><![CDATA[Re: Probably a stupid question!]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35529#p35529"><![CDATA[
+Many thanks.  I did see that but wasn't sure if that meant that the firmware hadn't seen it as it was the non-GPS version.<br><br>73<br>Mike-G8NSZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6674">GM4NSZ</a> — Sat Feb 01, 2025 5:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-02-01T17:14:50</updated>
+
+		<published>2025-02-01T17:14:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35528#p35528</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35528#p35528"/>
+		<title type="html"><![CDATA[Re: Probably a stupid question!]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35528#p35528"><![CDATA[
+<blockquote class="uncited"><div>Hi All,<br><br>I have a Retevis RT-3S which I got second hand.  I did very little with it before loading OpenGD77 about a year ago.  I now see that there are 2 versions of the firmware, one for GPS and one for non-GPS versions.  I don't remember that being the case when I first loaded the firmware.  I have just loaded the most recent version of the firmware; non-GPS version<br><br>My stupid question is, how do I know whether my RT-3S has a GPS or not?  If I load the GPS version of the firmware, and I have no GPS, will it fail and cause subsequent issues?  Many thanks.<br><br>73<br>Mike - G8NSZ</div></blockquote>There is no non-GPS firmware version. All OpenGD77 firmware will detect if the radio has GPS module installed. If there is no GPS module installed the GPS option will show “none”, as Daniel already answered. If there is GPS module installed. You can use the GPS option menu to turn it on/off. Please have a look at the manual for more information. <br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#gps" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ide.md#gps</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Feb 01, 2025 5:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-01T16:28:27</updated>
+
+		<published>2025-02-01T16:28:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35527#p35527</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35527#p35527"/>
+		<title type="html"><![CDATA[Re: Probably a stupid question!]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35527#p35527"><![CDATA[
+<blockquote class="uncited"><div>Hi All,<br><br>I have a Retevis RT-3S which I got second hand.  I did very little with it before loading OpenGD77 about a year ago.  I now see that there are 2 versions of the firmware, one for GPS and one for non-GPS versions.  I don't remember that being the case when I first loaded the firmware.  I have just loaded the most recent version of the firmware; non-GPS version<br><br>My stupid question is, how do I know whether my RT-3S has a GPS or not?  If I load the GPS version of the firmware, and I have no GPS, will it fail and cause subsequent issues?  Many thanks.<br><br>73<br>Mike - G8NSZ</div></blockquote>Hi,<br><br>   If the in OpenGD77 "General options", the GPS is not "None", you have a GPS module installed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 01, 2025 4:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[GM4NSZ]]></name></author>
+		<updated>2025-02-01T16:14:34</updated>
+
+		<published>2025-02-01T16:14:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35526#p35526</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35526#p35526"/>
+		<title type="html"><![CDATA[Probably a stupid question!]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4835&amp;p=35526#p35526"><![CDATA[
+Hi All,<br><br>I have a Retevis RT-3S which I got second hand.  I did very little with it before loading OpenGD77 about a year ago.  I now see that there are 2 versions of the firmware, one for GPS and one for non-GPS versions.  I don't remember that being the case when I first loaded the firmware.  I have just loaded the most recent version of the firmware; non-GPS version<br><br>My stupid question is, how do I know whether my RT-3S has a GPS or not?  If I load the GPS version of the firmware, and I have no GPS, will it fail and cause subsequent issues?  Many thanks.<br><br>73<br>Mike - G8NSZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6674">GM4NSZ</a> — Sat Feb 01, 2025 4:14 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

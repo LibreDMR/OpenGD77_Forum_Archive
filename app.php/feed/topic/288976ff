@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2889" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-17T18:34:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2889</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-10-21T13:48:56</updated>
+
+		<published>2023-10-21T13:48:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26985#p26985</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26985#p26985"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26985#p26985"><![CDATA[
+Just to be clear. <br><br>The V4 and V5 referred to on this site are our own version numbers based on our findings with the different TYT hardware.  The version designations used internally by TYT themselves are not known and will almost certainly not be the same. <br><br>TYT have changed the synthesiser chips and the IF chips in these radios over the years. Different versions of firmware are needed for each chip change.<br>TYTs firmware identifies the chip types by the first digit of the version number. <br><br>TYT  V06.xx  is for early radios which we refer to as V1, V2 or V3  (All are essentially the same chipset)<br>TYT  V16.xx  is for mid production radios which we refer to as V4  (Change of synthesiser chip)<br>TYT  V26.xx  is for the latest radios which we refer to as V5 (Another change of synthesiser chip plus change of IF chip)<br><br>The CPU change from STM32 to the Clone chip does not need a different firmware version.  (We did initially have an issue with this new CPU but this has now been fixed and all firmware versions now work with either CPU). <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Oct 21, 2023 1:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2023-10-21T12:44:18</updated>
+
+		<published>2023-10-21T12:44:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26984#p26984</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26984#p26984"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26984#p26984"><![CDATA[
+<blockquote class="uncited"><div>hi. download link?</div></blockquote>TL;DR: Files are not offered for download by TYT. Please contact them via <a href="mailto:overseas@tyt888.com">overseas@tyt888.com</a> as per earlier posts. You may of course also approach me by email (check details via QRZ.com) and receive a copy of what TYT had provided to me in late July...<br><br>Long version with some additional background details:<br><br>As per my earlier post I had contacted TYT via email and received a wetransfer link for the “V5” files (which has expired in the meanwhile). In parallel, I was in touch with the team at Passion Radio to clarify on the correct files as their website had somehow opposing FW statements for V4 and V5 at that time. We were a larger team of OMs that all ordered V5 devices from their “final stock” and so I wanted to get clarification on according TYT firmware for these – just in case. (Note: V5 devices are no longer available from them as of today. Assume TYT went back to include STM CPUs based on improved availability…)<br><br>Passion Radio later on forwarded an email from TYT services to me stating the following:<br><br>“Actually the name you called V5 its same as V4, even the CPS software and firmware. Both are compatible . just one have silk STM32 another one didn’t have silk. please noted that . […]”<br><br>That was when Passion Radio also updated the product details on the website, so they now provide V4 firmware for V4 &amp; V5 devices:<br><br><a href="https://www.passion-radio.com/mobile/md9600-2252.html" class="postlink">https://www.passion-radio.com/mobile/md9600-2252.html</a> (V5, nonSTM32)<br><a href="https://www.passion-radio.com/mobile/md9600-505.html" class="postlink">https://www.passion-radio.com/mobile/md9600-505.html</a> (V4, STM32)<br><br>Yet, TYT provided me with a dedicated V5 FW just a few weeks before and the files I had received clearly differ from what is now available for download at Passion Radio on the V5 page. My assumption is that the “V4 files” were updated later on to also cover nonSTM32 devices.<br><br>Again, I neither tried TYT’s “V4” nor “V5” files to bring back any of the MD-9600 to original FW so far. Simply because my devices are all running so smoothly with OpenMD9600  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_razz.gif" width="15" height="17" alt=":P" title="Razz"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Sat Oct 21, 2023 12:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2023-12-17T18:34:14 </updated>
+
+		<published>2023-10-21T12:41:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26983#p26983</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26983#p26983"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26983#p26983"><![CDATA[
+<blockquote class="uncited"><div>Hi Michael, can you tell me how long TYT took to respond to your request [...]</div></blockquote>Hi Ray, as you have already answered your own question let me just confirm that their replies usually have a quick turnaround <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br><br>73, Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Sat Oct 21, 2023 12:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA3SMH]]></name></author>
+		<updated>2023-10-19T13:02:44</updated>
+
+		<published>2023-10-19T13:02:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26921#p26921</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26921#p26921"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26921#p26921"><![CDATA[
+<blockquote class="uncited"><div>Thanks for the hint, Colin.<br><br>As stated above there was/is no plan to roll back on my end, yet I quickly wrote them and received a ZIP with the following files:<br><br>28.05.2021  03:58         1.096.192 MD9600-CSV(2571V5)-V26.45.bin<br>28.05.2021  03:58         1.102.336 MD9600-CSV-GPS(2571V5)-P26.45.bin<br>01.12.2022  05:21         1.114.624 MD9600-GPS-REC(2571V5)-S26.57.bin<br>01.12.2022  05:21         1.107.456 MD9600-REC(2571V5)-D26.57.bin<br><br>Post is just to confirm that TYT still is reactive on such support inquiries.<br><br>Cheers<br>—Michael</div></blockquote>hi. download link?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4785">TA3SMH</a> — Thu Oct 19, 2023 1:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4WRX]]></name></author>
+		<updated>2023-10-19T01:05:39</updated>
+
+		<published>2023-10-19T01:05:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26907#p26907</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26907#p26907"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26907#p26907"><![CDATA[
+Ok I decided to resend the email and they got back to me almost immediately.<br>Thank you for the help.<br><br>Ray<br>VK4WRX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4758">VK4WRX</a> — Thu Oct 19, 2023 1:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4WRX]]></name></author>
+		<updated>2023-10-18T05:46:16</updated>
+
+		<published>2023-10-18T05:46:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26888#p26888</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26888#p26888"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26888#p26888"><![CDATA[
+I did note in my question that “ I’ve contacted TYT both through FB Messenger and by email but haven’t had any response” hence why I asked how quickly did they reply.<br>Yes that’s the email address I used.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4758">VK4WRX</a> — Wed Oct 18, 2023 5:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-10-17T05:05:11</updated>
+
+		<published>2023-10-17T05:05:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26864#p26864</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26864#p26864"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26864#p26864"><![CDATA[
+<blockquote class="uncited"><div>Hi Michael, can you tell me how long TYT took to respond to your request as my MD-9600 has no RX audio on DMR and after trying the suggestions mentioned in OPENGD77 forums I’m still unable to get it to work and want to roll back to FW D026.057 which was originally on the radio.<br>I’ve contacted TYT both through FB and by email but haven’t had any response.<br><br>Cheers<br>Ray</div></blockquote>Did you try emailing them<br><br><a href="mailto:overseas@tyt888.com">overseas@tyt888.com</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 17, 2023 5:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4WRX]]></name></author>
+		<updated>2023-10-16T23:47:51</updated>
+
+		<published>2023-10-16T23:47:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26863#p26863</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26863#p26863"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=26863#p26863"><![CDATA[
+Hi Michael, can you tell me how long TYT took to respond to your request as my MD-9600 has no RX audio on DMR and after trying the suggestions mentioned in OPENGD77 forums I’m still unable to get it to work and want to roll back to FW D026.057 which was originally on the radio.<br>I’ve contacted TYT both through FB and by email but haven’t had any response.<br><br>Cheers<br>Ray<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4758">VK4WRX</a> — Mon Oct 16, 2023 11:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-08-06T16:35:38</updated>
+
+		<published>2023-08-06T16:35:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24847#p24847</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24847#p24847"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24847#p24847"><![CDATA[
+That's good news.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Aug 06, 2023 4:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2023-08-06T15:20:33</updated>
+
+		<published>2023-08-06T15:20:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24844#p24844</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24844#p24844"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24844#p24844"><![CDATA[
+Thanks for the hint, Colin.<br><br>As stated above there was/is no plan to roll back on my end, yet I quickly wrote them and received a ZIP with the following files:<br><br>28.05.2021  03:58         1.096.192 MD9600-CSV(2571V5)-V26.45.bin<br>28.05.2021  03:58         1.102.336 MD9600-CSV-GPS(2571V5)-P26.45.bin<br>01.12.2022  05:21         1.114.624 MD9600-GPS-REC(2571V5)-S26.57.bin<br>01.12.2022  05:21         1.107.456 MD9600-REC(2571V5)-D26.57.bin<br><br>Post is just to confirm that TYT still is reactive on such support inquiries.<br><br>Cheers<br>—Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Sun Aug 06, 2023 3:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-07-26T18:58:08</updated>
+
+		<published>2023-07-26T18:58:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24633#p24633</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24633#p24633"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24633#p24633"><![CDATA[
+Try getting in touch with TYT customer service. They have in the past been good at supplying firmware. <br><br>The 026 at the beginning of the firmware version indicates it is for the V5 radio.  TYT normally release three versions of each firmware.  <br><br>006.xxx  = V1 V2 and V3 radios<br>016.xxx = V4 radios<br>026.xxx = V5 radios.<br><br><br>The radio version numbers are what we use for OpenGD77, they may not be the same as those used by TYT. <br><br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Jul 26, 2023 6:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2023-07-26T17:32:29</updated>
+
+		<published>2023-07-26T17:32:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24632#p24632</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24632#p24632"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24632#p24632"><![CDATA[
+<blockquote class="uncited"><div><br>Has anyone seen a <strong class="text-strong">S026.057 firmware binary for download</strong>? <br>I can only find older versions that I'm unsure would work with V5 hardware. <br></div></blockquote>Rob, did anyone approach you on this? I certainly won't go back to the original FW, just want to know if the FW is available... Thanks.<br><br>Cheers<br>—Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Wed Jul 26, 2023 5:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG1GMY]]></name></author>
+		<updated>2023-07-26T17:27:31</updated>
+
+		<published>2023-07-26T17:27:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24631#p24631</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24631#p24631"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24631#p24631"><![CDATA[
+<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1757&amp;sid=7730a12ea93338b6f0a612e7c5b7668a" class="postimage" alt="20230726_OpenMD9600_01.jpg" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1758&amp;sid=7730a12ea93338b6f0a612e7c5b7668a" class="postimage" alt="20230726_OpenMD9600_02.png" onclick="viewableArea(this);" /></dt></dl></div>I just received a device with same HW/FW as per initial post (no GPS, TYT CPU) and thought it might be helpful to re-confirm that everything works as expected using latest Beta FW V5 (2023-07-15).<br><br>Cheers<br>—Michael<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2090">DG1GMY</a> — Wed Jul 26, 2023 5:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-25T07:01:13</updated>
+
+		<published>2023-07-25T07:01:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24607#p24607</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24607#p24607"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24607#p24607"><![CDATA[
+<blockquote class="uncited"><div>I've ordered a radio with the same firmware that you. Did you install OpenGD77 with no problems?<br><br>Thanks and 73!<br><br>Patrick, PU4PLC!</div></blockquote>Firmware version already in the radio is not relevant, becuase the firmware is completely replaced by the OpenGD77 firmware.<br><br>We are not aware of any problems with any MD-9600 radio versions, including the latest hardware versions (V5)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jul 25, 2023 7:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-25T06:59:13</updated>
+
+		<published>2023-07-25T06:59:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24606#p24606</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24606#p24606"/>
+		<title type="html"><![CDATA[Re: OpenGD77 compatible with FW D026.057?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2889&amp;p=24606#p24606"><![CDATA[
+<blockquote class="uncited"><div><br>Thanks and 73!<br><br>Patrick, PU4PLC!</div></blockquote>Your username has been changed to be your callsign, becuase this is site policy<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jul 25, 2023 6:59 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

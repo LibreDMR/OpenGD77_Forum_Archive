@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4776" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-22T17:11:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4776</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T17:11:35</updated>
+
+		<published>2025-01-22T17:11:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35277#p35277</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35277#p35277"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35277#p35277"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4788" class="postlink">viewtopic.php?f=19&amp;t=4788</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 5:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[i5ekx]]></name></author>
+		<updated>2025-01-22T08:32:01</updated>
+
+		<published>2025-01-22T08:32:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35267#p35267</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35267#p35267"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35267#p35267"><![CDATA[
+Exactly, the same thing happens to me and I reported it in the section dedicated to the 9600. The 9600 don't send the burst!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3315">i5ekx</a> — Wed Jan 22, 2025 8:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-22T08:30:10</updated>
+
+		<published>2025-01-22T08:30:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35266#p35266</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35266#p35266"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35266#p35266"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hi,<br><br>   When any more is selected, except PTT (which uses SK1 + 2 to trigger beaconing), you can just change to the next/previous channel, then come back to the original channel, that will send a beacon.<br><br>I will check later today if I can add "force beaconing" while in other modes.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>Maybe a silent option could be implemented as it's annoying to hear the fsk burst when you monitor another channel.</div></blockquote>That will be part of the next release.</div></blockquote>Noticed that my MD-9600 V2 is quiet but the RT3S send the burst to the speaker but maybe that's because of different audio design ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jan 22, 2025 8:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[i5ekx]]></name></author>
+		<updated>2025-01-22T08:28:44</updated>
+
+		<published>2025-01-22T08:28:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35265#p35265</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35265#p35265"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35265#p35265"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hi,<br><br>   When any more is selected, except PTT (which uses SK1 + 2 to trigger beaconing), you can just change to the next/previous channel, then come back to the original channel, that will send a beacon.<br><br>I will check later today if I can add "force beaconing" while in other modes.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>Maybe a silent option could be implemented as it's annoying to hear the fsk burst when you monitor another channel.</div></blockquote>That will be part of the next release.</div></blockquote>Perfect, thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3315">i5ekx</a> — Wed Jan 22, 2025 8:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N3JAS]]></name></author>
+		<updated>2025-01-22T07:33:39</updated>
+
+		<published>2025-01-22T07:33:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35260#p35260</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35260#p35260"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35260#p35260"><![CDATA[
+One additional very minor thing to mention, which I just noticed.  I'm not sure if this happened in the previous versions of the firmware or not.<br><br>With the PTT lock enabled, if a digital transmission is being received and the PTT button is pushed, the transmitting station information (Call sign, name, location) no longer appear once the PTT lock alert leaves the screen (the channel name is displayed instead).  If the channel is changed to another channel and back, this information reappears.  If a new transmission starts being received, the information also is displayed again.<br><br>This also happens with the Keypad Lock.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4474">N3JAS</a> — Wed Jan 22, 2025 7:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T07:23:14</updated>
+
+		<published>2025-01-22T07:23:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35256#p35256</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35256#p35256"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35256#p35256"><![CDATA[
+Ah, okay. It seems I forgot to automatically trigger a settings reset. My bad.<br>Just hold down SK2 while powering up the radio, it will reset the settings. <br>I will update the firmware beta to fix this, later today.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 7:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2025-01-22T07:06:41</updated>
+
+		<published>2025-01-22T07:06:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35253#p35253</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35253#p35253"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35253#p35253"><![CDATA[
+I installed the firmware in RT3S radios (STM processor) and UV380 (TYT processor). After installing the UV380, it required a factory reset, but the RT3S did not. What is the reason for this? <br>Before that, both stations had the previous beta version of the firmware. <br>In RT3S, after the firmware, the "Last speaker" in the "Display settings" section was set to 255, in UV380 this parameter was set to off.<br>Perhaps this information will help in finding errors.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Wed Jan 22, 2025 7:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N3JAS]]></name></author>
+		<updated>2025-01-22T06:46:55</updated>
+
+		<published>2025-01-22T06:46:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35252#p35252</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35252#p35252"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35252#p35252"><![CDATA[
+One small bug to report.  TYT MD-UV380.  After installing the firmware (this occurred on multiple radios of the same model), the "Last Talker" setting under "Display Options" is set to 255.  The maximum intended value for this setting seems to be 30.<br><br>If a user reduces the value from 255, the user cannot increase it until they get to 29.  At that point, the value can be increased to 30 and will not go above 30.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4474">N3JAS</a> — Wed Jan 22, 2025 6:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T04:47:20</updated>
+
+		<published>2025-01-22T04:47:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35250#p35250</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35250#p35250"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35250#p35250"><![CDATA[
+<blockquote class="uncited"><div>It worked and thanks.<br><br>Dave. G0OES</div></blockquote>Manual beaconing in all modes (except PTT) will be part of the next release.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 4:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T04:46:33</updated>
+
+		<published>2025-01-22T04:46:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35249#p35249</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35249#p35249"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35249#p35249"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi,<br><br>   When any more is selected, except PTT (which uses SK1 + 2 to trigger beaconing), you can just change to the next/previous channel, then come back to the original channel, that will send a beacon.<br><br>I will check later today if I can add "force beaconing" while in other modes.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>Maybe a silent option could be implemented as it's annoying to hear the fsk burst when you monitor another channel.</div></blockquote>That will be part of the next release.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 4:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[i5ekx]]></name></author>
+		<updated>2025-01-21T17:15:17</updated>
+
+		<published>2025-01-21T17:15:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35244#p35244</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35244#p35244"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35244#p35244"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>   When any mode is selected, except PTT (which uses SK1 + 2 to trigger beaconing), you can just change to the next/previous channel, then come back to the original channel, that will send a beacon.<br><br>I will check later today if I can add "force beaconing" while in other modes.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote>Many thanks Daniel.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3315">i5ekx</a> — Tue Jan 21, 2025 5:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-21T14:00:59</updated>
+
+		<published>2025-01-21T14:00:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35242#p35242</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35242#p35242"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35242#p35242"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>   When any more is selected, except PTT (which uses SK1 + 2 to trigger beaconing), you can just change to the next/previous channel, then come back to the original channel, that will send a beacon.<br><br>I will check later today if I can add "force beaconing" while in other modes.<br><br><br>Cheers.<br>---<br>Daniel</div></blockquote><br>Maybe a silent option could be implemented as it's annoying to hear the fsk burst when you monitor another channel.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Jan 21, 2025 2:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G0OES]]></name></author>
+		<updated>2025-01-21T13:46:13</updated>
+
+		<published>2025-01-21T13:46:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35240#p35240</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35240#p35240"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35240#p35240"><![CDATA[
+It worked and thanks.<br><br>Dave. G0OES<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7773">G0OES</a> — Tue Jan 21, 2025 1:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-21T09:54:02</updated>
+
+		<published>2025-01-21T09:54:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35237#p35237</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35237#p35237"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35237#p35237"><![CDATA[
+Hi,<br><br>   When any mode is selected, except PTT (which uses SK1 + 2 to trigger beaconing), you can just change to the next/previous channel, then come back to the original channel, that will send a beacon.<br><br>I will check later today if I can add "force beaconing" while in other modes.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jan 21, 2025 9:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[i5ekx]]></name></author>
+		<updated>2025-01-21T09:19:19</updated>
+
+		<published>2025-01-21T09:19:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35236#p35236</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35236#p35236"/>
+		<title type="html"><![CDATA[Re: New MD-UV380/RT-3S/DM-1701/RT-84 Beta version 2025 01 19]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4776&amp;p=35236#p35236"><![CDATA[
+Daniel good morning and congratulations for the new implementations, I wanted to ask you: would it be possible to associate a (any) key to the transmission of the APRS beacon? I mean wherever it is when I press that key the radio does QSY on the set frequency and transmits the configured string. It would be useful to immediately transmit the position regardless of other situations in which the radio is being.<br><br>Thanks, I5EKX Alex.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3315">i5ekx</a> — Tue Jan 21, 2025 9:19 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

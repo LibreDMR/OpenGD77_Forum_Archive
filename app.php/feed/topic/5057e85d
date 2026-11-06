@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5057" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-14T07:43:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5057</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-14T07:43:41</updated>
+
+		<published>2025-04-14T07:43:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36748#p36748</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36748#p36748"/>
+		<title type="html"><![CDATA[Re: Glitch found in 20250323054454]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36748#p36748"><![CDATA[
+You have to enter a DMR ID.<br><br>DMR won't work without an ID as its a fundamental part of the DMR protocol.<br><br>I just checked the CPS and if you leave the DMR ID empty, you get a message saying you must enter an ID.<br><br>If you start a new codeplug from scratch, the DMR ID is set to 1, however this isn't valid for networked Ham radio operation, and you may not be able to access all repeaters unless the DMR ID is in a range which they accept. <br><br>It's impossible for the CPS to cater for all possible ways that people can do the wrong thing, and I think the current message is adequate.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Apr 14, 2025 7:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-04-13T23:20:31</updated>
+
+		<published>2025-04-13T23:20:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36744#p36744</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36744#p36744"/>
+		<title type="html"><![CDATA[Re: Glitch found in 20250323054454]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36744#p36744"><![CDATA[
+It sounds to me like it's working as intended - the APRS picks up the callsign from the call entered in the CPS, and the CPS requires a DMR ID in order to load the modified code plug with your wife's call sign into the radio.<br><br>Once your wife has her DMR ID and you enter that into the CPS I think you'll find everything works as intended.<br><br>The only potential glitch here seems to be that the CPS may not fail gracefully when no DMR ID is entered.<br><br>Cheers,<br>Mike.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Sun Apr 13, 2025 11:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k4gps]]></name></author>
+		<updated>2025-04-13T17:43:03</updated>
+
+		<published>2025-04-13T17:43:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36740#p36740</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36740#p36740"/>
+		<title type="html"><![CDATA[Glitch found in 20250323054454]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5057&amp;p=36740#p36740"><![CDATA[
+390+ 10W model<br>Have 2 new radios, duplicated the 2nd one to mine and went in to change the callsign in APRS to my wife's. Started seeing the beacon but still showing as mine, went back into CPS and indeed under the APRS SSID selection it was showing my callsign but at the top of the tab where it said name it was showing my wife's callsign. <br>Only other spot I knew where a callsign was is under DMR, changed the callsign there (she has no id yet, never needed one but I just applied for her to get one) and blanked out the DMR ID field. CPS would not let me back out or close the window without entering a DMR ID. FInally had to use task manager to close out the program and go back in. Is there a proper way to report this to the coding team ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=849">k4gps</a> — Sun Apr 13, 2025 5:43 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

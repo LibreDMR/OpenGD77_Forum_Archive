@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4819" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-04T18:56:30</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4819</id>
+
+		<entry>
+		<author><name><![CDATA[NA7Q]]></name></author>
+		<updated>2025-02-04T18:56:30</updated>
+
+		<published>2025-02-04T18:56:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35567#p35567</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35567#p35567"/>
+		<title type="html"><![CDATA[Re: Change APRS suffix code from 7 to 12 in satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35567#p35567"><![CDATA[
+<blockquote class="uncited"><div>Why not change APRS suffix code from 7 to 12 in satellite mode?<br><br>-7 walkie talkies, HT's or other human portable;<br>-12 APRStt, DTMF, RFID, devices, one-way trackers, etc.<br><br>and I miss an emergency flag for APRS in satellite mode.</div></blockquote>SSID's being attached to specific types of usage are LONG gone. We don't do this anymore. The standard that was no longer is. Use whatever SSID you have or want to use. But -7 or -12 is the same, a unique SSID for a device you're using.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=377">NA7Q</a> — Tue Feb 04, 2025 6:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2TSL]]></name></author>
+		<updated>2025-01-29T01:07:54</updated>
+
+		<published>2025-01-29T01:07:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35447#p35447</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35447#p35447"/>
+		<title type="html"><![CDATA[Re: Change APRS suffix code from 7 to 12 in satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35447#p35447"><![CDATA[
+Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5728">PU2TSL</a> — Wed Jan 29, 2025 1:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-28T21:07:15</updated>
+
+		<published>2025-01-28T21:07:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35442#p35442</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35442#p35442"/>
+		<title type="html"><![CDATA[Re: Change APRS suffix code from 7 to 12 in satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35442#p35442"><![CDATA[
+<blockquote class="uncited"><div>Why not change APRS suffix code from 7 to 12 in satellite mode?<br><br>-7 walkie talkies, HT's or other human portable;<br>-12 APRStt, DTMF, RFID, devices, one-way trackers, etc.<br><br>and I miss an emergency flag for APRS in satellite mode.</div></blockquote>See<br><a href="https://www.opengd77.com/viewtopic.php?t=3128&amp;start=70#p25770" class="postlink">viewtopic.php?t=3128&amp;start=70#p25770</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 28, 2025 9:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2TSL]]></name></author>
+		<updated>2025-01-28T20:05:37</updated>
+
+		<published>2025-01-28T20:05:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35440#p35440</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35440#p35440"/>
+		<title type="html"><![CDATA[Change APRS suffix code from 7 to 12 in satellite mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4819&amp;p=35440#p35440"><![CDATA[
+Why not change APRS suffix code from 7 to 12 in satellite mode?<br><br>-7 walkie talkies, HT's or other human portable;<br>-12 APRStt, DTMF, RFID, devices, one-way trackers, etc.<br><br>and I miss an emergency flag for APRS in satellite mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5728">PU2TSL</a> — Tue Jan 28, 2025 8:05 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

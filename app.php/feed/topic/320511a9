@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3205" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-16T23:30:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3205</id>
+
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-16T23:30:01</updated>
+
+		<published>2025-04-16T23:30:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=36792#p36792</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=36792#p36792"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=36792#p36792"><![CDATA[
+<blockquote class="uncited"><div>Hy,<br>I have the same problem.<br>I'm not able to find CPS version 2023.08.10.01. <br>Could you help me ?<br>73 de IW0ROT</div></blockquote>that version is really old, better try with the last CPS and the last OpenGD77 BETA.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Apr 16, 2025 11:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IW0ROT]]></name></author>
+		<updated>2025-04-16T21:12:41</updated>
+
+		<published>2025-04-16T21:12:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=36789#p36789</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=36789#p36789"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=36789#p36789"><![CDATA[
+Hy,<br>I have the same problem.<br>I'm not able to find CPS version 2023.08.10.01. <br>Could you help me ?<br>73 de IW0ROT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8468">IW0ROT</a> — Wed Apr 16, 2025 9:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-02T22:10:09</updated>
+
+		<published>2024-03-02T22:10:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29922#p29922</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29922#p29922"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29922#p29922"><![CDATA[
+<blockquote class="uncited"><div>After reinstalling again thefirmware and keps everything works <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> ... i must have missed some step thank you for your answers and patience  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>Satellite data format was changed to support APRS via the ISS about 6 months ago. Most likely you had a missmatch between CPS and firmware which causes the satellites to not list correctly<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 02, 2024 10:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A9RV]]></name></author>
+		<updated>2024-03-02T14:57:56</updated>
+
+		<published>2024-03-02T14:57:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29920#p29920</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29920#p29920"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29920#p29920"><![CDATA[
+After reinstalling again thefirmware and keps everything works <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> ... i must have missed some step thank you for your answers and patience  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5746">9A9RV</a> — Sat Mar 02, 2024 2:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-02T14:55:24</updated>
+
+		<published>2024-03-02T14:55:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29919#p29919</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29919#p29919"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29919#p29919"><![CDATA[
+Just tried locally, and it works as expected.<br>Have you modified the satellites.txt file ?<br>What is the Keps URL ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 02, 2024 2:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A9RV]]></name></author>
+		<updated>2024-03-02T14:39:51</updated>
+
+		<published>2024-03-02T14:39:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29918#p29918</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29918#p29918"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29918#p29918"><![CDATA[
+R20231231<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5746">9A9RV</a> — Sat Mar 02, 2024 2:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-02T08:55:01</updated>
+
+		<published>2024-03-02T08:55:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29911#p29911</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29911#p29911"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29911#p29911"><![CDATA[
+Which firmware version are you running ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Mar 02, 2024 8:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A9RV]]></name></author>
+		<updated>2024-03-02T07:28:42</updated>
+
+		<published>2024-03-02T07:28:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29909#p29909</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29909#p29909"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29909#p29909"><![CDATA[
+Sams  vk4kdf resolved  the issue by using version 23.08.10.01 insteead of the last release and i wanted to give a try, by uploading keps with the latest release the sat list remains blank.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5746">9A9RV</a> — Sat Mar 02, 2024 7:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-01T21:45:08</updated>
+
+		<published>2024-03-01T21:45:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29905#p29905</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29905#p29905"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29905#p29905"><![CDATA[
+<blockquote class="uncited"><div>Hi everyone i seam to have a similar problem on my radioddity gd77, seams the links to the older version cps releases dont work anymore, is there a way to download them, thx in advance 73 de 9A9RV.</div></blockquote>Old releases got blocked by Google Safe Browsing, becuase possibly someone reported them as a virus. So we removed them, and may not be able to reinstate them. <br><br>Why aren't you using the latest CPS release?  We never removed any functionality from the CPS , so everyone should use the latest version becuase it has the most bug fixes etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 01, 2024 9:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9A9RV]]></name></author>
+		<updated>2024-03-01T20:37:24</updated>
+
+		<published>2024-03-01T20:37:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29902#p29902</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29902#p29902"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=29902#p29902"><![CDATA[
+Hi everyone i seam to have a similar problem on my radioddity gd77, seams the links to the older version cps releases dont work anymore, is there a way to download them, thx in advance 73 de 9A9RV.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5746">9A9RV</a> — Fri Mar 01, 2024 8:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-05T07:34:42</updated>
+
+		<published>2023-09-05T07:34:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25943#p25943</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25943#p25943"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25943#p25943"><![CDATA[
+Post from BOT ToddTaylor has been deleted as has the account called ToddTaylor<br><br>This is yet another user posting non-sense via a VPN..<br><br>I may need to disable new user registration until some method can be found to prevent the Bots from registering<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 05, 2023 7:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-27T10:44:53</updated>
+
+		<published>2023-08-27T10:44:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25646#p25646</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25646#p25646"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25646#p25646"><![CDATA[
+All the old versions of the CPS are available<br><br><a href="https://opengd77.com/downloads/CPS/Old_Releases" class="postlink">https://opengd77.com/downloads/CPS/Old_Releases</a><br><br>I've updated the CPS link in the Stable Relase post, to<br><br><a href="https://www.opengd77.com/downloads/CPS/Old_Releases/OpenGD77CPSInstaller_R2023.07.25.01.exe" class="postlink">downloads/CPS/Old_Releases/OpenGD77CPSI ... .25.01.exe</a><br><br>As that version should work OK.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Aug 27, 2023 10:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-08-27T06:11:08</updated>
+
+		<published>2023-08-27T06:11:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25639#p25639</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25639#p25639"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25639#p25639"><![CDATA[
+<blockquote class="uncited"><div>Thanks. What version cps for stable?<br>Edit: Tried version 23.08.10.01 and it finally worked! thanks! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"></div></blockquote>Good, I was not sure which of the available versions that was suitable for old stable.<br><br>Maybe the team should add a readme file in the download directory,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Aug 27, 2023 6:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4KDF]]></name></author>
+		<updated>2023-08-27T05:40:35</updated>
+
+		<published>2023-08-27T05:40:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25638#p25638</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25638#p25638"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25638#p25638"><![CDATA[
+Thanks. What version cps for stable?<br>Edit: Tried version 23.08.10.01 and it finally worked! thanks! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4367">VK4KDF</a> — Sun Aug 27, 2023 5:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-08-27T05:26:44</updated>
+
+		<published>2023-08-27T05:26:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25637#p25637</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25637#p25637"/>
+		<title type="html"><![CDATA[Re: DM1801 Empty Satellite list, even after installing KEPs]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3205&amp;p=25637#p25637"><![CDATA[
+<blockquote class="uncited"><div>Hello,<br>I have a DM-1801 which I have been using OpenGD77 on for ages. Today, i tried the satellite option and after setting date and time, the predicting status bar appears for a very very small flash, and then a blank screen remains. Pressing the menu button from here displays "Pass: None"<br>Pressing down shows Empty list and pressing down again shows the satellite freq. screen with 0.00067 R and 0.00000 T.<br><br>To me, it seems as if the keps are not installed, however I have certainly installed them. When I install via the CPS,  "CPS writing keps" appears on the screen.<br><br>I am using the latest stable release, however the same issue occurs on the latest beta.<br>Thanks.</div></blockquote>Sounds like you use the wrong CPS versions.<br><br>For stable you must load the keps data with an older CPS.<br><br>For latest beta you must use the latest CPS  2023.08.18.01<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Aug 27, 2023 5:26 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

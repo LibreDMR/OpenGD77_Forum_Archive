@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5010" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-02T21:51:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5010</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-04-02T21:51:41</updated>
+
+		<published>2025-04-02T21:51:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36578#p36578</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36578#p36578"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD-9600 Squelch]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36578#p36578"><![CDATA[
+The older radios just had a MOSFET which shorted out the input to the audio amplifier to mute the signal. This worked fairly well but could cause clicks when the squelch opened and closed as it also affected the DC biasing of the amplifier chip.  <br><br>Maybe they have changed the mute circuit to try to reduce the clicks at the expense of reduced audio attenuation.<br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Apr 02, 2025 9:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-04-01T19:34:00</updated>
+
+		<published>2025-04-01T19:34:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36561#p36561</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36561#p36561"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD-9600 Squelch]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36561#p36561"><![CDATA[
+Very good video!<br>I have noticed the same behavior with squelch. Obviously the manufacturer has made changes in the audio amplifier area.<br>Older devices do not do this.....<br>73 Alfred<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Tue Apr 01, 2025 7:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP1RF]]></name></author>
+		<updated>2025-03-30T11:57:14</updated>
+
+		<published>2025-03-30T11:57:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36524#p36524</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36524#p36524"/>
+		<title type="html"><![CDATA[Re: NEW TYT MD-9600 Squelch]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36524#p36524"><![CDATA[
+I have the same problem, I checked the ribbon cable between the screen and the motherboard, I fixed the soldering of the UC1 socket, the problem is still there. I also have an older version of MD-9600 and it doesn't have this problem... <br> <strong>iframe</strong> <br><a href="http://youtu.be/gae3lCD_20I">youtu.be/gae3lCD_20I</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8364">SP1RF</a> — Sun Mar 30, 2025 11:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[oe7abh]]></name></author>
+		<updated>2025-03-26T13:02:55</updated>
+
+		<published>2025-03-26T13:02:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36463#p36463</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36463#p36463"/>
+		<title type="html"><![CDATA[NEW TYT MD-9600 Squelch]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5010&amp;p=36463#p36463"><![CDATA[
+Hello,<br><br>I have ordered a new TYT MD-9600 without GPS from this dealer:<br><a href="https://www.passion-radio.com/mobile/md9600-505.html" class="postlink">https://www.passion-radio.com/mobile/md9600-505.html</a><br><br>OpenGD77 Firmware "MD9600_firmware_V5HW.zip" flashed.<br>Device works perfectly.<br><br>The squelch can be set in "FM" mode using the arrow keys. The squelch closes.<br>However, you can still hear a low noise in the loudspeaker when the squelch is closed.<br>In "DMR" mode, you can also hear a slight hiss, but a little less than in FM!<br><br>I have a second MD-9600 and when the squelch is closed there is absolutely no noise in the loudspeaker!<br><br>Can anyone here give me a tip on how to eliminate the low noise when the squelch is closed?<br><br>Thank you, Alfred OE7ABH<br><a href="https://tyrofly.at/funk.htm#Digitalfunk" class="postlink">https://tyrofly.at/funk.htm#Digitalfunk</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1060">oe7abh</a> — Wed Mar 26, 2025 1:02 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

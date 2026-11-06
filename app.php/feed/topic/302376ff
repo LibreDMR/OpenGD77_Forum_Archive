@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3023" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-07-09T10:08:09</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3023</id>
+
+		<entry>
+		<author><name><![CDATA[LZ1SVO]]></name></author>
+		<updated>2023-07-09T10:08:09</updated>
+
+		<published>2023-07-09T10:08:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24318#p24318</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24318#p24318"/>
+		<title type="html"><![CDATA[Re: DM-1801 or Pi-Star issue ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24318#p24318"><![CDATA[
+The duplex spacing is exactly 5MHZ: RX 440.300.000 TX 445.300.000, before that it was 8MHZ and did no difference, i was just messing with the frequencies to see if they are the issue. I went into Configuration -&gt; Expert  -&gt; MMDVM Host - &gt; TX and RX offset to -500 and it worked. Now i am messing with my second simplex hotspot and it is not working so far. Will report what is going on. Just i have noticed on the syslog of pi-star that other services are loaded and started, then they fail, but htey are disabled in the GUI, any ideas why is this like that ? <br><br>Here is an actual log: <blockquote class="uncited"><div>p25gateway.service: Control process exited, code=exited, status=1/FAILURE<br>Jul  9 13:06:32 pi-star2 systemd[1]: p25gateway.service: Failed with result 'exit-code'.<br>Jul  9 13:06:32 pi-star2 systemd[1]: Failed to start P25 Servce.<br>Jul  9 13:06:32 pi-star2 systemd[1]: ysfgateway.service: Control process exited, code=exited, status=1/FAILURE<br>Jul  9 13:06:32 pi-star2 systemd[1]: ysfgateway.service: Failed with result 'exit-code'.<br>Jul  9 13:06:32 pi-star2 systemd[1]: Failed to start Yaesu System Fusion Servce.<br>Jul  9 13:06:33 pi-star2 systemd[1]: aprsgateway.service: Control process exited, code=exited, status=1/FAILURE<br>Jul  9 13:06:33 pi-star2 systemd[1]: aprsgateway.service: Failed with result 'exit-code'.<br>Jul  9 13:06:33 pi-star2 systemd[1]: Failed to start Pi-Star APRS Gateway Service.<br>Jul  9 13:06:33 pi-star2 systemd[1]: ysf2p25.service: Control process exited, code=exited, status=1/FAILURE<br>Jul  9 13:06:33 pi-star2 systemd[1]: ysf2p25.service: Failed with result 'exit-code'.<br>Jul  9 13:06:33 pi-star2 systemd[1]: Failed to start Pi-Star YSF2P25 Service.<br>Jul  9 13:06:33 pi-star2 systemd[1]: ysf2nxdn.service: Control process exited, code=exited, status=1/FAILURE<br>Jul  9 13:06:33 pi-star2 systemd[1]: ysf2nxdn.service: Failed with result 'exit-code'.<br>Jul  9 13:06:33 pi-star2 systemd[1]: Failed to start Pi-Star YSF2NXDN Service.</div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4151">LZ1SVO</a> — Sun Jul 09, 2023 10:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-07-09T09:59:56</updated>
+
+		<published>2023-07-09T09:59:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24317#p24317</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24317#p24317"/>
+		<title type="html"><![CDATA[Re: DM-1801 or Pi-Star issue ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24317#p24317"><![CDATA[
+How large is the duplex spacing ?<br><br>I've heard that you should have at least 5 MHz as the receiver part in the duplex hat otherwise will be swamped with RF from the transmitter <br>and have bad sensitivity.<br>This will affect 2 slot DMR as the hotspot and radio needs to synchronize the TS timing.<br><br>In Sweden we have only 432-438 MHz and the standard repeater shift is -2 MHz , and because of the bandplan it's not easy to get enough spacing.<br>I have a MMDVM_HS_Dual_Hat which is using 434.9375 TX and 432.9375 RX, this works fine with D-Star but not so good with DMR and I usually<br>get those TIMEOUT errors to as the sync is failing.<br>If I crank up the power on the OpenGD77 radios it usually work better but it's not 100% stable.<br><br>You can also get better results by separating the TX and RX antennas.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jul 09, 2023 9:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LZ1SVO]]></name></author>
+		<updated>2023-07-09T08:05:28</updated>
+
+		<published>2023-07-09T08:05:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24311#p24311</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24311#p24311"/>
+		<title type="html"><![CDATA[Re: DM-1801 or Pi-Star issue ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24311#p24311"><![CDATA[
+Hi, it is a Duplex one ( i have mentioned it in the first post <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> <br>Ok will have a look how to calibrate the hotspot, did not know about that.<br>Thanks<br><br><br>UPDATE:<br><br>actually messing with the TX and RX offsett did the job, thnaks so much, i have been banging my head for the last 2 days.All working now as expected.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4151">LZ1SVO</a> — Sun Jul 09, 2023 8:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-07-09T08:00:28</updated>
+
+		<published>2023-07-09T08:00:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24310#p24310</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24310#p24310"/>
+		<title type="html"><![CDATA[Re: DM-1801 or Pi-Star issue ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24310#p24310"><![CDATA[
+Hi,<br><br>   you didn't mention if the hotspot is a Dual or a Simplex one.<br>If it's simplex, change your channel configuration to Simplex mode.<br><br>Also, you NEED to calibrate your hotspot (you will find some YT video about it, it's pretty simple).<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jul 09, 2023 8:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[LZ1SVO]]></name></author>
+		<updated>2023-07-09T07:57:13</updated>
+
+		<published>2023-07-09T07:57:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24309#p24309</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24309#p24309"/>
+		<title type="html"><![CDATA[DM-1801 or Pi-Star issue ???]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3023&amp;p=24309#p24309"><![CDATA[
+Hi All, <br>so for a while the radio and the hotspot were in the drawer, collecting dust ( too busy for the hobby <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> ), but recently decided to see what is going on ihn the AIR  and just listen a bit.Before i put everything away all was working! So yesterday i plugged in the hotspot, turned on the radio and tried as usual the local parrot so i can test if everything is OK, but despite hotspot was showing that it was working, the radio did not activate the hotspot, but when i press the PTT red LED blinks 3 times on the radio and TIMEOUT comes on the screen.<br>What I have done so far:<br>1.I have reflashed the pi-star hotspot ( mmdvm duplex chinese clone) several times with different firmware versions and the result is the same. <br>2.Reflashed the latest opengd77 to the DM-1801<br>3.With hotspot on or off the TIMEOUT still comes on the screen, and i was wondering is there some kind of feedback between repeaters and radios in DMR ? <br>4.Looked at the pi-star logs, coudnt see anything interesting ( at least to me) <br>I am trying to troubleshoot the issue but i am short of ideas now.<br>Any ideas are appreciated greatly<br>All the best <br>73 <br>LZ1SVO<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4151">LZ1SVO</a> — Sun Jul 09, 2023 7:57 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

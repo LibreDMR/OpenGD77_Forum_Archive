@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5218" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-16T20:52:20</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5218</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-16T20:52:20</updated>
+
+		<published>2025-07-16T20:52:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5218&amp;p=37726#p37726</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5218&amp;p=37726#p37726"/>
+		<title type="html"><![CDATA[Re: Greetings from KC1VXD in New Hampshire, US]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5218&amp;p=37726#p37726"><![CDATA[
+Build quality and reliability of the TYT radios is generally OK, with IIRC hardly anyone on the forum saying that they had a PA failure.<br>Build quality / factory QA testing on the Baofeng radios seems to be a bit lower.<br><br>Unfortunately both TYT and Baofeng continue to use a  quite old $1 FM transceiver chip in their handhelds, which suffers from desense and other problems.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jul 16, 2025 8:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC1VXD]]></name></author>
+		<updated>2025-07-16T10:20:17</updated>
+
+		<published>2025-07-16T10:20:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5218&amp;p=37725#p37725</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5218&amp;p=37725#p37725"/>
+		<title type="html"><![CDATA[Greetings from KC1VXD in New Hampshire, US]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5218&amp;p=37725#p37725"><![CDATA[
+Fairly new ham, licensed to Tech about 1 year ago and General a few months after that.<br><br>Started out with a very nice Yaesu handheld which left little to be desired, but after getting a cheap chinese radio for my car (Retevis RT95) I thought why is this so bad?  Nobody in any reviews with a chinese radio seems to mention how slow the channel scan is for example.  Looking into that is what led me to the OpenGD77 website and after reading more about the firmware I knew that I was interested in trying it out. I would consider myself computer literate with a background in mathematics and the sciences but without any current programming skills, so very happy to experiment with things and have some understanding of circuit design from the distant past but absolutely useless when it comes to any serious software troubleshooting  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> .<br><br>I ended up with a Retevis RT3S with GPS and I feel that the OpenGD77 firmware for this radio is absolutely better than anything commercially available at any price when you consider the features and function (my favorite feature is the GPS sorting of repeaters by distance, and second is the ease of programming and changing basic parameters on the fly).<br><br>Unfortunately the radio, in particular when compared to my Yaesu, clearly is inferior when it comes to the hardware. For example, the receiver has always exhibited "desense" when another radio is transmitting on a nearby frequency which the Yaesu does not have problems with. And, alas, after perhaps 5 or 6 months of use, the radio has apparently blown its RF transmit circuitry. Recent signal reports led me to test the output which previously I had calibrated (and kept to 4W as the signal appeared cleaner); now the radio will output at 4W right after powering up for a few seconds, but then drops to the milliwatt range; reflashing firmware had no effect. I suspect there is a conductor or solder connection hanging on by a thread somewhere that is overheating.  Next step is to open up the radio and start testing components!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8923">KC1VXD</a> — Wed Jul 16, 2025 10:20 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

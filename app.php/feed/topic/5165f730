@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5165" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-10T11:30:38</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5165</id>
+
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-06-10T11:30:38</updated>
+
+		<published>2025-06-10T11:30:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37460#p37460</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37460#p37460"/>
+		<title type="html"><![CDATA[Re: Password protection?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37460#p37460"><![CDATA[
+Hello,<br>Yes I know but not every thief knows where to look... or more precisely not everyone who steals a radio has to use it.<br>We need to make it difficult for such people <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Tue Jun 10, 2025 11:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KR0LEX]]></name></author>
+		<updated>2025-06-08T14:38:48</updated>
+
+		<published>2025-06-08T14:38:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37416#p37416</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37416#p37416"/>
+		<title type="html"><![CDATA[Re: Password protection?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37416#p37416"><![CDATA[
+FYI, Anyone who knows your Call sign can easily find your DMR ID.<br>They just need to go to radioid.net and do a search.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6693">KR0LEX</a> — Sun Jun 08, 2025 2:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-06-07T19:10:41</updated>
+
+		<published>2025-06-07T19:10:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37404#p37404</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37404#p37404"/>
+		<title type="html"><![CDATA[Re: Password protection?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37404#p37404"><![CDATA[
+Friend, thanks for the help. I forgot about the login password option<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Sat Jun 07, 2025 7:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-07T18:40:34</updated>
+
+		<published>2025-06-07T18:40:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37403#p37403</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37403#p37403"/>
+		<title type="html"><![CDATA[Re: Password protection?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37403#p37403"><![CDATA[
+There is a PIN that you could define.<br>But frankly speaking, once you lose your radio (or it get stolen), you're doomed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jun 07, 2025 6:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP5AH]]></name></author>
+		<updated>2025-06-07T14:05:58</updated>
+
+		<published>2025-06-07T14:05:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37401#p37401</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37401#p37401"/>
+		<title type="html"><![CDATA[Password protection?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5165&amp;p=37401#p37401"><![CDATA[
+Hi, <br>Is there any password protection for the radio in OpenGD77?<br>It sometimes the radio can be lost or stolen and it would be good if it could not be used by unauthorized persons (especially with DMR_ID)..<br><br>Piotr - '73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8489">SP5AH</a> — Sat Jun 07, 2025 2:05 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5187" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-02T07:42:31</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5187</id>
+
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-07-02T07:42:31</updated>
+
+		<published>2025-07-02T07:42:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37621#p37621</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37621#p37621"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37621#p37621"><![CDATA[
+The issue is now resolved — I can see the satellite list.<br><br>Here's what I did: I first re-flashed the firmware back to the original Baofeng version, then flashed it again with OpenGD77. After that, everything started working as expected.<br><br>Big thanks to all the friends, community members, and the admin for your support and time — really appreciate the help!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Wed Jul 02, 2025 7:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-29T16:02:33</updated>
+
+		<published>2025-06-29T16:02:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37604#p37604</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37604#p37604"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37604#p37604"><![CDATA[
+<blockquote class="uncited"><div>yes, I have added my local coordinates in asked format and after entering, it has automatically generated my grid square location.<br><br>under satellite menu, it shows <strong class="text-strong">List empty</strong></div></blockquote>Make a backup of the flash, and send it to me (privately, email is available on QRZ.com).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jun 29, 2025 4:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-29T13:56:50</updated>
+
+		<published>2025-06-29T13:56:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37602#p37602</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37602#p37602"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37602#p37602"><![CDATA[
+Very strange problem.<br><br>Only difference is that I have a STM cpu in my DM-1701<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jun 29, 2025 1:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-06-29T11:15:21</updated>
+
+		<published>2025-06-29T11:15:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37601#p37601</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37601#p37601"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37601#p37601"><![CDATA[
+yes, I have added my local coordinates in asked format and after entering, it has automatically generated my grid square location.<br><br>under satellite menu, it shows <strong class="text-strong">List empty</strong><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Sun Jun 29, 2025 11:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-29T11:12:32</updated>
+
+		<published>2025-06-29T11:12:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37600#p37600</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37600#p37600"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37600#p37600"><![CDATA[
+There is no GPS in the DM-1701.<br>BTW, have you defined your location ? ("Radio Info" menu)<br>When your entering the satellites menu,  is it empty, or a "empty list" is displayed?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jun 29, 2025 11:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-06-29T10:55:15</updated>
+
+		<published>2025-06-29T10:55:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37599#p37599</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37599#p37599"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37599#p37599"><![CDATA[
+<img src="https://i.ibb.co/4Rbckcgp/opengdsssats.jpg" class="postimage" alt="Image"><br><br><a href="https://celestrak.org/NORAD/elements/gp.php?GROUP=amateur&amp;FORMAT=tle" class="postlink">https://celestrak.org/NORAD/elements/gp ... FORMAT=tle</a><br>also tried<br><a href="https://celestrak.org/NORAD/elements/gp.php?GROUP=active&amp;FORMAT=tle" class="postlink">https://celestrak.org/NORAD/elements/gp ... FORMAT=tle</a><br><br><strong class="text-strong">satellites.txt file</strong><br><br><strong class="text-strong">Cat  #,Name    ,    Rx1,    Tx1, CTCSS, ArmCTCSS,    Rx2,    Tx2,    Rx3,    Tx3,APRS Config</strong><br>43017U,AO-91   ,145.960,435.250,     67,       0,      0,      0,145.960,      0,<br>61781U,AO-123  ,435.400,145.850,     67,       0,      0,      0,436.210,      0,<br>40931U,IO-86   ,435.880,145.880,   88.5,       0,      0,      0,437.425,      0,<br>25544U,ISS     ,437.800,145.990,     67,       0,145.825,145.825,145.800,      0,RS0ISS<br>40908U,LilacSat,437.200,144.350,      0,       0,      0,      0,437.200,      0,<br>62461U,POEM 4  ,145.870,      0,      0,       0,145.825,145.825,145.870,      0,<br>43678U,PO-101  ,145.900,437.500,  141.3,       0,      0,      0,145.900,      0,<br>27607U,SO-50   ,436.795,145.850,     67,    74.4,      0,      0,436.795,      0,<br>62690U,SO-124  ,436.885,145.925,      0,       0,      0,      0,436.885,      0,<br>59112U,SONATE-2,145.880,      0,      0,       0,145.825,145.825,145.840,      0,DP0SNX<br>57172U,UmKA-1  ,437.625,      0,      0,       0,      0,      0,437.625,      0,<br><br>I have not modified txt file, no error while loading keps, given screenshot is the recent one. Time set to local and UTC to +5.30.<br><br>no change same error.<br><br>is my handy not supported? does it work only on GPS version of DM 1701?<br><br>one more thing to tell that after every single use of opengd77 CPS, It freezes my PC-windows 10 and I have to restart it to work normally.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Sun Jun 29, 2025 10:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-29T07:42:06</updated>
+
+		<published>2025-06-29T07:42:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37596#p37596</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37596#p37596"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37596#p37596"><![CDATA[
+I tried to mimic the steps on my DM-1701, but the prediction works for me.<br>I took the coordinates for VU3HMM from qrz.com and have the radio in UTC.<br><br>I noticed that I had another tle url in my CPS:<br><div class="codebox"><p>CODE: </p><pre><code>https://celestrak.org/NORAD/elements/gp.php?GROUP=active&amp;FORMAT=tle</code></pre></div>and you used <br><div class="codebox"><p>CODE: </p><pre><code>https://celestrak.org/NORAD/elements/gp.php?GROUP=amateur&amp;FORMAT=tle</code></pre></div>but both seemed to work for me<br><br>This is how it looks for me when I upload the tle list to the radio:<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=3032&amp;sid=2c653c2996812cd048938f2920941737" class="postimage" alt="Satellite_TLE_update.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Jun 29, 2025 7:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-28T15:00:02</updated>
+
+		<published>2025-06-28T15:00:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37593#p37593</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37593#p37593"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37593#p37593"><![CDATA[
+When you upload the Keps from the CPS, is there an error, or it just displays the list of uploaded satellites.<br>Have you modified the satellites.txt file, located in the CPS installation directory ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jun 28, 2025 3:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-06-28T12:11:09</updated>
+
+		<published>2025-06-28T12:11:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37592#p37592</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37592#p37592"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37592#p37592"><![CDATA[
+I've entered my local coordinates, and it automatically determined my grid square location. I'm also using UTC time, though there may be a slight inaccuracy of a few minutes. Since my radio doesn't have GPS, I'm not sure if it will work properly.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Sat Jun 28, 2025 12:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-28T10:47:34</updated>
+
+		<published>2025-06-28T10:47:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37589#p37589</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37589#p37589"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37589#p37589"><![CDATA[
+What position have you entered into "Radio Info" ?<br><br>Is the time and date settings correct ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sat Jun 28, 2025 10:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-06-28T10:34:28</updated>
+
+		<published>2025-06-28T10:34:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37588#p37588</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37588#p37588"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37588#p37588"><![CDATA[
+<img src="https://i.ibb.co/vv4TbPHD/scrgb2.png" class="postimage" alt="Image"><br><br>Firmware upgrade to 20250323054354 done, showing same - Satellite List Empty<br><br>also updated satellites keps, nothing changed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Sat Jun 28, 2025 10:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EI8IHB]]></name></author>
+		<updated>2025-06-24T22:13:44</updated>
+
+		<published>2025-06-24T22:13:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37545#p37545</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37545#p37545"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37545#p37545"><![CDATA[
+keep in mind the sat list should be installed from <br><br>open GD77 CPS - extras - open gd77 support - install satellite keps.<br><br>the correct address is :<br><a href="https://celestrak.org/NORAD/elements/gp.php?GROUP=amateur&amp;FORMAT=tle" class="postlink">https://celestrak.org/NORAD/elements/gp ... FORMAT=tle</a><br><br>On firmware 2024 it works ok (20240908143110 no probs...) - CPS R2025.03.23.01<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8552">EI8IHB</a> — Tue Jun 24, 2025 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-19T21:47:32</updated>
+
+		<published>2025-06-19T21:47:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37527#p37527</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37527#p37527"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37527#p37527"><![CDATA[
+try with a more recent firmware version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Thu Jun 19, 2025 9:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-06-19T05:51:43</updated>
+
+		<published>2025-06-19T05:51:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37518#p37518</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37518#p37518"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37518#p37518"><![CDATA[
+CPS version R2025.03.01<br><img src="https://i.ibb.co/p5fR5mz/scrgb1.png" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Thu Jun 19, 2025 5:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-19T03:07:58</updated>
+
+		<published>2025-06-19T03:07:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37517#p37517</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37517#p37517"/>
+		<title type="html"><![CDATA[Re: Issue with Baofeng 1701 OpenGD77 – Satellite List Showing Empty]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5187&amp;p=37517#p37517"><![CDATA[
+Firmware and CPS versions ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jun 19, 2025 3:07 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

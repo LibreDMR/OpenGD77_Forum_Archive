@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3998" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-16T16:10:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3998</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-04-16T16:10:49</updated>
+
+		<published>2024-04-16T16:10:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3998&amp;p=30909#p30909</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3998&amp;p=30909#p30909"/>
+		<title type="html"><![CDATA[Is the battery pack on DM1801 the same as RT3S?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3998&amp;p=30909#p30909"><![CDATA[
+I’m interested in DM-1801. It seems like the battery charger is the same as Retevis RT3S just by looking at the photo. Just out of my curiosity, are these radio share batteries and charger?<br><br>Thanks,<br>KA1CM<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Apr 16, 2024 4:10 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4800" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-10T16:14:04</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4800</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-05-10T16:14:04</updated>
+
+		<published>2025-05-10T16:14:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37059#p37059</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37059#p37059"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37059#p37059"><![CDATA[
+That is correct. <br>There is no data sent from the CPU to the GPS module.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat May 10, 2025 4:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ct1esj]]></name></author>
+		<updated>2025-05-10T14:53:37</updated>
+
+		<published>2025-05-10T14:53:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37057#p37057</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37057#p37057"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37057#p37057"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br>it is also possible to directly connect PA10 (MCU) and TX (module) without adding transistors and resistors.<br></div></blockquote>Well, can you post the diagram of where the connections go, like tx, rx, vcc and gnd, or photos?</div></blockquote>I used the second simple solution as I mentioned: <br><br>1. connect PA10 (MCU) and TX (GPS module)<br><br>2. GND &amp; VCC of GPS module connect to the pin as below</div></blockquote>Ok, I see, so what about the RX on the GPS module not being connected?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2812">ct1esj</a> — Sat May 10, 2025 2:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2025-05-10T12:35:55</updated>
+
+		<published>2025-05-10T12:35:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37056#p37056</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37056#p37056"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37056#p37056"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>it is also possible to directly connect PA10 (MCU) and TX (module) without adding transistors and resistors.<br></div></blockquote>Well, can you post the diagram of where the connections go, like tx, rx, vcc and gnd, or photos?</div></blockquote>I used the second simple solution as I mentioned: <br><br>1. connect PA10 (MCU) and TX (GPS module)<br><br>2. GND &amp; VCC of GPS module connect to the pin as below<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2967&amp;sid=3076fd09639fc59147dd75cbfe9f663d" class="postimage" alt="DM1701_STM32_pins.png" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2966&amp;sid=3076fd09639fc59147dd75cbfe9f663d" class="postimage" alt="DM-1701B-03.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2965&amp;sid=3076fd09639fc59147dd75cbfe9f663d" class="postimage" alt="DM-1701B-05.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Sat May 10, 2025 12:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ct1esj]]></name></author>
+		<updated>2025-05-10T10:46:39</updated>
+
+		<published>2025-05-10T10:46:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37054#p37054</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37054#p37054"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37054#p37054"><![CDATA[
+<blockquote class="uncited"><div>In China, some HAMs (such as BG4IWE, BG1GLL, BG5JAZ &amp; BH4HGA etc.) had researched out the following solution in Q4 of 2024:<br><br>GPS + BDS Module: ATGM336H-5N<br>Ceramic Antenna: 16*6*<strong class="text-strong"><span style="color:#FF0000">4mm</span></strong><br><br>In addition to using the wiring method shown in the figure below, <br>02.jpg<br><br><br>it is also possible to directly connect PA10 (MCU) and TX (module) without adding transistors and resistors.<br><br>BOTH the Module and Antenna are all set in the DM-1701 radio perfectly.</div></blockquote>Well, can you post the diagram of where the connections go, like tx, rx, vcc and gnd, or photos?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2812">ct1esj</a> — Sat May 10, 2025 10:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2025-05-09T15:18:12</updated>
+
+		<published>2025-05-09T15:18:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37044#p37044</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37044#p37044"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=37044#p37044"><![CDATA[
+In China, some HAMs (such as BG4IWE, BG1GLL, BG5JAZ &amp; BH4HGA etc.) had researched out the following solution in Q4 of 2024:<br><br>GPS + BDS Module: ATGM336H-5N<br>Ceramic Antenna: 16*6*<strong class="text-strong"><span style="color:#FF0000">4mm</span></strong><br><br>In addition to using the wiring method shown in the figure below, <div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2954&amp;sid=3076fd09639fc59147dd75cbfe9f663d" class="postimage" alt="02.jpg" onclick="viewableArea(this);" /></dt></dl></div><br>it is also possible to directly connect PA10 (MCU) and TX (module) without adding transistors and resistors.<br><br>BOTH the Module and Antenna are all set in the DM-1701 radio perfectly.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2956&amp;sid=3076fd09639fc59147dd75cbfe9f663d" class="postimage" alt="04.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2955&amp;sid=3076fd09639fc59147dd75cbfe9f663d" class="postimage" alt="03.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Fri May 09, 2025 3:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DC8OH]]></name></author>
+		<updated>2025-04-19T20:01:00</updated>
+
+		<published>2025-04-19T20:01:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36850#p36850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36850#p36850"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36850#p36850"><![CDATA[
+Hi,<br>today i finished to upgrade my DM-1701 with gps. I made it like Daniel (link in first post).<br>The rotary encoder was removed and my highspeed tool had a lot of work to do  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>The ceramic antenna is 10x10mm.<br>Some pictures below.<br><br>73 by<br>Christian (DC8OH)<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2923&amp;sid=3076fd09639fc59147dd75cbfe9f663d" class="postimage" alt="DM-1701_GPS2-4.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2922&amp;sid=3076fd09639fc59147dd75cbfe9f663d" class="postimage" alt="DM-1701_GPS1-4.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6810">DC8OH</a> — Sat Apr 19, 2025 8:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-08T11:25:53</updated>
+
+		<published>2025-04-08T11:25:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36657#p36657</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36657#p36657"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36657#p36657"><![CDATA[
+I have disassemble my 1701 trying to fit a GPS module (GP-02) in to it. I'm planning to put the module underneath the channel selector knob because there is a plenty of room there and it is close to the top, easy for passive quarter wave antenna to be implemented.<br><br>I'm planning to use N-MOS (SI2300) as a switch on the ground side of the GP-02. However, my problem is I don't know where can I get 3.3V from. It would be great If I can get it from the area around the op-amp for the K1 jack (circle red in the photo). Can any one help?<br><br>Thank you,<br>Charlie,<br><br><img src="https://www.opengd77.com/download/file.php?id=2905" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Apr 08, 2025 11:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-28T10:06:56</updated>
+
+		<published>2025-03-28T10:06:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36502#p36502</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36502#p36502"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36502#p36502"><![CDATA[
+<blockquote class="uncited"><div><br>I will write if I proceed with this project. For now I don't have the time and tools to continue.</div></blockquote>Thank you, <br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Mar 28, 2025 10:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HA7VM]]></name></author>
+		<updated>2025-03-28T08:24:54</updated>
+
+		<published>2025-03-28T08:24:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36501#p36501</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36501#p36501"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36501#p36501"><![CDATA[
+Sorry for the late answer.<br>I haven't disassembled the radio again (yet). I wish to continue with this project but it's the only DMR I have (and decent HAM radio too), and I don't have the budget to ruin it.<br>I have Kapton tape now, but I still need some soldering iron tips that are capable of precision work.<br><br>Fitting the antenna seems like a hard task for my GPS module, but with the right tools I could carve out some space for it.<br><br>I also had the idea to install the module inside the battery, as it has a big space in the bottom, but in this case I'd need more pins for the GPS module connection.<br><br>I will write if I proceed with this project. For now I don't have the time and tools to continue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6043">HA7VM</a> — Fri Mar 28, 2025 8:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-24T21:35:11</updated>
+
+		<published>2025-03-24T21:35:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36423#p36423</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36423#p36423"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=36423#p36423"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br>I ordered a GPS module from Aliexpress (<a href="https://vi.aliexpress.com/item/1005001704030454.html" class="postlink">https://vi.aliexpress.com/item/1005001704030454.html</a>), which is I think small enough to fit in the radio.<br>I tried to disassemble the radio but I had some problems.<br><br>On #1, I have the screws removed and I couldn't take the PCB out of the metal frame. After reading through <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3365" class="postlink">this thread</a>, I think the problem was that I need to desolder the pin shown at #2.<br><br>On #6, I want to ask if the pins are not soldered as they are not needed (it works fine btw), and is it safe to solder those to add extra stability for that potentiometer.<br><br>#4, #5 and #7 are just some representation of the quality... Not so good. On #5, the solder was broken and the picture shows the corrected one. On #4, the solders are ugly and I will correct those at the next disassembly. On #7, the screw was at this state upon opening, someone had a bad time assembling it.<br><br><img src="https://i.ibb.co/dmg8FSV/dm1701.png" class="postimage" alt="Image"><br>(<a href="https://ibb.co/MB6Frbt" class="postlink">https://ibb.co/MB6Frbt</a>)<br><br>The GPS module and its antenna:<br><img src="https://i.ibb.co/wpQ4m5N/gps.png" class="postimage" alt="Image"><br>(<a href="https://ibb.co/7rpKmsJ" class="postlink">https://ibb.co/7rpKmsJ</a>)<br><br>I already posted on <a href="https://www.opengd77.com/viewtopic.php?f=25&amp;t=3022" class="postlink">this thread</a>, but now I have the components and I have other questions too.<br><br>Multiple people mentioned that I would need a transistor to power the GPS module, as the pins can't provide enough current. However, I checked the datasheet of the MCU and it states the "absolute maximum current rating" of that pin is 25mA, which should be enough for the module (on the product page, it shows &lt;25mA @3.3V).<br>I will check the current consumption later with a Raspberry Pi Pico connected, and my question is, is it safe to connect the module directly to the MCU without a transistor, if the peak consumption is indeed under 25mA.<br><br>I'm still not ready to do this mod, as I need some Kapton tape and thin wires. I'm writing to gather suggestions and wiseness beforehand.<br><br>Thanks in advance.<br>HA7VM</div></blockquote>Have you finished the mod? Would you like to share yours? I'm interested.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Mar 24, 2025 9:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-02-20T22:10:09</updated>
+
+		<published>2025-02-20T22:10:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35860#p35860</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35860#p35860"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35860#p35860"><![CDATA[
+<blockquote class="uncited"><div>Very interesting! Did you go forward with this project?</div></blockquote>Almost impossible to get some data sheets for the clones.<br>Only practical experience.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Feb 20, 2025 10:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU7TKM]]></name></author>
+		<updated>2025-02-20T21:19:37</updated>
+
+		<published>2025-02-20T21:19:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35858#p35858</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35858#p35858"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35858#p35858"><![CDATA[
+Very interesting! Did you go forward with this project?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6214">PU7TKM</a> — Thu Feb 20, 2025 9:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-27T20:14:11</updated>
+
+		<published>2025-01-27T20:14:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35409#p35409</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35409#p35409"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35409#p35409"><![CDATA[
+It should also be noted in relation to the CPU / MCU used in the DM1701, that it's not a genuine STM32.<br><br>Max pin current may not be the same as for a genuine STM32<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jan 27, 2025 8:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OZ1FTG]]></name></author>
+		<updated>2025-01-27T16:50:33</updated>
+
+		<published>2025-01-27T16:50:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35408#p35408</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35408#p35408"/>
+		<title type="html"><![CDATA[Re: GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35408#p35408"><![CDATA[
+<blockquote class="uncited"><div>Multiple people mentioned that I would need a transistor to power the GPS module, as the pins can't provide enough current. However, I checked the datasheet of the MCU and it states the "absolute maximum current rating" of that pin is 25mA, which should be enough for the module (on the product page, it shows &lt;25mA @3.3V).<br>I will check the current consumption later with a Raspberry Pi Pico connected, and my question is, is it safe to connect the module directly to the MCU without a transistor, if the peak consumption is indeed under 25mA.</div></blockquote>It's your radio ....<br><br>But if you exceed the absolute max on the pin, you might do irreversible damage to the pin or MCU.<br>And the only way to fix would be to change the MCU.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5917">OZ1FTG</a> — Mon Jan 27, 2025 4:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HA7VM]]></name></author>
+		<updated>2025-01-25T13:21:23</updated>
+
+		<published>2025-01-25T13:21:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35352#p35352</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35352#p35352"/>
+		<title type="html"><![CDATA[GPS module and disassembly of DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4800&amp;p=35352#p35352"><![CDATA[
+Hi,<br>I ordered a GPS module from Aliexpress (<a href="https://vi.aliexpress.com/item/1005001704030454.html" class="postlink">https://vi.aliexpress.com/item/1005001704030454.html</a>), which is I think small enough to fit in the radio.<br>I tried to disassemble the radio but I had some problems.<br><br>On #1, I have the screws removed and I couldn't take the PCB out of the metal frame. After reading through <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3365" class="postlink">this thread</a>, I think the problem was that I need to desolder the pin shown at #2.<br><br>On #6, I want to ask if the pins are not soldered as they are not needed (it works fine btw), and is it safe to solder those to add extra stability for that potentiometer.<br><br>#4, #5 and #7 are just some representation of the quality... Not so good. On #5, the solder was broken and the picture shows the corrected one. On #4, the solders are ugly and I will correct those at the next disassembly. On #7, the screw was at this state upon opening, someone had a bad time assembling it.<br><br><img src="https://i.ibb.co/dmg8FSV/dm1701.png" class="postimage" alt="Image"><br>(<a href="https://ibb.co/MB6Frbt" class="postlink">https://ibb.co/MB6Frbt</a>)<br><br>The GPS module and its antenna:<br><img src="https://i.ibb.co/wpQ4m5N/gps.png" class="postimage" alt="Image"><br>(<a href="https://ibb.co/7rpKmsJ" class="postlink">https://ibb.co/7rpKmsJ</a>)<br><br>I already posted on <a href="https://www.opengd77.com/viewtopic.php?f=25&amp;t=3022" class="postlink">this thread</a>, but now I have the components and I have other questions too.<br><br>Multiple people mentioned that I would need a transistor to power the GPS module, as the pins can't provide enough current. However, I checked the datasheet of the MCU and it states the "absolute maximum current rating" of that pin is 25mA, which should be enough for the module (on the product page, it shows &lt;25mA @3.3V).<br>I will check the current consumption later with a Raspberry Pi Pico connected, and my question is, is it safe to connect the module directly to the MCU without a transistor, if the peak consumption is indeed under 25mA.<br><br>I'm still not ready to do this mod, as I need some Kapton tape and thin wires. I'm writing to gather suggestions and wiseness beforehand.<br><br>Thanks in advance.<br>HA7VM<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6043">HA7VM</a> — Sat Jan 25, 2025 1:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

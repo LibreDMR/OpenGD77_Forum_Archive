@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3056" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-07-19T15:33:11</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3056</id>
+
+		<entry>
+		<author><name><![CDATA[W1CY]]></name></author>
+		<updated>2023-07-19T15:33:11</updated>
+
+		<published>2023-07-19T15:33:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24548#p24548</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24548#p24548"/>
+		<title type="html"><![CDATA[Re: Battery goes flat when not using the radio for a few weeks]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24548#p24548"><![CDATA[
+Thanks for the detail explanation. Yes, I will remove the batteries from now on.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=420">W1CY</a> — Wed Jul 19, 2023 3:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-18T23:48:01</updated>
+
+		<published>2023-07-18T23:48:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24528#p24528</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24528#p24528"/>
+		<title type="html"><![CDATA[Re: Battery goes flat when not using the radio for a few weeks]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24528#p24528"><![CDATA[
+<blockquote class="uncited"><div>Hi, <br>My Radioddity GD-77 seems to be using battery even when turned off. I knew this was the case for the RD-5R, but is this also the case for the original GD-77? I recharge the battery, leave it on the radio for a couple of weeks with no use and I see the battery excessive drained. The same battery when charged and left out of the radio lasts much more time. <br>Thanks.</div></blockquote>All supported radios, except the RD-5R consume a small amount of current even when the radio is turned off.<br>This is becuase the radios have a 10k resistor connected to the battery, which is used as part of the power control circuit.<br><br>If you need to leave the radio for an extended period, you need to remove the battery.<br><br>I don't leave the batteries connected in any of my radios when I'm not using them. I just press the button to release the battery , so that its no longer in contact.<br>I sometimes put an elastic band around the radio to hold the battery in place, but its not electrically connected.<br><br><br>FYI.<br>The RD5R does not have the power control circuit that most other radios have, so in theory should not need the 10k resistor connected to the battery, but this does not rule out Baofeng still including that resistor, even if its not needed,   as there are many non-deal hardware design decisions in all these radios.<br><br>We don't have a schematic for the RD5R so we don't really know whats inside. Our guess was that its similar in design to the UV5R<br><br>Actually we don't have accurate schematics for any of the radios, most of the time we have to reverse engineer the internal connections by taking the radios apart and following the traces on the PCB or using a continuity tester to 'buzz' the connections<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jul 18, 2023 11:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W1CY]]></name></author>
+		<updated>2023-07-18T23:37:50</updated>
+
+		<published>2023-07-18T23:37:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24527#p24527</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24527#p24527"/>
+		<title type="html"><![CDATA[Battery goes flat when not using the radio for a few weeks]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3056&amp;p=24527#p24527"><![CDATA[
+Hi, <br>My Radioddity GD-77 seems to be using battery even when turned off. I knew this was the case for the RD-5R, but is this also the case for the original GD-77? I recharge the battery, leave it on the radio for a couple of weeks with no use and I see the battery excessive drained. The same battery when charged and left out of the radio lasts much more time. <br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=420">W1CY</a> — Tue Jul 18, 2023 11:37 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

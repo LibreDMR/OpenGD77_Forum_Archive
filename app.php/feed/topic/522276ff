@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5222" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-19T13:23:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5222</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-07-19T13:23:21</updated>
+
+		<published>2025-07-19T13:23:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37741#p37741</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37741#p37741"/>
+		<title type="html"><![CDATA[Re: Which OpenGD77 Firmware Shows Last Heard Callsign?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37741#p37741"><![CDATA[
+<blockquote class="uncited"><div>I'm currently using the OpenGD77 firmware version 20241215112702 with DM 1701, which doesn't appear to have the "Last Heard Callsign" feature displayed on the screen. Could you please let me know which firmware version includes support for that feature?</div></blockquote>AS Roger said, Last heard has been implemented long time ago. Menu -&gt; Last Heard. However, If you are talking about "Last Talker" Menu -&gt; Options -&gt; Display Options -&gt; Last Talker. Then it has been added recently, some time at the beginning of this year. I suggest update to the latest firmware and CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sat Jul 19, 2025 1:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-07-19T06:35:00</updated>
+
+		<published>2025-07-19T06:35:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37739#p37739</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37739#p37739"/>
+		<title type="html"><![CDATA[Re: Which OpenGD77 Firmware Shows Last Heard Callsign?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37739#p37739"><![CDATA[
+<blockquote class="uncited"><div>I'm currently using the OpenGD77 firmware version 20241215112702 with DM 1701, which doesn't appear to have the "Last Heard Callsign" feature displayed on the screen. Could you please let me know which firmware version includes support for that feature?</div></blockquote>The Last Head functionality has been in the firmware for several years.<br><br>Note. Obviously this only works on DMR and only if you have the callsign database loaded.<br>Brandmeister sends the callsign slowly during the reception so the database is not absolutely essential<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Jul 19, 2025 6:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VU3HMM]]></name></author>
+		<updated>2025-07-19T06:19:15</updated>
+
+		<published>2025-07-19T06:19:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37738#p37738</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37738#p37738"/>
+		<title type="html"><![CDATA[Which OpenGD77 Firmware Shows Last Heard Callsign?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5222&amp;p=37738#p37738"><![CDATA[
+I'm currently using the OpenGD77 firmware version 20241215112702 with DM 1701, which doesn't appear to have the "Last Heard Callsign" feature displayed on the screen. Could you please let me know which firmware version includes support for that feature?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8629">VU3HMM</a> — Sat Jul 19, 2025 6:19 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

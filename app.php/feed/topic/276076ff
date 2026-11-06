@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2760" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-04-04T05:39:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2760</id>
+
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2023-04-04T05:39:17</updated>
+
+		<published>2023-04-04T05:39:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22831#p22831</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22831#p22831"/>
+		<title type="html"><![CDATA[Re: Firmware installation instructions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22831#p22831"><![CDATA[
+Hello, got last rt84 from Retevis yesterday - installed, works as expected with no problem. Some findings:<br>- as it has the same chip like rt3s, md380 - scan speed is much slower than on gd77/baofeng 1801<br>- the RX signal recieve is almost or maybe the same like baofeng 1801, good point<br>- more robust, heavier and bigger than rt3s or baofeng 1801<br><br>so in general it's mixture of rt3s and baofeng 1801 with some advantages and disadvantages, the biggest for me is still scan speed.<br><br>Thank you for your work<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Tue Apr 04, 2023 5:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[RZ3DKH]]></name></author>
+		<updated>2023-03-22T14:57:15</updated>
+
+		<published>2023-03-22T14:57:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22704#p22704</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22704#p22704"/>
+		<title type="html"><![CDATA[Re: Firmware installation instructions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22704#p22704"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>As a 'donor', use the same official MD9600 V5 firmware as for retevis rt3s?</div></blockquote>Donor software download <a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br><br>Extract and use file MD9600-CSV(2571V5)-V26.45.bin as donor software in CPS Firmware Loader.</div></blockquote>Thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2657">RZ3DKH</a> — Wed Mar 22, 2023 2:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-03-22T12:26:47</updated>
+
+		<published>2023-03-22T12:26:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22701#p22701</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22701#p22701"/>
+		<title type="html"><![CDATA[Re: Firmware installation instructions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22701#p22701"><![CDATA[
+<blockquote class="uncited"><div>As a 'donor', use the same official MD9600 V5 firmware as for retevis rt3s?</div></blockquote>Donor software download <a href="https://www.passion-radio.com/index.php?controller=attachment&amp;id_attachment=760" class="postlink">https://www.passion-radio.com/index.php ... chment=760</a><br><br>Extract and use file MD9600-CSV(2571V5)-V26.45.bin as donor software in CPS Firmware Loader.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 22, 2023 12:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-03-22T11:31:36</updated>
+
+		<published>2023-03-22T11:31:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22700#p22700</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22700#p22700"/>
+		<title type="html"><![CDATA[Re: Firmware installation instructions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22700#p22700"><![CDATA[
+The same donor file is used for all STM32 based radios.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Mar 22, 2023 11:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[RZ3DKH]]></name></author>
+		<updated>2023-03-22T10:11:06</updated>
+
+		<published>2023-03-22T10:11:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22699#p22699</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22699#p22699"/>
+		<title type="html"><![CDATA[Re: Firmware installation instructions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22699#p22699"><![CDATA[
+As a 'donor', use the same official MD9600 V5 firmware as for retevis rt3s?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2657">RZ3DKH</a> — Wed Mar 22, 2023 10:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-17T09:47:07</updated>
+
+		<published>2023-03-17T09:47:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22640#p22640</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22640#p22640"/>
+		<title type="html"><![CDATA[Re: Firmware installation instructions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22640#p22640"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Follow the TYT MD UV380 / Retevis RT-3S instructions<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><br><br>Except select DM-1701/ RT-84 as the radio<br><br>Official 'donor' firmware is the same as the UV380</div></blockquote>Note that the path to latest firmware now is <a href="https://www.opengd77.com/downloads/MDUV380_DM1701/Firmware/Latest" class="postlink">downloads/MDUV380_DM1701/Firmware/Latest</a><br>The install description in the link specifies the old path.</div></blockquote>OK. I only posted the link for the instructions, I forgot now that the combined firmware is in a different location<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 17, 2023 9:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-03-17T07:08:53</updated>
+
+		<published>2023-03-17T07:08:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22638#p22638</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22638#p22638"/>
+		<title type="html"><![CDATA[Re: Firmware installation instructions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22638#p22638"><![CDATA[
+<blockquote class="uncited"><div>Follow the TYT MD UV380 / Retevis RT-3S instructions<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><br><br>Except select DM-1701/ RT-84 as the radio<br><br>Official 'donor' firmware is the same as the UV380</div></blockquote>Note that the path to latest firmware now is <a href="https://www.opengd77.com/downloads/MDUV380_DM1701/Firmware/Latest" class="postlink">downloads/MDUV380_DM1701/Firmware/Latest</a><br>The install description in the link specifies the old path.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Mar 17, 2023 7:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-15T21:57:06</updated>
+
+		<published>2023-03-15T21:57:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22621#p22621</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22621#p22621"/>
+		<title type="html"><![CDATA[Firmware installation instructions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2760&amp;p=22621#p22621"><![CDATA[
+Follow the TYT MD UV380 / Retevis RT-3S instructions<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><br><br>Except select DM-1701/ RT-84 as the radio and use the DM-1701 firmware.<br>Note. At the moment becuase the DM-1701 and RT-84 share the same internal hardware the same firmware file is used on both DM-1701 and RT-84<br><br>However the plastic case of the DM-1701 and RT-84 have slightly different aperatures for the LCD display, so that on the DM-1701 the top 4 pixels of the display are obscured.  So in the longer term there may need to be different firmware versions so that the DM-1701 uses less of the screen height, and will have one less menu item displayed.<br><br>Official 'donor' firmware is the same as the UV380<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 15, 2023 9:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4744" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-08T17:43:22</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4744</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-01-08T17:43:22</updated>
+
+		<published>2025-01-08T17:43:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4744&amp;p=35061#p35061</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4744&amp;p=35061#p35061"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV390 GPS PLUS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4744&amp;p=35061#p35061"><![CDATA[
+You can start by turning TS filter off. And make sure Colorcode setting is correct and matched with the repeater. <br><br>If color code is correct, the TS filter is off and DMR filters are off then you should hear everything from the repeater.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Jan 08, 2025 5:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[kd4hoy]]></name></author>
+		<updated>2025-01-08T12:22:58</updated>
+
+		<published>2025-01-08T12:22:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4744&amp;p=35059#p35059</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4744&amp;p=35059#p35059"/>
+		<title type="html"><![CDATA[TYT MD-UV390 GPS PLUS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4744&amp;p=35059#p35059"><![CDATA[
+I've installed OpenGD77 and I'm having problems connecting to the local repeater.  <br><br>Yesterday I heard a conversation (DMR coming from the repeater) with my scanner.<br><br>The UV390 green light would flash during the conversation but no audio.  I pushed and held the "monitor" button on the UV390 and THEN I could hear the conversation.  I took a screenshot.  The screenshot showed TG 2 (which is NOT programmed on my radio) and it showed an ID for a person in South Carolina.<br><br>So it appears that I'm missing a TG but how do I find out the details?<br><br>Please suggestions....I'm so close<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7427">kd4hoy</a> — Wed Jan 08, 2025 12:22 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5160" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-30T20:05:22</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5160</id>
+
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-30T20:05:22</updated>
+
+		<published>2025-06-30T20:05:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37611#p37611</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37611#p37611"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37611#p37611"><![CDATA[
+SUCCESS!<br><br>So, it seems that when I flashed my DM-1701 for OpenGD77, I could not get the flash software to work in Windows 11.<br><br>Rather than debug the problem, I just went to Windows 10 (I am exclusively Mac, but I use Parallels to run Windows 11, 10 and even XP for my wireless radio CPS programming that are not covered by CHIRP)! And it worked perfectly.<br><br>But I forgot this history and all of my failed programming attempts to change the Codeplug were in Windows 11.<br><br>Then I received a reply to one of my Reddit /DMR posts about flashing the DM-1701 for OpenGD77 and the reply reminded me that I had used Windows 10.<br><br>So I just went to my OpenGD77 CPS programming software in Windows 10 and the PAPA System codeplug installed perfectly and works like a charm.<br><br>Thank you to ALL who chimed in on this problem.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Mon Jun 30, 2025 8:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-07T19:15:24</updated>
+
+		<published>2025-06-07T19:15:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37405#p37405</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37405#p37405"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37405#p37405"><![CDATA[
+Another member of this forum sent me some of his code plugs for this radio and the OpenGD77 software and DM-1701 screen appears to be showing them loading into the radio fine, but on reset (and even power off and on) my original codeplug is still in memory contents.<br><br>Looks like I won't be able to get the generic PAPA OpenGD77 codeplug into this radio in time for tomorrow's PAPA Picnic and raffle...<br><br>Hopefully someone will come up with a solution and I can donate it to the club another time!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Sat Jun 07, 2025 7:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-06T08:24:40</updated>
+
+		<published>2025-06-06T08:24:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37392#p37392</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37392#p37392"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37392#p37392"><![CDATA[
+Yes, I wrote my RD-5R code plug using the OpenGD77 CPS software.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Fri Jun 06, 2025 8:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-06T02:00:35</updated>
+
+		<published>2025-06-06T02:00:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37390#p37390</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37390#p37390"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37390#p37390"><![CDATA[
+<blockquote class="uncited"><div>Is an RD-5R code plug compatible with the DM-1701 with just a change of Radio Type?</div></blockquote>yes, but only if the codeplug have been created in the OpenGD77 CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Jun 06, 2025 2:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-05T22:13:16</updated>
+
+		<published>2025-06-05T22:13:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37388#p37388</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37388#p37388"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37388#p37388"><![CDATA[
+Then I can’t figure out why my DM-1701 does not accept a new code plug, even as the software and screen says that it is.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Thu Jun 05, 2025 10:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-05T18:29:38</updated>
+
+		<published>2025-06-05T18:29:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37385#p37385</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37385#p37385"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37385#p37385"><![CDATA[
+OpenGD77 codeplug files are usable on every OpenGD77 featured devices.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Jun 05, 2025 6:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-05T18:21:30</updated>
+
+		<published>2025-06-05T18:21:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37384#p37384</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37384#p37384"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37384#p37384"><![CDATA[
+Is an RD-5R code plug compatible with the DM-1701 with just a change of Radio Type?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Thu Jun 05, 2025 6:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-04T18:48:11</updated>
+
+		<published>2025-06-04T18:48:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37370#p37370</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37370#p37370"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37370#p37370"><![CDATA[
+I do not recall specifically, but back when I purchased this DM-1701 from AliExpress as an experiment to see how easy it was to update the firmware to OpenGD77, I may have installed my "personal" codeplug from my Radioddity RD-5R/Baofeng DM-5R assuming that it would work with just changing the selection in Radio Type.  That is probably what I did.<br><br>Now when I select NEW and then "read" my codeplug from the DM-1701 into the OpenGD77 CPS software, I notice:<br><br>Zones are fine<br><br>Channels are fine, but then there are many listed afterwards with strange characters instead of English<br><br>TG Lists are all strange characters; and<br><br>Digital Contacts are all strange characters.<br><br>The Radio Type is back to RD-5R.<br><br>Edit Update: the DM-1701 operates perfectly with my personal code plug.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jun 04, 2025 6:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-04T18:32:39</updated>
+
+		<published>2025-06-04T18:32:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37369#p37369</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37369#p37369"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37369#p37369"><![CDATA[
+Is there some sort of keypad "lock" on the DM-1701 that I may have inadvertently selected that is locking my personal codeplug into the DM-1701?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jun 04, 2025 6:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-04T18:30:25</updated>
+
+		<published>2025-06-04T18:30:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37368#p37368</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37368#p37368"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37368#p37368"><![CDATA[
+Yes, the screen shows that it is downloading the codeplug and it does restart and I shut it off and on again just to be sure.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jun 04, 2025 6:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-06-04T18:07:14</updated>
+
+		<published>2025-06-04T18:07:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37367#p37367</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37367#p37367"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37367#p37367"><![CDATA[
+<blockquote class="uncited"><div>I do select the DM-1701. It is the second, bottom list. <br><br>Thank you</div></blockquote>Does the radio react when you read or write ?, I think it show some information on the display and it should restart after a write.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Jun 04, 2025 6:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-04T17:32:01</updated>
+
+		<published>2025-06-04T17:32:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37366#p37366</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37366#p37366"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37366#p37366"><![CDATA[
+I do select the DM-1701. It is the second, bottom list. <br><br>Thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jun 04, 2025 5:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-04T11:23:33</updated>
+
+		<published>2025-06-04T11:23:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37365#p37365</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37365#p37365"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37365#p37365"><![CDATA[
+<blockquote class="uncited"><div>Only one radio connected and, yes, I selected NEW and tried writing that to the radio and yet the radio still has my personal code plug</div></blockquote>Check the radio type you have selected<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jun 04, 2025 11:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W7ML]]></name></author>
+		<updated>2025-06-04T17:45:52 </updated>
+
+		<published>2025-06-04T09:11:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37364#p37364</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37364#p37364"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37364#p37364"><![CDATA[
+Only one radio connected and, yes, I selected NEW and tried writing that to the radio and yet the radio still has my personal code plug<br><br>It is COM3, the only COM offered.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1890">W7ML</a> — Wed Jun 04, 2025 9:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-03T21:23:29</updated>
+
+		<published>2025-06-03T21:23:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37363#p37363</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37363#p37363"/>
+		<title type="html"><![CDATA[Re: OpenGD77 DM-1701 won't load different codeplug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5160&amp;p=37363#p37363"><![CDATA[
+<blockquote class="uncited"><div>I installed all this last year and it worked well.<br><br>Now I want to give this DM-1701 to our local Repeater group's summer picnic for its fund-raising Raffle.<br><br>In the software, I load NEW and then a more generic codeplug for our groups DMR repeaters (and without my personal information).<br><br>Every time I attempt to write this more generic codeplug into memory over my personal codeplug in memory, it appears to be properly downloading both on the computer and on the DM-1701 screen.<br><br>But my personal codeplug continues to remain in the DM-1701 memory, even when I download it back to the computer.<br><br>Any thoughts?</div></blockquote>Are you sure you are not first reading the old codeplug from the radio and then writing it back<br><br>Try selecting File new in the CPS and simply write that to the radio to start with<br><br>Btw.<br><br>Make sure you only have one radio connected to your PC at the time.  If you have multiple radios connected the CPS does not check for this and may be uploading to the other radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jun 03, 2025 9:23 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

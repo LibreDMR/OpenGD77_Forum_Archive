@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3670" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-01-10T18:09:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3670</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-01-10T18:03:56</updated>
+
+		<published>2024-01-10T18:03:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28576#p28576</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28576#p28576"/>
+		<title type="html"><![CDATA[Re: &quot;Official firmware can be reloaded into the radio&quot;??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28576#p28576"><![CDATA[
+Again, if you want to get back to factory firmware, you NEED to restore the flash, as the content (fonts/etc) will be replaced by other stuff (DMRId/etc).<br>You CAN'T restore the firmware, you have to flash it after you restored the flash (using the OpenGD77 FW and CPS), and this using the manufacturer tools/firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 10, 2024 6:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-01-10T18:09:55 </updated>
+
+		<published>2024-01-10T18:02:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28575#p28575</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28575#p28575"/>
+		<title type="html"><![CDATA[Re: &quot;Official firmware can be reloaded into the radio&quot;??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28575#p28575"><![CDATA[
+It is often possible to restore the factory firmware without using a backup, so it is worth trying if you need to do it. I have done it many times during development. <br>However strange things can sometimes happen, such as missing icons or password locking. Password locking is easily overcome but missing icons really need to be restored with the backup.<br><br>As Roger mentioned, the official firmware files do not contain everything the radio needs to operate. The factory must have also preloaded some data into the other memory at manufacture. Unfortunately we do not know exactly where or what this is, so it is possible that OpenGD77 will overwrite some of that data. Restoring from a flash backup is always the safest option.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Jan 10, 2024 6:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2024-01-10T17:49:02</updated>
+
+		<published>2024-01-10T17:49:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28573#p28573</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28573#p28573"/>
+		<title type="html"><![CDATA[Re: &quot;Official firmware can be reloaded into the radio&quot;??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28573#p28573"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>So the purpose of this backup is to be able to restore to the state when it was first flashed with OpenGD77? I'm not sure I understand the purpose, but I'm sure there are things I don't know about.</div></blockquote>Hence if you plan to restore your radio into a state where the memory contains the original data, then you need to backup the memory.<br></div></blockquote>If I'm not mistaken, it's not necessary to restore a backup in RT3S? Is it possible to restore the factory firmware without this? Or am I wrong?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Wed Jan 10, 2024 5:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-10T01:47:56</updated>
+
+		<published>2024-01-10T01:47:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28563#p28563</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28563#p28563"/>
+		<title type="html"><![CDATA[Re: &quot;Official firmware can be reloaded into the radio&quot;??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28563#p28563"><![CDATA[
+<blockquote class="uncited"><div>So the purpose of this backup is to be able to restore to the state when it was first flashed with OpenGD77? I'm not sure I understand the purpose, but I'm sure there are things I don't know about.</div></blockquote>The official firmware in some radios has components like the display fonts which are stored in the memory of the radio and not part of the firmware.<br>The memory usually also contains other manufacturer private data like the calibration and many other things which we don't have any information about.<br><br>Hence if you plan to restore your radio into a state where the memory contains the original data, then you need to backup the memory.<br><br>What memory can be backed up depends on the radio hardware. Radios like the GD-77/MD-760, RD-5R, DM-1801 etc have both EEPROM and Flash memory chips.<br><br>Newer radios like the MD-9600, UV380 and DM1701 only have Flash memory<br><br>The function to backup the contents of the MCU ROM, after the OpenGD77 firmware has been installed into the ROM, is to backup the bootloader and also any other settings data which reside in the MCU ROM outside of the area used for the firmware application.<br><br>Backing up the MCU ROM would allow the MCU to be reflashed using a hardware programmer dongle, if for some reason the malfunctioned or somehow a firmware update caused problems with the bootlooader or settings data.<br>i.e the GD-77 type radios, have hardware lock data in the MCU ROM which can and has been corrupted by people loading random files into the radio instead of a firmware file.<br><br>I'm not aware of this ever happening on a UV380 / DM1701 or MD9600 but potentially it may be possible to put data into the MCU using various programming tools, which causes the MCU bootloader etc to no longer function.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 10, 2024 1:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD6KXN]]></name></author>
+		<updated>2024-01-09T23:29:58</updated>
+
+		<published>2024-01-09T23:29:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28561#p28561</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28561#p28561"/>
+		<title type="html"><![CDATA[Re: &quot;Official firmware can be reloaded into the radio&quot;??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28561#p28561"><![CDATA[
+So the purpose of this backup is to be able to restore to the state when it was first flashed with OpenGD77? I'm not sure I understand the purpose, but I'm sure there are things I don't know about.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5340">KD6KXN</a> — Tue Jan 09, 2024 11:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-09T23:06:52</updated>
+
+		<published>2024-01-09T23:06:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28560#p28560</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28560#p28560"/>
+		<title type="html"><![CDATA[Re: &quot;Official firmware can be reloaded into the radio&quot;??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28560#p28560"><![CDATA[
+<blockquote class="uncited"><div>Quoting from the "Installation" section of the OpenGD77 user guide:<br><blockquote class="uncited"><div>Installation of the firmware is undertaken at the owner's own risk, but the official firmware can usually be reloaded onto the radio if the user has problems with the firmware, <strong class="text-strong">as long as the operator takes a full backup of their radio using the OpenGD77 CPS immediately after the firmware has been installed</strong></div></blockquote>I'm having trouble understanding what this means. It seems to imply that doing this ensures that you can restore the <em class="text-italics">factory</em> firmware ("official" firmware?) if you take this backup—but <em class="text-italics">after</em> you flash your radio with the OpenGD77 firmware.<br><br>Or does it mean something else? If you're having problems with the radio after flashing it with OpenGD77, it can't really do much good to have a backup of the same firmware, can it? The user manual can't mean this; it doesn't make any sense.<br><br>But then, how could taking a backup of the flashed firmware help you restore the <em class="text-italics">factory</em> firmware? That doesn't make much sense, either. The user manual refers to the "official" firmware but it's really not clear what "official" means—is that the factory firmware, or OpenGD77?<br><br>My best guess is that it's suggesting that if I somehow screw up OpenGD77 on my radio (how?!), I could just restore to the state it was in immediately after I uploaded it. Except it's hard for me to imagine how anyone could screw up a radio <em class="text-italics">that</em> badly, or why one couldn't just flash the radio with OpenGD77 again using the firmware uploader.<br><br>Bottom line: I'm going to switch to OpenGD77 but I do not like being boxed into a corner. And yeah, I know, I could just restore the factory firmware from Baofeng (I've got a DM-1701), <em class="text-italics">except that Raddiodity is not up to date on firmware for this radio</em>. Current release on my radio: 2.06. Most recent release on Raddioddity for the DM-1701: 2.03. So I'd be going back to a potentially buggier version.<br><br><a href="https://www.radioddity.com/pages/baofeng-download" class="postlink">https://www.radioddity.com/pages/baofeng-download</a><br><br>(The truth is I'll probably be happier with OpenGD77 and never look back, but if you can't tell, I get a little nervous when it comes to firmware.)</div></blockquote>There is no way to backup the official firmware in any of the supported radios. The CPU is read protected.<br><br>If the manufacturer e.g. Baofeng, does not provide an official firmware update file for that radio, then it would not be possible to reload the official firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 09, 2024 11:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD6KXN]]></name></author>
+		<updated>2024-01-09T22:02:58</updated>
+
+		<published>2024-01-09T22:02:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28555#p28555</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28555#p28555"/>
+		<title type="html"><![CDATA[&quot;Official firmware can be reloaded into the radio&quot;??]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3670&amp;p=28555#p28555"><![CDATA[
+Quoting from the "Installation" section of the OpenGD77 user guide:<br><blockquote class="uncited"><div>Installation of the firmware is undertaken at the owner's own risk, but the official firmware can usually be reloaded onto the radio if the user has problems with the firmware, <strong class="text-strong">as long as the operator takes a full backup of their radio using the OpenGD77 CPS immediately after the firmware has been installed</strong></div></blockquote>I'm having trouble understanding what this means. It seems to imply that doing this ensures that you can restore the <em class="text-italics">factory</em> firmware ("official" firmware?) if you take this backup—but <em class="text-italics">after</em> you flash your radio with the OpenGD77 firmware.<br><br>Or does it mean something else? If you're having problems with the radio after flashing it with OpenGD77, it can't really do much good to have a backup of the same firmware, can it? The user manual can't mean this; it doesn't make any sense.<br><br>But then, how could taking a backup of the flashed firmware help you restore the <em class="text-italics">factory</em> firmware? That doesn't make much sense, either. The user manual refers to the "official" firmware but it's really not clear what "official" means—is that the factory firmware, or OpenGD77?<br><br>My best guess is that it's suggesting that if I somehow screw up OpenGD77 on my radio (how?!), I could just restore to the state it was in immediately after I uploaded it. Except it's hard for me to imagine how anyone could screw up a radio <em class="text-italics">that</em> badly, or why one couldn't just flash the radio with OpenGD77 again using the firmware uploader.<br><br>Bottom line: I'm going to switch to OpenGD77 but I do not like being boxed into a corner. And yeah, I know, I could just restore the factory firmware from Baofeng (I've got a DM-1701), <em class="text-italics">except that Raddiodity is not up to date on firmware for this radio</em>. Current release on my radio: 2.06. Most recent release on Raddioddity for the DM-1701: 2.03. So I'd be going back to a potentially buggier version.<br><br><a href="https://www.radioddity.com/pages/baofeng-download" class="postlink">https://www.radioddity.com/pages/baofeng-download</a><br><br>(The truth is I'll probably be happier with OpenGD77 and never look back, but if you can't tell, I get a little nervous when it comes to firmware.)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5340">KD6KXN</a> — Tue Jan 09, 2024 10:02 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

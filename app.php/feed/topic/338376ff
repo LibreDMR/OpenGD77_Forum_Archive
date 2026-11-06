@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3383" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-19T20:08:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3383</id>
+
+		<entry>
+		<author><name><![CDATA[K3NFY]]></name></author>
+		<updated>2025-01-19T20:08:17</updated>
+
+		<published>2025-01-19T20:08:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=35210#p35210</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=35210#p35210"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=35210#p35210"><![CDATA[
+Parrot should be private<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7556">K3NFY</a> — Sun Jan 19, 2025 8:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-10-26T08:20:31</updated>
+
+		<published>2023-10-26T08:20:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27024#p27024</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27024#p27024"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27024#p27024"><![CDATA[
+<blockquote class="uncited"><div>Hi all, an update and big thank you to Daniel KK7OSL who got on a Zoom call with me tonight and got me unstuck. Daniel had me get on the Bellevue/Cougar Mtn repeater (N7ERP) and try the parrot while monitoring the live monitor of connecting stations (<a href="https://pnwdigital.net/bridgewatch/?filter=PNW" class="postlink">https://pnwdigital.net/bridgewatch/?filter=PNW</a>) and it turned out the time slot was locked (see picture) even though when I went to the menu it showed the correct time slot. I'm still not sure why that happened. The TS graphic color on the screen is inverted presumably indicating that it's locked. I'll dig into the users manual to see if I can find it but if anyone knows, I'd love to know.<br>I'm still not getting anything from the parrot on W7ACS (441.025+,CC2, TS1) even though the CC and TS were correct. Though Doug Kingston KD7DK, one of our local DMR (and all things ham) elmers said that the W7ACS repeater had unreliable performance, so that's perhaps it. <br>I'll play around more on the weekend, but at least I'm hearing audio from the N7ERP repeater (both the parrot and Daniel got me tuned in to here some conversations on TG 3100). Thanks much again to KK7OLS for the help! And to everyone else for the replies and suggestions!<br>Christian K7XTN</div></blockquote>Hi,<br><br>I looked in the g77 file and  you still had a repeater DMR ID on the  first 6 channels, the channel DMR id should normally be blank so the radio use the default DMR id specified under "DMR Id and callsign"<br>Saw it in your Channels.csv too.<br><br>But I hope that you have corrected that now, good that you got help from KK7OSL !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Oct 26, 2023 8:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-26T06:50:33</updated>
+
+		<published>2023-10-26T06:50:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27022#p27022</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27022#p27022"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27022#p27022"><![CDATA[
+Hi,<br>The TS displayed on the screen is the one you will transmit on, not the one that is currently RXing.<br>It's displayed in inverse video because you disabled the TS filter (it's documented), hence you could hear any.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Oct 26, 2023 6:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K7XTN]]></name></author>
+		<updated>2023-10-26T06:03:11</updated>
+
+		<published>2023-10-26T06:03:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27021#p27021</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27021#p27021"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27021#p27021"><![CDATA[
+Hi all, an update and big thank you to Daniel KK7OSL who got on a Zoom call with me tonight and got me unstuck. Daniel had me get on the Bellevue/Cougar Mtn repeater (N7ERP) and try the parrot while monitoring the live monitor of connecting stations (<a href="https://pnwdigital.net/bridgewatch/?filter=PNW" class="postlink">https://pnwdigital.net/bridgewatch/?filter=PNW</a>) and it turned out the time slot was locked (see picture) even though when I went to the menu it showed the correct time slot. I'm still not sure why that happened. The TS graphic color on the screen is inverted presumably indicating that it's locked. I'll dig into the users manual to see if I can find it but if anyone knows, I'd love to know.<br>I'm still not getting anything from the parrot on W7ACS (441.025+,CC2, TS1) even though the CC and TS were correct. Though Doug Kingston KD7DK, one of our local DMR (and all things ham) elmers said that the W7ACS repeater had unreliable performance, so that's perhaps it. <br>I'll play around more on the weekend, but at least I'm hearing audio from the N7ERP repeater (both the parrot and Daniel got me tuned in to here some conversations on TG 3100). Thanks much again to KK7OLS for the help! And to everyone else for the replies and suggestions!<br>Christian K7XTN<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1969&amp;sid=585c3420cb3506631a8908fe7a2233e5" class="postimage" alt="Baofeng DM-1701 TS lock image.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4770">K7XTN</a> — Thu Oct 26, 2023 6:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K7XTN]]></name></author>
+		<updated>2023-10-25T07:20:46</updated>
+
+		<published>2023-10-25T07:20:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27018#p27018</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27018#p27018"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27018#p27018"><![CDATA[
+<blockquote class="uncited"><div>Hi K7XTN,<br>I am new to ham in general and DMR however I do have your same radio from amazon with the same firmware loaded and I was able to get it going. <br>Feel free to hit me up on mail or DM and we can try to figure out what is going on.<br><br>Daniel - KK7OSL</div></blockquote>Hi Daniel, thanks so much, that would be great to get your help! My email is <a href="mailto:christian.d.helfrich@gmail.com">christian.d.helfrich@gmail.com</a>. Would you be willing to share your code plug with me? I'd love to just see how it looks and what you did. <br>Thanks again very much for reaching out to offer to help.<br>Christian K7XTN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4770">K7XTN</a> — Wed Oct 25, 2023 7:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KK7OSL]]></name></author>
+		<updated>2023-10-25T05:18:32</updated>
+
+		<published>2023-10-25T05:18:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27017#p27017</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27017#p27017"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27017#p27017"><![CDATA[
+Hi K7XTN,<br>I am new to ham in general and DMR however I do have your same radio from amazon with the same firmware loaded and I was able to get it going. <br>Feel free to hit me up on mail or DM and we can try to figure out what is going on.<br><br>Daniel - KK7OSL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4689">KK7OSL</a> — Wed Oct 25, 2023 5:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K7XTN]]></name></author>
+		<updated>2023-10-24T18:43:31</updated>
+
+		<published>2023-10-24T18:43:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27014#p27014</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27014#p27014"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27014#p27014"><![CDATA[
+Thanks @SA0BUX, here's a link to the codeplug files <a href="https://drive.google.com/drive/folders/1Zdwv-Uv-Z9dYuOrKGIYUD7rhKr73Tp5l?usp=sharing" class="postlink">https://drive.google.com/drive/folders/ ... sp=sharing</a> (on Google drive, anyone with link should be able to view &amp; comment). And I'll email them to you as well.<br>Analog repeaters work great. I've had multiple QSOs. There's no problem with the mic or speaker on either radio. The reason I used the ear piece was to avoid feedback since I transmitting on one radio and receiving on the other. <br>Thanks very much for your help.<br>Christian<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4770">K7XTN</a> — Tue Oct 24, 2023 6:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-10-24T07:03:37</updated>
+
+		<published>2023-10-24T07:03:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27011#p27011</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27011#p27011"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27011#p27011"><![CDATA[
+<blockquote class="uncited"><div>Another brief follow-up. I got the 2nd Baofeng DM-1701 programmed with a code plug I made by walking through my Elmer's GD77 code plug and duplicating the structure. And I get exactly the same result as with the 1st Baofeng with the OpenGD77 firmware: everything seems to work fine but there's no receive audio on DMR. That would seem to suggest the problem is a feature of the hardware.<br>If I transmit on the parrot with the 2nd radio and listen on reverse (press &amp; hold #) with the first radio, I can hear my own audio. I'll put an ear piece in on the first radio, and can do a test count on the 2nd radio and the audio comes through. I'm perplexed.</div></blockquote>Post your codeplug that doesn't work or mail it to me at <a href="mailto:sa0bux@hotmail.com">sa0bux@hotmail.com</a><br><br>Do you hear something on analogue channels or other sounds in the speaker ?<br>If radio #1 only works with an ear piece plugged in it could be a bad mic/speaker contact.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Oct 24, 2023 7:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K7XTN]]></name></author>
+		<updated>2023-10-24T06:55:24</updated>
+
+		<published>2023-10-24T06:55:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27010#p27010</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27010#p27010"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=27010#p27010"><![CDATA[
+Another brief follow-up. I got the 2nd Baofeng DM-1701 programmed with a code plug I made by walking through my Elmer's GD77 code plug and duplicating the structure. And I get exactly the same result as with the 1st Baofeng with the OpenGD77 firmware: everything seems to work fine but there's no receive audio on DMR. That would seem to suggest the problem is a feature of the hardware.<br>If I transmit on the parrot with the 2nd radio and listen on reverse (press &amp; hold #) with the first radio, I can hear my own audio. I'll put an ear piece in on the first radio, and can do a test count on the 2nd radio and the audio comes through. I'm perplexed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4770">K7XTN</a> — Tue Oct 24, 2023 6:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K7XTN]]></name></author>
+		<updated>2023-10-20T18:16:47</updated>
+
+		<published>2023-10-20T18:16:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26966#p26966</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26966#p26966"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26966#p26966"><![CDATA[
+Thanks @SA0BUX @F1RMB and @G4EML. Acknowledging that I added several repeater IDs in the channel entries in the off chance they were necessary; I just saw "DMR ID" and in desperation thought that might be the problem. I'll remove those. <br><br>I don't know if @F1RMD meant that I might have the wrong TS, but just to check, I tried changing the TS but didn't have any luck either with the parrot or Seattle 1 TG. <br><br>Is there somewhere I need to separately indicate a Rx TG?<br><br>I got a code plug for a GD77 from an EmComm colleague and have been working through trying to recreate the entries in the Baofeng CPS for the 2nd DM-1701. It has been interesting, because the structure is fundamentally different than what I understood from watching various examples of building code plugs online. My colleague's code plug creates a separate TG for each contact and lists the TG in the Rx TG entry for the channel. I may have misunderstood how the code plug works; the GD77 CPS and the Baofeng CPS are very similar but it looks like Baofeng, in the channel entry, includes both a dropdown for the contact and the TG, and the GD77 only includes a dropdown for a Rx TG.<br><br>BTW, @F1RMD, I saw that you're in Grenoble. I attended Universite Lyon II as an exchange student back in the '90s and fondly recall a couple of trips to Grenoble.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4770">K7XTN</a> — Fri Oct 20, 2023 6:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-19T09:33:41</updated>
+
+		<published>2023-10-19T09:33:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26919#p26919</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26919#p26919"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26919#p26919"><![CDATA[
+Nice catch.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Oct 19, 2023 9:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-10-19T09:31:36</updated>
+
+		<published>2023-10-19T09:31:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26918#p26918</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26918#p26918"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26918#p26918"><![CDATA[
+Yes the ID he put on the channel is the repeater ID<br><br>312488K7NWSSeattleWashingtonUnited States<br><br>Leave it blank on all channels unless you have several ID for different usage and want to override your own ID (like on a commercial or private channel)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Oct 19, 2023 9:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-10-19T09:23:28</updated>
+
+		<published>2023-10-19T09:23:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26917#p26917</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26917#p26917"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26917#p26917"><![CDATA[
+It may not be causing your problem but I can see one potential error. <br><br>Your screenshot shows that you have defined a DMR ID of 312488 for the channel. That looks like it is a repeater ID.  Although repeaters have their own ID it is only used by the network and is never sent 'over the air' . You therefore never need to specify the ID for a repeater. <br><br>The DMR ID box on the channel page is there if you need to specify a different user ID for that channel. Not a common requirement. It should normally be left blank or set to your own user ID. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Oct 19, 2023 9:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-10-19T08:30:56</updated>
+
+		<published>2023-10-19T08:30:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26916#p26916</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26916#p26916"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26916#p26916"><![CDATA[
+<blockquote class="uncited"><div>Brief update: I ordered a second DM-1701 from Amazon in the remote chance that there was something wrong with the 1st radio. The 2nd radio arrived today, and this evening I programmed it (kept the original firmware) with the Baofeng CPS. I just put in the Parrot and Seattle 1 TG on 2 of the DMR repeaters (WW7PSR &amp; K7NWS). And I had exactly the same thing happen with the 2nd radio as with the first: when I tried the Parrot on Seattle 1 on the WW7PSR repeater to the north of me, it appears to transmit fine (e.g., red transmit LED, and I get a green receive light for about as long as I transmit) but no audio. Similar thing on K7NWS. And similar when I tried calling CQ on the Seattle 1 (only tried that once to avoid antagonizing people in case I was getting through).<br><br>Then I tried putting the first DM-1701 on Talkaround, tuned to DMR repeater to the north of me, while I tried transmitting on the Parrot and lo and behold, I could hear my audio (audio transmitted from the 2nd Baofeng and received on the 1st). It's late and I need to go to bed, so don't have time to do more. <br><br>One other thing. As I understand it, RadioID.net keeps a record of the last date/time you were on a DMR repeater and the last TG you accessed, but my log show no contacts. So that presumably means that I'm not actually getting through to any of the TGs on the repeater in spite of what looks like a received signal when I transmit. Is it possible there's a problem with my DMR ID (3128819)? I copied and pasted it directly in the DMR ID window on the CPS. Is there somewhere else I need to enter it on the radio? <br>Again, thanks for any suggestions.<br>73, Christian K7XTN</div></blockquote>Any radioid.net activity log is delayed and I doubt that they check every DMR backbone for activity.<br>You should check the activity on the DMR net provider.<br><br>I searched a bit under <a href="https://seattledmr.org/" class="postlink">https://seattledmr.org/</a> but I could not find any status page<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Oct 19, 2023 8:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-10-19T07:59:15</updated>
+
+		<published>2023-10-19T07:59:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26915#p26915</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26915#p26915"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701 programmed &amp; seems to be working but no receive audio on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3383&amp;p=26915#p26915"><![CDATA[
+Looks like a TimeSlot configuration issue.<br>Better off checking what this repeater offers, and TG/etc configuration.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Oct 19, 2023 7:59 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

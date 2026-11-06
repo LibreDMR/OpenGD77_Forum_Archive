@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2175" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-05-16T06:34:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2175</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-05-16T06:34:44</updated>
+
+		<published>2022-05-16T06:34:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18547#p18547</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18547#p18547"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18547#p18547"><![CDATA[
+Nope<br><br><a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=2226" class="postlink">viewtopic.php?f=13&amp;t=2226</a><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon May 16, 2022 6:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2022-05-16T06:30:27</updated>
+
+		<published>2022-05-16T06:30:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18546#p18546</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18546#p18546"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18546#p18546"><![CDATA[
+I have mar 5 2022 loaded.  Is this not latest?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Mon May 16, 2022 6:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2022-05-16T05:36:02</updated>
+
+		<published>2022-05-16T05:36:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18545#p18545</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18545#p18545"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18545#p18545"><![CDATA[
+Yes enabled click because it's pretty annoying without.<br><br>My pcb says "md9600-uv-v5.0-201107".<br>It came with fw d026.045 and cp v01.28.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Mon May 16, 2022 5:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-05-16T02:18:45</updated>
+
+		<published>2022-05-16T02:18:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18544#p18544</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18544#p18544"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18544#p18544"><![CDATA[
+Hi,<br><br>   Have you enabled "Click Suppr." sound option ?<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon May 16, 2022 2:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-05-15T23:20:59</updated>
+
+		<published>2022-05-15T23:20:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18542#p18542</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18542#p18542"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18542#p18542"><![CDATA[
+<blockquote class="uncited"><div>I think I'm getting same bug.  If during scan there is non dmr traffic on a dmr channel the next channel in the scan is paused.  This does not happen if the next channel is dmr, only analog.<br><br>I confirm this by re order channels in memory. <br><br>Example, ch 4 is dmr hotspot, ch 5 is analog FM.  If dstar or ysf is TX on the hotspot the radio scan will pop the squelch then pause scan on ch5.  If i put a different dmr channel into ch5 then scan continues fine.<br><br>--gaspo.</div></blockquote>Ummm<br><br>We thought we'd fixed this bug.<br><br>Looks like it may have returned or was never fully fixed<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 15, 2022 11:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AF6MQ]]></name></author>
+		<updated>2022-05-15T21:24:20</updated>
+
+		<published>2022-05-15T21:24:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18541#p18541</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18541#p18541"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18541#p18541"><![CDATA[
+I think I'm getting same bug.  If during scan there is non dmr traffic on a dmr channel the next channel in the scan is paused.  This does not happen if the next channel is dmr, only analog.<br><br>I confirm this by re order channels in memory. <br><br>Example, ch 4 is dmr hotspot, ch 5 is analog FM.  If dstar or ysf is TX on the hotspot the radio scan will pop the squelch then pause scan on ch5.  If i put a different dmr channel into ch5 then scan continues fine.<br><br>--gaspo.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=403">AF6MQ</a> — Sun May 15, 2022 9:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-04-04T02:32:02</updated>
+
+		<published>2022-04-04T02:32:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18141#p18141</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18141#p18141"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18141#p18141"><![CDATA[
+I think the bug may still happen sometimes, but perhaps not the exact same conditions.<br><br>More work is probably needed to completely fix this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Apr 04, 2022 2:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2022-04-04T02:15:51</updated>
+
+		<published>2022-04-04T02:15:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18140#p18140</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18140#p18140"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18140#p18140"><![CDATA[
+Installed the 3 Apr release and so far the Scan issue has NOT appeared any point today while I was scanning and watching the Radio. <br><br>Thank you all. Not sure what you still need to do to get Beta level, but already this firmware makes my MD9600 much more pleasant to use and the bonus of sharing a code plug with my HTs. The final GREAT point is that I can load the complete DMR user ID database in the radio memory.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br><br>73 and thanks,<br>Robert P. AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Mon Apr 04, 2022 2:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-04-03T10:15:09</updated>
+
+		<published>2022-04-03T10:15:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18134#p18134</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18134#p18134"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18134#p18134"><![CDATA[
+<blockquote class="uncited"><div>Sorry I meant the firmware stable version?<br>Thanks 9A3lj-OE4GZC</div></blockquote>Impossibly to know for sure, probably months before the firmware will be stable.<br><br>The GD77 took over 2 years of development to become stable<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Apr 03, 2022 10:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9a3lj]]></name></author>
+		<updated>2022-04-03T10:12:36</updated>
+
+		<published>2022-04-03T10:12:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18133#p18133</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18133#p18133"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18133#p18133"><![CDATA[
+Sorry I meant the firmware stable version?<br>Thanks 9A3lj-OE4GZC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1144">9a3lj</a> — Sun Apr 03, 2022 10:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-04-02T21:43:23</updated>
+
+		<published>2022-04-02T21:43:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18127#p18127</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18127#p18127"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18127#p18127"><![CDATA[
+<blockquote class="uncited"><div>Is it known when a stable version of the hardware will be released?</div></blockquote>Hardware?<br><br>We don't make this radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 02, 2022 9:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[9a3lj]]></name></author>
+		<updated>2022-04-02T12:19:47</updated>
+
+		<published>2022-04-02T12:19:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18121#p18121</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18121#p18121"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18121#p18121"><![CDATA[
+Is it known when a stable version of the hardware will be released?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1144">9a3lj</a> — Sat Apr 02, 2022 12:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-04-02T05:27:52</updated>
+
+		<published>2022-04-02T05:27:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18119#p18119</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18119#p18119"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18119#p18119"><![CDATA[
+<blockquote class="uncited"><div>There is no rush from me. I am just glad you can reproduce the situation. As Churchill stated "A problem clearly defined is a problem 1/2 solved". Take the time you need. This firmware even in Alpha is heads and shoulders above the factory and most other radios.</div></blockquote><br>No worries<br><br>Any bug that we can reproduce on demand its normally fixable.<br><br>Bugs which are intermittent, and seem to have no definite trigger, or which we can't reproduce at all,  are really hard to fix.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 02, 2022 5:27 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2022-04-02T03:01:41</updated>
+
+		<published>2022-04-02T03:01:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18118#p18118</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18118#p18118"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18118#p18118"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hi Daniel<br><br>I think my MD9600 is exhibiting this problem when scanning.<br><br>There is a local multimode repeater<br><br>The scan biefly stops on that channel, but its normally not transmitting DMR, I think its transmitting YSF, and I've noticed the scan holds briefly while the firmware checks whether the signal is DMR, and then the scan continues to the next channel, which has no signal, and then it changes to the next channel  and then Pauses<br><br>So on my scan its pausing on the YSF channel +2 when there a signal on the YSF channel.<br><br>I don't knwo if it happens under any other conditions.<br><br>BTW. I'm not 100% sure the YSF channel is YSF, it may be some other digital mode.</div></blockquote>I took some time to watch my MD9600 scanning today and I twice had a similar event as you describe. Both times when stopping on a DMR repeater, but mine where once with a very short TX then drop and it jumps channels.<br><br>I saw this mostly with an initial stop on a DMR repeater listing but one time had it happen on an Analog repeater. The Repeater was giving out its ID and did so first in voice, then drops carrier and comes back up giving ID via audio morse. When the carrier dropped it jump to the following scan listing.<br><br>Thank you for your work and efforts on this</div></blockquote>We can replicate the bug<br><br>Daniel has sent me a fix for it, but it currently causes the scan to pause on the channel 2 after the channel which the non-DMR signal was being received on.<br><br>Ideally I'd like to have a better fix for this, but I may release this as an interim fix.</div></blockquote>There is no rush from me. I am just glad you can reproduce the situation. As Churchill stated "A problem clearly defined is a problem 1/2 solved". Take the time you need. This firmware even in Alpha is heads and shoulders above the factory and most other radios.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Sat Apr 02, 2022 3:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-04-02T02:47:25</updated>
+
+		<published>2022-04-02T02:47:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18117#p18117</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18117#p18117"/>
+		<title type="html"><![CDATA[Re: Interesting scan behavior]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2175&amp;p=18117#p18117"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi Daniel<br><br>I think my MD9600 is exhibiting this problem when scanning.<br><br>There is a local multimode repeater<br><br>The scan biefly stops on that channel, but its normally not transmitting DMR, I think its transmitting YSF, and I've noticed the scan holds briefly while the firmware checks whether the signal is DMR, and then the scan continues to the next channel, which has no signal, and then it changes to the next channel  and then Pauses<br><br>So on my scan its pausing on the YSF channel +2 when there a signal on the YSF channel.<br><br>I don't knwo if it happens under any other conditions.<br><br>BTW. I'm not 100% sure the YSF channel is YSF, it may be some other digital mode.</div></blockquote>I took some time to watch my MD9600 scanning today and I twice had a similar event as you describe. Both times when stopping on a DMR repeater, but mine where once with a very short TX then drop and it jumps channels.<br><br>I saw this mostly with an initial stop on a DMR repeater listing but one time had it happen on an Analog repeater. The Repeater was giving out its ID and did so first in voice, then drops carrier and comes back up giving ID via audio morse. When the carrier dropped it jump to the following scan listing.<br><br>Thank you for your work and efforts on this</div></blockquote>We can replicate the bug<br><br>Daniel has sent me a fix for it, but it currently causes the scan to pause on the channel 2 after the channel which the non-DMR signal was being received on.<br><br>Ideally I'd like to have a better fix for this, but I may release this as an interim fix.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 02, 2022 2:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,1102 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=4800&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 22:50:14 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>GPS module and disassembly of DM1701 - OpenGD77</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - OpenGD77" href="app.php/feed9a12?sid=334c51c385ad1376d1589fc2f256d0e7">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="app.php/feed/topics9a12?sid=334c51c385ad1376d1589fc2f256d0e7">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84" href="app.php/feed/forum/199a12?sid=334c51c385ad1376d1589fc2f256d0e7">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - GPS module and disassembly of DM1701" href="app.php/feed/topic/48009a12?sid=334c51c385ad1376d1589fc2f256d0e7">	
+	<link rel="canonical" href="viewtopic1f92-3.html?t=4800">
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="assets/css/font-awesome.min245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/stylesheet245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/en/stylesheet245c.css?assets_version=3" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/prosilver/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="index9a12.html?sid=334c51c385ad1376d1589fc2f256d0e7" title="Board index"><span class="site_logo"></span></a>
+				<h1>OpenGD77</h1>
+				<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar"  style="display:none">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" style="display:none" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href=";sid=334c51c385ad1376d1589fc2f256d0e7" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#;sid=334c51c385ad1376d1589fc2f256d0e7" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="search.php?sid=334c51c385ad1376d1589fc2f256d0e7" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="app.php/help/faq9a12.html?sid=334c51c385ad1376d1589fc2f256d0e7" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href=";sid=334c51c385ad1376d1589fc2f256d0e7" title="" accesskey="x" role="menuitem">
+				<i class="" aria-hidden="true"></i><span></span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href=";sid=334c51c385ad1376d1589fc2f256d0e7" role="menuitem">
+					<i class="" aria-hidden="true"></i><span></span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="index9a12.html?sid=334c51c385ad1376d1589fc2f256d0e7" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+
+											<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="21"><a href="viewforumf782.html?f=21&amp;sid=334c51c385ad1376d1589fc2f256d0e7" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Radios &amp; CPS</span></a><meta itemprop="position" content="2" /></span>
+															<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="19"><a href="viewforum1a47.html?f=19&amp;sid=334c51c385ad1376d1589fc2f256d0e7" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a><meta itemprop="position" content="3" /></span>
+												</li>
+		
+					<li class="rightside responsive-search">
+				<a href="search.php?sid=334c51c385ad1376d1589fc2f256d0e7" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="viewtopica71a.html?f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7">GPS module and disassembly of DM1701</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+
+
+
+<div class="action-bar bar-top">
+	
+			<a href="posting.php?mode=reply&amp;f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopica504.html?f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="search.php?sid=334c51c385ad1376d1589fc2f256d0e7">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="search.php?sid=334c51c385ad1376d1589fc2f256d0e7" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="4800" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="334c51c385ad1376d1589fc2f256d0e7" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			15 posts
+							<ul>
+		<li class="active"><span>1</span></li>
+				<li><a class="button" href="viewtopic3fc6-2.html?f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7&amp;start=10" role="button">2</a></li>
+				<li class="arrow next"><a class="button button-icon-only" href="viewtopic3fc6-2.html?f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7&amp;start=10" rel="next" role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Next</span></a></li>
+	</ul>
+					</div>
+		</div>
+
+
+
+
+			<div id="p35352" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35352">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6043&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">HA7VM</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6043&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">5</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Apr 17, 2024 3:53 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35352">
+
+						<h3 class="first"><a href="#p35352">GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35352&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicf091.html?p=35352&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p35352" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6043&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">HA7VM</a></strong> &raquo; </span>Sat Jan 25, 2025 1:21 pm
+			</p>
+			
+			
+			
+			<div class="content">Hi,<br>
+I ordered a GPS module from Aliexpress (<a href="https://vi.aliexpress.com/item/1005001704030454.html" class="postlink">https://vi.aliexpress.com/item/1005001704030454.html</a>), which is I think small enough to fit in the radio.<br>
+I tried to disassemble the radio but I had some problems.<br>
+<br>
+On #1, I have the screws removed and I couldn't take the PCB out of the metal frame. After reading through <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3365" class="postlink">this thread</a>, I think the problem was that I need to desolder the pin shown at #2.<br>
+<br>
+On #6, I want to ask if the pins are not soldered as they are not needed (it works fine btw), and is it safe to solder those to add extra stability for that potentiometer.<br>
+<br>
+#4, #5 and #7 are just some representation of the quality... Not so good. On #5, the solder was broken and the picture shows the corrected one. On #4, the solders are ugly and I will correct those at the next disassembly. On #7, the screw was at this state upon opening, someone had a bad time assembling it.<br>
+<br>
+<img src="../../i.ibb.co/dmg8FSV/dm1701.png" class="postimage" alt="Image"><br>
+(<a href="https://ibb.co/MB6Frbt" class="postlink">https://ibb.co/MB6Frbt</a>)<br>
+<br>
+The GPS module and its antenna:<br>
+<img src="../../i.ibb.co/wpQ4m5N/gps.png" class="postimage" alt="Image"><br>
+(<a href="https://ibb.co/7rpKmsJ" class="postlink">https://ibb.co/7rpKmsJ</a>)<br>
+<br>
+I already posted on <a href="https://www.opengd77.com/viewtopic.php?f=25&amp;t=3022" class="postlink">this thread</a>, but now I have the components and I have other questions too.<br>
+<br>
+Multiple people mentioned that I would need a transistor to power the GPS module, as the pins can't provide enough current. However, I checked the datasheet of the MCU and it states the "absolute maximum current rating" of that pin is 25mA, which should be enough for the module (on the product page, it shows &lt;25mA @3.3V).<br>
+I will check the current consumption later with a Raspberry Pi Pico connected, and my question is, is it safe to connect the module directly to the MCU without a transistor, if the peak consumption is indeed under 25mA.<br>
+<br>
+I'm still not ready to do this mod, as I need some Kapton tape and thin wires. I'm writing to gather suggestions and wiseness beforehand.<br>
+<br>
+Thanks in advance.<br>
+HA7VM</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35408" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35408">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=5917&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">OZ1FTG</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=5917&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">55</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Fri Mar 29, 2024 3:52 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35408">
+
+						<h3 ><a href="#p35408">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35408&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic18ef.html?p=35408&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p35408" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=5917&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">OZ1FTG</a></strong> &raquo; </span>Mon Jan 27, 2025 4:50 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6043&amp;sid=334c51c385ad1376d1589fc2f256d0e7">HA7VM</a> wrote: <a href="viewtopicf091.html?p=35352&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p35352" data-post-id="35352" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Jan 25, 2025 1:21 pm</div></cite>
+Multiple people mentioned that I would need a transistor to power the GPS module, as the pins can't provide enough current. However, I checked the datasheet of the MCU and it states the "absolute maximum current rating" of that pin is 25mA, which should be enough for the module (on the product page, it shows &lt;25mA @3.3V).<br>
+I will check the current consumption later with a Raspberry Pi Pico connected, and my question is, is it safe to connect the module directly to the MCU without a transistor, if the peak consumption is indeed under 25mA.
+</div></blockquote>
+
+It's your radio ....<br>
+<br>
+But if you exceed the absolute max on the pin, you might do irreversible damage to the pin or MCU.<br>
+And the only way to fix would be to change the MCU.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35409" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35409">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35409">
+
+						<h3 ><a href="#p35409">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35409&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicc5ed-2.html?p=35409&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p35409" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">VK3KYY</a></strong> &raquo; </span>Mon Jan 27, 2025 8:14 pm
+			</p>
+			
+			
+			
+			<div class="content">It should also be noted in relation to the CPU / MCU used in the DM1701, that it's not a genuine STM32.<br>
+<br>
+Max pin current may not be the same as for a genuine STM32</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35858" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35858">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6214&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">PU7TKM</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6214&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">23</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Tue May 21, 2024 12:13 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35858">
+
+						<h3 ><a href="#p35858">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35858&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic462b-3.html?p=35858&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p35858" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6214&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">PU7TKM</a></strong> &raquo; </span>Thu Feb 20, 2025 9:19 pm
+			</p>
+			
+			
+			
+			<div class="content">Very interesting! Did you go forward with this project?</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35860" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35860">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=2867&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">SA0BUX</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=2867&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">873</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Tue Jul 05, 2022 8:50 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> JO99ah, Stockholm, Sweden</dd>
+												
+							<dd class="profile-contact">
+				<strong>Contact:</strong>
+				<div class="dropdown-container dropdown-left">
+					<a href="#" class="dropdown-trigger" title="Contact SA0BUX">
+						<i class="icon fa-commenting-o fa-fw icon-lg" aria-hidden="true"></i><span class="sr-only">Contact SA0BUX</span>
+					</a>
+					<div class="dropdown">
+						
+						<div class="dropdown-contents contact-icons">
+																																								<div>
+																	<a href="https://www.qrz.com/db/SA0BUX" title="Website" class="last-cell">
+										<span class="contact-icon phpbb_website-icon">Website</span>
+									</a>
+																	</div>
+																					</div>
+					</div>
+				</div>
+			</dd>
+				
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35860">
+
+						<h3 ><a href="#p35860">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35860&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic6a4d-2.html?p=35860&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p35860" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=2867&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">SA0BUX</a></strong> &raquo; </span>Thu Feb 20, 2025 10:10 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6214&amp;sid=334c51c385ad1376d1589fc2f256d0e7">PU7TKM</a> wrote: <a href="viewtopic462b-3.html?p=35858&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p35858" data-post-id="35858" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Feb 20, 2025 9:19 pm</div></cite>
+Very interesting! Did you go forward with this project?
+</div></blockquote>
+
+Almost impossible to get some data sheets for the clones.<br>
+Only practical experience.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p36423" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36423">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=5068&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">KA1CM</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=5068&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">459</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Tue Nov 28, 2023 4:14 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36423">
+
+						<h3 ><a href="#p36423">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=36423&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic1edc.html?p=36423&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p36423" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=5068&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">KA1CM</a></strong> &raquo; </span>Mon Mar 24, 2025 9:35 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6043&amp;sid=334c51c385ad1376d1589fc2f256d0e7">HA7VM</a> wrote: <a href="viewtopicf091.html?p=35352&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p35352" data-post-id="35352" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sat Jan 25, 2025 1:21 pm</div></cite>
+Hi,<br>
+I ordered a GPS module from Aliexpress (<a href="https://vi.aliexpress.com/item/1005001704030454.html" class="postlink">https://vi.aliexpress.com/item/1005001704030454.html</a>), which is I think small enough to fit in the radio.<br>
+I tried to disassemble the radio but I had some problems.<br>
+<br>
+On #1, I have the screws removed and I couldn't take the PCB out of the metal frame. After reading through <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3365" class="postlink">this thread</a>, I think the problem was that I need to desolder the pin shown at #2.<br>
+<br>
+On #6, I want to ask if the pins are not soldered as they are not needed (it works fine btw), and is it safe to solder those to add extra stability for that potentiometer.<br>
+<br>
+#4, #5 and #7 are just some representation of the quality... Not so good. On #5, the solder was broken and the picture shows the corrected one. On #4, the solders are ugly and I will correct those at the next disassembly. On #7, the screw was at this state upon opening, someone had a bad time assembling it.<br>
+<br>
+<img src="../../i.ibb.co/dmg8FSV/dm1701.png" class="postimage" alt="Image"><br>
+(<a href="https://ibb.co/MB6Frbt" class="postlink">https://ibb.co/MB6Frbt</a>)<br>
+<br>
+The GPS module and its antenna:<br>
+<img src="../../i.ibb.co/wpQ4m5N/gps.png" class="postimage" alt="Image"><br>
+(<a href="https://ibb.co/7rpKmsJ" class="postlink">https://ibb.co/7rpKmsJ</a>)<br>
+<br>
+I already posted on <a href="https://www.opengd77.com/viewtopic.php?f=25&amp;t=3022" class="postlink">this thread</a>, but now I have the components and I have other questions too.<br>
+<br>
+Multiple people mentioned that I would need a transistor to power the GPS module, as the pins can't provide enough current. However, I checked the datasheet of the MCU and it states the "absolute maximum current rating" of that pin is 25mA, which should be enough for the module (on the product page, it shows &lt;25mA @3.3V).<br>
+I will check the current consumption later with a Raspberry Pi Pico connected, and my question is, is it safe to connect the module directly to the MCU without a transistor, if the peak consumption is indeed under 25mA.<br>
+<br>
+I'm still not ready to do this mod, as I need some Kapton tape and thin wires. I'm writing to gather suggestions and wiseness beforehand.<br>
+<br>
+Thanks in advance.<br>
+HA7VM
+</div></blockquote>
+
+Have you finished the mod? Would you like to share yours? I'm interested.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p36501" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36501">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6043&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">HA7VM</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6043&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">5</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Wed Apr 17, 2024 3:53 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36501">
+
+						<h3 ><a href="#p36501">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=36501&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicee3e-2.html?p=36501&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p36501" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6043&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">HA7VM</a></strong> &raquo; </span>Fri Mar 28, 2025 8:24 am
+			</p>
+			
+			
+			
+			<div class="content">Sorry for the late answer.<br>
+I haven't disassembled the radio again (yet). I wish to continue with this project but it's the only DMR I have (and decent HAM radio too), and I don't have the budget to ruin it.<br>
+I have Kapton tape now, but I still need some soldering iron tips that are capable of precision work.<br>
+<br>
+Fitting the antenna seems like a hard task for my GPS module, but with the right tools I could carve out some space for it.<br>
+<br>
+I also had the idea to install the module inside the battery, as it has a big space in the bottom, but in this case I'd need more pins for the GPS module connection.<br>
+<br>
+I will write if I proceed with this project. For now I don't have the time and tools to continue.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p36502" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36502">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=5068&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">KA1CM</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=5068&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">459</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Tue Nov 28, 2023 4:14 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36502">
+
+						<h3 ><a href="#p36502">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=36502&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic1936.html?p=36502&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p36502" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=5068&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">KA1CM</a></strong> &raquo; </span>Fri Mar 28, 2025 10:06 am
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=6043&amp;sid=334c51c385ad1376d1589fc2f256d0e7">HA7VM</a> wrote: <a href="viewtopicee3e-2.html?p=36501&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p36501" data-post-id="36501" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Fri Mar 28, 2025 8:24 am</div></cite>
+<br>
+I will write if I proceed with this project. For now I don't have the time and tools to continue.
+</div></blockquote>
+
+Thank you, <br>
+Charlie,</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p36657" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36657">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=5068&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">KA1CM</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=5068&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">459</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Tue Nov 28, 2023 4:14 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36657">
+
+						<h3 ><a href="#p36657">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=36657&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic54c9.html?p=36657&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p36657" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=5068&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">KA1CM</a></strong> &raquo; </span>Tue Apr 08, 2025 11:25 am
+			</p>
+			
+			
+			
+			<div class="content">I have disassemble my 1701 trying to fit a GPS module (GP-02) in to it. I'm planning to put the module underneath the channel selector knob because there is a plenty of room there and it is close to the top, easy for passive quarter wave antenna to be implemented.<br>
+<br>
+I'm planning to use N-MOS (SI2300) as a switch on the ground side of the GP-02. However, my problem is I don't know where can I get 3.3V from. It would be great If I can get it from the area around the op-amp for the K1 jack (circle red in the photo). Can any one help?<br>
+<br>
+Thank you,<br>
+Charlie,<br>
+<br>
+<img src="https://www.opengd77.com/download/file.php?id=2905" class="postimage" alt="Image"></div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p36850" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile36850">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=6810&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">DC8OH</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=6810&amp;sr=posts&amp;sid=334c51c385ad1376d1589fc2f256d0e7">12</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon Aug 26, 2024 6:52 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content36850">
+
+						<h3 ><a href="#p36850">Re: GPS module and disassembly of DM1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=36850&amp;sid=334c51c385ad1376d1589fc2f256d0e7" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic0bc9.html?p=36850&amp;sid=334c51c385ad1376d1589fc2f256d0e7#p36850" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=6810&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="username">DC8OH</a></strong> &raquo; </span>Sat Apr 19, 2025 8:01 pm
+			</p>
+			
+			
+			
+			<div class="content">Hi,<br>
+today i finished to upgrade my DM-1701 with gps. I made it like Daniel (link in first post).<br>
+The rotary encoder was removed and my highspeed tool had a lot of work to do  <img class="smilies" src="images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>
+The ceramic antenna is 10x10mm.<br>
+Some pictures below.<br>
+<br>
+73 by<br>
+Christian (DC8OH)</div>
+
+			
+							<dl class="attachbox">
+					<dt>
+						Attachments
+					</dt>
+											<dd>
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file2d16.jpg?id=2923&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="postimage" alt="DM-1701_GPS2-4.jpg" onclick="viewableArea(this);" /></dt>
+						<dd>DM-1701_GPS2-4.jpg (97.17 KiB) Viewed 7721 times</dd>
+		</dl>
+		
+		
+		
+			</dd>
+											<dd>
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file6c61.jpg?id=2922&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="postimage" alt="DM-1701_GPS1-4.jpg" onclick="viewableArea(this);" /></dt>
+						<dd>DM-1701_GPS1-4.jpg (99.63 KiB) Viewed 7721 times</dd>
+		</dl>
+		
+		
+		
+			</dd>
+									</dl>
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="posting.php?mode=reply&amp;f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopica504.html?f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="viewtopic.php?f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			15 posts
+							<ul>
+		<li class="active"><span>1</span></li>
+				<li><a class="button" href="viewtopic3fc6-2.html?f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7&amp;start=10" role="button">2</a></li>
+				<li class="arrow next"><a class="button button-icon-only" href="viewtopic3fc6-2.html?f=19&amp;t=4800&amp;sid=334c51c385ad1376d1589fc2f256d0e7&amp;start=10" rel="next" role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Next</span></a></li>
+	</ul>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="viewforum1a47.html?f=19&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to “TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84”</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																				<li><a href="viewforum86e1.html?f=1&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-cat-link"> <span> OpenGD77 information</span></a></li>
+																<li><a href="viewforuma998-2.html?f=3&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Announcements</span></a></li>
+																<li><a href="viewforum3dbc.html?f=5&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; FAQ</span></a></li>
+																<li><a href="viewforumf782.html?f=21&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-cat-link"> <span> Radios &amp; CPS</span></a></li>
+																<li><a href="viewforum73a7.html?f=12&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; CPS</span></a></li>
+																<li><a href="viewforuma9cb.html?f=13&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; GD-77 / DM-1801 / RD-5R / GD-77S</span></a></li>
+																<li><a href="viewforumf915-2.html?f=18&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-9600 / Retevis RT-90</span></a></li>
+																<li><a href="viewforum1a47.html?f=19&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a></li>
+																<li><a href="viewforumc5a7.html?f=28&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD2017 / Retevis RT-82</span></a></li>
+																<li><a href="viewforuma466.html?f=27&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Other unsupported radios</span></a></li>
+																<li><a href="viewforuma143.html?f=6&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-cat-link"> <span> Discussions</span></a></li>
+																<li><a href="viewforumbcc9.html?f=10&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; New members must post here first</span></a></li>
+																<li><a href="viewforum369e.html?f=29&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Help needed</span></a></li>
+																<li><a href="viewforum8baa.html?f=7&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; General discussions</span></a></li>
+																<li><a href="viewforum07b7.html?f=9&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Hotspot mode</span></a></li>
+																<li><a href="viewforum51c6-2.html?f=22&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Voice prompts</span></a></li>
+																<li><a href="viewforum0780.html?f=23&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Localisation</span></a></li>
+																<li><a href="viewforumcf92.html?f=14&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Codeplugs</span></a></li>
+																<li><a href="viewforum39cc.html?f=17&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1801 specific</span></a></li>
+																<li><a href="viewforum9a4d.html?f=25&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1701 / Retevis RT-84 specific</span></a></li>
+																<li><a href="viewforum97ae-2.html?f=16&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Developer discussions</span></a></li>
+																<li><a href="viewforum62c5.html?f=26&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-2017 / RT-82</span></a></li>
+																<li><a href="viewforum0715.html?f=11&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Bug reports</span></a></li>
+																<li><a href="viewforumca74-2.html?f=8&amp;sid=334c51c385ad1376d1589fc2f256d0e7" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Off topic</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer"  style="display:none" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="index9a12.html?sid=334c51c385ad1376d1589fc2f256d0e7" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="UTC">UTC</span></li>
+							<li class="rightside">
+				<a href="ucp.php?mode=delete_cookies&amp;sid=334c51c385ad1376d1589fc2f256d0e7" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+																<li class="rightside" data-last-responsive="true">
+				<a href="memberlist.php?mode=contactadmin&amp;sid=334c51c385ad1376d1589fc2f256d0e7" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="cron1177.gif?cron_type=cron.task.core.tidy_search&amp;sid=334c51c385ad1376d1589fc2f256d0e7" width="1" height="1" alt="cron" /></div>
+
+<script src="assets/javascript/jquery.min245c.js?assets_version=3"></script>
+<script src="assets/javascript/core245c.js?assets_version=3"></script>
+
+
+
+<script src="styles/prosilver/template/forum_fn245c.js?assets_version=3"></script>
+<script src="styles/prosilver/template/ajax245c.js?assets_version=3"></script>
+
+
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=4800&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 22:51:44 GMT -->
+</html>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2231" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-05-08T06:23:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2231</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-05-08T06:23:40</updated>
+
+		<published>2022-05-08T06:23:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18482#p18482</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18482#p18482"/>
+		<title type="html"><![CDATA[Re: Bug: Squelch &quot;Master&quot; setting is 0% on 222 MHz]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18482#p18482"><![CDATA[
+<blockquote class="uncited"><div>Ah, I didn't realize that the MD-9600 couldn't receive the 222 band. No problem. I've isolated those channels in their own zone, so I simply won't try to receive them with the MD-9600. Just sorry I haven't made myself useful by finding a real bug.</div></blockquote>No worries<br><br>I think we probably need to put a warning message into the firmware of "Out of range", for this instance.<br><br>Or possibly "No PLL lock", but I don't know if we can determine whether the PLL is locked or not.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 08, 2022 6:23 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2022-05-08T06:09:10</updated>
+
+		<published>2022-05-08T06:09:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18481#p18481</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18481#p18481"/>
+		<title type="html"><![CDATA[Re: Bug: Squelch &quot;Master&quot; setting is 0% on 222 MHz]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18481#p18481"><![CDATA[
+Ah, I didn't realize that the MD-9600 couldn't receive the 222 band. No problem. I've isolated those channels in their own zone, so I simply won't try to receive them with the MD-9600. Just sorry I haven't made myself useful by finding a real bug.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Sun May 08, 2022 6:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-05-08T04:55:26</updated>
+
+		<published>2022-05-08T04:55:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18480#p18480</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18480#p18480"/>
+		<title type="html"><![CDATA[Re: Bug: Squelch &quot;Master&quot; setting is 0% on 222 MHz]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18480#p18480"><![CDATA[
+The MD9600 can't operate on the 220Mhz band, even on Rx only. However the codeplug format is common to both the GD77 and MD9600 and it doesnt matter what radio type you select.<br><br>A lot of people have both a GD77 and MD9600, so it would be counter productive if we did something in the CPS that disallowed channels on the 220Mhz band when you had MD9600 as the radio type, as that would screw up the codeplug they are also using for their GD77<br><br>I suppose we could add some more checking on the MD9600 so that if you changed to a channel of VFO freq which is out of range, even on Rx it displays a message. <br>But its up to the operator of the radio to not create channels that are outside the operational range of the radio.<br>Or if you have common codeplugs for GD77 and MD9600, don't select those channels on the MD9600<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 08, 2022 4:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2022-05-08T00:20:59</updated>
+
+		<published>2022-05-08T00:20:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18479#p18479</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18479#p18479"/>
+		<title type="html"><![CDATA[Bug: Squelch &quot;Master&quot; setting is 0% on 222 MHz]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2231&amp;p=18479#p18479"><![CDATA[
+Summary: 222 MHz channels whose Squelch level in the CPS is set to "Master" end up with the squelch wide open. But only on the MD-9600. The problem does not occur on my GD-77 with the same codeplug.<br><br>Details: I have several receive-only channels that are 222 MHz analog repeaters. The "OpenGD77 Squelch Level" is set to "Master" in the CPS, just as they are for all other analog repeaters. But when that codeplug is sent to my MD-9600, all the 222 MHz channels have the squelch set wide open.<br><br>I can then adjust the squelch manually on the radio in the Channel Details. That works. But the moment I switch to another channel and back, it reverts back to "Master" and is again wide open. Saving a percentage squelch setting with P1 (Func) + Enter does save that setting to the codeplug as it should. So it appears that for the 222 MHz band, "Master" is being incorrectly interpreted as "0%" for 222 MHz channels.<br><br>This same squelch setting works properly for all 2m and 70cm analog repeaters in the codeplug.<br><br>I double-checked whether Radio Type was set correctly when I wrote the codeplug to each radio. Yes, it was.<br><br>I tested whether unchecking the Receive Only box a 222 MHz channel would fix the problem. No, it did not.<br><br>Both radios are running the firmware built 20:50:44, May 1, 2022. CPS is v. E2022.05.04. Both radios have "Band Limits" set to "On" in Radio Options. The CPS band limits are set to the defaults as shown in the current manual on GitHub: VHF 136-174, UHF 400-470.<br><br>I should also note a briefly confusing inconsistency: When I used the OpenGD77-CSV program to organize things, the squelch setting is written in the CSV as "Disabled" on all three bands. Evidently "Disabled" in British English means "Master" in Australian and French. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_mrgreen.gif" width="15" height="17" alt=":mrgreen:" title="Mr. Green"> =<br><br>Seriously, big thanks to all the developers. The MD9600 firmware is quite usable now. OpenGD77-CPS made it possible for me to combine my old analog repeater list with my DMR list, and now I have A Radio For All Seasons.<br><br>73,<br>--Peter, KD7MW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Sun May 08, 2022 12:20 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

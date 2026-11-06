@@ -1,0 +1,1114 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=959&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 11:07:37 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Read/write GD-77 codeplug in Linux in Python 3 (experimental) - OpenGD77</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - OpenGD77" href="app.php/feed76ff?sid=">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="app.php/feed/topics76ff?sid=">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - CPS" href="app.php/feed/forum/1276ff?sid=">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - Read/write GD-77 codeplug in Linux in Python 3 (experimental)" href="app.php/feed/topic/95976ff?sid=">	
+	<link rel="canonical" href="viewtopicb40d-2.html?t=959">
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="assets/css/font-awesome.min245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/stylesheet245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/en/stylesheet245c.css?assets_version=3" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/prosilver/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="index76ff.html?sid=" title="Board index"><span class="site_logo"></span></a>
+				<h1>OpenGD77</h1>
+				<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar"  style="display:none">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" style="display:none" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href="" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="search.php?sid=" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="app.php/help/faq76ff.html?sid=" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href="" title="" accesskey="x" role="menuitem">
+				<i class="" aria-hidden="true"></i><span></span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href="" role="menuitem">
+					<i class="" aria-hidden="true"></i><span></span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="index76ff.html?sid=" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+
+											<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="21"><a href="viewforum5dff.html?f=21&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Radios &amp; CPS</span></a><meta itemprop="position" content="2" /></span>
+															<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="12"><a href="viewforumf979.html?f=12&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">CPS</span></a><meta itemprop="position" content="3" /></span>
+												</li>
+		
+					<li class="rightside responsive-search">
+				<a href="search.php?sid=" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="viewtopic5496-2.html?f=12&amp;t=959&amp">Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+<div style="display: none !important;">OpenGD77CPS<br /></div>
+
+
+<div class="action-bar bar-top">
+	
+			<a href="posting.php?mode=reply&amp;f=12&amp;t=959&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic6223.html?f=12&amp;t=959&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="search.php?sid=">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="search.php?sid=" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="959" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			52 posts
+							<ul>
+		<li class="active"><span>1</span></li>
+				<li><a class="button" href="viewtopic3532.html?f=12&amp;t=959&amp;sid=&amp;start=10" role="button">2</a></li>
+				<li><a class="button" href="viewtopicf0dc.html?f=12&amp;t=959&amp;sid=&amp;start=20" role="button">3</a></li>
+				<li><a class="button" href="viewtopic5e4c.html?f=12&amp;t=959&amp;sid=&amp;start=30" role="button">4</a></li>
+				<li><a class="button" href="viewtopicd116.html?f=12&amp;t=959&amp;sid=&amp;start=40" role="button">5</a></li>
+				<li><a class="button" href="viewtopicd556.html?f=12&amp;t=959&amp;sid=&amp;start=50" role="button">6</a></li>
+				<li class="arrow next"><a class="button button-icon-only" href="viewtopic3532.html?f=12&amp;t=959&amp;sid=&amp;start=10" rel="next" role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Next</span></a></li>
+	</ul>
+					</div>
+		</div>
+
+
+
+
+			<div id="p8739" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8739">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=764&amp" class="username">oh1fss</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=764&amp;sr=posts&amp">74</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon May 04, 2020 11:53 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8739">
+
+						<h3 class="first"><a href="#p8739">Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8739&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicb6dd.html?p=8739&amp;sid=#p8739" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=764&amp" class="username">oh1fss</a></strong> &raquo; </span>Thu May 21, 2020 3:07 pm
+			</p>
+			
+			
+			
+			<div class="content">I have written a program in Python 3 to read and write GD-77 codeplug in Linux.<br>
+<br>
+I have tested this program only with my own GD-77. Before trying this make backups!<br>
+<br>
+Usage:<br>
+<br>
+$ ./GD77transfer.py -h<br>
+GD-77 Data Transfer v0.0.4<br>
+Usage:  GD77transfer.py [OPTION]<br>
+<br>
+    -h, --help                 : Display this help text,<br>
+    -r, --read                 : Read config (codeplug) from radio,<br>
+    -w, --write                : Write config (codeplug) to radio,<br>
+    -d, --device=&lt;device&gt;      : Use the specified device as serial port,<br>
+    -f, --filename=&lt;filename&gt;  : Config (codeplug) file name,<br>
+<br>
+To read a codeplug:<br>
+<br>
+$ ./GD77transfer.py -r -f turha.g77<br>
+ - reading 0x5F20 bytes: 100%<br>
+ - reading 0x3B00 bytes: 100%<br>
+ - reading 0x13E60 bytes: 100%<br>
+ - reading 0x11A0 bytes: 100%<br>
+<br>
+To write a codeplug:<br>
+<br>
+$ ./GD77transfer.py -w -f Gd77Plug_OH1FSS_v1_33.g77 <br>
+ - eepromming 0x5F20 bytes: 100%<br>
+ - eepromming 0x3B00 bytes: 100%<br>
+ - flashing 0x13E60 bytes: 100%<br>
+ - flashing 0x11A0 bytes: 100%<br>
+<br>
+73 OH1FSS</div>
+
+			
+							<dl class="attachbox">
+					<dt>
+						Attachments
+					</dt>
+											<dd>
+		<p>[The extension <strong>tgz</strong> has been deactivated and can no longer be displayed.]</p>
+	</dd>
+									</dl>
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8744" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8744">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8744">
+
+						<h3 ><a href="#p8744">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8744&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic00b7.html?p=8744&amp;sid=#p8744" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Thu May 21, 2020 9:25 pm
+			</p>
+			
+			
+			
+			<div class="content">Thanks</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8806" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8806">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8806">
+
+						<h3 ><a href="#p8806">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8806&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic7be2-2.html?p=8806&amp;sid=#p8806" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Sun May 24, 2020 6:14 am
+			</p>
+			
+			
+			
+			<div class="content">I think there are some bugs.<br>
+<br>
+I tried to read the codeplug from my radio, and it took a very long time, and the file could not be opened by the CPS because its not in the correct format.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8807" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8807">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8807">
+
+						<h3 ><a href="#p8807">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8807&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic8fc8.html?p=8807&amp;sid=#p8807" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Sun May 24, 2020 6:29 am
+			</p>
+			
+			
+			
+			<div class="content">I found the reason its slow<br>
+<br>
+Change the sleep time to zero while waiting for a response from the radio, otherwise all the sleeps of 0.2S adds up to a lot of sleeping<br>
+<br>
+BTW. I tried also to increase the baud rate, but this value makes no difference at all, because its ignored by the OpenGD77 as its a virtual serial device not a real one.<br>
+<br>
+I still don't know what the data in the codeplug is file that I read from the radio is incorrect</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8808" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8808">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=74&amp" class="username">OH1E</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=74&amp;sr=posts&amp">96</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 8:59 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8808">
+
+						<h3 ><a href="#p8808">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8808&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic7cb8.html?p=8808&amp;sid=#p8808" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=74&amp" class="username">OH1E</a></strong> &raquo; </span>Sun May 24, 2020 6:53 am
+			</p>
+			
+			
+			
+			<div class="content">heya,<br>
+i suggest change serial module to HID device, as serial don't work on darwin.<br>
+Something like firmware upgrade tool here on this topic <a href="https://www.opengd77.com/viewtopic.php?f=16&amp;t=826" class="postlink">viewtopic.php?f=16&amp;t=826</a><br>
+it works now on multiple operating system (also on OSX) after changing the module to hid.<br>
+more info about hid here: <a href="https://github.com/apmorton/pyhidapi" class="postlink">https://github.com/apmorton/pyhidapi</a><br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>% python3 GD77transfer.py -r -d /dev/tty.usbmodem14101 -f test.g77
+Traceback (most recent call last):
+  File "GD77transfer.py", line 405, in &lt;module&gt;
+    main()
+  File "GD77transfer.py", line 391, in main
+    ser = serialInit(serialDev)
+  File "GD77transfer.py", line 63, in serialInit
+    ser = serial.Serial()
+AttributeError: module 'serial' has no attribute 'Serial'
+</code></pre></div>
+
+riku</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8810" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8810">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="avatar"><img class="avatar" src="download/file73c5.jpg?avatar=56_1576571525.jpg" width="90" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="username">F1RMB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=56&amp;sr=posts&amp">3426</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 5:42 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Grenoble, France</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8810">
+
+						<h3 ><a href="#p8810">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8810&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic48cf.html?p=8810&amp;sid=#p8810" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="username">F1RMB</a></strong> &raquo; </span>Sun May 24, 2020 7:12 am
+			</p>
+			
+			
+			
+			<div class="content">Hi,<br>
+
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=74&amp">Riku</a> wrote: <a href="viewtopic7cb8.html?p=8808&amp;sid=#p8808" data-post-id="8808" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun May 24, 2020 6:53 am</div></cite>
+heya,<br>
+i suggest change serial module to HID device, as serial don't work on darwin.<br>
+Something like firmware upgrade tool here on this topic <a href="https://www.opengd77.com/viewtopic.php?f=16&amp;t=826" class="postlink">viewtopic.php?f=16&amp;t=826</a><br>
+it works now on multiple operating system (also on OSX) after changing the module to hid.<br>
+more info about hid here: <a href="https://github.com/apmorton/pyhidapi" class="postlink">https://github.com/apmorton/pyhidapi</a><br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>% python3 GD77transfer.py -r -d /dev/tty.usbmodem14101 -f test.g77
+Traceback (most recent call last):
+  File "GD77transfer.py", line 405, in &lt;module&gt;
+    main()
+  File "GD77transfer.py", line 391, in main
+    ser = serialInit(serialDev)
+  File "GD77transfer.py", line 63, in serialInit
+    ser = serial.Serial()
+AttributeError: module 'serial' has no attribute 'Serial'
+</code></pre></div>
+
+riku
+</div></blockquote>
+
+I highly doubt Serial communication doesn't work on Darwin, or any *nix. I would trust that there are some specific things needed, because Apple loves to break things, but nothing more.<br>
+Also, the firmware uses CDC universal class, while in non bootloader mode, for good reasons. Changing everything back to USB HID will breaks CPS and Hotspot.<br>
+After 2 minutes of googling, using something like pyserial might enables multiplatform support.<br>
+<br>
+Cheers.<br>
+---<br>
+Daniel</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8811" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8811">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=74&amp" class="username">OH1E</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=74&amp;sr=posts&amp">96</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 8:59 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8811">
+
+						<h3 ><a href="#p8811">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8811&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic3b3c-2.html?p=8811&amp;sid=#p8811" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=74&amp" class="username">OH1E</a></strong> &raquo; </span>Sun May 24, 2020 8:00 am
+			</p>
+			
+			
+			
+			<div class="content">serial works on darwin, sorry my bad, needed module was pyserial instead "serial" <br>
+resolved this with juhani, talked with him <img class="smilies" src="images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br>
+read works now.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8813" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8813">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=764&amp" class="username">oh1fss</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=764&amp;sr=posts&amp">74</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon May 04, 2020 11:53 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8813">
+
+						<h3 ><a href="#p8813">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8813&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicbb7f-2.html?p=8813&amp;sid=#p8813" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=764&amp" class="username">oh1fss</a></strong> &raquo; </span>Sun May 24, 2020 8:48 am
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp">VK3KYY</a> wrote: <a href="viewtopic8fc8.html?p=8807&amp;sid=#p8807" data-post-id="8807" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun May 24, 2020 6:29 am</div></cite>
+I still don't know what the data in the codeplug is file that I read from the radio is incorrect
+</div></blockquote>
+
+I copied the logic for reading the codeplug from GD-77 from function worker_DoWork(), case READ_CODEPLUG in file OpenGD77Form.cs. That piece of code leaves gaps in the codeplug file:<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
+    getMemoryArea(ser,buf,MODE_READ_EEPROM, 0x00E0, 0x00E0, 0x5f20)
+    getMemoryArea(ser,buf,MODE_READ_EEPROM, 0x7500, 0x7500, 0x3B00)
+    getMemoryArea(ser,buf,MODE_READ_FLASH,  0xB000,0x7b000,0x13E60)
+    getMemoryArea(ser,buf,MODE_READ_FLASH, 0x1EE60,0x00000, 0x11A0)</code></pre></div>
+
+My program leaves those gaps zeroed, maybe that's why CPS complains about it.<br>
+<br>
+So I have to hunt *.cs to find out how to invent something valid into those gaps...<br>
+<br>
+73, OH1FSS</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8816" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8816">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="avatar"><img class="avatar" src="download/file73c5.jpg?avatar=56_1576571525.jpg" width="90" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="username">F1RMB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=56&amp;sr=posts&amp">3426</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 5:42 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Grenoble, France</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8816">
+
+						<h3 ><a href="#p8816">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8816&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic41fd.html?p=8816&amp;sid=#p8816" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="username">F1RMB</a></strong> &raquo; </span>Sun May 24, 2020 9:04 am
+			</p>
+			
+			
+			
+			<div class="content">Hi,<br>
+
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=764&amp">oh1fss</a> wrote: <a href="viewtopicbb7f-2.html?p=8813&amp;sid=#p8813" data-post-id="8813" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun May 24, 2020 8:48 am</div></cite>
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp">VK3KYY</a> wrote: <a href="viewtopic8fc8.html?p=8807&amp;sid=#p8807" data-post-id="8807" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun May 24, 2020 6:29 am</div></cite>
+I still don't know what the data in the codeplug is file that I read from the radio is incorrect
+</div></blockquote>
+
+I copied the logic for reading the codeplug from GD-77 from function worker_DoWork(), case READ_CODEPLUG in file OpenGD77Form.cs. That piece of code leaves gaps in the codeplug file:<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>def getMemoryArea(ser,buf,mode,bufStart,radioStart,length):
+    getMemoryArea(ser,buf,MODE_READ_EEPROM, 0x00E0, 0x00E0, 0x5f20)
+    getMemoryArea(ser,buf,MODE_READ_EEPROM, 0x7500, 0x7500, 0x3B00)
+    getMemoryArea(ser,buf,MODE_READ_FLASH,  0xB000,0x7b000,0x13E60)
+    getMemoryArea(ser,buf,MODE_READ_FLASH, 0x1EE60,0x00000, 0x11A0)</code></pre></div>
+
+My program leaves those gaps zeroed, maybe that's why CPS complains about it.<br>
+<br>
+So I have to hunt *.cs to find out how to invent something valid into those gaps...<br>
+<br>
+73, OH1FSS
+</div></blockquote>
+
+I didn't checked your Python script, but maybe that's the problem, as unused bytes should be 0xFF and not 0x0.<br>
+<br>
+<br>
+Cheers.<br>
+---<br>
+Daniel</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p8818" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile8818">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=764&amp" class="username">oh1fss</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=764&amp;sr=posts&amp">74</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon May 04, 2020 11:53 am</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content8818">
+
+						<h3 ><a href="#p8818">Re: Read/write GD-77 codeplug in Linux in Python 3 (experimental)</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=12&amp;p=8818&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic0f7a.html?p=8818&amp;sid=#p8818" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=764&amp" class="username">oh1fss</a></strong> &raquo; </span>Sun May 24, 2020 9:31 am
+			</p>
+			
+			
+			
+			<div class="content">CPS (MainForm.cs, function openCodeplugFile()) checks the first 8 bytes of the codeplug file that it opens. Those 8 bytes must be FF or contain the current radio model. Otherwise you get error "Model does not match".<br>
+<br>
+So I should set all gaps that are not read from the radio as FF - is that enough?<br>
+<br>
+Those gaps are not written to the radio.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="posting.php?mode=reply&amp;f=12&amp;t=959&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic6223.html?f=12&amp;t=959&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="viewtopic.php?f=12&amp;t=959&amp">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			52 posts
+							<ul>
+		<li class="active"><span>1</span></li>
+				<li><a class="button" href="viewtopic3532.html?f=12&amp;t=959&amp;sid=&amp;start=10" role="button">2</a></li>
+				<li><a class="button" href="viewtopicf0dc.html?f=12&amp;t=959&amp;sid=&amp;start=20" role="button">3</a></li>
+				<li><a class="button" href="viewtopic5e4c.html?f=12&amp;t=959&amp;sid=&amp;start=30" role="button">4</a></li>
+				<li><a class="button" href="viewtopicd116.html?f=12&amp;t=959&amp;sid=&amp;start=40" role="button">5</a></li>
+				<li><a class="button" href="viewtopicd556.html?f=12&amp;t=959&amp;sid=&amp;start=50" role="button">6</a></li>
+				<li class="arrow next"><a class="button button-icon-only" href="viewtopic3532.html?f=12&amp;t=959&amp;sid=&amp;start=10" rel="next" role="button"><i class="icon fa-chevron-right fa-fw" aria-hidden="true"></i><span class="sr-only">Next</span></a></li>
+	</ul>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="viewforumf979.html?f=12&amp" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to “CPS”</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																				<li><a href="viewforum24e8.html?f=1&amp" class="jumpbox-cat-link"> <span> OpenGD77 information</span></a></li>
+																<li><a href="viewforum3550.html?f=3&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Announcements</span></a></li>
+																<li><a href="viewforumbe59.html?f=5&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; FAQ</span></a></li>
+																<li><a href="viewforum5dff.html?f=21&amp" class="jumpbox-cat-link"> <span> Radios &amp; CPS</span></a></li>
+																<li><a href="viewforumf979.html?f=12&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; CPS</span></a></li>
+																<li><a href="viewforume4b2.html?f=13&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; GD-77 / DM-1801 / RD-5R / GD-77S</span></a></li>
+																<li><a href="viewforum3072.html?f=18&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-9600 / Retevis RT-90</span></a></li>
+																<li><a href="viewforum71f6.html?f=19&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a></li>
+																<li><a href="viewforum566e.html?f=28&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD2017 / Retevis RT-82</span></a></li>
+																<li><a href="viewforum976e.html?f=27&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Other unsupported radios</span></a></li>
+																<li><a href="viewforum68f5.html?f=6&amp" class="jumpbox-cat-link"> <span> Discussions</span></a></li>
+																<li><a href="viewforum5c89.html?f=10&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; New members must post here first</span></a></li>
+																<li><a href="viewforum3e36.html?f=29&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Help needed</span></a></li>
+																<li><a href="viewforum7cb0.html?f=7&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; General discussions</span></a></li>
+																<li><a href="viewforumc69f.html?f=9&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Hotspot mode</span></a></li>
+																<li><a href="viewforume094.html?f=22&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Voice prompts</span></a></li>
+																<li><a href="viewforumd275.html?f=23&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Localisation</span></a></li>
+																<li><a href="viewforum5cd2.html?f=14&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Codeplugs</span></a></li>
+																<li><a href="viewforum41c9.html?f=17&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1801 specific</span></a></li>
+																<li><a href="viewforum93b2.html?f=25&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1701 / Retevis RT-84 specific</span></a></li>
+																<li><a href="viewforume716.html?f=16&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Developer discussions</span></a></li>
+																<li><a href="viewforum53f9.html?f=26&amp" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-2017 / RT-82</span></a></li>
+																<li><a href="viewforum5fd2.html?f=11&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Bug reports</span></a></li>
+																<li><a href="viewforume051.html?f=8&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Off topic</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer"  style="display:none" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="index76ff.html?sid=" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="UTC">UTC</span></li>
+							<li class="rightside">
+				<a href="ucp.php?mode=delete_cookies&amp" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+																<li class="rightside" data-last-responsive="true">
+				<a href="memberlist.php?mode=contactadmin&amp" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="cron200f.gif?cron_type=cron.task.core.tidy_sessions&amp" width="1" height="1" alt="cron" /></div>
+
+<script src="assets/javascript/jquery.min245c.js?assets_version=3"></script>
+<script src="assets/javascript/core245c.js?assets_version=3"></script>
+
+
+
+<script src="styles/prosilver/template/forum_fn245c.js?assets_version=3"></script>
+<script src="styles/prosilver/template/ajax245c.js?assets_version=3"></script>
+
+
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=12&t=959&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 11:07:59 GMT -->
+</html>

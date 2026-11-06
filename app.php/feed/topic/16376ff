@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/163" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-11-28T16:03:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/163</id>
+
+		<entry>
+		<author><name><![CDATA[HI8NLO]]></name></author>
+		<updated>2019-11-28T16:03:46</updated>
+
+		<published>2019-11-28T16:03:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=1008#p1008</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=1008#p1008"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=1008#p1008"><![CDATA[
+Testing this update and it's working marvelously. One question would be on the reason why the black bar on the TS was removed. It was very informative on which TS was previously selected and the one currently active by the monitor.<br><br>Other than that working very well. I'll keep testing on the local Dominican Republic repeaters.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=180">HI8NLO</a> — Thu Nov 28, 2019 4:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-28T01:36:12</updated>
+
+		<published>2019-11-28T01:36:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=980#p980</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=980#p980"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=980#p980"><![CDATA[
+Originally with the Channel Details screen the changes were only temporary unless you pressed Function + Green to leave the screen.<br><br>However with some other changes including reading the VFO into the Channel, it was decided that changes made in the Channel Details screen should always be permanent (written back to the codeplug).<br><br>So I agree, this method could be a temporary override.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Nov 28, 2019 1:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC7RBW]]></name></author>
+		<updated>2019-11-28T01:29:51</updated>
+
+		<published>2019-11-28T01:29:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=979#p979</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=979#p979"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=979#p979"><![CDATA[
+<blockquote class="uncited"><div>Alternative on FM it could display if Rx CTCSS is enabled and show the CTCSS frequency</div></blockquote>That would be great. Often you'd want to have an Rx CTCSS programmed into a channel, but may want to disabling it without the channel forgetting what it is, for example to listen to some interfering traffic.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=182">KC7RBW</a> — Thu Nov 28, 2019 1:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-27T20:42:10</updated>
+
+		<published>2019-11-27T20:42:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=961#p961</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=961#p961"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=961#p961"><![CDATA[
+If it was complete off, it would display “Filter:None” when in DMR mode, but I agree, people should still understand what this means and know what mode they are in.<br><br>Alternative on FM it could display if Rx CTCSS is enabled and show the CTCSS frequency<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Nov 27, 2019 8:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YT5HOK]]></name></author>
+		<updated>2019-11-27T20:36:48</updated>
+
+		<published>2019-11-27T20:36:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=959#p959</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=959#p959"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=959#p959"><![CDATA[
+IMHO, Filter:CC,TS,TG is just fine. Everybody knows what CC, TS &amp; TG stands for, so obviously it's not for FM.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=97">YT5HOK</a> — Wed Nov 27, 2019 8:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-27T20:24:38</updated>
+
+		<published>2019-11-27T20:24:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=958#p958</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=958#p958"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=958#p958"><![CDATA[
+I think the name I gave to this is not ideal<br><br>The setting is how much filtering is applied to the DMR signal.<br><br>Eventually I am hoping to be able to support multiple levels of filtering, but at the moment the only filter that can be turned on and off is TS.<br>I <br>I tried to remove CC filtering but I have not managed to get DMR Rx to work when I don’t filter the CC.<br><br>The CC filtering is done in the code, but there are multiple places where the CC is checked and simply changing the code so that the checking could be disabled , in all the places it’s used, caused all sorts of strange problems with the DMR reception.<br><br>TG filtering should also be possible, since the official firmware does this. However I don’t think I would actually use it<br><br>Rather than calling this “DMR mon” , short for DMR Monitor. It should really be called “DMR Filter”, but that takes too many characters on the screen.<br>Perhaps I should change it to   Filter e.g. “Filter:CC,TS,TG”, and on FM show it as “Filter:N/A”<br>Or perhaps “D Filter”<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Nov 27, 2019 8:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-11-27T20:04:15</updated>
+
+		<published>2019-11-27T20:04:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=956#p956</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=956#p956"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=956#p956"><![CDATA[
+No worries, Rob! Enjoy<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Wed Nov 27, 2019 8:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W1AEX]]></name></author>
+		<updated>2019-11-27T17:46:33</updated>
+
+		<published>2019-11-27T17:46:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=940#p940</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=940#p940"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=940#p940"><![CDATA[
+Thank you Bud! I was not aware that I could use the left arrow key to only select MON:CC in the filtering. It's working fine thanks to your explanation! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>73,<br><br>Rob W1AEX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=125">W1AEX</a> — Wed Nov 27, 2019 5:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-11-27T16:18:44</updated>
+
+		<published>2019-11-27T16:18:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=931#p931</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=931#p931"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=931#p931"><![CDATA[
+<blockquote class="uncited"><div>I installed the "Latest" firmware (08:43:16 Nov 27 2019 232357f) to test the dual TS monitoring, but when I bring up the Quick Menu and select the DMR Mon:CC, TS option with the green key, I don't see the inverse display indication over the TS field. Maybe I'm not enabling it correctly?<br><br>Thanks,<br><br>Rob W1AEX</div></blockquote>You will see the inverse display over TS when you only select Mon:CC in the filtering. You don't want Mon: CC, TS if you want to monitor both TS because then it will filter by TS as well.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Wed Nov 27, 2019 4:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W1AEX]]></name></author>
+		<updated>2019-11-27T15:39:55</updated>
+
+		<published>2019-11-27T15:39:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=928#p928</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=928#p928"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=928#p928"><![CDATA[
+I installed the "Latest" firmware (08:43:16 Nov 27 2019 232357f) to test the dual TS monitoring, but when I bring up the Quick Menu and select the DMR Mon:CC, TS option with the green key, I don't see the inverse display indication over the TS field. Maybe I'm not enabling it correctly?<br><br>Thanks,<br><br>Rob W1AEX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=125">W1AEX</a> — Wed Nov 27, 2019 3:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-27T07:44:46</updated>
+
+		<published>2019-11-27T07:44:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=911#p911</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=911#p911"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=911#p911"><![CDATA[
+This version has now been loaded to OpenGD77_latest.sgl<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Nov 27, 2019 7:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-26T23:58:18</updated>
+
+		<published>2019-11-26T23:58:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=897#p897</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=897#p897"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=897#p897"><![CDATA[
+Thanks<br><br>Leaving it on works OK for me.<br><br>BTW. I've updated the OpenGD77_latest.sgl file on github, but its basically the same as the file I posted here.<br><br>The only change is to default the Monitor time to 10 secs as 5 may be a bit short<br><br>People can always change the timout if 10 is too long<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 26, 2019 11:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-11-26T23:20:18</updated>
+
+		<published>2019-11-26T23:20:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=894#p894</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=894#p894"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=894#p894"><![CDATA[
+<blockquote class="uncited"><div>Colin<br><br>I'm now not sure about this.<br><br>In the official firmware and on the MD-380 Tools, if you put it into promiscuous mode it stays in that mode until you turn it off.<br>I'm not sure what radios like the Anytone do ?<br><br>With my change to hold on the current TS when Tx ends, I don't have any problems having a QSO with the DMR Mon turned on.<br><br>I think I'll release it, in the current form, and get some user feedback about whether people want it to turn off if they press PTT or press the Blue button.</div></blockquote>The Anytone stays in digital monitor mode until you actively turn it off. Keying up while it is in digital monitor will key on the channel/TS/TG that you have set independent of digital monitor.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Tue Nov 26, 2019 11:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-26T21:39:50</updated>
+
+		<published>2019-11-26T21:39:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=887#p887</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=887#p887"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=887#p887"><![CDATA[
+Colin<br><br>I'm now not sure about this.<br><br>In the official firmware and on the MD-380 Tools, if you put it into promiscuous mode it stays in that mode until you turn it off.<br>I'm not sure what radios like the Anytone do ?<br><br>With my change to hold on the current TS when Tx ends, I don't have any problems having a QSO with the DMR Mon turned on.<br><br>I think I'll release it, in the current form, and get some user feedback about whether people want it to turn off if they press PTT or press the Blue button.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 26, 2019 9:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-26T20:30:54</updated>
+
+		<published>2019-11-26T20:30:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=163&amp;p=877#p877</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=163&amp;p=877#p877"/>
+		<title type="html"><![CDATA[Re: DMR filtering by CC TS and TG]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=163&amp;p=877#p877"><![CDATA[
+Hi Colin<br><br>Yes. I think you are right.<br><br>I had intended pressing PTT to chance the monitor mode, but I made a mistake in the code.<br><br>My change in the latest version I posted, works Ok, But I agree it’s probably better that this behaves like scanning does, and disables monitor mode<br><br>I will change the code so that either pressing the PTT or the blue button disables it<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 26, 2019 8:30 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

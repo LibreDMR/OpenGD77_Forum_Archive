@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5116" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-14T12:07:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5116</id>
+
+		<entry>
+		<author><name><![CDATA[WA2SRA]]></name></author>
+		<updated>2025-05-14T12:07:52</updated>
+
+		<published>2025-05-14T12:07:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37099#p37099</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37099#p37099"/>
+		<title type="html"><![CDATA[Re: Can't Update Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37099#p37099"><![CDATA[
+I had the same problem trying to download the firmware on a new dm1700.  I am running a Winblow 10 pro machine and had to update the driver to the"Dfuse 3_0_6) driver.  I was able to locate it on one of the posts in this group.<br><br>It was frustrating, being my first attempt at DMR.  After the driver was installed it worked like a champ.  Now just trying to figure out how to make my code plug. lol<br><br>73<br>WA2SRA<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8599">WA2SRA</a> — Wed May 14, 2025 12:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-12T06:59:42</updated>
+
+		<published>2025-05-12T06:59:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37071#p37071</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37071#p37071"/>
+		<title type="html"><![CDATA[Re: Can't Update Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37071#p37071"><![CDATA[
+<blockquote class="uncited"><div>I've solved the problem. I was trying to upgrade using Windows 11 under VMWare on my Mac. Finally gave up and borrowed a real Windows machine. All is well. As you guessed, the problem was the driver...didn't work under VMWare. Thanks again for a great project!!</div></blockquote>The problem is probably that W11 automatically installed the wrong version of driver.<br><br>The driver is from ST Micro who make the CPU.    Unfortunatly they released an updated driver last year, which is incompatible with existing firmware loaders.<br><br>I've no idea why they did something this stupid.  Possibly they didn't consider 3rd party firmware loaders.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon May 12, 2025 6:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K6DRK]]></name></author>
+		<updated>2025-05-12T05:52:29</updated>
+
+		<published>2025-05-12T05:52:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37070#p37070</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37070#p37070"/>
+		<title type="html"><![CDATA[Re: Can't Update Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37070#p37070"><![CDATA[
+I've solved the problem. I was trying to upgrade using Windows 11 under VMWare on my Mac. Finally gave up and borrowed a real Windows machine. All is well. As you guessed, the problem was the driver...didn't work under VMWare. Thanks again for a great project!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3562">K6DRK</a> — Mon May 12, 2025 5:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-12T05:28:21</updated>
+
+		<published>2025-05-12T05:28:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37069#p37069</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37069#p37069"/>
+		<title type="html"><![CDATA[Re: Can't Update Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37069#p37069"><![CDATA[
+<blockquote class="uncited"><div>I seem to be stuck in a bit of a Catch-22. I can install the latest firmware. I have CPS 2025.03.23.01. The Retevis RT-3S is running firmware 20231231192827. The firmware loader reports "Radio not connected or not in DFU mode". However the LD is alternating red/green as usual for DFU. Also in non-DFU mode the COM port works fine for up/downloading codeplug data. How can I resolve the conflict between the CPS and firmware?</div></blockquote>Do you have the correct DFU driver installed<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon May 12, 2025 5:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K6DRK]]></name></author>
+		<updated>2025-05-12T00:13:16</updated>
+
+		<published>2025-05-12T00:13:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37068#p37068</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37068#p37068"/>
+		<title type="html"><![CDATA[Can't Update Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5116&amp;p=37068#p37068"><![CDATA[
+I seem to be stuck in a bit of a Catch-22. I can install the latest firmware. I have CPS 2025.03.23.01. The Retevis RT-3S is running firmware 20231231192827. The firmware loader reports "Radio not connected or not in DFU mode". However the LD is alternating red/green as usual for DFU. Also in non-DFU mode the COM port works fine for up/downloading codeplug data. How can I resolve the conflict between the CPS and firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3562">K6DRK</a> — Mon May 12, 2025 12:13 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

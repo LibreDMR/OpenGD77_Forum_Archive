@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2105" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-02-16T11:16:42</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2105</id>
+
+		<entry>
+		<author><name><![CDATA[YT5HOK]]></name></author>
+		<updated>2022-02-16T11:16:42</updated>
+
+		<published>2022-02-16T11:16:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17504#p17504</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17504#p17504"/>
+		<title type="html"><![CDATA[Re: Talk Permit Channel/CC free tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17504#p17504"><![CDATA[
+<blockquote class="uncited"><div>This may be possible, but it does not work correctly with the official firmware, so possibly the C6000 DMR chips has bugs in this functionality</div></blockquote>Thanks Roger! "Possible" as an answer is enough for now.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=97">YT5HOK</a> — Wed Feb 16, 2022 11:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-02-16T08:48:31</updated>
+
+		<published>2022-02-16T08:48:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17497#p17497</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17497#p17497"/>
+		<title type="html"><![CDATA[Re: Talk Permit Channel/CC free tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17497#p17497"><![CDATA[
+<blockquote class="uncited"><div>Let me move this here... <br><blockquote class="uncited"><div>...<br>What is not suppoted is the Talk Permit Channel free / CC free system</div></blockquote>Did I miss the talk about it somewhere on the forum...? <br><br>Before, I didn't need any tones (they where too loud and I turned them off), cause I could tell by blinks of the display and clicks of the speaker when to speak.<br><br>Now when the FW is much better (with one new very special option - click suppression) I start to miss channel free tone, as I have it on other radios.<br><br>tl;dr?  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy">   Can channel free tone be implemented for MD9600?</div></blockquote>This may be possible, but it does not work correctly with the official firmware, so possibly the C6000 DMR chips has bugs in this functionality<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 16, 2022 8:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YT5HOK]]></name></author>
+		<updated>2022-02-16T08:18:06</updated>
+
+		<published>2022-02-16T08:18:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17495#p17495</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17495#p17495"/>
+		<title type="html"><![CDATA[Talk Permit Channel/CC free tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2105&amp;p=17495#p17495"><![CDATA[
+Let me move this here... <br><blockquote class="uncited"><div>...<br>What is not suppoted is the Talk Permit Channel free / CC free system</div></blockquote>Did I miss the talk about it somewhere on the forum...? <br><br>Before, I didn't need any tones (they where too loud and I turned them off), cause I could tell by blinks of the display and clicks of the speaker when to speak.<br><br>Now when the FW is much better (with one new very special option - click suppression) I start to miss channel free tone, as I have it on other radios.<br><br>tl;dr?  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy">   Can channel free tone be implemented for MD9600?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=97">YT5HOK</a> — Wed Feb 16, 2022 8:18 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

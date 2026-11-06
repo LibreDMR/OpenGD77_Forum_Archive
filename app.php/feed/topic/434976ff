@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4349" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-01T20:33:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4349</id>
+
+		<entry>
+		<author><name><![CDATA[K1KJR]]></name></author>
+		<updated>2024-09-01T20:33:52</updated>
+
+		<published>2024-09-01T20:33:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32708#p32708</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32708#p32708"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32708#p32708"><![CDATA[
+Success! Thanks to all for their help. Flashed 4.3.6 FW and reinstalled CPS R2024.08.11.01<br><br>She reads and writes like a champ now!<br><br>Now if I could only remember why I wanted to update it…..<img alt="🤨" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f928.svg"><img alt="🤔" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f914.svg"><img alt="😉" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f609.svg"><img alt="😬" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f62c.svg"><img alt="😂" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f602.svg"><br><br>Thanks again.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1417">K1KJR</a> — Sun Sep 01, 2024 8:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA7IQE]]></name></author>
+		<updated>2024-08-30T01:26:15</updated>
+
+		<published>2024-08-30T01:26:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32677#p32677</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32677#p32677"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32677#p32677"><![CDATA[
+After updating framework 4.8, the issue was resolved<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6826">BA7IQE</a> — Fri Aug 30, 2024 1:26 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-08-29T22:32:16</updated>
+
+		<published>2024-08-29T22:32:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32674#p32674</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32674#p32674"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32674#p32674"><![CDATA[
+<blockquote class="uncited"><div>I'm also struggling a little...<br><br>I have managed to read and write to my RD5R several times but it's very hit and miss. Sometimes it see's the com port sometimes only displays the line printer port.  Have looked in device manage and nothing changes when I attach my lead with the RD5R in bootloader ... ah wait a minute<br><br>DOES NOT NEED TO BE IN BOOTLOAD MODE - WHAT AN IDIOT!!! - SORRY AS YOU WERE<br><br><br><br>I'm on WIN10  using  CPS Version R2024.08.11.01</div></blockquote> Bootlloader mode is only when you load new firmware, not for config updates.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Aug 29, 2024 10:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[GM7RBY]]></name></author>
+		<updated>2024-08-29T13:59:48</updated>
+
+		<published>2024-08-29T13:59:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32668#p32668</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32668#p32668"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32668#p32668"><![CDATA[
+I'm also struggling a little...<br><br>I have managed to read and write to my RD5R several times but it's very hit and miss. Sometimes it see's the com port sometimes only displays the line printer port.  Have looked in device manage and nothing changes when I attach my lead with the RD5R in bootloader ... ah wait a minute<br><br>DOES NOT NEED TO BE IN BOOTLOAD MODE - WHAT AN IDIOT!!! - SORRY AS YOU WERE<br><br><br><br>I'm on WIN10  using  CPS Version R2024.08.11.01<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6824">GM7RBY</a> — Thu Aug 29, 2024 1:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-08-29T05:07:25</updated>
+
+		<published>2024-08-29T05:07:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32662#p32662</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32662#p32662"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32662#p32662"><![CDATA[
+<blockquote class="uncited"><div>What is the current release of both CPS and FW and where are the link located?<br><br>thanks</div></blockquote>CPS  OpenGD77CPSInstaller_R2024.08.11.01.exe<br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/" class="postlink">downloads/PC_CPS/Latest/</a><br><br>I'm not sure what radio you have so I post links to all models.<br>Latest compile date seems to be 2024-08-03 <br><br><a href="https://www.opengd77.com/downloads/MDUV380_DM1701/Firmware/Latest" class="postlink">downloads/MDUV380_DM1701/Firmware/Latest</a><br><br><a href="https://www.opengd77.com/downloads/MD9600/Firmware/Latest" class="postlink">downloads/MD9600/Firmware/Latest</a><br><br><a href="https://www.opengd77.com/downloads/MD2017/Firmware/" class="postlink">downloads/MD2017/Firmware/</a><br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">downloads/GD77/Firmware/Latest</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Aug 29, 2024 5:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K1KJR]]></name></author>
+		<updated>2024-08-28T22:16:57</updated>
+
+		<published>2024-08-28T22:16:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32660#p32660</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32660#p32660"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32660#p32660"><![CDATA[
+What is the current release of both CPS and FW and where are the link located?<br><br>thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1417">K1KJR</a> — Wed Aug 28, 2024 10:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-08-27T05:56:49</updated>
+
+		<published>2024-08-27T05:56:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32648#p32648</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32648#p32648"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32648#p32648"><![CDATA[
+What is your firmware version. <br>Looks like predating RadioInfo support, hence more recent CPS won't support it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Aug 27, 2024 5:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-27T04:31:14</updated>
+
+		<published>2024-08-27T04:31:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32646#p32646</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32646#p32646"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32646#p32646"><![CDATA[
+Windows 11 ?<br><br>Basically it looks like a COM port problem. <br><br>In the device manager, do you see a COM port for the radio ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Aug 27, 2024 4:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K1KJR]]></name></author>
+		<updated>2024-08-26T21:02:59</updated>
+
+		<published>2024-08-26T21:02:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32642#p32642</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32642#p32642"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32642#p32642"><![CDATA[
+I thought i did. I used the link pinned to the top of CPS?<div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2556&amp;sid=71906eb09727d7f9972b123d46e0d2db" class="postimage" alt="Screenshot 2024-08-26 170034.png" onclick="viewableArea(this);" /></dt></dl></div>both links appear to be the same version?<br><br>thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1417">K1KJR</a> — Mon Aug 26, 2024 9:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-26T20:33:16</updated>
+
+		<published>2024-08-26T20:33:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32640#p32640</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32640#p32640"/>
+		<title type="html"><![CDATA[Re: Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32640#p32640"><![CDATA[
+Try the latest version.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Aug 26, 2024 8:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K1KJR]]></name></author>
+		<updated>2024-08-26T19:54:49</updated>
+
+		<published>2024-08-26T19:54:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32637#p32637</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32637#p32637"/>
+		<title type="html"><![CDATA[Object reference error related to COM port? 2024081101]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4349&amp;p=32637#p32637"><![CDATA[
+Hi<br>Just installed R2024.08.11.01. OPENGD77 version unknown but likely the dec 2021 version.<br><br>Getting an Object reference error when trying to read the radio.<br><br>Device mgr OPENGD77 Com4<br><br>Getting an Object reference error when trying to read the radio.<br><br>I don't see anywhere to set the com port in the CPS.<br><br>I've been hesitant to flash the firmware as I'm worried it will brick the radio<br><br>HELP?<br><br>Thanks in advance!<br><br>Text below<br><br>See the end of this message for details on invoking <br>just-in-time (JIT) debugging instead of this dialog box.<br><br>************** Exception Text **************<br>System.NullReferenceException: Object reference not set to an instance of an object.<br>   at DMR.OpenGD77Form.readOpenGD77RadioInfoAndUpdateUSBBufferSize(SerialPort port, Boolean stealth)<br>   at DMR.OpenGD77Form.probeRadioModel(Boolean stealth)<br>   at DMR.OpenGD77Form.OpenGD77Form_Load(Object sender, EventArgs e)<br>   at System.Windows.Forms.Form.OnLoad(EventArgs e)<br>   at System.Windows.Forms.Form.OnCreateControl()<br>   at System.Windows.Forms.Control.CreateControl(Boolean fIgnoreVisible)<br>   at System.Windows.Forms.Control.CreateControl()<br>   at System.Windows.Forms.Control.WmShowWindow(Message&amp; m)<br>   at System.Windows.Forms.Control.WndProc(Message&amp; m)<br>   at System.Windows.Forms.ScrollableControl.WndProc(Message&amp; m)<br>   at System.Windows.Forms.ContainerControl.WndProc(Message&amp; m)<br>   at System.Windows.Forms.Form.WmShowWindow(Message&amp; m)<br>   at System.Windows.Forms.Form.WndProc(Message&amp; m)<br>   at System.Windows.Forms.Control.ControlNativeWindow.OnMessage(Message&amp; m)<br>   at System.Windows.Forms.Control.ControlNativeWindow.WndProc(Message&amp; m)<br>   at System.Windows.Forms.NativeWindow.Callback(IntPtr hWnd, Int32 msg, IntPtr wparam, IntPtr lparam)<br><br><br>************** Loaded Assemblies **************<br>mscorlib<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9261.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/Windows/Microsoft.NET/Framework/v4.0.30319/mscorlib.dll<br>----------------------------------------<br>OpenGD77CPS<br>    Assembly Version: 1.2.8989.24264<br>    Win32 Version: 1.0.0.0<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/OpenGD77CPS.exe<br>----------------------------------------<br>System.Windows.Forms<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9251.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Windows.Forms/v4.0_4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll<br>----------------------------------------<br>System<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9261.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System/v4.0_4.0.0.0__b77a5c561934e089/System.dll<br>----------------------------------------<br>System.Drawing<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Drawing/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll<br>----------------------------------------<br>WeifenLuo.WinFormsUI.Docking<br>    Assembly Version: 3.0.4.0<br>    Win32 Version: 3.0.4.0<br>    CodeBase: file:///C:/Program%20Files%20(x86)/OpenGD77CPS/WeifenLuo.WinFormsUI.Docking.DLL<br>----------------------------------------<br>System.Data<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9214.0 built by: NET481REL1LAST_B<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_32/System.Data/v4.0_4.0.0.0__b77a5c561934e089/System.Data.dll<br>----------------------------------------<br>System.Xml<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Xml/v4.0_4.0.0.0__b77a5c561934e089/System.Xml.dll<br>----------------------------------------<br>System.Configuration<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Configuration/v4.0_4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll<br>----------------------------------------<br>System.Core<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9261.0 built by: NET481REL1LAST_C<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Core/v4.0_4.0.0.0__b77a5c561934e089/System.Core.dll<br>----------------------------------------<br>Accessibility<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/Accessibility/v4.0_4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll<br>----------------------------------------<br>System.Numerics<br>    Assembly Version: 4.0.0.0<br>    Win32 Version: 4.8.9032.0 built by: NET481REL1<br>    CodeBase: file:///C:/WINDOWS/Microsoft.Net/assembly/GAC_MSIL/System.Numerics/v4.0_4.0.0.0__b77a5c561934e089/System.Numerics.dll<br>----------------------------------------<br><br>************** JIT Debugging **************<br>To enable just-in-time (JIT) debugging, the .config file for this<br>application or computer (machine.config) must have the<br>jitDebugging value set in the system.windows.forms section.<br>The application must also be compiled with debugging<br>enabled.<br><br>For example:<br><br>&lt;configuration&gt;<br>    &lt;system.windows.forms jitDebugging="true" /&gt;<br>&lt;/configuration&gt;<br><br>When JIT debugging is enabled, any unhandled exception<br>will be sent to the JIT debugger registered on the computer<br>rather than be handled by this dialog box.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2555&amp;sid=71906eb09727d7f9972b123d46e0d2db" class="postimage" alt="Screenshot 2024-08-26 151451.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1417">K1KJR</a> — Mon Aug 26, 2024 7:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

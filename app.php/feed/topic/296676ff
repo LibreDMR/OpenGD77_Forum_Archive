@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2966" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-13T11:39:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2966</id>
+
+		<entry>
+		<author><name><![CDATA[g0faj]]></name></author>
+		<updated>2024-08-13T11:39:47</updated>
+
+		<published>2024-08-13T11:39:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=32491#p32491</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=32491#p32491"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=32491#p32491"><![CDATA[
+I have tried an brand new TYT MD UV380 with open gd77 software but am having the same effect as on the GD77...I have to agree that the RX on both rigs are not capable of decoding weak fluttery signals on DMR so it needs a different transceiver.  Many thanks for all those that have contributed to the post. It was a very intersting test... 73 de Les G0FAJ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1887">g0faj</a> — Tue Aug 13, 2024 11:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g0faj]]></name></author>
+		<updated>2024-03-09T10:21:13</updated>
+
+		<published>2024-03-09T10:21:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=30046#p30046</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=30046#p30046"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=30046#p30046"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi G0FAJ,<br><br>Did you ever find a solution for this poor DMR RX? I'm having this issue on a local DMR repeater that I have a fairly good signal from. I am running the latest firmware. I was hoping maybe there was setting that might correct the issue. I'm having the issue on 2 DM-1701s that I have here.<br><br>Thanks,<br>KD6PLW</div></blockquote>Like I said in my previous posts.<br><br>The RF chipset in these radios is susceptible to interferance of various sorts, and there is nothing that can be done about it.<br><br>You could possibly try manually adjusting the frequency in 100Hz steps , up and down, in case the frequency calibration of your local repeater does not match your radio, but that's about all you can do.</div></blockquote>I will try the calibration as it seems to be a problem with all channels.. I am not very au fait with digital and am having problems updating the firmware to the most recent one, but Ill keep trying.  Thankyou for your help.  73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1887">g0faj</a> — Sat Mar 09, 2024 10:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g0faj]]></name></author>
+		<updated>2024-03-09T10:18:28</updated>
+
+		<published>2024-03-09T10:18:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=30045#p30045</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=30045#p30045"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=30045#p30045"><![CDATA[
+HI KD6PLW..  NO , I AM STILL LOOKING AT POSSIBLY THE CALIBRATION SET OP OR DOWNLOADING THE MOST RECENT FIRMWARE , BUT AM HAVING DIFFICULTY AS iM NOT VERY AU FAIT WITH THIS DIGITAL STUFF...IM A BIT OF A LUDDITE !!  73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1887">g0faj</a> — Sat Mar 09, 2024 10:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-03T23:31:14</updated>
+
+		<published>2024-03-03T23:31:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29934#p29934</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29934#p29934"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29934#p29934"><![CDATA[
+<blockquote class="uncited"><div>Hi G0FAJ,<br><br>Did you ever find a solution for this poor DMR RX? I'm having this issue on a local DMR repeater that I have a fairly good signal from. I am running the latest firmware. I was hoping maybe there was setting that might correct the issue. I'm having the issue on 2 DM-1701s that I have here.<br><br>Thanks,<br>KD6PLW</div></blockquote>Like I said in my previous posts.<br><br>The RF chipset in these radios is susceptible to interferance of various sorts, and there is nothing that can be done about it.<br><br>You could possibly try manually adjusting the frequency in 100Hz steps , up and down, in case the frequency calibration of your local repeater does not match your radio, but that's about all you can do.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Mar 03, 2024 11:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD6PLW]]></name></author>
+		<updated>2024-03-03T23:13:30</updated>
+
+		<published>2024-03-03T23:13:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29931#p29931</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29931#p29931"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29931#p29931"><![CDATA[
+Hi G0FAJ,<br><br>Did you ever find a solution for this poor DMR RX? I'm having this issue on a local DMR repeater that I have a fairly good signal from. I am running the latest firmware. I was hoping maybe there was setting that might correct the issue. I'm having the issue on 2 DM-1701s that I have here.<br><br>Thanks,<br>KD6PLW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5760">KD6PLW</a> — Sun Mar 03, 2024 11:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g0faj]]></name></author>
+		<updated>2024-02-28T10:43:58</updated>
+
+		<published>2024-02-28T10:43:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29838#p29838</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29838#p29838"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29838#p29838"><![CDATA[
+<blockquote class="uncited"><div>Latest firmware for the MD9600 is 31st Dec 2023. You should update, but it will not improve the Rx of weak signals.<br><br>To me this sounds like you have hardware problems with the radio.</div></blockquote>Hi.. I havent tried updating the firmware yet, but I have 2 x Open GD77s and both have the same problem.. I am trying to find the article that said about changing a code to 13 which said about curing the problem but am unable to find it in the posts. This is only affecting my GD77s.  73 de Les G0FAJ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1887">g0faj</a> — Wed Feb 28, 2024 10:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-28T10:18:06</updated>
+
+		<published>2024-02-28T10:18:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29836#p29836</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29836#p29836"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29836#p29836"><![CDATA[
+Latest firmware for the MD9600 is 31st Dec 2023. You should update, but it will not improve the Rx of weak signals.<br><br>To me this sounds like you have hardware problems with the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 28, 2024 10:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g0faj]]></name></author>
+		<updated>2024-02-28T10:06:47</updated>
+
+		<published>2024-02-28T10:06:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29835#p29835</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29835#p29835"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=29835#p29835"><![CDATA[
+<blockquote class="uncited"><div>Do you really mean Timeslots? The way you phrase your question sounds more like you mean Talkgroups. <br><br>If that is the case then what you hear is determined by the DMR Filter setting. By default is is set to OFF which means there is no filtering and all talkgroups will be heard. <br>Setting the DMR filter to 'TG' will only pass the currently selected talkgroup.  <br><br>Note that this does not affect what the repeater is sending. It will still send the non selected talkgroup, you just won't hear it. <br><br>If you really did mean Timeslot then the same thing applies with the TS Filter. <br><br><br>Colin G4EML</div></blockquote>Hi Colin....sorry for the delay in replying.. I have sorted out some of the problems on my Open GD77 now with your suggestions, thankyou, but I still am having problems with the receiver on DMR.  I have seen posts to say there is a fix for the Open GD77 to stop getting gobbldegook on weaker signals, but as I am a bit of a luddite I have no idea what to do to try and implement this on my GD77. The effect is not there on my Open GD77 version on my MD TYT 9600... I use Windows 10 on a dualboot PC with Linux but I never use Linux, the Firmware version is Mar 4 2023 efc2c8b D.  I especially notice the problems when Im mobile or Portable using the Open GD77.  Can you please give me some idea of what I should do to implement this please ?  73 de Les G8GHU ( G0FAJ )<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1887">g0faj</a> — Wed Feb 28, 2024 10:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-06-16T23:08:55</updated>
+
+		<published>2023-06-16T23:08:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24009#p24009</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24009#p24009"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24009#p24009"><![CDATA[
+On my MD-9600 I have noticed that it can stop on a repeater with TS1 traffic even if the channel is TS2 when scanning.<br>The audio is distorted and if you then stop on the channel and poke TS or channel a bit the distorted audio will cease.<br><br>Haven't verified what happens if I don't scan and stay on the same channel as the activity is so low , especially on TS1 here.<br>But I'm pretty sure it only happens during scan.<br><br>I think I noticed it on RT3S too but it needs to verified.<br><br>( Not sure if the thread creator have noticed similar TS bleed over.)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Jun 16, 2023 11:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-06-16T18:06:16</updated>
+
+		<published>2023-06-16T18:06:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24006#p24006</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24006#p24006"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24006#p24006"><![CDATA[
+Do you really mean Timeslots? The way you phrase your question sounds more like you mean Talkgroups. <br><br>If that is the case then what you hear is determined by the DMR Filter setting. By default is is set to OFF which means there is no filtering and all talkgroups will be heard. <br>Setting the DMR filter to 'TG' will only pass the currently selected talkgroup.  <br><br>Note that this does not affect what the repeater is sending. It will still send the non selected talkgroup, you just won't hear it. <br><br>If you really did mean Timeslot then the same thing applies with the TS Filter. <br><br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Jun 16, 2023 6:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g0faj]]></name></author>
+		<updated>2023-06-16T15:28:58</updated>
+
+		<published>2023-06-16T15:28:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24005#p24005</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24005#p24005"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24005#p24005"><![CDATA[
+Another problem I do get which I assume is to do with programming is that when I listen to a DMR timeslot I can hear other timeslots on that repeater..  Can you advise on this please ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1887">g0faj</a> — Fri Jun 16, 2023 3:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g0faj]]></name></author>
+		<updated>2023-06-16T15:27:20</updated>
+
+		<published>2023-06-16T15:27:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24004#p24004</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24004#p24004"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=24004#p24004"><![CDATA[
+I guess it could be that the GD77 has a wide open front end and not a lot of selectivity and the effect Im getting on DMR is desense.I do get desense on FM so it stands to reason that it will also affect the DMR RX on 2m.  Thankyou for replying.  73 de Les G0FAJ  UK.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1887">g0faj</a> — Fri Jun 16, 2023 3:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-06-14T20:33:25</updated>
+
+		<published>2023-06-14T20:33:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=23960#p23960</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=23960#p23960"/>
+		<title type="html"><![CDATA[Re: Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=23960#p23960"><![CDATA[
+<blockquote class="uncited"><div>I have installed the latest open GD77 software. Am noticing that on DMR receive you get a weak signal gobbledegook speech even when the signal is not weak. If I listen to the same signal on my TYTMD9600 the RX is fine My 9600 also uses the Open GD9600 latest software. I use an antenna switch between the two rigs. Also when using the Open GD77 on FM rx mobile I occasionally get a crackle on FM rx similar to a poor antenna connection, but it isn't...Both my Open GD77s have the same problems on both DMR and FM.</div></blockquote>Hardware in these radios is completely different. I would not expect identical receptions<br><br>Also check your frequency calibration<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jun 14, 2023 8:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[g8ghu]]></name></author>
+		<updated>2023-06-14T19:34:43</updated>
+
+		<published>2023-06-14T19:34:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2966&amp;p=23957#p23957</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=23957#p23957"/>
+		<title type="html"><![CDATA[Open GD77 poor DMR RX]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2966&amp;p=23957#p23957"><![CDATA[
+I have installed the latest open GD77 software. Am noticing that on DMR receive you get a weak signal gobbledegook speech even when the signal is not weak. If I listen to the same signal on my TYTMD9600 the RX is fine My 9600 also uses the Open GD9600 latest software. I use an antenna switch between the two rigs. Also when using the Open GD77 on FM rx mobile I occasionally get a crackle on FM rx similar to a poor antenna connection, but it isn't...Both my Open GD77s have the same problems on both DMR and FM.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1893">g8ghu</a> — Wed Jun 14, 2023 7:34 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

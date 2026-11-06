@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3895" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-21T16:04:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3895</id>
+
+		<entry>
+		<author><name><![CDATA[G0WZA]]></name></author>
+		<updated>2024-03-21T16:04:48</updated>
+
+		<published>2024-03-21T16:04:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3895&amp;p=30268#p30268</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3895&amp;p=30268#p30268"/>
+		<title type="html"><![CDATA[Re: GD-77 usb conn issue win11]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3895&amp;p=30268#p30268"><![CDATA[
+<blockquote class="uncited"><div>Running CPS 3.1.9 Radioddity</div></blockquote>Do you have OpenGD77 or the OEM firmware on the radio?<br><br>If you have OpenGD77 then you must use the OpenGD77 CPS, not the OEM one.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5656">G0WZA</a> — Thu Mar 21, 2024 4:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K1KJR]]></name></author>
+		<updated>2024-03-21T13:32:59</updated>
+
+		<published>2024-03-21T13:32:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3895&amp;p=30265#p30265</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3895&amp;p=30265#p30265"/>
+		<title type="html"><![CDATA[GD-77 usb conn issue win11]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3895&amp;p=30265#p30265"><![CDATA[
+OK. Here to beat the deceased equine again.<br><br>Running WIN11 Pro 23H2 Build 22631.3296 installed 4/2023<br><br>Running CPS 3.1.9 Radioddity<br><br>Radioddity cable <br><br>Getting "device not found" error box after trying to read radio<br><br>On powerup a Com3 appears in Com Ports<br><br>I thought you could specify a com port in CPS but then again all CPS programs........<br><br>When i displkay firmware in setting on radio it displays this<br><a href="https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fshare.icloud.com%2Fphotos%2F0f3bpVZIkDOfcLgeYdyMD92NQ&amp;data=05%7C02%7C%7Cae2286c1e0714af1b69308dc49aa7742%7C84df9e7fe9f640afb435aaaaaaaaaaaa%7C1%7C0%7C638466243701876042%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C0%7C%7C%7C&amp;sdata=tRHA4%2F9Gr8n8tyoEraQg9bZ9ZwedbPMk4MWL1HAoENI%3D&amp;reserved=0" class="postlink">https://na01.safelinks.protection.outlo ... reserved=0</a><br><br>Radio Info screen on radio only gives Batt V and temp? The CPS version isnt displayed on startup or anywhere else I can find.<br><br>This worked before because the firmware date of 1/19/21 is the last time i updated the codeplug.<br><br>Any ideas? Probably something stupid.<br><br>thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1417">K1KJR</a> — Thu Mar 21, 2024 1:32 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

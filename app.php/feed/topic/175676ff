@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1756" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-07-15T10:43:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1756</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2021-07-15T10:43:01</updated>
+
+		<published>2021-07-15T10:43:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1756&amp;p=15231#p15231</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1756&amp;p=15231#p15231"/>
+		<title type="html"><![CDATA[Re: Backup original flash &amp; eeprom via CPS OpenGD77 support menu]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1756&amp;p=15231#p15231"><![CDATA[
+No it is not possible to backup the flash with the original firmware loaded. As you have found the original firmware does not appear as a com port. This is normal, openGD77 uses different drivers. However loading OpenGD77 does not change any of the calibration or flash settings so a backup immediately after upgrading the firmware is worth doing. <br><br>It is possible to go back to the stock firmware using the standard stock firmware sgl file and loader. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Jul 15, 2021 10:43 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

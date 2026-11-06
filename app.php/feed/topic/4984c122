@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4984" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-21T13:03:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4984</id>
+
+		<entry>
+		<author><name><![CDATA[VA2PPZ]]></name></author>
+		<updated>2025-03-21T13:02:46</updated>
+
+		<published>2025-03-21T13:02:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4984&amp;p=36333#p36333</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4984&amp;p=36333#p36333"/>
+		<title type="html"><![CDATA[Re: No internet available for Kep download]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4984&amp;p=36333#p36333"><![CDATA[
+Update:<br><br>Just installed the CPS on a  Windows 10 laptop.<br>Read from the radio no problem, then uploaded the Kep data without any issues.<br><br>Proving once again, Windows 11 was at fault.<br><br>Problem solved (use windows 10).<br><br>73 <br>Perry<br>VA2PPZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7857">VA2PPZ</a> — Fri Mar 21, 2025 1:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VA2PPZ]]></name></author>
+		<updated>2025-03-21T13:03:43 </updated>
+
+		<published>2025-03-21T12:38:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4984&amp;p=36331#p36331</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4984&amp;p=36331#p36331"/>
+		<title type="html"><![CDATA[No internet available for Kep download (solved w/win10)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4984&amp;p=36331#p36331"><![CDATA[
+Good afternoon,<br><br>I'm working with a MD-UV390+(10W/GPS).<br>Firmware version is 20250223121247<br>OpenGD77 CPS (Ver. R2025.02.03.01)<br><br>when trying to install the Kep data file, the software reports the internet connection is not available( see attached screen shot).<br><br>Running Windows 11 with antivirus turned off / no firewalls / no VPN.<br>Also tried a different address for the file download ( same result).<br>Tried cut and paste of the url directly into the address bar ( success)...proves the address is active.<br><br>73 Perry<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2882&amp;sid=e458168116631a5446881c738f3447de" class="postimage" alt="no internet.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7857">VA2PPZ</a> — Fri Mar 21, 2025 12:38 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

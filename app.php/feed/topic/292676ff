@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2926" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-08T15:46:47</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2926</id>
+
+		<entry>
+		<author><name><![CDATA[N0BFC]]></name></author>
+		<updated>2024-05-08T15:46:47</updated>
+
+		<published>2024-05-08T15:46:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=31200#p31200</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=31200#p31200"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=31200#p31200"><![CDATA[
+I see its been a couple of months since the last reply to this thread, but, instead of starting a new one, I thought I should post here first.<br>I just recently purchased a UV390 w/gps. I am using OpenGD77 and have this same "Rx Missing" issue. I am using a Raspberry Pi 3b duplex hotspot at home as there are no repeaters near me. For mobile, I use a  Pi Zero 2w also duplex with a Tmobile wifi hotspot. The problem is the same regardless of which hotspot or wifi connection I am using. <br>For me, it does not occur during a receive but rather, between contacts. Here is an example,, if I am monitoring a qso, when one person finishes and un-keys the mic, when the next person keys up and starts talking, I see the signal being received on the rssi bar, but no audio is coming out of the speaker. If I give the channel knob a quick click one direction or the other and back again, or a quick tap on the ptt, the audio then comes out the speaker. This is random and not a consistent issue. It may happen 2-3 times during a conversation, or not at all. I have tried putting the 868 on the same channel and when the 390 drops the audio, the 868 does not. It is very inconvenient to have to have two radios going because the one is unreliable. It is also inconvenient to have to constantly monitor the rssi bar to see if anyone has started talking and I'm just not hearing it. <br>Some things I have tried: updated to firmware 20240412, no difference. Various filters, dmr, ts, etc on or off,, no change. Eco positions, no change. Dmr crc on or off (not sure what it does) no change. Changed my Tx and Rx freqs to have a wider separation.. no change.<br>I really like the firmware and the cps is much more intuitive to my brain than the anytone is. I hope the information I have given as to how and when it occurs is helpful to the developers. If you need any more info, I would be happy to assist. <br>Thank you and 73<br>Rowe ~ N0BFC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5955">N0BFC</a> — Wed May 08, 2024 3:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-09T04:17:22</updated>
+
+		<published>2024-03-09T04:17:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30040#p30040</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30040#p30040"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30040#p30040"><![CDATA[
+The codec is the same in all the radios, from the single band MD380 onwards. (Note we don't support the MD380 because it uses an older version of DMR chip)<br><br>The reason we were able to use the codec is only becasue Travis Goodspeed found and analysed the codec in the MD380, and we were able to use his analysis to find the location of the codec in the other radios.<br><br>It is too complicated for us to use the codec from each individual radio, because when the location of the codec changes in the official file, it requires changes to both the CPS and the firmware to use the codec in the different location, and as the codec binary is identical this would be a pointless waste of time and effort.<br><br>All firmware for both TYT and Baofeng radios is written by the same external software development organisation, the write the codec and the application firmware and also the bootloader for all the TYT and Baofeng radios, which we support.<br>We believe that this 'organisation' is a state run company, rather than a private enterprise and hence has no company name<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 09, 2024 4:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO2AP]]></name></author>
+		<updated>2024-03-08T18:43:51</updated>
+
+		<published>2024-03-08T18:43:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30035#p30035</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30035#p30035"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30035#p30035"><![CDATA[
+Thank you for the reply, highly appreciated. <br>This missing audio occurs quite frequent, once an hour or so, and this is the second transceiver I use, the MDUV390, but the previous one, an RT3S GPS behaved identical. That was the reason to sell it. A while I stayed with an Alinco MD5 (older brother of the new Anytone) but I really missed the features developed by you guys, satellite with doppler, audio leveling, large memory to store all the users to date etc. That''s why I have the MD390 today again <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> Maybe the MD9600 codec being imported is not the same, or something is happening at the beginning at the reception and not everything initialises properly, who knows... I agree, hardware logging in real time can be a hassle, but I had to change back to the original FW just because people in traffic told me ... "well, we asked you something 30 minutes ago and you disappeared... " <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> It looked rude i did not responded, but this was a complete miss. Thanks for the reply, looking forward for the news on this topic.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4323">YO2AP</a> — Fri Mar 08, 2024 6:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-08T00:07:17</updated>
+
+		<published>2024-03-08T00:07:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30023#p30023</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30023#p30023"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30023#p30023"><![CDATA[
+<blockquote class="uncited"><div>Hello Kris, I confirm the same behavior on my side after I saw your video. Same settings, personal mmdvm in duplex mode, manual configuration of TS filters on OFF, and briefly switching channels and returning makes the audio to come back ok. Because i lose lots of communication when I am in in a qso, I sometimes cannot hear if a topic is addressed to me or not, so for now I came back on the original FW from TYT 390. Awaiting a bugfix. Respect for the developers, their work is massively appreciated. Best regards, PA2AP, Giani</div></blockquote>Its almost impossible to fix a problem which does not occur for any of the developers.<br><br>Possibly some other calibration setting which the official firmware is applying to the hardware, which is only applied to some radios, i.e. We send a lot of unknown data to the DMR chip and also to the RF chip.<br><br>There are many undocumented parts of both the DMR and RF chip, so possibly the data that we recoded on our radios, is not correct for your radio.<br><br>The only way to confirm this would be for you to dissassemble your radio and solder wires inside and then capture all the traffic to both the DMR chip and also the RF chip, but this is very difficult and would potentially damage your radio.<br><br>I almost destroyed my MD2017 when solding wires to the CPU / MCU chip to capture the data to the RF chip, becuase I shorted multiple pins<br>Luckily I saw the short before applying power to the radio and was able to remove the solder using brade wick.<br><br>Others have not been so lucky, at least one person may have destroyed their radio by shorting the internal electronics while trying to attach a GPS.<br>I still don't know whether they managed to fix that radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 08, 2024 12:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO2AP]]></name></author>
+		<updated>2024-03-07T23:48:17</updated>
+
+		<published>2024-03-07T23:48:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30020#p30020</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30020#p30020"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=30020#p30020"><![CDATA[
+<blockquote class="uncited"><div>It's sporadic for me too. Regularity is difficult to determine. Sometimes there is one Rx per hour, but sometimes it can lose two more at once.<br>I'm using eco level 0, but every level has the same missing Rx.<br>The radio can also sometimes decode noise as in the link:<br><a href="https://drive.google.com/file/d/19C3Bw7uWnaFUVhkF592cPTwMdBRmxl5v/view?usp=sharing" class="postlink">https://drive.google.com/file/d/19C3Bw7 ... sp=sharing</a><br>73, Kris SP1KC</div></blockquote>Hello Kris, I confirm the same behavior on my side after I saw your video. Same settings, personal mmdvm in duplex mode, manual configuration of TS filters on OFF, and briefly switching channels and returning makes the audio to come back ok. Because i lose lots of communication when I am in in a qso, I sometimes cannot hear if a topic is addressed to me or not, so for now I came back on the original FW from TYT 390. Awaiting a bugfix. Respect for the developers, their work is massively appreciated. Best regards, PA2AP, Giani<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4323">YO2AP</a> — Thu Mar 07, 2024 11:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-12-07T17:08:07</updated>
+
+		<published>2023-12-07T17:08:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27942#p27942</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27942#p27942"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27942#p27942"><![CDATA[
+<blockquote class="uncited"><div>I got same situation on RT3S(CPU: STM32)  and DM-1701(CPU: TYT) for a long time. This problem has never been present in the previous generation device like RD5R or GD-77 with same channel configuration.</div></blockquote>Any difference between Opengd77 and Original software?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Dec 07, 2023 5:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BI1OFX]]></name></author>
+		<updated>2023-12-07T15:51:48</updated>
+
+		<published>2023-12-07T15:51:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27939#p27939</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27939#p27939"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27939#p27939"><![CDATA[
+I got same situation on RT3S(CPU: STM32)  and DM-1701(CPU: TYT) for a long time. This problem has never been present in the previous generation device like RD5R or GD-77 with same channel configuration.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5109">BI1OFX</a> — Thu Dec 07, 2023 3:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-05T11:32:31</updated>
+
+		<published>2023-12-05T11:32:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27877#p27877</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27877#p27877"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27877#p27877"><![CDATA[
+<blockquote class="uncited"><div>You seem to be right, I just checked, the relay indeed is a MMDVM.<br>But the manual states:<blockquote class="uncited"><div>In DMR mode the signal meter will only be active when the DMR hardware detects a DMR signal.</div></blockquote>So I guess that either the manual or the code should be adapted.<br>73</div></blockquote>True. Update is on its way.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 05, 2023 11:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE6BZD]]></name></author>
+		<updated>2023-12-05T11:11:38</updated>
+
+		<published>2023-12-05T11:11:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27876#p27876</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27876#p27876"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27876#p27876"><![CDATA[
+You seem to be right, I just checked, the relay indeed is a MMDVM.<br>But the manual states:<blockquote class="uncited"><div>In DMR mode the signal meter will only be active when the DMR hardware detects a DMR signal.</div></blockquote>So I guess that either the manual or the code should be adapted.<br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5024">OE6BZD</a> — Tue Dec 05, 2023 11:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-12-05T09:40:00</updated>
+
+		<published>2023-12-05T09:40:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27873#p27873</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27873#p27873"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27873#p27873"><![CDATA[
+Looks like another digital mode, as you mention an Ham repeater, it could be an MMDVM one (hence, plenty of other available modes).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 05, 2023 9:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE6BZD]]></name></author>
+		<updated>2023-12-05T09:34:47</updated>
+
+		<published>2023-12-05T09:34:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27872#p27872</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27872#p27872"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=27872#p27872"><![CDATA[
+I've seen something similar on my MD-UV390.<br>RSSI bar comes to life, green LED lights up but no voice is received. Not in monitor mode, not with all set to filters off manually.<br>But there is something audible on FM that sounds like faint DMR.<br>Hypothetically, if someone used encryption on a ham relay, how would the relay deal with it, would it allow the transmission?<br>I'm assuming the baseband IC would not attempt to decode this as audio, could this be a possible explanation? <br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5024">OE6BZD</a> — Tue Dec 05, 2023 9:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BG4XYZ]]></name></author>
+		<updated>2023-08-27T08:28:16</updated>
+
+		<published>2023-08-27T08:28:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=25640#p25640</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=25640#p25640"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=25640#p25640"><![CDATA[
+I seem to have encountered the same situation, is there any follow-up progress on this problem, thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4361">BG4XYZ</a> — Sun Aug 27, 2023 8:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP1KC]]></name></author>
+		<updated>2023-06-01T16:24:17</updated>
+
+		<published>2023-06-01T16:24:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23796#p23796</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23796#p23796"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23796#p23796"><![CDATA[
+Why didn't I come up with this <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> <br>I turned on TYT and SDR RTL in parallel. <br>It took about 20 minutes for TYT to appear "noise" while the SDR played the normal voice.<br>Once Rx missed was also in the same time.<br>Kris, SP1KC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3337">SP1KC</a> — Thu Jun 01, 2023 4:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-05-31T14:22:38</updated>
+
+		<published>2023-05-31T14:22:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23784#p23784</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23784#p23784"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23784#p23784"><![CDATA[
+<blockquote class="uncited"><div>It's sporadic for me too. Regularity is difficult to determine. Sometimes there is one Rx per hour, but sometimes it can lose two more at once.<br>I'm using eco level 0, but every level has the same missing Rx.<br>The radio can also sometimes decode noise as in the link:<br><a href="https://drive.google.com/file/d/19C3Bw7uWnaFUVhkF592cPTwMdBRmxl5v/view?usp=sharing" class="postlink">https://drive.google.com/file/d/19C3Bw7 ... sp=sharing</a><br>73, Kris SP1KC</div></blockquote>Hmm, I noticed that I sometimes receive transmissions from some DMR repeater that is somewhat similar to what you heard, but I have to <br>analyze more in detail what is sent at that moment, maybe with a RTL-SDR and DSD+ in parallel.<br><br>I thought it was some other mode from the repeater that leaks through, I've heard it on both MD-9600 and RT3S.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed May 31, 2023 2:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP1KC]]></name></author>
+		<updated>2023-05-31T13:11:28</updated>
+
+		<published>2023-05-31T13:11:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23783#p23783</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23783#p23783"/>
+		<title type="html"><![CDATA[Re: TYT MD-UV380 DMR Rx Missing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2926&amp;p=23783#p23783"><![CDATA[
+It's sporadic for me too. Regularity is difficult to determine. Sometimes there is one Rx per hour, but sometimes it can lose two more at once.<br>I'm using eco level 0, but every level has the same missing Rx.<br>The radio can also sometimes decode noise as in the link:<br><a href="https://drive.google.com/file/d/19C3Bw7uWnaFUVhkF592cPTwMdBRmxl5v/view?usp=sharing" class="postlink">https://drive.google.com/file/d/19C3Bw7 ... sp=sharing</a><br>73, Kris SP1KC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3337">SP1KC</a> — Wed May 31, 2023 1:11 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

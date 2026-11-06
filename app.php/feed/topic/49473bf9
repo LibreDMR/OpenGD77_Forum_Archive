@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4947" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-15T20:42:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4947</id>
+
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-15T20:42:00</updated>
+
+		<published>2025-03-15T20:42:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36217#p36217</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36217#p36217"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36217#p36217"><![CDATA[
+Glad to share. So many times on Radio Reference a guy asks a question, &amp; ten minutes later replies “I figured it out” without saying what the solution was. Your FW, &amp; CPS is very intuitive. A huge improvement vs the factory CPS. Thank you for all your effort. GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Sat Mar 15, 2025 8:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-15T20:12:23</updated>
+
+		<published>2025-03-15T20:12:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36216#p36216</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36216#p36216"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36216#p36216"><![CDATA[
+<blockquote class="uncited"><div>For the benefit of the 520 people who read my OP, but didn’t know the answer, the OpenGD77 CPS runs perfectly on a Windows 7 32 bit machine. GARY.</div></blockquote>Ok. Thanks for sharing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 15, 2025 8:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-15T16:56:44</updated>
+
+		<published>2025-03-15T16:56:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36208#p36208</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36208#p36208"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36208#p36208"><![CDATA[
+For the benefit of the 520 people who read my OP, but didn’t know the answer, the OpenGD77 CPS runs perfectly on a Windows 7 32 bit machine. GARY.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Sat Mar 15, 2025 4:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-12T03:49:28</updated>
+
+		<published>2025-03-12T03:49:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36150#p36150</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36150#p36150"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36150#p36150"><![CDATA[
+This isn't legacy firmware or software, its under active development, so you should use whichever laptop best suited for this use-case<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 12, 2025 3:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-11T21:04:00</updated>
+
+		<published>2025-03-11T21:04:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36148#p36148</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36148#p36148"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36148#p36148"><![CDATA[
+<blockquote class="uncited"><div>The CPS is compiled for X86 however it is dependany on Dot Net 4.8, and I don't know if that version of Dot Net is available for W7 32 bit<br><br>Why don't you simply install a newer version of Windows e.g. Windows 10 IOT</div></blockquote>I’ve been programming Motorola radios for decades. They need to use a laptop from the same era they were made. For my System Sabers, I  have a true DOS Toshiba Satellite. For my MTS2000’s, &amp; other radios from the 90’s, I have a Windows XP laptop. For my XTS’s, XTL’s, &amp; Trbo radios, I use my Windows 7 32 bit laptop, &amp; for my newest APX’s, I do use a Windows 10 laptop. So if I need Windows 10, I have a laptop for that, but I’d rather use my Windows 7 laptop if I could. So I’d rather know which laptop I could use. But  I’d prefer the 7 laptop because it’s much smaller, &amp; easier to carry around. GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Tue Mar 11, 2025 9:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-03-11T18:51:55</updated>
+
+		<published>2025-03-11T18:51:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36147#p36147</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36147#p36147"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36147#p36147"><![CDATA[
+The CPS is compiled for X86 however it is dependany on Dot Net 4.8, and I don't know if that version of Dot Net is available for W7 32 bit<br><br>Why don't you simply install a newer version of Windows e.g. Windows 10 IOT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 11, 2025 6:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-03-11T18:23:27</updated>
+
+		<published>2025-03-11T18:23:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36144#p36144</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36144#p36144"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36144#p36144"><![CDATA[
+<blockquote class="uncited"><div>I should have the radio tomorrow. A friend who already has a 1701 with OpenGD77 will upgrade my radio with his laptop. He has a memory stick with the GD77 CPS on it. So I’m asking someone who’s already using a Windows 7 laptop to run the program vs me experimenting on my laptop. GARY.</div></blockquote>If you are not trying to upgrade the firmware on the radio. It should be fine. The comport driver for OpenGD77 CPS is not quite fuzzy as the DFU driver.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Mar 11, 2025 6:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-11T15:17:53</updated>
+
+		<published>2025-03-11T15:17:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36136#p36136</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36136#p36136"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36136#p36136"><![CDATA[
+I should have the radio tomorrow. A friend who already has a 1701 with OpenGD77 will upgrade my radio with his laptop. He has a memory stick with the GD77 CPS on it. So I’m asking someone who’s already using a Windows 7 laptop to run the program vs me experimenting on my laptop. GARY.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Tue Mar 11, 2025 3:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0JYZ]]></name></author>
+		<updated>2025-03-10T23:02:56</updated>
+
+		<published>2025-03-10T23:02:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36121#p36121</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36121#p36121"/>
+		<title type="html"><![CDATA[Re: Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36121#p36121"><![CDATA[
+Wait.  You have the radio.  You have the laptop.  You have an internet connection so you can download the cps, firmware, and drivers.  <br><br>Try it.  Report back here with your results.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5571">N0JYZ</a> — Mon Mar 10, 2025 11:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-09T05:04:25</updated>
+
+		<published>2025-03-09T05:04:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36115#p36115</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36115#p36115"/>
+		<title type="html"><![CDATA[Windows 7 laptop?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4947&amp;p=36115#p36115"><![CDATA[
+Picked up a DM-1701, &amp; wondering if I can use my Windows 7 32 bit laptop to run the program with the GD77 FW, &amp; program the radio. Thanks. GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Sun Mar 09, 2025 5:04 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

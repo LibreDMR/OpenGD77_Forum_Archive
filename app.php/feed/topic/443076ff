@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4430" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-28T18:18:40</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4430</id>
+
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2024-09-28T18:18:40</updated>
+
+		<published>2024-09-28T18:18:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33265#p33265</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33265#p33265"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33265#p33265"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>OK.<br><br>So Windows is seeing the radio.<br><br>What happens when you try to flash updated firmware to the radio ?</div></blockquote>The CPS stalls after clicking the button, "select a file and update".  it locks up the cps where i have to go into the task manager and end process to kill the stall.  and it does it on all three of my gd-77s.  This is on a PC with windows 11.</div></blockquote>I never saw anything like that happening before.<br><br>Do you have another PC you could try</div></blockquote>i downloaded the firmware file again, and this time it took.  maybe a corrupt file before.  anyway Thanks Roger for the help.  All is good now<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sat Sep 28, 2024 6:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-28T07:30:28</updated>
+
+		<published>2024-09-28T07:30:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33253#p33253</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33253#p33253"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33253#p33253"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br>Under the HID branch I have 4 usb input devices, and when i set the radio in firmware upload mode i get a 5th one.  Windows beeps when connected.</div></blockquote>OK.<br><br>So Windows is seeing the radio.<br><br>What happens when you try to flash updated firmware to the radio ?</div></blockquote>The CPS stalls after clicking the button, "select a file and update".  it locks up the cps where i have to go into the task manager and end process to kill the stall.  and it does it on all three of my gd-77s.  This is on a PC with windows 11.</div></blockquote>I never saw anything like that happening before.<br><br>Do you have another PC you could try<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 28, 2024 7:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2024-09-28T05:43:14</updated>
+
+		<published>2024-09-28T05:43:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33252#p33252</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33252#p33252"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33252#p33252"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>Under the HID branch I have 4 usb input devices, and when i set the radio in firmware upload mode i get a 5th one.  Windows beeps when connected.</div></blockquote>OK.<br><br>So Windows is seeing the radio.<br><br>What happens when you try to flash updated firmware to the radio ?</div></blockquote>The CPS stalls after clicking the button, "select a file and update".  it locks up the cps where i have to go into the task manager and end process to kill the stall.  and it does it on all three of my gd-77s.  This is on a PC with windows 11.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sat Sep 28, 2024 5:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-28T03:05:43</updated>
+
+		<published>2024-09-28T03:05:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33250#p33250</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33250#p33250"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33250#p33250"><![CDATA[
+<blockquote class="uncited"><div><br>Under the HID branch I have 4 usb input devices, and when i set the radio in firmware upload mode i get a 5th one.  Windows beeps when connected.</div></blockquote>OK.<br><br>So Windows is seeing the radio.<br><br>What happens when you try to flash updated firmware to the radio ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Sep 28, 2024 3:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2024-09-28T01:47:53</updated>
+
+		<published>2024-09-28T01:47:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33249#p33249</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33249#p33249"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33249#p33249"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>GD77 does not require a DFU driver becuase in DFU mode the radio mimics being  "Human Interface device" and Windows has a built in driver for this.<br><br>Does your GD77 already have OpenGD77 installed, or does it currently have the official firmware installed ?<br>I ask becuase there are bugs in the GD77 DFU which can prevent the radio being updated, which are caused by bugs in the official firmware</div></blockquote>the firmware installed is 20231231193513 in the gd-77's that i am trying to upgrade.</div></blockquote>OK.<br><br>If the same cable works on a UV380, it should be OK on the GD77<br><br>Look in the windows device manager, and open the HID branch and count the number of devices, then plug in the GD77 when its in DFU mode and then recount and there should be one more device.<br><br>If not then Windows is not seeing the radio</div></blockquote>Under the HID branch I have 4 usb input devices, and when i set the radio in firmware upload mode i get a 5th one.  Windows beeps when connected.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sat Sep 28, 2024 1:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-27T21:36:34</updated>
+
+		<published>2024-09-27T21:36:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33241#p33241</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33241#p33241"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33241#p33241"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>I am trying to upgrade firmware in the gd-77 and it don't work.  will work to modify code plug without firmware upload mode.  and the tyt md-uv380 works for the firmware upgrades and code plug mods.  do you have to change drivers back and forth for the two radios?</div></blockquote>GD77 does not require a DFU driver becuase in DFU mode the radio mimics being  "Human Interface device" and Windows has a built in driver for this.<br><br>Does your GD77 already have OpenGD77 installed, or does it currently have the official firmware installed ?<br>I ask becuase there are bugs in the GD77 DFU which can prevent the radio being updated, which are caused by bugs in the official firmware</div></blockquote>the firmware installed is 20231231193513 in the gd-77's that i am trying to upgrade.</div></blockquote>OK.<br><br>If the same cable works on a UV380, it should be OK on the GD77<br><br>Look in the windows device manager, and open the HID branch and count the number of devices, then plug in the GD77 when its in DFU mode and then recount and there should be one more device.<br><br>If not then Windows is not seeing the radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 27, 2024 9:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2024-09-27T21:26:06</updated>
+
+		<published>2024-09-27T21:26:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33239#p33239</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33239#p33239"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33239#p33239"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I am trying to upgrade firmware in the gd-77 and it don't work.  will work to modify code plug without firmware upload mode.  and the tyt md-uv380 works for the firmware upgrades and code plug mods.  do you have to change drivers back and forth for the two radios?</div></blockquote>GD77 does not require a DFU driver becuase in DFU mode the radio mimics being  "Human Interface device" and Windows has a built in driver for this.<br><br>Does your GD77 already have OpenGD77 installed, or does it currently have the official firmware installed ?<br>I ask becuase there are bugs in the GD77 DFU which can prevent the radio being updated, which are caused by bugs in the official firmware</div></blockquote>the firmware installed is 20231231193513 in the gd-77's that i am trying to upgrade.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Fri Sep 27, 2024 9:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-27T21:17:15</updated>
+
+		<published>2024-09-27T21:17:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33237#p33237</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33237#p33237"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33237#p33237"><![CDATA[
+<blockquote class="uncited"><div>I am trying to upgrade firmware in the gd-77 and it don't work.  will work to modify code plug without firmware upload mode.  and the tyt md-uv380 works for the firmware upgrades and code plug mods.  do you have to change drivers back and forth for the two radios?</div></blockquote>GD77 does not require a DFU driver becuase in DFU mode the radio mimics being  "Human Interface device" and Windows has a built in driver for this.<br><br>Does your GD77 already have OpenGD77 installed, or does it currently have the official firmware installed ?<br>I ask becuase there are bugs in the GD77 DFU which can prevent the radio being updated, which are caused by bugs in the official firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 27, 2024 9:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2024-09-27T20:56:30</updated>
+
+		<published>2024-09-27T20:56:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33236#p33236</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33236#p33236"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33236#p33236"><![CDATA[
+I am trying to upgrade firmware in the gd-77 and it don't work.  will work to modify code plug without firmware upload mode.  and the tyt md-uv380 works for the firmware upgrades and code plug mods.  do you have to change drivers back and forth for the two radios?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Fri Sep 27, 2024 8:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-27T09:02:45</updated>
+
+		<published>2024-09-27T09:02:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33224#p33224</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33224#p33224"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33224#p33224"><![CDATA[
+GD-77 was made by TYT, it's actual model number is MD-760, hence the GD77 and the TYT radios  (UV380 etc) can use the same cable<br><br>The Baofeng radios use a different cable.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 27, 2024 9:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2024-09-27T08:36:31</updated>
+
+		<published>2024-09-27T08:36:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33223#p33223</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33223#p33223"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33223#p33223"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>GD77 does not use STM32, so it does not use the same driver as the STM32 devices. I've never seen any driver problem with MK22 devices. Are you sure you select correct Radio in Radio Type? and correct Radio in Firmware Loader? Correct firmware and correct donor file? all of these are different than STM32 radios.</div></blockquote>Do you have any idea what is supposed to show in the device manager when the radioddity is connected in firmware mode?</div></blockquote>GD77 uses a USB HID device for DFU</div></blockquote>Simple question. Are the programing cables the same or different between the TYT radios and Radioddity (GD77)?<br><br>I have never tried using any programing cable other then the one that came with my GD77 and I have zero issues.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Fri Sep 27, 2024 8:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-26T00:38:11</updated>
+
+		<published>2024-09-26T00:38:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33196#p33196</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33196#p33196"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33196#p33196"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>GD77 does not use STM32, so it does not use the same driver as the STM32 devices. I've never seen any driver problem with MK22 devices. Are you sure you select correct Radio in Radio Type? and correct Radio in Firmware Loader? Correct firmware and correct donor file? all of these are different than STM32 radios.</div></blockquote>Do you have any idea what is supposed to show in the device manager when the radioddity is connected in firmware mode?</div></blockquote>GD77 uses a USB HID device for DFU<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Sep 26, 2024 12:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2024-09-26T00:34:53</updated>
+
+		<published>2024-09-26T00:34:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33195#p33195</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33195#p33195"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33195#p33195"><![CDATA[
+<blockquote class="uncited"><div>GD77 does not use STM32, so it does not use the same driver as the STM32 devices. I've never seen any driver problem with MK22 devices. Are you sure you select correct Radio in Radio Type? and correct Radio in Firmware Loader? Correct firmware and correct donor file? all of these are different than STM32 radios.</div></blockquote>Do you have any idea what is supposed to show in the device manager when the radioddity is connected in firmware mode?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Thu Sep 26, 2024 12:34 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-09-25T16:46:52</updated>
+
+		<published>2024-09-25T16:46:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33186#p33186</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33186#p33186"/>
+		<title type="html"><![CDATA[Re: dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33186#p33186"><![CDATA[
+GD77 does not use STM32, so it does not use the same driver as the STM32 devices. I've never seen any driver problem with MK22 devices. Are you sure you select correct Radio in Radio Type? and correct Radio in Firmware Loader? Correct firmware and correct donor file? all of these are different than STM32 radios.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Sep 25, 2024 4:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2024-09-25T12:47:24</updated>
+
+		<published>2024-09-25T12:47:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33175#p33175</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33175#p33175"/>
+		<title type="html"><![CDATA[dfu mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4430&amp;p=33175#p33175"><![CDATA[
+My TYT's have no problem with dfu mode but my Radioddity's do.  Set the gd-77 in dfu mode, and I hear Windows loading for a driver and the Device manager refreshes but I don't see where it is connected.  Try to upload new firmware to the gd-77 and stalls the CPS.  Uploading firmware to the TYT"s have no problem and show as STM device in DFU mode. Upload firmware to the TYT without any issues.   Anybody got any ideas?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Wed Sep 25, 2024 12:47 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3755" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-05T21:57:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3755</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-05T21:57:52</updated>
+
+		<published>2024-02-05T21:57:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29306#p29306</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29306#p29306"/>
+		<title type="html"><![CDATA[Re: Wrong firmware load to RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29306#p29306"><![CDATA[
+<blockquote class="uncited"><div>AMAZING!!! Held the Orange and P1 and rocked the power supply power and got back to DFU and reloaded.<br><br>Thanks</div></blockquote>No worries<br><br><br>BTW.<br><br>If you ever screw up your RT-3S, or any of the other supported radios,  and can't seem to get into the bootloader, then turn it off, remove and refit the battery and try again.<br><br>One caveat with the GD-77 type radios, is that the bootloader in the radio does not check whether the firmware is too large to fit in the internal memory of the CPU. So its possible to overwrite some encrypted device security data, and this in turn prevents the bootloader from running<br><br>So in extreme cases on the GD-77 it is technically possible to brick the radio by loading the wrong file.<br><br>We added a check into the OpenGD77 CPS for file size, but anyone using an old version of the CPS or a different firmware loader could potentially brick their GD-77<br><br>Well. When I say brick...  Its also possible to open the radio and erase and deprotect the MCU, but this needs a hardware programmer dongle, like an Adafruit JLink Edu mini  (<a href="https://www.adafruit.com/product/3571" class="postlink">https://www.adafruit.com/product/3571</a>) which most people won't have, and which costs around $60 USD<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 05, 2024 9:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KJ5AJU]]></name></author>
+		<updated>2024-02-05T21:49:36</updated>
+
+		<published>2024-02-05T21:49:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29304#p29304</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29304#p29304"/>
+		<title type="html"><![CDATA[Re: Wrong firmware load to RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29304#p29304"><![CDATA[
+AMAZING!!! Held the Orange and P1 and rocked the power supply power and got back to DFU and reloaded.<br><br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4135">KJ5AJU</a> — Mon Feb 05, 2024 9:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-02-05T21:44:38</updated>
+
+		<published>2024-02-05T21:44:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29300#p29300</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29300#p29300"/>
+		<title type="html"><![CDATA[Re: Wrong firmware load to RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29300#p29300"><![CDATA[
+<blockquote class="uncited"><div>I was upgrading firmwares on all my OpenGD77 radios the other night and inadvertantly loaded the load for the RT-3S to my RT-90. It will now not power on and I cannot renable DFU mode I'm sure do to the fact the buttons are different now since I loaded the wrong firmware. Anyone have any suggestions?</div></blockquote>Did you try disconnecting the power to the RT-90. Then hold the P1 and Orange buttons, and while still holding, reapply the power ?<br><br>The power button on the front of the radio does not have a hard wired connection to the power to the radio, its just button connected to the CPU<br><br>With the OpenGD77 we managed to allow reloading by using Power button + P1 + Orange but the official firmware does not support this, nor if you put the  wrong firmware into the radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Feb 05, 2024 9:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KJ5AJU]]></name></author>
+		<updated>2024-02-05T21:40:01</updated>
+
+		<published>2024-02-05T21:40:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29299#p29299</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29299#p29299"/>
+		<title type="html"><![CDATA[Wrong firmware load to RT-90]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3755&amp;p=29299#p29299"><![CDATA[
+I was upgrading firmwares on all my OpenGD77 radios the other night and inadvertantly loaded the load for the RT-3S to my RT-90. It will now not power on and I cannot renable DFU mode I'm sure do to the fact the buttons are different now since I loaded the wrong firmware. Anyone have any suggestions?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4135">KJ5AJU</a> — Mon Feb 05, 2024 9:40 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

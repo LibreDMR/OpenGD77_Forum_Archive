@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2712" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-03-04T21:54:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2712</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-04T21:54:48</updated>
+
+		<published>2023-03-04T21:54:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2712&amp;p=22316#p22316</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2712&amp;p=22316#p22316"/>
+		<title type="html"><![CDATA[Baofeng DM-1701, DM-1802, RT-84 and TYT MD-2017 / RT-92]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2712&amp;p=22316#p22316"><![CDATA[
+Thanks to the work of BD4VOW we are now developing a version of the firmware for the Baofeng DM-1701<br><br>It also looks likely that we will be able to develop a version which works on the TYT MD-2017 / Retevis RT-91<br><br>Currently the DM-1701 version still has some problems with the user interface keypad mapping, but we hope to improve this as soon as the DM-1701 which I ordered on 4th March arrives.<br><br>The latest firmware for the DM-1701 can be downloaded from here<br><br><a href="https://www.opengd77.com/downloads/DM1701/Firmware/Latest/" class="postlink">downloads/DM1701/Firmware/Latest/</a><br><br><br>The CPS is already being modified to support loading firmware onto these radios.<br><br>See the version of the CPS with the newest date in <a href="https://www.opengd77.com/downloads/CPS/Latest/" class="postlink">downloads/CPS/Latest/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 04, 2023 9:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

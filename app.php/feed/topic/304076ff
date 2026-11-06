@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3040" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-06T07:36:17</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3040</id>
+
+		<entry>
+		<author><name><![CDATA[VK2BJW]]></name></author>
+		<updated>2024-09-06T07:36:17</updated>
+
+		<published>2024-09-06T07:36:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=32770#p32770</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=32770#p32770"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=32770#p32770"><![CDATA[
+Awesome, thanks. Look forward to implementing this<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5772">VK2BJW</a> — Fri Sep 06, 2024 7:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[pu4aap]]></name></author>
+		<updated>2024-05-23T15:57:02</updated>
+
+		<published>2024-05-23T15:57:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31397#p31397</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31397#p31397"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31397#p31397"><![CDATA[
+Thank you very much!! Strong 73!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5762">pu4aap</a> — Thu May 23, 2024 3:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-05-21T23:05:47</updated>
+
+		<published>2024-05-21T23:05:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31386#p31386</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31386#p31386"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31386#p31386"><![CDATA[
+No special firmware is required. <br>Remote head support is included in the standard firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue May 21, 2024 11:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[pu4aap]]></name></author>
+		<updated>2024-05-21T22:58:42</updated>
+
+		<published>2024-05-21T22:58:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31385#p31385</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31385#p31385"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=31385#p31385"><![CDATA[
+Hello goodnight!<br>How do I get the program modified from openGD77 to the MD9600? I didn't find it in the archives.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5762">pu4aap</a> — Tue May 21, 2024 10:58 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-19T19:42:47</updated>
+
+		<published>2023-09-19T19:42:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26376#p26376</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26376#p26376"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26376#p26376"><![CDATA[
+Thanks for the info Colin<br><br>Yes, unfortunately the background processor noise on receive on my radio is very high, to the point of annoying on DMR. I'll experiment a little with earthing as you suggest and see if I can improve it any. I've also found the maximum volume to be somewhat lower with the remote head - but I've also done the mod to tame the rather sensitive volume control on the standard radio so that may have some impact as well.<br><br>I think as you suggest it did take a couple of cycles to sync the radio and remote, although the initial problem must have been no power as I would have expected the the MD9600 remote head message even if nothing else worked?<br><br>Colin<br>ZL2FL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Tue Sep 19, 2023 7:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-19T11:46:29</updated>
+
+		<published>2023-09-19T11:46:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26375#p26375</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26375#p26375"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26375#p26375"><![CDATA[
+Glad to hear you managed to get it working. <br>I am not sure why it didn't work first time. The raspberry pi pico in the head has to 'remember' the power on/off state, and this has to be in sync with the state of the main processor. It could be that takes a few power cycles to get correct. <br><br>The MCP4023 volume control chip only has 64 possible settings, so the volume control will move in steps. If you normally use the radio in a quiet environment you could change the zero ohm resistor on the radio board to a larger value which would reduce the maximum volume and spread the 64 steps over the lower range. <br><br>Noise pickup is down to the way TYT designed the front panel, the ground connection is shared by the audio and the display. Fitting the volume control chip at the radio end of the cable reduced the noise pickup. However the ground is still common through the short ribbon cable to the radio.  On my radio the noise is barely noticeable but that may vary between radios. The ribbon cable has some resistance so it might be worth adding a short extra wire directly from the radios ground to the ground of the new PCB.<br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Sep 19, 2023 11:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-19T03:36:31</updated>
+
+		<published>2023-09-19T03:36:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26367#p26367</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26367#p26367"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26367#p26367"><![CDATA[
+Working!<br><br>Not 100% sure what the issue was, I re-seated the ribbon cables and tried a new extension cable and we were away. Went back to the first extension cable and that's fine too. So I'm guessing one of the ribbon cables was the issue.<br><br>On first use it does have a couple of quirks around processor noise with FM squelch open and the volume control is kind of 'stepping'. I'll use it for a while and see how it sounds in use on digital.<br><br>Thanks guys for the work you've done to get this up and running.<br><br>Colin ZL2FL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Tue Sep 19, 2023 3:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-19T03:08:01</updated>
+
+		<published>2023-09-19T03:08:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26366#p26366</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26366#p26366"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26366#p26366"><![CDATA[
+I figured it was probably his wheelhouse <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>First bit of debug - powering up the pico with usb power does give me the "MD9600 remote head" message - good start! Which i guess means I should look at power supply to the head first.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Tue Sep 19, 2023 3:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-19T03:05:33</updated>
+
+		<published>2023-09-19T03:05:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26365#p26365</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26365#p26365"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26365#p26365"><![CDATA[
+<blockquote class="uncited"><div>...<br>Latest firmware installed and works fine with the standard radio, not sure if there is a setting in the menus I should be looking for?<br>...</div></blockquote>No special settings needed.<br><br>I think Colin G4EML will need to answer with some suggestions<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 19, 2023 3:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-19T03:00:23</updated>
+
+		<published>2023-09-19T03:00:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26364#p26364</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26364#p26364"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26364#p26364"><![CDATA[
+Righto gents, my first attempt to get this working has unfortunately failed. Symptoms are just a blank screen and no controls working. Not sure if there is supposed to be a heartbeat led on the Pico? The radio started up with the normal morse code jingle. Mic buttons appear to do things plugged into the radio, but hard to know with no display.<br><br>I've checked all the soldering, especially for the ribbon connectors and that all looks clean and solid. Cat 6A cable of around 3m used for the first test.<br><br>Any pointers on fault finding will be much appreciated.<br><br>Latest firmware installed and works fine with the standard radio, not sure if there is a setting in the menus I should be looking for?<br><br>Colin<br>ZL2FL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Tue Sep 19, 2023 3:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-12T22:37:17</updated>
+
+		<published>2023-09-12T22:37:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26196#p26196</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26196#p26196"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26196#p26196"><![CDATA[
+It sounds like you probably have the latest version already. <br><br>I did consider adding an amplifier at the head end but didn't try it as I prefer to use the mic connected to the radio. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Sep 12, 2023 10:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-12T21:18:48</updated>
+
+		<published>2023-09-12T21:18:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26193#p26193</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26193#p26193"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26193#p26193"><![CDATA[
+Thanks Colin, I used the 'quick' file load method to do the original firmware load yesterday so I'll update it again now.<br><br>Or in doing that have I already uploaded the latest version?<br><br>I wonder is there an sense in adding an audio buffer/amp at the head end to bring it up to a level where noise isn't an issue, then padding it down to mic level again at the radio end? Possibly not worth the trouble unless you really need the mic plugged into the head. <br><br>Colin<br>ZL2FL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Tue Sep 12, 2023 9:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-12T21:00:27</updated>
+
+		<published>2023-09-12T21:00:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26188#p26188</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26188#p26188"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26188#p26188"><![CDATA[
+That looks good. <br><br>JP1 is probably not needed. It was originally included so that you could use the microphone audio from the front panel, but in practice this is quite noisy, so I would not recommend using it. <br><br>Yes the FPC connectors are a bit fiddly to solder, but plenty of flux usually helps. <br><br>I have just fixed a small bug in the Raspberry Pi Pico code and updated github,  so if you have already downloaded it you may need to do it again. <br>In the process I tested a quicker way of programming the Pico, so you no longer have to install the Arduino IDE. Details on github. <br><br>Roger will be including the firmware in the next release. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Sep 12, 2023 9:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-12T20:25:15</updated>
+
+		<published>2023-09-12T20:25:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26186#p26186</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26186#p26186"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26186#p26186"><![CDATA[
+Boards complete (except for JP1 which I may not use), will test with the new firmware when it's ready. Also ordered a cat7 flat cable of 3m but I have a few cat 6 ones around as well. Those ribbon cable connectors were a bit of a challenge but they came up ok. Just need to wash a bit of flux off to tidy them up. I bought parts for 5 sets of boards so there may be 4 others available (if this one works ok!  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> )<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1876&amp;sid=181c05be39ed8a43f5a34d8c4f9d0e00" class="postimage" alt="IMG20230913082106.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Tue Sep 12, 2023 8:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-08T13:30:03</updated>
+
+		<published>2023-09-08T13:30:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26082#p26082</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26082#p26082"/>
+		<title type="html"><![CDATA[Re: MD9600 Remote Head.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3040&amp;p=26082#p26082"><![CDATA[
+If you connect the mic to the front panel you will almost certainly get noise pickup. Not much I can do about that as it is due to the common ground with the processor. <br><br>It is OK for using the keypad though. <br><br>I did consider adding locating pins to the top of the front panel cover. But they would be tiny and probably not print anyway. <br><br>Regarding modifying the original plastic, I didn't do that. I tapped the screws into the new plastic and left them as locating pins which just went Into the holes on the original. The front panel was then held in place just by the bottom screws. <br><br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Sep 08, 2023 1:30 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2751" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-03-14T00:28:05</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2751</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-03-14T00:28:05</updated>
+
+		<published>2023-03-14T00:28:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2751&amp;p=22592#p22592</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2751&amp;p=22592#p22592"/>
+		<title type="html"><![CDATA[Radioddity GD-73 - Not supported]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2751&amp;p=22592#p22592"><![CDATA[
+This radio is currently not supported<br><br>It uses a different DMR and CPU chip, HR-C7000, instead of the HR-C6000 and separate CPU.<br><br>There is no publised Software Development Kit (SDK) for the HR-C7000, so at this time development for any radio which uses this IC is impossible<br><br>Additionally<br><br>* There is no published schematic for this radio.<br>* The display type used in this radio is unknow<br>* The radio only has a few buttons, and only a small display,  so the full features of the OpenGD77 firmware would never be possible<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 14, 2023 12:28 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

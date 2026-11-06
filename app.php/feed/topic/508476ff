@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5084" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-26T11:20:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5084</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-04-26T11:20:41</updated>
+
+		<published>2025-04-26T11:20:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36915#p36915</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36915#p36915"/>
+		<title type="html"><![CDATA[Re: Etiquette Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36915#p36915"><![CDATA[
+Such requests are probably because most networks still recommend setting radios admit criteria to be 'polite to colour code' . This means a radio is not allowed to transmit over another radio on the same colour code.  <br>The main reason for recommending this is historical.  The commercial radios (used when the DMR networks were originally set up) only receive the talkgroup  they are currently sending (or maybe a small list of talkgroups). If a different talkgroup is in use then the radio will be silent and an untrained user may not realise the channel is in use and try to transmit.<br><br>In theory 'polite to colour code' sounds simple, just prevent transmission if you are receiving a signal on your own colour code. However it is actually more complicated than that as it has to cope with repeater use which needs to allow a radio to sometimes  break this rule. A radio <strong class="text-strong"><span style="text-decoration:underline">is</span></strong>allowed to transmit during the repeaters 'hang time' if it is using the same talkgroup as the previous transmission. It is also allowed to transmit if the opposite timeslot is busy but the selected timeslot is not. Both of these conditions need the radio to analyse the channel control data from the repeater before allowing transmission. This is where many Chinese radios get it wrong. <br><br>OpenGD77 operates by default with the DMR filter off, so a user will hear any transmission on any talkgroup and should realise the channel is in use. This is the recommended way of operating and makes the admit criteria less necessary when using this firmware.<br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Apr 26, 2025 11:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-26T09:44:33</updated>
+
+		<published>2025-04-26T09:44:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36914#p36914</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36914#p36914"/>
+		<title type="html"><![CDATA[Re: Etiquette Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36914#p36914"><![CDATA[
+I remember a time when the firmware refused to TX when the squelch was open.<br>It was asked to remove this (and I fully agree about that, we're Ham, we therorically know how to be polite and not stepping on other operators toes <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";)" title="Wink"> ).<br>I'm still puzzled seeing such (commercially oriented) requests...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Apr 26, 2025 9:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-26T06:52:40</updated>
+
+		<published>2025-04-26T06:52:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36911#p36911</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36911#p36911"/>
+		<title type="html"><![CDATA[Re: Etiquette Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36911#p36911"><![CDATA[
+<blockquote class="uncited"><div>in the official CPS there are two functions related inside channel options...<br><br><strong class="text-strong">"Admit Criteria"</strong> where you can select: Always, Channel Free, Color Code (for digital channel only), Correct CTCSS/CDCSS (for analog channel only).<br><br><strong class="text-strong">"In Call Criteria" (for digital channel only)</strong> where you can select: Always, Follow Admit Criteria, Tx Interrupt</div></blockquote>Well. None of that is supported, as 1) These sorts of functions are designed for commercial operators who have their functionality locked down. (2) Some of these functions would never work correctly in the official firmware, as the hardware can't determine the CC of the incoming signal etc etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 26, 2025 6:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-26T01:40:55</updated>
+
+		<published>2025-04-26T01:40:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36908#p36908</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36908#p36908"/>
+		<title type="html"><![CDATA[Re: Etiquette Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36908#p36908"><![CDATA[
+in the official CPS there are two functions related inside channel options...<br><br><strong class="text-strong">"Admit Criteria"</strong> where you can select: Always, Channel Free, Color Code (for digital channel only), Correct CTCSS/CDCSS (for analog channel only).<br><br><strong class="text-strong">"In Call Criteria" (for digital channel only)</strong> where you can select: Always, Follow Admit Criteria, Tx Interrupt<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sat Apr 26, 2025 1:40 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-25T20:23:50</updated>
+
+		<published>2025-04-25T20:23:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36906#p36906</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36906#p36906"/>
+		<title type="html"><![CDATA[Re: Etiquette Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36906#p36906"><![CDATA[
+<blockquote class="uncited"><div><br><br>What is polite setting?</div></blockquote>I don't know what he means either ...<br><br><br>Possibly "Admit Criteria"...  In which case, this is not supported.  The hardware is not capable of determining whether the Colour Code is free, and its fairly pointless trying to add "Channel free", because this is something the operator do better themselves.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 25, 2025 8:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-25T20:00:15</updated>
+
+		<published>2025-04-25T20:00:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36904#p36904</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36904#p36904"/>
+		<title type="html"><![CDATA[Re: Etiquette Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36904#p36904"><![CDATA[
+<blockquote class="uncited"><div>Is there a setting in the CPS where i can set polite settings for use on a talkgroup/channel?</div></blockquote>What is polite setting?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Fri Apr 25, 2025 8:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4VKF]]></name></author>
+		<updated>2025-04-25T01:29:37</updated>
+
+		<published>2025-04-25T01:29:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36892#p36892</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36892#p36892"/>
+		<title type="html"><![CDATA[Etiquette Settings]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5084&amp;p=36892#p36892"><![CDATA[
+Is there a setting in the CPS where i can set polite settings for use on a talkgroup/channel?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3650">N4VKF</a> — Fri Apr 25, 2025 1:29 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

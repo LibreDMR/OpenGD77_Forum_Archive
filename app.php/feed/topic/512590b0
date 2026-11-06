@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5125" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-16T00:10:53</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5125</id>
+
+		<entry>
+		<author><name><![CDATA[ZL2MGS]]></name></author>
+		<updated>2025-05-16T00:10:53</updated>
+
+		<published>2025-05-16T00:10:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37127#p37127</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37127#p37127"/>
+		<title type="html"><![CDATA[Re: Master Power ????]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37127#p37127"><![CDATA[
+The Master power setting on the UV380/390 radios is controlled by SK2 + Up Arrow and SK2 + Down Arrow.<br><br>This information is specified for all supported radios in the "Control keys and buttons" section of the user guide.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4176">ZL2MGS</a> — Fri May 16, 2025 12:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-15T20:33:14</updated>
+
+		<published>2025-05-15T20:33:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37125#p37125</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37125#p37125"/>
+		<title type="html"><![CDATA[Re: Master Power ????]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37125#p37125"><![CDATA[
+<blockquote class="uncited"><div>Where do you set the Master Value?</div></blockquote>To change master output power. Go to a channel that is set to master, then change the output.<br><blockquote class="uncited"><div>I want the value to be 5 watts all the time since I am not in a metro area by default I will need the full 5 watts to hit the repeaters.</div></blockquote>Then you don't need to do anything with the master. just set the power output of the channels to 5 watts.<br><blockquote class="uncited"><div>in the cps I changed a second value to 2/2/5 and it defaulted to 2 watts. </div></blockquote>That is correct, your radio output maximum is 5 watts, so the first number is your output.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu May 15, 2025 8:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-15T19:31:12</updated>
+
+		<published>2025-05-15T19:31:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37124#p37124</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37124#p37124"/>
+		<title type="html"><![CDATA[Re: Master Power ????]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37124#p37124"><![CDATA[
+<blockquote class="uncited"><div>Where do you set the Master Value?<br><br>I want the value to be 5 watts all the time since I am not in a metro area by default I will need the full 5 watts to hit the repeaters.<br><br>In the cps channel configuration I set one channel to Master and it used the value of 1 watt, in the cps I changed a second value to 2/2/5 and it defaulted to 2 watts.  I am lazy and guess I would like the channel set to 5 watts( since most of the time that is required) and lower it when the instances.<br><br>I am very new to DMR and codeplug programming, but the only time I can see using anything under 5 watts is 250mw to access the hot spot. So i would really like to have the 5watts programmed in the radio when I change that channel, instead of using the radio and going into the radio channel confige to change it temporarily.</div></blockquote>The power settings in the CPS is used for all three radio types with max 5W, 10W and 40W.<br><br>So for your 5W radio you should use this setting to get 5W on a channel by default (overriding master power)<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2978&amp;sid=e3b3c328b1d8e3214b5efe7a36ccaa54" class="postimage" alt="Screenshot 2025-05-15 212723.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu May 15, 2025 7:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WA2SRA]]></name></author>
+		<updated>2025-05-15T18:22:31</updated>
+
+		<published>2025-05-15T18:22:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37123#p37123</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37123#p37123"/>
+		<title type="html"><![CDATA[Re: Master Power ????]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37123#p37123"><![CDATA[
+Where do you set the Master Value?<br><br>I want the value to be 5 watts all the time since I am not in a metro area by default I will need the full 5 watts to hit the repeaters.<br><br>In the cps channel configuration I set one channel to Master and it used the value of 1 watt, in the cps I changed a second value to 2/2/5 and it defaulted to 2 watts.  I am lazy and guess I would like the channel set to 5 watts( since most of the time that is required) and lower it when the instances.<br><br>I am very new to DMR and codeplug programming, but the only time I can see using anything under 5 watts is 250mw to access the hot spot. So i would really like to have the 5watts programmed in the radio when I change that channel, instead of using the radio and going into the radio channel confige to change it temporarily.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8599">WA2SRA</a> — Thu May 15, 2025 6:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-05-15T16:26:06</updated>
+
+		<published>2025-05-15T16:26:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37122#p37122</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37122#p37122"/>
+		<title type="html"><![CDATA[Re: Master Power ????]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37122#p37122"><![CDATA[
+In a channel you can set it to any output power or set it to master. <br><br>To change master output power. Go to a channel that is set to master, then change the output.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu May 15, 2025 4:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WA2SRA]]></name></author>
+		<updated>2025-05-15T15:57:55</updated>
+
+		<published>2025-05-15T15:57:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37121#p37121</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37121#p37121"/>
+		<title type="html"><![CDATA[Master Power ????]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5125&amp;p=37121#p37121"><![CDATA[
+Hello all,<br><br>I am probably doing something in the cps incorrectly  How do you set the Master Power?  I went to the radio, menu / options /radio options /user power: 4100 I am guessing that is a value sent to the CPU.<br><br>Since I am some distance from the repeaters I will need the full 5 watts except for the 250 mw, which I will manually program for the Hot Spot.<br>I originally programmed the Chanel detail for Master and it set the Chanel to 1 watt.  I then changed the Chanel detail to 2w/2w.5w and the default was set to 2w.<br>I understand that temporarily I can change the  tx output, but when I change the Chanel it reverts back.<br><br>What am I missing???<br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8599">WA2SRA</a> — Thu May 15, 2025 3:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

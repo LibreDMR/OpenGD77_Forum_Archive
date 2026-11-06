@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/150" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-11-23T07:37:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/150</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T07:37:24</updated>
+
+		<published>2019-11-23T07:37:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=150&amp;p=589#p589</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=150&amp;p=589#p589"/>
+		<title type="html"><![CDATA[Re-work of VFO handling is now in internal testing]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=150&amp;p=589#p589"><![CDATA[
+I noticed today when trying to calibrate the power in one of my GD-77 radios that after the calibration was written to the radio, the VFO reverted to its value that was last saved, when I last turned the radio off.<br><br>The fundamental reason for this, is because the VFO (channel) was being stored as part of the OpenGD77 settings e.g. the backlight timer etc <br><br>This was a legacy from Kai's original code which had 4 VFO's but no channels and no access to the codeplug.<br><br>As the Codeplug VFO data is stored in the EEPROM, there is no problem with reading and writing the VFO directly to and from the codeplug memory , every time the radio is turned on, and turned off.<br><br>So I have re-worked the VFO handling to use the codeplug as the storage for the VFO.<br>And since the CPS supports 2 separate VFO's I'm implemented the underlying functionality to support this - However I have not modified the user interface in the OpenGD77 firmware yet, so currently only VFO A can be accessed.<br><br>I'm not sure how may people would use 2 separate VFO's (not just separte Tx and Rx frequencies). Perhaps it should be an setting in the Options screen, and if VFO B is enabled, pressing the Red menu key would cycle though  CHANNEL , VFO A and then VFO B. <br><br>But I suspect for most people they would prefer just to be able to switch between VFO and CHANNEL mode by pressing the Red key.<br><br><br>Also, while I was making this change I noticed another omission in the firmware, in that the index into the current Rx Group, used by the VFO is not saved when the radio is turned off. So that the VFO always goes to the first TG in the Rx Group list when the radio is turned on.<br><br>So, I've changed the firmware so that the VFO's index into the Rx Group list is saved and loaded in the same way as the Channel's index<br><br>I also noticed a bug if the VFO was in FM mode when the codeplug was first loaded, the TG was not loaded and hence when the VFO was switched to DMR mode the TG did display.<br>So I"ve added some checks to load the TG when first switching mode from FM to DMR<br><br>As this is such a big change I won't upload the firmware file until I and a few of the testers have done some initial testing<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 7:37 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

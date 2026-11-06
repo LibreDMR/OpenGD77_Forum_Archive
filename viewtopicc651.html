@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=13&t=4895&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 14:29:07 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; GD-77  No device found error - SOLVED</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>GD-77  No device found error - SOLVED</h2>
+		<p><a href="viewtopic305a-3.html?f=13&amp;t=4895">viewtopic.php?f=13&amp;t=4895</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>GD-77  No device found error - SOLVED</h3>
+				<div class="date">Posted: <strong>Thu Feb 20, 2025 9:09 am</strong></div>
+				<div class="author">by <strong>SV2TBR</strong></div>
+				<div class="content">Hi, I'm trying to follow step1 of the OpenGD-77 installation procedure and update the original firmware first (on my Radioddity GD77) to latest 4.3.9.sgl (from 3.02.01 installed) -before installing OpenGD-77. Pluging the cable on my win10 pc, putting the radio in DFU mode but when I try to hit "Download"for the update to begin "No Device found"error appears. The cable I use looks like this one: <a href="https://www.radioddity.com/products/programming-cable-for-tyt-md-380-md-390-md-680-radioddity-gd-77-gd-77s?srsltid=AfmBOorR8gV-mZxGrWtktaUQW07w6hFp8Ai56gYPaMIOx3pskCd7USPi&amp;fbclid=IwZXh0bgNhZW0CMTAAAR0_C17zeowdBUhF4ozh7ZvnHKWgIxXNLNaa61ahL2OESO7ZXHrOe_95__0_aem_SM1IgKiYcth7-pCjqevg5A" class="postlink">https://www.radioddity.com/products/pro ... -pCjqevg5A</a>. (I'm not 100% sure if this is the correct cable as the previous owner of the radio -which by the way is in prestine/like new condition- could not confirm if this was in the package when the radio was bought or is from an other radio he had). Attached the photo of the cable I have. When the cable is pluged in to USB(even if the radio is not attached on the other side), in device manager I can see that it's there and appears as: Prolific USB-to-Serial Comm Port (COM5) -COM5 is also the port I choose during the update process. So this is a USB cable clearly with a chip on it. Some fellow hams insisted that this is not the correct cable and that the right one is just a USB "fossil"without any chip on it. So MY QUESTION (at last <img class="smilies" src="images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> ): Can any body please confirm which is the correct cable for updating the -original- (not OpenGD77) firmware? If the cable is not the problem then what should I double-check?? Any advice / help would be appreciated. Thanks and 73' de SV2TBR</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: GD-77  No device found error</h3>
+				<div class="date">Posted: <strong>Thu Feb 20, 2025 9:49 am</strong></div>
+				<div class="author">by <strong>SA0BUX</strong></div>
+				<div class="content">There is no chip in the cable for GD-77 so your profilic cable is  the wrong one.<br>
+<br>
+The wiring is the same as for RT3S/MD-UV380/Anytone 868/878.  <br>
+<br>
+
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file528f.jpg?id=2855&amp" class="postimage" alt="RT3S_MD-UV380_GD77_cable_1.jpg" onclick="viewableArea(this);" /></dt>
+						<dd>RT3S_MD-UV380_GD77_cable_1.jpg (78.51 KiB) Viewed 8500 times</dd>
+		</dl>
+		
+		
+		
+			</div></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: GD-77  No device found error</h3>
+				<div class="date">Posted: <strong>Thu Feb 20, 2025 10:28 am</strong></div>
+				<div class="author">by <strong>F1RMB</strong></div>
+				<div class="content">And you don't need to flash any original firmware before the OpenGD77, as it's a complete firmware written from scratch.<br>
+<br>
+About the cable, as SA0BUX wrote, there is no chip inside. That means, if you plug the cable alone on a USB port, nothing will happen, no new device is added to the device manager.</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: GD-77  No device found error</h3>
+				<div class="date">Posted: <strong>Thu Feb 20, 2025 3:30 pm</strong></div>
+				<div class="author">by <strong>SV2TBR</strong></div>
+				<div class="content">Guys thank you so much!!!  I did my own handmade programming cable based on the digramm you have provided and flashed the firmware directly to OpenGD77 as you also suggested. Problem solved, I''m so greatful.. <img class="smilies" src="images/smilies/icon_cool.gif" width="15" height="17" alt="8-)" title="Cool"> <br>
+<br>
+Many thanks!<br>
+73' de SV2TBR</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: GD-77  No device found error</h3>
+				<div class="date">Posted: <strong>Thu Feb 20, 2025 10:15 pm</strong></div>
+				<div class="author">by <strong>SA0BUX</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=8136&amp">SV2TBR</a> wrote: <a href="viewtopic4120.html?p=35855&amp;sid=#p35855" data-post-id="35855" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Feb 20, 2025 3:30 pm</div></cite>
+Guys thank you so much!!!  I did my own handmade programming cable based on the digramm you have provided and flashed the firmware directly to OpenGD77 as you also suggested. Problem solved, I''m so greatful.. <img class="smilies" src="images/smilies/icon_cool.gif" width="15" height="17" alt="8-)" title="Cool"> <br>
+<br>
+Many thanks!<br>
+73' de SV2TBR
+</div></blockquote>
+
+Good, I've seen a lot of people all over the groups including Facebook having wrong cables.</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=13&t=4895&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 14:29:07 GMT -->
+</html>

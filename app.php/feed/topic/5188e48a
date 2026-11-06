@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5188" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-19T22:48:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5188</id>
+
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-19T22:48:44</updated>
+
+		<published>2025-06-19T22:48:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37529#p37529</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37529#p37529"/>
+		<title type="html"><![CDATA[Re: TYT 390 hangs when using CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37529#p37529"><![CDATA[
+Thanks for your help, the device was identified as OpenGD77(COM12), after deleting the driver together with the driver files, I turned the radio off and on, it was immediately identified as OpenGD77(COM3) and now works stably regardless of the CPS version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Thu Jun 19, 2025 10:48 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-19T22:03:59</updated>
+
+		<published>2025-06-19T22:03:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37528#p37528</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37528#p37528"/>
+		<title type="html"><![CDATA[Re: TYT 390 hangs when using CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37528#p37528"><![CDATA[
+I compile the firmware myself, but I didn't change anything in the source files, I'll try an older CPS, but I doubt that the authors changed anything in the usb-com drivers<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Thu Jun 19, 2025 10:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-19T20:22:15</updated>
+
+		<published>2025-06-19T20:22:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37525#p37525</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37525#p37525"/>
+		<title type="html"><![CDATA[Re: TYT 390 hangs when using CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37525#p37525"><![CDATA[
+Firmware and CPS mismatched. I would suggest upgrade to latest firmware.<br><br>What is the filename of the firmware you have flash to the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Jun 19, 2025 8:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-19T14:57:29</updated>
+
+		<published>2025-06-19T14:57:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37522#p37522</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37522#p37522"/>
+		<title type="html"><![CDATA[Re: TYT 390 hangs when using CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37522#p37522"><![CDATA[
+Firmware OpenGD77_MDUV380_DM1701_20240908, CPS version R2025.03.23.01<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Thu Jun 19, 2025 2:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-19T14:14:46</updated>
+
+		<published>2025-06-19T14:14:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37521#p37521</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37521#p37521"/>
+		<title type="html"><![CDATA[Re: TYT 390 hangs when using CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37521#p37521"><![CDATA[
+What is the firmware file name you put in the radio? What is the firmware version? what is CPS version?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Jun 19, 2025 2:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-19T13:35:30</updated>
+
+		<published>2025-06-19T13:35:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37520#p37520</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37520#p37520"/>
+		<title type="html"><![CDATA[TYT 390 hangs when using CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5188&amp;p=37520#p37520"><![CDATA[
+Tell me, the COM port is detected, but when trying to read it reports an error in the CPS, and the station also hangs, although it does not respond to buttons, but when turned off it shows the 73 screensaver, at first I thought it was a homemade cable, but today I received a factory one and the same story<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Thu Jun 19, 2025 1:35 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

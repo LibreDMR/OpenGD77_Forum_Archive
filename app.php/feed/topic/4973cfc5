@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4973" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-18T10:32:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4973</id>
+
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-18T10:32:44</updated>
+
+		<published>2025-03-18T10:32:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36264#p36264</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36264#p36264"/>
+		<title type="html"><![CDATA[Re: Display on DM1701.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36264#p36264"><![CDATA[
+That’ll work. The 1 setting is as close as I can get to what I want with a white background, &amp; black letters. Thank you. GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Tue Mar 18, 2025 10:32 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-18T09:11:47</updated>
+
+		<published>2025-03-18T09:11:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36263#p36263</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36263#p36263"/>
+		<title type="html"><![CDATA[Re: Display on DM1701.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36263#p36263"><![CDATA[
+<blockquote class="uncited"><div>Is there any way to keep the channel info displayed all the time? Most radios like Motorola, Icom, &amp; Kenwood display the channel info all the time whether the backlight is on light is on, or off. On my 1701 when the backlight goes off, the channel info goes off too, &amp; doesn’t come back unless I push a button, or rotate the channel knob. So is there any way the channel info can stay on even if the backlight is off? GARY</div></blockquote>Sorry, but that's not really clear.<br>On color display, once the backlight goes off, you can't read anything.<br>In the display options, you can define a minimum backlight value, which will be applied when the display get dimmed (after the timeout value)<br>I personally use 8%, but it depends of the color theme.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Mar 18, 2025 9:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-03-18T08:01:23</updated>
+
+		<published>2025-03-18T08:01:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36262#p36262</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36262#p36262"/>
+		<title type="html"><![CDATA[Display on DM1701.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4973&amp;p=36262#p36262"><![CDATA[
+Is there any way to keep the channel info displayed all the time? Most radios like Motorola, Icom, &amp; Kenwood display the channel info all the time whether the backlight is on light is on, or off. On my 1701 when the backlight goes off, the channel info goes off too, &amp; doesn’t come back unless I push a button, or rotate the channel knob. So is there any way the channel info can stay on even if the backlight is off? GARY<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Tue Mar 18, 2025 8:01 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

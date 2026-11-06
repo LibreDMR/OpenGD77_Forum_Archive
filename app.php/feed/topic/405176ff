@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4051" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-13T09:31:12</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4051</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-13T09:31:12</updated>
+
+		<published>2024-05-13T09:31:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31260#p31260</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31260#p31260"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 05 11]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31260#p31260"><![CDATA[
+GD77S users, you could install the next Beta version <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=4055#p31259" class="postlink">viewtopic.php?f=13&amp;t=4055#p31259</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon May 13, 2024 9:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-12T14:00:00</updated>
+
+		<published>2024-05-12T14:00:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31255#p31255</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31255#p31255"/>
+		<title type="html"><![CDATA[Re: New Beta 2024 05 11]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31255#p31255"><![CDATA[
+Note to GD77S users:<br><br> <strong class="text-strong"><span style="font-size:200%;line-height:116%">DO NOT FLASH YOUR GD77S with the latest Beta version(s), it doesn't work.</span></strong><br><br>A fix has been just made, a new binary will be available soon.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun May 12, 2024 2:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-05-11T06:35:41</updated>
+
+		<published>2024-05-11T06:35:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31224#p31224</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31224#p31224"/>
+		<title type="html"><![CDATA[New Beta 2024 05 11]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4051&amp;p=31224#p31224"><![CDATA[
+A new Beta version is available<br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">downloads/GD77/Firmware/Latest</a><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/6e0f57bb10ad867bfefe6411236ff66def577cfe" class="postlink">downloads/GD77/Firmware/6e0f57bb10ad867 ... 6def577cfe</a><br><br>This version has the following changes<br><br>* Fixes problem with satellite APRS frequencies<br>* Adds Safe Boot mode (SK1 + 0) to be used when the radio will not bootup or bootloops.<br>* Updates translations<br>* Fixes scan frequencies range boundary display problem<br>* Fixes voice prompt problem when replaying a prompt<br>* Fixes possible hanging problems associated with I2Cinternal bus contention<br><br>All these changes were made by Daniel F1RMB, so thanks goes to him and the varoius translators and people who have reported bugs and helped Daniel test his fixes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat May 11, 2024 6:35 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

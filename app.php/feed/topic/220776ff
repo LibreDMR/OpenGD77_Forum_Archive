@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2207" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-04-21T09:28:02</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2207</id>
+
+		<entry>
+		<author><name><![CDATA[9a3lj]]></name></author>
+		<updated>2022-04-21T09:28:02</updated>
+
+		<published>2022-04-21T09:28:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18364#p18364</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18364#p18364"/>
+		<title type="html"><![CDATA[Re: Can't enter firmware update mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18364#p18364"><![CDATA[
+You have to turn off the plus or minus on the power supply by pressing those two buttons and turn it on again on the rectifier.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1144">9a3lj</a> — Thu Apr 21, 2022 9:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2022-04-21T07:52:14</updated>
+
+		<published>2022-04-21T07:52:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18363#p18363</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18363#p18363"/>
+		<title type="html"><![CDATA[Re: Can't enter firmware update mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18363#p18363"><![CDATA[
+Got it.  Thanks, YT5HOK.  I now have OpenGD77, er, 9600 running on my MD-9600 now. I quickly turned on Click Suppression and lowered the beep volume to -21 dB. So nice to have the same "system" and codeplug running on the shack radio and my handheld. I realize the 9600 firmware is still an alpha version, but it's already quite nice. BIG thanks to the developers, you guys rock!<br>--Peter, KD7MW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Thu Apr 21, 2022 7:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YT5HOK]]></name></author>
+		<updated>2022-04-21T07:24:55</updated>
+
+		<published>2022-04-21T07:24:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18362#p18362</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18362#p18362"/>
+		<title type="html"><![CDATA[Re: Can't enter firmware update mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18362#p18362"><![CDATA[
+<blockquote class="uncited"><div>...<br>I can't get the radio into firmware update mode. With the radio off, I hold down the orange and P1 buttons, press and hold the power button, and nothing happens. <br>...</div></blockquote>That is not the correct procedure to enter FW update mode. <br><br>Turn the radio on, unplug the power cable, hold orange and P1 buttons, then plug the power cable back.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=97">YT5HOK</a> — Thu Apr 21, 2022 7:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2022-04-21T00:33:35</updated>
+
+		<published>2022-04-21T00:33:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18361#p18361</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18361#p18361"/>
+		<title type="html"><![CDATA[Re: Can't enter firmware update mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18361#p18361"><![CDATA[
+Forgot to mention, the serial number is 1705A00284, if that helps.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Thu Apr 21, 2022 12:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD7MW]]></name></author>
+		<updated>2022-04-21T00:30:50</updated>
+
+		<published>2022-04-21T00:30:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18360#p18360</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18360#p18360"/>
+		<title type="html"><![CDATA[Can't enter firmware update mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2207&amp;p=18360#p18360"><![CDATA[
+I just acquired a pre-owned MD-9600. The motherboard is labelled MD9600-UV-V2.1-17608, and it has a very loud speaker "pop" when most keys are pressed. In the Utility menu (original firmware) the firmware version is D004.003 and the CP version is V01.18.<br><br>I can't get the radio into firmware update mode. With the radio off, I hold down the orange and P1 buttons, press and hold the power button, and nothing happens. No blink on the display backlight, and the firmware loader can't talk to the radio. The orange and P1 buttons do appear to work in normal operation--they generate a beep, and in the case of P1, the power level changes. The orange button generates a lower-pitched tone, but I don' see any change on the display (this is with the original firmware, of course).<br><br>The radio appears to work with the OEM firmware the original owner's seemingly simple code plug. The OEM CPS will talk to the radio, and I've saved the old code plug and calibration data. I did have to install the USB driver from the CD before my Windows 10 machine would "see" the radio/cable combination and read from the radio. Device Manager now shows "STM Device in DFU mode."<br><br>Any ideas on how to proceed? And am I correct that if the motherboard says V2.1, this is version 2 hardware, so I should save the *06.24.bin files to revert back if needed? I also have no idea if the radio has GPS or not, or if I have the 10,000 or 100,000 contacts version. The supplied manual says 1,000 contacts and channels.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2447">KD7MW</a> — Thu Apr 21, 2022 12:30 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

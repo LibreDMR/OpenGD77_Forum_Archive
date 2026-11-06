@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4693" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-20T03:28:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4693</id>
+
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2024-12-20T03:28:21</updated>
+
+		<published>2024-12-20T03:28:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4693&amp;p=34820#p34820</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4693&amp;p=34820#p34820"/>
+		<title type="html"><![CDATA[[FIXED] small CPS error]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4693&amp;p=34820#p34820"><![CDATA[
+if you delete all the zones, and then you do a double click in zones, you got the following error:<br><br><img src="https://i.imgur.com/U3MCRsU.png" class="postimage" alt="Image"><br><br><strong class="text-strong">EDIT: Fixed in <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4694" class="postlink">New OpenGD77 CPS 2024 12 20</a></strong><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Dec 20, 2024 3:28 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

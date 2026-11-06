@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4821" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-06T20:55:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4821</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-06T20:55:00</updated>
+
+		<published>2025-02-06T20:55:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35608#p35608</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35608#p35608"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35608#p35608"><![CDATA[
+Thanks for sharing <br><br>BTW. <br><br>I can't use one of my PCs to install the firmware, because it crashes to blue-screen-of-death<br><br>I tried reinstalling the driver and many other things, but it always crashes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Feb 06, 2025 8:55 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2EGG]]></name></author>
+		<updated>2025-02-06T15:21:18</updated>
+
+		<published>2025-02-06T15:21:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35604#p35604</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35604#p35604"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35604#p35604"><![CDATA[
+I am really embarrassed, but I wanted to write how I fixed the issue, so people can see this and try what I didn't<br><br>I did not have access to another computer to assuming this was a driver issue, I just deleted my disks and reinstalled everything in my mind making it equivalent to another computer as VK3KYY suggested. The issue did not go away and when I talked with the seller on how they managed to fix it they just told me that they flashed the original firmware and it worked. I thought they were not telling me how they did it since the Turkish language firmware is their licensed product and did not want to share the details with me. I decided to get a completely new computer just to try it before sending it in one more time, and it worked. Then I switched the USB port on my computer and it worked. My radio is to the left of my device where there is only a single USB port and since my MD 390 device flashed fine from that port I never tried unplugging and moving the radio to the right-hand side using the other ports.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7273">TA2EGG</a> — Thu Feb 06, 2025 3:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2EGG]]></name></author>
+		<updated>2025-02-05T13:44:39</updated>
+
+		<published>2025-02-05T13:44:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35588#p35588</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35588#p35588"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35588#p35588"><![CDATA[
+It says 2311 in it without any VX text so I am assuming its a V5<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7273">TA2EGG</a> — Wed Feb 05, 2025 1:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-05T06:59:47</updated>
+
+		<published>2025-02-05T06:59:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35586#p35586</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35586#p35586"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35586#p35586"><![CDATA[
+<blockquote class="uncited"><div>I believe a non-standard bootloader is the issue I am just upset that it used to work when I installed it 2-3 months prior and worked without issue. I searched online for the original bootloader file to no avail do you have access to the bootloader or can you point me to the files. I don't think they will agree to installing OpenGD77 but I will try my luck. Thank you for your support.</div></blockquote>What hardware version of MD9600 do you have.<br><br>I think there may be more than one version of the MD9600, depending on the hardware version, but the OpenGD77CPS works with all normal versions of bootloader regardless of hardware version.<br><br><br>Someone will need to backup the MCU memory in their radio and post the file somewhere, because I don't have access to a MD9600 to do this at the moment<br><br><br><br>You will also need to open the radio and connect a hardware debugger to the CPU, e.g. a STLink.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Feb 05, 2025 6:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2EGG]]></name></author>
+		<updated>2025-02-05T06:35:40</updated>
+
+		<published>2025-02-05T06:35:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35585#p35585</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35585#p35585"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35585#p35585"><![CDATA[
+I believe a non-standard bootloader is the issue I am just upset that it used to work when I installed it 2-3 months prior and worked without issue. I searched online for the original bootloader file to no avail do you have access to the bootloader or can you point me to the files. I don't think they will agree to installing OpenGD77 but I will try my luck. Thank you for your support.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7273">TA2EGG</a> — Wed Feb 05, 2025 6:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-04T21:44:40</updated>
+
+		<published>2025-02-04T21:44:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35578#p35578</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35578#p35578"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35578#p35578"><![CDATA[
+<blockquote class="uncited"><div>The seller was able to restore the original firmware in Turkish to the device but when I tried to flash OpenGD77 again the same issue happened.</div></blockquote>Possibly there is something non-standard with your radio.<br><br>Or you have some problem on your computer.<br><br>Did you ask the seller to install OpenGD77? i.e this will eliminate the possibility that the problem is your computer or PSU etc.<br><br><br>On rare occasions people have bought from suppliers who have custom commercial versions of various radios, and these may have a different bootloader which prevents non-official firmware being loaded.<br><br>The only way to install the firmware onto these non-standard radios is to directly connect to the hardware debug port pads on the PCB (SWD), and install a standard bootloader.<br><br>However I can only remember 1 person having one of these special radios, and I can't remember if it was a MD9600 /RT90 or a handheld<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Feb 04, 2025 9:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2EGG]]></name></author>
+		<updated>2025-02-04T20:56:16</updated>
+
+		<published>2025-02-04T20:56:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35575#p35575</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35575#p35575"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35575#p35575"><![CDATA[
+The seller was able to restore the original firmware in Turkish to the device but when I tried to flash OpenGD77 again the same issue happened.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7273">TA2EGG</a> — Tue Feb 04, 2025 8:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-02-04T20:51:59</updated>
+
+		<published>2025-02-04T20:51:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35574#p35574</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35574#p35574"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35574#p35574"><![CDATA[
+<blockquote class="uncited"><div>Sorry for the late reply. I found another pc to try it on I am getting the same errors in <br>original cps read and write<br>original firmware bin upload<br>opengd77 firmware upload<br>opengd77 cps read and write<br><br>nothing changed unfortunately my drivers and other software are in order.</div></blockquote>If you have errors when using the official firmware and CPS then you probably have a hardware fault in the radio, or the connections to the radio or the powering of the radio etc.<br><br>This is not an OpenGD77 problem<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Feb 04, 2025 8:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2EGG]]></name></author>
+		<updated>2025-02-04T20:18:06</updated>
+
+		<published>2025-02-04T20:18:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35572#p35572</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35572#p35572"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35572#p35572"><![CDATA[
+I was also able to upload opengd77 firmware to a tyt uv390 device so I think the drivers are working<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7273">TA2EGG</a> — Tue Feb 04, 2025 8:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2EGG]]></name></author>
+		<updated>2025-02-04T19:35:08</updated>
+
+		<published>2025-02-04T19:35:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35570#p35570</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35570#p35570"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35570#p35570"><![CDATA[
+Sorry for the late reply. I found another pc to try it on I am getting the same errors in <br>original cps read and write<br>original firmware bin upload<br>opengd77 firmware upload<br>opengd77 cps read and write<br><br>nothing changed unfortunately my drivers and other software are in order.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7273">TA2EGG</a> — Tue Feb 04, 2025 7:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-30T19:24:09</updated>
+
+		<published>2025-01-30T19:24:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35494#p35494</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35494#p35494"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35494#p35494"><![CDATA[
+<blockquote class="uncited"><div>I tried using the UpgradeDownload app to flash the original firmware, however the original firmware could not be flashed with the same erase/write error.</div></blockquote>Try a different PC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 30, 2025 7:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2EGG]]></name></author>
+		<updated>2025-01-30T18:59:42</updated>
+
+		<published>2025-01-30T18:59:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35492#p35492</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35492#p35492"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35492#p35492"><![CDATA[
+I tried using the UpgradeDownload app to flash the original firmware, however the original firmware could not be flashed with the same erase/write error.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7273">TA2EGG</a> — Thu Jan 30, 2025 6:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-29T19:42:19</updated>
+
+		<published>2025-01-29T19:42:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35469#p35469</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35469#p35469"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35469#p35469"><![CDATA[
+Try restarting loading the official firmware using the official tools<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 29, 2025 7:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2EGG]]></name></author>
+		<updated>2025-01-29T17:42:50</updated>
+
+		<published>2025-01-29T17:42:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35464#p35464</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35464#p35464"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35464#p35464"><![CDATA[
+I already did install the drivers from scratch just to be safe but unfortunately nothing changed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7273">TA2EGG</a> — Wed Jan 29, 2025 5:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA1ECA]]></name></author>
+		<updated>2025-01-29T17:28:31</updated>
+
+		<published>2025-01-29T17:28:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35463#p35463</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35463#p35463"/>
+		<title type="html"><![CDATA[Re: Installation of New Firmware Stuck]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4821&amp;p=35463#p35463"><![CDATA[
+<blockquote class="uncited"><div>I am using this exact version of the driver on Windows 10, the device is displayed as STM DFU on the usb list in device manager</div></blockquote>Even if the windows driver version looks the same, I recommend you delete the old version and reinstall the version shared by VK3KYY. Although I have the same version installed, for some reason only the driver shared by VK3KYY worked. Finally, make sure you have the latest version of cps installed.<br><br>Emre<br>73,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3071">TA1ECA</a> — Wed Jan 29, 2025 5:28 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

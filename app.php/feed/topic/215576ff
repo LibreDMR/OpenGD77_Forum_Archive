@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2155" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-03-17T20:05:12</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2155</id>
+
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2022-03-17T20:05:12</updated>
+
+		<published>2022-03-17T20:05:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17896#p17896</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17896#p17896"/>
+		<title type="html"><![CDATA[Re: V4.1 hardware no NOAA receive]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17896#p17896"><![CDATA[
+<blockquote class="uncited"><div>See <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=2135&amp;p=17861#p17861" class="postlink">viewtopic.php?f=18&amp;t=2135&amp;p=17861#p17861</a></div></blockquote>running on both the V4.1 and V5.0 hardware and doing good so far. The VHF not receive issue solved on 4.1v and the power button now functions as expected.<br><br>Thank you for all everyone does for this project, makes the radios much more enjoyable to use.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Thu Mar 17, 2022 8:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2022-03-17T13:32:00</updated>
+
+		<published>2022-03-17T13:32:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17867#p17867</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17867#p17867"/>
+		<title type="html"><![CDATA[Re: V4.1 hardware no NOAA receive]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17867#p17867"><![CDATA[
+<blockquote class="uncited"><div>On my V4 radio the problem was actually nothing to do with the frequencies. The radio did not receive on VHF on any frequency at initial power on. <br><br>This seems to be a problem with the VHF Receive synthesiser. It needs to be programmed immediately after the power is applied or it locks up and cannot be programmed until the power is cycled by going to Tx and back to Rx. <br><br>The firmware has a short delay after powering on the radio while things are initialised and this was causing the problem. <br><br>I have submitted a fix which should be included in the next firmware release. <br><br>Colin G4EML</div></blockquote>Thank you and glad it is understood and dealt with. The OpenMD9600 firmware make the MD9600 feel like a completely different and BETTER radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Thu Mar 17, 2022 1:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-03-17T06:55:02</updated>
+
+		<published>2022-03-17T06:55:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17862#p17862</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17862#p17862"/>
+		<title type="html"><![CDATA[Re: V4.1 hardware no NOAA receive]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17862#p17862"><![CDATA[
+See <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=2135&amp;p=17861#p17861" class="postlink">viewtopic.php?f=18&amp;t=2135&amp;p=17861#p17861</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 17, 2022 6:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-03-16T13:24:15</updated>
+
+		<published>2022-03-16T13:24:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17851#p17851</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17851#p17851"/>
+		<title type="html"><![CDATA[Re: V4.1 hardware no NOAA receive]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17851#p17851"><![CDATA[
+On my V4 radio the problem was actually nothing to do with the frequencies. The radio did not receive on VHF on any frequency at initial power on. <br><br>This seems to be a problem with the VHF Receive synthesiser. It needs to be programmed immediately after the power is applied or it locks up and cannot be programmed until the power is cycled by going to Tx and back to Rx. <br><br>The firmware has a short delay after powering on the radio while things are initialised and this was causing the problem. <br><br>I have submitted a fix which should be included in the next firmware release. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Mar 16, 2022 1:24 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-03-15T18:29:56</updated>
+
+		<published>2022-03-15T18:29:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17847#p17847</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17847#p17847"/>
+		<title type="html"><![CDATA[Re: V4.1 hardware no NOAA receive]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17847#p17847"><![CDATA[
+No need for any more testing. <br> <br>I can reproduce the problem on my V4 radio. I will work out what is happening later and we should have a fix in the next release. <br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Mar 15, 2022 6:29 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2022-03-15T17:17:59</updated>
+
+		<published>2022-03-15T17:17:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17845#p17845</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17845#p17845"/>
+		<title type="html"><![CDATA[Re: V4.1 hardware no NOAA receive]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17845#p17845"><![CDATA[
+It sounds like the synthesiser is not locking properly at the high end of its coverage. <br><br>It would also be useful to see if the receiver is not working or is just very low sensitivity. <br><br>Can you hear a strong transmission? Maybe by making a short transmission on the NOAA frequency from the second radio nearby. <br><br>Colin G4EML.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Mar 15, 2022 5:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2022-03-15T16:56:34</updated>
+
+		<published>2022-03-15T16:56:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17844#p17844</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17844#p17844"/>
+		<title type="html"><![CDATA[V4.1 hardware no NOAA receive]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2155&amp;p=17844#p17844"><![CDATA[
+I have an interesting situation with the Version 4.1 Hardware radio. I am unable to hear / receive the NOAA weather stations. I have a V5.0 hardware radio with the exact same code plug and it receives the NOAA stations perfectly. All the NOAA frequencies are set to Rx only.<br><br>Both radios work fine with all my 2m and 70cm repeaters and simplex on both analog and DMR. When I attempt to use the programed channel for any of the six NOAA frequencies on the V4.1 hardware radio the bar graph for reception never moves above the background noise level. Also if I turn squelch off all I hear is the noise floor. I have checked that channel has the correct NOAA frequency set.<br><br>If I go to VFO mode and input any of the NOAA frequencies still no reception UNTIL I PTT and then suddenly I am able to receive and the bar graph is showing a signal above noise level. When I power the radio down using the green power button and power back up it once again it is in the none functioning mode and I have to go to VFO and PTT briefly and it all starts working. I can go back to Channel mode and now receive the NOAA stations.<br><br>Below is the exact information from the PCB board in the v4.1 radio plus S/N and a listing of the six NOAA weather broadcast frequencies.<br><br>Radio info:<br>From PCB : MD9600-UV-V4.1-200618<br>Serial # : 2006T00639<br><br>NOAA weather broadcast frequencies: (Mhz)<br>162.400<br>162.425<br>162.450<br>162.475<br>162.500<br>162.525<br><br>I am using the following Firmware (From the FW info screen)<br>OpenMD9600<br>09:24:42<br>Mar 5 2022<br>[ 0f2e584 D ]<br><br>If there is anything more you need from me please let me know.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Tue Mar 15, 2022 4:56 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

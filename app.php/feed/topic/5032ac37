@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5032" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-04T12:53:24</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5032</id>
+
+		<entry>
+		<author><name><![CDATA[Juan Francisco]]></name></author>
+		<updated>2025-04-04T12:53:24</updated>
+
+		<published>2025-04-04T12:53:24</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36596#p36596</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36596#p36596"/>
+		<title type="html"><![CDATA[Re: Stuttered start dmr?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36596#p36596"><![CDATA[
+I miss it, months ago I had the table version and I didn't have this problem or it was sporadic. Then I started testing the latest betas and started noticing this initial stuttering or stuttering. I went back to the stable version and continued. <br>Maybe it's just a coincidence and something else is influencing it or something changed... I'm not sure.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=777">Juan Francisco</a> — Fri Apr 04, 2025 12:53 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[GW0MAV]]></name></author>
+		<updated>2025-04-04T06:58:50</updated>
+
+		<published>2025-04-04T06:58:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36595#p36595</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36595#p36595"/>
+		<title type="html"><![CDATA[Re: Stuttered start dmr?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36595#p36595"><![CDATA[
+I have found the Colour Code <strong class="text-strong">scan </strong>(CC) upsets voice decoding. Great for scanning, but when on my hotspot its annoying.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6538">GW0MAV</a> — Fri Apr 04, 2025 6:58 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-04-04T00:16:06</updated>
+
+		<published>2025-04-04T00:16:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36592#p36592</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36592#p36592"/>
+		<title type="html"><![CDATA[Re: Stuttered start dmr?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36592#p36592"><![CDATA[
+well, I've noticed the same with DM-1701 and MD-UV390 Plus, especially with Motorola repeaters.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Fri Apr 04, 2025 12:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Juan Francisco]]></name></author>
+		<updated>2025-04-03T14:34:58</updated>
+
+		<published>2025-04-03T14:34:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36585#p36585</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36585#p36585"/>
+		<title type="html"><![CDATA[Stuttered start dmr?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5032&amp;p=36585#p36585"><![CDATA[
+Lately, after trying several beta and stable versions, I noticed a lot of stuttering just before the DMR voice... The devices that transmit are Motorola. <br>*Actualmente estoy con entable 1071 20240908143110<br> <strong>iframe</strong> <br><a href="http://youtu.be/N9AQ2XG-B_U">youtu.be/N9AQ2XG-B_U</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=777">Juan Francisco</a> — Thu Apr 03, 2025 2:34 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

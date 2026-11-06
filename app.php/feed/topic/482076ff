@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4820" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-28T20:27:58</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4820</id>
+
+		<entry>
+		<author><name><![CDATA[F4LBY]]></name></author>
+		<updated>2025-01-28T20:27:58</updated>
+
+		<published>2025-01-28T20:27:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4820&amp;p=35441#p35441</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4820&amp;p=35441#p35441"/>
+		<title type="html"><![CDATA[MD-9600 V2.1 and 1750Hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4820&amp;p=35441#p35441"><![CDATA[
+Hello, <br><br>I'm new in OpenGD77 and I meet an issue with the OpenGD77 1750 Hz tone function on my TYT MD9600 V2.1.<br><br>The tone generated pushing PTT + D (ALM) is not a 1750 Hz and so didn't open relay next to me.<br><br>The last stable version is generating 938hz + 1641hz<br>The last beta version is generating a 1207Hz<br><br>Thanks for your amazing job and your support !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7924">F4LBY</a> — Tue Jan 28, 2025 8:27 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

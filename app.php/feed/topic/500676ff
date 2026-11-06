@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5006" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-06T11:17:12</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5006</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-06T11:11:13</updated>
+
+		<published>2025-05-06T11:11:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37017#p37017</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37017#p37017"/>
+		<title type="html"><![CDATA[Re: A Practical Radio Model We Can Actually Build]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37017#p37017"><![CDATA[
+<blockquote class="uncited"><div>me gusta muchisimo el diseño de la dm-x compacto como el 1801 tyt-m760 pero con pantalla grande<br><br>ojala se pueda portar ya uno esta cansado de los 1701 380/90</div></blockquote><a href="https://www.opengd77.com/viewtopic.php?f=3&amp;t=4957" class="postlink">viewtopic.php?f=3&amp;t=4957</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue May 06, 2025 11:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ea7jye]]></name></author>
+		<updated>2025-05-06T11:17:12 </updated>
+
+		<published>2025-05-06T09:47:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37016#p37016</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37016#p37016"/>
+		<title type="html"><![CDATA[Re: A Practical Radio Model We Can Actually Build]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37016#p37016"><![CDATA[
+I really like the design of the DM-X, compact like the 1801 TYT-M760 but with a larger screen.<br><br>I hope it can be portable. We're tired of the 1701 380/90.<br><br>-------------------------------------------------------------------------------------------------------------<br>me gusta muchisimo el diseño de la dm-x compacto como el 1801 tyt-m760 pero con pantalla grande<br><br>ojala se pueda portar ya uno esta cansado de los 1701 380/90<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8251">Ea7jye</a> — Tue May 06, 2025 9:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BI1GLL]]></name></author>
+		<updated>2025-03-25T06:45:33</updated>
+
+		<published>2025-03-25T06:45:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5006&amp;p=36435#p36435</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=36435#p36435"/>
+		<title type="html"><![CDATA[A Practical Radio Model We Can Actually Build]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=36435#p36435"><![CDATA[
+I found that the chip in this machine is the same as the one in the 1701—both contain identical main control chips, HR-6000 chips, and an AT1846S. However, this machine only has one encoder. The front panel layout is the same as the TYT-UV380.<br><br>Porting the GD77 firmware to it will turn this into an even more fun walkie-talkie!<br><img src="https://github.com/cnt7/7-S-image/blob/main/IMG_9357.JPG?raw=FALSE" class="postimage" alt="Image"><br><img src="https://github.com/cnt7/7-S-image/blob/main/IMG_9355.JPG?raw=FALSE" class="postimage" alt="Image"><br><img src="https://github.com/cnt7/7-S-image/blob/main/IMG_9353.JPG?raw=FALSE" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8338">BI1GLL</a> — Tue Mar 25, 2025 6:45 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

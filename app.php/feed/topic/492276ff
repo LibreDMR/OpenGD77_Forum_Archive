@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4922" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-28T13:12:10</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4922</id>
+
+		<entry>
+		<author><name><![CDATA[DO9RE]]></name></author>
+		<updated>2025-02-28T13:12:10</updated>
+
+		<published>2025-02-28T13:12:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4922&amp;p=36003#p36003</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4922&amp;p=36003#p36003"/>
+		<title type="html"><![CDATA[Re: Organizing My Saved Repeaters in GD77 Using CSV Export/Import]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4922&amp;p=36003#p36003"><![CDATA[
+Thx. That gives a very good starting point.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8178">DO9RE</a> — Fri Feb 28, 2025 1:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-02-28T12:47:54</updated>
+
+		<published>2025-02-28T12:47:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4922&amp;p=36002#p36002</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4922&amp;p=36002#p36002"/>
+		<title type="html"><![CDATA[Re: Organizing My Saved Repeaters in GD77 Using CSV Export/Import]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4922&amp;p=36002#p36002"><![CDATA[
+When moving channels in channels.csv you must copy the entire row of data and make sure the columns remain aligned. If creating a new channel it is best to copy the row of a similar channel and then make changes to the columns as needed. Always ensure the channel number column is unique. Two channels with the same channel number will overwrite each other.  Channel numbers don't have to be sequential (they can have gaps) but they must be unique. <br><br>The CPS should automatically cope with commas or periods based on the windows country settings. It also scans input lines and tries to identify the format automatically. <br><br>Yes, you can create new zones and add channels to them, just add an extra line to zones.csv and make sure the channel names in the columns are exactly the same as those defined in channels.csv. <br><br>Internally the Code plug uses index numbers to refer to channels, zones, contacts etc. <br>The CSV builds these indexes from the names used in the CSV files using exact matching.  So it is important that the names are exactly the same wherever they are used. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Feb 28, 2025 12:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0JYZ]]></name></author>
+		<updated>2025-02-28T02:22:49</updated>
+
+		<published>2025-02-28T02:22:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4922&amp;p=35994#p35994</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4922&amp;p=35994#p35994"/>
+		<title type="html"><![CDATA[Re: Organizing My Saved Repeaters in GD77 Using CSV Export/Import]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4922&amp;p=35994#p35994"><![CDATA[
+I can't give you very much advice about what to put into your spreadsheet other than export from the CPS first so you have all the correct columns and names for each sheet, then import each of those CSVs into ONE workbook naming each sheet to correspond to the appropriate csv [Channels, Contacts, TG_Lists, Zones, APRS, and DTMF].  <br><br>If you are using libreoffice for your spreadsheet, you can use <a href="https://www.briankoponen.com/libreoffice-export-sheets-csv/" class="postlink">this macro</a> to export each sheet into its own csv.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5571">N0JYZ</a> — Fri Feb 28, 2025 2:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO9RE]]></name></author>
+		<updated>2025-02-28T00:01:30</updated>
+
+		<published>2025-02-28T00:01:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4922&amp;p=35992#p35992</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4922&amp;p=35992#p35992"/>
+		<title type="html"><![CDATA[Organizing My Saved Repeaters in GD77 Using CSV Export/Import]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4922&amp;p=35992#p35992"><![CDATA[
+Hello.<br><br><br>I’ve been manually saving repeaters to my GD77 while driving around, checking availability via RepeaterBook. Over time, this has resulted in an unstructured and chaotic list of stored repeaters, making navigation increasingly difficult.  <br><br>I recently discovered that the CPS software supports importing and exporting channel data in CSV format. Since I’m quite proficient with Excel and LibreOffice Calc, this seems like a good way to properly organize my channels. Additionally, as I am blind, I find the built-in CPS organizational functions somewhat cumbersome to use.  <br><br>My goals are:  <br>- Creating zones  <br>- Moving channels into zones  <br>- Changing the order of channels  <br><br>Before I proceed, I have some specific questions regarding the CSV workflow:  <br>- What should I keep in mind when working with the exported CSV files?  <br>- What delimiter does CPS use—comma, semicolon, or tab (TSV format)?  <br>- Are frequency values stored with a decimal point or comma? In Germany, we use a comma as the decimal separator and a period as a thousands separator, which could cause issues.  <br>- When editing the CSV, can I assign a channel to a zone that does not yet exist in CPS, or must I first create the zone within CPS before referencing it in the file?  <br><br>Any insights or best practices would be greatly appreciated!<br><br>73s,<br>Richard, DO9RE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8178">DO9RE</a> — Fri Feb 28, 2025 12:01 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

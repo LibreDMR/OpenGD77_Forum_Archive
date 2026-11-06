@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3561" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-12-12T05:22:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3561</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-12T05:22:59</updated>
+
+		<published>2023-12-12T05:22:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3561&amp;p=28046#p28046</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3561&amp;p=28046#p28046"/>
+		<title type="html"><![CDATA[Re: New Beta 2023 12 08]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3561&amp;p=28046#p28046"><![CDATA[
+This version has now been superseded.<br><br>See  <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3577" class="postlink">viewtopic.php?f=13&amp;t=3577</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 12, 2023 5:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-07T21:35:13</updated>
+
+		<published>2023-12-07T21:35:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3561&amp;p=27956#p27956</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3561&amp;p=27956#p27956"/>
+		<title type="html"><![CDATA[New Beta 2023 12 08]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3561&amp;p=27956#p27956"><![CDATA[
+A new GD-77/DM-1801/RD-5R/GD-77S etc Beta is available<br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/4359ae3fdae5bd7886c5acb429312972dbf5352a" class="postlink">downloads/GD77/Firmware/4359ae3fdae5bd7 ... 72dbf5352a</a><br><br><a href="https://www.opengd77.com/downloads/GD77/Firmware/Latest" class="postlink">downloads/GD77/Firmware/Latest</a><br><br><br><br>This version changes the operation of the Last Heard screen<br><br>Pressing the Green button changes the TG to the TG of the currently selected line<br>Pressing SK2 + Green  changes the radio to make a private call to the station<br><br>Thanks to Daniel F1RMB for this change<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Dec 07, 2023 9:35 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

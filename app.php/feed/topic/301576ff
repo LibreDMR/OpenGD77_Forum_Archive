@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3015" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-10-23T14:27:27</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3015</id>
+
+		<entry>
+		<author><name><![CDATA[KN4FYR]]></name></author>
+		<updated>2023-10-23T14:27:27</updated>
+
+		<published>2023-10-23T14:27:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3015&amp;p=27000#p27000</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=27000#p27000"/>
+		<title type="html"><![CDATA[Re: MD-9600 Microphone Number Entry - Mixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=27000#p27000"><![CDATA[
+Good morning!<br><br>I just discovered that I had the same issue with buttons producing the wrong number.  A good cleaning of the RJ-45 connector with a fine, stiff, wire brush solved the problem.    My first choice after reading this was to re-crimp the connector.  However, the black plastic cover on the connector kept the RJ-45 from seating in the crimp tool all the way.  Glad the wire brush did the trick.<br><br>Thanks much!<br><br>73,<br><br>Dan<br>KN4FYR<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3328">KN4FYR</a> — Mon Oct 23, 2023 2:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NZ2O]]></name></author>
+		<updated>2023-07-07T00:33:10</updated>
+
+		<published>2023-07-07T00:33:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24268#p24268</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24268#p24268"/>
+		<title type="html"><![CDATA[Re: MD-9600 Microphone Number Entry - Mixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24268#p24268"><![CDATA[
+Thank you for the responses, everyone. Yes, it did work with official. <br><br>However, I did have two radios at one point, and one of them was a bad batch radio, so that may explain it.<br>I do need to get an extra mic (I always buy extras, because UV/in vehicle use in 90F weather tends to destroy mics over time).<br><br>Outside of that, the mic and radio is quite usable. Previously, I had put this thing on a shelf and didn't touch it for at least a year, and... I'll admit I haven't had a radio in my office in 2 years until now.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing">  Kudos to all involved with that, and thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4138">NZ2O</a> — Fri Jul 07, 2023 12:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-07-06T08:57:55</updated>
+
+		<published>2023-07-06T08:57:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24252#p24252</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24252#p24252"/>
+		<title type="html"><![CDATA[Re: MD-9600 Microphone Number Entry - Mixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24252#p24252"><![CDATA[
+I have seen a similar problem in the past. It turned out to be a badly crimped microphone connector which had high resistance on one of the button signals. Wiggling the cable and connector would change the fault. <br><br>As Roger said the microphone switches different resistors to ground to indicate the row and column of the button. Any small change in the cable or connector resistance can cause errors in decoding. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Thu Jul 06, 2023 8:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-07-06T07:57:07</updated>
+
+		<published>2023-07-06T07:57:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24249#p24249</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24249#p24249"/>
+		<title type="html"><![CDATA[Re: MD-9600 Microphone Number Entry - Mixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24249#p24249"><![CDATA[
+Found this drawing on the net, maybe it may help finding the problem.<br><br><a href="https://rclubvic.files.wordpress.com/2018/03/connexions-micrc3b2fon-tyt-md9600.pdf" class="postlink">https://rclubvic.files.wordpress.com/20 ... md9600.pdf</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Jul 06, 2023 7:57 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-07-06T06:01:44</updated>
+
+		<published>2023-07-06T06:01:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24247#p24247</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24247#p24247"/>
+		<title type="html"><![CDATA[Re: MD-9600 Microphone Number Entry - Mixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24247#p24247"><![CDATA[
+<blockquote class="uncited"><div>I did a little searching, and I can't seem to find anyone who has the same issue with the MD-9600. It seems that on each version of the firmware, the numeric keys on my mic seems to enter the incorrect numbers.<br><br>For example.... Press 4, 5 displays on screen. Press 5, 5 also displays. It is a bit odd.<br><br>Am I missing something, or potentially could this be a known issue?<br><br>Running the latest 7/2/2023 FW on the V1 HW.</div></blockquote>Sounds like a problem with the way the microphone buttons work.<br><br>Unfortunately the mic buttons use an analogue matrix consisting of resistors, so that there is a different voltage depending on which button is pressed.<br><br>Can you try cleaning and re-seating the mic connector.<br><br>BTW.<br><br>Does the mic work OK when using the official firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jul 06, 2023 6:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NZ2O]]></name></author>
+		<updated>2023-07-06T01:25:41</updated>
+
+		<published>2023-07-06T01:25:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24245#p24245</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24245#p24245"/>
+		<title type="html"><![CDATA[MD-9600 Microphone Number Entry - Mixed]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3015&amp;p=24245#p24245"><![CDATA[
+I did a little searching, and I can't seem to find anyone who has the same issue with the MD-9600. It seems that on each version of the firmware, the numeric keys on my mic seems to enter the incorrect numbers.<br><br>For example.... Press 4, 5 displays on screen. Press 5, 5 also displays. It is a bit odd.<br><br>Am I missing something, or potentially could this be a known issue?<br><br>Running the latest 7/2/2023 FW on the V1 HW.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4138">NZ2O</a> — Thu Jul 06, 2023 1:25 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

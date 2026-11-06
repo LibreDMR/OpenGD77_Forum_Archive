@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3733" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-01-31T00:04:58</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3733</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-31T00:04:58</updated>
+
+		<published>2024-01-31T00:04:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29152#p29152</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29152#p29152"/>
+		<title type="html"><![CDATA[Re: Quansheng DM600UV]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29152#p29152"><![CDATA[
+It probably doesn't use the same DMR chip even, and the firmware loading process and encryption (if any) are also unknown.<br><br>So basically its a non-starter.<br><br>i.e The minimum requirement for even thinking of porting to a radio is<br><br>1. Radio must use a CPU which has a publically available development enviroment and Software Development Kit (SDK)<br>Note. Radios like the GD-88 use a Chinese CPU with no publically available software development kit, so are currently a non-starter<br><br>2. Radio must use the C6000 DMR + FM DSP chip<br>e.g GD-77 uses a different chip for this, as its integrated inside the MCU chip. Hence again why this is currently a non-starter.<br><br>3. Radio must use a RF chip with publically available data sheets<br><br>4. Radio firmware file format and upload protocol must be known<br><br>5. Additionally if the firmware update files are encrypted, the encryption must also already be hacked/broken to allow files to be encrypted with the same encrytion system and key, otherwise they will not be accepted by the radio<br><br><br>Even with all this information, the normal time taken to get a new radio working is approx 6 to 12 months of development time by multiple developers<br><br>The only reason that it only took me 2 months to get an Alpha version of the MD2017 working, is that the MD2017 is almost identical hardware to the UV380 and uses the same encryption and firmware loading system as the UV380 etc.<br><br><br>From the ground up, it took almost 3 years to get the original GD-77 version working<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Jan 31, 2024 12:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-01-30T22:50:29</updated>
+
+		<published>2024-01-30T22:50:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29148#p29148</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29148#p29148"/>
+		<title type="html"><![CDATA[Re: Quansheng DM600UV]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29148#p29148"><![CDATA[
+Just looking at the picture it looks like the LCD display is not pixel based but uses individual fixed icons and a small text areas for the frequencies/channels. That would make it very difficult to use with OpenGD77 as it would not support the current display methods and would need major rewrite of the user interface. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue Jan 30, 2024 10:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK2MOP]]></name></author>
+		<updated>2024-01-30T18:46:31</updated>
+
+		<published>2024-01-30T18:46:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29139#p29139</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29139#p29139"/>
+		<title type="html"><![CDATA[Re: Quansheng DM600UV]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29139#p29139"><![CDATA[
+BTW in EU (Czechia) I get info that this item is unavailable in my location and I am unable to search for it. Maybe it does not conform to EU harmonics requirements?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4053">OK2MOP</a> — Tue Jan 30, 2024 6:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DV3PPE]]></name></author>
+		<updated>2024-01-30T16:54:43</updated>
+
+		<published>2024-01-30T16:54:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29138#p29138</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29138#p29138"/>
+		<title type="html"><![CDATA[Re: Quansheng DM600UV]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29138#p29138"><![CDATA[
+Thanks Roger..Hoping that someone or somebody could investigate on this..since it's DM not DR..well anyway, thanks again..<br><br>DV3PPE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5497">DV3PPE</a> — Tue Jan 30, 2024 4:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-01-30T09:11:49</updated>
+
+		<published>2024-01-30T09:11:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29132#p29132</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29132#p29132"/>
+		<title type="html"><![CDATA[Re: Quansheng DM600UV]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29132#p29132"><![CDATA[
+<blockquote class="uncited"><div>Hi Rogers and OpenGD77 team,<br><br>Could you look at this radio..it's like rd-5r..possible for custom fw candidate..<br><br>links:<br><br><a href="https://www.alibaba.com/product-detail/Dual-Band-Vhf-Uhf-Digital-Mobile_60823377914.html?spm=a2700.shop_plgr.41413.42.6f8377edYOkkdE" class="postlink">https://www.alibaba.com/product-detail/ ... 77edYOkkdE</a><br><br><a href="https://www.aliexpress.us/item/3256806238890823.html?src=google&amp;aff_fcid=28d5d5d43f7244cca2b8426ddb9bfc6e-1706601705386-00029-UneMJZVf&amp;aff_fsk=UneMJZVf&amp;aff_platform=aaf&amp;sk=UneMJZVf&amp;aff_trace_key=28d5d5d43f7244cca2b8426ddb9bfc6e-1706601705386-00029-UneMJZVf&amp;terminal_id=1b7c9996e0194eeeae7f73ab535592ae&amp;afSmartRedirect=y&amp;gatewayAdapt=glo2usa#nav-description" class="postlink">https://www.aliexpress.us/item/32568062 ... escription</a><br><br>Thanks and 73,<br>DV3PPE</div></blockquote>No time, or money<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jan 30, 2024 9:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DV3PPE]]></name></author>
+		<updated>2024-01-30T08:26:44</updated>
+
+		<published>2024-01-30T08:26:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29125#p29125</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29125#p29125"/>
+		<title type="html"><![CDATA[Quansheng DM600UV  [Not able to support]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3733&amp;p=29125#p29125"><![CDATA[
+Hi Rogers and OpenGD77 team,<br><br>Could you look at this radio..it's like rd-5r..possible for custom fw candidate..<br><br>links:<br><br><a href="https://www.alibaba.com/product-detail/Dual-Band-Vhf-Uhf-Digital-Mobile_60823377914.html?spm=a2700.shop_plgr.41413.42.6f8377edYOkkdE" class="postlink">https://www.alibaba.com/product-detail/ ... 77edYOkkdE</a><br><br><a href="https://www.aliexpress.us/item/3256806238890823.html?src=google&amp;aff_fcid=28d5d5d43f7244cca2b8426ddb9bfc6e-1706601705386-00029-UneMJZVf&amp;aff_fsk=UneMJZVf&amp;aff_platform=aaf&amp;sk=UneMJZVf&amp;aff_trace_key=28d5d5d43f7244cca2b8426ddb9bfc6e-1706601705386-00029-UneMJZVf&amp;terminal_id=1b7c9996e0194eeeae7f73ab535592ae&amp;afSmartRedirect=y&amp;gatewayAdapt=glo2usa#nav-description" class="postlink">https://www.aliexpress.us/item/32568062 ... escription</a><br><br>Thanks and 73,<br>DV3PPE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5497">DV3PPE</a> — Tue Jan 30, 2024 8:26 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

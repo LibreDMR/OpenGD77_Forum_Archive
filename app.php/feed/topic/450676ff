@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4506" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-22T01:07:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4506</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T01:07:55</updated>
+
+		<published>2024-10-22T01:07:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33626#p33626</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33626#p33626"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 20]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33626#p33626"><![CDATA[
+This CPS has now been superseded<br><br>See<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4510" class="postlink">viewtopic.php?f=12&amp;t=4510</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 1:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T01:07:32</updated>
+
+		<published>2024-10-22T01:07:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33625#p33625</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33625#p33625"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 20]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33625#p33625"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger,<br><br>I'm not sure what you mean by "The CPS has now been changed so that the list of separators is not editable"<br>Do you mean the Separator in the red circle is not changeable? If so, it still can.<br><br>BTW, the Region is now default to 0, which is weird. Is it possible to default to nothing?</div></blockquote>See<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4510" class="postlink">viewtopic.php?f=12&amp;t=4510</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 1:07 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-21T01:16:01</updated>
+
+		<published>2024-10-21T01:16:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33623#p33623</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33623#p33623"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 20]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33623#p33623"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><br>Nothing has changed relating to the Region number<br><br>If this is showing as 0, then your DMR ID can't be entered correctly, as this defaults to the first 3 digits or the DMR ID, which is normally the region.<br><br>e.g. I checked and your DMR ID is 3183358<br><br>So that number should show as 318</div></blockquote>Got it, I never knew it is related to the DMR ID entered in the CPS. Thank you for clarification.<br><br>Charlie,</div></blockquote><br>OK<br><br>I'm now working on an improvement for this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 21, 2024 1:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-20T23:59:05</updated>
+
+		<published>2024-10-20T23:59:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33620#p33620</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33620#p33620"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 20]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33620#p33620"><![CDATA[
+<blockquote class="uncited"><div><br>Nothing has changed relating to the Region number<br><br>If this is showing as 0, then your DMR ID can't be entered correctly, as this defaults to the first 3 digits or the DMR ID, which is normally the region.<br><br>e.g. I checked and your DMR ID is 3183358<br><br>So that number should show as 318</div></blockquote>Got it, I never knew it is related to the DMR ID entered in the CPS. Thank you for clarification.<br><br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Oct 20, 2024 11:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-20T20:49:55</updated>
+
+		<published>2024-10-20T20:49:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33619#p33619</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33619#p33619"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 20]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33619#p33619"><![CDATA[
+<blockquote class="uncited"><div>Hi Roger,<br><br>I'm not sure what you mean by "The CPS has now been changed so that the list of separators is not editable"<br>Do you mean the Separator in the red circle is not changeable? If so, it still can.<br><br>BTW, the Region is now default to 0, which is weird. Is it possible to default to nothing?</div></blockquote>Nothing has changed relating to the Region number<br><br>If this is showing as 0, then your DMR ID can't be entered correctly, as this defaults to the first 3 digits or the DMR ID, which is normally the region.<br><br>e.g. I checked and your DMR ID is 3183358<br><br>So that number should show as 318<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 20, 2024 8:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-20T10:37:49</updated>
+
+		<published>2024-10-20T10:37:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33612#p33612</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33612#p33612"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 20]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33612#p33612"><![CDATA[
+Hi Roger,<br><br>I'm not sure what you mean by "The CPS has now been changed so that the list of separators is not editable"<br>Do you mean the Separator in the red circle is not changeable? If so, it still can.<br><br>BTW, the Region is now default to 0, which is weird. Is it possible to default to nothing?<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2700&amp;sid=621641759a5ea7a47cf14c54656e2d0d" class="postimage" alt="Screenshot 2024-10-20 063309.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Oct 20, 2024 10:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-20T06:27:26</updated>
+
+		<published>2024-10-20T06:27:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33606#p33606</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33606#p33606"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2024 10 20]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4506&amp;p=33606#p33606"><![CDATA[
+A new version of the OpenGD77CPS is now available<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest" class="postlink">downloads/PC_CPS/Latest</a><br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/OpenGD77CPSInstaller_R2024.10.20.01.exe" class="postlink">downloads/PC_CPS/Latest/OpenGD77CPSInst ... .20.01.exe</a><br><br><br>This version fixes a bug on the DMR ID download screen, where the app would crash if the user entered their own separator character.<br><br>The CPS has now been changed so that the list of separators is not editable, and code added to detect if an edited separator character had been saved<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 20, 2024 6:27 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

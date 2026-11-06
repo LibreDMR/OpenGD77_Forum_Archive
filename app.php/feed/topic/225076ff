@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2250" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-02-21T15:44:25</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2250</id>
+
+		<entry>
+		<author><name><![CDATA[do1jml]]></name></author>
+		<updated>2023-02-21T15:44:25</updated>
+
+		<published>2023-02-21T15:44:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=21933#p21933</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=21933#p21933"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=21933#p21933"><![CDATA[
+Some info on that radio with the Auctus chip, which may be of interest to GD77 users: the battery looks as it could be compatible, it actually fits in and can power the GD77, but does not lock. The contact plate is a tiny bit too thick for the battery to fit in the GD77 all the way.<br><br>Other info, which is probably only interesting to buyers of that radio:<br>1: I looked at harmonics with a Tiny SA ultra. Transmit seems quite clean. Note that Baofeng quality control has bad reputation so other radios may be different. And the Tiny SA can only measure so much, so take that measurement as an indication that harmonics are not catastrophic, that is all.<br>2: the data cable from the Radioddity GD-88 works to program the radio. That cable has a USB to serial converter and, apparently, connects the TX and RX line as needed by this radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1106">do1jml</a> — Tue Feb 21, 2023 3:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KI5PGJ]]></name></author>
+		<updated>2022-11-22T21:23:50</updated>
+
+		<published>2022-11-22T21:23:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=20792#p20792</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=20792#p20792"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=20792#p20792"><![CDATA[
+this radio uses the Auctus A6 chip, it is used in a variety of low cost DMR HT besides Baofeng.<br><br>A ham in the United States dove pretty deep in another radio using the A6.<br><br>Here is a good collection of info on the A6<br><br><a href="https://jhart99.com/auctus-a6/" class="postlink">https://jhart99.com/auctus-a6/</a><br><a href="https://jhart99.com/auctus-a6-revealed/" class="postlink">https://jhart99.com/auctus-a6-revealed/</a><br><a href="https://jhart99.com/a6-hidden-interface/" class="postlink">https://jhart99.com/a6-hidden-interface/</a><br><br><a href="https://jhart99.com/radiodump/" class="postlink">https://jhart99.com/radiodump/</a><br><br><a href="https://jhart99.com/burn-rom/" class="postlink">https://jhart99.com/burn-rom/</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1862">KI5PGJ</a> — Tue Nov 22, 2022 9:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[S58SMS]]></name></author>
+		<updated>2022-08-17T09:19:32</updated>
+
+		<published>2022-08-17T09:19:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19466#p19466</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19466#p19466"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19466#p19466"><![CDATA[
+It's better to do something similar to anytone 878, which is much more powerful radio!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2305">S58SMS</a> — Wed Aug 17, 2022 9:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE1MWW]]></name></author>
+		<updated>2022-08-16T08:22:25</updated>
+
+		<published>2022-08-16T08:22:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19459#p19459</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19459#p19459"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19459#p19459"><![CDATA[
+<blockquote class="uncited"><div>... I received my radio today and i'm trying to update the firmare?</div></blockquote>Did you receive a specific firmware upgrade for the new A6 model of the 1801 ?<br><br>As said many times in this forum, the new Baofeng 1801 contains a complete different hardware/firmware,<br>just looks like the old one from the outside. In fact, it is complete different radio with the old name and look.<br>Unfortunately, there is - <strong class="text-strong"><span style="color:#FF0040">NO WAY </span></strong>- to load OpenGD77 firmware in this A6 model - and there are no chances <br>to do so in the future.<br><br>73's de OE1MWW<br>Wolfgang<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1203">OE1MWW</a> — Tue Aug 16, 2022 8:22 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-08-08T10:31:44</updated>
+
+		<published>2022-08-08T10:31:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19373#p19373</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19373#p19373"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19373#p19373"><![CDATA[
+Thanks.<br><br>Made some progress updating the official firmware on my GD73. <br>I still need to install the official CPS for this radio but it wanted to terminate Skype before it would install, which seems very strange, so I'll put the CPS on another less important PC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Aug 08, 2022 10:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-07-29T09:56:30</updated>
+
+		<published>2022-07-29T09:56:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19285#p19285</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19285#p19285"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19285#p19285"><![CDATA[
+<blockquote class="uncited"><div>I'm waiting for 5 Baofeng DM1801  sent from China (M&amp;M is the vendor). I've read of fake DM1801 models not flashable with OPENGD77 fw. <br>What is a quick check to verify this?<br>Maybe to enter DFU mode?<br>I've read also of different labelled (blue instead of orange) battery pack that should be a sign of fake models <br>Any suggestion?<br>TIA es 73<br>Gabriele I4JXE</div></blockquote>They are not 'fake' radios, its just that Baofeng completely changed the electronics and cpu etc inside the radio, but didn't change the model number.<br><br>The new model does uses a completely / incompatible CPU and AFIK there isn't a firmware loader even for the official firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jul 29, 2022 9:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[i4jxe]]></name></author>
+		<updated>2022-07-29T09:17:46</updated>
+
+		<published>2022-07-29T09:17:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19283#p19283</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19283#p19283"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19283#p19283"><![CDATA[
+I'm waiting for 5 Baofeng DM1801  sent from China (M&amp;M is the vendor). I've read of fake DM1801 models not flashable with OPENGD77 fw. <br>What is a quick check to verify this?<br>Maybe to enter DFU mode?<br>I've read also of different labelled (blue instead of orange) battery pack that should be a sign of fake models <br>Any suggestion?<br>TIA es 73<br>Gabriele I4JXE<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=991">i4jxe</a> — Fri Jul 29, 2022 9:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-07-03T21:31:54</updated>
+
+		<published>2022-07-03T21:31:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19039#p19039</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19039#p19039"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=19039#p19039"><![CDATA[
+Where did you download your Gd73 C7000 driver?<br><br>I have not been able to update my GD77 since updating to Windows 10 in 2020, hence by GD73 is fairly useless as I can't update the firmware or codeplug<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 03, 2022 9:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PR7MLS]]></name></author>
+		<updated>2022-06-26T15:25:40</updated>
+
+		<published>2022-06-26T15:25:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18977#p18977</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18977#p18977"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18977#p18977"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br>on the webpage<br><br><a href="https://www.hamradioshop.pl/" class="postlink">https://www.hamradioshop.pl/</a><br><br>they are offering the DM-1801. Obviously the new A6 Version with SN: 18DMxxxxxx. They are writing: the A6 Version is protected against updates with opengd. Therefore one should use an special CPS, which they have available for download by a link on their page. They are writing also, that a UV-5R cabel would be needed for programming t6he radio. This cable has a USB to RS-232 converter as described before. This info may can help.<br><br>73 de Ingo, DF1OG</div></blockquote>good morning, I tested using a cable for the UV-5R and it didn't work, it only worked with the cable I made, there is a difference in the TXD pinout between the UV-5R cable for this new model, the pins are inverted.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2821">PR7MLS</a> — Sun Jun 26, 2022 3:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-06-26T01:51:10</updated>
+
+		<published>2022-06-26T01:51:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18974#p18974</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18974#p18974"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18974#p18974"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hi,<br>on the webpage<br><br><a href="https://www.hamradioshop.pl/" class="postlink">https://www.hamradioshop.pl/</a><br><br>they are offering the DM-1801. Obviously the new A6 Version with SN: 18DMxxxxxx. They are writing: the A6 Version is protected against updates with opengd. Therefore one should use an special CPS, which they have available for download by a link on their page. They are writing also, that a UV-5R cabel would be needed for programming t6he radio. This cable has a USB to RS-232 converter as described before. This info may can help.<br><br>73 de Ingo, DF1OG</div></blockquote>Hi, I downloaded the file, it's just cps and factory codeplug.  Maybe there's a secret key combination I need to press...</div></blockquote>Normally the official CPS application does not include the firmware loader. Baofeng and TYT and Radioddity etc always use separate applications for the firmware loader.<br>Because this is completely new radio, its possible there are no official firmware updates for this radio<br><br>Anyway, there is no purpose discussing the official firmware for this new type of DM-1801 because it can never be supported by the OpenDM1801 because the radio is actually a completely different model of radio with different CPU and different electronics etc etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 26, 2022 1:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2022-06-25T15:45:28</updated>
+
+		<published>2022-06-25T15:45:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18970#p18970</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18970#p18970"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18970#p18970"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br>on the webpage<br><br><a href="https://www.hamradioshop.pl/" class="postlink">https://www.hamradioshop.pl/</a><br><br>they are offering the DM-1801. Obviously the new A6 Version with SN: 18DMxxxxxx. They are writing: the A6 Version is protected against updates with opengd. Therefore one should use an special CPS, which they have available for download by a link on their page. They are writing also, that a UV-5R cabel would be needed for programming t6he radio. This cable has a USB to RS-232 converter as described before. This info may can help.<br><br>73 de Ingo, DF1OG</div></blockquote>Are you sure about the S/N, I would expect a 20DM1801xxxxxx<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jun 25, 2022 3:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DF1OG]]></name></author>
+		<updated>2022-06-25T15:34:39</updated>
+
+		<published>2022-06-25T15:34:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18968#p18968</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18968#p18968"/>
+		<title type="html"><![CDATA[Re: [Radio model not supported] New Baofeng 1801 won't enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18968#p18968"><![CDATA[
+Hi,<br>on the webpage<br><br><a href="https://www.hamradioshop.pl/" class="postlink">https://www.hamradioshop.pl/</a><br><br>they are offering the DM-1801. Obviously the new A6 Version with SN: 18DMxxxxxx. They are writing: the A6 Version is protected against updates with opengd. Therefore one should use an special CPS, which they have available for download by a link on their page. They are writing also, that a UV-5R cabel would be needed for programming t6he radio. This cable has a USB to RS-232 converter as described before. This info may can help.<br><br>73 de Ingo, DF1OG<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2572">DF1OG</a> — Sat Jun 25, 2022 3:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PR7MLS]]></name></author>
+		<updated>2022-06-17T20:50:23</updated>
+
+		<published>2022-06-17T20:50:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18879#p18879</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18879#p18879"/>
+		<title type="html"><![CDATA[Re: Baofeng 1801 not enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18879#p18879"><![CDATA[
+I did it here and it only worked according to this scheme, the TXD pinout is inverted and it is connected to the RXD of the CP2102 converter, and the RXD is connected to the TXD of the converter.<br>DOWNLOAD CPS: <a href="https://mega.nz/file/IFIkXZZB#EupK2RUgrp7hOs8eREXfnduRPsT51KsG5sO-uhgCNsg" class="postlink">https://mega.nz/file/IFIkXZZB#EupK2RUgr ... sO-uhgCNsg</a><br><br><img src="https://img001.prntscr.com/file/img001/rkRgwr4pQk-VOflBWDwKuQ.jpg" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2821">PR7MLS</a> — Fri Jun 17, 2022 8:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PR7MLS]]></name></author>
+		<updated>2022-06-18T14:38:18 </updated>
+
+		<published>2022-06-17T18:56:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18878#p18878</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18878#p18878"/>
+		<title type="html"><![CDATA[Re: Baofeng 1801 not enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18878#p18878"><![CDATA[
+<blockquote class="uncited"><div>did as in this picture</div></blockquote>Thanks for sharing.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2821">PR7MLS</a> — Fri Jun 17, 2022 6:56 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PR7MLS]]></name></author>
+		<updated>2022-06-17T18:14:13</updated>
+
+		<published>2022-06-17T18:14:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18875#p18875</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18875#p18875"/>
+		<title type="html"><![CDATA[Re: Baofeng 1801 not enter in upload mode]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2250&amp;p=18875#p18875"><![CDATA[
+<blockquote class="uncited"><div>CPS_DM1801_A6_V001.02_666<br>I connected it with the cable that was included by cutting off the usb plug and connected it to usb-ttl<br>black -gnd<br>blue -tx<br>brown -rx<br>everything works and reads</div></blockquote>great news, I was already preparing a ttl to rs232 converter to do this, I was going to take advantage of an 8x1 cable that I have here, if possible share this feat with a photo.<br><br><img src="https://img001.prntscr.com/file/img001/iR5KisvaTWeLq2MFB7I1pw.jpeg" class="postimage" alt="Image"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2821">PR7MLS</a> — Fri Jun 17, 2022 6:14 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

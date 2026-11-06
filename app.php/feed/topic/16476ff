@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/164" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-11-24T21:57:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/164</id>
+
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-11-24T21:57:34</updated>
+
+		<published>2019-11-24T21:57:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=742#p742</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=742#p742"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=742#p742"><![CDATA[
+nice one<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sun Nov 24, 2019 9:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T21:46:10</updated>
+
+		<published>2019-11-24T21:46:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=740#p740</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=740#p740"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=740#p740"><![CDATA[
+Guys<br><br>I've uploaded another update to <br><br><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/master/firmware_binaries/daily_builds/OpenGD77_latest.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... latest.sgl</a><br><br>It fixes potential problems where people have not assigned a Contact to a Channel, or not assigned a Contact to the VFO.<br><br>In these cases it sets the 'Contact' to the first contact.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 9:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T21:18:39</updated>
+
+		<published>2019-11-24T21:18:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=736#p736</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=736#p736"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=736#p736"><![CDATA[
+OK<br><br>I think there are some other bugs which can occur when operators don't setup the Contact for a Channel, or for the VFO channel (in the CPS)<br><br>In these cases the firmware will be using TG 9, but it should be using the first Contact in the Digital Contacts<br><br>I am modifying the firmware, so that if the Contact is not defined for a Channel.. When it is loaded from the codeplug memory, the Contact for the Channel will be set to Contact number 1, as the CPS guarantees there is always 1 digital contact as it can not be removed.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 9:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-24T21:17:08</updated>
+
+		<published>2019-11-24T21:17:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=735#p735</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=735#p735"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=735#p735"><![CDATA[
+Seems to be loading and working fine, nice updates<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sun Nov 24, 2019 9:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG3GSP]]></name></author>
+		<updated>2019-11-24T21:13:41</updated>
+
+		<published>2019-11-24T21:13:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=734#p734</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=734#p734"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=734#p734"><![CDATA[
+Fixed the bug - thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=136">DG3GSP</a> — Sun Nov 24, 2019 9:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-11-24T21:11:21</updated>
+
+		<published>2019-11-24T21:11:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=733#p733</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=733#p733"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=733#p733"><![CDATA[
+<blockquote class="uncited"><div>OK.<br><br>I found it.<br><br>Can you try downloading again<br><br><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/master/firmware_binaries/daily_builds/OpenGD77_latest.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... latest.sgl</a></div></blockquote>Fixed it- all good now. tnx<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Sun Nov 24, 2019 9:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T20:46:29</updated>
+
+		<published>2019-11-24T20:46:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=732#p732</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=732#p732"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=732#p732"><![CDATA[
+OK.<br><br>I found it.<br><br>Can you try downloading again<br><br><a href="https://github.com/rogerclarkmelbourne/OpenGD77/raw/master/firmware_binaries/daily_builds/OpenGD77_latest.sgl" class="postlink">https://github.com/rogerclarkmelbourne/ ... latest.sgl</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 8:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T20:19:41</updated>
+
+		<published>2019-11-24T20:19:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=729#p729</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=729#p729"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=729#p729"><![CDATA[
+Ok.<br><br>I think I screwed up the range checking, and the first TG is getting overridden by TG 9 as a default<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 8:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-11-24T19:21:37</updated>
+
+		<published>2019-11-24T19:21:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=728#p728</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=728#p728"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=728#p728"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>I have now a problem with my contacts and grouplist: my contact 001 is TG262, it´s allways in the grouplist (and worked before the dev. update).<br>Now it´s showing TG9 (which is not in my contacts nor grouplist..). <br><br>I retry to upload the cp - doesn't help..<br><br>P.S: found a minor bug in the Menu-&gt;Battery screen: If you set the timeout in the Display option to 5, the Battery screen blinks in 5 seconds interval</div></blockquote>I just observed the same problem here after updating to latest Nov 24 build [69d7ab9], Roger. My first contact in the list is now TG9 in the radio, whereas it's TG31088 in the CPS</div></blockquote><br>Ok.<br><br>So this is only on the Contacts screen, not on the Channel screen?</div></blockquote>No- in the contacts screen but if selected it also shows TG9 on the channels screen.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Sun Nov 24, 2019 7:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T19:20:00</updated>
+
+		<published>2019-11-24T19:20:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=726#p726</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=726#p726"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=726#p726"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>I have now a problem with my contacts and grouplist: my contact 001 is TG262, it´s allways in the grouplist (and worked before the dev. update).<br>Now it´s showing TG9 (which is not in my contacts nor grouplist..). <br><br>I retry to upload the cp - doesn't help..<br><br>P.S: found a minor bug in the Menu-&gt;Battery screen: If you set the timeout in the Display option to 5, the Battery screen blinks in 5 seconds interval</div></blockquote>I just observed the same problem here after updating to latest Nov 24 build [69d7ab9], Roger. My first contact in the list is now TG9 in the radio, whereas it's TG31088 in the CPS</div></blockquote><br>Ok.<br><br>So this is only on the Contacts screen, not on the Channel screen?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 7:20 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m1dyp]]></name></author>
+		<updated>2019-11-24T17:05:02</updated>
+
+		<published>2019-11-24T17:05:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=720#p720</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=720#p720"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=720#p720"><![CDATA[
+<blockquote class="uncited"><div><br>P.S: found a minor bug in the Menu-&gt;Battery screen: If you set the timeout in the Display option to 5, the Battery screen blinks in 5 seconds interval</div></blockquote>me too. also. on receiving dmr, the screen now lights up at the end of reception as well as the beginning<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=66">m1dyp</a> — Sun Nov 24, 2019 5:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W0RMT]]></name></author>
+		<updated>2019-11-24T13:27:50</updated>
+
+		<published>2019-11-24T13:27:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=706#p706</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=706#p706"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=706#p706"><![CDATA[
+<blockquote class="uncited"><div>I have now a problem with my contacts and grouplist: my contact 001 is TG262, it´s allways in the grouplist (and worked before the dev. update).<br>Now it´s showing TG9 (which is not in my contacts nor grouplist..). <br><br>I retry to upload the cp - doesn't help..<br><br>P.S: found a minor bug in the Menu-&gt;Battery screen: If you set the timeout in the Display option to 5, the Battery screen blinks in 5 seconds interval</div></blockquote>I just observed the same problem here after updating to latest Nov 24 build [69d7ab9], Roger. My first contact in the list is now TG9 in the radio, whereas it's TG31088 in the CPS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=102">W0RMT</a> — Sun Nov 24, 2019 1:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DG3GSP]]></name></author>
+		<updated>2019-11-24T10:47:26</updated>
+
+		<published>2019-11-24T10:47:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=701#p701</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=701#p701"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=701#p701"><![CDATA[
+The previous CPS works - thanks a lot <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> <br><br>Originally I had set Rx Group to GroupList1, maybe i misaligned the settings .. sorry Roger<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=136">DG3GSP</a> — Sun Nov 24, 2019 10:47 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T10:41:26</updated>
+
+		<published>2019-11-24T10:41:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=700#p700</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=700#p700"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=700#p700"><![CDATA[
+Also<br><br>Check the VFO A in the codeplug, make sure it has a Rx Group and a Contact<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 10:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T10:32:15</updated>
+
+		<published>2019-11-24T10:32:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=164&amp;p=699#p699</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=164&amp;p=699#p699"/>
+		<title type="html"><![CDATA[Re: Contacts enhancement and bug fixes]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=164&amp;p=699#p699"><![CDATA[
+That codeplug only has 1 channel and it does not have a Rx Group or a Contact assigned to the Channel.<br><br>Were you always using Manual entry of TG ????<br><br>Set the Rx Group to GroupList1 and set the Contact to TG262<br><br>I'm surprised that codeplug ever worked.<br><br>Really its a bug in the CPS that allows a Digtal Channel with Contact set to "None" - this should never be allowed<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 10:32 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

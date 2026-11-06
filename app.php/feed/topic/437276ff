@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4372" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-10T14:08:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4372</id>
+
+		<entry>
+		<author><name><![CDATA[oe9fwv]]></name></author>
+		<updated>2024-10-10T14:08:49</updated>
+
+		<published>2024-10-10T14:08:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4372&amp;p=33421#p33421</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4372&amp;p=33421#p33421"/>
+		<title type="html"><![CDATA[Re: updated to open gd 77 now no power]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4372&amp;p=33421#p33421"><![CDATA[
+I had the same problem, I tried to flash the recent firmware.bin file with an outdated version of CPS installer. The GD77 did not show any sign of life after this. <br><br>I could put it into DFU mode by this sequence: <br>Remove battery<br>Switch GD77 on<br>press and hold SK1 and SK2<br>Insert battery<br> <br>After this the green light went on and I could flash with current CPSinstaller and current stable firmware.zip.<br><br>73 Werner oe9fwv<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3533">oe9fwv</a> — Thu Oct 10, 2024 2:08 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[2e0sns]]></name></author>
+		<updated>2024-09-07T19:17:04</updated>
+
+		<published>2024-09-07T19:17:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32785#p32785</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32785#p32785"/>
+		<title type="html"><![CDATA[Re: updated to open gd 77 now no power]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32785#p32785"><![CDATA[
+thank you for your reply,i have now fixed the problem by downloading a different firmware file,the radio is working fine now<br>the transciever was a radioddity gd77.i had installed the wrong firmware (open dm1801) , i managed to get back into dfu mode and this time i downloaded and installed the gd77zipfile and installed the bin file gd77.bin and everything worked again.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6718">2e0sns</a> — Sat Sep 07, 2024 7:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-09-07T13:37:42</updated>
+
+		<published>2024-09-07T13:37:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32784#p32784</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32784#p32784"/>
+		<title type="html"><![CDATA[Re: updated to open gd 77 now no power]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32784#p32784"><![CDATA[
+Double check what you flashed in, then flash it again.<br>If everything goes fine, press and hold the SK2 button on startup.<br><br>BTW, you gave zero details about the software version you're using, the firmware version you flashed, and the transceiver model.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Sep 07, 2024 1:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[2e0sns]]></name></author>
+		<updated>2024-09-07T12:21:12</updated>
+
+		<published>2024-09-07T12:21:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32783#p32783</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32783#p32783"/>
+		<title type="html"><![CDATA[updated to open gd 77 now no power]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4372&amp;p=32783#p32783"><![CDATA[
+Hi everyone,just tried upgrading my radioddity to open gd77,install went ok then it told me to reboot the radio which i did,but the radio wont switch back on,i can still get into dfu mode by removing battery holding down the two side buttons and re-inserting the battery,is there a solution or is it  now bricked.<br>Thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6718">2e0sns</a> — Sat Sep 07, 2024 12:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

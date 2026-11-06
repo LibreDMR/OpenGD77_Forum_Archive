@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=4781&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 01:02:48 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Issue with APRS Configuration on Retevis RT-3S GPS - OpenGD77</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - OpenGD77" href="app.php/feed2ffd?sid=e6c5c8e2d731bccbd41b202038fdd8a3">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="app.php/feed/topics2ffd?sid=e6c5c8e2d731bccbd41b202038fdd8a3">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84" href="app.php/feed/forum/192ffd?sid=e6c5c8e2d731bccbd41b202038fdd8a3">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - Issue with APRS Configuration on Retevis RT-3S GPS" href="app.php/feed/topic/47812ffd?sid=e6c5c8e2d731bccbd41b202038fdd8a3">	
+	<link rel="canonical" href="viewtopic2b66.html?t=4781">
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="assets/css/font-awesome.min245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/stylesheet245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/en/stylesheet245c.css?assets_version=3" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/prosilver/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="index2ffd.html?sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Board index"><span class="site_logo"></span></a>
+				<h1>OpenGD77</h1>
+				<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar"  style="display:none">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" style="display:none" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href=";sid=e6c5c8e2d731bccbd41b202038fdd8a3" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#;sid=e6c5c8e2d731bccbd41b202038fdd8a3" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="search.php?sid=e6c5c8e2d731bccbd41b202038fdd8a3" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="app.php/help/faq2ffd.html?sid=e6c5c8e2d731bccbd41b202038fdd8a3" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href=";sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="" accesskey="x" role="menuitem">
+				<i class="" aria-hidden="true"></i><span></span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href=";sid=e6c5c8e2d731bccbd41b202038fdd8a3" role="menuitem">
+					<i class="" aria-hidden="true"></i><span></span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="index2ffd.html?sid=e6c5c8e2d731bccbd41b202038fdd8a3" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+
+											<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="21"><a href="viewforuma0f9-3.html?f=21&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Radios &amp; CPS</span></a><meta itemprop="position" content="2" /></span>
+															<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="19"><a href="viewforum48e3.html?f=19&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a><meta itemprop="position" content="3" /></span>
+												</li>
+		
+					<li class="rightside responsive-search">
+				<a href="search.php?sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="viewtopic7398.html?f=19&amp;t=4781&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">Issue with APRS Configuration on Retevis RT-3S GPS</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+
+
+
+<div class="action-bar bar-top">
+	
+			<a href="posting.php?mode=reply&amp;f=19&amp;t=4781&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic825d-2.html?f=19&amp;t=4781&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="search.php?sid=e6c5c8e2d731bccbd41b202038fdd8a3">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="search.php?sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="4781" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="e6c5c8e2d731bccbd41b202038fdd8a3" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			8 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+		</div>
+
+
+
+
+			<div id="p35230" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35230">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7833&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">IU0TWZ</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7833&amp;sr=posts&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">3</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon Jan 20, 2025 10:55 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35230">
+
+						<h3 class="first"><a href="#p35230">Issue with APRS Configuration on Retevis RT-3S GPS</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35230&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic83fe-2.html?p=35230&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35230" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7833&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">IU0TWZ</a></strong> &raquo; </span>Tue Jan 21, 2025 12:49 am
+			</p>
+			
+			
+			
+			<div class="content">Dear all,<br>
+My name is Fabio, and I am writing from Rome, Italy. I am fascinated by this amazing software and have been exploring its various features.<br>
+I am currently using a Retevis RT-3S GPS with the latest firmware version (25-01-19). I have configured the parameters for APRS and set a fixed location, as shown in the attached image. 
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file9069.png?id=2818&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="postimage" alt="Screenshot 2025-01-20 235941.png" onclick="viewableArea(this);" /></dt>
+						<dd>Screenshot 2025-01-20 235941.png (78.68 KiB) Viewed 5432 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+I have also set up the channel configuration according to the settings in the second image.
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file1061.png?id=2819&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="postimage" alt="Screenshot 2025-01-21 000029.png" onclick="viewableArea(this);" /></dt>
+						<dd>Screenshot 2025-01-21 000029.png (35.22 KiB) Viewed 5432 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+However, when I send an APRS message, the encoding seems incorrect. This is evident in the Soundmodem (KISS emulator), and for confirmation, I also tested it with my Anytone 878 II, which can decode APRS. Both show that the coordinates and message are interpreted incorrectly
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file4aad.png?id=2820&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="postimage" alt="Screenshot 2025-01-21 000058.png" onclick="viewableArea(this);" /></dt>
+						<dd>Screenshot 2025-01-21 000058.png (70.34 KiB) Viewed 5432 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+<br>
+Could anyone assist me in resolving this issue?<br>
+<br>
+Thank you in advance for your help!<br>
+Fabio</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35231" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35231">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="avatar"><img class="avatar" src="download/file73c5.jpg?avatar=56_1576571525.jpg" width="90" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">F1RMB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=56&amp;sr=posts&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">3426</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 5:42 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Grenoble, France</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35231">
+
+						<h3 ><a href="#p35231">Re: Issue with APRS Configuration on Retevis RT-3S GPS</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35231&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicf2b4.html?p=35231&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35231" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">F1RMB</a></strong> &raquo; </span>Tue Jan 21, 2025 3:36 am
+			</p>
+			
+			
+			
+			<div class="content">Hi,<br>
+<br>
+  Sorry, but there are some mismatches here.<br>
+From the log (BTW, the picture is very blurry), you're not using the correct channel (the APRS message is "Fabio RT3S Fixed"), but that configuration has the "Transmit QSY" enabled, and the channel frequency is a 432.500MHz, simplex.<br>
+The one selected in the log (blue background), as a different message (Fabio RT3S GPS), hence we don't know the configuration of this one.<br>
+ <br>
+Cheers.<br>
+---<br>
+Daniel</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35238" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35238">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7833&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">IU0TWZ</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7833&amp;sr=posts&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">3</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon Jan 20, 2025 10:55 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35238">
+
+						<h3 ><a href="#p35238">Re: Issue with APRS Configuration on Retevis RT-3S GPS</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35238&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic0744.html?p=35238&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35238" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7833&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">IU0TWZ</a></strong> &raquo; </span>Tue Jan 21, 2025 11:14 am
+			</p>
+			
+			
+			
+			<div class="content">Hi Daniel,<br>
+<br>
+Thank you for your reply and for pointing out the mismatch in the images I provided—I apologize for the confusion.
+<div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file5224.png?id=2821&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="postimage" alt="Screenshot 2025-01-21 120323.png" onclick="viewableArea(this);" /></dt>
+						<dd>Screenshot 2025-01-21 120323.png (92.08 KiB) Viewed 5396 times</dd>
+		</dl>
+		
+		
+		
+			</div><div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/file91be.png?id=2822&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="postimage" alt="Screenshot 2025-01-21 120600.png" onclick="viewableArea(this);" /></dt>
+						<dd>Screenshot 2025-01-21 120600.png (177.81 KiB) Viewed 5396 times</dd>
+		</dl>
+		
+		
+		
+			</div><div class="inline-attachment">
+			
+		
+				<dl class="file">
+			<dt class="attach-image"><img src="download/filef7c7.jpg?id=2823&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="postimage" alt="image0.jpeg" onclick="viewableArea(this);" /></dt>
+						<dd>image0.jpeg (119.44 KiB) Viewed 5396 times</dd>
+		</dl>
+		
+		
+		
+			</div>
+
+and here the log from direwolf :<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>IU0TWZ-7 audio level = 27(5/3)    ___||||||
+[0.5] IU0TWZ-7&gt;APOG77,WIDE1-1:!\9C+uQYd@&amp;  !Fabio RT3S FIXED
+Position, I=Igte IGate R=RX T=1hopTX 2=2hopTX
+N 41 46.8000, E 012 22.8000
+Fabio RT3S FIXED
+
+&gt;&gt;&gt; Monitored Unproto Information to AGWPE client application 0, total length = 140
+        portx = 0, datakind = 'U', pid = 0x00
+        call_from = "IU0TWZ-7", call_to = "APOG77"
+        data_len = 104, user_reserved = 0, data =
+  000:  20 31 3a 46 6d 20 49 55 30 54 57 5a 2d 37 20 54   1:Fm IU0TWZ-7 T
+  010:  6f 20 41 50 4f 47 37 37 20 56 69 61 20 57 49 44  o APOG77 Via WID
+  020:  45 31 2d 31 20 3c 55 49 20 70 69 64 3d 46 30 20  E1-1 &lt;UI pid=F0
+  030:  4c 65 6e 3d 33 30 20 50 46 3d 30 20 3e 5b 31 32  Len=30 PF=0 &gt;[12
+  040:  3a 31 35 3a 35 31 5d 0d 21 5c 39 43 2b 75 51 59  :15:51].!\9C+uQY
+  050:  64 40 26 20 20 21 46 61 62 69 6f 20 52 54 33 53  d@&amp;  !Fabio RT3S
+  060:  20 46 49 58 45 44 0d 00                           FIXED..
+ax25_delete, seq=30, called from /home/John/src/direwolf-dev/src/dlq.c 1195, new_count=33, delete_count=33
+dlq_remove (type=7, chan=0, ...)</code></pre></div>
+I’ve double-checked the setup, and I can confirm that the Retevis RT3S GPS is transmitting correctly because when I use Direwolf as the decoder, it processes the APRS packet without issues. However, the problem arises when decoding the message with my Anytone 878 II. The packet appears corrupted or misinterpreted on the Anytone, as shown in the new screenshot attached.<br>
+<br>
+Please note that I am testing in direct mode on the Anytone since the nearest APRS beacon is too far, and I cannot reach it.<br>
+<br>
+This suggests the issue might not be with the RT3S but rather with the way the Anytone is decoding the APRS packet.<br>
+<br>
+I would appreciate any insights or advice on how to resolve this discrepancy.<br>
+<br>
+Thanks again for your help!<br>
+<br>
+Fabio</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35239" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35239">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="avatar"><img class="avatar" src="download/file73c5.jpg?avatar=56_1576571525.jpg" width="90" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">F1RMB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=56&amp;sr=posts&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">3426</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 5:42 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Grenoble, France</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35239">
+
+						<h3 ><a href="#p35239">Re: Issue with APRS Configuration on Retevis RT-3S GPS</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35239&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicca72-2.html?p=35239&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35239" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=56&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">F1RMB</a></strong> &raquo; </span>Tue Jan 21, 2025 12:12 pm
+			</p>
+			
+			
+			
+			<div class="content">Yes, it seems the Anytone firmware has some bugs.<br>
+FYI, I'm also using a TH-D74, it decodes the frames without any problem, and I'm pretty confident about its APRS support.<br>
+<br>
+Cheers.<br>
+---<br>
+Daniel</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35251" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35251">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=1432&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">EU1AEQ</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=1432&amp;sr=posts&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">168</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Jan 30, 2021 7:25 pm</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> KO33RV</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35251">
+
+						<h3 ><a href="#p35251">Re: Issue with APRS Configuration on Retevis RT-3S GPS</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35251&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic926b.html?p=35251&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35251" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=1432&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">EU1AEQ</a></strong> &raquo; </span>Wed Jan 22, 2025 5:47 am
+			</p>
+			
+			
+			
+			<div class="content">Are there plans to embed the decoding of APRS information in OPENGD77? There is no APRS beacon in my region. It would be interesting to use APRS point-to-point locally.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35383" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35383">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7833&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">IU0TWZ</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7833&amp;sr=posts&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">3</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Mon Jan 20, 2025 10:55 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35383">
+
+						<h3 ><a href="#p35383">Re: Issue with APRS Configuration on Retevis RT-3S GPS</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35383&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic8324.html?p=35383&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35383" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7833&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">IU0TWZ</a></strong> &raquo; </span>Sun Jan 26, 2025 6:00 pm
+			</p>
+			
+			
+			
+			<div class="content">Hi everyone,<br>
+<br>
+In my opinion, the ideal path forward would be implementing a proper AFSK and APRS transcoding solution that works reliably in both transmit and receive modes. This would ensure that APRS data is consistently interpreted, no matter which radio or software is involved.<br>
+<br>
+Additionally, there are two key “missing pieces” that would really enhance APRS functionality:<br>
+<br>
+Analog APRS Reception – being able to monitor APRS beacons natively on analog, not just transmit.<br>
+SMS Handling – support for sending and receiving text messages via both APRS and DMR.<br>
+Having these features in one integrated firmware (like OpenGD77, if it’s ever planned) would be a huge step forward for those of us who rely on APRS over various protocols—especially in regions where we need local point-to-point APRS because we’re too far from official gateways.<br>
+<br>
+73</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35388" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35388">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35388">
+
+						<h3 ><a href="#p35388">Re: Issue with APRS Configuration on Retevis RT-3S GPS</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35388&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopice7d1.html?p=35388&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35388" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">VK3KYY</a></strong> &raquo; </span>Sun Jan 26, 2025 8:24 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7833&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">IU0TWZ</a> wrote: <a href="viewtopic8324.html?p=35383&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35383" data-post-id="35383" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Jan 26, 2025 6:00 pm</div></cite>
+Hi everyone,<br>
+<br>
+In my opinion, the ideal path forward would be implementing a proper AFSK and APRS transcoding solution that works reliably in both transmit and receive modes. This would ensure that APRS data is consistently interpreted, no matter which radio or software is involved.<br>
+<br>
+Additionally, there are two key “missing pieces” that would really enhance APRS functionality:<br>
+<br>
+Analog APRS Reception – being able to monitor APRS beacons natively on analog, not just transmit.<br>
+SMS Handling – support for sending and receiving text messages via both APRS and DMR.<br>
+Having these features in one integrated firmware (like OpenGD77, if it’s ever planned) would be a huge step forward for those of us who rely on APRS over various protocols—especially in regions where we need local point-to-point APRS because we’re too far from official gateways.<br>
+<br>
+73
+</div></blockquote>
+
+I have posted about APRS Rx can't be implemented multiple times<br>
+<br>
+These radios do not have an FM Rx audio data signal path to the CPU, hence it's impossible to implement APRS FM Rx</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35888" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35888">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=8162&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">DK9RC</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=8162&amp;sr=posts&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">1</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Feb 23, 2025 6:48 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35888">
+
+						<h3 ><a href="#p35888">Re: Issue with APRS Configuration on Retevis RT-3S GPS</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=19&amp;p=35888&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic1bd6-3.html?p=35888&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3#p35888" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=8162&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="username">DK9RC</a></strong> &raquo; </span>Sun Feb 23, 2025 10:38 pm
+			</p>
+			
+			
+			
+			<div class="content">Hi everyone,<br>
+<br>
+I've just tested the APRS transmission from my RT-3S w/ OpenGD77 to my Anytone878.<br>
+You need to switch the OpenGD77 APRS compression "Off" to enable the correct GPS coordinates on the Anytone.<br>
+With APRS compression "On" the Anytone shows a nonsense GPS location.<br>
+<br>
+I've also checked my RT-3S APRS function with a local Digipeater. It successfully decodes the GPS coordinates independent of compression "On" or "Off".<br>
+<br>
+Best regards<br>
+Fritz</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="posting.php?mode=reply&amp;f=19&amp;t=4781&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopic825d-2.html?f=19&amp;t=4781&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="viewtopic.php?f=19&amp;t=4781&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			8 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="viewforum48e3.html?f=19&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to “TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84”</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																				<li><a href="viewforumaa31.html?f=1&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-cat-link"> <span> OpenGD77 information</span></a></li>
+																<li><a href="viewforum5d8a.html?f=3&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Announcements</span></a></li>
+																<li><a href="viewforum2328.html?f=5&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; FAQ</span></a></li>
+																<li><a href="viewforuma0f9-3.html?f=21&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-cat-link"> <span> Radios &amp; CPS</span></a></li>
+																<li><a href="viewforumfda5.html?f=12&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; CPS</span></a></li>
+																<li><a href="viewforum5081.html?f=13&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; GD-77 / DM-1801 / RD-5R / GD-77S</span></a></li>
+																<li><a href="viewforum1094.html?f=18&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-9600 / Retevis RT-90</span></a></li>
+																<li><a href="viewforum48e3.html?f=19&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a></li>
+																<li><a href="viewforum5d45.html?f=28&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD2017 / Retevis RT-82</span></a></li>
+																<li><a href="viewforum0e66.html?f=27&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Other unsupported radios</span></a></li>
+																<li><a href="viewforum1d60.html?f=6&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-cat-link"> <span> Discussions</span></a></li>
+																<li><a href="viewforum29af-2.html?f=10&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; New members must post here first</span></a></li>
+																<li><a href="viewforum242f.html?f=29&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Help needed</span></a></li>
+																<li><a href="viewforum6257.html?f=7&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; General discussions</span></a></li>
+																<li><a href="viewforum2e91.html?f=9&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Hotspot mode</span></a></li>
+																<li><a href="viewforumcb91-2.html?f=22&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Voice prompts</span></a></li>
+																<li><a href="viewforum4f14.html?f=23&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Localisation</span></a></li>
+																<li><a href="viewforume444.html?f=14&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Codeplugs</span></a></li>
+																<li><a href="viewforuma228.html?f=17&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1801 specific</span></a></li>
+																<li><a href="viewforumf606.html?f=25&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1701 / Retevis RT-84 specific</span></a></li>
+																<li><a href="viewforuma01b.html?f=16&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Developer discussions</span></a></li>
+																<li><a href="viewforume853.html?f=26&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-2017 / RT-82</span></a></li>
+																<li><a href="viewforumd1c7-3.html?f=11&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Bug reports</span></a></li>
+																<li><a href="viewforum7b40.html?f=8&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Off topic</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer"  style="display:none" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="index2ffd.html?sid=e6c5c8e2d731bccbd41b202038fdd8a3" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="UTC">UTC</span></li>
+							<li class="rightside">
+				<a href="ucp.php?mode=delete_cookies&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+																<li class="rightside" data-last-responsive="true">
+				<a href="memberlist.php?mode=contactadmin&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="crond591.gif?cron_type=cron.task.core.tidy_search&amp;sid=e6c5c8e2d731bccbd41b202038fdd8a3" width="1" height="1" alt="cron" /></div>
+
+<script src="assets/javascript/jquery.min245c.js?assets_version=3"></script>
+<script src="assets/javascript/core245c.js?assets_version=3"></script>
+
+
+
+<script src="styles/prosilver/template/forum_fn245c.js?assets_version=3"></script>
+<script src="styles/prosilver/template/ajax245c.js?assets_version=3"></script>
+
+
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=4781&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 01:04:01 GMT -->
+</html>

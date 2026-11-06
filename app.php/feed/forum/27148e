@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/forum/27" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-05T04:06:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/forum/27</id>
+
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-07-05T04:06:59</updated>
+
+		<published>2025-07-05T04:06:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37660#p37660</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37660#p37660"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37660#p37660"><![CDATA[
+Thanks, but I've already looked at many firmwares from the C7000 and they are all the same, the codec code is loaded into IRAM, I was hoping to find one that would work on flash like the STM32<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Sat Jul 05, 2025 4:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-06-28T04:00:23</updated>
+
+		<published>2025-06-28T04:00:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37583#p37583</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37583#p37583"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37583#p37583"><![CDATA[
+<blockquote class="uncited"><div>who can read the firmware from this station using the utility <a href="https://drive.google.com/file/d/1ITVNKFgFZNeFsl8lruPI4TklTw6CKSct/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1ITVNKF ... sp=sharing</a>, second tab, reading GD25Q16</div></blockquote>can it be done with Ailunce HD1 V2 (the one that uses C7000)?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Sat Jun 28, 2025 4:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-06-27T12:51:32</updated>
+
+		<published>2025-06-27T12:51:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37572#p37572</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37572#p37572"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Is Retevis Ailunce HD2 supported?]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4785&amp;p=37572#p37572"><![CDATA[
+who can read the firmware from this station using the utility <a href="https://drive.google.com/file/d/1ITVNKFgFZNeFsl8lruPI4TklTw6CKSct/view?usp=sharing" class="postlink">https://drive.google.com/file/d/1ITVNKF ... sp=sharing</a>, second tab, reading GD25Q16<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Fri Jun 27, 2025 12:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yt1rxa]]></name></author>
+		<updated>2025-06-23T23:54:21</updated>
+
+		<published>2025-06-23T23:54:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37541#p37541</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37541#p37541"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Baofeng DM-32 GPS APRS AES256]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37541#p37541"><![CDATA[
+I also forgot to share the link for the factory radio programming program which includes the flashing section:<br><a href="https://baofeng.s3.amazonaws.com/Baofeng_DM-32UV_CPS_v1.38_20250329.zip" class="postlink">https://baofeng.s3.amazonaws.com/Baofen ... 250329.zip</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4522">yt1rxa</a> — Mon Jun 23, 2025 11:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yt1rxa]]></name></author>
+		<updated>2025-06-23T23:52:01</updated>
+
+		<published>2025-06-23T23:52:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37540#p37540</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37540#p37540"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Baofeng DM-32 GPS APRS AES256]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37540#p37540"><![CDATA[
+Factory firmware link website<br><a href="https://baofeng.s3.amazonaws.com/Baofeng_DM_32UV_Firmware_046_20250327.zip" class="postlink">https://baofeng.s3.amazonaws.com/Baofen ... 250327.zip</a><br>Pozdav<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4522">yt1rxa</a> — Mon Jun 23, 2025 11:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yt1rxa]]></name></author>
+		<updated>2025-06-23T23:50:46</updated>
+
+		<published>2025-06-23T23:50:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37539#p37539</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37539#p37539"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Baofeng DM-32 GPS APRS AES256]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37539#p37539"><![CDATA[
+I found a new firmware offered on the factory website that could serve as a starting point for upgrading this device.<br>I repeat that the radio with the factory firmware proved to be actually better than some brands such as the DMR EnyTone radio station.<br>In my deep conviction, it lacks the DMR directory that is inserted directly from the RadioID website and the Tokenalias function . . .<br>Greetings<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4522">yt1rxa</a> — Mon Jun 23, 2025 11:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yt1rxa]]></name></author>
+		<updated>2025-06-08T23:11:53</updated>
+
+		<published>2025-06-08T23:11:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37434#p37434</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37434#p37434"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Baofeng DM-32 GPS APRS AES256]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37434#p37434"><![CDATA[
+Ok, I'll try to find out the important information.<br>For now, the only thing I know is that the radio is not UDMA, but uses the CH340 chip for the interface in communication with the PC during programming.<br><br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4522">yt1rxa</a> — Sun Jun 08, 2025 11:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-03T10:25:46</updated>
+
+		<published>2025-06-03T10:25:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5159&amp;p=37360#p37360</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5159&amp;p=37360#p37360"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Hongkaide DM9100]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5159&amp;p=37360#p37360"><![CDATA[
+<blockquote class="uncited"><div>Hi everyone, quick question: Will the DM9100 from Hongkaide, Zastone, or TYT work with opengd77 software?<br><br>vy 73 from DL3BCO (Wille)</div></blockquote>No.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Jun 03, 2025 10:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL3BCO]]></name></author>
+		<updated>2025-06-03T10:20:47</updated>
+
+		<published>2025-06-03T10:20:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5159&amp;p=37359#p37359</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5159&amp;p=37359#p37359"/>
+		<title type="html"><![CDATA[Other unsupported radios • Hongkaide DM9100]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5159&amp;p=37359#p37359"><![CDATA[
+Hi everyone, quick question: Will the DM9100 from Hongkaide, Zastone, or TYT work with opengd77 software?<br><br>vy 73 from DL3BCO (Wille)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1086">DL3BCO</a> — Tue Jun 03, 2025 10:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-24T06:16:09</updated>
+
+		<published>2025-05-24T06:16:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37202#p37202</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37202#p37202"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Baofeng DM-32 GPS APRS AES256]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37202#p37202"><![CDATA[
+<blockquote class="uncited"><div>Is there a chance to check whether there is a possibility of installing OpenGD?</div></blockquote>No. <br><br>1. Chipset unknown<br>2. Firmware encrypion unkown<br>3. Firmware loading protocol unkown<br><br>Come back when you know the chipset is the same as the supported radios and know how to encrypt and upload the firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat May 24, 2025 6:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[yt1rxa]]></name></author>
+		<updated>2025-05-23T23:35:31</updated>
+
+		<published>2025-05-23T23:35:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37200#p37200</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37200#p37200"/>
+		<title type="html"><![CDATA[Other unsupported radios • Baofeng DM-32 GPS APRS AES256]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5138&amp;p=37200#p37200"><![CDATA[
+The new Baofeng DM-32 GPS APRS AES256 radio has appeared, which in the first tests and in operation proved to be quite good. In connection with this, I ask whether anyone has already tested it and whether there is a possibility of installing OpenGD firmware in the radio! The factory has made an effort to make a quality RX/TX digital radio.<br>Is there a chance to check whether there is a possibility of installing OpenGD?<br><br>Radomir YT1RXA <br>DMR iD 2200015<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4522">yt1rxa</a> — Fri May 23, 2025 11:35 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-05-17T14:31:54</updated>
+
+		<published>2025-05-17T14:31:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4488&amp;p=37141#p37141</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4488&amp;p=37141#p37141"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: Zastone uv008 not supported ... next...]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4488&amp;p=37141#p37141"><![CDATA[
+If the authors had reunited, everything would have worked <a href="https://www.opengd77.com/viewtopic.php?f=27&amp;t=5129" class="postlink">viewtopic.php?f=27&amp;t=5129</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Sat May 17, 2025 2:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[R3MDG]]></name></author>
+		<updated>2025-05-17T14:03:28</updated>
+
+		<published>2025-05-17T14:03:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5129&amp;p=37140#p37140</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5129&amp;p=37140#p37140"/>
+		<title type="html"><![CDATA[Other unsupported radios • Zastone 008(C7000)]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5129&amp;p=37140#p37140"><![CDATA[
+If you are interested, I implemented FM, I am working on DMR, there is a video in the archive<br><a href="https://drive.google.com/file/d/134cY9zUNvvXuROTMdbK2LRJHBZvmiCXS/view?usp=sharing" class="postlink">https://drive.google.com/file/d/134cY9z ... sp=sharing</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6341">R3MDG</a> — Sat May 17, 2025 2:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-06T11:11:13</updated>
+
+		<published>2025-05-06T11:11:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37017#p37017</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37017#p37017"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: A Practical Radio Model We Can Actually Build]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37017#p37017"><![CDATA[
+<blockquote class="uncited"><div>me gusta muchisimo el diseño de la dm-x compacto como el 1801 tyt-m760 pero con pantalla grande<br><br>ojala se pueda portar ya uno esta cansado de los 1701 380/90</div></blockquote><a href="https://www.opengd77.com/viewtopic.php?f=3&amp;t=4957" class="postlink">viewtopic.php?f=3&amp;t=4957</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue May 06, 2025 11:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ea7jye]]></name></author>
+		<updated>2025-05-06T11:17:12 </updated>
+
+		<published>2025-05-06T09:47:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37016#p37016</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37016#p37016"/>
+		<title type="html"><![CDATA[Other unsupported radios • Re: A Practical Radio Model We Can Actually Build]]></title>
+
+					<category term="Other unsupported radios" scheme="http://localhost/opengd77/viewforum.php?f=27" label="Other unsupported radios"/>
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5006&amp;p=37016#p37016"><![CDATA[
+I really like the design of the DM-X, compact like the 1801 TYT-M760 but with a larger screen.<br><br>I hope it can be portable. We're tired of the 1701 380/90.<br><br>-------------------------------------------------------------------------------------------------------------<br>me gusta muchisimo el diseño de la dm-x compacto como el 1801 tyt-m760 pero con pantalla grande<br><br>ojala se pueda portar ya uno esta cansado de los 1701 380/90<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8251">Ea7jye</a> — Tue May 06, 2025 9:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

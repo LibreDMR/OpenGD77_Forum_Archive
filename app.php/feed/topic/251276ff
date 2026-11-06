@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2512" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-07-08T23:39:46</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2512</id>
+
+		<entry>
+		<author><name><![CDATA[VA3HQB]]></name></author>
+		<updated>2025-07-08T23:39:46</updated>
+
+		<published>2025-07-08T23:39:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=37681#p37681</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=37681#p37681"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=37681#p37681"><![CDATA[
+<blockquote class="uncited"><div>Thanks Roger for the details.<br><br>Here are the pin outs on a V2 md9600.<br><br>Red 3.3V<br>Brown TX from the GPS<br>Black GND<br><br>Mike</div></blockquote>Here is a kicker for you.. My PCB is not populated with the resistors like yours is. Mine is missing most of the components directly beside where the GPS Chip should be.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6835">VA3HQB</a> — Tue Jul 08, 2025 11:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-25T19:41:39</updated>
+
+		<published>2024-04-25T19:41:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31028#p31028</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31028#p31028"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31028#p31028"><![CDATA[
+Got ya! Bummer but I can live with it! Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Thu Apr 25, 2024 7:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-24T16:33:10</updated>
+
+		<published>2024-04-24T16:33:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31008#p31008</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31008#p31008"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31008#p31008"><![CDATA[
+Nope.<br>Adding Imperial would introduce more strings in every language, changes to the UI, conversion, etc. Too much space/processing for this.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Apr 24, 2024 4:33 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-24T16:07:21</updated>
+
+		<published>2024-04-24T16:07:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31007#p31007</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31007#p31007"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31007#p31007"><![CDATA[
+So there's no way to make it Miles then? Bummer<img alt="😒" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f612.svg"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Wed Apr 24, 2024 4:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-24T15:12:34</updated>
+
+		<published>2024-04-24T15:12:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31003#p31003</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31003#p31003"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31003#p31003"><![CDATA[
+The firmware is metric, only.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Apr 24, 2024 3:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-24T14:46:55</updated>
+
+		<published>2024-04-24T14:46:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31001#p31001</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31001#p31001"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=31001#p31001"><![CDATA[
+So I cannot find a way to change the GPS setting from km to Mile and Mile per hour. Am I missing something or can't you add it to the firmware if it's not there please and thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Wed Apr 24, 2024 2:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-22T11:49:43</updated>
+
+		<published>2024-04-22T11:49:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30983#p30983</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30983#p30983"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30983#p30983"><![CDATA[
+I used the TYT MD-9600 with the OPENGD77 obviously on an ISS Pass with my Sarctrac Rotor and Arrow Antenna and wow did it work well! I was live on YouTube!<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/r9RNLwVIc0g">youtu.be/r9RNLwVIc0g</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Mon Apr 22, 2024 11:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-22T10:56:46</updated>
+
+		<published>2024-04-22T10:56:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30977#p30977</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30977#p30977"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30977#p30977"><![CDATA[
+Cool !<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 22, 2024 10:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-22T10:52:19</updated>
+
+		<published>2024-04-22T10:52:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30976#p30976</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30976#p30976"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30976#p30976"><![CDATA[
+Here's a video of the results I'm not sure how to post photos...<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/3q8sJ5LyS6g">youtu.be/3q8sJ5LyS6g</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Mon Apr 22, 2024 10:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-22T10:45:29</updated>
+
+		<published>2024-04-22T10:45:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30975#p30975</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30975#p30975"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30975#p30975"><![CDATA[
+Woo Hoo! I finally got the soldering right...it was so small and I need a magnifying glass if I do anything like this again! <br><br>12 satellites in about 30 seconds!<br><img alt="😎" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f60e.svg"><img alt="😎" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f60e.svg"><img alt="😎" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f60e.svg"><img alt="😎" class="emoji smilies" draggable="false" src="//twemoji.maxcdn.com/2/svg/1f60e.svg"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Mon Apr 22, 2024 10:45 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-22T09:20:10</updated>
+
+		<published>2024-04-22T09:20:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30968#p30968</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30968#p30968"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30968#p30968"><![CDATA[
+Maybe you could post some photos, that could help spotting some problems.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 22, 2024 9:20 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-22T09:14:55</updated>
+
+		<published>2024-04-22T09:14:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30967#p30967</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30967#p30967"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30967#p30967"><![CDATA[
+Thanks...I'm thinking my soldering just sucks...I've tweaked it 4 times now and I still have No GPS....<br><br>It's the same GPS module linked here and my buddy just used it and it worked...so I'm guessing it's my soldering...ugh!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Mon Apr 22, 2024 9:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-22T07:52:05</updated>
+
+		<published>2024-04-22T07:52:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30966#p30966</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30966#p30966"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30966#p30966"><![CDATA[
+No, the firmware detects the NMEA data. GPS set to None means that there is no NMEA data at all.<br>Double check that your module is spitting NMEA strings at 9600 baud, 3.3V,  on the right pin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 22, 2024 7:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8CPT]]></name></author>
+		<updated>2024-04-22T07:31:41</updated>
+
+		<published>2024-04-22T07:31:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30965#p30965</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30965#p30965"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=30965#p30965"><![CDATA[
+So I installed my GPS module and turned on the radio and under GPS it still says none...is there something I have to turn on or did I mess up the soldering?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3638">W8CPT</a> — Mon Apr 22, 2024 7:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DF1OG]]></name></author>
+		<updated>2023-12-20T11:58:55</updated>
+
+		<published>2023-12-20T11:58:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2512&amp;p=28184#p28184</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=28184#p28184"/>
+		<title type="html"><![CDATA[Re: TYT MD-9600, add GPS later?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2512&amp;p=28184#p28184"><![CDATA[
+Hi.<br><br>I have fitted a E108-GN02D GPS module from EBYTE in my MD-9600. I used JST 1.25mm Connectors to get the opportunity for testing out different modules. The connector is fixed with a drop of epoxy glue. The module was fixed with hot glue. The module works fine and delivers very quick position data. Therefore there really is no need to change the module.<br><br>73 de Ingo, DF1OG<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2041&amp;sid=7c51030e026555a6bb894c1f1f779923" class="postimage" alt="GPS1.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2572">DF1OG</a> — Wed Dec 20, 2023 11:58 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

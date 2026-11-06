@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5000" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-23T16:57:59</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5000</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-23T16:57:59</updated>
+
+		<published>2025-03-23T16:57:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5000&amp;p=36390#p36390</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5000&amp;p=36390#p36390"/>
+		<title type="html"><![CDATA[MD-9600/RT-90 Test version 2025 03 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5000&amp;p=36390#p36390"><![CDATA[
+This is a test version, that tries to fix the "silent DMR" problem that happens sometimes; e.g when<br>a QSO talker remains silent (I'm not talking about kerchunkers).<br><br><br>You <strong class="text-strong">MUST</strong> report to this thread if this fixes or not that specific problem.<br><br><br><strong class="text-strong">This is based on the 2025/03/23 Beta version.</strong><br><br><br>The firmwares are available at: <strong class="text-strong">link removed because it does not fix the problem</strong><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/CT7Y3QE8CC#ivbPuzbV8ty1" class="postlink">https://drive.proton.me/urls/CT7Y3QE8CC#ivbPuzbV8ty1</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/03/23. See the CPS section <a href="https://www.opengd77.com/viewforum.php?f=12" class="postlink">viewforum.php?f=12</a><br><br>For translators, the on-screen texts, voice prompts CSV are located at: <a href="https://drive.proton.me/urls/AFEPKF84F4#2ltiJXlnndiy" class="postlink">https://drive.proton.me/urls/AFEPKF84F4#2ltiJXlnndiy</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Mar 23, 2025 4:57 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

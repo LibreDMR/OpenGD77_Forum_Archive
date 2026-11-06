@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5068" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-25T17:43:14</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5068</id>
+
+		<entry>
+		<author><name><![CDATA[IU1KCQ]]></name></author>
+		<updated>2025-04-25T17:43:14</updated>
+
+		<published>2025-04-25T17:43:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36901#p36901</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36901#p36901"/>
+		<title type="html"><![CDATA[Re: How to use the Radioddity Rd-5R with OPENGD77 to listen to DRM in hotels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36901#p36901"><![CDATA[
+<blockquote class="uncited"><div>As far as anyone does not transmit on frequencies he/she is not authorized to, it can be used on any compatible DMR radio to listen to any open DMR transmission. Having said that, thanks for the hints on how to leverage OpenGD77 to scan the CCs, this is what I was looking for. I might also need to use TG 99.</div></blockquote>If your Country's law allows to listen to everything then, in the main menu, under Options, Radio options, set Band Limits to Off.<br>DMR crc could be set to Off as well, depending upon the monitored radio system, and Allows PC set to On allows the reception of<br>Private Calls.<br>In the Quick Menu, set DMR Filter to None, CC Scan to On (as you have already been told), and TS Filter to Off.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4166">IU1KCQ</a> — Fri Apr 25, 2025 5:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-23T13:28:35</updated>
+
+		<published>2025-04-23T13:28:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36878#p36878</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36878#p36878"/>
+		<title type="html"><![CDATA[Re: How to use the Radioddity Rd-5R with OPENGD77 to listen to DRM in hotels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36878#p36878"><![CDATA[
+You’re welcome, I don’t get the part about TG 99. I don’t think you need that. If you have your frequency and CC correct, you should hear every talkgroups.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Apr 23, 2025 1:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W1CY]]></name></author>
+		<updated>2025-04-23T03:59:17</updated>
+
+		<published>2025-04-23T03:59:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36870#p36870</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36870#p36870"/>
+		<title type="html"><![CDATA[Re: How to use the Radioddity Rd-5R with OPENGD77 to listen to DRM in hotels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36870#p36870"><![CDATA[
+<blockquote class="uncited"><div>First of all, OpenGD77 is a firmware for amateur radio and not intended to be use outside the scope of amateur radio. With that being said and assuming the hotel is using DMR in simplex (and not use DCDM) and not encrypt. You can just tune your OpenGD77 radio to that frequency, turn the CC scan on to figure out what CC they are using. After figured it out just turn the CC scan off and you should be good.</div></blockquote>Thanks for your comments. I started my post stating that a scanner is the best tool for this purpose, however OpenGD77 made DMR "Amateur Radio friendly" since DMR was developed for commercial use. But it does not prevent any DMR radio to be used to listen to DMR transmissions, amateur or not. As far as anyone does not transmit on frequencies he/she is not authorized to, it can be used on any compatible DMR radio to listen to any open DMR transmission. Having said that, thanks for the hints on how to leverage OpenGD77 to scan the CCs, this is what I was looking for. I might also need to use TG 99.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=420">W1CY</a> — Wed Apr 23, 2025 3:59 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-04-16T21:39:57</updated>
+
+		<published>2025-04-16T21:39:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36790#p36790</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36790#p36790"/>
+		<title type="html"><![CDATA[Re: How to use the Radioddity Rd-5R with OPENGD77 to listen to DRM in hotels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36790#p36790"><![CDATA[
+First of all, OpenGD77 is a firmware for amateur radio and not intended to be use outside the scope of amateur radio. With that being said and assuming the hotel is using DMR in simplex (and not use DCDM) and not encrypt. You can just tune your OpenGD77 radio to that frequency, turn the CC scan on to figure out what CC they are using. After figured it out just turn the CC scan off and you should be good.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Wed Apr 16, 2025 9:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W1CY]]></name></author>
+		<updated>2025-04-16T15:59:28</updated>
+
+		<published>2025-04-16T15:59:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36781#p36781</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36781#p36781"/>
+		<title type="html"><![CDATA[How to use the Radioddity Rd-5R with OPENGD77 to listen to DRM in hotels]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5068&amp;p=36781#p36781"><![CDATA[
+Hi all, <br><br>Yes, I know that a scanner is the way to go, but when I travel I carry my hotspot and my DMR radio. Many hotels are now on DMR, from the kitchen to the housekeeping services. <br><br>Assuming I know the frequency they are transmitting, how should I setup my DMR radio to be able to listen to the communication?<br><br>I assume they run their communication in simplex mode, but not sure. <br><br>Thanks in advance.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=420">W1CY</a> — Wed Apr 16, 2025 3:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

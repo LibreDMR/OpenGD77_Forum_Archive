@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4184" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-06-27T20:00:57</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4184</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-06-27T20:00:57</updated>
+
+		<published>2024-06-27T20:00:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4184&amp;p=31850#p31850</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4184&amp;p=31850#p31850"/>
+		<title type="html"><![CDATA[Re: Channel Power Level Choices]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4184&amp;p=31850#p31850"><![CDATA[
+That values are based on what kind of radio you have. If your radio maximum power is 5W then the only lowest number on each steps is for you. If your radio maximum power is 10W, then the middle number is, and lastly, if your radio maximum power is 50W(40W), Then the biggest number is.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Thu Jun 27, 2024 8:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AB7IC]]></name></author>
+		<updated>2024-06-27T12:36:53</updated>
+
+		<published>2024-06-27T12:36:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4184&amp;p=31838#p31838</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4184&amp;p=31838#p31838"/>
+		<title type="html"><![CDATA[Channel Power Level Choices]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4184&amp;p=31838#p31838"><![CDATA[
+When setting the Power Level for a channel, the pull-down show choices like:  2W|2W|5W or  250mw|250mw|250mw or 50mw|50mw|100mw<br>Why are there three values ?  How do I interpret them/  I couldn't find it documented.<br>I am using the 6-21 CPS and 6-24 firmware on a GD77.<br>-tom ab7ic in Tucson AZ<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1986">AB7IC</a> — Thu Jun 27, 2024 12:36 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

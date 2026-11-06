@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4998" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-23T19:12:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4998</id>
+
+		<entry>
+		<author><name><![CDATA[W3ATN]]></name></author>
+		<updated>2025-03-23T19:12:29</updated>
+
+		<published>2025-03-23T19:12:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36393#p36393</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36393#p36393"/>
+		<title type="html"><![CDATA[Re: different radios...seperate BER on Pi-Star]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36393#p36393"><![CDATA[
+I have an Anytone 878, TYT MD-UV390, Icom IC-7100 andID-50, and Yaesu FT5DR.  I use them all on the same HS and they all have different BERs.  I played around with calibrating the HS and have it down to where I get a BER of 0% on both Icoms, 0.1-0.3% on the Anytone and TYT, and 0.6% or below on the Yaesu.  You have to do some tweaking to find a good compromise.  I'm happy with under 1% and see no impact on it not being perfect with my systems.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5794">W3ATN</a> — Sun Mar 23, 2025 7:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-03-23T12:07:00</updated>
+
+		<published>2025-03-23T12:07:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36388#p36388</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36388#p36388"/>
+		<title type="html"><![CDATA[Re: different radios...seperate BER on Pi-Star]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36388#p36388"><![CDATA[
+This is quite normal. <br><br>Most hotspots have a poor receiver that needs it's frequency to be fine tuned to match a particular radio. It is unlikely that a different radio will be on exactly the same frequency.  <br><br>It may be possible to adjust the frequency of your second radio using the OpenGD77 calibration function. You could use an SDR receiver with spectrum display to compare the two radios and make the necessary frequency adjustment. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Mar 23, 2025 12:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3EAN]]></name></author>
+		<updated>2025-03-23T10:54:56</updated>
+
+		<published>2025-03-23T10:54:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36387#p36387</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36387#p36387"/>
+		<title type="html"><![CDATA[different radios...seperate BER on Pi-Star]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4998&amp;p=36387#p36387"><![CDATA[
+Hi<br><br>I have two radios I use namely MDUV 380.. on my pi-star I have a perfect BER setting with 0% whereas my DM1701 is over 3% ... i cannot keep adjusting this... I checked all versions and they are the same...Please can you clarify<br><br>Thanks<br><br>Erwin VK3EAN<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5448">VK3EAN</a> — Sun Mar 23, 2025 10:54 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

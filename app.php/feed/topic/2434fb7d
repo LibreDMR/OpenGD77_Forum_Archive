@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2434" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-19T13:01:31</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2434</id>
+
+		<entry>
+		<author><name><![CDATA[HB3XPL]]></name></author>
+		<updated>2022-10-19T13:01:31</updated>
+
+		<published>2022-10-19T13:01:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2434&amp;p=20181#p20181</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2434&amp;p=20181#p20181"/>
+		<title type="html"><![CDATA[Re: Key mapping]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2434&amp;p=20181#p20181"><![CDATA[
+<blockquote class="uncited"><div>The problems arise because the GD77 uses the Right key to mark a channel to be ignored and skipped over as part of the current scan.<br>The UV380 does not have a Right key, and as Up and Down are already used by the scan function.<br>The only option would be to use SK1 + Up or Down, or possibly to use another key like * (STAR) or # (HASH)<br>My personal preference is probably to use * (STAR)</div></blockquote>I think <span style="text-decoration:underline"><strong class="text-strong">SK1+#</strong></span> should be fine, <span style="text-decoration:underline">this function realy misses alo</span>t, please do somenthing.<br>thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=79">HB3XPL</a> — Wed Oct 19, 2022 1:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-19T10:48:10</updated>
+
+		<published>2022-10-19T10:48:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2434&amp;p=20179#p20179</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2434&amp;p=20179#p20179"/>
+		<title type="html"><![CDATA[Key mapping]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2434&amp;p=20179#p20179"><![CDATA[
+I'm currently trying to change the key mapping on the Channel screen so that:<br><br>The Up key increaeses power or squelch threshold<br>The Down key decreases power or squelch threshold<br><br>Scan starts by holding the Up Key<br>Scan direction reverses by pressing the Down Key<br><br>The problems arise because the GD77 uses the Right key to mark a channel to be ignored and skipped over as part of the current scan.<br>The UV380 does not have a Right key, and as Up and Down are already used by the scan function.<br>The only option would be to use SK1 + Up or Down, or possibly to use another key like * (STAR) or # (HASH)<br>My personal preference is probably to use * (STAR)<br><br>But * and # already have other functions when not scanning<br><br>Also when scanning, if the scan holds on a signal and the operator wants to simply restart the scan, this is not currently possibly, because on the GD77 the operator could press the Up key to move to the next channel, and on the UV380 the rotary control is used for this purpose, and moving the rotary control terminates the scan and is also not idea for forcing the scan to continue.<br><br>Possibly short press of Up during a scan should move to the next channel and continue with the scan.<br><br><br>Or does anyone else have any ideas about how this can be programmed ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 19, 2022 10:48 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

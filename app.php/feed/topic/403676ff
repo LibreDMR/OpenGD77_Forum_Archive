@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4036" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-07T14:54:55</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4036</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-05-07T14:54:55</updated>
+
+		<published>2024-05-07T14:54:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31188#p31188</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31188#p31188"/>
+		<title type="html"><![CDATA[Re: RD-5R Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31188#p31188"><![CDATA[
+It's probably accurate enough. Power measurements are difficult to do accurately and also not really very important so I wouldn't worry too much about them. <br><br>It sounds like the minimum your radio can output is 0.28W and the slope is probably not flat below 1W . The firmware power settings below 1W are really just an educated guess as we can't know the exact parameters of every radio.  <br><br>You might get better results by adjusting the 1W calibration to the point where the power just starts to  fall away rapidly. It won't then be exactly 1W but the lower levels might be closer. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue May 07, 2024 2:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-05-07T12:42:28</updated>
+
+		<published>2024-05-07T12:42:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31185#p31185</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31185#p31185"/>
+		<title type="html"><![CDATA[Re: RD-5R Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31185#p31185"><![CDATA[
+<blockquote class="uncited"><div>It may be that your radio cannot go lower than 1W. Individual radios vary greatly so that is a possibility. <br><br>You can check by going to the 1W Calibration and reducing the adjust level to zero. That is the lowest power that can be achieved. <br><br>Also to calibrate correctly you should do at least three adjacent frequencies. The radio interpolates between calibration points so you must have one above the frequency you are using and one below the frequency you are using  for this to work. <br><br>Colin G4EML</div></blockquote>It tx at 0.28w, but I don't know if my meter is accurate. Any thoughts?<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2401&amp;sid=abaf599ff6b611aee434a67c977d40ec" class="postimage" alt="IMG_0741.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue May 07, 2024 12:42 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-05-07T12:34:27</updated>
+
+		<published>2024-05-07T12:34:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31184#p31184</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31184#p31184"/>
+		<title type="html"><![CDATA[Re: RD-5R Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31184#p31184"><![CDATA[
+<blockquote class="uncited"><div>One question, as I don't know this meter, is it capable to display accurate values below 1W ?</div></blockquote>That might be the problem. The specification said 0.1-120w, but I don't really know. Do you have recommend meter? Something below $100? Digital preferred, but analog is ok.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue May 07, 2024 12:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-07T09:19:42</updated>
+
+		<published>2024-05-07T09:19:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31183#p31183</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31183#p31183"/>
+		<title type="html"><![CDATA[Re: RD-5R Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31183#p31183"><![CDATA[
+One question, as I don't know this meter, is it capable to display accurate values below 1W ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue May 07, 2024 9:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-05-07T08:46:13</updated>
+
+		<published>2024-05-07T08:46:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31182#p31182</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31182#p31182"/>
+		<title type="html"><![CDATA[Re: RD-5R Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31182#p31182"><![CDATA[
+It may be that your radio cannot go lower than 1W. Individual radios vary greatly so that is a possibility. <br><br>You can check by going to the 1W Calibration and reducing the adjust level to zero. That is the lowest power that can be achieved. <br><br>Also to calibrate correctly you should do at least three adjacent frequencies. The radio interpolates between calibration points so you must have one above the frequency you are using and one below the frequency you are using  for this to work. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Tue May 07, 2024 8:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-05-06T23:36:20</updated>
+
+		<published>2024-05-06T23:36:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31180#p31180</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31180#p31180"/>
+		<title type="html"><![CDATA[Re: RD-5R Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31180#p31180"><![CDATA[
+Hi Daniel,<br><br>I'm trying to calibrate the power output, but after calibration I can't go under 1 watt. Seems like the radio can do lowest at 1 watt no matter if I set it to 0.75/0.5/0.25/ or 0.05 Watt. Please have a look at the video.<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/EFUyhCYfpeU">youtu.be/EFUyhCYfpeU</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon May 06, 2024 11:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-06T18:12:04</updated>
+
+		<published>2024-05-06T18:12:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31178#p31178</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31178#p31178"/>
+		<title type="html"><![CDATA[Re: RD-5R Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31178#p31178"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hi All, I'm trying to calibrate the power output of my RD-5R. I've read through the manual and found this.<br><blockquote class="uncited"><div>The power level for a given user setting value, varies considerably from radio to radio and will vary depending on battery voltage and transmit frequency. The power level will also vary depending on model of radio e.g. GD-77, DM-1801 or RD-5R etc. <span style="text-decoration:underline"><strong class="text-strong">With the RD-5R power levels being considerably different from the GD-77 and DMR-1801 because the RF and PA hardware is completely different.</strong></span><br><br>A power meter is the only way to know what power output each individual radio will produce on a specific frequency, for a specific user power setting, at a specific battery voltage.</div></blockquote>Can someone explain more on this? It seems like I can't go below 1 watt (after calibrate the 1w point on every frequency). Is changing the 4,100 in user power will help?<br><br>Thank you. <br>Charlie,</div></blockquote>On MK22 (GD-77/RD-5R/etc) the power calibration is a 2 points, 1W and 5W, other values are extrapolated.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon May 06, 2024 6:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-05-06T17:28:06</updated>
+
+		<published>2024-05-06T17:28:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31177#p31177</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31177#p31177"/>
+		<title type="html"><![CDATA[RD-5R Power Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4036&amp;p=31177#p31177"><![CDATA[
+Hi All, I'm trying to calibrate the power output of my RD-5R. I've read through the manual and found this.<br><blockquote class="uncited"><div>The power level for a given user setting value, varies considerably from radio to radio and will vary depending on battery voltage and transmit frequency. The power level will also vary depending on model of radio e.g. GD-77, DM-1801 or RD-5R etc. <span style="text-decoration:underline"><strong class="text-strong">With the RD-5R power levels being considerably different from the GD-77 and DMR-1801 because the RF and PA hardware is completely different.</strong></span><br><br>A power meter is the only way to know what power output each individual radio will produce on a specific frequency, for a specific user power setting, at a specific battery voltage.</div></blockquote>Can someone explain more on this? It seems like I can't go below 1 watt (after calibrate the 1w point on every frequency). Is changing the 4,100 in user power will help?<br><br>Thank you. <br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon May 06, 2024 5:28 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

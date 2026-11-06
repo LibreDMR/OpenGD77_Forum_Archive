@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5091" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-03T02:50:01</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5091</id>
+
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2025-05-03T02:50:01</updated>
+
+		<published>2025-05-03T02:50:01</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36977#p36977</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36977#p36977"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36977#p36977"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>If you stop scan and leave on a repeater that is generating the tone out of 100hz on the 9600 when you key the repeater the meter on the radio shows a signal coming in but no audio.</div></blockquote>So this is not related to scanning ?</div></blockquote>no this is not related to scanning, just a channel for a repeater in memory.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sat May 03, 2025 2:50 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2025-05-03T02:43:50</updated>
+
+		<published>2025-05-03T02:43:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36976#p36976</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36976#p36976"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36976#p36976"><![CDATA[
+<blockquote class="uncited"><div>Just a reminder, if that given channel has APRS config set, and that config has NO QSY frequency defined, the Tone frequency is NOT set.</div></blockquote>No APRS config on any of my radios<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Sat May 03, 2025 2:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KZ4DT]]></name></author>
+		<updated>2025-05-02T11:28:27</updated>
+
+		<published>2025-05-02T11:28:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36965#p36965</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36965#p36965"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36965#p36965"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>If you stop scan and leave on a repeater that is generating the tone out of 100hz on the 9600 when you key the repeater the meter on the radio shows a signal coming in but no audio.</div></blockquote>So this is not related to scanning ?</div></blockquote>It was just a theory and W8LDO has disproved it.  I was also able to duplicate his results.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5311">KZ4DT</a> — Fri May 02, 2025 11:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-05-02T08:25:20</updated>
+
+		<published>2025-05-02T08:25:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36960#p36960</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36960#p36960"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36960#p36960"><![CDATA[
+Just a reminder, if that given channel has APRS config set, and that config has NO QSY frequency defined, the Tone frequency is NOT set.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri May 02, 2025 8:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-02T07:16:13</updated>
+
+		<published>2025-05-02T07:16:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36959#p36959</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36959#p36959"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36959#p36959"><![CDATA[
+<blockquote class="uncited"><div>If you stop scan and leave on a repeater that is generating the tone out of 100hz on the 9600 when you key the repeater the meter on the radio shows a signal coming in but no audio.</div></blockquote>So this is not related to scanning ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri May 02, 2025 7:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2025-05-02T05:02:07 </updated>
+
+		<published>2025-05-02T00:38:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36957#p36957</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36957#p36957"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36957#p36957"><![CDATA[
+If you stop scan and leave on a repeater that is generating the tone out of 100hz on the 9600 when you key the repeater the meter on the radio shows a signal coming in but no audio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Fri May 02, 2025 12:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-01T21:23:17</updated>
+
+		<published>2025-05-01T21:23:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36956#p36956</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36956#p36956"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36956#p36956"><![CDATA[
+<blockquote class="uncited"><div>The other difference between a saved channel and VFO function is that in VFO the radio is not scanning. </div></blockquote>No one mentioned anything about this being related to scanning<br><br>Do you mean that when scanning that the 100Hz tone detection doesn't work correctly<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu May 01, 2025 9:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-01T13:16:18</updated>
+
+		<published>2025-05-01T13:16:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36951#p36951</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36951#p36951"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36951#p36951"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div><br><br>I see mine works too in vfo.  very strange.  but won't work for a saved channel.</div></blockquote>Copy the channel to the VFO and double check whether there is still a problem, because the VFO's are just a special type of channel.</div></blockquote>The other difference between a saved channel and VFO function is that in VFO the radio is not scanning.  I'll see if I can notice a difference between a saved channel and a saved channel in scan later today.<br><br>By the way both my MD-9600's are V5.</div></blockquote>You can try copying the working VFO channel to a memory too for comparison.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu May 01, 2025 1:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KZ4DT]]></name></author>
+		<updated>2025-05-01T12:38:04</updated>
+
+		<published>2025-05-01T12:38:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36950#p36950</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36950#p36950"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36950#p36950"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Tested on my TYT MD-9600 V2 and 100 Hz works fine on the VFO channel.<br>Software is 20250316</div></blockquote>I see mine works too in vfo.  very strange.  but won't work for a saved channel.</div></blockquote>Copy the channel to the VFO and double check whether there is still a problem, because the VFO's are just a special type of channel.</div></blockquote>The other difference between a saved channel and VFO function is that in VFO the radio is not scanning.  I'll see if I can notice a difference between a saved channel and a saved channel in scan later today.<br><br>By the way both my MD-9600's are V5.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5311">KZ4DT</a> — Thu May 01, 2025 12:38 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-01T07:06:22</updated>
+
+		<published>2025-05-01T07:06:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36947#p36947</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36947#p36947"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36947#p36947"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Tested on my TYT MD-9600 V2 and 100 Hz works fine on the VFO channel.<br>Software is 20250316</div></blockquote>I see mine works too in vfo.  very strange.  but won't work for a saved channel.</div></blockquote>Copy the channel to the VFO and double check whether there is still a problem, because the VFO's are just a special type of channel.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu May 01, 2025 7:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2025-04-30T23:03:05</updated>
+
+		<published>2025-04-30T23:03:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36945#p36945</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36945#p36945"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36945#p36945"><![CDATA[
+<blockquote class="uncited"><div>Tested on my TYT MD-9600 V2 and 100 Hz works fine on the VFO channel.<br>Software is 20250316</div></blockquote>I see mine works too in vfo.  very strange.  but won't work for a saved channel.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Wed Apr 30, 2025 11:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2025-04-30T14:01:32</updated>
+
+		<published>2025-04-30T14:01:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36942#p36942</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36942#p36942"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36942#p36942"><![CDATA[
+<blockquote class="uncited"><div>Both my MD-9600s behave like that whereas my DM-1701s are fine with the 100Hz tones.  All are running OpenGD77 and I never programmed either type of radio using the factory firmware, so I cannot comment on that.<br><br>It is a shame because several of repeaters in our area chose to use the 100Hz tone instead of something else.</div></blockquote>My tyt uv 380's or 390's do not have this issue.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Wed Apr 30, 2025 2:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W8LDO]]></name></author>
+		<updated>2025-04-30T13:59:08</updated>
+
+		<published>2025-04-30T13:59:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36941#p36941</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36941#p36941"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36941#p36941"><![CDATA[
+I made a post about this a couple of years ago, with very little response and no fix.  <a href="https://www.opengd77.com/viewtopic.php?f=11&amp;t=2364&amp;p=19611#p19611" class="postlink">viewtopic.php?f=11&amp;t=2364&amp;p=19611#p19611</a>.  Wonder if there are anymore tones that don't work?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2530">W8LDO</a> — Wed Apr 30, 2025 1:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-04-30T12:09:52</updated>
+
+		<published>2025-04-30T12:09:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36940#p36940</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36940#p36940"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36940#p36940"><![CDATA[
+Tested on my TYT MD-9600 V2 and 100 Hz works fine on the VFO channel.<br>Software is 20250316<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Apr 30, 2025 12:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N1KY]]></name></author>
+		<updated>2025-04-30T11:36:05</updated>
+
+		<published>2025-04-30T11:36:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36939#p36939</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36939#p36939"/>
+		<title type="html"><![CDATA[Re: MD-9600 decode tone issue using only the 100hz tone]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5091&amp;p=36939#p36939"><![CDATA[
+I use my MD-9600 on three local repeaters (2 VHF, 1 UHF) that I have 100Hz decode/rx tone set for and I never have any issues.<br><br>Are you using the newest OpenGD77 version?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=822">N1KY</a> — Wed Apr 30, 2025 11:36 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

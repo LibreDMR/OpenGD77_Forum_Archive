@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4765" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-24T06:03:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4765</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-24T06:03:49</updated>
+
+		<published>2025-01-24T06:03:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35332#p35332</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35332#p35332"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701; receives DMR; transmit DMR fails]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35332#p35332"><![CDATA[
+<blockquote class="uncited"><div>I'm having a similar issue with my DM1701 on the 20241215 fw build.   I can xmit to my MMDVM most of the time (it can get finicky), but when I go to Calibrate to check BER, Xmit fails.    <br><br>UPDATE:   This post might have the answer:  <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4626" class="postlink">viewtopic.php?f=19&amp;t=4626</a><br><br>I'm gonna try this tonight - check calibration of my radio against my SDR radio.     <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">    K7KS</div></blockquote>Using the SDR is IMO the best option, unless you happen to have a high resolution counter.<br><br>Most counters only seem to resolve to 1kHz, which isn't good enough when calibrating multiple radios to work with the same hotspot, as the Hotspot Rx window is only around +/- 200Hz at most.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 24, 2025 6:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[k7ks]]></name></author>
+		<updated>2025-01-24T04:52:13</updated>
+
+		<published>2025-01-24T04:52:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35331#p35331</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35331#p35331"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701; receives DMR; transmit DMR fails]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35331#p35331"><![CDATA[
+I'm having a similar issue with my DM1701 on the 20241215 fw build.   I can xmit to my MMDVM most of the time (it can get finicky), but when I go to Calibrate to check BER, Xmit fails.    <br><br>UPDATE:   This post might have the answer:  <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=4626" class="postlink">viewtopic.php?f=19&amp;t=4626</a><br><br>I'm gonna try this tonight - check calibration of my radio against my SDR radio.     <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile">    K7KS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2007">k7ks</a> — Fri Jan 24, 2025 4:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BI3ATV]]></name></author>
+		<updated>2025-01-22T08:12:54</updated>
+
+		<published>2025-01-22T08:12:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35263#p35263</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35263#p35263"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701; receives DMR; transmit DMR fails]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35263#p35263"><![CDATA[
+Has the problem been resolved? I am currently in this state and using MMDVM, I can only receive but cannot transmit. There is no response when transmitting<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7807">BI3ATV</a> — Wed Jan 22, 2025 8:12 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU7PZB]]></name></author>
+		<updated>2025-01-19T23:50:55</updated>
+
+		<published>2025-01-19T23:50:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35215#p35215</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35215#p35215"/>
+		<title type="html"><![CDATA[Re: Baofeng DM-1701; receives DMR; transmit DMR fails]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35215#p35215"><![CDATA[
+Wait, you can't use it on a hotspot? But you can use repeaters normally?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4276">PU7PZB</a> — Sun Jan 19, 2025 11:50 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N0NV]]></name></author>
+		<updated>2025-01-15T00:47:33</updated>
+
+		<published>2025-01-15T00:47:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35148#p35148</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35148#p35148"/>
+		<title type="html"><![CDATA[Baofeng DM-1701; receives DMR; transmit DMR fails]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4765&amp;p=35148#p35148"><![CDATA[
+My DM-1701 receives DMR talkgroups from a WPSD hotspot fine. Transmit to the hotspot (and up into the talkgroup) fails. The HT had the same problem on the OEM firmware, and I had hoped upgrading to OpenGD77 might fix it.<br>Today I am tinkering with the calibration settings on the radio screen. Likely my last attempt with the radio.<br>Over weeks I adjusted the hotspot - its BER and signal adjustments, frequency assignment, various antennas, etc. I am confident in my hotspot configs, which are validated by separate success on Alinco and Yaesu stock HTs.<br>The DM-1701 currently Rx/Tx no problem on FM repeaters and simplex. Monitoring a kerchunk to the hotspot on FM set to the simplex freq - I can hear a helicopter blade thumping sounding hiss. The DM-1701 is resulting in a Tx, but no intelligible signal to the hotspot.<br><br>Has anyone seen this problem before? And how to fix?<br><br>At this point, I am fine tossing the DM-1701 on the shelf of analog HTs. However, based on the community activity and documentation, I know people are getting these radios running.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7694">N0NV</a> — Wed Jan 15, 2025 12:47 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

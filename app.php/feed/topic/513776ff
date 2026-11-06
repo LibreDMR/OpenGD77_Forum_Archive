@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5137" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-23T15:53:02</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5137</id>
+
+		<entry>
+		<author><name><![CDATA[KQ4YJQ]]></name></author>
+		<updated>2025-05-23T15:53:02</updated>
+
+		<published>2025-05-23T15:53:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5137&amp;p=37199#p37199</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5137&amp;p=37199#p37199"/>
+		<title type="html"><![CDATA[APRS stopped transmitting.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5137&amp;p=37199#p37199"><![CDATA[
+I've been trying to get APRS working with the ISS with little luck.  Suddenly, two radios stopped transmitting APRS packets completely.  I was using CPS 2024-9-x to program a series of radios. I have a 1701a that I'd set GPS coords in the Radio Info and used to test digipeaters and igates.  I had a channel setup to use APRS on the APRS frequency and the unique coordinates made it easy to check to see if everything was working. My beacon is set to PTT.  I read the big APRS thread here talking about using APRS with the ISS, setup a new channel and APRS config, and was attempting to make that work. <br><br>Yesterday I got an RT-82, installed the 2025-3-23 OpenGD77 firmware, and tried to beacon to the ISS.  I got GPS lock, pushed PTT and got no beacon. Just regular FM transmit.  I was puzzled, tried it a few times, then went and grabbed my known good 1701a.  Same issue. Using a third radio on the same frequency I confirmed there was no packet being transmitted by either radio.  I attempted to walk back any of my APRS changes I'd made recently.  No luck. I saw there was a new version of the CPS so I grabbed that (2025-3-23) and still no luck. I have other radios that I haven't written the codeplug to in a while that still work correctly for regular APRS.<br><br>I've tried the "no beep" setting in the channel, and "transmit QSY", and "beacon silently" settings in the APRS config with no luck. In chasing the ISS when it was working I tried the RS0ISS which didn't work and I've found some recent YouTube videos of people using ARISS with success.  I've tried both of those VIAs.   In the 1701a the APRS options are:<br><br>Mode: PTT<br>Location: GPS<br>Interval: 0.2min<br>Decay: On<br>Compress: On<br><br>They mirror the settings in a 1701 that I haven't sync'ed recently and still works. <br><br>RT-82: Firmware 2025-3-23  - Not working, recently sync'ed.<br>1701a: Firmware 2024-9-8  - Not working, recently sync'ed.<br>1701: Firmware 2024-9-8  - Working, not recently sync'ed.<br><br>I've spent 2 days reading issue the threads here and the firmware documentation. What am I missing?  My callsign has changed which is why it's different in the APRS config vs my account here.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2985&amp;sid=09fbb26c69d5a2df68573e2b0eed6a9c" class="postimage" alt="aprs.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7413">KQ4YJQ</a> — Fri May 23, 2025 3:53 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

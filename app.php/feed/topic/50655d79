@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5065" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-17T12:36:31</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5065</id>
+
+		<entry>
+		<author><name><![CDATA[w9lw]]></name></author>
+		<updated>2025-04-17T12:36:31</updated>
+
+		<published>2025-04-17T12:36:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36801#p36801</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36801#p36801"/>
+		<title type="html"><![CDATA[DM-1701 deaf on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36801#p36801"><![CDATA[
+After further testing, I've come the new conclusion that the receiver hardware (or at least, the receiver on the device I have) is simply not as sensitive as I hoped, requiring stronger DMR signals than other handhelds I've used.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=914">w9lw</a> — Thu Apr 17, 2025 12:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[w9lw]]></name></author>
+		<updated>2025-04-16T14:00:34</updated>
+
+		<published>2025-04-16T14:00:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36776#p36776</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36776#p36776"/>
+		<title type="html"><![CDATA[DM-1701 deaf on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36776#p36776"><![CDATA[
+<blockquote class="uncited"><div>The DMR system is very critical, and with a small frequency deviation, this is possible. Use an SDR to adjust the frequency on the Baofeng.<br>I'm assuming you're using the original Baofeng antenna. If you use an external base antenna, the Baofeng could saturate, causing this error.</div></blockquote>Thanks for taking the time to reply, EA3V. The first thing I did when I noticed the reception problem with OpenGD77 was use the firmware's calibration tool to confirm that the radio was on frequency. Also, when I returned from OpenGD77 to factory firmware, DMR reception improved without making any other changes, including frequency calibration.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=914">w9lw</a> — Wed Apr 16, 2025 2:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3V]]></name></author>
+		<updated>2025-04-16T13:49:49</updated>
+
+		<published>2025-04-16T13:49:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36775#p36775</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36775#p36775"/>
+		<title type="html"><![CDATA[DM-1701 deaf on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36775#p36775"><![CDATA[
+<blockquote class="uncited"><div>Hello all, I acquired a DM-1701 last week. It worked fine with factory firmware. After I loaded the latest stable version of OpenGD77 (R20240908) the radio lost the ability to decode DMR audio from either of our local repeaters. One repeater is less than 3 air miles away and the other is less than 7 miles away. Both use Motorola hardware. One is networked to a c-Bridge and the other is connected to a Brandmeister server. The RSSI is at least 1/2 scale on both repeaters. The green LED lights but the radio does not decode audio. <br><br>The radio decodes DMR signals from my MMDVM hotspot without difficulty but of course that RF signal is much stronger than those of the repeaters.<br><br>An Anytone handheld on the same desk decodes audio from both repeaters without difficulty. When I reinstalled factory firmware, the DM-1701 was again able to decode repeater audio from the same location on my desk.</div></blockquote>The DMR system is very critical, and with a small frequency deviation, this is possible. Use an SDR to adjust the frequency on the Baofeng.<br>I'm assuming you're using the original Baofeng antenna. If you use an external base antenna, the Baofeng could saturate, causing this error.<br><br>EA3V 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4014">EA3V</a> — Wed Apr 16, 2025 1:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[w9lw]]></name></author>
+		<updated>2025-04-16T12:17:20</updated>
+
+		<published>2025-04-16T12:17:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36772#p36772</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36772#p36772"/>
+		<title type="html"><![CDATA[DM-1701 deaf on DMR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36772#p36772"><![CDATA[
+In my original post, I meant but forgot to ask: Is there a repository for previous OpenGD77 versions that I could try in an attempt to find one that doesn't adversely affect DMR reception? If so, I'd appreciate a URL.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=914">w9lw</a> — Wed Apr 16, 2025 12:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[w9lw]]></name></author>
+		<updated>2025-04-17T12:25:40 </updated>
+
+		<published>2025-04-15T19:48:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36767#p36767</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36767#p36767"/>
+		<title type="html"><![CDATA[DM-1701 deaf on DMR [Hardware problem]]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5065&amp;p=36767#p36767"><![CDATA[
+Hello all, I acquired a DM-1701 last week. It worked fine with factory firmware. After I loaded the latest stable version of OpenGD77 (R20240908) the radio lost the ability to decode DMR audio from either of our local repeaters. One repeater is less than 3 air miles away and the other is less than 7 miles away. Both use Motorola hardware. One is networked to a c-Bridge and the other is connected to a Brandmeister server. The RSSI is at least 1/2 scale on both repeaters. The green LED lights but the radio does not decode audio. <br><br>The radio decodes DMR signals from my MMDVM hotspot without difficulty but of course that RF signal is much stronger than those of the repeaters.<br><br>An Anytone handheld on the same desk decodes audio from both repeaters without difficulty. When I reinstalled factory firmware, the DM-1701 was again able to decode repeater audio from the same location on my desk.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=914">w9lw</a> — Tue Apr 15, 2025 7:48 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

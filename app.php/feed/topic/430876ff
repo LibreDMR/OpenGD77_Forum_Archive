@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4308" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-08-15T03:00:16</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4308</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-08-15T03:00:16</updated>
+
+		<published>2024-08-15T03:00:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4308&amp;p=32512#p32512</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4308&amp;p=32512#p32512"/>
+		<title type="html"><![CDATA[Re: Incorrect DCS detected during scan]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4308&amp;p=32512#p32512"><![CDATA[
+The hardware in these radios is not very good at detecting individual codes. The hardware generally works OK, if you select the code you are expecting to receive, and the squelch normally opens - unless perhaps the deviation of the signal is too high.<br><br>However when scanning for CTCSS/DCS codes, the hardware often gives false positives when receiving adjacent tones.<br><br>I don't know how DCS encoding works, or how the I and N codes work, but I suspect what you are experiencing are hardware limitations.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Aug 15, 2024 3:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K7AC]]></name></author>
+		<updated>2024-08-06T17:25:07</updated>
+
+		<published>2024-08-06T17:25:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4308&amp;p=32422#p32422</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4308&amp;p=32422#p32422"/>
+		<title type="html"><![CDATA[Incorrect DCS detected during scan]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4308&amp;p=32422#p32422"><![CDATA[
+I have the latest stable version installed on a TYT MD-9600. While receiving an incoming signal and scanning for a DCS code I noticed that my Uniden scanner displayed a code of 115 and the MD-9600 displayed D152N. So I decided to test with an HT and found that when I transmitted a DCS 115N the 9600 indeed decoded that as D152N. So when I tried transmitting on the MD-9600, obviously the HT did not open it's squelch. Then I transmitted DCS 152N from the HT and the MD-9600 decoded D115N. I do not know how DCS codes specifically work, so this might me normal. My HT has two different states for each DCS code "N" and "I". I understand the "I" is negative and "N" is positive. When I transmit a DCS115I from the HT the MD-9600 decodes it as DCS115N and now the 9600 can hear the HT transmissions. Are these positive and negative codes  mutually exclusive or is there some overlap? Why doesn't the firmware distinguish between positive and negative codes? I have to set the HT DCS Rx to D115N so it can hear the 9600. I hope that I haven't completely confused whoever reads this, hi hi. If it isn't a bug then the moderator can certainly delete this post.<br><br>73 de Bill (K7AC)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6473">K7AC</a> — Tue Aug 06, 2024 5:25 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

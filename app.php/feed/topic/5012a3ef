@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5012" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-26T19:19:22</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5012</id>
+
+		<entry>
+		<author><name><![CDATA[NV2M]]></name></author>
+		<updated>2025-03-26T19:19:22</updated>
+
+		<published>2025-03-26T19:19:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36479#p36479</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36479#p36479"/>
+		<title type="html"><![CDATA[Re: First flash and restore question]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36479#p36479"><![CDATA[
+Thank you for the quick responses here!   <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"> <br>I appreciate it ...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7956">NV2M</a> — Wed Mar 26, 2025 7:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-26T16:13:14</updated>
+
+		<published>2025-03-26T16:13:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36473#p36473</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36473#p36473"/>
+		<title type="html"><![CDATA[Re: First flash and restore question]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36473#p36473"><![CDATA[
+<blockquote class="uncited"><div>Hello all,<br>I have an old tyt md-uv380 an looking to play with openGD77. Question on firmware flash and recovery to original.<br><br>I followed directions here to the letter: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><br><br>However I failed to find the extended notes here in time:<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#backup-before-you-do-anything-else" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... thing-else</a><br><br>So in essence I did the suggested firmware backup but did not do the eeprom, mcu, or calibration backup before my first opendg77 codeplug upload.<br><br>So the questions here are:<br>- did I screw up my ability to revert back to the original firmware<br>- is it possible to get eeprom, mcu, and calibration from another unit and use those?<br><br>In the end it doesn't upset me not being able to revert ... but reverting the firmware might help in some troubleshooting I am doing.<br><br>Thanks</div></blockquote>You need the flash backup to return to the factory, as some data are stored there.<br>There is no EEPROM in the supported STM32 based transceiver.<br><br>So, if you have the Flash backup, you're fine.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Mar 26, 2025 4:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-03-26T16:11:39</updated>
+
+		<published>2025-03-26T16:11:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36472#p36472</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36472#p36472"/>
+		<title type="html"><![CDATA[Re: First flash and restore question]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36472#p36472"><![CDATA[
+<blockquote class="uncited"><div>calibration is not lost, for example you can return to the original firmware and then save the original calibration again in the official CPS.</div></blockquote>The OpenGD77 firmware don't touch the manufacturer calibration values, it's always working on a copy of it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Mar 26, 2025 4:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[MELERIX]]></name></author>
+		<updated>2025-03-26T15:05:27</updated>
+
+		<published>2025-03-26T15:05:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36470#p36470</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36470#p36470"/>
+		<title type="html"><![CDATA[Re: First flash and restore question]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36470#p36470"><![CDATA[
+calibration is not lost, for example you can return to the original firmware and then save the original calibration again in the official CPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4191">MELERIX</a> — Wed Mar 26, 2025 3:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NV2M]]></name></author>
+		<updated>2025-03-26T15:03:34</updated>
+
+		<published>2025-03-26T15:03:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36469#p36469</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36469#p36469"/>
+		<title type="html"><![CDATA[First flash and restore question]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5012&amp;p=36469#p36469"><![CDATA[
+Hello all,<br>I have an old tyt md-uv380 an looking to play with openGD77. Question on firmware flash and recovery to original.<br><br>I followed directions here to the letter: <a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2380" class="postlink">viewtopic.php?f=19&amp;t=2380</a><br><br>However I failed to find the extended notes here in time:<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#backup-before-you-do-anything-else" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... thing-else</a><br><br>So in essence I did the suggested firmware backup but did not do the eeprom, mcu, or calibration backup before my first opendg77 codeplug upload.<br><br>So the questions here are:<br>- did I screw up my ability to revert back to the original firmware<br>- is it possible to get eeprom, mcu, and calibration from another unit and use those?<br><br>In the end it doesn't upset me not being able to revert ... but reverting the firmware might help in some troubleshooting I am doing.<br><br>Thanks<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7956">NV2M</a> — Wed Mar 26, 2025 3:03 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

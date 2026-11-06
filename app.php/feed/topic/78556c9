@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/785" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2020-03-27T21:54:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/785</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2020-03-27T21:54:00</updated>
+
+		<published>2020-03-27T21:54:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=785&amp;p=7010#p7010</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=785&amp;p=7010#p7010"/>
+		<title type="html"><![CDATA[FLASH MEM ERROR]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=785&amp;p=7010#p7010"><![CDATA[
+The newer versions of the OpenGD77/OpenDM1801 use unified calibration data memory.<br><br>If your radio has corrupt calibration data you will see the message<br><br>FLASH MEM ERROR<br><br>To fix this you either need to either<br><br>1. downgrade to the previous version of firmware which you were using.<br><br>Or. <br><br>2. You fix the calibration data<br><br>What you need to do to fix the corrupt calibration data depends on how corrupt the data is.<br>Possibly only the calibration data "signature" byes are corrupt, but potentially the entire calibration table is corrupt.<br><br>Using the OpenGD77CPS in the Extras-&gt;OpenGD77Support  backup your existing calibration data<br><br>Download a hex editor, e.g. Hxd, and compare the first 2 bytes of your calibration table, and they should be 0xA0 0x0F<br>For the GD77 the first 8 bytes should be these<br><div class="codebox"><p>CODE: </p><pre><code>Offset(h) 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F00000000  A0 0F C0 12 A0 0F C0 12 E4                        .À. .À.ä</code></pre></div>Note. On the Baofeng DM-1801 only the first 2 bytes are guaranteed to be 0xA0 0x0F <br><br>Use Hxd to change the first 2 bytes to the correct values, and resave the calibration file with a different name.<br><br>Then use the CPS to restore the calibration into the radio<br><br>The radio should not start normally.<br><br><br>You should also use the Calibration screen in the Extras menu of the OpenGD77 to check the other values in your calibration data<br><br>These are screengrabs of the VHF and UHF calibration data in one of my radios.<br><br>All radios will have slightly different values for most of the settings, but the Reference Oscillator Tuning value should be in the range 980 to 1020 and the Tx I &amp; Q values should be similar to my values.<br><br>My power values have been calibrated for my radio, and are likely to be significantly different from a radio where the owner has not done their own power calibration, because the factory power calibration seemed extremely inaccurate<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=810&amp;sid=7beb1b351fd94cdf201c23a8c9b498a7" class="postimage" alt="uhf_calibration.png" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=809&amp;sid=7beb1b351fd94cdf201c23a8c9b498a7" class="postimage" alt="vhf_calibration.png" onclick="viewableArea(this);" /></dt></dl></div><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=808&amp;sid=7beb1b351fd94cdf201c23a8c9b498a7">GD77_calibration.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 27, 2020 9:54 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

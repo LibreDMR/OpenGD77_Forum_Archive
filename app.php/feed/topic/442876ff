@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4428" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-09-24T22:34:37</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4428</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-24T22:34:37</updated>
+
+		<published>2024-09-24T22:34:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4428&amp;p=33169#p33169</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4428&amp;p=33169#p33169"/>
+		<title type="html"><![CDATA[Re: Possible fitting and GPS antenna for back of radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4428&amp;p=33169#p33169"><![CDATA[
+<blockquote class="uncited"><div>Roger,<br><br>I remember you mentioned about maybe coming up with a connection system for the back of the MD-9600 for the External GPS/antenna that you use. I am wanting to put an external antenna in one of the radios I have in my car. In doing some additional searching and digging I have come upon the following that I think would make adding an external GPS to the MD-9600 easier and potentially more 'professional' looking.<br><br>External GPS/Antenna with 3.5mm TRRS male<br><a href="https://www.ictransistors.com/development-board/gps-module-vk163-receiver-ubx7020-chip.html" class="postlink">https://www.ictransistors.com/developme ... -chip.html</a><br>you can find this listed on AliExpress<br><br>Panel mount 3.5mm TRRS female<br><a href="https://www.amazon.com/PNGKNYOCN-Solder-Connector%EF%BC%8C3-5mm-Stereo-Connector/dp/B0D2XLDPPR/ref=sr_1_13?crid=2NDUNE9G3GV9X&amp;dib=eyJ2IjoiMSJ9.f3Y_-h2-UhHuxDf9Ce_zoE7Yd8wQpJwUaogyjIHjO5WQmUKZbZevocUVbW1kUdTKmsiKdp0BagGsjzGgTKQkjYE95k2LNFph-DD81zH9xcOgm1R8jgIuZmUBngXBSmvsTSQGm_72FqzIxMgrObB-l8SNwS3vDtU5LQba745wXTO5Y4Sas0VBpq5NX1lIbKLsf7_FkLOuwy1cSPiUTh2VeI9WC5MJSbW5pRi80O8HayhW-1C1fR5dtdtyh8wi6B2r0jXSLTyoFWXVSxHgzqv_Ro8kkzc98z1kqAAL6pY01iI.K8eW1UqbYe9EVf7E5dMfoIrLac6WCsnt7Ge7ytmWwhI&amp;dib_tag=se&amp;keywords=3.5+mm+trrs+female+panel+connector&amp;qid=1727214567&amp;s=electronics&amp;sprefix=3.5+mm+trrs+female+panel+connector%2Celectronics%2C127&amp;sr=1-13" class="postlink">https://www.amazon.com/PNGKNYOCN-Solder ... 27&amp;sr=1-13</a><br><br>I will be giving this a try soon. <br><br>AA3RP</div></blockquote>Spec does not show the GPS data format or speed.<br><br>Its probably the normal NMEA format, but there is no way to know for sure.<br><br>Also, did you check the amount of space on the back panel / heatsink, that 3.5mm socket looks really big. You'll need to cut away quite a lot of heat sink to fit it<br><br>I use a pigtail, which doesn't look so good but works OK.<br> <br>a 2.5mm stereo jack socket would be better, but they are not that easy to get hold of<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Sep 24, 2024 10:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[AA3RP]]></name></author>
+		<updated>2024-09-24T22:03:02</updated>
+
+		<published>2024-09-24T22:03:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4428&amp;p=33168#p33168</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4428&amp;p=33168#p33168"/>
+		<title type="html"><![CDATA[Possible fitting and GPS antenna for back of radio]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4428&amp;p=33168#p33168"><![CDATA[
+Roger,<br><br>I remember you mentioned about maybe coming up with a connection system for the back of the MD-9600 for the External GPS/antenna that you use. I am wanting to put an external antenna in one of the radios I have in my car. In doing some additional searching and digging I have come upon the following that I think would make adding an external GPS to the MD-9600 easier and potentially more 'professional' looking.<br><br>External GPS/Antenna with 3.5mm TRRS male<br><a href="https://www.ictransistors.com/development-board/gps-module-vk163-receiver-ubx7020-chip.html" class="postlink">https://www.ictransistors.com/developme ... -chip.html</a><br>you can find this listed on AliExpress<br><br>Panel mount 3.5mm TRRS female<br><a href="https://www.amazon.com/PNGKNYOCN-Solder-Connector%EF%BC%8C3-5mm-Stereo-Connector/dp/B0D2XLDPPR/ref=sr_1_13?crid=2NDUNE9G3GV9X&amp;dib=eyJ2IjoiMSJ9.f3Y_-h2-UhHuxDf9Ce_zoE7Yd8wQpJwUaogyjIHjO5WQmUKZbZevocUVbW1kUdTKmsiKdp0BagGsjzGgTKQkjYE95k2LNFph-DD81zH9xcOgm1R8jgIuZmUBngXBSmvsTSQGm_72FqzIxMgrObB-l8SNwS3vDtU5LQba745wXTO5Y4Sas0VBpq5NX1lIbKLsf7_FkLOuwy1cSPiUTh2VeI9WC5MJSbW5pRi80O8HayhW-1C1fR5dtdtyh8wi6B2r0jXSLTyoFWXVSxHgzqv_Ro8kkzc98z1kqAAL6pY01iI.K8eW1UqbYe9EVf7E5dMfoIrLac6WCsnt7Ge7ytmWwhI&amp;dib_tag=se&amp;keywords=3.5+mm+trrs+female+panel+connector&amp;qid=1727214567&amp;s=electronics&amp;sprefix=3.5+mm+trrs+female+panel+connector%2Celectronics%2C127&amp;sr=1-13" class="postlink">https://www.amazon.com/PNGKNYOCN-Solder ... 27&amp;sr=1-13</a><br><br>I will be giving this a try soon. <br><br>AA3RP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1814">AA3RP</a> — Tue Sep 24, 2024 10:03 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

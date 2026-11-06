@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=4599&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 08:49:15 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="robots" content="noindex" />
+
+<title>OpenGD77 &bull; Auto off function</title>
+
+<link href="styles/prosilver/theme/print.css" rel="stylesheet">
+<link href="styles/prosilver/theme/bidi.css" rel="stylesheet">
+</head>
+<body id="phpbb" class="ltr">
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+
+	<div id="page-header">
+		<h1>OpenGD77</h1>
+		<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios<br /><a href="index.html"></a></p>
+
+		<h2>Auto off function</h2>
+		<p><a href="viewtopic81eb-2.html?f=19&amp;t=4599">viewtopic.php?f=19&amp;t=4599</a></p>
+	</div>
+
+	<div id="page-body" class="page-body">
+		<div class="page-number">Page <strong>1</strong> of <strong>1</strong></div>
+					<div class="post">
+				<h3>Auto off function</h3>
+				<div class="date">Posted: <strong>Wed Nov 20, 2024 9:09 pm</strong></div>
+				<div class="author">by <strong>G8WBO</strong></div>
+				<div class="content">Is there any auto off or standby function I can enable to save the battery being exhausted when I forget to turn the radio off ?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Auto off function</h3>
+				<div class="date">Posted: <strong>Wed Nov 20, 2024 9:22 pm</strong></div>
+				<div class="author">by <strong>SP1RAC</strong></div>
+				<div class="content"><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#apo-auto-power-off" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -power-off</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Auto off function</h3>
+				<div class="date">Posted: <strong>Wed Nov 20, 2024 9:25 pm</strong></div>
+				<div class="author">by <strong>KA1CM</strong></div>
+				<div class="content">Two things I can think of. <br>
+1. Menu -&gt; options -&gt; general options-&gt; Eco Level <br>
+This is how much time extra circuitry of the radio will go to sleep<br>
+<br>
+<a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#eco-level" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... #eco-level</a><br>
+<br>
+2. Menu -&gt; options -&gt; general options-&gt; APO/APO with RF<br>
+<br>
+<a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#apo-auto-power-off" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... -power-off</a></div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Auto off function</h3>
+				<div class="date">Posted: <strong>Wed Nov 20, 2024 11:43 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content">Be aware that the firmware can't completely turn the radio off, it can only turn off the display and the RF chips etc, and put the CPU into a lower power mode. <br>
+<br>
+However the radio will still consume around 50mA</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Auto off function</h3>
+				<div class="date">Posted: <strong>Thu Nov 21, 2024 8:39 am</strong></div>
+				<div class="author">by <strong>G8WBO</strong></div>
+				<div class="content">Thank you for that, thought I had read something in the manual, will have a look at the Eco settings</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Auto off function</h3>
+				<div class="date">Posted: <strong>Thu Jun 19, 2025 3:34 pm</strong></div>
+				<div class="author">by <strong>HA7AB</strong></div>
+				<div class="content">Is there a way to implement APO if the battery level gets below a set value? <br>
+It would be nice to use the radio for automatic transmissions without user input, and make sure the battery doesn't fully die.<br>
+<br>
+Example usecase:<br>
+Hiking in a remote area, radio is used for APRS TX with an APRS mode, that transmits location automatically. When the battery gets to 50%, the radio turns off, so it will be available for communcation later. It would be even better if the radio could do a series of actions once a battery has drained to a level: turn of GPS, select a different channel (without APRS or any auto transmission).<br>
+<br>
+Is there anything like this on the roadmap @VK3KYY ?</div>
+			</div>
+			<hr />
+					<div class="post">
+				<h3>Re: Auto off function</h3>
+				<div class="date">Posted: <strong>Thu Jun 19, 2025 8:53 pm</strong></div>
+				<div class="author">by <strong>VK3KYY</strong></div>
+				<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=5833&amp;sid=14c1c30b3e58b9be0eb281c02ff4b27b">HA7AB</a> wrote: <a href="viewtopiccd3c-3.html?p=37524&amp;sid=14c1c30b3e58b9be0eb281c02ff4b27b#p37524" data-post-id="37524" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Thu Jun 19, 2025 3:34 pm</div></cite>
+Is there a way to implement APO if the battery level gets below a set value? <br>
+It would be nice to use the radio for automatic transmissions without user input, and make sure the battery doesn't fully die.<br>
+<br>
+Example usecase:<br>
+Hiking in a remote area, radio is used for APRS TX with an APRS mode, that transmits location automatically. When the battery gets to 50%, the radio turns off, so it will be available for communcation later. It would be even better if the radio could do a series of actions once a battery has drained to a level: turn of GPS, select a different channel (without APRS or any auto transmission).<br>
+<br>
+Is there anything like this on the roadmap @VK3KYY ?
+</div></blockquote>
+
+These radios are not designed for your use case.<br>
+<br>
+As I said previously, the firmware can't turn these radios completely off.<br>
+<br>
+Even if we added a function to put the radio into standby at a specific battery level, the battery would continue to drain. This is especially true of the radios with colour screens. <br>
+<br>
+If you need APRS and emergency communication, you should use two different radios</div>
+			</div>
+			<hr />
+			</div>
+
+	<div id="page-footer" class="page-footer">
+		<div class="page-number">All times are <span title="UTC">UTC</span><br />Page <strong>1</strong> of <strong>1</strong></div>
+			
+	</div>
+</div>
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=19&t=4599&sid=&view=print by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 30 Jul 2025 08:49:17 GMT -->
+</html>

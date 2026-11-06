@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4561" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-27T13:17:25</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4561</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-06-27T13:17:25</updated>
+
+		<published>2025-06-27T13:17:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37576#p37576</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37576#p37576"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37576#p37576"><![CDATA[
+<blockquote class="uncited"><div>Hi.<br>sorry to bother you.<br>I recently purchased a baofeng MD1701A radio.<br>I see you have one.<br>any advice on installing the gd77?<br>I imagine it is the same as the MD1701 model, right?<br>Thanks for your time and help.<br><br>hola.<br>perdona que te moleste.<br>recientemenre he adquirido una radio baofeng MD1701A.<br>Veo que tu tienes una.<br>¿Algún consejo para la instalación del gd77?<br>Imagino que es igual que el modelo MD1701, ¿verdad?<br>Gracias por tu tiempo y ayuda.</div></blockquote>This is off topic.<br>Also, don't cross post.<br><br>Thanks.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Jun 27, 2025 1:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA1RBK]]></name></author>
+		<updated>2025-06-27T13:09:04</updated>
+
+		<published>2025-06-27T13:09:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37574#p37574</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37574#p37574"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37574#p37574"><![CDATA[
+Hi.<br>sorry to bother you.<br>I recently purchased a baofeng MD1701A radio.<br>I see you have one.<br>any advice on installing the gd77?<br>I imagine it is the same as the MD1701 model, right?<br>Thanks for your time and help.<br><br>hola.<br>perdona que te moleste.<br>recientemenre he adquirido una radio baofeng MD1701A.<br>Veo que tu tienes una.<br>¿Algún consejo para la instalación del gd77?<br>Imagino que es igual que el modelo MD1701, ¿verdad?<br>Gracias por tu tiempo y ayuda.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8845">EA1RBK</a> — Fri Jun 27, 2025 1:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC1WSW]]></name></author>
+		<updated>2025-05-31T15:39:37</updated>
+
+		<published>2025-05-31T15:39:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37307#p37307</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37307#p37307"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37307#p37307"><![CDATA[
+I have done a little more testing and found the same issue with firmwares R20231231, R20240630 and R20240908.<br><br>Could it be a different hardware version? The Firmware info screen shows:<br><br>TYT<br>CPU Sig: 0x0413<br>CPU Rev: 0x0009<br>CPU Pack: 0x0007<br>CPU Flash: 1024kb<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8568">KC1WSW</a> — Sat May 31, 2025 3:39 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP8AC]]></name></author>
+		<updated>2025-05-17T21:27:55</updated>
+
+		<published>2025-05-17T21:27:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37145#p37145</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37145#p37145"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37145#p37145"><![CDATA[
+I can confirm this behavior. I uploaded the latest stable OpenGD77 version to an RT3S from 07/2024. I now have two RT3S devices—one from 2023 and a newer one from 2024.<br><br>On 430 MHz, when in DMR mode, transmitting from the older device to the newer one works fine. However, when I transmit from the newer device, the transmission becomes garbled after about 3 seconds when received by the older device. Both devices are running the same firmware and codeplug.<br><br>Transmitting in DMR mode works fine in both directions on 439 MHz.<br><br>When I enable the "Signal" menu option in the firmware, I observe that the signal from the older device to the newer one is stable. In the other direction, the signal fluctuates wildly.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8619">SP8AC</a> — Sat May 17, 2025 9:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC1WSW]]></name></author>
+		<updated>2025-05-17T16:52:03</updated>
+
+		<published>2025-05-17T16:52:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37142#p37142</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37142#p37142"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=37142#p37142"><![CDATA[
+Hi all,<br><br>I think I have the same issue with my DM-1701A's. Everything works well except DMR around 430-435 Mhz with OpenGD77. VHF, &lt; 420 Mhz, &gt; 439 Mhz and FM are all okay. I'm using version 20250323054354 [ 1bd23ea D ].<br><br>I've tried different antennas, different timeslots, filters, mic gain, eco level, no TA, CRC is on. I installed the original firmware to make sure it isn't a hardware issue as these are new from AliExpress, so you never know. It didn't have this issue, though I must say after experiencing OpenGD77, the stock firmware sucks <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"> <br><br>It was clear the issue is transmitting, since going from stock to OpenGD77 worked fine. When receiving the garbled signal the stock firmware keeps dropping the call like it's getting out of sync or something.<br><br>Let me know if there is anything I can do to help debug.<br><br>73 KC1WSW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8568">KC1WSW</a> — Sat May 17, 2025 4:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU1INZ]]></name></author>
+		<updated>2024-11-23T20:31:08</updated>
+
+		<published>2024-11-23T20:31:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34189#p34189</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34189#p34189"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34189#p34189"><![CDATA[
+Hi all,<br>I also have the same problem.<br>If I try to use the DM-1701 and go DMR simplex to my RT-3S I get garbled audio in UHF HAM bands at all power levels.<br>RT-3S to DM-1701 is fine.<br>RT-3S can decode successfully all repeaters and other HTs and mobile DMR rigs.<br>DMO in VHF and other UHF frequencies like GMRS works good.<br>I don't have ready a spectrum analyzer, but I suspect something weird is being transmitted when operating in UHF HAM.<br>MMDVM hotspot hats can be worked fine with both radios.<br>73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7229">IU1INZ</a> — Sat Nov 23, 2024 8:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK5DOC]]></name></author>
+		<updated>2024-11-12T04:55:39</updated>
+
+		<published>2024-11-12T04:55:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34043#p34043</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34043#p34043"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34043#p34043"><![CDATA[
+I'm thinking the same, As I still can not find a solution to it. <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>The code plug is from here <a href="https://vk2idl.com/index.php/opengd77-codeplug/" class="postlink">https://vk2idl.com/index.php/opengd77-codeplug/</a> I use this on my Retevis and it works great.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6700">VK5DOC</a> — Tue Nov 12, 2024 4:55 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-12T02:28:33</updated>
+
+		<published>2024-11-12T02:28:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34039#p34039</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34039#p34039"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34039#p34039"><![CDATA[
+<blockquote class="uncited"><div>Good Morning Guys.<br><br>I recently purchased a Dm 1701 and have the same issue with communications between my 1701 and my Retetis RT3s, not even using a hotspot or repeater.<br><br>Using the RT3s on a repeater or Bluedv as a hotspot works fine with transmit and receive with no issues. I can also transmit to the DM1701 with no garble, But if I use the DM1701 either as a hotspot or to transmit to the RT3s directly, after 4 seconds, the audio becomes garbled.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>I have tried everything suggested here to no avail, I am beginning to wonder if the radio has a fault of its own, I am hoping it is just something I missed as the RT3s has never skipped a beat with open GD77.<br><br>Also I'm using the Open GD77 VK code plug just for information.<br><br>Any help would be appreciated.<br><br>Cheers 73 VK5DOC Steve.</div></blockquote>Possibly the radio has a fault.<br><br>Not sure what you mean by  "Open GD77 VK code plug"<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 12, 2024 2:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK5DOC]]></name></author>
+		<updated>2024-11-12T00:33:29</updated>
+
+		<published>2024-11-12T00:33:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34037#p34037</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34037#p34037"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=34037#p34037"><![CDATA[
+Good Morning Guys.<br><br>I recently purchased a Dm 1701 and have the same issue with communications between my 1701 and my Retetis RT3s, not even using a hotspot or repeater.<br><br>Using the RT3s on a repeater or Bluedv as a hotspot works fine with transmit and receive with no issues. I can also transmit to the DM1701 with no garble, But if I use the DM1701 either as a hotspot or to transmit to the RT3s directly, after 4 seconds, the audio becomes garbled.  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_rolleyes.gif" width="15" height="17" alt=":roll:" title="Rolling Eyes"> <br><br>I have tried everything suggested here to no avail, I am beginning to wonder if the radio has a fault of its own, I am hoping it is just something I missed as the RT3s has never skipped a beat with open GD77.<br><br>Also I'm using the Open GD77 VK code plug just for information.<br><br>Any help would be appreciated.<br><br>Cheers 73 VK5DOC Steve.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6700">VK5DOC</a> — Tue Nov 12, 2024 12:33 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4MWL]]></name></author>
+		<updated>2024-11-07T11:13:38</updated>
+
+		<published>2024-11-07T11:13:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33968#p33968</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33968#p33968"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33968#p33968"><![CDATA[
+I have seen this issue on our local MTR2000 repeater VK4RBA as well and we have not been able to figure out the issue. I will look at the frequency alignment as suggested. Only occurs on OpenGD77 firmware. I have 2 x MD9600, GD77 and RT3s.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=837">VK4MWL</a> — Thu Nov 07, 2024 11:13 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-06T06:28:23</updated>
+
+		<published>2024-11-06T06:28:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33955#p33955</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33955#p33955"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33955#p33955"><![CDATA[
+Just a thought, but do you have TA Tx turned on ?<br><br>That repeater seems to be a Motorola, and I don't think TA Tx is supported<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Nov 06, 2024 6:28 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-06T05:08:50</updated>
+
+		<published>2024-11-06T05:08:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33954#p33954</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33954#p33954"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33954#p33954"><![CDATA[
+OK.<br><br>So its this repeater<br><br><a href="https://brandmeister.network/?page=device&amp;id=311929" class="postlink">https://brandmeister.network/?page=device&amp;id=311929</a><br><br>I assume you are using full power and the problem is not related to power calibation ??<br><br>If you are using max power, I'd try adjusting the freq calibation a little to see if increasing or descreasing the freq has any effect<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Nov 06, 2024 5:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KE0JHN]]></name></author>
+		<updated>2024-11-06T02:49:30</updated>
+
+		<published>2024-11-06T02:49:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33951#p33951</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33951#p33951"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33951#p33951"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>You may check DMR Micro settings in Audio Options, test with -9 dB or -6 dB.</div></blockquote>I looked in the Audio Options, but couldn't find DMR Micro settings.</div></blockquote>There are no "DMR Micro" settings<br><br>There is a mic gain setting, but the problem you describe is usually caused by frequency calibration<br><br>BTW.<br>What is the callsign of the repeater where you get garbled audio?</div></blockquote>It's the N0INX DMR repeater.  I'm listening to a talkgroup right now, reception is 100% there.  However, when I transmit DMR, it sounds like there's packet loss or something.  I'd checked this out using Parrot 9990, and have listened to talkgroup 3119 over Hoseline, and when I transmit on there, I get the same garbled mess I get from the Parrot.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7202">KE0JHN</a> — Wed Nov 06, 2024 2:49 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-11-05T21:05:42</updated>
+
+		<published>2024-11-05T21:05:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33948#p33948</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33948#p33948"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33948#p33948"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>You may check DMR Micro settings in Audio Options, test with -9 dB or -6 dB.</div></blockquote>I looked in the Audio Options, but couldn't find DMR Micro settings.</div></blockquote>There are no "DMR Micro" settings<br><br>There is a mic gain setting, but the problem you describe is usually caused by frequency calibration<br><br>BTW.<br>What is the callsign of the repeater where you get garbled audio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Nov 05, 2024 9:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KE0JHN]]></name></author>
+		<updated>2024-11-05T21:01:16</updated>
+
+		<published>2024-11-05T21:01:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33947#p33947</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33947#p33947"/>
+		<title type="html"><![CDATA[Re: Garbled DMR transmissions]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4561&amp;p=33947#p33947"><![CDATA[
+<blockquote class="uncited"><div>You may check DMR Micro settings in Audio Options, test with -9 dB or -6 dB.</div></blockquote>I looked in the Audio Options, but couldn't find DMR Micro settings.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7202">KE0JHN</a> — Tue Nov 05, 2024 9:01 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

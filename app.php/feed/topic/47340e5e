@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4734" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-05T18:33:32</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4734</id>
+
+		<entry>
+		<author><name><![CDATA[G4WKW]]></name></author>
+		<updated>2025-01-05T18:33:32</updated>
+
+		<published>2025-01-05T18:33:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4734&amp;p=35004#p35004</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4734&amp;p=35004#p35004"/>
+		<title type="html"><![CDATA[Dial-A-Talkgroup with OpenGD77]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4734&amp;p=35004#p35004"><![CDATA[
+I made a PDF to help friends using radios with OpenGD77 firmware use the Dial-a-Talkgroup feature of the South West Cluster repeaters (using FreeDMR) to connect Time Slot 1 (normally on TG9 for local repeater traffic) to any FreeDMR Talkgroup.  <br><br>The South West Cluster repeaters (over 22 of them at the moment) cover the whole south-west of England, UK.   You can learn about them on their website here:<br><br><a href="http://thesouthwestcluster.co.uk/" class="postlink">http://thesouthwestcluster.co.uk/</a><br><br>The standard DMR radio way of using dial-a-TG is described on the FreeDMR website:<br><br><a href="https://www.freedmr.uk/index.php/linking-to-talk-groups-via-tg9/" class="postlink">https://www.freedmr.uk/index.php/linkin ... s-via-tg9/</a><br><br>With OpenGD77 DMR radios (like the MD-UV380, Retrevis RT-3S, Baofeng DM01701) the procedure is slightly different, hence my PDF:<br><br><a href="https://util.g4wkw.net/files/Dial-a-TG_OpenGD77_.pdf" class="postlink">https://util.g4wkw.net/files/Dial-a-TG_OpenGD77_.pdf</a><br><br>I hope this is of help to someone,<br><br>Richard G4WKW<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4005">G4WKW</a> — Sun Jan 05, 2025 6:33 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

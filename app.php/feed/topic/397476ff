@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3974" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-20T23:04:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3974</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-20T23:04:41</updated>
+
+		<published>2024-04-20T23:04:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30950#p30950</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30950#p30950"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30950#p30950"><![CDATA[
+This version has been been superseded <br><br>see <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4003" class="postlink">viewtopic.php?f=12&amp;t=4003</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 20, 2024 11:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-04-12T15:49:08</updated>
+
+		<published>2024-04-12T15:49:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30803#p30803</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30803#p30803"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30803#p30803"><![CDATA[
+I'm using VirtualBox under Linux to run a Windows 10, and I don't have any problem with the CPS.<br>I manually enable/disable the USB connection between the host and the guest.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Apr 12, 2024 3:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[WY7JT]]></name></author>
+		<updated>2024-04-12T15:34:05</updated>
+
+		<published>2024-04-12T15:34:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30802#p30802</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30802#p30802"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30802#p30802"><![CDATA[
+The CPS on my Windows 10 machine didn't exit properly. After installing it and updating the firmware of my GD77 and MD-UV380 (and database) I exited the CPS and loaded my NixOS VM and I started to hear my CPU fan start to run occasionally. Checked the Windows task manager after BTOP in the VM and the CPS was still running and taking up 30% CPU, so I ended the process. Consequently, Win 10 is buggy with hooking the radios up when VMWare is running, so I exit VMWare when using the CPS. Anyone else see the CPS continuing to run after closing it?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=673">WY7JT</a> — Fri Apr 12, 2024 3:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Ik0nwg]]></name></author>
+		<updated>2024-04-12T10:38:40</updated>
+
+		<published>2024-04-12T10:38:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30787#p30787</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30787#p30787"/>
+		<title type="html"><![CDATA[Re: New CPS 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30787#p30787"><![CDATA[
+Thank you<br>Ciao<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=58">Ik0nwg</a> — Fri Apr 12, 2024 10:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-12T05:06:28</updated>
+
+		<published>2024-04-12T05:06:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30774#p30774</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30774#p30774"/>
+		<title type="html"><![CDATA[New CPS 2024 04 12]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3974&amp;p=30774#p30774"><![CDATA[
+A new CPS is now available<br><br>OpenGD77CPSInstaller_R2024.04.12.01.exe<br><br>See<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest" class="postlink">downloads/PC_CPS/Latest</a><br><br>This version has udpdated and bug fixed translations <br><br>Thanks to Daniel F1RMB for his work with this changes<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Apr 12, 2024 5:06 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

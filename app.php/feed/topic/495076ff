@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4950" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-03-12T11:04:29</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4950</id>
+
+		<entry>
+		<author><name><![CDATA[ON3EF]]></name></author>
+		<updated>2025-03-12T11:04:29</updated>
+
+		<published>2025-03-12T11:04:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4950&amp;p=36156#p36156</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4950&amp;p=36156#p36156"/>
+		<title type="html"><![CDATA[Re: that repeater problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4950&amp;p=36156#p36156"><![CDATA[
+Hi again,<br><br>Ok, i consider the answer that the repeater is causing this as the correct answer. Will ask the sysop if there is anything he can change to fix this <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><br><br>73<br>Phil<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8200">ON3EF</a> — Wed Mar 12, 2025 11:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ON3EF]]></name></author>
+		<updated>2025-03-11T09:51:22</updated>
+
+		<published>2025-03-11T09:51:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4950&amp;p=36124#p36124</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4950&amp;p=36124#p36124"/>
+		<title type="html"><![CDATA[that repeater problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4950&amp;p=36124#p36124"><![CDATA[
+Hi all,<br><br>Thanks for this amazing rom.<br><br>On my 1701 i seem to have the same problem like more people report: timeout on a DMR repeater and as usual, no problems on analog repeaters. The repeater works fine with my Anytone.I triple checked CC, TS, freq etc etc. I searched the forum and Google. Is the answer still that this problem is on the side of the repeater? I tried both the last stable and the last beta. tried with a clean codeplug etc etc... in short all that i could find to try and fix it. I guess there will be no solution on the side of OpenGD77?<br><br>73,<br>Phil<br><br>I like this rom so much that i ordered another 1701. Keep up the good work!!! <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8200">ON3EF</a> — Tue Mar 11, 2025 9:51 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

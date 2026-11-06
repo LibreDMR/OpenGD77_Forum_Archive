@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2839" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-08-18T05:30:07</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2839</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-08-18T05:30:07</updated>
+
+		<published>2023-08-18T05:30:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=25395#p25395</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=25395#p25395"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=25395#p25395"><![CDATA[
+New Beta <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=3165&amp;p=25391#p25391" class="postlink">viewtopic.php?f=13&amp;t=3165&amp;p=25391#p25391</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Aug 18, 2023 5:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2023-07-05T00:46:48</updated>
+
+		<published>2023-07-05T00:46:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24223#p24223</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24223#p24223"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24223#p24223"><![CDATA[
+Argh, you are obviously absolutely correct. I read the press the green button to confirm the changes and clearly should have read the next line in the manual as well.<br><br>Thank you for not pointing out the full extent of my lack of reading comprehension <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Wed Jul 05, 2023 12:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-06-26T05:19:16</updated>
+
+		<published>2023-06-26T05:19:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24097#p24097</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24097#p24097"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24097#p24097"><![CDATA[
+Hi,<br><br>   because, as documented, to permanently save any change, you have to press SK2 + Green.<br>Green only is a temporary change, until you switch to another channel, power-cycle, switch to VFO, etc...<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Jun 26, 2023 5:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KB0PCH]]></name></author>
+		<updated>2023-06-26T04:56:19</updated>
+
+		<published>2023-06-26T04:56:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24096#p24096</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24096#p24096"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24096#p24096"><![CDATA[
+Running this beta firmware I think I've encountered a minor bug. Used the VFO --&gt; New Channel function. New channel appears in the "All Channels" zone. Go to channel details, then find the name with the cursor being on the end. Move to the far left and rename the channel and hit the green button. The new channel name appears in the All Channel zone, but if you hit up or down and then return back to the new channel, the name has reverted to the default "New Channel xx" name.<br><br>I have tried this twice and get the same result both times. This is with a GD-77 and the firmware is 20230423083757.<br><br>I'm afraid this is the first version of the firmware I've ever used, so I can't tell if this is a regression or not (sorry).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3765">KB0PCH</a> — Mon Jun 26, 2023 4:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-06-20T10:09:40</updated>
+
+		<published>2023-06-20T10:09:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24035#p24035</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24035#p24035"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=24035#p24035"><![CDATA[
+Killed the radio, no way.<br>Pulling the battery, resetting the settings, and voilà. The firmware <strong class="text-strong">can't kill</strong> any device. Don't spread false information please.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jun 20, 2023 10:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-05-26T00:46:54</updated>
+
+		<published>2023-05-26T00:46:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23667#p23667</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23667#p23667"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23667#p23667"><![CDATA[
+<blockquote class="uncited"><div>My Baofeng DM1801 with the beta update stop working (bricked)and no sign of life.<br>The procedure that worked for me was to remove the battery and then press sk1 and sk2 and then insert the battery back, in this way, the green led turned on and the radio came back to life..<br><br>Lima PT7SK</div></blockquote>Press SK1 while powering-on, the setting "Safe Pwr-On" is enabled. <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#safe-power-on" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... e-power-on</a><br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri May 26, 2023 12:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[pu7olw]]></name></author>
+		<updated>2023-05-26T00:14:49</updated>
+
+		<published>2023-05-26T00:14:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23661#p23661</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23661#p23661"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23661#p23661"><![CDATA[
+My Baofeng DM1801 with the beta update stop working (bricked)and no sign of life.<br>The procedure that worked for me was to remove the battery and then press sk1 and sk2 and then insert the battery back, in this way, the green led turned on and the radio came back to life..<br><br>Lima PT7SK<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1886">pu7olw</a> — Fri May 26, 2023 12:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N9KT]]></name></author>
+		<updated>2023-05-07T19:09:58</updated>
+
+		<published>2023-05-07T19:09:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23264#p23264</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23264#p23264"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23264#p23264"><![CDATA[
+I had the same black screen after flashing two GD77s with the beta firmware, but I think I figured out the issue!<br><br>On both of them flashing the beta firmware seems to have turned "Safe Power On" to ON. Unfortunately, when you turn on the power there is no indication of what is going on since you get a black screen so it looks like it's bricked.<br><br>To fix it all I had to do was hold SK1 while turning the power on and then go to "Options=&gt;General Options=&gt;Safe Pwr-On" and turn it OFF. After that they both worked fine.<br><br>-David, N9KT<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2972">N9KT</a> — Sun May 07, 2023 7:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-05-03T21:31:04</updated>
+
+		<published>2023-05-03T21:31:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23232#p23232</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23232#p23232"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23232#p23232"><![CDATA[
+<blockquote class="uncited"><div>Hi all !!!<br><br><br>All cases showing "bricked", are coming back to live !<br><br>As mentioned on previous messages.... <br>Pull the battery,<br>Wait for at least 2 hours,<br>Place again the battery,<br>Try to load FW again.<br><br>In one case, this process had to be done at least 4 times till it worked.<br>And finally IT DID WORK !!!<br><br>Don't lose faith, it works...</div></blockquote><br>Removing for 2 seconds is enough<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed May 03, 2023 9:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA3FA]]></name></author>
+		<updated>2023-05-03T16:19:14</updated>
+
+		<published>2023-05-03T16:19:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23230#p23230</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23230#p23230"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23230#p23230"><![CDATA[
+Hi all !!!<br><br><br>All cases showing "bricked", are coming back to live !<br><br>As mentioned on previous messages.... <br>Pull the battery,<br>Wait for at least 2 hours,<br>Place again the battery,<br>Try to load FW again.<br><br>In one case, this process had to be done at least 4 times till it worked.<br>And finally IT DID WORK !!!<br><br>Don't lose faith, it works...<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=101">EA3FA</a> — Wed May 03, 2023 4:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-04-30T02:17:36</updated>
+
+		<published>2023-04-30T02:17:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23185#p23185</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23185#p23185"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23185#p23185"><![CDATA[
+Hence it's not the latest one, despite it was mentioned many times that you need to use the latest version (2023.04.18.01) to be able to successfully flash the latest firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Apr 30, 2023 2:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE4SMS]]></name></author>
+		<updated>2023-04-30T02:11:10</updated>
+
+		<published>2023-04-30T02:11:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23184#p23184</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23184#p23184"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23184#p23184"><![CDATA[
+my CPS is version R2023.01.24.01<br><br>Sigi <br>OE4SMS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3835">OE4SMS</a> — Sun Apr 30, 2023 2:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-04-29T21:28:49</updated>
+
+		<published>2023-04-29T21:28:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23182#p23182</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23182#p23182"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23182#p23182"><![CDATA[
+<blockquote class="uncited"><div>done: call up the CPS, connect the programming cable, remove the AKKU from the GD77, then switch it on with the black and blue button, then put the battery in and the LED is green, then the previous firmware is installed and the device works again<br><br>73 de Sigi<br>OE4SMS</div></blockquote>Did you update the CPS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 29, 2023 9:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU4BLA]]></name></author>
+		<updated>2023-04-29T21:00:18</updated>
+
+		<published>2023-04-29T21:00:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23181#p23181</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23181#p23181"/>
+		<title type="html"><![CDATA[Re: Nova versão Beta 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23181#p23181"><![CDATA[
+Sou muito grato aos desenvolvedores e à equipe de suporte do Opengd77 por esta maravilhosa ferramenta para rádio amador mundial. 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1856">PU4BLA</a> — Sat Apr 29, 2023 9:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OE4SMS]]></name></author>
+		<updated>2023-04-29T12:42:56</updated>
+
+		<published>2023-04-29T12:42:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23180#p23180</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23180#p23180"/>
+		<title type="html"><![CDATA[Re: New Beta version 2023 04 23]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2839&amp;p=23180#p23180"><![CDATA[
+done: call up the CPS, connect the programming cable, remove the AKKU from the GD77, then switch it on with the black and blue button, then put the battery in and the LED is green, then the previous firmware is installed and the device works again<br><br>73 de Sigi<br>OE4SMS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3835">OE4SMS</a> — Sat Apr 29, 2023 12:42 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

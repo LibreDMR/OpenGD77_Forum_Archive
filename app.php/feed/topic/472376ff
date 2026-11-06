@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4723" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-31T16:06:07</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4723</id>
+
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-31T16:06:07</updated>
+
+		<published>2024-12-31T16:06:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34975#p34975</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34975#p34975"/>
+		<title type="html"><![CDATA[Re: Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34975#p34975"><![CDATA[
+Thanks,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Dec 31, 2024 4:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-31T15:57:33</updated>
+
+		<published>2024-12-31T15:57:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34973#p34973</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34973#p34973"/>
+		<title type="html"><![CDATA[Re: Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34973#p34973"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>And to complete the information, the firmware is working using a copy of the original calibration (located at a specific location of the flash memory chip).<br>It never touch it (there is no even any code in the firmware to write at this specific location).<br><br>But it's always better to have a copy somewhere (eg: in case your flash chip dies, and you replace it).<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Hi Daniel, OFF topic question.<br><br>If a user accidentally flashes a wrong firmware, flashing openMDUV380.zip into a DM-1701 or openGD77.zip into a MDUV380, etc. Is there a possibility of messing up the original calibrations data?<br><br>Charlie,</div></blockquote>No, the firmware takes place in the MCU flash, not the external flash.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 31, 2024 3:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-31T15:28:23</updated>
+
+		<published>2024-12-31T15:28:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34972#p34972</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34972#p34972"/>
+		<title type="html"><![CDATA[Re: Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34972#p34972"><![CDATA[
+<blockquote class="uncited"><div>And to complete the information, the firmware is working using a copy of the original calibration (located at a specific location of the flash memory chip).<br>It never touch it (there is no even any code in the firmware to write at this specific location).<br><br>But it's always better to have a copy somewhere (eg: in case your flash chip dies, and you replace it).<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Hi Daniel, OFF topic question.<br><br>If a user accidentally flashes a wrong firmware, flashing openMDUV380.zip into a DM-1701 or openGD77.zip into a MDUV380, etc. Is there a possibility of messing up the original calibrations data?<br><br>Charlie,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Dec 31, 2024 3:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-12-31T14:37:36</updated>
+
+		<published>2024-12-31T14:37:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34970#p34970</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34970#p34970"/>
+		<title type="html"><![CDATA[Re: Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34970#p34970"><![CDATA[
+And to complete the information, the firmware is working using a copy of the original calibration (located at a specific location of the flash memory chip).<br>It never touch it (there is no even any code in the firmware to write at this specific location).<br><br>But it's always better to have a copy somewhere (eg: in case your flash chip dies, and you replace it).<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Dec 31, 2024 2:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-12-31T14:32:40</updated>
+
+		<published>2024-12-31T14:32:40</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34969#p34969</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34969#p34969"/>
+		<title type="html"><![CDATA[Re: Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34969#p34969"><![CDATA[
+<blockquote class="uncited"><div>I may have missed something, but when installing the firmware how do I retain any calibrations?<br><br>Thanks.<br><br>KO6CJM</div></blockquote>OpenGD77 firmware does not touch the radio calibrations. So, you don't have to do anything to retain it. However, if you want to backup it you can use OpenGD77 CPS to backup the calibrations.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Dec 31, 2024 2:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KO6CJM]]></name></author>
+		<updated>2024-12-31T14:21:50</updated>
+
+		<published>2024-12-31T14:21:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34967#p34967</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34967#p34967"/>
+		<title type="html"><![CDATA[Calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4723&amp;p=34967#p34967"><![CDATA[
+I may have missed something, but when installing the firmware how do I retain any calibrations?<br><br>Thanks.<br><br>KO6CJM<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7583">KO6CJM</a> — Tue Dec 31, 2024 2:21 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4510" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-10-24T12:01:03</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4510</id>
+
+		<entry>
+		<author><name><![CDATA[BD4SMY]]></name></author>
+		<updated>2024-10-24T12:01:03</updated>
+
+		<published>2024-10-24T12:01:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33673#p33673</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33673#p33673"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33673#p33673"><![CDATA[
+<blockquote class="uncited"><div><br>Additionally in this version, if the user changes the region number the CPS will remember the number they entered<br><br>And also, the region can now be a list of numbers separated by commas.  So for example, Italian operators should use <br><br>222,223,224<br><br>as the region, and this will filter for all Italian DMR IDs<br></div></blockquote>Thanks for this update which I need!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5469">BD4SMY</a> — Thu Oct 24, 2024 12:01 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-10-22T22:31:15</updated>
+
+		<published>2024-10-22T22:31:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33641#p33641</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33641#p33641"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33641#p33641"><![CDATA[
+I’m not a portable installer, but I can’t help myself to thank you. Thank you, Roger.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Tue Oct 22, 2024 10:31 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T21:30:48</updated>
+
+		<published>2024-10-22T21:30:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33636#p33636</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33636#p33636"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33636#p33636"><![CDATA[
+<blockquote class="uncited"><div>Hi, I am having problem to download the callsign database with the lasts versions of CPS on  Windows11. If I start the callsign download I get a error message, everithigh else seem to worck properly. The last working version of CPS is R2024.09.13.02.<br>Is there anything that I can do to fix this problem?<br><br>Nat</div></blockquote>Try<br><br><a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4512" class="postlink">viewtopic.php?f=12&amp;t=4512</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 9:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T21:07:50</updated>
+
+		<published>2024-10-22T21:07:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33634#p33634</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33634#p33634"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33634#p33634"><![CDATA[
+Update.<br><br>I'm working on a fix for the "portable" installation.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 9:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T19:17:27</updated>
+
+		<published>2024-10-22T19:17:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33633#p33633</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33633#p33633"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33633#p33633"><![CDATA[
+<blockquote class="uncited"><div>Hi, I am having problem to download the callsign database with the lasts versions of CPS on  Windows11. If I start the callsign download I get a error message, everithigh else seem to worck properly. The last working version of CPS is R2024.09.13.02.<br>Is there anything that I can do to fix this problem?<br><br>Nat</div></blockquote>The problem is that Portable installation is currently not working.<br><br>Try installing the CPS fully<br><br><br>Note.<br>The change associated with Portable installation happened some time ago, but I forgot to disable this installation type in the installer<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 7:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-10-22T14:13:51</updated>
+
+		<published>2024-10-22T14:13:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33632#p33632</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33632#p33632"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33632#p33632"><![CDATA[
+<blockquote class="uncited"><div>Hi, I am having problem to download the callsign database with the lasts versions of CPS on  Windows11. If I start the callsign download I get a error message, everithigh else seem to worck properly. The last working version of CPS is R2024.09.13.02.<br>Is there anything that I can do to fix this problem?<br><br>Nat</div></blockquote>I'm running Windows 11 Pro 23H2 and my installation seems to work.<br>I tried changing my "Administrative  language settings" from "English (Sweden)2 to "English (United States)" as the different decimal signs etc. could<br>give problems but I could not trigger any error screen.<br><br>The post processing of the radioid.net download seems much faster now compared to older releases.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Tue Oct 22, 2024 2:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Nat]]></name></author>
+		<updated>2024-10-22T13:17:48</updated>
+
+		<published>2024-10-22T13:17:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33631#p33631</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33631#p33631"/>
+		<title type="html"><![CDATA[Re: New OpenGD77 CPS 2024 10 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33631#p33631"><![CDATA[
+Hi, I am having problem to download the callsign database with the lasts versions of CPS on  Windows11. If I start the callsign download I get a error message, everithigh else seem to worck properly. The last working version of CPS is R2024.09.13.02.<br>Is there anything that I can do to fix this problem?<br><br>Nat<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2702&amp;sid=df7b955e7244db2a0dbfdb0c2d1f6161" class="postimage" alt="Error.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1296">Nat</a> — Tue Oct 22, 2024 1:17 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-22T01:07:05</updated>
+
+		<published>2024-10-22T01:07:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33624#p33624</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33624#p33624"/>
+		<title type="html"><![CDATA[New OpenGD77 CPS 2024 10 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4510&amp;p=33624#p33624"><![CDATA[
+A new version of the OpenGD77 CPS is now available<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/OpenGD77CPSInstaller_R2024.10.22.01.exe" class="postlink">downloads/PC_CPS/Latest/OpenGD77CPSInst ... .22.01.exe</a><br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest" class="postlink">downloads/PC_CPS/Latest</a><br><br>This version fixes a problem on the DMR ID download screen where the region number may not be the region of the user because the CPS uses the users own DMR ID as the basis for the region ID and this only worked for user DMR IDs which were 6 or more digits long.  i.e People who registered their DMR ID many years ago and who had lower numbers would have seen this bug.<br><br>The CPS now defaults to using the first three digits of the users own DMR ID, and this works even there are less than 6 digits in that number.<br><br>Obviously if the users own DMR ID is not entered correctly, the region will be incorrect and the CPS will set this value to being empty, which will cause the entire DMR ID database to be used , i.e unfiltered<br><br><br>Additionally in this version, if the user changes the region number the CPS will remember the number they entered<br><br>And also, the region can now be a list of numbers separated by commas.  So for example, Italian operators should use <br><br>222,223,224<br><br>as the region, and this will filter for all Italian DMR IDs<br><br><br>Also, as part of these changes, the time taken by the CPS to process and filter the DMIR ID's after the database has been downloaded, has also been reduced.<br><br><br>Note.<br>The list of regions does not work with the HamDigital download option, because HamDigital doesn't support filtering by more than one region at a time.<br><br>Possibly the CPS could be changed so that it doesn't send the region ID to HamDigital and does the filtering inside the CPS, like the other datasets, but I've not invesigated whether this would be practical<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Oct 22, 2024 1:07 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

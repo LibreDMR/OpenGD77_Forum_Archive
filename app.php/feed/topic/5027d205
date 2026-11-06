@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5027" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-01T23:13:49</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5027</id>
+
+		<entry>
+		<author><name><![CDATA[n1evh]]></name></author>
+		<updated>2025-04-01T23:13:49</updated>
+
+		<published>2025-04-01T23:13:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36567#p36567</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36567#p36567"/>
+		<title type="html"><![CDATA[Re: Satellite pass times off by 1 hour...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36567#p36567"><![CDATA[
+I found the problem with both my TYT with Opengd77 and my AnyTone HT. I<br>had to go into the menus and change the Timezone offset from -5:00hrs to<br>-4:00hrs. When I did that... I had to change the radio's time again by 1<br>hour (wouldn't of had to do this id I didn't originally change the time by<br>1 hour)... and the satellite pass times were correct.<br><br>Now... I'll have to remember this in November when we set our clocks back<br>1 hour. I sure wish they would put an end to this stupid changing the clocks<br>1 hour twice a year.<br><br>Mike - N1EVH<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6514">n1evh</a> — Tue Apr 01, 2025 11:13 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-01T20:26:20</updated>
+
+		<published>2025-04-01T20:26:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36563#p36563</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36563#p36563"/>
+		<title type="html"><![CDATA[Re: Satellite pass times off by 1 hour...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36563#p36563"><![CDATA[
+The firmware does not adjust for daylight saving time.<br><br>You need to adjust the local time offset yourself, when entering or exiting DST, or always use UTC<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 01, 2025 8:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[n1evh]]></name></author>
+		<updated>2025-04-01T19:48:54</updated>
+
+		<published>2025-04-01T19:48:54</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36562#p36562</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36562#p36562"/>
+		<title type="html"><![CDATA[Satellite pass times off by 1 hour...]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5027&amp;p=36562#p36562"><![CDATA[
+Since Feb.... I've spent some time in and out of the hospital. This is the first time <br>since  the change to Daylight Savings Time in the USA that I've played around with<br>my TYT MD-380UV radio. <br><br>I went into the radio and changed the clock by 1 hour. I ran the Opengd77 CPS<br>and updated the satellite info. Now... when I go to the "Satellite" menu and it<br>predicts the satellites... but it seems like all of the predicted passes are off by<br>1 hour compared to the Gpredict <br><br>The radio is saying the next ISS pass starts at 15:37 (3:37pm)... by my Gpredict<br>says the next pass is at 16:37 (4:37pm). The radio is saying that the next PO-101<br>pass starts at 16:11 (4:11pnm)... but my Gpredict says the next pass is at 17:11<br>(5.11pm). I know my Gpredict is right as I heard an ISS pass on another radio<br>when Gpredict indicated it was in range.<br><br>When I first got this radio and put the OpenGD77 software into it... the radio and my<br>Gpredict software showed the satellite passes taking place at the same time. Like I<br>said... this is my first time playing around with the radio since we set the clocks<br>ahead 1 hour here in the USA.<br><br>Any suggestion as to what to look at so the radio displays the correct satellite pass<br>times???<br><br>I also seem to be having the same problem with my AnyTone HT (they recently<br>added satellite tracking to that radio in a recent firmware update). Need to<br>figure out why that radio is also off by one hour<br><br>Thanks,<br><br>Mike - N1EVH<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6514">n1evh</a> — Tue Apr 01, 2025 7:48 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3323" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-17T05:48:38</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3323</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-17T05:48:38</updated>
+
+		<published>2024-12-17T05:48:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34729#p34729</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34729#p34729"/>
+		<title type="html"><![CDATA[Re: Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34729#p34729"><![CDATA[
+<blockquote class="uncited"><div>might be silly question can install the this code plug into the original  firmware ?</div></blockquote>No. <br><br>The OpenGD77 codeplug format is based on the Radioddity GD-77 codeplug format, and is still probably compatibile with the official Radioddity GD-77 CPS and firmware.<br><br>All other supported radios use completely different codeplug formats when running their official firmware.<br><br>The offical CPS sometimes have CSV export and import for Channels and other sections, but these also vary from radio to radio, and the OpenGD77 CSV export functionality is unlikely to be directly compatible with the official CPS CSV.<br>However, you could probably manually cut and paste the columns from the OpenGD77 CPS Channels.csv into the CSV for another radio and eventually transfer all the channel names and frequencies, if you have a lot of time on your hands<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Dec 17, 2024 5:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2ALB]]></name></author>
+		<updated>2024-12-17T03:48:51</updated>
+
+		<published>2024-12-17T03:48:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34728#p34728</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34728#p34728"/>
+		<title type="html"><![CDATA[Re: Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34728#p34728"><![CDATA[
+might be silly question can install the this code plug into the original  firmware ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7247">VK2ALB</a> — Tue Dec 17, 2024 3:48 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-12-01T06:43:13</updated>
+
+		<published>2024-12-01T06:43:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34284#p34284</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34284#p34284"/>
+		<title type="html"><![CDATA[Re: Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34284#p34284"><![CDATA[
+<blockquote class="uncited"><div>i agree nice work <br>i tried the code plug it works great<br>i tried the uhf cb part it says out of band <br>is there a setting or could be the radio ?</div></blockquote>Yes. In Options - Radio options.  As detailed in the User Guide<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Dec 01, 2024 6:43 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2ALB]]></name></author>
+		<updated>2024-11-30T23:14:26</updated>
+
+		<published>2024-11-30T23:14:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34282#p34282</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34282#p34282"/>
+		<title type="html"><![CDATA[Re: Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=34282#p34282"><![CDATA[
+i agree nice work <br>i tried the code plug it works great<br>i tried the uhf cb part it says out of band <br>is there a setting or could be the radio ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7247">VK2ALB</a> — Sat Nov 30, 2024 11:14 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-04-15T13:34:29</updated>
+
+		<published>2024-04-15T13:34:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=30880#p30880</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=30880#p30880"/>
+		<title type="html"><![CDATA[Re: Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=30880#p30880"><![CDATA[
+<blockquote class="uncited"><div>I’m looking to get one of these as my first foray into DMR, is this codeplug for the radio with the stock firmware, or does it need OpenGD77 installed first?<br><br>Thanks in advance!</div></blockquote>You need to install OpenGD77 first on the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Mon Apr 15, 2024 1:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2KL]]></name></author>
+		<updated>2024-04-15T11:35:21</updated>
+
+		<published>2024-04-15T11:35:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=30873#p30873</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=30873#p30873"/>
+		<title type="html"><![CDATA[Re: Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=30873#p30873"><![CDATA[
+I’m looking to get one of these as my first foray into DMR, is this codeplug for the radio with the stock firmware, or does it need OpenGD77 installed first?<br><br>Thanks in advance!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6023">VK2KL</a> — Mon Apr 15, 2024 11:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[vk2kvp]]></name></author>
+		<updated>2023-12-27T07:42:33</updated>
+
+		<published>2023-12-27T07:42:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=28277#p28277</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=28277#p28277"/>
+		<title type="html"><![CDATA[Re: Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=28277#p28277"><![CDATA[
+Brilliant work.  I have been doing something similar, but only 60% complete.I will now take advantage of your effort. Greatly appreciated.<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2058&amp;sid=3f7c5e3460169a837b36138bd1ee254b">All_AU_v63.g77</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=299">vk2kvp</a> — Wed Dec 27, 2023 7:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK4MWL]]></name></author>
+		<updated>2023-09-24T09:30:32</updated>
+
+		<published>2023-09-24T09:30:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=26514#p26514</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=26514#p26514"/>
+		<title type="html"><![CDATA[Re: Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=26514#p26514"><![CDATA[
+Great Work VK2GL. That's a lot of work.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=837">VK4MWL</a> — Sun Sep 24, 2023 9:30 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2GL]]></name></author>
+		<updated>2023-09-24T09:01:12</updated>
+
+		<published>2023-09-24T09:01:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3323&amp;p=26513#p26513</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=26513#p26513"/>
+		<title type="html"><![CDATA[Codeplug for the RT3S/MD-UV380 for Australia]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3323&amp;p=26513#p26513"><![CDATA[
+A full codeplug for the Retevis RT3S and MD-UV380 for Australia. Contains all VK DMR and Brandmeister repeaters, all VK FM repeaters, 3 Hotspot channels (SImplex, Duplex and Brandmeister), UHF CB and VHF Marine. It also include all VKDMR compatible talk groups and a range of useful intenational Brandmeister talk groups. Repeaters and Hotspots are sorted into Zones which includes a 'Local Rptrs' zone where you can add your local repeater channels for easy access.<br><br>The codeplug has been created from scratch with all repeaters confirmed from the VKDMR &amp; Brandmeister dashboards and latest Repeater Book database. All repeaters are geocoded with their location allowing the radio to display its distance to the selected repeater (set 'Menu', 'Options', 'Display Options', 'Show Dist:' to 'On').<br><br><a href="https://vk2idl.com/wp-content/uploads/2023/09/OpenGD77_RT3S_Generic_24_Sept_2023.zip" class="postlink">https://vk2idl.com/wp-content/uploads/2 ... t_2023.zip</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4493">VK2GL</a> — Sun Sep 24, 2023 9:01 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

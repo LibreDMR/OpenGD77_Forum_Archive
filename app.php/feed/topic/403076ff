@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4030" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-05-14T08:35:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4030</id>
+
+		<entry>
+		<author><name><![CDATA[DL4LEX]]></name></author>
+		<updated>2024-05-14T08:35:44</updated>
+
+		<published>2024-05-14T08:35:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31280#p31280</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31280#p31280"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31280#p31280"><![CDATA[
+<blockquote class="uncited"><div>Hi!<br>I am operating the DO0KB repeater with the MD9600 and OpenGD77. I would be <strong class="text-strong">very</strong> interested in text/data support and would like to test it. Could one of you provide me with a modified firmware?</div></blockquote>Drop me an email (look at qrz.com)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=109">DL4LEX</a> — Tue May 14, 2024 8:35 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO3BOX]]></name></author>
+		<updated>2024-05-13T19:30:32</updated>
+
+		<published>2024-05-13T19:30:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31273#p31273</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31273#p31273"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31273#p31273"><![CDATA[
+Hi!<br>I am operating the DO0KB repeater with the MD9600 and OpenGD77. I would be <strong class="text-strong">very</strong> interested in text/data support and would like to test it. Could one of you provide me with a modified firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1000">DO3BOX</a> — Mon May 13, 2024 7:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KY4YI]]></name></author>
+		<updated>2024-05-07T16:25:21</updated>
+
+		<published>2024-05-07T16:25:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31189#p31189</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31189#p31189"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31189#p31189"><![CDATA[
+Hmm, must be the work of cut&amp;paste gremlins.<br><br>Thanks, I cleaned up my post with code tags.<br><br>If you are compiling you'll need this:<br><br>[uiHotspot.c]<div class="codebox"><p>CODE: </p><pre><code>static uint8_t textMsg[32] = {0} ;void uiUpdateText(uint8_t * msg) {memcpy(textMsg,msg,32);}</code></pre></div><br>//search for "Hotspot" in uiHotspotUpdateScreen.c and replace this.<br>displayPrintCentered(0, textMsg, FONT_SIZE_3);<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6127">KY4YI</a> — Tue May 07, 2024 4:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-05-07T13:59:34</updated>
+
+		<published>2024-05-07T13:59:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31187#p31187</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31187#p31187"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31187#p31187"><![CDATA[
+Hi,<br><br>   Just a comment:<br><div class="codebox"><p>CODE: </p><pre><code>for(int i=0;i&lt;len;i++) {  textMsg = ipData[38+i*2];}</code></pre></div>is wrong (and won't compile).<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue May 07, 2024 1:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KY4YI]]></name></author>
+		<updated>2024-05-07T17:35:48 </updated>
+
+		<published>2024-05-07T13:43:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31186#p31186</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31186#p31186"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31186#p31186"><![CDATA[
+Here is a very quick and very dirty implementation to receive and display a Moto format unconfirmed Text message.  There is no checking in this example for crc, dmr id, service pots, etc.  But it works and does display the last text message where the word "Hotspot" would normally be displayed.  Oddly it is in hotspot.c since that where the data packets are flowing.  I will write a specification for Moto and 'DMR Standard' unconfirmed text packet formats, since I don't believe this has been done and it should shed light on how to send and receive.  Sending is a bit harder to demonstrate, since you can't ignore id's and check sums on the way out, but I will include this in the specification.<br><br><br><br>[hotspot.c]<div class="codebox"><p>CODE: </p><pre><code>//storage for 10 halfRate PDUsstatic uint8_t ipData[120] ;static uint8_t expCnt = 0 ;static uint8_t fragCnt = 0 ;static uint8_t textMsg[32] = {0} ;//alt handler for all datavoid hotspotRxDataFrameHandler(uint8_t* frameBuf, int d_type) // It's called by and ISR in HRC-6000 code.{uint8_t frameData[DMR_FRAME_LENGTH_BYTES + MMDVM_HEADER_LENGTH + 2] = {MMDVM_FRAME_START, (DMR_FRAME_LENGTH_BYTES + MMDVM_HEADER_LENGTH + 2), MMDVM_DMR_DATA2, DMR_SYNC_DATA | d_type};BPTCglobalsInit();BPTCencode(frameBuf, &amp;frameData[4] );enqueueUSBData( frameData,DMR_FRAME_LENGTH_BYTES + MMDVM_HEADER_LENGTH + 2) ;//logic to assemble IP fragments with no checking for service type text, dmr id, data type, or anything//basically assume the only data is moto textif(d_type==0x06 ) {//process data headerexpCnt = frameBuf[8]&amp;0x7F;if(expCnt&gt;10) expCnt=0; //abort,too longfragCnt=0;} else if (d_type==0x07 &amp;&amp; expCnt&gt;0) {//process halfrate datamemcpy(&amp;ipData[fragCnt*LC_DATA_LENGTH],frameBuf, LC_DATA_LENGTH);if(++fragCnt&gt;=expCnt) {//process the whole messageexpCnt=0;int len = (ipData[25]-18)/2 ; //double byte text lengthif( len&lt;32) {//sanity checkfor(int i=0;i&lt;len;i++) {textMsg[i] = ipData[38+i*2];}textMsg[len]=0;uiUpdateText(textMsg); //added to save the last text messageuiHotspotUpdateScreen(HOTSPOT_RX_IDLE);}}}} </code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6127">KY4YI</a> — Tue May 07, 2024 1:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-05-05T20:37:28</updated>
+
+		<published>2024-05-05T20:37:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31148#p31148</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31148#p31148"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31148#p31148"><![CDATA[
+Hotspot handling SMS would be a useful addition, but depending on how much extra code is needed, it may not fit in the MK22 MCU like the GD77 because of very limited remaining program ROM space. The STM32 based radios have more program ROM, and we didn't bump into any space problems yet.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun May 05, 2024 8:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL4LEX]]></name></author>
+		<updated>2024-05-05T13:15:04</updated>
+
+		<published>2024-05-05T13:15:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31139#p31139</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31139#p31139"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31139#p31139"><![CDATA[
+You can use the BPTC code for DataHeader and DataRate 1/2 frames. DataRate 1/1 frames do not use any coding and DataRate 3/4 frames use trellis encoding. <br>If it works with your 6x2 it means that the radio is using DataRate 1/2 frames.<br>The functionality of your hrc6000SendData() should be handled inside the timeslot interrupt function. <br><br>Send me an e-mail (look at qrz.com). May be we can fix this together.<br><br>A complete different thing is messaging within OpenGD77 it self. This would require a lot more work. CRC calculation, response header, re-transmission, ...<br>I'm sure, the HRC6000 can handle it but we do not have enough documentation. So no way to find out.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=109">DL4LEX</a> — Sun May 05, 2024 1:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KY4YI]]></name></author>
+		<updated>2024-05-05T12:06:12</updated>
+
+		<published>2024-05-05T12:06:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31138#p31138</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31138#p31138"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31138#p31138"><![CDATA[
+Thank you for taking the time to respond.   I am sorry if my intentions were not clear.<br><br>My goal is to be able to use the opengd77 in MMDVM modem mode and allow data to pass through.  Presently only AMBE and voice header packets are passed.  The main reason for this is to allow text and data, such as GPS, to pass from the HT radio, through the hotspot and to the back-end services.  This currently works with MMDVM ADF7021 modems and services like Brandmeister and TGIF can successfully pass text messages.  Since the best approach for a modem is to touch the data as little as possible, there should be no concerns about data formats or patients.  In the examples above I have done as little as possible to show that data can work, so further effort to add some filtering logic to ensure data and the voice are working is needed.<br><br>I have not seen any trouble using the existing BPTCencode/BPTCdecode functions to translate between the DMR PDU format and the interleaved 4FSK bitstreams. I don't want to cloud the modem topic with other topics, such as supporting text or GPS, in the opengd77 application, but I think you may find a good functioning voice+data modem will be a productivity booster and stepping stone in researching and developing algorithms and functions for handling data formats outside of the embedded device. These could be later integrated into the application after they are fully tested. <br><br>If you are interested in adding this functionality into the modem, I am willing to do the leg work.  You have my email in the site registration.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6127">KY4YI</a> — Sun May 05, 2024 12:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-05-04T22:28:42</updated>
+
+		<published>2024-05-04T22:28:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31134#p31134</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31134#p31134"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31134#p31134"><![CDATA[
+You should contact Alex DL4LEX as he was the last person to attempt Text / SMS, but he concluded that it was too impractical to support.<br><br> I can't remember why.. <br><br>Possibly something to do with the multiple data standards and problems with patented encoding algorithms etc<br><br><br>BTW.<br>I'm not entirely sure what you are trying to achieve, possibly handle Text/SMS in Hotspot mode.<br>Be aware the data that needs to be sent to and from MMDVMHost is raw stream data, i.e the raw 4FSK bitstream. But the C6000 decodes this to a higher level in the DMR protocol stack, and as far as we are aware there is no way to access way 4FSK from the C6000<br>So not only do you need to decode the high level data bytes, but you need to re-encode back to the low level 4FSK bitstream.<br>That's why the Hotspot source code is so complex even just for voice.<br>It's possible that the existing functions in the Hotspot codebase may be able to re-encode Text data, but I have no idea whether the functions could be reused<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat May 04, 2024 10:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KY4YI]]></name></author>
+		<updated>2024-05-04T21:28:25</updated>
+
+		<published>2024-05-04T21:28:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31133#p31133</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31133#p31133"/>
+		<title type="html"><![CDATA[Re: Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31133#p31133"><![CDATA[
+Got rx working now also.  Again very rough did not check for coexist with Voice.  So with this change I was able to send a text from my stock BF 6x2 and receive and decode the text message from the BF 1701 opengd77 modem.<br><br><br>[hotspot.c] - add alt handler for data only<br>//alt handler for all data<br>void hotspotRxDataFrameHandler(uint8_t* frameBuf, int d_type) // It's called by and ISR in HRC-6000 code.<br>{<br>uint8_t frameData[DMR_FRAME_LENGTH_BYTES + MMDVM_HEADER_LENGTH + 2] = {MMDVM_FRAME_START, (DMR_FRAME_LENGTH_BYTES + MMDVM_HEADER_LENGTH + 2), MMDVM_DMR_DATA2, DMR_SYNC_DATA | d_type};<br><br>BPTCglobalsInit();<br>BPTCencode(frameBuf, &amp;frameData[4] );<br><br>enqueueUSBData( frameData,DMR_FRAME_LENGTH_BYTES + MMDVM_HEADER_LENGTH + 2) ;<br>}<br><br><br><br>[HR-C6000.c] - call data handler for all packets, added type var to function<br>static void hrc6000HandleLCData(int rxDataType)<br>{<br>uint8_t LCBuf[LC_DATA_LENGTH];<br>bool lcResult = (SPI0ReadPageRegByteArray(0x02, 0x00, LCBuf, LC_DATA_LENGTH) == kStatus_Success); // read the LC from the C6000<br><br>//notify for all data packets<br>if(settingsUsbMode == USB_MODE_HOTSPOT) {<br>//notify all data packets<br>hotspotRxDataFrameHandler(LCBuf, rxDataType);<br>}<br><br><br><br>//add typecheck and passed data type in call<br>if( rxSyncClass != SYNC_CLASS_VOICE) hrc6000HandleLCData(rxDataType);<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6127">KY4YI</a> — Sat May 04, 2024 9:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KY4YI]]></name></author>
+		<updated>2024-05-04T13:59:04</updated>
+
+		<published>2024-05-04T13:59:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31124#p31124</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31124#p31124"/>
+		<title type="html"><![CDATA[Enhancing MMDVM mode with Text/Data]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4030&amp;p=31124#p31124"><![CDATA[
+This is my first check in with the dev forum.  My appreciation and respect goes to the team for construction of an impressive eco-system.  I am a cranky old sw dev who cut his teeth in the 80's on the Zilog Z80.  Recently I have had a weird interest in DMR text/data modes.  I have had much fun with the MMDVM modems, but came to the same realizations as everyone else that not only is the output weak (which could have been forgiven), but the device is also hearing impaired.  Whispers and rumors on the internet led me to try the opengd77 in modem mode.  I was immediately impressed with the ability of a bf 1701 in modem mode to capture and log voice packets from a repeater about 10 miles away.  Then I quickly realized with some testing and rtfm that text/data was not an option.  Nooooooooooooooo!!!!<br><br>After drying the mist from my eyes, and rolling up my sleeves, I decided to get out the battering ram and tackle the problem.  I have read the posts on dmr data and have seen that all previous attempts had failed. (My thought was delicious! a problem with high protein content.)  My results have been encouraging so far.  On rx I have been able to dump 1/3 of the DMR packet types in a text message, and on tx I was able to successfully send a DMR text to my stock BF 6x2.<br><br>I brought some code fragments along that have worked in sending text messages.  It is rough at the moment, since I noted a trailer of AMBE packets at the end of my text message, but I am sure that can be cleaned up.<br><br><br>[HR-C6000.c] I added this method to the hardware layer<br>void hrc6000SendData(uint8_t * spi_tx, uint8_t d_type)<br>{<br>SPI0WritePageRegByteArray(0x02, 0x00, spi_tx, LC_DATA_LENGTH);<br><br>SPI0WritePageRegByte(0x04, 0x41, 0x80);                      // Transmit during next Timeslot<br>SPI0WritePageRegByte(0x04, 0x50, d_type);    // Set Data Type to 0001 (Voice LC Header), Data, LCSS=00<br>}<br><br><br>[hotspot.c] - rewrite of this method to pass whatever the modem receives from the host - have not tested with voice/ambe<br>static uint8_t hotspotModeReceiveNetFrame(const uint8_t *comBuffer, uint8_t timeSlot)<br>{<br>DMRLC_t lc;<br><br>if ( hotspotState != HOTSPOT_STATE_TRANSMITTING) {<br>hotspotState = HOTSPOT_STATE_TRANSMITTING;<br>trxEnableTransmission();<br>uiHotspotUpdateScreen(HOTSPOT_RX_IDLE);<br>}<br><br>BPTCglobalsInit();<br>uint8_t spi_tx[LC_DATA_LENGTH];<br>BPTCdecode((uint8_t *)comBuffer + MMDVM_HEADER_LENGTH, spi_tx);<br><br>uint8_t d_type = comBuffer[3] &lt;&lt; 4  ;<br>hrc6000SendData(spi_tx, d_type);<br><br>return 0;<br>}<br><br><br>I am sure there is some crudeness with this, but it did reliably send a stream of sequential text messages to my 6x2, which was very satisfying.  I intend on attacking the rx side again and see if I can receive and decode a full text message.  I have a working setup with MMDVM for sendi and receive for unconfirmed text messages formatted for Moto and what anytone calls 'DMR Standard'.  I don't have a Hytera radio or a strong desire to support that mode.<br><br>In summary, I wanted to check in with the hive and gauge the interest in adding text/data to the modem mode, and receive any tips on how to refine the approach and better integrate into the project.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6127">KY4YI</a> — Sat May 04, 2024 1:59 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

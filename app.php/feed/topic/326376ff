@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3263" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-09-09T00:20:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3263</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-08T23:12:30</updated>
+
+		<published>2023-09-08T23:12:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26101#p26101</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26101#p26101"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26101#p26101"><![CDATA[
+<blockquote class="uncited"><div>Thanks Colin, it is indeed V5 hardware - or at least supported by the V5 firmware, which is loaded and working just fine<br><br>Colin<br>ZL2FL</div></blockquote>Thanks for letting is know that the firmware still works with this particular hardware variant<br><br>It does still seem strange that TYT has removed the model number e.gTYT MD9600-UV Vxxx completely from the PCB.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 08, 2023 11:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-08T23:06:44</updated>
+
+		<published>2023-09-08T23:06:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26099#p26099</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26099#p26099"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26099#p26099"><![CDATA[
+Thanks Colin, it is indeed V5 hardware - or at least supported by the V5 firmware, which is loaded and working just fine<br><br>Colin<br>ZL2FL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Fri Sep 08, 2023 11:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-09-08T09:44:10</updated>
+
+		<published>2023-09-08T09:44:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26076#p26076</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26076#p26076"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26076#p26076"><![CDATA[
+I agree with the previous posts. <br>It looks like it is a 2023 radio which should use the V5 firmware. <br>The 026. in the original firmware revision confirms this. <br><br>The fact that the PCB does not have the version number marked on it indicates that they may have made some changes to the design. However the 026 firmware suggests the main chipset has not changed. <br><br>Colin <br>G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Fri Sep 08, 2023 9:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-08T07:09:46</updated>
+
+		<published>2023-09-08T07:09:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26075#p26075</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26075#p26075"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26075#p26075"><![CDATA[
+<blockquote class="uncited"><div>Sounds like good news on the hardware front then - thanks for all the feedback guys. I'll go ahead and load V5 and let you know how it goes.<br><br>Colin<br>ZL2FL</div></blockquote>If you load the wrong version, all that happens is that it won't receive or transmit, because the big difference between each model is that they kept changing the PLL chip, and in later versions they also changed the IF chip.<br><br>So if you load a version and it won't receive, try another version until it does receive<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 08, 2023 7:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-08T07:05:39</updated>
+
+		<published>2023-09-08T07:05:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26074#p26074</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26074#p26074"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26074#p26074"><![CDATA[
+Sounds like good news on the hardware front then - thanks for all the feedback guys. I'll go ahead and load V5 and let you know how it goes.<br><br>Colin<br>ZL2FL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Fri Sep 08, 2023 7:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-09-08T06:09:41</updated>
+
+		<published>2023-09-08T06:09:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26073#p26073</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26073#p26073"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26073#p26073"><![CDATA[
+It's strange they now removed the model number e.g MD9600-UV V4A in my radios<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Sep 08, 2023 6:09 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-08T05:51:11</updated>
+
+		<published>2023-09-08T05:51:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26071#p26071</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26071#p26071"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26071#p26071"><![CDATA[
+As far as I can see, it looks like similar to my V5.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Sep 08, 2023 5:51 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2023-09-08T05:06:47</updated>
+
+		<published>2023-09-08T05:06:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26070#p26070</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26070#p26070"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26070#p26070"><![CDATA[
+Both serial and the PCB marking 2311 indicates that it is produced in 2023 , so it should be the latest model that use HW5 firmware.<br>And the PA transistor is marked 226AA-G which also could be that it was produced in 2022 something.  <br><br>My old TYT MD-9600  has a serial 1809E01687 and  is marked  MD9600-UV-V2.1-170608 and 1913 on the PCB and works fine with HW2 firmware.<br>( PA is RD70HVF1  191AF-G )<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri Sep 08, 2023 5:06 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-08T04:25:39</updated>
+
+		<published>2023-09-08T04:25:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26069#p26069</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26069#p26069"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26069#p26069"><![CDATA[
+No worries, I'll wait for him to check in later <br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=1871&amp;sid=b05c76e5f8a29686ce21dd40f7693798" class="postimage" alt="IMG20230908160530-vsmall.jpg" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Fri Sep 08, 2023 4:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-08T04:16:43</updated>
+
+		<published>2023-09-08T04:16:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26068#p26068</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26068#p26068"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26068#p26068"><![CDATA[
+Hi Colin,<br><br>   Well, Colin knows everything about the MD9600. He will probably replies later.<br>Could you post some pictures of the PCB ?<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Sep 08, 2023 4:16 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-08T04:03:49</updated>
+
+		<published>2023-09-08T04:03:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26067#p26067</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26067#p26067"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26067#p26067"><![CDATA[
+Hi Daniel,<br><br>Well that may be my first problem, there is no version number on the board at all. Unless they've moved it underneath in which case I'm going to have to dismantle the radio<br><br>The serial number starts 2303AXXXXX, Any chance that's a reference to a March 2023 build I wonder?<br><br>Colin<br>ZL2FL<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Fri Sep 08, 2023 4:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-09-08T03:52:13</updated>
+
+		<published>2023-09-08T03:52:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26066#p26066</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26066#p26066"/>
+		<title type="html"><![CDATA[Re: Any issues with older hardware versions?]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26066#p26066"><![CDATA[
+Hi,<br><br>  Open the top cover to read the version printed on the PCB.<br>Information displayed in the CPS is pretty useless.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Sep 08, 2023 3:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[ZL2FL]]></name></author>
+		<updated>2023-09-09T00:20:41 </updated>
+
+		<published>2023-09-08T03:16:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26065#p26065</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26065#p26065"/>
+		<title type="html"><![CDATA[Hardware versions question]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3263&amp;p=26065#p26065"><![CDATA[
+I've just received a new MD-9600, the dealer told me that it was the latest version. Turns out when I read the radio with the standard CPS it's hardware version 2.09 MCU version S026.057 and last programmed 2011!<br><br>Am I going to trip over anything with this older hardware or should I send it back to the dealer and try and find newer hardware version?<br><br>Colin<br>ZL2FL<br><br>**Note subject changed to better reflect this thread**<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1111">ZL2FL</a> — Fri Sep 08, 2023 3:16 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

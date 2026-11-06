@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5041" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-25T04:39:39</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5041</id>
+
+		<entry>
+		<author><name><![CDATA[KD3AEV]]></name></author>
+		<updated>2025-04-25T04:39:39</updated>
+
+		<published>2025-04-25T04:39:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36893#p36893</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36893#p36893"/>
+		<title type="html"><![CDATA[Re: OpenGD77 Not Installing on 380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36893#p36893"><![CDATA[
+So while attempting a different project, I discovered that the problem child radio would not take any other firmware besides the original one I was using.  After much, discussion, with the original seller on amazon, I have learned that this radio was used with the NOGSG contact manager.  I am only familiar with OpenGD77 and the stock firmware.   Is there a way to restore the radio now?  I have already tried to utilize the cps and firmware that came with the radio but It has not worked for me.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8275">KD3AEV</a> — Fri Apr 25, 2025 4:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-07T04:41:51</updated>
+
+		<published>2025-04-07T04:41:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36633#p36633</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36633#p36633"/>
+		<title type="html"><![CDATA[Re: OpenGD77 Not Installing on 380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36633#p36633"><![CDATA[
+Is it à Plus or 10W model ?<br><br>About the reset:<br>- Flash the OpenGD77 firmware,<br>- Turn the power off<br>- Pull the battery,<br>- Wait 10/20 seconds then reinsert the battery,<br>- Press and hold down the SK2 button, and power on the radio.<br><br>If that doesn't work, pull the battery, power off, wait, reinsert and follow the procedure du boot in Safe mode.<br><br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 07, 2025 4:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD3AEV]]></name></author>
+		<updated>2025-04-07T04:08:36</updated>
+
+		<published>2025-04-07T04:08:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36632#p36632</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36632#p36632"/>
+		<title type="html"><![CDATA[Re: OpenGD77 Not Installing on 380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36632#p36632"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Can you tell me the exact procedures for the settings reset and safe boot?</div></blockquote><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#safe-power-on" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... e-power-on</a></div></blockquote>I was hoping you had a different procedure.  I have already been through the user manual and tried those button combinations.   Nothing has worked.    My gut is telling me that this is software problem within the radio.  Do you think flashing the boot image with the original firmware uploader may help? (after reflashing with the stock firmware first)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8275">KD3AEV</a> — Mon Apr 07, 2025 4:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-07T02:10:23</updated>
+
+		<published>2025-04-07T02:10:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36630#p36630</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36630#p36630"/>
+		<title type="html"><![CDATA[Re: OpenGD77 Not Installing on 380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36630#p36630"><![CDATA[
+<blockquote class="uncited"><div>Can you tell me the exact procedures for the settings reset and safe boot?</div></blockquote><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#safe-power-on" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... e-power-on</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Apr 07, 2025 2:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD3AEV]]></name></author>
+		<updated>2025-04-06T23:16:33</updated>
+
+		<published>2025-04-06T23:16:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36628#p36628</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36628#p36628"/>
+		<title type="html"><![CDATA[Re: OpenGD77 Not Installing on 380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36628#p36628"><![CDATA[
+Can you tell me the exact procedures for the settings reset and safe boot?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8275">KD3AEV</a> — Sun Apr 06, 2025 11:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-06T22:52:04</updated>
+
+		<published>2025-04-06T22:52:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36626#p36626</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36626#p36626"/>
+		<title type="html"><![CDATA[Re: OpenGD77 Not Installing on 380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36626#p36626"><![CDATA[
+<blockquote class="uncited"><div>I have two MD-UV 380G radios.   Both were bought a month apart.   I installed OpenGD77 on the one right after purchasing it and continue to use it with each new release.   I have had absolutely no problems. The serial number on that radio is 2306BL01992.   The back of the radio states it is MD-UV380 with the GPS sticker and the red plus sticker.     <br><br><br>The second radio will not take the opengd77 firmware.   Has all the same parameters on the back of the radio, except serial number is 2306BL02000.   For the past 3-4 months, I have attempted to flash it with every updated release of the CPS, Stable, and Beta versions. The last thing I tried was the Beta Version 2025 03 23 with CPS R2025.03.23.01.    I have even tried both the normal version and 10w versions of the software. The firmware uploader (meaning the opengd77 CPS) will complete and say the flash was successful.  The radio will shut off but not restart.  Every time, I will turn the radio off, disconnect the cable, remove the battery, wait 5-10 minutes, and then try to turn it on.   Nothing happens, no LED's, no sounds, nothing.   I have always been able to get the radio back into DFU mode and reflash the original software.    I have been looking on this forum for any help.  Anything I try, does not work.   The most promising post was about the chip change in some of the radios.   My understanding is that that issue was already addressed in the programming files.   Any help on this would be greatly appreciated.</div></blockquote><br>Possiby something in the official codeplug , or other data in the Flash memory, in the radio, is causing the firmware to hang when booting, or possibly even enter a boot loop.  i.e The firmware can't possibly check that everything in the codeplug or themes or DMR ID or voice prompt data is correct, as there isn't enough program space to add all of the necessary checks (and needless to say adding validity checks on every byte of data in the memory would cripple the usability of the firmware)<br><br>When the opengd77 is installed, try doing a settings reset, and then do a Safe Boot<br><br>If after doing either of these 2 things, the radio appears as the OpenGD77 COM port device, upload the same codeplug that you used successfully on your other radio, and the theme and also install voice prompts and the DMR ID database.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Apr 06, 2025 10:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4KVE]]></name></author>
+		<updated>2025-04-06T21:45:12</updated>
+
+		<published>2025-04-06T21:45:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36625#p36625</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36625#p36625"/>
+		<title type="html"><![CDATA[Re: OpenGD77 Not Installing on 380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36625#p36625"><![CDATA[
+Check out both ser #’s. 1992 &amp; 2000. Those 2 radios were assembled minutes apart if that from each other. So I doubt the problem is “different chips”. Sorry though, I can’t help you because I bought mine already set up with the 77 FW. Good luck.  Gary.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8235">N4KVE</a> — Sun Apr 06, 2025 9:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KD3AEV]]></name></author>
+		<updated>2025-04-06T20:50:28</updated>
+
+		<published>2025-04-06T20:50:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36624#p36624</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36624#p36624"/>
+		<title type="html"><![CDATA[OpenGD77 Not Installing on 380]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5041&amp;p=36624#p36624"><![CDATA[
+I have two MD-UV 380G radios.   Both were bought a month apart.   I installed OpenGD77 on the one right after purchasing it and continue to use it with each new release.   I have had absolutely no problems. The serial number on that radio is 2306BL01992.   The back of the radio states it is MD-UV380 with the GPS sticker and the red plus sticker.     <br><br><br>The second radio will not take the opengd77 firmware.   Has all the same parameters on the back of the radio, except serial number is 2306BL02000.   For the past 3-4 months, I have attempted to flash it with every updated release of the CPS, Stable, and Beta versions. The last thing I tried was the Beta Version 2025 03 23 with CPS R2025.03.23.01.    I have even tried both the normal version and 10w versions of the software. The firmware uploader (meaning the opengd77 CPS) will complete and say the flash was successful.  The radio will shut off but not restart.  Every time, I will turn the radio off, disconnect the cable, remove the battery, wait 5-10 minutes, and then try to turn it on.   Nothing happens, no LED's, no sounds, nothing.   I have always been able to get the radio back into DFU mode and reflash the original software.    I have been looking on this forum for any help.  Anything I try, does not work.   The most promising post was about the chip change in some of the radios.   My understanding is that that issue was already addressed in the programming files.   Any help on this would be greatly appreciated.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8275">KD3AEV</a> — Sun Apr 06, 2025 8:50 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

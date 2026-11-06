@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3881" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-03-29T21:51:58</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3881</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-29T21:51:58</updated>
+
+		<published>2024-03-29T21:51:58</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30477#p30477</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30477#p30477"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30477#p30477"><![CDATA[
+This version has been superseded<br><br>See <br><a href="https://www.opengd77.com/viewtopic.php?f=28&amp;t=3938" class="postlink">viewtopic.php?f=28&amp;t=3938</a><br><br>All users should update becasue of a bug in DMR RMO operation in the previous version<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 29, 2024 9:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EA7JOL]]></name></author>
+		<updated>2024-03-29T17:40:52</updated>
+
+		<published>2024-03-29T17:40:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30462#p30462</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30462#p30462"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30462#p30462"><![CDATA[
+Thank you!!<br><br>I dusted off my 2017 TYT MD and now it runs like never before.<br><br>EA7JOL <br><br>Gracias !!!<br><br>73!!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5898">EA7JOL</a> — Fri Mar 29, 2024 5:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-26T22:04:46</updated>
+
+		<published>2024-03-26T22:04:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30383#p30383</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30383#p30383"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30383#p30383"><![CDATA[
+<blockquote class="uncited"><div>Well I do get the above behavior, and it's weird. Also changed to voltage display and I can see it drop, but if I measure with a multimeter it stays the same.<br><br>Did further tests with a 7.6V external power supply strapped to the battery terminals (actual battery removed) and I get the following consumption:<br>- 5W TX FM with screen on and GPS on is 1.56A<br>- 50mW TX DMR with screen on and GPS on is 0.4A (400mA)<br>- RX with screen on and GPS on is 0.2A (200mA)<br>- RX with screen off and GPS on is 0.1A (100mA)<br>- GPS off difference is 0.02A (20mA)<br>- screen off difference is 0.1A (100mA)<br><br>Something draws quite a lot of power. the supply voltage was steady at 7.6V, but the displayed battery level kept dropping upon transmit, especially on high power.<br><br>As a side note, I never got the "low battery" screen, it always shuts off when reaching 0% for 2 seconds.</div></blockquote>I'm not sure how much current you expect the radio to consume.<br><br>These values are typical for most HTs with a colour LCD screen.<br><br>5W Tx   1.56A  - Rx current = 1.36A x 7.4V = 10.064W = about 50% effeciency for the entire Tx system.<br><br>Also, in Tx the CPU needs to be switched to higher clock speed, so it consumes 50mA+ more than on Rx <br><br>PA is probably class A or AB etc, so efficiency of 50% is not unusual. Also, its not only the PA that is turned on during Tx, its the Tx LED and also the PA preamps etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 26, 2024 10:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KS6J]]></name></author>
+		<updated>2024-03-26T15:49:15</updated>
+
+		<published>2024-03-26T15:49:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30380#p30380</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30380#p30380"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30380#p30380"><![CDATA[
+I am on the TYT MD-2017, and everything is working well.<br><br>One thing I noticed is that the trackball seems to support down only.<br>Spinning the trackball up does not seem to do anything.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5864">KS6J</a> — Tue Mar 26, 2024 3:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-03-26T15:15:20</updated>
+
+		<published>2024-03-26T15:15:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30378#p30378</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30378#p30378"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30378#p30378"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>has anyone noticed high power consumption with the opengd77 firmware?<br><br>at 50mW TX power a 10seconds QSO draws 4% of the battery, that is not good. GPS is enabled, but disabling it does not make any significant difference.</div></blockquote>LOL.<br><br>So you are saying your battery will sustain transmission for 100/4 * 10 seconds = 250 seconds about 4 minutes.<br>If thats the case then your battery is either completely dead or the radio is drawaing about 28.8A on 50mW, given that the battery is about 2000mAH<br><br>I suspect you don't understand what the battery % display does. Its not a measure of capacity is a measure of the voltage.</div></blockquote>Well I do get the above behavior, and it's weird. Also changed to voltage display and I can see it drop, but if I measure with a multimeter it stays the same.<br><br>Did further tests with a 7.6V external power supply strapped to the battery terminals (actual battery removed) and I get the following consumption:<br>- 5W TX FM with screen on and GPS on is 1.56A<br>- 50mW TX DMR with screen on and GPS on is 0.4A (400mA)<br>- RX with screen on and GPS on is 0.2A (200mA)<br>- RX with screen off and GPS on is 0.1A (100mA)<br>- GPS off difference is 0.02A (20mA)<br>- screen off difference is 0.1A (100mA)<br><br>Something draws quite a lot of power. the supply voltage was steady at 7.6V, but the displayed battery level kept dropping upon transmit, especially on high power.<br><br>As a side note, I never got the "low battery" screen, it always shuts off when reaching 0% for 2 seconds.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Tue Mar 26, 2024 3:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-26T09:18:25</updated>
+
+		<published>2024-03-26T09:18:25</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30377#p30377</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30377#p30377"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30377#p30377"><![CDATA[
+<blockquote class="uncited"><div>has anyone noticed high power consumption with the opengd77 firmware?<br><br>at 50mW TX power a 10seconds QSO draws 4% of the battery, that is not good. GPS is enabled, but disabling it does not make any significant difference.</div></blockquote>LOL.<br><br>So you are saying your battery will sustain transmission for 100/4 * 10 seconds = 250 seconds about 4 minutes.<br>If thats the case then your battery is either completely dead or the radio is drawaing about 28.8A on 50mW, given that the battery is about 2000mAH<br><br>I suspect you don't understand what the battery % display does. Its not a measure of capacity is a measure of the voltage.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Mar 26, 2024 9:18 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[YO3IDG]]></name></author>
+		<updated>2024-03-26T06:17:46</updated>
+
+		<published>2024-03-26T06:17:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30368#p30368</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30368#p30368"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30368#p30368"><![CDATA[
+has anyone noticed high power consumption with the opengd77 firmware?<br><br>at 50mW TX power a 10seconds QSO draws 4% of the battery, that is not good. GPS is enabled, but disabling it does not make any significant difference.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5575">YO3IDG</a> — Tue Mar 26, 2024 6:17 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-23T21:46:16</updated>
+
+		<published>2024-03-23T21:46:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30337#p30337</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30337#p30337"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30337#p30337"><![CDATA[
+<blockquote class="uncited"><div>Hello friends!<br><br>I tried to install this update but the radio keeps turning on and off in an eternal loop.<br><br>I had to go back to version 26.01.2024, the only one that works on my Retevis RT-82<br><br>Has anyone had this same problem?<br><br>Thanks<br>Rafael<br>PY2GPS</div></blockquote>Possibly a settings problem. Try turning on with SK2 pressed<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Mar 23, 2024 9:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PY2GPS]]></name></author>
+		<updated>2024-03-23T21:06:28</updated>
+
+		<published>2024-03-23T21:06:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30336#p30336</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30336#p30336"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30336#p30336"><![CDATA[
+Hello friends!<br><br>I tried to install this update but the radio keeps turning on and off in an eternal loop.<br><br>I had to go back to version 26.01.2024, the only one that works on my Retevis RT-82<br><br>Has anyone had this same problem?<br><br>Thanks<br>Rafael<br>PY2GPS<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1088">PY2GPS</a> — Sat Mar 23, 2024 9:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC2CBD]]></name></author>
+		<updated>2024-03-22T19:03:18</updated>
+
+		<published>2024-03-22T19:03:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30312#p30312</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30312#p30312"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30312#p30312"><![CDATA[
+The settings reset did the trick. Thanks<br>Dale<br>KC2CBD<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5754">KC2CBD</a> — Fri Mar 22, 2024 7:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-22T01:05:38</updated>
+
+		<published>2024-03-22T01:05:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30282#p30282</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30282#p30282"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30282#p30282"><![CDATA[
+Do a settings reset<br><br>i.e Turn the radio on while holding SK2 (Round button on the side above the PTT)<br><br>After settings have been reset, go into<br><br>Options -&gt; Display Options -&gt; Timeout and change it to 5 seconds.<br><br>Make sure you don't have the squelch open.  i.e If the green led on the top of the radio is illuminated it means the radio thinks there is a signal and still keep the display backlight turned on<br><br>If the green led is off and after 5 seconds the LCD backlight does not turn off, then try putting the backlight into manual mode and press the trackball inwards, as that button is assigned the functionality of button SK1.<br>Pressing the trackball button should toggle the display on / off<br><br>If that doesn't turn the display off, then either your radio has some difference in its hardware version or is faulty.<br><br>I presume that with the official firmware the backlight does turn off, so this would indicate that you radio is a different hardware revision with different connections to the LCD that we have not seen before<br><br>Also confirm the link to the firmware file you installed onto the radio.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Mar 22, 2024 1:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC2CBD]]></name></author>
+		<updated>2024-03-21T22:32:39</updated>
+
+		<published>2024-03-21T22:32:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30279#p30279</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30279#p30279"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30279#p30279"><![CDATA[
+<blockquote class="uncited"><div>I just tried and it works as expected.<br>Can you give me your backlight settings ?<br>- Brightness<br>- Nite bright<br>- Mode<br>- Timeout</div></blockquote>Brightness - 30%<br>Nite Bright - 20%<br>Mode - Auto<br>Timeout - 10s<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5754">KC2CBD</a> — Thu Mar 21, 2024 10:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-21T13:27:44</updated>
+
+		<published>2024-03-21T13:27:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30264#p30264</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30264#p30264"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30264#p30264"><![CDATA[
+I just tried and it works as expected.<br>Can you give me your backlight settings ?<br>- Brightness<br>- Nite bright<br>- Mode<br>- Timeout<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Mar 21, 2024 1:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KC2CBD]]></name></author>
+		<updated>2024-03-21T12:40:43</updated>
+
+		<published>2024-03-21T12:40:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30262#p30262</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30262#p30262"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30262#p30262"><![CDATA[
+Yes and the backlight isn't blanking even with a time set.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5754">KC2CBD</a> — Thu Mar 21, 2024 12:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-03-21T09:50:08</updated>
+
+		<published>2024-03-21T09:50:08</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30259#p30259</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30259#p30259"/>
+		<title type="html"><![CDATA[Re: TYT MD-2017 Alpha 2.2]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3881&amp;p=30259#p30259"><![CDATA[
+<blockquote class="uncited"><div>The screen isn't blanking for me. Is this an issue for anyone else?<br><br>Dale, KC2CBD</div></blockquote>I guess you're talking about backlight:<br><br>Display Options -&gt; <a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#timeout" class="postlink">Timeout</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Thu Mar 21, 2024 9:50 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5089" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-02T21:12:19</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5089</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-06-02T21:12:19</updated>
+
+		<published>2025-06-02T21:12:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5089&amp;p=37343#p37343</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5089&amp;p=37343#p37343"/>
+		<title type="html"><![CDATA[Re: md uv390 band limitation not work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5089&amp;p=37343#p37343"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Band limit impacts the TX frequency ranges, not the RX.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#band-limits" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... and-limits</a><br><br>BTW, I fixed the thread's title, as md-390 is not supported by the firmware.</div></blockquote>Hello, thank you for your response. I haven’t been able to reply for a long time, but I can now. As you said, it receives but doesn’t transmit. However, I think this might still be considered illegal under Turkish law. I will look into this matter. Thank you for your help. TA2BCO</div></blockquote>If Rx only functionality is illegal under Turkish law then probably being able to set the band limits for using the CPS would also be considered to be illegal, as would the setting in the firmware which allows you to disable the band limits etc<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Jun 02, 2025 9:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2BCO]]></name></author>
+		<updated>2025-06-02T11:41:07</updated>
+
+		<published>2025-06-02T11:41:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5089&amp;p=37329#p37329</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5089&amp;p=37329#p37329"/>
+		<title type="html"><![CDATA[Re: md uv390 band limitation not work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5089&amp;p=37329#p37329"><![CDATA[
+<blockquote class="uncited"><div>Band limit impacts the TX frequency ranges, not the RX.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#band-limits" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... and-limits</a><br><br>BTW, I fixed the thread's title, as md-390 is not supported by the firmware.</div></blockquote>Hello, thank you for your response. I haven’t been able to reply for a long time, but I can now. As you said, it receives but doesn’t transmit. However, I think this might still be considered illegal under Turkish law. I will look into this matter. Thank you for your help. TA2BCO<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7492">TA2BCO</a> — Mon Jun 02, 2025 11:41 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-04-28T03:56:45</updated>
+
+		<published>2025-04-28T03:56:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5089&amp;p=36930#p36930</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5089&amp;p=36930#p36930"/>
+		<title type="html"><![CDATA[Re: md uv390 band limitation not work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5089&amp;p=36930#p36930"><![CDATA[
+Band limit impacts the TX frequency ranges, not the RX.<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#band-limits" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... and-limits</a><br><br>BTW, I fixed the thread's title, as md-390 is not supported by the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Mon Apr 28, 2025 3:56 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[TA2BCO]]></name></author>
+		<updated>2025-04-27T22:34:16</updated>
+
+		<published>2025-04-27T22:34:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5089&amp;p=36928#p36928</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5089&amp;p=36928#p36928"/>
+		<title type="html"><![CDATA[md uv390 band limitation not work]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5089&amp;p=36928#p36928"><![CDATA[
+Hi gd77 community . Today, I noticed that when I tried to set the frequency limits, it didn't work. I apologize if I missed something.<br><br>The OpenGD77 firmware version I'm using: 20241215112654<br>The OpenGD77 CPS version: 2024.12.20.01<br><br>I set the frequency range to 144-146 and 430-440 via the CPS. After that, in VFO mode, I am able to enter a frequency outside of the range I set.  Traying change the seting on radio  menu Options -&gt; Radio Options -&gt; Band Limits selected CPS.  I tried resetting (sk2 + open ) it to see if that would help, but it didn't work.<blockquote class="uncited"><div><img src="https://i.imgur.com/pgQFmf4.jpeg" class="postimage" alt="Image"><br><img src="https://i.imgur.com/q12axSK.jpeg" class="postimage" alt="Image"><br><img src="https://i.imgur.com/DvAOC36.jpeg" class="postimage" alt="Image"><br><img src="https://i.imgur.com/8ROg6FF.jpeg" class="postimage" alt="Image"></div></blockquote><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7492">TA2BCO</a> — Sun Apr 27, 2025 10:34 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

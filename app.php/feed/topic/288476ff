@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2884" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-25T12:03:45</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2884</id>
+
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-02-25T12:03:45</updated>
+
+		<published>2024-02-25T12:03:45</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=29727#p29727</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=29727#p29727"/>
+		<title type="html"><![CDATA[Re: Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=29727#p29727"><![CDATA[
+<blockquote class="uncited"><div>I ask for a line in the satellite.txt file for the <strong class="text-strong">HADES-D</strong> satellite (SO-121) Thank you!</div></blockquote>Latest CPS 2024.01.22.01 has it in satellites.txt:<br><div class="codebox"><p>CODE: </p><pre><code>58567U,HADES-D ,436.6635,145.875,     0,       0,      0,      0,436.400,      0,</code></pre></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Feb 25, 2024 12:03 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UA6ATG]]></name></author>
+		<updated>2024-02-25T11:25:11</updated>
+
+		<published>2024-02-25T11:25:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=29726#p29726</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=29726#p29726"/>
+		<title type="html"><![CDATA[Re: Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=29726#p29726"><![CDATA[
+I ask for a line in the satellite.txt file for the <strong class="text-strong">HADES-D</strong> satellite (SO-121) Thank you!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3364">UA6ATG</a> — Sun Feb 25, 2024 11:25 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N5RWM]]></name></author>
+		<updated>2023-06-26T14:30:43</updated>
+
+		<published>2023-06-26T14:30:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=24102#p24102</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=24102#p24102"/>
+		<title type="html"><![CDATA[Re: Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=24102#p24102"><![CDATA[
+You have ISS-APRS in your list.  Are you able to do APRS with the ISS with the OPENGD77 firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3998">N5RWM</a> — Mon Jun 26, 2023 2:30 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N9KT]]></name></author>
+		<updated>2023-05-19T13:21:57</updated>
+
+		<published>2023-05-19T13:21:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23518#p23518</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23518#p23518"/>
+		<title type="html"><![CDATA[Re: Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23518#p23518"><![CDATA[
+Here's my list for North America based on the birds still alive from <a href="http://www.amsat.org/status/" class="postlink">http://www.amsat.org/status/</a>. Note that TEVEL-1 and TEVEL-8 are having problems so I don't have them in my list. Also, IO-86 is equatorial so it doesn't cover North America so I don't have it in my list either.<br>-David, N9KT<br><br>Catalogue number,Display name,Rx,Tx,CTCSS,ArmCTCSS<br>22825U,AO27,436795000,145850000,0,0<br>43017U,AO91,145960000,435250000,670,0<br>40908U,CAS3H,437200000,144350000,0,0<br>25544U,ISS-FM,437800000,145990000,670,0<br>25544U,ISS-APRS,145825000,145825000,0,0<br>43678U,PO101,145900000,437500000,1413,0<br>27607U,SO50,436795000,145850000,670,744<br>51069U,TEVEL-2,436400000,145970000,0,0<br>50988U,TEVEL-3,436400000,145970000,0,0<br>51063U,TEVEL-4,436400000,145970000,0,0<br>50998U,TEVEL-5,436400000,145970000,0,0<br>50999U,TEVEL-6,436400000,145970000,0,0<br>51062U,TEVEL-7,436400000,145970000,0,0<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2972">N9KT</a> — Fri May 19, 2023 1:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[lu2efi]]></name></author>
+		<updated>2023-05-18T23:27:02</updated>
+
+		<published>2023-05-18T23:27:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23505#p23505</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23505#p23505"/>
+		<title type="html"><![CDATA[Re: Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23505#p23505"><![CDATA[
+Thanks UA6ATG!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=268">lu2efi</a> — Thu May 18, 2023 11:27 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UA6ATG]]></name></author>
+		<updated>2023-05-13T11:14:44</updated>
+
+		<published>2023-05-13T11:14:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23389#p23389</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23389#p23389"/>
+		<title type="html"><![CDATA[Re: Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23389#p23389"><![CDATA[
+Sorry correkt<br>Catalogue number,Display name,Rx,Tx,CTCSS,ArmCTCSS<br>22825U,AO27,436795000,145850000,0,0<br>43017U,AO91,145960000,435250000,670,0<br>43137U,AO92,145880000,435350000,670,0<br>40908U,CAS3H,437200000,144350000,0,0<br>40931U,IO86,435880000,145880000,885,0<br>43678U,PO101,145900000,437500000,1413,0<br>25544U,ISS,437800000,145990000,670,0<br>27607U,SO50,436795000,145850000,670,744<br>54684U,CAS5A,435600000,145925000,0,0<br>51013U,TEVEL-1,436400000,145970000,0,0<br>51062U,TEVEL-7,436400000,145970000,0,0<br>51063U,TEVEL-4,436400000,145970000,0,0<br>50999U,TEVEL-6,436400000,145970000,0,0<br>50988U,TEVEL-3,436400000,145970000,0,0<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3364">UA6ATG</a> — Sat May 13, 2023 11:14 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UA6ATG]]></name></author>
+		<updated>2023-05-13T10:39:23</updated>
+
+		<published>2023-05-13T10:39:23</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23388#p23388</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23388#p23388"/>
+		<title type="html"><![CDATA[Re: Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23388#p23388"><![CDATA[
+Catalogue number,Display name,Rx,Tx,CTCSS,ArmCTCSS<br>22825U,AO27,436795000,145850000,0,0<br>43017U,AO91,145960000,435250000,670,0<br>43137U,AO92,145880000,435350000,670,0<br>40908U,CAS3H,437200000,144350000,0,0<br>40931U,IO86,435880000,145880000,885,0<br>43678U,PO101,145900000,437500000,1413,0<br>25544U,ISS,437800000,145990000,670,0<br>27607U,SO50,436795000,145850000,670,744<br>54684U,CAS5A,435600000,145925000,0,0<br>51013U,TEVEL-1,4364000000,145970000,0,0<br>51062U,TEVEL-7,4364000000,145970000,0,0<br>51063U,TEVEL-4,4364000000,145970000,0,0<br>50999U,TEVEL-6,4364000000,145970000,0,0<br>50988U,TEVEL-3,4364000000,145970000,0,0<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3364">UA6ATG</a> — Sat May 13, 2023 10:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-05-13T10:02:00</updated>
+
+		<published>2023-05-13T10:02:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23387#p23387</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23387#p23387"/>
+		<title type="html"><![CDATA[Re: Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23387#p23387"><![CDATA[
+Help yourself, it's described in the User Manual<br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#satellite-screen" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... ite-screen</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat May 13, 2023 10:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[UA6ATG]]></name></author>
+		<updated>2023-05-13T09:55:29</updated>
+
+		<published>2023-05-13T09:55:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23386#p23386</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23386#p23386"/>
+		<title type="html"><![CDATA[Please file for satellite tevel]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2884&amp;p=23386#p23386"><![CDATA[
+Please file for satellite tevel-1/2/3/4/5/6/7/8 (satellites.txt) Please<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3364">UA6ATG</a> — Sat May 13, 2023 9:55 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

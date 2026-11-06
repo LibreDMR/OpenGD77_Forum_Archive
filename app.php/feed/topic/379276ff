@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3792" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-02-17T16:16:52</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3792</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-02-17T16:16:52</updated>
+
+		<published>2024-02-17T16:16:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3792&amp;p=29588#p29588</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3792&amp;p=29588#p29588"/>
+		<title type="html"><![CDATA[Re: New Feature Request -- Use channel Knob to scroll menus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3792&amp;p=29588#p29588"><![CDATA[
+Topic already answered.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 17, 2024 4:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[W4EIP]]></name></author>
+		<updated>2024-02-17T14:58:57</updated>
+
+		<published>2024-02-17T14:58:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3792&amp;p=29587#p29587</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3792&amp;p=29587#p29587"/>
+		<title type="html"><![CDATA[New Feature Request -- Use channel Knob to scroll menus]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3792&amp;p=29587#p29587"><![CDATA[
+I have a new feature request:<br><br>Thank you for all the hard work in developing OpenGD77.  It works great for my Baofeng 1801 and 1701.  I especially like the TG lists and the ability to assign a talk group list to a channel and not having to have a separate Channel for each TG like on the Anytone 878.<br><br>Here is my feature request for your consideration:<br>Add the option to use the channel know (on 1701) to scroll through vertical menus instead of the up/down arrow keys.<br>I think that this option would be easier to use for the User Interface than the up/down arrow keys.<br>For instance, you could assign a Quick Key to bring up the Zones menu (already works) then use the Channel KNow to quickly select a Zone.<br>Would this feature be hard to program?<br><br>Whant do you think?<br>Thank You,<br>Dave W4EIP<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2677">W4EIP</a> — Sat Feb 17, 2024 2:58 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

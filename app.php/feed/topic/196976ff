@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1969" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-12-01T05:37:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1969</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2021-12-01T05:37:34</updated>
+
+		<published>2021-12-01T05:37:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1969&amp;p=16639#p16639</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1969&amp;p=16639#p16639"/>
+		<title type="html"><![CDATA[Re: DM-1801A  DMR tx/rx Failure]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1969&amp;p=16639#p16639"><![CDATA[
+Hi,<br><blockquote class="uncited"><div>Hello, I bought a DM-1801A but after installing the opengd77, the radio only works in analogic. Does anyone had same problem?<br>I forgot to backup the definitions before flashing with opengd77 firmware. Does anyone have The original DM-1801A firmware and configurations backup?<br>Many thanks<br>Pedro, PR8ZX</div></blockquote>You need to follow this procedure to  enable the DMR:<br><a href="http://www.opengd77.com/viewtopic.php?f=5&amp;t=1770&amp;sid=e6d4e163d8ce996975af5e3d04f9e50b" class="postlink">http://www.opengd77.com/viewtopic.php?f ... 3d04f9e50b</a><br><br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Dec 01, 2021 5:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[Pr8zx]]></name></author>
+		<updated>2021-12-01T04:14:27</updated>
+
+		<published>2021-12-01T04:14:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1969&amp;p=16638#p16638</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1969&amp;p=16638#p16638"/>
+		<title type="html"><![CDATA[DM-1801A  DMR tx/rx Failure]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1969&amp;p=16638#p16638"><![CDATA[
+Hello, I bought a DM-1801A but after installing the opengd77, the radio only works in analogic. Does anyone had same problem?<br>I forgot to backup the definitions before flashing with opengd77 firmware. Does anyone have The original DM-1801A firmware and configurations backup?<br>Many thanks<br>Pedro, PR8ZX<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2095">Pr8zx</a> — Wed Dec 01, 2021 4:14 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

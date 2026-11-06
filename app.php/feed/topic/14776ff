@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/147" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-11-22T22:34:44</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/147</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-22T22:34:44</updated>
+
+		<published>2019-11-22T22:34:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=147&amp;p=570#p570</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=147&amp;p=570#p570"/>
+		<title type="html"><![CDATA[Re: TG problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=147&amp;p=570#p570"><![CDATA[
+Are you using the OpenGD77 firmware in the radio ?<br><br>Please zip your codeplug and attach it to your post<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Nov 22, 2019 10:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[XE1GLY]]></name></author>
+		<updated>2019-11-22T22:06:03</updated>
+
+		<published>2019-11-22T22:06:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=147&amp;p=565#p565</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=147&amp;p=565#p565"/>
+		<title type="html"><![CDATA[TG problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=147&amp;p=565#p565"><![CDATA[
+Thank you very much and greetings from Mexico, as I had previously posted, I had problems with the previous CPS to read the radio, now with the new one, I read and write the radio without problems with win7 on laptop I3 ……<br><br>There is something that apparently I am not doing well, since now having read and programmed with the new CPS, I can not have reception in any TG, I have checked if the color code, the time slot, and Everything seems to be correct, however I cannot hear any TG, (I have not misrepresented the initial confuguration where if I could previously listen to any TG in its corresponding and if I have the corresponding conversation groups).<br><br>This happens only in digital, in analogue I have no problem, it was even a good idea to be able to enable or not the radio can be selected or not to transmit outside the amateur radio segment.<br><br>Another thing that I have not found is the way to access the directory of individual contacts ……<br><br>thank you very much.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=210">XE1GLY</a> — Fri Nov 22, 2019 10:06 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

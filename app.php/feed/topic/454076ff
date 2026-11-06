@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4540" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-11-13T17:00:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4540</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-11-13T17:00:43</updated>
+
+		<published>2024-11-13T17:00:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4540&amp;p=34063#p34063</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=34063#p34063"/>
+		<title type="html"><![CDATA[Re: Updated CPS Localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=34063#p34063"><![CDATA[
+<blockquote class="uncited"><div>Hello<br><br>Here is a new German translation for the CPS.<br><br>Many thanks to everyone who is working on OpenGD77 for your great work.<br><br>Greetings<br>René</div></blockquote>Thanks for the update.<br>I had to make some changes by hand, maybe you didn't use the file from the latest version, or some changes wasn't released yet, IDK.<br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Nov 13, 2024 5:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[HB9WCN]]></name></author>
+		<updated>2024-11-10T18:22:16</updated>
+
+		<published>2024-11-10T18:22:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4540&amp;p=34031#p34031</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=34031#p34031"/>
+		<title type="html"><![CDATA[Re: Updated CPS Localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=34031#p34031"><![CDATA[
+Hello<br><br>Here is a new German translation for the CPS.<br><br>Many thanks to everyone who is working on OpenGD77 for your great work.<br><br>Greetings<br>René<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2739&amp;sid=7c84be80ec5f66344611eae41f450b7a">German_HB9WCN.zip</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=3859">HB9WCN</a> — Sun Nov 10, 2024 6:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-11-02T15:45:09</updated>
+
+		<published>2024-11-02T15:45:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33874#p33874</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33874#p33874"/>
+		<title type="html"><![CDATA[Re: Updated CPS Localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33874#p33874"><![CDATA[
+Hi Fabio,<br><br>   Okay. I will raise the PR with your translation update <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Nov 02, 2024 3:45 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-11-02T13:22:11</updated>
+
+		<published>2024-11-02T13:22:11</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33872#p33872</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33872#p33872"/>
+		<title type="html"><![CDATA[Re: Updated CPS Localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33872#p33872"><![CDATA[
+Hi Daniel,<br>I'm sorry for the trouble.<br>Honestly the first translation I thought is really "<strong class="text-strong">Sostituisci Tx DMR ID</strong>", but if I haven't understood it bad, in the CPS settings <strong class="text-strong">Tx DMR ID</strong> can override the <strong class="text-strong">"global" ID</strong> with another one for every single channel in case people have multiple DMR ID's and have specific reasons to use different DMR IDs on different channels instead of using the <strong class="text-strong">"global"</strong> one.<br>So the meaning of the translation "<strong class="text-strong">Ignora Tx DMR ID</strong>" must be understood as ignore the <strong class="text-strong">"global" Tx DMR ID</strong> by replacing it with a different one.<br>In italian language, another possible translation could be "<strong class="text-strong">Scavalca Tx DMR ID</strong>" which also gives the meaning of dismissal/deposition of the <strong class="text-strong">"global" Tx DMR ID</strong> in order to replace it with a new one.<br>Also "<strong class="text-strong">Sostituisci Tx DMR ID</strong>" that you propose, is correct, but in my opinion it could be understood like to change the pre -existing <strong class="text-strong">"global" Tx DMR ID</strong> by replacing it with another different <strong class="text-strong">Tx DMR ID</strong>, as if the RTX was given or operated by third parties, which is also a function available in the OpenGD77 firmware which can be invoked directly by the transceiver:<br><br><a href="https://github.com/LibreDMR/OpenGD77_UserGuide/blob/master/OpenGD77_User_Guide.md#station-dmr-id-number-entry" class="postlink">https://github.com/LibreDMR/OpenGD77_Us ... mber-entry</a><br><strong class="text-strong">Station DMR ID number entry<br><br>    In Contact selection mode, press SK2 + Hash (#) key, and an alternative DMR ID can be entered for the radio (for test purposes) to temporarily override your normal DMR ID number which was loaded from the codeplug.</strong><br><br>I believe that the translation "<strong class="text-strong">Ignora Tx DMR ID</strong>" can be fine, perhaps "<strong class="text-strong">Scavalca Tx DMR ID</strong>" even better and a bit less equivocal, but I believe that each of the two translations has a certain degree of uncertainty that doesn't allow to prefer one rather than the other.<br>The matter would be a little different if the function label was something similar to "<strong class="text-strong">Override global Tx DMR ID</strong>" or something like that, because a possible translation into Italian would be a lot less ambiguous.<br>This is what I can write about it, considering that I'm not a professional translator and even my English unfortunately is not "Oxford level".<br><br>Daniel, many thanks for the message and the commitment you are putting in the development of the OpenGD77 firmware!<br><br>73 best regards de Fabio IZ2EIB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Sat Nov 02, 2024 1:22 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-11-01T15:28:21</updated>
+
+		<published>2024-11-01T15:28:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33852#p33852</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33852#p33852"/>
+		<title type="html"><![CDATA[Re: Updated CPS Localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33852#p33852"><![CDATA[
+Hi Fabio,<br><br>   Are you sure about the translation (as in your update it means "Ignore Tx DMR ID". Isn't "Sostituisci Tx DMR ID" or something like that most accurate ?).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Nov 01, 2024 3:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IZ2EIB]]></name></author>
+		<updated>2024-11-01T13:32:43</updated>
+
+		<published>2024-11-01T13:32:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33851#p33851</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33851#p33851"/>
+		<title type="html"><![CDATA[Re: Updated CPS Localisation files]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33851#p33851"><![CDATA[
+Hi Roger, <br>here is the new updated 01/11/2024 <strong class="text-strong">Italian.xml</strong>:<br><div class="inline-attachment"><dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2717&amp;sid=7c84be80ec5f66344611eae41f450b7a">Italian.zip</a></dt></dl></div><strong class="text-strong">&lt;Control Id="lblOverrideTxDMRId" Text="Ignora Tx DMR ID" /&gt;</strong><br><br>Thanks for the tireless work!<br><br>73 best regards de Fabio IZ2EIB<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=244">IZ2EIB</a> — Fri Nov 01, 2024 1:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-10-31T01:32:42</updated>
+
+		<published>2024-10-31T01:32:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33821#p33821</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33821#p33821"/>
+		<title type="html"><![CDATA[Updated CPS Localisation files 2024 11 16]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4540&amp;p=33821#p33821"><![CDATA[
+The CPS localisation files have also been updated, because of the addition line of text that has been added.<br>Speficially<br><br>This line<br><div class="codebox"><p>CODE: </p><pre><code>&lt;Control Id="lblOverrideTxDMRId" Text="Override Tx DMR ID" /&gt;</code></pre></div><br>See<br><br><a href="https://www.opengd77.com/downloads/localisation/CPS" class="postlink">downloads/localisation/CPS</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Oct 31, 2024 1:32 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

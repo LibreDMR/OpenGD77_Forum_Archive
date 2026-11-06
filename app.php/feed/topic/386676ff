@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3866" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-04-13T05:04:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3866</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-13T05:04:18</updated>
+
+		<published>2024-04-13T05:04:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30815#p30815</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30815#p30815"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30815#p30815"><![CDATA[
+<blockquote class="uncited"><div>A little note from another TYT MD-9600 user: I've noticed my radio doesn't see satellites very well if my computer is turned on (about 18" away.) As soon as I shut it off they pop right up and it gets a fix.</div></blockquote>The factory GPS doesn't work that well, and its position inside the display is not ideal<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Apr 13, 2024 5:04 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[K3SAD]]></name></author>
+		<updated>2024-04-13T02:36:51</updated>
+
+		<published>2024-04-13T02:36:51</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30812#p30812</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30812#p30812"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30812#p30812"><![CDATA[
+A little note from another TYT MD-9600 user: I've noticed my radio doesn't see satellites very well if my computer is turned on (about 18" away.) As soon as I shut it off they pop right up and it gets a fix.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6008">K3SAD</a> — Sat Apr 13, 2024 2:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sv1we]]></name></author>
+		<updated>2024-04-06T19:28:06</updated>
+
+		<published>2024-04-06T19:28:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30677#p30677</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30677#p30677"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30677#p30677"><![CDATA[
+I followed his instructions VK3KYY and everything works great GPS,thanks!!!<br>  SV1WE 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=141">sv1we</a> — Sat Apr 06, 2024 7:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-04-02T20:43:04</updated>
+
+		<published>2024-04-02T20:43:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30549#p30549</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30549#p30549"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30549#p30549"><![CDATA[
+<blockquote class="uncited"><div>By the way,  I have the same problem with the MD-9600 V4 with GPS and I wanted to ask if I don't remove the GPS and do the soldering according to his instructions VK3KYY will it work the new external GPS ? is there a chance to create a problem in the device because it will have the factory  GPS which I have never seen working!!!<br>  SV1WE 73</div></blockquote>I do not understand your question<br><br>As long as you connect a GPS which outputs NMEA at the correct speed it will work<br><br>Note, some external GPS "Serial" modules from AliExpress etc, which often have a DB9 pin connector, are 12V serial and the data is inverted,. This type does not work with the firmware<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 02, 2024 8:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[sv1we]]></name></author>
+		<updated>2024-04-02T15:10:15</updated>
+
+		<published>2024-04-02T15:10:15</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30536#p30536</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30536#p30536"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30536#p30536"><![CDATA[
+By the way,  I have the same problem with the MD-9600 V4 with GPS and I wanted to ask if I don't remove the GPS and do the soldering according to his instructions VK3KYY will it work the new external GPS ? is there a chance to create a problem in the device because it will have the factory  GPS which I have never seen working!!!<br>  SV1WE 73<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=141">sv1we</a> — Tue Apr 02, 2024 3:10 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1ABC]]></name></author>
+		<updated>2024-03-15T18:46:59</updated>
+
+		<published>2024-03-15T18:46:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30127#p30127</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30127#p30127"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30127#p30127"><![CDATA[
+Ok I understand.<br><br>Is there perhaps a source for this - perhaps with full details of the product name and manufacturer?<br>If necessary with technical data.<br><br>By the way, the manufacturer replied to me.<br>He also seems to be overwhelmed by my request and hopes that TYT can comment competently on it.<br>"Hello,<br>We have reported the problem you encountered directly to TYT and will get back to you as soon as possible with their feedback.".<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5581">DO1ABC</a> — Fri Mar 15, 2024 6:46 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-14T22:07:46</updated>
+
+		<published>2024-03-14T22:07:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30117#p30117</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30117#p30117"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30117#p30117"><![CDATA[
+<blockquote class="uncited"><div>That's a good thing.<br>If the dealer causes problems and I actually have to change the module, which GPD modules are recommended for replacement?<br><br>I found something small here. Is this a suitable GPS module?<br><br><a href="https://www.ebay.de/itm/273515437702" class="postlink">https://www.ebay.de/itm/273515437702</a></div></blockquote>It depends what the output data mode has been set to on these modules.<br><br>The firmware expects 9600 baud NMEA but some modules output their own binary data format which is incompatible.<br><br>The module you linked to looks like a Chinese clone of a U-BLOX NEO 6M, not a real Neo 6M. It may actually be a completely different chipset inside the metal housing.<br><br>Most people seem to be using a chinese made GP-01 module either with a antenna on the PCB or an antenna that is connected by a short external cable<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Mar 14, 2024 10:07 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1ABC]]></name></author>
+		<updated>2024-03-14T15:54:06</updated>
+
+		<published>2024-03-14T15:54:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30115#p30115</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30115#p30115"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30115#p30115"><![CDATA[
+That's a good thing.<br>If the dealer causes problems and I actually have to change the module, which GPD modules are recommended for replacement?<br><br>I found something small here. Is this a suitable GPS module?<br><br><a href="https://www.ebay.de/itm/273515437702" class="postlink">https://www.ebay.de/itm/273515437702</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5581">DO1ABC</a> — Thu Mar 14, 2024 3:54 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-13T22:28:52</updated>
+
+		<published>2024-03-13T22:28:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30106#p30106</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30106#p30106"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30106#p30106"><![CDATA[
+If the dealer does not help. Its easy to change the GPS module<br><br>I made a video that shows how to attach and external GPS module, in a MD-9600 that was not fitted with a GPS.<br><br>You can see, its not very difficult to make changes to the GPS.<br><br>In your case the biggest problem will be unsoldering the old module.<br><br> <strong>iframe</strong> <br><a href="http://youtu.be/tdPPsU-8IrY">youtu.be/tdPPsU-8IrY</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 13, 2024 10:28 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1ABC]]></name></author>
+		<updated>2024-03-13T21:15:57</updated>
+
+		<published>2024-03-13T21:15:57</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30103#p30103</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30103#p30103"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30103#p30103"><![CDATA[
+Every day when I get home from work I try something new.<br>That's what makes amateur radio interesting - experimenting!<br><br>Because of the warranty, I don't want to open the devices yet and wait to see what the dealer does.<br>But I'm starting to think that it could be the GPS module.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5581">DO1ABC</a> — Wed Mar 13, 2024 9:15 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-03-13T19:51:03</updated>
+
+		<published>2024-03-13T19:51:03</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30101#p30101</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30101#p30101"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30101#p30101"><![CDATA[
+If the Options allow NMEA output tobe selected , then there must have been some data from the GPS module that the firmware has detected when the radio is turned on<br><br>The GPS model is in the front section of the radio and it's easy to remove this, open it , and access the GPS module and replace it if necessary<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Mar 13, 2024 7:51 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-13T22:58:57 </updated>
+
+		<published>2024-03-13T19:02:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30098#p30098</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30098#p30098"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30098#p30098"><![CDATA[
+<blockquote class="uncited"><div>Yes, at least NMEA can be activated on one device via the General Option.<br>But there is no data and the satellite cannot be found. The display remains blank.<br><br>It would have been better if there had been a separate small antenna connection for the GPS.</div></blockquote>It's a insensitive chip and a bad antenna inside the radio. <br><br>One solution is to use an external antenna, there is threads about that.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 13, 2024 7:02 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1ABC]]></name></author>
+		<updated>2024-03-13T18:57:02</updated>
+
+		<published>2024-03-13T18:57:02</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30097#p30097</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30097#p30097"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30097#p30097"><![CDATA[
+Yes, at least NMEA can be activated on one device via the General Option.<br>But there is no data and the satellite cannot be found. The display remains blank.<br><br>It would have been better if there had been a separate small antenna connection for the GPS.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5581">DO1ABC</a> — Wed Mar 13, 2024 6:57 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-03-13T18:26:39</updated>
+
+		<published>2024-03-13T18:26:39</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30096#p30096</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30096#p30096"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30096#p30096"><![CDATA[
+Can you enable the GPS in options?<br><br>If so, the OpenGD77 software has detected NMEA data from the GPS during start.<br><br>I have a a MD-9600 but it's inside the house so I have never verified if my GPS receive anything.<br>I have some ideas to feed the L1 inside with a GPS distribution amplifier from my outside GPS antenna but I haven't tested that idea yet.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Wed Mar 13, 2024 6:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DO1ABC]]></name></author>
+		<updated>2024-03-13T17:38:00</updated>
+
+		<published>2024-03-13T17:38:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30094#p30094</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30094#p30094"/>
+		<title type="html"><![CDATA[Re: Problems with the GPS.]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3866&amp;p=30094#p30094"><![CDATA[
+No problem, we all have a Google translator <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><br><br>The approach with the GPS antenna needs to be checked.<br>I suspect that this GPS antenna is in the device.<br>Both devices were purchased brand new.<br>So I still have warranty.<br>And if there really is a problem with the GPS antenna, the dealer won't be happy about having to solve the problem.<br>Unless I can solve the problem myself.<br>Do you happen to have a photo of where I can find the GPS antenna?<br>Because if I have to open both devices, the dealer might avoid the warranty,<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5581">DO1ABC</a> — Wed Mar 13, 2024 5:38 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

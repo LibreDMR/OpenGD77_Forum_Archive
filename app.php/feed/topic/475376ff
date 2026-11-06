@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4753" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-11T07:42:35</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4753</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-11T07:42:35</updated>
+
+		<published>2025-01-11T07:42:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35100#p35100</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35100#p35100"/>
+		<title type="html"><![CDATA[Re: CPS and Subtones in VFO]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35100#p35100"><![CDATA[
+<blockquote class="uncited"><div>Yes, I am actually using the latest version of CPS, specifically R2024.12.20.01. Any value causes the error, but I am using the value 100.</div></blockquote>Send me an email, I will send you a test version.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jan 11, 2025 7:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-11T07:31:41</updated>
+
+		<published>2025-01-11T07:31:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35099#p35099</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35099#p35099"/>
+		<title type="html"><![CDATA[Re: CPS and Subtones in VFO]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35099#p35099"><![CDATA[
+see <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4694" class="postlink">viewtopic.php?f=12&amp;t=4694</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Jan 11, 2025 7:31 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EB4EWI]]></name></author>
+		<updated>2025-01-11T07:15:04</updated>
+
+		<published>2025-01-11T07:15:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35098#p35098</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35098#p35098"/>
+		<title type="html"><![CDATA[Re: CPS and Subtones in VFO]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35098#p35098"><![CDATA[
+Yes, I am actually using the latest version of CPS, specifically R2024.12.20.01. Any value causes the error, but I am using the value 100.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2808&amp;sid=c14e25ede70d92ab5ea78f3da1d89cc1" class="postimage" alt="Captura de pantalla 2025-01-11 081409.png" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7657">EB4EWI</a> — Sat Jan 11, 2025 7:15 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-10T21:37:56</updated>
+
+		<published>2025-01-10T21:37:56</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35088#p35088</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35088#p35088"/>
+		<title type="html"><![CDATA[Re: CPS and Subtones in VFO]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35088#p35088"><![CDATA[
+<blockquote class="uncited"><div>I am trying to program with my CPS two frequencies in analog for two repeaters in VFO, one of the frequencies has subtones and when I set the subtone it gives me an error that says "Uncontrolled exception in the application" the other frequency of the repeater does not have subtones and This stays programmed correctly, any suggestions? thank you.</div></blockquote>Are you using the latest version  of the CPS ?<br><br><a href="https://www.opengd77.com/downloads/PC_CPS/Latest/" class="postlink">downloads/PC_CPS/Latest/</a><br><br>What Subtone value(s) caused the error<br><br>Post the full error message.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri Jan 10, 2025 9:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EB4EWI]]></name></author>
+		<updated>2025-01-10T19:45:20</updated>
+
+		<published>2025-01-10T19:45:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35086#p35086</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35086#p35086"/>
+		<title type="html"><![CDATA[CPS and Subtones in VFO]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4753&amp;p=35086#p35086"><![CDATA[
+I am trying to program with my CPS two frequencies in analog for two repeaters in VFO, one of the frequencies has subtones and when I set the subtone it gives me an error that says "Uncontrolled exception in the application" the other frequency of the repeater does not have subtones and This stays programmed correctly, any suggestions? thank you.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7657">EB4EWI</a> — Fri Jan 10, 2025 7:45 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

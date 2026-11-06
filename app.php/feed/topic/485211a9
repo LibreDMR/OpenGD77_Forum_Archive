@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4852" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-15T08:53:41</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4852</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-15T08:53:41</updated>
+
+		<published>2025-02-15T08:53:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35751#p35751</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35751#p35751"/>
+		<title type="html"><![CDATA[Re: New GD-77/GD-77S/RD-5R/DM-1801 Beta 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35751#p35751"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=13&amp;t=4877" class="postlink">viewtopic.php?f=13&amp;t=4877</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sat Feb 15, 2025 8:53 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[DL4GG]]></name></author>
+		<updated>2025-02-12T23:43:12</updated>
+
+		<published>2025-02-12T23:43:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35720#p35720</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35720#p35720"/>
+		<title type="html"><![CDATA[Re: New GD-77/GD-77S/RD-5R/DM-1801 Beta 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35720#p35720"><![CDATA[
+<blockquote class="uncited"><div>??????????????????????????????? <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"></div></blockquote>= <br>Can you tell me which file the text on the screen is from? Thanks. I want to try to translate it myself.<br><br>******<br>Please use a translater tool for your messages.<br>No one here will manually convert your posts.<br>Thanks.<br>*******<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=224">DL4GG</a> — Wed Feb 12, 2025 11:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[BA4QHW]]></name></author>
+		<updated>2025-02-08T03:39:27</updated>
+
+		<published>2025-02-08T03:39:27</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35671#p35671</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35671#p35671"/>
+		<title type="html"><![CDATA[Re: New GD-77/GD-77S/RD-5R/DM-1801 Beta 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35671#p35671"><![CDATA[
+??????????????????????????????? <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_biggrin.gif" width="15" height="17" alt=":D" title="Very Happy"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7192">BA4QHW</a> — Sat Feb 08, 2025 3:39 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-02-07T16:03:38</updated>
+
+		<published>2025-02-07T16:03:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35650#p35650</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35650#p35650"/>
+		<title type="html"><![CDATA[New GD-77/GD-77S/RD-5R/DM-1801 Beta 2025 02 07]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4852&amp;p=35650#p35650"><![CDATA[
+<ul><li> In DMR mode, clear the LC data after an APRS beaconing to avoid handling incomplete data (wrong IDs and so on).</li><li> Fix APRS QSY: RX and TX freqs were swapped.</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/29FN6WJBSM#aJVLmIxrsPFW" class="postlink">https://drive.proton.me/urls/29FN6WJBSM#aJVLmIxrsPFW</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG" class="postlink">https://drive.proton.me/urls/H0XNJZFH08#YPSZxRlhHBGG</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/26. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4804" class="postlink">viewtopic.php?f=12&amp;t=4804</a><br><br>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb" class="postlink">https://drive.proton.me/urls/256SP2W1NM#mC9d2L32MEmb</a><br>The voice-prompts and localization files have not changed since the last beta.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Fri Feb 07, 2025 4:03 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

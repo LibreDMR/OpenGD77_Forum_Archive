@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5127" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-05-17T01:24:05</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5127</id>
+
+		<entry>
+		<author><name><![CDATA[NC3S]]></name></author>
+		<updated>2025-05-17T01:24:05</updated>
+
+		<published>2025-05-17T01:24:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37139#p37139</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37139#p37139"/>
+		<title type="html"><![CDATA[Re: No serial port created for cps to retevis RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37139#p37139"><![CDATA[
+Hello,<br><br>OK I got it going now.  Seems to work well so far.<br><br>Thanks for the assistance<br><br>Phil NC3S<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8570">NC3S</a> — Sat May 17, 2025 1:24 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-05-16T20:40:10</updated>
+
+		<published>2025-05-16T20:40:10</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37137#p37137</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37137#p37137"/>
+		<title type="html"><![CDATA[Re: No serial port created for cps to retevis RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37137#p37137"><![CDATA[
+<blockquote class="uncited"><div>How do upgrade the firmware without the opengd77 CPS?<br>How do I backup the original firmware?<br><br>The instructions that I read indicated the radio must be in DFU mode. <br><br>I must me looking in the wrong spot<br><br>Thanks <br>            Phil NC3S</div></blockquote><br>It is not possible to backup the original firmware in the radio. But you can backup the flash memory after installing OpenGD77 <br><br>DFU stands for Device Firmware Upgrade, and the radio must be in this mode to update the firmware<br><br>You can only install OpenGD77 using the CPS on Windows, or using the Python script on Linux.  ( I can't remember if the python script works on Windows)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Fri May 16, 2025 8:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NC3S]]></name></author>
+		<updated>2025-05-16T20:19:32</updated>
+
+		<published>2025-05-16T20:19:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37136#p37136</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37136#p37136"/>
+		<title type="html"><![CDATA[Re: No serial port created for cps to retevis RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37136#p37136"><![CDATA[
+How do upgrade the firmware without the opengd77 CPS?<br>How do I backup the original firmware?<br><br>The instructions that I read indicated the radio must be in DFU mode. <br><br>I must me looking in the wrong spot<br><br>Thanks <br>            Phil NC3S<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8570">NC3S</a> — Fri May 16, 2025 8:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-05-16T17:59:18</updated>
+
+		<published>2025-05-16T17:59:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37134#p37134</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37134#p37134"/>
+		<title type="html"><![CDATA[Re: No serial port created for cps to retevis RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37134#p37134"><![CDATA[
+<blockquote class="uncited"><div>Hello,<br><br>This is my first post, so I hope the question is understandable.<br><br>My PC is running Windows 11 Pro.<br><br>I have a Retevis RT3S (gps) that I want to install opengd77 on.<br><br>Currently I have the Retevis supplied CPS working correctly with no issues.<br><br>When I try to use opengd77 CPS, no serial port is created in my Device Manager listing.<br><br>I have 5 other radio related ports that currently exist, for HF radios.<br><br>Opendg77 CPS wants me to select a port, but none exist for it.  I'm not sure what is going on since the Retevis supplied CPS works as expected, it never asks for a port.<br><br>I'm don't know were to go from here.<br><br>BTW: the radio was in DFU mode (PTT + SK1)<br><br>Thanks,<br>      Phil, NC3S</div></blockquote>You can't read or write config to the radio with OpenGD77 CPS when the radio is running factory firmware, radio must have OpenGD77 running  to appear as a COM port in device manager.<br><br>DFU mode is used for firmware updates and when radio is started in DFU mode (flashing red/green led) you should see the radio under <br>"Universal Serial Bus controllers"<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2979&amp;sid=cf17a0dd594a0677cc7a32e01560ea73" class="postimage" alt="STM_driver_in_DFU_mode.JPG" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Fri May 16, 2025 5:59 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[NC3S]]></name></author>
+		<updated>2025-05-16T17:07:41</updated>
+
+		<published>2025-05-16T17:07:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37133#p37133</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37133#p37133"/>
+		<title type="html"><![CDATA[No serial port created for cps to retevis RT3S]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5127&amp;p=37133#p37133"><![CDATA[
+Hello,<br><br>This is my first post, so I hope the question is understandable.<br><br>My PC is running Windows 11 Pro.<br><br>I have a Retevis RT3S (gps) that I want to install opengd77 on.<br><br>Currently I have the Retevis supplied CPS working correctly with no issues.<br><br>When I try to use opengd77 CPS, no serial port is created in my Device Manager listing.<br><br>I have 5 other radio related ports that currently exist, for HF radios.<br><br>Opendg77 CPS wants me to select a port, but none exist for it.  I'm not sure what is going on since the Retevis supplied CPS works as expected, it never asks for a port.<br><br>I'm don't know were to go from here.<br><br>BTW: the radio was in DFU mode (PTT + SK1)<br><br>Thanks,<br>      Phil, NC3S<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8570">NC3S</a> — Fri May 16, 2025 5:07 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

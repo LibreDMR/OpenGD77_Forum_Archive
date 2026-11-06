@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/3554" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-07-21T17:41:00</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/3554</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-07-21T17:41:00</updated>
+
+		<published>2024-07-21T17:41:00</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32247#p32247</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32247#p32247"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32247#p32247"><![CDATA[
+It is not 'wrong', it is just not using one of the best features of OpenGD77. <br><br>Colin.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jul 21, 2024 5:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK1TK]]></name></author>
+		<updated>2024-07-21T16:16:50</updated>
+
+		<published>2024-07-21T16:16:50</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32246#p32246</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32246#p32246"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32246#p32246"><![CDATA[
+<blockquote class="uncited"><div>Looking at your codeplug I can see that you have many channels for each DMR repeater. Each one with a different Talkgroup / timeslot. <br><br>With OpenGD77 that is not necessary. Just define one channel for each repeater and assign a talkgroup list to the channel which contains all of the required talkgroups.  Several repeaters can usually share the same talkgroup list.  <br><br>Switching timeslot is also easy on OpenGD77 just by pressing the * key, so it is not really necessary to have a channel for each timeslot. <br><br>Colin G4EML</div></blockquote>Tahnk you Colin I thought there is somethíng wrong with my codepplug. I will try to understand it better because the logic behind is miles away from the GD-88.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6508">OK1TK</a> — Sun Jul 21, 2024 4:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-07-21T15:44:12</updated>
+
+		<published>2024-07-21T15:44:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32245#p32245</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32245#p32245"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32245#p32245"><![CDATA[
+Looking at your codeplug I can see that you have many channels for each DMR repeater. Each one with a different Talkgroup / timeslot. <br><br>With OpenGD77 that is not necessary. Just define one channel for each repeater and assign a talkgroup list to the channel which contains all of the required talkgroups.  Several repeaters can usually share the same talkgroup list.  <br><br>Switching timeslot is also easy on OpenGD77 just by pressing the * key, so it is not really necessary to have a channel for each timeslot. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sun Jul 21, 2024 3:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2024-07-21T10:02:55</updated>
+
+		<published>2024-07-21T10:02:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32238#p32238</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32238#p32238"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32238#p32238"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Further to Rogers comment. <br><br>The codeplug only supports 1024 channels. <br>The Channel number column in channels.csv allows you to specify exactly where you want to save a channel. <br>That channel number is the one you can enter when in the special 'All Channels' Zone.<br>This allows you to group channels logically for easy access when using 'All Channels'. For example Digital repeaters from Channel 1, analogue repeaters from channel 100, simplex from channel 200 etc. <br>As you can only select channels from 1 to 1024 it makes no sense for the CSV file to allow outside this range. <br><br>If you really want to use channel numbers outside that range then you can 'Append' the CSV file to a blank codeplug instead of 'Importing' it. <br>The 'Append' function ignores the Channel number field and simply adds the channels to the end of the existing codeplug. <br><br>Colin G4EML</div></blockquote>Dear Colin, please, may I kindly ask to you exactly discribe how to add additional channels ? I revriting my GD-88 codeplug to OpenGD77 for my Retivis RT3S. The logic is different but I have channels for my duplex hotspot, and then DMR and analog repeaters for CZ, SK, HR, IT and even in Italy there are 1.400+ 2m/70cm.<br>May be I just don't understand the different logic. Here yiou can find my CSV: <a href="https://drive.google.com/file/d/1_IZxh_MS_U4XMuSqQ7kglo63lizUk4qV/view?usp=drive_link" class="postlink">https://drive.google.com/file/d/1_IZxh_ ... drive_link</a></div></blockquote>1400 different channels for 2m/70cm Ham relays ? Hard to believe.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jul 21, 2024 10:02 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[OK1TK]]></name></author>
+		<updated>2024-07-21T09:05:06</updated>
+
+		<published>2024-07-21T09:05:06</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32237#p32237</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32237#p32237"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32237#p32237"><![CDATA[
+<blockquote class="uncited"><div>Further to Rogers comment. <br><br>The codeplug only supports 1024 channels. <br>The Channel number column in channels.csv allows you to specify exactly where you want to save a channel. <br>That channel number is the one you can enter when in the special 'All Channels' Zone.<br>This allows you to group channels logically for easy access when using 'All Channels'. For example Digital repeaters from Channel 1, analogue repeaters from channel 100, simplex from channel 200 etc. <br>As you can only select channels from 1 to 1024 it makes no sense for the CSV file to allow outside this range. <br><br>If you really want to use channel numbers outside that range then you can 'Append' the CSV file to a blank codeplug instead of 'Importing' it. <br>The 'Append' function ignores the Channel number field and simply adds the channels to the end of the existing codeplug. <br><br>Colin G4EML</div></blockquote>Dear Colin, please, may I kindly ask to you exactly discribe how to add additional channels ? I revriting my GD-88 codeplug to OpenGD77 for my Retivis RT3S. The logic is different but I have channels for my duplex hotspot, and then DMR and analog repeaters for CZ, SK, HR, IT and even in Italy there are 1.400+ 2m/70cm.<br>May be I just don't understand the different logic. Here yiou can find my CSV: <a href="https://drive.google.com/file/d/1_IZxh_MS_U4XMuSqQ7kglo63lizUk4qV/view?usp=drive_link" class="postlink">https://drive.google.com/file/d/1_IZxh_ ... drive_link</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6508">OK1TK</a> — Sun Jul 21, 2024 9:05 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-07-21T02:52:22</updated>
+
+		<published>2024-07-21T02:52:22</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32233#p32233</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32233#p32233"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32233#p32233"><![CDATA[
+How many non-ham channels do you normally have programmed into your radio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jul 21, 2024 2:52 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2KLF]]></name></author>
+		<updated>2024-07-21T02:00:09</updated>
+
+		<published>2024-07-21T02:00:09</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32232#p32232</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32232#p32232"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32232#p32232"><![CDATA[
+Ah ok then.  <br><br>It just seems a shame, everything else about the firmware for the RT3S is fantastic.  I just need more space as I have lots of non amateur stuff I'd like to add.  I cant even contemplate going back to the original clunky firmware just to get the extra channel storage :/<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6558">VK2KLF</a> — Sun Jul 21, 2024 2:00 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2024-07-21T01:01:12</updated>
+
+		<published>2024-07-21T01:01:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32231#p32231</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32231#p32231"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32231#p32231"><![CDATA[
+<blockquote class="uncited"><div>Thanks Colin<br><br>Thats a shame, the radio can do many more with the original but crappy firmware.  Hopfully this can be expanded in future builds.</div></blockquote>I think the OpenGD77 firmware use the memory for something else, but I can be wrong on this. Because of the Talkgroup List feature we might don't need that much channel anymore. My OpenGD77 codeplug use one channel per repeater compare to almost 20 channels per repeater on Anytone.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Sun Jul 21, 2024 1:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2KLF]]></name></author>
+		<updated>2024-07-21T00:54:35</updated>
+
+		<published>2024-07-21T00:54:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32230#p32230</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32230#p32230"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32230#p32230"><![CDATA[
+Thanks Colin<br><br>Thats a shame, the radio can do many more with the original but crappy firmware.  Hopfully this can be expanded in future builds.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6558">VK2KLF</a> — Sun Jul 21, 2024 12:54 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2024-07-20T09:46:48</updated>
+
+		<published>2024-07-20T09:46:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32218#p32218</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32218#p32218"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32218#p32218"><![CDATA[
+No, the number of channels is limited to 1024 by the codeplug structure. All supported radio types use the same structure which is based on the original GD77 codeplug. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Sat Jul 20, 2024 9:46 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK2KLF]]></name></author>
+		<updated>2024-07-20T03:03:53</updated>
+
+		<published>2024-07-20T03:03:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32217#p32217</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32217#p32217"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=32217#p32217"><![CDATA[
+Hi all,<br><br>Is there a way to have more than 1024 channels? The RT3S is capable of 3000 channels I thought?<br><br>I have lots of DMR commercial sites I need to add and its capped out at 1024.<br><br>Is there a way to include more?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6558">VK2KLF</a> — Sat Jul 20, 2024 3:03 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2023-12-06T21:40:41</updated>
+
+		<published>2023-12-06T21:40:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27915#p27915</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27915#p27915"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27915#p27915"><![CDATA[
+Further to Rogers comment. <br><br>The codeplug only supports 1024 channels. <br>The Channel number column in channels.csv allows you to specify exactly where you want to save a channel. <br>That channel number is the one you can enter when in the special 'All Channels' Zone.<br>This allows you to group channels logically for easy access when using 'All Channels'. For example Digital repeaters from Channel 1, analogue repeaters from channel 100, simplex from channel 200 etc. <br>As you can only select channels from 1 to 1024 it makes no sense for the CSV file to allow outside this range. <br><br>If you really want to use channel numbers outside that range then you can 'Append' the CSV file to a blank codeplug instead of 'Importing' it. <br>The 'Append' function ignores the Channel number field and simply adds the channels to the end of the existing codeplug. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Wed Dec 06, 2023 9:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9JCK]]></name></author>
+		<updated>2023-12-06T21:32:19</updated>
+
+		<published>2023-12-06T21:32:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27914#p27914</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27914#p27914"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27914#p27914"><![CDATA[
+hi VK3KYY,<br><br>I was not aware about hard limit for channel numbers.<br>Thanks for clarification,<br><br>73s, Jacek<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5087">SP9JCK</a> — Wed Dec 06, 2023 9:32 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-12-06T21:26:37</updated>
+
+		<published>2023-12-06T21:26:37</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27912#p27912</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27912#p27912"/>
+		<title type="html"><![CDATA[Re: CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27912#p27912"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>CPS are raise error during CSV import if channel number is higher then 1024.<br>This is happen even if total number of channel is low.<br><br>Let me give context here - I don't raise this because i want to have more then 1k channels - my case is different: I'm generate channel list (base on repeater list in my country) and easiest way to order entries are to start each section from particular number (100, 200, 300 and so on) to easy manage my data.<br><br>Thanks,<br>Jacek SP9JCK</div></blockquote>CSV channel numbers must be in the range 1 to 1024<br><br>Although you can in theory have gaps in the channel numbers e.g<br><br>1<br>2<br>3<br><br>101<br>102<br>103<br><br>This will result in the codeplug binary data having gaps in it<br><br>So that when you add a new channel using the CPS it will be inserted into the first available gap e.g. 4<br><br><br>Just use your spreadsheet to re-number the channel number starting with 1 and incrementing by 1 each channel, just before you import it.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Dec 06, 2023 9:26 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9JCK]]></name></author>
+		<updated>2023-12-06T20:25:12</updated>
+
+		<published>2023-12-06T20:25:12</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27910#p27910</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27910#p27910"/>
+		<title type="html"><![CDATA[CPS error if channel number higher then 1024]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=3554&amp;p=27910#p27910"><![CDATA[
+Hi,<br><br>CPS are raise error during CSV import if channel number is higher then 1024.<br>This is happen even if total number of channel is low.<br><br>Let me give context here - I don't raise this because i want to have more then 1k channels - my case is different: I'm generate channel list (base on repeater list in my country) and easiest way to order entries are to start each section from particular number (100, 200, 300 and so on) to easy manage my data.<br><br>Thanks,<br>Jacek SP9JCK<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5087">SP9JCK</a> — Wed Dec 06, 2023 8:25 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

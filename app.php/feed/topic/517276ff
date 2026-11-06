@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5172" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-06-09T11:42:07</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5172</id>
+
+		<entry>
+		<author><name><![CDATA[G4EML]]></name></author>
+		<updated>2025-06-09T11:42:07</updated>
+
+		<published>2025-06-09T11:42:07</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37450#p37450</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37450#p37450"/>
+		<title type="html"><![CDATA[Re: Baofeng dm 1701 both time slots]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37450#p37450"><![CDATA[
+No, you can't listen to both timeslots at the same time. <br><br>You can enable both timeslots by turning off the TS Filter, you will then hear the first one to become active but while you are listening to that one you will not hear any activity on the second one. <br><br>Colin G4EML<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=87">G4EML</a> — Mon Jun 09, 2025 11:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KA1CM]]></name></author>
+		<updated>2025-06-09T11:38:05</updated>
+
+		<published>2025-06-09T11:38:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37448#p37448</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37448#p37448"/>
+		<title type="html"><![CDATA[Re: Baofeng dm 1701 both time slots]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37448#p37448"><![CDATA[
+What do you mean "receive both time slots at the same time"?<br><br>Quick menu -&gt; TS Filter = OFF ?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5068">KA1CM</a> — Mon Jun 09, 2025 11:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[m3lqj]]></name></author>
+		<updated>2025-06-09T11:00:04</updated>
+
+		<published>2025-06-09T11:00:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37447#p37447</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37447#p37447"/>
+		<title type="html"><![CDATA[Baofeng dm 1701 both time slots]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5172&amp;p=37447#p37447"><![CDATA[
+Hi,is it possible to receive both time slots at the same time on this radio.<br>Regards<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8644">m3lqj</a> — Mon Jun 09, 2025 11:00 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

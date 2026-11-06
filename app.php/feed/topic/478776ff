@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4787" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-26T09:37:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4787</id>
+
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-26T09:37:21</updated>
+
+		<published>2025-01-26T09:37:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35372#p35372</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35372#p35372"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35372#p35372"><![CDATA[
+This version has been superseded: <a href="https://www.opengd77.com/viewtopic.php?f=18&amp;t=4806" class="postlink">viewtopic.php?f=18&amp;t=4806</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jan 26, 2025 9:37 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-23T21:34:44</updated>
+
+		<published>2025-01-23T21:34:44</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35325#p35325</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35325#p35325"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35325#p35325"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>In answer to the posts about why the MD9600 does not output the APRS tones audio to the speaker...<br>There is no hardware audio signal path from the Tx tone generator to the speaker</div></blockquote>That's good then in this case if we want silence in the new aprs design <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"></div></blockquote>BTW.<br><br>Long story short about APRS Rx. None of the supported radios, have a known audio signal path for Rx AF audio to the CPU. Hence this is currently impossible.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 23, 2025 9:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2025-01-23T21:05:16</updated>
+
+		<published>2025-01-23T21:05:16</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35323#p35323</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35323#p35323"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35323#p35323"><![CDATA[
+<blockquote class="uncited"><div>In answer to the posts about why the MD9600 does not output the APRS tones audio to the speaker...<br>There is no hardware audio signal path from the Tx tone generator to the speaker</div></blockquote>That's good then in this case if we want silence in the new aprs design <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_smile.gif" width="15" height="17" alt=":)" title="Smile"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Thu Jan 23, 2025 9:05 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-01-23T20:04:31</updated>
+
+		<published>2025-01-23T20:04:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35322#p35322</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35322#p35322"/>
+		<title type="html"><![CDATA[Re: New MD-9600 Beta version 2025 01 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35322#p35322"><![CDATA[
+In answer to the posts about why the MD9600 does not output the APRS tones audio to the speaker...<br>There is no hardware audio signal path from the Tx tone generator to the speaker<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Thu Jan 23, 2025 8:04 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-22T17:07:49</updated>
+
+		<published>2025-01-22T17:07:49</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35273#p35273</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35273#p35273"/>
+		<title type="html"><![CDATA[New MD-9600 Beta version 2025 01 22]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4787&amp;p=35273#p35273"><![CDATA[
+<ul><li> Fix Last Talker setting problem.</li><li> Italian update from IZ2EIB.</li></ul>The firmwares are available at: <a href="https://drive.proton.me/urls/S2RJHRDQP8#1WTVOa6uQcFI" class="postlink">https://drive.proton.me/urls/S2RJHRDQP8#1WTVOa6uQcFI</a><br>The voice prompts are available at: <a href="https://drive.proton.me/urls/TJPJF51XAC#jSxZ1Ln9GyI9" class="postlink">https://drive.proton.me/urls/TJPJF51XAC#jSxZ1Ln9GyI9</a><br><br><strong class="text-strong">NOTE</strong>: You <span style="text-decoration:underline">need</span> to use a CPS version greater or equal the the 2025/01/19, otherwise the APRS config won't work. See the CPS section <a href="https://www.opengd77.com/viewtopic.php?f=12&amp;t=4773#p35193" class="postlink">viewtopic.php?f=12&amp;t=4773#p35193</a><br><br>For translators, the on-screen texts, voice prompts CSV and CPS XML files are located at: <a href="https://drive.proton.me/urls/Y6Q3ZDND7C#teUQ3T2TOpug" class="postlink">https://drive.proton.me/urls/Y6Q3ZDND7C#teUQ3T2TOpug</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Wed Jan 22, 2025 5:07 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,1118 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-gb">
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=16&t=4812&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 07:48:32 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Fix minimum volume is too loud issue on DM-1701 - OpenGD77</title>
+
+	<link rel="alternate" type="application/atom+xml" title="Feed - OpenGD77" href="app.php/feed76ff?sid=">			<link rel="alternate" type="application/atom+xml" title="Feed - New Topics" href="app.php/feed/topics76ff?sid=">		<link rel="alternate" type="application/atom+xml" title="Feed - Forum - Developer discussions" href="app.php/feed/forum/1676ff?sid=">	<link rel="alternate" type="application/atom+xml" title="Feed - Topic - Fix minimum volume is too loud issue on DM-1701" href="app.php/feed/topic/481276ff?sid=">	
+	<link rel="canonical" href="viewtopic73eb.html?t=4812">
+
+<!--
+	phpBB style name: prosilver
+	Based on style:   prosilver (this is the default phpBB3 style)
+	Original author:  Tom Beddard ( http://www.subBlue.com/ )
+	Modified by:
+-->
+
+<link href="assets/css/font-awesome.min245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/stylesheet245c.css?assets_version=3" rel="stylesheet">
+<link href="styles/prosilver/theme/en/stylesheet245c.css?assets_version=3" rel="stylesheet">
+
+
+
+
+<!--[if lte IE 9]>
+	<link href="./styles/prosilver/theme/tweaks.css?assets_version=3" rel="stylesheet">
+<![endif]-->
+
+
+
+
+
+</head>
+<body id="phpbb" class="nojs notouch section-viewtopic ltr ">
+
+
+<div id="wrap" class="wrap">
+	<a id="top" class="top-anchor" accesskey="t"></a>
+	<div id="page-header">
+		<div class="headerbar" role="banner">
+					<div class="inner">
+
+			<div id="site-description" class="site-description">
+				<a id="logo" class="logo" href="index76ff.html?sid=" title="Board index"><span class="site_logo"></span></a>
+				<h1>OpenGD77</h1>
+				<p>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</p>
+				<p class="skiplink"><a href="#start_here">Skip to content</a></p>
+			</div>
+
+									
+						
+			</div>
+					</div>
+				<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-main" class="nav-main linklist" role="menubar"  style="display:none">
+
+		<li id="quick-links" class="quick-links dropdown-container responsive-menu" style="display:none" data-skip-responsive="true">
+			<a href="#" class="dropdown-trigger">
+				<i class="icon fa-bars fa-fw" aria-hidden="true"></i><span>Quick links</span>
+			</a>
+			<div class="dropdown">
+				
+				<ul class="dropdown-contents" role="menu">
+					
+											<li class="separator"></li>
+																									<li>
+								<a href="" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-gray" aria-hidden="true"></i>
+								</a>
+							</li>
+							<li>
+								<a href="#" role="menuitem">
+									<i class="icon fa-file-o fa-fw icon-blue" aria-hidden="true"></i><span>Active topics</span>
+								</a>
+							</li>
+							<li class="separator"></li>
+							<li>
+								<a href="search.php?sid=" role="menuitem">
+									<i class="icon fa-search fa-fw" aria-hidden="true"></i><span>Search</span>
+								</a>
+							</li>
+					
+										<li class="separator"></li>
+
+									</ul>
+			</div>
+		</li>
+
+				<li data-skip-responsive="true">
+			<a href="app.php/help/faq76ff.html?sid=" rel="help" title="Frequently Asked Questions" role="menuitem">
+				<i class="icon fa-question-circle fa-fw" aria-hidden="true"></i>
+			</a>
+		</li>
+						
+			<li class="rightside"  data-skip-responsive="true">
+			<a href="" title="" accesskey="x" role="menuitem">
+				<i class="" aria-hidden="true"></i><span></span>
+			</a>
+		</li>
+					<li class="rightside" data-skip-responsive="true">
+				<a href="" role="menuitem">
+					<i class="" aria-hidden="true"></i><span></span>
+				</a>
+			</li>
+						</ul>
+
+	<ul id="nav-breadcrumbs" class="nav-breadcrumbs linklist navlinks" role="menubar">
+								<li class="breadcrumbs" itemscope itemtype="http://schema.org/BreadcrumbList">
+										<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope><a href="index76ff.html?sid=" itemtype="https://schema.org/Thing" itemprop="item" accesskey="h" data-navbar-reference="index"><i class="icon fa-home fa-fw"></i><span itemprop="name">Board index</span></a><meta itemprop="position" content="1" /></span>
+
+											<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="6"><a href="viewforum68f5.html?f=6&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Discussions</span></a><meta itemprop="position" content="2" /></span>
+															<span class="crumb"  itemtype="http://schema.org/ListItem" itemprop="itemListElement" itemscope data-forum-id="16"><a href="viewforume716.html?f=16&amp" itemtype="https://schema.org/Thing" itemprop="item"><span itemprop="name">Developer discussions</span></a><meta itemprop="position" content="3" /></span>
+												</li>
+		
+					<li class="rightside responsive-search">
+				<a href="search.php?sid=" title="View the advanced search options" role="menuitem">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+	</div>
+
+	
+	<a id="start_here" class="anchor"></a>
+	<div id="page-body" class="page-body" role="main">
+		
+		
+<h2 class="topic-title"><a href="viewtopiceb16.html?f=16&amp;t=4812&amp">Fix minimum volume is too loud issue on DM-1701</a></h2>
+<!-- NOTE: remove the style="display: none" when you want to have the forum description on the topic body -->
+<div style="display: none !important;">Discussions related to the firmware code development<br /></div>
+
+
+<div class="action-bar bar-top">
+	
+			<a href="posting.php?mode=reply&amp;f=16&amp;t=4812&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+	
+			<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopicf450.html?f=16&amp;t=4812&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+	
+			<div class="search-box" role="search">
+			<form method="get" id="topic-search" action="search.php?sid=">
+			<fieldset>
+				<input class="inputbox search tiny"  type="search" name="keywords" id="search_keywords" size="20" placeholder="Search this topic…" />
+				<button class="button button-search" type="submit" title="Search">
+					<i class="icon fa-search fa-fw" aria-hidden="true"></i><span class="sr-only">Search</span>
+				</button>
+				<a href="search.php?sid=" class="button button-search-end" title="Advanced search">
+					<i class="icon fa-cog fa-fw" aria-hidden="true"></i><span class="sr-only">Advanced search</span>
+				</a>
+				<input type="hidden" name="t" value="4812" />
+<input type="hidden" name="sf" value="msgonly" />
+<input type="hidden" name="sid" value="" />
+
+			</fieldset>
+			</form>
+		</div>
+	
+			<div class="pagination">
+			10 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+		</div>
+
+
+
+
+			<div id="p35393" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35393">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7909&amp;sr=posts&amp">6</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Jan 26, 2025 8:51 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35393">
+
+						<h3 class="first"><a href="#p35393">Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35393&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic51b8.html?p=35393&amp;sid=#p35393" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a></strong> &raquo; </span>Sun Jan 26, 2025 11:08 pm
+			</p>
+			
+			
+			
+			<div class="content">I propose this solution to the issue of the minimum volume being too loud on the Baofeng DM-1701:<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>diff --git a/opengd77/MDUV380_firmware/application/include/functions/sound.h b/opengd77/MDUV380_firmware/application/include/fun
+ctions/sound.h
+index 63f0607..94e1b7a 100644
+--- a/opengd77/MDUV380_firmware/application/include/functions/sound.h
++++ b/opengd77/MDUV380_firmware/application/include/functions/sound.h
+@@ -73,7 +73,7 @@ extern volatile float dmrRxAGCrxPeakAverage;
+ #define HOTSPOT_BUFFER_SIZE                      50U
+ #define HOTSPOT_BUFFER_COUNT                     48U
+
+-#define DMR_RX_AGC_DEFAULT_PEAK_SAMPLES                        2000.0f
++#define DMR_RX_AGC_DEFAULT_PEAK_SAMPLES                        250.0f
+
+ extern union sharedDataBuffer
+ {
+diff --git a/opengd77/MDUV380_firmware/application/source/user_interface/menuSoundOptions.c b/opengd77/MDUV380_firmware/applicat
+ion/source/user_interface/menuSoundOptions.c
+index cf356a1..75e209f 100644
+--- a/opengd77/MDUV380_firmware/application/source/user_interface/menuSoundOptions.c
++++ b/opengd77/MDUV380_firmware/application/source/user_interface/menuSoundOptions.c
+@@ -264,7 +264,7 @@ static void updateScreen(bool isFirstRun)
+                                        leftSide = currentLanguage-&gt;dmr_rx_agc;
+                                        if (nonVolatileSettings.DMR_RxAGC != 0)
+                                        {
+-                                               snprintf(rightSideVar, SCREEN_LINE_BUFFER_SIZE, "%ddB", ((nonVolatileSettings.DM
+R_RxAGC - 1) * 3));
++                                               snprintf(rightSideVar, SCREEN_LINE_BUFFER_SIZE, "%ddB", ((nonVolatileSettings.DMR_RxAGC - 4) * 3));
+                                        }
+                                        else
+                                        {
+</code></pre></div>
+
+The change is basically to lower DMR_RX_AGC_DEFAULT_PEAK_SAMPLES by 9dB. As a result, the former DMR Rx AGC possible choices from 0 to 21dB have been remapped to -9 to 12 dB on the UI:<br>
+<br>
+<img src="https://imgur.com/teOLSAp" class="postimage" alt="Image"><br>
+<br>
+Note since I'm only shifting everything 9dB downwards and AGC_SETTINGS_LUT remains unaltered, gains from 15 to 21 are lost. This looks like an acceptable compromise to me as these gain values produced clipping distortion at least on my unit.<br>
+<br>
+Thanks for your consideration and for the great job!</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35394" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35394">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35394">
+
+						<h3 ><a href="#p35394">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35394&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicb621-2.html?p=35394&amp;sid=#p35394" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Sun Jan 26, 2025 11:17 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7909&amp">EA5HAV</a> wrote: <a href="viewtopic51b8.html?p=35393&amp;sid=#p35393" data-post-id="35393" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Sun Jan 26, 2025 11:08 pm</div></cite>
+I propose this solution to the issue of the minimum volume being too loud on the Baofeng DM-1701:<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>diff --git a/opengd77/MDUV380_firmware/application/include/functions/sound.h b/opengd77/MDUV380_firmware/application/include/fun
+ctions/sound.h
+index 63f0607..94e1b7a 100644
+--- a/opengd77/MDUV380_firmware/application/include/functions/sound.h
++++ b/opengd77/MDUV380_firmware/application/include/functions/sound.h
+@@ -73,7 +73,7 @@ extern volatile float dmrRxAGCrxPeakAverage;
+ #define HOTSPOT_BUFFER_SIZE                      50U
+ #define HOTSPOT_BUFFER_COUNT                     48U
+
+-#define DMR_RX_AGC_DEFAULT_PEAK_SAMPLES                        2000.0f
++#define DMR_RX_AGC_DEFAULT_PEAK_SAMPLES                        250.0f
+
+ extern union sharedDataBuffer
+ {
+diff --git a/opengd77/MDUV380_firmware/application/source/user_interface/menuSoundOptions.c b/opengd77/MDUV380_firmware/applicat
+ion/source/user_interface/menuSoundOptions.c
+index cf356a1..75e209f 100644
+--- a/opengd77/MDUV380_firmware/application/source/user_interface/menuSoundOptions.c
++++ b/opengd77/MDUV380_firmware/application/source/user_interface/menuSoundOptions.c
+@@ -264,7 +264,7 @@ static void updateScreen(bool isFirstRun)
+                                        leftSide = currentLanguage-&gt;dmr_rx_agc;
+                                        if (nonVolatileSettings.DMR_RxAGC != 0)
+                                        {
+-                                               snprintf(rightSideVar, SCREEN_LINE_BUFFER_SIZE, "%ddB", ((nonVolatileSettings.DM
+R_RxAGC - 1) * 3));
++                                               snprintf(rightSideVar, SCREEN_LINE_BUFFER_SIZE, "%ddB", ((nonVolatileSettings.DMR_RxAGC - 4) * 3));
+                                        }
+                                        else
+                                        {
+</code></pre></div>
+
+The change is basically to lower DMR_RX_AGC_DEFAULT_PEAK_SAMPLES by 9dB. As a result, the former DMR Rx AGC possible choices from 0 to 21dB have been remapped to -9 to 12 dB on the UI:<br>
+<br>
+<img src="https://imgur.com/teOLSAp" class="postimage" alt="Image"><br>
+<br>
+Note since I'm only shifting everything 9dB downwards and AGC_SETTINGS_LUT remains unaltered, gains from 15 to 21 are lost. This looks like an acceptable compromise to me as these gain values produced clipping distortion at least on my unit.<br>
+<br>
+Thanks for your consideration and for the great job!
+</div></blockquote>
+
+<br>
+So you are proposing that the maximum DMR audio gain is reduced from 21 to 12dB?<br>
+<br>
+If so, won't this affect people who need DMR gain of above 12dB ??<br>
+<br>
+AFIK. Even with several thousand people using OpenGD77 on the DM1701, no one else reported any need to change the DMR audio gain beyond its current limits.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35395" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35395">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7909&amp;sr=posts&amp">6</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Jan 26, 2025 8:51 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35395">
+
+						<h3 ><a href="#p35395">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35395&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic9ed6.html?p=35395&amp;sid=#p35395" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a></strong> &raquo; </span>Mon Jan 27, 2025 12:02 am
+			</p>
+			
+			
+			
+			<div class="content">You could get these 3 gain steps back by adding 3 extra multipliers to AGC_SETTINGS_LUT at sound.h:<br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>static int AGC_SETTINGS_LUT[]= {1,2,4,8,16,32,64,128,256,512,1024};
+</code></pre></div>
+
+And setting DMR_RX_AGC_MAX to 11 in menuSoundOptions.c.<br>
+<br>
+BTW, looking at this code, some platforms allow up to 16 gain steps, wouldn't this cause an AGC_SETTINGS_LUT buffer overrun? <img alt="🤔" class="emoji smilies" draggable="false" src="http://twemoji.maxcdn.com/2/svg/1f914.svg"><br>
+
+<div class="codebox"><p>Code: <a href="#" onclick="selectCode(this); return false;">Select all</a></p><pre><code>#if defined(PLATFORM_GD77) || defined(PLATFORM_GD77S) || defined(PLATFORM_DM1801) || defined(PLATFORM_DM1801A) || defined(PLATFORM_RD5R)
+#define DMR_RX_AGC_MAX 16
+#define FM_MIC_GAIN_MIN 1  // Limit to min 1, as 0: no audio
+#define FM_MIC_GAIN_MAX 31
+#elif defined(PLATFORM_MD9600)
+#define DMR_RX_AGC_MAX 16
+#define FM_MIC_GAIN_MIN 0
+#define FM_MIC_GAIN_MAX 15
+#else
+#define DMR_RX_AGC_MAX 8
+#define FM_MIC_GAIN_MIN 0
+#define FM_MIC_GAIN_MAX 15
+#endif
+</code></pre></div>
+
+Not sure why no one else reported is. But the fact is that this radio is too loud at its minimum volume especially if you are in a quiet environment, eg. at nights with kids already sleeping etc.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35396" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35396">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35396">
+
+						<h3 ><a href="#p35396">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35396&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopice41b-2.html?p=35396&amp;sid=#p35396" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Mon Jan 27, 2025 2:42 am
+			</p>
+			
+			
+			
+			<div class="content">Did you try more than one DM1701?<br>
+<br>
+Is there a possibility you have a hardware fault on your radio which casues the volume to not work correctly?<br>
+<br>
+I checked with some other DM1701 owners and no one else seems to have the problem you are experiencing.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35398" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35398">
+			<dt class="no-profile-rank has-avatar">
+				<div class="avatar-container">
+																<a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="avatar"><img class="avatar" src="download/file73c5.jpg?avatar=56_1576571525.jpg" width="90" height="90" alt="User avatar" /></a>														</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="username">F1RMB</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=56&amp;sr=posts&amp">3426</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 5:42 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Grenoble, France</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35398">
+
+						<h3 ><a href="#p35398">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35398&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic823e.html?p=35398&amp;sid=#p35398" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=56&amp" class="username">F1RMB</a></strong> &raquo; </span>Mon Jan 27, 2025 3:57 am
+			</p>
+			
+			
+			
+			<div class="content">The original "too loud" volume on the DM-1701 was fixed around May 2024.<br>
+I also re-checked that, and it works as expected.<br>
+So, as Roger wrote, maybe your transceiver may have a HW problem. <br>
+What about the volume notification, can you control the lowest volume levels (1 to 3 pixels wide) ?.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35400" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35400">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35400">
+
+						<h3 ><a href="#p35400">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35400&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic346c.html?p=35400&amp;sid=#p35400" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Mon Jan 27, 2025 6:51 am
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=7909&amp">EA5HAV</a> wrote: <a href="viewtopic9ed6.html?p=35395&amp;sid=#p35395" data-post-id="35395" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Jan 27, 2025 12:02 am</div></cite>
+....
+</div></blockquote>
+
+Can you also confirm that the volume level is too loud when you don't use DMR AGC ??</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35404" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35404">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7909&amp;sr=posts&amp">6</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Jan 26, 2025 8:51 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35404">
+
+						<h3 ><a href="#p35404">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35404&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopica987.html?p=35404&amp;sid=#p35404" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a></strong> &raquo; </span>Mon Jan 27, 2025 2:17 pm
+			</p>
+			
+			
+			
+			<div class="content"><blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp">VK3KYY</a> wrote: <a href="viewtopice41b-2.html?p=35396&amp;sid=#p35396" data-post-id="35396" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Jan 27, 2025 2:42 am</div></cite>
+Did you try more than one DM1701?
+</div></blockquote>
+
+I did try two Baofengs DM-1701 bought more than 1 year apart.<br>
+
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=50&amp">VK3KYY</a> wrote: <a href="viewtopic346c.html?p=35400&amp;sid=#p35400" data-post-id="35400" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Jan 27, 2025 6:51 am</div></cite>
+Can you also confirm that the volume level is too loud when you don't use DMR AGC ??
+</div></blockquote>
+
+Yes. See video below.<br>
+
+<blockquote><div><cite><a href="memberlist.php?mode=viewprofile&amp;u=56&amp">F1RMB</a> wrote: <a href="viewtopic823e.html?p=35398&amp;sid=#p35398" data-post-id="35398" onclick="if(document.getElementById(hash.substr(1)))href=hash">↑</a><div class="responsive-hide">Mon Jan 27, 2025 3:57 am</div></cite>
+What about the volume notification, can you control the lowest volume levels (1 to 3 pixels wide) ?.
+</div></blockquote>
+
+I think so. I can go from mute to 1 px, then 2 px, then it skips 3 and jumps to 4 px if I can see correctly. Then backwards 4px goes to 2px then mute.<br>
+<br>
+Anyway I recorded a video with volume set at 1 px, AGC OFF. Maybe this is a matter of perception or I have too sensitive an ear, IDK. But at night with kids sleeping this is loud to me and having some negative AGC gets the job done and I believe the impact in ROM usage is minimum (3 extra ints if you want to keep gains 15-21, none otherwise).<br>
+<br>
+<iframe allowfullscreen="allowFullScreen" src="https://www.youtube.com/embed/wO5ubLp3U0Q" width="560" height="315" frameborder="0"></iframe><br><a href="http://youtu.be/wO5ubLp3U0Q">youtu.be/wO5ubLp3U0Q</a></div>
+
+			
+			
+													<div class="notice">
+					Last edited by <a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a> on Mon Jan 27, 2025 2:39 pm, edited 1 time in total.
+									</div>
+			
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35405" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35405">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7909&amp;sr=posts&amp">6</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Jan 26, 2025 8:51 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35405">
+
+						<h3 ><a href="#p35405">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35405&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic1dab-2.html?p=35405&amp;sid=#p35405" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a></strong> &raquo; </span>Mon Jan 27, 2025 2:34 pm
+			</p>
+			
+			
+			
+			<div class="content">Here is another video with AGC at 0dB and volume at 1px.<br>
+<br>
+<iframe allowfullscreen="allowFullScreen" src="https://www.youtube.com/embed/XDKHEBM0khE" width="560" height="315" frameborder="0"></iframe><br><a href="http://youtu.be/XDKHEBM0khE">youtu.be/XDKHEBM0khE</a><br>
+<br>
+And <a href="https://www.miklor.com/COM/Review_DM1701.php" class="postlink">here is complaint</a> about the same thing (he's reviewing the original fw, though).<br>
+
+<blockquote class="uncited"><div>Note: One issue with the radios I tested was the volume control level. On DMR, the volume range is from 100% (full) to about 15%, then sharply drops to zero. There is no low volume position. On analog, minimum is even louder.<br>
+<br>
+I installed a 29 ohm resister in series with the speaker line to cut back the levels.
+</div></blockquote></div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35410" class="post has-profile bg2">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35410">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=50&amp;sr=posts&amp">8682</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sat Nov 16, 2019 3:25 am</dd>		
+		
+											<dd class="profile-custom-field profile-phpbb_location"><strong>Location:</strong> Melbourne, Australia</dd>
+							
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35410">
+
+						<h3 ><a href="#p35410">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35410&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopic4754.html?p=35410&amp;sid=#p35410" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=50&amp" class="username">VK3KYY</a></strong> &raquo; </span>Mon Jan 27, 2025 8:28 pm
+			</p>
+			
+			
+			
+			<div class="content">You use-case does not seem to be normal, i.e these radios are not designed for quiet listening at night.<br>
+<br>
+Although you could modify the firmware, for you own use-case, I don't think this is the optimal method to reduce the volume, because the signal to noise ratio will get worse as you reduce the numerical values of the audio signal samples.<br>
+This is because these radios are inherently noisy on their internal supplies, and the audio amp will be designed to operate in the normal analogue signal output by the DMR chip<br>
+<br>
+Your solution to use a resistor will probably produce better quality audio than attempting to accomplish the same task in the digital domain</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+				<div id="p35412" class="post has-profile bg1">
+		<div class="inner">
+
+		<dl class="postprofile" id="profile35412">
+			<dt class="no-profile-rank no-avatar">
+				<div class="avatar-container">
+																			</div>
+								<a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a>							</dt>
+
+									
+		<dd class="profile-posts"><strong>Posts:</strong> <a href="search.php?author_id=7909&amp;sr=posts&amp">6</a></dd>		<dd class="profile-joined"><strong>Joined:</strong> Sun Jan 26, 2025 8:51 pm</dd>		
+		
+						
+						
+		</dl>
+
+		<div class="postbody">
+						<div id="post_content35412">
+
+						<h3 ><a href="#p35412">Re: Fix minimum volume is too loud issue on DM-1701</a></h3>
+
+													<ul class="post-buttons">
+																																									<li>
+							<a href="posting.php?mode=quote&amp;f=16&amp;p=35412&amp" title="Reply with quote" class="button button-icon-only">
+								<i class="icon fa-quote-left fa-fw" aria-hidden="true"></i><span class="sr-only">Quote</span>
+							</a>
+						</li>
+														</ul>
+							
+						<p class="author">
+									<a class="unread" href="viewtopicd08e.html?p=35412&amp;sid=#p35412" title="Post">
+						<i class="icon fa-file fa-fw icon-lightgray icon-md" aria-hidden="true"></i><span class="sr-only">Post</span>
+					</a>
+								<span class="responsive-hide">by <strong><a href="memberlist.php?mode=viewprofile&amp;u=7909&amp" class="username">EA5HAV</a></strong> &raquo; </span>Mon Jan 27, 2025 10:15 pm
+			</p>
+			
+			
+			
+			<div class="content">Thanks for the advice!<br>
+<br>
+Here is the <a href="https://github.com/jamarju/opengd77/releases/tag/20240908_fix_vol" class="postlink">firmware with the proposed change</a> in case it helps anyone.<br>
+<br>
+Cheers.</div>
+
+			
+			
+									
+									
+						</div>
+
+		</div>
+
+				<div class="back2top">
+						<a href="#top" class="top" title="Top">
+				<i class="icon fa-chevron-circle-up fa-fw icon-gray" aria-hidden="true"></i>
+				<span class="sr-only">Top</span>
+			</a>
+					</div>
+		
+		</div>
+	</div>
+
+	<hr class="divider" />
+	
+
+	<div class="action-bar bar-bottom">
+	
+			<a href="posting.php?mode=reply&amp;f=16&amp;t=4812&amp" class="button" title="Post a reply">
+							<span></span> <i class="icon fa-reply fa-fw" aria-hidden="true"></i>
+					</a>
+		
+		<div class="dropdown-container dropdown-button-control topic-tools">
+		<span title="Topic tools" class="button button-secondary dropdown-trigger dropdown-select">
+			<i class="icon fa-wrench fa-fw" aria-hidden="true"></i>
+			<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+		</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																												<li>
+					<a href="viewtopicf450.html?f=16&amp;t=4812&amp;sid=&amp;view=print" title="Print view" accesskey="p">
+						<i class="icon fa-print fa-fw" aria-hidden="true"></i><span>Print view</span>
+					</a>
+				</li>
+											</ul>
+		</div>
+	</div>
+
+			<form method="post" action="viewtopic.php?f=16&amp;t=4812&amp">
+		<div class="dropdown-container dropdown-container-left dropdown-button-control sort-tools">
+	<span title="Display and sorting options" class="button button-secondary dropdown-trigger dropdown-select">
+		<i class="icon fa-sort-amount-asc fa-fw" aria-hidden="true"></i>
+		<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+	</span>
+	<div class="dropdown hidden">
+		
+		<div class="dropdown-contents">
+			<fieldset class="display-options">
+							<label>Display: <select name="st" id="st"><option value="0" selected="selected">All posts</option><option value="1">1 day</option><option value="7">7 days</option><option value="14">2 weeks</option><option value="30">1 month</option><option value="90">3 months</option><option value="180">6 months</option><option value="365">1 year</option></select></label>
+								<label>Sort by: <select name="sk" id="sk"><option value="a">Author</option><option value="t" selected="selected">Post time</option><option value="s">Subject</option></select></label>
+				<label>Direction: <select name="sd" id="sd"><option value="a" selected="selected">Ascending</option><option value="d">Descending</option></select></label>
+								<hr class="dashed" />
+				<input type="submit" class="button2" name="sort" value="Go" />
+						</fieldset>
+		</div>
+	</div>
+</div>
+		</form>
+	
+	
+	
+			<div class="pagination">
+			10 posts
+							&bull; Page <strong>1</strong> of <strong>1</strong>
+					</div>
+	</div>
+
+
+<div class="action-bar actions-jump">
+		<p class="jumpbox-return">
+		<a href="viewforume716.html?f=16&amp" class="left-box arrow-left" accesskey="r">
+			<i class="icon fa-angle-left fa-fw icon-black" aria-hidden="true"></i><span>Return to “Developer discussions”</span>
+		</a>
+	</p>
+	
+		<div class="jumpbox dropdown-container dropdown-container-right dropdown-up dropdown-left dropdown-button-control" id="jumpbox">
+			<span title="Jump to" class="button button-secondary dropdown-trigger dropdown-select">
+				<span>Jump to</span>
+				<span class="caret"><i class="icon fa-sort-down fa-fw" aria-hidden="true"></i></span>
+			</span>
+		<div class="dropdown">
+			
+			<ul class="dropdown-contents">
+																				<li><a href="viewforum24e8.html?f=1&amp" class="jumpbox-cat-link"> <span> OpenGD77 information</span></a></li>
+																<li><a href="viewforum3550.html?f=3&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Announcements</span></a></li>
+																<li><a href="viewforumbe59.html?f=5&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; FAQ</span></a></li>
+																<li><a href="viewforum5dff.html?f=21&amp" class="jumpbox-cat-link"> <span> Radios &amp; CPS</span></a></li>
+																<li><a href="viewforumf979.html?f=12&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; CPS</span></a></li>
+																<li><a href="viewforume4b2.html?f=13&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; GD-77 / DM-1801 / RD-5R / GD-77S</span></a></li>
+																<li><a href="viewforum3072.html?f=18&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-9600 / Retevis RT-90</span></a></li>
+																<li><a href="viewforum71f6.html?f=19&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-UV380/390 / UV380/390 / Retevis RT-3S / Baofeng DM-1701 / DM-1701B / Retevis RT-84</span></a></li>
+																<li><a href="viewforum566e.html?f=28&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD2017 / Retevis RT-82</span></a></li>
+																<li><a href="viewforum976e.html?f=27&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Other unsupported radios</span></a></li>
+																<li><a href="viewforum68f5.html?f=6&amp" class="jumpbox-cat-link"> <span> Discussions</span></a></li>
+																<li><a href="viewforum5c89.html?f=10&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; New members must post here first</span></a></li>
+																<li><a href="viewforum3e36.html?f=29&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Help needed</span></a></li>
+																<li><a href="viewforum7cb0.html?f=7&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; General discussions</span></a></li>
+																<li><a href="viewforumc69f.html?f=9&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Hotspot mode</span></a></li>
+																<li><a href="viewforume094.html?f=22&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Voice prompts</span></a></li>
+																<li><a href="viewforumd275.html?f=23&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Localisation</span></a></li>
+																<li><a href="viewforum5cd2.html?f=14&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Codeplugs</span></a></li>
+																<li><a href="viewforum41c9.html?f=17&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1801 specific</span></a></li>
+																<li><a href="viewforum93b2.html?f=25&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Baofeng DM-1701 / Retevis RT-84 specific</span></a></li>
+																<li><a href="viewforume716.html?f=16&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Developer discussions</span></a></li>
+																<li><a href="viewforum53f9.html?f=26&amp" class="jumpbox-sub-link"><span class="spacer"></span><span class="spacer"></span> <span>&#8627; &nbsp; TYT MD-2017 / RT-82</span></a></li>
+																<li><a href="viewforum5fd2.html?f=11&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Bug reports</span></a></li>
+																<li><a href="viewforume051.html?f=8&amp" class="jumpbox-sub-link"><span class="spacer"></span> <span>&#8627; &nbsp; Off topic</span></a></li>
+											</ul>
+		</div>
+	</div>
+
+	</div>
+
+
+			</div>
+
+
+<div id="page-footer" class="page-footer" role="contentinfo">
+	<div class="navbar" role="navigation">
+	<div class="inner">
+
+	<ul id="nav-footer"  style="display:none" class="nav-footer linklist" role="menubar">
+		<li class="breadcrumbs">
+									<span class="crumb"><a href="index76ff.html?sid=" data-navbar-reference="index"><i class="icon fa-home fa-fw" aria-hidden="true"></i><span>Board index</span></a></span>					</li>
+		
+				<li class="rightside">All times are <span title="UTC">UTC</span></li>
+							<li class="rightside">
+				<a href="ucp.php?mode=delete_cookies&amp" data-ajax="true" data-refresh="true" role="menuitem">
+					<i class="icon fa-trash fa-fw" aria-hidden="true"></i><span>Delete cookies</span>
+				</a>
+			</li>
+																<li class="rightside" data-last-responsive="true">
+				<a href="memberlist.php?mode=contactadmin&amp" role="menuitem">
+					<i class="icon fa-envelope fa-fw" aria-hidden="true"></i><span>Contact us</span>
+				</a>
+			</li>
+			</ul>
+
+	</div>
+</div>
+
+	
+
+	<div id="darkenwrapper" class="darkenwrapper" data-ajax-error-title="AJAX error" data-ajax-error-text="Something went wrong when processing your request." data-ajax-error-text-abort="User aborted request." data-ajax-error-text-timeout="Your request timed out; please try again." data-ajax-error-text-parsererror="Something went wrong with the request and the server returned an invalid reply.">
+		
+	</div>
+
+	<div id="phpbb_alert" class="phpbb_alert" data-l-err="Error" data-l-timeout-processing-req="Request timed out.">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<h3 class="alert_title">&nbsp;</h3><p class="alert_text"></p>
+	</div>
+	<div id="phpbb_confirm" class="phpbb_alert">
+		<a href="#" class="alert_close">
+			<i class="icon fa-times-circle fa-fw" aria-hidden="true"></i>
+		</a>
+		<div class="alert_text"></div>
+	</div>
+</div>
+
+</div>
+
+<div>
+	<a id="bottom" class="anchor" accesskey="z"></a>
+	<img src="cron200f.gif?cron_type=cron.task.core.tidy_sessions&amp" width="1" height="1" alt="cron" /></div>
+
+<script src="assets/javascript/jquery.min245c.js?assets_version=3"></script>
+<script src="assets/javascript/core245c.js?assets_version=3"></script>
+
+
+
+<script src="styles/prosilver/template/forum_fn245c.js?assets_version=3"></script>
+<script src="styles/prosilver/template/ajax245c.js?assets_version=3"></script>
+
+
+
+</body>
+
+<!-- Mirrored from localhost/opengd77/viewtopic.php?f=16&t=4812&sid= by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 29 Jul 2025 07:48:56 GMT -->
+</html>

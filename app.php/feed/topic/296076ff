@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2960" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2023-06-13T10:16:43</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2960</id>
+
+		<entry>
+		<author><name><![CDATA[bh4rqx]]></name></author>
+		<updated>2023-06-13T10:11:26</updated>
+
+		<published>2023-06-13T10:11:26</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23928#p23928</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23928#p23928"/>
+		<title type="html"><![CDATA[Re: HELP?DM-5R looks broken]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23928#p23928"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br><br>  Smells like corruption/erasing of the MCU "protection" bytes.<br><br>Cheers.<br>---<br>Daniel</div></blockquote>Thanks a lot?<br>Is it possible to restore it to its initial mode?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4015">bh4rqx</a> — Tue Jun 13, 2023 10:11 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[bh4rqx]]></name></author>
+		<updated>2023-06-13T10:16:43 </updated>
+
+		<published>2023-06-13T10:08:29</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23927#p23927</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23927#p23927"/>
+		<title type="html"><![CDATA[Re: HELP?DM-5R looks broken]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23927#p23927"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> Oh no! <br>My DM-5R can't enter the firmware upgrade mode after flashing the GD77 firmware. I pressed the SK1 and SK2 keys, then started up, the green light flashes 4 times, and then it enters normal use mode. Can anyone help me?</div></blockquote>Give more details<br><br>Is this the first time you tried to do a firmware update on this radio?</div></blockquote>This is the first time I've flashed firmware on this radio. I suspect that it may be due to flashing the wrong firmware version that has caused the current problem. <br>Now this radio can write frequencies normally, but it cannot enter firmware flashing mode.<br>Is it possible to fix? <br>Thank you for your reply!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4015">bh4rqx</a> — Tue Jun 13, 2023 10:08 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2023-06-11T23:23:30</updated>
+
+		<published>2023-06-11T23:23:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23917#p23917</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23917#p23917"/>
+		<title type="html"><![CDATA[Re: HELP?DM-5R looks broken]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23917#p23917"><![CDATA[
+Hi,<br><br>  Smells like corruption/erasing of the MCU "protection" bytes.<br><br>Cheers.<br>---<br>Daniel<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Sun Jun 11, 2023 11:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2023-06-11T21:19:13</updated>
+
+		<published>2023-06-11T21:19:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23915#p23915</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23915#p23915"/>
+		<title type="html"><![CDATA[Re: HELP?DM-5R looks broken]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23915#p23915"><![CDATA[
+<blockquote class="uncited"><div><img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> Oh no! <br>My DM-5R can't enter the firmware upgrade mode after flashing the GD77 firmware. I pressed the SK1 and SK2 keys, then started up, the green light flashes 4 times, and then it enters normal use mode. Can anyone help me?</div></blockquote>Give more details<br><br>Is this the first time you tried to do a firmware update on this radio?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Jun 11, 2023 9:19 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[bh4rqx]]></name></author>
+		<updated>2023-06-11T11:58:31</updated>
+
+		<published>2023-06-11T11:58:31</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23911#p23911</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23911#p23911"/>
+		<title type="html"><![CDATA[HELP?DM-5R looks broken]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2960&amp;p=23911#p23911"><![CDATA[
+<img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_sad.gif" width="15" height="17" alt=":(" title="Sad"> Oh no! <br>My DM-5R can't enter the firmware upgrade mode after flashing the GD77 firmware. I pressed the SK1 and SK2 keys, then started up, the green light flashes 4 times, and then it enters normal use mode. Can anyone help me?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4015">bh4rqx</a> — Sun Jun 11, 2023 11:58 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/1882" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2021-10-04T09:10:13</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/1882</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2021-10-04T09:10:13</updated>
+
+		<published>2021-10-04T09:10:13</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1882&amp;p=16072#p16072</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1882&amp;p=16072#p16072"/>
+		<title type="html"><![CDATA[Re: OpenGD77 Firmware Install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1882&amp;p=16072#p16072"><![CDATA[
+<blockquote class="uncited"><div>Greetings! I have searched for this without luck. When I follow the instructions for putting the OpenGD77 firmware on my 1801, I get to the point that it should start writing the firmware, but it just sits there. I left it for 45 minutes with no change and finally had to kill the program. The cable I’m using works just fine for reading &amp; writing programming data to/from the radio. Thanks!</div></blockquote>Upload should start instantly<br><br>Please can you document step by step exactly what buttons you pressed on the CPS and also the radio<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 04, 2021 9:10 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[N4UPC]]></name></author>
+		<updated>2021-10-04T01:42:47</updated>
+
+		<published>2021-10-04T01:42:47</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=1882&amp;p=16061#p16061</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=1882&amp;p=16061#p16061"/>
+		<title type="html"><![CDATA[OpenGD77 Firmware Install]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=1882&amp;p=16061#p16061"><![CDATA[
+Greetings! I have searched for this without luck. When I follow the instructions for putting the OpenGD77 firmware on my 1801, I get to the point that it should start writing the firmware, but it just sits there. I left it for 45 minutes with no change and finally had to kill the program. The cable I’m using works just fine for reading &amp; writing programming data to/from the radio. Thanks!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2103">N4UPC</a> — Mon Oct 04, 2021 1:42 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4444" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-02-18T21:11:36</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4444</id>
+
+		<entry>
+		<author><name><![CDATA[DA1TH]]></name></author>
+		<updated>2025-02-18T21:11:36</updated>
+
+		<published>2025-02-18T21:11:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4444&amp;p=35825#p35825</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=35825#p35825"/>
+		<title type="html"><![CDATA[Re: QDMR CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=35825#p35825"><![CDATA[
+You should try qdmr version 0.12.1, it supports the new OpenGD77 format. I can read and write the channel list from my DM-1701.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6389">DA1TH</a> — Tue Feb 18, 2025 9:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2OZH]]></name></author>
+		<updated>2024-09-30T11:36:32</updated>
+
+		<published>2024-09-30T11:36:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33289#p33289</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33289#p33289"/>
+		<title type="html"><![CDATA[Re: QDMR CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33289#p33289"><![CDATA[
+Thank you very much!<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6579">PU2OZH</a> — Mon Sep 30, 2024 11:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2024-09-29T21:11:59</updated>
+
+		<published>2024-09-29T21:11:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33279#p33279</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33279#p33279"/>
+		<title type="html"><![CDATA[Re: QDMR CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33279#p33279"><![CDATA[
+You should contact the author of that software, because it not something the OpenGD77 team wrote or maintain<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Sep 29, 2024 9:11 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SA0BUX]]></name></author>
+		<updated>2024-09-29T13:36:05</updated>
+
+		<published>2024-09-29T13:36:05</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33273#p33273</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33273#p33273"/>
+		<title type="html"><![CDATA[Re: Retained Settings After Flashing OpenGD77 Firmware]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33273#p33273"><![CDATA[
+<blockquote class="uncited"><div>I have been trying to use QDMR with my Baofeng DM1701 for weeks without success.<br>I have installed the latest version of OpenGD CPS, the latest version of OpenDM1701 firmware and version 0.12.0 of QDMR. The problem persists and presents itself in the same way.<br>When I try to download the codeplug from the radio, QDMR displays an error window and the contact information of an old codeplug with strange characters. I suspect that is no data cleasing in the radio memory.<br>Any suggestions to solve this problem?<br><br>Thank you very much!<br><br>Screenshot_20240929_085257.png</div></blockquote>I don't think qdmr works with opengd77 nowadays, maybe it used to work in some very old versions. <br>I tried that one in Linux and got the same results.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=2867">SA0BUX</a> — Sun Sep 29, 2024 1:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[PU2OZH]]></name></author>
+		<updated>2024-09-29T12:23:43</updated>
+
+		<published>2024-09-29T12:23:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33272#p33272</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33272#p33272"/>
+		<title type="html"><![CDATA[QDMR CPS]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4444&amp;p=33272#p33272"><![CDATA[
+I have been trying to use QDMR with my Baofeng DM1701 for weeks without success.<br>I have installed the latest version of OpenGD CPS, the latest version of OpenDM1701 firmware and version 0.12.0 of QDMR. The problem persists and presents itself in the same way.<br>When I try to download the codeplug from the radio, QDMR displays an error window and the contact information of an old codeplug with strange characters. I suspect that is no data cleasing in the radio memory.<br>Any suggestions to solve this problem?<br><br>Thank you very much!<br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2662&amp;sid=dd04d9a99a8f144ea300c4ff5841fbb7" class="postimage" alt="Screenshot_20240929_085257.png" onclick="viewableArea(this);" /></dt></dl></div><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=6579">PU2OZH</a> — Sun Sep 29, 2024 12:23 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

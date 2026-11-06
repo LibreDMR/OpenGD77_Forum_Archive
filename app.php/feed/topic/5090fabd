@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5090" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-30T08:21:34</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5090</id>
+
+		<entry>
+		<author><name><![CDATA[EB2GXW]]></name></author>
+		<updated>2025-04-30T08:21:34</updated>
+
+		<published>2025-04-30T08:21:34</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36937#p36937</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36937#p36937"/>
+		<title type="html"><![CDATA[Re: Retevis RT3S and new codeplug - problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36937#p36937"><![CDATA[
+Thank you very much, I did just that and it's already loaded. I don't know why I kept insisting on boot mode  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing">  <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_lol.gif" width="15" height="17" alt=":lol:" title="Laughing"> <br>Thanks. I'll keep trying things.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8312">EB2GXW</a> — Wed Apr 30, 2025 8:21 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SP9RZF]]></name></author>
+		<updated>2025-04-29T16:44:32</updated>
+
+		<published>2025-04-29T16:44:32</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36935#p36935</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36935#p36935"/>
+		<title type="html"><![CDATA[Re: Retevis RT3S and new codeplug - problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36935#p36935"><![CDATA[
+You must load codeplug from standard mode (default) not from boot mode. Just plug the cable, do not enter firmware download mode.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=5052">SP9RZF</a> — Tue Apr 29, 2025 4:44 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EB2GXW]]></name></author>
+		<updated>2025-04-29T16:22:14</updated>
+
+		<published>2025-04-29T16:22:14</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36934#p36934</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36934#p36934"/>
+		<title type="html"><![CDATA[Retevis RT3S and new codeplug - problem]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5090&amp;p=36934#p36934"><![CDATA[
+Hi. I installed OpenGD77... a codeplug... on my Retevis RT3S, and everything worked fine. Now I want to change the codeplug. I plug in the cable, turn on the RT3S during boot (red-green LED), start the program on the PC, and load the new codeplug onto the walkie-talkie (which worked fine for me on a Baofeng). I select the port, and it stays there. The program on the PC freezes; in fact, it doesn't even close.<br><br><br>OpenGD77 R2024...<br>RT3S: OpenGD77 Compiled 20240908143155<br><br>Thank's<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8312">EB2GXW</a> — Tue Apr 29, 2025 4:22 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

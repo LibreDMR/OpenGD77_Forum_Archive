@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/2409" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2022-10-16T21:18:28</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/2409</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-16T21:18:28</updated>
+
+		<published>2022-10-16T21:18:28</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20125#p20125</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20125#p20125"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-03-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20125#p20125"><![CDATA[
+New Alpha<br><br><a href="https://www.opengd77.com/viewtopic.php?f=19&amp;t=2425" class="postlink">viewtopic.php?f=19&amp;t=2425</a><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 16, 2022 9:18 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-12T22:52:19</updated>
+
+		<published>2022-10-12T22:52:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20076#p20076</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20076#p20076"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-03-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20076#p20076"><![CDATA[
+<blockquote class="uncited"><div>Retevis RT3S GPS verion<br>2 days test .<br>Test Ok - 2m  and 70cm Repiter and MMDVM Hot spot duplex mode<br><br><br>How use satelite coordinate ?</div></blockquote>Callsign ??<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Wed Oct 12, 2022 10:52 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-09T21:43:36</updated>
+
+		<published>2022-10-09T21:43:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20042#p20042</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20042#p20042"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-03-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20042#p20042"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div><blockquote class="uncited"><div>Hello. <br>During the operation of the new version, I noticed very rare decoding failures and modulation failures. This happened with a long monologue and, possibly, loud modulation from the interlocutor.</div></blockquote>Decoding failures are quite common on DMR, it is not necessarily a problem with the firmware.</div></blockquote>This is not a global DMR failure. At the control station (Anytone D878UV), reception was not interrupted, on rt3s, at the moment of sound loss, the LED showed the presence of reception, S-metr showed a high level of the received signal. Such errors have become much rarer, but they are there.</div></blockquote>Comparisons of the radio to other DMR radios is not valid. <br><br>The Anytone radios do not use the same hardware, and have much bettery noise immunity.<br><br>DMR decode failure does not necessarilty mean a problem with the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 09, 2022 9:43 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-10-09T17:21:30</updated>
+
+		<published>2022-10-09T17:21:30</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20039#p20039</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20039#p20039"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-03-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20039#p20039"><![CDATA[
+<blockquote class="uncited"><div><blockquote class="uncited"><div>Hello. <br>During the operation of the new version, I noticed very rare decoding failures and modulation failures. This happened with a long monologue and, possibly, loud modulation from the interlocutor.</div></blockquote>Decoding failures are quite common on DMR, it is not necessarily a problem with the firmware.</div></blockquote>This is not a global DMR failure. At the control station (Anytone D878UV), reception was not interrupted, on rt3s, at the moment of sound loss, the LED showed the presence of reception, S-metr showed a high level of the received signal. Such errors have become much rarer, but they are there.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Sun Oct 09, 2022 5:21 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-09T09:44:42</updated>
+
+		<published>2022-10-09T09:44:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20032#p20032</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20032#p20032"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-03-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20032#p20032"><![CDATA[
+<blockquote class="uncited"><div>Hello. <br>During the operation of the new version, I noticed very rare decoding failures and modulation failures. This happened with a long monologue and, possibly, loud modulation from the interlocutor.</div></blockquote>Decoding failures are quite common on DMR, it is not necessarily a problem with the firmware.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Oct 09, 2022 9:44 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[EU1AEQ]]></name></author>
+		<updated>2022-10-09T09:38:19</updated>
+
+		<published>2022-10-09T09:38:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20031#p20031</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20031#p20031"/>
+		<title type="html"><![CDATA[Re: ALPHA 2022-10-03-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=20031#p20031"><![CDATA[
+Hello. <br>During the operation of the new version, I noticed very rare decoding failures and modulation failures. This happened with a long monologue and, possibly, loud modulation from the interlocutor.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=1432">EU1AEQ</a> — Sun Oct 09, 2022 9:38 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2022-10-03T04:13:18</updated>
+
+		<published>2022-10-03T04:13:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=2409&amp;p=19975#p19975</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=19975#p19975"/>
+		<title type="html"><![CDATA[ALPHA 2022-10-03-01]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=2409&amp;p=19975#p19975"><![CDATA[
+A new Alpha version is now available<br><br><a href="https://www.opengd77.com/downloads/MDUV380/Firmware/745233bd3320a5d9a528a3f453998e72437be456" class="postlink">downloads/MDUV380/Firmware/745233bd3320 ... 72437be456</a><br><br>The following things should be fixed<br><br>* DMR Rx dropout<br>* DTMF transmit from contacts list<br><br>This version also has better power saving on Eco modes greater than 1.<br><br>Note.<br>The changes to the power saving have an effect on when the USB can be connected to the radio.<br>Please turn off the radio before connecting the USB cable. The turn the radio on again, and the USB and CPS should work OK.<br><br>BTW.<br><br>I've noticed the USB hardware on these radios seems to suffer from RFI pickup on the USB cable.<br>For example, if I turn on a flourescent lamp in my shack, I hear my PC beep to indicate a USB device has disconnected and then reconnected.<br><br>This was happening even before the power saving changes, so I think the USB hardware in these radio seems to be less robust than in the GD77, or the MD9600<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Mon Oct 03, 2022 4:13 am</p><hr />
+]]></content>
+	</entry>
+	</feed>

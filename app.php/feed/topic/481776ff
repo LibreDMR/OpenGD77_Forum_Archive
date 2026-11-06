@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4817" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-01-28T18:12:21</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4817</id>
+
+		<entry>
+		<author><name><![CDATA[SQ9KCU]]></name></author>
+		<updated>2025-01-28T18:12:21</updated>
+
+		<published>2025-01-28T18:12:21</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35437#p35437</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35437#p35437"/>
+		<title type="html"><![CDATA[Re: Display cS1 - small bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35437#p35437"><![CDATA[
+I checked. Disabling override enables TS.<br>So the error has been corrected and now works correctly.<br>I am reporting the fix of an old bug;)<br>Thanks for the explanation.<br><br>`73<br>SP9KCU<br>old callsign SQ9KCU<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4433">SQ9KCU</a> — Tue Jan 28, 2025 6:12 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-28T17:49:46</updated>
+
+		<published>2025-01-28T17:49:46</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35435#p35435</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35435#p35435"/>
+		<title type="html"><![CDATA[Re: Display cS1 - small bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35435#p35435"><![CDATA[
+Yes, but that was a bug introduced long ago, it was never intended to work like this, only the bold font is managed by the Info's Display options.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jan 28, 2025 5:49 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ9KCU]]></name></author>
+		<updated>2025-01-28T17:36:59</updated>
+
+		<published>2025-01-28T17:36:59</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35434#p35434</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35434#p35434"/>
+		<title type="html"><![CDATA[Re: Display cS1 - small bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35434#p35434"><![CDATA[
+Has the behavior changed since version 20241215?<br>In version 20241215 with the same codeplug it displays TS1, not cS1.<br>cS1 displays when the TS item is enabled in display option/info.<br><br>`73<br>SP9KCU<br>old callsign SQ9KCU<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4433">SQ9KCU</a> — Tue Jan 28, 2025 5:36 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[F1RMB]]></name></author>
+		<updated>2025-01-28T17:00:43</updated>
+
+		<published>2025-01-28T17:00:43</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35431#p35431</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35431#p35431"/>
+		<title type="html"><![CDATA[Re: Display cS1 - small bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35431#p35431"><![CDATA[
+It's not a bug, it's a normal behavior. <br>Once you define a contact override, it's now displayed.<br><br>Display info will use the bold font when a manual override is set (using the <strong class="text-strong">*</strong> key).<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=56">F1RMB</a> — Tue Jan 28, 2025 5:00 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[SQ9KCU]]></name></author>
+		<updated>2025-01-28T16:52:38</updated>
+
+		<published>2025-01-28T16:52:38</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35430#p35430</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35430#p35430"/>
+		<title type="html"><![CDATA[Display cS1 - small bug]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4817&amp;p=35430#p35430"><![CDATA[
+Hello!<br><br>I found a small bug. <br>The TS tag is displayed as cS despite setting "display options/info" to off. <br>Resetting the radio or changing the TS/PWR/BOTH info does not work.<br><span style="text-decoration:line-through"></span><br><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2834&amp;sid=506eebc9df041219c2f61e2f6e5474d7" class="postimage" alt="1.png" onclick="viewableArea(this);" /></dt></dl></div><div class="inline-attachment"><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=2835&amp;sid=506eebc9df041219c2f61e2f6e5474d7" class="postimage" alt="2.png" onclick="viewableArea(this);" /></dt></dl></div>Very good job!<br><br>`73<br>SP9KCU<br>old SQ9KCU tag<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=4433">SQ9KCU</a> — Tue Jan 28, 2025 4:52 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

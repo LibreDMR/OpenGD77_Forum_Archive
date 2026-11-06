@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/5046" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2025-04-09T10:36:18</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/5046</id>
+
+		<entry>
+		<author><name><![CDATA[IU2KUR]]></name></author>
+		<updated>2025-04-09T10:36:18</updated>
+
+		<published>2025-04-09T10:36:18</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36675#p36675</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36675#p36675"/>
+		<title type="html"><![CDATA[Re: Integrate more than two languages | DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36675#p36675"><![CDATA[
+Crystal clear, thanks a lot for the technical explanation.<br>I'll keep only english and italian, I don't want to modify the firmware or to lose some functionalities only to store additional languages.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8431">IU2KUR</a> — Wed Apr 09, 2025 10:36 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2025-04-08T22:16:35</updated>
+
+		<published>2025-04-08T22:16:35</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36664#p36664</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36664#p36664"/>
+		<title type="html"><![CDATA[Re: Integrate more than two languages | DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36664#p36664"><![CDATA[
+<blockquote class="uncited"><div>Hi,<br>I want to have 3 supported languages on my DM1701.<br>Starting from the latest source available, I modified the code and added italian and spanish languages.<br><br><strong class="text-strong">Problem:</strong><br>The languages (english, italian, spanish) are seen in the menu, but only english and italian are actually working.<br>If I select spanish, i'll get italian translation instead.<br><br>Any cue?<br>Thanks and 73,<br>Michele</div></blockquote>The program memory in the radio only has space for English + One Other Language<br><br>You select the Other language when you install the firmware<br><br><br>Originally the firmware stored multiple languages, but this consumed too much program memory and prevented new features like Satellite Mode and APRS etc being added.<br><br>Hence we had to change things so that the firmware only stored English + One other Language.<br><br>Note if you install the Japanese version, it is only English + Japanese, because this is a special version with a different font and other changes specifically to handle the nuiances of the Japanese language<br><br>Of course you can modify the firmware source code to suit your needs, but depending on which radio you have, there may not be enough program memory for the firmware to compile , if you revert back to the old method.<br><br>You can also of course make some more complex changes to the firmware to read languages from the Flash memory, but you would then loose some other functionality which uses the Flash memory and you would also need to write your own language loader to put that data into the Flash memory<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Tue Apr 08, 2025 10:16 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[IU2KUR]]></name></author>
+		<updated>2025-04-08T21:00:20</updated>
+
+		<published>2025-04-08T21:00:20</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36663#p36663</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36663#p36663"/>
+		<title type="html"><![CDATA[Integrate more than two languages | DM1701]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=5046&amp;p=36663#p36663"><![CDATA[
+Hi,<br>I want to have 3 supported languages on my DM1701.<br>Starting from the latest source available, I modified the code and added italian and spanish languages.<br><br><strong class="text-strong">Problem:</strong><br>The languages (english, italian, spanish) are seen in the menu, but only english and italian are actually working.<br>If I select spanish, i'll get italian translation instead.<br><br>Any cue?<br>Thanks and 73,<br>Michele<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=8431">IU2KUR</a> — Tue Apr 08, 2025 9:00 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/156" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2019-11-24T04:01:53</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/156</id>
+
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T04:01:53</updated>
+
+		<published>2019-11-24T04:01:53</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=675#p675</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=675#p675"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=675#p675"><![CDATA[
+OK.<br><br>I didn't think there were any backwards compatibility issues with the changes, but I was probably wrong <img class="smilies" src="http://localhost/opengd77/images/smilies/icon_e_wink.gif" width="15" height="17" alt=";-)" title="Wink"><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 4:01 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-24T01:42:36</updated>
+
+		<published>2019-11-24T01:42:36</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=671#p671</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=671#p671"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=671#p671"><![CDATA[
+I will download the CPS from the gubhub, that is the one I had, it shows 19 hours old but I will get it again and try it<br>downloaded again, loaded on computer and seems to be working ok now<br>I think this issues seems to be addressed now, thank you<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sun Nov 24, 2019 1:42 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-24T01:29:33</updated>
+
+		<published>2019-11-24T01:29:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=666#p666</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=666#p666"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=666#p666"><![CDATA[
+Firmware and CPS have changed, but I thought old and new should be compatible<br><br>All latest files are now on Github (both CPS and firmware)<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sun Nov 24, 2019 1:29 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-24T01:19:48</updated>
+
+		<published>2019-11-24T01:19:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=664#p664</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=664#p664"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=664#p664"><![CDATA[
+ok have the latest firmware and think I have the latest CPS if it is the version from <a href="https://drive.google.com/file" class="postlink">https://drive.google.com/file</a>?<br>anyway all is back now to normal with being able to load the cps file from the CPS, I have the latest firmware on the radio and was able to load the code plug. waiting for some activity now on the repeater, I will do more with the CPS but it looks like the problem has been solved, not sure if it was something you changed in the firmware or CPS?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sun Nov 24, 2019 1:19 am</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T23:40:42</updated>
+
+		<published>2019-11-23T23:40:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=656#p656</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=656#p656"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=656#p656"><![CDATA[
+Try downloading the new Latest again and also make sure you download the CPS again as I updated it slightly<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 11:40 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T23:37:33</updated>
+
+		<published>2019-11-23T23:37:33</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=655#p655</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=655#p655"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=655#p655"><![CDATA[
+I just did a test and uploaded and downloaded the codeplug and backed up everything and it was all OK.<br><br>Also the Calibration screen does read and write OK, but I am running newer firmware so there could be some miss-match<br><br>I was waiting to release until I'd fixed some problems in the scanning, but I'll release a new Latest version with Colins changes, and I'll make the other changes later<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 11:37 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-23T23:34:55</updated>
+
+		<published>2019-11-23T23:34:55</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=653#p653</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=653#p653"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=653#p653"><![CDATA[
+Could be or I did still trying to check it out<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 23, 2019 11:34 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T23:23:19</updated>
+
+		<published>2019-11-23T23:23:19</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=649#p649</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=649#p649"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=649#p649"><![CDATA[
+Hi Ken<br><br>Oops<br><br>Looks like I screwed up something in the CPS or the firmware.<br><br>I'll investigate<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 11:23 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-23T22:09:42</updated>
+
+		<published>2019-11-23T22:09:42</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=642#p642</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=642#p642"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=642#p642"><![CDATA[
+Ok, I loaded the CPS you had on gubhub (in the zipped file) that is dated 11/12/2019 and that does let me load my cps file into the radio. I also went back to a older firmware version 11/12/2019 to see how that will work with the TG issue, I am waiting for some traffic to come on the repeater now.<br>I did go back the most current version of the CPS with the older firmware loaded and it still will not let me download nor upload cps files.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 23, 2019 10:09 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-23T21:06:17</updated>
+
+		<published>2019-11-23T21:06:17</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=636#p636</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=636#p636"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=636#p636"><![CDATA[
+No, I will try that<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 23, 2019 9:06 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T20:41:41</updated>
+
+		<published>2019-11-23T20:41:41</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=632#p632</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=632#p632"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=632#p632"><![CDATA[
+Did you try going back to an older OpenGD77 firmware?<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 8:41 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-23T19:47:04</updated>
+
+		<published>2019-11-23T19:47:04</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=628#p628</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=628#p628"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=628#p628"><![CDATA[
+Yes I did. The cps works ok to load the factory firmware and factory code plug to the radio. It also works on my second radio with your firmware. I reloaded the firmware a numer of times shutting down each time. I did a factory reset.<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 23, 2019 7:47 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[VK3KYY]]></name></author>
+		<updated>2019-11-23T19:25:52</updated>
+
+		<published>2019-11-23T19:25:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=619#p619</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=619#p619"/>
+		<title type="html"><![CDATA[Re: Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=619#p619"><![CDATA[
+Strange <br><br>Did you try closing the cps and disconnecting and reconnecting the USB, or rebooting your PC and the GD77 etc<br><br>Windows gets very confused if a Com port is interrupted in any way, while it has the port open<p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=50">VK3KYY</a> — Sat Nov 23, 2019 7:25 pm</p><hr />
+]]></content>
+	</entry>
+		<entry>
+		<author><name><![CDATA[KU4ZD]]></name></author>
+		<updated>2019-11-23T18:39:52</updated>
+
+		<published>2019-11-23T18:39:52</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=156&amp;p=612#p612</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=156&amp;p=612#p612"/>
+		<title type="html"><![CDATA[Issue with calibration]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=156&amp;p=612#p612"><![CDATA[
+I messed something up with my calibration in the CPS. I made a change and save the back up files. After I did I tried to program the radio and I am getting this message. "The !/O operation has been aborted because of either a thread exit or an application request". I am not able to program the radio. I did have a old back up file (calibration) that I tried to load but got a message it was the wrong size. I have also tried a factory reset. What esle can I do? I tried to load the factory software and it loads and works fine, code plugs load and work fine with that.<dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=29&amp;sid=fd422198a8be3b1bc9ff04a7264a466b" class="postimage" alt="Untitled.jpg" onclick="viewableArea(this);" /></dt></dl><br /><dl class="file"><dt class="attach-image"><img src="http://localhost/opengd77/download/file.php?id=28&amp;sid=fd422198a8be3b1bc9ff04a7264a466b" class="postimage" alt="1.jpg" onclick="viewableArea(this);" /></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=107">KU4ZD</a> — Sat Nov 23, 2019 6:39 pm</p><hr />
+]]></content>
+	</entry>
+	</feed>

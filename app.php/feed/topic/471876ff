@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en-gb">
+	<link rel="self" type="application/atom+xml" href="http://localhost/opengd77/app.php/feed/topic/4718" />
+
+	<title>OpenGD77</title>
+	<subtitle>Amateur radio firmware for the GD-77, GD-77S, DM-1801, DM-1801A, RD-5R, MD-9600/RT-90, MD-UV380/RT-3S, DM-1701/RT-84 and MD2017/RT-82 radios</subtitle>
+	<link href="http://localhost/opengd77/index.php" />
+	<updated>2024-12-30T09:46:48</updated>
+
+	<author><name><![CDATA[OpenGD77]]></name></author>
+	<id>http://localhost/opengd77/app.php/feed/topic/4718</id>
+
+		<entry>
+		<author><name><![CDATA[DM5UE]]></name></author>
+		<updated>2024-12-30T09:46:48</updated>
+
+		<published>2024-12-30T09:46:48</published>
+		<id>http://localhost/opengd77/viewtopic.php?t=4718&amp;p=34952#p34952</id>
+		<link href="http://localhost/opengd77/viewtopic.php?t=4718&amp;p=34952#p34952"/>
+		<title type="html"><![CDATA[Codeplug for DL around JO52 (80 DMR and FM channels)]]></title>
+
+		
+		<content type="html" xml:base="http://localhost/opengd77/viewtopic.php?t=4718&amp;p=34952#p34952"><![CDATA[
+Hi all,<br><br>my under contruction codeplug here with about 80 DMR and FM channels around JO52 and TG list.<br>Also included custom display settings for day and night mode.<br>73s and happy new year<br>Uwe, DM5UE<dl class="file"><dt><span class="imageset icon_topic_attach"></span> <a class="postlink" href="http://localhost/opengd77/download/file.php?id=2802&amp;sid=fa7c21921a57ab6002748cf89171c641">openGD77_2024-12-30.g77</a></dt></dl><p>Statistics: Posted by <a href="http://localhost/opengd77/memberlist.php?mode=viewprofile&amp;u=7463">DM5UE</a> — Mon Dec 30, 2024 9:46 am</p><hr />
+]]></content>
+	</entry>
+	</feed>
